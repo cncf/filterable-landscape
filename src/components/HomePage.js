@@ -18,7 +18,7 @@ const HomePage = () => {
           <FormLabel component="legend">Filter Kind 1</FormLabel>
           <FormGroup>
             <FormControlLabel control={ <Checkbox /> } label="CNCF Member" />
-            <FormControlLabel control={ <Checkbox /> } label="CNCF Hosted" />
+            <FormControlLabel control={ <Checkbox /> } label="CNCF Hosted Project" />
             <FormControlLabel control={ <Checkbox /> } label="Commercial Product" />
             <FormControlLabel control={ <Checkbox /> } label="Open Source" />
           </FormGroup>
@@ -114,7 +114,7 @@ const HomePage = () => {
 
       <FormGroup row>
         <FormControl component="fieldset">
-          <FormLabel component="legend">LandScape Section</FormLabel>
+          <FormLabel component="legend">Landscape Section</FormLabel>
             <RadioGroup name="stars" >
               <FormControlLabel value="any" control={<Radio />} label="any" />
               <FormControlLabel value="male" control={<Radio />} label="logging" />
