@@ -14,3 +14,5 @@ Current [specification](https://docs.google.com/document/d/1QPVrXRjTWDQAwsbgSWut
 # building a dist
    1) yarn
    2) yarn build
+or with npm
+   1) npm run build
