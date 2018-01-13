@@ -3,7 +3,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Switch, Route } from 'react-router-dom';
 
-import HomePage from './HomePage';
+import HomePageContainer from './HomePageContainer';
 import NotFoundPage from './NotFoundPage';
 
 // This is a class-based component because the current
@@ -15,7 +15,7 @@ class App extends React.Component {
     return (
       <div>
         <Switch>
-          <Route exact path="/" component={HomePage} />
+          <Route exact path="/" component={HomePageContainer} />
           <Route component={NotFoundPage} />
         </Switch>
       </div>

@@ -7,7 +7,10 @@ import Grid from 'material-ui/Grid';
 
 
 
-const HomePage = () => {
+const HomePage = ({hasData}) => {
+  if (!hasData) {
+    return <h1>Loading data... </h1>;
+  }
   return (
     <div>
       <Grid container spacing={24}>
