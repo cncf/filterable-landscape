@@ -31,9 +31,21 @@ const getItems = createSelector(
     return items;
   }
 );
+const getFilteredItems = getItems;
+
+const getSortedItems = createSelector(
+  (state) => getFilteredItems(state),
+  (state) => state.main.sortField,
+  (state) => state.main.sortDirection,
+  function(data, sortField, sortDirection) {
+    return _.orderBy(data, function(x) {
+      return x[sortField];
+    },sortDirection);
+  }
+);
 
 const getGroupedItems = createSelector(
-  (state) => getItems(state),
+  (state) => getSortedItems(state),
   function(items) {
     return _.groupBy(items, function(item) {
       return item.landscape;
