@@ -10,7 +10,8 @@ import StarsFilterContainer from './StarsFilterContainer';
 import CertifiedKubernetesFilterContainer from './CertifiedKubernetesFilterContainer'
 import LicenseFilterContainer from './LicenseFilterContainer';
 import MarketCapFilterContainer from './MarketCapFilterContainer';
-
+import VCFunderFilterContainer from './VCFunderFilterContainer';
+import CompanyFilterContainer from './CompanyFilterContainer';
 const Filters = () => {
   return <div>
       <FormGroup row>
@@ -51,24 +52,14 @@ const Filters = () => {
       <FormGroup row>
         <FormControl component="fieldset">
           <FormLabel component="legend">VC Funders</FormLabel>
-          <Select value={[]} multiple input={<Input name="age" id="age-simple" />} >
-            <MenuItem value=""> Funder 1 </MenuItem>
-            <MenuItem value={10}>Funder 2</MenuItem>
-            <MenuItem value={20}>Funder 3</MenuItem>
-            <MenuItem value={30}>Funder 4</MenuItem>
-          </Select>
+          <VCFunderFilterContainer />
         </FormControl>
       </FormGroup>
 
       <FormGroup row>
         <FormControl component="fieldset">
           <FormLabel component="legend">Company</FormLabel>
-          <Select value={[]} multiple input={<Input name="age" id="age-simple" />} >
-            <MenuItem value="">Apple</MenuItem>
-            <MenuItem value={10}>M$</MenuItem>
-            <MenuItem value={20}>Linux Foundation</MenuItem>
-            <MenuItem value={30}>IBM</MenuItem>
-          </Select>
+          <CompanyFilterContainer />
         </FormControl>
       </FormGroup>
 

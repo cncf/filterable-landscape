@@ -11,7 +11,9 @@ const initialState = {
     stars: null,
     certifiedKubernetes: 'platform',
     license: null,
-    marketCap: null
+    marketCap: null,
+    vcFunder: [],
+    company: []
   }
 };
 // thunk
