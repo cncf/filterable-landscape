@@ -16,7 +16,16 @@ const getItems = createSelector(
         }).map(function(p) {
           return p.node.name;
         });
-        items.push({...node, path: parts.join(' / '), landscape: parts[0]});
+        items.push({...node,
+          path: parts.join(' / '),
+          landscape: parts[0],
+          stars: _.random(10000),
+          certifiedKubernetes: _.sample(['platform', 'distribution', 'platformOrDistribution', 'notCertified']),
+          license: _.sample(['gpl-v2', 'gpl-v3', 'mit', 'apache', 'commercial']),
+          marketCap: _.random(1000),
+          vcFunder: _.sample(['ycombinator', 'other1', 'other2', 'other3']),
+          headquaters: _.sample(['NY', 'San Francisco', 'West Palm Beacch'])
+        });
       }
     });
     return items;

@@ -7,15 +7,15 @@ import _ from 'lodash';
 const MainContent = ({groupedItems}) => {
   const itemsAndHeaders = _.map(groupedItems, function(value, key) {
     return [
-      <GridListTile key="Subheader" cols={2} style={{ height: 'auto' }}>
-          <Subheader component="div">{key}</Subheader>
+      <GridListTile key="Subheader" cols={4} style={{ height: 80 }}>
+          <Subheader component="div" style={{fontSize: 24}}>{key} ({value.length})</Subheader>
       </GridListTile>
     ].concat(_.map(value, function(item) {
       return <GridListTile key={item.name}>
             <img src={item.raw_logo} alt={item.name} />
             <GridListTileBar
               title={item.name}
-              subtitle={<span>company: {item.company}</span>}
+              subtitle={<div><span>company: {item.company}</span> | <span>stars: {item.stars}</span></div>}
             />
           </GridListTile>
     }));
