@@ -15,7 +15,7 @@ const MainContent = ({groupedItems}) => {
             <img src={item.raw_logo} alt={item.name} />
             <GridListTileBar
               title={item.name}
-              subtitle={<div><span>company: {item.company}</span> | <span>stars: {item.stars}</span></div>}
+              subtitle={<div><span>company: {item.company} (${item.marketCap}M)</span> | <span>stars: {item.stars}</span></div>}
             />
           </GridListTile>
     }));
