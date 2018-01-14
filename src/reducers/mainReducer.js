@@ -13,8 +13,11 @@ const initialState = {
     license: null,
     marketCap: null,
     vcFunder: [],
-    company: []
-  }
+    company: [],
+    headquaters: null,
+    landscape: null
+  },
+  grouping: 'kind'
 };
 // thunk
 export function loadMainData() {
@@ -30,6 +33,12 @@ export function changeFilter(name, value) {
   }
 }
 
+export function changeGrouping(value) {
+  return function(dispatch) {
+    return dispatch(setGrouping(value));
+  }
+}
+
 function setData(data) {
   return {
     type: 'Main/SetData',
@@ -42,7 +51,13 @@ function setFilter(name, value) {
     type: 'Main/SetFilter',
     name: name,
     value: value
-  }
+  };
+}
+function setGrouping(value) {
+  return {
+    type: 'Main/SetGrouping',
+    value: value
+  };
 }
 
 function setDataHandler(state, action) {
@@ -51,6 +66,9 @@ function setDataHandler(state, action) {
 function setFilterHandler(state, action) {
   return { ...state, filters: {...state.filters, [action.name] : action.value } };
 }
+function setGroupingHandler(state, action) {
+  return {...state, grouping: action.value };
+}
 
 function reducer(state = initialState, action) {
   switch(action.type) {
@@ -58,6 +76,8 @@ function reducer(state = initialState, action) {
       return setDataHandler(state, action);
     case 'Main/SetFilter':
       return setFilterHandler(state, action);
+    case 'Main/SetGrouping':
+      return setGroupingHandler(state, action);
     default:
       return state;
   }

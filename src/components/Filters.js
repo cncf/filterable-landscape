@@ -1,9 +1,5 @@
 import React from 'react';
-import { FormGroup, FormControl, FormControlLabel, FormLabel } from 'material-ui/Form';
-import Select from 'material-ui/Select';
-import Radio, { RadioGroup } from 'material-ui/Radio';
-import Input  from 'material-ui/Input';
-import { MenuItem } from 'material-ui/Menu';
+import { FormGroup, FormControl, FormLabel } from 'material-ui/Form';
 
 import KindFilterContainer from './KindFilterContainer';
 import StarsFilterContainer from './StarsFilterContainer';
@@ -12,6 +8,8 @@ import LicenseFilterContainer from './LicenseFilterContainer';
 import MarketCapFilterContainer from './MarketCapFilterContainer';
 import VCFunderFilterContainer from './VCFunderFilterContainer';
 import CompanyFilterContainer from './CompanyFilterContainer';
+import HeadquatersFilterContainer from './HeadquatersFilterContainer';
+import LandscapeFilterContainer from './LandscapeFilterContainer';
 const Filters = () => {
   return <div>
       <FormGroup row>
@@ -66,23 +64,14 @@ const Filters = () => {
       <FormGroup row>
         <FormControl component="fieldset">
           <FormLabel component="legend">Headquaters Location</FormLabel>
-          <Select value="" input={<Input name="age" id="age-simple" />} >
-            <MenuItem value="">NY</MenuItem>
-            <MenuItem value={10}>San FranciscoM$</MenuItem>
-            <MenuItem value={20}>Chicago</MenuItem>
-            <MenuItem value={30}>Denver</MenuItem>
-          </Select>
+          <HeadquatersFilterContainer />
         </FormControl>
       </FormGroup>
 
       <FormGroup row>
         <FormControl component="fieldset">
           <FormLabel component="legend">Landscape Section</FormLabel>
-            <RadioGroup name="stars" >
-              <FormControlLabel value="any" control={<Radio />} label="any" />
-              <FormControlLabel value="male" control={<Radio />} label="logging" />
-              <FormControlLabel value="female" control={<Radio />} label="monitoring" />
-            </RadioGroup>
+          <LandscapeFilterContainer/>
         </FormControl>
       </FormGroup>
     </div>;

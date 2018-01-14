@@ -1,9 +1,12 @@
 import React from 'react';
+import Grid from 'material-ui/Grid';
+
 import Filters from './Filters';
 import Grouping from './Grouping';
 import Sorting from './Sorting';
 import MainContent from './MainContent';
-import Grid from 'material-ui/Grid';
+import LeftPanelInfoContainer from './LeftPanelInfoContainer';
+
 
 
 
@@ -20,6 +23,7 @@ const HomePage = ({hasData}) => {
           <Sorting/>
         </Grid>
         <Grid item xs={9} sm={9}>
+          <LeftPanelInfoContainer />
           <h1> Summary Placeholder </h1>
           <h1> Available Presets Placeholder</h1>
           <MainContent/>
