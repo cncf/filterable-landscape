@@ -4,10 +4,8 @@ import Grid from 'material-ui/Grid';
 import Filters from './Filters';
 import Grouping from './Grouping';
 import Sorting from './Sorting';
-import MainContent from './MainContent';
+import MainContentContainer from './MainContentContainer';
 import LeftPanelInfoContainer from './LeftPanelInfoContainer';
-
-
 
 
 const HomePage = ({hasData}) => {
@@ -26,7 +24,7 @@ const HomePage = ({hasData}) => {
           <LeftPanelInfoContainer />
           <h1> Summary Placeholder </h1>
           <h1> Available Presets Placeholder</h1>
-          <MainContent/>
+          <MainContentContainer/>
         </Grid>
       </Grid>
     </div>
