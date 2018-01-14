@@ -17,7 +17,9 @@ const initialState = {
     headquaters: null,
     landscape: null
   },
-  grouping: 'kind'
+  grouping: 'kind',
+  sortField: 'name',
+  sortDirection: 'asc'
 };
 // thunk
 export function loadMainData() {
@@ -36,6 +38,16 @@ export function changeFilter(name, value) {
 export function changeGrouping(value) {
   return function(dispatch) {
     return dispatch(setGrouping(value));
+  }
+}
+export function changeSortField(value) {
+  return function(dispatch) {
+    return dispatch(setSortField(value));
+  }
+}
+export function changeSortDirection(value) {
+  return function(dispatch) {
+    return dispatch(setSortDirection(value));
   }
 }
 
@@ -59,6 +71,18 @@ function setGrouping(value) {
     value: value
   };
 }
+function setSortField(value) {
+  return {
+    type: 'Main/SetSortField',
+    value: value
+  };
+}
+function setSortDirection(value) {
+  return {
+    type: 'Main/SetSortDirection',
+    value: value
+  };
+}
 
 function setDataHandler(state, action) {
   return { ...state, data: action.data };
@@ -69,6 +93,12 @@ function setFilterHandler(state, action) {
 function setGroupingHandler(state, action) {
   return {...state, grouping: action.value };
 }
+function setSortFieldHandler(state, action) {
+  return {...state, sortField: action.value };
+}
+function setSortDirectionHandler(state, action) {
+  return {...state, sortDirection: action.value };
+}
 
 function reducer(state = initialState, action) {
   switch(action.type) {
@@ -78,6 +108,10 @@ function reducer(state = initialState, action) {
       return setFilterHandler(state, action);
     case 'Main/SetGrouping':
       return setGroupingHandler(state, action);
+    case 'Main/SetSortField':
+      return setSortFieldHandler(state, action);
+    case 'Main/SetSortDirection':
+      return setSortDirectionHandler(state, action);
     default:
       return state;
   }
