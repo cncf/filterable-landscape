@@ -6,7 +6,9 @@
 const initialState = {
   data: null,
   filters: {
-    kind: ['cncfMember']
+    kind: ['cncfMember'],
+    stars: null,
+    certifiedKubernetes: 'platform'
   }
 };
 // thunk

@@ -6,6 +6,8 @@ import Input  from 'material-ui/Input';
 import { MenuItem } from 'material-ui/Menu';
 
 import KindFilterContainer from './KindFilterContainer';
+import StarsFilterContainer from './StarsFilterContainer';
+import CertifiedKubernetesFilterContainer from './CertifiedKubernetesFilterContainer'
 
 const Filters = () => {
   return <div>
@@ -19,25 +21,14 @@ const Filters = () => {
       <FormGroup row>
         <FormControl component="fieldset">
           <FormLabel component="legend">Stars</FormLabel>
-            <RadioGroup name="stars" >
-              <FormControlLabel value="any" control={<Radio />} label="any" />
-              <FormControlLabel value="male" control={<Radio />} label="1-100" />
-              <FormControlLabel value="female" control={<Radio />} label="100-1000" />
-              <FormControlLabel value="other" control={<Radio />} label="1000-10000" />
-              <FormControlLabel value="disabled"  control={<Radio />} label="10000+" />
-            </RadioGroup>
+          <StarsFilterContainer/>
         </FormControl>
       </FormGroup>
 
       <FormGroup row>
         <FormControl component="fieldset">
           <FormLabel component="legend">Certified Kubernetes</FormLabel>
-            <RadioGroup name="stars" >
-              <FormControlLabel value="any" control={<Radio />} label="platform" />
-              <FormControlLabel value="male" control={<Radio />} label="distribution" />
-              <FormControlLabel value="female" control={<Radio />} label="platform or distribution" />
-              <FormControlLabel value="other" control={<Radio />} label="not certified" />
-            </RadioGroup>
+          <CertifiedKubernetesFilterContainer/>
         </FormControl>
       </FormGroup>
 
