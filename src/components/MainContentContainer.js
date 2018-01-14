@@ -32,7 +32,47 @@ const getItems = createSelector(
     return items;
   }
 );
-const getFilteredItems = getItems;
+const getFilteredItems = createSelector(
+  (state) => getItems(state),
+  (state) => state.main.filters,
+  function(data, filters) {
+    var filterByKindCnCf = function(x) {
+      var filterCncfMember  = filters.kind.indexOf('cncfMember') !== -1;
+      var filterCncfHostedProject = filters.kind.indexOf('cncfHostedProject') !== -1
+      if (!filterCncfMember && !filterCncfHostedProject) {
+        return true;
+      }
+      if (filterCncfMember && filterCncfHostedProject) {
+        return true;
+      }
+      if (filterCncfMember) {
+        return x.cncf === true;
+      }
+      if (filterCncfHostedProject) {
+        return x.cncf === false;
+      }
+    }
+    var filterByKindOss = function(x) {
+      var filterOss  = filters.kind.indexOf('opensource') !== -1;
+      var filterCommercial = filters.kind.indexOf('commercial') !== -1
+      if (!filterOss && !filterCommercial) {
+        return true;
+      }
+      if (filterOss && filterCommercial) {
+        return true;
+      }
+      if (filterOss) {
+        return x.oss === true;
+      }
+      if (filterCommercial) {
+        return x.oss === false;
+      }
+    }
+    return data.filter(function(x) {
+      return filterByKindCnCf(x) && filterByKindOss(x);
+    });
+  }
+);
 
 const getSortedItems = createSelector(
   (state) => getFilteredItems(state),
