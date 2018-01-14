@@ -6,7 +6,7 @@ const options = [{
   id: 'kind',
   label: 'Kind'
 }, {
-  id: 'stars',
+  id: 'starsCategory',
   label: 'Number of stars'
 }, {
   id: 'certifiedKubernetes',

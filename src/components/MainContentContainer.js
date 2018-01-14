@@ -19,7 +19,7 @@ const getItems = createSelector(
         items.push({...node,
           path: parts.join(' / '),
           landscape: parts[0],
-          stars: _.random(10000),
+          stars: _.random(12000),
           certifiedKubernetes: _.sample(['platform', 'distribution', 'platformOrDistribution', 'notCertified']),
           license: _.sample(['gpl-v2', 'gpl-v3', 'mit', 'apache', 'commercial']),
           marketCap: _.random(1000),
@@ -29,7 +29,11 @@ const getItems = createSelector(
         });
       }
     });
-    return items;
+    return items.map(function(item) {
+      return {...item,
+        starsCategory: item.stars < 100 ? '1-100' : item.stars < 1000 ? '100-1000' : item.stars < 10000 ? '1000-10000' : '10000+'
+      }
+    });
   }
 );
 const getFilteredItems = createSelector(
@@ -68,8 +72,20 @@ const getFilteredItems = createSelector(
         return x.oss === false;
       }
     }
+    var filterByStars = function(x) {
+      if (!filters.stars) {
+        return true;
+      }
+      return x.starsCategory === filters.stars;
+    }
+    var filterByCertifiedKubernetes = function(x) {
+      if (!filters.certifiedKubernetes) {
+        return true;
+      }
+      return x.certifiedKubernetes === filters.certifiedKubernetes;
+    }
     return data.filter(function(x) {
-      return filterByKindCnCf(x) && filterByKindOss(x);
+      return filterByKindCnCf(x) && filterByKindOss(x) && filterByStars(x) && filterByCertifiedKubernetes(x);
     });
   }
 );
