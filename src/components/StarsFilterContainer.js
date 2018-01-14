@@ -1,5 +1,5 @@
 import { connect } from 'react-redux';
-import RadioSelector from './RadioSelector';
+import ComboboxSelector from './ComboboxSelector';
 import { changeFilter } from '../reducers/mainReducer.js';
 
 const options = [{
@@ -30,4 +30,4 @@ const mapDispatchToProps = {
   onChange: onChange
 };
 
-export default connect(mapStateToProps, mapDispatchToProps)(RadioSelector);
+export default connect(mapStateToProps, mapDispatchToProps)(ComboboxSelector);
