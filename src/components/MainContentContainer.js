@@ -24,7 +24,8 @@ const getItems = createSelector(
           license: _.sample(['gpl-v2', 'gpl-v3', 'mit', 'apache', 'commercial']),
           marketCap: _.random(1000),
           vcFunder: _.sample(['ycombinator', 'other1', 'other2', 'other3']),
-          headquaters: _.sample(['NY', 'San Francisco', 'West Palm Beacch'])
+          headquaters: _.sample(['NY', 'San Francisco', 'West Palm Beacch']),
+          kind: (node.oss? 'Open Source' : 'Commercial') + ', ' + (node.cncf ? 'CNCF Member': 'CNCF Hosted Project')
         });
       }
     });
@@ -46,9 +47,10 @@ const getSortedItems = createSelector(
 
 const getGroupedItems = createSelector(
   (state) => getSortedItems(state),
-  function(items) {
+  (state) => state.main.grouping,
+  function(items, grouping) {
     return _.groupBy(items, function(item) {
-      return item.landscape;
+      return item[grouping];
     });
   }
 );
