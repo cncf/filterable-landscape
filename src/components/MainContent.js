@@ -21,7 +21,7 @@ const MainContent = ({groupedItems}) => {
     }));
   });
   return (
-      <GridList cellHeight={180}>
+      <GridList cols={4} spacing={16} cellHeight={180}>
       { _.flatten(itemsAndHeaders) }
     </GridList>
   );
