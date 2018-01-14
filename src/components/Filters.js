@@ -36,7 +36,7 @@ const Filters = () => {
       <FormGroup row>
         <FormControl component="fieldset">
           <FormLabel component="legend">License</FormLabel>
-          <LicenseFilterContainer width={200}/>
+          <LicenseFilterContainer />
         </FormControl>
       </FormGroup>
 

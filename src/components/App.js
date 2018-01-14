@@ -1,6 +1,7 @@
 /* eslint-disable import/no-named-as-default */
 import React from 'react';
 import PropTypes from 'prop-types';
+import Reboot from 'material-ui/Reboot';
 import { Switch, Route } from 'react-router-dom';
 
 import HomePageContainer from './HomePageContainer';
@@ -14,6 +15,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
+        <Reboot />
         <Switch>
           <Route exact path="/" component={HomePageContainer} />
           <Route component={NotFoundPage} />
