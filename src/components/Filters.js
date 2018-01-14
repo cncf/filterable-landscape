@@ -9,6 +9,7 @@ import KindFilterContainer from './KindFilterContainer';
 import StarsFilterContainer from './StarsFilterContainer';
 import CertifiedKubernetesFilterContainer from './CertifiedKubernetesFilterContainer'
 import LicenseFilterContainer from './LicenseFilterContainer';
+import MarketCapFilterContainer from './MarketCapFilterContainer';
 
 const Filters = () => {
   return <div>
@@ -43,14 +44,7 @@ const Filters = () => {
       <FormGroup row>
         <FormControl component="fieldset">
           <FormLabel component="legend">Market Cap of company</FormLabel>
-            <RadioGroup name="stars" >
-              <FormControlLabel value="any" control={<Radio />} label="any" />
-              <FormControlLabel value="male" control={<Radio />} label="< 1M" />
-              <FormControlLabel value="female" control={<Radio />} label="1M - 10M" />
-              <FormControlLabel value="other" control={<Radio />} label="10M-100M" />
-              <FormControlLabel value="disabled"  control={<Radio />} label="100M-1000M" />
-              <FormControlLabel value="disabled"  control={<Radio />} label=" >000M" />
-            </RadioGroup>
+          <MarketCapFilterContainer />
         </FormControl>
       </FormGroup>
 

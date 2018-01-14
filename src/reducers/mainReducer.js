@@ -10,7 +10,8 @@ const initialState = {
     kind: ['cncfMember'],
     stars: null,
     certifiedKubernetes: 'platform',
-    license: null
+    license: null,
+    marketCap: null
   }
 };
 // thunk

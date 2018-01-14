@@ -3,24 +3,31 @@ import RadioSelector from './RadioSelector';
 import { changeFilter } from '../reducers/mainReducer.js';
 
 const options = [{
-  id: 'platform',
-  label: 'Platform'
+  id: null,
+  label: 'Any'
 }, {
-  id: 'distribution',
-  label: 'Distribution'
+  id: '<1M',
+  label: '<1M'
 }, {
-  id: 'platformOrDistribution',
-  label: 'Platform Or Distribution'
+  id: '1M-10M',
+  label: '1M-10M'
 }, {
-  id: 'notCertified',
-  label: 'Not Certified'
+  id: '10M-100M',
+  label: '10M-100M'
+}, {
+  id: '100M-1000M',
+  label: '100M-1000M'
+}, {
+  id: '1000M+',
+  label: '1000M+'
 }];
+
 const mapStateToProps = (state) => ({
-  value: state.main.filters.certifiedKubernetes,
+  value: state.main.filters.marketCap,
   options: options
 });
 const onChange = function(newValue) {
-  return changeFilter('certifiedKubernetes', newValue);
+  return changeFilter('marketCap', newValue);
 }
 const mapDispatchToProps = {
   onChange: onChange
