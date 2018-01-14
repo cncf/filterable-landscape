@@ -1,22 +1,18 @@
 import React from 'react';
 import { FormGroup, FormControl, FormControlLabel, FormLabel } from 'material-ui/Form';
-import Checkbox from 'material-ui/Checkbox';
 import Select from 'material-ui/Select';
 import Radio, { RadioGroup } from 'material-ui/Radio';
 import Input  from 'material-ui/Input';
 import { MenuItem } from 'material-ui/Menu';
+
+import KindFilterContainer from './KindFilterContainer';
 
 const Filters = () => {
   return <div>
       <FormGroup row>
         <FormControl component="fieldset">
           <FormLabel component="legend">Filter Kind 1</FormLabel>
-          <FormGroup>
-            <FormControlLabel control={ <Checkbox /> } label="CNCF Member" />
-            <FormControlLabel control={ <Checkbox /> } label="CNCF Hosted Project" />
-            <FormControlLabel control={ <Checkbox /> } label="Commercial Product" />
-            <FormControlLabel control={ <Checkbox /> } label="Open Source" />
-          </FormGroup>
+          <KindFilterContainer/>
         </FormControl>
       </FormGroup>
 

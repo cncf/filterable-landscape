@@ -10,12 +10,9 @@ export default class Root extends Component {
     const { store, history } = this.props;
     return (
       <Provider store={store}>
-        <MuiThemeProvider>
-          <Reboot />
           <ConnectedRouter history={history}>
             <App />
           </ConnectedRouter>
-        </MuiThemeProvider>
       </Provider>
     );
   }

@@ -4,7 +4,10 @@
 // data: null | { .. Data ... }
 
 const initialState = {
-  data: null
+  data: null,
+  filters: {
+    kind: ['cncfMember']
+  }
 };
 // thunk
 export function loadMainData() {
@@ -21,6 +24,12 @@ export function loadMainData() {
   }
 }
 
+export function changeFilter(name, value) {
+  return function(dispatch) {
+    return dispatch(setFilter(name, value));
+  }
+}
+
 function setData(data) {
   return {
     type: 'Main/SetData',
@@ -28,14 +37,27 @@ function setData(data) {
   };
 }
 
+function setFilter(name, value) {
+  return {
+    type: 'Main/SetFilter',
+    name: name,
+    value: value
+  }
+}
+
 function setDataHandler(state, action) {
   return { ...state, data: action.data };
+}
+function setFilterHandler(state, action) {
+  return { ...state, filters: {...state.filters, [action.name] : action.value } };
 }
 
 function reducer(state = initialState, action) {
   switch(action.type) {
     case 'Main/SetData':
       return setDataHandler(state, action);
+    case 'Main/SetFilter':
+      return setFilterHandler(state, action);
     default:
       return state;
   }
