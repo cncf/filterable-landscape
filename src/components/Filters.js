@@ -8,6 +8,7 @@ import { MenuItem } from 'material-ui/Menu';
 import KindFilterContainer from './KindFilterContainer';
 import StarsFilterContainer from './StarsFilterContainer';
 import CertifiedKubernetesFilterContainer from './CertifiedKubernetesFilterContainer'
+import LicenseFilterContainer from './LicenseFilterContainer';
 
 const Filters = () => {
   return <div>
@@ -35,12 +36,7 @@ const Filters = () => {
       <FormGroup row>
         <FormControl component="fieldset">
           <FormLabel component="legend">License</FormLabel>
-          <Select value="" input={<Input name="age" id="age-simple" />} >
-            <MenuItem value=""> Proprietary </MenuItem>
-            <MenuItem value={10}>Ten</MenuItem>
-            <MenuItem value={20}>Twenty</MenuItem>
-            <MenuItem value={30}>Thirty</MenuItem>
-          </Select>
+          <LicenseFilterContainer width={200}/>
         </FormControl>
       </FormGroup>
 

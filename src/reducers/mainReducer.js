@@ -2,27 +2,22 @@
 
 // State Description (TODO: Add FLOW here!)
 // data: null | { .. Data ... }
+import { loadData } from './api';
 
 const initialState = {
   data: null,
   filters: {
     kind: ['cncfMember'],
     stars: null,
-    certifiedKubernetes: 'platform'
+    certifiedKubernetes: 'platform',
+    license: null
   }
 };
 // thunk
 export function loadMainData() {
-  return function (dispatch) {
-    return new Promise(function(resolve) {
-      setTimeout(function() {
-        dispatch(setData({
-          x: 1,
-          y: 2
-        }));
-        resolve();
-      }, 1000);
-    });
+  return async function (dispatch) {
+    const result = await loadData();
+    dispatch(setData(result));
   }
 }
 
