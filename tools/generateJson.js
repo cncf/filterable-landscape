@@ -13,6 +13,7 @@ tree.map(function(node) {
       return p.node.name;
     });
     items.push({...node,
+      cncfHostedProject: node.cncf_hosted_project,
       path: parts.join(' / '),
       landscape: parts[0],
       stars: _.random(12000),
@@ -25,6 +26,7 @@ tree.map(function(node) {
   }
 });
 const itemsWithExtraFields = items.map(function(item) {
+  delete item.cncf_hosted_project;
   return {
     ...item,
     starsCategory: (item.stars < 100 ? '1-100' : item.stars < 1000 ? '100-1000' : item.stars < 10000 ? '1000-10000' : '10000+'),

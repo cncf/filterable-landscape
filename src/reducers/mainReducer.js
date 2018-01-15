@@ -19,7 +19,7 @@ const initialState = {
     headquaters: null,
     landscape: null
   },
-  grouping: 'cncf_hosted_project',
+  grouping: 'cncfHostedProject',
   sortField: 'name',
   sortDirection: 'asc'
 };

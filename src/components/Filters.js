@@ -17,7 +17,7 @@ const Filters = () => {
       <FormGroup row>
         <FormControl component="fieldset">
           <FormLabel component="legend">CNCF Relation</FormLabel>
-          <KindFilterContainer/>
+          <CncfFilterContainer/>
         </FormControl>
       </FormGroup>
 

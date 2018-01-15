@@ -8,8 +8,7 @@ import _ from 'lodash';
 const getLandscapeList = createSelector(
   (state) => state.main.data,
   function(data) {
-    const names = data.landscape.map((c) => c.name);
-    return _.sortBy(names);
+    return _.uniq(_.sortBy(_.map(data, 'landscape')));
   }
 );
 

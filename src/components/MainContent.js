@@ -5,12 +5,12 @@ import Subheader from 'material-ui/List/ListSubheader';
 import _ from 'lodash';
 
 const MainContent = ({groupedItems}) => {
-  const itemsAndHeaders = _.map(groupedItems, function(value, key) {
+  const itemsAndHeaders = _.map(groupedItems, function(groupedItem) {
     return [
-      <GridListTile key={"subheader:" + key} cols={4} style={{ height: 80 }}>
-          <Subheader component="div" style={{fontSize: 24}}>{key} ({value.length})</Subheader>
+      <GridListTile key={"subheader:" + groupedItem.header} cols={4} style={{ height: 80 }}>
+          <Subheader component="div" style={{fontSize: 24}}>{groupedItem.header} ({groupedItem.items.length})</Subheader>
       </GridListTile>
-    ].concat(_.map(value, function(item) {
+    ].concat(_.map(groupedItem.items, function(item) {
       return <GridListTile key={item.path + '/' + item.name}>
             <img src={item.raw_logo} alt={item.name} />
             <GridListTileBar

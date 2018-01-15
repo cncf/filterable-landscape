@@ -2,6 +2,7 @@ import { connect } from 'react-redux';
 import { createSelector } from 'reselect';
 import _ from 'lodash';
 import MainContent from './MainContent';
+import groupingLabel from '../utils/groupingLabel';
 
 const getFilteredItems = createSelector(
   (state) => state.main.data,
@@ -11,7 +12,7 @@ const getFilteredItems = createSelector(
       if (filters.cncfHostedProject === null) {
         return true;
       }
-      return x.cncf_hosted_project === filters.cncfHostedProject;
+      return x.cncfHostedProject === filters.cncfHostedProject;
     }
     var filterByOss = function(x) {
       if (filters.oss === null) {
@@ -94,8 +95,14 @@ const getGroupedItems = createSelector(
   (state) => getSortedItems(state),
   (state) => state.main.grouping,
   function(items, grouping) {
-    return _.groupBy(items, function(item) {
+    const grouped = _.groupBy(items, function(item) {
       return item[grouping];
+    });
+    return _.map(grouped, function(value, key) {
+      return {
+        header: groupingLabel(grouping, key),
+        items: value
+      }
     });
   }
 );
