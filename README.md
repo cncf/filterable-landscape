@@ -16,3 +16,6 @@ Current [specification](https://docs.google.com/document/d/1QPVrXRjTWDQAwsbgSWut
    2) yarn build
 or with npm
    1) npm run build
+
+# rebuilding json from yaml and extra info:
+   npm run yml2json
