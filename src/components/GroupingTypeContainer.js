@@ -3,8 +3,14 @@ import ComboboxSelector from './ComboboxSelector';
 import { changeGrouping } from '../reducers/mainReducer.js';
 
 const options = [{
-  id: 'kind',
-  label: 'Kind'
+  id: 'cncfHostedProject',
+  label: 'CNCF relation'
+}, {
+  id: 'oss',
+  label: 'OSS'
+}, {
+  id: 'commercial',
+  label: 'Commercial'
 }, {
   id: 'starsCategory',
   label: 'Number of stars'

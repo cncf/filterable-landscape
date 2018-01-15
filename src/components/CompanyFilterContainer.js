@@ -2,19 +2,12 @@ import { connect } from 'react-redux';
 import { createSelector } from 'reselect';
 import ComboboxMultiSelector from './ComboboxMultiSelector';
 import { changeFilter } from '../reducers/mainReducer.js';
-import traverse from 'traverse';
 import _ from 'lodash';
 
 const getCompanies = createSelector(
   (state) => state.main.data,
   function(data) {
-    var companies = [];
-    traverse(data).map(function(node) {
-      if (node && node.company) {
-        companies.push(node.company);
-      }
-    });
-    return _.uniq(_.sortBy(companies));
+    return _.uniq(_.sortBy(_.map(data, 'company')));
   }
 );
 

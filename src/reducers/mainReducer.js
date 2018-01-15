@@ -7,7 +7,9 @@ import { loadData } from './api';
 const initialState = {
   data: null,
   filters: {
-    kind: ['cncfMember'],
+    cncfHostedProject: null,
+    oss: null,
+    commercial: null,
     stars: null,
     certifiedKubernetes: 'platform',
     license: null,
@@ -17,7 +19,7 @@ const initialState = {
     headquaters: null,
     landscape: null
   },
-  grouping: 'kind',
+  grouping: 'cncf_hosted_project',
   sortField: 'name',
   sortDirection: 'asc'
 };

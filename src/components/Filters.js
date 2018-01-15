@@ -1,7 +1,9 @@
 import React from 'react';
 import { FormGroup, FormControl, FormLabel } from 'material-ui/Form';
 
-import KindFilterContainer from './KindFilterContainer';
+import CncfFilterContainer from './CncfFilterContainer';
+import CommercialFilterContainer from './CommercialFilterContainer';
+import OssFilterContainer from './OssFilterContainer';
 import StarsFilterContainer from './StarsFilterContainer';
 import CertifiedKubernetesFilterContainer from './CertifiedKubernetesFilterContainer'
 import LicenseFilterContainer from './LicenseFilterContainer';
@@ -14,8 +16,22 @@ const Filters = () => {
   return <div>
       <FormGroup row>
         <FormControl component="fieldset">
-          <FormLabel component="legend">Filter Kind 1</FormLabel>
+          <FormLabel component="legend">CNCF Relation</FormLabel>
           <KindFilterContainer/>
+        </FormControl>
+      </FormGroup>
+
+      <FormGroup row>
+        <FormControl component="fieldset">
+          <FormLabel component="legend">Commercial Project</FormLabel>
+          <CommercialFilterContainer/>
+        </FormControl>
+      </FormGroup>
+
+      <FormGroup row>
+        <FormControl component="fieldset">
+          <FormLabel component="legend">Open Source Project</FormLabel>
+          <OssFilterContainer/>
         </FormControl>
       </FormGroup>
 

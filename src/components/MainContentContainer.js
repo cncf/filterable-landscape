@@ -1,76 +1,29 @@
 import { connect } from 'react-redux';
 import { createSelector } from 'reselect';
-import traverse from 'traverse';
 import _ from 'lodash';
 import MainContent from './MainContent';
 
-const getItems = createSelector(
-  (state) => state.main.data,
-  function(data) {
-    const items = [];
-    const tree = traverse(data);
-    tree.map(function(node) {
-      if (node && node.item === null) {
-        const parts = this.parents.filter(function(p) {
-          return p.node.category === null || p.node.subcategory === null;
-        }).map(function(p) {
-          return p.node.name;
-        });
-        items.push({...node,
-          path: parts.join(' / '),
-          landscape: parts[0],
-          stars: _.random(12000),
-          certifiedKubernetes: _.sample(['platform', 'distribution', 'platformOrDistribution', 'notCertified']),
-          license: _.sample(['gpl-v2', 'gpl-v3', 'mit', 'apache', 'commercial']),
-          marketCap: _.random(1000),
-          vcFunder: _.sample(['ycombinator', 'other1', 'other2', 'other3']),
-          headquaters: _.sample(['NY', 'San Francisco', 'West Palm Beacch']),
-          kind: (node.oss? 'Open Source' : 'Commercial') + ', ' + (node.cncf ? 'CNCF Member': 'CNCF Hosted Project')
-        });
-      }
-    });
-    return items.map(function(item) {
-      return {...item,
-        starsCategory: item.stars < 100 ? '1-100' : item.stars < 1000 ? '100-1000' : item.stars < 10000 ? '1000-10000' : '10000+'
-      }
-    });
-  }
-);
 const getFilteredItems = createSelector(
-  (state) => getItems(state),
+  (state) => state.main.data,
   (state) => state.main.filters,
   function(data, filters) {
-    var filterByKindCnCf = function(x) {
-      var filterCncfMember  = filters.kind.indexOf('cncfMember') !== -1;
-      var filterCncfHostedProject = filters.kind.indexOf('cncfHostedProject') !== -1
-      if (!filterCncfMember && !filterCncfHostedProject) {
+    var filterCncfHostedProject = function(x) {
+      if (filters.cncfHostedProject === null) {
         return true;
       }
-      if (filterCncfMember && filterCncfHostedProject) {
-        return true;
-      }
-      if (filterCncfMember) {
-        return x.cncf === true;
-      }
-      if (filterCncfHostedProject) {
-        return x.cncf === false;
-      }
+      return x.cncf_hosted_project === filters.cncfHostedProject;
     }
-    var filterByKindOss = function(x) {
-      var filterOss  = filters.kind.indexOf('opensource') !== -1;
-      var filterCommercial = filters.kind.indexOf('commercial') !== -1
-      if (!filterOss && !filterCommercial) {
+    var filterByOss = function(x) {
+      if (filters.oss === null) {
         return true;
       }
-      if (filterOss && filterCommercial) {
+      return x.oss === filters.oss;
+    }
+    var filterByCommercial = function(x) {
+      if (filters.commercial === null) {
         return true;
       }
-      if (filterOss) {
-        return x.oss === true;
-      }
-      if (filterCommercial) {
-        return x.oss === false;
-      }
+      return x.commercial === filters.commercial;
     }
     var filterByStars = function(x) {
       if (!filters.stars) {
@@ -79,13 +32,49 @@ const getFilteredItems = createSelector(
       return x.starsCategory === filters.stars;
     }
     var filterByCertifiedKubernetes = function(x) {
-      if (!filters.certifiedKubernetes) {
+      if (filters.certifiedKubernetes === null) {
         return true;
       }
       return x.certifiedKubernetes === filters.certifiedKubernetes;
     }
+    var filterByLicense = function(x) {
+      if (filters.license === null) {
+        return true;
+      }
+      return x.license === filters.license;
+    }
+    var filterByMarketCap = function(x) {
+      if (filters.marketCap === null) {
+        return true;
+      }
+      return x.marketCapCategory === filters.marketCap;
+    }
+    var filterByVcFunder = function(x) {
+      if (filters.vcFunder.length === 0) {
+        return true;
+      }
+      return filters.vcFunder.indexOf(x.vcFunder) !== -1;
+    }
+    var filterByCompany = function(x) {
+      if (filters.company.length === 0) {
+        return true;
+      }
+      return filters.company.indexOf(x.company) !== -1;
+    }
+    var filterByHeadquaters = function(x) {
+      if (filters.headquaters === null) {
+        return true;
+      }
+      return x.headquaters === filters.headquaters;
+    }
+    var filterByLandscape = function(x) {
+      if (filters.landscape === null) {
+        return true;
+      }
+      return x.landscape === filters.landscape;
+    }
     return data.filter(function(x) {
-      return filterByKindCnCf(x) && filterByKindOss(x) && filterByStars(x) && filterByCertifiedKubernetes(x);
+      return filterCncfHostedProject(x) && filterByOss(x) && filterByCommercial(x) && filterByStars(x) && filterByCertifiedKubernetes(x) && filterByLicense(x) && filterByMarketCap(x) && filterByVcFunder(x) && filterByCompany(x) && filterByHeadquaters(x) && filterByLandscape(x);
     });
   }
 );
