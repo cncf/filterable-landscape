@@ -12,7 +12,14 @@ const MainContent = ({groupedItems}) => {
       </GridListTile>
     ].concat(_.map(groupedItem.items, function(item) {
       return <GridListTile key={item.path + '/' + item.name}>
-            <img src={item.raw_logo} alt={item.name} />
+            <div style={{
+              'width': '100%',
+              'height': '50%',
+              'background-size': 'contain',
+              'background-repeat': 'no-repeat',
+              'background-position': 'center',
+              'background-image': `url("${item.raw_logo}")`
+            }}/>
             <GridListTileBar
               title={item.name}
               subtitle={<div><span>company: {item.company} (${item.marketCap}M)</span> | <span>stars: {item.stars}</span></div>}
