@@ -5,10 +5,8 @@ const mapStateToProps = (state) => ({
   values: {
     filters: state.main.filters,
     grouping: state.main.grouping,
-    sort: {
-      field: state.main.sortField,
-      direction: state.main.sortDirection
-    }
+    sortField: state.main.sortField,
+    sortDirection: state.main.sortDirection
   }
 });
 const mapDispatchToProps = {

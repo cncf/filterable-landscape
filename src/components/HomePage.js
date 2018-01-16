@@ -5,6 +5,7 @@ import Filters from './Filters';
 import Grouping from './Grouping';
 import Sorting from './Sorting';
 import MainContentContainer from './MainContentContainer';
+import LeftPanelInfoContainer from './LeftPanelInfoContainer';
 
 
 const HomePage = ({hasData}) => {
@@ -18,6 +19,7 @@ const HomePage = ({hasData}) => {
           <Filters/>
           <Grouping/>
           <Sorting/>
+          <LeftPanelInfoContainer style={{width: 200}}/>
         </Grid>
         <Grid item xs={9} sm={9}>
           <h1> Summary Placeholder </h1>
