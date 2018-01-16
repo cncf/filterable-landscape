@@ -86,7 +86,7 @@ const Filters = () => {
 
       <FormGroup row>
         <FormControl component="fieldset">
-          <FormLabel component="legend">Landscape Section</FormLabel>
+          <FormLabel component="legend">CNCF Filterable Landscape</FormLabel>
           <LandscapeFilterContainer/>
         </FormControl>
       </FormGroup>

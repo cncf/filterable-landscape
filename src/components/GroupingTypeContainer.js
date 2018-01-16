@@ -34,7 +34,7 @@ const options = [{
   label: 'Headquaters location'
 }, {
   id: 'landscape',
-  label: 'Landscape section'
+  label: 'CNCF Filterable Landscape'
 }];
 
 const mapStateToProps = (state) => ({

@@ -3,6 +3,7 @@ import { createSelector } from 'reselect';
 import _ from 'lodash';
 import MainContent from './MainContent';
 import groupingLabel from '../utils/groupingLabel';
+import groupingOrder from '../utils/groupingOrder';
 
 const getFilteredItems = createSelector(
   (state) => state.main.data,
@@ -32,11 +33,12 @@ const getFilteredItems = createSelector(
       }
       return x.starsCategory === filters.stars;
     }
-    var filterByCertifiedKubernetes = function(x) {
-      if (filters.certifiedKubernetes === null) {
-        return true;
-      }
-      return x.certifiedKubernetes === filters.certifiedKubernetes;
+    var filterByCertifiedKubernetes = function(x) {// eslint-disable-line no-unused-vars
+      return true;
+      // if (filters.certifiedKubernetes === null) {
+        // return true;
+      // }
+      // return x.certifiedKubernetes === filters.certifiedKubernetes;
     }
     var filterByLicense = function(x) {
       if (filters.license === null) {
@@ -98,12 +100,13 @@ const getGroupedItems = createSelector(
     const grouped = _.groupBy(items, function(item) {
       return item[grouping];
     });
-    return _.map(grouped, function(value, key) {
+    return _.orderBy(_.map(grouped, function(value, key) {
       return {
+        key: key,
         header: groupingLabel(grouping, key),
         items: value
       }
-    });
+    }), (group) => groupingOrder(grouping)(group.key));
   }
 );
 
