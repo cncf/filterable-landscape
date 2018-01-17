@@ -13,10 +13,10 @@ const HomePage = ({hasData}) => {
     return <h1>Loading data... </h1>;
   }
   return (
-    <div>
+    <div style={{overflow: 'hidden', background: 'white'}}>
       <Grid container spacing={24}>
-        <Grid item xs={3} sm={3}>
-          <Filters/>
+        <Grid item xs={3} sm={3} >
+          <Filters />
           <Grouping/>
           <Sorting/>
           <LeftPanelInfoContainer style={{width: 200}}/>

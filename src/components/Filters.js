@@ -42,7 +42,7 @@ const Filters = () => {
         </FormControl>
       </FormGroup>
 
-      <FormGroup row>
+      <FormGroup row style={{opacity: 0.3, pointerEvents: 'none'}}>
         <FormControl component="fieldset">
           <FormLabel component="legend">Certified Kubernetes</FormLabel>
           <CertifiedKubernetesFilterContainer/>
