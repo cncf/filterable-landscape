@@ -4,7 +4,7 @@ import { changeFilter } from '../reducers/mainReducer.js';
 
 const options = [{
   id: null,
-  label: 'Any'
+  label: 'Either'
 },{
   id: false,
   label: 'No'

@@ -3,14 +3,14 @@ import ComboboxSelector from './ComboboxSelector';
 import { changeFilter } from '../reducers/mainReducer.js';
 
 const options = [{
-  id: null,
-  label: 'Any'
+  id: true,
+  label: 'CNCF Hosted Project'
 },{
   id: false,
   label: 'CNCF Member Product'
 }, {
-  id: true,
-  label: 'CNCF Hosted Project'
+  id: null,
+  label: 'Any'
 }];
 const mapStateToProps = (state) => ({
   value: state.main.filters.cncfHostedProject,

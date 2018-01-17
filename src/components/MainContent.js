@@ -1,6 +1,6 @@
 import React from 'react';
 
-import GridList, { GridListTile, GridListTileBar } from 'material-ui/GridList';
+import { GridListTileBar } from 'material-ui/GridList';
 import Subheader from 'material-ui/List/ListSubheader';
 import _ from 'lodash';
 
@@ -22,7 +22,7 @@ const MainContent = ({groupedItems}) => {
             }}/>
             <GridListTileBar
               title={item.name}
-              subtitle={<div><span>company: {item.company} (${item.marketCap}M)</span> | <span>stars: {item.stars}</span></div>}
+              subtitle={<div><span>{item.company} (${item.marketCap}M)</span> | <span>⭐️ {item.stars}</span></div>}
             />
           </div>
     }));
