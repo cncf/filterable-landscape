@@ -36,7 +36,6 @@ async function fetchImages() {
           simple: true
         });
         require('fs').writeFileSync(fileName, response);
-        item.logo = `logo-${saneName(item.name)}`;
         logos.push({name: saneName(item.name), fileName: fileName});
         console.info('saving logo for ', item.logo);
       } catch(ex) {
@@ -72,7 +71,6 @@ async function generateCss() {
   });
   await csvWriter.writeRecords(errors);
 
-  require('fs').writeFileSync('src/data.json', JSON.stringify(items, null, 2));
 })().then(function(){
   require('process').exit();
 });
