@@ -12,13 +12,12 @@ const MainContent = ({groupedItems}) => {
       </div>
     ].concat(_.map(groupedItem.items, function(item) {
       return <div style={{position: 'relative', display: 'inline-block', width: 200, height: 180, margin: 20}} key={item.path + '/' + item.name}>
-            <div style={{
+            <div className={item.logo} style={{
               'width': '100%',
               'height': '50%',
               'backgroundSize': 'contain',
               'backgroundRepeat': 'no-repeat',
-              'backgroundPosition': 'center',
-              'backgroundImage': `url("${item.raw_logo}")`
+              'backgroundPosition': 'center'
             }}/>
             <GridListTileBar
               title={item.name}

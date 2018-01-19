@@ -22,7 +22,7 @@ const HomePage = ({hasData}) => {
           <LeftPanelInfoContainer style={{width: 200}}/>
         </Grid>
         <Grid item xs={9} sm={9}>
-          <h1> Summary Placeholder </h1>
+          <h1 className='logo'> Summary Placeholder </h1>
           <h1> Available Presets Placeholder</h1>
           <MainContentContainer/>
         </Grid>
