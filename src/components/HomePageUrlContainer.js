@@ -13,7 +13,8 @@ const getParameters = createSelector(
 );
 
 const mapStateToProps = (_state, ownProps) => ({
-  info: getParameters(ownProps)
+  info: getParameters(ownProps),
+  other: _state.routing.location.pathname
 });
 const mapDispatchToProps = {
   changeParameters: changeParameters

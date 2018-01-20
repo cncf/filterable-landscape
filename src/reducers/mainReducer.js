@@ -123,7 +123,7 @@ function setSortDirectionHandler(state, action) {
 }
 function setParametersHandler(state, action) {
   return {...state,
-    filters: _.assign({}, state.filters, action.value.filters),
+    filters: _.assign({}, initialState.filters, action.value.filters),
   };
 }
 
