@@ -18,6 +18,7 @@ class App extends React.Component {
         <Reboot />
         <Switch>
           <Route exact path="/" component={HomePageContainer} />
+          <Route path="/s" component={HomePageContainer} />
           <Route component={NotFoundPage} />
         </Switch>
       </div>

@@ -6,6 +6,7 @@ import Grouping from './Grouping';
 import Sorting from './Sorting';
 import MainContentContainer from './MainContentContainer';
 import LeftPanelInfoContainer from './LeftPanelInfoContainer';
+import HomePageUrlContainer from './HomePageUrlContainer';
 
 
 const HomePage = ({hasData}) => {
@@ -14,6 +15,7 @@ const HomePage = ({hasData}) => {
   }
   return (
     <div style={{overflow: 'hidden', background: 'white'}}>
+      <HomePageUrlContainer />
       <Grid container spacing={24}>
         <Grid item xs={3} sm={3} >
           <Filters />

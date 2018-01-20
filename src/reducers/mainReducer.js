@@ -3,8 +3,10 @@
 // State Description (TODO: Add FLOW here!)
 // data: null | { .. Data ... }
 import { loadData } from './api';
+import { filtersToUrl } from '../utils/syncToUrl';
+import _ from 'lodash';
 
-const initialState = {
+export const initialState = {
   data: null,
   filters: {
     cncfHostedProject: null,
@@ -32,8 +34,13 @@ export function loadMainData() {
 }
 
 export function changeFilter(name, value) {
-  return function(dispatch) {
-    return dispatch(setFilter(name, value));
+  return function(dispatch, getState) {
+    dispatch(setFilter(name, value));
+
+    // effect - set an url
+    const state = getState().main;
+    const url = filtersToUrl(state);
+    window.history.pushState({}, null, url);
   }
 }
 
@@ -50,6 +57,12 @@ export function changeSortField(value) {
 export function changeSortDirection(value) {
   return function(dispatch) {
     return dispatch(setSortDirection(value));
+  }
+}
+
+export function changeParameters(value) {
+  return function(dispatch) {
+    return dispatch(setParameters(value));
   }
 }
 
@@ -86,6 +99,13 @@ function setSortDirection(value) {
   };
 }
 
+function setParameters(value) {
+  return {
+    type: 'Main/SetParameters',
+    value: value
+  }
+}
+
 function setDataHandler(state, action) {
   return { ...state, data: action.data };
 }
@@ -101,6 +121,11 @@ function setSortFieldHandler(state, action) {
 function setSortDirectionHandler(state, action) {
   return {...state, sortDirection: action.value };
 }
+function setParametersHandler(state, action) {
+  return {...state,
+    filters: _.assign({}, state.filters, action.value.filters),
+  };
+}
 
 function reducer(state = initialState, action) {
   switch(action.type) {
@@ -114,6 +139,8 @@ function reducer(state = initialState, action) {
       return setSortFieldHandler(state, action);
     case 'Main/SetSortDirection':
       return setSortDirectionHandler(state, action);
+    case 'Main/SetParameters':
+      return setParametersHandler(state, action);
     default:
       return state;
   }
