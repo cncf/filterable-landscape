@@ -62,5 +62,13 @@ export function parseUrl(url) {
       newParameters.filters.commercial = null;
     }
   }
+  if (args.stars) {
+    if (['1to100','100to1000','1000to10000','over10000'].indexOf(args.stars) !== -1) {
+      newParameters.filters.stars = args.stars;
+    }
+    if (args.stars === 'any') {
+      newParameters.filters.stars = null;
+    }
+  }
   return newParameters;
 }

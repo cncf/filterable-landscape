@@ -30,7 +30,7 @@ const itemsWithExtraFields = items.map(function(item) {
   delete item.cncf_hosted_project;
   return {
     ...item,
-    starsCategory: (item.stars < 100 ? '1-100' : item.stars < 1000 ? '100-1000' : item.stars < 10000 ? '1000-10000' : '10000+'),
+    starsCategory: (item.stars < 100 ? '1to100' : item.stars < 1000 ? '100to1000' : item.stars < 10000 ? '1000to10000' : 'over10000'),
     marketCapCategory: (item.marketCap < 1 ? '<1M' : item.marketCap < 10 ? '1M-10M' : item.marketCap < 100 ? '10M-100M' : item.marketCap < 1000 ? '100M-1000M': '1000M+'),
     logo: `logo-${saneName(item.name)}`
   }
