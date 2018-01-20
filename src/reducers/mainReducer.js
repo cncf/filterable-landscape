@@ -65,6 +65,12 @@ export function changeParameters(value) {
     return dispatch(setParameters(value));
   }
 }
+export function resetParameters() {
+  return function(dispatch) {
+    dispatch(setParameters(initialState));
+    window.history.pushState({}, null, '/');
+  }
+}
 
 function setData(data) {
   return {
@@ -124,6 +130,9 @@ function setSortDirectionHandler(state, action) {
 function setParametersHandler(state, action) {
   return {...state,
     filters: _.assign({}, initialState.filters, action.value.filters),
+    grouping: action.value.grouping || initialState.grouping,
+    sortField: action.value.sortField || initialState.sortField,
+    sortDirection: action.value.sortDirection || initialState.sortDirection
   };
 }
 

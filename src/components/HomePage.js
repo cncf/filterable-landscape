@@ -7,6 +7,7 @@ import Sorting from './Sorting';
 import MainContentContainer from './MainContentContainer';
 import LeftPanelInfoContainer from './LeftPanelInfoContainer';
 import HomePageUrlContainer from './HomePageUrlContainer';
+import ResetFiltersContainer from './ResetFiltersContainer';
 
 
 const HomePage = ({hasData}) => {
@@ -18,6 +19,7 @@ const HomePage = ({hasData}) => {
       <HomePageUrlContainer />
       <Grid container spacing={24}>
         <Grid item xs={3} sm={3} >
+          <ResetFiltersContainer />
           <Filters />
           <Grouping/>
           <Sorting/>
