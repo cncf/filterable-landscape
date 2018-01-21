@@ -5,15 +5,14 @@ Current [specification](https://docs.google.com/document/d/1QPVrXRjTWDQAwsbgSWut
 # Install on Mac
 1. Install [Homebrew](https://brew.sh/)
 2. `brew install node yarn`
-3. git clone git@github.com:cncf/filterable-landscape.git
+3. `git clone git@github.com:cncf/filterable-landscape.git`
 
 # Local development
-1. git pull
-2. `yarn`
+1. `git pull`
+2. `yarn` (installs dependencies)
 3. `npm run yaml2json` (after fetching new commits or changing src/data.yml file)
-4. `yarn open:src` (starts a development server)
-     or
-   `yarn open:dist` (compiles and opens a production build)
+* `yarn open:src` (starts a development server) or
+* `yarn open:dist` (compiles and opens a production build)
 
 
 # building a dist
