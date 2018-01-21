@@ -23,7 +23,9 @@ const mapDispatchToProps = {
 const render = ({info, changeParameters}) => {
   // if we are here - url has changed
   // otherwise everything is cached
-  changeParameters(info);
+  setTimeout(function() {
+    changeParameters(info);
+  }, 1);
   return <div/>;
 }
 

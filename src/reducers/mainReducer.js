@@ -13,12 +13,12 @@ export const initialState = {
     oss: null,
     commercial: null,
     stars: null,
-    certifiedKubernetes: 'platform',
+    certifiedKubernetes: null,
     license: null,
     marketCap: null,
     vcFunder: [],
     company: [],
-    headquaters: null,
+    headquarters: null,
     landscape: null
   },
   grouping: 'cncfHostedProject',
@@ -45,18 +45,30 @@ export function changeFilter(name, value) {
 }
 
 export function changeGrouping(value) {
-  return function(dispatch) {
-    return dispatch(setGrouping(value));
+  return function(dispatch, getState) {
+    dispatch(setGrouping(value));
+
+    const state = getState().main;
+    const url = filtersToUrl(state);
+    window.history.pushState({}, null, url);
   }
 }
 export function changeSortField(value) {
-  return function(dispatch) {
-    return dispatch(setSortField(value));
+  return function(dispatch, getState) {
+    dispatch(setSortField(value));
+
+    const state = getState().main;
+    const url = filtersToUrl(state);
+    window.history.pushState({}, null, url);
   }
 }
 export function changeSortDirection(value) {
-  return function(dispatch) {
-    return dispatch(setSortDirection(value));
+  return function(dispatch, getState) {
+    dispatch(setSortDirection(value));
+
+    const state = getState().main;
+    const url = filtersToUrl(state);
+    window.history.pushState({}, null, url);
   }
 }
 

@@ -1,20 +1,15 @@
+import fields from '../types/fields';
+import _ from 'lodash';
 export default function groupFn(field) {
-  if (field === 'cncfHostedProject') {
-    return function(x) {
-      return [true, false].indexOf(JSON.parse(x));
-    }
-  }
-  if (field === 'oss') {
-    return function(x) {
-      return [true, false].indexOf(JSON.parse(x));
-    }
-  }
-  if (field === 'commercial') {
-    return function(x) {
-      return [true, false].indexOf(JSON.parse(x));
-    }
-  }
+  const values = fields[field].values;
+  const sortedValues = _.orderBy(values, 'groupingSortOrder');
   return function(x) {
-    return x;
+    if (x === 'true') {
+      x = true;
+    }
+    if (x === 'false') {
+      x = false;
+    }
+    return _.findIndex(sortedValues, {id: x});
   }
 }

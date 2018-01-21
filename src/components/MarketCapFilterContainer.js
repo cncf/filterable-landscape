@@ -1,30 +1,11 @@
 import { connect } from 'react-redux';
 import ComboboxSelector from './ComboboxSelector';
 import { changeFilter } from '../reducers/mainReducer.js';
-
-const options = [{
-  id: null,
-  label: 'Any'
-}, {
-  id: '<1M',
-  label: '<1M'
-}, {
-  id: '1M-10M',
-  label: '1M-10M'
-}, {
-  id: '10M-100M',
-  label: '10M-100M'
-}, {
-  id: '100M-1000M',
-  label: '100M-1000M'
-}, {
-  id: '1000M+',
-  label: '1000M+'
-}];
+import { options } from '../types/fields';
 
 const mapStateToProps = (state) => ({
   value: state.main.filters.marketCap,
-  options: options
+  options: options('marketCap')
 });
 const onChange = function(newValue) {
   return changeFilter('marketCap', newValue);

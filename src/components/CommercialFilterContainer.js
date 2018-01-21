@@ -1,20 +1,11 @@
 import { connect } from 'react-redux';
 import ComboboxSelector from './ComboboxSelector';
 import { changeFilter } from '../reducers/mainReducer.js';
+import { options } from '../types/fields';
 
-const options = [{
-  id: null,
-  label: 'Either'
-},{
-  id: false,
-  label: 'No'
-}, {
-  id: true,
-  label: 'Yes'
-}];
 const mapStateToProps = (state) => ({
   value: state.main.filters.commercial,
-  options: options
+  options: options('commercial')
 });
 const onChange = function(newValue) {
   return changeFilter('commercial', newValue);

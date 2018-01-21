@@ -1,18 +1,14 @@
-const headers = {
-  oss: {
-    true: 'Open Source',
-    false: 'Not Open Source'
-  },
-  commercial: {
-    true: 'Commercial',
-    false: 'Not Commercial'
-  },
-  cncfHostedProject: {
-    true: 'CNCF Hosted Project',
-    false: 'CNCF Member Product'
+import fields from '../types/fields';
+import _ from 'lodash';
+export default function(field, id) {
+  if (id === 'true') {
+    id = true;
   }
-};
-export default function(name, label) {
-  const header = (headers[name] || {})[label];
-  return header || label;
+  if (id === 'false') {
+    id = false;
+  }
+  const values = fields[field].values
+  const valueInfo = _.find(values, {id: id});
+  console.info(valueInfo, field, id);
+  return valueInfo.groupingLabel;
 }

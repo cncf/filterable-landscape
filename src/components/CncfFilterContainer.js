@@ -1,20 +1,11 @@
 import { connect } from 'react-redux';
 import ComboboxSelector from './ComboboxSelector';
-import { changeFilter } from '../reducers/mainReducer.js';
+import { changeFilter } from '../reducers/mainReducer';
+import { options } from '../types/fields';
 
-const options = [{
-  id: true,
-  label: 'CNCF Hosted Project'
-},{
-  id: false,
-  label: 'CNCF Member Product'
-}, {
-  id: null,
-  label: 'Any'
-}];
 const mapStateToProps = (state) => ({
   value: state.main.filters.cncfHostedProject,
-  options: options
+  options: options('cncfHostedProject')
 });
 const onChange = function(newValue) {
   return changeFilter('cncfHostedProject', newValue);

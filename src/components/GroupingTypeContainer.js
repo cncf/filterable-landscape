@@ -1,41 +1,15 @@
 import { connect } from 'react-redux';
 import ComboboxSelector from './ComboboxSelector';
 import { changeGrouping } from '../reducers/mainReducer.js';
+import fields from '../types/fields';
+import _ from 'lodash';
 
-const options = [{
-  id: 'cncfHostedProject',
-  label: 'CNCF relation'
-}, {
-  id: 'oss',
-  label: 'OSS'
-}, {
-  id: 'commercial',
-  label: 'Commercial'
-}, {
-  id: 'starsCategory',
-  label: 'Number of stars'
-}, {
-  id: 'certifiedKubernetes',
-  label: 'Kubernetes Certified Service Provider'
-}, {
-  id: 'license',
-  label: 'License'
-}, {
-  id: 'marketCap',
-  label: 'Market cap of company'
-}, {
-  id: 'vcFunder',
-  label: 'VC funders'
-}, {
-  id: 'company',
-  label: 'Company'
-}, {
-  id: 'headquaters',
-  label: 'Headquaters location'
-}, {
-  id: 'landscape',
-  label: 'CNCF Filterable Landscape'
-}];
+const options = _.keys(fields).map(function(x) {
+  return  {
+    id: x,
+    label: fields[x].groupingLabel
+  };
+});
 
 const mapStateToProps = (state) => ({
   value: state.main.grouping,

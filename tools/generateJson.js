@@ -2,6 +2,8 @@ const source = require('js-yaml').safeLoad(require('fs').readFileSync('src/data.
 const traverse = require('traverse');
 const _ = require('lodash');
 import saneName from '../src/utils/saneName';
+import { sample, getCategory } from '../src/types/fields';
+import fakeData from '../src/types/fakeData';
 
 
 const items = [];
@@ -18,21 +20,46 @@ tree.map(function(node) {
       path: parts.join(' / '),
       landscape: parts[0],
       stars: _.random(12000),
-      certifiedKubernetes: _.sample(['platform', 'distribution', 'platformOrDistribution', 'notCertified']),
-      license: _.sample(['gpl-v2', 'gpl-v3', 'mit', 'apache', 'commercial']),
+      certifiedKubernetes: sample('certifiedKubernetes'),
+      license: _.sample(fakeData.license),
       marketCap: _.random(1000),
-      vcFunder: _.sample(['ycombinator', 'other1', 'other2', 'other3']),
-      headquaters: _.sample(['NY', 'San Francisco', 'West Palm Beacch'])
+      vcFunder: _.sample(fakeData.vcFunder),
+      headquarters: _.sample(fakeData.headquarters)
     });
   }
 });
 const itemsWithExtraFields = items.map(function(item) {
   delete item.cncf_hosted_project;
+  if (_.isUndefined(item.commercial)) {
+    console.info('please, fix yaml and set commercial for ', item.name);
+  }
   return {
     ...item,
-    starsCategory: (item.stars < 100 ? '1to100' : item.stars < 1000 ? '100to1000' : item.stars < 10000 ? '1000to10000' : 'over10000'),
-    marketCapCategory: (item.marketCap < 1 ? '<1M' : item.marketCap < 10 ? '1M-10M' : item.marketCap < 100 ? '10M-100M' : item.marketCap < 1000 ? '100M-1000M': '1000M+'),
+    company: item.company || '(no company)',
+    starsCategory: getCategory({field: 'stars', item: item}),
+    marketCapCategory: getCategory({field: 'marketCap', item: item}),
     logo: `logo-${saneName(item.name)}`
   }
 });
+const extractOptions = function(name) {
+  return _.chain(itemsWithExtraFields).map(function(x) {
+    return x[name];
+  }).filter(function(x) {
+    return !!x
+  }).sortBy().uniq().map(function(x) {
+    return {
+      id: x,
+      label: x,
+      url: saneName(x)
+    };
+  }).value();
+};
+const lookups = {
+  company: extractOptions('company'),
+  landscape: extractOptions('landscape'),
+  license: extractOptions('license'),
+  headquarters: extractOptions('headquarters'),
+  vcFunder: extractOptions('vcFunder')
+}
 require('fs').writeFileSync('src/data.json', JSON.stringify(itemsWithExtraFields, null, 2));
+require('fs').writeFileSync('src/lookup.json', JSON.stringify(lookups, null, 2));

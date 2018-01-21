@@ -1,27 +1,14 @@
 import { connect } from 'react-redux';
 import ComboboxSelector from './ComboboxSelector';
 import { changeFilter } from '../reducers/mainReducer.js';
-
-const options = [{
-  id: null,
-  label: 'Any'
-}, {
-  id: 'NY',
-  label: 'NY'
-}, {
-  id: 'San Francisco',
-  label: 'San Francisco'
-}, {
-  id: 'West Palm Beach',
-  label: 'West Palm Beach'
-}];
+import { options } from '../types/fields';
 
 const mapStateToProps = (state) => ({
-  value: state.main.filters.headquaters,
-  options: options
+  value: state.main.filters.headquarters,
+  options: options('headquarters')
 });
 const onChange = function(newValue) {
-  return changeFilter('headquaters', newValue);
+  return changeFilter('headquarters', newValue);
 }
 const mapDispatchToProps = {
   onChange: onChange

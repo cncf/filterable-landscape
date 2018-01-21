@@ -1,23 +1,11 @@
 import { connect } from 'react-redux';
 import ComboboxSelector from './ComboboxSelector';
 import { changeFilter } from '../reducers/mainReducer.js';
+import { options } from '../types/fields';
 
-const options = [{
-  id: 'platform',
-  label: 'Platform'
-}, {
-  id: 'distribution',
-  label: 'Distribution'
-}, {
-  id: 'platformOrDistribution',
-  label: 'Platform Or Distribution'
-}, {
-  id: 'notCertified',
-  label: 'Not Certified'
-}];
 const mapStateToProps = (state) => ({
   value: state.main.filters.certifiedKubernetes,
-  options: options
+  options: options('certifiedKubernetes')
 });
 const onChange = function(newValue) {
   return changeFilter('certifiedKubernetes', newValue);

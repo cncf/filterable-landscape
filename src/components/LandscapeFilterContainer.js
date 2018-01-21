@@ -1,28 +1,11 @@
 import { connect } from 'react-redux';
-import { createSelector } from 'reselect';
 import ComboboxSelector from './ComboboxSelector';
 import { changeFilter } from '../reducers/mainReducer.js';
-
-import _ from 'lodash';
-
-const getLandscapeList = createSelector(
-  (state) => state.main.data,
-  function(data) {
-    return _.uniq(_.sortBy(_.map(data, 'landscape')));
-  }
-);
-
-const getOptions = createSelector(
-  (state) => getLandscapeList(state),
-  function(names) {
-    return [{id: null, label: 'Any'}].concat(names.map((text) => ({id: text, label: text})))
-  }
-);
-
+import { options } from '../types/fields';
 
 const mapStateToProps = (state) => ({
   value: state.main.filters.landscape,
-  options: getOptions(state)
+  options: options('landscape')
 });
 const onChange = function(newValue) {
   return changeFilter('landscape', newValue);

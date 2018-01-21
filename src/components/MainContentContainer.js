@@ -4,80 +4,25 @@ import _ from 'lodash';
 import MainContent from './MainContent';
 import groupingLabel from '../utils/groupingLabel';
 import groupingOrder from '../utils/groupingOrder';
+import { filterFn, getGroupingValue } from '../types/fields';
 
 const getFilteredItems = createSelector(
   (state) => state.main.data,
   (state) => state.main.filters,
   function(data, filters) {
-    var filterCncfHostedProject = function(x) {
-      if (filters.cncfHostedProject === null) {
-        return true;
-      }
-      return x.cncfHostedProject === filters.cncfHostedProject;
-    }
-    var filterByOss = function(x) {
-      if (filters.oss === null) {
-        return true;
-      }
-      return x.oss === filters.oss;
-    }
-    var filterByCommercial = function(x) {
-      if (filters.commercial === null) {
-        return true;
-      }
-      return x.commercial === filters.commercial;
-    }
-    var filterByStars = function(x) {
-      if (!filters.stars) {
-        return true;
-      }
-      return x.starsCategory === filters.stars;
-    }
-    var filterByCertifiedKubernetes = function(x) {// eslint-disable-line no-unused-vars
-      return true;
-      // if (filters.certifiedKubernetes === null) {
-        // return true;
-      // }
-      // return x.certifiedKubernetes === filters.certifiedKubernetes;
-    }
-    var filterByLicense = function(x) {
-      if (filters.license === null) {
-        return true;
-      }
-      return x.license === filters.license;
-    }
-    var filterByMarketCap = function(x) {
-      if (filters.marketCap === null) {
-        return true;
-      }
-      return x.marketCapCategory === filters.marketCap;
-    }
-    var filterByVcFunder = function(x) {
-      if (filters.vcFunder.length === 0) {
-        return true;
-      }
-      return filters.vcFunder.indexOf(x.vcFunder) !== -1;
-    }
-    var filterByCompany = function(x) {
-      if (filters.company.length === 0) {
-        return true;
-      }
-      return filters.company.indexOf(x.company) !== -1;
-    }
-    var filterByHeadquaters = function(x) {
-      if (filters.headquaters === null) {
-        return true;
-      }
-      return x.headquaters === filters.headquaters;
-    }
-    var filterByLandscape = function(x) {
-      if (filters.landscape === null) {
-        return true;
-      }
-      return x.landscape === filters.landscape;
-    }
+    var filterCncfHostedProject = filterFn({field: 'cncfHostedProject', filters});
+    var filterByOss = filterFn({field: 'oss', filters});
+    var filterByCommercial = filterFn({field: 'commercial', filters});
+    var filterByStars = filterFn({field: 'stars', filters});
+    var filterByCertifiedKubernetes = filterFn({field: 'certifiedKubernetes', filters});
+    var filterByLicense = filterFn({field: 'license', filters});
+    var filterByMarketCap = filterFn({field: 'marketCap', filters});
+    var filterByVcFunder = filterFn({field: 'vcFunder', filters});
+    var filterByCompany = filterFn({field: 'company', filters});
+    var filterByHeadquarters = filterFn({field: 'headquarters', filters});
+    var filterByLandscape = filterFn({field: 'landscape', filters});
     return data.filter(function(x) {
-      return filterCncfHostedProject(x) && filterByOss(x) && filterByCommercial(x) && filterByStars(x) && filterByCertifiedKubernetes(x) && filterByLicense(x) && filterByMarketCap(x) && filterByVcFunder(x) && filterByCompany(x) && filterByHeadquaters(x) && filterByLandscape(x);
+      return filterCncfHostedProject(x) && filterByOss(x) && filterByCommercial(x) && filterByStars(x) && filterByCertifiedKubernetes(x) && filterByLicense(x) && filterByMarketCap(x) && filterByVcFunder(x) && filterByCompany(x) && filterByHeadquarters(x) && filterByLandscape(x);
     });
   }
 );
@@ -98,7 +43,7 @@ const getGroupedItems = createSelector(
   (state) => state.main.grouping,
   function(items, grouping) {
     const grouped = _.groupBy(items, function(item) {
-      return item[grouping];
+      return getGroupingValue({item: item, grouping: grouping});
     });
     return _.orderBy(_.map(grouped, function(value, key) {
       return {

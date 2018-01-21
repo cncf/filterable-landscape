@@ -1,16 +1,17 @@
 import { connect } from 'react-redux';
 import ComboboxSelector from './ComboboxSelector';
 import { changeSortField } from '../reducers/mainReducer.js';
+import fields from '../types/fields';
 
 const options = [{
   id: 'name',
   label: 'Alphabetical'
 }, {
   id: 'marketCap',
-  label: 'Market Cap'
+  label: fields.marketCap.groupingLabel
 }, {
   id: 'stars',
-  label: 'Stars'
+  label: fields.stars.groupingLabel
 }, {
   id: 'startDate',
   label: 'Date project started'
