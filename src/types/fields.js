@@ -125,6 +125,9 @@ const fields = {
       if (filterValue === 'notCertified') {
         return itemValue === false;
       }
+      if (filterValue === 'all') {
+        return itemValue === 'platform' || itemValue === 'distribution' || itemValue === false;
+      }
       console.info('oops, strange filter value: ', filterValue);
     },
     values: [{
@@ -143,6 +146,9 @@ const fields = {
     }, {
       id: 'notCertified',
       label: 'Not Certified',
+    }, {
+      id: 'all',
+      label: 'All Kubernetes Products'
     }],
     answers: [{
       id: null,
