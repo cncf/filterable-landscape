@@ -73,7 +73,7 @@ const fields = {
   },
   stars: {
     id: 'stars',
-    label: 'Stars',
+    label: '(fake) Stars',
     category: 'starsCategory',
     values: [{
       id: null,
@@ -108,7 +108,25 @@ const fields = {
   certifiedKubernetes: {
     id: 'certifiedKubernetes',
     url: 'kubernetes',
-    label: 'Certified Kubernetes',
+    label: '(fake) Certified Kubernetes',
+    filterFn: function(filterValue, itemValue) {
+      if (filterValue === null) {
+        return true;
+      }
+      if (filterValue === 'platform') {
+        return itemValue === 'platform'
+      }
+      if (filterValue === 'distribution') {
+        return itemValue === 'distribution';
+      }
+      if (filterValue === 'platformOrDistribution') {
+        return itemValue === 'platform' || itemValue === 'distribution';
+      }
+      if (filterValue === 'notCertified') {
+        return itemValue === false;
+      }
+      console.info('oops, strange filter value: ', filterValue);
+    },
     values: [{
       id: null,
       label: 'Any',
@@ -129,7 +147,7 @@ const fields = {
   },
   license: {
     id: 'license',
-    label: 'License',
+    label: '(fake) License',
     values: [{
       id: null,
       label: 'Any',
@@ -138,7 +156,7 @@ const fields = {
   },
   marketCap: {
     id: 'marketCap',
-    label: 'Market Cap of company',
+    label: '(fake) Market Cap of company',
     category: 'marketCapCategory',
     values: [{
       id: null,
@@ -178,7 +196,7 @@ const fields = {
   },
   vcFunder: {
     id: 'vcFunder',
-    label: 'VC Funders',
+    label: '(fake) VC Funders',
     values: [].concat(lookups.vcFunder || [])
   },
   company: {
@@ -189,7 +207,7 @@ const fields = {
   },
   headquarters: {
     id: 'headquarters',
-    label: 'Headquarters Location',
+    label: '(fake) Headquarters Location',
     isArray: true,
     values: [{
       id: null,
@@ -233,17 +251,20 @@ export function options(field) {
   });
 }
 export function filterFn({field, filters}) {
+  const fieldInfo = fields[field];
+  const filter = filters[field];
   return function(x) {
-    const filter = filters[field];
     // can be null, id, [] or [id1, id2, id3 ]
+    const value = fieldInfo.category ? x[fieldInfo.category] : x[field];
+    if (fieldInfo.filterFn) {
+      return fieldInfo.filterFn(filter, value);
+    }
     if (filter === null) {
       return true;
     }
     if (filter.length === 0) {
       return true;
     }
-    const fieldInfo = fields[field];
-    const value = fieldInfo.category ? x[fieldInfo.category] : x[field];
     if (_.isArray(filter)) {
       return filter.indexOf(value) !== -1;
     } else {

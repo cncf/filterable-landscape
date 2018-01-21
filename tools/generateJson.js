@@ -2,7 +2,7 @@ const source = require('js-yaml').safeLoad(require('fs').readFileSync('src/data.
 const traverse = require('traverse');
 const _ = require('lodash');
 import saneName from '../src/utils/saneName';
-import { sample, getCategory } from '../src/types/fields';
+import { getCategory } from '../src/types/fields';
 import fakeData from '../src/types/fakeData';
 
 
@@ -20,7 +20,7 @@ tree.map(function(node) {
       path: parts.join(' / '),
       landscape: parts[0],
       stars: _.random(12000),
-      certifiedKubernetes: sample('certifiedKubernetes'),
+      certifiedKubernetes: _.sample([null, false, 'platform', 'distribution']),
       license: _.sample(fakeData.license),
       marketCap: _.random(1000),
       vcFunder: _.sample(fakeData.vcFunder),
