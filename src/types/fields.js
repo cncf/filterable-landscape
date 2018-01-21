@@ -215,6 +215,7 @@ const fields = {
   },
   vcFunder: {
     id: 'vcFunder',
+    isArray: true,
     label: '(fake) VC Funders',
     values: [].concat(lookups.vcFunder || [])
   },
@@ -227,7 +228,6 @@ const fields = {
   headquarters: {
     id: 'headquarters',
     label: '(fake) Headquarters Location',
-    isArray: true,
     values: [{
       id: null,
       label: 'Any',
