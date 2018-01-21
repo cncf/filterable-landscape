@@ -143,6 +143,19 @@ const fields = {
     }, {
       id: 'notCertified',
       label: 'Not Certified',
+    }],
+    answers: [{
+      id: null,
+      groupingLabel: 'Not Related'
+    }, {
+      id: 'platform',
+      groupingLabel: 'Platform'
+    }, {
+      id: 'distribution',
+      groupingLabel: 'Distribution'
+    }, {
+      id: false,
+      groupingLabel: 'Not Certified'
     }]
   },
   license: {
@@ -227,15 +240,20 @@ const fields = {
 };
 _.each(fields, function(field, key) {
   field.id = key;
-  field.groupingLabel = field.groupingLabel || field.label;
   _.defaults(field, {
     groupingLabel: field.label,
-    url: field.id
+    url: field.id,
+    answers: field.values
   });
   _.each(field.values, function(value, index) {
     _.defaults(value, {
       groupingLabel: value.label,
       url: value.id,
+      groupingSortOrder: index
+    });
+  });
+  _.each(field.answers, function(value, index) {
+    _.defaults(value, {
       groupingSortOrder: index
     });
   });
