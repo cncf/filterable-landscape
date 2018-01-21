@@ -2,21 +2,25 @@
 
 Current [specification](https://docs.google.com/document/d/1QPVrXRjTWDQAwsbgSWutUmteXo0mTXcTvCNlz6qw0Uw/edit)
 
-# local-development
-1) install node 8.9 (once)
-2) install yarn (once)
-3) yarn (after fetching new commits)
-4) npm run yaml2json (after fetching new commits or changing src/data.yml file)
-5) yarn open:src (starts a development server)
+# Install on Mac
+1. Install [Homebrew](https://brew.sh/)
+2. `brew install node yarn`
+3. git clone git@github.com:cncf/filterable-landscape.git
+
+# Local development
+1. git pull
+2. `yarn`
+3. `npm run yaml2json` (after fetching new commits or changing src/data.yml file)
+4. `yarn open:src` (starts a development server)
      or
-   yarn open:dist (compiles and opens a production build)
+   `yarn open:dist` (compiles and opens a production build)
 
 
 # building a dist
-   1) yarn
-   2) yarn build
+   1. `yarn`
+   2. `yarn build`
 or with npm
-   1) npm run build
+   1. `npm run build`
 
 # rebuilding json from yaml and extra info:
-   npm run yaml2json
+   `npm run yaml2json`
