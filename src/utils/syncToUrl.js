@@ -51,7 +51,7 @@ function addFieldToParams({field, filters, params}) {
       const valueInfo = _.find(fieldInfo.values, {id: v});
       return valueInfo.url
     })
-    params[fieldInfo.url] = urlValues.join(',');
+    params[fieldInfo.url] = urlValues.join('|');
   }
 }
 function addGroupingToParams({grouping, params}) {
@@ -84,7 +84,7 @@ function setFieldFromParams({field, filters, params}) {
   if (!urlValue) {
     return;
   }
-  const parts = urlValue.split(',');
+  const parts = urlValue.split('|');
   const values = parts.map(function(part) {
     return _.find(fieldInfo.values, function(x) {
       return x.url.toLowerCase() === part.toLowerCase();

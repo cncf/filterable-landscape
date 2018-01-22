@@ -182,31 +182,31 @@ const fields = {
       label: 'Any',
       url: 'any'
     }, {
-      id: 'below1M',
+      id: 'below1m',
       label: '<1M',
       match: function(x) {
         return x < 1;
       }
     }, {
-      id: '1Mto10M',
+      id: '1mto10m',
       label: '1M-10M',
       match: function(x) {
         return 1 <= x && x < 10 ;
       }
     }, {
-      id: '10Mto100M',
+      id: '10mto100m',
       label: '10M-100M',
       match: function(x) {
         return 10 <= x && x < 100;
       }
     }, {
-      id: '100Mto1000M',
+      id: '100mto1000m',
       label: '100M-1000M',
       match: function(x) {
         return 100 <= x && x < 1000;
       }
     }, {
-      id: 'over1000M',
+      id: 'over1000m',
       label: '1000M+',
       match: function(x) {
         return 1000 <= x;
