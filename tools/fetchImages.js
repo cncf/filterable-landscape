@@ -37,7 +37,7 @@ async function fetchImages() {
         });
         require('fs').writeFileSync(fileName, response);
         logos.push({name: saneName(item.name), fileName: fileName});
-        console.info('saving logo for ', item.logo);
+        // console.info('saving logo for ', item.logo);
       } catch(ex) {
         console.info(`${item.name} has issues with logo: ${url}`);
         errors.push({
