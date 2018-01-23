@@ -33,8 +33,14 @@ const itemsWithExtraFields = items.map(function(item) {
   if (_.isUndefined(item.commercial)) {
     console.info('please, fix yaml and set commercial for ', item.name);
   }
+  const otherItems = _.filter(items, {name: item.name});
+  var id = saneName(item.name);
+  if (otherItems.length > 1) {
+    id = saneName(item.path + ' ' + item.name);
+  }
   return {
     ...item,
+    id: id,
     company: item.company || '(no company)',
     starsCategory: getCategory({field: 'stars', item: item}),
     marketCapCategory: getCategory({field: 'marketCap', item: item}),

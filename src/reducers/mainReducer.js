@@ -74,8 +74,13 @@ export function changeSortDirection(value) {
 }
 
 export function changeSelectedItemId(value) {
-  return function(dispatch) {
+  return function(dispatch, getState) {
     dispatch(setSelectedItemId(value));
+
+    const state = getState().main;
+    const url = filtersToUrl(state);
+    window.history.pushState({}, null, url);
+
   }
 }
 export function closeDialog() {
@@ -167,7 +172,8 @@ function setParametersHandler(state, action) {
     filters: _.assign({}, initialState.filters, action.value.filters),
     grouping: action.value.grouping || initialState.grouping,
     sortField: action.value.sortField || initialState.sortField,
-    sortDirection: action.value.sortDirection || initialState.sortDirection
+    sortDirection: action.value.sortDirection || initialState.sortDirection,
+    selectedItemId: action.value.selectedItemId || initialState.selectedItemId
   };
 }
 

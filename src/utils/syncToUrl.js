@@ -3,7 +3,7 @@ import _ from 'lodash';
 import qs from 'query-string';
 import fields from '../types/fields';
 
-export function filtersToUrl({filters, grouping, sortField, sortDirection}) {
+export function filtersToUrl({filters, grouping, sortField, sortDirection, selectedItemId}) {
   const params = {};
   var fieldNames = _.keys(fields);
   _.each(fieldNames, function(field) {
@@ -12,6 +12,7 @@ export function filtersToUrl({filters, grouping, sortField, sortDirection}) {
   addGroupingToParams({grouping: grouping, params: params});
   addSortFieldToParams({sortField: sortField, params: params});
   addSortDirectionToParams({sortDirection: sortDirection, params: params});
+  addSelectedItemIdToParams({selectedItemId: selectedItemId, params: params });
   if (_.isEmpty(params)) {
     return '/';
   }
@@ -37,6 +38,7 @@ export function parseUrl(url) {
   setGroupingFromParams({newParameters, params: args });
   setSortFieldFromParams({newParameters, params: args });
   setSortDirectionFromParams({newParameters, params: args });
+  setSelectedItemIdFromParams({newParameters, params: args });
   return newParameters;
 }
 
@@ -72,6 +74,13 @@ function addSortDirectionToParams({sortDirection, params}) {
   const value = sortDirection;
   if (value !== initialState.sortDirection) {
     params['sortDirection'] = value;
+  }
+}
+
+function addSelectedItemIdToParams({selectedItemId, params}) {
+  const value = selectedItemId;
+  if (value !== initialState.selectedItemId) {
+    params['selected'] = value;
   }
 }
 
@@ -134,4 +143,12 @@ function setSortDirectionFromParams({ newParameters, params}) {
   if (!_.isUndefined(sortDirection)) {
     newParameters.sortDirection = sortDirection;
   }
+}
+
+function setSelectedItemIdFromParams({ newParameters, params}) {
+  const urlValue = params.selected;
+  if (!urlValue) {
+    return;
+  }
+  newParameters.selectedItemId = urlValue;
 }
