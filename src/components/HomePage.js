@@ -8,6 +8,7 @@ import MainContentContainer from './MainContentContainer';
 import LeftPanelInfoContainer from './LeftPanelInfoContainer';
 import HomePageUrlContainer from './HomePageUrlContainer';
 import ResetFiltersContainer from './ResetFiltersContainer';
+import ItemDialogContainer from './ItemDialogContainer';
 
 
 const HomePage = ({hasData}) => {
@@ -17,6 +18,7 @@ const HomePage = ({hasData}) => {
   return (
     <div style={{overflow: 'hidden', background: 'white'}}>
       <HomePageUrlContainer />
+      <ItemDialogContainer />
       <Grid container spacing={24}>
         <Grid item xs={3} sm={3} >
           <ResetFiltersContainer />

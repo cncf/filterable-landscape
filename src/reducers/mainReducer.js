@@ -23,7 +23,8 @@ export const initialState = {
   },
   grouping: 'cncfHostedProject',
   sortField: 'name',
-  sortDirection: 'asc'
+  sortDirection: 'asc',
+  selectedItemId: null
 };
 // thunk
 export function loadMainData() {
@@ -71,6 +72,18 @@ export function changeSortDirection(value) {
     window.history.pushState({}, null, url);
   }
 }
+
+export function changeSelectedItemId(value) {
+  return function(dispatch) {
+    dispatch(setSelectedItemId(value));
+  }
+}
+export function closeDialog() {
+  return function(dispatch) {
+    dispatch(setSelectedItemId(null));
+  }
+}
+
 
 export function changeParameters(value) {
   return function(dispatch) {
@@ -124,6 +137,13 @@ function setParameters(value) {
   }
 }
 
+function setSelectedItemId(value) {
+  return {
+    type: 'Main/SetSelectedItemId',
+    value: value
+  }
+}
+
 function setDataHandler(state, action) {
   return { ...state, data: action.data };
 }
@@ -138,6 +158,9 @@ function setSortFieldHandler(state, action) {
 }
 function setSortDirectionHandler(state, action) {
   return {...state, sortDirection: action.value };
+}
+function setSelectedItemIdHandler(state, action) {
+  return {...state, selectedItemId: action.value };
 }
 function setParametersHandler(state, action) {
   return {...state,
@@ -162,6 +185,8 @@ function reducer(state = initialState, action) {
       return setSortDirectionHandler(state, action);
     case 'Main/SetParameters':
       return setParametersHandler(state, action);
+    case 'Main/SetSelectedItemId':
+      return setSelectedItemIdHandler(state, action);
     default:
       return state;
   }
