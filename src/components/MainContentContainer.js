@@ -5,6 +5,7 @@ import MainContent from './MainContent';
 import groupingLabel from '../utils/groupingLabel';
 import groupingOrder from '../utils/groupingOrder';
 import { filterFn, getGroupingValue } from '../types/fields';
+import { changeSelectedItemId } from '../reducers/mainReducer';
 
 const getFilteredItems = createSelector(
   (state) => state.main.data,
@@ -59,6 +60,8 @@ const getGroupedItems = createSelector(
 const mapStateToProps = (state) => ({
   groupedItems: getGroupedItems(state)
 });
-const mapDispatchToProps = {};
+const mapDispatchToProps = {
+  onSelectItem: changeSelectedItemId
+};
 
 export default connect(mapStateToProps, mapDispatchToProps)(MainContent);
