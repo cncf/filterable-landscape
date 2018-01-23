@@ -122,7 +122,7 @@
 			<![endif]-->
 	<script>
         if(typeof(Storage) !== "undefined") {
-            sessionStorage.mkt_region = "AMER";
+            sessionStorage.mkt_region = "EMEA";
         }
         $(document).ready(function() {
             $("html").attr("lang", 'en-US');
