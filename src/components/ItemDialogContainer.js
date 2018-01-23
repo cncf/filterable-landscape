@@ -8,7 +8,7 @@ const getSelectedItem = createSelector(
   (state) => state.main.data,
   (state) => state.main.selectedItemId,
   function(items, selectedItemId) {
-    return _.find(items, {path: selectedItemId});
+    return _.find(items, function(x) { return x.path + '/' + x.name ===  selectedItemId});
   }
 )
 const mapStateToProps = (state) => ({

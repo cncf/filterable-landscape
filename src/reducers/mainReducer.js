@@ -24,7 +24,7 @@ export const initialState = {
   grouping: 'cncfHostedProject',
   sortField: 'name',
   sortDirection: 'asc',
-  selectedItemId: "Runtime / Cloud-Native Storage"
+  selectedItemId: null
 };
 // thunk
 export function loadMainData() {

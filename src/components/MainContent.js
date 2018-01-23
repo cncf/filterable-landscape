@@ -4,7 +4,7 @@ import { GridListTileBar } from 'material-ui/GridList';
 import Subheader from 'material-ui/List/ListSubheader';
 import _ from 'lodash';
 
-const MainContent = ({groupedItems}) => {
+const MainContent = ({groupedItems, onSelectItem}) => {
   const itemsAndHeaders = _.map(groupedItems, function(groupedItem) {
     return [
       <div key={"subheader:" + groupedItem.header} style={{position: 'relative', height: 80, margin: 20}}>
@@ -13,12 +13,13 @@ const MainContent = ({groupedItems}) => {
     ].concat(_.map(groupedItem.items, function(item) {
       return <div style={{position: 'relative', display: 'inline-block', width: 200, height: 180, margin: 20}} key={item.path + '/' + item.name}>
             <div className={item.logo} style={{
+              'cursor': 'pointer',
               'width': '100%',
               'height': '50%',
               'backgroundSize': 'contain',
               'backgroundRepeat': 'no-repeat',
               'backgroundPosition': 'center'
-            }}/>
+            }} onClick={() => onSelectItem(item.path + '/' + item.name)}/>
             <GridListTileBar
               title={item.name}
               subtitle={<div><span>{item.company} (${item.marketCap}M)</span> | <span>⭐️ {item.stars}</span></div>}
