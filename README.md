@@ -1,3 +1,4 @@
+
 # filterable-landscape
 
 Current [specification](https://docs.google.com/document/d/1QPVrXRjTWDQAwsbgSWutUmteXo0mTXcTvCNlz6qw0Uw/edit)
@@ -23,3 +24,6 @@ or with npm
 
 # rebuilding json from yaml and extra info:
    `npm run yaml2json`
+
+$ rebuilding images:
+   `./node_modules/bin/babel-node tools/fetchImages.js`
