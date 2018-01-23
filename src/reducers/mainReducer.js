@@ -84,8 +84,12 @@ export function changeSelectedItemId(value) {
   }
 }
 export function closeDialog() {
-  return function(dispatch) {
+  return function(dispatch, getState) {
     dispatch(setSelectedItemId(null));
+
+    const state = getState().main;
+    const url = filtersToUrl(state);
+    window.history.pushState({}, null, url);
   }
 }
 
