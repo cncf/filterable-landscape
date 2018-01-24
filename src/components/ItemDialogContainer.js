@@ -2,7 +2,6 @@ import { connect } from 'react-redux';
 import { createSelector } from 'reselect';
 import _ from 'lodash';
 import ItemDialog from './ItemDialog';
-import Button from 'material-ui/Button';
 
 import { changeSelectedItemId, closeDialog } from '../reducers/mainReducer';
 import getGroupedItems from '../utils/itemsCalculator';
