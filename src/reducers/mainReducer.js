@@ -83,6 +83,7 @@ export function changeSelectedItemId(value) {
 
   }
 }
+
 export function closeDialog() {
   return function(dispatch, getState) {
     dispatch(setSelectedItemId(null));

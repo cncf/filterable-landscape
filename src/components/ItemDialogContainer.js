@@ -2,20 +2,33 @@ import { connect } from 'react-redux';
 import { createSelector } from 'reselect';
 import _ from 'lodash';
 import ItemDialog from './ItemDialog';
-import { closeDialog } from '../reducers/mainReducer';
+import Button from 'material-ui/Button';
+
+import { changeSelectedItemId, closeDialog } from '../reducers/mainReducer';
+import getGroupedItems from '../utils/itemsCalculator';
 
 const getSelectedItem = createSelector(
-  (state) => state.main.data,
+  (state) => getGroupedItems(state),
   (state) => state.main.selectedItemId,
-  function(items, selectedItemId) {
-    return _.find(items, {id: selectedItemId});
+  function(groupedItems, selectedItemId) {
+    const items = _.flatten(_.map(groupedItems, 'items'));
+    const index = _.findIndex(items, {id: selectedItemId});
+    const item = items[index];
+    const nextItem = items[index + 1];
+    const previousItem = items[index - 1];
+    return {
+      itemInfo: item,
+      nextItemId: (nextItem || {id: null}).id,
+      previousItemId: (previousItem || {id: null}).id
+    };
   }
 )
 const mapStateToProps = (state) => ({
-  itemInfo: getSelectedItem(state)
+  ... getSelectedItem(state)
 });
 const mapDispatchToProps = {
-  onClose: closeDialog
+  onClose: closeDialog,
+  onSelectItem: changeSelectedItemId
 };
 
 export default connect(mapStateToProps, mapDispatchToProps)(ItemDialog);

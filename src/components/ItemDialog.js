@@ -1,7 +1,8 @@
 import React from 'react';
 import Dialog, { DialogTitle } from 'material-ui/Dialog';
+import Button from 'material-ui/Button';
 
-const ItemDialog = ({onClose, itemInfo }) => {
+const ItemDialog = ({onClose, itemInfo, previousItemId, nextItemId, onSelectItem }) => {
   if (!itemInfo) {
     return null;
   }
@@ -17,6 +18,8 @@ const ItemDialog = ({onClose, itemInfo }) => {
           'backgroundRepeat': 'no-repeat',
           'backgroundPosition': 'center'
         }} />
+      <Button disabled={!previousItemId} onClick={() => onSelectItem(previousItemId)}>Previous</Button>
+      <Button disabled={!nextItemId} onClick={() => onSelectItem(nextItemId)}>Next</Button>
         <span>Name</span>{itemInfo.name}
         <br/>
         <span>Stars</span>{itemInfo.stars}
