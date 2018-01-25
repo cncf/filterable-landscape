@@ -16,18 +16,6 @@ const fakeData = {
     'Other Funder 7',
     'Other Funder 8',
     'Other Funder 9'
-  ],
-  headquarters: [
-    'New York',
-    'LA',
-    'Denver',
-    'West Palm Beach',
-    'Florida',
-    'City1',
-    'City2',
-    'City3',
-    'City4',
-    'City5'
   ]
 }
 export default fakeData;

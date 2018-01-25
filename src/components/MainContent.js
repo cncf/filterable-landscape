@@ -3,6 +3,7 @@ import React from 'react';
 import { GridListTileBar } from 'material-ui/GridList';
 import Subheader from 'material-ui/List/ListSubheader';
 import _ from 'lodash';
+import formatAmount from '../utils/formatAmount';
 
 const MainContent = ({groupedItems, onSelectItem}) => {
   const itemsAndHeaders = _.map(groupedItems, function(groupedItem) {
@@ -22,7 +23,7 @@ const MainContent = ({groupedItems, onSelectItem}) => {
             }} onClick={() => onSelectItem(item.id)}/>
             <GridListTileBar
               title={item.name}
-              subtitle={<div><span>{item.company} (${item.marketCap}M)</span> | <span>⭐️ {item.stars}</span></div>}
+              subtitle={<div><span>{item.company} ({formatAmount(item.marketCap)})</span> | <span>⭐️ {item.stars}</span></div>}
             />
           </div>
     }));
