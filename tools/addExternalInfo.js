@@ -29,4 +29,5 @@ const newSource = tree.map(function(node) {
 });
 var dump = require('js-yaml').dump(newSource);
 dump = dump.replace(/(- \w+:) null/g, '$1');
+dump = "# THIS FILE IS GENERATED AUTOMATICALLY!\n" + dump;
 require('fs').writeFileSync('src/dataWithExternalInfo.yml', dump);
