@@ -1,4 +1,4 @@
-const source = require('js-yaml').safeLoad(require('fs').readFileSync('src/dataWithExternalInfo.yml'));
+const source = require('js-yaml').safeLoad(require('fs').readFileSync('processed_landscape.yml'));
 const traverse = require('traverse');
 const _ = require('lodash');
 import saneName from '../src/utils/saneName';

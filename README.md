@@ -11,7 +11,7 @@ Current [specification](https://docs.google.com/document/d/1QPVrXRjTWDQAwsbgSWut
 # Local development
 1. `git pull`
 2. `yarn` (installs dependencies)
-3. `npm run yaml2json` (after fetching new commits or changing src/data.yml file)
+3. `npm run yaml2json` (after fetching new commits or changing landscape.yml file)
 * `yarn open:src` (starts a development server) or
 * `yarn open:dist` (compiles and opens a production build)
 

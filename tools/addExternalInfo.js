@@ -1,4 +1,4 @@
-const source = require('js-yaml').safeLoad(require('fs').readFileSync('src/data.yml'));
+const source = require('js-yaml').safeLoad(require('fs').readFileSync('landscape.yml'));
 const traverse = require('traverse');
 const _ = require('lodash');
 import parse from 'csv-parse/lib/sync';
@@ -43,4 +43,4 @@ const newSource = tree.map(function(node) {
 var dump = require('js-yaml').dump(newSource);
 dump = dump.replace(/(- \w+:) null/g, '$1');
 dump = "# THIS FILE IS GENERATED AUTOMATICALLY!\n" + dump;
-require('fs').writeFileSync('src/dataWithExternalInfo.yml', dump);
+require('fs').writeFileSync('processed_landscape.yml', dump);

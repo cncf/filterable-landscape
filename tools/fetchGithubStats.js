@@ -1,5 +1,5 @@
 const Promise = require('bluebird');
-const source = require('js-yaml').safeLoad(require('fs').readFileSync('src/data.yml'));
+const source = require('js-yaml').safeLoad(require('fs').readFileSync('landscape.yml'));
 const traverse = require('traverse');
 import _ from 'lodash';
 const rp = require('request-promise');

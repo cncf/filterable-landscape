@@ -10,14 +10,14 @@
     "license": "MIT"
   },
   {
-    "url": "https://github.com/sourcegraph/appdash",
-    "stars": 1207,
-    "license": "N/A"
-  },
-  {
     "url": "https://github.com/docker/swarm",
     "stars": 4969,
     "license": "Apache-2.0"
+  },
+  {
+    "url": "https://github.com/sourcegraph/appdash",
+    "stars": 1207,
+    "license": "N/A"
   },
   {
     "url": "https://github.com/hashicorp/nomad",
@@ -26,7 +26,7 @@
   },
   {
     "url": "https://github.com/kubernetes/kubernetes",
-    "stars": 31776,
+    "stars": 31779,
     "license": "Apache-2.0"
   },
   {
@@ -65,11 +65,6 @@
     "license": "Apache-2.0"
   },
   {
-    "url": "https://github.com/uber/jaeger",
-    "stars": 3845,
-    "license": "Apache-2.0"
-  },
-  {
     "url": "https://github.com/openzipkin/zipkin",
     "stars": 7535,
     "license": "Apache-2.0"
@@ -78,6 +73,16 @@
     "url": "https://github.com/fluent/fluentd",
     "stars": 5974,
     "license": "N/A"
+  },
+  {
+    "url": "https://github.com/uber/jaeger",
+    "stars": 3847,
+    "license": "Apache-2.0"
+  },
+  {
+    "url": "https://github.com/weaveworks/weave",
+    "stars": 4918,
+    "license": "Apache-2.0"
   },
   {
     "url": "https://github.com/ar-stackrox",
@@ -93,11 +98,6 @@
     "url": "https://github.com/sensu",
     "stars": "N/A",
     "license": "N/A"
-  },
-  {
-    "url": "https://github.com/weaveworks/weave",
-    "stars": 4918,
-    "license": "Apache-2.0"
   },
   {
     "url": "https://github.com/grafana/",
@@ -206,7 +206,7 @@
   },
   {
     "url": "https://github.com/influxdata/influxdb",
-    "stars": 12419,
+    "stars": 12421,
     "license": "N/A"
   },
   {
@@ -215,19 +215,29 @@
     "license": "Apache-2.0"
   },
   {
-    "url": "https://github.com/topics/oracle-application-container-cloud",
-    "stars": "N/A",
-    "license": "N/A"
-  },
-  {
     "url": "https://github.com/fission/fission",
     "stars": 2960,
     "license": "Apache-2.0"
   },
   {
+    "url": "https://github.com/topics/oracle-application-container-cloud",
+    "stars": "N/A",
+    "license": "N/A"
+  },
+  {
     "url": "https://github.com/apache/incubator-openwhisk",
     "stars": 2350,
     "license": "Apache-2.0"
+  },
+  {
+    "url": "https://github.com/openfaas/faas",
+    "stars": 8413,
+    "license": "MIT"
+  },
+  {
+    "url": "https://github.com/SUSE/doc-caasp",
+    "stars": 10,
+    "license": "N/A"
   },
   {
     "url": "https://github.com/Scalingo",
@@ -248,16 +258,6 @@
     "url": "https://github.com/portainer",
     "stars": "N/A",
     "license": "N/A"
-  },
-  {
-    "url": "https://github.com/SUSE/doc-caasp",
-    "stars": 10,
-    "license": "N/A"
-  },
-  {
-    "url": "https://github.com/openfaas/faas",
-    "stars": 8413,
-    "license": "MIT"
   },
   {
     "url": "https://github.com/lightbend",
@@ -310,19 +310,24 @@
     "license": "N/A"
   },
   {
-    "url": "https://github.com/tsuru/tsuru",
-    "stars": 2638,
-    "license": "BSD-3-Clause"
-  },
-  {
     "url": "https://github.com/deis/workflow",
     "stars": 1073,
     "license": "MIT"
   },
   {
+    "url": "https://github.com/tsuru/tsuru",
+    "stars": 2638,
+    "license": "BSD-3-Clause"
+  },
+  {
     "url": "https://github.com/Nirmata",
     "stars": "N/A",
     "license": "N/A"
+  },
+  {
+    "url": "https://github.com/mantl/mantl",
+    "stars": 3003,
+    "license": "Apache-2.0"
   },
   {
     "url": "https://github.com/iron-io",
@@ -343,11 +348,6 @@
     "url": "https://github.com/kublr",
     "stars": "N/A",
     "license": "N/A"
-  },
-  {
-    "url": "https://github.com/mantl/mantl",
-    "stars": 3003,
-    "license": "Apache-2.0"
   },
   {
     "url": "https://github.com/kontena/kontena",
@@ -435,16 +435,6 @@
     "license": "N/A"
   },
   {
-    "url": "https://github.com/habitat-sh",
-    "stars": "N/A",
-    "license": "N/A"
-  },
-  {
-    "url": "https://github.com/rancher/rancher",
-    "stars": 7582,
-    "license": "N/A"
-  },
-  {
     "url": "https://github.com/Yelp/paasta",
     "stars": 1176,
     "license": "Apache-2.0"
@@ -452,6 +442,21 @@
   {
     "url": "https://github.com/xebialabs-community/xld-xldeploy-plugin",
     "stars": 0,
+    "license": "N/A"
+  },
+  {
+    "url": "https://github.com/rancher/rancher",
+    "stars": 7584,
+    "license": "N/A"
+  },
+  {
+    "url": "https://github.com/habitat-sh",
+    "stars": "N/A",
+    "license": "N/A"
+  },
+  {
+    "url": "https://github.com/apache/brooklyn",
+    "stars": 65,
     "license": "N/A"
   },
   {
@@ -465,14 +470,14 @@
     "license": "N/A"
   },
   {
-    "url": "https://github.com/apache/brooklyn",
-    "stars": 65,
-    "license": "N/A"
+    "url": "https://github.com/docker/compose",
+    "stars": 11664,
+    "license": "Apache-2.0"
   },
   {
-    "url": "https://github.com/docker/compose",
-    "stars": 11663,
-    "license": "Apache-2.0"
+    "url": "https://github.com/hashicorp/packer",
+    "stars": 7249,
+    "license": "MPL-2.0"
   },
   {
     "url": "https://github.com/nats-io",
@@ -483,11 +488,6 @@
     "url": "https://github.com/rabbitmq",
     "stars": "N/A",
     "license": "N/A"
-  },
-  {
-    "url": "https://github.com/hashicorp/packer",
-    "stars": 7249,
-    "license": "MPL-2.0"
   },
   {
     "url": "https://github.com/apache/incubator-pulsar",
@@ -520,18 +520,18 @@
     "license": "Apache-2.0"
   },
   {
-    "url": "https://github.com/twitter/heron",
-    "stars": 3068,
-    "license": "Apache-2.0"
-  },
-  {
     "url": "https://github.com/scylladb",
     "stars": "N/A",
     "license": "N/A"
   },
   {
+    "url": "https://github.com/twitter/heron",
+    "stars": 3068,
+    "license": "Apache-2.0"
+  },
+  {
     "url": "https://github.com/apache/spark",
-    "stars": 15945,
+    "stars": 15946,
     "license": "Apache-2.0"
   },
   {
@@ -580,6 +580,16 @@
     "license": "Apache-2.0"
   },
   {
+    "url": "https://github.com/pachyderm/pachyderm",
+    "stars": 2489,
+    "license": "Apache-2.0"
+  },
+  {
+    "url": "https://github.com/attic-labs/noms",
+    "stars": 6423,
+    "license": "N/A"
+  },
+  {
     "url": "https://github.com/MariaDB",
     "stars": "N/A",
     "license": "N/A"
@@ -588,16 +598,6 @@
     "url": "https://github.com/redis",
     "stars": "N/A",
     "license": "N/A"
-  },
-  {
-    "url": "https://github.com/attic-labs/noms",
-    "stars": 6423,
-    "license": "N/A"
-  },
-  {
-    "url": "https://github.com/pachyderm/pachyderm",
-    "stars": 2489,
-    "license": "Apache-2.0"
   },
   {
     "url": "https://github.com/bigchaindb/bigchaindb",
@@ -613,11 +613,6 @@
     "url": "https://github.com/mysql",
     "stars": "N/A",
     "license": "N/A"
-  },
-  {
-    "url": "https://github.com/crate/crate",
-    "stars": 1890,
-    "license": "ECL-2.0"
   },
   {
     "url": "https://github.com/weaveworks",
@@ -640,8 +635,23 @@
     "license": "N/A"
   },
   {
+    "url": "https://github.com/crate/crate",
+    "stars": 1890,
+    "license": "ECL-2.0"
+  },
+  {
     "url": "https://github.com/apache/cassandra",
     "stars": 4139,
+    "license": "Apache-2.0"
+  },
+  {
+    "url": "https://github.com/mongodb/mongo",
+    "stars": 12992,
+    "license": "N/A"
+  },
+  {
+    "url": "https://github.com/pingcap/tidb",
+    "stars": 11532,
     "license": "Apache-2.0"
   },
   {
@@ -650,9 +660,9 @@
     "license": "N/A"
   },
   {
-    "url": "https://github.com/mongodb/mongo",
-    "stars": 12991,
-    "license": "N/A"
+    "url": "https://github.com/Juniper/contrail-controller",
+    "stars": 333,
+    "license": "Apache-2.0"
   },
   {
     "url": "https://github.com/midokura",
@@ -672,21 +682,6 @@
   {
     "url": "https://github.com/contiv",
     "stars": "N/A",
-    "license": "N/A"
-  },
-  {
-    "url": "https://github.com/pingcap/tidb",
-    "stars": 11532,
-    "license": "Apache-2.0"
-  },
-  {
-    "url": "https://github.com/Juniper/contrail-controller",
-    "stars": 333,
-    "license": "Apache-2.0"
-  },
-  {
-    "url": "https://github.com/openstack/vmware-nsx",
-    "stars": 50,
     "license": "N/A"
   },
   {
@@ -715,18 +710,18 @@
     "license": "N/A"
   },
   {
+    "url": "https://github.com/openstack/vmware-nsx",
+    "stars": 50,
+    "license": "N/A"
+  },
+  {
     "url": "https://github.com/coreos/flannel",
-    "stars": 2720,
+    "stars": 2721,
     "license": "Apache-2.0"
   },
   {
     "url": "https://github.com/projectcalico/canal",
     "stars": 472,
-    "license": "N/A"
-  },
-  {
-    "url": "https://github.com/rkt",
-    "stars": "N/A",
     "license": "N/A"
   },
   {
@@ -740,6 +735,11 @@
     "license": "N/A"
   },
   {
+    "url": "https://github.com/rkt",
+    "stars": "N/A",
+    "license": "N/A"
+  },
+  {
     "url": "https://github.com/openebs",
     "stars": "N/A",
     "license": "N/A"
@@ -750,14 +750,19 @@
     "license": "N/A"
   },
   {
-    "url": "https://github.com/opencontainers/runc",
-    "stars": 4397,
-    "license": "Apache-2.0"
-  },
-  {
     "url": "https://github.com/sheepdog",
     "stars": "N/A",
     "license": "N/A"
+  },
+  {
+    "url": "https://github.com/lxc/lxd",
+    "stars": 1632,
+    "license": "Apache-2.0"
+  },
+  {
+    "url": "https://github.com/opencontainers/runc",
+    "stars": 4397,
+    "license": "Apache-2.0"
   },
   {
     "url": "https://github.com/openstack/swift",
@@ -765,8 +770,8 @@
     "license": "Apache-2.0"
   },
   {
-    "url": "https://github.com/lxc/lxd",
-    "stars": 1632,
+    "url": "https://github.com/leo-project/leofs",
+    "stars": 1114,
     "license": "Apache-2.0"
   },
   {
@@ -778,6 +783,11 @@
     "url": "https://github.com/rook",
     "stars": "N/A",
     "license": "N/A"
+  },
+  {
+    "url": "https://github.com/codedellemc/rexray",
+    "stars": 1040,
+    "license": "Apache-2.0"
   },
   {
     "url": "https://github.com/codedellemc/rexray/tree/master/libstorage",
@@ -795,16 +805,6 @@
     "license": "N/A"
   },
   {
-    "url": "https://github.com/leo-project/leofs",
-    "stars": 1114,
-    "license": "Apache-2.0"
-  },
-  {
-    "url": "https://github.com/codedellemc/rexray",
-    "stars": 1040,
-    "license": "Apache-2.0"
-  },
-  {
     "url": "https://github.com/gluster",
     "stars": "N/A",
     "license": "N/A"
@@ -813,11 +813,6 @@
     "url": "https://github.com/ceph",
     "stars": "N/A",
     "license": "N/A"
-  },
-  {
-    "url": "https://github.com/joyent/manta",
-    "stars": 415,
-    "license": "MPL-2.0"
   },
   {
     "url": "https://github.com/kanisterio/kanister",
@@ -835,9 +830,9 @@
     "license": "N/A"
   },
   {
-    "url": "https://github.com/spiffe/spire",
-    "stars": 129,
-    "license": "N/A"
+    "url": "https://github.com/joyent/manta",
+    "stars": 415,
+    "license": "MPL-2.0"
   },
   {
     "url": "https://github.com/apache/hadoop",
@@ -845,14 +840,19 @@
     "license": "Apache-2.0"
   },
   {
-    "url": "https://github.com/pinterest/knox",
-    "stars": 549,
-    "license": "Apache-2.0"
+    "url": "https://github.com/spiffe/spire",
+    "stars": 129,
+    "license": "N/A"
   },
   {
     "url": "https://github.com/hashicorp/vault",
     "stars": 8354,
     "license": "MPL-2.0"
+  },
+  {
+    "url": "https://github.com/pinterest/knox",
+    "stars": 549,
+    "license": "Apache-2.0"
   },
   {
     "url": "https://github.com/theupdateframework",
@@ -863,11 +863,6 @@
     "url": "https://github.com/OpenSCAP",
     "stars": "N/A",
     "license": "N/A"
-  },
-  {
-    "url": "https://github.com/square/keywhiz",
-    "stars": 1861,
-    "license": "Apache-2.0"
   },
   {
     "url": "https://github.com/coreos",
@@ -920,8 +915,18 @@
     "license": "N/A"
   },
   {
+    "url": "https://github.com/square/keywhiz",
+    "stars": 1861,
+    "license": "Apache-2.0"
+  },
+  {
     "url": "https://github.com/lyft/confidant",
     "stars": 1236,
+    "license": "Apache-2.0"
+  },
+  {
+    "url": "https://github.com/docker/docker-registry",
+    "stars": 2759,
     "license": "Apache-2.0"
   },
   {
@@ -930,24 +935,14 @@
     "license": "N/A"
   },
   {
+    "url": "https://github.com/docker/notary",
+    "stars": 1161,
+    "license": "Apache-2.0"
+  },
+  {
     "url": "https://github.com/projectatomic/atomic",
     "stars": 379,
     "license": "N/A"
-  },
-  {
-    "url": "https://github.com/vmware/harbor",
-    "stars": 3519,
-    "license": "N/A"
-  },
-  {
-    "url": "https://github.com/kris-nova/kubicorn",
-    "stars": 924,
-    "license": "Apache-2.0"
-  },
-  {
-    "url": "https://github.com/docker/docker-registry",
-    "stars": 2759,
-    "license": "Apache-2.0"
   },
   {
     "url": "https://github.com/juju",
@@ -985,9 +980,9 @@
     "license": "N/A"
   },
   {
-    "url": "https://github.com/docker/notary",
-    "stars": 1161,
-    "license": "Apache-2.0"
+    "url": "https://github.com/vmware/harbor",
+    "stars": 3520,
+    "license": "N/A"
   },
   {
     "url": "https://github.com/maas",
@@ -1000,8 +995,18 @@
     "license": "N/A"
   },
   {
+    "url": "https://github.com/kris-nova/kubicorn",
+    "stars": 924,
+    "license": "Apache-2.0"
+  },
+  {
     "url": "https://github.com/Netflix/",
     "stars": "N/A",
+    "license": "N/A"
+  },
+  {
+    "url": "https://github.com/theforeman/theforeman.org",
+    "stars": 80,
     "license": "N/A"
   },
   {
@@ -1010,23 +1015,33 @@
     "license": "Apache-2.0"
   },
   {
-    "url": "https://github.com/Netflix/Hystrix",
-    "stars": 12353,
-    "license": "Apache-2.0"
-  },
-  {
     "url": "https://github.com/Netflix/ribbon",
     "stars": 1833,
     "license": "Apache-2.0"
   },
   {
-    "url": "https://github.com/theforeman/theforeman.org",
-    "stars": 80,
-    "license": "N/A"
+    "url": "https://github.com/Netflix/Hystrix",
+    "stars": 12353,
+    "license": "Apache-2.0"
   },
   {
     "url": "https://github.com/Mashape/kong",
     "stars": 14056,
+    "license": "Apache-2.0"
+  },
+  {
+    "url": "https://github.com/weaveworks/flux",
+    "stars": 324,
+    "license": "Apache-2.0"
+  },
+  {
+    "url": "https://github.com/magneticio/vamp",
+    "stars": 573,
+    "license": "Apache-2.0"
+  },
+  {
+    "url": "https://github.com/apache/avro",
+    "stars": 841,
     "license": "Apache-2.0"
   },
   {
@@ -1043,21 +1058,6 @@
     "url": "https://github.com/turbinelabs",
     "stars": "N/A",
     "license": "N/A"
-  },
-  {
-    "url": "https://github.com/weaveworks/flux",
-    "stars": 324,
-    "license": "Apache-2.0"
-  },
-  {
-    "url": "https://github.com/apache/avro",
-    "stars": 841,
-    "license": "Apache-2.0"
-  },
-  {
-    "url": "https://github.com/magneticio/vamp",
-    "stars": 573,
-    "license": "Apache-2.0"
   },
   {
     "url": "https://github.com/datawire",
@@ -1086,7 +1086,7 @@
   },
   {
     "url": "https://github.com/containous/traefik",
-    "stars": 12555,
+    "stars": 12556,
     "license": "MIT"
   },
   {
@@ -1101,7 +1101,7 @@
   },
   {
     "url": "https://github.com/lyft/envoy",
-    "stars": 3677,
+    "stars": 3678,
     "license": "Apache-2.0"
   },
   {
@@ -1146,12 +1146,12 @@
   },
   {
     "url": "https://github.com/hashicorp/consul",
-    "stars": 11233,
+    "stars": 11234,
     "license": "MPL-2.0"
   },
   {
     "url": "https://github.com/coreos/etcd",
-    "stars": 16523,
+    "stars": 16524,
     "license": "Apache-2.0"
   }
 ]
