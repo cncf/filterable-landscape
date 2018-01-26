@@ -239,12 +239,12 @@ const fields = {
       }
     }]
   },
-  vcFunder: {
-    id: 'vcFunder',
-    isArray: true,
-    label: '(fake) VC Funders',
-    values: [].concat(lookups.vcFunder || [])
-  },
+  // vcFunder: {
+    // id: 'vcFunder',
+    // isArray: true,
+    // label: '(fake) VC Funders',
+    // values: [].concat(lookups.vcFunder || [])
+  // },
   company: {
     id: 'company',
     label: 'Company',

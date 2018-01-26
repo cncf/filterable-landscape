@@ -15,12 +15,12 @@ const getFilteredItems = createSelector(
     var filterByCertifiedKubernetes = filterFn({field: 'certifiedKubernetes', filters});
     var filterByLicense = filterFn({field: 'license', filters});
     var filterByMarketCap = filterFn({field: 'marketCap', filters});
-    var filterByVcFunder = filterFn({field: 'vcFunder', filters});
+    // var filterByVcFunder = filterFn({field: 'vcFunder', filters});
     var filterByCompany = filterFn({field: 'company', filters});
     var filterByHeadquarters = filterFn({field: 'headquarters', filters});
     var filterByLandscape = filterFn({field: 'landscape', filters});
     return data.filter(function(x) {
-      return filterCncfHostedProject(x) && filterByOss(x) && filterByCommercial(x) && filterByStars(x) && filterByCertifiedKubernetes(x) && filterByLicense(x) && filterByMarketCap(x) && filterByVcFunder(x) && filterByCompany(x) && filterByHeadquarters(x) && filterByLandscape(x);
+      return filterCncfHostedProject(x) && filterByOss(x) && filterByCommercial(x) && filterByStars(x) && filterByCertifiedKubernetes(x) && filterByLicense(x) && filterByMarketCap(x) && /* filterByVcFunder(x)  && */ filterByCompany(x) && filterByHeadquarters(x) && filterByLandscape(x);
     });
   }
 );
@@ -40,6 +40,14 @@ const getGroupedItems = createSelector(
   (state) => getSortedItems(state),
   (state) => state.main.grouping,
   function(items, grouping) {
+    if (grouping === 'no') {
+      return [{
+        key: 'key',
+        header: 'No Grouping',
+        items: items
+      }]
+    }
+
     const grouped = _.groupBy(items, function(item) {
       return getGroupingValue({item: item, grouping: grouping});
     });

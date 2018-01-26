@@ -16,7 +16,7 @@ export const initialState = {
     certifiedKubernetes: null,
     license: null,
     marketCap: null,
-    vcFunder: [],
+    // vcFunder: [],
     company: [],
     headquarters: null,
     landscape: null
