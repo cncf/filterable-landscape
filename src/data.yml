@@ -19,7 +19,7 @@ landscape:
           raw_logo: https://raw.githubusercontent.com/cncf/artwork/master/kubernetes/stacked/color/kubernetes-stacked-color.png
           external:
             twitter: https://twitter.com/kubernetesio
-            crunchbase: https://www.crunchbase.com/product/kubernetes
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
         - item:
           name: "Amazon ECS"
           slug_name: amazon_ecs
@@ -268,7 +268,7 @@ landscape:
         - item:
           name: "Linkerd"
           slug_name: linkerd
-          company: "Linkerd"
+          company: "CNCF"
           cncf_hosted_project: true
           oss: true
           commercial: false
@@ -277,11 +277,11 @@ landscape:
           raw_logo: https://raw.githubusercontent.com/cncf/artwork/master/linkerd/stacked/color/linkerd-stacked-color.png
           external:
             twitter: https://twitter.com/linkerd
-            crunchbase: https://www.crunchbase.com/organization/buoyant
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
         - item:
           name: "Envoy"
           slug_name: envoy
-          company: "Lyft"
+          company: "CNCF"
           cncf_hosted_project: true
           oss: true
           commercial: false
@@ -291,7 +291,7 @@ landscape:
           stock_ticker: 'LYFT'
           external:
             twitter: https://twitter.com/envoyproxy
-            crunchbase: https://www.crunchbase.com/organization/lyft
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
         - item:
           name: "Datawire"
           slug_name: datawire
@@ -347,7 +347,7 @@ landscape:
         - item:
           name: "gRPC"
           slug_name: grpc
-          company: "gRPC"
+          company: "CNCF"
           cncf_hosted_project: true
           oss: true
           commercial: false
@@ -1155,7 +1155,7 @@ landscape:
         - item:
           name: "Notary"
           slug_name: notary
-          company: "Docker"
+          company: "CNCF"
           cncf_hosted_project: true
           oss: true
           commercial: false
@@ -1164,7 +1164,7 @@ landscape:
           raw_logo: https://raw.githubusercontent.com/cncf/artwork/master/notary/stacked/color/notary-stacked-color.png
           external:
             twitter: https://twitter.com/docker
-            crunchbase: https://www.crunchbase.com/organization/docker
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
         - item:
           name: "OpenSCAP"
           slug_name: openscap
@@ -1192,13 +1192,15 @@ landscape:
         - item:
           name: "TUF"
           slug_name: tuf
-          company: "The Update Framework"
+          company: "CNCF"
           cncf_hosted_project: true
           oss: true
           commercial: false
           homepage_url: https://theupdateframework.github.io/
           repo_url: https://github.com/theupdateframework
           raw_logo: https://github.com/cncf/artwork/blob/master/tuf/stacked/color/tuf-stacked-color.png
+          external:
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
         - item:
           name: "Twistlock"
           slug_name: twistlock
@@ -1648,7 +1650,7 @@ landscape:
         - item:
           name: "Rkt"
           slug_name: rkt
-          company: "CoreOS"
+          company: "CNCF"
           cncf_hosted_project: true
           oss: true
           commercial: false
@@ -1657,7 +1659,7 @@ landscape:
           raw_logo:  https://raw.githubusercontent.com/cncf/artwork/master/rkt/stacked/color/rkt-stacked-color.png
           external:
             twitter: https://twitter.com/coreos
-            crunchbase: https://www.crunchbase.com/organization/coreos
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
         - item:
           name: "RunC"
           slug_name: runc
@@ -1708,7 +1710,7 @@ landscape:
         - item:
           name: "containerd"
           slug_name: containerd
-          company: "Docker"
+          company: "CNCF"
           cncf_hosted_project: true
           oss: true
           commercial: false
@@ -1717,7 +1719,7 @@ landscape:
           raw_logo: https://raw.githubusercontent.com/cncf/artwork/master/containerd/stacked/color/containerd-stacked-color.png
           external:
             twitter: https://twitter.com/docker
-            crunchbase: https://www.crunchbase.com/organization/docker
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
         - item:
           name: "cri-o"
           slug_name: cri_o
@@ -1975,13 +1977,15 @@ landscape:
         - item:
           name: "CNI"
           slug_name: cni
-          company: "Tigera"
+          company: "CNCF"
           cncf_hosted_project: true
           oss: true
           commercial: false
           homepage_url: https://github.com/containernetworking
           repo_url: https://github.com/containernetworking
           raw_logo: https://raw.githubusercontent.com/cncf/artwork/master/cni/stacked/color/cni-stacked-color.png
+          external:
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
         - item:
           name: "Weavenet"
           slug_name: weavenet
@@ -3882,7 +3886,7 @@ landscape:
         - item:
           name: "Prometheus"
           slug_name: prometheus
-          company: "cncf"
+          company: "CNCF"
           cncf_hosted_project: true
           oss: true
           commercial: false
@@ -3891,7 +3895,7 @@ landscape:
           raw_logo: https://raw.githubusercontent.com/cncf/artwork/master/prometheus/stacked/color/prometheus-stacked-color.png
           external:
             twitter: https://twitter.com/PrometheusIO
-            crunchbase: https://www.crunchbase.com/product/prometheus
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
         - item:
           name: "SysDig"
           slug_name: sysdig
@@ -4431,7 +4435,7 @@ landscape:
           raw_logo: https://raw.githubusercontent.com/cncf/artwork/master/fluentd/stacked/color/fluentd-stacked-color.png
           external:
             twitter: https://twitter.com/fluentd
-            crunchbase: https://www.crunchbase.com/product/fluentd
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
         - item:
           name: "Loom Systems"
           slug_name: loom_systems
@@ -4473,7 +4477,7 @@ landscape:
           raw_logo: https://raw.githubusercontent.com/cncf/artwork/master/opentracing/stacked/color/opentracing-stacked-color.png
           external:
             twitter: https://twitter.com/opentracing
-            crunchbase: https://www.crunchbase.com/product/opentracing#/entity
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
         - item:
           name: "Skywalking"
           slug_name: skywaling
@@ -4500,7 +4504,7 @@ landscape:
         - item:
           name: "Jaeger"
           slug_name: jaeger
-          company: "Uber"
+          company: "CNCF"
           cncf_hosted_project: true
           oss: true
           commercial: false
@@ -4510,7 +4514,7 @@ landscape:
           stock_ticker: 'UBER'
           external:
             twitter: https://twitter.com/UberEng
-            crunchbase: https://www.crunchbase.com/organization/uber
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
         - item:
           name: "Cloud Sleuth"
           slug_name: cloud_sleuth

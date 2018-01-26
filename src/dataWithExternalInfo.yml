@@ -21,9 +21,10 @@ landscape:
               https://raw.githubusercontent.com/cncf/artwork/master/kubernetes/stacked/color/kubernetes-stacked-color.png
             external:
               twitter: 'https://twitter.com/kubernetesio'
-              crunchbase: 'https://www.crunchbase.com/product/kubernetes'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+              crunchbase: >-
+                https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            market_cap: N/A
+            headquarters: 'New York, New York, United States'
             stars: 31776
             license: Apache-2.0
           - item:
@@ -364,7 +365,7 @@ landscape:
           - item:
             name: Linkerd
             slug_name: linkerd
-            company: Linkerd
+            company: CNCF
             cncf_hosted_project: true
             oss: true
             commercial: false
@@ -374,15 +375,16 @@ landscape:
               https://raw.githubusercontent.com/cncf/artwork/master/linkerd/stacked/color/linkerd-stacked-color.png
             external:
               twitter: 'https://twitter.com/linkerd'
-              crunchbase: 'https://www.crunchbase.com/organization/buoyant'
-            market_cap: 13999990
-            headquarters: 'San Francisco, California, United States'
+              crunchbase: >-
+                https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            market_cap: N/A
+            headquarters: 'New York, New York, United States'
             stars: N/A
             license: N/A
           - item:
             name: Envoy
             slug_name: envoy
-            company: Lyft
+            company: CNCF
             cncf_hosted_project: true
             oss: true
             commercial: false
@@ -393,9 +395,10 @@ landscape:
             stock_ticker: LYFT
             external:
               twitter: 'https://twitter.com/envoyproxy'
-              crunchbase: 'https://www.crunchbase.com/organization/lyft'
-            market_cap: 4112500000
-            headquarters: 'San Francisco, California, United States'
+              crunchbase: >-
+                https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            market_cap: N/A
+            headquarters: 'New York, New York, United States'
             stars: 3677
             license: Apache-2.0
           - item:
@@ -473,7 +476,7 @@ landscape:
           - item:
             name: gRPC
             slug_name: grpc
-            company: gRPC
+            company: CNCF
             cncf_hosted_project: true
             oss: true
             commercial: false
@@ -1568,7 +1571,7 @@ landscape:
           - item:
             name: Notary
             slug_name: notary
-            company: Docker
+            company: CNCF
             cncf_hosted_project: true
             oss: true
             commercial: false
@@ -1578,9 +1581,10 @@ landscape:
               https://raw.githubusercontent.com/cncf/artwork/master/notary/stacked/color/notary-stacked-color.png
             external:
               twitter: 'https://twitter.com/docker'
-              crunchbase: 'https://www.crunchbase.com/organization/docker'
-            market_cap: 242766694
-            headquarters: 'San Francisco, California, United States'
+              crunchbase: >-
+                https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            market_cap: N/A
+            headquarters: 'New York, New York, United States'
             stars: 1161
             license: Apache-2.0
           - item:
@@ -1620,7 +1624,7 @@ landscape:
           - item:
             name: TUF
             slug_name: tuf
-            company: The Update Framework
+            company: CNCF
             cncf_hosted_project: true
             oss: true
             commercial: false
@@ -1628,8 +1632,11 @@ landscape:
             repo_url: 'https://github.com/theupdateframework'
             raw_logo: >-
               https://github.com/cncf/artwork/blob/master/tuf/stacked/color/tuf-stacked-color.png
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            external:
+              crunchbase: >-
+                https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            market_cap: N/A
+            headquarters: 'New York, New York, United States'
             stars: N/A
             license: N/A
           - item:
@@ -2242,7 +2249,7 @@ landscape:
           - item:
             name: Rkt
             slug_name: rkt
-            company: CoreOS
+            company: CNCF
             cncf_hosted_project: true
             oss: true
             commercial: false
@@ -2252,9 +2259,10 @@ landscape:
               https://raw.githubusercontent.com/cncf/artwork/master/rkt/stacked/color/rkt-stacked-color.png
             external:
               twitter: 'https://twitter.com/coreos'
-              crunchbase: 'https://www.crunchbase.com/organization/coreos'
-            market_cap: 50000000
-            headquarters: 'San Francisco, California, United States'
+              crunchbase: >-
+                https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            market_cap: N/A
+            headquarters: 'New York, New York, United States'
             stars: N/A
             license: N/A
           - item:
@@ -2325,7 +2333,7 @@ landscape:
           - item:
             name: containerd
             slug_name: containerd
-            company: Docker
+            company: CNCF
             cncf_hosted_project: true
             oss: true
             commercial: false
@@ -2335,9 +2343,10 @@ landscape:
               https://raw.githubusercontent.com/cncf/artwork/master/containerd/stacked/color/containerd-stacked-color.png
             external:
               twitter: 'https://twitter.com/docker'
-              crunchbase: 'https://www.crunchbase.com/organization/docker'
-            market_cap: 242766694
-            headquarters: 'San Francisco, California, United States'
+              crunchbase: >-
+                https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            market_cap: N/A
+            headquarters: 'New York, New York, United States'
             stars: N/A
             license: N/A
           - item:
@@ -2689,7 +2698,7 @@ landscape:
           - item:
             name: CNI
             slug_name: cni
-            company: Tigera
+            company: CNCF
             cncf_hosted_project: true
             oss: true
             commercial: false
@@ -2697,8 +2706,11 @@ landscape:
             repo_url: 'https://github.com/containernetworking'
             raw_logo: >-
               https://raw.githubusercontent.com/cncf/artwork/master/cni/stacked/color/cni-stacked-color.png
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            external:
+              crunchbase: >-
+                https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            market_cap: N/A
+            headquarters: 'New York, New York, United States'
             stars: N/A
             license: N/A
           - item:
@@ -5281,7 +5293,7 @@ landscape:
           - item:
             name: Prometheus
             slug_name: prometheus
-            company: cncf
+            company: CNCF
             cncf_hosted_project: true
             oss: true
             commercial: false
@@ -5291,9 +5303,10 @@ landscape:
               https://raw.githubusercontent.com/cncf/artwork/master/prometheus/stacked/color/prometheus-stacked-color.png
             external:
               twitter: 'https://twitter.com/PrometheusIO'
-              crunchbase: 'https://www.crunchbase.com/product/prometheus'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+              crunchbase: >-
+                https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            market_cap: N/A
+            headquarters: 'New York, New York, United States'
             stars: N/A
             license: N/A
           - item:
@@ -6033,9 +6046,10 @@ landscape:
               https://raw.githubusercontent.com/cncf/artwork/master/fluentd/stacked/color/fluentd-stacked-color.png
             external:
               twitter: 'https://twitter.com/fluentd'
-              crunchbase: 'https://www.crunchbase.com/product/fluentd'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+              crunchbase: >-
+                https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            market_cap: N/A
+            headquarters: 'New York, New York, United States'
             stars: 5974
             license: N/A
           - item:
@@ -6090,9 +6104,10 @@ landscape:
               https://raw.githubusercontent.com/cncf/artwork/master/opentracing/stacked/color/opentracing-stacked-color.png
             external:
               twitter: 'https://twitter.com/opentracing'
-              crunchbase: 'https://www.crunchbase.com/product/opentracing#/entity'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+              crunchbase: >-
+                https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            market_cap: N/A
+            headquarters: 'New York, New York, United States'
             stars: N/A
             license: N/A
           - item:
@@ -6131,7 +6146,7 @@ landscape:
           - item:
             name: Jaeger
             slug_name: jaeger
-            company: Uber
+            company: CNCF
             cncf_hosted_project: true
             oss: true
             commercial: false
@@ -6142,9 +6157,10 @@ landscape:
             stock_ticker: UBER
             external:
               twitter: 'https://twitter.com/UberEng'
-              crunchbase: 'https://www.crunchbase.com/organization/uber'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+              crunchbase: >-
+                https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            market_cap: N/A
+            headquarters: 'New York, New York, United States'
             stars: 3845
             license: Apache-2.0
           - item:

@@ -5,6 +5,13 @@ import Subheader from 'material-ui/List/ListSubheader';
 import _ from 'lodash';
 import formatAmount from '../utils/formatAmount';
 
+import formatNumber from 'format-number';
+const formatStars = function(v) {
+  if (_.isNumber(v)) {
+    return  formatNumber({integerSeparator: ','})(v);
+  }
+  return v;
+}
 const MainContent = ({groupedItems, onSelectItem}) => {
   const itemsAndHeaders = _.map(groupedItems, function(groupedItem) {
     return [
@@ -23,7 +30,7 @@ const MainContent = ({groupedItems, onSelectItem}) => {
             }} onClick={() => onSelectItem(item.id)}/>
             <GridListTileBar
               title={item.name}
-              subtitle={<div><span>{item.company} ({formatAmount(item.marketCap)})</span><div><span>⭐️ {item.stars}</span></div></div>}
+              subtitle={<div><span>{item.company} ({formatAmount(item.marketCap)})</span><div><span>⭐️ {formatStars(item.stars)}</span></div></div>}
             />
           </div>
     }));
