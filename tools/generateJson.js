@@ -1,13 +1,9 @@
-const source = require('js-yaml').safeLoad(require('fs').readFileSync('src/data.yml'));
+const source = require('js-yaml').safeLoad(require('fs').readFileSync('src/dataWithExternalInfo.yml'));
 const traverse = require('traverse');
 const _ = require('lodash');
 import saneName from '../src/utils/saneName';
 import { getCategory } from '../src/types/fields';
 import fakeData from '../src/types/fakeData';
-import parse from 'csv-parse/lib/sync';
-
-
-const crunchbase = parse(require('fs').readFileSync('src/crunchbase.csv','utf-8'), {columns: true});
 
 
 const items = [];
@@ -19,22 +15,6 @@ tree.map(function(node) {
     }).map(function(p) {
       return p.node.name;
     });
-    const crunchbaseInfo = _.find(crunchbase, {"Organization Name URL": (node.external || {}).crunchbase});
-    var crunchbaseParts = {
-      marketCap: 'Not Entered Yet',
-      headquarters: 'Not Entered Yet'
-    };
-    if (!crunchbaseInfo) {
-      console.info('No crunchbase info', (node.external || {}).crunchbase, node.company, node.name);
-    } else {
-      const amount = crunchbaseInfo["Total Funding Amount"].substring(1).replace(/,/g, "");
-      const marketCap = amount ? parseInt(amount, 10) : 'N/A';
-      crunchbaseParts = {
-        marketCap: marketCap,
-        headquarters: crunchbaseInfo["Headquarters Location"] || 'N/A'
-      }
-
-    }
     items.push({...node,
       cncfHostedProject: node.cncf_hosted_project,
       path: parts.join(' / '),
@@ -43,12 +23,13 @@ tree.map(function(node) {
       certifiedKubernetes: _.sample([null, false, 'platform', 'distribution']),
       license: _.sample(fakeData.license),
       vcFunder: _.sample(fakeData.vcFunder),
-      ...crunchbaseParts
+      marketCap: node.market_cap,
     });
   }
 });
 const itemsWithExtraFields = items.map(function(item) {
   delete item.cncf_hosted_project;
+  delete item.market_cap;
   if (_.isUndefined(item.commercial)) {
     console.info('please, fix yaml and set commercial for ', item.name);
   }
