@@ -1,11 +1,4 @@
 const fakeData = {
-  license: [
-    'GPL V2',
-    'GPL V3',
-    'MIT',
-    'APACHE 2',
-    'Commercial'
-  ],
   vcFunder: [
     'YCombinator',
     'Other Funder 1',

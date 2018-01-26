@@ -4,7 +4,7 @@
   "description": "Starter kit for creating apps with React and Redux",
   "engines": {
     "npm": ">=3",
-    "node" : ">= 8.9"
+    "node": ">= 8.9"
   },
   "scripts": {
     "preinstall": "node tools/nodeVersionCheck.js",
@@ -44,6 +44,7 @@
     "csv-parse": "2.0.0",
     "csv-writer": "0.0.3",
     "js-yaml": "3.10.0",
+    "jsdom": "11.6.1",
     "lodash": "4.17.4",
     "material-ui": "1.0.0-beta.27",
     "object-assign": "4.1.0",

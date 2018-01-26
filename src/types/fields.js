@@ -73,12 +73,19 @@ const fields = {
   },
   stars: {
     id: 'stars',
-    label: '(fake) Stars',
+    label: 'Stars',
     category: 'starsCategory',
     values: [{
       id: null,
       label: 'Any',
       url: 'any'
+    }, {
+      id: 'N/A',
+      label: 'N/A',
+      url:'n-a',
+      match: function(x) {
+        return x === 'N/A';
+      }
     }, {
       id: '1to100',
       label:'1-100',
@@ -166,12 +173,17 @@ const fields = {
   },
   license: {
     id: 'license',
-    label: '(fake) License',
+    label: 'License',
     values: [{
       id: null,
       label: 'Any',
       url: 'any'
-    }].concat(lookups.license || [])
+    }].concat(_.orderBy(lookups.license, function(x) {
+      if  (x.id === 'N/A') {
+        return -1;
+      }
+      return lookups.license.indexOf(x);
+    })|| [])
   },
   marketCap: {
     id: 'marketCap',

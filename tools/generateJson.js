@@ -19,9 +19,7 @@ tree.map(function(node) {
       cncfHostedProject: node.cncf_hosted_project,
       path: parts.join(' / '),
       landscape: parts[0],
-      stars: _.random(12000),
       certifiedKubernetes: _.sample([null, false, 'platform', 'distribution']),
-      license: _.sample(fakeData.license),
       vcFunder: _.sample(fakeData.vcFunder),
       marketCap: node.market_cap,
     });
