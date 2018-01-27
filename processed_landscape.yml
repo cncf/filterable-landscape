@@ -10,6 +10,9 @@ landscape:
         items:
           - item:
             name: Kubernetes
+            description: >-
+              Kubernetes is an open-source system for automating deployment,
+              scaling, and management of containerized applications
             slug_name: kubernetes
             company: Cloud Native Computing Foundation (CNCF)
             cncf_hosted_project: true
@@ -28,7 +31,6 @@ landscape:
             rank: 63493
             stars: 31802
             license: Apache-2.0
-            description: Production-Grade Container Scheduling and Management
           - item:
             name: Amazon ECS
             slug_name: amazon_ecs

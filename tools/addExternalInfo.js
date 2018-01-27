@@ -41,7 +41,7 @@ const newSource = tree.map(function(node) {
         license: githubEntry.license
       };
     }
-    var description = (githubEntry || {}).description || (crunchbaseInfo || {})['Description'] || '';
+    var description = node.description || (githubEntry || {}).description || (crunchbaseInfo || {})['Description'] || '';
     description = description.replace(/\n/g, ' ');
 
     _.assign(node, crunchbaseParts);
