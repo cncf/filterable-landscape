@@ -22,11 +22,12 @@ const newSource = tree.map(function(node) {
     } else {
       const amount = crunchbaseInfo["Total Funding Amount"].substring(1).replace(/,/g, "");
       const marketCap = amount ? parseInt(amount, 10) : 'N/A';
+      const rank =  crunchbaseInfo["CB Rank (Company)"].replace(/,/g, "");
       crunchbaseParts = {
         market_cap: marketCap,
         headquarters: formatCity(crunchbaseInfo["Headquarters Location"]) || 'N/A',
         company: crunchbaseInfo["Organization Name"],
-        rank: crunchbaseInfo["CB Rank (Company)"].replace(/,/g, "") || 'N/A'
+        rank: rank ? + rank : 'N/A'
       }
     }
     var githubInfo = {
