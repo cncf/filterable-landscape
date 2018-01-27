@@ -15,6 +15,12 @@ Current [specification](https://docs.google.com/document/d/1QPVrXRjTWDQAwsbgSWut
 * `yarn open:src` (starts a development server) or
 * `yarn open:dist` (compiles and opens a production build)
 
+# Fetching and generating data:
+  src/crunchase.csv - download this file from the crunchbase pro account to get latest info
+  src/github.json - generate it with `babel-node tools/fetchGithubStats` to get last info
+  src/addExternalInfo.js - adds github + crunchbase to /landscape.yml and saves to /processed_landscape.yml
+  src/lookup.json - generated during yaml2json, uses only /processed_landscape.yml
+  src/data.json - generated during yaml2jsonm, uses only /processed_landscape.yml
 
 # building a dist
    1. `yarn`
