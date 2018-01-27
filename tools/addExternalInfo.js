@@ -2,6 +2,7 @@ const source = require('js-yaml').safeLoad(require('fs').readFileSync('landscape
 const traverse = require('traverse');
 const _ = require('lodash');
 import parse from 'csv-parse/lib/sync';
+import formatCity from '../src/utils/formatCity';
 
 
 const crunchbase = parse(require('fs').readFileSync('src/crunchbase.csv','utf-8'), {columns: true});
@@ -23,7 +24,7 @@ const newSource = tree.map(function(node) {
       const marketCap = amount ? parseInt(amount, 10) : 'N/A';
       crunchbaseParts = {
         market_cap: marketCap,
-        headquarters: crunchbaseInfo["Headquarters Location"] || 'N/A',
+        headquarters: formatCity(crunchbaseInfo["Headquarters Location"]) || 'N/A',
         company: crunchbaseInfo["Organization Name"],
         rank: crunchbaseInfo["CB Rank (Company)"].replace(/,/g, "") || 'N/A'
       }
