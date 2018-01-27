@@ -14,8 +14,8 @@
   background-color: white;
   position: relative;
   display: inline-block;
-  width: 130px;
-  height: 150px;
+  width: 175px;
+  height: 175px;
   margin: 4px 6px;
   border-radius:1px;
   box-shadow: 1px 1px 3px #d6d6d6;
@@ -33,9 +33,23 @@
   .info{
     height: 30%;
     background-color: #FFF;
-    font-size: 0.5em;
+    font-size: 0.6em;
     border-width:1px 0 0 0;
     border-style: dotted;
     border-color:#CCC;
+    padding:10px;
+
+
+    h5{
+      margin:0 0 5px 0 !important;
+      width:100%;
+    }
+    & > div, & > div span{
+      display:flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      color:#9B9B9B;
+    }
   }
 }

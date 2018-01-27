@@ -16,9 +16,14 @@ const MainContent = ({groupedItems, onSelectItem}) => {
       return (<div className="mosaic" key={item.id}>
                 <div className={classNames(`${item.logo}`,{ logo: true})} onClick={() => onSelectItem(item.id)}/>
                 <div className="info">
-                  {item.name}
-                  <span>{item.company} (${item.marketCap}M)</span>
-                  <span><Icon color="disabled">star</Icon> {item.stars}</span>
+                  <h5>{item.name}</h5>
+                  <div>
+                    <span>{item.company} (${item.marketCap}M)</span>
+                    <span>
+                      <Icon color="disabled" style={{ fontSize: 15 }}>star</Icon>
+                      <span>{item.stars}</span>
+                    </span>
+                  </div>
                 </div>
               </div>);
     }));
