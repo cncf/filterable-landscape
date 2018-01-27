@@ -18,7 +18,7 @@ export function filtersToUrl({filters, grouping, sortField, sortDirection, selec
   }
   const filtersPart = qs.stringify(params, {encode: false});
 
-  return '/s/' + filtersPart;
+  return '/' + filtersPart;
 }
 export function parseUrl(url) {
   const args = qs.parse(url);
