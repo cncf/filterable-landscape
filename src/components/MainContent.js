@@ -1,5 +1,6 @@
 import React from 'react';
 import classNames from 'classnames';
+import Icon from 'material-ui/Icon';
 
 import { GridListTileBar } from 'material-ui/GridList';
 import Subheader from 'material-ui/List/ListSubheader';
@@ -16,7 +17,8 @@ const MainContent = ({groupedItems, onSelectItem}) => {
                 <div className={classNames(`${item.logo}`,{ logo: true})} onClick={() => onSelectItem(item.id)}/>
                 <div className="info">
                   {item.name}
-                  <span>{item.company} (${item.marketCap}M)</span> | <span>⭐️ {item.stars}</span>
+                  <span>{item.company} (${item.marketCap}M)</span>
+                  <span><Icon color="disabled">star</Icon> {item.stars}</span>
                 </div>
               </div>);
     }));
