@@ -14,10 +14,10 @@ const MainContent = ({groupedItems, onSelectItem}) => {
     ].concat(_.map(groupedItem.items, function(item) {
       return (<div className="mosaic" key={item.id}>
                 <div className={classNames(`${item.logo}`,{ logo: true})} onClick={() => onSelectItem(item.id)}/>
-                <GridListTileBar
-                  title={item.name}
-                  subtitle={<div><span>{item.company} (${item.marketCap}M)</span> | <span>⭐️ {item.stars}</span></div>}
-                />
+                <div className="info">
+                  {item.name}
+                  <span>{item.company} (${item.marketCap}M)</span> | <span>⭐️ {item.stars}</span>
+                </div>
               </div>);
     }));
   });
