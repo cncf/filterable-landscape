@@ -11,7 +11,7 @@ landscape:
           - item:
             name: Kubernetes
             slug_name: kubernetes
-            company: CNCF
+            company: Cloud Native Computing Foundation (CNCF)
             cncf_hosted_project: true
             oss: true
             commercial: false
@@ -24,13 +24,14 @@ landscape:
               crunchbase: >-
                 https://www.crunchbase.com/organization/cloud-native-computing-foundation
             market_cap: N/A
-            headquarters: 'New York, New York, United States'
-            stars: 31776
+            headquarters: 'San Francisco, California, United States'
+            rank: '63493'
+            stars: 31779
             license: Apache-2.0
           - item:
             name: Amazon ECS
             slug_name: amazon_ecs
-            company: Amazon Web Services
+            company: Amazon
             cncf_hosted_project: false
             oss: false
             commercial: true
@@ -43,12 +44,13 @@ landscape:
               https://signalfx-82c9.kxcdn.com/wp-content/uploads/2016/03/integrations_awsecs@4x-500x500.png
             market_cap: 108000000
             headquarters: 'Seattle, Washington, United States'
+            rank: '788'
             stars: N/A
             license: N/A
           - item:
             name: Nomad
             slug_name: nomad
-            company: Hashicorp
+            company: HashiCorp
             cncf_hosted_project: false
             oss: true
             commercial: false
@@ -60,12 +62,13 @@ landscape:
             raw_logo: 'https://hyzxph.media.zestyio.com/blog-nomad-list.svg'
             market_cap: 74175000
             headquarters: 'San Francisco, California, United States'
+            rank: '949'
             stars: 3188
             license: MPL-2.0
           - item:
             name: Mesos
             slug_name: mesos
-            company: Apache
+            company: Apache Mesos
             cncf_hosted_project: false
             oss: true
             commercial: false
@@ -77,12 +80,13 @@ landscape:
               crunchbase: 'https://www.crunchbase.com/organization/apache-mesos'
             market_cap: N/A
             headquarters: N/A
+            rank: N/A
             stars: N/A
             license: N/A
           - item:
             name: Microsoft Azure Service Fabric
             slug_name: microsoft_azure_service_fabric
-            company: Microsoft
+            company: Microsoft Azure Certified
             cncf_hosted_project: false
             oss: false
             commercial: true
@@ -97,6 +101,7 @@ landscape:
                 https://www.crunchbase.com/organization/microsoft-azure-certified
             market_cap: N/A
             headquarters: N/A
+            rank: '60948'
             stars: 253
             license: MIT
           - item:
@@ -114,6 +119,7 @@ landscape:
               crunchbase: 'https://www.crunchbase.com/organization/docker'
             market_cap: 242766694
             headquarters: 'San Francisco, California, United States'
+            rank: '471'
             stars: 4969
             license: Apache-2.0
       - subcategory:
@@ -136,12 +142,13 @@ landscape:
               crunchbase: 'https://www.crunchbase.com/organization/coreos'
             market_cap: 50000000
             headquarters: 'San Francisco, California, United States'
-            stars: 16523
+            rank: '1547'
+            stars: 16524
             license: Apache-2.0
           - item:
             name: Consul
             slug_name: consul
-            company: Hashicorp
+            company: HashiCorp
             cncf_hosted_project: false
             oss: true
             commercial: false
@@ -154,12 +161,13 @@ landscape:
               crunchbase: 'https://www.crunchbase.com/organization/hashicorp'
             market_cap: 74175000
             headquarters: 'San Francisco, California, United States'
-            stars: 11233
+            rank: '949'
+            stars: 11234
             license: MPL-2.0
           - item:
             name: Zookeeper
             slug_name: zookeeper
-            company: Apache
+            company: Apache Software Foundation
             cncf_hosted_project: false
             oss: true
             commercial: false
@@ -172,6 +180,7 @@ landscape:
               crunchbase: 'https://www.crunchbase.com/organization/apache'
             market_cap: N/A
             headquarters: 'Forest Hill, Maryland, United States'
+            rank: '84483'
             stars: 3877
             license: Apache-2.0
           - item:
@@ -190,6 +199,7 @@ landscape:
               crunchbase: 'https://www.crunchbase.com/organization/joyent'
             market_cap: 130999998
             headquarters: 'San Francisco, California, United States'
+            rank: '1644'
             stars: 854
             license: MPL-2.0
           - item:
@@ -204,12 +214,13 @@ landscape:
             raw_logo: 'https://memz.co/wp-content/uploads/2016/07/skydns.jpg'
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
+            rank: Not Entered Yet
             stars: 1715
             license: MIT
           - item:
             name: CoreDNS
             slug_name: coredns
-            company: CNCF
+            company: Cloud Native Computing Foundation (CNCF)
             cncf_hosted_project: true
             oss: true
             commercial: false
@@ -222,7 +233,8 @@ landscape:
               crunchbase: >-
                 https://www.crunchbase.com/organization/cloud-native-computing-foundation
             market_cap: N/A
-            headquarters: 'New York, New York, United States'
+            headquarters: 'San Francisco, California, United States'
+            rank: '63493'
             stars: N/A
             license: N/A
           - item:
@@ -240,6 +252,7 @@ landscape:
               crunchbase: 'https://www.crunchbase.com/organization/glider-labs'
             market_cap: N/A
             headquarters: 'Austin, Texas, United States'
+            rank: N/A
             stars: 3449
             license: MIT
           - item:
@@ -255,6 +268,7 @@ landscape:
               https://crunchbase-production-res.cloudinary.com/image/upload/v1405534850/vubc5kxhmw6jalain0ot.jpg
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
+            rank: Not Entered Yet
             stars: 205
             license: MIT
           - item:
@@ -270,6 +284,7 @@ landscape:
               http://assets.creativity-online.com/images/work/medium/u/b/e/Uber_NewBranding16.jpg
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
+            rank: Not Entered Yet
             stars: 372
             license: MIT
           - item:
@@ -285,6 +300,7 @@ landscape:
             stock_ticker: NFLX
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
+            rank: Not Entered Yet
             stars: 4682
             license: Apache-2.0
           - item:
@@ -303,6 +319,7 @@ landscape:
               crunchbase: 'https://www.crunchbase.com/organization/vmware'
             market_cap: 393500000
             headquarters: 'Palo Alto, California, United States'
+            rank: '5559'
             stars: 464
             license: N/A
       - subcategory:
@@ -312,7 +329,7 @@ landscape:
           - item:
             name: 3Scale
             slug_name: 3scale
-            company: redhat
+            company: 3scale
             cncf_hosted_project: false
             oss: false
             commercial: true
@@ -325,12 +342,13 @@ landscape:
               crunchbase: 'https://www.crunchbase.com/organization/3scale'
             market_cap: 5000000
             headquarters: 'San Francisco, California, United States'
+            rank: '14135'
             stars: N/A
             license: N/A
           - item:
             name: NGINX
             slug_name: nginx
-            company: NGINX
+            company: 'NGINX, Inc.'
             cncf_hosted_project: false
             oss: true
             commercial: false
@@ -343,6 +361,7 @@ landscape:
               crunchbase: 'https://www.crunchbase.com/organization/nginx'
             market_cap: 41000000
             headquarters: 'San Francisco, California, United States'
+            rank: '3518'
             stars: N/A
             license: N/A
           - item:
@@ -360,12 +379,13 @@ landscape:
               crunchbase: 'https://www.crunchbase.com/organization/haproxy-technologies'
             market_cap: N/A
             headquarters: 'Waltham, Massachusetts, United States'
+            rank: '86853'
             stars: 869
             license: N/A
           - item:
             name: Linkerd
             slug_name: linkerd
-            company: CNCF
+            company: Cloud Native Computing Foundation (CNCF)
             cncf_hosted_project: true
             oss: true
             commercial: false
@@ -378,13 +398,14 @@ landscape:
               crunchbase: >-
                 https://www.crunchbase.com/organization/cloud-native-computing-foundation
             market_cap: N/A
-            headquarters: 'New York, New York, United States'
+            headquarters: 'San Francisco, California, United States'
+            rank: '63493'
             stars: N/A
             license: N/A
           - item:
             name: Envoy
             slug_name: envoy
-            company: CNCF
+            company: Cloud Native Computing Foundation (CNCF)
             cncf_hosted_project: true
             oss: true
             commercial: false
@@ -398,8 +419,9 @@ landscape:
               crunchbase: >-
                 https://www.crunchbase.com/organization/cloud-native-computing-foundation
             market_cap: N/A
-            headquarters: 'New York, New York, United States'
-            stars: 3677
+            headquarters: 'San Francisco, California, United States'
+            rank: '63493'
+            stars: 3678
             license: Apache-2.0
           - item:
             name: Datawire
@@ -417,12 +439,13 @@ landscape:
               crunchbase: 'https://www.crunchbase.com/organization/datawire'
             market_cap: 250000
             headquarters: 'Cambridge, Massachusetts, United States'
+            rank: '20948'
             stars: N/A
             license: N/A
           - item:
             name: Traefik
             slug_name: traefik
-            company: Conainous
+            company: Containous
             cncf_hosted_project: false
             oss: true
             commercial: false
@@ -435,7 +458,8 @@ landscape:
               crunchbase: 'https://www.crunchbase.com/organization/containous'
             market_cap: 1000000
             headquarters: 'Lyon, Rhone-Alpes, France'
-            stars: 12555
+            rank: '23352'
+            stars: 12556
             license: MIT
           - item:
             name: Turbine Labs
@@ -453,6 +477,7 @@ landscape:
               crunchbase: 'https://www.crunchbase.com/organization/turbine-labs-2'
             market_cap: N/A
             headquarters: N/A
+            rank: '94227'
             stars: N/A
             license: N/A
           - item:
@@ -471,12 +496,13 @@ landscape:
               crunchbase: 'https://www.crunchbase.com/organization/avi-networks-inc'
             market_cap: 33000000
             headquarters: 'Santa Clara, California, United States'
+            rank: '2258'
             stars: N/A
             license: N/A
           - item:
             name: gRPC
             slug_name: grpc
-            company: CNCF
+            company: Cloud Native Computing Foundation (CNCF)
             cncf_hosted_project: true
             oss: true
             commercial: false
@@ -490,13 +516,14 @@ landscape:
               crunchbase: >-
                 https://www.crunchbase.com/organization/cloud-native-computing-foundation
             market_cap: N/A
-            headquarters: 'New York, New York, United States'
+            headquarters: 'San Francisco, California, United States'
+            rank: '63493'
             stars: N/A
             license: N/A
           - item:
             name: Apache Thrift
             slug_name: apache_thrift
-            company: Apache
+            company: Apache Software Foundation
             cncf_hosted_project: false
             oss: false
             commercial: true
@@ -509,12 +536,13 @@ landscape:
               crunchbase: 'https://www.crunchbase.com/organization/apache'
             market_cap: N/A
             headquarters: 'Forest Hill, Maryland, United States'
+            rank: '84483'
             stars: 4368
             license: Apache-2.0
           - item:
             name: Apache Avro
             slug_name: apache_avro
-            company: Apache
+            company: Apache Software Foundation
             cncf_hosted_project: false
             oss: false
             commercial: true
@@ -526,12 +554,13 @@ landscape:
               crunchbase: 'https://www.crunchbase.com/organization/apache'
             market_cap: N/A
             headquarters: 'Forest Hill, Maryland, United States'
+            rank: '84483'
             stars: 841
             license: Apache-2.0
           - item:
             name: Vamp
             slug_name: vamp
-            company: Magnetic
+            company: magnetic.io
             cncf_hosted_project: false
             oss: false
             commercial: true
@@ -544,6 +573,7 @@ landscape:
               crunchbase: 'https://www.crunchbase.com/organization/magnetic-io'
             market_cap: 635000
             headquarters: 'Amsterdam, Noord-Holland, The Netherlands'
+            rank: '33078'
             stars: 573
             license: Apache-2.0
           - item:
@@ -561,12 +591,13 @@ landscape:
               crunchbase: 'https://www.crunchbase.com/organization/weaveworks'
             market_cap: 20000000
             headquarters: 'London, England, United Kingdom'
+            rank: '5353'
             stars: 324
             license: Apache-2.0
           - item:
             name: Kong
             slug_name: kong
-            company: Mashape
+            company: Mashape API Marketplace
             cncf_hosted_project: false
             oss: true
             commercial: false
@@ -579,6 +610,7 @@ landscape:
               crunchbase: 'https://www.crunchbase.com/organization/mashape'
             market_cap: 26101000
             headquarters: 'San Francisco, California, United States'
+            rank: '4031'
             stars: 14056
             license: Apache-2.0
           - item:
@@ -598,6 +630,7 @@ landscape:
               crunchbase: 'https://www.crunchbase.com/organization/netflix'
             market_cap: 2803735952
             headquarters: 'Los Gatos, California, United States'
+            rank: '5'
             stars: 12353
             license: Apache-2.0
           - item:
@@ -616,6 +649,7 @@ landscape:
               crunchbase: 'https://www.crunchbase.com/organization/netflix'
             market_cap: 2803735952
             headquarters: 'Los Gatos, California, United States'
+            rank: '5'
             stars: N/A
             license: N/A
           - item:
@@ -634,6 +668,7 @@ landscape:
               crunchbase: 'https://www.crunchbase.com/organization/netflix'
             market_cap: 2803735952
             headquarters: 'Los Gatos, California, United States'
+            rank: '5'
             stars: 1833
             license: Apache-2.0
           - item:
@@ -652,6 +687,7 @@ landscape:
               crunchbase: 'https://www.crunchbase.com/organization/netflix'
             market_cap: 2803735952
             headquarters: 'Los Gatos, California, United States'
+            rank: '5'
             stars: 3709
             license: Apache-2.0
           - item:
@@ -667,12 +703,13 @@ landscape:
               twitter: 'https://twitter.com/backplaneio'
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
+            rank: Not Entered Yet
             stars: N/A
             license: N/A
           - item:
             name: F5
             slug_name: f5
-            company: F5
+            company: F5 Networks
             cncf_hosted_project: false
             oss: false
             commercial: true
@@ -683,6 +720,7 @@ landscape:
               crunchbase: 'https://www.crunchbase.com/organization/f5-networks'
             market_cap: N/A
             headquarters: 'Seattle, Washington, United States'
+            rank: '24409'
             stars: N/A
             license: N/A
   - category:
@@ -707,14 +745,15 @@ landscape:
             external:
               twitter: 'https://twitter.com/awscloud'
               crunchbase: 'https://www.crunchbase.com/organization/amazon-web-services'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: N/A
+            headquarters: 'Seattle, Washington, United States'
+            rank: '10522'
             stars: N/A
             license: N/A
           - item:
             name: Google Cloud Platform
             slug_name: google_cloud_platform
-            company: Google
+            company: Google Cloud Platform
             cncf_hosted_project: false
             oss: false
             commercial: true
@@ -727,6 +766,7 @@ landscape:
               crunchbase: 'https://www.crunchbase.com/organization/google-cloud-platform'
             market_cap: N/A
             headquarters: 'San Francisco, California, United States'
+            rank: '25410'
             stars: N/A
             license: N/A
           - item:
@@ -744,6 +784,7 @@ landscape:
               crunchbase: 'https://www.crunchbase.com/organization/microsoft'
             market_cap: 1000000
             headquarters: 'Redmond, Washington, United States'
+            rank: '37'
             stars: N/A
             license: N/A
           - item:
@@ -761,12 +802,13 @@ landscape:
               crunchbase: 'https://www.crunchbase.com/organization/digitalocean'
             market_cap: 305405800
             headquarters: 'New York, New York, United States'
+            rank: '752'
             stars: N/A
             license: N/A
           - item:
             name: Packet
             slug_name: packet
-            company: Packet
+            company: Packet Host
             cncf_hosted_project: false
             oss: false
             commercial: true
@@ -778,12 +820,13 @@ landscape:
               crunchbase: 'https://www.crunchbase.com/organization/packet-host'
             market_cap: 11567845
             headquarters: 'New York, New York, United States'
+            rank: '6813'
             stars: N/A
             license: N/A
           - item:
             name: Oracle Cloud
             slug_name: oracle_cloud
-            company: Oracle
+            company: Oracle Corporation
             cncf_hosted_project: false
             oss: false
             commercial: true
@@ -796,12 +839,13 @@ landscape:
               crunchbase: 'https://www.crunchbase.com/organization/oracle'
             market_cap: N/A
             headquarters: 'Redwood Shores, California, United States'
+            rank: '25519'
             stars: N/A
             license: N/A
           - item:
             name: Alibaba Cloud
             slug_name: alibaba_cloud
-            company: Alibaba
+            company: Alibaba Cloud
             cncf_hosted_project: false
             oss: false
             commercial: true
@@ -814,6 +858,7 @@ landscape:
               crunchbase: 'https://www.crunchbase.com/organization/alibaba-cloud'
             market_cap: N/A
             headquarters: 'Hangzhou, Zhejiang, China'
+            rank: '46252'
             stars: N/A
             license: N/A
           - item:
@@ -832,6 +877,7 @@ landscape:
               crunchbase: 'https://www.crunchbase.com/organization/fujitsu'
             market_cap: N/A
             headquarters: 'North Sydney, New South Wales, Australia'
+            rank: '14952'
             stars: N/A
             license: N/A
           - item:
@@ -850,6 +896,7 @@ landscape:
               crunchbase: 'https://www.crunchbase.com/organization/ibm'
             market_cap: N/A
             headquarters: 'Armonk, New York, United States'
+            rank: '6083'
             stars: N/A
             license: N/A
           - item:
@@ -866,12 +913,13 @@ landscape:
               twitter: 'https://twitter.com/tencentcloud'
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
+            rank: Not Entered Yet
             stars: N/A
             license: N/A
           - item:
             name: Joyent
             slug_name: joyent
-            company: Triton
+            company: Joyent
             cncf_hosted_project: false
             oss: true
             commercial: false
@@ -883,12 +931,13 @@ landscape:
               crunchbase: 'https://www.crunchbase.com/organization/joyent'
             market_cap: 130999998
             headquarters: 'San Francisco, California, United States'
+            rank: '1644'
             stars: N/A
             license: N/A
           - item:
             name: Huawei
             slug_name: huawei
-            company: Huawei
+            company: Huawei Technologies
             cncf_hosted_project: false
             oss: false
             commercial: true
@@ -900,6 +949,7 @@ landscape:
               crunchbase: 'https://www.crunchbase.com/organization/huawei'
             market_cap: N/A
             headquarters: 'Plano, Texas, United States'
+            rank: '1469'
             stars: N/A
             license: N/A
       - subcategory:
@@ -909,7 +959,7 @@ landscape:
           - item:
             name: OpenStack
             slug_name: openstack
-            company: OpenStack Foundation
+            company: OpenStack
             cncf_hosted_project: false
             oss: true
             commercial: false
@@ -922,12 +972,13 @@ landscape:
               crunchbase: 'https://www.crunchbase.com/organization/openstack'
             market_cap: N/A
             headquarters: 'Austin, Texas, United States'
+            rank: '60056'
             stars: N/A
             license: N/A
           - item:
             name: VMware
             slug_name: vmware
-            company: EMC
+            company: VMware
             cncf_hosted_project: false
             oss: false
             commercial: true
@@ -939,6 +990,7 @@ landscape:
               crunchbase: 'https://www.crunchbase.com/organization/vmware'
             market_cap: 393500000
             headquarters: 'Palo Alto, California, United States'
+            rank: '5559'
             stars: N/A
             license: N/A
           - item:
@@ -956,12 +1008,13 @@ landscape:
               crunchbase: 'https://www.crunchbase.com/organization/canonical-ltd'
             market_cap: N/A
             headquarters: 'London, England, United Kingdom'
+            rank: '42700'
             stars: N/A
             license: N/A
           - item:
             name: Foreman
             slug_name: foreman
-            company: The Foreman
+            company: Foreman
             cncf_hosted_project: false
             oss: true
             commercial: false
@@ -974,6 +1027,7 @@ landscape:
               crunchbase: 'https://www.crunchbase.com/organization/foreman'
             market_cap: N/A
             headquarters: N/A
+            rank: N/A
             stars: 80
             license: N/A
           - item:
@@ -990,6 +1044,7 @@ landscape:
               crunchbase: 'https://www.crunchbase.com/organization/scaleway'
             market_cap: N/A
             headquarters: 'Paris, Ile-de-France, France'
+            rank: '77003'
             stars: N/A
             license: N/A
           - item:
@@ -1006,6 +1061,7 @@ landscape:
               twitter: 'https://twitter.com/digitalrebar'
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
+            rank: Not Entered Yet
             stars: N/A
             license: N/A
   - category:
@@ -1019,7 +1075,7 @@ landscape:
           - item:
             name: Terraform
             slug_name: terraform_hashicorp
-            company: Hashicorp
+            company: HashiCorp
             cncf_hosted_project: false
             oss: true
             commercial: false
@@ -1032,6 +1088,7 @@ landscape:
               crunchbase: 'https://www.crunchbase.com/organization/hashicorp'
             market_cap: 74175000
             headquarters: 'San Francisco, California, United States'
+            rank: '949'
             stars: N/A
             license: N/A
           - item:
@@ -1050,6 +1107,7 @@ landscape:
               crunchbase: 'https://www.crunchbase.com/organization/cloud-foundry'
             market_cap: N/A
             headquarters: 'San Mateo, California, United States'
+            rank: '56547'
             stars: N/A
             license: N/A
           - item:
@@ -1066,14 +1124,15 @@ landscape:
             external:
               twitter: 'https://twitter.com/awscloudformer'
               crunchbase: 'https://www.crunchbase.com/organization/amazon-web-services'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: N/A
+            headquarters: 'Seattle, Washington, United States'
+            rank: '10522'
             stars: N/A
             license: N/A
           - item:
             name: Cloud Coreo
             slug_name: cloud_coreo
-            company: Cloud Coreo
+            company: CloudCoreo
             cncf_hosted_project: false
             oss: false
             commercial: true
@@ -1084,12 +1143,13 @@ landscape:
               crunchbase: 'https://www.crunchbase.com/organization/cloudcoreo'
             market_cap: 2900000
             headquarters: 'Seattle, Washington, United States'
+            rank: '15699'
             stars: N/A
             license: N/A
           - item:
             name: Cloudify
             slug_name: cloudify
-            company: Gigaspaces Technologies
+            company: Cloudify
             cncf_hosted_project: false
             oss: true
             commercial: false
@@ -1102,12 +1162,13 @@ landscape:
               crunchbase: 'https://www.crunchbase.com/organization/cloudify'
             market_cap: N/A
             headquarters: 'New York, New York, United States'
+            rank: '68185'
             stars: N/A
             license: N/A
           - item:
             name: Helm
             slug_name: helm
-            company: Helm
+            company: Helm Solutions
             cncf_hosted_project: false
             oss: true
             commercial: false
@@ -1119,12 +1180,13 @@ landscape:
               crunchbase: 'https://www.crunchbase.com/organization/helm-solutions'
             market_cap: N/A
             headquarters: 'New York, New York, United States'
+            rank: '85350'
             stars: N/A
             license: N/A
           - item:
             name: Infrakit
             slug_name: infrakit
-            company: Docker
+            company: Infrakit
             cncf_hosted_project: false
             oss: true
             commercial: false
@@ -1137,6 +1199,7 @@ landscape:
               crunchbase: 'https://www.crunchbase.com/organization/infrakit'
             market_cap: N/A
             headquarters: 'Helsinki, Southern Finland, Finland'
+            rank: N/A
             stars: N/A
             license: N/A
           - item:
@@ -1155,6 +1218,7 @@ landscape:
               crunchbase: 'https://www.crunchbase.com/organization/canonical-ltd'
             market_cap: N/A
             headquarters: 'London, England, United Kingdom'
+            rank: '42700'
             stars: N/A
             license: N/A
           - item:
@@ -1172,6 +1236,7 @@ landscape:
               twitter: 'https://twitter.com/kubicornk8s'
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
+            rank: Not Entered Yet
             stars: 924
             license: Apache-2.0
           - item:
@@ -1190,6 +1255,7 @@ landscape:
               crunchbase: 'https://www.crunchbase.com/organization/manageiq'
             market_cap: 5400000
             headquarters: 'Mahwah, New Jersey, United States'
+            rank: '35264'
             stars: N/A
             license: N/A
       - subcategory:
@@ -1199,7 +1265,7 @@ landscape:
           - item:
             name: Quay
             slug_name: quay
-            company: CoreOS
+            company: quay.io
             cncf_hosted_project: false
             oss: false
             commercial: true
@@ -1210,12 +1276,13 @@ landscape:
               crunchbase: 'https://www.crunchbase.com/organization/quay-io'
             market_cap: N/A
             headquarters: 'New York, New York, United States'
+            rank: '63761'
             stars: N/A
             license: N/A
           - item:
             name: Artifactory
             slug_name: artifactory
-            company: Jfrog
+            company: JFrog
             cncf_hosted_project: false
             oss: false
             commercial: true
@@ -1227,6 +1294,7 @@ landscape:
               crunchbase: 'https://www.crunchbase.com/organization/jfrog-ltd'
             market_cap: 61500000
             headquarters: 'Sunnyvale, California, United States'
+            rank: '1819'
             stars: N/A
             license: N/A
           - item:
@@ -1244,7 +1312,8 @@ landscape:
               crunchbase: 'https://www.crunchbase.com/organization/vmware'
             market_cap: 393500000
             headquarters: 'Palo Alto, California, United States'
-            stars: 3519
+            rank: '5559'
+            stars: 3520
             license: N/A
           - item:
             name: Azure Registry
@@ -1262,12 +1331,13 @@ landscape:
               crunchbase: 'https://www.crunchbase.com/organization/microsoft'
             market_cap: 1000000
             headquarters: 'Redmond, Washington, United States'
+            rank: '37'
             stars: N/A
             license: N/A
           - item:
             name: Atomic
             slug_name: atomic
-            company: Red Hat
+            company: Project Atomic
             cncf_hosted_project: false
             oss: true
             commercial: false
@@ -1279,6 +1349,7 @@ landscape:
               crunchbase: 'https://www.crunchbase.com/organization/project-atomic'
             market_cap: N/A
             headquarters: 'Raleigh, North Carolina, United States'
+            rank: N/A
             stars: 379
             license: N/A
           - item:
@@ -1297,12 +1368,13 @@ landscape:
               crunchbase: 'https://www.crunchbase.com/organization/docker'
             market_cap: 242766694
             headquarters: 'San Francisco, California, United States'
+            rank: '471'
             stars: 2759
             license: Apache-2.0
           - item:
             name: Amazon ECR
             slug_name: amazon_ecr
-            company: Amazon Web Services
+            company: Amazon
             cncf_hosted_project: false
             oss: false
             commercial: true
@@ -1312,15 +1384,16 @@ landscape:
             stock_ticker: AMZN
             external:
               twitter: 'https://twitter.com/awscloud'
-              crunchbase: 'https://www.crunchbase.com/product/amazon-ec2'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+              crunchbase: 'https://www.crunchbase.com/organization/amazon'
+            market_cap: 108000000
+            headquarters: 'Seattle, Washington, United States'
+            rank: '788'
             stars: N/A
             license: N/A
           - item:
             name: Google Registry
             slug_name: google_registry
-            company: Google
+            company: Google Cloud Platform
             cncf_hosted_project: false
             oss: false
             commercial: true
@@ -1333,6 +1406,7 @@ landscape:
               crunchbase: 'https://www.crunchbase.com/organization/google-cloud-platform'
             market_cap: N/A
             headquarters: 'San Francisco, California, United States'
+            rank: '25410'
             stars: N/A
             license: N/A
           - item:
@@ -1348,6 +1422,7 @@ landscape:
               https://github.com/SUSE/Portus/blob/master/public/favicon/android-chrome-192x192.png
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
+            rank: Not Entered Yet
             stars: N/A
             license: N/A
       - subcategory:
@@ -1368,8 +1443,9 @@ landscape:
             external:
               twitter: 'https://twitter.com/puppetlabs'
               crunchbase: 'https://www.crunchbase.com/organization/puppet-labs'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 107500000
+            headquarters: 'Portland, Oregon, United States'
+            rank: '2994'
             stars: N/A
             license: N/A
           - item:
@@ -1385,6 +1461,7 @@ landscape:
               twitter: 'https://twitter.com/linuxkit'
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
+            rank: Not Entered Yet
             stars: N/A
             license: N/A
           - item:
@@ -1401,14 +1478,15 @@ landscape:
             external:
               twitter: 'https://twitter.com/ansible'
               crunchbase: 'https://www.crunchbase.com/organization/ansible'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 6000000
+            headquarters: 'Santa Barbara, California, United States'
+            rank: '11426'
             stars: N/A
             license: N/A
           - item:
             name: Chef
             slug_name: chef
-            company: Chef Software
+            company: Chef
             cncf_hosted_project: false
             oss: true
             commercial: false
@@ -1419,14 +1497,15 @@ landscape:
             external:
               twitter: 'https://twitter.com/chef'
               crunchbase: 'https://www.crunchbase.com/organization/chef'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 105000000
+            headquarters: 'Seattle, Washington, United States'
+            rank: '3174'
             stars: N/A
             license: N/A
           - item:
             name: Salt Stack
             slug_name: salt_stack
-            company: Salt Stack
+            company: SaltStack
             cncf_hosted_project: false
             oss: true
             commercial: false
@@ -1437,8 +1516,9 @@ landscape:
             external:
               twitter: 'https://twitter.com/SaltStack'
               crunchbase: 'https://www.crunchbase.com/organization/saltstack'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 685000
+            headquarters: 'Lehi, Utah, United States'
+            rank: '12330'
             stars: N/A
             license: N/A
           - item:
@@ -1455,8 +1535,9 @@ landscape:
             external:
               twitter: 'https://twitter.com/cfengine'
               crunchbase: 'https://www.crunchbase.com/organization/cfengine'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 13000000
+            headquarters: 'Palo Alto, California, United States'
+            rank: '20034'
             stars: N/A
             license: N/A
           - item:
@@ -1473,8 +1554,9 @@ landscape:
             external:
               twitter: 'https://twitter.com/rundeck'
               crunchbase: 'https://www.crunchbase.com/organization/rundeck'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: N/A
+            headquarters: N/A
+            rank: N/A
             stars: N/A
             license: N/A
       - subcategory:
@@ -1484,7 +1566,7 @@ landscape:
           - item:
             name: Anchore
             slug_name: anchore
-            company: null
+            company: 'Anchore, Inc.'
             cncf_hosted_project: false
             oss: true
             commercial: false
@@ -1495,14 +1577,15 @@ landscape:
             external:
               twitter: 'https://twitter.com/anchore'
               crunchbase: 'https://www.crunchbase.com/organization/anchore-inc'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 7000000
+            headquarters: 'Santa Barbara, California, United States'
+            rank: '13085'
             stars: N/A
             license: N/A
           - item:
             name: Aqua
             slug_name: aqua
-            company: Aqua
+            company: Aqua Security
             cncf_hosted_project: false
             oss: false
             commercial: true
@@ -1512,14 +1595,15 @@ landscape:
             external:
               twitter: 'https://twitter.com/AquaSecTeam'
               crunchbase: 'https://www.crunchbase.com/organization/aquasecurity'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 38000000
+            headquarters: 'Ramat Gan, Tel Aviv, Israel'
+            rank: '3253'
             stars: N/A
             license: N/A
           - item:
             name: Black Duck
             slug_name: black_duck
-            company: Synopsis
+            company: Black Duck Software
             cncf_hosted_project: false
             oss: false
             commercial: true
@@ -1530,8 +1614,9 @@ landscape:
             external:
               twitter: 'https://twitter.com/black_duck_sw'
               crunchbase: 'https://www.crunchbase.com/organization/black-duck-software'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 75500000
+            headquarters: 'Burlington, Massachusetts, United States'
+            rank: '3431'
             stars: N/A
             license: N/A
           - item:
@@ -1545,9 +1630,10 @@ landscape:
             raw_logo: 'https://d0.awsstatic.com/logos/partners/neuvector_logo_600x400.png'
             external:
               twitter: 'https://twitter.com/neuvector'
-              crunchbase: 'https://www.crunchbase.com/organization/neuvector#/entity'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+              crunchbase: 'https://www.crunchbase.com/organization/neuvector'
+            market_cap: 7000000
+            headquarters: 'Milpitas, California, United States'
+            rank: '5791'
             stars: N/A
             license: N/A
           - item:
@@ -1563,15 +1649,16 @@ landscape:
               http://zdnet2.cbsistatic.com/hub/i/r/2016/03/18/c9a09a0a-1fcc-48c8-810b-cb1c0379a562/resize/770xauto/cc3c78f58099a9569a899e05ceabba3f/coreos-clair.jpg
             external:
               twitter: 'https://twitter.com/coreos'
-              crunchbase: 'https://www.crunchbase.com/organization/coreo'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+              crunchbase: 'https://www.crunchbase.com/organization/coreos'
+            market_cap: 50000000
+            headquarters: 'San Francisco, California, United States'
+            rank: '1547'
             stars: N/A
             license: N/A
           - item:
             name: Notary
             slug_name: notary
-            company: CNCF
+            company: Cloud Native Computing Foundation (CNCF)
             cncf_hosted_project: true
             oss: true
             commercial: false
@@ -1584,7 +1671,8 @@ landscape:
               crunchbase: >-
                 https://www.crunchbase.com/organization/cloud-native-computing-foundation
             market_cap: N/A
-            headquarters: 'New York, New York, United States'
+            headquarters: 'San Francisco, California, United States'
+            rank: '63493'
             stars: 1161
             license: Apache-2.0
           - item:
@@ -1602,6 +1690,7 @@ landscape:
               twitter: 'https://twitter.com/OpenSCAP'
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
+            rank: Not Entered Yet
             stars: N/A
             license: N/A
           - item:
@@ -1617,14 +1706,15 @@ landscape:
             external:
               twitter: 'https://twitter.com/sonatype'
               crunchbase: 'https://www.crunchbase.com/organization/sonatype'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 74707328
+            headquarters: 'Fulton, Maryland, United States'
+            rank: '3732'
             stars: N/A
             license: N/A
           - item:
             name: TUF
             slug_name: tuf
-            company: CNCF
+            company: Cloud Native Computing Foundation (CNCF)
             cncf_hosted_project: true
             oss: true
             commercial: false
@@ -1636,7 +1726,8 @@ landscape:
               crunchbase: >-
                 https://www.crunchbase.com/organization/cloud-native-computing-foundation
             market_cap: N/A
-            headquarters: 'New York, New York, United States'
+            headquarters: 'San Francisco, California, United States'
+            rank: '63493'
             stars: N/A
             license: N/A
           - item:
@@ -1652,8 +1743,9 @@ landscape:
             external:
               twitter: 'https://twitter.com/twistlockteam'
               crunchbase: 'https://www.crunchbase.com/organization/twistlock'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 30060000
+            headquarters: 'San Francisco, California, United States'
+            rank: '1528'
             stars: N/A
             license: N/A
       - subcategory:
@@ -1675,6 +1767,7 @@ landscape:
               crunchbase: 'https://www.crunchbase.com/organization/lyft'
             market_cap: 4112500000
             headquarters: 'San Francisco, California, United States'
+            rank: '10'
             stars: 1236
             license: Apache-2.0
           - item:
@@ -1690,8 +1783,9 @@ landscape:
             stock_ticker: SQ
             external:
               crunchbase: 'https://www.crunchbase.com/organization/square'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 590500000
+            headquarters: 'San Francisco, California, United States'
+            rank: '21'
             stars: 1861
             license: Apache-2.0
           - item:
@@ -1706,14 +1800,15 @@ landscape:
               https://seeklogo.com/images/P/pinterest-badge-logo-82C89A5E42-seeklogo.com.png
             external:
               crunchbase: 'https://www.crunchbase.com/organization/pinterest'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 1466100000
+            headquarters: 'San Francisco, California, United States'
+            rank: '192'
             stars: 549
             license: Apache-2.0
           - item:
             name: Hashicorp Vault
             slug_name: hashicorp_vault
-            company: Hashicorp
+            company: HashiCorp
             cncf_hosted_project: false
             oss: true
             commercial: false
@@ -1725,12 +1820,13 @@ landscape:
               crunchbase: 'https://www.crunchbase.com/organization/hashicorp'
             market_cap: 74175000
             headquarters: 'San Francisco, California, United States'
+            rank: '949'
             stars: 8354
             license: MPL-2.0
           - item:
             name: Oracle Policy Automation
             slug_name: oracle_policy_automation
-            company: Oracle
+            company: Oracle Corporation
             cncf_hosted_project: false
             oss: false
             commercial: true
@@ -1744,12 +1840,13 @@ landscape:
               crunchbase: 'https://www.crunchbase.com/organization/oracle'
             market_cap: N/A
             headquarters: 'Redwood Shores, California, United States'
+            rank: '25519'
             stars: N/A
             license: N/A
           - item:
             name: SPIFFE
             slug_name: spiffe
-            company: Scytale
+            company: Scytale.io
             cncf_hosted_project: false
             oss: true
             commercial: false
@@ -1759,14 +1856,15 @@ landscape:
             external:
               twitter: 'https://twitter.com/spiffeio'
               crunchbase: 'https://www.crunchbase.com/organization/scytale-io'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: N/A
+            headquarters: 'San Francisco, California, United States'
+            rank: '73404'
             stars: N/A
             license: N/A
           - item:
             name: Spire
             slug_name: spire
-            company: Scytale
+            company: Scytale.io
             cncf_hosted_project: false
             oss: true
             commercial: false
@@ -1777,8 +1875,9 @@ landscape:
             external:
               twitter: 'https://twitter.com/scytale_io'
               crunchbase: 'https://www.crunchbase.com/organization/scytale-io'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: N/A
+            headquarters: 'San Francisco, California, United States'
+            rank: '73404'
             stars: 129
             license: N/A
   - category:
@@ -1792,7 +1891,7 @@ landscape:
           - item:
             name: Ceph
             slug_name: ceph
-            company: Ceph
+            company: Ceph Storage
             cncf_hosted_project: false
             oss: true
             commercial: false
@@ -1803,14 +1902,15 @@ landscape:
             external:
               twitter: 'https://twitter.com/Ceph'
               crunchbase: 'https://www.crunchbase.com/organization/ceph-storage'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: N/A
+            headquarters: 'Los Angeles, California, United States'
+            rank: N/A
             stars: N/A
             license: N/A
           - item:
             name: Gluster
             slug_name: gluster
-            company: Red Hat
+            company: Gluster
             cncf_hosted_project: false
             oss: true
             commercial: false
@@ -1822,14 +1922,15 @@ landscape:
               crunchbase: 'https://www.crunchbase.com/organization/gluster'
             calculated:
               gh_stars: '12345'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 12500000
+            headquarters: 'Sunnyvale, California, United States'
+            rank: '22800'
             stars: N/A
             license: N/A
           - item:
             name: HDFS
             slug_name: hdfs
-            company: Apache
+            company: Hadoop
             cncf_hosted_project: false
             oss: true
             commercial: false
@@ -1838,15 +1939,16 @@ landscape:
             raw_logo: 'http://previsna.com/bilder/hadoop-hdfs.png'
             external:
               twitter: 'https://twitter.com/TheASF'
-              crunchbase: 'https://www.crunchbase.com/product/hadoop'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+              crunchbase: 'https://www.crunchbase.com/organization/hadoop'
+            market_cap: N/A
+            headquarters: N/A
+            rank: '73009'
             stars: 5382
             license: Apache-2.0
           - item:
             name: Minio
             slug_name: minio
-            company: Minio
+            company: 'Minio, Inc.'
             cncf_hosted_project: false
             oss: true
             commercial: false
@@ -1857,14 +1959,15 @@ landscape:
             external:
               twitter: 'https://twitter.com/minio'
               crunchbase: 'https://www.crunchbase.com/organization/minio-inc'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 23300000
+            headquarters: 'Palo Alto, California, United States'
+            rank: '4812'
             stars: N/A
             license: N/A
           - item:
             name: Portworx
             slug_name: portworx
-            company: portworx
+            company: Portworx
             cncf_hosted_project: false
             oss: false
             commercial: true
@@ -1874,14 +1977,15 @@ landscape:
             external:
               twitter: 'https://twitter.com/portwx'
               crunchbase: 'https://www.crunchbase.com/organization/portworx'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 28500000
+            headquarters: 'Los Altos, California, United States'
+            rank: '1736'
             stars: N/A
             license: N/A
           - item:
             name: Project Hatchway
             slug_name: project_hatchway
-            company: VMWare
+            company: VMware
             cncf_hosted_project: false
             oss: true
             commercial: false
@@ -1895,6 +1999,7 @@ landscape:
               crunchbase: 'https://www.crunchbase.com/organization/vmware'
             market_cap: 393500000
             headquarters: 'Palo Alto, California, United States'
+            rank: '5559'
             stars: N/A
             license: N/A
           - item:
@@ -1911,8 +2016,9 @@ landscape:
             external:
               twitter: 'https://twitter.com/PureStorage'
               crunchbase: 'https://www.crunchbase.com/organization/pure-storage'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 530856468
+            headquarters: 'Mountain View, California, United States'
+            rank: '369'
             stars: N/A
             license: N/A
           - item:
@@ -1929,8 +2035,9 @@ landscape:
             external:
               twitter: 'https://twitter.com/EMCcorp'
               crunchbase: 'https://www.crunchbase.com/organization/dell-emc'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: N/A
+            headquarters: 'Hopkinton, Massachusetts, United States'
+            rank: '17932'
             stars: N/A
             license: N/A
           - item:
@@ -1949,6 +2056,7 @@ landscape:
               crunchbase: 'https://www.crunchbase.com/organization/joyent'
             market_cap: 130999998
             headquarters: 'San Francisco, California, United States'
+            rank: '1644'
             stars: 415
             license: MPL-2.0
           - item:
@@ -1963,8 +2071,9 @@ landscape:
             external:
               twitter: 'https://twitter.com/diamanticom'
               crunchbase: 'https://www.crunchbase.com/organization/diamanti'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 43000000
+            headquarters: 'San Jose, California, United States'
+            rank: '4006'
             stars: N/A
             license: N/A
           - item:
@@ -1982,6 +2091,7 @@ landscape:
               twitter: 'https://twitter.com/rook_io'
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
+            rank: Not Entered Yet
             stars: N/A
             license: N/A
           - item:
@@ -1997,14 +2107,15 @@ landscape:
             external:
               twitter: 'https://twitter.com/robinsystems'
               crunchbase: 'https://www.crunchbase.com/organization/robin-systems'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 21700000
+            headquarters: 'San Jose, California, United States'
+            rank: '5051'
             stars: N/A
             license: N/A
           - item:
             name: Springpath
             slug_name: springpath
-            company: Cisco
+            company: Springpath Inc
             cncf_hosted_project: false
             oss: false
             commercial: true
@@ -2015,14 +2126,15 @@ landscape:
             external:
               twitter: 'https://twitter.com/springpathinc'
               crunchbase: 'https://www.crunchbase.com/organization/springpath-inc'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 34000000
+            headquarters: 'Sunnyvale, California, United States'
+            rank: '4907'
             stars: N/A
             license: N/A
           - item:
             name: Datera
             slug_name: datera
-            company: Datera Inc.
+            company: Datera
             cncf_hosted_project: false
             oss: false
             commercial: true
@@ -2032,14 +2144,15 @@ landscape:
             external:
               twitter: 'https://twitter.com/DateraInc'
               crunchbase: 'https://www.crunchbase.com/organization/datera-2'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 40000000
+            headquarters: 'Mountain View, California, United States'
+            rank: '3350'
             stars: N/A
             license: N/A
           - item:
             name: Infinit
             slug_name: infinit
-            company: Docker
+            company: Infinit
             cncf_hosted_project: false
             oss: true
             commercial: false
@@ -2049,8 +2162,9 @@ landscape:
             external:
               twitter: 'https://twitter.com/infinit_sh'
               crunchbase: 'https://www.crunchbase.com/organization/infinit'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 2240000
+            headquarters: 'Paris, Ile-de-France, France'
+            rank: '19911'
             stars: N/A
             license: N/A
           - item:
@@ -2067,8 +2181,9 @@ landscape:
             external:
               twitter: 'https://twitter.com/kastenhq'
               crunchbase: 'https://www.crunchbase.com/organization/kasten'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: N/A
+            headquarters: 'Los Altos, California, United States'
+            rank: '63257'
             stars: 25
             license: Apache-2.0
           - item:
@@ -2086,6 +2201,7 @@ landscape:
               twitter: 'https://twitter.com/LeoFastStorage'
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
+            rank: Not Entered Yet
             stars: 1114
             license: Apache-2.0
           - item:
@@ -2100,6 +2216,7 @@ landscape:
             raw_logo: 'https://avatars3.githubusercontent.com/u/4846685'
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
+            rank: Not Entered Yet
             stars: N/A
             license: N/A
           - item:
@@ -2115,8 +2232,9 @@ landscape:
             external:
               twitter: 'https://twitter.com/codedellemc'
               crunchbase: 'https://www.crunchbase.com/organization/dell-emc'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: N/A
+            headquarters: 'Hopkinton, Massachusetts, United States'
+            rank: '17932'
             stars: 1040
             license: Apache-2.0
           - item:
@@ -2133,8 +2251,9 @@ landscape:
             external:
               twitter: 'https://twitter.com/netapp'
               crunchbase: 'https://www.crunchbase.com/organization/netapp'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: N/A
+            headquarters: 'Sunnyvale, California, United States'
+            rank: '20092'
             stars: N/A
             license: N/A
           - item:
@@ -2150,14 +2269,15 @@ landscape:
             external:
               twitter: 'https://twitter.com/Storage_OS'
               crunchbase: 'https://www.crunchbase.com/organization/storageos'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 2000000
+            headquarters: 'London, England, United Kingdom'
+            rank: '12176'
             stars: N/A
             license: N/A
           - item:
             name: Dell EMC
             slug_name: dell_emc
-            company: Dell
+            company: Dell EMC
             cncf_hosted_project: false
             oss: false
             commercial: true
@@ -2168,8 +2288,9 @@ landscape:
             external:
               twitter: 'https://twitter.com/dellemc'
               crunchbase: 'https://www.crunchbase.com/organization/dell-emc'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: N/A
+            headquarters: 'Hopkinton, Massachusetts, United States'
+            rank: '17932'
             stars: N/A
             license: N/A
           - item:
@@ -2185,14 +2306,15 @@ landscape:
               https://www.opensds.io/wp-content/uploads/sites/18/2016/11/logo_opensds.png
             external:
               crunchbase: 'https://www.crunchbase.com/organization/opensds'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: N/A
+            headquarters: N/A
+            rank: N/A
             stars: N/A
             license: N/A
           - item:
             name: OpenEBS
             slug_name: openebs
-            company: OpenEBS
+            company: Openebs
             cncf_hosted_project: false
             oss: true
             commercial: false
@@ -2203,14 +2325,15 @@ landscape:
             external:
               twitter: 'https://twitter.com/openebs'
               crunchbase: 'https://www.crunchbase.com/organization/openebs'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: N/A
+            headquarters: 'Bengaluru, Karnataka, India'
+            rank: N/A
             stars: N/A
             license: N/A
           - item:
             name: Hedvig
             slug_name: hedvig
-            company: Hedvig Inc.
+            company: Hedvig
             cncf_hosted_project: false
             oss: false
             commercial: true
@@ -2221,8 +2344,9 @@ landscape:
             external:
               twitter: 'https://twitter.com/HedvigInc'
               crunchbase: 'https://www.crunchbase.com/organization/hedvig'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 52000000
+            headquarters: 'Santa Clara, California, United States'
+            rank: '4019'
             stars: N/A
             license: N/A
           - item:
@@ -2240,6 +2364,7 @@ landscape:
               crunchbase: 'https://www.crunchbase.com/organization/openstack'
             market_cap: N/A
             headquarters: 'Austin, Texas, United States'
+            rank: '60056'
             stars: 1660
             license: Apache-2.0
       - subcategory:
@@ -2249,7 +2374,7 @@ landscape:
           - item:
             name: Rkt
             slug_name: rkt
-            company: CNCF
+            company: Cloud Native Computing Foundation (CNCF)
             cncf_hosted_project: true
             oss: true
             commercial: false
@@ -2262,7 +2387,8 @@ landscape:
               crunchbase: >-
                 https://www.crunchbase.com/organization/cloud-native-computing-foundation
             market_cap: N/A
-            headquarters: 'New York, New York, United States'
+            headquarters: 'San Francisco, California, United States'
+            rank: '63493'
             stars: N/A
             license: N/A
           - item:
@@ -2280,6 +2406,7 @@ landscape:
               twitter: 'https://twitter.com/OCI_ORG'
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
+            rank: Not Entered Yet
             stars: 4397
             license: Apache-2.0
           - item:
@@ -2297,6 +2424,7 @@ landscape:
               crunchbase: 'https://www.crunchbase.com/organization/canonical-ltd'
             market_cap: N/A
             headquarters: 'London, England, United Kingdom'
+            rank: '42700'
             stars: 1632
             license: Apache-2.0
           - item:
@@ -2310,6 +2438,7 @@ landscape:
             raw_logo: 'http://people.canonical.com/~kirkland/lxd.png'
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
+            rank: Not Entered Yet
             stars: 440
             license: Apache-2.0
           - item:
@@ -2328,12 +2457,13 @@ landscape:
               crunchbase: 'https://www.crunchbase.com/organization/joyent'
             market_cap: 130999998
             headquarters: 'San Francisco, California, United States'
+            rank: '1644'
             stars: 1230
             license: N/A
           - item:
             name: containerd
             slug_name: containerd
-            company: CNCF
+            company: Cloud Native Computing Foundation (CNCF)
             cncf_hosted_project: true
             oss: true
             commercial: false
@@ -2346,7 +2476,8 @@ landscape:
               crunchbase: >-
                 https://www.crunchbase.com/organization/cloud-native-computing-foundation
             market_cap: N/A
-            headquarters: 'New York, New York, United States'
+            headquarters: 'San Francisco, California, United States'
+            rank: '63493'
             stars: N/A
             license: N/A
           - item:
@@ -2364,6 +2495,7 @@ landscape:
               twitter: 'https://twitter.com/hashtag/%22cri-o%22'
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
+            rank: Not Entered Yet
             stars: N/A
             license: N/A
           - item:
@@ -2380,8 +2512,9 @@ landscape:
             external:
               twitter: 'https://twitter.com/clearlinux/'
               crunchbase: 'https://www.crunchbase.com/organization/intel'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 2510000
+            headquarters: 'Santa Clara, California, United States'
+            rank: '9708'
             stars: N/A
             license: N/A
           - item:
@@ -2397,6 +2530,7 @@ landscape:
               https://github.com/container-storage-interface/artwork/blob/master/logo/PNG/01.png
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
+            rank: Not Entered Yet
             stars: N/A
             license: N/A
       - subcategory:
@@ -2415,14 +2549,15 @@ landscape:
             external:
               twitter: 'https://twitter.com/aporeto'
               crunchbase: 'https://www.crunchbase.com/organization/aporeto'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 14500000
+            headquarters: 'San Jose, California, United States'
+            rank: '3069'
             stars: N/A
             license: N/A
           - item:
             name: Aviatrix
             slug_name: aviatrix
-            company: Aviatrix
+            company: 'Aviatrix Systems, Inc.'
             cncf_hosted_project: false
             oss: false
             commercial: true
@@ -2432,8 +2567,9 @@ landscape:
             external:
               twitter: 'https://twitter.com/aviatrixsys'
               crunchbase: 'https://www.crunchbase.com/organization/aviatrix'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 25000000
+            headquarters: 'Palo Alto, California, United States'
+            rank: '5359'
             stars: N/A
             license: N/A
           - item:
@@ -2449,8 +2585,9 @@ landscape:
             external:
               twitter: 'https://twitter.com/bigswitch'
               crunchbase: 'https://www.crunchbase.com/organization/big-switch-networks'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 119500000
+            headquarters: 'Santa Clara, California, United States'
+            rank: '521'
             stars: N/A
             license: N/A
           - item:
@@ -2467,8 +2604,9 @@ landscape:
             external:
               twitter: 'https://twitter.com/projectcalico'
               crunchbase: 'https://www.crunchbase.com/organization/tigera'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 23000000
+            headquarters: 'San Francisco, California, United States'
+            rank: '153'
             stars: N/A
             license: N/A
           - item:
@@ -2485,8 +2623,9 @@ landscape:
             external:
               twitter: 'https://twitter.com/projectcalico'
               crunchbase: 'https://www.crunchbase.com/organization/tigera'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 23000000
+            headquarters: 'San Francisco, California, United States'
+            rank: '153'
             stars: 472
             license: N/A
           - item:
@@ -2503,14 +2642,15 @@ landscape:
             external:
               twitter: 'https://twitter.com/projectcontiv'
               crunchbase: 'https://www.crunchbase.com/organization/cisco'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 2500000
+            headquarters: 'San Jose, California, United States'
+            rank: '705'
             stars: N/A
             license: N/A
           - item:
             name: Cilium
             slug_name: cilium
-            company: Covalent
+            company: Covalent IO
             cncf_hosted_project: false
             oss: true
             commercial: false
@@ -2520,8 +2660,9 @@ landscape:
             external:
               twitter: 'https://twitter.com/ciliumproject'
               crunchbase: 'https://www.crunchbase.com/organization/covalent-io'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: N/A
+            headquarters: N/A
+            rank: '69525'
             stars: N/A
             license: N/A
           - item:
@@ -2538,8 +2679,9 @@ landscape:
             external:
               twitter: 'https://twitter.com/CumulusNetworks/'
               crunchbase: 'https://www.crunchbase.com/organization/cumulus-networks'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 129000000
+            headquarters: 'Mountain View, California, United States'
+            rank: '141'
             stars: N/A
             license: N/A
           - item:
@@ -2556,9 +2698,10 @@ landscape:
             external:
               twitter: 'https://twitter.com/tigeraio'
               crunchbase: 'https://www.crunchbase.com/organization/tigera'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
-            stars: 2720
+            market_cap: 23000000
+            headquarters: 'San Francisco, California, United States'
+            rank: '153'
+            stars: 2721
             license: Apache-2.0
           - item:
             name: Midokura
@@ -2574,8 +2717,9 @@ landscape:
             external:
               twitter: 'https://twitter.com/midokura'
               crunchbase: 'https://www.crunchbase.com/organization/midokura'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 38647418
+            headquarters: 'Tokyo, Tokyo, Japan'
+            rank: '8611'
             stars: N/A
             license: N/A
           - item:
@@ -2593,12 +2737,13 @@ landscape:
               crunchbase: 'https://www.crunchbase.com/organization/vmware'
             market_cap: 393500000
             headquarters: 'Palo Alto, California, United States'
+            rank: '5559'
             stars: 50
             license: N/A
           - item:
             name: Nuage Networks
             slug_name: nuage_networks
-            company: Nokia
+            company: Nuage Networks
             cncf_hosted_project: false
             oss: false
             commercial: true
@@ -2608,15 +2753,16 @@ landscape:
               https://user-images.githubusercontent.com/6019102/29992977-e6e92a02-8f5d-11e7-855b-0bf748f13dd9.png
             external:
               twitter: 'https://twitter.com/nuagenetworks'
-              crunchbase: 'https://www.crunchbase.com/organization/nuage-Networks'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+              crunchbase: 'https://www.crunchbase.com/organization/nuage-networks'
+            market_cap: N/A
+            headquarters: 'California, Kentucky, United States'
+            rank: '72838'
             stars: N/A
             license: N/A
           - item:
             name: OpenContrail
             slug_name: opencontrail
-            company: Juniper Networks
+            company: OpenContrail
             cncf_hosted_project: false
             oss: true
             commercial: false
@@ -2626,8 +2772,9 @@ landscape:
             external:
               twitter: 'https://twitter.com/OpenContrail'
               crunchbase: 'https://www.crunchbase.com/organization/opencontrail'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: N/A
+            headquarters: 'Sunnyvale, California, United States'
+            rank: N/A
             stars: 333
             license: Apache-2.0
           - item:
@@ -2643,14 +2790,15 @@ landscape:
             external:
               twitter: 'https://twitter.com/openvswitch'
               crunchbase: 'https://www.crunchbase.com/organization/open-vswitch'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: N/A
+            headquarters: N/A
+            rank: N/A
             stars: N/A
             license: N/A
           - item:
             name: Plumgrid
             slug_name: plumgrid
-            company: VMware
+            company: PLUMgrid
             cncf_hosted_project: false
             oss: false
             commercial: true
@@ -2660,8 +2808,9 @@ landscape:
             external:
               twitter: 'https://twitter.com/PLUMgrid'
               crunchbase: 'https://www.crunchbase.com/organization/plumgrid'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 48006848
+            headquarters: 'Santa Clara, California, United States'
+            rank: '9236'
             stars: N/A
             license: N/A
           - item:
@@ -2676,12 +2825,13 @@ landscape:
             raw_logo: 'http://romana.io/images/Logo.250.png'
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
+            rank: Not Entered Yet
             stars: N/A
             license: N/A
           - item:
             name: Sanproute
             slug_name: snaperoute
-            company: Sanproute
+            company: SnapRoute Inc.
             cncf_hosted_project: false
             oss: false
             commercial: true
@@ -2691,14 +2841,15 @@ landscape:
             external:
               twitter: 'https://twitter.com/snaproute'
               crunchbase: 'https://www.crunchbase.com/organization/snaproute'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 25000000
+            headquarters: 'Palo Alto, California, United States'
+            rank: '3427'
             stars: N/A
             license: N/A
           - item:
             name: CNI
             slug_name: cni
-            company: CNCF
+            company: Cloud Native Computing Foundation (CNCF)
             cncf_hosted_project: true
             oss: true
             commercial: false
@@ -2710,7 +2861,8 @@ landscape:
               crunchbase: >-
                 https://www.crunchbase.com/organization/cloud-native-computing-foundation
             market_cap: N/A
-            headquarters: 'New York, New York, United States'
+            headquarters: 'San Francisco, California, United States'
+            rank: '63493'
             stars: N/A
             license: N/A
           - item:
@@ -2729,6 +2881,7 @@ landscape:
               crunchbase: 'https://www.crunchbase.com/organization/weaveworks'
             market_cap: 20000000
             headquarters: 'London, England, United Kingdom'
+            rank: '5353'
             stars: N/A
             license: N/A
   - category:
@@ -2752,8 +2905,9 @@ landscape:
             external:
               twitter: 'https://twitter.com/PingCAP'
               crunchbase: 'https://www.crunchbase.com/organization/pingcap'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 21600000
+            headquarters: 'Beijing, Beijing, China'
+            rank: '10304'
             stars: 11532
             license: Apache-2.0
           - item:
@@ -2769,15 +2923,16 @@ landscape:
             stock_ticker: ORCL
             external:
               twitter: 'https://twitter.com/mysql'
-              crunchbase: 'https://www.mysql.com/common/logos/logo-mysql-170x115.png'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+              crunchbase: 'https://www.crunchbase.com/organization/mysql'
+            market_cap: 40800000
+            headquarters: 'Cupertino, California, United States'
+            rank: '66460'
             stars: N/A
             license: N/A
           - item:
             name: Postgres
             slug_name: postgres
-            company: PostgresSQL
+            company: PostgreSql
             cncf_hosted_project: false
             oss: true
             commercial: false
@@ -2787,15 +2942,16 @@ landscape:
               https://raw.githubusercontent.com/docker-library/docs/01c12653951b2fe592c1f93a13b4e289ada0e3a1/postgres/logo.png
             external:
               twitter: 'https://twitter.com/postgresql'
-              crunchbase: 'https://twitter.com/postgresql'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+              crunchbase: 'https://www.crunchbase.com/organization/postgresql'
+            market_cap: N/A
+            headquarters: N/A
+            rank: N/A
             stars: N/A
             license: N/A
           - item:
             name: Oracle
             slug_name: oracle
-            company: Oracle
+            company: Oracle Corporation
             cncf_hosted_project: false
             oss: false
             commercial: true
@@ -2808,6 +2964,7 @@ landscape:
               crunchbase: 'https://www.crunchbase.com/organization/oracle'
             market_cap: N/A
             headquarters: 'Redwood Shores, California, United States'
+            rank: '25519'
             stars: N/A
             license: N/A
           - item:
@@ -2823,9 +2980,10 @@ landscape:
             stock_ticker: MSFT
             external:
               twitter: 'https://twitter.com/SQLServer'
-              crunchbase: 'https://www.crunchbase.com/organization/microsoft-sql-server'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+              crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+            market_cap: 1000000
+            headquarters: 'Redmond, Washington, United States'
+            rank: '37'
             stars: N/A
             license: N/A
           - item:
@@ -2843,6 +3001,7 @@ landscape:
               crunchbase: 'https://www.crunchbase.com/organization/ibm'
             market_cap: N/A
             headquarters: 'Armonk, New York, United States'
+            rank: '6083'
             stars: N/A
             license: N/A
           - item:
@@ -2858,14 +3017,15 @@ landscape:
             external:
               twitter: 'https://twitter.com/mongodb'
               crunchbase: 'https://www.crunchbase.com/organization/mongodb-inc'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
-            stars: 12991
+            market_cap: 311000000
+            headquarters: 'New York, New York, United States'
+            rank: '1132'
+            stars: 12992
             license: N/A
           - item:
             name: Cassandra
             slug_name: cassandra
-            company: Apache
+            company: Apache Software Foundation
             cncf_hosted_project: false
             oss: true
             commercial: false
@@ -2875,15 +3035,16 @@ landscape:
               https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Cassandra_logo.svg/279px-Cassandra_logo.svg.png
             external:
               twitter: 'https://twitter.com/cassandra'
-              crunchbase: 'https://www.crunchbase.com/organization/apache-cassandra'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+              crunchbase: 'https://www.crunchbase.com/organization/apache'
+            market_cap: N/A
+            headquarters: 'Forest Hill, Maryland, United States'
+            rank: '84483'
             stars: 4139
             license: Apache-2.0
           - item:
             name: Redis
             slug_name: redis
-            company: Redis
+            company: Redis Labs
             cncf_hosted_project: false
             oss: true
             commercial: false
@@ -2892,9 +3053,10 @@ landscape:
             raw_logo: 'https://blog.newrelic.com/wp-content/uploads/redis.png'
             external:
               twitter: 'https://twitter.com/redisfeed'
-              crunchbase: 'https://www.crunchbase.com/product/redis'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+              crunchbase: 'https://www.crunchbase.com/organization/redis-labs'
+            market_cap: 86000000
+            headquarters: 'Mountain View, California, United States'
+            rank: '957'
             stars: N/A
             license: N/A
           - item:
@@ -2910,14 +3072,15 @@ landscape:
             external:
               twitter: 'https://twitter.com/mariadbfdn'
               crunchbase: 'https://www.crunchbase.com/organization/mariadb-2'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 98175561
+            headquarters: 'Espoo, Southern Finland, Finland'
+            rank: '908'
             stars: N/A
             license: N/A
           - item:
             name: Crate.io
             slug_name: crateio
-            company: Crate
+            company: Crate.io Inc.
             cncf_hosted_project: false
             oss: true
             commercial: false
@@ -2928,14 +3091,15 @@ landscape:
             external:
               twitter: 'https://twitter.com/Crateio'
               crunchbase: 'https://www.crunchbase.com/organization/crate-technology'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 6000000
+            headquarters: 'San Francisco, California, United States'
+            rank: '6812'
             stars: 1890
             license: ECL-2.0
           - item:
             name: NomsDB
             slug_name: nomsdb
-            company: attic-labs
+            company: Attic Labs
             cncf_hosted_project: false
             oss: true
             commercial: false
@@ -2945,9 +3109,10 @@ landscape:
               https://pbs.twimg.com/profile_images/759150998753378304/GoY-XdnG_400x400.jpg
             external:
               twitter: 'https://twitter.com/nomsdb'
-              crunchbase: 'https://www.crunchbase.com/product/noms'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+              crunchbase: 'https://www.crunchbase.com/organization/attic-labs'
+            market_cap: 8100000
+            headquarters: 'San Francisco, California, United States'
+            rank: '2626'
             stars: 6423
             license: N/A
           - item:
@@ -2964,14 +3129,15 @@ landscape:
             external:
               twitter: 'https://twitter.com/BigchainDB'
               crunchbase: 'https://www.crunchbase.com/organization/bigchaindb'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 5370000
+            headquarters: 'Berlin, Berlin, Germany'
+            rank: '3491'
             stars: 2075
             license: N/A
           - item:
             name: Couchbase
             slug_name: couchbase
-            company: Counchbase
+            company: Couchbase
             cncf_hosted_project: false
             oss: true
             commercial: false
@@ -2982,14 +3148,15 @@ landscape:
             external:
               twitter: 'https://twitter.com/couchbase'
               crunchbase: 'https://www.crunchbase.com/organization/couchbase'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 146000000
+            headquarters: 'Mountain View, California, United States'
+            rank: '969'
             stars: N/A
             license: N/A
           - item:
             name: CockroachDB
             slug_name: cockroachdb
-            company: CockroachDB
+            company: Cockroach Labs
             cncf_hosted_project: false
             oss: true
             commercial: false
@@ -3000,8 +3167,9 @@ landscape:
             external:
               twitter: 'https://twitter.com/CockroachDB'
               crunchbase: 'https://www.crunchbase.com/organization/cockroach-labs'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 53500000
+            headquarters: 'New York, New York, United States'
+            rank: '1846'
             stars: N/A
             license: N/A
           - item:
@@ -3018,8 +3186,9 @@ landscape:
             external:
               twitter: 'https://twitter.com/rethinkdb'
               crunchbase: 'https://www.crunchbase.com/organization/rethinkdb'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 12200000
+            headquarters: 'Mountain View, California, United States'
+            rank: '11464'
             stars: N/A
             license: N/A
           - item:
@@ -3037,6 +3206,7 @@ landscape:
               twitter: 'https://twitter.com/vitessio'
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
+            rank: Not Entered Yet
             stars: 5431
             license: Apache-2.0
           - item:
@@ -3052,9 +3222,10 @@ landscape:
             stock_ticker: MSFT
             external:
               twitter: 'https://twitter.com/azure'
-              crunchbase: 'https://www.crunchbase.com/product/windows-azure'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+              crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+            market_cap: 1000000
+            headquarters: 'Redmond, Washington, United States'
+            rank: '37'
             stars: N/A
             license: N/A
           - item:
@@ -3070,8 +3241,9 @@ landscape:
             external:
               twitter: 'https://twitter.com/SnowflakeDB'
               crunchbase: 'https://www.crunchbase.com/organization/snowflake-computing'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 473000000
+            headquarters: 'San Mateo, California, United States'
+            rank: '448'
             stars: N/A
             license: N/A
           - item:
@@ -3089,6 +3261,7 @@ landscape:
               twitter: 'https://twitter.com/druidio'
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
+            rank: Not Entered Yet
             stars: N/A
             license: N/A
           - item:
@@ -3103,14 +3276,15 @@ landscape:
             external:
               twitter: 'https://twitter.com/qubole'
               crunchbase: 'https://www.crunchbase.com/organization/qubole'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 75000000
+            headquarters: 'Santa Clara, California, United States'
+            rank: '2153'
             stars: N/A
             license: N/A
           - item:
             name: CarbonData
             slug_name: carbondata
-            company: Apache
+            company: Apache Software Foundation
             cncf_hosted_project: false
             oss: true
             commercial: false
@@ -3123,12 +3297,13 @@ landscape:
               crunchbase: 'https://www.crunchbase.com/organization/apache'
             market_cap: N/A
             headquarters: 'Forest Hill, Maryland, United States'
+            rank: '84483'
             stars: 567
             license: Apache-2.0
           - item:
             name: Vertica
             slug_name: vertica
-            company: HPE
+            company: Vertica Systems
             cncf_hosted_project: false
             oss: false
             commercial: true
@@ -3139,14 +3314,15 @@ landscape:
             external:
               twitter: 'https://twitter.com/verticahelp'
               crunchbase: 'https://www.crunchbase.com/organization/vertica-systems'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 30500000
+            headquarters: 'Billerica, Massachusetts, United States'
+            rank: '62626'
             stars: N/A
             license: N/A
           - item:
             name: Hadoop
             slug_name: hadoop
-            company: Apache
+            company: Hadoop
             cncf_hosted_project: false
             oss: true
             commercial: false
@@ -3155,9 +3331,10 @@ landscape:
             raw_logo: 'https://www.contegix.com/wp-content/uploads/2015/09/Hadoop.png'
             external:
               twitter: 'https://twitter.com/hadoop'
-              crunchbase: 'https://www.crunchbase.com/product/hadoop'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+              crunchbase: 'https://www.crunchbase.com/organization/hadoop'
+            market_cap: N/A
+            headquarters: N/A
+            rank: '73009'
             stars: 5382
             license: Apache-2.0
           - item:
@@ -3174,8 +3351,9 @@ landscape:
             external:
               twitter: 'https://twitter.com/iguazio'
               crunchbase: 'https://www.crunchbase.com/organization/iguaz-io'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 48000000
+            headquarters: 'Herzliya, Tel Aviv, Israel'
+            rank: '402'
             stars: N/A
             license: N/A
           - item:
@@ -3191,8 +3369,9 @@ landscape:
             external:
               twitter: 'https://twitter.com/memsql/'
               crunchbase: 'https://www.crunchbase.com/organization/memsql'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 78100000
+            headquarters: 'San Francisco, California, United States'
+            rank: '2231'
             stars: N/A
             license: N/A
           - item:
@@ -3209,14 +3388,15 @@ landscape:
             external:
               twitter: 'https://twitter.com/pachydermIO'
               crunchbase: 'https://www.crunchbase.com/organization/pachyderm'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 2120000
+            headquarters: 'San Francisco, California, United States'
+            rank: '15676'
             stars: 2489
             license: Apache-2.0
           - item:
             name: Scylla
             slug_name: scylla
-            company: scylla
+            company: ScyllaDB
             cncf_hosted_project: false
             oss: true
             commercial: false
@@ -3226,8 +3406,9 @@ landscape:
             external:
               twitter: 'https://twitter.com/ScyllaDB'
               crunchbase: 'https://www.crunchbase.com/organization/scylladb'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 23000000
+            headquarters: 'Herzliya, Tel Aviv, Israel'
+            rank: '4602'
             stars: N/A
             license: N/A
       - subcategory:
@@ -3237,7 +3418,7 @@ landscape:
           - item:
             name: Kafka
             slug_name: kafka
-            company: Apache
+            company: Apache Software Foundation
             cncf_hosted_project: false
             oss: true
             commercial: false
@@ -3250,12 +3431,13 @@ landscape:
               crunchbase: 'https://www.crunchbase.com/organization/apache'
             market_cap: N/A
             headquarters: 'Forest Hill, Maryland, United States'
+            rank: '84483'
             stars: 7228
             license: Apache-2.0
           - item:
             name: Dataflow
             slug_name: dataflow
-            company: Google
+            company: Google Cloud Platform
             cncf_hosted_project: false
             oss: false
             commercial: true
@@ -3267,12 +3449,13 @@ landscape:
               crunchbase: 'https://www.crunchbase.com/organization/google-cloud-platform'
             market_cap: N/A
             headquarters: 'San Francisco, California, United States'
+            rank: '25410'
             stars: N/A
             license: N/A
           - item:
             name: Spark Streaming
             slug_name: spark_streaming
-            company: Apache
+            company: Apache Software Foundation
             cncf_hosted_project: false
             oss: true
             commercial: false
@@ -3281,10 +3464,11 @@ landscape:
             raw_logo: 'https://spark.apache.org/images/spark-logo-trademark.png'
             external:
               twitter: 'https://twitter.com/apachespark'
-              crunchbase: 'https://www.crunchbase.com/organization/apache-spark'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
-            stars: 15945
+              crunchbase: 'https://www.crunchbase.com/organization/apache'
+            market_cap: N/A
+            headquarters: 'Forest Hill, Maryland, United States'
+            rank: '84483'
+            stars: 15946
             license: Apache-2.0
           - item:
             name: Heron
@@ -3302,12 +3486,13 @@ landscape:
               crunchbase: null
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
+            rank: Not Entered Yet
             stars: 3068
             license: Apache-2.0
           - item:
             name: Flink
             slug_name: flink
-            company: Apache
+            company: Apache Software Foundation
             cncf_hosted_project: false
             oss: true
             commercial: false
@@ -3320,12 +3505,13 @@ landscape:
               crunchbase: 'https://www.crunchbase.com/organization/apache'
             market_cap: N/A
             headquarters: 'Forest Hill, Maryland, United States'
+            rank: '84483'
             stars: 3210
             license: Apache-2.0
           - item:
             name: Apex
             slug_name: apex
-            company: Apache
+            company: Apache Software Foundation
             cncf_hosted_project: false
             oss: true
             commercial: false
@@ -3338,12 +3524,13 @@ landscape:
               crunchbase: 'https://www.crunchbase.com/organization/apache'
             market_cap: N/A
             headquarters: 'Forest Hill, Maryland, United States'
+            rank: '84483'
             stars: 273
             license: Apache-2.0
           - item:
             name: Apache Storm
             slug_name: apache_storm
-            company: Apache Storm
+            company: Apache Software Foundation
             cncf_hosted_project: false
             oss: true
             commercial: false
@@ -3352,15 +3539,16 @@ landscape:
             raw_logo: 'http://storm.apache.org/images/logo.png'
             external:
               twitter: 'https://twitter.com/stormprocessor'
-              crunchbase: 'https://www.crunchbase.com/product/storm'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+              crunchbase: 'https://www.crunchbase.com/organization/apache'
+            market_cap: N/A
+            headquarters: 'Forest Hill, Maryland, United States'
+            rank: '84483'
             stars: 4792
             license: Apache-2.0
           - item:
             name: RabbitMQ
             slug_name: rabiitmq
-            company: RabbitMQ
+            company: Rabbit Technologies
             cncf_hosted_project: false
             oss: true
             commercial: false
@@ -3369,15 +3557,16 @@ landscape:
             raw_logo: 'https://neoteric.eu/wp-content/uploads/2016/06/rabbitmq_logo.png'
             external:
               twitter: 'https://twitter.com/rabbitmq'
-              crunchbase: 'https://www.crunchbase.com/product/rabbitmq'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+              crunchbase: 'https://www.crunchbase.com/organization/rabbit-technologies'
+            market_cap: N/A
+            headquarters: 'London, England, United Kingdom'
+            rank: '79723'
             stars: N/A
             license: N/A
           - item:
             name: NATS
             slug_name: nats
-            company: Apache
+            company: Apache Software Foundation
             cncf_hosted_project: false
             oss: true
             commercial: false
@@ -3390,12 +3579,13 @@ landscape:
               crunchbase: 'https://www.crunchbase.com/organization/apache'
             market_cap: N/A
             headquarters: 'Forest Hill, Maryland, United States'
+            rank: '84483'
             stars: N/A
             license: N/A
           - item:
             name: ApacheNiFi
             slug_name: apachenifi
-            company: Apache
+            company: Apache Software Foundation
             cncf_hosted_project: false
             oss: true
             commercial: false
@@ -3407,12 +3597,13 @@ landscape:
               crunchbase: 'https://www.crunchbase.com/organization/apache'
             market_cap: N/A
             headquarters: 'Forest Hill, Maryland, United States'
+            rank: '84483'
             stars: 786
             license: Apache-2.0
           - item:
             name: Pulsar
             slug_name: pulsar
-            company: Apache
+            company: Apache Software Foundation
             cncf_hosted_project: false
             oss: true
             commercial: false
@@ -3424,6 +3615,7 @@ landscape:
               crunchbase: 'https://www.crunchbase.com/organization/apache'
             market_cap: N/A
             headquarters: 'Forest Hill, Maryland, United States'
+            rank: '84483'
             stars: 1531
             license: Apache-2.0
           - item:
@@ -3440,8 +3632,9 @@ landscape:
             external:
               twitter: 'https://twitter.com/streamsets'
               crunchbase: 'https://www.crunchbase.com/organization/streamsets'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 32500000
+            headquarters: 'San Francisco, California, United States'
+            rank: '1520'
             stars: N/A
             license: N/A
           - item:
@@ -3458,8 +3651,9 @@ landscape:
             external:
               twitter: 'https://twitter.com/awscloud'
               crunchbase: 'https://www.crunchbase.com/organization/amazon-web-services'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: N/A
+            headquarters: 'Seattle, Washington, United States'
+            rank: '10522'
             stars: N/A
             license: N/A
       - subcategory:
@@ -3469,7 +3663,7 @@ landscape:
           - item:
             name: BibBucket
             slug_name: bitbucket
-            company: Atlassian
+            company: Bitbucket
             cncf_hosted_project: false
             oss: false
             commercial: true
@@ -3479,14 +3673,15 @@ landscape:
             external:
               twitter: 'https://twitter.com/bitbucket'
               crunchbase: 'https://www.crunchbase.com/organization/bitbucket'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: N/A
+            headquarters: 'San Francisco, California, United States'
+            rank: '66102'
             stars: N/A
             license: N/A
           - item:
             name: GitLab
             slug_name: gitlab
-            company: GitLab
+            company: GitLab Inc
             cncf_hosted_project: false
             oss: true
             commercial: false
@@ -3496,8 +3691,9 @@ landscape:
             external:
               twitter: 'https://twitter.com/gitlab'
               crunchbase: 'https://www.crunchbase.com/organization/gitlab-com'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 45620000
+            headquarters: 'San Francisco, California, United States'
+            rank: '2791'
             stars: 20311
             license: N/A
           - item:
@@ -3513,8 +3709,9 @@ landscape:
             external:
               twitter: 'https://twitter.com/github'
               crunchbase: 'https://www.crunchbase.com/organization/github'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 350000000
+            headquarters: 'San Francisco, California, United States'
+            rank: '669'
             stars: N/A
             license: N/A
           - item:
@@ -3531,9 +3728,10 @@ landscape:
             stock ticker: MSFT
             external:
               twitter: 'https://twitter.com/vsts'
-              crunchbase: 'https://www.crunchbase.com/organization/visual-studio'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+              crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+            market_cap: 1000000
+            headquarters: 'Redmond, Washington, United States'
+            rank: '37'
             stars: N/A
             license: N/A
       - subcategory:
@@ -3555,12 +3753,13 @@ landscape:
               twitter: 'https://twitter.com/kubevirt'
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
+            rank: Not Entered Yet
             stars: N/A
             license: N/A
           - item:
             name: Packer
             slug_name: packer
-            company: Hashicorp
+            company: HashiCorp
             cncf_hosted_project: false
             oss: true
             commercial: false
@@ -3573,6 +3772,7 @@ landscape:
               crunchbase: 'https://www.crunchbase.com/organization/hashicorp'
             market_cap: 74175000
             headquarters: 'San Francisco, California, United States'
+            rank: '949'
             stars: 7249
             license: MPL-2.0
           - item:
@@ -3591,7 +3791,8 @@ landscape:
               crunchbase: 'https://www.crunchbase.com/organization/docker'
             market_cap: 242766694
             headquarters: 'San Francisco, California, United States'
-            stars: 11663
+            rank: '471'
+            stars: 11664
             license: Apache-2.0
           - item:
             name: Habitat
@@ -3605,15 +3806,16 @@ landscape:
             raw_logo: 'http://container-solutions.com/content/uploads/2016/08/habitat.png'
             external:
               twitter: 'https://twitter.com/hashtag/habitatsh'
-              crunchbase: 'https://www.crunchbase.com/product/habitat-2'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+              crunchbase: 'https://www.crunchbase.com/organization/chef'
+            market_cap: 105000000
+            headquarters: 'Seattle, Washington, United States'
+            rank: '3174'
             stars: N/A
             license: N/A
           - item:
             name: Brooklyn
             slug_name: brooklyn
-            company: Apache
+            company: Apache Software Foundation
             cncf_hosted_project: false
             oss: true
             commercial: false
@@ -3626,6 +3828,7 @@ landscape:
               crunchbase: 'https://www.crunchbase.com/organization/apache'
             market_cap: N/A
             headquarters: 'Forest Hill, Maryland, United States'
+            rank: '84483'
             stars: 65
             license: N/A
           - item:
@@ -3640,14 +3843,15 @@ landscape:
             external:
               twitter: 'https://twitter.com/bitnami'
               crunchbase: 'https://www.crunchbase.com/organization/bitnami'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: N/A
+            headquarters: 'San Francisco, California, United States'
+            rank: '46946'
             stars: N/A
             license: N/A
           - item:
             name: OpenAPI
             slug_name: openapi
-            company: OpenAPI
+            company: The Open API Initiative
             cncf_hosted_project: false
             oss: true
             commercial: false
@@ -3658,8 +3862,9 @@ landscape:
             external:
               twitter: 'https://twitter.com/hashtag/openapi'
               crunchbase: 'https://www.crunchbase.com/organization/the-open-api-initiative'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: N/A
+            headquarters: 'San Francisco, California, United States'
+            rank: N/A
             stars: N/A
             license: N/A
       - subcategory:
@@ -3680,8 +3885,9 @@ landscape:
             external:
               twitter: 'https://twitter.com/jenkinsci'
               crunchbase: 'https://www.crunchbase.com/organization/jenkins-ci'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: N/A
+            headquarters: 'San Francisco, California, United States'
+            rank: N/A
             stars: N/A
             license: N/A
           - item:
@@ -3697,14 +3903,15 @@ landscape:
             external:
               twitter: 'https://twitter.com/travisci'
               crunchbase: 'https://www.crunchbase.com/organization/travis-ci'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: N/A
+            headquarters: 'Berlin, Berlin, Germany'
+            rank: '59288'
             stars: N/A
             license: N/A
           - item:
             name: Octopus Deploy
             slug_name: octopus_deploy
-            company: Octopus
+            company: Octopus Deploy
             cncf_hosted_project: false
             oss: false
             commercial: true
@@ -3715,8 +3922,9 @@ landscape:
             external:
               twitter: 'https://twitter.com/OctopusDeploy'
               crunchbase: 'https://www.crunchbase.com/organization/octopus-deploy'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 2000000
+            headquarters: 'Australia, Oceania'
+            rank: '27221'
             stars: N/A
             license: N/A
           - item:
@@ -3732,14 +3940,15 @@ landscape:
             external:
               twitter: 'https://twitter.com/circleci'
               crunchbase: 'https://www.crunchbase.com/organization/circle-ci'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 59000000
+            headquarters: 'San Francisco, California, United States'
+            rank: '568'
             stars: N/A
             license: N/A
           - item:
             name: Drone
             slug_name: drone
-            company: Drone
+            company: Drone.io
             cncf_hosted_project: false
             oss: true
             commercial: false
@@ -3749,8 +3958,9 @@ landscape:
             external:
               twitter: 'https://twitter.com/droneio'
               crunchbase: 'https://www.crunchbase.com/organization/drone-io'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 28000
+            headquarters: 'San Francisco, California, United States'
+            rank: '38858'
             stars: N/A
             license: N/A
           - item:
@@ -3766,8 +3976,9 @@ landscape:
             external:
               twitter: 'https://twitter.com/codeship'
               crunchbase: 'https://www.crunchbase.com/organization/codeship'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 11400000
+            headquarters: 'Boston, Massachusetts, United States'
+            rank: '5416'
             stars: N/A
             license: N/A
           - item:
@@ -3783,14 +3994,15 @@ landscape:
             external:
               twitter: 'https://twitter.com/atlassian'
               crunchbase: 'https://www.crunchbase.com/organization/atlassian'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 210000000
+            headquarters: 'Sydney, New South Wales, Australia'
+            rank: '161'
             stars: N/A
             license: N/A
           - item:
             name: Cloudbees
             slug_name: cloudbees
-            company: Cloudbees
+            company: CloudBees
             cncf_hosted_project: false
             oss: false
             commercial: true
@@ -3800,8 +4012,9 @@ landscape:
             external:
               twitter: 'https://twitter.com/CloudBees'
               crunchbase: 'https://www.crunchbase.com/organization/cloudbees'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 51200000
+            headquarters: 'San Jose, California, United States'
+            rank: '2025'
             stars: N/A
             license: N/A
           - item:
@@ -3818,6 +4031,7 @@ landscape:
               twitter: 'https://twitter.com/spinnakerio'
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
+            rank: Not Entered Yet
             stars: N/A
             license: N/A
           - item:
@@ -3833,14 +4047,15 @@ landscape:
             external:
               twitter: 'https://twitter.com/beshippable'
               crunchbase: 'https://www.crunchbase.com/organization/shippable'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 10050000
+            headquarters: 'Seattle, Washington, United States'
+            rank: '5216'
             stars: N/A
             license: N/A
           - item:
             name: Wercker
             slug_name: wercker
-            company: Oracle
+            company: Wercker
             cncf_hosted_project: false
             oss: true
             commercial: false
@@ -3852,8 +4067,9 @@ landscape:
             external:
               twitter: 'https://twitter.com/wercker'
               crunchbase: 'https://www.crunchbase.com/organization/wercker'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 7900000
+            headquarters: 'Amsterdam, Noord-Holland, The Netherlands'
+            rank: '8016'
             stars: N/A
             license: N/A
           - item:
@@ -3868,15 +4084,16 @@ landscape:
               https://crunchbase-production-res.cloudinary.com/image/upload/v1470258929/hhinf38lttfyrjbz1h3t.jpg
             external:
               twitter: 'https://twitter.com/codefresh'
-              crunchbase: 'https://www.crunchbase.com/organization/code-fresh#/entity'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+              crunchbase: 'https://www.crunchbase.com/organization/code-fresh'
+            market_cap: 7000000
+            headquarters: 'Mountain View, California, United States'
+            rank: '6200'
             stars: N/A
             license: N/A
           - item:
             name: BuddyBuild
             slug_name: buddybuild
-            company: BuddyBuild
+            company: Buddybuild
             cncf_hosted_project: false
             oss: false
             commercial: true
@@ -3885,8 +4102,9 @@ landscape:
             external:
               twitter: 'https://twitter.com/buddybuild'
               crunchbase: 'https://www.crunchbase.com/organization/buddybuild'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 8800000
+            headquarters: 'Vancouver, British Columbia, Canada'
+            rank: '924'
             stars: N/A
             license: N/A
           - item:
@@ -3902,8 +4120,9 @@ landscape:
             external:
               twitter: 'https://twitter.com/distelli'
               crunchbase: 'https://www.crunchbase.com/organization/distelli-inc'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 2875000
+            headquarters: 'Seattle, Washington, United States'
+            rank: '15410'
             stars: N/A
             license: N/A
           - item:
@@ -3919,14 +4138,15 @@ landscape:
             external:
               twitter: 'https://twitter.com/SolanoLabs'
               crunchbase: 'https://www.crunchbase.com/organization/solano-labs'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: N/A
+            headquarters: 'San Francisco, California, United States'
+            rank: '76617'
             stars: N/A
             license: N/A
           - item:
             name: Semaphore
             slug_name: semaphore
-            company: Semaphore
+            company: SemaphoreCI
             cncf_hosted_project: false
             oss: false
             commercial: true
@@ -3935,14 +4155,15 @@ landscape:
             external:
               twitter: 'https://twitter.com/semaphoreci'
               crunchbase: 'https://www.crunchbase.com/organization/semaphore'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: N/A
+            headquarters: 'Novi Sad, Vojvodina, Serbia'
+            rank: '82436'
             stars: N/A
             license: N/A
           - item:
             name: ContainerOps
             slug_name: containerops
-            company: Huawei
+            company: Huawei Technologies
             cncf_hosted_project: false
             oss: false
             commercial: true
@@ -3953,12 +4174,13 @@ landscape:
               crunchbase: 'https://www.crunchbase.com/organization/huawei'
             market_cap: N/A
             headquarters: 'Plano, Texas, United States'
+            rank: '1469'
             stars: N/A
             license: N/A
           - item:
             name: Appveyor
             slug_name: appveyor
-            company: Appveyor Systems
+            company: Appveyor Systems Inc.
             cncf_hosted_project: false
             oss: false
             commercial: true
@@ -3968,14 +4190,15 @@ landscape:
             external:
               twitter: 'https://twitter.com/appveyor'
               crunchbase: 'https://www.crunchbase.com/organization/appveyor-systems-inc'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: N/A
+            headquarters: N/A
+            rank: N/A
             stars: N/A
             license: N/A
           - item:
             name: Gitlab Runner
             slug_name: gitlab_runner
-            company: Gitlab
+            company: GitLab Inc
             cncf_hosted_project: false
             oss: true
             commercial: false
@@ -3985,8 +4208,9 @@ landscape:
             external:
               twitter: 'https://twitter.com/gitlab'
               crunchbase: 'https://www.crunchbase.com/organization/gitlab-com'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 45620000
+            headquarters: 'San Francisco, California, United States'
+            rank: '2791'
             stars: N/A
             license: N/A
           - item:
@@ -4003,8 +4227,9 @@ landscape:
             external:
               twitter: 'https://twitter.com/buildkite'
               crunchbase: 'https://www.crunchbase.com/organization/buildkite'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: N/A
+            headquarters: N/A
+            rank: '90213'
             stars: N/A
             license: N/A
           - item:
@@ -4021,6 +4246,7 @@ landscape:
               twitter: 'https://twitter.com/concourseci'
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
+            rank: Not Entered Yet
             stars: N/A
             license: N/A
           - item:
@@ -4037,8 +4263,9 @@ landscape:
             external:
               twitter: 'https://twitter.com/xldeploy'
               crunchbase: 'https://www.crunchbase.com/organization/xebialabs'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 21500000
+            headquarters: 'Boston, Massachusetts, United States'
+            rank: '2287'
             stars: 0
             license: N/A
   - category:
@@ -4061,9 +4288,10 @@ landscape:
               https://i0.wp.com/containerjournal.com/wp-content/uploads/2015/07/tectonic-bycoreos-color-copy.png
             external:
               twitter: 'https://twitter.com/tectonicstack'
-              crunchbase: 'https://www.crunchbase.com/product/tectonic'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+              crunchbase: 'https://www.crunchbase.com/organization/coreos'
+            market_cap: 50000000
+            headquarters: 'San Francisco, California, United States'
+            rank: '1547'
             stars: N/A
             license: N/A
           - item:
@@ -4082,6 +4310,7 @@ landscape:
               crunchbase: 'https://www.crunchbase.com/organization/cloud-foundry'
             market_cap: N/A
             headquarters: 'San Mateo, California, United States'
+            rank: '56547'
             stars: N/A
             license: N/A
           - item:
@@ -4098,14 +4327,15 @@ landscape:
             external:
               twitter: 'https://twitter.com/openshift'
               crunchbase: 'https://www.crunchbase.com/organization/openshift'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: N/A
+            headquarters: 'Raleigh, North Carolina, United States'
+            rank: '78339'
             stars: N/A
             license: N/A
           - item:
             name: DC/OS
             slug_name: dc_os
-            company: Mesophere
+            company: Mesosphere
             cncf_hosted_project: false
             oss: true
             commercial: false
@@ -4116,14 +4346,15 @@ landscape:
             external:
               twitter: 'https://twitter.com/mesosphere'
               crunchbase: 'https://www.crunchbase.com/organization/mesosphere'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 122250000
+            headquarters: 'San Francisco, California, United States'
+            rank: '748'
             stars: N/A
             license: N/A
           - item:
             name: Apcera
             slug_name: apcera
-            company: Ericsson
+            company: Apcera
             cncf_hosted_project: false
             oss: false
             commercial: true
@@ -4133,8 +4364,9 @@ landscape:
             external:
               twitter: 'https://twitter.com/apcera'
               crunchbase: 'https://www.crunchbase.com/organization/apcera'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 7200000
+            headquarters: 'San Francisco, California, United States'
+            rank: '8984'
             stars: N/A
             license: N/A
           - item:
@@ -4150,8 +4382,9 @@ landscape:
             external:
               twitter: 'https://twitter.com/apprenda'
               crunchbase: 'https://www.crunchbase.com/organization/apprenda'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 56000000
+            headquarters: 'Troy, New York, United States'
+            rank: '5107'
             stars: N/A
             license: N/A
           - item:
@@ -4168,14 +4401,15 @@ landscape:
             external:
               twitter: 'https://twitter.com/Rancher_Labs'
               crunchbase: 'https://www.crunchbase.com/organization/rancher-labs'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
-            stars: 7582
+            market_cap: 30000000
+            headquarters: 'Cupertino, California, United States'
+            rank: '5015'
+            stars: 7584
             license: N/A
           - item:
             name: Kublr
             slug_name: kublr
-            company: kublr
+            company: Kublr
             cncf_hosted_project: false
             oss: false
             commercial: true
@@ -4185,8 +4419,9 @@ landscape:
             external:
               twitter: 'https://twitter.com/kublr'
               crunchbase: 'https://www.crunchbase.com/organization/kublr'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: N/A
+            headquarters: 'Washington, District of Columbia, United States'
+            rank: '94312'
             stars: N/A
             license: N/A
           - item:
@@ -4204,6 +4439,7 @@ landscape:
               crunchbase: 'https://www.crunchbase.com/organization/vmware'
             market_cap: 393500000
             headquarters: 'Palo Alto, California, United States'
+            rank: '5559'
             stars: N/A
             license: N/A
           - item:
@@ -4220,14 +4456,15 @@ landscape:
             external:
               twitter: 'https://twitter.com/platformsh'
               crunchbase: 'https://www.crunchbase.com/organization/commerce-guys'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 13300000
+            headquarters: 'Paris, Ile-de-France, France'
+            rank: '9885'
             stars: N/A
             license: N/A
           - item:
             name: Platform9
             slug_name: platform9
-            company: Platform9
+            company: Platform9 Systems
             cncf_hosted_project: false
             oss: false
             commercial: true
@@ -4236,10 +4473,10 @@ landscape:
               https://pbs.twimg.com/profile_images/873285512097710081/6fZyym9Q_400x400.jpg
             external:
               twitter: 'https://twitter.com/Platform9Sys'
-              crunchbase: >-
-                https://pbs.twimg.com/profile_images/873285512097710081/6fZyym9Q_400x400.jpg
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+              crunchbase: 'https://www.crunchbase.com/organization/platform9-systems-inc'
+            market_cap: 36500000
+            headquarters: 'Sunnyvale, California, United States'
+            rank: '1803'
             stars: N/A
             license: N/A
           - item:
@@ -4255,8 +4492,9 @@ landscape:
             external:
               twitter: 'https://twitter.com/flynnscale'
               crunchbase: 'https://www.crunchbase.com/organization/flynn'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 1405000
+            headquarters: 'Newark, Delaware, United States'
+            rank: '25194'
             stars: N/A
             license: N/A
           - item:
@@ -4274,6 +4512,7 @@ landscape:
               crunchbase: 'https://www.crunchbase.com/organization/datawire'
             market_cap: 250000
             headquarters: 'Cambridge, Massachusetts, United States'
+            rank: '20948'
             stars: N/A
             license: N/A
           - item:
@@ -4289,8 +4528,9 @@ landscape:
             external:
               twitter: 'https://twitter.com/atomist'
               crunchbase: 'https://www.crunchbase.com/organization/atomist'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 22000000
+            headquarters: 'San Francisco, California, United States'
+            rank: '4974'
             stars: N/A
             license: N/A
           - item:
@@ -4307,8 +4547,9 @@ landscape:
             external:
               twitter: 'https://twitter.com/getiron'
               crunchbase: 'https://www.crunchbase.com/organization/iron-io'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 17000000
+            headquarters: 'San Francisco, California, United States'
+            rank: '6349'
             stars: N/A
             license: N/A
           - item:
@@ -4326,8 +4567,9 @@ landscape:
             external:
               twitter: 'https://twitter.com/Yelp'
               crunchbase: 'https://www.crunchbase.com/organization/yelp'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 56000000
+            headquarters: 'San Francisco, California, United States'
+            rank: '136'
             stars: 1176
             license: Apache-2.0
           - item:
@@ -4342,9 +4584,10 @@ landscape:
             raw_logo: 'https://upload.wikimedia.org/wikipedia/en/d/df/Remind_app_logo.png'
             external:
               twitter: 'https://twitter.com/remindeng'
-              crunchbase: 'https://www.crunchbase.com/organization/remind101'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+              crunchbase: 'https://www.crunchbase.com/organization/remind'
+            market_cap: 59500000
+            headquarters: 'San Francisco, California, United States'
+            rank: '6237'
             stars: 2350
             license: BSD-2-Clause
           - item:
@@ -4361,8 +4604,9 @@ landscape:
             external:
               twitter: 'https://twitter.com/nirmatacloud'
               crunchbase: 'https://www.crunchbase.com/organization/nirmata'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: N/A
+            headquarters: 'San Jose, California, United States'
+            rank: '68487'
             stars: N/A
             license: N/A
           - item:
@@ -4377,15 +4621,16 @@ landscape:
               https://crunchbase-production-res.cloudinary.com/image/upload/v1409923504/woifk3fzca4pit2qa3pq.jpg
             external:
               twitter: 'https://twitter.com/giantswarm'
-              crunchbase: 'https://twitter.com/giantswarm'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+              crunchbase: 'https://www.crunchbase.com/organization/giant-swarm'
+            market_cap: 3325000
+            headquarters: 'Cologne, Nordrhein-Westfalen, Germany'
+            rank: '13626'
             stars: N/A
             license: N/A
           - item:
             name: Cloud66
             slug_name: cloud66
-            company: Cloud66
+            company: Cloud 66
             cncf_hosted_project: false
             oss: false
             commercial: true
@@ -4395,8 +4640,9 @@ landscape:
             external:
               twitter: 'https://twitter.com/cloud66'
               crunchbase: 'https://www.crunchbase.com/organization/cloudblocks'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 2240385
+            headquarters: 'London, England, United Kingdom'
+            rank: '14602'
             stars: N/A
             license: N/A
           - item:
@@ -4412,9 +4658,10 @@ landscape:
               https://crunchbase-production-res.cloudinary.com/image/upload/v1464604878/uzdj9miitxbfr56opwju.png
             external:
               twitter: 'https://twitter.com/KontenaInc'
-              crunchbase: 'https://www.crunchbase.com/organization/Kontena'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+              crunchbase: 'https://www.crunchbase.com/organization/kontena'
+            market_cap: N/A
+            headquarters: 'New York, New York, United States'
+            rank: '71573'
             stars: 1279
             license: N/A
           - item:
@@ -4431,6 +4678,7 @@ landscape:
               twitter: 'https://twitter.com/kubermatic'
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
+            rank: Not Entered Yet
             stars: N/A
             license: N/A
           - item:
@@ -4446,8 +4694,9 @@ landscape:
             external:
               twitter: 'https://twitter.com/gravitationalco'
               crunchbase: 'https://www.crunchbase.com/organization/gravitational'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 120000
+            headquarters: 'San Francisco, California, United States'
+            rank: '25046'
             stars: N/A
             license: N/A
           - item:
@@ -4463,14 +4712,15 @@ landscape:
             external:
               twitter: 'https://twitter.com/navops'
               crunchbase: 'https://www.crunchbase.com/organization/navops'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: N/A
+            headquarters: 'Hoffman Estates, Illinois, United States'
+            rank: N/A
             stars: N/A
             license: N/A
           - item:
             name: Heroku
             slug_name: heroku
-            company: Salesforce
+            company: Heroku
             cncf_hosted_project: false
             oss: false
             commercial: true
@@ -4481,8 +4731,9 @@ landscape:
             external:
               twitter: 'https://twitter.com/heroku'
               crunchbase: 'https://www.crunchbase.com/organization/heroku'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 13020000
+            headquarters: 'San Francisco, California, United States'
+            rank: '6912'
             stars: N/A
             license: N/A
           - item:
@@ -4499,6 +4750,7 @@ landscape:
               twitter: 'https://twitter.com/usemantl'
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
+            rank: Not Entered Yet
             stars: 3003
             license: Apache-2.0
           - item:
@@ -4515,8 +4767,9 @@ landscape:
             external:
               twitter: 'https://twitter.com/MirantisIT'
               crunchbase: 'https://www.crunchbase.com/organization/mirantis'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 220000000
+            headquarters: 'Mountain View, California, United States'
+            rank: '516'
             stars: N/A
             license: N/A
           - item:
@@ -4532,14 +4785,15 @@ landscape:
             external:
               twitter: 'https://twitter.com/bluemeric'
               crunchbase: 'https://www.crunchbase.com/organization/bluemeric'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: N/A
+            headquarters: 'Seattle, Washington, United States'
+            rank: N/A
             stars: N/A
             license: N/A
           - item:
             name: Hyper
             slug_name: hyper
-            company: Hyper
+            company: Hyper_
             cncf_hosted_project: false
             oss: true
             commercial: false
@@ -4550,8 +4804,9 @@ landscape:
             external:
               twitter: 'https://twitter.com/hyper_sh'
               crunchbase: 'https://www.crunchbase.com/organization/hyper-4'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: N/A
+            headquarters: 'New York, New York, United States'
+            rank: '85330'
             stars: N/A
             license: N/A
           - item:
@@ -4567,8 +4822,9 @@ landscape:
             external:
               twitter: 'https://twitter.com/Exoscale'
               crunchbase: 'https://www.crunchbase.com/organization/exoscale'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: N/A
+            headquarters: 'Lausanne, Vaud, Switzerland'
+            rank: '86749'
             stars: N/A
             license: N/A
           - item:
@@ -4586,6 +4842,7 @@ landscape:
               twitter: 'https://twitter.com/java_hipster'
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
+            rank: Not Entered Yet
             stars: N/A
             license: N/A
           - item:
@@ -4604,6 +4861,7 @@ landscape:
               crunchbase: 'https://www.crunchbase.com/organization/docker'
             market_cap: 242766694
             headquarters: 'San Francisco, California, United States'
+            rank: '471'
             stars: N/A
             license: N/A
           - item:
@@ -4619,8 +4877,9 @@ landscape:
             external:
               twitter: 'https://twitter.com/galacticfog'
               crunchbase: 'https://www.crunchbase.com/organization/galactic-fog'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: N/A
+            headquarters: 'South Orange, New Jersey, United States'
+            rank: '79022'
             stars: N/A
             license: N/A
           - item:
@@ -4639,12 +4898,13 @@ landscape:
               crunchbase: 'https://www.crunchbase.com/organization/coreos'
             market_cap: 50000000
             headquarters: 'San Francisco, California, United States'
+            rank: '1547'
             stars: N/A
             license: N/A
           - item:
             name: Ubuntu
             slug_name: ubuntu
-            company: Canonical
+            company: Ubuntu
             cncf_hosted_project: false
             oss: false
             commercial: true
@@ -4653,8 +4913,9 @@ landscape:
             external:
               twitter: 'https://twitter.com/ubuntu'
               crunchbase: 'https://www.crunchbase.com/organization/ubuntu'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 12900000
+            headquarters: 'London, England, United Kingdom'
+            rank: '17784'
             stars: N/A
             license: N/A
           - item:
@@ -4671,8 +4932,9 @@ landscape:
             external:
               twitter: 'https://twitter.com/lightbend'
               crunchbase: 'https://www.crunchbase.com/organization/typesafe'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 52000000
+            headquarters: 'San Francisco, California, United States'
+            rank: '4446'
             stars: N/A
             license: N/A
           - item:
@@ -4689,9 +4951,10 @@ landscape:
             stock_ticker: MSFT
             external:
               twitter: 'https://twitter.com/opendeis'
-              crunchbase: 'https://www.crunchbase.com/product/deis'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+              crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+            market_cap: 1000000
+            headquarters: 'Redmond, Washington, United States'
+            rank: '37'
             stars: 1073
             license: MIT
           - item:
@@ -4708,6 +4971,7 @@ landscape:
               crunchbase: 'https://www.crunchbase.com/organization/docker'
             market_cap: 242766694
             headquarters: 'San Francisco, California, United States'
+            rank: '471'
             stars: N/A
             license: N/A
           - item:
@@ -4725,12 +4989,13 @@ landscape:
               twitter: 'https://twitter.com/tsurupaas'
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
+            rank: Not Entered Yet
             stars: 2638
             license: BSD-3-Clause
           - item:
             name: ContainerShip
             slug_name: containership
-            company: ContainerShip
+            company: Containership
             cncf_hosted_project: false
             oss: false
             commercial: true
@@ -4740,8 +5005,9 @@ landscape:
             external:
               twitter: 'https://twitter.com/containershipio'
               crunchbase: 'https://www.crunchbase.com/organization/containership'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 2606729
+            headquarters: 'Pittsburgh, Pennsylvania, United States'
+            rank: '10730'
             stars: N/A
             license: N/A
           - item:
@@ -4757,14 +5023,15 @@ landscape:
             external:
               twitter: 'https://twitter.com/goconvox'
               crunchbase: 'https://www.crunchbase.com/organization/convox'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 120000
+            headquarters: 'San Francisco, California, United States'
+            rank: '27760'
             stars: N/A
             license: N/A
           - item:
             name: GKE
             slug_name: gke
-            company: Google
+            company: Google Cloud Platform
             cncf_hosted_project: false
             oss: false
             commercial: true
@@ -4776,6 +5043,7 @@ landscape:
               crunchbase: 'https://www.crunchbase.com/organization/google-cloud-platform'
             market_cap: N/A
             headquarters: 'San Francisco, California, United States'
+            rank: '25410'
             stars: N/A
             license: N/A
           - item:
@@ -4791,6 +5059,7 @@ landscape:
               https://camo.githubusercontent.com/c57e3786d84c99f21e453c6500d8e0333a2cf6d9/68747470733a2f2f706f727461696e65722e696f2f696d616765732f6c6f676f5f616c742e706e67
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
+            rank: Not Entered Yet
             stars: N/A
             license: N/A
           - item:
@@ -4807,8 +5076,9 @@ landscape:
             external:
               twitter: 'https://twitter.com/pusher'
               crunchbase: 'https://www.crunchbase.com/organization/pusher'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 3500000
+            headquarters: 'London, England, United Kingdom'
+            rank: '8452'
             stars: N/A
             license: N/A
           - item:
@@ -4825,8 +5095,9 @@ landscape:
             external:
               twitter: 'https://twitter.com/remindhq'
               crunchbase: 'https://www.crunchbase.com/organization/remind'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 59500000
+            headquarters: 'San Francisco, California, United States'
+            rank: '6237'
             stars: N/A
             license: N/A
           - item:
@@ -4842,8 +5113,9 @@ landscape:
             external:
               twitter: 'https://twitter.com/ScalingoHQ'
               crunchbase: 'https://www.crunchbase.com/organization/scalingo'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: N/A
+            headquarters: 'Strasbourg, Alsace, France'
+            rank: N/A
             stars: N/A
             license: N/A
           - item:
@@ -4860,12 +5132,13 @@ landscape:
               twitter: 'https://twitter.com/stackpointcloud'
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
+            rank: Not Entered Yet
             stars: N/A
             license: N/A
           - item:
             name: Supergiant
             slug_name: supergiant
-            company: QBox
+            company: Supergiant
             cncf_hosted_project: false
             oss: false
             commercial: true
@@ -4875,14 +5148,15 @@ landscape:
             external:
               twitter: 'https://twitter.com/supergiantio'
               crunchbase: 'https://www.crunchbase.com/organization/supergiant'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: N/A
+            headquarters: N/A
+            rank: N/A
             stars: 514
             license: Apache-2.0
           - item:
             name: SUSE Caas Platform
             slug_name: suse_caas_platform
-            company: SUSE
+            company: Suse
             cncf_hosted_project: false
             oss: false
             commercial: true
@@ -4893,8 +5167,9 @@ landscape:
             external:
               twitter: 'https://twitter.com/SUSE'
               crunchbase: 'https://www.crunchbase.com/organization/suse'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: N/A
+            headquarters: 'Nürnberg, Bayern, Germany'
+            rank: '60556'
             stars: 10
             license: N/A
       - subcategory:
@@ -4914,15 +5189,16 @@ landscape:
             stock_ticker: AMZN
             external:
               twitter: 'https://twitter.com/awscloud'
-              crunchbase: 'https://www.crunchbase.com/product/aws-lambda'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+              crunchbase: 'https://www.crunchbase.com/organization/amazon-web-services'
+            market_cap: N/A
+            headquarters: 'Seattle, Washington, United States'
+            rank: '10522'
             stars: N/A
             license: N/A
           - item:
             name: OpenFAAS
             slug_name: openfaas
-            company: openfaas
+            company: OpenFaaS Ltd
             cncf_hosted_project: false
             oss: true
             commercial: false
@@ -4933,14 +5209,15 @@ landscape:
             external:
               twitter: 'https://twitter.com/alexellisuk'
               crunchbase: 'https://www.crunchbase.com/organization/openfaas'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: N/A
+            headquarters: 'Peterborough, Peterborough, United Kingdom'
+            rank: N/A
             stars: 8413
             license: MIT
           - item:
             name: Google Cloud Functions
             slug_name: google_cloud_functions
-            company: Google
+            company: Google Cloud Platform
             cncf_hosted_project: false
             oss: false
             commercial: true
@@ -4952,12 +5229,13 @@ landscape:
               crunchbase: 'https://www.crunchbase.com/organization/google-cloud-platform'
             market_cap: N/A
             headquarters: 'San Francisco, California, United States'
+            rank: '25410'
             stars: N/A
             license: N/A
           - item:
             name: OpenWhisk
             slug_name: openwhisk
-            company: Apache
+            company: Apache Software Foundation
             cncf_hosted_project: false
             oss: true
             commercial: false
@@ -4970,12 +5248,13 @@ landscape:
               crunchbase: 'https://www.crunchbase.com/organization/apache'
             market_cap: N/A
             headquarters: 'Forest Hill, Maryland, United States'
+            rank: '84483'
             stars: 2350
             license: Apache-2.0
           - item:
             name: Oracle Application Container Cloud
             slug_name: oracle_application_container_cloud
-            company: Oracle
+            company: Oracle Corporation
             cncf_hosted_project: false
             oss: false
             commercial: true
@@ -4988,12 +5267,13 @@ landscape:
               crunchbase: 'https://www.crunchbase.com/organization/oracle'
             market_cap: N/A
             headquarters: 'Redwood Shores, California, United States'
+            rank: '25519'
             stars: N/A
             license: N/A
           - item:
             name: Firebase BLOCKS
             slug_name: firebaseblocks
-            company: Google
+            company: Firebase
             cncf_hosted_project: false
             oss: false
             commercial: true
@@ -5004,14 +5284,15 @@ landscape:
             external:
               twitter: 'https://twitter.com/Firebase'
               crunchbase: 'https://www.crunchbase.com/organization/firebase'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 7000000
+            headquarters: 'San Francisco, California, United States'
+            rank: '5337'
             stars: N/A
             license: N/A
           - item:
             name: Webtask
             slug_name: webtask
-            company: Auth0
+            company: Webtask
             cncf_hosted_project: false
             oss: false
             commercial: true
@@ -5020,15 +5301,16 @@ landscape:
               https://cdn-images-1.medium.com/max/698/1*4SkA3yFoWNsuH3PPVCpKvQ.png
             external:
               twitter: 'https://twitter.com/webtaskio'
-              crunchbase: 'https://twitter.com/webtaskio'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+              crunchbase: 'https://www.crunchbase.com/organization/webtask'
+            market_cap: N/A
+            headquarters: N/A
+            rank: N/A
             stars: N/A
             license: N/A
           - item:
             name: Fission
             slug_name: fission
-            company: Platform9
+            company: Platform9 Systems
             cncf_hosted_project: false
             oss: true
             commercial: false
@@ -5038,14 +5320,15 @@ landscape:
             external:
               twitter: 'https://twitter.com/Platform9Sys'
               crunchbase: 'https://www.crunchbase.com/organization/platform9-systems-inc'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 36500000
+            headquarters: 'Sunnyvale, California, United States'
+            rank: '1803'
             stars: 2960
             license: Apache-2.0
           - item:
             name: PubNub
             slug_name: pubnub
-            company: Blocks
+            company: PubNub
             cncf_hosted_project: false
             oss: false
             commercial: true
@@ -5054,8 +5337,9 @@ landscape:
             external:
               twitter: 'https://twitter.com/PubNub'
               crunchbase: 'https://www.crunchbase.com/organization/pubnub'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 46100000
+            headquarters: 'San Francisco, California, United States'
+            rank: '3781'
             stars: N/A
             license: N/A
           - item:
@@ -5072,6 +5356,7 @@ landscape:
               twitter: 'https://twitter.com/apexserverless'
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
+            rank: Not Entered Yet
             stars: N/A
             license: N/A
           - item:
@@ -5088,8 +5373,9 @@ landscape:
             external:
               twitter: 'https://twitter.com/goserverless'
               crunchbase: 'https://www.crunchbase.com/organization/serverless'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 3000000
+            headquarters: 'San Francisco, California, United States'
+            rank: '1999'
             stars: N/A
             license: N/A
           - item:
@@ -5106,6 +5392,7 @@ landscape:
               twitter: 'https://twitter.com/hashtag/kubeless'
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
+            rank: Not Entered Yet
             stars: 1802
             license: Apache-2.0
           - item:
@@ -5123,12 +5410,13 @@ landscape:
               twitter: 'https://twitter.com/nstackcom'
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
+            rank: Not Entered Yet
             stars: N/A
             license: N/A
           - item:
             name: Nuclio
             slug_name: nuclio
-            company: Iguazio
+            company: iguazio
             cncf_hosted_project: false
             oss: true
             commercial: false
@@ -5139,8 +5427,9 @@ landscape:
             external:
               twitter: 'https://twitter.com/nuclioio'
               crunchbase: 'https://www.crunchbase.com/organization/iguaz-io'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 48000000
+            headquarters: 'Herzliya, Tel Aviv, Israel'
+            rank: '402'
             stars: N/A
             license: N/A
           - item:
@@ -5156,9 +5445,10 @@ landscape:
             stock_ticker: MSFT
             external:
               twitter: 'https://twitter.com/azurefunctions'
-              crunchbase: 'https://www.crunchbase.com/product/windows-azure'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+              crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+            market_cap: 1000000
+            headquarters: 'Redmond, Washington, United States'
+            rank: '37'
             stars: N/A
             license: N/A
   - category:
@@ -5184,6 +5474,7 @@ landscape:
               twitter: 'https://twitter.com/EarlhamInst'
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
+            rank: Not Entered Yet
             stars: N/A
             license: N/A
           - item:
@@ -5200,14 +5491,15 @@ landscape:
             external:
               twitter: 'https://twitter.com/NewRelic'
               crunchbase: 'https://www.crunchbase.com/organization/new-relic'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 214500000
+            headquarters: 'San Francisco, California, United States'
+            rank: '486'
             stars: N/A
             license: N/A
           - item:
             name: AppDynamics
             slug_name: appdynamics
-            company: Cisco
+            company: AppDynamics
             cncf_hosted_project: false
             oss: false
             commercial: true
@@ -5217,8 +5509,9 @@ landscape:
             external:
               twitter: 'https://twitter.com/appdynamics'
               crunchbase: 'https://www.crunchbase.com/organization/appdynamics'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 364500000
+            headquarters: 'San Francisco, California, United States'
+            rank: '405'
             stars: N/A
             license: N/A
           - item:
@@ -5236,6 +5529,7 @@ landscape:
               twitter: 'https://twitter.com/axibase'
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
+            rank: Not Entered Yet
             stars: N/A
             license: N/A
           - item:
@@ -5250,9 +5544,10 @@ landscape:
               https://crunchbase-production-res.cloudinary.com/image/upload/e9d7401fbbda172d5b1972370437a4be.png
             external:
               twitter: 'https://twitter.com/datadoghq'
-              crunchbase: 'https://www.crunchbase.com/organization/datadog#/entity'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+              crunchbase: 'https://www.crunchbase.com/organization/datadog'
+            market_cap: 147900000
+            headquarters: 'New York, New York, United States'
+            rank: '808'
             stars: N/A
             license: N/A
           - item:
@@ -5268,15 +5563,16 @@ landscape:
             stock_ticker: AMZN
             external:
               twitter: 'https://twitter.com/awscloud'
-              crunchbase: 'https://www.crunchbase.com/product/amazon-web-services'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+              crunchbase: 'https://www.crunchbase.com/organization/amazon-web-services'
+            market_cap: N/A
+            headquarters: 'Seattle, Washington, United States'
+            rank: '10522'
             stars: N/A
             license: N/A
           - item:
             name: Stackdriver
             slug_name: stackdriver
-            company: Google
+            company: Stackdriver
             cncf_hosted_project: false
             oss: false
             commercial: true
@@ -5286,14 +5582,15 @@ landscape:
             external:
               twitter: 'https://twitter.com/stackdriver'
               crunchbase: 'https://www.crunchbase.com/organization/stackdriver'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 15000000
+            headquarters: 'Boston, Massachusetts, United States'
+            rank: '13387'
             stars: N/A
             license: N/A
           - item:
             name: Prometheus
             slug_name: prometheus
-            company: CNCF
+            company: Cloud Native Computing Foundation (CNCF)
             cncf_hosted_project: true
             oss: true
             commercial: false
@@ -5306,13 +5603,14 @@ landscape:
               crunchbase: >-
                 https://www.crunchbase.com/organization/cloud-native-computing-foundation
             market_cap: N/A
-            headquarters: 'New York, New York, United States'
+            headquarters: 'San Francisco, California, United States'
+            rank: '63493'
             stars: N/A
             license: N/A
           - item:
             name: SysDig
             slug_name: sysdig
-            company: Draios
+            company: Sysdig
             cncf_hosted_project: false
             oss: true
             commercial: false
@@ -5322,14 +5620,15 @@ landscape:
             external:
               twitter: 'https://twitter.com/sysdig'
               crunchbase: 'https://www.crunchbase.com/organization/sysdig'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 53000000
+            headquarters: 'San Francisco, California, United States'
+            rank: '3414'
             stars: 4808
             license: GPL-2.0
           - item:
             name: Wavefront
             slug_name: wavefront
-            company: VMware
+            company: Wavefront
             cncf_hosted_project: false
             oss: false
             commercial: true
@@ -5339,8 +5638,9 @@ landscape:
             external:
               twitter: 'https://twitter.com/WavefrontHQ'
               crunchbase: 'https://www.crunchbase.com/organization/wavefront'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 65500000
+            headquarters: 'Palo Alto, California, United States'
+            rank: '2820'
             stars: N/A
             license: N/A
           - item:
@@ -5355,8 +5655,9 @@ landscape:
             external:
               twitter: 'https://twitter.com/InstanaHQ'
               crunchbase: 'https://www.crunchbase.com/organization/instana'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 26000000
+            headquarters: 'San Francisco, California, United States'
+            rank: '1310'
             stars: N/A
             license: N/A
           - item:
@@ -5373,8 +5674,9 @@ landscape:
             external:
               twitter: 'https://twitter.com/joneybadgerapp'
               crunchbase: 'https://www.crunchbase.com/organization/honeybadger'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: N/A
+            headquarters: 'Kirkland, Washington, United States'
+            rank: '89318'
             stars: N/A
             license: N/A
           - item:
@@ -5390,14 +5692,15 @@ landscape:
             external:
               twitter: 'https://twitter.com/icinga'
               crunchbase: 'https://www.crunchbase.com/organization/icinga'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: N/A
+            headquarters: N/A
+            rank: N/A
             stars: N/A
             license: N/A
           - item:
             name: IronDB
             slug_name: irondb
-            company: Circonus
+            company: 'Circonus, Inc.'
             cncf_hosted_project: false
             oss: true
             commercial: false
@@ -5408,8 +5711,9 @@ landscape:
             external:
               twitter: 'https://twitter.com/circonus'
               crunchbase: 'https://www.crunchbase.com/organization/circonus'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: N/A
+            headquarters: 'Fulton, Maryland, United States'
+            rank: '67064'
             stars: N/A
             license: N/A
           - item:
@@ -5425,14 +5729,15 @@ landscape:
             external:
               twitter: 'https://twitter.com/rocanainc'
               crunchbase: 'https://www.crunchbase.com/organization/rocana'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 19400000
+            headquarters: 'San Francisco, California, United States'
+            rank: '7128'
             stars: N/A
             license: N/A
           - item:
             name: OpsClarity
             slug_name: opsclarity
-            company: OpsClarity
+            company: OpsClarity Inc.
             cncf_hosted_project: false
             oss: false
             commercial: true
@@ -5442,14 +5747,15 @@ landscape:
             external:
               twitter: 'https://twitter.com/opsclarity'
               crunchbase: 'https://www.crunchbase.com/organization/opsclarity'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 21230740
+            headquarters: 'Sunnyvale, California, United States'
+            rank: '9080'
             stars: N/A
             license: N/A
           - item:
             name: Nagios
             slug_name: nagios
-            company: Nagios Enterprises
+            company: Nagios
             cncf_hosted_project: false
             oss: true
             commercial: false
@@ -5460,8 +5766,9 @@ landscape:
             external:
               twitter: 'https://twitter.com/nagiosinc'
               crunchbase: 'https://www.crunchbase.com/organization/nagios'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: N/A
+            headquarters: 'Saint Paul, Minnesota, United States'
+            rank: '74911'
             stars: N/A
             license: N/A
           - item:
@@ -5478,8 +5785,9 @@ landscape:
             external:
               twitter: 'https://twitter.com/zabbix'
               crunchbase: 'https://www.crunchbase.com/organization/zabbix'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: N/A
+            headquarters: 'Riga, Riga, Latvia'
+            rank: '87664'
             stars: N/A
             license: N/A
           - item:
@@ -5495,12 +5803,13 @@ landscape:
               http://blog-centreon-wordpress.s3.amazonaws.com/wp-content/uploads/2017/07/GraphiteLogo.png
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
+            rank: Not Entered Yet
             stars: N/A
             license: N/A
           - item:
             name: InfluxDB
             slug_name: influxdb
-            company: InfluxDB
+            company: InfluxData
             cncf_hosted_project: false
             oss: true
             commercial: false
@@ -5511,9 +5820,10 @@ landscape:
             external:
               twitter: 'https://twitter.com/influxdb'
               crunchbase: 'https://www.crunchbase.com/organization/influxdb'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
-            stars: 12419
+            market_cap: 24892000
+            headquarters: 'San Francisco, California, United States'
+            rank: '1537'
+            stars: 12421
             license: N/A
           - item:
             name: OpenTSDB
@@ -5529,6 +5839,7 @@ landscape:
               twitter: 'https://twitter.com/opentsdb'
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
+            rank: Not Entered Yet
             stars: 2894
             license: GPL-3.0
           - item:
@@ -5544,14 +5855,15 @@ landscape:
             external:
               twitter: 'https://twitter.com/Netsil_HQ'
               crunchbase: 'https://www.crunchbase.com/organization/netsil'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 150000
+            headquarters: 'San Francisco, California, United States'
+            rank: '15129'
             stars: N/A
             license: N/A
           - item:
             name: Meros
             slug_name: meros
-            company: Meros Inc
+            company: 'Meros, Inc.'
             cncf_hosted_project: false
             oss: false
             commercial: true
@@ -5561,14 +5873,15 @@ landscape:
             external:
               twitter: 'https://twitter.com/merosdevops'
               crunchbase: 'https://www.crunchbase.com/organization/meros-inc'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: N/A
+            headquarters: 'Clearwater, Florida, United States'
+            rank: N/A
             stars: N/A
             license: N/A
           - item:
             name: OpBeat
             slug_name: opbeat
-            company: OpBeat
+            company: Opbeat
             cncf_hosted_project: false
             oss: false
             commercial: true
@@ -5578,8 +5891,9 @@ landscape:
             external:
               twitter: 'https://twitter.com/opbeat'
               crunchbase: 'https://www.crunchbase.com/organization/opbeat'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 2800000
+            headquarters: 'San Francisco, California, United States'
+            rank: '15146'
             stars: N/A
             license: N/A
           - item:
@@ -5596,12 +5910,13 @@ landscape:
               twitter: 'https://twitter.com/cobeio'
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
+            rank: Not Entered Yet
             stars: N/A
             license: N/A
           - item:
             name: ServerDensity
             slug_name: serverdensity
-            company: ServerDensity
+            company: Server Density
             cncf_hosted_project: false
             oss: false
             commercial: true
@@ -5611,14 +5926,15 @@ landscape:
             external:
               twitter: 'https://twitter.com/serverdensity'
               crunchbase: 'https://www.crunchbase.com/organization/server-density'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 2094514
+            headquarters: 'London, England, United Kingdom'
+            rank: '17075'
             stars: N/A
             license: N/A
           - item:
             name: Librato
             slug_name: librato
-            company: Solarwinds
+            company: Librato
             cncf_hosted_project: false
             oss: false
             commercial: true
@@ -5627,8 +5943,9 @@ landscape:
             external:
               twitter: 'https://twitter.com/Librato'
               crunchbase: 'https://www.crunchbase.com/organization/librato'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 5050000
+            headquarters: 'San Francisco, California, United States'
+            rank: '13322'
             stars: N/A
             license: N/A
           - item:
@@ -5645,14 +5962,15 @@ landscape:
             external:
               twitter: 'https://twitter.com/Appneta'
               crunchbase: 'https://www.crunchbase.com/organization/appneta'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 63177998
+            headquarters: 'Boston, Massachusetts, United States'
+            rank: '1431'
             stars: N/A
             license: N/A
           - item:
             name: Catchpoint Systems
             slug_name: catchpoint_systems
-            company: Catchpoint Systems Inc
+            company: 'Catchpoint '
             cncf_hosted_project: false
             oss: false
             commercial: true
@@ -5661,14 +5979,15 @@ landscape:
             external:
               twitter: 'https://twitter.com/catchpoint'
               crunchbase: 'https://www.crunchbase.com/organization/catchpoint-systems'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 49765055
+            headquarters: 'New York, New York, United States'
+            rank: '2781'
             stars: N/A
             license: N/A
           - item:
             name: Dynatrace
             slug_name: dynatrace
-            company: Compuware
+            company: Dynatrace
             cncf_hosted_project: false
             oss: false
             commercial: true
@@ -5678,8 +5997,9 @@ landscape:
             external:
               twitter: 'https://twitter.com/Dynatrace'
               crunchbase: 'https://www.crunchbase.com/organization/dynatrace-software'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 21900000
+            headquarters: 'Waltham, Massachusetts, United States'
+            rank: '2583'
             stars: N/A
             license: N/A
           - item:
@@ -5696,8 +6016,9 @@ landscape:
             external:
               twitter: 'https://twitter.com/CoScale'
               crunchbase: 'https://www.crunchbase.com/organization/co-scale'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 3000000
+            headquarters: 'Gent, Oost-Vlaanderen, Belgium'
+            rank: '15425'
             stars: N/A
             license: N/A
           - item:
@@ -5713,8 +6034,9 @@ landscape:
             external:
               twitter: 'https://twitter.com/outlyerapp'
               crunchbase: 'https://www.crunchbase.com/organization/outlyer'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 5480000
+            headquarters: 'San Francisco, California, United States'
+            rank: '17903'
             stars: N/A
             license: N/A
           - item:
@@ -5731,14 +6053,15 @@ landscape:
             external:
               twitter: 'https://twitter.com/centreon'
               crunchbase: 'https://www.crunchbase.com/organization/centreon'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: N/A
+            headquarters: 'Paris, Ile-de-France, France'
+            rank: N/A
             stars: 187
             license: GPL-2.0
           - item:
             name: Lighstep
             slug_name: lightstep
-            company: Lightstep
+            company: LightStep
             cncf_hosted_project: false
             oss: false
             commercial: true
@@ -5748,14 +6071,15 @@ landscape:
             external:
               twitter: 'https://twitter.com/lightstephq'
               crunchbase: 'https://www.crunchbase.com/organization/lightstep'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 27500000
+            headquarters: 'San Francisco, California, United States'
+            rank: '2238'
             stars: N/A
             license: N/A
           - item:
             name: Signal FX
             slug_name: signal_fx
-            company: Signal FX
+            company: SignalFx
             cncf_hosted_project: false
             oss: false
             commercial: true
@@ -5764,14 +6088,15 @@ landscape:
             external:
               twitter: 'https://twitter.com/signalfx'
               crunchbase: 'https://www.crunchbase.com/organization/signalfuse'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 28500000
+            headquarters: 'San Mateo, California, United States'
+            rank: '3533'
             stars: N/A
             license: N/A
           - item:
             name: Nodesource
             slug_name: nodesource
-            company: Nodesource
+            company: 'NodeSource, Inc.'
             cncf_hosted_project: false
             oss: false
             commercial: true
@@ -5780,14 +6105,15 @@ landscape:
             external:
               twitter: 'https://twitter.com/nodesource'
               crunchbase: 'https://www.crunchbase.com/organization/nodesource'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 33400000
+            headquarters: 'San Francisco, California, United States'
+            rank: '600'
             stars: N/A
             license: N/A
           - item:
             name: Grafana
             slug_name: grafana
-            company: Grafana
+            company: Grafana Labs
             cncf_hosted_project: false
             oss: true
             commercial: false
@@ -5798,8 +6124,9 @@ landscape:
             external:
               twitter: 'https://twitter.com/grafana'
               crunchbase: 'https://www.crunchbase.com/organization/raintank'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: N/A
+            headquarters: 'New York, New York, United States'
+            rank: '64875'
             stars: N/A
             license: N/A
           - item:
@@ -5815,9 +6142,10 @@ landscape:
             stock_ticker: MSFT
             external:
               twitter: 'https://twitter.com/azure'
-              crunchbase: 'https://www.crunchbase.com/product/windows-azure'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+              crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+            market_cap: 1000000
+            headquarters: 'Redmond, Washington, United States'
+            rank: '37'
             stars: N/A
             license: N/A
           - item:
@@ -5836,12 +6164,13 @@ landscape:
               crunchbase: 'https://www.crunchbase.com/organization/weaveworks'
             market_cap: 20000000
             headquarters: 'London, England, United Kingdom'
+            rank: '5353'
             stars: 2153
             license: Apache-2.0
           - item:
             name: Sensu
             slug_name: sensu
-            company: sensu
+            company: SENSU
             cncf_hosted_project: false
             oss: true
             commercial: false
@@ -5852,14 +6181,15 @@ landscape:
             external:
               twitter: 'https://twitter.com/sensu'
               crunchbase: 'https://www.crunchbase.com/organization/sensu'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 2530000
+            headquarters: 'Tokyo, Tokyo, Japan'
+            rank: '18567'
             stars: N/A
             license: N/A
           - item:
             name: Sentry
             slug_name: sentry
-            company: Functional Software Inc
+            company: Sentry
             cncf_hosted_project: false
             oss: true
             commercial: false
@@ -5869,14 +6199,15 @@ landscape:
             external:
               twitter: 'https://twitter.com/getsentry'
               crunchbase: 'https://www.crunchbase.com/organization/sentry'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 10500000
+            headquarters: 'San Francisco, California, United States'
+            rank: '4725'
             stars: N/A
             license: N/A
           - item:
             name: StackRox
             slug_name: stackrox
-            company: stackrox
+            company: StackRox
             cncf_hosted_project: false
             oss: false
             commercial: true
@@ -5887,14 +6218,15 @@ landscape:
             external:
               twitter: 'https://twitter.com/StackRox'
               crunchbase: 'https://www.crunchbase.com/organization/stackrox'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 14000000
+            headquarters: 'Mountain View, California, United States'
+            rank: '4843'
             stars: N/A
             license: N/A
           - item:
             name: StackState
             slug_name: stackstate
-            company: stackstate
+            company: StackState
             cncf_hosted_project: false
             oss: false
             commercial: true
@@ -5904,14 +6236,15 @@ landscape:
             external:
               twitter: 'https://twitter.com/hashtag/stackstate'
               crunchbase: 'https://www.crunchbase.com/organization/stackstate'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: N/A
+            headquarters: 'Utrecht, Utrecht, The Netherlands'
+            rank: '72893'
             stars: N/A
             license: N/A
           - item:
             name: Weave Cloud
             slug_name: weave_cloud
-            company: Weave
+            company: Weaveworks
             cncf_hosted_project: false
             oss: false
             commercial: true
@@ -5923,6 +6256,7 @@ landscape:
               crunchbase: 'https://www.crunchbase.com/organization/weaveworks'
             market_cap: 20000000
             headquarters: 'London, England, United Kingdom'
+            rank: '5353'
             stars: 4918
             license: Apache-2.0
       - subcategory:
@@ -5943,8 +6277,9 @@ landscape:
             external:
               twitter: 'https://twitter.com/splunk'
               crunchbase: 'https://www.crunchbase.com/organization/splunk'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 40900000
+            headquarters: 'San Francisco, California, United States'
+            rank: '677'
             stars: N/A
             license: N/A
           - item:
@@ -5961,8 +6296,9 @@ landscape:
             external:
               twitter: 'https://twitter.com/elastic'
               crunchbase: 'https://www.crunchbase.com/organization/elasticsearch'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 104000000
+            headquarters: 'Mountain View, California, United States'
+            rank: '907'
             stars: N/A
             license: N/A
           - item:
@@ -5979,8 +6315,9 @@ landscape:
             external:
               twitter: 'https://twitter.com/sematext'
               crunchbase: 'https://www.crunchbase.com/organization/sematext'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: N/A
+            headquarters: 'Brooklyn, New York, United States'
+            rank: '86097'
             stars: N/A
             license: N/A
           - item:
@@ -5997,8 +6334,9 @@ landscape:
             external:
               twitter: 'https://twitter.com/sumologic'
               crunchbase: 'https://www.crunchbase.com/organization/sumo-logic'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 230000000
+            headquarters: 'Redwood City, California, United States'
+            rank: '94'
             stars: N/A
             license: N/A
           - item:
@@ -6013,8 +6351,9 @@ landscape:
             external:
               twitter: 'https://twitter.com/loggly'
               crunchbase: 'https://www.crunchbase.com/organization/loggly'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 47400000
+            headquarters: 'San Francisco, California, United States'
+            rank: '380'
             stars: N/A
             license: N/A
           - item:
@@ -6029,14 +6368,15 @@ landscape:
             external:
               twitter: 'https://twitter.com/logzio'
               crunchbase: 'https://www.crunchbase.com/organization/logz-io'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 46900000
+            headquarters: 'Tel Aviv, Tel Aviv, Israel'
+            rank: '1815'
             stars: N/A
             license: N/A
           - item:
             name: FluentD
             slug_name: fluentd
-            company: CNCF
+            company: Cloud Native Computing Foundation (CNCF)
             cncf_hosted_project: true
             oss: true
             commercial: false
@@ -6049,7 +6389,8 @@ landscape:
               crunchbase: >-
                 https://www.crunchbase.com/organization/cloud-native-computing-foundation
             market_cap: N/A
-            headquarters: 'New York, New York, United States'
+            headquarters: 'San Francisco, California, United States'
+            rank: '63493'
             stars: 5974
             license: N/A
           - item:
@@ -6065,8 +6406,9 @@ landscape:
             external:
               twitter: 'https://twitter.com/Loom_systems'
               crunchbase: 'https://www.crunchbase.com/organization/loom-systems'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 6000000
+            headquarters: 'San Francisco, California, United States'
+            rank: '2298'
             stars: N/A
             license: N/A
           - item:
@@ -6083,8 +6425,9 @@ landscape:
             external:
               twitter: 'https://twitter.com/graylog2'
               crunchbase: 'https://www.crunchbase.com/organization/graylog'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
+            market_cap: 4400000
+            headquarters: 'Houston, Texas, United States'
+            rank: '13210'
             stars: N/A
             license: N/A
       - subcategory:
@@ -6094,7 +6437,7 @@ landscape:
           - item:
             name: OpenTracing
             slug_name: opentracing
-            company: CNCF
+            company: Cloud Native Computing Foundation (CNCF)
             cncf_hosted_project: true
             oss: true
             commercial: false
@@ -6107,7 +6450,8 @@ landscape:
               crunchbase: >-
                 https://www.crunchbase.com/organization/cloud-native-computing-foundation
             market_cap: N/A
-            headquarters: 'New York, New York, United States'
+            headquarters: 'San Francisco, California, United States'
+            rank: '63493'
             stars: N/A
             license: N/A
           - item:
@@ -6124,6 +6468,7 @@ landscape:
             external: null
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
+            rank: Not Entered Yet
             stars: N/A
             license: N/A
           - item:
@@ -6141,12 +6486,13 @@ landscape:
               twitter: 'https://twitter.com/zipkinproject'
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
+            rank: Not Entered Yet
             stars: 7535
             license: Apache-2.0
           - item:
             name: Jaeger
             slug_name: jaeger
-            company: CNCF
+            company: Cloud Native Computing Foundation (CNCF)
             cncf_hosted_project: true
             oss: true
             commercial: false
@@ -6160,8 +6506,9 @@ landscape:
               crunchbase: >-
                 https://www.crunchbase.com/organization/cloud-native-computing-foundation
             market_cap: N/A
-            headquarters: 'New York, New York, United States'
-            stars: 3845
+            headquarters: 'San Francisco, California, United States'
+            rank: '63493'
+            stars: 3847
             license: Apache-2.0
           - item:
             name: Cloud Sleuth
@@ -6176,6 +6523,7 @@ landscape:
               https://pragmaticintegrator.files.wordpress.com/2017/03/spring-cloud.jpg
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
+            rank: Not Entered Yet
             stars: 577
             license: Apache-2.0
           - item:
@@ -6189,5 +6537,6 @@ landscape:
             repo_url: 'https://github.com/sourcegraph/appdash'
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
+            rank: Not Entered Yet
             stars: 1207
             license: N/A

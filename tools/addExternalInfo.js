@@ -13,7 +13,8 @@ const newSource = tree.map(function(node) {
     const crunchbaseInfo = _.find(crunchbase, {"Organization Name URL": (node.external || {}).crunchbase});
     var crunchbaseParts = {
       market_cap: 'Not Entered Yet',
-      headquarters: 'Not Entered Yet'
+      headquarters: 'Not Entered Yet',
+      rank: 'Not Entered Yet'
     };
     if (!crunchbaseInfo) {
       console.info('No crunchbase info', (node.external || {}).crunchbase, node.company, node.name);
@@ -22,7 +23,9 @@ const newSource = tree.map(function(node) {
       const marketCap = amount ? parseInt(amount, 10) : 'N/A';
       crunchbaseParts = {
         market_cap: marketCap,
-        headquarters: crunchbaseInfo["Headquarters Location"] || 'N/A'
+        headquarters: crunchbaseInfo["Headquarters Location"] || 'N/A',
+        company: crunchbaseInfo["Organization Name"],
+        rank: crunchbaseInfo["CB Rank (Company)"].replace(/,/g, "") || 'N/A'
       }
     }
     var githubInfo = {

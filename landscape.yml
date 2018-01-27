@@ -968,7 +968,7 @@ landscape:
           stock_ticker: 'AMZN'
           external:
             twitter: https://twitter.com/awscloud
-            crunchbase: https://www.crunchbase.com/product/amazon-ec2
+            crunchbase: https://www.crunchbase.com/organization/amazon
         - item:
           name: "Google Registry"
           slug_name: google_registry
@@ -1138,7 +1138,7 @@ landscape:
           raw_logo: https://d0.awsstatic.com/logos/partners/neuvector_logo_600x400.png
           external:
             twitter: https://twitter.com/neuvector
-            crunchbase: https://www.crunchbase.com/organization/neuvector#/entity
+            crunchbase: https://www.crunchbase.com/organization/neuvector
         - item:
           name: "Clair"
           slug_name: clair_coreos
@@ -1151,7 +1151,7 @@ landscape:
           raw_logo: http://zdnet2.cbsistatic.com/hub/i/r/2016/03/18/c9a09a0a-1fcc-48c8-810b-cb1c0379a562/resize/770xauto/cc3c78f58099a9569a899e05ceabba3f/coreos-clair.jpg
           external:
             twitter: https://twitter.com/coreos
-            crunchbase: https://www.crunchbase.com/organization/coreo
+            crunchbase: https://www.crunchbase.com/organization/coreos
         - item:
           name: "Notary"
           slug_name: notary
@@ -1353,7 +1353,7 @@ landscape:
           raw_logo: http://previsna.com/bilder/hadoop-hdfs.png
           external:
             twitter: https://twitter.com/TheASF
-            crunchbase: https://www.crunchbase.com/product/hadoop
+            crunchbase: https://www.crunchbase.com/organization/hadoop
         - item:
           name: "Minio"
           slug_name: minio
@@ -1913,7 +1913,7 @@ landscape:
           raw_logo: https://user-images.githubusercontent.com/6019102/29992977-e6e92a02-8f5d-11e7-855b-0bf748f13dd9.png
           external:
             twitter: https://twitter.com/nuagenetworks
-            crunchbase: https://www.crunchbase.com/organization/nuage-Networks
+            crunchbase: https://www.crunchbase.com/organization/nuage-networks
         - item:
           name: "OpenContrail"
           slug_name: opencontrail
@@ -2033,7 +2033,7 @@ landscape:
           stock_ticker: 'ORCL'
           external:
             twitter: https://twitter.com/mysql
-            crunchbase: https://www.mysql.com/common/logos/logo-mysql-170x115.png
+            crunchbase: https://www.crunchbase.com/organization/mysql
         - item:
           name: "Postgres"
           slug_name: postgres
@@ -2046,7 +2046,7 @@ landscape:
           raw_logo: https://raw.githubusercontent.com/docker-library/docs/01c12653951b2fe592c1f93a13b4e289ada0e3a1/postgres/logo.png
           external:
             twitter: https://twitter.com/postgresql
-            crunchbase:  https://twitter.com/postgresql
+            crunchbase:  https://www.crunchbase.com/organization/postgresql
         - item:
           name: "Oracle"
           slug_name: oracle
@@ -2072,7 +2072,7 @@ landscape:
           stock_ticker: 'MSFT'
           external:
             twitter: https://twitter.com/SQLServer
-            crunchbase: https://www.crunchbase.com/organization/microsoft-sql-server
+            crunchbase: https://www.crunchbase.com/organization/microsoft
         - item:
           name: "IBM DB2"
           slug_name: ibm_db2
@@ -2111,7 +2111,7 @@ landscape:
           raw_logo: https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Cassandra_logo.svg/279px-Cassandra_logo.svg.png
           external:
             twitter: https://twitter.com/cassandra
-            crunchbase: https://www.crunchbase.com/organization/apache-cassandra
+            crunchbase: https://www.crunchbase.com/organization/apache
         - item:
           name: "Redis"
           slug_name: redis
@@ -2124,7 +2124,7 @@ landscape:
           raw_logo: https://blog.newrelic.com/wp-content/uploads/redis.png
           external:
             twitter: https://twitter.com/redisfeed
-            crunchbase: https://www.crunchbase.com/product/redis
+            crunchbase: https://www.crunchbase.com/organization/redis-labs
         - item:
           name: "MariaDB"
           slug_name: mariadb
@@ -2163,7 +2163,7 @@ landscape:
           raw_logo: https://pbs.twimg.com/profile_images/759150998753378304/GoY-XdnG_400x400.jpg
           external:
             twitter: https://twitter.com/nomsdb
-            crunchbase: https://www.crunchbase.com/product/noms
+            crunchbase: https://www.crunchbase.com/organization/attic-labs
         - item:
           name: "BigchainDB"
           slug_name: bigchaindb
@@ -2241,7 +2241,7 @@ landscape:
           stock_ticker: 'MSFT'
           external:
             twitter: https://twitter.com/azure
-            crunchbase: https://www.crunchbase.com/product/windows-azure
+            crunchbase: https://www.crunchbase.com/organization/microsoft
         - item:
           name: "Snowflake"
           slug_name: snowflake
@@ -2316,7 +2316,7 @@ landscape:
           raw_logo: https://www.contegix.com/wp-content/uploads/2015/09/Hadoop.png
           external:
             twitter: https://twitter.com/hadoop
-            crunchbase: https://www.crunchbase.com/product/hadoop
+            crunchbase: https://www.crunchbase.com/organization/hadoop
         - item:
           name: "Iguazio"
           slug_name: iquazio
@@ -2411,7 +2411,7 @@ landscape:
           raw_logo: https://spark.apache.org/images/spark-logo-trademark.png
           external:
             twitter: https://twitter.com/apachespark
-            crunchbase: https://www.crunchbase.com/organization/apache-spark
+            crunchbase: https://www.crunchbase.com/organization/apache
         - item:
           name: "Heron"
           slug_name: heron
@@ -2455,7 +2455,7 @@ landscape:
         - item:
           name: "Apache Storm"
           slug_name: apache_storm
-          company: "Apache Storm"
+          company: "Apache"
           cncf_hosted_project: false
           oss: true
           commercial: false
@@ -2464,11 +2464,11 @@ landscape:
           raw_logo: http://storm.apache.org/images/logo.png
           external:
             twitter: https://twitter.com/stormprocessor
-            crunchbase: https://www.crunchbase.com/product/storm
+            crunchbase: https://www.crunchbase.com/organization/apache
         - item:
           name: "RabbitMQ"
           slug_name: rabiitmq
-          company: "RabbitMQ"
+          company: "Rabbit Technologies"
           cncf_hosted_project: false
           oss: true
           commercial: false
@@ -2477,7 +2477,7 @@ landscape:
           raw_logo:  https://neoteric.eu/wp-content/uploads/2016/06/rabbitmq_logo.png
           external:
             twitter: https://twitter.com/rabbitmq
-            crunchbase: https://www.crunchbase.com/product/rabbitmq
+            crunchbase: https://www.crunchbase.com/organization/rabbit-technologies
         - item:
           name: "NATS"
           slug_name: nats
@@ -2597,7 +2597,7 @@ landscape:
           stock ticker: MSFT
           external:
             twitter: https://twitter.com/vsts
-            crunchbase: https://www.crunchbase.com/organization/visual-studio
+            crunchbase: https://www.crunchbase.com/organization/microsoft
       - subcategory:
         name: "Application Definition & Image Build"
         slug_name: app_definition_image_build
@@ -2652,7 +2652,7 @@ landscape:
           raw_logo: http://container-solutions.com/content/uploads/2016/08/habitat.png
           external:
             twitter: https://twitter.com/hashtag/habitatsh
-            crunchbase: https://www.crunchbase.com/product/habitat-2
+            crunchbase: https://www.crunchbase.com/organization/chef
         - item:
           name: "Brooklyn"
           slug_name: brooklyn
@@ -2847,7 +2847,7 @@ landscape:
           raw_logo: https://crunchbase-production-res.cloudinary.com/image/upload/v1470258929/hhinf38lttfyrjbz1h3t.jpg
           external:
             twitter: https://twitter.com/codefresh
-            crunchbase: https://www.crunchbase.com/organization/code-fresh#/entity
+            crunchbase: https://www.crunchbase.com/organization/code-fresh
         - item:
           name: "BuddyBuild"
           slug_name: buddybuild
@@ -2990,7 +2990,7 @@ landscape:
           raw_logo: https://i0.wp.com/containerjournal.com/wp-content/uploads/2015/07/tectonic-bycoreos-color-copy.png
           external:
             twitter: https://twitter.com/tectonicstack
-            crunchbase: https://www.crunchbase.com/product/tectonic
+            crunchbase: https://www.crunchbase.com/organization/coreos
         - item:
           name: "Cloud Foundry"
           slug_name: cloud_foundry
@@ -3108,7 +3108,7 @@ landscape:
         - item:
           name: "Platform9"
           slug_name: platform9
-          company: "Platform9"
+          company: "Platform9 Systems"
           cncf_hosted_project: false
           oss: false
           commercial: true
@@ -3116,7 +3116,7 @@ landscape:
           raw_logo: https://pbs.twimg.com/profile_images/873285512097710081/6fZyym9Q_400x400.jpg
           external:
             twitter: https://twitter.com/Platform9Sys
-            crunchbase: https://pbs.twimg.com/profile_images/873285512097710081/6fZyym9Q_400x400.jpg
+            crunchbase: https://www.crunchbase.com/organization/platform9-systems-inc
         - item:
           name: "Flynn"
           slug_name: flynn
@@ -3193,7 +3193,7 @@ landscape:
           raw_logo: https://upload.wikimedia.org/wikipedia/en/d/df/Remind_app_logo.png
           external:
             twitter: https://twitter.com/remindeng
-            crunchbase: https://www.crunchbase.com/organization/remind101
+            crunchbase: https://www.crunchbase.com/organization/remind
         - item:
           name: "Nirmata"
           slug_name: nirmata
@@ -3218,7 +3218,7 @@ landscape:
           raw_logo: https://crunchbase-production-res.cloudinary.com/image/upload/v1409923504/woifk3fzca4pit2qa3pq.jpg
           external:
             twitter: https://twitter.com/giantswarm
-            crunchbase: https://twitter.com/giantswarm
+            crunchbase: https://www.crunchbase.com/organization/giant-swarm
         - item:
           name: "Cloud66"
           slug_name: cloud66
@@ -3243,7 +3243,7 @@ landscape:
           raw_logo: https://crunchbase-production-res.cloudinary.com/image/upload/v1464604878/uzdj9miitxbfr56opwju.png
           external:
             twitter: https://twitter.com/KontenaInc
-            crunchbase: https://www.crunchbase.com/organization/Kontena
+            crunchbase: https://www.crunchbase.com/organization/kontena
         - item:
           name: "Kubermatic"
           slug_name: kubermatic
@@ -3410,7 +3410,7 @@ landscape:
         - item:
           name: "Ubuntu"
           slug_name: ubuntu
-          company: "Canonical"
+          company: "Ubuntu"
           cncf_hosted_project: false
           oss: false
           commercial: true
@@ -3445,7 +3445,7 @@ landscape:
           stock_ticker: 'MSFT'
           external:
             twitter: https://twitter.com/opendeis
-            crunchbase: https://www.crunchbase.com/product/deis
+            crunchbase: https://www.crunchbase.com/organization/microsoft
         - item:
           name: "Docker Cloud"
           slug_name: docker_cloud
@@ -3571,7 +3571,7 @@ landscape:
         - item:
           name: "Supergiant"
           slug_name: supergiant
-          company: "QBox"
+          company: "Supergiant"
           cncf_hosted_project: false
           oss: false
           commercial: true
@@ -3610,7 +3610,7 @@ landscape:
           stock_ticker: 'AMZN'
           external:
             twitter: https://twitter.com/awscloud
-            crunchbase: https://www.crunchbase.com/product/aws-lambda
+            crunchbase: https://www.crunchbase.com/organization/amazon-web-services
         - item:
           name: "OpenFAAS"
           slug_name: openfaas
@@ -3666,7 +3666,7 @@ landscape:
         - item:
           name: "Firebase BLOCKS"
           slug_name: firebaseblocks
-          company: "Google"
+          company: "Firebase"
           cncf_hosted_project: false
           oss: false
           commercial: true
@@ -3679,7 +3679,7 @@ landscape:
         - item:
           name: "Webtask"
           slug_name: webtask
-          company: "Auth0"
+          company: "Webtask"
           cncf_hosted_project: false
           oss: false
           commercial: true
@@ -3687,7 +3687,7 @@ landscape:
           raw_logo: https://cdn-images-1.medium.com/max/698/1*4SkA3yFoWNsuH3PPVCpKvQ.png
           external:
             twitter: https://twitter.com/webtaskio
-            crunchbase: https://twitter.com/webtaskio
+            crunchbase: https://www.crunchbase.com/organization/webtask
         - item:
           name: "Fission"
           slug_name: fission
@@ -3787,7 +3787,7 @@ landscape:
           stock_ticker: 'MSFT'
           external:
             twitter: https://twitter.com/azurefunctions
-            crunchbase: https://www.crunchbase.com/product/windows-azure
+            crunchbase: https://www.crunchbase.com/organization/microsoft
   - category:
     name: "Observability and Analysis"
     slug_name: observability_analysis
@@ -3856,7 +3856,7 @@ landscape:
           raw_logo: https://crunchbase-production-res.cloudinary.com/image/upload/e9d7401fbbda172d5b1972370437a4be.png
           external:
             twitter: https://twitter.com/datadoghq
-            crunchbase: https://www.crunchbase.com/organization/datadog#/entity
+            crunchbase: https://www.crunchbase.com/organization/datadog
         - item:
           name: "CloudWATCH"
           slug_name: cloudwatch
@@ -3869,7 +3869,7 @@ landscape:
           stock_ticker: 'AMZN'
           external:
             twitter: https://twitter.com/awscloud
-            crunchbase: https://www.crunchbase.com/product/amazon-web-services
+            crunchbase: https://www.crunchbase.com/organization/amazon-web-services
         - item:
           name: "Stackdriver"
           slug_name: stackdriver
@@ -4265,7 +4265,7 @@ landscape:
           stock_ticker: 'MSFT'
           external:
             twitter: https://twitter.com/azure
-            crunchbase: https://www.crunchbase.com/product/windows-azure
+            crunchbase: https://www.crunchbase.com/organization/microsoft
         - item:
           name: "Scope"
           slug_name: scope
