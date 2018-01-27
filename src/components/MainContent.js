@@ -11,20 +11,13 @@ const MainContent = ({groupedItems, onSelectItem}) => {
           <Subheader component="div" style={{fontSize: 24}}>{groupedItem.header} ({groupedItem.items.length})</Subheader>
       </div>
     ].concat(_.map(groupedItem.items, function(item) {
-      return <div style={{position: 'relative', display: 'inline-block', width: 200, height: 180, margin: 20}} key={item.id}>
-            <div className={item.logo} style={{
-              'cursor': 'pointer',
-              'width': '100%',
-              'height': '50%',
-              'backgroundSize': 'contain',
-              'backgroundRepeat': 'no-repeat',
-              'backgroundPosition': 'center'
-            }} onClick={() => onSelectItem(item.id)}/>
-            <GridListTileBar
-              title={item.name}
-              subtitle={<div><span>{item.company} (${item.marketCap}M)</span> | <span>⭐️ {item.stars}</span></div>}
-            />
-          </div>
+      return (<div className="mosaic" key={item.id}>
+                <div className={item.logo} onClick={() => onSelectItem(item.id)}/>
+                <GridListTileBar
+                  title={item.name}
+                  subtitle={<div><span>{item.company} (${item.marketCap}M)</span> | <span>⭐️ {item.stars}</span></div>}
+                />
+              </div>);
     }));
   });
   return (
