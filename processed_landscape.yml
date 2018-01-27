@@ -26,8 +26,9 @@ landscape:
             market_cap: N/A
             headquarters: 'San Francisco, California'
             rank: 63493
-            stars: 31779
+            stars: 31802
             license: Apache-2.0
+            description: Production-Grade Container Scheduling and Management
           - item:
             name: Amazon ECS
             slug_name: amazon_ecs
@@ -47,6 +48,9 @@ landscape:
             rank: 788
             stars: N/A
             license: N/A
+            description: >-
+              Amazon.com is an international e-commerce website for consumers,
+              sellers, and content creators.
           - item:
             name: Nomad
             slug_name: nomad
@@ -63,8 +67,14 @@ landscape:
             market_cap: 74175000
             headquarters: 'San Francisco, California'
             rank: 949
-            stars: 3188
+            stars: 3194
             license: MPL-2.0
+            description: >-
+              Nomad is a flexible, enterprise-grade cluster scheduler designed
+              to easily integrate into existing workflows. Nomad can run a
+              diverse workload of micro-service, batch, containerized and
+              non-containerized applications. Nomad is easy to operate and scale
+              and integrates seamlessly with Consul and Vault.
           - item:
             name: Mesos
             slug_name: mesos
@@ -83,6 +93,9 @@ landscape:
             rank: N/A
             stars: N/A
             license: N/A
+            description: >-
+              Program against your datacenter like it’s a single pool of
+              resources.
           - item:
             name: Microsoft Azure Service Fabric
             slug_name: microsoft_azure_service_fabric
@@ -104,6 +117,9 @@ landscape:
             rank: 60948
             stars: 253
             license: MIT
+            description: >-
+              This repository is the starting point to engage in and learn about
+              Service Fabric open source projects from Microsoft.
           - item:
             name: Docker Swarm
             slug_name: docker_swarm
@@ -120,8 +136,9 @@ landscape:
             market_cap: 242766694
             headquarters: 'San Francisco, California'
             rank: 471
-            stars: 4969
+            stars: 4971
             license: Apache-2.0
+            description: 'Swarm: a Docker-native clustering system'
       - subcategory:
         name: Coordination & Service Discovery
         slug_name: coordination_service_discovery
@@ -143,8 +160,11 @@ landscape:
             market_cap: 50000000
             headquarters: 'San Francisco, California'
             rank: 1547
-            stars: 16524
+            stars: 16530
             license: Apache-2.0
+            description: >-
+              Distributed reliable key-value store for the most critical data of
+              a distributed system
           - item:
             name: Consul
             slug_name: consul
@@ -162,8 +182,12 @@ landscape:
             market_cap: 74175000
             headquarters: 'San Francisco, California'
             rank: 949
-            stars: 11234
+            stars: 11243
             license: MPL-2.0
+            description: >-
+              Consul is a distributed, highly available, and data center aware
+              solution to connect and configure applications across dynamic,
+              distributed infrastructure.
           - item:
             name: Zookeeper
             slug_name: zookeeper
@@ -181,8 +205,9 @@ landscape:
             market_cap: N/A
             headquarters: 'Forest Hill, Maryland'
             rank: 84483
-            stars: 3877
+            stars: 3880
             license: Apache-2.0
+            description: Mirror of Apache Hadoop ZooKeeper
           - item:
             name: ContainerPilot
             slug_name: containerpilot
@@ -202,6 +227,9 @@ landscape:
             rank: 1644
             stars: 854
             license: MPL-2.0
+            description: >-
+              A service for autodiscovery and configuration of applications
+              running in containers
           - item:
             name: SkyDNS
             slug_name: skydns
@@ -217,6 +245,7 @@ landscape:
             rank: Not Entered Yet
             stars: 1715
             license: MIT
+            description: DNS service discovery for etcd
           - item:
             name: CoreDNS
             slug_name: coredns
@@ -237,6 +266,9 @@ landscape:
             rank: 63493
             stars: N/A
             license: N/A
+            description: >-
+              CNCF is an open source software foundation that hosts and nurtures
+              projects like Kubernetes and Prometheus.
           - item:
             name: Registrator
             slug_name: registrator
@@ -255,6 +287,7 @@ landscape:
             rank: N/A
             stars: 3449
             license: MIT
+            description: Service registry bridge for Docker with pluggable adapters
           - item:
             name: SmartStack
             slug_name: smartstack
@@ -271,6 +304,7 @@ landscape:
             rank: Not Entered Yet
             stars: 205
             license: MIT
+            description: The chef recipes for running and testing Airbnb's SmartStack
           - item:
             name: Hyperbahn
             slug_name: hyperbahn
@@ -287,6 +321,9 @@ landscape:
             rank: Not Entered Yet
             stars: 372
             license: MIT
+            description: >-
+              Service discovery and routing for large scale microservice
+              operations
           - item:
             name: Eureka
             slug_name: eureka
@@ -301,8 +338,11 @@ landscape:
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
-            stars: 4682
+            stars: 4685
             license: Apache-2.0
+            description: >-
+              AWS Service registry for resilient mid-tier load balancing and
+              failover.
           - item:
             name: Haret
             slug_name: haret
@@ -322,6 +362,9 @@ landscape:
             rank: 5559
             stars: 464
             license: N/A
+            description: >-
+              A strongly consistent distributed coordination system, built using
+              proven protocols & implemented in Rust.
       - subcategory:
         name: Service Management
         slug_name: service_management
@@ -345,6 +388,9 @@ landscape:
             rank: 14135
             stars: N/A
             license: N/A
+            description: >-
+              3scale’s API management platform empowers API providers to easily
+              package, distribute, manage and monetize APIs.
           - item:
             name: NGINX
             slug_name: nginx
@@ -364,6 +410,9 @@ landscape:
             rank: 3518
             stars: N/A
             license: N/A
+            description: >-
+              NGINX offers advanced internet infrastructure software to help
+              companies match the demand for faster web experiences.
           - item:
             name: HAProxy
             slug_name: haproxy
@@ -382,6 +431,9 @@ landscape:
             rank: 86853
             stars: 869
             license: N/A
+            description: >-
+              UNOFFICIAL fork of haproxy development repository - ISSUE REPORTS
+              ARE IGNORED!
           - item:
             name: Linkerd
             slug_name: linkerd
@@ -402,6 +454,9 @@ landscape:
             rank: 63493
             stars: N/A
             license: N/A
+            description: >-
+              CNCF is an open source software foundation that hosts and nurtures
+              projects like Kubernetes and Prometheus.
           - item:
             name: Envoy
             slug_name: envoy
@@ -421,8 +476,9 @@ landscape:
             market_cap: N/A
             headquarters: 'San Francisco, California'
             rank: 63493
-            stars: 3678
+            stars: 3689
             license: Apache-2.0
+            description: C++ front/service proxy
           - item:
             name: Datawire
             slug_name: datawire
@@ -442,6 +498,9 @@ landscape:
             rank: 20948
             stars: N/A
             license: N/A
+            description: >-
+              An early stage startup that's focused on making it easy for
+              developers to build resilient microservices.
           - item:
             name: Traefik
             slug_name: traefik
@@ -459,8 +518,9 @@ landscape:
             market_cap: 1000000
             headquarters: 'Lyon, France'
             rank: 23352
-            stars: 12556
+            stars: 12567
             license: MIT
+            description: 'Træfik, a modern reverse proxy'
           - item:
             name: Turbine Labs
             slug_name: turbine_labs
@@ -480,6 +540,7 @@ landscape:
             rank: 94227
             stars: N/A
             license: N/A
+            description: Turbine Labs
           - item:
             name: Avi Networks
             slug_name: avi_networks
@@ -499,6 +560,9 @@ landscape:
             rank: 2258
             stars: N/A
             license: N/A
+            description: >-
+              Avi Networks is a Silicon Valley startup with proven track record
+              in building virtualization, networking and software solutions.
           - item:
             name: gRPC
             slug_name: grpc
@@ -520,6 +584,9 @@ landscape:
             rank: 63493
             stars: N/A
             license: N/A
+            description: >-
+              CNCF is an open source software foundation that hosts and nurtures
+              projects like Kubernetes and Prometheus.
           - item:
             name: Apache Thrift
             slug_name: apache_thrift
@@ -537,8 +604,9 @@ landscape:
             market_cap: N/A
             headquarters: 'Forest Hill, Maryland'
             rank: 84483
-            stars: 4368
+            stars: 4370
             license: Apache-2.0
+            description: Mirror of Apache Thrift
           - item:
             name: Apache Avro
             slug_name: apache_avro
@@ -555,8 +623,9 @@ landscape:
             market_cap: N/A
             headquarters: 'Forest Hill, Maryland'
             rank: 84483
-            stars: 841
+            stars: 842
             license: Apache-2.0
+            description: Mirror of Apache Avro
           - item:
             name: Vamp
             slug_name: vamp
@@ -576,6 +645,7 @@ landscape:
             rank: 33078
             stars: 573
             license: Apache-2.0
+            description: Vamp - canary releasing and autoscaling for microservice systems
           - item:
             name: Weave Flux
             slug_name: weave_flux
@@ -594,6 +664,7 @@ landscape:
             rank: 5353
             stars: 324
             license: Apache-2.0
+            description: A tool for deploying container images to Kubernetes services
           - item:
             name: Kong
             slug_name: kong
@@ -611,8 +682,9 @@ landscape:
             market_cap: 26101000
             headquarters: 'San Francisco, California'
             rank: 4031
-            stars: 14056
+            stars: 14064
             license: Apache-2.0
+            description: "\U0001F412 The Microservice API Gateway"
           - item:
             name: Hystrix
             slug_name: hystrix
@@ -631,8 +703,13 @@ landscape:
             market_cap: 2803735952
             headquarters: 'Los Gatos, California'
             rank: 5
-            stars: 12353
+            stars: 12363
             license: Apache-2.0
+            description: >-
+              Hystrix is a latency and fault tolerance library designed to
+              isolate points of access to remote systems, services and 3rd party
+              libraries, stop cascading failure and enable resilience in complex
+              distributed systems where failure is inevitable.
           - item:
             name: OSS
             slug_name: oss
@@ -652,6 +729,9 @@ landscape:
             rank: 5
             stars: N/A
             license: N/A
+            description: >-
+              Netflix is an online platform that enables users to watch TV shows
+              and movies on smart TVs, PCs, Macs, mobiles, tablets, and so on. 
           - item:
             name: Ribbon
             slug_name: ribbon
@@ -669,8 +749,13 @@ landscape:
             market_cap: 2803735952
             headquarters: 'Los Gatos, California'
             rank: 5
-            stars: 1833
+            stars: 1835
             license: Apache-2.0
+            description: >-
+              Ribbon is a Inter Process Communication (remote procedure calls)
+              library with built in software load balancers. The primary usage
+              model involves REST calls with various serialization scheme
+              support.
           - item:
             name: Zuul
             slug_name: zuul
@@ -688,8 +773,11 @@ landscape:
             market_cap: 2803735952
             headquarters: 'Los Gatos, California'
             rank: 5
-            stars: 3709
+            stars: 3712
             license: Apache-2.0
+            description: >-
+              Zuul is a gateway service that provides dynamic routing,
+              monitoring, resiliency, security, and more.
           - item:
             name: Backplane
             slug_name: backplane
@@ -706,6 +794,7 @@ landscape:
             rank: Not Entered Yet
             stars: N/A
             license: N/A
+            description: ''
           - item:
             name: F5
             slug_name: f5
@@ -723,6 +812,9 @@ landscape:
             rank: 24409
             stars: N/A
             license: N/A
+            description: >-
+              F5 Networks provides application delivery networking technology
+              that optimizes the delivery of network-based applications.
   - category:
     name: Cloud
     slug_name: cloud
@@ -750,6 +842,9 @@ landscape:
             rank: 10522
             stars: N/A
             license: N/A
+            description: >-
+              Amazon Web Services provides information technology infrastructure
+              services to businesses in the form of web services.
           - item:
             name: Google Cloud Platform
             slug_name: google_cloud_platform
@@ -769,6 +864,7 @@ landscape:
             rank: 25410
             stars: N/A
             license: N/A
+            description: Google Cloud Platform is a tool suite for app developers.
           - item:
             name: Azure Cloud Services
             slug_name: azure_cloud_services
@@ -787,6 +883,10 @@ landscape:
             rank: 37
             stars: N/A
             license: N/A
+            description: >-
+              Microsoft is a software corporation that develops, manufactures,
+              licenses, supports, and sells a range of software products and
+              services.
           - item:
             name: DigitalOcean
             slug_name: digitalocean
@@ -805,6 +905,10 @@ landscape:
             rank: 752
             stars: N/A
             license: N/A
+            description: >-
+              DigitalOcean is an IaaS company that delivers a seamless way for
+              developers and businesses to deploy and scale any application in
+              the cloud.
           - item:
             name: Packet
             slug_name: packet
@@ -823,6 +927,10 @@ landscape:
             rank: 6813
             stars: N/A
             license: N/A
+            description: >-
+              Packet is a bare metal cloud built for developers. 8 minute
+              deploys, no hypervisor, & full automation support from 15 global
+              data centers.
           - item:
             name: Oracle Cloud
             slug_name: oracle_cloud
@@ -842,6 +950,10 @@ landscape:
             rank: 25519
             stars: N/A
             license: N/A
+            description: >-
+              Oracle is a computer technology corporation developing and
+              marketing computer hardware systems and enterprise software
+              products.
           - item:
             name: Alibaba Cloud
             slug_name: alibaba_cloud
@@ -861,6 +973,9 @@ landscape:
             rank: 46252
             stars: N/A
             license: N/A
+            description: >-
+              Alibaba Cloud develops highly scalable cloud computing and data
+              management services.
           - item:
             name: Fujitsu K5
             slug_name: fujitsu_k5
@@ -880,6 +995,9 @@ landscape:
             rank: 14952
             stars: N/A
             license: N/A
+            description: >-
+              Fujitsu provides information technology and communications
+              solutions.
           - item:
             name: IBM Cloud
             slug_name: ibm_cloud
@@ -899,6 +1017,9 @@ landscape:
             rank: 6083
             stars: N/A
             license: N/A
+            description: >-
+              IBM is an IT technology and consulting firm providing computer
+              hardware, software, and infrastructure and hosting services.
           - item:
             name: Tencent Cloud
             slug_name: tencent_cloud
@@ -916,6 +1037,7 @@ landscape:
             rank: Not Entered Yet
             stars: N/A
             license: N/A
+            description: ''
           - item:
             name: Joyent
             slug_name: joyent
@@ -934,6 +1056,10 @@ landscape:
             rank: 1644
             stars: N/A
             license: N/A
+            description: >-
+              Joyent is a cloud infrastructure and big data analytics company
+              offering a solution that powers real-time web and mobile
+              applications.
           - item:
             name: Huawei
             slug_name: huawei
@@ -952,6 +1078,9 @@ landscape:
             rank: 1469
             stars: N/A
             license: N/A
+            description: >-
+              Huawei Technologies provides infrastructure application software
+              and devices with wireline, wireless, and IP technologies.
       - subcategory:
         name: Private
         slug_name: private
@@ -975,6 +1104,9 @@ landscape:
             rank: 60056
             stars: N/A
             license: N/A
+            description: >-
+              OpenStack is the most widely used open source software for
+              building public and private clouds.
           - item:
             name: VMware
             slug_name: vmware
@@ -993,6 +1125,9 @@ landscape:
             rank: 5559
             stars: N/A
             license: N/A
+            description: >-
+              VMware is a software company providing cloud and virtualization
+              services.
           - item:
             name: MAAS
             slug_name: maas
@@ -1011,6 +1146,9 @@ landscape:
             rank: 42700
             stars: N/A
             license: N/A
+            description: >-
+              Canonical is a computer software company that markets commercial
+              support and related services for Ubuntu and related projects.
           - item:
             name: Foreman
             slug_name: foreman
@@ -1030,6 +1168,7 @@ landscape:
             rank: N/A
             stars: 80
             license: N/A
+            description: The new and improved Foreman website.
           - item:
             name: Scaleway
             slug_name: scaleway
@@ -1047,6 +1186,7 @@ landscape:
             rank: 77003
             stars: N/A
             license: N/A
+            description: Scaleway is the world's first Cloud Computing IaaS platform
           - item:
             name: Digital Rebar
             slug_name: digial_rebar
@@ -1064,6 +1204,7 @@ landscape:
             rank: Not Entered Yet
             stars: N/A
             license: N/A
+            description: ''
   - category:
     name: Provisioning
     slug_name: provisioning
@@ -1091,6 +1232,9 @@ landscape:
             rank: 949
             stars: N/A
             license: N/A
+            description: >-
+              HashiCorp enables organizations to provision, secure, and run any
+              infrastructure for any application.
           - item:
             name: Bosh
             slug_name: bosh
@@ -1110,6 +1254,10 @@ landscape:
             rank: 56547
             stars: N/A
             license: N/A
+            description: >-
+              Cloud Foundry is a self-service, public cloud deployment platform
+              enabling developers to build, test, deploy, and scale
+              applications.
           - item:
             name: CloudFormation
             slug_name: cloudformation
@@ -1129,6 +1277,9 @@ landscape:
             rank: 10522
             stars: N/A
             license: N/A
+            description: >-
+              Amazon Web Services provides information technology infrastructure
+              services to businesses in the form of web services.
           - item:
             name: Cloud Coreo
             slug_name: cloud_coreo
@@ -1146,6 +1297,9 @@ landscape:
             rank: 15699
             stars: N/A
             license: N/A
+            description: >-
+              CloudCoreo is building a next generation cloud management
+              platform.
           - item:
             name: Cloudify
             slug_name: cloudify
@@ -1165,6 +1319,10 @@ landscape:
             rank: 68185
             stars: N/A
             license: N/A
+            description: >-
+              Cloudify assists organizations in integrating cloud computing into
+              their business strategies and managing infrastructure
+              environments.
           - item:
             name: Helm
             slug_name: helm
@@ -1183,6 +1341,9 @@ landscape:
             rank: 85350
             stars: N/A
             license: N/A
+            description: >-
+              A global cyber security and technology firm that provides legal
+              and compliance solutions to government and the Enterprise.
           - item:
             name: Infrakit
             slug_name: infrakit
@@ -1202,6 +1363,9 @@ landscape:
             rank: N/A
             stars: N/A
             license: N/A
+            description: >-
+              Infrakit is a practical solution on how to best utilize BIM in
+              road and rail projects.
           - item:
             name: Juju
             slug_name: juju
@@ -1221,6 +1385,9 @@ landscape:
             rank: 42700
             stars: N/A
             license: N/A
+            description: >-
+              Canonical is a computer software company that markets commercial
+              support and related services for Ubuntu and related projects.
           - item:
             name: Kubicorn
             slug_name: kubicorn
@@ -1237,8 +1404,9 @@ landscape:
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
-            stars: 924
+            stars: 926
             license: Apache-2.0
+            description: Simple. Cloud Native. Kubernetes. Rainbow. Infrastructure.
           - item:
             name: ManageIQ
             slug_name: manageiq
@@ -1258,6 +1426,7 @@ landscape:
             rank: 35264
             stars: N/A
             license: N/A
+            description: "ManageIQ is a commercial open-source software\_firm enabling organizations to deploy, manage and optimize private, public and hybrid\_clouds."
       - subcategory:
         name: Container Registries
         slug_name: container_registries
@@ -1279,6 +1448,7 @@ landscape:
             rank: 63761
             stars: N/A
             license: N/A
+            description: Quay.io is a private hosted docker registry.
           - item:
             name: Artifactory
             slug_name: artifactory
@@ -1297,6 +1467,9 @@ landscape:
             rank: 1819
             stars: N/A
             license: N/A
+            description: >-
+              JFrog provides software developers with a binary repository
+              management solution.
           - item:
             name: Harbor
             slug_name: harbor
@@ -1315,6 +1488,9 @@ landscape:
             rank: 5559
             stars: 3520
             license: N/A
+            description: >-
+              An enterprise-class container registry server based on Docker
+              Distribution
           - item:
             name: Azure Registry
             slug_name: azure_registry
@@ -1334,6 +1510,10 @@ landscape:
             rank: 37
             stars: N/A
             license: N/A
+            description: >-
+              Microsoft is a software corporation that develops, manufactures,
+              licenses, supports, and sells a range of software products and
+              services.
           - item:
             name: Atomic
             slug_name: atomic
@@ -1352,6 +1532,7 @@ landscape:
             rank: N/A
             stars: 379
             license: N/A
+            description: Atomic Run Tool for installing/running/managing container images.
           - item:
             name: Docker Registry
             slug_name: docker_registry
@@ -1371,6 +1552,9 @@ landscape:
             rank: 471
             stars: 2759
             license: Apache-2.0
+            description: >-
+              This is **DEPRECATED**! Please go to
+              https://github.com/docker/distribution
           - item:
             name: Amazon ECR
             slug_name: amazon_ecr
@@ -1390,6 +1574,9 @@ landscape:
             rank: 788
             stars: N/A
             license: N/A
+            description: >-
+              Amazon.com is an international e-commerce website for consumers,
+              sellers, and content creators.
           - item:
             name: Google Registry
             slug_name: google_registry
@@ -1409,6 +1596,7 @@ landscape:
             rank: 25410
             stars: N/A
             license: N/A
+            description: Google Cloud Platform is a tool suite for app developers.
           - item:
             name: Portus
             slug_name: portus
@@ -1425,6 +1613,7 @@ landscape:
             rank: Not Entered Yet
             stars: N/A
             license: N/A
+            description: ''
       - subcategory:
         name: Host Management/Tooling
         slug_name: host_managment_tooling
@@ -1448,6 +1637,9 @@ landscape:
             rank: 2994
             stars: N/A
             license: N/A
+            description: >-
+              Puppet is an information technology automation software company
+              designed for system administrators.
           - item:
             name: LinuxKit
             slug_name: inuxkit
@@ -1464,6 +1656,7 @@ landscape:
             rank: Not Entered Yet
             stars: N/A
             license: N/A
+            description: ''
           - item:
             name: Ansible
             slug_name: ansible
@@ -1483,6 +1676,9 @@ landscape:
             rank: 11426
             stars: N/A
             license: N/A
+            description: >-
+              Ansible is an automation engine that makes systems and
+              applications simple to deploy.
           - item:
             name: Chef
             slug_name: chef
@@ -1502,6 +1698,9 @@ landscape:
             rank: 3174
             stars: N/A
             license: N/A
+            description: >-
+              Chef is an automation platform that transforms infrastructure into
+              code.
           - item:
             name: Salt Stack
             slug_name: salt_stack
@@ -1521,6 +1720,10 @@ landscape:
             rank: 12330
             stars: N/A
             license: N/A
+            description: >-
+              SaltStack intelligent orchestration software helps enterprise IT
+              ops & DevOps teams configure & manage the software-defined
+              datacenter.
           - item:
             name: CFEngine
             slug_name: cfengine
@@ -1540,6 +1743,10 @@ landscape:
             rank: 20034
             stars: N/A
             license: N/A
+            description: >-
+              CFEngine is a pioneer in IT Automation. It radically simplifies
+              and automates how companies build, consume infrastructure and
+              devices
           - item:
             name: Rundeck
             slug_name: rundeck
@@ -1559,6 +1766,7 @@ landscape:
             rank: N/A
             stars: N/A
             license: N/A
+            description: Job Scheduler and Runbook Automation
       - subcategory:
         name: Secure Images
         slug_name: secure_images
@@ -1582,6 +1790,7 @@ landscape:
             rank: 13085
             stars: N/A
             license: N/A
+            description: 'Discover, analyze, and certify containers on your own terms.'
           - item:
             name: Aqua
             slug_name: aqua
@@ -1600,6 +1809,9 @@ landscape:
             rank: 3253
             stars: N/A
             license: N/A
+            description: >-
+              Aqua Security enables enterprises to secure their virtual
+              container environments from development to production.
           - item:
             name: Black Duck
             slug_name: black_duck
@@ -1619,6 +1831,10 @@ landscape:
             rank: 3431
             stars: N/A
             license: N/A
+            description: >-
+              Black Duck secures & manages open source software worldwide,
+              eliminating open source security vulnerabilities & license
+              compliance pain.
           - item:
             name: NeuVector
             slug_name: neuvector
@@ -1636,6 +1852,9 @@ landscape:
             rank: 5791
             stars: N/A
             license: N/A
+            description: >-
+              NeuVector delivers a layer 7 application and network container
+              firewall and security solution
           - item:
             name: Clair
             slug_name: clair_coreos
@@ -1655,6 +1874,9 @@ landscape:
             rank: 1547
             stars: N/A
             license: N/A
+            description: >-
+              CoreOS builds industry-leading infrastructure software to securely
+              run application containers anywhere.
           - item:
             name: Notary
             slug_name: notary
@@ -1673,8 +1895,11 @@ landscape:
             market_cap: N/A
             headquarters: 'San Francisco, California'
             rank: 63493
-            stars: 1161
+            stars: 1162
             license: Apache-2.0
+            description: >-
+              Notary is a project that allows anyone to have trust over
+              arbitrary collections of data
           - item:
             name: OpenSCAP
             slug_name: openscap
@@ -1693,6 +1918,7 @@ landscape:
             rank: Not Entered Yet
             stars: N/A
             license: N/A
+            description: ''
           - item:
             name: Sonatype Nexus
             slug_name: sonatype_nexus
@@ -1711,6 +1937,9 @@ landscape:
             rank: 3732
             stars: N/A
             license: N/A
+            description: >-
+              Get precise intelligence about open source components and
+              accelerate software innovation, quality and security.
           - item:
             name: TUF
             slug_name: tuf
@@ -1730,6 +1959,9 @@ landscape:
             rank: 63493
             stars: N/A
             license: N/A
+            description: >-
+              CNCF is an open source software foundation that hosts and nurtures
+              projects like Kubernetes and Prometheus.
           - item:
             name: Twistlock
             slug_name: twistlock
@@ -1748,6 +1980,7 @@ landscape:
             rank: 1528
             stars: N/A
             license: N/A
+            description: Twistlock is cloud native cybersecurity for the modern enterprise.
       - subcategory:
         name: Key Management
         slug_name: key_management
@@ -1770,6 +2003,7 @@ landscape:
             rank: 10
             stars: 1236
             license: Apache-2.0
+            description: 'Confidant: your secret keeper.'
           - item:
             name: Keywhiz
             slug_name: keywhiz
@@ -1788,6 +2022,7 @@ landscape:
             rank: 21
             stars: 1861
             license: Apache-2.0
+            description: A system for distributing and managing secrets
           - item:
             name: Knox
             slug_name: knox
@@ -1805,6 +2040,7 @@ landscape:
             rank: 192
             stars: 549
             license: Apache-2.0
+            description: Knox is a secret management service
           - item:
             name: Hashicorp Vault
             slug_name: hashicorp_vault
@@ -1821,8 +2057,11 @@ landscape:
             market_cap: 74175000
             headquarters: 'San Francisco, California'
             rank: 949
-            stars: 8354
+            stars: 8361
             license: MPL-2.0
+            description: >-
+              A tool for secrets management, encryption as a service, and
+              privileged access management
           - item:
             name: Oracle Policy Automation
             slug_name: oracle_policy_automation
@@ -1843,6 +2082,10 @@ landscape:
             rank: 25519
             stars: N/A
             license: N/A
+            description: >-
+              Oracle is a computer technology corporation developing and
+              marketing computer hardware systems and enterprise software
+              products.
           - item:
             name: SPIFFE
             slug_name: spiffe
@@ -1861,6 +2104,10 @@ landscape:
             rank: 73404
             stars: N/A
             license: N/A
+            description: >-
+              Scytale.io help engineers securely and easily build
+              identity-drive, large-scale distributed software using
+              technologies like SPIFFE.io.
           - item:
             name: Spire
             slug_name: spire
@@ -1880,6 +2127,7 @@ landscape:
             rank: 73404
             stars: 129
             license: N/A
+            description: The SPIFFE Runtime Environment
   - category:
     name: Runtime
     slug_name: runtime
@@ -1907,6 +2155,9 @@ landscape:
             rank: N/A
             stars: N/A
             license: N/A
+            description: >-
+              Ceph is the future of storage, created and delivered by a global
+              community of storage engineers and researchers.
           - item:
             name: Gluster
             slug_name: gluster
@@ -1927,6 +2178,9 @@ landscape:
             rank: 22800
             stars: N/A
             license: N/A
+            description: >-
+              Gluster is an open source, distributed file system that is capable
+              of scaling to several petabytes and handling many clients.
           - item:
             name: HDFS
             slug_name: hdfs
@@ -1943,8 +2197,9 @@ landscape:
             market_cap: N/A
             headquarters: N/A
             rank: 73009
-            stars: 5382
+            stars: 5397
             license: Apache-2.0
+            description: Mirror of Apache Hadoop
           - item:
             name: Minio
             slug_name: minio
@@ -1964,6 +2219,7 @@ landscape:
             rank: 4812
             stars: N/A
             license: N/A
+            description: Minio is an open source object storage server.
           - item:
             name: Portworx
             slug_name: portworx
@@ -1982,6 +2238,9 @@ landscape:
             rank: 1736
             stars: N/A
             license: N/A
+            description: >-
+              Portworx is the solution for stateful containers running in
+              production.
           - item:
             name: Project Hatchway
             slug_name: project_hatchway
@@ -2002,6 +2261,9 @@ landscape:
             rank: 5559
             stars: N/A
             license: N/A
+            description: >-
+              VMware is a software company providing cloud and virtualization
+              services.
           - item:
             name: Pure Storage
             slug_name: pure_storage
@@ -2021,6 +2283,7 @@ landscape:
             rank: 369
             stars: N/A
             license: N/A
+            description: "Pure Storage\_is an\_all-flash enterprise storage company that enables broad deployment of flash in data centers."
           - item:
             name: libstorage
             slug_name: libstorage
@@ -2040,6 +2303,9 @@ landscape:
             rank: 17932
             stars: N/A
             license: N/A
+            description: >-
+              Dell EMC enables digital transformation with trusted solutions for
+              the modern data center.
           - item:
             name: Manta
             slug_name: manta
@@ -2059,6 +2325,10 @@ landscape:
             rank: 1644
             stars: 415
             license: MPL-2.0
+            description: >-
+              Manta, Triton’s object storage and converged analytics solutions,
+              is a HTTP-based object store that uses OS containers to allow
+              compute on data at rest.
           - item:
             name: Diamanti
             slug_name: diamanti
@@ -2076,6 +2346,10 @@ landscape:
             rank: 4006
             stars: N/A
             license: N/A
+            description: >-
+              Diamanti is a datacenter infrastructure company founded to solve
+              network and storage challenges in Linux containerized
+              environments.
           - item:
             name: Rook
             slug_name: rook
@@ -2094,6 +2368,7 @@ landscape:
             rank: Not Entered Yet
             stars: N/A
             license: N/A
+            description: ''
           - item:
             name: Robin Systems
             slug_name: robin_systems
@@ -2112,6 +2387,9 @@ landscape:
             rank: 5051
             stars: N/A
             license: N/A
+            description: >-
+              Data-Centric Compute and Storage Containerization Infrastructure
+              Software
           - item:
             name: Springpath
             slug_name: springpath
@@ -2131,6 +2409,10 @@ landscape:
             rank: 4907
             stars: N/A
             license: N/A
+            description: >-
+              Springpath is hyperconvergence software that turns standard
+              servers of choice into a single pool of compute and storage
+              resources.
           - item:
             name: Datera
             slug_name: datera
@@ -2149,6 +2431,7 @@ landscape:
             rank: 3350
             stars: N/A
             license: N/A
+            description: Datera is an application-driven data infrastructure company.
           - item:
             name: Infinit
             slug_name: infinit
@@ -2167,6 +2450,9 @@ landscape:
             rank: 19911
             stars: N/A
             license: N/A
+            description: >-
+              Infinit International Inc. is a venture backed company
+              specializing in storage technologies.
           - item:
             name: Kasten
             slug_name: kasten
@@ -2186,6 +2472,9 @@ landscape:
             rank: 63257
             stars: 25
             license: Apache-2.0
+            description: >-
+              An extensible framework for application-level data management on
+              Kubernetes
           - item:
             name: LeoFS
             slug_name: leofs
@@ -2202,8 +2491,9 @@ landscape:
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
-            stars: 1114
+            stars: 1116
             license: Apache-2.0
+            description: The LeoFS Storage System
           - item:
             name: Sheepdog
             slug_name: sheepdog
@@ -2219,6 +2509,7 @@ landscape:
             rank: Not Entered Yet
             stars: N/A
             license: N/A
+            description: ''
           - item:
             name: Rex-Ray
             slug_name: rex_ray
@@ -2237,6 +2528,9 @@ landscape:
             rank: 17932
             stars: 1040
             license: Apache-2.0
+            description: >-
+              REX-Ray is a container storage orchestration engine enabling
+              persistence for cloud native workloads
           - item:
             name: NetApp
             slug_name: netapp
@@ -2256,6 +2550,10 @@ landscape:
             rank: 20092
             stars: N/A
             license: N/A
+            description: >-
+              NetApp offers storage and data management solutions that enable
+              customers to accelerate business innovations and achieve cost
+              efficiencies.
           - item:
             name: StorageOS
             slug_name: storageos
@@ -2274,6 +2572,7 @@ landscape:
             rank: 12176
             stars: N/A
             license: N/A
+            description: Persistent storage for containers and the cloud
           - item:
             name: Dell EMC
             slug_name: dell_emc
@@ -2293,6 +2592,9 @@ landscape:
             rank: 17932
             stars: N/A
             license: N/A
+            description: >-
+              Dell EMC enables digital transformation with trusted solutions for
+              the modern data center.
           - item:
             name: OpenSDS
             slug_name: opensds
@@ -2311,6 +2613,9 @@ landscape:
             rank: N/A
             stars: N/A
             license: N/A
+            description: >-
+              OpenSDS is an open source project established to address
+              integration challenges for Storage Defined Storage (SDS) vendors.
           - item:
             name: OpenEBS
             slug_name: openebs
@@ -2330,6 +2635,10 @@ landscape:
             rank: N/A
             stars: N/A
             license: N/A
+            description: >-
+              OpenEBS is a scalable storage platform for spinning out
+              containerized block storage volumes for use by container
+              applications.
           - item:
             name: Hedvig
             slug_name: hedvig
@@ -2349,6 +2658,7 @@ landscape:
             rank: 4019
             stars: N/A
             license: N/A
+            description: Modern storage for the modern business.
           - item:
             name: Swift
             slug_name: swift
@@ -2367,6 +2677,7 @@ landscape:
             rank: 60056
             stars: 1660
             license: Apache-2.0
+            description: OpenStack Storage (Swift)
       - subcategory:
         name: Container Runtime
         slug_name: container_runtime
@@ -2391,6 +2702,9 @@ landscape:
             rank: 63493
             stars: N/A
             license: N/A
+            description: >-
+              CNCF is an open source software foundation that hosts and nurtures
+              projects like Kubernetes and Prometheus.
           - item:
             name: RunC
             slug_name: runc
@@ -2407,8 +2721,11 @@ landscape:
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
-            stars: 4397
+            stars: 4403
             license: Apache-2.0
+            description: >-
+              CLI tool for spawning and running containers according to the OCI
+              specification
           - item:
             name: lxd
             slug_name: lxd
@@ -2427,6 +2744,7 @@ landscape:
             rank: 42700
             stars: 1632
             license: Apache-2.0
+            description: Daemon based on liblxc offering a REST API to manage containers
           - item:
             name: RunV
             slug_name: runv
@@ -2439,8 +2757,9 @@ landscape:
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
-            stars: 440
+            stars: 441
             license: Apache-2.0
+            description: Hypervisor-based Runtime for OCI
           - item:
             name: SmartOS
             slug_name: smartos
@@ -2460,6 +2779,10 @@ landscape:
             rank: 1644
             stars: 1230
             license: N/A
+            description: >-
+              For more information, please see http://smartos.org/ For any
+              questions that aren't answered there, please join the SmartOS
+              discussion list: http://smartos.org/smartos-mailing-list/
           - item:
             name: containerd
             slug_name: containerd
@@ -2480,6 +2803,9 @@ landscape:
             rank: 63493
             stars: N/A
             license: N/A
+            description: >-
+              CNCF is an open source software foundation that hosts and nurtures
+              projects like Kubernetes and Prometheus.
           - item:
             name: cri-o
             slug_name: cri_o
@@ -2498,6 +2824,7 @@ landscape:
             rank: Not Entered Yet
             stars: N/A
             license: N/A
+            description: ''
           - item:
             name: Intel Clear Containers
             slug_name: intel_clear-containers
@@ -2517,6 +2844,9 @@ landscape:
             rank: 9708
             stars: N/A
             license: N/A
+            description: >-
+              Intel designs, manufactures, and sells integrated digital
+              technology platforms worldwide.
           - item:
             name: CSI
             slug_name: csi
@@ -2533,6 +2863,7 @@ landscape:
             rank: Not Entered Yet
             stars: N/A
             license: N/A
+            description: ''
       - subcategory:
         name: Cloud-Native Network
         slug_name: cloud_native_network
@@ -2554,6 +2885,7 @@ landscape:
             rank: 3069
             stars: N/A
             license: N/A
+            description: Cloud Native Security for Containers and Microservices
           - item:
             name: Aviatrix
             slug_name: aviatrix
@@ -2572,6 +2904,9 @@ landscape:
             rank: 5359
             stars: N/A
             license: N/A
+            description: >-
+              The company develops software that enables enterprises to build
+              hybrid clouds by easily
           - item:
             name: Big Switch Networks
             slug_name: big_switch_networks
@@ -2590,6 +2925,9 @@ landscape:
             rank: 521
             stars: N/A
             license: N/A
+            description: >-
+              Big Switch Networks is the Next-Generation Data Center Networking
+              Company, designing intelligent, agile and flexible networks
           - item:
             name: Project Calico
             slug_name: project_calico
@@ -2609,6 +2947,9 @@ landscape:
             rank: 153
             stars: N/A
             license: N/A
+            description: >-
+              Tigera provides secure application connectivity for the cloud
+              native world.
           - item:
             name: Canal
             slug_name: canal
@@ -2628,6 +2969,7 @@ landscape:
             rank: 153
             stars: 472
             license: N/A
+            description: Policy based networking for cloud native applications
           - item:
             name: Contiv
             slug_name: contiv
@@ -2647,6 +2989,10 @@ landscape:
             rank: 705
             stars: N/A
             license: N/A
+            description: >-
+              Cisco develops, manufactures, and sells networking hardware,
+              telecommunications equipment, and other high-technology services
+              and products.
           - item:
             name: Cilium
             slug_name: cilium
@@ -2665,6 +3011,9 @@ landscape:
             rank: 69525
             stars: N/A
             license: N/A
+            description: >-
+              Covalent builds Cilium, an HTTP-aware network security layer for
+              microservices platforms.
           - item:
             name: Cumulus
             slug_name: cumulus
@@ -2684,6 +3033,9 @@ landscape:
             rank: 141
             stars: N/A
             license: N/A
+            description: >-
+              Cumulus Networks, a software company, designs and sells Linux
+              operating systems for networking hardware.
           - item:
             name: Flannel
             slug_name: flannel
@@ -2703,6 +3055,9 @@ landscape:
             rank: 153
             stars: 2721
             license: Apache-2.0
+            description: >-
+              flannel is a network fabric for containers, designed for
+              Kubernetes
           - item:
             name: Midokura
             slug_name: midokura
@@ -2722,6 +3077,7 @@ landscape:
             rank: 8611
             stars: N/A
             license: N/A
+            description: Midokura is a cloud networking technology platform.
           - item:
             name: NSX
             slug_name: nsx
@@ -2740,6 +3096,7 @@ landscape:
             rank: 5559
             stars: 50
             license: N/A
+            description: A set of Neutron drivers for the VMware NSX.
           - item:
             name: Nuage Networks
             slug_name: nuage_networks
@@ -2759,6 +3116,9 @@ landscape:
             rank: 72838
             stars: N/A
             license: N/A
+            description: >-
+              Nuage Networks Fundamentals: Software Defined Networking for the
+              Datacenter and Beyond.
           - item:
             name: OpenContrail
             slug_name: opencontrail
@@ -2777,6 +3137,7 @@ landscape:
             rank: N/A
             stars: 333
             license: Apache-2.0
+            description: Contrail Controller
           - item:
             name: Open vSwitch
             slug_name: open_vswitch
@@ -2795,6 +3156,9 @@ landscape:
             rank: N/A
             stars: N/A
             license: N/A
+            description: >-
+              Open vSwitch is a multilayer virtual switch licensed under the
+              open source Apache 2.0 license.
           - item:
             name: Plumgrid
             slug_name: plumgrid
@@ -2813,6 +3177,9 @@ landscape:
             rank: 9236
             stars: N/A
             license: N/A
+            description: >-
+              PLUMgrid is involved in virtual networking and SDN/NFV to deliver
+              cloud infrastructure solutions that transform businesses.
           - item:
             name: Romana
             slug_name: romana
@@ -2828,6 +3195,7 @@ landscape:
             rank: Not Entered Yet
             stars: N/A
             license: N/A
+            description: ''
           - item:
             name: Sanproute
             slug_name: snaperoute
@@ -2846,6 +3214,7 @@ landscape:
             rank: 3427
             stars: N/A
             license: N/A
+            description: SnapRoute is an open networking stack company.
           - item:
             name: CNI
             slug_name: cni
@@ -2865,6 +3234,9 @@ landscape:
             rank: 63493
             stars: N/A
             license: N/A
+            description: >-
+              CNCF is an open source software foundation that hosts and nurtures
+              projects like Kubernetes and Prometheus.
           - item:
             name: Weavenet
             slug_name: weavenet
@@ -2884,6 +3256,9 @@ landscape:
             rank: 5353
             stars: N/A
             license: N/A
+            description: >-
+              Weaveworks provides a simple and consistent way to connect and
+              manage containers and microservices
   - category:
     name: App Definition and Developement
     slug_name: app_definition_development
@@ -2908,8 +3283,11 @@ landscape:
             market_cap: 21600000
             headquarters: 'Beijing, China'
             rank: 10304
-            stars: 11532
+            stars: 11543
             license: Apache-2.0
+            description: >-
+              TiDB is a distributed HTAP database compatible with the MySQL
+              protocol
           - item:
             name: MySQL
             slug_name: mysql
@@ -2929,6 +3307,9 @@ landscape:
             rank: 66460
             stars: N/A
             license: N/A
+            description: >-
+              MySQL is an open-source database that supports scalable web-based
+              and embedded database applications.
           - item:
             name: Postgres
             slug_name: postgres
@@ -2948,6 +3329,9 @@ landscape:
             rank: N/A
             stars: N/A
             license: N/A
+            description: >-
+              PostgreSQL is an object-relational database management system with
+              an emphasis on extensibility and standards-compliance.
           - item:
             name: Oracle
             slug_name: oracle
@@ -2967,6 +3351,10 @@ landscape:
             rank: 25519
             stars: N/A
             license: N/A
+            description: >-
+              Oracle is a computer technology corporation developing and
+              marketing computer hardware systems and enterprise software
+              products.
           - item:
             name: SQL Server
             slug_name: sql_server
@@ -2986,6 +3374,10 @@ landscape:
             rank: 37
             stars: N/A
             license: N/A
+            description: >-
+              Microsoft is a software corporation that develops, manufactures,
+              licenses, supports, and sells a range of software products and
+              services.
           - item:
             name: IBM DB2
             slug_name: ibm_db2
@@ -3004,6 +3396,9 @@ landscape:
             rank: 6083
             stars: N/A
             license: N/A
+            description: >-
+              IBM is an IT technology and consulting firm providing computer
+              hardware, software, and infrastructure and hosting services.
           - item:
             name: MongoDB
             slug_name: mongodb
@@ -3020,8 +3415,9 @@ landscape:
             market_cap: 311000000
             headquarters: New York
             rank: 1132
-            stars: 12992
+            stars: 12993
             license: N/A
+            description: The MongoDB Database
           - item:
             name: Cassandra
             slug_name: cassandra
@@ -3041,6 +3437,7 @@ landscape:
             rank: 84483
             stars: 4139
             license: Apache-2.0
+            description: Mirror of Apache Cassandra
           - item:
             name: Redis
             slug_name: redis
@@ -3059,6 +3456,9 @@ landscape:
             rank: 957
             stars: N/A
             license: N/A
+            description: >-
+              Redis Labs is the open source home and commercial provider of
+              Redis, a database benchmarked as the world’s fastest.
           - item:
             name: MariaDB
             slug_name: mariadb
@@ -3077,6 +3477,9 @@ landscape:
             rank: 908
             stars: N/A
             license: N/A
+            description: >-
+              MariaDB Corporation is the company behind MariaDB, the fastest
+              growing Open Source database.
           - item:
             name: Crate.io
             slug_name: crateio
@@ -3094,8 +3497,11 @@ landscape:
             market_cap: 6000000
             headquarters: 'San Francisco, California'
             rank: 6812
-            stars: 1890
+            stars: 1893
             license: ECL-2.0
+            description: >-
+              CrateDB is a distributed SQL database that makes it simple to
+              store and analyze massive amounts of machine data in real-time.
           - item:
             name: NomsDB
             slug_name: nomsdb
@@ -3115,6 +3521,7 @@ landscape:
             rank: 2626
             stars: 6423
             license: N/A
+            description: 'The versioned, forkable, syncable database'
           - item:
             name: BigchainDB
             slug_name: bigchaindb
@@ -3132,8 +3539,9 @@ landscape:
             market_cap: 5370000
             headquarters: 'Berlin, Germany'
             rank: 3491
-            stars: 2075
+            stars: 2078
             license: N/A
+            description: BigchainDB is a scalable blockchain database
           - item:
             name: Couchbase
             slug_name: couchbase
@@ -3153,6 +3561,9 @@ landscape:
             rank: 969
             stars: N/A
             license: N/A
+            description: >-
+              Couchbase is a NoSQL vendor that develops Couchbase Server, an
+              open-source, NoSQL, document-oriented database.
           - item:
             name: CockroachDB
             slug_name: cockroachdb
@@ -3172,6 +3583,9 @@ landscape:
             rank: 1846
             stars: N/A
             license: N/A
+            description: >-
+              Cockroach Labs provides world class open source infrastructure
+              solutions.
           - item:
             name: RethinkDB
             slug_name: rethinkdb
@@ -3191,6 +3605,9 @@ landscape:
             rank: 11464
             stars: N/A
             license: N/A
+            description: >-
+              RethinkDB is an open-source distributed NoSQL database storing
+              JSON documents and scaling data for applications.
           - item:
             name: Vitess
             slug_name: vitess
@@ -3207,8 +3624,11 @@ landscape:
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
-            stars: 5431
+            stars: 5433
             license: Apache-2.0
+            description: >-
+              Vitess is a database clustering system for horizontal scaling of
+              MySQL.
           - item:
             name: SQL Data Warehouse
             slug_name: sql_data_warehouse
@@ -3228,6 +3648,10 @@ landscape:
             rank: 37
             stars: N/A
             license: N/A
+            description: >-
+              Microsoft is a software corporation that develops, manufactures,
+              licenses, supports, and sells a range of software products and
+              services.
           - item:
             name: Snowflake
             slug_name: snowflake
@@ -3246,6 +3670,7 @@ landscape:
             rank: 448
             stars: N/A
             license: N/A
+            description: Snowflake is the only data warehouse built for the cloud.
           - item:
             name: Druid
             slug_name: druid
@@ -3264,6 +3689,7 @@ landscape:
             rank: Not Entered Yet
             stars: N/A
             license: N/A
+            description: ''
           - item:
             name: Qubole
             slug_name: qubole
@@ -3281,6 +3707,9 @@ landscape:
             rank: 2153
             stars: N/A
             license: N/A
+            description: >-
+              Qubole delivers a Self-Service Platform for Big Data Analytics
+              built on Amazon, Microsoft, Google and Oracle Clouds.
           - item:
             name: CarbonData
             slug_name: carbondata
@@ -3300,6 +3729,7 @@ landscape:
             rank: 84483
             stars: 567
             license: Apache-2.0
+            description: Mirror of Apache CarbonData
           - item:
             name: Vertica
             slug_name: vertica
@@ -3319,6 +3749,7 @@ landscape:
             rank: 62626
             stars: N/A
             license: N/A
+            description: "Vertica Systems develops data management solutions for storing databases\_and allowing clients to conduct real-time and ad hoc queries."
           - item:
             name: Hadoop
             slug_name: hadoop
@@ -3335,8 +3766,9 @@ landscape:
             market_cap: N/A
             headquarters: N/A
             rank: 73009
-            stars: 5382
+            stars: 5397
             license: Apache-2.0
+            description: Mirror of Apache Hadoop
           - item:
             name: Iguazio
             slug_name: iquazio
@@ -3356,6 +3788,10 @@ landscape:
             rank: 402
             stars: N/A
             license: N/A
+            description: >-
+              iguazio's Continuous Analytics Data Platform has redesigned the
+              data stack to accelerate performance in big data, IoT and
+              cloud-native apps.
           - item:
             name: MemSQL
             slug_name: memsql
@@ -3374,6 +3810,7 @@ landscape:
             rank: 2231
             stars: N/A
             license: N/A
+            description: A real-time data warehouse you can run everywhere
           - item:
             name: Pachyderm
             slug_name: pachyderm
@@ -3391,8 +3828,9 @@ landscape:
             market_cap: 2120000
             headquarters: 'San Francisco, California'
             rank: 15676
-            stars: 2489
+            stars: 2492
             license: Apache-2.0
+            description: Reproducible Data Science at Scale!
           - item:
             name: Scylla
             slug_name: scylla
@@ -3411,6 +3849,9 @@ landscape:
             rank: 4602
             stars: N/A
             license: N/A
+            description: >-
+              ScyllaDB produces a NoSQL database compatible with Apache
+              Cassandra at 10x the throughput and jaw dropping low latency.
       - subcategory:
         name: Streaming
         slug_name: streaming
@@ -3432,8 +3873,9 @@ landscape:
             market_cap: N/A
             headquarters: 'Forest Hill, Maryland'
             rank: 84483
-            stars: 7228
+            stars: 7238
             license: Apache-2.0
+            description: Mirror of Apache Kafka
           - item:
             name: Dataflow
             slug_name: dataflow
@@ -3452,6 +3894,7 @@ landscape:
             rank: 25410
             stars: N/A
             license: N/A
+            description: Google Cloud Platform is a tool suite for app developers.
           - item:
             name: Spark Streaming
             slug_name: spark_streaming
@@ -3468,8 +3911,9 @@ landscape:
             market_cap: N/A
             headquarters: 'Forest Hill, Maryland'
             rank: 84483
-            stars: 15946
+            stars: 15952
             license: Apache-2.0
+            description: Mirror of Apache Spark
           - item:
             name: Heron
             slug_name: heron
@@ -3487,8 +3931,11 @@ landscape:
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
-            stars: 3068
+            stars: 3070
             license: Apache-2.0
+            description: >-
+              Heron is a realtime, distributed, fault-tolerant stream processing
+              engine from Twitter
           - item:
             name: Flink
             slug_name: flink
@@ -3506,8 +3953,9 @@ landscape:
             market_cap: N/A
             headquarters: 'Forest Hill, Maryland'
             rank: 84483
-            stars: 3210
+            stars: 3212
             license: Apache-2.0
+            description: Mirror of Apache Flink
           - item:
             name: Apex
             slug_name: apex
@@ -3527,6 +3975,7 @@ landscape:
             rank: 84483
             stars: 273
             license: Apache-2.0
+            description: Mirror of Apache Apex core
           - item:
             name: Apache Storm
             slug_name: apache_storm
@@ -3543,8 +3992,9 @@ landscape:
             market_cap: N/A
             headquarters: 'Forest Hill, Maryland'
             rank: 84483
-            stars: 4792
+            stars: 4793
             license: Apache-2.0
+            description: Mirror of Apache Storm
           - item:
             name: RabbitMQ
             slug_name: rabiitmq
@@ -3563,6 +4013,10 @@ landscape:
             rank: 79723
             stars: N/A
             license: N/A
+            description: >-
+              Rabbit Technologies offers RabbitMQ which is open source message
+              broker software implementing the advanced message queuing protocol
+              (AMQP).
           - item:
             name: NATS
             slug_name: nats
@@ -3582,6 +4036,9 @@ landscape:
             rank: 84483
             stars: N/A
             license: N/A
+            description: >-
+              Apache Software Foundation (501C3) provides organizational, legal
+              and financial support for Apache open-source software projects.
           - item:
             name: ApacheNiFi
             slug_name: apachenifi
@@ -3600,6 +4057,7 @@ landscape:
             rank: 84483
             stars: 786
             license: Apache-2.0
+            description: Mirror of Apache NiFi
           - item:
             name: Pulsar
             slug_name: pulsar
@@ -3616,8 +4074,9 @@ landscape:
             market_cap: N/A
             headquarters: 'Forest Hill, Maryland'
             rank: 84483
-            stars: 1531
+            stars: 1535
             license: Apache-2.0
+            description: Pulsar - distributed pub-sub messaging system
           - item:
             name: StreamSets
             slug_name: streamsets
@@ -3637,6 +4096,9 @@ landscape:
             rank: 1520
             stars: N/A
             license: N/A
+            description: >-
+              Streamsets delivers performance management software for data
+              flows.
           - item:
             name: Kinesis
             slug_name: kinesis
@@ -3656,6 +4118,9 @@ landscape:
             rank: 10522
             stars: N/A
             license: N/A
+            description: >-
+              Amazon Web Services provides information technology infrastructure
+              services to businesses in the form of web services.
       - subcategory:
         name: SCM
         slug_name: scm
@@ -3678,6 +4143,10 @@ landscape:
             rank: 66102
             stars: N/A
             license: N/A
+            description: >-
+              Bitbucket is a Git and Mercurial code management and collaboration
+              platform used by professional teams to build, test and deploy
+              software.
           - item:
             name: GitLab
             slug_name: gitlab
@@ -3694,8 +4163,11 @@ landscape:
             market_cap: 45620000
             headquarters: 'San Francisco, California'
             rank: 2791
-            stars: 20311
+            stars: 20312
             license: N/A
+            description: >-
+              GitLab CE | Please open new issues in our issue tracker on
+              GitLab.com
           - item:
             name: GitHub
             slug_name: github
@@ -3714,6 +4186,10 @@ landscape:
             rank: 669
             stars: N/A
             license: N/A
+            description: >-
+              GitHub is a web-based Git repository hosting service offering
+              distributed revision control and source code management
+              functionality of Git.
           - item:
             name: Microsoft Visual Studio Team Services
             slug_name: microsoft_visual_studio_team_services
@@ -3734,6 +4210,10 @@ landscape:
             rank: 37
             stars: N/A
             license: N/A
+            description: >-
+              Microsoft is a software corporation that develops, manufactures,
+              licenses, supports, and sells a range of software products and
+              services.
       - subcategory:
         name: Application Definition & Image Build
         slug_name: app_definition_image_build
@@ -3756,6 +4236,7 @@ landscape:
             rank: Not Entered Yet
             stars: N/A
             license: N/A
+            description: ''
           - item:
             name: Packer
             slug_name: packer
@@ -3773,8 +4254,11 @@ landscape:
             market_cap: 74175000
             headquarters: 'San Francisco, California'
             rank: 949
-            stars: 7249
+            stars: 7253
             license: MPL-2.0
+            description: >-
+              Packer is a tool for creating identical machine images for
+              multiple platforms from a single source configuration.
           - item:
             name: Compose
             slug_name: compose
@@ -3792,8 +4276,9 @@ landscape:
             market_cap: 242766694
             headquarters: 'San Francisco, California'
             rank: 471
-            stars: 11664
+            stars: 11666
             license: Apache-2.0
+            description: Define and run multi-container applications with Docker
           - item:
             name: Habitat
             slug_name: habitat
@@ -3812,6 +4297,9 @@ landscape:
             rank: 3174
             stars: N/A
             license: N/A
+            description: >-
+              Chef is an automation platform that transforms infrastructure into
+              code.
           - item:
             name: Brooklyn
             slug_name: brooklyn
@@ -3829,8 +4317,9 @@ landscape:
             market_cap: N/A
             headquarters: 'Forest Hill, Maryland'
             rank: 84483
-            stars: 65
+            stars: 66
             license: N/A
+            description: Mirror of Apache Brooklyn
           - item:
             name: Bitnami
             slug_name: bitnami
@@ -3848,6 +4337,9 @@ landscape:
             rank: 46946
             stars: N/A
             license: N/A
+            description: >-
+              Loved by Devs, Trusted by Ops. Easy to use cloud images,
+              containers, and VMs that work on any platform
           - item:
             name: OpenAPI
             slug_name: openapi
@@ -3867,6 +4359,10 @@ landscape:
             rank: N/A
             stars: N/A
             license: N/A
+            description: >-
+              Created by a consortium of forward-looking industry experts who
+              recognize the immense value of standardizing on how REST APIs are
+              described.
       - subcategory:
         name: CI/CD
         slug_name: ci_cd
@@ -3890,6 +4386,9 @@ landscape:
             rank: N/A
             stars: N/A
             license: N/A
+            description: >-
+              Jenkins CI is an open-source continuous integration server that
+              supports various configurations.
           - item:
             name: Travis
             slug_name: travis
@@ -3908,6 +4407,7 @@ landscape:
             rank: 59288
             stars: N/A
             license: N/A
+            description: Hosted Continuous Integration Platform
           - item:
             name: Octopus Deploy
             slug_name: octopus_deploy
@@ -3927,6 +4427,7 @@ landscape:
             rank: 27221
             stars: N/A
             license: N/A
+            description: Octopus Deploy is a user-friendly release management
           - item:
             name: CircleCI
             slug_name: circleci
@@ -3945,6 +4446,9 @@ landscape:
             rank: 568
             stars: N/A
             license: N/A
+            description: >-
+              CircleCI provides software teams the confidence to build, test,
+              and deploy across numerous platforms.
           - item:
             name: Drone
             slug_name: drone
@@ -3963,6 +4467,9 @@ landscape:
             rank: 38858
             stars: N/A
             license: N/A
+            description: >-
+              Drone.io is a hosted Continuous Integration and Deployment
+              service.
           - item:
             name: Codeship
             slug_name: codeship
@@ -3981,6 +4488,9 @@ landscape:
             rank: 5416
             stars: N/A
             license: N/A
+            description: >-
+              Bringing Continuous Deployment to everyone The - Codeship runs
+              your hosted tests and automated deployments.
           - item:
             name: Bamboo
             slug_name: bamboo_atlassian
@@ -3999,6 +4509,9 @@ landscape:
             rank: 161
             stars: N/A
             license: N/A
+            description: >-
+              Atlassian provides collaboration software for teams with products
+              including JIRA, Confluence, HipChat, Bitbucket, and Stash.
           - item:
             name: Cloudbees
             slug_name: cloudbees
@@ -4017,6 +4530,9 @@ landscape:
             rank: 2025
             stars: N/A
             license: N/A
+            description: >-
+              CloudBees offers the CloudBees Jenkins Platform, an
+              enterprise-grade continuous delivery platform powered by Jenkins.
           - item:
             name: Spinnaker
             slug_name: spinnaker
@@ -4034,6 +4550,7 @@ landscape:
             rank: Not Entered Yet
             stars: N/A
             license: N/A
+            description: ''
           - item:
             name: Shippable
             slug_name: shippable
@@ -4052,6 +4569,9 @@ landscape:
             rank: 5216
             stars: N/A
             license: N/A
+            description: >-
+              Shippable helps companies ship code faster by giving them a
+              powerful continuous integration platform built natively on Docker.
           - item:
             name: Wercker
             slug_name: wercker
@@ -4072,6 +4592,10 @@ landscape:
             rank: 8016
             stars: N/A
             license: N/A
+            description: >-
+              Wercker is a platform and tool to rapidly develop, build, and
+              deploy containerized applications and microservices for the modern
+              cloud.
           - item:
             name: Codefresh
             slug_name: codefresh
@@ -4090,6 +4614,9 @@ landscape:
             rank: 6200
             stars: N/A
             license: N/A
+            description: >-
+              Codefresh is a continuous delivery and collaboration platform for
+              containers and microservices.
           - item:
             name: BuddyBuild
             slug_name: buddybuild
@@ -4107,6 +4634,9 @@ landscape:
             rank: 924
             stars: N/A
             license: N/A
+            description: >-
+              Buddybuild is a Vancouver-based app tools company focused on
+              continuous integration and debugging tools.
           - item:
             name: Distelli
             slug_name: distelli
@@ -4125,6 +4655,7 @@ landscape:
             rank: 15410
             stars: N/A
             license: N/A
+            description: True Continuous Delivery from Source Control to Servers.
           - item:
             name: Solano Labs
             slug_name: solano_labs
@@ -4143,6 +4674,7 @@ landscape:
             rank: 76617
             stars: N/A
             license: N/A
+            description: Continuous Integration & Deployment
           - item:
             name: Semaphore
             slug_name: semaphore
@@ -4160,6 +4692,7 @@ landscape:
             rank: 82436
             stars: N/A
             license: N/A
+            description: Hosted continuous integration and deployment service
           - item:
             name: ContainerOps
             slug_name: containerops
@@ -4177,6 +4710,9 @@ landscape:
             rank: 1469
             stars: N/A
             license: N/A
+            description: >-
+              Huawei Technologies provides infrastructure application software
+              and devices with wireline, wireless, and IP technologies.
           - item:
             name: Appveyor
             slug_name: appveyor
@@ -4195,6 +4731,9 @@ landscape:
             rank: N/A
             stars: N/A
             license: N/A
+            description: >-
+              Appveyor Systems Inc. aim is to give powerful continuous
+              integration and deployment tools to every .NET developer.
           - item:
             name: Gitlab Runner
             slug_name: gitlab_runner
@@ -4213,6 +4752,9 @@ landscape:
             rank: 2791
             stars: N/A
             license: N/A
+            description: >-
+              GitLab is a web-based open source Git repository manager with wiki
+              and issue tracking features.
           - item:
             name: Buildkite
             slug_name: buildkite
@@ -4232,6 +4774,9 @@ landscape:
             rank: 90213
             stars: N/A
             license: N/A
+            description: >-
+              Buildkite creates the best automation and collaboration tools for
+              building and shipping software.
           - item:
             name: Concourse
             slug_name: concourse
@@ -4249,6 +4794,7 @@ landscape:
             rank: Not Entered Yet
             stars: N/A
             license: N/A
+            description: ''
           - item:
             name: XL Deploy
             slug_name: xl_deploy
@@ -4268,6 +4814,7 @@ landscape:
             rank: 2287
             stars: 0
             license: N/A
+            description: XL Deploy plugin that can call another XLD instance
   - category:
     name: Platform
     slug_name: platform
@@ -4294,6 +4841,9 @@ landscape:
             rank: 1547
             stars: N/A
             license: N/A
+            description: >-
+              CoreOS builds industry-leading infrastructure software to securely
+              run application containers anywhere.
           - item:
             name: Cloud Foundry
             slug_name: cloud_foundry
@@ -4313,6 +4863,10 @@ landscape:
             rank: 56547
             stars: N/A
             license: N/A
+            description: >-
+              Cloud Foundry is a self-service, public cloud deployment platform
+              enabling developers to build, test, deploy, and scale
+              applications.
           - item:
             name: OpenShift
             slug_name: openshift
@@ -4332,6 +4886,7 @@ landscape:
             rank: 78339
             stars: N/A
             license: N/A
+            description: OpenShift is an open hybrid cloud application platform by Red Hat.
           - item:
             name: DC/OS
             slug_name: dc_os
@@ -4351,6 +4906,9 @@ landscape:
             rank: 748
             stars: N/A
             license: N/A
+            description: >-
+              Mesosphere is a novel cloud operating system that treats your
+              datacenter like one big computer.
           - item:
             name: Apcera
             slug_name: apcera
@@ -4369,6 +4927,9 @@ landscape:
             rank: 8984
             stars: N/A
             license: N/A
+            description: >-
+              The Apcera cloud platform helps enterprises innovate at speed with
+              full confidence and trust.
           - item:
             name: Apprenda
             slug_name: apprenda
@@ -4387,6 +4948,7 @@ landscape:
             rank: 5107
             stars: N/A
             license: N/A
+            description: Apprenda is the leading enterprise Platform as a Service.
           - item:
             name: Rancher
             slug_name: rancher
@@ -4404,8 +4966,9 @@ landscape:
             market_cap: 30000000
             headquarters: 'Cupertino, California'
             rank: 5015
-            stars: 7584
+            stars: 7592
             license: N/A
+            description: Complete container management platform
           - item:
             name: Kublr
             slug_name: kublr
@@ -4424,6 +4987,9 @@ landscape:
             rank: 94312
             stars: N/A
             license: N/A
+            description: >-
+              Production-ready cluster and application platform that speeds and
+              simplifies the set-up and management of your K8S cluster.
           - item:
             name: Photon
             slug_name: photon
@@ -4442,6 +5008,9 @@ landscape:
             rank: 5559
             stars: N/A
             license: N/A
+            description: >-
+              VMware is a software company providing cloud and virtualization
+              services.
           - item:
             name: Platform.sh
             slug_name: platform.sh
@@ -4461,6 +5030,9 @@ landscape:
             rank: 9885
             stars: N/A
             license: N/A
+            description: >-
+              Platform.sh is an automated, continuous-deployment
+              high-availability cloud hosting solution
           - item:
             name: Platform9
             slug_name: platform9
@@ -4479,6 +5051,9 @@ landscape:
             rank: 1803
             stars: N/A
             license: N/A
+            description: >-
+              Platform9 is the open source-as-a-service company making cloud
+              infrastructure easy.
           - item:
             name: Flynn
             slug_name: flynn
@@ -4497,6 +5072,7 @@ landscape:
             rank: 25194
             stars: N/A
             license: N/A
+            description: The product that ops provides to developers.
           - item:
             name: Datawire
             slug_name: datawire
@@ -4515,6 +5091,9 @@ landscape:
             rank: 20948
             stars: N/A
             license: N/A
+            description: >-
+              An early stage startup that's focused on making it easy for
+              developers to build resilient microservices.
           - item:
             name: Atomist
             slug_name: atomist
@@ -4533,6 +5112,9 @@ landscape:
             rank: 4974
             stars: N/A
             license: N/A
+            description: >-
+              Atomist make microservice applications Easy and fun to build,
+              through a cloud-based service.
           - item:
             name: Iron.io
             slug_name: iron_io
@@ -4552,6 +5134,9 @@ landscape:
             rank: 6349
             stars: N/A
             license: N/A
+            description: >-
+              Iron.io is a scalable cloud-based message queue and processing
+              platform for building distributed cloud applications.
           - item:
             name: PaaSTA
             slug_name: paasta
@@ -4572,6 +5157,7 @@ landscape:
             rank: 136
             stars: 1176
             license: Apache-2.0
+            description: 'An open, distributed platform as a service'
           - item:
             name: Empire
             slug_name: empire
@@ -4590,6 +5176,7 @@ landscape:
             rank: 6237
             stars: 2350
             license: BSD-2-Clause
+            description: A PaaS built on top of Amazon EC2 Container Service (ECS)
           - item:
             name: Nirmata
             slug_name: nirmata
@@ -4609,6 +5196,9 @@ landscape:
             rank: 68487
             stars: N/A
             license: N/A
+            description: >-
+              Nirmata is a cloud based, Microservices operations and management
+              platform.
           - item:
             name: Giant Swarm
             slug_name: giant_swarm
@@ -4627,6 +5217,7 @@ landscape:
             rank: 13626
             stars: N/A
             license: N/A
+            description: Managed Kubernetes Anywhere
           - item:
             name: Cloud66
             slug_name: cloud66
@@ -4645,6 +5236,9 @@ landscape:
             rank: 14602
             stars: N/A
             license: N/A
+            description: >-
+              Ops tools for Devs. Build, manage and maintain applications on any
+              cloud
           - item:
             name: Kontena
             slug_name: kontena
@@ -4664,6 +5258,9 @@ landscape:
             rank: 71573
             stars: 1279
             license: N/A
+            description: >-
+              The developer friendly container and micro services platform.
+              Works on any cloud, easy to setup, simple to use.
           - item:
             name: Kubermatic
             slug_name: kubermatic
@@ -4681,6 +5278,7 @@ landscape:
             rank: Not Entered Yet
             stars: N/A
             license: N/A
+            description: ''
           - item:
             name: Gravitational
             slug_name: gravitational
@@ -4699,6 +5297,7 @@ landscape:
             rank: 25046
             stars: N/A
             license: N/A
+            description: Gravitational deploys and runs your SaaS on private clouds.
           - item:
             name: Navops
             slug_name: navops
@@ -4717,6 +5316,9 @@ landscape:
             rank: N/A
             stars: N/A
             license: N/A
+            description: >-
+              Navops Launch, Command, and Control your container-ready
+              enterprise within minutes.
           - item:
             name: Heroku
             slug_name: heroku
@@ -4736,6 +5338,9 @@ landscape:
             rank: 6912
             stars: N/A
             license: N/A
+            description: >-
+              Heroku is a multi-language cloud application platform that enables
+              developers to deploy, scale, and manage their applications.
           - item:
             name: Mantl
             slug_name: mantl
@@ -4753,6 +5358,9 @@ landscape:
             rank: Not Entered Yet
             stars: 3003
             license: Apache-2.0
+            description: >-
+              Mantl is a modern platform for rapidly deploying globally
+              distributed services
           - item:
             name: Mirantis
             slug_name: mirantis
@@ -4772,6 +5380,7 @@ landscape:
             rank: 516
             stars: N/A
             license: N/A
+            description: Mirantis is the pure-play OpenStack company.
           - item:
             name: goPaddle
             slug_name: gopaddle
@@ -4790,6 +5399,9 @@ landscape:
             rank: N/A
             stars: N/A
             license: N/A
+            description: >-
+              Bluemeric Inc offers microservices PaaS platform and offers DevOps
+              consulting & services to automate cloud deployments.
           - item:
             name: Hyper
             slug_name: hyper
@@ -4809,6 +5421,7 @@ landscape:
             rank: 85330
             stars: N/A
             license: N/A
+            description: Hyper_ is a secure container cloud service.
           - item:
             name: Exoscale
             slug_name: exoscale
@@ -4827,6 +5440,9 @@ landscape:
             rank: 86749
             stars: N/A
             license: N/A
+            description: >-
+              The best cloud hosting platform for SaaS companies, developers and
+              systems administrators
           - item:
             name: JHipster
             slug_name: jhipster
@@ -4845,6 +5461,7 @@ landscape:
             rank: Not Entered Yet
             stars: N/A
             license: N/A
+            description: ''
           - item:
             name: Moby
             slug_name: moby
@@ -4864,6 +5481,10 @@ landscape:
             rank: 471
             stars: N/A
             license: N/A
+            description: >-
+              Docker is a platform for distributed applications that allows
+              developers and sysadmins to build, ship, and run distributed
+              applications.
           - item:
             name: Galactic Fog
             slug_name: galactic_fog
@@ -4882,6 +5503,9 @@ landscape:
             rank: 79022
             stars: N/A
             license: N/A
+            description: >-
+              Build Future-Proof Applications. Simplify integration. Run
+              applications anywhere. Adapt to changes instantly.
           - item:
             name: ContainerLinux
             slug_name: containerlinux
@@ -4901,6 +5525,9 @@ landscape:
             rank: 1547
             stars: N/A
             license: N/A
+            description: >-
+              CoreOS builds industry-leading infrastructure software to securely
+              run application containers anywhere.
           - item:
             name: Ubuntu
             slug_name: ubuntu
@@ -4918,6 +5545,9 @@ landscape:
             rank: 17784
             stars: N/A
             license: N/A
+            description: >-
+              Ubuntu is a Debian-based open source Linux operating system for
+              PC, tablet, phone, and cloud platforms.
           - item:
             name: Lightbend
             slug_name: lightbend
@@ -4937,6 +5567,9 @@ landscape:
             rank: 4446
             stars: N/A
             license: N/A
+            description: >-
+              Lightbend (formerly Typesafe) is dedicated to helping developers
+              build Reactive applications on the JVM.
           - item:
             name: Deis
             slug_name: deis
@@ -4955,8 +5588,9 @@ landscape:
             market_cap: 1000000
             headquarters: 'Redmond, Washington'
             rank: 37
-            stars: 1073
+            stars: 1074
             license: MIT
+            description: The open source PaaS for Kubernetes.
           - item:
             name: Docker Cloud
             slug_name: docker_cloud
@@ -4974,6 +5608,10 @@ landscape:
             rank: 471
             stars: N/A
             license: N/A
+            description: >-
+              Docker is a platform for distributed applications that allows
+              developers and sysadmins to build, ship, and run distributed
+              applications.
           - item:
             name: Tsuru
             slug_name: tsuru
@@ -4992,6 +5630,9 @@ landscape:
             rank: Not Entered Yet
             stars: 2638
             license: BSD-3-Clause
+            description: >-
+              Open source, extensible and Docker-based Platform as a Service
+              (PaaS).
           - item:
             name: ContainerShip
             slug_name: containership
@@ -5010,6 +5651,10 @@ landscape:
             rank: 10730
             stars: N/A
             license: N/A
+            description: >-
+              Containership is a Kubernetes based enterprise
+              Containers-as-a-Service platform with support for 12 cloud
+              providers
           - item:
             name: Convox
             slug_name: convox
@@ -5028,6 +5673,7 @@ landscape:
             rank: 27760
             stars: N/A
             license: N/A
+            description: Launch a Private Cloud in Minutes.
           - item:
             name: GKE
             slug_name: gke
@@ -5046,6 +5692,7 @@ landscape:
             rank: 25410
             stars: N/A
             license: N/A
+            description: Google Cloud Platform is a tool suite for app developers.
           - item:
             name: Portainer
             slug_name: portainer
@@ -5062,6 +5709,7 @@ landscape:
             rank: Not Entered Yet
             stars: N/A
             license: N/A
+            description: ''
           - item:
             name: Pusher
             slug_name: pusher
@@ -5081,6 +5729,10 @@ landscape:
             rank: 8452
             stars: N/A
             license: N/A
+            description: >-
+              Pusher is a cloud-based tech platform enabling developers to
+              create collaborative tools, multiplayer games, chat and real-time
+              dashboards.
           - item:
             name: Remind
             slug_name: remind
@@ -5100,6 +5752,9 @@ landscape:
             rank: 6237
             stars: N/A
             license: N/A
+            description: >-
+              Remind is a communication platform that helps every student
+              succeed.
           - item:
             name: Scalingo
             slug_name: scalingo
@@ -5118,6 +5773,10 @@ landscape:
             rank: N/A
             stars: N/A
             license: N/A
+            description: >-
+              Scalingo a Docker Platform Service Transform your code as Docker
+              container & run it on our cloud, making it instantly available &
+              scalable. 
           - item:
             name: StackPointCloud
             slug_name: stackpointcloud
@@ -5135,6 +5794,7 @@ landscape:
             rank: Not Entered Yet
             stars: N/A
             license: N/A
+            description: ''
           - item:
             name: Supergiant
             slug_name: supergiant
@@ -5153,6 +5813,9 @@ landscape:
             rank: N/A
             stars: 514
             license: Apache-2.0
+            description: >-
+              Automatically scale hardware and easily run stateful applications
+              using Kubernetes.
           - item:
             name: SUSE Caas Platform
             slug_name: suse_caas_platform
@@ -5172,6 +5835,7 @@ landscape:
             rank: 60556
             stars: 10
             license: N/A
+            description: SUSE Container as a Service Platform Documentation
       - subcategory:
         name: Serverless/Event-based
         slug_name: serverless_event_based
@@ -5195,6 +5859,9 @@ landscape:
             rank: 10522
             stars: N/A
             license: N/A
+            description: >-
+              Amazon Web Services provides information technology infrastructure
+              services to businesses in the form of web services.
           - item:
             name: OpenFAAS
             slug_name: openfaas
@@ -5212,8 +5879,11 @@ landscape:
             market_cap: N/A
             headquarters: 'Peterborough, United Kingdom'
             rank: N/A
-            stars: 8413
+            stars: 8429
             license: MIT
+            description: >-
+              OpenFaaS - Serverless Functions Made Simple for Docker &
+              Kubernetes
           - item:
             name: Google Cloud Functions
             slug_name: google_cloud_functions
@@ -5232,6 +5902,7 @@ landscape:
             rank: 25410
             stars: N/A
             license: N/A
+            description: Google Cloud Platform is a tool suite for app developers.
           - item:
             name: OpenWhisk
             slug_name: openwhisk
@@ -5249,8 +5920,11 @@ landscape:
             market_cap: N/A
             headquarters: 'Forest Hill, Maryland'
             rank: 84483
-            stars: 2350
+            stars: 2357
             license: Apache-2.0
+            description: >-
+              Apache OpenWhisk is a serverless event-based programming service
+              and an Apache Incubator project.
           - item:
             name: Oracle Application Container Cloud
             slug_name: oracle_application_container_cloud
@@ -5270,6 +5944,10 @@ landscape:
             rank: 25519
             stars: N/A
             license: N/A
+            description: >-
+              Oracle is a computer technology corporation developing and
+              marketing computer hardware systems and enterprise software
+              products.
           - item:
             name: Firebase BLOCKS
             slug_name: firebaseblocks
@@ -5289,6 +5967,9 @@ landscape:
             rank: 5337
             stars: N/A
             license: N/A
+            description: >-
+              Firebase is Google's mobile platform. Build and grow your iOS,
+              Android, or Web app with Firebase.
           - item:
             name: Webtask
             slug_name: webtask
@@ -5307,6 +5988,10 @@ landscape:
             rank: N/A
             stars: N/A
             license: N/A
+            description: >-
+              Webtasks is a simple, lightweight, and secure way of running
+              isolated backend code that removed or reduces the need for a
+              backend.
           - item:
             name: Fission
             slug_name: fission
@@ -5323,8 +6008,9 @@ landscape:
             market_cap: 36500000
             headquarters: 'Sunnyvale, California'
             rank: 1803
-            stars: 2960
+            stars: 2962
             license: Apache-2.0
+            description: Fast Serverless Functions for Kubernetes
           - item:
             name: PubNub
             slug_name: pubnub
@@ -5342,6 +6028,9 @@ landscape:
             rank: 3781
             stars: N/A
             license: N/A
+            description: >-
+              The PubNub Data Stream Network enables mobile and web developers
+              to build and scale realtime apps.
           - item:
             name: Apex
             slug_name: apex
@@ -5359,6 +6048,7 @@ landscape:
             rank: Not Entered Yet
             stars: N/A
             license: N/A
+            description: ''
           - item:
             name: Serverless
             slug_name: serverless
@@ -5378,6 +6068,9 @@ landscape:
             rank: 1999
             stars: N/A
             license: N/A
+            description: >-
+              Serverless offers developers an open source framework powered by
+              AWS Lambda and AWS API Gateway.
           - item:
             name: Kubeless
             slug_name: kubeless
@@ -5393,8 +6086,9 @@ landscape:
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
-            stars: 1802
+            stars: 1808
             license: Apache-2.0
+            description: Kubernetes Native Serverless Framework
           - item:
             name: NStack
             slug_name: nstack
@@ -5413,6 +6107,7 @@ landscape:
             rank: Not Entered Yet
             stars: N/A
             license: N/A
+            description: ''
           - item:
             name: Nuclio
             slug_name: nuclio
@@ -5432,6 +6127,10 @@ landscape:
             rank: 402
             stars: N/A
             license: N/A
+            description: >-
+              iguazio's Continuous Analytics Data Platform has redesigned the
+              data stack to accelerate performance in big data, IoT and
+              cloud-native apps.
           - item:
             name: Azure Functions
             slug_name: azure_functions
@@ -5451,6 +6150,10 @@ landscape:
             rank: 37
             stars: N/A
             license: N/A
+            description: >-
+              Microsoft is a software corporation that develops, manufactures,
+              licenses, supports, and sells a range of software products and
+              services.
   - category:
     name: Observability and Analysis
     slug_name: observability_analysis
@@ -5477,6 +6180,7 @@ landscape:
             rank: Not Entered Yet
             stars: N/A
             license: N/A
+            description: ''
           - item:
             name: New Relic
             slug_name: new_relic
@@ -5496,6 +6200,10 @@ landscape:
             rank: 486
             stars: N/A
             license: N/A
+            description: >-
+              New Relic is a leading digital intelligence company, delivering
+              full-stack visibility and analytics to enterprises around the
+              world.
           - item:
             name: AppDynamics
             slug_name: appdynamics
@@ -5514,6 +6222,10 @@ landscape:
             rank: 405
             stars: N/A
             license: N/A
+            description: >-
+              AppDynamics develops application performance management (APM)
+              solutions that deliver problem resolution for highly distributed
+              applications.
           - item:
             name: Axibase
             slug_name: axibase
@@ -5532,6 +6244,7 @@ landscape:
             rank: Not Entered Yet
             stars: N/A
             license: N/A
+            description: ''
           - item:
             name: Datadog
             slug_name: datadog
@@ -5550,6 +6263,7 @@ landscape:
             rank: 808
             stars: N/A
             license: N/A
+            description: Datadog offers a cloud-scale monitoring service.
           - item:
             name: CloudWATCH
             slug_name: cloudwatch
@@ -5569,6 +6283,9 @@ landscape:
             rank: 10522
             stars: N/A
             license: N/A
+            description: >-
+              Amazon Web Services provides information technology infrastructure
+              services to businesses in the form of web services.
           - item:
             name: Stackdriver
             slug_name: stackdriver
@@ -5587,6 +6304,9 @@ landscape:
             rank: 13387
             stars: N/A
             license: N/A
+            description: >-
+              Stackdriver provides monitoring services for cloud-powered
+              applications.
           - item:
             name: Prometheus
             slug_name: prometheus
@@ -5607,6 +6327,9 @@ landscape:
             rank: 63493
             stars: N/A
             license: N/A
+            description: >-
+              CNCF is an open source software foundation that hosts and nurtures
+              projects like Kubernetes and Prometheus.
           - item:
             name: SysDig
             slug_name: sysdig
@@ -5625,6 +6348,9 @@ landscape:
             rank: 3414
             stars: 4808
             license: GPL-2.0
+            description: >-
+              Linux system exploration and troubleshooting tool with first class
+              support for containers
           - item:
             name: Wavefront
             slug_name: wavefront
@@ -5643,6 +6369,9 @@ landscape:
             rank: 2820
             stars: N/A
             license: N/A
+            description: >-
+              Wavefront is a hosted platform for ingesting, storing, visualizing
+              and alerting on time series data.
           - item:
             name: Instana
             slug_name: instana
@@ -5660,6 +6389,9 @@ landscape:
             rank: 1310
             stars: N/A
             license: N/A
+            description: >-
+              Instana is an APM solution that automatically monitors dynamic
+              modern apps.
           - item:
             name: Honeybadger
             slug_name: honeybadger
@@ -5679,6 +6411,7 @@ landscape:
             rank: 89318
             stars: N/A
             license: N/A
+            description: 'Exception, uptime, and performance monit'
           - item:
             name: Icinga
             slug_name: icinga
@@ -5697,6 +6430,9 @@ landscape:
             rank: N/A
             stars: N/A
             license: N/A
+            description: >-
+              Icinga is a monitoring software project that began as a fork of
+              Nagios.
           - item:
             name: IronDB
             slug_name: irondb
@@ -5716,6 +6452,7 @@ landscape:
             rank: 67064
             stars: N/A
             license: N/A
+            description: Realtime Monitoring and Analytics
           - item:
             name: Rocana
             slug_name: rocana
@@ -5734,6 +6471,9 @@ landscape:
             rank: 7128
             stars: N/A
             license: N/A
+            description: >-
+              Rocana is a San Francisco, CA-based provider of root cause
+              analysis software company
           - item:
             name: OpsClarity
             slug_name: opsclarity
@@ -5752,6 +6492,9 @@ landscape:
             rank: 9080
             stars: N/A
             license: N/A
+            description: >-
+              Intelligent Monitoring for Modern Applications and Data
+              Infrastructure
           - item:
             name: Nagios
             slug_name: nagios
@@ -5771,6 +6514,9 @@ landscape:
             rank: 74911
             stars: N/A
             license: N/A
+            description: >-
+              Nagios Enterprises offers monitoring and alerting solutions for
+              servers, switches, applications, and services.
           - item:
             name: Zabbix
             slug_name: zabbix
@@ -5790,6 +6536,7 @@ landscape:
             rank: 87664
             stars: N/A
             license: N/A
+            description: 'ZABBIX SIA is based in Riga, Latvia.'
           - item:
             name: Graphite
             slug_name: graphite
@@ -5806,6 +6553,7 @@ landscape:
             rank: Not Entered Yet
             stars: N/A
             license: N/A
+            description: ''
           - item:
             name: InfluxDB
             slug_name: influxdb
@@ -5823,8 +6571,9 @@ landscape:
             market_cap: 24892000
             headquarters: 'San Francisco, California'
             rank: 1537
-            stars: 12421
+            stars: 12424
             license: N/A
+            description: 'Scalable datastore for metrics, events, and real-time analytics'
           - item:
             name: OpenTSDB
             slug_name: opentsdb
@@ -5840,8 +6589,9 @@ landscape:
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
-            stars: 2894
+            stars: 2895
             license: GPL-3.0
+            description: 'A scalable, distributed Time Series Database.'
           - item:
             name: Netsil
             slug_name: netsil
@@ -5860,6 +6610,7 @@ landscape:
             rank: 15129
             stars: N/A
             license: N/A
+            description: Observability and Monitoring for Modern Cloud Applications
           - item:
             name: Meros
             slug_name: meros
@@ -5878,6 +6629,9 @@ landscape:
             rank: N/A
             stars: N/A
             license: N/A
+            description: >-
+              Meros is creating enterprise monitoring and management tools for
+              Docker
           - item:
             name: OpBeat
             slug_name: opbeat
@@ -5896,6 +6650,7 @@ landscape:
             rank: 15146
             stars: N/A
             license: N/A
+            description: APM for JavaScript
           - item:
             name: Cobe
             slug_name: cobe
@@ -5913,6 +6668,7 @@ landscape:
             rank: Not Entered Yet
             stars: N/A
             license: N/A
+            description: ''
           - item:
             name: ServerDensity
             slug_name: serverdensity
@@ -5931,6 +6687,9 @@ landscape:
             rank: 17075
             stars: N/A
             license: N/A
+            description: >-
+              Server Density is a SaaS product that helps users manage and
+              monitor their infrastructure.
           - item:
             name: Librato
             slug_name: librato
@@ -5948,6 +6707,7 @@ landscape:
             rank: 13322
             stars: N/A
             license: N/A
+            description: Real time operations analytics for metrics from any source
           - item:
             name: AppNeta
             slug_name: appneta
@@ -5967,6 +6727,10 @@ landscape:
             rank: 1431
             stars: N/A
             license: N/A
+            description: >-
+              AppNeta is the only app performance monitoring company with
+              solutions for apps you develop, SaaS apps you use & networks that
+              deliver them.
           - item:
             name: Catchpoint Systems
             slug_name: catchpoint_systems
@@ -5984,6 +6748,7 @@ landscape:
             rank: 2781
             stars: N/A
             license: N/A
+            description: 'Catchpoint is a leading digital experience intelligence company '
           - item:
             name: Dynatrace
             slug_name: dynatrace
@@ -6002,6 +6767,10 @@ landscape:
             rank: 2583
             stars: N/A
             license: N/A
+            description: >-
+              Dynatrace transform how Web and non-Web business-critical
+              applications are monitored, managed, and optimized throughout
+              their lifecycle.
           - item:
             name: CoScale
             slug_name: coscale
@@ -6021,6 +6790,9 @@ landscape:
             rank: 15425
             stars: N/A
             license: N/A
+            description: >-
+              Full stack performance monitoring. Built for container and
+              microservices applications. Powered by anomaly detection.
           - item:
             name: Outlyer
             slug_name: outlyer
@@ -6039,6 +6811,9 @@ landscape:
             rank: 17903
             stars: N/A
             license: N/A
+            description: >-
+              Infrastructure monitoring platform made for DevOps and
+              microservices.
           - item:
             name: Centreon
             slug_name: centreon
@@ -6058,6 +6833,9 @@ landscape:
             rank: N/A
             stars: 187
             license: GPL-2.0
+            description: >-
+              Centreon is a network, system, applicative supervision and
+              monitoring tool
           - item:
             name: Lighstep
             slug_name: lightstep
@@ -6076,6 +6854,10 @@ landscape:
             rank: 2238
             stars: N/A
             license: N/A
+            description: >-
+              LightStep's mission is to cut through the scale and complexity of
+              today's software to help organizations stay in control of their
+              systems.
           - item:
             name: Signal FX
             slug_name: signal_fx
@@ -6093,6 +6875,7 @@ landscape:
             rank: 3533
             stars: N/A
             license: N/A
+            description: Advanced monitoring platform for modern applications
           - item:
             name: Nodesource
             slug_name: nodesource
@@ -6110,6 +6893,9 @@ landscape:
             rank: 600
             stars: N/A
             license: N/A
+            description: >-
+              Building products focused on Node.js security and performance for
+              the Enterprise.
           - item:
             name: Grafana
             slug_name: grafana
@@ -6129,6 +6915,7 @@ landscape:
             rank: 64875
             stars: N/A
             license: N/A
+            description: the defacto standard for visualizing time series data.
           - item:
             name: Log Analytics
             slug_name: log_analytics
@@ -6148,6 +6935,10 @@ landscape:
             rank: 37
             stars: N/A
             license: N/A
+            description: >-
+              Microsoft is a software corporation that develops, manufactures,
+              licenses, supports, and sells a range of software products and
+              services.
           - item:
             name: Scope
             slug_name: scope
@@ -6165,8 +6956,9 @@ landscape:
             market_cap: 20000000
             headquarters: 'London, United Kingdom'
             rank: 5353
-            stars: 2153
+            stars: 2156
             license: Apache-2.0
+            description: 'Monitoring, visualisation & management for Docker & Kubernetes'
           - item:
             name: Sensu
             slug_name: sensu
@@ -6186,6 +6978,7 @@ landscape:
             rank: 18567
             stars: N/A
             license: N/A
+            description: Managing Creative Obsessions
           - item:
             name: Sentry
             slug_name: sentry
@@ -6204,6 +6997,9 @@ landscape:
             rank: 4725
             stars: N/A
             license: N/A
+            description: >-
+              Sentry is a real-time crash reporting tool for web, mobile, and
+              games.
           - item:
             name: StackRox
             slug_name: stackrox
@@ -6223,6 +7019,9 @@ landscape:
             rank: 4843
             stars: N/A
             license: N/A
+            description: >-
+              StackRox delivers the industry's only adaptive threat protection
+              for containers.
           - item:
             name: StackState
             slug_name: stackstate
@@ -6241,6 +7040,7 @@ landscape:
             rank: 72893
             stars: N/A
             license: N/A
+            description: The market-leading Algorithmic IT Operations platform
           - item:
             name: Weave Cloud
             slug_name: weave_cloud
@@ -6257,8 +7057,9 @@ landscape:
             market_cap: 20000000
             headquarters: 'London, United Kingdom'
             rank: 5353
-            stars: 4918
+            stars: 4922
             license: Apache-2.0
+            description: 'Simple, resilient multi-host Docker networking and more.'
       - subcategory:
         name: Logging
         slug_name: logging
@@ -6282,6 +7083,9 @@ landscape:
             rank: 677
             stars: N/A
             license: N/A
+            description: >-
+              Splunk provides operational intelligence software that monitors,
+              reports, and analyzes real-time machine data.
           - item:
             name: Elastic
             slug_name: elastic
@@ -6301,6 +7105,9 @@ landscape:
             rank: 907
             stars: N/A
             license: N/A
+            description: >-
+              Elastic builds software to make data usable in real time and at
+              scale for search, logging, security, and analytics use cases.
           - item:
             name: Sematext
             slug_name: sematext
@@ -6320,6 +7127,9 @@ landscape:
             rank: 86097
             stars: N/A
             license: N/A
+            description: >-
+              Sematext is a Search and Big Data analytics products and services
+              company.
           - item:
             name: SumoLogic
             slug_name: sumologic
@@ -6339,6 +7149,10 @@ landscape:
             rank: 94
             stars: N/A
             license: N/A
+            description: >-
+              Sumo Logic, a log management and analytics service, transforms big
+              data into sources of operations, security and compliance
+              intelligence.
           - item:
             name: Loggly
             slug_name: loggly
@@ -6356,6 +7170,10 @@ landscape:
             rank: 380
             stars: N/A
             license: N/A
+            description: >-
+              Loggly parses your log files, shows you the code in GitHub which
+              caused the log errors. 10,000+ customers, including 1/3 of the
+              Fortune 500.
           - item:
             name: Logz
             slug_name: logz
@@ -6373,6 +7191,9 @@ landscape:
             rank: 1815
             stars: N/A
             license: N/A
+            description: >-
+              Logz.io is an enterprise-grade ELK as a service with alerts,
+              unlimited scalability, and predictive fault detection.
           - item:
             name: FluentD
             slug_name: fluentd
@@ -6391,8 +7212,9 @@ landscape:
             market_cap: N/A
             headquarters: 'San Francisco, California'
             rank: 63493
-            stars: 5974
+            stars: 5976
             license: N/A
+            description: 'Fluentd: Unified Logging Layer (project under CNCF)'
           - item:
             name: Loom Systems
             slug_name: loom_systems
@@ -6411,6 +7233,7 @@ landscape:
             rank: 2298
             stars: N/A
             license: N/A
+            description: Predict & Prevent Problems in the Digital Business
           - item:
             name: Graylog
             slug_name: graylog
@@ -6430,6 +7253,9 @@ landscape:
             rank: 13210
             stars: N/A
             license: N/A
+            description: >-
+              Graylog is a fully integrated platform for collecting, indexing,
+              and analyzing.
       - subcategory:
         name: Tracing
         slug_name: tracing
@@ -6454,6 +7280,9 @@ landscape:
             rank: 63493
             stars: N/A
             license: N/A
+            description: >-
+              CNCF is an open source software foundation that hosts and nurtures
+              projects like Kubernetes and Prometheus.
           - item:
             name: Skywalking
             slug_name: skywaling
@@ -6471,6 +7300,7 @@ landscape:
             rank: Not Entered Yet
             stars: N/A
             license: N/A
+            description: ''
           - item:
             name: Zipkin
             slug_name: zipkin
@@ -6487,8 +7317,9 @@ landscape:
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
-            stars: 7535
+            stars: 7539
             license: Apache-2.0
+            description: Zipkin is a distributed tracing system
           - item:
             name: Jaeger
             slug_name: jaeger
@@ -6508,8 +7339,9 @@ landscape:
             market_cap: N/A
             headquarters: 'San Francisco, California'
             rank: 63493
-            stars: 3847
+            stars: 3850
             license: Apache-2.0
+            description: 'CNCF Jaeger, a Distributed Tracing System'
           - item:
             name: Cloud Sleuth
             slug_name: cloud_sleuth
@@ -6526,6 +7358,7 @@ landscape:
             rank: Not Entered Yet
             stars: 577
             license: Apache-2.0
+            description: Distributed tracing for spring cloud
           - item:
             name: Appdash
             slug_name: appdash
@@ -6538,5 +7371,6 @@ landscape:
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
-            stars: 1207
+            stars: 1209
             license: N/A
+            description: 'Application tracing system for Go, based on Google''s Dapper.'

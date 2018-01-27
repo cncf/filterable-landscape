@@ -39,7 +39,12 @@ async function readGithubStats() {
     if (stars !== 'N/A' && licenseElement) {
       license = licenseElement.nextSibling.textContent.replace(/\n/g, '').trim();
     }
-    result.push({url, stars, license});
+    const descriptionElement = doc.querySelector('.repository-meta-content > [itemprop="about"]');
+    var description = '';
+    if (descriptionElement) {
+      description = descriptionElement.textContent.replace(/\n/g, '').trim();
+    }
+    result.push({url, stars, license, description});
     console.info(response.length, url, stars, license);
 
     await Promise.delay(1 * 1000);

@@ -41,8 +41,12 @@ const newSource = tree.map(function(node) {
         license: githubEntry.license
       };
     }
+    var description = (githubEntry || {}).description || (crunchbaseInfo || {})['Description'] || '';
+    description = description.replace(/\n/g, ' ');
+
     _.assign(node, crunchbaseParts);
     _.assign(node, githubInfo);
+    node.description = description;
   }
 });
 var dump = require('js-yaml').dump(newSource);
