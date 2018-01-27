@@ -2,6 +2,7 @@
 .wrapper{
   background-color:#F4F4f4;
   overflow:hidden;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
 }
 
 .sh_wrapper{
@@ -17,9 +18,8 @@
   width: 175px;
   height: 175px;
   margin: 4px 6px;
-  border-radius:1px;
+  border-radius:2px;
   box-shadow: 1px 1px 3px #d6d6d6;
-  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
 
   .logo{
     width: 100%;
@@ -29,6 +29,7 @@
     background-size: 60% auto;
     background-position: 50%;
     background-color: #fff;
+    cursor: pointer;
   }
   .info{
     height: 30%;
@@ -43,6 +44,7 @@
     h5{
       margin:0 0 5px 0 !important;
       width:100%;
+      font-size:1em;
     }
     & > div, & > div span{
       display:flex;
