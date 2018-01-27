@@ -30,9 +30,18 @@ const getSortedItems = createSelector(
   (state) => state.main.sortField,
   (state) => state.main.sortDirection,
   function(data, sortField, sortDirection) {
-    return _.orderBy(data, function(x) {
+    const sortedViaMainSort =  _.orderBy(data, function(x) {
       return x[sortField];
     },sortDirection);
+    return _.orderBy(sortedViaMainSort, function(x) {
+      if (x[sortField] === 'N/A') {
+        return 100000;
+      }
+      if (x[sortField] === 'Not Entered Yet') {
+        return 100001;
+      }
+      return sortedViaMainSort.indexOf(x);
+    });
   }
 );
 
