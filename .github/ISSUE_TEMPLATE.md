@@ -1,2 +1,0 @@
-Just an issue template
-
