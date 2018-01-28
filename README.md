@@ -15,7 +15,7 @@ The build server enhances the source data with the fetched data and saves the re
 
 ## Corrections
 
-Please open a pull request with edits to [landscape.yml](landscape.yml). [processed_landscape.yml](processed_landscape.yml) is generated and so should never be edited directly.
+Please open a pull request with edits to [landscape.yml](landscape.yml). The file [processed_landscape.yml](processed_landscape.yml) is generated and so should never be edited directly.
 
 If the error is with data from [Crunchbase](https://www.crunchbase.com/) you should open an account there and edit the data. If you don't like a project description, edit it in GitHub.
 
