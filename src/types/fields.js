@@ -13,8 +13,8 @@
 import _ from 'lodash';
 import lookups from '../lookup.json';
 const fields = {
-  cncfHostedProject: {
-    id: 'cncfHostedProject',
+  cncfProject: {
+    id: 'cncfProject',
     url: 'cncf',
     label: 'CNCF Relation',
     values: [{

@@ -16,7 +16,7 @@ tree.map(function(node) {
       return p.node.name;
     });
     items.push({...node,
-      cncfHostedProject: node.cncf_hosted_project,
+      cncfProject: node.cncf_project,
       path: parts.join(' / '),
       landscape: parts[0],
       certifiedKubernetes: _.sample([null, false, 'platform', 'distribution']),
@@ -26,7 +26,7 @@ tree.map(function(node) {
   }
 });
 const itemsWithExtraFields = items.map(function(item) {
-  delete item.cncf_hosted_project;
+  delete item.cncf_project;
   delete item.market_cap;
   if (_.isUndefined(item.commercial)) {
     console.info('please, fix yaml and set commercial for ', item.name);

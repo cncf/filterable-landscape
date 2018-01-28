@@ -17,7 +17,7 @@ const Filters = () => {
   return <div>
       <FormGroup row>
         <FormControl component="fieldset">
-          <FormLabel component="legend">{fields.cncfHostedProject.label}</FormLabel>
+          <FormLabel component="legend">{fields.cncfProject.label}</FormLabel>
           <CncfFilterContainer/>
         </FormControl>
       </FormGroup>

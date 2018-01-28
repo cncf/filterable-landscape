@@ -9,7 +9,7 @@ import _ from 'lodash';
 export const initialState = {
   data: null,
   filters: {
-    cncfHostedProject: null,
+    cncfProject: null,
     oss: null,
     commercial: null,
     stars: null,
@@ -21,7 +21,7 @@ export const initialState = {
     headquarters: null,
     landscape: null
   },
-  grouping: 'cncfHostedProject',
+  grouping: 'cncfProject',
   sortField: 'name',
   sortDirection: 'asc',
   selectedItemId: null

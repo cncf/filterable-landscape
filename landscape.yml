@@ -12,7 +12,7 @@ landscape:
           description: 'Kubernetes is an open-source system for automating deployment, scaling, and management of containerized applications'
           slug_name: kubernetes
           company: "CNCF"
-          cncf_hosted_project: true
+          cncf_project: true
           oss: true
           commercial: false
           homepage_url: https://kubernetes.io/
@@ -25,7 +25,7 @@ landscape:
           name: "Amazon ECS"
           slug_name: amazon_ecs
           company: "Amazon Web Services"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://aws.amazon.com/ecs/
@@ -38,7 +38,7 @@ landscape:
           name: "Nomad"
           slug_name: nomad
           company: "Hashicorp"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.nomadproject.io/
@@ -51,7 +51,7 @@ landscape:
           name: "Mesos"
           slug_name: mesos
           company: "Apache"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: http://mesos.apache.org/
@@ -64,7 +64,7 @@ landscape:
           name: "Microsoft Azure Service Fabric"
           slug_name: microsoft_azure_service_fabric
           company: "Microsoft"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://azure.microsoft.com/en-us/services/service-fabric/
@@ -78,7 +78,7 @@ landscape:
           name: "Docker Swarm"
           slug_name: docker_swarm
           company: "Docker"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://docs.docker.com/engine/swarm/
@@ -95,7 +95,7 @@ landscape:
           name: "etcd"
           slug_name: etcd
           company: "CoreOS"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://coreos.com/etcd/
@@ -108,7 +108,7 @@ landscape:
           name: "Consul"
           slug_name: consul
           company: "Hashicorp"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.consul.io/
@@ -121,7 +121,7 @@ landscape:
           name: "Zookeeper"
           slug_name: zookeeper
           company: "Apache"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: http://zookeeper.apache.org/
@@ -134,7 +134,7 @@ landscape:
           name: "ContainerPilot"
           slug_name: containerpilot
           company: "Joyent"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.joyent.com/containerpilot
@@ -147,7 +147,7 @@ landscape:
           name: "SkyDNS"
           slug_name: skydns
           company: "Skynet Services"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://github.com/skynetservices/skydns
@@ -157,7 +157,7 @@ landscape:
           name: "CoreDNS"
           slug_name: coredns
           company: "CNCF"
-          cncf_hosted_project: true
+          cncf_project: true
           oss: true
           commercial: false
           homepage_url: https://coredns.io/
@@ -170,7 +170,7 @@ landscape:
           name: "Registrator"
           slug_name: registrator
           company: "Glider Labs"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: http://gliderlabs.github.io/registrator/latest/
@@ -183,7 +183,7 @@ landscape:
           name: "SmartStack"
           slug_name: smartstack
           company: "Airbnb"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://github.com/airbnb/smartstack-cookbook
@@ -193,7 +193,7 @@ landscape:
           name: "Hyperbahn"
           slug_name: hyperbahn
           company: "Uber"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://github.com/uber-archive/hyperbahn
@@ -203,7 +203,7 @@ landscape:
           name: "Eureka"
           slug_name: eureka
           company: "Netflix"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://github.com/Netflix/eureka
@@ -214,7 +214,7 @@ landscape:
           name: "Haret"
           slug_name: haret
           company: "VMware"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://github.com/vmware/haret
@@ -231,7 +231,7 @@ landscape:
           name: "3Scale"
           slug_name: 3scale
           company: "redhat"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.3scale.net/
@@ -244,7 +244,7 @@ landscape:
           name: "NGINX"
           slug_name: nginx
           company: "NGINX"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.nginx.com/
@@ -257,7 +257,7 @@ landscape:
           name: "HAProxy"
           slug_name: haproxy
           company: "HAProxy Technologies"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.haproxy.org/
@@ -270,7 +270,7 @@ landscape:
           name: "Linkerd"
           slug_name: linkerd
           company: "CNCF"
-          cncf_hosted_project: true
+          cncf_project: true
           oss: true
           commercial: false
           homepage_url: https://linkerd.io/
@@ -283,7 +283,7 @@ landscape:
           name: "Envoy"
           slug_name: envoy
           company: "CNCF"
-          cncf_hosted_project: true
+          cncf_project: true
           oss: true
           commercial: false
           homepage_url: https://lyft.github.io/envoy/
@@ -297,7 +297,7 @@ landscape:
           name: "Datawire"
           slug_name: datawire
           company: "Datawire"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.datawire.io/
@@ -310,7 +310,7 @@ landscape:
           name: "Traefik"
           slug_name: traefik
           company: "Conainous"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://traefik.io/
@@ -323,7 +323,7 @@ landscape:
           name: "Turbine Labs"
           slug_name: turbine_labs
           company: "Turbine Labs"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.turbinelabs.io/
@@ -336,7 +336,7 @@ landscape:
           name: "Avi Networks"
           slug_name: avi_networks
           company: "Avi Networks"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://avinetworks.com/
@@ -349,7 +349,7 @@ landscape:
           name: "gRPC"
           slug_name: grpc
           company: "CNCF"
-          cncf_hosted_project: true
+          cncf_project: true
           oss: true
           commercial: false
           homepage_url: https://grpc.io/
@@ -363,7 +363,7 @@ landscape:
           name: "Apache Thrift"
           slug_name: apache_thrift
           company: "Apache"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://thrift.apache.org/
@@ -376,7 +376,7 @@ landscape:
           name: "Apache Avro"
           slug_name: apache_avro
           company: "Apache"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://avro.apache.org/
@@ -389,7 +389,7 @@ landscape:
           name: "Vamp"
           slug_name: vamp
           company: "Magnetic"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url:
@@ -402,7 +402,7 @@ landscape:
           name: "Weave Flux"
           slug_name: weave_flux
           company: "Weaveworks"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.weave.works/oss/flux/
@@ -415,7 +415,7 @@ landscape:
           name: "Kong"
           slug_name: kong
           company: "Mashape"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://getkong.org/
@@ -428,7 +428,7 @@ landscape:
           name: "Hystrix"
           slug_name: hystrix
           company: "Netflix"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://github.com/Netflix/Hystrix
@@ -442,7 +442,7 @@ landscape:
           name: "OSS"
           slug_name: oss
           company: "Netflix"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://netflix.github.io/
@@ -456,7 +456,7 @@ landscape:
           name: "Ribbon"
           slug_name: ribbon
           company: "Netflix"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://github.com/Netflix/ribbon
@@ -470,7 +470,7 @@ landscape:
           name: "Zuul"
           slug_name: zuul
           company: "Netflix"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://github.com/Netflix/zuul
@@ -484,7 +484,7 @@ landscape:
           name: "Backplane"
           slug_name: backplane
           company: "Backplane"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.backplane.io/
@@ -495,7 +495,7 @@ landscape:
           name: "F5"
           slug_name: f5
           company: "F5"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://f5.com/
@@ -515,7 +515,7 @@ landscape:
             name: "AWS"
             slug_name: aws
             company: "Amazon Web Services"
-            cncf_hosted_project: false
+            cncf_project: false
             oss: false
             commercial: true
             homepage_url: https://aws.amazon.com/
@@ -528,7 +528,7 @@ landscape:
             name: "Google Cloud Platform"
             slug_name: google_cloud_platform
             company: "Google"
-            cncf_hosted_project: false
+            cncf_project: false
             oss: false
             commercial: true
             homepage_url: https://cloud.google.com/
@@ -541,7 +541,7 @@ landscape:
             name: "Azure Cloud Services"
             slug_name: azure_cloud_services
             company: "Microsoft"
-            cncf_hosted_project: false
+            cncf_project: false
             oss: false
             commercial: true
             homepage_url: https://azure.microsoft.com/
@@ -554,7 +554,7 @@ landscape:
             name: "DigitalOcean"
             slug_name: digitalocean
             company: "DigitalOcean"
-            cncf_hosted_project: false
+            cncf_project: false
             oss: false
             commercial: true
             homepage_url: https://www.digitalocean.com/
@@ -566,7 +566,7 @@ landscape:
             name: "Packet"
             slug_name: packet
             company: "Packet"
-            cncf_hosted_project: false
+            cncf_project: false
             oss: false
             commercial: true
             homepage_url: https://www.packet.net/
@@ -578,7 +578,7 @@ landscape:
             name: "Oracle Cloud"
             slug_name: oracle_cloud
             company: "Oracle"
-            cncf_hosted_project: false
+            cncf_project: false
             oss: false
             commercial: true
             homepage_url: https://cloud.oracle.com/
@@ -591,7 +591,7 @@ landscape:
             name: "Alibaba Cloud"
             slug_name: alibaba_cloud
             company: "Alibaba"
-            cncf_hosted_project: false
+            cncf_project: false
             oss: false
             commercial: true
             homepage_url: https://www.alibabacloud.com/
@@ -604,7 +604,7 @@ landscape:
             name: "Fujitsu K5"
             slug_name: fujitsu_k5
             company: "Fujitsu"
-            cncf_hosted_project: false
+            cncf_project: false
             oss: false
             commercial: true
             homepage_url: https://www.fujitsu.com/global/solutions/cloud/k5/
@@ -617,7 +617,7 @@ landscape:
             name: "IBM Cloud"
             slug_name: ibm_cloud
             company: "IBM"
-            cncf_hosted_project: false
+            cncf_project: false
             oss: false
             commercial: true
             homepage_url: https://www.ibm.com/cloud/
@@ -630,7 +630,7 @@ landscape:
             name: "Tencent Cloud"
             slug_name: tencent_cloud
             company: "Tencent Cloud"
-            cncf_hosted_project: false
+            cncf_project: false
             oss: false
             commercial: true
             homepage_url: https://cloud.tencent.com/
@@ -641,7 +641,7 @@ landscape:
             name: "Joyent"
             slug_name: joyent
             company: "Triton"
-            cncf_hosted_project: false
+            cncf_project: false
             oss: true
             commercial: false
             homepage_url: https://www.joyent.com/
@@ -653,7 +653,7 @@ landscape:
             name: "Huawei"
             slug_name: huawei
             company: "Huawei"
-            cncf_hosted_project: false
+            cncf_project: false
             oss: false
             commercial: true
             homepage_url: https://www.huawei.com/
@@ -669,7 +669,7 @@ landscape:
           name: "OpenStack"
           slug_name: openstack
           company: "OpenStack Foundation"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.openstack.org/
@@ -682,7 +682,7 @@ landscape:
           name: "VMware"
           slug_name: vmware
           company: "EMC"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.vmware.com/
@@ -695,7 +695,7 @@ landscape:
           name: "MAAS"
           slug_name: maas
           company: "Canonical"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://maas.io/
@@ -708,7 +708,7 @@ landscape:
           name: "Foreman"
           slug_name: foreman
           company: "The Foreman"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://theforeman.org/
@@ -721,7 +721,7 @@ landscape:
           name: "Scaleway"
           slug_name: scaleway
           company: "Scaleway"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.scaleway.com/
@@ -733,7 +733,7 @@ landscape:
           name: "Digital Rebar"
           slug_name: digial_rebar
           company: "Digital Rebar"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: http://rebar.digital/
@@ -753,7 +753,7 @@ landscape:
           name: "Terraform"
           slug_name: terraform_hashicorp
           company: Hashicorp
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.terraform.io/
@@ -766,7 +766,7 @@ landscape:
           name: "Bosh"
           slug_name: bosh
           company: "Cloud Foundry"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://bosh.io/
@@ -779,7 +779,7 @@ landscape:
           name: "CloudFormation"
           slug_name: cloudformation
           company: "Amazon Web Services"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://aws.amazon.com/cloudformation/
@@ -792,7 +792,7 @@ landscape:
           name: "Cloud Coreo"
           slug_name: cloud_coreo
           company: "Cloud Coreo"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.cloudcoreo.com/
@@ -804,7 +804,7 @@ landscape:
           name: "Cloudify"
           slug_name: cloudify
           company: "Gigaspaces Technologies"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://cloudify.co
@@ -817,7 +817,7 @@ landscape:
           name: "Helm"
           slug_name: helm
           company: "Helm"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://helm.sh/
@@ -830,7 +830,7 @@ landscape:
           name: "Infrakit"
           slug_name: infrakit
           company: "Docker"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://infrakit.com/
@@ -843,7 +843,7 @@ landscape:
           name: "Juju"
           slug_name: juju
           company: "Canonical"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://jujucharms.com/
@@ -856,7 +856,7 @@ landscape:
           name: "Kubicorn"
           slug_name: kubicorn
           company: "Kubicorn"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://kubernetes.io/
@@ -868,7 +868,7 @@ landscape:
           name: "ManageIQ"
           slug_name: manageiq
           company: "ManageIQ"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://http://manageiq.org/
@@ -885,7 +885,7 @@ landscape:
           name: "Quay"
           slug_name: quay
           company: "CoreOS"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://quay.io/
@@ -897,7 +897,7 @@ landscape:
           name: "Artifactory"
           slug_name: artifactory
           company: "Jfrog"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.jfrog.com/artifactory/
@@ -909,7 +909,7 @@ landscape:
           name: "Harbor"
           slug_name: harbor
           company: "VMware"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://vmware.github.io/harbor/
@@ -922,7 +922,7 @@ landscape:
           name: "Azure Registry"
           slug_name: azure_registry
           company: "Microsoft"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://azure.microsoft.com/en-us/services/container-registry/
@@ -935,7 +935,7 @@ landscape:
           name: "Atomic"
           slug_name: atomic
           company: "Red Hat"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.projectatomic.io/
@@ -948,7 +948,7 @@ landscape:
           name: "Docker Registry"
           slug_name: docker_registry
           company: "Docker"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://docs.docker.com/registry/
@@ -961,7 +961,7 @@ landscape:
           name: "Amazon ECR"
           slug_name: amazon_ecr
           company: "Amazon Web Services"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://aws.amazon.com/ecr/
@@ -974,7 +974,7 @@ landscape:
           name: "Google Registry"
           slug_name: google_registry
           company: "Google"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://cloud.google.com/container-registry/
@@ -987,7 +987,7 @@ landscape:
           name: "Portus"
           slug_name: portus
           company: "SUSE"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: http://port.us.org/
@@ -1001,7 +1001,7 @@ landscape:
           name: "Puppet"
           slug_name: puppet
           company: "Puppet"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://puppet.com/
@@ -1014,7 +1014,7 @@ landscape:
           name: "LinuxKit"
           slug_name: inuxkit
           company: "Linux"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           repo_url: https://github.com/linuxkit
@@ -1025,7 +1025,7 @@ landscape:
           name: "Ansible"
           slug_name: ansible
           company: "Ansible"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.ansible.com/
@@ -1038,7 +1038,7 @@ landscape:
           name: "Chef"
           slug_name: chef
           company: "Chef Software"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://chef.io
@@ -1051,7 +1051,7 @@ landscape:
           name: "Salt Stack"
           slug_name: salt_stack
           company: "Salt Stack"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://saltstack.com/
@@ -1064,7 +1064,7 @@ landscape:
           name: "CFEngine"
           slug_name: cfengine
           company: "CFEngine"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://cfengine.com/
@@ -1077,7 +1077,7 @@ landscape:
           name: "Rundeck"
           slug_name: rundeck
           company: "Rundeck"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: http://rundeck.org/
@@ -1094,7 +1094,7 @@ landscape:
           name: "Anchore"
           slug_name: anchore
           company:
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://anchore.io/
@@ -1107,7 +1107,7 @@ landscape:
           name: "Aqua"
           slug_name: aqua
           company: "Aqua"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.aquasec.com/
@@ -1119,7 +1119,7 @@ landscape:
           name: "Black Duck"
           slug_name: black_duck
           company: "Synopsis"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.blackducksoftware.com/
@@ -1132,7 +1132,7 @@ landscape:
           name: "NeuVector"
           slug_name: neuvector
           company: "NeuVector"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://neuvector.com/
@@ -1144,7 +1144,7 @@ landscape:
           name: "Clair"
           slug_name: clair_coreos
           company: "CoreOS"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://coreos.com/clair/docs/latest/
@@ -1157,7 +1157,7 @@ landscape:
           name: "Notary"
           slug_name: notary
           company: "CNCF"
-          cncf_hosted_project: true
+          cncf_project: true
           oss: true
           commercial: false
           homepage_url: https://github.com/docker/notary
@@ -1170,7 +1170,7 @@ landscape:
           name: "OpenSCAP"
           slug_name: openscap
           company: "redhat"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.open-scap.org/
@@ -1182,7 +1182,7 @@ landscape:
           name: "Sonatype Nexus"
           slug_name: sonatype_nexus
           company: "Sonatype"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.sonatype.com/
@@ -1194,7 +1194,7 @@ landscape:
           name: "TUF"
           slug_name: tuf
           company: "CNCF"
-          cncf_hosted_project: true
+          cncf_project: true
           oss: true
           commercial: false
           homepage_url: https://theupdateframework.github.io/
@@ -1206,7 +1206,7 @@ landscape:
           name: "Twistlock"
           slug_name: twistlock
           company: "Twistlock"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.twistlock.com/
@@ -1222,7 +1222,7 @@ landscape:
           name: "Lyft Confidant"
           slug_name: lyft_confidant
           company: "Lyft"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://lyft.github.io/confidant/
@@ -1234,7 +1234,7 @@ landscape:
           name: "Keywhiz"
           slug_name: keywhiz
           company: "Square"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://square.github.io/keywhiz/
@@ -1247,7 +1247,7 @@ landscape:
           name: "Knox"
           slug_name: knox
           company: "Pinterest"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           repo_url: https://github.com/pinterest/knox
@@ -1258,7 +1258,7 @@ landscape:
           name: "Hashicorp Vault"
           slug_name: hashicorp_vault
           company: "Hashicorp"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.vaultproject.io/
@@ -1271,7 +1271,7 @@ landscape:
           name: "Oracle Policy Automation"
           slug_name: oracle_policy_automation
           company: "Oracle"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.oracle.com/applications/oracle-policy-automation/index.html
@@ -1284,7 +1284,7 @@ landscape:
           name: "SPIFFE"
           slug_name: spiffe
           company: "Scytale"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://spiffe.io/
@@ -1297,7 +1297,7 @@ landscape:
           name: "Spire"
           slug_name: spire
           company: "Scytale"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://spiffe.io/spire/
@@ -1318,7 +1318,7 @@ landscape:
           name: "Ceph"
           slug_name: ceph
           company: "Ceph"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://ceph.com/
@@ -1331,7 +1331,7 @@ landscape:
           name: "Gluster"
           slug_name: gluster
           company: "Red Hat"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.gluster.org/
@@ -1346,7 +1346,7 @@ landscape:
           name: "HDFS"
           slug_name: hdfs
           company: "Apache"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: http://hadoop.apache.org/
@@ -1359,7 +1359,7 @@ landscape:
           name: "Minio"
           slug_name: minio
           company: "Minio"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://minio.io/
@@ -1372,7 +1372,7 @@ landscape:
           name: "Portworx"
           slug_name: portworx
           company: "portworx"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://portworx.com/
@@ -1384,7 +1384,7 @@ landscape:
           name: "Project Hatchway"
           slug_name: project_hatchway
           company: "VMWare"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://vmware.github.io/hatchway/
@@ -1398,7 +1398,7 @@ landscape:
           name: "Pure Storage"
           slug_name: pure_storage
           company: "Pure Storage"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.purestorage.com/
@@ -1411,7 +1411,7 @@ landscape:
           name: "libstorage"
           slug_name: libstorage
           company: "Dell EMC"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://libstorage.readthedocs.io/en/stable/
@@ -1424,7 +1424,7 @@ landscape:
           name: "Manta"
           slug_name: manta
           company: "Joyent"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.joyent.com/tech-videos/introduction-to-manta-storage
@@ -1437,7 +1437,7 @@ landscape:
           name: "Diamanti"
           slug_name: diamanti
           company: "Diamanti"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.diamanti.com/
@@ -1449,7 +1449,7 @@ landscape:
           name: "Rook"
           slug_name: rook
           company: "Rook"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://rook.io/
@@ -1461,7 +1461,7 @@ landscape:
           name: "Robin Systems"
           slug_name: robin_systems
           company: "Robin Systems"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://robinsystems.com/
@@ -1473,7 +1473,7 @@ landscape:
           name: "Springpath"
           slug_name: springpath
           company: "Cisco"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: http://springpathinc.com/
@@ -1486,7 +1486,7 @@ landscape:
           name: "Datera"
           slug_name: datera
           company: "Datera Inc."
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: http://datera.io/
@@ -1498,7 +1498,7 @@ landscape:
           name: "Infinit"
           slug_name: infinit
           company: "Docker"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.infinit.sh/
@@ -1511,7 +1511,7 @@ landscape:
           name: "Kasten"
           slug_name: kasten
           company: "Kasten"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://kasten.io/
@@ -1524,7 +1524,7 @@ landscape:
           name: "LeoFS"
           slug_name: leofs
           company: "Leo Project"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://leo-project.net/leofs/
@@ -1536,7 +1536,7 @@ landscape:
           name: "Sheepdog"
           slug_name: sheepdog
           company: "Sheepdog"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://sheepdog.github.io/sheepdog/
@@ -1546,7 +1546,7 @@ landscape:
           name: "Rex-Ray"
           slug_name: rex_ray
           company: "Dell EMC"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://rexray.thecodeteam.com/
@@ -1559,7 +1559,7 @@ landscape:
           name: "NetApp"
           slug_name: netapp
           company: "NetApp"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.netapp.com/
@@ -1572,7 +1572,7 @@ landscape:
           name: "StorageOS"
           slug_name: storageos
           company: "StorageOS"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://storageos.com/
@@ -1584,7 +1584,7 @@ landscape:
           name: "Dell EMC"
           slug_name: dell_emc
           company: "Dell"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.dellemc.com/
@@ -1597,7 +1597,7 @@ landscape:
           name: "OpenSDS"
           slug_name: opensds
           company: "OpenSDS"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.opensds.io/
@@ -1609,7 +1609,7 @@ landscape:
           name: "OpenEBS"
           slug_name: openebs
           company: "OpenEBS"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: hhttps://www.openebs.io/
@@ -1622,7 +1622,7 @@ landscape:
           name: "Hedvig"
           slug_name: hedvig
           company: "Hedvig Inc."
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.hedviginc.com/
@@ -1635,7 +1635,7 @@ landscape:
           name: "Swift"
           slug_name: swift
           company: "OpenStack"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.swiftstack.com/product/openstack-swift
@@ -1652,7 +1652,7 @@ landscape:
           name: "Rkt"
           slug_name: rkt
           company: "CNCF"
-          cncf_hosted_project: true
+          cncf_project: true
           oss: true
           commercial: false
           homepage_url: https://github.com/rkt/rkt
@@ -1665,7 +1665,7 @@ landscape:
           name: "RunC"
           slug_name: runc
           company: "OCI"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.opencontainers.org/
@@ -1677,7 +1677,7 @@ landscape:
           name: "lxd"
           slug_name: lxd
           company: "Canonical"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://linuxcontainers.org/lxd/
@@ -1690,7 +1690,7 @@ landscape:
           name: "RunV"
           slug_name: runv
           company: "Hyper"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           repo_url: https://github.com/hyperhq/runv
@@ -1699,7 +1699,7 @@ landscape:
           name: "SmartOS"
           slug_name: smartos
           company: "Joyent"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.joyent.com/smartos
@@ -1712,7 +1712,7 @@ landscape:
           name: "containerd"
           slug_name: containerd
           company: "CNCF"
-          cncf_hosted_project: true
+          cncf_project: true
           oss: true
           commercial: false
           homepage_url: http://containerd.io/
@@ -1725,7 +1725,7 @@ landscape:
           name: "cri-o"
           slug_name: cri_o
           company: "cri-o"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: http://cri-o.io/
@@ -1737,7 +1737,7 @@ landscape:
           name: "Intel Clear Containers"
           slug_name: intel_clear-containers
           company: "Intel"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://clearlinux.org/containers
@@ -1751,7 +1751,7 @@ landscape:
           name: "CSI"
           slug_name: csi
           company: "CSI"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://github.com/container-storage-interface
@@ -1765,7 +1765,7 @@ landscape:
           name: "Aporeto"
           slug_name: aporeto
           company: "Aporeto"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.aporeto.com/
@@ -1777,7 +1777,7 @@ landscape:
           name: "Aviatrix"
           slug_name: aviatrix
           company: "Aviatrix"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://aviatrix.com/
@@ -1789,7 +1789,7 @@ landscape:
           name: "Big Switch Networks"
           slug_name: big_switch_networks
           company: "Big Switch Networks"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: http://www.bigswitch.com/
@@ -1801,7 +1801,7 @@ landscape:
           name: "Project Calico"
           slug_name: project_calico
           company: "Tigera"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.projectcalico.org/
@@ -1814,7 +1814,7 @@ landscape:
           name: "Canal"
           slug_name: canal
           company: "Tigera"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://github.com/projectcalico/canal
@@ -1827,7 +1827,7 @@ landscape:
           name: "Contiv"
           slug_name: contiv
           company: "Cisco"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://contiv.github.io/
@@ -1841,7 +1841,7 @@ landscape:
           name: "Cilium"
           slug_name: cilium
           company: "Covalent"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.cilium.io/
@@ -1854,7 +1854,7 @@ landscape:
           name: "Cumulus"
           slug_name: cumulus
           company: "Cumulus Networks"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://cumulusnetworks.com
@@ -1867,7 +1867,7 @@ landscape:
           name: "Flannel"
           slug_name: flannel
           company: "Tigera"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://github.com/coreos/flannel/
@@ -1880,7 +1880,7 @@ landscape:
           name: "Midokura"
           slug_name: midokura
           company: "Midokura"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.midokura.com//
@@ -1893,7 +1893,7 @@ landscape:
           name: "NSX"
           slug_name: nsx
           company: "VMware"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.vmware.com/products/nsx.html
@@ -1906,7 +1906,7 @@ landscape:
           name: "Nuage Networks"
           slug_name: nuage_networks
           company: "Nokia"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: http://www.nuagenetworks.net/
@@ -1919,7 +1919,7 @@ landscape:
           name: "OpenContrail"
           slug_name: opencontrail
           company: "Juniper Networks"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: http://www.opencontrail.org/
@@ -1932,7 +1932,7 @@ landscape:
           name: "Open vSwitch"
           slug_name: open_vswitch
           company: "Open vSwitch"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: http://openvswitch.org/
@@ -1945,7 +1945,7 @@ landscape:
           name: "Plumgrid"
           slug_name: plumgrid
           company: "VMware"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.vmware.com/products/nsx.html
@@ -1957,7 +1957,7 @@ landscape:
           name: "Romana"
           slug_name: romana
           company: "Romana"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: http://romana.io/
@@ -1967,7 +1967,7 @@ landscape:
           name: "Sanproute"
           slug_name: snaperoute
           company: "Sanproute"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://snaproute.com/
@@ -1979,7 +1979,7 @@ landscape:
           name: "CNI"
           slug_name: cni
           company: "CNCF"
-          cncf_hosted_project: true
+          cncf_project: true
           oss: true
           commercial: false
           homepage_url: https://github.com/containernetworking
@@ -1991,7 +1991,7 @@ landscape:
           name: "Weavenet"
           slug_name: weavenet
           company: "Weaveworks"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.weave.works/docs/net/latest/overview/
@@ -2012,7 +2012,7 @@ landscape:
           name: "TiDB"
           slug_name: tidb
           company: "PingCAP"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://pingcap.com/index
@@ -2025,7 +2025,7 @@ landscape:
           name: "MySQL"
           slug_name: mysql
           company: "MySQL"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.oracle.com/mysql/index.html
@@ -2039,7 +2039,7 @@ landscape:
           name: "Postgres"
           slug_name: postgres
           company: "PostgresSQL"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.postgresql.org/
@@ -2052,7 +2052,7 @@ landscape:
           name: "Oracle"
           slug_name: oracle
           company: "Oracle"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://developer.oracle.com/
@@ -2065,7 +2065,7 @@ landscape:
           name: "SQL Server"
           slug_name: sql_server
           company: "Microsoft"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.microsoft.com/en-us/sql-server
@@ -2078,7 +2078,7 @@ landscape:
           name: "IBM DB2"
           slug_name: ibm_db2
           company: "IBM"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.ibm.com/analytics/us/en/db2/
@@ -2091,7 +2091,7 @@ landscape:
           name: "MongoDB"
           slug_name: mongodb
           company: "MongoDB"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.mongodb.com/
@@ -2104,7 +2104,7 @@ landscape:
           name: "Cassandra"
           slug_name: cassandra
           company: "Apache"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: http://cassandra.apache.org/
@@ -2117,7 +2117,7 @@ landscape:
           name: "Redis"
           slug_name: redis
           company: "Redis"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://redis.io/
@@ -2130,7 +2130,7 @@ landscape:
           name: "MariaDB"
           slug_name: mariadb
           company: "MariaDB"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://mariadb.org/
@@ -2143,7 +2143,7 @@ landscape:
           name: "Crate.io"
           slug_name: crateio
           company: "Crate"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://crate.io/
@@ -2156,7 +2156,7 @@ landscape:
           name: "NomsDB"
           slug_name: nomsdb
           company: "attic-labs"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://github.com/attic-labs/noms
@@ -2169,7 +2169,7 @@ landscape:
           name: "BigchainDB"
           slug_name: bigchaindb
           company: "BigchainDB"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.bigchaindb.com/
@@ -2182,7 +2182,7 @@ landscape:
           name: "Couchbase"
           slug_name: couchbase
           company: "Counchbase"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.couchbase.com/
@@ -2195,7 +2195,7 @@ landscape:
           name: "CockroachDB"
           slug_name: cockroachdb
           company: "CockroachDB"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.cockroachlabs.com/
@@ -2208,7 +2208,7 @@ landscape:
           name: "RethinkDB"
           slug_name: rethinkdb
           company: "RethinkDB"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.rethinkdb.com/
@@ -2221,7 +2221,7 @@ landscape:
           name: "Vitess"
           slug_name: vitess
           company: "Google"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: http://vitess.io/
@@ -2234,7 +2234,7 @@ landscape:
           name: "SQL Data Warehouse"
           slug_name: sql_data_warehouse
           company: "Microsoft"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://azure.microsoft.com/
@@ -2247,7 +2247,7 @@ landscape:
           name: "Snowflake"
           slug_name: snowflake
           company: "Snowflake Computing"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.snowflake.net/
@@ -2259,7 +2259,7 @@ landscape:
           name: "Druid"
           slug_name: druid
           company: "Druid"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: http://druid.io/
@@ -2271,7 +2271,7 @@ landscape:
           name: "Qubole"
           slug_name: qubole
           company: "Qubole"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.qubole.com/
@@ -2283,7 +2283,7 @@ landscape:
           name: "CarbonData"
           slug_name: carbondata
           company: "Apache"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: http://carbondata.apache.org/
@@ -2296,7 +2296,7 @@ landscape:
           name: "Vertica"
           slug_name: vertica
           company: "HPE"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.vertica.com/
@@ -2309,7 +2309,7 @@ landscape:
           name: "Hadoop"
           slug_name: hadoop
           company: "Apache"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: http://hadoop.apache.org/
@@ -2322,7 +2322,7 @@ landscape:
           name: "Iguazio"
           slug_name: iquazio
           company: "iguazio"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.iguazio.com/
@@ -2335,7 +2335,7 @@ landscape:
           name: "MemSQL"
           slug_name: memsql
           company: "MemSQL"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.memsql.com/
@@ -2348,7 +2348,7 @@ landscape:
           name: "Pachyderm"
           slug_name: pachyderm
           company: "Pachyderm"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: http://www.pachyderm.io/
@@ -2361,7 +2361,7 @@ landscape:
           name: "Scylla"
           slug_name: scylla
           company: "scylla"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: http://www.scylladb.com/
@@ -2378,7 +2378,7 @@ landscape:
           name: "Kafka"
           slug_name: kafka
           company: "Apache"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://kafka.apache.org/
@@ -2391,7 +2391,7 @@ landscape:
           name: "Dataflow"
           slug_name: dataflow
           company: "Google"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://cloud.google.com/dataflow/
@@ -2404,7 +2404,7 @@ landscape:
           name: "Spark Streaming"
           slug_name: spark_streaming
           company: "Apache"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://spark.apache.org/streaming/
@@ -2417,7 +2417,7 @@ landscape:
           name: "Heron"
           slug_name: heron
           company: "Twitter"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://twitter.github.io/heron/
@@ -2431,7 +2431,7 @@ landscape:
           name: "Flink"
           slug_name: flink
           company: "Apache"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://flink.apache.org/
@@ -2444,7 +2444,7 @@ landscape:
           name: "Apex"
           slug_name: apex
           company: "Apache"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://apex.apache.org/
@@ -2457,7 +2457,7 @@ landscape:
           name: "Apache Storm"
           slug_name: apache_storm
           company: "Apache"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: http://storm.apache.org/
@@ -2470,7 +2470,7 @@ landscape:
           name: "RabbitMQ"
           slug_name: rabiitmq
           company: "Rabbit Technologies"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.rabbitmq.com/
@@ -2483,7 +2483,7 @@ landscape:
           name: "NATS"
           slug_name: nats
           company: "Apache"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://nats.io/
@@ -2496,7 +2496,7 @@ landscape:
           name: "ApacheNiFi"
           slug_name: apachenifi
           company: "Apache"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://nifi.apache.org/
@@ -2509,7 +2509,7 @@ landscape:
           name: "Pulsar"
           slug_name: pulsar
           company: "Apache"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://pulsar.apache.org/
@@ -2522,7 +2522,7 @@ landscape:
           name: "StreamSets"
           slug_name: streamsets
           company: "StreamSets"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://streamsets.com/
@@ -2535,7 +2535,7 @@ landscape:
           name: "Kinesis"
           slug_name: kinesis
           company: "Amazon Web Services"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://aws.amazon.com/kinesis/
@@ -2552,7 +2552,7 @@ landscape:
           name: "BibBucket"
           slug_name: bitbucket
           company: "Atlassian"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://bitbucket.org/
@@ -2564,7 +2564,7 @@ landscape:
           name: "GitLab"
           slug_name: gitlab
           company: "GitLab"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://gitlab.com/
@@ -2577,7 +2577,7 @@ landscape:
           name: "GitHub"
           slug_name: github
           company: "GitHub"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://github.com/
@@ -2589,7 +2589,7 @@ landscape:
           name: "Microsoft Visual Studio Team Services"
           slug_name: microsoft_visual_studio_team_services
           company: "Microsoft"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.visualstudio.com/team-services/
@@ -2607,7 +2607,7 @@ landscape:
           name: "KubeVirt"
           slug_name: kubevirt
           company: "KubeVirt"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: http://www.kubevirt.io/
@@ -2619,7 +2619,7 @@ landscape:
           name: "Packer"
           slug_name: packer
           company: "Hashicorp"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.packer.io/intro/index.html
@@ -2632,7 +2632,7 @@ landscape:
           name: "Compose"
           slug_name: compose
           company: "Docker"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://docs.docker.com/compose/
@@ -2645,7 +2645,7 @@ landscape:
           name: "Habitat"
           slug_name: habitat
           company: "Chef"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.habitat.sh/
@@ -2658,7 +2658,7 @@ landscape:
           name: "Brooklyn"
           slug_name: brooklyn
           company: "Apache"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://brooklyn.apache.org/
@@ -2671,7 +2671,7 @@ landscape:
           name: "Bitnami"
           slug_name: bitnami
           company: "Bitnami"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://bitnami.com/
@@ -2683,7 +2683,7 @@ landscape:
           name: "OpenAPI"
           slug_name: openapi
           company: "OpenAPI"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.openapis.org/
@@ -2700,7 +2700,7 @@ landscape:
           name: "Jenkins"
           slug_name: jenkins
           company: "Jenkins CI"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://jenkins.io/
@@ -2713,7 +2713,7 @@ landscape:
           name: "Travis"
           slug_name: travis
           company: "Travis CI"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://travis-ci.com/
@@ -2726,7 +2726,7 @@ landscape:
           name: "Octopus Deploy"
           slug_name: octopus_deploy
           company: "Octopus"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://octopus.com/
@@ -2739,7 +2739,7 @@ landscape:
           name: "CircleCI"
           slug_name: circleci
           company: "CircleCI"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://circleci.com/
@@ -2752,7 +2752,7 @@ landscape:
           name: "Drone"
           slug_name: drone
           company: "Drone"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: http://try.drone.io/
@@ -2765,7 +2765,7 @@ landscape:
           name: "Codeship"
           slug_name: codeship
           company: "Codeship"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://codeship.com/
@@ -2777,7 +2777,7 @@ landscape:
           name: "Bamboo"
           slug_name: bamboo_atlassian
           company: "Atlassian"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.atlassian.com/software/bamboo/
@@ -2790,7 +2790,7 @@ landscape:
           name: "Cloudbees"
           slug_name: cloudbees
           company: "Cloudbees"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.cloudbees.com/
@@ -2803,7 +2803,7 @@ landscape:
           name: "Spinnaker"
           slug_name: spinnaker
           company: "Spinnaker"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.spinnaker.io/
@@ -2815,7 +2815,7 @@ landscape:
           name: "Shippable"
           slug_name: shippable
           company: "Shippable"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: http://www.shippable.com/
@@ -2827,7 +2827,7 @@ landscape:
           name: "Wercker"
           slug_name: wercker
           company: "Oracle"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.wercker.com/
@@ -2841,7 +2841,7 @@ landscape:
           name: "Codefresh"
           slug_name: codefresh
           company: "Codefresh"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://codefresh.io/
@@ -2853,7 +2853,7 @@ landscape:
           name: "BuddyBuild"
           slug_name: buddybuild
           company: "BuddyBuild"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.buddybuild.com/
@@ -2865,7 +2865,7 @@ landscape:
           name: "Distelli"
           slug_name: distelli
           company: "Distelli"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.distelli.com/
@@ -2877,7 +2877,7 @@ landscape:
           name: "Solano Labs"
           slug_name: solano_labs
           company: "Solano Labs"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.solanolabs.com/
@@ -2889,7 +2889,7 @@ landscape:
           name: "Semaphore"
           slug_name: semaphore
           company: "Semaphore"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://semaphoreci.com/
@@ -2901,7 +2901,7 @@ landscape:
           name: "ContainerOps"
           slug_name: containerops
           company: "Huawei"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: http://containerops.org/
@@ -2913,7 +2913,7 @@ landscape:
           name: "Appveyor"
           slug_name: appveyor
           company: "Appveyor Systems"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.appveyor.com/
@@ -2925,7 +2925,7 @@ landscape:
           name: "Gitlab Runner"
           slug_name: gitlab_runner
           company: "Gitlab"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://about.gitlab.com/
@@ -2938,7 +2938,7 @@ landscape:
           name: "Buildkite"
           slug_name: buildkite
           company: "Buildkite"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://buildkite.com/
@@ -2951,7 +2951,7 @@ landscape:
           name: "Concourse"
           slug_name: concourse
           company: "Concourse"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://concourse.ci/
@@ -2963,7 +2963,7 @@ landscape:
           name: "XL Deploy"
           slug_name: xl_deploy
           company: "XebiaLabs"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://xebialabs.com/products/xl-deploy/
@@ -2984,7 +2984,7 @@ landscape:
           name: "Tectonic"
           slug_name: tectonic
           company: "CoreOS"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://coreos.com/tectonic
@@ -2996,7 +2996,7 @@ landscape:
           name: "Cloud Foundry"
           slug_name: cloud_foundry
           company: "Cloud Foundry"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.cloudfoundry.org/
@@ -3009,7 +3009,7 @@ landscape:
           name: "OpenShift"
           slug_name: openshift
           company: "OpenShift"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.openshift.com/
@@ -3022,7 +3022,7 @@ landscape:
           name: "DC/OS"
           slug_name: dc_os
           company: "Mesophere"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://mesosphere.com/product/
@@ -3035,7 +3035,7 @@ landscape:
           name: "Apcera"
           slug_name: apcera
           company: "Ericsson"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.apcera.com/
@@ -3047,7 +3047,7 @@ landscape:
           name: "Apprenda"
           slug_name: apprenda
           company: "Apprenda"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://apprenda.com/
@@ -3059,7 +3059,7 @@ landscape:
           name: "Rancher"
           slug_name: rancher
           company: "Rancher Labs"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: http://rancher.com/
@@ -3072,7 +3072,7 @@ landscape:
           name: "Kublr"
           slug_name: kublr
           company: "kublr"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: http://kublr.com/
@@ -3085,7 +3085,7 @@ landscape:
           name: "Photon"
           slug_name: photon
           company: "VMware"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://vmware.github.io/photon/
@@ -3097,7 +3097,7 @@ landscape:
           name: "Platform.sh"
           slug_name: platform.sh
           company: "Platform.sh"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://platform.sh/
@@ -3110,7 +3110,7 @@ landscape:
           name: "Platform9"
           slug_name: platform9
           company: "Platform9 Systems"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://platform9.com/
@@ -3122,7 +3122,7 @@ landscape:
           name: "Flynn"
           slug_name: flynn
           company: "Flynn"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://flynn.io/
@@ -3135,7 +3135,7 @@ landscape:
           name: "Datawire"
           slug_name: datawire
           company: "Datawire"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.datawire.io/
@@ -3147,7 +3147,7 @@ landscape:
           name: "Atomist"
           slug_name: atomist
           company: "Atomist"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.atomist.com/
@@ -3159,7 +3159,7 @@ landscape:
           name: "Iron.io"
           slug_name: iron_io
           company: "Iron.io"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.iron.io/
@@ -3172,7 +3172,7 @@ landscape:
           name: "PaaSTA"
           slug_name: paasta
           company: "Yelp"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://engineeringblog.yelp.com/2015/11/introducing-paasta-an-open-platform-as-a-service.html
@@ -3186,7 +3186,7 @@ landscape:
           name: "Empire"
           slug_name: empire
           company:  "Remind"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: http://engineering.remind.com/
@@ -3199,7 +3199,7 @@ landscape:
           name: "Nirmata"
           slug_name: nirmata
           company: Nirmata
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.nirmata.com/
@@ -3212,7 +3212,7 @@ landscape:
           name: "Giant Swarm"
           slug_name: giant_swarm
           company: "Giant Swarm"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://giantswarm.io/
@@ -3224,7 +3224,7 @@ landscape:
           name: "Cloud66"
           slug_name: cloud66
           company: "Cloud66"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.cloud66.com/
@@ -3236,7 +3236,7 @@ landscape:
           name: "Kontena"
           slug_name: kontena
           company: "Kontena"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://kontena.io/
@@ -3249,7 +3249,7 @@ landscape:
           name: "Kubermatic"
           slug_name: kubermatic
           company: "Kubermatic"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://cloud.kubermatic.io/
@@ -3261,7 +3261,7 @@ landscape:
           name: "Gravitational"
           slug_name: gravitational
           company: "Gravitational"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://gravitational.com/
@@ -3273,7 +3273,7 @@ landscape:
           name: "Navops"
           slug_name: navops
           company: "Navops"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.navops.io/
@@ -3285,7 +3285,7 @@ landscape:
           name: "Heroku"
           slug_name: heroku
           company: "Salesforce"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.heroku.com/home
@@ -3298,7 +3298,7 @@ landscape:
           name: "Mantl"
           slug_name: mantl
           company: "Mantl"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://mantl.io/
@@ -3310,7 +3310,7 @@ landscape:
           name: "Mirantis"
           slug_name: mirantis
           company: "Mirantis"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.mirantis.com/
@@ -3323,7 +3323,7 @@ landscape:
           name: "goPaddle"
           slug_name: gopaddle
           company: "Bluemeric"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.gopaddle.io/#/
@@ -3336,7 +3336,7 @@ landscape:
           name: "Hyper"
           slug_name: hyper
           company: "Hyper"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.hyper.sh/
@@ -3349,7 +3349,7 @@ landscape:
           name: "Exoscale"
           slug_name: exoscale
           company: "Exoscale"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.exoscale.ch/
@@ -3362,7 +3362,7 @@ landscape:
           name: "JHipster"
           slug_name: jhipster
           company: "JHipster"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: http://www.jhipster.tech/
@@ -3374,7 +3374,7 @@ landscape:
           name: "Moby"
           slug_name: moby
           company: "Docker"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://mobyproject.org/
@@ -3387,7 +3387,7 @@ landscape:
           name: "Galactic Fog"
           slug_name: galactic_fog
           company: "Galactic Fog"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: http://www.galacticfog.com/
@@ -3399,7 +3399,7 @@ landscape:
           name: "ContainerLinux"
           slug_name: containerlinux
           company: "CoreOS"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://coreos.com/products/container-linux-subscription/
@@ -3412,7 +3412,7 @@ landscape:
           name: "Ubuntu"
           slug_name: ubuntu
           company: "Ubuntu"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.ubuntu.com/
@@ -3424,7 +3424,7 @@ landscape:
           name: "Lightbend"
           slug_name: lightbend
           company: "Lightbend"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.lightbend.com/
@@ -3437,7 +3437,7 @@ landscape:
           name: "Deis"
           slug_name: deis
           company: "Microsoft"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://deis.com/
@@ -3451,7 +3451,7 @@ landscape:
           name: "Docker Cloud"
           slug_name: docker_cloud
           company: "Docker"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://cloud.docker.com/
@@ -3463,7 +3463,7 @@ landscape:
           name: "Tsuru"
           slug_name: tsuru
           company: "Tsuru"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://tsuru.io/
@@ -3475,7 +3475,7 @@ landscape:
           name: "ContainerShip"
           slug_name: containership
           company: "ContainerShip"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://containership.io/
@@ -3487,7 +3487,7 @@ landscape:
           name: "Convox"
           slug_name: convox
           company: "Convox"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://convox.com/
@@ -3500,7 +3500,7 @@ landscape:
           name: "GKE"
           slug_name: gke
           company: "Google"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://cloud.google.com/container-engine/
@@ -3513,7 +3513,7 @@ landscape:
           name: "Portainer"
           slug_name: portainer
           company: "Portainer"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://portainer.io/
@@ -3523,7 +3523,7 @@ landscape:
           name: "Pusher"
           slug_name: pusher
           company: "Pusher"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://pusher.com/team
@@ -3536,7 +3536,7 @@ landscape:
           name: "Remind"
           slug_name: remind
           company: "Remind"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.remind.com/
@@ -3549,7 +3549,7 @@ landscape:
           name: "Scalingo"
           slug_name: scalingo
           company: "Scalingo"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://scalingo.com/
@@ -3562,7 +3562,7 @@ landscape:
           name: "StackPointCloud"
           slug_name: stackpointcloud
           company: "StackPointCloud"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://cloud.google.com/container-engine/
@@ -3573,7 +3573,7 @@ landscape:
           name: "Supergiant"
           slug_name: supergiant
           company: "Supergiant"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://supergiant.io/
@@ -3586,7 +3586,7 @@ landscape:
           name: "SUSE Caas Platform"
           slug_name: suse_caas_platform
           company: "SUSE"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.suse.com/products/caas-platform/
@@ -3603,7 +3603,7 @@ landscape:
           name: "Lambda"
           slug_name: lambda
           company: "Amazon Web Services"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://aws.amazon.com/lambda/
@@ -3616,7 +3616,7 @@ landscape:
           name: "OpenFAAS"
           slug_name: openfaas
           company: "openfaas"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.openfaas.com
@@ -3629,7 +3629,7 @@ landscape:
           name: "Google Cloud Functions"
           slug_name: google_cloud_functions
           company: "Google"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://cloud.google.com/functions/
@@ -3642,7 +3642,7 @@ landscape:
           name: "OpenWhisk"
           slug_name: openwhisk
           company: "Apache"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: http://openwhisk.incubator.apache.org/
@@ -3655,7 +3655,7 @@ landscape:
           name: "Oracle Application Container Cloud"
           slug_name: oracle_application_container_cloud
           company: "Oracle"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://cloud.oracle.com/acc
@@ -3668,7 +3668,7 @@ landscape:
           name: "Firebase BLOCKS"
           slug_name: firebaseblocks
           company: "Firebase"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://firebase.google.com/
@@ -3681,7 +3681,7 @@ landscape:
           name: "Webtask"
           slug_name: webtask
           company: "Webtask"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://webtask.io/
@@ -3693,7 +3693,7 @@ landscape:
           name: "Fission"
           slug_name: fission
           company: "Platform9"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: http://fission.io/
@@ -3706,7 +3706,7 @@ landscape:
           name: "PubNub"
           slug_name: pubnub
           company: "Blocks"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.pubnub.com/docs/blocks-catalog
@@ -3718,7 +3718,7 @@ landscape:
           name: "Apex"
           slug_name: apex
           company: "apex"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: apex.run
@@ -3730,7 +3730,7 @@ landscape:
           name: "Serverless"
           slug_name: serverless
           company: "Serverless"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://serverless.com/
@@ -3743,7 +3743,7 @@ landscape:
           name: "Kubeless"
           slug_name: kubeless
           company: "Kubeless"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: http://kubeless.io/
@@ -3755,7 +3755,7 @@ landscape:
           name: "NStack"
           slug_name: nstack
           company: "NStack"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://nstack.com/
@@ -3767,7 +3767,7 @@ landscape:
           name: "Nuclio"
           slug_name: nuclio
           company: "Iguazio"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://nuclio.io/
@@ -3780,7 +3780,7 @@ landscape:
           name: "Azure Functions"
           slug_name: azure_functions
           company: "Microsoft"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://azure.microsoft.com/en-us/services/functions/
@@ -3801,7 +3801,7 @@ landscape:
           name: "StatsDB"
           slug_name: statsdb
           company: "Earlham Institute"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: http://www.earlham.ac.uk/statsdb
@@ -3813,7 +3813,7 @@ landscape:
           name: "New Relic"
           slug_name: new_relic
           company: "New Relic"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://newrelic.com/
@@ -3826,7 +3826,7 @@ landscape:
           name: "AppDynamics"
           slug_name: appdynamics
           company: "Cisco"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.appdynamics.com/
@@ -3838,7 +3838,7 @@ landscape:
           name: "Axibase"
           slug_name: axibase
           company: "Axibase"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://axibase.com/
@@ -3850,7 +3850,7 @@ landscape:
           name: "Datadog"
           slug_name: datadog
           company: "Datadog"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.datadoghq.com/
@@ -3862,7 +3862,7 @@ landscape:
           name: "CloudWATCH"
           slug_name: cloudwatch
           company: "Amazon Web Services"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://aws.amazon.com/cloudwatch/
@@ -3875,7 +3875,7 @@ landscape:
           name: "Stackdriver"
           slug_name: stackdriver
           company: "Google"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://cloud.google.com/stackdriver/
@@ -3888,7 +3888,7 @@ landscape:
           name: "Prometheus"
           slug_name: prometheus
           company: "CNCF"
-          cncf_hosted_project: true
+          cncf_project: true
           oss: true
           commercial: false
           homepage_url: https://prometheus.io/
@@ -3901,7 +3901,7 @@ landscape:
           name: "SysDig"
           slug_name: sysdig
           company: "Draios"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://sysdig.com/
@@ -3914,7 +3914,7 @@ landscape:
           name: "Wavefront"
           slug_name: wavefront
           company: "VMware"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.wavefront.com/
@@ -3926,7 +3926,7 @@ landscape:
           name: "Instana"
           slug_name: instana
           company: "Instana"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.instana.com/
@@ -3938,7 +3938,7 @@ landscape:
           name: "Honeybadger"
           slug_name: honeybadger
           company: "Honeybadger"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.honeybadger.io/
@@ -3951,7 +3951,7 @@ landscape:
           name: "Icinga"
           slug_name: icinga
           company: "Icinga"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.icinga.com/
@@ -3964,7 +3964,7 @@ landscape:
           name: "IronDB"
           slug_name: irondb
           company: "Circonus"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.circonus.com/irondb/
@@ -3977,7 +3977,7 @@ landscape:
           name: "Rocana"
           slug_name: rocana
           company: "Rocana"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.rocana.com/
@@ -3989,7 +3989,7 @@ landscape:
           name: "OpsClarity"
           slug_name: opsclarity
           company: "OpsClarity"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.opsclarity.com/
@@ -4001,7 +4001,7 @@ landscape:
           name: "Nagios"
           slug_name: nagios
           company: "Nagios Enterprises"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.nagios.com/
@@ -4014,7 +4014,7 @@ landscape:
           name: "Zabbix"
           slug_name: zabbix
           company: "Zabbix"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.zabbix.com/
@@ -4027,7 +4027,7 @@ landscape:
           name: "Graphite"
           slug_name: graphite
           company: "Graphite"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://graphiteapp.org/
@@ -4037,7 +4037,7 @@ landscape:
           name: "InfluxDB"
           slug_name: influxdb
           company: "InfluxDB"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.influxdata.com/
@@ -4050,7 +4050,7 @@ landscape:
           name: "OpenTSDB"
           slug_name: opentsdb
           company: "OpenTSDB"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: http://opentsdb.net/
@@ -4062,7 +4062,7 @@ landscape:
           name: "Netsil"
           slug_name: netsil
           company: "Netsil"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://netsil.com/
@@ -4074,7 +4074,7 @@ landscape:
           name: "Meros"
           slug_name: meros
           company: "Meros Inc"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://meros.io/
@@ -4086,7 +4086,7 @@ landscape:
           name: "OpBeat"
           slug_name: opbeat
           company: "OpBeat"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://opbeat.com/
@@ -4098,7 +4098,7 @@ landscape:
           name: "Cobe"
           slug_name: cobe
           company: "Cobe"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://cobe.io/
@@ -4109,7 +4109,7 @@ landscape:
           name: "ServerDensity"
           slug_name: serverdensity
           company: "ServerDensity"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.serverdensity.com/
@@ -4122,7 +4122,7 @@ landscape:
           name: "Librato"
           slug_name: librato
           company: "Solarwinds"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.librato.com/
@@ -4134,7 +4134,7 @@ landscape:
           name: "AppNeta"
           slug_name: appneta
           company: "AppNeta"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.appneta.com/
@@ -4147,7 +4147,7 @@ landscape:
           name: "Catchpoint Systems"
           slug_name: catchpoint_systems
           company: "Catchpoint Systems Inc"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: http://www.catchpoint.com/
@@ -4159,7 +4159,7 @@ landscape:
           name: "Dynatrace"
           slug_name: dynatrace
           company: "Compuware"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.dynatrace.com/
@@ -4171,7 +4171,7 @@ landscape:
           name: "CoScale"
           slug_name: coscale
           company: "CoScale"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.coscale.com/
@@ -4184,7 +4184,7 @@ landscape:
           name: "Outlyer"
           slug_name: outlyer
           company: "Outlyer"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.outlyer.com/
@@ -4196,7 +4196,7 @@ landscape:
           name: "Centreon"
           slug_name: centreon
           company: "Centreon"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.centreon.com/en/
@@ -4209,7 +4209,7 @@ landscape:
           name: "Lighstep"
           slug_name: lightstep
           company: "Lightstep"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: http://lightstep.com/
@@ -4221,7 +4221,7 @@ landscape:
           name: "Signal FX"
           slug_name: signal_fx
           company: "Signal FX"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://signalfx.com/
@@ -4233,7 +4233,7 @@ landscape:
           name: "Nodesource"
           slug_name: nodesource
           company: "Nodesource"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://nodesource.com/
@@ -4245,7 +4245,7 @@ landscape:
           name: "Grafana"
           slug_name: grafana
           company: "Grafana"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://grafana.com/
@@ -4258,7 +4258,7 @@ landscape:
           name: "Log Analytics"
           slug_name: log_analytics
           company: "Microsoft"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://azure.microsoft.com/en-us/services/log-analytics/
@@ -4271,7 +4271,7 @@ landscape:
           name: "Scope"
           slug_name: scope
           company: "Weaveworks"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.weave.works/
@@ -4284,7 +4284,7 @@ landscape:
           name: "Sensu"
           slug_name: sensu
           company: "sensu"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://sensuapp.org/
@@ -4297,7 +4297,7 @@ landscape:
           name: "Sentry"
           slug_name: sentry
           company: "Functional Software Inc"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://sentry.io/
@@ -4310,7 +4310,7 @@ landscape:
           name: "StackRox"
           slug_name: stackrox
           company: "stackrox"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.stackrox.com/
@@ -4323,7 +4323,7 @@ landscape:
           name: "StackState"
           slug_name: stackstate
           company: "stackstate"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.stackstate.com/
@@ -4335,7 +4335,7 @@ landscape:
           name: "Weave Cloud"
           slug_name: weave_cloud
           company: "Weave"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://cloud.weave.works/
@@ -4352,7 +4352,7 @@ landscape:
           name: "Splunk"
           slug_name: splunk
           company: "Splunk"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.splunk.com/
@@ -4365,7 +4365,7 @@ landscape:
           name: "Elastic"
           slug_name: elastic
           company: "Elastic"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.elastic.co/
@@ -4378,7 +4378,7 @@ landscape:
           name: "Sematext"
           slug_name: sematext
           company: "Sematext"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://sematext.com/
@@ -4391,7 +4391,7 @@ landscape:
           name: "SumoLogic"
           slug_name: sumologic
           company: "Sumo Logic"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.sumologic.com/
@@ -4404,7 +4404,7 @@ landscape:
           name: "Loggly"
           slug_name: loggly
           company: "Loggly"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.loggly.com/
@@ -4416,7 +4416,7 @@ landscape:
           name: "Logz"
           slug_name: logz
           company: "Logz.io"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://logz.io/
@@ -4428,7 +4428,7 @@ landscape:
           name: "FluentD"
           slug_name: fluentd
           company: "CNCF"
-          cncf_hosted_project: true
+          cncf_project: true
           oss: true
           commercial: false
           homepage_url: https://www.fluentd.org/
@@ -4441,7 +4441,7 @@ landscape:
           name: "Loom Systems"
           slug_name: loom_systems
           company: "Loom Systems"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.loomsystems.com/
@@ -4453,7 +4453,7 @@ landscape:
           name: "Graylog"
           slug_name: graylog
           company: "Graylog"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.graylog.org/
@@ -4470,7 +4470,7 @@ landscape:
           name: "OpenTracing"
           slug_name: opentracing
           company: "CNCF"
-          cncf_hosted_project: true
+          cncf_project: true
           oss: true
           commercial: false
           homepage_url: http://opentracing.io/
@@ -4483,7 +4483,7 @@ landscape:
           name: "Skywalking"
           slug_name: skywaling
           company: "Open Skywalking Organization"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: http://skywalking.org/
@@ -4494,7 +4494,7 @@ landscape:
           name: "Zipkin"
           slug_name: zipkin
           company: "Zipkin"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: http://zipkin.io/
@@ -4506,7 +4506,7 @@ landscape:
           name: "Jaeger"
           slug_name: jaeger
           company: "CNCF"
-          cncf_hosted_project: true
+          cncf_project: true
           oss: true
           commercial: false
           homepage_url: https://uber.github.io/jaeger/
@@ -4520,7 +4520,7 @@ landscape:
           name: "Cloud Sleuth"
           slug_name: cloud_sleuth
           company: "Spring"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://cloud.spring.io/spring-cloud-sleuth/
@@ -4530,7 +4530,7 @@ landscape:
           name: "Appdash"
           slug_name: appdash
           company: "Sourcegraph"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://github.com/sourcegraph/appdash
