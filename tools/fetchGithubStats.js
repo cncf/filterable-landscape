@@ -8,8 +8,20 @@ import { JSDOM } from 'jsdom';
 const tree = traverse(source);
 const repos = {};
 tree.map(function(node) {
-  if (node && node.item === null && node.repo_url && node.repo_url.indexOf('https://github.com') === 0) {
+  if (!node) {
+    return;
+  }
+  if (node.item !== null) {
+    return;
+  }
+  if (node.repo_url && node.repo_url.indexOf('https://github.com') === 0) {
     repos[node.repo_url] = 1;
+  } else {
+    if (!node.repo_url) {
+      console.info(`item: ${node.name} has no repo url`)
+    } else {
+      console.info(`item: ${node.name} has a non github repo url`)
+    }
   }
 });
 const urls = _.keys(repos);
@@ -45,8 +57,6 @@ async function readGithubStats() {
       description = descriptionElement.textContent.replace(/\n/g, '').trim();
     }
     result.push({url, stars, license, description});
-    console.info(response.length, url, stars, license);
-
     await Promise.delay(1 * 1000);
   }, {concurrency: 5});_
 
@@ -57,5 +67,3 @@ async function main() {
   require('fs').writeFileSync('src/github.json', JSON.stringify(result, null, 2));
 }
 main();
-
-console.info(_.keys(repos));
