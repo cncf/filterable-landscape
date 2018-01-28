@@ -15,11 +15,11 @@ const formatStars = function(v) {
 const MainContent = ({groupedItems, onSelectItem}) => {
   const itemsAndHeaders = _.map(groupedItems, function(groupedItem) {
     return [
-      <div key={"subheader:" + groupedItem.header} style={{position: 'relative', height: 80, margin: 20}}>
+      <div key={"subheader:" + groupedItem.header} style={{position: 'relative', height: 80, margin: 10}}>
           <Subheader component="div" style={{fontSize: 24}}>{groupedItem.header} ({groupedItem.items.length})</Subheader>
       </div>
     ].concat(_.map(groupedItem.items, function(item) {
-      return <div style={{position: 'relative', display: 'inline-block', width: 200, height: 180, margin: 20}} key={item.id}>
+      return <div style={{position: 'relative', border: '1px solid #f0f0f0', overflow: 'hidden', display: 'inline-block', width: 200, height: 180, borderRadius: 5, padding: 10, margin: 20, background: item.oss ? '' : '#eeeeee'}} key={item.id}>
             <div className={item.logo} style={{
               'cursor': 'pointer',
               'width': '100%',
