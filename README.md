@@ -13,10 +13,20 @@ The canonical source for all data is [landscape.yml](landscape.yml). Once a day,
 
 The build server enhances the source data with the fetched data and saves the result in [processed_landscape.yml](processed_landscape.yml) and as a JSON file, which is what the app loads to display data.
 
+## Corrections
+
+Please open a pull request with edits to [landscape.yml](landscape.yml). [processed_landscape.yml](processed_landscape.yml) is generated and so should never be edited directly.
+
+If the error is with data from [Crunchbase](https://www.crunchbase.com/) you should open an account there and edit the data. If you don't like a project description, edit it in GitHub.
+
 ## Specification
 
 * [Kanban](https://github.com/cncf/filterable-landscape/projects/1) of current tasks
 * Original [specification](https://docs.google.com/document/d/1QPVrXRjTWDQAwsbgSWutUmteXo0mTXcTvCNlz6qw0Uw/edit)
+
+## Static Landscape
+
+[![CNCF Landscape](https://github.com/cncf/landscape/landscape/CloudNativeLandscape_latest.png)](https://raw.githubusercontent.com/cncf/landscape/master/landscape/CloudNativeLandscape_latest.png)
 
 ## Installation
 
