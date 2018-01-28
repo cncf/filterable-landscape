@@ -276,6 +276,11 @@ const fields = {
       label: 'Any',
       url: 'any'
     }].concat(lookups.landscape || [])
+  },
+  startDate: {
+    id: 'startDate',
+    label: 'Project Starting Date',
+    hideInGrouping: true
   }
 };
 _.each(fields, function(field, key) {

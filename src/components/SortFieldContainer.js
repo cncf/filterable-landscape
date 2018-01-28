@@ -20,6 +20,12 @@ const options = [{
 }, {
   id: {field: 'stars', direction: 'desc'},
   label: 'Stars (high to low)',
+}, {
+  id: {field: 'startDate', direction: 'asc'},
+  label: 'Project Started (low to high)',
+}, {
+  id: {field: 'startDate', direction: 'desc'},
+  label: 'Project Started (high to low)',
 }].map(function(x) {
   return {
     id: JSON.stringify(x.id),

@@ -13,6 +13,8 @@ const options = [{
     id: x,
     label: fields[x].groupingLabel
   };
+}).filter(function(x) {
+  return ! fields[x.id].hideInGrouping;
 }));
 
 const mapStateToProps = (state) => ({
