@@ -28,6 +28,7 @@ tree.map(function(node) {
 const itemsWithExtraFields = items.map(function(item) {
   delete item.cncf_project;
   delete item.market_cap;
+  delete item.item;
   if (_.isUndefined(item.commercial)) {
     console.info('please, fix yaml and set commercial for ', item.name);
   }
