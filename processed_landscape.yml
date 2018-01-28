@@ -2,18 +2,15 @@
 landscape:
   - category:
     name: Orchestration & Management
-    slug_name: orchestration_and_management
     subcategories:
       - subcategory:
         name: Scheduling & Orchestration
-        slug_name: scheduling_and_orchestration
         items:
           - item:
             name: Kubernetes
             description: >-
               Kubernetes is an open-source system for automating deployment,
               scaling, and management of containerized applications
-            slug_name: kubernetes
             company: Cloud Native Computing Foundation (CNCF)
             cncf_project: true
             oss: true
@@ -33,7 +30,6 @@ landscape:
             license: Apache-2.0
           - item:
             name: Amazon ECS
-            slug_name: amazon_ecs
             company: Amazon
             cncf_project: false
             oss: false
@@ -55,7 +51,6 @@ landscape:
               sellers, and content creators.
           - item:
             name: Nomad
-            slug_name: nomad
             company: HashiCorp
             cncf_project: false
             oss: true
@@ -79,7 +74,6 @@ landscape:
               and integrates seamlessly with Consul and Vault.
           - item:
             name: Mesos
-            slug_name: mesos
             company: Apache Mesos
             cncf_project: false
             oss: true
@@ -100,7 +94,6 @@ landscape:
               resources.
           - item:
             name: Microsoft Azure Service Fabric
-            slug_name: microsoft_azure_service_fabric
             company: Microsoft Azure Certified
             cncf_project: false
             oss: false
@@ -124,7 +117,6 @@ landscape:
               Service Fabric open source projects from Microsoft.
           - item:
             name: Docker Swarm
-            slug_name: docker_swarm
             company: Docker
             cncf_project: false
             oss: true
@@ -143,11 +135,9 @@ landscape:
             description: 'Swarm: a Docker-native clustering system'
       - subcategory:
         name: Coordination & Service Discovery
-        slug_name: coordination_service_discovery
         items:
           - item:
             name: etcd
-            slug_name: etcd
             company: CoreOS
             cncf_project: false
             oss: true
@@ -169,7 +159,6 @@ landscape:
               a distributed system
           - item:
             name: Consul
-            slug_name: consul
             company: HashiCorp
             cncf_project: false
             oss: true
@@ -192,7 +181,6 @@ landscape:
               distributed infrastructure.
           - item:
             name: Zookeeper
-            slug_name: zookeeper
             company: Apache Software Foundation
             cncf_project: false
             oss: true
@@ -212,7 +200,6 @@ landscape:
             description: Mirror of Apache Hadoop ZooKeeper
           - item:
             name: ContainerPilot
-            slug_name: containerpilot
             company: Joyent
             cncf_project: false
             oss: true
@@ -234,7 +221,6 @@ landscape:
               running in containers
           - item:
             name: SkyDNS
-            slug_name: skydns
             company: Skynet Services
             cncf_project: false
             oss: true
@@ -250,7 +236,6 @@ landscape:
             description: DNS service discovery for etcd
           - item:
             name: CoreDNS
-            slug_name: coredns
             company: Cloud Native Computing Foundation (CNCF)
             cncf_project: true
             oss: true
@@ -273,7 +258,6 @@ landscape:
               projects like Kubernetes and Prometheus.
           - item:
             name: Registrator
-            slug_name: registrator
             company: Glider Labs
             cncf_project: false
             oss: true
@@ -292,7 +276,6 @@ landscape:
             description: Service registry bridge for Docker with pluggable adapters
           - item:
             name: SmartStack
-            slug_name: smartstack
             company: Airbnb
             cncf_project: false
             oss: true
@@ -309,7 +292,6 @@ landscape:
             description: The chef recipes for running and testing Airbnb's SmartStack
           - item:
             name: Hyperbahn
-            slug_name: hyperbahn
             company: Uber
             cncf_project: false
             oss: true
@@ -328,7 +310,6 @@ landscape:
               operations
           - item:
             name: Eureka
-            slug_name: eureka
             company: Netflix
             cncf_project: false
             oss: true
@@ -347,7 +328,6 @@ landscape:
               failover.
           - item:
             name: Haret
-            slug_name: haret
             company: VMware
             cncf_project: false
             oss: false
@@ -369,11 +349,9 @@ landscape:
               proven protocols & implemented in Rust.
       - subcategory:
         name: Service Management
-        slug_name: service_management
         items:
           - item:
             name: 3Scale
-            slug_name: 3scale
             company: 3scale
             cncf_project: false
             oss: false
@@ -395,7 +373,6 @@ landscape:
               package, distribute, manage and monetize APIs.
           - item:
             name: NGINX
-            slug_name: nginx
             company: 'NGINX, Inc.'
             cncf_project: false
             oss: true
@@ -417,7 +394,6 @@ landscape:
               companies match the demand for faster web experiences.
           - item:
             name: HAProxy
-            slug_name: haproxy
             company: HAProxy Technologies
             cncf_project: false
             oss: true
@@ -438,7 +414,6 @@ landscape:
               ARE IGNORED!
           - item:
             name: Linkerd
-            slug_name: linkerd
             company: Cloud Native Computing Foundation (CNCF)
             cncf_project: true
             oss: true
@@ -461,7 +436,6 @@ landscape:
               projects like Kubernetes and Prometheus.
           - item:
             name: Envoy
-            slug_name: envoy
             company: Cloud Native Computing Foundation (CNCF)
             cncf_project: true
             oss: true
@@ -483,7 +457,6 @@ landscape:
             description: C++ front/service proxy
           - item:
             name: Datawire
-            slug_name: datawire
             company: Datawire
             cncf_project: false
             oss: true
@@ -505,7 +478,6 @@ landscape:
               developers to build resilient microservices.
           - item:
             name: Traefik
-            slug_name: traefik
             company: Containous
             cncf_project: false
             oss: true
@@ -525,7 +497,6 @@ landscape:
             description: 'Træfik, a modern reverse proxy'
           - item:
             name: Turbine Labs
-            slug_name: turbine_labs
             company: Turbine Labs
             cncf_project: false
             oss: true
@@ -545,7 +516,6 @@ landscape:
             description: Turbine Labs
           - item:
             name: Avi Networks
-            slug_name: avi_networks
             company: Avi Networks
             cncf_project: false
             oss: false
@@ -567,7 +537,6 @@ landscape:
               in building virtualization, networking and software solutions.
           - item:
             name: gRPC
-            slug_name: grpc
             company: Cloud Native Computing Foundation (CNCF)
             cncf_project: true
             oss: true
@@ -591,7 +560,6 @@ landscape:
               projects like Kubernetes and Prometheus.
           - item:
             name: Apache Thrift
-            slug_name: apache_thrift
             company: Apache Software Foundation
             cncf_project: false
             oss: false
@@ -611,7 +579,6 @@ landscape:
             description: Mirror of Apache Thrift
           - item:
             name: Apache Avro
-            slug_name: apache_avro
             company: Apache Software Foundation
             cncf_project: false
             oss: false
@@ -630,7 +597,6 @@ landscape:
             description: Mirror of Apache Avro
           - item:
             name: Vamp
-            slug_name: vamp
             company: magnetic.io
             cncf_project: false
             oss: false
@@ -650,7 +616,6 @@ landscape:
             description: Vamp - canary releasing and autoscaling for microservice systems
           - item:
             name: Weave Flux
-            slug_name: weave_flux
             company: Weaveworks
             cncf_project: false
             oss: true
@@ -669,7 +634,6 @@ landscape:
             description: A tool for deploying container images to Kubernetes services
           - item:
             name: Kong
-            slug_name: kong
             company: Mashape API Marketplace
             cncf_project: false
             oss: true
@@ -689,7 +653,6 @@ landscape:
             description: "\U0001F412 The Microservice API Gateway"
           - item:
             name: Hystrix
-            slug_name: hystrix
             company: Netflix
             cncf_project: false
             oss: true
@@ -714,7 +677,6 @@ landscape:
               distributed systems where failure is inevitable.
           - item:
             name: OSS
-            slug_name: oss
             company: Netflix
             cncf_project: false
             oss: true
@@ -736,7 +698,6 @@ landscape:
               and movies on smart TVs, PCs, Macs, mobiles, tablets, and so on. 
           - item:
             name: Ribbon
-            slug_name: ribbon
             company: Netflix
             cncf_project: false
             oss: true
@@ -760,7 +721,6 @@ landscape:
               support.
           - item:
             name: Zuul
-            slug_name: zuul
             company: Netflix
             cncf_project: false
             oss: false
@@ -782,7 +742,6 @@ landscape:
               monitoring, resiliency, security, and more.
           - item:
             name: Backplane
-            slug_name: backplane
             company: Backplane
             cncf_project: false
             oss: false
@@ -799,7 +758,6 @@ landscape:
             description: ''
           - item:
             name: F5
-            slug_name: f5
             company: F5 Networks
             cncf_project: false
             oss: false
@@ -819,15 +777,12 @@ landscape:
               that optimizes the delivery of network-based applications.
   - category:
     name: Cloud
-    slug_name: cloud
     subcategories:
       - subcategory:
         name: Public
-        slug_name: public
         items:
           - item:
             name: AWS
-            slug_name: aws
             company: Amazon Web Services
             cncf_project: false
             oss: false
@@ -849,7 +804,6 @@ landscape:
               services to businesses in the form of web services.
           - item:
             name: Google Cloud Platform
-            slug_name: google_cloud_platform
             company: Google Cloud Platform
             cncf_project: false
             oss: false
@@ -869,7 +823,6 @@ landscape:
             description: Google Cloud Platform is a tool suite for app developers.
           - item:
             name: Azure Cloud Services
-            slug_name: azure_cloud_services
             company: Microsoft
             cncf_project: false
             oss: false
@@ -892,7 +845,6 @@ landscape:
               services.
           - item:
             name: DigitalOcean
-            slug_name: digitalocean
             company: DigitalOcean
             cncf_project: false
             oss: false
@@ -914,7 +866,6 @@ landscape:
               the cloud.
           - item:
             name: Packet
-            slug_name: packet
             company: Packet Host
             cncf_project: false
             oss: false
@@ -936,7 +887,6 @@ landscape:
               data centers.
           - item:
             name: Oracle Cloud
-            slug_name: oracle_cloud
             company: Oracle Corporation
             cncf_project: false
             oss: false
@@ -959,7 +909,6 @@ landscape:
               products.
           - item:
             name: Alibaba Cloud
-            slug_name: alibaba_cloud
             company: Alibaba Cloud
             cncf_project: false
             oss: false
@@ -981,7 +930,6 @@ landscape:
               management services.
           - item:
             name: Fujitsu K5
-            slug_name: fujitsu_k5
             company: Fujitsu
             cncf_project: false
             oss: false
@@ -1003,7 +951,6 @@ landscape:
               solutions.
           - item:
             name: IBM Cloud
-            slug_name: ibm_cloud
             company: IBM
             cncf_project: false
             oss: false
@@ -1025,7 +972,6 @@ landscape:
               hardware, software, and infrastructure and hosting services.
           - item:
             name: Tencent Cloud
-            slug_name: tencent_cloud
             company: Tencent Cloud
             cncf_project: false
             oss: false
@@ -1043,7 +989,6 @@ landscape:
             description: ''
           - item:
             name: Joyent
-            slug_name: joyent
             company: Joyent
             cncf_project: false
             oss: true
@@ -1065,7 +1010,6 @@ landscape:
               applications.
           - item:
             name: Huawei
-            slug_name: huawei
             company: Huawei Technologies
             cncf_project: false
             oss: false
@@ -1086,11 +1030,9 @@ landscape:
               and devices with wireline, wireless, and IP technologies.
       - subcategory:
         name: Private
-        slug_name: private
         items:
           - item:
             name: OpenStack
-            slug_name: openstack
             company: OpenStack
             cncf_project: false
             oss: true
@@ -1112,7 +1054,6 @@ landscape:
               building public and private clouds.
           - item:
             name: VMware
-            slug_name: vmware
             company: VMware
             cncf_project: false
             oss: false
@@ -1133,7 +1074,6 @@ landscape:
               services.
           - item:
             name: MAAS
-            slug_name: maas
             company: Canonical
             cncf_project: false
             oss: true
@@ -1154,7 +1094,6 @@ landscape:
               support and related services for Ubuntu and related projects.
           - item:
             name: Foreman
-            slug_name: foreman
             company: Foreman
             cncf_project: false
             oss: true
@@ -1174,7 +1113,6 @@ landscape:
             description: The new and improved Foreman website.
           - item:
             name: Scaleway
-            slug_name: scaleway
             company: Scaleway
             cncf_project: false
             oss: false
@@ -1192,7 +1130,6 @@ landscape:
             description: Scaleway is the world's first Cloud Computing IaaS platform
           - item:
             name: Digital Rebar
-            slug_name: digial_rebar
             company: Digital Rebar
             cncf_project: false
             oss: true
@@ -1210,15 +1147,12 @@ landscape:
             description: ''
   - category:
     name: Provisioning
-    slug_name: provisioning
     subcategories:
       - subcategory:
         name: Infrastructure Automation
-        slug_name: infrastructure_automation
         items:
           - item:
             name: Terraform
-            slug_name: terraform_hashicorp
             company: HashiCorp
             cncf_project: false
             oss: true
@@ -1240,7 +1174,6 @@ landscape:
               infrastructure for any application.
           - item:
             name: Bosh
-            slug_name: bosh
             company: Cloud Foundry
             cncf_project: false
             oss: true
@@ -1263,7 +1196,6 @@ landscape:
               applications.
           - item:
             name: CloudFormation
-            slug_name: cloudformation
             company: Amazon Web Services
             cncf_project: false
             oss: false
@@ -1285,7 +1217,6 @@ landscape:
               services to businesses in the form of web services.
           - item:
             name: Cloud Coreo
-            slug_name: cloud_coreo
             company: CloudCoreo
             cncf_project: false
             oss: false
@@ -1305,7 +1236,6 @@ landscape:
               platform.
           - item:
             name: Cloudify
-            slug_name: cloudify
             company: Cloudify
             cncf_project: false
             oss: true
@@ -1328,7 +1258,6 @@ landscape:
               environments.
           - item:
             name: Helm
-            slug_name: helm
             company: Helm Solutions
             cncf_project: false
             oss: true
@@ -1349,7 +1278,6 @@ landscape:
               and compliance solutions to government and the Enterprise.
           - item:
             name: Infrakit
-            slug_name: infrakit
             company: Infrakit
             cncf_project: false
             oss: true
@@ -1371,7 +1299,6 @@ landscape:
               road and rail projects.
           - item:
             name: Juju
-            slug_name: juju
             company: Canonical
             cncf_project: false
             oss: true
@@ -1393,7 +1320,6 @@ landscape:
               support and related services for Ubuntu and related projects.
           - item:
             name: Kubicorn
-            slug_name: kubicorn
             company: Kubicorn
             cncf_project: false
             oss: true
@@ -1412,7 +1338,6 @@ landscape:
             description: Simple. Cloud Native. Kubernetes. Rainbow. Infrastructure.
           - item:
             name: ManageIQ
-            slug_name: manageiq
             company: ManageIQ
             cncf_project: false
             oss: true
@@ -1432,11 +1357,9 @@ landscape:
             description: "ManageIQ is a commercial open-source software\_firm enabling organizations to deploy, manage and optimize private, public and hybrid\_clouds."
       - subcategory:
         name: Container Registries
-        slug_name: container_registries
         items:
           - item:
             name: Quay
-            slug_name: quay
             company: quay.io
             cncf_project: false
             oss: false
@@ -1454,7 +1377,6 @@ landscape:
             description: Quay.io is a private hosted docker registry.
           - item:
             name: Artifactory
-            slug_name: artifactory
             company: JFrog
             cncf_project: false
             oss: false
@@ -1475,7 +1397,6 @@ landscape:
               management solution.
           - item:
             name: Harbor
-            slug_name: harbor
             company: VMware
             cncf_project: false
             oss: false
@@ -1496,7 +1417,6 @@ landscape:
               Distribution
           - item:
             name: Azure Registry
-            slug_name: azure_registry
             company: Microsoft
             cncf_project: false
             oss: false
@@ -1519,7 +1439,6 @@ landscape:
               services.
           - item:
             name: Atomic
-            slug_name: atomic
             company: Project Atomic
             cncf_project: false
             oss: true
@@ -1538,7 +1457,6 @@ landscape:
             description: Atomic Run Tool for installing/running/managing container images.
           - item:
             name: Docker Registry
-            slug_name: docker_registry
             company: Docker
             cncf_project: false
             oss: true
@@ -1560,7 +1478,6 @@ landscape:
               https://github.com/docker/distribution
           - item:
             name: Amazon ECR
-            slug_name: amazon_ecr
             company: Amazon
             cncf_project: false
             oss: false
@@ -1582,7 +1499,6 @@ landscape:
               sellers, and content creators.
           - item:
             name: Google Registry
-            slug_name: google_registry
             company: Google Cloud Platform
             cncf_project: false
             oss: false
@@ -1602,7 +1518,6 @@ landscape:
             description: Google Cloud Platform is a tool suite for app developers.
           - item:
             name: Portus
-            slug_name: portus
             company: SUSE
             cncf_project: false
             oss: true
@@ -1619,11 +1534,9 @@ landscape:
             description: ''
       - subcategory:
         name: Host Management/Tooling
-        slug_name: host_managment_tooling
         items:
           - item:
             name: Puppet
-            slug_name: puppet
             company: Puppet
             cncf_project: false
             oss: true
@@ -1645,7 +1558,6 @@ landscape:
               designed for system administrators.
           - item:
             name: LinuxKit
-            slug_name: inuxkit
             company: Linux
             cncf_project: false
             oss: true
@@ -1662,7 +1574,6 @@ landscape:
             description: ''
           - item:
             name: Ansible
-            slug_name: ansible
             company: Ansible
             cncf_project: false
             oss: true
@@ -1684,7 +1595,6 @@ landscape:
               applications simple to deploy.
           - item:
             name: Chef
-            slug_name: chef
             company: Chef
             cncf_project: false
             oss: true
@@ -1706,7 +1616,6 @@ landscape:
               code.
           - item:
             name: Salt Stack
-            slug_name: salt_stack
             company: SaltStack
             cncf_project: false
             oss: true
@@ -1729,7 +1638,6 @@ landscape:
               datacenter.
           - item:
             name: CFEngine
-            slug_name: cfengine
             company: CFEngine
             cncf_project: false
             oss: true
@@ -1752,7 +1660,6 @@ landscape:
               devices
           - item:
             name: Rundeck
-            slug_name: rundeck
             company: Rundeck
             cncf_project: false
             oss: true
@@ -1772,11 +1679,9 @@ landscape:
             description: Job Scheduler and Runbook Automation
       - subcategory:
         name: Secure Images
-        slug_name: secure_images
         items:
           - item:
             name: Anchore
-            slug_name: anchore
             company: 'Anchore, Inc.'
             cncf_project: false
             oss: true
@@ -1796,7 +1701,6 @@ landscape:
             description: 'Discover, analyze, and certify containers on your own terms.'
           - item:
             name: Aqua
-            slug_name: aqua
             company: Aqua Security
             cncf_project: false
             oss: false
@@ -1817,7 +1721,6 @@ landscape:
               container environments from development to production.
           - item:
             name: Black Duck
-            slug_name: black_duck
             company: Black Duck Software
             cncf_project: false
             oss: false
@@ -1840,7 +1743,6 @@ landscape:
               compliance pain.
           - item:
             name: NeuVector
-            slug_name: neuvector
             company: NeuVector
             cncf_project: false
             oss: false
@@ -1860,7 +1762,6 @@ landscape:
               firewall and security solution
           - item:
             name: Clair
-            slug_name: clair_coreos
             company: CoreOS
             cncf_project: false
             oss: true
@@ -1882,7 +1783,6 @@ landscape:
               run application containers anywhere.
           - item:
             name: Notary
-            slug_name: notary
             company: Cloud Native Computing Foundation (CNCF)
             cncf_project: true
             oss: true
@@ -1905,7 +1805,6 @@ landscape:
               arbitrary collections of data
           - item:
             name: OpenSCAP
-            slug_name: openscap
             company: redhat
             cncf_project: false
             oss: true
@@ -1924,7 +1823,6 @@ landscape:
             description: ''
           - item:
             name: Sonatype Nexus
-            slug_name: sonatype_nexus
             company: Sonatype
             cncf_project: false
             oss: false
@@ -1945,7 +1843,6 @@ landscape:
               accelerate software innovation, quality and security.
           - item:
             name: TUF
-            slug_name: tuf
             company: Cloud Native Computing Foundation (CNCF)
             cncf_project: true
             oss: true
@@ -1967,7 +1864,6 @@ landscape:
               projects like Kubernetes and Prometheus.
           - item:
             name: Twistlock
-            slug_name: twistlock
             company: Twistlock
             cncf_project: false
             oss: false
@@ -1986,11 +1882,9 @@ landscape:
             description: Twistlock is cloud native cybersecurity for the modern enterprise.
       - subcategory:
         name: Key Management
-        slug_name: key_management
         items:
           - item:
             name: Lyft Confidant
-            slug_name: lyft_confidant
             company: Lyft
             cncf_project: false
             oss: true
@@ -2009,7 +1903,6 @@ landscape:
             description: 'Confidant: your secret keeper.'
           - item:
             name: Keywhiz
-            slug_name: keywhiz
             company: Square
             cncf_project: false
             oss: true
@@ -2028,7 +1921,6 @@ landscape:
             description: A system for distributing and managing secrets
           - item:
             name: Knox
-            slug_name: knox
             company: Pinterest
             cncf_project: false
             oss: true
@@ -2046,7 +1938,6 @@ landscape:
             description: Knox is a secret management service
           - item:
             name: Hashicorp Vault
-            slug_name: hashicorp_vault
             company: HashiCorp
             cncf_project: false
             oss: true
@@ -2067,7 +1958,6 @@ landscape:
               privileged access management
           - item:
             name: Oracle Policy Automation
-            slug_name: oracle_policy_automation
             company: Oracle Corporation
             cncf_project: false
             oss: false
@@ -2091,7 +1981,6 @@ landscape:
               products.
           - item:
             name: SPIFFE
-            slug_name: spiffe
             company: Scytale.io
             cncf_project: false
             oss: true
@@ -2113,7 +2002,6 @@ landscape:
               technologies like SPIFFE.io.
           - item:
             name: Spire
-            slug_name: spire
             company: Scytale.io
             cncf_project: false
             oss: true
@@ -2133,15 +2021,12 @@ landscape:
             description: The SPIFFE Runtime Environment
   - category:
     name: Runtime
-    slug_name: runtime
     subcategories:
       - subcategory:
         name: Cloud-Native Storage
-        slug_name: cloud_native_storage
         items:
           - item:
             name: Ceph
-            slug_name: ceph
             company: Ceph Storage
             cncf_project: false
             oss: true
@@ -2163,7 +2048,6 @@ landscape:
               community of storage engineers and researchers.
           - item:
             name: Gluster
-            slug_name: gluster
             company: Gluster
             cncf_project: false
             oss: true
@@ -2186,7 +2070,6 @@ landscape:
               of scaling to several petabytes and handling many clients.
           - item:
             name: HDFS
-            slug_name: hdfs
             company: Hadoop
             cncf_project: false
             oss: true
@@ -2205,7 +2088,6 @@ landscape:
             description: Mirror of Apache Hadoop
           - item:
             name: Minio
-            slug_name: minio
             company: 'Minio, Inc.'
             cncf_project: false
             oss: true
@@ -2225,7 +2107,6 @@ landscape:
             description: Minio is an open source object storage server.
           - item:
             name: Portworx
-            slug_name: portworx
             company: Portworx
             cncf_project: false
             oss: false
@@ -2246,7 +2127,6 @@ landscape:
               production.
           - item:
             name: Project Hatchway
-            slug_name: project_hatchway
             company: VMware
             cncf_project: false
             oss: true
@@ -2269,7 +2149,6 @@ landscape:
               services.
           - item:
             name: Pure Storage
-            slug_name: pure_storage
             company: Pure Storage
             cncf_project: false
             oss: false
@@ -2289,7 +2168,6 @@ landscape:
             description: "Pure Storage\_is an\_all-flash enterprise storage company that enables broad deployment of flash in data centers."
           - item:
             name: libstorage
-            slug_name: libstorage
             company: Dell EMC
             cncf_project: false
             oss: true
@@ -2311,7 +2189,6 @@ landscape:
               persistence for cloud native workloads
           - item:
             name: Manta
-            slug_name: manta
             company: Joyent
             cncf_project: false
             oss: true
@@ -2334,7 +2211,6 @@ landscape:
               compute on data at rest.
           - item:
             name: Diamanti
-            slug_name: diamanti
             company: Diamanti
             cncf_project: false
             oss: false
@@ -2355,7 +2231,6 @@ landscape:
               environments.
           - item:
             name: Rook
-            slug_name: rook
             company: Rook
             cncf_project: false
             oss: true
@@ -2374,7 +2249,6 @@ landscape:
             description: ''
           - item:
             name: Robin Systems
-            slug_name: robin_systems
             company: Robin Systems
             cncf_project: false
             oss: false
@@ -2395,7 +2269,6 @@ landscape:
               Software
           - item:
             name: Springpath
-            slug_name: springpath
             company: Springpath Inc
             cncf_project: false
             oss: false
@@ -2418,7 +2291,6 @@ landscape:
               resources.
           - item:
             name: Datera
-            slug_name: datera
             company: Datera
             cncf_project: false
             oss: false
@@ -2437,7 +2309,6 @@ landscape:
             description: Datera is an application-driven data infrastructure company.
           - item:
             name: Infinit
-            slug_name: infinit
             company: Infinit
             cncf_project: false
             oss: true
@@ -2458,7 +2329,6 @@ landscape:
               specializing in storage technologies.
           - item:
             name: Kasten
-            slug_name: kasten
             company: Kasten
             cncf_project: false
             oss: false
@@ -2480,7 +2350,6 @@ landscape:
               Kubernetes
           - item:
             name: LeoFS
-            slug_name: leofs
             company: Leo Project
             cncf_project: false
             oss: true
@@ -2499,7 +2368,6 @@ landscape:
             description: The LeoFS Storage System
           - item:
             name: Sheepdog
-            slug_name: sheepdog
             company: Sheepdog
             cncf_project: false
             oss: true
@@ -2515,7 +2383,6 @@ landscape:
             description: ''
           - item:
             name: Rex-Ray
-            slug_name: rex_ray
             company: Dell EMC
             cncf_project: false
             oss: true
@@ -2536,7 +2403,6 @@ landscape:
               persistence for cloud native workloads
           - item:
             name: NetApp
-            slug_name: netapp
             company: NetApp
             cncf_project: false
             oss: false
@@ -2559,7 +2425,6 @@ landscape:
               efficiencies.
           - item:
             name: StorageOS
-            slug_name: storageos
             company: StorageOS
             cncf_project: false
             oss: false
@@ -2578,7 +2443,6 @@ landscape:
             description: Persistent storage for containers and the cloud
           - item:
             name: Dell EMC
-            slug_name: dell_emc
             company: Dell EMC
             cncf_project: false
             oss: false
@@ -2600,7 +2464,6 @@ landscape:
               the modern data center.
           - item:
             name: OpenSDS
-            slug_name: opensds
             company: OpenSDS
             cncf_project: false
             oss: true
@@ -2621,7 +2484,6 @@ landscape:
               integration challenges for Storage Defined Storage (SDS) vendors.
           - item:
             name: OpenEBS
-            slug_name: openebs
             company: Openebs
             cncf_project: false
             oss: true
@@ -2644,7 +2506,6 @@ landscape:
               applications.
           - item:
             name: Hedvig
-            slug_name: hedvig
             company: Hedvig
             cncf_project: false
             oss: false
@@ -2664,7 +2525,6 @@ landscape:
             description: Modern storage for the modern business.
           - item:
             name: Swift
-            slug_name: swift
             company: OpenStack
             cncf_project: false
             oss: true
@@ -2683,11 +2543,9 @@ landscape:
             description: OpenStack Storage (Swift)
       - subcategory:
         name: Container Runtime
-        slug_name: container_runtime
         items:
           - item:
             name: Rkt
-            slug_name: rkt
             company: Cloud Native Computing Foundation (CNCF)
             cncf_project: true
             oss: true
@@ -2710,7 +2568,6 @@ landscape:
               projects like Kubernetes and Prometheus.
           - item:
             name: RunC
-            slug_name: runc
             company: OCI
             cncf_project: false
             oss: true
@@ -2731,7 +2588,6 @@ landscape:
               specification
           - item:
             name: lxd
-            slug_name: lxd
             company: Canonical
             cncf_project: false
             oss: true
@@ -2750,7 +2606,6 @@ landscape:
             description: Daemon based on liblxc offering a REST API to manage containers
           - item:
             name: RunV
-            slug_name: runv
             company: Hyper
             cncf_project: false
             oss: true
@@ -2765,7 +2620,6 @@ landscape:
             description: Hypervisor-based Runtime for OCI
           - item:
             name: SmartOS
-            slug_name: smartos
             company: Joyent
             cncf_project: false
             oss: true
@@ -2788,7 +2642,6 @@ landscape:
               discussion list: http://smartos.org/smartos-mailing-list/
           - item:
             name: containerd
-            slug_name: containerd
             company: Cloud Native Computing Foundation (CNCF)
             cncf_project: true
             oss: true
@@ -2811,7 +2664,6 @@ landscape:
               projects like Kubernetes and Prometheus.
           - item:
             name: cri-o
-            slug_name: cri_o
             company: cri-o
             cncf_project: false
             oss: true
@@ -2830,7 +2682,6 @@ landscape:
             description: ''
           - item:
             name: Intel Clear Containers
-            slug_name: intel_clear-containers
             company: Intel
             cncf_project: false
             oss: true
@@ -2852,7 +2703,6 @@ landscape:
               technology platforms worldwide.
           - item:
             name: CSI
-            slug_name: csi
             company: CSI
             cncf_project: false
             oss: true
@@ -2869,11 +2719,9 @@ landscape:
             description: ''
       - subcategory:
         name: Cloud-Native Network
-        slug_name: cloud_native_network
         items:
           - item:
             name: Aporeto
-            slug_name: aporeto
             company: Aporeto
             cncf_project: false
             oss: false
@@ -2891,7 +2739,6 @@ landscape:
             description: Cloud Native Security for Containers and Microservices
           - item:
             name: Aviatrix
-            slug_name: aviatrix
             company: 'Aviatrix Systems, Inc.'
             cncf_project: false
             oss: false
@@ -2912,7 +2759,6 @@ landscape:
               hybrid clouds by easily
           - item:
             name: Big Switch Networks
-            slug_name: big_switch_networks
             company: Big Switch Networks
             cncf_project: false
             oss: false
@@ -2933,7 +2779,6 @@ landscape:
               Company, designing intelligent, agile and flexible networks
           - item:
             name: Project Calico
-            slug_name: project_calico
             company: Tigera
             cncf_project: false
             oss: true
@@ -2955,7 +2800,6 @@ landscape:
               native world.
           - item:
             name: Canal
-            slug_name: canal
             company: Tigera
             cncf_project: false
             oss: true
@@ -2975,7 +2819,6 @@ landscape:
             description: Policy based networking for cloud native applications
           - item:
             name: Contiv
-            slug_name: contiv
             company: Cisco
             cncf_project: false
             oss: true
@@ -2998,7 +2841,6 @@ landscape:
               and products.
           - item:
             name: Cilium
-            slug_name: cilium
             company: Covalent IO
             cncf_project: false
             oss: true
@@ -3019,7 +2861,6 @@ landscape:
               microservices platforms.
           - item:
             name: Cumulus
-            slug_name: cumulus
             company: Cumulus Networks
             cncf_project: false
             oss: true
@@ -3041,7 +2882,6 @@ landscape:
               operating systems for networking hardware.
           - item:
             name: Flannel
-            slug_name: flannel
             company: Tigera
             cncf_project: false
             oss: true
@@ -3063,7 +2903,6 @@ landscape:
               Kubernetes
           - item:
             name: Midokura
-            slug_name: midokura
             company: Midokura
             cncf_project: false
             oss: true
@@ -3083,7 +2922,6 @@ landscape:
             description: Midokura is a cloud networking technology platform.
           - item:
             name: NSX
-            slug_name: nsx
             company: VMware
             cncf_project: false
             oss: false
@@ -3102,7 +2940,6 @@ landscape:
             description: A set of Neutron drivers for the VMware NSX.
           - item:
             name: Nuage Networks
-            slug_name: nuage_networks
             company: Nuage Networks
             cncf_project: false
             oss: false
@@ -3124,7 +2961,6 @@ landscape:
               Datacenter and Beyond.
           - item:
             name: OpenContrail
-            slug_name: opencontrail
             company: OpenContrail
             cncf_project: false
             oss: true
@@ -3143,7 +2979,6 @@ landscape:
             description: Contrail Controller
           - item:
             name: Open vSwitch
-            slug_name: open_vswitch
             company: Open vSwitch
             cncf_project: false
             oss: true
@@ -3164,7 +2999,6 @@ landscape:
               open source Apache 2.0 license.
           - item:
             name: Plumgrid
-            slug_name: plumgrid
             company: PLUMgrid
             cncf_project: false
             oss: false
@@ -3185,7 +3019,6 @@ landscape:
               cloud infrastructure solutions that transform businesses.
           - item:
             name: Romana
-            slug_name: romana
             company: Romana
             cncf_project: false
             oss: true
@@ -3201,7 +3034,6 @@ landscape:
             description: ''
           - item:
             name: Sanproute
-            slug_name: snaperoute
             company: SnapRoute Inc.
             cncf_project: false
             oss: false
@@ -3220,7 +3052,6 @@ landscape:
             description: SnapRoute is an open networking stack company.
           - item:
             name: CNI
-            slug_name: cni
             company: Cloud Native Computing Foundation (CNCF)
             cncf_project: true
             oss: true
@@ -3242,7 +3073,6 @@ landscape:
               projects like Kubernetes and Prometheus.
           - item:
             name: Weavenet
-            slug_name: weavenet
             company: Weaveworks
             cncf_project: false
             oss: true
@@ -3264,15 +3094,12 @@ landscape:
               manage containers and microservices
   - category:
     name: App Definition and Developement
-    slug_name: app_definition_development
     subcategories:
       - subcategory:
         name: Database and Data Warehouse
-        slug_name: database_data_warehouse
         items:
           - item:
             name: TiDB
-            slug_name: tidb
             company: PingCAP
             cncf_project: false
             oss: true
@@ -3293,7 +3120,6 @@ landscape:
               protocol
           - item:
             name: MySQL
-            slug_name: mysql
             company: MySQL
             cncf_project: false
             oss: true
@@ -3315,7 +3141,6 @@ landscape:
               and embedded database applications.
           - item:
             name: Postgres
-            slug_name: postgres
             company: PostgreSql
             cncf_project: false
             oss: true
@@ -3337,7 +3162,6 @@ landscape:
               an emphasis on extensibility and standards-compliance.
           - item:
             name: Oracle
-            slug_name: oracle
             company: Oracle Corporation
             cncf_project: false
             oss: false
@@ -3360,7 +3184,6 @@ landscape:
               products.
           - item:
             name: SQL Server
-            slug_name: sql_server
             company: Microsoft
             cncf_project: false
             oss: false
@@ -3383,7 +3206,6 @@ landscape:
               services.
           - item:
             name: IBM DB2
-            slug_name: ibm_db2
             company: IBM
             cncf_project: false
             oss: false
@@ -3404,7 +3226,6 @@ landscape:
               hardware, software, and infrastructure and hosting services.
           - item:
             name: MongoDB
-            slug_name: mongodb
             company: MongoDB
             cncf_project: false
             oss: true
@@ -3423,7 +3244,6 @@ landscape:
             description: The MongoDB Database
           - item:
             name: Cassandra
-            slug_name: cassandra
             company: Apache Software Foundation
             cncf_project: false
             oss: true
@@ -3443,7 +3263,6 @@ landscape:
             description: Mirror of Apache Cassandra
           - item:
             name: Redis
-            slug_name: redis
             company: Redis Labs
             cncf_project: false
             oss: true
@@ -3464,7 +3283,6 @@ landscape:
               Redis, a database benchmarked as the world’s fastest.
           - item:
             name: MariaDB
-            slug_name: mariadb
             company: MariaDB
             cncf_project: false
             oss: false
@@ -3485,7 +3303,6 @@ landscape:
               growing Open Source database.
           - item:
             name: Crate.io
-            slug_name: crateio
             company: Crate.io Inc.
             cncf_project: false
             oss: true
@@ -3507,7 +3324,6 @@ landscape:
               store and analyze massive amounts of machine data in real-time.
           - item:
             name: NomsDB
-            slug_name: nomsdb
             company: Attic Labs
             cncf_project: false
             oss: true
@@ -3527,7 +3343,6 @@ landscape:
             description: 'The versioned, forkable, syncable database'
           - item:
             name: BigchainDB
-            slug_name: bigchaindb
             company: BigchainDB
             cncf_project: false
             oss: true
@@ -3547,7 +3362,6 @@ landscape:
             description: BigchainDB is a scalable blockchain database
           - item:
             name: Couchbase
-            slug_name: couchbase
             company: Couchbase
             cncf_project: false
             oss: true
@@ -3569,7 +3383,6 @@ landscape:
               open-source, NoSQL, document-oriented database.
           - item:
             name: CockroachDB
-            slug_name: cockroachdb
             company: Cockroach Labs
             cncf_project: false
             oss: true
@@ -3591,7 +3404,6 @@ landscape:
               solutions.
           - item:
             name: RethinkDB
-            slug_name: rethinkdb
             company: RethinkDB
             cncf_project: false
             oss: true
@@ -3613,7 +3425,6 @@ landscape:
               JSON documents and scaling data for applications.
           - item:
             name: Vitess
-            slug_name: vitess
             company: Google
             cncf_project: false
             oss: true
@@ -3634,7 +3445,6 @@ landscape:
               MySQL.
           - item:
             name: SQL Data Warehouse
-            slug_name: sql_data_warehouse
             company: Microsoft
             cncf_project: false
             oss: false
@@ -3657,7 +3467,6 @@ landscape:
               services.
           - item:
             name: Snowflake
-            slug_name: snowflake
             company: Snowflake Computing
             cncf_project: false
             oss: false
@@ -3676,7 +3485,6 @@ landscape:
             description: Snowflake is the only data warehouse built for the cloud.
           - item:
             name: Druid
-            slug_name: druid
             company: Druid
             cncf_project: false
             oss: true
@@ -3695,7 +3503,6 @@ landscape:
             description: ''
           - item:
             name: Qubole
-            slug_name: qubole
             company: Qubole
             cncf_project: false
             oss: false
@@ -3715,7 +3522,6 @@ landscape:
               built on Amazon, Microsoft, Google and Oracle Clouds.
           - item:
             name: CarbonData
-            slug_name: carbondata
             company: Apache Software Foundation
             cncf_project: false
             oss: true
@@ -3735,7 +3541,6 @@ landscape:
             description: Mirror of Apache CarbonData
           - item:
             name: Vertica
-            slug_name: vertica
             company: Vertica Systems
             cncf_project: false
             oss: false
@@ -3755,7 +3560,6 @@ landscape:
             description: "Vertica Systems develops data management solutions for storing databases\_and allowing clients to conduct real-time and ad hoc queries."
           - item:
             name: Hadoop
-            slug_name: hadoop
             company: Hadoop
             cncf_project: false
             oss: true
@@ -3774,7 +3578,6 @@ landscape:
             description: Mirror of Apache Hadoop
           - item:
             name: Iguazio
-            slug_name: iquazio
             company: iguazio
             cncf_project: false
             oss: false
@@ -3797,7 +3600,6 @@ landscape:
               cloud-native apps.
           - item:
             name: MemSQL
-            slug_name: memsql
             company: MemSQL
             cncf_project: false
             oss: false
@@ -3816,7 +3618,6 @@ landscape:
             description: A real-time data warehouse you can run everywhere
           - item:
             name: Pachyderm
-            slug_name: pachyderm
             company: Pachyderm
             cncf_project: false
             oss: true
@@ -3836,7 +3637,6 @@ landscape:
             description: Reproducible Data Science at Scale!
           - item:
             name: Scylla
-            slug_name: scylla
             company: ScyllaDB
             cncf_project: false
             oss: true
@@ -3857,11 +3657,9 @@ landscape:
               Cassandra at 10x the throughput and jaw dropping low latency.
       - subcategory:
         name: Streaming
-        slug_name: streaming
         items:
           - item:
             name: Kafka
-            slug_name: kafka
             company: Apache Software Foundation
             cncf_project: false
             oss: true
@@ -3881,7 +3679,6 @@ landscape:
             description: Mirror of Apache Kafka
           - item:
             name: Dataflow
-            slug_name: dataflow
             company: Google Cloud Platform
             cncf_project: false
             oss: false
@@ -3900,7 +3697,6 @@ landscape:
             description: Google Cloud Platform is a tool suite for app developers.
           - item:
             name: Spark Streaming
-            slug_name: spark_streaming
             company: Apache Software Foundation
             cncf_project: false
             oss: true
@@ -3919,7 +3715,6 @@ landscape:
             description: Mirror of Apache Spark
           - item:
             name: Heron
-            slug_name: heron
             company: Twitter
             cncf_project: false
             oss: true
@@ -3941,7 +3736,6 @@ landscape:
               engine from Twitter
           - item:
             name: Flink
-            slug_name: flink
             company: Apache Software Foundation
             cncf_project: false
             oss: true
@@ -3961,7 +3755,6 @@ landscape:
             description: Mirror of Apache Flink
           - item:
             name: Apex
-            slug_name: apex
             company: Apache Software Foundation
             cncf_project: false
             oss: true
@@ -3981,7 +3774,6 @@ landscape:
             description: Mirror of Apache Apex core
           - item:
             name: Apache Storm
-            slug_name: apache_storm
             company: Apache Software Foundation
             cncf_project: false
             oss: true
@@ -4000,7 +3792,6 @@ landscape:
             description: Mirror of Apache Storm
           - item:
             name: RabbitMQ
-            slug_name: rabiitmq
             company: Rabbit Technologies
             cncf_project: false
             oss: true
@@ -4022,7 +3813,6 @@ landscape:
               (AMQP).
           - item:
             name: NATS
-            slug_name: nats
             company: Apache Software Foundation
             cncf_project: false
             oss: true
@@ -4044,7 +3834,6 @@ landscape:
               and financial support for Apache open-source software projects.
           - item:
             name: ApacheNiFi
-            slug_name: apachenifi
             company: Apache Software Foundation
             cncf_project: false
             oss: true
@@ -4063,7 +3852,6 @@ landscape:
             description: Mirror of Apache NiFi
           - item:
             name: Pulsar
-            slug_name: pulsar
             company: Apache Software Foundation
             cncf_project: false
             oss: true
@@ -4082,7 +3870,6 @@ landscape:
             description: Pulsar - distributed pub-sub messaging system
           - item:
             name: StreamSets
-            slug_name: streamsets
             company: StreamSets
             cncf_project: false
             oss: true
@@ -4104,7 +3891,6 @@ landscape:
               flows.
           - item:
             name: Kinesis
-            slug_name: kinesis
             company: Amazon Web Services
             cncf_project: false
             oss: false
@@ -4126,11 +3912,9 @@ landscape:
               services to businesses in the form of web services.
       - subcategory:
         name: SCM
-        slug_name: scm
         items:
           - item:
             name: BibBucket
-            slug_name: bitbucket
             company: Bitbucket
             cncf_project: false
             oss: false
@@ -4152,7 +3936,6 @@ landscape:
               software.
           - item:
             name: GitLab
-            slug_name: gitlab
             company: GitLab Inc
             cncf_project: false
             oss: true
@@ -4173,7 +3956,6 @@ landscape:
               GitLab.com
           - item:
             name: GitHub
-            slug_name: github
             company: GitHub
             cncf_project: false
             oss: false
@@ -4195,7 +3977,6 @@ landscape:
               functionality of Git.
           - item:
             name: Microsoft Visual Studio Team Services
-            slug_name: microsoft_visual_studio_team_services
             company: Microsoft
             cncf_project: false
             oss: false
@@ -4219,11 +4000,9 @@ landscape:
               services.
       - subcategory:
         name: Application Definition & Image Build
-        slug_name: app_definition_image_build
         items:
           - item:
             name: KubeVirt
-            slug_name: kubevirt
             company: KubeVirt
             cncf_project: false
             oss: true
@@ -4242,7 +4021,6 @@ landscape:
             description: ''
           - item:
             name: Packer
-            slug_name: packer
             company: HashiCorp
             cncf_project: false
             oss: true
@@ -4264,7 +4042,6 @@ landscape:
               multiple platforms from a single source configuration.
           - item:
             name: Compose
-            slug_name: compose
             company: Docker
             cncf_project: false
             oss: true
@@ -4284,7 +4061,6 @@ landscape:
             description: Define and run multi-container applications with Docker
           - item:
             name: Habitat
-            slug_name: habitat
             company: Chef
             cncf_project: false
             oss: true
@@ -4305,7 +4081,6 @@ landscape:
               code.
           - item:
             name: Brooklyn
-            slug_name: brooklyn
             company: Apache Software Foundation
             cncf_project: false
             oss: true
@@ -4325,7 +4100,6 @@ landscape:
             description: Mirror of Apache Brooklyn
           - item:
             name: Bitnami
-            slug_name: bitnami
             company: Bitnami
             cncf_project: false
             oss: false
@@ -4345,7 +4119,6 @@ landscape:
               containers, and VMs that work on any platform
           - item:
             name: OpenAPI
-            slug_name: openapi
             company: The Open API Initiative
             cncf_project: false
             oss: true
@@ -4368,11 +4141,9 @@ landscape:
               described.
       - subcategory:
         name: CI/CD
-        slug_name: ci_cd
         items:
           - item:
             name: Jenkins
-            slug_name: jenkins
             company: Jenkins CI
             cncf_project: false
             oss: true
@@ -4394,7 +4165,6 @@ landscape:
               supports various configurations.
           - item:
             name: Travis
-            slug_name: travis
             company: Travis CI
             cncf_project: false
             oss: true
@@ -4413,7 +4183,6 @@ landscape:
             description: Hosted Continuous Integration Platform
           - item:
             name: Octopus Deploy
-            slug_name: octopus_deploy
             company: Octopus Deploy
             cncf_project: false
             oss: false
@@ -4433,7 +4202,6 @@ landscape:
             description: Octopus Deploy is a user-friendly release management
           - item:
             name: CircleCI
-            slug_name: circleci
             company: CircleCI
             cncf_project: false
             oss: false
@@ -4454,7 +4222,6 @@ landscape:
               and deploy across numerous platforms.
           - item:
             name: Drone
-            slug_name: drone
             company: Drone.io
             cncf_project: false
             oss: true
@@ -4475,7 +4242,6 @@ landscape:
               service.
           - item:
             name: Codeship
-            slug_name: codeship
             company: Codeship
             cncf_project: false
             oss: false
@@ -4496,7 +4262,6 @@ landscape:
               your hosted tests and automated deployments.
           - item:
             name: Bamboo
-            slug_name: bamboo_atlassian
             company: Atlassian
             cncf_project: false
             oss: false
@@ -4517,7 +4282,6 @@ landscape:
               including JIRA, Confluence, HipChat, Bitbucket, and Stash.
           - item:
             name: Cloudbees
-            slug_name: cloudbees
             company: CloudBees
             cncf_project: false
             oss: false
@@ -4538,7 +4302,6 @@ landscape:
               enterprise-grade continuous delivery platform powered by Jenkins.
           - item:
             name: Spinnaker
-            slug_name: spinnaker
             company: Spinnaker
             cncf_project: false
             oss: true
@@ -4556,7 +4319,6 @@ landscape:
             description: ''
           - item:
             name: Shippable
-            slug_name: shippable
             company: Shippable
             cncf_project: false
             oss: false
@@ -4577,7 +4339,6 @@ landscape:
               powerful continuous integration platform built natively on Docker.
           - item:
             name: Wercker
-            slug_name: wercker
             company: Wercker
             cncf_project: false
             oss: true
@@ -4601,7 +4362,6 @@ landscape:
               cloud.
           - item:
             name: Codefresh
-            slug_name: codefresh
             company: Codefresh
             cncf_project: false
             oss: false
@@ -4622,7 +4382,6 @@ landscape:
               containers and microservices.
           - item:
             name: BuddyBuild
-            slug_name: buddybuild
             company: Buddybuild
             cncf_project: false
             oss: false
@@ -4642,7 +4401,6 @@ landscape:
               continuous integration and debugging tools.
           - item:
             name: Distelli
-            slug_name: distelli
             company: Distelli
             cncf_project: false
             oss: false
@@ -4661,7 +4419,6 @@ landscape:
             description: True Continuous Delivery from Source Control to Servers.
           - item:
             name: Solano Labs
-            slug_name: solano_labs
             company: Solano Labs
             cncf_project: false
             oss: false
@@ -4680,7 +4437,6 @@ landscape:
             description: Continuous Integration & Deployment
           - item:
             name: Semaphore
-            slug_name: semaphore
             company: SemaphoreCI
             cncf_project: false
             oss: false
@@ -4698,7 +4454,6 @@ landscape:
             description: Hosted continuous integration and deployment service
           - item:
             name: ContainerOps
-            slug_name: containerops
             company: Huawei Technologies
             cncf_project: false
             oss: false
@@ -4718,7 +4473,6 @@ landscape:
               and devices with wireline, wireless, and IP technologies.
           - item:
             name: Appveyor
-            slug_name: appveyor
             company: Appveyor Systems Inc.
             cncf_project: false
             oss: false
@@ -4739,7 +4493,6 @@ landscape:
               integration and deployment tools to every .NET developer.
           - item:
             name: Gitlab Runner
-            slug_name: gitlab_runner
             company: GitLab Inc
             cncf_project: false
             oss: true
@@ -4760,7 +4513,6 @@ landscape:
               and issue tracking features.
           - item:
             name: Buildkite
-            slug_name: buildkite
             company: Buildkite
             cncf_project: false
             oss: true
@@ -4782,7 +4534,6 @@ landscape:
               building and shipping software.
           - item:
             name: Concourse
-            slug_name: concourse
             company: Concourse
             cncf_project: false
             oss: true
@@ -4800,7 +4551,6 @@ landscape:
             description: ''
           - item:
             name: XL Deploy
-            slug_name: xl_deploy
             company: XebiaLabs
             cncf_project: false
             oss: false
@@ -4820,15 +4570,12 @@ landscape:
             description: XL Deploy plugin that can call another XLD instance
   - category:
     name: Platform
-    slug_name: platform
     subcategories:
       - subcategory:
         name: PaaS/Container Service
-        slug_name: paas_container_service
         items:
           - item:
             name: Tectonic
-            slug_name: tectonic
             company: CoreOS
             cncf_project: false
             oss: false
@@ -4849,7 +4596,6 @@ landscape:
               run application containers anywhere.
           - item:
             name: Cloud Foundry
-            slug_name: cloud_foundry
             company: Cloud Foundry
             cncf_project: false
             oss: true
@@ -4872,7 +4618,6 @@ landscape:
               applications.
           - item:
             name: OpenShift
-            slug_name: openshift
             company: OpenShift
             cncf_project: false
             oss: true
@@ -4892,7 +4637,6 @@ landscape:
             description: OpenShift is an open hybrid cloud application platform by Red Hat.
           - item:
             name: DC/OS
-            slug_name: dc_os
             company: Mesosphere
             cncf_project: false
             oss: true
@@ -4914,7 +4658,6 @@ landscape:
               datacenter like one big computer.
           - item:
             name: Apcera
-            slug_name: apcera
             company: Apcera
             cncf_project: false
             oss: false
@@ -4935,7 +4678,6 @@ landscape:
               full confidence and trust.
           - item:
             name: Apprenda
-            slug_name: apprenda
             company: Apprenda
             cncf_project: false
             oss: false
@@ -4954,7 +4696,6 @@ landscape:
             description: Apprenda is the leading enterprise Platform as a Service.
           - item:
             name: Rancher
-            slug_name: rancher
             company: Rancher Labs
             cncf_project: false
             oss: true
@@ -4974,7 +4715,6 @@ landscape:
             description: Complete container management platform
           - item:
             name: Kublr
-            slug_name: kublr
             company: Kublr
             cncf_project: false
             oss: false
@@ -4995,7 +4735,6 @@ landscape:
               simplifies the set-up and management of your K8S cluster.
           - item:
             name: Photon
-            slug_name: photon
             company: VMware
             cncf_project: false
             oss: true
@@ -5016,7 +4755,6 @@ landscape:
               services.
           - item:
             name: Platform.sh
-            slug_name: platform.sh
             company: Platform.sh
             cncf_project: false
             oss: false
@@ -5038,7 +4776,6 @@ landscape:
               high-availability cloud hosting solution
           - item:
             name: Platform9
-            slug_name: platform9
             company: Platform9 Systems
             cncf_project: false
             oss: false
@@ -5059,7 +4796,6 @@ landscape:
               infrastructure easy.
           - item:
             name: Flynn
-            slug_name: flynn
             company: Flynn
             cncf_project: false
             oss: true
@@ -5078,7 +4814,6 @@ landscape:
             description: The product that ops provides to developers.
           - item:
             name: Datawire
-            slug_name: datawire
             company: Datawire
             cncf_project: false
             oss: false
@@ -5099,7 +4834,6 @@ landscape:
               developers to build resilient microservices.
           - item:
             name: Atomist
-            slug_name: atomist
             company: Atomist
             cncf_project: false
             oss: false
@@ -5120,7 +4854,6 @@ landscape:
               through a cloud-based service.
           - item:
             name: Iron.io
-            slug_name: iron_io
             company: Iron.io
             cncf_project: false
             oss: true
@@ -5142,7 +4875,6 @@ landscape:
               platform for building distributed cloud applications.
           - item:
             name: PaaSTA
-            slug_name: paasta
             company: Yelp
             cncf_project: false
             oss: true
@@ -5163,7 +4895,6 @@ landscape:
             description: 'An open, distributed platform as a service'
           - item:
             name: Empire
-            slug_name: empire
             company: Remind
             cncf_project: false
             oss: true
@@ -5182,7 +4913,6 @@ landscape:
             description: A PaaS built on top of Amazon EC2 Container Service (ECS)
           - item:
             name: Nirmata
-            slug_name: nirmata
             company: Nirmata
             cncf_project: false
             oss: false
@@ -5204,7 +4934,6 @@ landscape:
               platform.
           - item:
             name: Giant Swarm
-            slug_name: giant_swarm
             company: Giant Swarm
             cncf_project: false
             oss: false
@@ -5223,7 +4952,6 @@ landscape:
             description: Managed Kubernetes Anywhere
           - item:
             name: Cloud66
-            slug_name: cloud66
             company: Cloud 66
             cncf_project: false
             oss: false
@@ -5244,7 +4972,6 @@ landscape:
               cloud
           - item:
             name: Kontena
-            slug_name: kontena
             company: Kontena
             cncf_project: false
             oss: true
@@ -5266,7 +4993,6 @@ landscape:
               Works on any cloud, easy to setup, simple to use.
           - item:
             name: Kubermatic
-            slug_name: kubermatic
             company: Kubermatic
             cncf_project: false
             oss: false
@@ -5284,7 +5010,6 @@ landscape:
             description: ''
           - item:
             name: Gravitational
-            slug_name: gravitational
             company: Gravitational
             cncf_project: false
             oss: false
@@ -5303,7 +5028,6 @@ landscape:
             description: Gravitational deploys and runs your SaaS on private clouds.
           - item:
             name: Navops
-            slug_name: navops
             company: Navops
             cncf_project: false
             oss: false
@@ -5324,7 +5048,6 @@ landscape:
               enterprise within minutes.
           - item:
             name: Heroku
-            slug_name: heroku
             company: Heroku
             cncf_project: false
             oss: false
@@ -5346,7 +5069,6 @@ landscape:
               developers to deploy, scale, and manage their applications.
           - item:
             name: Mantl
-            slug_name: mantl
             company: Mantl
             cncf_project: false
             oss: true
@@ -5366,7 +5088,6 @@ landscape:
               distributed services
           - item:
             name: Mirantis
-            slug_name: mirantis
             company: Mirantis
             cncf_project: false
             oss: true
@@ -5386,7 +5107,6 @@ landscape:
             description: Mirantis is the pure-play OpenStack company.
           - item:
             name: goPaddle
-            slug_name: gopaddle
             company: Bluemeric
             cncf_project: false
             oss: true
@@ -5407,7 +5127,6 @@ landscape:
               consulting & services to automate cloud deployments.
           - item:
             name: Hyper
-            slug_name: hyper
             company: Hyper_
             cncf_project: false
             oss: true
@@ -5427,7 +5146,6 @@ landscape:
             description: Hyper_ is a secure container cloud service.
           - item:
             name: Exoscale
-            slug_name: exoscale
             company: Exoscale
             cncf_project: false
             oss: true
@@ -5448,7 +5166,6 @@ landscape:
               systems administrators
           - item:
             name: JHipster
-            slug_name: jhipster
             company: JHipster
             cncf_project: false
             oss: true
@@ -5467,7 +5184,6 @@ landscape:
             description: ''
           - item:
             name: Moby
-            slug_name: moby
             company: Docker
             cncf_project: false
             oss: true
@@ -5489,7 +5205,6 @@ landscape:
               to assemble container-based systems
           - item:
             name: Galactic Fog
-            slug_name: galactic_fog
             company: Galactic Fog
             cncf_project: false
             oss: false
@@ -5510,7 +5225,6 @@ landscape:
               applications anywhere. Adapt to changes instantly.
           - item:
             name: ContainerLinux
-            slug_name: containerlinux
             company: CoreOS
             cncf_project: false
             oss: true
@@ -5530,7 +5244,6 @@ landscape:
             description: Documentation for CoreOS projects
           - item:
             name: Ubuntu
-            slug_name: ubuntu
             company: Ubuntu
             cncf_project: false
             oss: false
@@ -5550,7 +5263,6 @@ landscape:
               PC, tablet, phone, and cloud platforms.
           - item:
             name: Lightbend
-            slug_name: lightbend
             company: Lightbend
             cncf_project: false
             oss: false
@@ -5572,7 +5284,6 @@ landscape:
               build Reactive applications on the JVM.
           - item:
             name: Deis
-            slug_name: deis
             company: Microsoft
             cncf_project: false
             oss: false
@@ -5593,7 +5304,6 @@ landscape:
             description: The open source PaaS for Kubernetes.
           - item:
             name: Docker Cloud
-            slug_name: docker_cloud
             company: Docker
             cncf_project: false
             oss: false
@@ -5614,7 +5324,6 @@ landscape:
               applications.
           - item:
             name: Tsuru
-            slug_name: tsuru
             company: Tsuru
             cncf_project: false
             oss: true
@@ -5635,7 +5344,6 @@ landscape:
               (PaaS).
           - item:
             name: ContainerShip
-            slug_name: containership
             company: Containership
             cncf_project: false
             oss: false
@@ -5657,7 +5365,6 @@ landscape:
               providers
           - item:
             name: Convox
-            slug_name: convox
             company: Convox
             cncf_project: false
             oss: true
@@ -5676,7 +5383,6 @@ landscape:
             description: Launch a Private Cloud in Minutes.
           - item:
             name: GKE
-            slug_name: gke
             company: Google Cloud Platform
             cncf_project: false
             oss: false
@@ -5695,7 +5401,6 @@ landscape:
             description: Google Cloud Platform is a tool suite for app developers.
           - item:
             name: Portainer
-            slug_name: portainer
             company: Portainer
             cncf_project: false
             oss: true
@@ -5712,7 +5417,6 @@ landscape:
             description: ''
           - item:
             name: Pusher
-            slug_name: pusher
             company: Pusher
             cncf_project: false
             oss: true
@@ -5735,7 +5439,6 @@ landscape:
               dashboards.
           - item:
             name: Remind
-            slug_name: remind
             company: Remind
             cncf_project: false
             oss: true
@@ -5757,7 +5460,6 @@ landscape:
               succeed.
           - item:
             name: Scalingo
-            slug_name: scalingo
             company: Scalingo
             cncf_project: false
             oss: false
@@ -5779,7 +5481,6 @@ landscape:
               scalable. 
           - item:
             name: StackPointCloud
-            slug_name: stackpointcloud
             company: StackPointCloud
             cncf_project: false
             oss: false
@@ -5797,7 +5498,6 @@ landscape:
             description: ''
           - item:
             name: Supergiant
-            slug_name: supergiant
             company: Supergiant
             cncf_project: false
             oss: false
@@ -5818,7 +5518,6 @@ landscape:
               using Kubernetes.
           - item:
             name: SUSE Caas Platform
-            slug_name: suse_caas_platform
             company: Suse
             cncf_project: false
             oss: false
@@ -5838,11 +5537,9 @@ landscape:
             description: SUSE Container as a Service Platform Documentation
       - subcategory:
         name: Serverless/Event-based
-        slug_name: serverless_event_based
         items:
           - item:
             name: Lambda
-            slug_name: lambda
             company: Amazon Web Services
             cncf_project: false
             oss: false
@@ -5864,7 +5561,6 @@ landscape:
               services to businesses in the form of web services.
           - item:
             name: OpenFAAS
-            slug_name: openfaas
             company: OpenFaaS Ltd
             cncf_project: false
             oss: true
@@ -5886,7 +5582,6 @@ landscape:
               Kubernetes
           - item:
             name: Google Cloud Functions
-            slug_name: google_cloud_functions
             company: Google Cloud Platform
             cncf_project: false
             oss: false
@@ -5905,7 +5600,6 @@ landscape:
             description: Google Cloud Platform is a tool suite for app developers.
           - item:
             name: OpenWhisk
-            slug_name: openwhisk
             company: Apache Software Foundation
             cncf_project: false
             oss: true
@@ -5927,7 +5621,6 @@ landscape:
               and an Apache Incubator project.
           - item:
             name: Oracle Application Container Cloud
-            slug_name: oracle_application_container_cloud
             company: Oracle Corporation
             cncf_project: false
             oss: false
@@ -5950,7 +5643,6 @@ landscape:
               products.
           - item:
             name: Firebase BLOCKS
-            slug_name: firebaseblocks
             company: Firebase
             cncf_project: false
             oss: false
@@ -5972,7 +5664,6 @@ landscape:
               Android, or Web app with Firebase.
           - item:
             name: Webtask
-            slug_name: webtask
             company: Webtask
             cncf_project: false
             oss: false
@@ -5994,7 +5685,6 @@ landscape:
               backend.
           - item:
             name: Fission
-            slug_name: fission
             company: Platform9 Systems
             cncf_project: false
             oss: true
@@ -6013,7 +5703,6 @@ landscape:
             description: Fast Serverless Functions for Kubernetes
           - item:
             name: PubNub
-            slug_name: pubnub
             company: PubNub
             cncf_project: false
             oss: false
@@ -6033,7 +5722,6 @@ landscape:
               to build and scale realtime apps.
           - item:
             name: Apex
-            slug_name: apex
             company: apex
             cncf_project: false
             oss: false
@@ -6051,7 +5739,6 @@ landscape:
             description: ''
           - item:
             name: Serverless
-            slug_name: serverless
             company: Serverless
             cncf_project: false
             oss: true
@@ -6073,7 +5760,6 @@ landscape:
               AWS Lambda and AWS API Gateway.
           - item:
             name: Kubeless
-            slug_name: kubeless
             company: Kubeless
             cncf_project: false
             oss: true
@@ -6091,7 +5777,6 @@ landscape:
             description: Kubernetes Native Serverless Framework
           - item:
             name: NStack
-            slug_name: nstack
             company: NStack
             cncf_project: false
             oss: true
@@ -6110,7 +5795,6 @@ landscape:
             description: ''
           - item:
             name: Nuclio
-            slug_name: nuclio
             company: iguazio
             cncf_project: false
             oss: true
@@ -6133,7 +5817,6 @@ landscape:
               cloud-native apps.
           - item:
             name: Azure Functions
-            slug_name: azure_functions
             company: Microsoft
             cncf_project: false
             oss: true
@@ -6156,15 +5839,12 @@ landscape:
               services.
   - category:
     name: Observability and Analysis
-    slug_name: observability_analysis
     subcategories:
       - subcategory:
         name: Monitoring
-        slug_name: monitoring
         items:
           - item:
             name: StatsDB
-            slug_name: statsdb
             company: Earlham Institute
             cncf_project: false
             oss: true
@@ -6183,7 +5863,6 @@ landscape:
             description: StatsDB
           - item:
             name: New Relic
-            slug_name: new_relic
             company: New Relic
             cncf_project: false
             oss: false
@@ -6206,7 +5885,6 @@ landscape:
               world.
           - item:
             name: AppDynamics
-            slug_name: appdynamics
             company: AppDynamics
             cncf_project: false
             oss: false
@@ -6228,7 +5906,6 @@ landscape:
               applications.
           - item:
             name: Axibase
-            slug_name: axibase
             company: Axibase
             cncf_project: false
             oss: false
@@ -6247,7 +5924,6 @@ landscape:
             description: ''
           - item:
             name: Datadog
-            slug_name: datadog
             company: Datadog
             cncf_project: false
             oss: false
@@ -6266,7 +5942,6 @@ landscape:
             description: Datadog offers a cloud-scale monitoring service.
           - item:
             name: CloudWATCH
-            slug_name: cloudwatch
             company: Amazon Web Services
             cncf_project: false
             oss: false
@@ -6288,7 +5963,6 @@ landscape:
               services to businesses in the form of web services.
           - item:
             name: Stackdriver
-            slug_name: stackdriver
             company: Stackdriver
             cncf_project: false
             oss: false
@@ -6309,7 +5983,6 @@ landscape:
               applications.
           - item:
             name: Prometheus
-            slug_name: prometheus
             company: Cloud Native Computing Foundation (CNCF)
             cncf_project: true
             oss: true
@@ -6332,7 +6005,6 @@ landscape:
               projects like Kubernetes and Prometheus.
           - item:
             name: SysDig
-            slug_name: sysdig
             company: Sysdig
             cncf_project: false
             oss: true
@@ -6353,7 +6025,6 @@ landscape:
               support for containers
           - item:
             name: Wavefront
-            slug_name: wavefront
             company: Wavefront
             cncf_project: false
             oss: false
@@ -6374,7 +6045,6 @@ landscape:
               and alerting on time series data.
           - item:
             name: Instana
-            slug_name: instana
             company: Instana
             cncf_project: false
             oss: false
@@ -6394,7 +6064,6 @@ landscape:
               modern apps.
           - item:
             name: Honeybadger
-            slug_name: honeybadger
             company: Honeybadger
             cncf_project: false
             oss: false
@@ -6414,7 +6083,6 @@ landscape:
             description: 'Exception, uptime, and performance monit'
           - item:
             name: Icinga
-            slug_name: icinga
             company: Icinga
             cncf_project: false
             oss: true
@@ -6435,7 +6103,6 @@ landscape:
               Nagios.
           - item:
             name: IronDB
-            slug_name: irondb
             company: 'Circonus, Inc.'
             cncf_project: false
             oss: true
@@ -6455,7 +6122,6 @@ landscape:
             description: Realtime Monitoring and Analytics
           - item:
             name: Rocana
-            slug_name: rocana
             company: Rocana
             cncf_project: false
             oss: false
@@ -6476,7 +6142,6 @@ landscape:
               analysis software company
           - item:
             name: OpsClarity
-            slug_name: opsclarity
             company: OpsClarity Inc.
             cncf_project: false
             oss: false
@@ -6497,7 +6162,6 @@ landscape:
               Infrastructure
           - item:
             name: Nagios
-            slug_name: nagios
             company: Nagios
             cncf_project: false
             oss: true
@@ -6519,7 +6183,6 @@ landscape:
               servers, switches, applications, and services.
           - item:
             name: Zabbix
-            slug_name: zabbix
             company: Zabbix
             cncf_project: false
             oss: true
@@ -6539,7 +6202,6 @@ landscape:
             description: 'ZABBIX SIA is based in Riga, Latvia.'
           - item:
             name: Graphite
-            slug_name: graphite
             company: Graphite
             cncf_project: false
             oss: true
@@ -6556,7 +6218,6 @@ landscape:
             description: ''
           - item:
             name: InfluxDB
-            slug_name: influxdb
             company: InfluxData
             cncf_project: false
             oss: true
@@ -6576,7 +6237,6 @@ landscape:
             description: 'Scalable datastore for metrics, events, and real-time analytics'
           - item:
             name: OpenTSDB
-            slug_name: opentsdb
             company: OpenTSDB
             cncf_project: false
             oss: true
@@ -6594,7 +6254,6 @@ landscape:
             description: 'A scalable, distributed Time Series Database.'
           - item:
             name: Netsil
-            slug_name: netsil
             company: Netsil
             cncf_project: false
             oss: false
@@ -6613,7 +6272,6 @@ landscape:
             description: Observability and Monitoring for Modern Cloud Applications
           - item:
             name: Meros
-            slug_name: meros
             company: 'Meros, Inc.'
             cncf_project: false
             oss: false
@@ -6634,7 +6292,6 @@ landscape:
               Docker
           - item:
             name: OpBeat
-            slug_name: opbeat
             company: Opbeat
             cncf_project: false
             oss: false
@@ -6653,7 +6310,6 @@ landscape:
             description: APM for JavaScript
           - item:
             name: Cobe
-            slug_name: cobe
             company: Cobe
             cncf_project: false
             oss: false
@@ -6671,7 +6327,6 @@ landscape:
             description: ''
           - item:
             name: ServerDensity
-            slug_name: serverdensity
             company: Server Density
             cncf_project: false
             oss: false
@@ -6692,7 +6347,6 @@ landscape:
               monitor their infrastructure.
           - item:
             name: Librato
-            slug_name: librato
             company: Librato
             cncf_project: false
             oss: false
@@ -6710,7 +6364,6 @@ landscape:
             description: Real time operations analytics for metrics from any source
           - item:
             name: AppNeta
-            slug_name: appneta
             company: AppNeta
             cncf_project: false
             oss: false
@@ -6733,7 +6386,6 @@ landscape:
               deliver them.
           - item:
             name: Catchpoint Systems
-            slug_name: catchpoint_systems
             company: 'Catchpoint '
             cncf_project: false
             oss: false
@@ -6751,7 +6403,6 @@ landscape:
             description: 'Catchpoint is a leading digital experience intelligence company '
           - item:
             name: Dynatrace
-            slug_name: dynatrace
             company: Dynatrace
             cncf_project: false
             oss: false
@@ -6773,7 +6424,6 @@ landscape:
               their lifecycle.
           - item:
             name: CoScale
-            slug_name: coscale
             company: CoScale
             cncf_project: false
             oss: false
@@ -6795,7 +6445,6 @@ landscape:
               microservices applications. Powered by anomaly detection.
           - item:
             name: Outlyer
-            slug_name: outlyer
             company: Outlyer
             cncf_project: false
             oss: false
@@ -6816,7 +6465,6 @@ landscape:
               microservices.
           - item:
             name: Centreon
-            slug_name: centreon
             company: Centreon
             cncf_project: false
             oss: true
@@ -6838,7 +6486,6 @@ landscape:
               monitoring tool
           - item:
             name: Lighstep
-            slug_name: lightstep
             company: LightStep
             cncf_project: false
             oss: false
@@ -6860,7 +6507,6 @@ landscape:
               systems.
           - item:
             name: Signal FX
-            slug_name: signal_fx
             company: SignalFx
             cncf_project: false
             oss: false
@@ -6878,7 +6524,6 @@ landscape:
             description: Advanced monitoring platform for modern applications
           - item:
             name: Nodesource
-            slug_name: nodesource
             company: 'NodeSource, Inc.'
             cncf_project: false
             oss: false
@@ -6898,7 +6543,6 @@ landscape:
               the Enterprise.
           - item:
             name: Grafana
-            slug_name: grafana
             company: Grafana Labs
             cncf_project: false
             oss: true
@@ -6918,7 +6562,6 @@ landscape:
             description: the defacto standard for visualizing time series data.
           - item:
             name: Log Analytics
-            slug_name: log_analytics
             company: Microsoft
             cncf_project: false
             oss: true
@@ -6941,7 +6584,6 @@ landscape:
               services.
           - item:
             name: Scope
-            slug_name: scope
             company: Weaveworks
             cncf_project: false
             oss: true
@@ -6961,7 +6603,6 @@ landscape:
             description: 'Monitoring, visualisation & management for Docker & Kubernetes'
           - item:
             name: Sensu
-            slug_name: sensu
             company: SENSU
             cncf_project: false
             oss: true
@@ -6981,7 +6622,6 @@ landscape:
             description: Managing Creative Obsessions
           - item:
             name: Sentry
-            slug_name: sentry
             company: Sentry
             cncf_project: false
             oss: true
@@ -7002,7 +6642,6 @@ landscape:
               games.
           - item:
             name: StackRox
-            slug_name: stackrox
             company: StackRox
             cncf_project: false
             oss: false
@@ -7024,7 +6663,6 @@ landscape:
               for containers.
           - item:
             name: StackState
-            slug_name: stackstate
             company: StackState
             cncf_project: false
             oss: false
@@ -7043,7 +6681,6 @@ landscape:
             description: The market-leading Algorithmic IT Operations platform
           - item:
             name: Weave Cloud
-            slug_name: weave_cloud
             company: Weaveworks
             cncf_project: false
             oss: false
@@ -7062,11 +6699,9 @@ landscape:
             description: 'Simple, resilient multi-host Docker networking and more.'
       - subcategory:
         name: Logging
-        slug_name: logging
         items:
           - item:
             name: Splunk
-            slug_name: splunk
             company: Splunk
             cncf_project: false
             oss: false
@@ -7088,7 +6723,6 @@ landscape:
               reports, and analyzes real-time machine data.
           - item:
             name: Elastic
-            slug_name: elastic
             company: Elastic
             cncf_project: false
             oss: true
@@ -7110,7 +6744,6 @@ landscape:
               scale for search, logging, security, and analytics use cases.
           - item:
             name: Sematext
-            slug_name: sematext
             company: Sematext
             cncf_project: false
             oss: false
@@ -7132,7 +6765,6 @@ landscape:
               company.
           - item:
             name: SumoLogic
-            slug_name: sumologic
             company: Sumo Logic
             cncf_project: false
             oss: false
@@ -7155,7 +6787,6 @@ landscape:
               intelligence.
           - item:
             name: Loggly
-            slug_name: loggly
             company: Loggly
             cncf_project: false
             oss: false
@@ -7176,7 +6807,6 @@ landscape:
               Fortune 500.
           - item:
             name: Logz
-            slug_name: logz
             company: Logz.io
             cncf_project: false
             oss: false
@@ -7196,7 +6826,6 @@ landscape:
               unlimited scalability, and predictive fault detection.
           - item:
             name: FluentD
-            slug_name: fluentd
             company: Cloud Native Computing Foundation (CNCF)
             cncf_project: true
             oss: true
@@ -7217,7 +6846,6 @@ landscape:
             description: 'Fluentd: Unified Logging Layer (project under CNCF)'
           - item:
             name: Loom Systems
-            slug_name: loom_systems
             company: Loom Systems
             cncf_project: false
             oss: false
@@ -7236,7 +6864,6 @@ landscape:
             description: Predict & Prevent Problems in the Digital Business
           - item:
             name: Graylog
-            slug_name: graylog
             company: Graylog
             cncf_project: false
             oss: true
@@ -7258,11 +6885,9 @@ landscape:
               and analyzing.
       - subcategory:
         name: Tracing
-        slug_name: tracing
         items:
           - item:
             name: OpenTracing
-            slug_name: opentracing
             company: Cloud Native Computing Foundation (CNCF)
             cncf_project: true
             oss: true
@@ -7285,7 +6910,6 @@ landscape:
               projects like Kubernetes and Prometheus.
           - item:
             name: Skywalking
-            slug_name: skywaling
             company: Open Skywalking Organization
             cncf_project: false
             oss: true
@@ -7303,7 +6927,6 @@ landscape:
             description: ''
           - item:
             name: Zipkin
-            slug_name: zipkin
             company: Zipkin
             cncf_project: false
             oss: true
@@ -7322,7 +6945,6 @@ landscape:
             description: Zipkin is a distributed tracing system
           - item:
             name: Jaeger
-            slug_name: jaeger
             company: Cloud Native Computing Foundation (CNCF)
             cncf_project: true
             oss: true
@@ -7344,7 +6966,6 @@ landscape:
             description: 'CNCF Jaeger, a Distributed Tracing System'
           - item:
             name: Cloud Sleuth
-            slug_name: cloud_sleuth
             company: Spring
             cncf_project: false
             oss: true
@@ -7361,7 +6982,6 @@ landscape:
             description: Distributed tracing for spring cloud
           - item:
             name: Appdash
-            slug_name: appdash
             company: Sourcegraph
             cncf_project: false
             oss: true
