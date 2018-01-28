@@ -1,17 +1,15 @@
 landscape:
   - category:
     name: "Orchestration & Management"
-    slug_name: orchestration_and_management
     subcategories:
       - subcategory:
         name: "Scheduling & Orchestration"
-        slug_name: scheduling_and_orchestration
         items:
         - item:
           name: "Kubernetes"
-          slug_name: kubernetes
+          description: 'Kubernetes is an open-source system for automating deployment, scaling, and management of containerized applications'
           company: "CNCF"
-          cncf_hosted_project: true
+          cncf_project: true
           oss: true
           commercial: false
           homepage_url: https://kubernetes.io/
@@ -19,12 +17,11 @@ landscape:
           raw_logo: https://raw.githubusercontent.com/cncf/artwork/master/kubernetes/stacked/color/kubernetes-stacked-color.png
           external:
             twitter: https://twitter.com/kubernetesio
-            crunchbase: https://www.crunchbase.com/product/kubernetes
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
         - item:
           name: "Amazon ECS"
-          slug_name: amazon_ecs
           company: "Amazon Web Services"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://aws.amazon.com/ecs/
@@ -35,9 +32,8 @@ landscape:
           raw_logo: https://signalfx-82c9.kxcdn.com/wp-content/uploads/2016/03/integrations_awsecs@4x-500x500.png
         - item:
           name: "Nomad"
-          slug_name: nomad
           company: "Hashicorp"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.nomadproject.io/
@@ -48,9 +44,8 @@ landscape:
           raw_logo: https://hyzxph.media.zestyio.com/blog-nomad-list.svg
         - item:
           name: "Mesos"
-          slug_name: mesos
           company: "Apache"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: http://mesos.apache.org/
@@ -61,9 +56,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/apache-mesos
         - item:
           name: "Microsoft Azure Service Fabric"
-          slug_name: microsoft_azure_service_fabric
           company: "Microsoft"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://azure.microsoft.com/en-us/services/service-fabric/
@@ -75,9 +69,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/microsoft-azure-certified
         - item:
           name: "Docker Swarm"
-          slug_name: docker_swarm
           company: "Docker"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://docs.docker.com/engine/swarm/
@@ -88,13 +81,11 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/docker
       - subcategory:
         name: "Coordination & Service Discovery"
-        slug_name: coordination_service_discovery
         items:
         - item:
           name: "etcd"
-          slug_name: etcd
           company: "CoreOS"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://coreos.com/etcd/
@@ -105,9 +96,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/coreos
         - item:
           name: "Consul"
-          slug_name: consul
           company: "Hashicorp"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.consul.io/
@@ -118,9 +108,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/hashicorp
         - item:
           name: "Zookeeper"
-          slug_name: zookeeper
           company: "Apache"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: http://zookeeper.apache.org/
@@ -131,9 +120,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/apache
         - item:
           name: "ContainerPilot"
-          slug_name: containerpilot
           company: "Joyent"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.joyent.com/containerpilot
@@ -144,9 +132,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/joyent
         - item:
           name: "SkyDNS"
-          slug_name: skydns
           company: "Skynet Services"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://github.com/skynetservices/skydns
@@ -154,9 +141,8 @@ landscape:
           raw_logo: https://memz.co/wp-content/uploads/2016/07/skydns.jpg
         - item:
           name: "CoreDNS"
-          slug_name: coredns
           company: "CNCF"
-          cncf_hosted_project: true
+          cncf_project: true
           oss: true
           commercial: false
           homepage_url: https://coredns.io/
@@ -167,9 +153,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
         - item:
           name: "Registrator"
-          slug_name: registrator
           company: "Glider Labs"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: http://gliderlabs.github.io/registrator/latest/
@@ -180,9 +165,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/glider-labs
         - item:
           name: "SmartStack"
-          slug_name: smartstack
           company: "Airbnb"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://github.com/airbnb/smartstack-cookbook
@@ -190,9 +174,8 @@ landscape:
           raw_logo: https://crunchbase-production-res.cloudinary.com/image/upload/v1405534850/vubc5kxhmw6jalain0ot.jpg
         - item:
           name: "Hyperbahn"
-          slug_name: hyperbahn
           company: "Uber"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://github.com/uber-archive/hyperbahn
@@ -200,9 +183,8 @@ landscape:
           raw_logo: http://assets.creativity-online.com/images/work/medium/u/b/e/Uber_NewBranding16.jpg
         - item:
           name: "Eureka"
-          slug_name: eureka
           company: "Netflix"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://github.com/Netflix/eureka
@@ -211,9 +193,8 @@ landscape:
           stock_ticker: 'NFLX'
         - item:
           name: "Haret"
-          slug_name: haret
           company: "VMware"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://github.com/vmware/haret
@@ -224,13 +205,11 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/vmware
       - subcategory:
         name: "Service Management"
-        slug_name: service_management
         items:
         - item:
           name: "3Scale"
-          slug_name: 3scale
           company: "redhat"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.3scale.net/
@@ -241,9 +220,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/3scale
         - item:
           name: "NGINX"
-          slug_name: nginx
           company: "NGINX"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.nginx.com/
@@ -254,9 +232,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/nginx
         - item:
           name: "HAProxy"
-          slug_name: haproxy
           company: "HAProxy Technologies"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.haproxy.org/
@@ -267,9 +244,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/haproxy-technologies
         - item:
           name: "Linkerd"
-          slug_name: linkerd
-          company: "Linkerd"
-          cncf_hosted_project: true
+          company: "CNCF"
+          cncf_project: true
           oss: true
           commercial: false
           homepage_url: https://linkerd.io/
@@ -277,12 +253,11 @@ landscape:
           raw_logo: https://raw.githubusercontent.com/cncf/artwork/master/linkerd/stacked/color/linkerd-stacked-color.png
           external:
             twitter: https://twitter.com/linkerd
-            crunchbase: https://www.crunchbase.com/product/linkerd
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
         - item:
           name: "Envoy"
-          slug_name: envoy
-          company: "Lyft"
-          cncf_hosted_project: true
+          company: "CNCF"
+          cncf_project: true
           oss: true
           commercial: false
           homepage_url: https://lyft.github.io/envoy/
@@ -291,12 +266,11 @@ landscape:
           stock_ticker: 'LYFT'
           external:
             twitter: https://twitter.com/envoyproxy
-            crunchbase: https://www.crunchbase.com/organization/lyft
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
         - item:
           name: "Datawire"
-          slug_name: datawire
           company: "Datawire"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.datawire.io/
@@ -304,12 +278,11 @@ landscape:
           raw_logo: https://media.licdn.com/media/AAEAAQAAAAAAAAcfAAAAJDc1NDg2YzMwLWQzOTYtNDJmYi1iMTg0LWY0OTViMzZmODEzYQ.png
           external:
             twitter: https://twitter.com/datawireio
-            crunchbase: https://www.crunchbase.com/organization/datawire#/entity
+            crunchbase: https://www.crunchbase.com/organization/datawire
         - item:
           name: "Traefik"
-          slug_name: traefik
           company: "Conainous"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://traefik.io/
@@ -320,9 +293,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/containous
         - item:
           name: "Turbine Labs"
-          slug_name: turbine_labs
           company: "Turbine Labs"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.turbinelabs.io/
@@ -333,9 +305,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/turbine-labs-2
         - item:
           name: "Avi Networks"
-          slug_name: avi_networks
           company: "Avi Networks"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://avinetworks.com/
@@ -343,12 +314,11 @@ landscape:
           raw_logo: https://avinetworks.com/wp-content/uploads/2017/06/Avi-Logo-Transparent-Background-Hi-Res-2.png
           external:
             twitter: https://twitter.com/AviNetworks
-            crunchbase: https://www.crunchbase.com/organization/turbine-labs-2
+            crunchbase: https://www.crunchbase.com/organization/avi-networks-inc
         - item:
           name: "gRPC"
-          slug_name: grpc
-          company: "gRPC"
-          cncf_hosted_project: true
+          company: "CNCF"
+          cncf_project: true
           oss: true
           commercial: false
           homepage_url: https://grpc.io/
@@ -360,9 +330,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
         - item:
           name: "Apache Thrift"
-          slug_name: apache_thrift
           company: "Apache"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://thrift.apache.org/
@@ -373,9 +342,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/apache
         - item:
           name: "Apache Avro"
-          slug_name: apache_avro
           company: "Apache"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://avro.apache.org/
@@ -386,9 +354,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/apache
         - item:
           name: "Vamp"
-          slug_name: vamp
           company: "Magnetic"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url:
@@ -399,9 +366,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/magnetic-io
         - item:
           name: "Weave Flux"
-          slug_name: weave_flux
           company: "Weaveworks"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.weave.works/oss/flux/
@@ -412,9 +378,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/weaveworks
         - item:
           name: "Kong"
-          slug_name: kong
           company: "Mashape"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://getkong.org/
@@ -425,9 +390,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/mashape
         - item:
           name: "Hystrix"
-          slug_name: hystrix
           company: "Netflix"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://github.com/Netflix/Hystrix
@@ -439,9 +403,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/netflix
         - item:
           name: "OSS"
-          slug_name: oss
           company: "Netflix"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://netflix.github.io/
@@ -453,9 +416,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/netflix
         - item:
           name: "Ribbon"
-          slug_name: ribbon
           company: "Netflix"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://github.com/Netflix/ribbon
@@ -467,9 +429,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/netflix
         - item:
           name: "Zuul"
-          slug_name: zuul
           company: "Netflix"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://github.com/Netflix/zuul
@@ -481,9 +442,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/netflix
         - item:
           name: "Backplane"
-          slug_name: backplane
           company: "Backplane"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.backplane.io/
@@ -492,9 +452,8 @@ landscape:
             twitter: https://twitter.com/backplaneio
         - item:
           name: "F5"
-          slug_name: f5
           company: "F5"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://f5.com/
@@ -504,30 +463,26 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/f5-networks
   - category:
     name: "Cloud"
-    slug_name: cloud
     subcategories:
       - subcategory:
         name: "Public"
-        slug_name: public
         items:
           - item:
             name: "AWS"
-            slug_name: aws
             company: "Amazon Web Services"
-            cncf_hosted_project: false
+            cncf_project: false
             oss: false
             commercial: true
             homepage_url: https://aws.amazon.com/
-            raw_logo: https://d1.awsstatic.com/logos/aws-logo-lockups/Partner%20Network%20Variants/APN-Logo_Color_678x186.8ed843d613d4e41b85021a213a05e25933b00ea6.png
+            raw_logo: https://www.cncf.io/wp-content/uploads/2017/08/logo_AWS-300x184.png
             stock_ticker: 'AMZN'
             external:
               twitter: https://twitter.com/awscloud
-              crunchbase: https://www.crunchbase.com/product/amazon-web-services
+              crunchbase: https://www.crunchbase.com/organization/amazon-web-services
           - item:
             name: "Google Cloud Platform"
-            slug_name: google_cloud_platform
             company: "Google"
-            cncf_hosted_project: false
+            cncf_project: false
             oss: false
             commercial: true
             homepage_url: https://cloud.google.com/
@@ -538,22 +493,20 @@ landscape:
               crunchbase: https://www.crunchbase.com/organization/google-cloud-platform
           - item:
             name: "Azure Cloud Services"
-            slug_name: azure_cloud_services
             company: "Microsoft"
-            cncf_hosted_project: false
+            cncf_project: false
             oss: false
             commercial: true
             homepage_url: https://azure.microsoft.com/
-            raw_logo: https://azure.microsoft.com/svghandler/dns/
+            raw_logo: https://www.cncf.io/wp-content/uploads/2017/07/Azure_logo-300x184.png
             stock_ticker: 'MSFT'
             external:
               twitter: https://twitter.com/Azure
-              crunchbase: https://www.crunchbase.com/product/windows-azure
+              crunchbase: https://www.crunchbase.com/organization/microsoft
           - item:
             name: "DigitalOcean"
-            slug_name: digitalocean
             company: "DigitalOcean"
-            cncf_hosted_project: false
+            cncf_project: false
             oss: false
             commercial: true
             homepage_url: https://www.digitalocean.com/
@@ -563,9 +516,8 @@ landscape:
               crunchbase: https://www.crunchbase.com/organization/digitalocean
           - item:
             name: "Packet"
-            slug_name: packet
             company: "Packet"
-            cncf_hosted_project: false
+            cncf_project: false
             oss: false
             commercial: true
             homepage_url: https://www.packet.net/
@@ -575,9 +527,8 @@ landscape:
               crunchbase: https://www.crunchbase.com/organization/packet-host
           - item:
             name: "Oracle Cloud"
-            slug_name: oracle_cloud
             company: "Oracle"
-            cncf_hosted_project: false
+            cncf_project: false
             oss: false
             commercial: true
             homepage_url: https://cloud.oracle.com/
@@ -588,9 +539,8 @@ landscape:
               crunchbase: https://www.crunchbase.com/organization/oracle
           - item:
             name: "Alibaba Cloud"
-            slug_name: alibaba_cloud
             company: "Alibaba"
-            cncf_hosted_project: false
+            cncf_project: false
             oss: false
             commercial: true
             homepage_url: https://www.alibabacloud.com/
@@ -601,9 +551,8 @@ landscape:
               crunchbase: https://www.crunchbase.com/organization/alibaba-cloud
           - item:
             name: "Fujitsu K5"
-            slug_name: fujitsu_k5
             company: "Fujitsu"
-            cncf_hosted_project: false
+            cncf_project: false
             oss: false
             commercial: true
             homepage_url: https://www.fujitsu.com/global/solutions/cloud/k5/
@@ -614,9 +563,8 @@ landscape:
               crunchbase: https://www.crunchbase.com/organization/fujitsu
           - item:
             name: "IBM Cloud"
-            slug_name: ibm_cloud
             company: "IBM"
-            cncf_hosted_project: false
+            cncf_project: false
             oss: false
             commercial: true
             homepage_url: https://www.ibm.com/cloud/
@@ -627,9 +575,8 @@ landscape:
               crunchbase: https://www.crunchbase.com/organization/ibm
           - item:
             name: "Tencent Cloud"
-            slug_name: tencent_cloud
             company: "Tencent Cloud"
-            cncf_hosted_project: false
+            cncf_project: false
             oss: false
             commercial: true
             homepage_url: https://cloud.tencent.com/
@@ -638,21 +585,19 @@ landscape:
               twitter: https://twitter.com/tencentcloud
           - item:
             name: "Joyent"
-            slug_name: joyent
             company: "Triton"
-            cncf_hosted_project: false
+            cncf_project: false
             oss: true
             commercial: false
             homepage_url: https://www.joyent.com/
             raw_logo: https://upload.wikimedia.org/wikipedia/commons/9/96/Joyent-logo.png
             external:
               twitter: https://twitter.com/joyent
-              crunchbase: https://www.crunchbase.com/product/joyent-cloud
+              crunchbase: https://www.crunchbase.com/organization/joyent
           - item:
             name: "Huawei"
-            slug_name: huawei
             company: "Huawei"
-            cncf_hosted_project: false
+            cncf_project: false
             oss: false
             commercial: true
             homepage_url: https://www.huawei.com/
@@ -662,13 +607,11 @@ landscape:
               crunchbase: https://www.crunchbase.com/organization/huawei
       - subcategory:
         name: "Private"
-        slug_name: private
         items:
         - item:
           name: "OpenStack"
-          slug_name: openstack
           company: "OpenStack Foundation"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.openstack.org/
@@ -679,9 +622,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/openstack
         - item:
           name: "VMware"
-          slug_name: vmware
           company: "EMC"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.vmware.com/
@@ -692,9 +634,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/vmware
         - item:
           name: "MAAS"
-          slug_name: maas
           company: "Canonical"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://maas.io/
@@ -705,9 +646,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/canonical-ltd
         - item:
           name: "Foreman"
-          slug_name: foreman
           company: "The Foreman"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://theforeman.org/
@@ -718,9 +658,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/foreman
         - item:
           name: "Scaleway"
-          slug_name: scaleway
           company: "Scaleway"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.scaleway.com/
@@ -730,9 +669,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/scaleway
         - item:
           name: "Digital Rebar"
-          slug_name: digial_rebar
           company: "Digital Rebar"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: http://rebar.digital/
@@ -742,17 +680,14 @@ landscape:
             twitter: https://twitter.com/digitalrebar
   - category:
     name: "Provisioning"
-    slug_name: provisioning
     subcategories:
       - subcategory:
         name: "Infrastructure Automation"
-        slug_name: infrastructure_automation
         items:
         - item:
           name: "Terraform"
-          slug_name: terraform_hashicorp
           company: Hashicorp
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.terraform.io/
@@ -760,12 +695,11 @@ landscape:
           raw_logo: https://crunchbase-production-res.cloudinary.com/image/upload/v1494032023/ds2ujajovsaxg7cjwgei.png
           external:
             twitter: https://twitter.com/HashiCorp
-            crunchbase: https://www.crunchbase.com/product/terraform
+            crunchbase: https://www.crunchbase.com/organization/hashicorp
         - item:
           name: "Bosh"
-          slug_name: bosh
           company: "Cloud Foundry"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://bosh.io/
@@ -776,9 +710,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/cloud-foundry
         - item:
           name: "CloudFormation"
-          slug_name: cloudformation
           company: "Amazon Web Services"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://aws.amazon.com/cloudformation/
@@ -786,12 +719,11 @@ landscape:
           stock_ticker: 'AMZN'
           external:
             twitter: https://twitter.com/awscloudformer
-            crunchbase: https://www.crunchbase.com/product/amazon-web-services
+            crunchbase: https://www.crunchbase.com/organization/amazon-web-services
         - item:
           name: "Cloud Coreo"
-          slug_name: cloud_coreo
           company: "Cloud Coreo"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.cloudcoreo.com/
@@ -801,9 +733,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/cloudcoreo
         - item:
           name: "Cloudify"
-          slug_name: cloudify
           company: "Gigaspaces Technologies"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://cloudify.co
@@ -814,9 +745,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/cloudify
         - item:
           name: "Helm"
-          slug_name: helm
           company: "Helm"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://helm.sh/
@@ -824,12 +754,11 @@ landscape:
           raw_logo: https://datamountaineer.com/wp-content/uploads/2016/09/helm.png
           external:
             twitter: https://twitter.com/helmpack
-            crunchbase: https://www.crunchbase.com/organization/helm-solutions#/entity
+            crunchbase: https://www.crunchbase.com/organization/helm-solutions
         - item:
           name: "Infrakit"
-          slug_name: infrakit
           company: "Docker"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://infrakit.com/
@@ -840,9 +769,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/infrakit
         - item:
           name: "Juju"
-          slug_name: juju
           company: "Canonical"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://jujucharms.com/
@@ -850,12 +778,11 @@ landscape:
           raw_logo: https://design.canonical.com/wp-content/uploads/2011/10/juju-464x252.png
           external:
             twitter: https://twitter.com/ubuntucloud
-            crunchbase: https://www.crunchbase.com/product/juju
+            crunchbase: https://www.crunchbase.com/organization/canonical-ltd
         - item:
           name: "Kubicorn"
-          slug_name: kubicorn
           company: "Kubicorn"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://kubernetes.io/
@@ -865,9 +792,8 @@ landscape:
             twitter: https://twitter.com/kubicornk8s
         - item:
           name: "ManageIQ"
-          slug_name: manageiq
           company: "ManageIQ"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://http://manageiq.org/
@@ -878,13 +804,11 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/manageiq
       - subcategory:
         name: "Container Registries"
-        slug_name: container_registries
         items:
         - item:
           name: "Quay"
-          slug_name: quay
           company: "CoreOS"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://quay.io/
@@ -894,21 +818,19 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/quay-io
         - item:
           name: "Artifactory"
-          slug_name: artifactory
           company: "Jfrog"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.jfrog.com/artifactory/
           raw_logo: http://blog.strive-ltd.com/wp-content/uploads/2016/03/artifactory.png
           external:
             twitter: https://twitter.com/jfrog
-            crunchbase: https://www.crunchbase.com/product/artifactory
+            crunchbase: https://www.crunchbase.com/organization/jfrog-ltd
         - item:
           name: "Harbor"
-          slug_name: harbor
           company: "VMware"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://vmware.github.io/harbor/
@@ -919,9 +841,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/vmware
         - item:
           name: "Azure Registry"
-          slug_name: azure_registry
           company: "Microsoft"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://azure.microsoft.com/en-us/services/container-registry/
@@ -929,12 +850,11 @@ landscape:
           stock_ticker: 'MSFT'
           external:
             twitter: https://twitter.com/azure
-            crunchbase: https://www.crunchbase.com/product/windows-azure
+            crunchbase: https://www.crunchbase.com/organization/microsoft
         - item:
           name: "Atomic"
-          slug_name: atomic
           company: "Red Hat"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.projectatomic.io/
@@ -945,9 +865,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/project-atomic
         - item:
           name: "Docker Registry"
-          slug_name: docker_registry
           company: "Docker"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://docs.docker.com/registry/
@@ -958,9 +877,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/docker
         - item:
           name: "Amazon ECR"
-          slug_name: amazon_ecr
           company: "Amazon Web Services"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://aws.amazon.com/ecr/
@@ -968,12 +886,11 @@ landscape:
           stock_ticker: 'AMZN'
           external:
             twitter: https://twitter.com/awscloud
-            crunchbase: https://www.crunchbase.com/product/amazon-ec2
+            crunchbase: https://www.crunchbase.com/organization/amazon
         - item:
           name: "Google Registry"
-          slug_name: google_registry
           company: "Google"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://cloud.google.com/container-registry/
@@ -984,9 +901,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/google-cloud-platform
         - item:
           name: "Portus"
-          slug_name: portus
           company: "SUSE"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: http://port.us.org/
@@ -994,13 +910,11 @@ landscape:
           raw_logo: https://github.com/SUSE/Portus/blob/master/public/favicon/android-chrome-192x192.png
       - subcategory:
         name: "Host Management/Tooling"
-        slug_name: host_managment_tooling
         items:
         - item:
           name: "Puppet"
-          slug_name: puppet
           company: "Puppet"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://puppet.com/
@@ -1011,9 +925,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/puppet-labs
         - item:
           name: "LinuxKit"
-          slug_name: inuxkit
           company: "Linux"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           repo_url: https://github.com/linuxkit
@@ -1022,9 +935,8 @@ landscape:
             twitter: https://twitter.com/linuxkit
         - item:
           name: "Ansible"
-          slug_name: ansible
           company: "Ansible"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.ansible.com/
@@ -1035,9 +947,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/ansible
         - item:
           name: "Chef"
-          slug_name: chef
           company: "Chef Software"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://chef.io
@@ -1048,9 +959,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/chef
         - item:
           name: "Salt Stack"
-          slug_name: salt_stack
           company: "Salt Stack"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://saltstack.com/
@@ -1061,9 +971,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/saltstack
         - item:
           name: "CFEngine"
-          slug_name: cfengine
           company: "CFEngine"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://cfengine.com/
@@ -1074,9 +983,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/cfengine
         - item:
           name: "Rundeck"
-          slug_name: rundeck
           company: "Rundeck"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: http://rundeck.org/
@@ -1087,13 +995,11 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/rundeck
       - subcategory:
         name: "Secure Images"
-        slug_name: secure_images
         items:
         - item:
           name: "Anchore"
-          slug_name: anchore
           company:
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://anchore.io/
@@ -1104,9 +1010,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/anchore-inc
         - item:
           name: "Aqua"
-          slug_name: aqua
           company: "Aqua"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.aquasec.com/
@@ -1116,9 +1021,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/aquasecurity
         - item:
           name: "Black Duck"
-          slug_name: black_duck
           company: "Synopsis"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.blackducksoftware.com/
@@ -1129,21 +1033,19 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/black-duck-software
         - item:
           name: "NeuVector"
-          slug_name: neuvector
           company: "NeuVector"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://neuvector.com/
           raw_logo: https://d0.awsstatic.com/logos/partners/neuvector_logo_600x400.png
           external:
             twitter: https://twitter.com/neuvector
-            crunchbase: https://www.crunchbase.com/organization/neuvector#/entity
+            crunchbase: https://www.crunchbase.com/organization/neuvector
         - item:
           name: "Clair"
-          slug_name: clair_coreos
           company: "CoreOS"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://coreos.com/clair/docs/latest/
@@ -1151,12 +1053,11 @@ landscape:
           raw_logo: http://zdnet2.cbsistatic.com/hub/i/r/2016/03/18/c9a09a0a-1fcc-48c8-810b-cb1c0379a562/resize/770xauto/cc3c78f58099a9569a899e05ceabba3f/coreos-clair.jpg
           external:
             twitter: https://twitter.com/coreos
-            crunchbase: https://www.crunchbase.com/organization/coreo
+            crunchbase: https://www.crunchbase.com/organization/coreos
         - item:
           name: "Notary"
-          slug_name: notary
-          company: "Docker"
-          cncf_hosted_project: true
+          company: "CNCF"
+          cncf_project: true
           oss: true
           commercial: false
           homepage_url: https://github.com/docker/notary
@@ -1164,12 +1065,11 @@ landscape:
           raw_logo: https://raw.githubusercontent.com/cncf/artwork/master/notary/stacked/color/notary-stacked-color.png
           external:
             twitter: https://twitter.com/docker
-            crunchbase: https://www.crunchbase.com/organization/docker
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
         - item:
           name: "OpenSCAP"
-          slug_name: openscap
           company: "redhat"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.open-scap.org/
@@ -1179,9 +1079,8 @@ landscape:
             twitter: https://twitter.com/OpenSCAP
         - item:
           name: "Sonatype Nexus"
-          slug_name: sonatype_nexus
           company: "Sonatype"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.sonatype.com/
@@ -1191,19 +1090,19 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/sonatype
         - item:
           name: "TUF"
-          slug_name: tuf
-          company: "The Update Framework"
-          cncf_hosted_project: true
+          company: "CNCF"
+          cncf_project: true
           oss: true
           commercial: false
           homepage_url: https://theupdateframework.github.io/
           repo_url: https://github.com/theupdateframework
           raw_logo: https://github.com/cncf/artwork/blob/master/tuf/stacked/color/tuf-stacked-color.png
+          external:
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
         - item:
           name: "Twistlock"
-          slug_name: twistlock
           company: "Twistlock"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.twistlock.com/
@@ -1213,13 +1112,11 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/twistlock
       - subcategory:
         name: "Key Management"
-        slug_name: key_management
         items:
         - item:
           name: "Lyft Confidant"
-          slug_name: lyft_confidant
           company: "Lyft"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://lyft.github.io/confidant/
@@ -1229,9 +1126,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/lyft
         - item:
           name: "Keywhiz"
-          slug_name: keywhiz
           company: "Square"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://square.github.io/keywhiz/
@@ -1242,9 +1138,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/square
         - item:
           name: "Knox"
-          slug_name: knox
           company: "Pinterest"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           repo_url: https://github.com/pinterest/knox
@@ -1253,9 +1148,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/pinterest
         - item:
           name: "Hashicorp Vault"
-          slug_name: hashicorp_vault
           company: "Hashicorp"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.vaultproject.io/
@@ -1266,9 +1160,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/hashicorp
         - item:
           name: "Oracle Policy Automation"
-          slug_name: oracle_policy_automation
           company: "Oracle"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.oracle.com/applications/oracle-policy-automation/index.html
@@ -1279,9 +1172,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/oracle
         - item:
           name: "SPIFFE"
-          slug_name: spiffe
           company: "Scytale"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://spiffe.io/
@@ -1292,9 +1184,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/scytale-io
         - item:
           name: "Spire"
-          slug_name: spire
           company: "Scytale"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://spiffe.io/spire/
@@ -1305,17 +1196,14 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/scytale-io
   - category:
     name: "Runtime"
-    slug_name: runtime
     subcategories:
       - subcategory:
         name: "Cloud-Native Storage"
-        slug_name: cloud_native_storage
         items:
         - item:
           name: "Ceph"
-          slug_name: ceph
           company: "Ceph"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://ceph.com/
@@ -1326,9 +1214,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/ceph-storage
         - item:
           name: "Gluster"
-          slug_name: gluster
           company: "Red Hat"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.gluster.org/
@@ -1341,9 +1228,8 @@ landscape:
             gh_stars: "12345"
         - item:
           name: "HDFS"
-          slug_name: hdfs
           company: "Apache"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: http://hadoop.apache.org/
@@ -1351,12 +1237,11 @@ landscape:
           raw_logo: http://previsna.com/bilder/hadoop-hdfs.png
           external:
             twitter: https://twitter.com/TheASF
-            crunchbase: https://www.crunchbase.com/product/hadoop
+            crunchbase: https://www.crunchbase.com/organization/hadoop
         - item:
           name: "Minio"
-          slug_name: minio
           company: "Minio"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://minio.io/
@@ -1367,9 +1252,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/minio-inc
         - item:
           name: "Portworx"
-          slug_name: portworx
           company: "portworx"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://portworx.com/
@@ -1379,9 +1263,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/portworx
         - item:
           name: "Project Hatchway"
-          slug_name: project_hatchway
           company: "VMWare"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://vmware.github.io/hatchway/
@@ -1393,9 +1276,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/vmware
         - item:
           name: "Pure Storage"
-          slug_name: pure_storage
           company: "Pure Storage"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.purestorage.com/
@@ -1406,22 +1288,20 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/pure-storage
         - item:
           name: "libstorage"
-          slug_name: libstorage
           company: "Dell EMC"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://libstorage.readthedocs.io/en/stable/
-          repo_url: https://github.com/codedellemc/rexray/tree/master/libstorage
+          repo_url: https://github.com/codedellemc/rexray
           raw_logo: https://www.storagenewsletter.com/wp-content/uploads/2016/06/EMC_LIBSTORAGE_LOGO.jpg
           external:
             twitter: https://twitter.com/EMCcorp
             crunchbase: https://www.crunchbase.com/organization/dell-emc
         - item:
           name: "Manta"
-          slug_name: manta
           company: "Joyent"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.joyent.com/tech-videos/introduction-to-manta-storage
@@ -1432,9 +1312,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/joyent
         - item:
           name: "Diamanti"
-          slug_name: diamanti
           company: "Diamanti"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.diamanti.com/
@@ -1444,9 +1323,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/diamanti
         - item:
           name: "Rook"
-          slug_name: rook
           company: "Rook"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://rook.io/
@@ -1456,9 +1334,8 @@ landscape:
             twitter: https://twitter.com/rook_io
         - item:
           name: "Robin Systems"
-          slug_name: robin_systems
           company: "Robin Systems"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://robinsystems.com/
@@ -1468,9 +1345,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/robin-systems
         - item:
           name: "Springpath"
-          slug_name: springpath
           company: "Cisco"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: http://springpathinc.com/
@@ -1481,9 +1357,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/springpath-inc
         - item:
           name: "Datera"
-          slug_name: datera
           company: "Datera Inc."
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: http://datera.io/
@@ -1493,9 +1368,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/datera-2
         - item:
           name: "Infinit"
-          slug_name: infinit
           company: "Docker"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.infinit.sh/
@@ -1506,9 +1380,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/infinit
         - item:
           name: "Kasten"
-          slug_name: kasten
           company: "Kasten"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://kasten.io/
@@ -1519,9 +1392,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/kasten
         - item:
           name: "LeoFS"
-          slug_name: leofs
           company: "Leo Project"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://leo-project.net/leofs/
@@ -1531,9 +1403,8 @@ landscape:
             twitter: https://twitter.com/LeoFastStorage
         - item:
           name: "Sheepdog"
-          slug_name: sheepdog
           company: "Sheepdog"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://sheepdog.github.io/sheepdog/
@@ -1541,9 +1412,8 @@ landscape:
           raw_logo: https://avatars3.githubusercontent.com/u/4846685
         - item:
           name: "Rex-Ray"
-          slug_name: rex_ray
           company: "Dell EMC"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://rexray.thecodeteam.com/
@@ -1554,9 +1424,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/dell-emc
         - item:
           name: "NetApp"
-          slug_name: netapp
           company: "NetApp"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.netapp.com/
@@ -1567,9 +1436,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/netapp
         - item:
           name: "StorageOS"
-          slug_name: storageos
           company: "StorageOS"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://storageos.com/
@@ -1579,9 +1447,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/storageos
         - item:
           name: "Dell EMC"
-          slug_name: dell_emc
           company: "Dell"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.dellemc.com/
@@ -1592,9 +1459,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/dell-emc
         - item:
           name: "OpenSDS"
-          slug_name: opensds
           company: "OpenSDS"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.opensds.io/
@@ -1604,9 +1470,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/opensds
         - item:
           name: "OpenEBS"
-          slug_name: openebs
           company: "OpenEBS"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: hhttps://www.openebs.io/
@@ -1617,9 +1482,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/openebs
         - item:
           name: "Hedvig"
-          slug_name: hedvig
           company: "Hedvig Inc."
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.hedviginc.com/
@@ -1630,9 +1494,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/hedvig
         - item:
           name: "Swift"
-          slug_name: swift
           company: "OpenStack"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.swiftstack.com/product/openstack-swift
@@ -1643,13 +1506,11 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/openstack
       - subcategory:
         name: "Container Runtime"
-        slug_name: container_runtime
         items:
         - item:
           name: "Rkt"
-          slug_name: rkt
-          company: "CoreOS"
-          cncf_hosted_project: true
+          company: "CNCF"
+          cncf_project: true
           oss: true
           commercial: false
           homepage_url: https://github.com/rkt/rkt
@@ -1657,12 +1518,11 @@ landscape:
           raw_logo:  https://raw.githubusercontent.com/cncf/artwork/master/rkt/stacked/color/rkt-stacked-color.png
           external:
             twitter: https://twitter.com/coreos
-            crunchbase: https://www.crunchbase.com/organization/coreos
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
         - item:
           name: "RunC"
-          slug_name: runc
           company: "OCI"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.opencontainers.org/
@@ -1672,9 +1532,8 @@ landscape:
             twitter: https://twitter.com/OCI_ORG
         - item:
           name: "lxd"
-          slug_name: lxd
           company: "Canonical"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://linuxcontainers.org/lxd/
@@ -1685,18 +1544,16 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/canonical-ltd
         - item:
           name: "RunV"
-          slug_name: runv
           company: "Hyper"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           repo_url: https://github.com/hyperhq/runv
           raw_logo: http://people.canonical.com/~kirkland/lxd.png
         - item:
           name: "SmartOS"
-          slug_name: smartos
           company: "Joyent"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.joyent.com/smartos
@@ -1707,9 +1564,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/joyent
         - item:
           name: "containerd"
-          slug_name: containerd
-          company: "Docker"
-          cncf_hosted_project: true
+          company: "CNCF"
+          cncf_project: true
           oss: true
           commercial: false
           homepage_url: http://containerd.io/
@@ -1717,12 +1573,11 @@ landscape:
           raw_logo: https://raw.githubusercontent.com/cncf/artwork/master/containerd/stacked/color/containerd-stacked-color.png
           external:
             twitter: https://twitter.com/docker
-            crunchbase: https://www.crunchbase.com/organization/docker
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
         - item:
           name: "cri-o"
-          slug_name: cri_o
           company: "cri-o"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: http://cri-o.io/
@@ -1732,9 +1587,8 @@ landscape:
             twitter: https://twitter.com/hashtag/%22cri-o%22
         - item:
           name: "Intel Clear Containers"
-          slug_name: intel_clear-containers
           company: "Intel"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://clearlinux.org/containers
@@ -1746,9 +1600,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/intel
         - item:
           name: "CSI"
-          slug_name: csi
           company: "CSI"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://github.com/container-storage-interface
@@ -1756,13 +1609,11 @@ landscape:
           raw_logo: https://github.com/container-storage-interface/artwork/blob/master/logo/PNG/01.png
       - subcategory:
         name: "Cloud-Native Network"
-        slug_name: cloud_native_network
         items:
         - item:
           name: "Aporeto"
-          slug_name: aporeto
           company: "Aporeto"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.aporeto.com/
@@ -1772,9 +1623,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/aporeto
         - item:
           name: "Aviatrix"
-          slug_name: aviatrix
           company: "Aviatrix"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://aviatrix.com/
@@ -1784,9 +1634,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/aviatrix
         - item:
           name: "Big Switch Networks"
-          slug_name: big_switch_networks
           company: "Big Switch Networks"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: http://www.bigswitch.com/
@@ -1796,9 +1645,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/big-switch-networks
         - item:
           name: "Project Calico"
-          slug_name: project_calico
           company: "Tigera"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.projectcalico.org/
@@ -1809,9 +1657,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/tigera
         - item:
           name: "Canal"
-          slug_name: canal
           company: "Tigera"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://github.com/projectcalico/canal
@@ -1822,9 +1669,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/tigera
         - item:
           name: "Contiv"
-          slug_name: contiv
           company: "Cisco"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://contiv.github.io/
@@ -1836,9 +1682,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/cisco
         - item:
           name: "Cilium"
-          slug_name: cilium
           company: "Covalent"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.cilium.io/
@@ -1849,9 +1694,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/covalent-io
         - item:
           name: "Cumulus"
-          slug_name: cumulus
           company: "Cumulus Networks"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://cumulusnetworks.com
@@ -1862,9 +1706,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/cumulus-networks
         - item:
           name: "Flannel"
-          slug_name: flannel
           company: "Tigera"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://github.com/coreos/flannel/
@@ -1875,9 +1718,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/tigera
         - item:
           name: "Midokura"
-          slug_name: midokura
           company: "Midokura"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.midokura.com//
@@ -1888,9 +1730,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/midokura
         - item:
           name: "NSX"
-          slug_name: nsx
           company: "VMware"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.vmware.com/products/nsx.html
@@ -1901,9 +1742,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/vmware
         - item:
           name: "Nuage Networks"
-          slug_name: nuage_networks
           company: "Nokia"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: http://www.nuagenetworks.net/
@@ -1911,12 +1751,11 @@ landscape:
           raw_logo: https://user-images.githubusercontent.com/6019102/29992977-e6e92a02-8f5d-11e7-855b-0bf748f13dd9.png
           external:
             twitter: https://twitter.com/nuagenetworks
-            crunchbase: https://www.crunchbase.com/organization/nuage-Networks
+            crunchbase: https://www.crunchbase.com/organization/nuage-networks
         - item:
           name: "OpenContrail"
-          slug_name: opencontrail
           company: "Juniper Networks"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: http://www.opencontrail.org/
@@ -1927,9 +1766,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/opencontrail
         - item:
           name: "Open vSwitch"
-          slug_name: open_vswitch
           company: "Open vSwitch"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: http://openvswitch.org/
@@ -1940,9 +1778,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/open-vswitch
         - item:
           name: "Plumgrid"
-          slug_name: plumgrid
           company: "VMware"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.vmware.com/products/nsx.html
@@ -1952,9 +1789,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/plumgrid
         - item:
           name: "Romana"
-          slug_name: romana
           company: "Romana"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: http://romana.io/
@@ -1962,9 +1798,8 @@ landscape:
           raw_logo: http://romana.io/images/Logo.250.png
         - item:
           name: "Sanproute"
-          slug_name: snaperoute
           company: "Sanproute"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://snaproute.com/
@@ -1974,19 +1809,19 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/snaproute
         - item:
           name: "CNI"
-          slug_name: cni
-          company: "Tigera"
-          cncf_hosted_project: true
+          company: "CNCF"
+          cncf_project: true
           oss: true
           commercial: false
           homepage_url: https://github.com/containernetworking
           repo_url: https://github.com/containernetworking
           raw_logo: https://raw.githubusercontent.com/cncf/artwork/master/cni/stacked/color/cni-stacked-color.png
+          external:
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
         - item:
           name: "Weavenet"
-          slug_name: weavenet
           company: "Weaveworks"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.weave.works/docs/net/latest/overview/
@@ -1997,17 +1832,14 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/weaveworks
   - category:
     name: "App Definition and Developement"
-    slug_name: app_definition_development
     subcategories:
       - subcategory:
         name: "Database and Data Warehouse"
-        slug_name: database_data_warehouse
         items:
         - item:
           name: "TiDB"
-          slug_name: tidb
           company: "PingCAP"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://pingcap.com/index
@@ -2018,9 +1850,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/pingcap
         - item:
           name: "MySQL"
-          slug_name: mysql
           company: "MySQL"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.oracle.com/mysql/index.html
@@ -2029,12 +1860,11 @@ landscape:
           stock_ticker: 'ORCL'
           external:
             twitter: https://twitter.com/mysql
-            crunchbase: https://www.mysql.com/common/logos/logo-mysql-170x115.png
+            crunchbase: https://www.crunchbase.com/organization/mysql
         - item:
           name: "Postgres"
-          slug_name: postgres
           company: "PostgresSQL"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.postgresql.org/
@@ -2042,12 +1872,11 @@ landscape:
           raw_logo: https://raw.githubusercontent.com/docker-library/docs/01c12653951b2fe592c1f93a13b4e289ada0e3a1/postgres/logo.png
           external:
             twitter: https://twitter.com/postgresql
-            crunchbase:  https://twitter.com/postgresql
+            crunchbase:  https://www.crunchbase.com/organization/postgresql
         - item:
           name: "Oracle"
-          slug_name: oracle
           company: "Oracle"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://developer.oracle.com/
@@ -2058,9 +1887,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/oracle
         - item:
           name: "SQL Server"
-          slug_name: sql_server
           company: "Microsoft"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.microsoft.com/en-us/sql-server
@@ -2068,12 +1896,11 @@ landscape:
           stock_ticker: 'MSFT'
           external:
             twitter: https://twitter.com/SQLServer
-            crunchbase: https://www.crunchbase.com/organization/microsoft-sql-server
+            crunchbase: https://www.crunchbase.com/organization/microsoft
         - item:
           name: "IBM DB2"
-          slug_name: ibm_db2
           company: "IBM"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.ibm.com/analytics/us/en/db2/
@@ -2084,9 +1911,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/ibm
         - item:
           name: "MongoDB"
-          slug_name: mongodb
           company: "MongoDB"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.mongodb.com/
@@ -2097,9 +1923,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/mongodb-inc
         - item:
           name: "Cassandra"
-          slug_name: cassandra
           company: "Apache"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: http://cassandra.apache.org/
@@ -2107,12 +1932,11 @@ landscape:
           raw_logo: https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Cassandra_logo.svg/279px-Cassandra_logo.svg.png
           external:
             twitter: https://twitter.com/cassandra
-            crunchbase: https://www.crunchbase.com/organization/apache-cassandra
+            crunchbase: https://www.crunchbase.com/organization/apache
         - item:
           name: "Redis"
-          slug_name: redis
           company: "Redis"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://redis.io/
@@ -2120,12 +1944,11 @@ landscape:
           raw_logo: https://blog.newrelic.com/wp-content/uploads/redis.png
           external:
             twitter: https://twitter.com/redisfeed
-            crunchbase: https://www.crunchbase.com/product/redis
+            crunchbase: https://www.crunchbase.com/organization/redis-labs
         - item:
           name: "MariaDB"
-          slug_name: mariadb
           company: "MariaDB"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://mariadb.org/
@@ -2136,9 +1959,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/mariadb-2
         - item:
           name: "Crate.io"
-          slug_name: crateio
           company: "Crate"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://crate.io/
@@ -2149,9 +1971,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/crate-technology
         - item:
           name: "NomsDB"
-          slug_name: nomsdb
           company: "attic-labs"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://github.com/attic-labs/noms
@@ -2159,12 +1980,11 @@ landscape:
           raw_logo: https://pbs.twimg.com/profile_images/759150998753378304/GoY-XdnG_400x400.jpg
           external:
             twitter: https://twitter.com/nomsdb
-            crunchbase: https://www.crunchbase.com/product/noms
+            crunchbase: https://www.crunchbase.com/organization/attic-labs
         - item:
           name: "BigchainDB"
-          slug_name: bigchaindb
           company: "BigchainDB"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.bigchaindb.com/
@@ -2175,9 +1995,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/bigchaindb
         - item:
           name: "Couchbase"
-          slug_name: couchbase
           company: "Counchbase"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.couchbase.com/
@@ -2188,9 +2007,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/couchbase
         - item:
           name: "CockroachDB"
-          slug_name: cockroachdb
           company: "CockroachDB"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.cockroachlabs.com/
@@ -2201,9 +2019,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/cockroach-labs
         - item:
           name: "RethinkDB"
-          slug_name: rethinkdb
           company: "RethinkDB"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.rethinkdb.com/
@@ -2214,9 +2031,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/rethinkdb
         - item:
           name: "Vitess"
-          slug_name: vitess
           company: "Google"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: http://vitess.io/
@@ -2227,9 +2043,8 @@ landscape:
             twitter: https://twitter.com/vitessio
         - item:
           name: "SQL Data Warehouse"
-          slug_name: sql_data_warehouse
           company: "Microsoft"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://azure.microsoft.com/
@@ -2237,12 +2052,11 @@ landscape:
           stock_ticker: 'MSFT'
           external:
             twitter: https://twitter.com/azure
-            crunchbase: https://www.crunchbase.com/product/windows-azure
+            crunchbase: https://www.crunchbase.com/organization/microsoft
         - item:
           name: "Snowflake"
-          slug_name: snowflake
           company: "Snowflake Computing"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.snowflake.net/
@@ -2252,9 +2066,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/snowflake-computing
         - item:
           name: "Druid"
-          slug_name: druid
           company: "Druid"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: http://druid.io/
@@ -2264,9 +2077,8 @@ landscape:
             twitter: https://twitter.com/druidio
         - item:
           name: "Qubole"
-          slug_name: qubole
           company: "Qubole"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.qubole.com/
@@ -2276,9 +2088,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/qubole
         - item:
           name: "CarbonData"
-          slug_name: carbondata
           company: "Apache"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: http://carbondata.apache.org/
@@ -2289,9 +2100,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/apache
         - item:
           name: "Vertica"
-          slug_name: vertica
           company: "HPE"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.vertica.com/
@@ -2302,9 +2112,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/vertica-systems
         - item:
           name: "Hadoop"
-          slug_name: hadoop
           company: "Apache"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: http://hadoop.apache.org/
@@ -2312,12 +2121,11 @@ landscape:
           raw_logo: https://www.contegix.com/wp-content/uploads/2015/09/Hadoop.png
           external:
             twitter: https://twitter.com/hadoop
-            crunchbase: https://www.crunchbase.com/product/hadoop
+            crunchbase: https://www.crunchbase.com/organization/hadoop
         - item:
           name: "Iguazio"
-          slug_name: iquazio
           company: "iguazio"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.iguazio.com/
@@ -2328,9 +2136,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/iguaz-io
         - item:
           name: "MemSQL"
-          slug_name: memsql
           company: "MemSQL"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.memsql.com/
@@ -2341,9 +2148,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/memsql
         - item:
           name: "Pachyderm"
-          slug_name: pachyderm
           company: "Pachyderm"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: http://www.pachyderm.io/
@@ -2354,9 +2160,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/pachyderm
         - item:
           name: "Scylla"
-          slug_name: scylla
           company: "scylla"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: http://www.scylladb.com/
@@ -2367,13 +2172,11 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/scylladb
       - subcategory:
         name: "Streaming"
-        slug_name: streaming
         items:
         - item:
           name: "Kafka"
-          slug_name: kafka
           company: "Apache"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://kafka.apache.org/
@@ -2384,9 +2187,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/apache
         - item:
           name: "Dataflow"
-          slug_name: dataflow
           company: "Google"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://cloud.google.com/dataflow/
@@ -2397,9 +2199,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/google-cloud-platform
         - item:
           name: "Spark Streaming"
-          slug_name: spark_streaming
           company: "Apache"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://spark.apache.org/streaming/
@@ -2407,12 +2208,11 @@ landscape:
           raw_logo: https://spark.apache.org/images/spark-logo-trademark.png
           external:
             twitter: https://twitter.com/apachespark
-            crunchbase: https://www.crunchbase.com/organization/apache-spark
+            crunchbase: https://www.crunchbase.com/organization/apache
         - item:
           name: "Heron"
-          slug_name: heron
           company: "Twitter"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://twitter.github.io/heron/
@@ -2424,9 +2224,8 @@ landscape:
             crunchbase:
         - item:
           name: "Flink"
-          slug_name: flink
           company: "Apache"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://flink.apache.org/
@@ -2437,9 +2236,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/apache
         - item:
           name: "Apex"
-          slug_name: apex
           company: "Apache"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://apex.apache.org/
@@ -2450,9 +2248,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/apache
         - item:
           name: "Apache Storm"
-          slug_name: apache_storm
-          company: "Apache Storm"
-          cncf_hosted_project: false
+          company: "Apache"
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: http://storm.apache.org/
@@ -2460,12 +2257,11 @@ landscape:
           raw_logo: http://storm.apache.org/images/logo.png
           external:
             twitter: https://twitter.com/stormprocessor
-            crunchbase: https://www.crunchbase.com/product/storm
+            crunchbase: https://www.crunchbase.com/organization/apache
         - item:
           name: "RabbitMQ"
-          slug_name: rabiitmq
-          company: "RabbitMQ"
-          cncf_hosted_project: false
+          company: "Rabbit Technologies"
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.rabbitmq.com/
@@ -2473,12 +2269,11 @@ landscape:
           raw_logo:  https://neoteric.eu/wp-content/uploads/2016/06/rabbitmq_logo.png
           external:
             twitter: https://twitter.com/rabbitmq
-            crunchbase: https://www.crunchbase.com/product/rabbitmq
+            crunchbase: https://www.crunchbase.com/organization/rabbit-technologies
         - item:
           name: "NATS"
-          slug_name: nats
           company: "Apache"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://nats.io/
@@ -2489,9 +2284,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/apache
         - item:
           name: "ApacheNiFi"
-          slug_name: apachenifi
           company: "Apache"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://nifi.apache.org/
@@ -2502,9 +2296,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/apache
         - item:
           name: "Pulsar"
-          slug_name: pulsar
           company: "Apache"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://pulsar.apache.org/
@@ -2515,9 +2308,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/apache
         - item:
           name: "StreamSets"
-          slug_name: streamsets
           company: "StreamSets"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://streamsets.com/
@@ -2528,9 +2320,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/streamsets
         - item:
           name: "Kinesis"
-          slug_name: kinesis
           company: "Amazon Web Services"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://aws.amazon.com/kinesis/
@@ -2541,13 +2332,11 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/amazon-web-services
       - subcategory:
         name: "SCM"
-        slug_name: scm
         items:
         - item:
           name: "BibBucket"
-          slug_name: bitbucket
           company: "Atlassian"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://bitbucket.org/
@@ -2557,9 +2346,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/bitbucket
         - item:
           name: "GitLab"
-          slug_name: gitlab
           company: "GitLab"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://gitlab.com/
@@ -2570,9 +2358,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/gitlab-com
         - item:
           name: "GitHub"
-          slug_name: github
           company: "GitHub"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://github.com/
@@ -2582,9 +2369,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/github
         - item:
           name: "Microsoft Visual Studio Team Services"
-          slug_name: microsoft_visual_studio_team_services
           company: "Microsoft"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.visualstudio.com/team-services/
@@ -2593,16 +2379,14 @@ landscape:
           stock ticker: MSFT
           external:
             twitter: https://twitter.com/vsts
-            crunchbase: https://www.crunchbase.com/organization/visual-studio
+            crunchbase: https://www.crunchbase.com/organization/microsoft
       - subcategory:
         name: "Application Definition & Image Build"
-        slug_name: app_definition_image_build
         items:
         - item:
           name: "KubeVirt"
-          slug_name: kubevirt
           company: "KubeVirt"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: http://www.kubevirt.io/
@@ -2612,9 +2396,8 @@ landscape:
             twitter: https://twitter.com/kubevirt
         - item:
           name: "Packer"
-          slug_name: packer
           company: "Hashicorp"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.packer.io/intro/index.html
@@ -2625,9 +2408,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/hashicorp
         - item:
           name: "Compose"
-          slug_name: compose
           company: "Docker"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://docs.docker.com/compose/
@@ -2638,9 +2420,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/docker
         - item:
           name: "Habitat"
-          slug_name: habitat
           company: "Chef"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.habitat.sh/
@@ -2648,12 +2429,11 @@ landscape:
           raw_logo: http://container-solutions.com/content/uploads/2016/08/habitat.png
           external:
             twitter: https://twitter.com/hashtag/habitatsh
-            crunchbase: https://www.crunchbase.com/product/habitat-2
+            crunchbase: https://www.crunchbase.com/organization/chef
         - item:
           name: "Brooklyn"
-          slug_name: brooklyn
           company: "Apache"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://brooklyn.apache.org/
@@ -2664,9 +2444,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/apache
         - item:
           name: "Bitnami"
-          slug_name: bitnami
           company: "Bitnami"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://bitnami.com/
@@ -2676,9 +2455,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/bitnami
         - item:
           name: "OpenAPI"
-          slug_name: openapi
           company: "OpenAPI"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.openapis.org/
@@ -2689,13 +2467,11 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/the-open-api-initiative
       - subcategory:
         name: "CI/CD"
-        slug_name: ci_cd
         items:
         - item:
           name: "Jenkins"
-          slug_name: jenkins
           company: "Jenkins CI"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://jenkins.io/
@@ -2706,9 +2482,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/jenkins-ci
         - item:
           name: "Travis"
-          slug_name: travis
           company: "Travis CI"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://travis-ci.com/
@@ -2719,9 +2494,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/travis-ci
         - item:
           name: "Octopus Deploy"
-          slug_name: octopus_deploy
           company: "Octopus"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://octopus.com/
@@ -2732,9 +2506,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/octopus-deploy
         - item:
           name: "CircleCI"
-          slug_name: circleci
           company: "CircleCI"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://circleci.com/
@@ -2745,9 +2518,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/circle-ci
         - item:
           name: "Drone"
-          slug_name: drone
           company: "Drone"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: http://try.drone.io/
@@ -2758,9 +2530,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/drone-io
         - item:
           name: "Codeship"
-          slug_name: codeship
           company: "Codeship"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://codeship.com/
@@ -2770,9 +2541,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/codeship
         - item:
           name: "Bamboo"
-          slug_name: bamboo_atlassian
           company: "Atlassian"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.atlassian.com/software/bamboo/
@@ -2783,9 +2553,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/atlassian
         - item:
           name: "Cloudbees"
-          slug_name: cloudbees
           company: "Cloudbees"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.cloudbees.com/
@@ -2796,9 +2565,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/cloudbees
         - item:
           name: "Spinnaker"
-          slug_name: spinnaker
           company: "Spinnaker"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.spinnaker.io/
@@ -2808,9 +2576,8 @@ landscape:
             twitter: https://twitter.com/spinnakerio
         - item:
           name: "Shippable"
-          slug_name: shippable
           company: "Shippable"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: http://www.shippable.com/
@@ -2820,9 +2587,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/shippable
         - item:
           name: "Wercker"
-          slug_name: wercker
           company: "Oracle"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.wercker.com/
@@ -2834,21 +2600,19 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/wercker
         - item:
           name: "Codefresh"
-          slug_name: codefresh
           company: "Codefresh"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://codefresh.io/
           raw_logo: https://crunchbase-production-res.cloudinary.com/image/upload/v1470258929/hhinf38lttfyrjbz1h3t.jpg
           external:
             twitter: https://twitter.com/codefresh
-            crunchbase: https://www.crunchbase.com/organization/code-fresh#/entity
+            crunchbase: https://www.crunchbase.com/organization/code-fresh
         - item:
           name: "BuddyBuild"
-          slug_name: buddybuild
           company: "BuddyBuild"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.buddybuild.com/
@@ -2858,9 +2622,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/buddybuild
         - item:
           name: "Distelli"
-          slug_name: distelli
           company: "Distelli"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.distelli.com/
@@ -2870,9 +2633,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/distelli-inc
         - item:
           name: "Solano Labs"
-          slug_name: solano_labs
           company: "Solano Labs"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.solanolabs.com/
@@ -2882,9 +2644,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/solano-labs
         - item:
           name: "Semaphore"
-          slug_name: semaphore
           company: "Semaphore"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://semaphoreci.com/
@@ -2894,9 +2655,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/semaphore
         - item:
           name: "ContainerOps"
-          slug_name: containerops
           company: "Huawei"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: http://containerops.org/
@@ -2906,9 +2666,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/huawei
         - item:
           name: "Appveyor"
-          slug_name: appveyor
           company: "Appveyor Systems"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.appveyor.com/
@@ -2918,9 +2677,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/appveyor-systems-inc
         - item:
           name: "Gitlab Runner"
-          slug_name: gitlab_runner
           company: "Gitlab"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://about.gitlab.com/
@@ -2931,9 +2689,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/gitlab-com
         - item:
           name: "Buildkite"
-          slug_name: buildkite
           company: "Buildkite"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://buildkite.com/
@@ -2944,9 +2701,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/buildkite
         - item:
           name: "Concourse"
-          slug_name: concourse
           company: "Concourse"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://concourse.ci/
@@ -2956,9 +2712,8 @@ landscape:
             twitter: https://twitter.com/concourseci
         - item:
           name: "XL Deploy"
-          slug_name: xl_deploy
           company: "XebiaLabs"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://xebialabs.com/products/xl-deploy/
@@ -2969,29 +2724,25 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/xebialabs
   - category:
     name: "Platform"
-    slug_name: platform
     subcategories:
       - subcategory:
         name: "PaaS/Container Service"
-        slug_name: paas_container_service
         items:
         - item:
           name: "Tectonic"
-          slug_name: tectonic
           company: "CoreOS"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://coreos.com/tectonic
           raw_logo: https://i0.wp.com/containerjournal.com/wp-content/uploads/2015/07/tectonic-bycoreos-color-copy.png
           external:
             twitter: https://twitter.com/tectonicstack
-            crunchbase: https://www.crunchbase.com/product/tectonic
+            crunchbase: https://www.crunchbase.com/organization/coreos
         - item:
           name: "Cloud Foundry"
-          slug_name: cloud_foundry
           company: "Cloud Foundry"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.cloudfoundry.org/
@@ -3002,9 +2753,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/cloud-foundry
         - item:
           name: "OpenShift"
-          slug_name: openshift
           company: "OpenShift"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.openshift.com/
@@ -3015,9 +2765,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/openshift
         - item:
           name: "DC/OS"
-          slug_name: dc_os
           company: "Mesophere"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://mesosphere.com/product/
@@ -3028,9 +2777,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/mesosphere
         - item:
           name: "Apcera"
-          slug_name: apcera
           company: "Ericsson"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.apcera.com/
@@ -3040,9 +2788,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/apcera
         - item:
           name: "Apprenda"
-          slug_name: apprenda
           company: "Apprenda"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://apprenda.com/
@@ -3052,9 +2799,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/apprenda
         - item:
           name: "Rancher"
-          slug_name: rancher
           company: "Rancher Labs"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: http://rancher.com/
@@ -3065,9 +2811,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/rancher-labs
         - item:
           name: "Kublr"
-          slug_name: kublr
           company: "kublr"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: http://kublr.com/
@@ -3078,9 +2823,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/kublr
         - item:
           name: "Photon"
-          slug_name: photon
           company: "VMware"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://vmware.github.io/photon/
@@ -3090,9 +2834,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/vmware
         - item:
           name: "Platform.sh"
-          slug_name: platform.sh
           company: "Platform.sh"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://platform.sh/
@@ -3103,21 +2846,19 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/commerce-guys
         - item:
           name: "Platform9"
-          slug_name: platform9
-          company: "Platform9"
-          cncf_hosted_project: false
+          company: "Platform9 Systems"
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://platform9.com/
           raw_logo: https://pbs.twimg.com/profile_images/873285512097710081/6fZyym9Q_400x400.jpg
           external:
             twitter: https://twitter.com/Platform9Sys
-            crunchbase: https://pbs.twimg.com/profile_images/873285512097710081/6fZyym9Q_400x400.jpg
+            crunchbase: https://www.crunchbase.com/organization/platform9-systems-inc
         - item:
           name: "Flynn"
-          slug_name: flynn
           company: "Flynn"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://flynn.io/
@@ -3128,9 +2869,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/flynn
         - item:
           name: "Datawire"
-          slug_name: datawire
           company: "Datawire"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.datawire.io/
@@ -3140,9 +2880,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/datawire
         - item:
           name: "Atomist"
-          slug_name: atomist
           company: "Atomist"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.atomist.com/
@@ -3152,9 +2891,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/atomist
         - item:
           name: "Iron.io"
-          slug_name: iron_io
           company: "Iron.io"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.iron.io/
@@ -3165,9 +2903,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/iron-io
         - item:
           name: "PaaSTA"
-          slug_name: paasta
           company: "Yelp"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://engineeringblog.yelp.com/2015/11/introducing-paasta-an-open-platform-as-a-service.html
@@ -3179,9 +2916,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/yelp
         - item:
           name: "Empire"
-          slug_name: empire
           company:  "Remind"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: http://engineering.remind.com/
@@ -3189,12 +2925,11 @@ landscape:
           raw_logo: https://upload.wikimedia.org/wikipedia/en/d/df/Remind_app_logo.png
           external:
             twitter: https://twitter.com/remindeng
-            crunchbase: https://www.crunchbase.com/organization/remind101
+            crunchbase: https://www.crunchbase.com/organization/remind
         - item:
           name: "Nirmata"
-          slug_name: nirmata
           company: Nirmata
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.nirmata.com/
@@ -3205,21 +2940,19 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/nirmata
         - item:
           name: "Giant Swarm"
-          slug_name: giant_swarm
           company: "Giant Swarm"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://giantswarm.io/
           raw_logo: https://crunchbase-production-res.cloudinary.com/image/upload/v1409923504/woifk3fzca4pit2qa3pq.jpg
           external:
             twitter: https://twitter.com/giantswarm
-            crunchbase: https://twitter.com/giantswarm
+            crunchbase: https://www.crunchbase.com/organization/giant-swarm
         - item:
           name: "Cloud66"
-          slug_name: cloud66
           company: "Cloud66"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.cloud66.com/
@@ -3229,9 +2962,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/cloudblocks
         - item:
           name: "Kontena"
-          slug_name: kontena
           company: "Kontena"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://kontena.io/
@@ -3239,12 +2971,11 @@ landscape:
           raw_logo: https://crunchbase-production-res.cloudinary.com/image/upload/v1464604878/uzdj9miitxbfr56opwju.png
           external:
             twitter: https://twitter.com/KontenaInc
-            crunchbase: https://www.crunchbase.com/organization/Kontena
+            crunchbase: https://www.crunchbase.com/organization/kontena
         - item:
           name: "Kubermatic"
-          slug_name: kubermatic
           company: "Kubermatic"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://cloud.kubermatic.io/
@@ -3254,9 +2985,8 @@ landscape:
             twitter: https://twitter.com/kubermatic
         - item:
           name: "Gravitational"
-          slug_name: gravitational
           company: "Gravitational"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://gravitational.com/
@@ -3266,9 +2996,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/gravitational
         - item:
           name: "Navops"
-          slug_name: navops
           company: "Navops"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.navops.io/
@@ -3278,9 +3007,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/navops
         - item:
           name: "Heroku"
-          slug_name: heroku
           company: "Salesforce"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.heroku.com/home
@@ -3291,9 +3019,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/heroku
         - item:
           name: "Mantl"
-          slug_name: mantl
           company: "Mantl"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://mantl.io/
@@ -3303,9 +3030,8 @@ landscape:
             twitter: https://twitter.com/usemantl
         - item:
           name: "Mirantis"
-          slug_name: mirantis
           company: "Mirantis"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.mirantis.com/
@@ -3316,9 +3042,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/mirantis
         - item:
           name: "goPaddle"
-          slug_name: gopaddle
           company: "Bluemeric"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.gopaddle.io/#/
@@ -3329,9 +3054,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/bluemeric
         - item:
           name: "Hyper"
-          slug_name: hyper
           company: "Hyper"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.hyper.sh/
@@ -3342,9 +3066,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/hyper-4
         - item:
           name: "Exoscale"
-          slug_name: exoscale
           company: "Exoscale"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.exoscale.ch/
@@ -3355,9 +3078,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/exoscale
         - item:
           name: "JHipster"
-          slug_name: jhipster
           company: "JHipster"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: http://www.jhipster.tech/
@@ -3367,22 +3089,20 @@ landscape:
             twitter: https://twitter.com/java_hipster
         - item:
           name: "Moby"
-          slug_name: moby
           company: "Docker"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://mobyproject.org/
-          repo_url: https://github.com/moby/moby/blob/moby/README.md
+          repo_url: https://github.com/moby/moby
           raw_logo: https://raw.githubusercontent.com/moby/moby/moby/docs/static_files/moby-project-logo.png
           external:
             twitter: https://twitter.com/moby
             crunchbase: https://www.crunchbase.com/organization/docker
         - item:
           name: "Galactic Fog"
-          slug_name: galactic_fog
           company: "Galactic Fog"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: http://www.galacticfog.com/
@@ -3392,22 +3112,20 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/galactic-fog
         - item:
           name: "ContainerLinux"
-          slug_name: containerlinux
           company: "CoreOS"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://coreos.com/products/container-linux-subscription/
-          repo_url: https://github.com/coreos/docs/
+          repo_url: https://github.com/coreos/docs
           raw_logo: https://d7umqicpi7263.cloudfront.net/img/product/0d1e0bd0-eaea-4397-9a3a-c56f861d2a14/f234a5bf-d91a-45d8-abe8-f16744f57a6d.PNG
           external:
             twitter: https://twitter.com/containerlinux
             crunchbase: https://www.crunchbase.com/organization/coreos
         - item:
           name: "Ubuntu"
-          slug_name: ubuntu
-          company: "Canonical"
-          cncf_hosted_project: false
+          company: "Ubuntu"
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.ubuntu.com/
@@ -3417,9 +3135,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/ubuntu
         - item:
           name: "Lightbend"
-          slug_name: lightbend
           company: "Lightbend"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.lightbend.com/
@@ -3430,9 +3147,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/typesafe
         - item:
           name: "Deis"
-          slug_name: deis
           company: "Microsoft"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://deis.com/
@@ -3441,12 +3157,11 @@ landscape:
           stock_ticker: 'MSFT'
           external:
             twitter: https://twitter.com/opendeis
-            crunchbase: https://www.crunchbase.com/product/deis
+            crunchbase: https://www.crunchbase.com/organization/microsoft
         - item:
           name: "Docker Cloud"
-          slug_name: docker_cloud
           company: "Docker"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://cloud.docker.com/
@@ -3456,9 +3171,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/docker
         - item:
           name: "Tsuru"
-          slug_name: tsuru
           company: "Tsuru"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://tsuru.io/
@@ -3468,9 +3182,8 @@ landscape:
             twitter: https://twitter.com/tsurupaas
         - item:
           name: "ContainerShip"
-          slug_name: containership
           company: "ContainerShip"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://containership.io/
@@ -3480,9 +3193,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/containership
         - item:
           name: "Convox"
-          slug_name: convox
           company: "Convox"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://convox.com/
@@ -3493,9 +3205,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/convox
         - item:
           name: "GKE"
-          slug_name: gke
           company: "Google"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://cloud.google.com/container-engine/
@@ -3506,9 +3217,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/google-cloud-platform
         - item:
           name: "Portainer"
-          slug_name: portainer
           company: "Portainer"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://portainer.io/
@@ -3516,9 +3226,8 @@ landscape:
           raw_logo: https://camo.githubusercontent.com/c57e3786d84c99f21e453c6500d8e0333a2cf6d9/68747470733a2f2f706f727461696e65722e696f2f696d616765732f6c6f676f5f616c742e706e67
         - item:
           name: "Pusher"
-          slug_name: pusher
           company: "Pusher"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://pusher.com/team
@@ -3529,9 +3238,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/pusher
         - item:
           name: "Remind"
-          slug_name: remind
           company: "Remind"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.remind.com/
@@ -3542,9 +3250,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/remind
         - item:
           name: "Scalingo"
-          slug_name: scalingo
           company: "Scalingo"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://scalingo.com/
@@ -3555,9 +3262,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/scalingo
         - item:
           name: "StackPointCloud"
-          slug_name: stackpointcloud
           company: "StackPointCloud"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://cloud.google.com/container-engine/
@@ -3566,9 +3272,8 @@ landscape:
             twitter: https://twitter.com/stackpointcloud
         - item:
           name: "Supergiant"
-          slug_name: supergiant
-          company: "QBox"
-          cncf_hosted_project: false
+          company: "Supergiant"
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://supergiant.io/
@@ -3579,9 +3284,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/supergiant
         - item:
           name: "SUSE Caas Platform"
-          slug_name: suse_caas_platform
           company: "SUSE"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.suse.com/products/caas-platform/
@@ -3592,13 +3296,11 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/suse
       - subcategory:
         name: "Serverless/Event-based"
-        slug_name: serverless_event_based
         items:
         - item:
           name: "Lambda"
-          slug_name: lambda
           company: "Amazon Web Services"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://aws.amazon.com/lambda/
@@ -3606,12 +3308,11 @@ landscape:
           stock_ticker: 'AMZN'
           external:
             twitter: https://twitter.com/awscloud
-            crunchbase: https://www.crunchbase.com/product/aws-lambda
+            crunchbase: https://www.crunchbase.com/organization/amazon-web-services
         - item:
           name: "OpenFAAS"
-          slug_name: openfaas
           company: "openfaas"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.openfaas.com
@@ -3622,9 +3323,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/openfaas
         - item:
           name: "Google Cloud Functions"
-          slug_name: google_cloud_functions
           company: "Google"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://cloud.google.com/functions/
@@ -3635,9 +3335,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/google-cloud-platform
         - item:
           name: "OpenWhisk"
-          slug_name: openwhisk
           company: "Apache"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: http://openwhisk.incubator.apache.org/
@@ -3648,9 +3347,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/apache
         - item:
           name: "Oracle Application Container Cloud"
-          slug_name: oracle_application_container_cloud
           company: "Oracle"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://cloud.oracle.com/acc
@@ -3661,9 +3359,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/oracle
         - item:
           name: "Firebase BLOCKS"
-          slug_name: firebaseblocks
-          company: "Google"
-          cncf_hosted_project: false
+          company: "Firebase"
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://firebase.google.com/
@@ -3674,21 +3371,19 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/firebase
         - item:
           name: "Webtask"
-          slug_name: webtask
-          company: "Auth0"
-          cncf_hosted_project: false
+          company: "Webtask"
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://webtask.io/
           raw_logo: https://cdn-images-1.medium.com/max/698/1*4SkA3yFoWNsuH3PPVCpKvQ.png
           external:
             twitter: https://twitter.com/webtaskio
-            crunchbase: https://twitter.com/webtaskio
+            crunchbase: https://www.crunchbase.com/organization/webtask
         - item:
           name: "Fission"
-          slug_name: fission
           company: "Platform9"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: http://fission.io/
@@ -3699,9 +3394,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/platform9-systems-inc
         - item:
           name: "PubNub"
-          slug_name: pubnub
           company: "Blocks"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.pubnub.com/docs/blocks-catalog
@@ -3711,9 +3405,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/pubnub
         - item:
           name: "Apex"
-          slug_name: apex
           company: "apex"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: apex.run
@@ -3723,9 +3416,8 @@ landscape:
             twitter: https://twitter.com/apexserverless
         - item:
           name: "Serverless"
-          slug_name: serverless
           company: "Serverless"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://serverless.com/
@@ -3736,9 +3428,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/serverless
         - item:
           name: "Kubeless"
-          slug_name: kubeless
           company: "Kubeless"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: http://kubeless.io/
@@ -3748,9 +3439,8 @@ landscape:
             twitter: https://twitter.com/hashtag/kubeless
         - item:
           name: "NStack"
-          slug_name: nstack
           company: "NStack"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://nstack.com/
@@ -3760,9 +3450,8 @@ landscape:
             twitter: https://twitter.com/nstackcom
         - item:
           name: "Nuclio"
-          slug_name: nuclio
           company: "Iguazio"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://nuclio.io/
@@ -3773,9 +3462,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/iguaz-io
         - item:
           name: "Azure Functions"
-          slug_name: azure_functions
           company: "Microsoft"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://azure.microsoft.com/en-us/services/functions/
@@ -3783,32 +3471,28 @@ landscape:
           stock_ticker: 'MSFT'
           external:
             twitter: https://twitter.com/azurefunctions
-            crunchbase: https://www.crunchbase.com/product/windows-azure
+            crunchbase: https://www.crunchbase.com/organization/microsoft
   - category:
     name: "Observability and Analysis"
-    slug_name: observability_analysis
     subcategories:
       - subcategory:
         name: "Monitoring"
-        slug_name: monitoring
         items:
         - item:
           name: "StatsDB"
-          slug_name: statsdb
           company: "Earlham Institute"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: http://www.earlham.ac.uk/statsdb
-          repo_url: https://github.com/TGAC/StatsDB/
+          repo_url: https://github.com/TGAC/StatsDB
           raw_logo: http://www.earlham.ac.uk/sites/default/files/images/pages/Tools%20and%20resources/Tools%20detail/StatsDB/statsdb.jpg
           external:
             twitter: https://twitter.com/EarlhamInst
         - item:
           name: "New Relic"
-          slug_name: new_relic
           company: "New Relic"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://newrelic.com/
@@ -3819,9 +3503,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/new-relic
         - item:
           name: "AppDynamics"
-          slug_name: appdynamics
           company: "Cisco"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.appdynamics.com/
@@ -3831,9 +3514,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/appdynamics
         - item:
           name: "Axibase"
-          slug_name: axibase
           company: "Axibase"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://axibase.com/
@@ -3843,21 +3525,19 @@ landscape:
             twitter: https://twitter.com/axibase
         - item:
           name: "Datadog"
-          slug_name: datadog
           company: "Datadog"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.datadoghq.com/
           raw_logo: https://crunchbase-production-res.cloudinary.com/image/upload/e9d7401fbbda172d5b1972370437a4be.png
           external:
             twitter: https://twitter.com/datadoghq
-            crunchbase: https://www.crunchbase.com/organization/datadog#/entity
+            crunchbase: https://www.crunchbase.com/organization/datadog
         - item:
           name: "CloudWATCH"
-          slug_name: cloudwatch
           company: "Amazon Web Services"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://aws.amazon.com/cloudwatch/
@@ -3865,12 +3545,11 @@ landscape:
           stock_ticker: 'AMZN'
           external:
             twitter: https://twitter.com/awscloud
-            crunchbase: https://www.crunchbase.com/product/amazon-web-services
+            crunchbase: https://www.crunchbase.com/organization/amazon-web-services
         - item:
           name: "Stackdriver"
-          slug_name: stackdriver
           company: "Google"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://cloud.google.com/stackdriver/
@@ -3881,9 +3560,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/stackdriver
         - item:
           name: "Prometheus"
-          slug_name: prometheus
-          company: "cncf"
-          cncf_hosted_project: true
+          company: "CNCF"
+          cncf_project: true
           oss: true
           commercial: false
           homepage_url: https://prometheus.io/
@@ -3891,12 +3569,11 @@ landscape:
           raw_logo: https://raw.githubusercontent.com/cncf/artwork/master/prometheus/stacked/color/prometheus-stacked-color.png
           external:
             twitter: https://twitter.com/PrometheusIO
-            crunchbase: https://www.crunchbase.com/product/prometheus
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
         - item:
           name: "SysDig"
-          slug_name: sysdig
           company: "Draios"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://sysdig.com/
@@ -3907,9 +3584,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/sysdig
         - item:
           name: "Wavefront"
-          slug_name: wavefront
           company: "VMware"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.wavefront.com/
@@ -3919,9 +3595,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/wavefront
         - item:
           name: "Instana"
-          slug_name: instana
           company: "Instana"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.instana.com/
@@ -3931,9 +3606,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/instana
         - item:
           name: "Honeybadger"
-          slug_name: honeybadger
           company: "Honeybadger"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.honeybadger.io/
@@ -3944,9 +3618,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/honeybadger
         - item:
           name: "Icinga"
-          slug_name: icinga
           company: "Icinga"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.icinga.com/
@@ -3957,9 +3630,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/icinga
         - item:
           name: "IronDB"
-          slug_name: irondb
           company: "Circonus"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.circonus.com/irondb/
@@ -3970,9 +3642,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/circonus
         - item:
           name: "Rocana"
-          slug_name: rocana
           company: "Rocana"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.rocana.com/
@@ -3982,9 +3653,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/rocana
         - item:
           name: "OpsClarity"
-          slug_name: opsclarity
           company: "OpsClarity"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.opsclarity.com/
@@ -3994,9 +3664,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/opsclarity
         - item:
           name: "Nagios"
-          slug_name: nagios
           company: "Nagios Enterprises"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.nagios.com/
@@ -4007,9 +3676,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/nagios
         - item:
           name: "Zabbix"
-          slug_name: zabbix
           company: "Zabbix"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.zabbix.com/
@@ -4020,9 +3688,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/zabbix
         - item:
           name: "Graphite"
-          slug_name: graphite
           company: "Graphite"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://graphiteapp.org/
@@ -4030,9 +3697,8 @@ landscape:
           raw_logo: http://blog-centreon-wordpress.s3.amazonaws.com/wp-content/uploads/2017/07/GraphiteLogo.png
         - item:
           name: "InfluxDB"
-          slug_name: influxdb
           company: "InfluxDB"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.influxdata.com/
@@ -4043,9 +3709,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/influxdb
         - item:
           name: "OpenTSDB"
-          slug_name: opentsdb
           company: "OpenTSDB"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: http://opentsdb.net/
@@ -4055,9 +3720,8 @@ landscape:
             twitter: https://twitter.com/opentsdb
         - item:
           name: "Netsil"
-          slug_name: netsil
           company: "Netsil"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://netsil.com/
@@ -4067,9 +3731,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/netsil
         - item:
           name: "Meros"
-          slug_name: meros
           company: "Meros Inc"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://meros.io/
@@ -4079,9 +3742,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/meros-inc
         - item:
           name: "OpBeat"
-          slug_name: opbeat
           company: "OpBeat"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://opbeat.com/
@@ -4091,9 +3753,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/opbeat
         - item:
           name: "Cobe"
-          slug_name: cobe
           company: "Cobe"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://cobe.io/
@@ -4102,9 +3763,8 @@ landscape:
             twitter: https://twitter.com/cobeio
         - item:
           name: "ServerDensity"
-          slug_name: serverdensity
           company: "ServerDensity"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.serverdensity.com/
@@ -4115,9 +3775,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/server-density
         - item:
           name: "Librato"
-          slug_name: librato
           company: "Solarwinds"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.librato.com/
@@ -4127,9 +3786,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/librato
         - item:
           name: "AppNeta"
-          slug_name: appneta
           company: "AppNeta"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.appneta.com/
@@ -4140,9 +3798,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/appneta
         - item:
           name: "Catchpoint Systems"
-          slug_name: catchpoint_systems
           company: "Catchpoint Systems Inc"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: http://www.catchpoint.com/
@@ -4152,9 +3809,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/catchpoint-systems
         - item:
           name: "Dynatrace"
-          slug_name: dynatrace
           company: "Compuware"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.dynatrace.com/
@@ -4164,9 +3820,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/dynatrace-software
         - item:
           name: "CoScale"
-          slug_name: coscale
           company: "CoScale"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.coscale.com/
@@ -4177,9 +3832,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/co-scale
         - item:
           name: "Outlyer"
-          slug_name: outlyer
           company: "Outlyer"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.outlyer.com/
@@ -4189,9 +3843,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/outlyer
         - item:
           name: "Centreon"
-          slug_name: centreon
           company: "Centreon"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.centreon.com/en/
@@ -4202,9 +3855,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/centreon
         - item:
           name: "Lighstep"
-          slug_name: lightstep
           company: "Lightstep"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: http://lightstep.com/
@@ -4214,9 +3866,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/lightstep
         - item:
           name: "Signal FX"
-          slug_name: signal_fx
           company: "Signal FX"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://signalfx.com/
@@ -4226,9 +3877,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/signalfuse
         - item:
           name: "Nodesource"
-          slug_name: nodesource
           company: "Nodesource"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://nodesource.com/
@@ -4238,9 +3888,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/nodesource
         - item:
           name: "Grafana"
-          slug_name: grafana
           company: "Grafana"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://grafana.com/
@@ -4251,9 +3900,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/raintank
         - item:
           name: "Log Analytics"
-          slug_name: log_analytics
           company: "Microsoft"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://azure.microsoft.com/en-us/services/log-analytics/
@@ -4261,12 +3909,11 @@ landscape:
           stock_ticker: 'MSFT'
           external:
             twitter: https://twitter.com/azure
-            crunchbase: https://www.crunchbase.com/product/windows-azure
+            crunchbase: https://www.crunchbase.com/organization/microsoft
         - item:
           name: "Scope"
-          slug_name: scope
           company: "Weaveworks"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.weave.works/
@@ -4277,9 +3924,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/weaveworks
         - item:
           name: "Sensu"
-          slug_name: sensu
           company: "sensu"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://sensuapp.org/
@@ -4290,9 +3936,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/sensu
         - item:
           name: "Sentry"
-          slug_name: sentry
           company: "Functional Software Inc"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://sentry.io/
@@ -4303,9 +3948,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/sentry
         - item:
           name: "StackRox"
-          slug_name: stackrox
           company: "stackrox"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.stackrox.com/
@@ -4316,9 +3960,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/stackrox
         - item:
           name: "StackState"
-          slug_name: stackstate
           company: "stackstate"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.stackstate.com/
@@ -4328,9 +3971,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/stackstate
         - item:
           name: "Weave Cloud"
-          slug_name: weave_cloud
           company: "Weave"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://cloud.weave.works/
@@ -4341,13 +3983,11 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/weaveworks
       - subcategory:
         name: "Logging"
-        slug_name: logging
         items:
         - item:
           name: "Splunk"
-          slug_name: splunk
           company: "Splunk"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.splunk.com/
@@ -4358,9 +3998,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/splunk
         - item:
           name: "Elastic"
-          slug_name: elastic
           company: "Elastic"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.elastic.co/
@@ -4371,9 +4010,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/elasticsearch
         - item:
           name: "Sematext"
-          slug_name: sematext
           company: "Sematext"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://sematext.com/
@@ -4384,9 +4022,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/sematext
         - item:
           name: "SumoLogic"
-          slug_name: sumologic
           company: "Sumo Logic"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.sumologic.com/
@@ -4397,9 +4034,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/sumo-logic
         - item:
           name: "Loggly"
-          slug_name: loggly
           company: "Loggly"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.loggly.com/
@@ -4409,9 +4045,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/loggly
         - item:
           name: "Logz"
-          slug_name: logz
           company: "Logz.io"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://logz.io/
@@ -4421,9 +4056,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/logz-io
         - item:
           name: "FluentD"
-          slug_name: fluentd
           company: "CNCF"
-          cncf_hosted_project: true
+          cncf_project: true
           oss: true
           commercial: false
           homepage_url: https://www.fluentd.org/
@@ -4431,12 +4065,11 @@ landscape:
           raw_logo: https://raw.githubusercontent.com/cncf/artwork/master/fluentd/stacked/color/fluentd-stacked-color.png
           external:
             twitter: https://twitter.com/fluentd
-            crunchbase: https://www.crunchbase.com/product/fluentd
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
         - item:
           name: "Loom Systems"
-          slug_name: loom_systems
           company: "Loom Systems"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: false
           commercial: true
           homepage_url: https://www.loomsystems.com/
@@ -4446,9 +4079,8 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/loom-systems
         - item:
           name: "Graylog"
-          slug_name: graylog
           company: "Graylog"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://www.graylog.org/
@@ -4459,13 +4091,11 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/graylog
       - subcategory:
         name: "Tracing"
-        slug_name: tracing
         items:
         - item:
           name: "OpenTracing"
-          slug_name: opentracing
           company: "CNCF"
-          cncf_hosted_project: true
+          cncf_project: true
           oss: true
           commercial: false
           homepage_url: http://opentracing.io/
@@ -4473,12 +4103,11 @@ landscape:
           raw_logo: https://raw.githubusercontent.com/cncf/artwork/master/opentracing/stacked/color/opentracing-stacked-color.png
           external:
             twitter: https://twitter.com/opentracing
-            crunchbase: https://www.crunchbase.com/product/opentracing#/entity
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
         - item:
           name: "Skywalking"
-          slug_name: skywaling
           company: "Open Skywalking Organization"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: http://skywalking.org/
@@ -4487,9 +4116,8 @@ landscape:
           external:
         - item:
           name: "Zipkin"
-          slug_name: zipkin
           company: "Zipkin"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: http://zipkin.io/
@@ -4499,9 +4127,8 @@ landscape:
             twitter: https://twitter.com/zipkinproject
         - item:
           name: "Jaeger"
-          slug_name: jaeger
-          company: "Uber"
-          cncf_hosted_project: true
+          company: "CNCF"
+          cncf_project: true
           oss: true
           commercial: false
           homepage_url: https://uber.github.io/jaeger/
@@ -4510,12 +4137,11 @@ landscape:
           stock_ticker: 'UBER'
           external:
             twitter: https://twitter.com/UberEng
-            crunchbase: https://www.crunchbase.com/organization/uber
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
         - item:
           name: "Cloud Sleuth"
-          slug_name: cloud_sleuth
           company: "Spring"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://cloud.spring.io/spring-cloud-sleuth/
@@ -4523,9 +4149,8 @@ landscape:
           raw_logo:  https://pragmaticintegrator.files.wordpress.com/2017/03/spring-cloud.jpg
         - item:
           name: "Appdash"
-          slug_name: appdash
           company: "Sourcegraph"
-          cncf_hosted_project: false
+          cncf_project: false
           oss: true
           commercial: false
           homepage_url: https://github.com/sourcegraph/appdash

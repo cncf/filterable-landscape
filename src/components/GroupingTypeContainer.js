@@ -4,12 +4,18 @@ import { changeGrouping } from '../reducers/mainReducer.js';
 import fields from '../types/fields';
 import _ from 'lodash';
 
-const options = _.keys(fields).map(function(x) {
+const options = [{
+  id: 'no',
+  label: 'No Grouping',
+  url: 'no'
+}].concat(_.keys(fields).map(function(x) {
   return  {
     id: x,
     label: fields[x].groupingLabel
   };
-});
+}).filter(function(x) {
+  return ! fields[x.id].hideInGrouping;
+}));
 
 const mapStateToProps = (state) => ({
   value: state.main.grouping,

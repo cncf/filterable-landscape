@@ -13,8 +13,8 @@
 import _ from 'lodash';
 import lookups from '../lookup.json';
 const fields = {
-  cncfHostedProject: {
-    id: 'cncfHostedProject',
+  cncfProject: {
+    id: 'cncfProject',
     url: 'cncf',
     label: 'CNCF Relation',
     values: [{
@@ -73,12 +73,19 @@ const fields = {
   },
   stars: {
     id: 'stars',
-    label: '(fake) Stars',
+    label: 'Stars',
     category: 'starsCategory',
     values: [{
       id: null,
       label: 'Any',
       url: 'any'
+    }, {
+      id: 'N/A',
+      label: 'N/A',
+      url:'n-a',
+      match: function(x) {
+        return x === 'N/A';
+      }
     }, {
       id: '1to100',
       label:'1-100',
@@ -166,59 +173,78 @@ const fields = {
   },
   license: {
     id: 'license',
-    label: '(fake) License',
+    label: 'License',
     values: [{
       id: null,
       label: 'Any',
       url: 'any'
-    }].concat(lookups.license || [])
+    }].concat(_.orderBy(lookups.license, function(x) {
+      if  (x.id === 'N/A') {
+        return -1;
+      }
+      return lookups.license.indexOf(x);
+    })|| [])
   },
   marketCap: {
     id: 'marketCap',
-    label: '(fake) Market Cap of company',
+    label: 'Market Cap of company',
     category: 'marketCapCategory',
     values: [{
       id: null,
       label: 'Any',
       url: 'any'
     }, {
+      id: 'Not Entered Yet',
+      label: 'Not Entered Yet',
+      url:'not-entered-yet',
+      match: function(x) {
+        return x === 'Not Entered Yet';
+      }
+    }, {
+      id: 'N/A',
+      label: 'N/A',
+      url:'n-a',
+      match: function(x) {
+        return x === 'N/A';
+      }
+    }, {
       id: 'below1m',
       label: '<1M',
       match: function(x) {
-        return x < 1;
+        return x < 1 * 1000 * 1000;
       }
     }, {
       id: '1mto10m',
       label: '1M-10M',
       match: function(x) {
-        return 1 <= x && x < 10 ;
+        return 1 * 1000 * 1000 <= x && x < 10 * 1000 * 1000 ;
       }
     }, {
       id: '10mto100m',
       label: '10M-100M',
       match: function(x) {
-        return 10 <= x && x < 100;
+        return 10 * 1000 * 1000 <= x && x < 100 * 1000 * 1000;
       }
     }, {
       id: '100mto1000m',
       label: '100M-1000M',
       match: function(x) {
-        return 100 <= x && x < 1000;
+        return 100 * 1000 * 1000 <= x && x < 1000 * 1000 * 1000;
       }
     }, {
       id: 'over1000m',
       label: '1000M+',
       match: function(x) {
-        return 1000 <= x;
+        return 1000 * 1000 * 1000 <= x;
       }
     }]
   },
-  vcFunder: {
-    id: 'vcFunder',
-    isArray: true,
-    label: '(fake) VC Funders',
-    values: [].concat(lookups.vcFunder || [])
-  },
+  // vcFunder: {
+    // id: 'vcFunder',
+    // isArray: true,
+    // label: '(fake) VC Funders',
+    // values: [].concat(lookups.vcFunder || [])
+  // },
   company: {
     id: 'company',
     label: 'Company',
@@ -227,12 +253,20 @@ const fields = {
   },
   headquarters: {
     id: 'headquarters',
-    label: '(fake) Headquarters Location',
+    label: 'Headquarters Location',
     values: [{
       id: null,
       label: 'Any',
       url: 'any'
-    }].concat(lookups.headquarters || [])
+    }].concat(_.orderBy(lookups.headquarters, function(x) {
+      if (x.id === 'Not Entered Yet') {
+        return -2;
+      }
+      if  (x.id === 'N/A') {
+        return -1;
+      }
+      return lookups.headquarters.indexOf(x);
+    })|| [])
   },
   landscape: {
     id: 'landscape',
@@ -242,6 +276,11 @@ const fields = {
       label: 'Any',
       url: 'any'
     }].concat(lookups.landscape || [])
+  },
+  startDate: {
+    id: 'startDate',
+    label: 'Project Starting Date',
+    hideInGrouping: true
   }
 };
 _.each(fields, function(field, key) {

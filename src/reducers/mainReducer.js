@@ -9,19 +9,19 @@ import _ from 'lodash';
 export const initialState = {
   data: null,
   filters: {
-    cncfHostedProject: null,
+    cncfProject: null,
     oss: null,
     commercial: null,
     stars: null,
     certifiedKubernetes: null,
     license: null,
     marketCap: null,
-    vcFunder: [],
+    // vcFunder: [],
     company: [],
     headquarters: null,
     landscape: null
   },
-  grouping: 'cncfHostedProject',
+  grouping: 'cncfProject',
   sortField: 'name',
   sortDirection: 'asc',
   selectedItemId: null
@@ -66,6 +66,17 @@ export function changeSortField(value) {
 export function changeSortDirection(value) {
   return function(dispatch, getState) {
     dispatch(setSortDirection(value));
+
+    const state = getState().main;
+    const url = filtersToUrl(state);
+    window.history.pushState({}, null, url);
+  }
+}
+
+export function changeSortFieldAndDirection(value) {
+  return function(dispatch, getState) {
+    dispatch(setSortField(value.field));
+    dispatch(setSortDirection(value.direction));
 
     const state = getState().main;
     const url = filtersToUrl(state);

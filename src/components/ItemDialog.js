@@ -1,6 +1,7 @@
 import React from 'react';
 import Dialog, { DialogTitle } from 'material-ui/Dialog';
 import Button from 'material-ui/Button';
+import KeyHandler from 'react-key-handler';
 
 const ItemDialog = ({onClose, itemInfo, previousItemId, nextItemId, onSelectItem }) => {
   if (!itemInfo) {
@@ -8,8 +9,10 @@ const ItemDialog = ({onClose, itemInfo, previousItemId, nextItemId, onSelectItem
   }
   return (
     <Dialog open={true} onClose={() => onClose()}>
+      { nextItemId && <KeyHandler keyValue="ArrowRight" onKeyHandle={() => onSelectItem(nextItemId)} /> }
+      { previousItemId && <KeyHandler keyValue="ArrowLeft" onKeyHandle={() => onSelectItem(previousItemId)} /> }
       <DialogTitle id="simple-dialog-title">{itemInfo.name}</DialogTitle>
-      <div style={{width: 400, height: 600, background: 'white'}}>
+      <div style={{width: 600, height: 600, background: 'white', overflow: 'hidden'}}>
         <div className={itemInfo.logo} style={{
           'cursor': 'pointer',
           'width': '100%',

@@ -5,7 +5,15 @@ import Icon from 'material-ui/Icon';
 import { GridListTileBar } from 'material-ui/GridList';
 import Subheader from 'material-ui/List/ListSubheader';
 import _ from 'lodash';
+import formatAmount from '../utils/formatAmount';
 
+import formatNumber from 'format-number';
+const formatStars = function(v) {
+  if (_.isNumber(v)) {
+    return  formatNumber({integerSeparator: ','})(v);
+  }
+  return v;
+};
 const MainContent = ({groupedItems, onSelectItem}) => {
   const itemsAndHeaders = _.map(groupedItems, function(groupedItem) {
     return [

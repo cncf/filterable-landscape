@@ -18,7 +18,7 @@ export function filtersToUrl({filters, grouping, sortField, sortDirection, selec
   }
   const filtersPart = qs.stringify(params, {encode: false});
 
-  return '/s/' + filtersPart;
+  return '/' + filtersPart;
 }
 export function parseUrl(url) {
   const args = qs.parse(url);
@@ -60,7 +60,11 @@ function addGroupingToParams({grouping, params}) {
   const value = grouping;
   if (value !== initialState.grouping) {
     const fieldInfo = fields[value];
-    params['grouping'] = fieldInfo.url;
+    if (grouping === 'no') {
+      params['grouping'] = 'no';
+    } else {
+      params['grouping'] = fieldInfo.url;
+    }
   }
 }
 function addSortFieldToParams({sortField, params}) {
@@ -111,11 +115,15 @@ function setGroupingFromParams({ newParameters, params}) {
   if (!urlValue) {
     return;
   }
+  if (urlValue === 'no') {
+    newParameters.grouping = 'no'
+  } else {
     const fieldInfo =  _.find(_.values(fields), function(x) {
       return x.url.toLowerCase() === urlValue.toLowerCase();
     });
-  if (!_.isUndefined(fieldInfo)) {
-    newParameters.grouping = fieldInfo.id;
+    if (!_.isUndefined(fieldInfo)) {
+      newParameters.grouping = fieldInfo.id;
+    }
   }
 }
 function setSortFieldFromParams({ newParameters, params}) {

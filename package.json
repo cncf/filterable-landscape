@@ -3,7 +3,8 @@
   "version": "7.0.1",
   "description": "Starter kit for creating apps with React and Redux",
   "engines": {
-    "npm": ">=3"
+    "npm": ">=3",
+    "node": ">= 8.9"
   },
   "scripts": {
     "preinstall": "node tools/nodeVersionCheck.js",
@@ -41,14 +42,19 @@
     "bluebird": "3.5.1",
     "change-case": "3.0.1",
     "classnames": "^2.2.5",
+    "csv-parse": "2.0.0",
     "csv-writer": "0.0.3",
+    "favicons-webpack-plugin": "0.0.7",
+    "format-number": "3.0.0",
     "js-yaml": "3.10.0",
+    "jsdom": "11.6.1",
     "lodash": "4.17.4",
     "material-ui": "1.0.0-beta.27",
     "object-assign": "4.1.0",
     "query-string": "5.0.1",
     "react": "16.2.0",
     "react-dom": "16.2.0",
+    "react-key-handler": "1.0.1",
     "react-redux": "5.0.5",
     "react-router-dom": "4.2.2",
     "react-router-redux": "5.0.0-alpha.6",

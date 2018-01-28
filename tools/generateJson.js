@@ -1,4 +1,4 @@
-const source = require('js-yaml').safeLoad(require('fs').readFileSync('src/data.yml'));
+const source = require('js-yaml').safeLoad(require('fs').readFileSync('processed_landscape.yml'));
 const traverse = require('traverse');
 const _ = require('lodash');
 import saneName from '../src/utils/saneName';
@@ -16,20 +16,19 @@ tree.map(function(node) {
       return p.node.name;
     });
     items.push({...node,
-      cncfHostedProject: node.cncf_hosted_project,
+      cncfProject: node.cncf_project,
       path: parts.join(' / '),
       landscape: parts[0],
-      stars: _.random(12000),
       certifiedKubernetes: _.sample([null, false, 'platform', 'distribution']),
-      license: _.sample(fakeData.license),
-      marketCap: _.random(1000),
       vcFunder: _.sample(fakeData.vcFunder),
-      headquarters: _.sample(fakeData.headquarters)
+      marketCap: node.market_cap,
     });
   }
 });
 const itemsWithExtraFields = items.map(function(item) {
-  delete item.cncf_hosted_project;
+  delete item.cncf_project;
+  delete item.market_cap;
+  delete item.item;
   if (_.isUndefined(item.commercial)) {
     console.info('please, fix yaml and set commercial for ', item.name);
   }

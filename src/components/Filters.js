@@ -8,7 +8,7 @@ import StarsFilterContainer from './StarsFilterContainer';
 import CertifiedKubernetesFilterContainer from './CertifiedKubernetesFilterContainer'
 import LicenseFilterContainer from './LicenseFilterContainer';
 import MarketCapFilterContainer from './MarketCapFilterContainer';
-import VCFunderFilterContainer from './VCFunderFilterContainer';
+// import VCFunderFilterContainer from './VCFunderFilterContainer';
 import CompanyFilterContainer from './CompanyFilterContainer';
 import HeadquartersFilterContainer from './HeadquartersFilterContainer';
 import LandscapeFilterContainer from './LandscapeFilterContainer';
@@ -17,7 +17,7 @@ const Filters = () => {
   return <div>
       <FormGroup row>
         <FormControl component="fieldset">
-          <FormLabel component="legend">{fields.cncfHostedProject.label}</FormLabel>
+          <FormLabel component="legend">{fields.cncfProject.label}</FormLabel>
           <CncfFilterContainer/>
         </FormControl>
       </FormGroup>
@@ -64,12 +64,14 @@ const Filters = () => {
         </FormControl>
       </FormGroup>
 
-      <FormGroup row>
-        <FormControl component="fieldset">
-          <FormLabel component="legend">{fields.vcFunder.label}</FormLabel>
-          <VCFunderFilterContainer />
-        </FormControl>
-      </FormGroup>
+      {
+      // <FormGroup row>
+        // <FormControl component="fieldset">
+          // <FormLabel component="legend">{fields.vcFunder.label}</FormLabel>
+          // <VCFunderFilterContainer />
+        // </FormControl>
+      // </FormGroup>
+      }
 
       <FormGroup row>
         <FormControl component="fieldset">
