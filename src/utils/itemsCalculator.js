@@ -31,14 +31,21 @@ const getSortedItems = createSelector(
   (state) => state.main.sortDirection,
   function(data, sortField, sortDirection) {
     const sortedViaMainSort =  _.orderBy(data, function(x) {
-      return x[sortField];
+      var result = x[sortField];
+      if (_.isString(result)) {
+        result = result.toLowerCase();
+      }
+      return result;
     },sortDirection);
+    const sortedViaName = _.orderBy(data, function(x) {
+      return x.name.toLowerCase();
+    });
     return _.orderBy(sortedViaMainSort, function(x) {
       if (x[sortField] === 'N/A') {
-        return 100000;
+        return 10000 + sortedViaName.indexOf(x);
       }
       if (x[sortField] === 'Not Entered Yet') {
-        return 100001;
+        return 20000 + sortedViaName.indexOf(x);
       }
       return sortedViaMainSort.indexOf(x);
     });

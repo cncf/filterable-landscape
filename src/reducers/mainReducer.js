@@ -73,6 +73,17 @@ export function changeSortDirection(value) {
   }
 }
 
+export function changeSortFieldAndDirection(value) {
+  return function(dispatch, getState) {
+    dispatch(setSortField(value.field));
+    dispatch(setSortDirection(value.direction));
+
+    const state = getState().main;
+    const url = filtersToUrl(state);
+    window.history.pushState({}, null, url);
+  }
+}
+
 export function changeSelectedItemId(value) {
   return function(dispatch, getState) {
     dispatch(setSelectedItemId(value));
