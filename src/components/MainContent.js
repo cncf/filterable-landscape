@@ -21,8 +21,8 @@ const MainContent = ({groupedItems, onSelectItem}) => {
           <Subheader component="div" style={{fontSize: 24}}>{groupedItem.header} ({groupedItem.items.length})</Subheader>
       </div>
     ].concat(_.map(groupedItem.items, function(item) {
-      return (<div className="mosaic" key={item.id}>
-                <div className="logo_wrapper" style={{border: '1px solid #f0f0f0', background: item.oss ? '' : '#eeeeee'}}
+      return (<div className="mosaic" key={item.id} style={{ background: item.oss ? 'white' : '#eeeeee'}}>
+                <div className="logo_wrapper" style={{border: '1px solid #f0f0f0'}}
                 >
                   <div className={classNames(`${item.logo}`,{ logo: true})} onClick={() => onSelectItem(item.id)}/>
                 </div>

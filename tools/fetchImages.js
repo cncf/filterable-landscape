@@ -1,8 +1,15 @@
-const Promise = require('bluebird');
+import Jimp from 'jimp';
+import { createObjectCsvWriter } from 'csv-writer';
+import rp from 'request-promise';
+import Promise from 'bluebird';
 import saneName from '../src/utils/saneName';
-var items = JSON.parse(require('fs').readFileSync('src/data.json'));
+import fs from 'fs';
+var items = JSON.parse(fs.readFileSync('src/data.json'));
 const errors = [];
 const logos=[];
+
+
+
 async function fetchImages() {
   const promises = Promise.map(items, async function(item) {
     var url = item.raw_logo;
@@ -23,11 +30,16 @@ async function fetchImages() {
     } else {
       const extWithQuery = url.split('.').slice(-1)[0];
       var ext='.' + extWithQuery.split('?')[0];
+      var outputExt = '';
       if (['.jpg', '.png', '.gif', '.svg'].indexOf(ext) === -1 ) {
-        ext = '.jpg';
+        ext = '.png';
       }
-      const fileName = `src/logos/${saneName(item.name)}${ext}`;
-      const rp = require('request-promise');
+      if (ext !== '.svg') {
+        outputExt = '.png';
+      } else {
+        outputExt = '.svg';
+      }
+      const fileName = `src/logos/${saneName(item.name)}${outputExt}`;
       try {
         const response = await rp({
           encoding: null,
@@ -35,11 +47,15 @@ async function fetchImages() {
           followRedirect: true,
           simple: true
         });
-        require('fs').writeFileSync(fileName, response);
+        if (ext !== '.svg') {
+          await normalizeImage({inputFile: response,outputFile: fileName});
+        }
+
+        fs.writeFileSync(fileName, response);
         logos.push({name: saneName(item.name), fileName: fileName});
-        // console.info('saving logo for ', item.logo);
       } catch(ex) {
         console.info(`${item.name} has issues with logo: ${url}`);
+        console.info(ex);
         errors.push({
           name: item.name,
           logo: item.raw_logo
@@ -58,19 +74,34 @@ async function generateCss() {
         }
     `;
   }).join("\n");
-  require('fs').writeFileSync('./src/styles/styles.scss', lines);
+  fs.writeFileSync('./src/styles/styles.scss', lines);
 
 }
-(async function() {
+async function normalizeImage({inputFile, outputFile}) {
+  const threshold  = 0.05;
+  const maxValue = 255 - 255 * threshold;
+  const image = await Jimp.read(inputFile);
+  console.info(image);
+  await image.scan(0, 0, image.bitmap.width, image.bitmap.height, function(x,y, idx) {
+    var red   = this.bitmap.data[ idx + 0 ];
+    var green = this.bitmap.data[ idx + 1 ];
+    var blue  = this.bitmap.data[ idx + 2 ];
+    var alpha = this.bitmap.data[ idx + 3 ];
+    if (red > maxValue && green > maxValue && blue > maxValue) {
+      alpha = 0;
+    }
+    this.bitmap.data[idx + 3 ] = alpha;
+  });
+  await image.write(outputFile);
+}
+
+async function main() {
   await fetchImages();
   await generateCss();
-  const createCsvWriter = require('csv-writer').createObjectCsvWriter;
-  const csvWriter = createCsvWriter({
+  const csvWriter = createObjectCsvWriter({
       path: './errors.csv',
       header: ['name', 'logo']
   });
   await csvWriter.writeRecords(errors);
-
-})().then(function(){
-  require('process').exit();
-});
+}
+main();

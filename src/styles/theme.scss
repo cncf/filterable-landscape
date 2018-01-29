@@ -12,7 +12,6 @@
 }
 
 .mosaic{
-  background-color: white;
   position: relative;
   display: inline-block;
   width: 175px;
@@ -33,7 +32,6 @@
       background-repeat: no-repeat;
       background-size: contain;
       background-position: 50%;
-      background-color: #fff;
       cursor: pointer;
     }
 
@@ -42,7 +40,6 @@
 
   .info{
     height: 30%;
-    background-color: #FFF;
     font-size: 0.6em;
     border-width:1px 0 0 0;
     border-style: dotted;
