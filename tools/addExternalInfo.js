@@ -11,14 +11,14 @@ const githubEntries = require('../src/github.json');
 const tree = traverse(source);
 const newSource = tree.map(function(node) {
   if (node && node.item === null) {
-    const crunchbaseInfo = _.find(crunchbase, {"Organization Name URL": (node.external || {}).crunchbase});
+    const crunchbaseInfo = _.find(crunchbase, {"Organization Name URL": node.crunchbase});
     var crunchbaseParts = {
       market_cap: 'Not Entered Yet',
       headquarters: 'Not Entered Yet',
       rank: 'Not Entered Yet'
     };
     if (!crunchbaseInfo) {
-      console.info('No crunchbase info', (node.external || {}).crunchbase, node.company, node.name);
+      console.info('No crunchbase info', node.crunchbase, node.company, node.name);
     } else {
       const amount = crunchbaseInfo["Total Funding Amount"].substring(1).replace(/,/g, "");
       const marketCap = amount ? parseInt(amount, 10) : 'N/A';
