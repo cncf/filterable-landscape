@@ -3,16 +3,6 @@ import classNames from 'classnames';
 import Icon from 'material-ui/Icon';
 import Subheader from 'material-ui/List/ListSubheader';
 import _ from 'lodash';
-import formatAmount from '../utils/formatAmount';
-
-
-import formatNumber from 'format-number';
-const formatStars = function(v) {
-  if (_.isNumber(v)) {
-    return  formatNumber({integerSeparator: ','})(v);
-  }
-  return v;
-};
 
 const MainContent = ({groupedItems, onSelectItem}) => {
   const itemsAndHeaders = _.map(groupedItems, function(groupedItem) {
@@ -29,11 +19,13 @@ const MainContent = ({groupedItems, onSelectItem}) => {
                 <div className="info">
                   <h5>{item.name}</h5>
                   <div>
-                    <span>{item.company} ({formatAmount(item.marketCap)})</span>
-                    <span>
-                      <Icon color="disabled" style={{ fontSize: 15 }}>star</Icon>
-                      <span>{formatStars(item.stars)}</span>
-                    </span>
+                    <span>{item.company} ({item.marketCapAsText})</span>
+                    { item.starsPresent &&
+                      <span>
+                        <Icon color="disabled" style={{ fontSize: 15 }}>star</Icon>
+                        <span>{item.starsAsText}</span>
+                      </span>
+                    }
                   </div>
                 </div>
               </div>);

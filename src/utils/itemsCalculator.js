@@ -3,6 +3,8 @@ import _ from 'lodash';
 import { filterFn, getGroupingValue } from '../types/fields';
 import groupingLabel from '../utils/groupingLabel';
 import groupingOrder from '../utils/groupingOrder';
+import formatAmount from '../utils/formatAmount';
+import formatNumber from 'format-number';
 
 const getFilteredItems = createSelector(
   (state) => state.main.data,
@@ -25,8 +27,24 @@ const getFilteredItems = createSelector(
   }
 );
 
-const getSortedItems = createSelector(
+const getExtraFields = createSelector(
   (state) => getFilteredItems(state),
+  function(data) {
+    return _.map(data, function(data) {
+      const hasStars = data.stars !== 'N/A' && data.stars !== 'Not Entered Yet';
+      const hasMarketCap = data.marketCap !== 'N/A' && data.marketCap !== 'Not Entered Yet';
+      return { ...data,
+        starsPresent: hasStars ,
+        starsAsText: hasStars ? formatNumber({integerSeparator: ','})(data.stars) : '',
+        marketCapPresent: hasMarketCap,
+        marketCapAsText: formatAmount(data.marketCap)
+      };
+    });
+  }
+);
+
+const getSortedItems = createSelector(
+  (state) => getExtraFields(state),
   (state) => state.main.sortField,
   (state) => state.main.sortDirection,
   function(data, sortField, sortDirection) {
