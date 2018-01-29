@@ -18,7 +18,7 @@ const MainContent = ({groupedItems, onSelectItem}) => {
   const itemsAndHeaders = _.map(groupedItems, function(groupedItem) {
     return [
       <div className="sh_wrapper" key={"subheader:" + groupedItem.header}>
-          <Subheader component="div" style={{fontSize: 24}}>{groupedItem.header} ({groupedItem.items.length})</Subheader>
+          <Subheader component="div" style={{fontSize: 14}}>{groupedItem.header} ({groupedItem.items.length})</Subheader>
       </div>
     ].concat(_.map(groupedItem.items, function(item) {
       return (<div className="mosaic" key={item.id}>

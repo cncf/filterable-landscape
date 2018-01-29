@@ -9,6 +9,7 @@ import LeftPanelInfoContainer from './LeftPanelInfoContainer';
 import HomePageUrlContainer from './HomePageUrlContainer';
 import ResetFiltersContainer from './ResetFiltersContainer';
 import ItemDialogContainer from './ItemDialogContainer';
+import HeaderContainer from './HeaderContainer';
 
 
 const HomePage = ({hasData}) => {
@@ -17,6 +18,7 @@ const HomePage = ({hasData}) => {
   }
   return (
     <div className="wrapper">
+      <HeaderContainer/>
       <HomePageUrlContainer />
       <ItemDialogContainer />
       <Grid container spacing={24}>
@@ -28,8 +30,8 @@ const HomePage = ({hasData}) => {
           <LeftPanelInfoContainer style={{width: 200}}/>
         </Grid>
         <Grid item xs={9} sm={9}>
-          <h1 className='logo'> Summary Placeholder </h1>
-          <h1> Available Presets Placeholder</h1>
+          {/*<h1 className='logo'> Summary Placeholder </h1>*/}
+          {/*<h1> Available Presets Placeholder</h1>*/}
           <MainContentContainer/>
         </Grid>
       </Grid>

@@ -3,9 +3,20 @@ import React from 'react';
 const HeaderContainer = () => {
 
   return (
-    <div style={{width:'100%', backgroundColor:'#CCC'}}>
-      <h1>Cloud Native Landscape</h1>
-      <div>v0.2</div>
+    <div className="header_container">
+      <div className="title">
+        Cloud Native Landscape
+        <p>v0.1</p>
+      </div>
+    
+      <div className="header">
+        <div className="logos">
+          <a href="https://www.cncf.io/" target="_blank" rel="noopener noreferrer">
+            <div className="partner1" />
+          </a>
+        </div>
+    
+      </div>
     </div>
   );
 };
