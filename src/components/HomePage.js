@@ -16,7 +16,7 @@ const HomePage = ({hasData}) => {
     return <h1>Loading data... </h1>;
   }
   return (
-    <div style={{overflow: 'hidden', background: 'white'}}>
+    <div className="wrapper">
       <HomePageUrlContainer />
       <ItemDialogContainer />
       <Grid container spacing={24}>
