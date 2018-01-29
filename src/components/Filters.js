@@ -14,7 +14,7 @@ import HeadquartersFilterContainer from './HeadquartersFilterContainer';
 import LandscapeFilterContainer from './LandscapeFilterContainer';
 import fields from '../types/fields';
 const Filters = () => {
-  return <div>
+  return <div className="filter_wrapper">
       <FormGroup row>
         <FormControl component="fieldset">
           <FormLabel component="legend">{fields.cncfProject.label}</FormLabel>

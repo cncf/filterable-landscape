@@ -22,14 +22,14 @@ const HomePage = ({hasData}) => {
       <HomePageUrlContainer />
       <ItemDialogContainer />
       <Grid container spacing={24}>
-        <Grid item xs={3} sm={3} >
+        <Grid item xs={3} sm={3} className="sidebar">
           <ResetFiltersContainer />
           <Filters />
           <Grouping/>
           <Sorting/>
           <LeftPanelInfoContainer style={{width: 200}}/>
         </Grid>
-        <Grid item xs={9} sm={9}>
+        <Grid item xs={9} sm={9} className="content">
           {/*<h1 className='logo'> Summary Placeholder </h1>*/}
           {/*<h1> Available Presets Placeholder</h1>*/}
           <MainContentContainer/>
