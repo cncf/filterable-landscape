@@ -91,7 +91,7 @@
         padding:10px 0;
 
         &.partner1{
-          //background-image: url(../assets/images/brand/cncf.png);
+          background-image: url(./assets/cncf.png);
           min-width: 200px;
         }
 
@@ -107,6 +107,7 @@
     font-size:1.3em;
     color: #6d7e90 !important;
     align-items: flex-end;
+    padding: 10px 0 0 20px;
 
     a{
       color:#949494;
@@ -115,6 +116,7 @@
     p{
       color:#CCC;
       font-size:0.6em;
+      margin:3px 0;
     }
 
   }
