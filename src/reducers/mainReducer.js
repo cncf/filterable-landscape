@@ -11,7 +11,6 @@ export const initialState = {
   filters: {
     cncfProject: null,
     oss: null,
-    commercial: null,
     stars: null,
     certifiedKubernetes: null,
     license: [],

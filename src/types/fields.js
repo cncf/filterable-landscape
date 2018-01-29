@@ -35,39 +35,28 @@ const fields = {
     id: 'oss',
     url: 'oss',
     label: 'Open Source',
+    filterFn: function(filterValue, itemValue, item) {
+      if (filterValue === null) {
+        return true;
+      }
+      if (filterValue === true) {
+        return itemValue === true && item.commercial === false;
+      }
+      if (filterValue === false) {
+        return itemValue === false && item.commercial === true;
+      }
+    },
     values: [{
       id: true,
-      label: 'Yes',
-      groupingLabel: 'Open Source',
+      label: 'Open Source and Not Commercial',
       url: 'yes',
     }, {
       id: false,
-      label: 'No',
-      groupingLabel: 'Not Open Source',
+      label: 'Commercial and Not Open Source',
       url: 'no',
     }, {
       id: null,
-      label: 'Either',
-      url: 'any'
-    }]
-  },
-  commercial: {
-    id: 'commercial',
-    url: 'commercial',
-    label: 'Commercial',
-    values: [{
-      id: true,
-      label: 'Yes',
-      groupingLabel: 'Commercial',
-      url: 'yes',
-    }, {
-      id: false,
-      label: 'No',
-      groupingLabel: 'Not Commercial',
-      url: 'no',
-    }, {
-      id: null,
-      label: 'Either',
+      label: 'Open Source and Commercial',
       url: 'any'
     }]
   },
@@ -174,6 +163,7 @@ const fields = {
   license: {
     id: 'license',
     label: 'License',
+    isArray: true,
     values: [].concat(_.orderBy(lookups.license, function(x) {
       if  (x.id === 'N/A') {
         return -1;
@@ -250,6 +240,7 @@ const fields = {
   headquarters: {
     id: 'headquarters',
     label: 'Headquarters Location',
+    isArray: true,
     values: [].concat(_.orderBy(lookups.headquarters, function(x) {
       if (x.id === 'Not Entered Yet') {
         return -2;
@@ -312,7 +303,7 @@ export function filterFn({field, filters}) {
     // can be null, id, [] or [id1, id2, id3 ]
     const value = fieldInfo.category ? x[fieldInfo.category] : x[field];
     if (fieldInfo.filterFn) {
-      return fieldInfo.filterFn(filter, value);
+      return fieldInfo.filterFn(filter, value, x);
     }
     if (filter === null) {
       return true;
