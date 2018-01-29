@@ -174,11 +174,7 @@ const fields = {
   license: {
     id: 'license',
     label: 'License',
-    values: [{
-      id: null,
-      label: 'Any',
-      url: 'any'
-    }].concat(_.orderBy(lookups.license, function(x) {
+    values: [].concat(_.orderBy(lookups.license, function(x) {
       if  (x.id === 'N/A') {
         return -1;
       }
@@ -254,11 +250,7 @@ const fields = {
   headquarters: {
     id: 'headquarters',
     label: 'Headquarters Location',
-    values: [{
-      id: null,
-      label: 'Any',
-      url: 'any'
-    }].concat(_.orderBy(lookups.headquarters, function(x) {
+    values: [].concat(_.orderBy(lookups.headquarters, function(x) {
       if (x.id === 'Not Entered Yet') {
         return -2;
       }

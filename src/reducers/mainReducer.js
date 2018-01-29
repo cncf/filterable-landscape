@@ -14,11 +14,10 @@ export const initialState = {
     commercial: null,
     stars: null,
     certifiedKubernetes: null,
-    license: null,
+    license: [],
     marketCap: null,
-    // vcFunder: [],
     company: [],
-    headquarters: null,
+    headquarters: [],
     landscape: null
   },
   grouping: 'cncfProject',
