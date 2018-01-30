@@ -1,33 +1,14 @@
 import Jimp from 'jimp';
+import { createObjectCsvWriter } from 'csv-writer';
 import rp from 'request-promise';
 import Promise from 'bluebird';
 import saneName from '../src/utils/saneName';
 import fs from 'fs';
-import _ from 'lodash'
-
-const traverse = require('traverse');
-const source = require('js-yaml').safeLoad(require('fs').readFileSync('landscape.yml'));
-var existingEntries = [];
-try {
-  existingEntries = JSON.parse(fs.readFileSync('src/imageUrls.json', 'utf-8'));
-} catch (ex) {
-  console.info('File src/imagesUrls.json does not exist. New one will be created');
-}
-
-const tree = traverse(source);
-const items = [];
-tree.map(function(node) {
-  if (!node) {
-    return;
-  }
-  if (node.item !== null) {
-    return;
-  }
-  items.push(node);
-});
-
+var items = JSON.parse(fs.readFileSync('src/data.json'));
 const errors = [];
 const logos=[];
+
+
 
 async function fetchImages() {
   const promises = Promise.map(items, async function(item) {
@@ -66,18 +47,12 @@ async function fetchImages() {
           followRedirect: true,
           simple: true
         });
-        var hash = require('crypto').createHash('md5').update(response).digest('hex');
-        const existingEntry = _.find(existingEntries, {url: url});
-        if (!existingEntry || existingEntry.hash !== hash) {
-          if (ext !== '.svg') {
-            // console.info('normalizing image');
-            await normalizeImage({inputFile: response,outputFile: fileName});
-          } else {
-            // console.info(`writing svg to ${fileName}`);
-            fs.writeFileSync(fileName, response);
-          }
+        if (ext !== '.svg') {
+          await normalizeImage({inputFile: response,outputFile: fileName});
         }
-        logos.push({name: saneName(item.name), fileName: fileName, hash, url});
+
+        fs.writeFileSync(fileName, response);
+        logos.push({name: saneName(item.name), fileName: fileName});
       } catch(ex) {
         console.info(`${item.name} has issues with logo: ${url}`);
         // console.info(ex);
@@ -90,7 +65,6 @@ async function fetchImages() {
   }, {concurrency: 10});
   await promises;
 }
-
 async function generateCss() {
   const lines = logos.map(function(logo) {
     const path = logo.fileName.replace('src/logos/', '../logos/');
@@ -103,11 +77,6 @@ async function generateCss() {
   fs.writeFileSync('./src/styles/styles.scss', lines);
 
 }
-
-async function writeUrlHashes() {
-  fs.writeFileSync('src/imageUrls.json', JSON.stringify(logos, null, 2));
-}
-
 async function normalizeImage({inputFile, outputFile}) {
   const threshold  = 0.05;
   const maxValue = 255 - 255 * threshold;
@@ -129,6 +98,10 @@ async function normalizeImage({inputFile, outputFile}) {
 async function main() {
   await fetchImages();
   await generateCss();
-  await writeUrlHashes();
+  const csvWriter = createObjectCsvWriter({
+      path: './errors.csv',
+      header: ['name', 'logo']
+  });
+  await csvWriter.writeRecords(errors);
 }
 main();
