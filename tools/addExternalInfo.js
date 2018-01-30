@@ -7,6 +7,7 @@ import formatCity from '../src/utils/formatCity';
 
 const crunchbase = parse(require('fs').readFileSync('src/crunchbase.csv','utf-8'), {columns: true});
 const githubEntries = require('../src/github.json');
+const imageEntries = require('../src/imageUrls.json');
 
 const tree = traverse(source);
 const newSource = tree.map(function(node) {
@@ -35,6 +36,11 @@ const newSource = tree.map(function(node) {
       license: 'N/A'
     };
     var githubEntry = _.find(githubEntries, {url: node.repo_url});
+    const imageEntry = _.find(imageEntries, {url: node.raw_url});
+    var logo = '';
+    if (imageEntry) {
+      logo = imageEntry.name;
+    }
     if (githubEntry) {
       githubInfo = {
         stars: githubEntry.stars,
@@ -47,6 +53,7 @@ const newSource = tree.map(function(node) {
     _.assign(node, crunchbaseParts);
     _.assign(node, githubInfo);
     node.description = description;
+    node.logo = logo;
   }
 });
 var dump = require('js-yaml').dump(newSource);
