@@ -55,7 +55,7 @@ async function fetchImages() {
         logos.push({name: saneName(item.name), fileName: fileName});
       } catch(ex) {
         console.info(`${item.name} has issues with logo: ${url}`);
-        console.info(ex);
+        // console.info(ex);
         errors.push({
           name: item.name,
           logo: item.raw_logo
@@ -81,7 +81,7 @@ async function normalizeImage({inputFile, outputFile}) {
   const threshold  = 0.05;
   const maxValue = 255 - 255 * threshold;
   const image = await Jimp.read(inputFile);
-  console.info(image);
+  // console.info(image);
   await image.scan(0, 0, image.bitmap.width, image.bitmap.height, function(x,y, idx) {
     var red   = this.bitmap.data[ idx + 0 ];
     var green = this.bitmap.data[ idx + 1 ];
