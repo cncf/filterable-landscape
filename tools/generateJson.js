@@ -82,7 +82,7 @@ const generateLandscapeHierarchy = function() {
         id: category + ' / ' + node.name,
         parentId: category,
         label: node.name,
-        groupingLabel: category + ' / ' + node.name,
+        groupingLabel: category + ' - ' + node.name,
         url: saneName(node.name),
         level: 2
       }
