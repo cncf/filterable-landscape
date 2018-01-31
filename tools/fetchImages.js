@@ -27,7 +27,7 @@ tree.map(function(node) {
 });
 
 const errors = [];
-const logos=[];
+var logos=[];
 
 async function fetchImages() {
   const promises = Promise.map(items, async function(item) {
@@ -66,7 +66,7 @@ async function fetchImages() {
           followRedirect: true,
           simple: true
         });
-        var hash = require('crypto').createHash('md5').update(response).digest('hex');
+        var hash = require('crypto').createHash('sha256').update(response).digest('hex');
         const existingEntry = _.find(existingEntries, {url: url});
         if (!existingEntry || existingEntry.hash !== hash) {
           if (ext !== '.svg') {
@@ -88,6 +88,7 @@ async function fetchImages() {
       }
     }
   }, {concurrency: 10});
+  logos = _.orderBy(logos, 'name');
   await promises;
 }
 
