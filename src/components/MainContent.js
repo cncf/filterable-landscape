@@ -14,7 +14,7 @@ const MainContent = ({groupedItems, onSelectItem}) => {
       return (<div className="mosaic" key={item.id} style={{ background: item.oss ? 'white' : '#eeeeee'}}>
                 <div className="logo_wrapper" style={{border: '1px solid #f0f0f0'}}
                 >
-                  <div className={classNames(`${item.logo}`,{ logo: true})} onClick={() => onSelectItem(item.id)}/>
+                  <div className={classNames(`${item.logo}-tile`,{ logo: true})} onClick={() => onSelectItem(item.id)}/>
                 </div>
                 <div className="info">
                   <h5>{item.name}</h5>

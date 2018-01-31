@@ -6,6 +6,17 @@ import fs from 'fs';
 import _ from 'lodash';
 import svg2png from 'svg2png';
 
+// x3 because we may have retina display
+const sizes = [{
+  name: 'large',
+  width: 600 * 3,
+  height: 200 * 3
+}, {
+  name: 'tile',
+  width: 153 * 3,
+  height: 100 * 3
+}];
+
 const traverse = require('traverse');
 const source = require('js-yaml').safeLoad(require('fs').readFileSync('landscape.yml'));
 var existingEntries = [];
@@ -57,12 +68,24 @@ async function fetchImages() {
       outputExt = '.png';
       const fileName = `src/logos/${saneName(item.name)}${outputExt}`;
       try {
-        var response = await rp({
-          encoding: null,
-          uri: url,
-          followRedirect: true,
-          simple: true
-        });
+        var response = null;
+        try {
+          response = await rp({
+            encoding: null,
+            uri: url,
+            followRedirect: true,
+            simple: true
+          });
+        } catch(ex) {
+          console.info('failed to fetch ', url, ' attempting to use existing image');
+          var entry = _.find(existingEntries, {url: url});
+          if (!entry) {
+            console.info('existing image for ', url,  ' has not been found');
+          } else {
+            logos.push(entry);
+          }
+          return;
+        }
         var hash = require('crypto').createHash('sha256').update(response).digest('hex');
         const existingEntry = _.find(existingEntries, {url: url});
         if (!existingEntry || existingEntry.hash !== hash) {
@@ -90,14 +113,15 @@ async function fetchImages() {
 async function generateCss() {
   const lines = logos.map(function(logo) {
     const path = logo.fileName.replace('src/logos/', '../logos/');
-    return `
-        .logo-${logo.name} {
-             background-image: url("${path}");
-        }
-    `;
+    return sizes.map(function(size) {
+      return `
+          .logo-${logo.name}-${size.name} {
+              background-image: url("${path.replace('.png', `-${size.name}.png`) }");
+          }
+      `;
+    }).join("\n");
   }).join("\n");
   fs.writeFileSync('./src/styles/styles.scss', lines);
-
 }
 
 async function writeUrlHashes() {
@@ -120,7 +144,11 @@ async function normalizeImage({inputFile, outputFile}) {
     this.bitmap.data[idx + 3 ] = alpha;
   });
   await image.autocrop();
-  await image.write(outputFile);
+  await Promise.map(sizes, async function(size) {
+    var clone = image.clone();
+    await clone.scaleToFit(size.width, size.height);
+    await clone.write(outputFile.replace('.png', `-${size.name}.png`));
+  });
 }
 
 async function main() {
