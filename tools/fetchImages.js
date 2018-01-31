@@ -80,7 +80,7 @@ async function fetchImages() {
         logos.push({name: saneName(item.name), fileName: fileName, hash, url});
       } catch(ex) {
         console.info(`${item.name} has issues with logo: ${url}`);
-        // console.info(ex);
+        console.info(ex.message.substring(0, 100));
         errors.push({
           name: item.name,
           logo: item.raw_logo
@@ -123,6 +123,7 @@ async function normalizeImage({inputFile, outputFile}) {
     }
     this.bitmap.data[idx + 3 ] = alpha;
   });
+  await image.autocrop();
   await image.write(outputFile);
 }
 
