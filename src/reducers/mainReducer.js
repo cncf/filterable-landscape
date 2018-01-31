@@ -17,7 +17,7 @@ export const initialState = {
     marketCap: null,
     company: [],
     headquarters: [],
-    landscape: null
+    landscape: []
   },
   grouping: 'cncfProject',
   sortField: 'name',

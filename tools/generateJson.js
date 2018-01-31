@@ -40,7 +40,6 @@ const itemsWithExtraFields = items.map(function(item) {
   return {
     ...item,
     id: id,
-    company: item.company || '(no company)',
     starsCategory: getCategory({field: 'stars', item: item}),
     marketCapCategory: getCategory({field: 'marketCap', item: item}),
     logo: `logo-${saneName(item.name)}`
@@ -59,9 +58,41 @@ const extractOptions = function(name) {
     };
   }).value();
 };
+const generateLandscapeHierarchy = function() {
+  var result = [];
+  tree.map(function(node) {
+    if (node && node.category === null) {
+      result.push({
+        id: node.name,
+        label: node.name,
+        url: saneName(node.name),
+        level: 1,
+        children: []
+      });
+    }
+    if (node && node.subcategory === null) {
+      const category = this.parents.filter(function(p) {
+        return p.node.category === null;
+      }).map(function(p) {
+        return p.node.name;
+      })[0];
+      const categoryEntry = _.find(result, {level: 1, id: category});
+      const entry = {
+        id: category + ' / ' + node.name,
+        parentId: category,
+        label: node.name,
+        url: saneName(node.name),
+        level: 2
+      }
+      categoryEntry.children.push(entry.id);
+      result.push(entry);
+    }
+  });
+  return result;
+};
 const lookups = {
   company: extractOptions('company'),
-  landscape: extractOptions('landscape'),
+  landscape: generateLandscapeHierarchy(),
   license: extractOptions('license'),
   headquarters: extractOptions('headquarters'),
   vcFunder: extractOptions('vcFunder')

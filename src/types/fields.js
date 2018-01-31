@@ -254,11 +254,8 @@ const fields = {
   landscape: {
     id: 'landscape',
     label: 'CNCF Filterable Landscape',
-    values: [{
-      id: null,
-      label: 'Any',
-      url: 'any'
-    }].concat(lookups.landscape || [])
+    isArray: true,
+    values: [].concat(lookups.landscape || [])
   },
   startDate: {
     id: 'startDate',
@@ -292,7 +289,10 @@ export function options(field) {
   return fields[field].values.map(function(values) {
     return {
       id: values.id,
-      label: values.label
+      label: values.label,
+      level: values.level,
+      children: values.children,
+      parentId: values.parentId
     };
   });
 }
