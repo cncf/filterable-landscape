@@ -1,16 +1,6 @@
 
-        .logo-microsoft-azure-service-fabric {
-             background-image: url("../logos/microsoft-azure-service-fabric.png");
-        }
-    
-
-        .logo-nomad {
-             background-image: url("../logos/nomad.svg");
-        }
-    
-
-        .logo-consul {
-             background-image: url("../logos/consul.png");
+        .logo-amazon-ecs {
+             background-image: url("../logos/amazon-ecs.png");
         }
     
 
@@ -19,8 +9,13 @@
         }
     
 
-        .logo-amazon-ecs {
-             background-image: url("../logos/amazon-ecs.png");
+        .logo-microsoft-azure-service-fabric {
+             background-image: url("../logos/microsoft-azure-service-fabric.png");
+        }
+    
+
+        .logo-consul {
+             background-image: url("../logos/consul.png");
         }
     
 
@@ -34,18 +29,13 @@
         }
     
 
-        .logo-zookeeper {
-             background-image: url("../logos/zookeeper.png");
-        }
-    
-
-        .logo-cloud-sleuth {
-             background-image: url("../logos/cloud-sleuth.png");
-        }
-    
-
         .logo-jaeger {
              background-image: url("../logos/jaeger.png");
+        }
+    
+
+        .logo-zookeeper {
+             background-image: url("../logos/zookeeper.png");
         }
     
 
@@ -59,8 +49,8 @@
         }
     
 
-        .logo-graylog {
-             background-image: url("../logos/graylog.png");
+        .logo-cloud-sleuth {
+             background-image: url("../logos/cloud-sleuth.png");
         }
     
 
@@ -69,8 +59,13 @@
         }
     
 
-        .logo-open-tracing {
-             background-image: url("../logos/open-tracing.png");
+        .logo-graylog {
+             background-image: url("../logos/graylog.png");
+        }
+    
+
+        .logo-nomad {
+             background-image: url("../logos/nomad.png");
         }
     
 
@@ -79,18 +74,13 @@
         }
     
 
+        .logo-open-tracing {
+             background-image: url("../logos/open-tracing.png");
+        }
+    
+
         .logo-sumo-logic {
              background-image: url("../logos/sumo-logic.png");
-        }
-    
-
-        .logo-weave-cloud {
-             background-image: url("../logos/weave-cloud.png");
-        }
-    
-
-        .logo-elastic {
-             background-image: url("../logos/elastic.png");
         }
     
 
@@ -104,13 +94,13 @@
         }
     
 
-        .logo-logz {
-             background-image: url("../logos/logz.png");
+        .logo-elastic {
+             background-image: url("../logos/elastic.png");
         }
     
 
-        .logo-stack-state {
-             background-image: url("../logos/stack-state.png");
+        .logo-weave-cloud {
+             background-image: url("../logos/weave-cloud.png");
         }
     
 
@@ -119,8 +109,18 @@
         }
     
 
+        .logo-logz {
+             background-image: url("../logos/logz.png");
+        }
+    
+
         .logo-stack-rox {
              background-image: url("../logos/stack-rox.png");
+        }
+    
+
+        .logo-stack-state {
+             background-image: url("../logos/stack-state.png");
         }
     
 
@@ -129,13 +129,13 @@
         }
     
 
-        .logo-log-analytics {
-             background-image: url("../logos/log-analytics.png");
+        .logo-scope {
+             background-image: url("../logos/scope.png");
         }
     
 
-        .logo-scope {
-             background-image: url("../logos/scope.png");
+        .logo-log-analytics {
+             background-image: url("../logos/log-analytics.png");
         }
     
 
@@ -149,23 +149,8 @@
         }
     
 
-        .logo-fluent-d {
-             background-image: url("../logos/fluent-d.png");
-        }
-    
-
         .logo-centreon {
              background-image: url("../logos/centreon.png");
-        }
-    
-
-        .logo-signal-fx {
-             background-image: url("../logos/signal-fx.png");
-        }
-    
-
-        .logo-outlyer {
-             background-image: url("../logos/outlyer.png");
         }
     
 
@@ -174,13 +159,18 @@
         }
     
 
-        .logo-sensu {
-             background-image: url("../logos/sensu.png");
+        .logo-dynatrace {
+             background-image: url("../logos/dynatrace.png");
         }
     
 
-        .logo-open-tsdb {
-             background-image: url("../logos/open-tsdb.png");
+        .logo-outlyer {
+             background-image: url("../logos/outlyer.png");
+        }
+    
+
+        .logo-signal-fx {
+             background-image: url("../logos/signal-fx.png");
         }
     
 
@@ -189,8 +179,8 @@
         }
     
 
-        .logo-app-neta {
-             background-image: url("../logos/app-neta.png");
+        .logo-op-beat {
+             background-image: url("../logos/op-beat.png");
         }
     
 
@@ -199,8 +189,8 @@
         }
     
 
-        .logo-op-beat {
-             background-image: url("../logos/op-beat.png");
+        .logo-server-density {
+             background-image: url("../logos/server-density.png");
         }
     
 
@@ -209,13 +199,13 @@
         }
     
 
-        .logo-server-density {
-             background-image: url("../logos/server-density.png");
+        .logo-app-neta {
+             background-image: url("../logos/app-neta.png");
         }
     
 
-        .logo-ops-clarity {
-             background-image: url("../logos/ops-clarity.png");
+        .logo-open-tsdb {
+             background-image: url("../logos/open-tsdb.png");
         }
     
 
@@ -224,38 +214,13 @@
         }
     
 
-        .logo-nagios {
-             background-image: url("../logos/nagios.png");
-        }
-    
-
         .logo-graphite {
              background-image: url("../logos/graphite.png");
         }
     
 
-        .logo-influx-db {
-             background-image: url("../logos/influx-db.png");
-        }
-    
-
-        .logo-rocana {
-             background-image: url("../logos/rocana.png");
-        }
-    
-
-        .logo-instana {
-             background-image: url("../logos/instana.png");
-        }
-    
-
-        .logo-icinga {
-             background-image: url("../logos/icinga.svg");
-        }
-    
-
-        .logo-sys-dig {
-             background-image: url("../logos/sys-dig.png");
+        .logo-catchpoint-systems {
+             background-image: url("../logos/catchpoint-systems.png");
         }
     
 
@@ -264,8 +229,43 @@
         }
     
 
-        .logo-honeybadger {
-             background-image: url("../logos/honeybadger.svg");
+        .logo-ops-clarity {
+             background-image: url("../logos/ops-clarity.png");
+        }
+    
+
+        .logo-influx-db {
+             background-image: url("../logos/influx-db.png");
+        }
+    
+
+        .logo-nagios {
+             background-image: url("../logos/nagios.png");
+        }
+    
+
+        .logo-sys-dig {
+             background-image: url("../logos/sys-dig.png");
+        }
+    
+
+        .logo-instana {
+             background-image: url("../logos/instana.png");
+        }
+    
+
+        .logo-fluent-d {
+             background-image: url("../logos/fluent-d.png");
+        }
+    
+
+        .logo-wavefront {
+             background-image: url("../logos/wavefront.png");
+        }
+    
+
+        .logo-rocana {
+             background-image: url("../logos/rocana.png");
         }
     
 
@@ -279,21 +279,6 @@
         }
     
 
-        .logo-cloud-watch {
-             background-image: url("../logos/cloud-watch.png");
-        }
-    
-
-        .logo-wavefront {
-             background-image: url("../logos/wavefront.png");
-        }
-    
-
-        .logo-stackdriver {
-             background-image: url("../logos/stackdriver.png");
-        }
-    
-
         .logo-datadog {
              background-image: url("../logos/datadog.png");
         }
@@ -304,23 +289,23 @@
         }
     
 
-        .logo-app-dynamics {
-             background-image: url("../logos/app-dynamics.png");
+        .logo-cloud-watch {
+             background-image: url("../logos/cloud-watch.png");
         }
     
 
-        .logo-azure-functions {
-             background-image: url("../logos/azure-functions.png");
+        .logo-stackdriver {
+             background-image: url("../logos/stackdriver.png");
         }
     
 
-        .logo-new-relic {
-             background-image: url("../logos/new-relic.png");
+        .logo-icinga {
+             background-image: url("../logos/icinga.png");
         }
     
 
-        .logo-n-stack {
-             background-image: url("../logos/n-stack.png");
+        .logo-sensu {
+             background-image: url("../logos/sensu.png");
         }
     
 
@@ -329,33 +314,33 @@
         }
     
 
+        .logo-azure-functions {
+             background-image: url("../logos/azure-functions.png");
+        }
+    
+
+        .logo-app-dynamics {
+             background-image: url("../logos/app-dynamics.png");
+        }
+    
+
+        .logo-n-stack {
+             background-image: url("../logos/n-stack.png");
+        }
+    
+
+        .logo-new-relic {
+             background-image: url("../logos/new-relic.png");
+        }
+    
+
+        .logo-honeybadger {
+             background-image: url("../logos/honeybadger.png");
+        }
+    
+
         .logo-pub-nub {
              background-image: url("../logos/pub-nub.png");
-        }
-    
-
-        .logo-serverless {
-             background-image: url("../logos/serverless.png");
-        }
-    
-
-        .logo-apex {
-             background-image: url("../logos/apex.png");
-        }
-    
-
-        .logo-webtask {
-             background-image: url("../logos/webtask.png");
-        }
-    
-
-        .logo-kubeless {
-             background-image: url("../logos/kubeless.png");
-        }
-    
-
-        .logo-firebase-blocks {
-             background-image: url("../logos/firebase-blocks.png");
         }
     
 
@@ -364,8 +349,28 @@
         }
     
 
-        .logo-open-whisk {
-             background-image: url("../logos/open-whisk.png");
+        .logo-webtask {
+             background-image: url("../logos/webtask.png");
+        }
+    
+
+        .logo-firebase-blocks {
+             background-image: url("../logos/firebase-blocks.png");
+        }
+    
+
+        .logo-apex {
+             background-image: url("../logos/apex.png");
+        }
+    
+
+        .logo-serverless {
+             background-image: url("../logos/serverless.png");
+        }
+    
+
+        .logo-kubeless {
+             background-image: url("../logos/kubeless.png");
         }
     
 
@@ -374,8 +379,8 @@
         }
     
 
-        .logo-fission {
-             background-image: url("../logos/fission.png");
+        .logo-open-whisk {
+             background-image: url("../logos/open-whisk.png");
         }
     
 
@@ -394,6 +399,11 @@
         }
     
 
+        .logo-fission {
+             background-image: url("../logos/fission.png");
+        }
+    
+
         .logo-remind {
              background-image: url("../logos/remind.png");
         }
@@ -401,11 +411,6 @@
 
         .logo-lambda {
              background-image: url("../logos/lambda.png");
-        }
-    
-
-        .logo-pusher {
-             background-image: url("../logos/pusher.png");
         }
     
 
@@ -429,18 +434,13 @@
         }
     
 
+        .logo-pusher {
+             background-image: url("../logos/pusher.png");
+        }
+    
+
         .logo-gke {
              background-image: url("../logos/gke.png");
-        }
-    
-
-        .logo-convox {
-             background-image: url("../logos/convox.png");
-        }
-    
-
-        .logo-deis {
-             background-image: url("../logos/deis.png");
         }
     
 
@@ -449,18 +449,38 @@
         }
     
 
-        .logo-ubuntu {
-             background-image: url("../logos/ubuntu.png");
-        }
-    
-
         .logo-container-ship {
              background-image: url("../logos/container-ship.png");
         }
     
 
+        .logo-deis {
+             background-image: url("../logos/deis.png");
+        }
+    
+
+        .logo-convox {
+             background-image: url("../logos/convox.png");
+        }
+    
+
+        .logo-ubuntu {
+             background-image: url("../logos/ubuntu.png");
+        }
+    
+
         .logo-docker-cloud {
              background-image: url("../logos/docker-cloud.png");
+        }
+    
+
+        .logo-galactic-fog {
+             background-image: url("../logos/galactic-fog.png");
+        }
+    
+
+        .logo-container-linux {
+             background-image: url("../logos/container-linux.png");
         }
     
 
@@ -474,18 +494,8 @@
         }
     
 
-        .logo-galactic-fog {
-             background-image: url("../logos/galactic-fog.png");
-        }
-    
-
         .logo-moby {
              background-image: url("../logos/moby.png");
-        }
-    
-
-        .logo-container-linux {
-             background-image: url("../logos/container-linux.png");
         }
     
 
@@ -494,8 +504,8 @@
         }
     
 
-        .logo-mirantis {
-             background-image: url("../logos/mirantis.png");
+        .logo-j-hipster {
+             background-image: url("../logos/j-hipster.png");
         }
     
 
@@ -504,33 +514,8 @@
         }
     
 
-        .logo-j-hipster {
-             background-image: url("../logos/j-hipster.png");
-        }
-    
-
         .logo-mantl {
              background-image: url("../logos/mantl.png");
-        }
-    
-
-        .logo-gravitational {
-             background-image: url("../logos/gravitational.png");
-        }
-    
-
-        .logo-navops {
-             background-image: url("../logos/navops.png");
-        }
-    
-
-        .logo-cloud66 {
-             background-image: url("../logos/cloud66.png");
-        }
-    
-
-        .logo-kubermatic {
-             background-image: url("../logos/kubermatic.png");
         }
     
 
@@ -539,23 +524,8 @@
         }
     
 
-        .logo-giant-swarm {
-             background-image: url("../logos/giant-swarm.png");
-        }
-    
-
-        .logo-nirmata {
-             background-image: url("../logos/nirmata.png");
-        }
-    
-
-        .logo-iron-io {
-             background-image: url("../logos/iron-io.png");
-        }
-    
-
-        .logo-empire {
-             background-image: url("../logos/empire.png");
+        .logo-navops {
+             background-image: url("../logos/navops.png");
         }
     
 
@@ -564,13 +534,33 @@
         }
     
 
-        .logo-datawire {
-             background-image: url("../logos/datawire.png");
+        .logo-cloud66 {
+             background-image: url("../logos/cloud66.png");
         }
     
 
-        .logo-kublr {
-             background-image: url("../logos/kublr.png");
+        .logo-mirantis {
+             background-image: url("../logos/mirantis.png");
+        }
+    
+
+        .logo-giant-swarm {
+             background-image: url("../logos/giant-swarm.png");
+        }
+    
+
+        .logo-gravitational {
+             background-image: url("../logos/gravitational.png");
+        }
+    
+
+        .logo-kubermatic {
+             background-image: url("../logos/kubermatic.png");
+        }
+    
+
+        .logo-datawire {
+             background-image: url("../logos/datawire.png");
         }
     
 
@@ -579,13 +569,23 @@
         }
     
 
-        .logo-photon {
-             background-image: url("../logos/photon.png");
+        .logo-nirmata {
+             background-image: url("../logos/nirmata.png");
         }
     
 
-        .logo-flynn {
-             background-image: url("../logos/flynn.svg");
+        .logo-empire {
+             background-image: url("../logos/empire.png");
+        }
+    
+
+        .logo-platform9 {
+             background-image: url("../logos/platform9.png");
+        }
+    
+
+        .logo-atomist {
+             background-image: url("../logos/atomist.png");
         }
     
 
@@ -594,8 +594,23 @@
         }
     
 
-        .logo-atomist {
-             background-image: url("../logos/atomist.png");
+        .logo-iron-io {
+             background-image: url("../logos/iron-io.png");
+        }
+    
+
+        .logo-kublr {
+             background-image: url("../logos/kublr.png");
+        }
+    
+
+        .logo-apcera {
+             background-image: url("../logos/apcera.png");
+        }
+    
+
+        .logo-photon {
+             background-image: url("../logos/photon.png");
         }
     
 
@@ -606,21 +621,6 @@
 
         .logo-apprenda {
              background-image: url("../logos/apprenda.png");
-        }
-    
-
-        .logo-platform9 {
-             background-image: url("../logos/platform9.png");
-        }
-    
-
-        .logo-apcera {
-             background-image: url("../logos/apcera.png");
-        }
-    
-
-        .logo-tectonic {
-             background-image: url("../logos/tectonic.png");
         }
     
 
@@ -639,8 +639,13 @@
         }
     
 
-        .logo-concourse {
-             background-image: url("../logos/concourse.png");
+        .logo-tectonic {
+             background-image: url("../logos/tectonic.png");
+        }
+    
+
+        .logo-solano-labs {
+             background-image: url("../logos/solano-labs.png");
         }
     
 
@@ -654,8 +659,8 @@
         }
     
 
-        .logo-gitlab-runner {
-             background-image: url("../logos/gitlab-runner.png");
+        .logo-container-ops {
+             background-image: url("../logos/container-ops.png");
         }
     
 
@@ -664,13 +669,8 @@
         }
     
 
-        .logo-container-ops {
-             background-image: url("../logos/container-ops.png");
-        }
-    
-
-        .logo-solano-labs {
-             background-image: url("../logos/solano-labs.png");
+        .logo-gitlab-runner {
+             background-image: url("../logos/gitlab-runner.png");
         }
     
 
@@ -679,23 +679,8 @@
         }
     
 
-        .logo-distelli {
-             background-image: url("../logos/distelli.png");
-        }
-    
-
-        .logo-spinnaker {
-             background-image: url("../logos/spinnaker.png");
-        }
-    
-
-        .logo-cloudbees {
-             background-image: url("../logos/cloudbees.png");
-        }
-    
-
-        .logo-bamboo {
-             background-image: url("../logos/bamboo.png");
+        .logo-concourse {
+             background-image: url("../logos/concourse.png");
         }
     
 
@@ -704,18 +689,8 @@
         }
     
 
-        .logo-buddy-build {
-             background-image: url("../logos/buddy-build.png");
-        }
-    
-
-        .logo-codeship {
-             background-image: url("../logos/codeship.png");
-        }
-    
-
-        .logo-wercker {
-             background-image: url("../logos/wercker.png");
+        .logo-distelli {
+             background-image: url("../logos/distelli.png");
         }
     
 
@@ -724,8 +699,33 @@
         }
     
 
-        .logo-travis {
-             background-image: url("../logos/travis.png");
+        .logo-flynn {
+             background-image: url("../logos/flynn.png");
+        }
+    
+
+        .logo-spinnaker {
+             background-image: url("../logos/spinnaker.png");
+        }
+    
+
+        .logo-buddy-build {
+             background-image: url("../logos/buddy-build.png");
+        }
+    
+
+        .logo-wercker {
+             background-image: url("../logos/wercker.png");
+        }
+    
+
+        .logo-cloudbees {
+             background-image: url("../logos/cloudbees.png");
+        }
+    
+
+        .logo-codeship {
+             background-image: url("../logos/codeship.png");
         }
     
 
@@ -734,13 +734,28 @@
         }
     
 
+        .logo-octopus-deploy {
+             background-image: url("../logos/octopus-deploy.png");
+        }
+    
+
         .logo-circle-ci {
              background-image: url("../logos/circle-ci.png");
         }
     
 
-        .logo-octopus-deploy {
-             background-image: url("../logos/octopus-deploy.png");
+        .logo-travis {
+             background-image: url("../logos/travis.png");
+        }
+    
+
+        .logo-bamboo {
+             background-image: url("../logos/bamboo.png");
+        }
+    
+
+        .logo-open-api {
+             background-image: url("../logos/open-api.png");
         }
     
 
@@ -754,13 +769,13 @@
         }
     
 
-        .logo-jenkins {
-             background-image: url("../logos/jenkins.png");
+        .logo-habitat {
+             background-image: url("../logos/habitat.png");
         }
     
 
-        .logo-habitat {
-             background-image: url("../logos/habitat.png");
+        .logo-jenkins {
+             background-image: url("../logos/jenkins.png");
         }
     
 
@@ -769,8 +784,13 @@
         }
     
 
-        .logo-open-api {
-             background-image: url("../logos/open-api.png");
+        .logo-packer {
+             background-image: url("../logos/packer.png");
+        }
+    
+
+        .logo-kinesis {
+             background-image: url("../logos/kinesis.png");
         }
     
 
@@ -784,23 +804,8 @@
         }
     
 
-        .logo-git-hub {
-             background-image: url("../logos/git-hub.svg");
-        }
-    
-
-        .logo-kinesis {
-             background-image: url("../logos/kinesis.png");
-        }
-    
-
-        .logo-packer {
-             background-image: url("../logos/packer.png");
-        }
-    
-
-        .logo-bib-bucket {
-             background-image: url("../logos/bib-bucket.png");
+        .logo-compose {
+             background-image: url("../logos/compose.png");
         }
     
 
@@ -809,13 +814,18 @@
         }
     
 
-        .logo-apache-ni-fi {
-             background-image: url("../logos/apache-ni-fi.svg");
+        .logo-pulsar {
+             background-image: url("../logos/pulsar.png");
         }
     
 
-        .logo-pulsar {
-             background-image: url("../logos/pulsar.png");
+        .logo-git-hub {
+             background-image: url("../logos/git-hub.png");
+        }
+    
+
+        .logo-bib-bucket {
+             background-image: url("../logos/bib-bucket.png");
         }
     
 
@@ -834,8 +844,8 @@
         }
     
 
-        .logo-apache-storm {
-             background-image: url("../logos/apache-storm.png");
+        .logo-heron {
+             background-image: url("../logos/heron.png");
         }
     
 
@@ -844,23 +854,8 @@
         }
     
 
-        .logo-apex {
-             background-image: url("../logos/apex.png");
-        }
-    
-
-        .logo-heron {
-             background-image: url("../logos/heron.png");
-        }
-    
-
-        .logo-pachyderm {
-             background-image: url("../logos/pachyderm.png");
-        }
-    
-
-        .logo-scylla {
-             background-image: url("../logos/scylla.png");
+        .logo-apache-storm {
+             background-image: url("../logos/apache-storm.png");
         }
     
 
@@ -869,8 +864,8 @@
         }
     
 
-        .logo-compose {
-             background-image: url("../logos/compose.png");
+        .logo-pachyderm {
+             background-image: url("../logos/pachyderm.png");
         }
     
 
@@ -879,28 +874,8 @@
         }
     
 
-        .logo-carbon-data {
-             background-image: url("../logos/carbon-data.png");
-        }
-    
-
-        .logo-qubole {
-             background-image: url("../logos/qubole.png");
-        }
-    
-
-        .logo-iguazio {
-             background-image: url("../logos/iguazio.png");
-        }
-    
-
-        .logo-vitess {
-             background-image: url("../logos/vitess.svg");
-        }
-    
-
-        .logo-rethink-db {
-             background-image: url("../logos/rethink-db.png");
+        .logo-scylla {
+             background-image: url("../logos/scylla.png");
         }
     
 
@@ -909,8 +884,33 @@
         }
     
 
+        .logo-carbon-data {
+             background-image: url("../logos/carbon-data.png");
+        }
+    
+
+        .logo-apex {
+             background-image: url("../logos/apex.png");
+        }
+    
+
+        .logo-qubole {
+             background-image: url("../logos/qubole.png");
+        }
+    
+
+        .logo-vertica {
+             background-image: url("../logos/vertica.png");
+        }
+    
+
         .logo-hadoop {
              background-image: url("../logos/hadoop.png");
+        }
+    
+
+        .logo-iguazio {
+             background-image: url("../logos/iguazio.png");
         }
     
 
@@ -919,8 +919,13 @@
         }
     
 
-        .logo-vertica {
-             background-image: url("../logos/vertica.png");
+        .logo-rethink-db {
+             background-image: url("../logos/rethink-db.png");
+        }
+    
+
+        .logo-couchbase {
+             background-image: url("../logos/couchbase.png");
         }
     
 
@@ -934,23 +939,8 @@
         }
     
 
-        .logo-couchbase {
-             background-image: url("../logos/couchbase.png");
-        }
-    
-
-        .logo-noms-db {
-             background-image: url("../logos/noms-db.png");
-        }
-    
-
         .logo-druid {
              background-image: url("../logos/druid.png");
-        }
-    
-
-        .logo-crate-io {
-             background-image: url("../logos/crate-io.png");
         }
     
 
@@ -959,43 +949,13 @@
         }
     
 
-        .logo-oracle {
-             background-image: url("../logos/oracle.png");
+        .logo-noms-db {
+             background-image: url("../logos/noms-db.png");
         }
     
 
-        .logo-mongo-db {
-             background-image: url("../logos/mongo-db.png");
-        }
-    
-
-        .logo-postgres {
-             background-image: url("../logos/postgres.png");
-        }
-    
-
-        .logo-maria-db {
-             background-image: url("../logos/maria-db.png");
-        }
-    
-
-        .logo-sql-server {
-             background-image: url("../logos/sql-server.png");
-        }
-    
-
-        .logo-ibm-db2 {
-             background-image: url("../logos/ibm-db2.png");
-        }
-    
-
-        .logo-my-sql {
-             background-image: url("../logos/my-sql.png");
-        }
-    
-
-        .logo-weavenet {
-             background-image: url("../logos/weavenet.png");
+        .logo-crate-io {
+             background-image: url("../logos/crate-io.png");
         }
     
 
@@ -1004,8 +964,8 @@
         }
     
 
-        .logo-open-v-switch {
-             background-image: url("../logos/open-v-switch.png");
+        .logo-oracle {
+             background-image: url("../logos/oracle.png");
         }
     
 
@@ -1014,13 +974,33 @@
         }
     
 
-        .logo-ti-db {
-             background-image: url("../logos/ti-db.png");
+        .logo-sql-server {
+             background-image: url("../logos/sql-server.png");
         }
     
 
-        .logo-romana {
-             background-image: url("../logos/romana.png");
+        .logo-mongo-db {
+             background-image: url("../logos/mongo-db.png");
+        }
+    
+
+        .logo-maria-db {
+             background-image: url("../logos/maria-db.png");
+        }
+    
+
+        .logo-postgres {
+             background-image: url("../logos/postgres.png");
+        }
+    
+
+        .logo-ibm-db2 {
+             background-image: url("../logos/ibm-db2.png");
+        }
+    
+
+        .logo-weavenet {
+             background-image: url("../logos/weavenet.png");
         }
     
 
@@ -1029,8 +1009,8 @@
         }
     
 
-        .logo-cni {
-             background-image: url("../logos/cni.png");
+        .logo-my-sql {
+             background-image: url("../logos/my-sql.png");
         }
     
 
@@ -1039,18 +1019,33 @@
         }
     
 
+        .logo-romana {
+             background-image: url("../logos/romana.png");
+        }
+    
+
+        .logo-open-v-switch {
+             background-image: url("../logos/open-v-switch.png");
+        }
+    
+
+        .logo-cni {
+             background-image: url("../logos/cni.png");
+        }
+    
+
+        .logo-apache-ni-fi {
+             background-image: url("../logos/apache-ni-fi.png");
+        }
+    
+
+        .logo-ti-db {
+             background-image: url("../logos/ti-db.png");
+        }
+    
+
         .logo-nuage-networks {
              background-image: url("../logos/nuage-networks.png");
-        }
-    
-
-        .logo-open-contrail {
-             background-image: url("../logos/open-contrail.png");
-        }
-    
-
-        .logo-flannel {
-             background-image: url("../logos/flannel.png");
         }
     
 
@@ -1059,53 +1054,8 @@
         }
     
 
-        .logo-cilium {
-             background-image: url("../logos/cilium.png");
-        }
-    
-
         .logo-nsx {
              background-image: url("../logos/nsx.png");
-        }
-    
-
-        .logo-aviatrix {
-             background-image: url("../logos/aviatrix.png");
-        }
-    
-
-        .logo-big-switch-networks {
-             background-image: url("../logos/big-switch-networks.png");
-        }
-    
-
-        .logo-canal {
-             background-image: url("../logos/canal.png");
-        }
-    
-
-        .logo-containerd {
-             background-image: url("../logos/containerd.png");
-        }
-    
-
-        .logo-intel-clear-containers {
-             background-image: url("../logos/intel-clear-containers.png");
-        }
-    
-
-        .logo-contiv {
-             background-image: url("../logos/contiv.png");
-        }
-    
-
-        .logo-aporeto {
-             background-image: url("../logos/aporeto.png");
-        }
-    
-
-        .logo-project-calico {
-             background-image: url("../logos/project-calico.png");
         }
     
 
@@ -1114,8 +1064,63 @@
         }
     
 
+        .logo-flannel {
+             background-image: url("../logos/flannel.png");
+        }
+    
+
+        .logo-cilium {
+             background-image: url("../logos/cilium.png");
+        }
+    
+
+        .logo-open-contrail {
+             background-image: url("../logos/open-contrail.png");
+        }
+    
+
+        .logo-canal {
+             background-image: url("../logos/canal.png");
+        }
+    
+
+        .logo-big-switch-networks {
+             background-image: url("../logos/big-switch-networks.png");
+        }
+    
+
+        .logo-aviatrix {
+             background-image: url("../logos/aviatrix.png");
+        }
+    
+
+        .logo-intel-clear-containers {
+             background-image: url("../logos/intel-clear-containers.png");
+        }
+    
+
         .logo-cri-o {
              background-image: url("../logos/cri-o.png");
+        }
+    
+
+        .logo-containerd {
+             background-image: url("../logos/containerd.png");
+        }
+    
+
+        .logo-aporeto {
+             background-image: url("../logos/aporeto.png");
+        }
+    
+
+        .logo-contiv {
+             background-image: url("../logos/contiv.png");
+        }
+    
+
+        .logo-project-calico {
+             background-image: url("../logos/project-calico.png");
         }
     
 
@@ -1134,18 +1139,8 @@
         }
     
 
-        .logo-smart-os {
-             background-image: url("../logos/smart-os.png");
-        }
-    
-
-        .logo-swift {
-             background-image: url("../logos/swift.png");
-        }
-    
-
-        .logo-dell-emc {
-             background-image: url("../logos/dell-emc.png");
+        .logo-vitess {
+             background-image: url("../logos/vitess.png");
         }
     
 
@@ -1154,13 +1149,8 @@
         }
     
 
-        .logo-storage-os {
-             background-image: url("../logos/storage-os.png");
-        }
-    
-
-        .logo-run-c {
-             background-image: url("../logos/run-c.png");
+        .logo-smart-os {
+             background-image: url("../logos/smart-os.png");
         }
     
 
@@ -1169,28 +1159,33 @@
         }
     
 
-        .logo-open-sds {
-             background-image: url("../logos/open-sds.png");
-        }
-    
-
         .logo-hedvig {
              background-image: url("../logos/hedvig.png");
         }
     
 
-        .logo-sheepdog {
-             background-image: url("../logos/sheepdog.png");
+        .logo-run-c {
+             background-image: url("../logos/run-c.png");
         }
     
 
-        .logo-open-ebs {
-             background-image: url("../logos/open-ebs.png");
+        .logo-dell-emc {
+             background-image: url("../logos/dell-emc.png");
         }
     
 
-        .logo-datera {
-             background-image: url("../logos/datera.png");
+        .logo-storage-os {
+             background-image: url("../logos/storage-os.png");
+        }
+    
+
+        .logo-open-sds {
+             background-image: url("../logos/open-sds.png");
+        }
+    
+
+        .logo-swift {
+             background-image: url("../logos/swift.png");
         }
     
 
@@ -1199,18 +1194,23 @@
         }
     
 
+        .logo-sheepdog {
+             background-image: url("../logos/sheepdog.png");
+        }
+    
+
+        .logo-datera {
+             background-image: url("../logos/datera.png");
+        }
+    
+
         .logo-robin-systems {
              background-image: url("../logos/robin-systems.png");
         }
     
 
-        .logo-leo-fs {
-             background-image: url("../logos/leo-fs.png");
-        }
-    
-
-        .logo-springpath {
-             background-image: url("../logos/springpath.png");
+        .logo-rook {
+             background-image: url("../logos/rook.png");
         }
     
 
@@ -1219,8 +1219,18 @@
         }
     
 
+        .logo-springpath {
+             background-image: url("../logos/springpath.png");
+        }
+    
+
         .logo-infinit {
              background-image: url("../logos/infinit.png");
+        }
+    
+
+        .logo-leo-fs {
+             background-image: url("../logos/leo-fs.png");
         }
     
 
@@ -1234,18 +1244,18 @@
         }
     
 
-        .logo-rook {
-             background-image: url("../logos/rook.png");
+        .logo-open-ebs {
+             background-image: url("../logos/open-ebs.png");
         }
     
 
-        .logo-project-hatchway {
-             background-image: url("../logos/project-hatchway.png");
+        .logo-libstorage {
+             background-image: url("../logos/libstorage.png");
         }
     
 
-        .logo-hdfs {
-             background-image: url("../logos/hdfs.png");
+        .logo-pure-storage {
+             background-image: url("../logos/pure-storage.png");
         }
     
 
@@ -1259,13 +1269,18 @@
         }
     
 
+        .logo-project-hatchway {
+             background-image: url("../logos/project-hatchway.png");
+        }
+    
+
         .logo-ceph {
              background-image: url("../logos/ceph.png");
         }
     
 
-        .logo-libstorage {
-             background-image: url("../logos/libstorage.png");
+        .logo-hdfs {
+             background-image: url("../logos/hdfs.png");
         }
     
 
@@ -1274,23 +1289,8 @@
         }
     
 
-        .logo-pure-storage {
-             background-image: url("../logos/pure-storage.png");
-        }
-    
-
         .logo-spire {
              background-image: url("../logos/spire.png");
-        }
-    
-
-        .logo-keywhiz {
-             background-image: url("../logos/keywhiz.png");
-        }
-    
-
-        .logo-spiffe {
-             background-image: url("../logos/spiffe.svg");
         }
     
 
@@ -1304,18 +1304,8 @@
         }
     
 
-        .logo-hashicorp-vault {
-             background-image: url("../logos/hashicorp-vault.svg");
-        }
-    
-
-        .logo-open-scap {
-             background-image: url("../logos/open-scap.png");
-        }
-    
-
-        .logo-sonatype-nexus {
-             background-image: url("../logos/sonatype-nexus.png");
+        .logo-keywhiz {
+             background-image: url("../logos/keywhiz.png");
         }
     
 
@@ -1329,6 +1319,26 @@
         }
     
 
+        .logo-open-scap {
+             background-image: url("../logos/open-scap.png");
+        }
+    
+
+        .logo-lyft-confidant {
+             background-image: url("../logos/lyft-confidant.png");
+        }
+    
+
+        .logo-sonatype-nexus {
+             background-image: url("../logos/sonatype-nexus.png");
+        }
+    
+
+        .logo-notary {
+             background-image: url("../logos/notary.png");
+        }
+    
+
         .logo-clair {
              background-image: url("../logos/clair.png");
         }
@@ -1339,13 +1349,8 @@
         }
     
 
-        .logo-notary {
-             background-image: url("../logos/notary.png");
-        }
-    
-
-        .logo-lyft-confidant {
-             background-image: url("../logos/lyft-confidant.png");
+        .logo-spiffe {
+             background-image: url("../logos/spiffe.png");
         }
     
 
@@ -1364,28 +1369,8 @@
         }
     
 
-        .logo-aqua {
-             background-image: url("../logos/aqua.png");
-        }
-    
-
         .logo-salt-stack {
              background-image: url("../logos/salt-stack.png");
-        }
-    
-
-        .logo-portus {
-             background-image: url("../logos/portus.png");
-        }
-    
-
-        .logo-chef {
-             background-image: url("../logos/chef.png");
-        }
-    
-
-        .logo-puppet {
-             background-image: url("../logos/puppet.png");
         }
     
 
@@ -1394,8 +1379,33 @@
         }
     
 
+        .logo-chef {
+             background-image: url("../logos/chef.png");
+        }
+    
+
         .logo-linux-kit {
              background-image: url("../logos/linux-kit.png");
+        }
+    
+
+        .logo-hashicorp-vault {
+             background-image: url("../logos/hashicorp-vault.png");
+        }
+    
+
+        .logo-puppet {
+             background-image: url("../logos/puppet.png");
+        }
+    
+
+        .logo-portus {
+             background-image: url("../logos/portus.png");
+        }
+    
+
+        .logo-aqua {
+             background-image: url("../logos/aqua.png");
         }
     
 
@@ -1414,13 +1424,18 @@
         }
     
 
-        .logo-ansible {
-             background-image: url("../logos/ansible.png");
+        .logo-azure-registry {
+             background-image: url("../logos/azure-registry.png");
         }
     
 
-        .logo-azure-registry {
-             background-image: url("../logos/azure-registry.png");
+        .logo-quay {
+             background-image: url("../logos/quay.png");
+        }
+    
+
+        .logo-ansible {
+             background-image: url("../logos/ansible.png");
         }
     
 
@@ -1434,8 +1449,8 @@
         }
     
 
-        .logo-quay {
-             background-image: url("../logos/quay.png");
+        .logo-infrakit {
+             background-image: url("../logos/infrakit.png");
         }
     
 
@@ -1454,18 +1469,13 @@
         }
     
 
+        .logo-cloud-formation {
+             background-image: url("../logos/cloud-formation.png");
+        }
+    
+
         .logo-digital-rebar {
              background-image: url("../logos/digital-rebar.png");
-        }
-    
-
-        .logo-cloudify {
-             background-image: url("../logos/cloudify.png");
-        }
-    
-
-        .logo-bosh {
-             background-image: url("../logos/bosh.png");
         }
     
 
@@ -1474,23 +1484,43 @@
         }
     
 
-        .logo-cloud-formation {
-             background-image: url("../logos/cloud-formation.png");
-        }
-    
-
         .logo-foreman {
              background-image: url("../logos/foreman.png");
         }
     
 
-        .logo-infrakit {
-             background-image: url("../logos/infrakit.png");
+        .logo-bosh {
+             background-image: url("../logos/bosh.png");
+        }
+    
+
+        .logo-cloudify {
+             background-image: url("../logos/cloudify.png");
         }
     
 
         .logo-maas {
              background-image: url("../logos/maas.png");
+        }
+    
+
+        .logo-v-mware {
+             background-image: url("../logos/v-mware.png");
+        }
+    
+
+        .logo-scaleway {
+             background-image: url("../logos/scaleway.png");
+        }
+    
+
+        .logo-joyent {
+             background-image: url("../logos/joyent.png");
+        }
+    
+
+        .logo-fujitsu-k5 {
+             background-image: url("../logos/fujitsu-k5.png");
         }
     
 
@@ -1504,33 +1534,8 @@
         }
     
 
-        .logo-scaleway {
-             background-image: url("../logos/scaleway.png");
-        }
-    
-
-        .logo-v-mware {
-             background-image: url("../logos/v-mware.png");
-        }
-    
-
-        .logo-joyent {
-             background-image: url("../logos/joyent.png");
-        }
-    
-
         .logo-tencent-cloud {
              background-image: url("../logos/tencent-cloud.png");
-        }
-    
-
-        .logo-docker-registry {
-             background-image: url("../logos/docker-registry.png");
-        }
-    
-
-        .logo-fujitsu-k5 {
-             background-image: url("../logos/fujitsu-k5.png");
         }
     
 
@@ -1541,21 +1546,6 @@
 
         .logo-oracle-cloud {
              background-image: url("../logos/oracle-cloud.png");
-        }
-    
-
-        .logo-ibm-cloud {
-             background-image: url("../logos/ibm-cloud.svg");
-        }
-    
-
-        .logo-kubicorn {
-             background-image: url("../logos/kubicorn.png");
-        }
-    
-
-        .logo-azure-cloud-services {
-             background-image: url("../logos/azure-cloud-services.png");
         }
     
 
@@ -1574,13 +1564,13 @@
         }
     
 
-        .logo-ribbon {
-             background-image: url("../logos/ribbon.png");
+        .logo-aws {
+             background-image: url("../logos/aws.png");
         }
     
 
-        .logo-aws {
-             background-image: url("../logos/aws.png");
+        .logo-azure-cloud-services {
+             background-image: url("../logos/azure-cloud-services.png");
         }
     
 
@@ -1589,8 +1579,8 @@
         }
     
 
-        .logo-google-cloud-platform {
-             background-image: url("../logos/google-cloud-platform.png");
+        .logo-ribbon {
+             background-image: url("../logos/ribbon.png");
         }
     
 
@@ -1604,23 +1594,13 @@
         }
     
 
-        .logo-apache-avro {
-             background-image: url("../logos/apache-avro.png");
+        .logo-ibm-cloud {
+             background-image: url("../logos/ibm-cloud.png");
         }
     
 
         .logo-vamp {
              background-image: url("../logos/vamp.png");
-        }
-    
-
-        .logo-apache-thrift {
-             background-image: url("../logos/apache-thrift.png");
-        }
-    
-
-        .logo-g-rpc {
-             background-image: url("../logos/g-rpc.png");
         }
     
 
@@ -1634,8 +1614,23 @@
         }
     
 
+        .logo-apache-avro {
+             background-image: url("../logos/apache-avro.png");
+        }
+    
+
+        .logo-apache-thrift {
+             background-image: url("../logos/apache-thrift.png");
+        }
+    
+
         .logo-hystrix {
              background-image: url("../logos/hystrix.png");
+        }
+    
+
+        .logo-g-rpc {
+             background-image: url("../logos/g-rpc.png");
         }
     
 
@@ -1644,13 +1639,8 @@
         }
     
 
-        .logo-traefik {
-             background-image: url("../logos/traefik.png");
-        }
-    
-
-        .logo-turbine-labs {
-             background-image: url("../logos/turbine-labs.png");
+        .logo-kubicorn {
+             background-image: url("../logos/kubicorn.png");
         }
     
 
@@ -1659,13 +1649,18 @@
         }
     
 
+        .logo-turbine-labs {
+             background-image: url("../logos/turbine-labs.png");
+        }
+    
+
         .logo-avi-networks {
              background-image: url("../logos/avi-networks.png");
         }
     
 
-        .logo-nginx {
-             background-image: url("../logos/nginx.png");
+        .logo-traefik {
+             background-image: url("../logos/traefik.png");
         }
     
 
@@ -1679,6 +1674,16 @@
         }
     
 
+        .logo-nginx {
+             background-image: url("../logos/nginx.png");
+        }
+    
+
+        .logo-3-scale {
+             background-image: url("../logos/3-scale.png");
+        }
+    
+
         .logo-hyperbahn {
              background-image: url("../logos/hyperbahn.png");
         }
@@ -1689,13 +1694,13 @@
         }
     
 
-        .logo-3-scale {
-             background-image: url("../logos/3-scale.png");
+        .logo-envoy {
+             background-image: url("../logos/envoy.png");
         }
     
 
-        .logo-envoy {
-             background-image: url("../logos/envoy.png");
+        .logo-registrator {
+             background-image: url("../logos/registrator.png");
         }
     
 
@@ -1704,8 +1709,13 @@
         }
     
 
-        .logo-registrator {
-             background-image: url("../logos/registrator.png");
+        .logo-google-cloud-platform {
+             background-image: url("../logos/google-cloud-platform.png");
+        }
+    
+
+        .logo-core-dns {
+             background-image: url("../logos/core-dns.png");
         }
     
 

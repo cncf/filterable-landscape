@@ -3,7 +3,8 @@ import rp from 'request-promise';
 import Promise from 'bluebird';
 import saneName from '../src/utils/saneName';
 import fs from 'fs';
-import _ from 'lodash'
+import _ from 'lodash';
+import svg2png from 'svg2png';
 
 const traverse = require('traverse');
 const source = require('js-yaml').safeLoad(require('fs').readFileSync('landscape.yml'));
@@ -53,14 +54,10 @@ async function fetchImages() {
       if (['.jpg', '.png', '.gif', '.svg'].indexOf(ext) === -1 ) {
         ext = '.png';
       }
-      if (ext !== '.svg') {
-        outputExt = '.png';
-      } else {
-        outputExt = '.svg';
-      }
+      outputExt = '.png';
       const fileName = `src/logos/${saneName(item.name)}${outputExt}`;
       try {
-        const response = await rp({
+        var response = await rp({
           encoding: null,
           uri: url,
           followRedirect: true,
@@ -69,13 +66,11 @@ async function fetchImages() {
         var hash = require('crypto').createHash('sha256').update(response).digest('hex');
         const existingEntry = _.find(existingEntries, {url: url});
         if (!existingEntry || existingEntry.hash !== hash) {
-          if (ext !== '.svg') {
-            // console.info('normalizing image');
-            await normalizeImage({inputFile: response,outputFile: fileName});
-          } else {
-            // console.info(`writing svg to ${fileName}`);
-            fs.writeFileSync(fileName, response);
+          if (ext === '.svg') {
+            response = await svg2png(response, {width: 1024});
           }
+          // console.info('normalizing image');
+          await normalizeImage({inputFile: response,outputFile: fileName});
         }
         logos.push({name: saneName(item.name), fileName: fileName, hash, url});
       } catch(ex) {
