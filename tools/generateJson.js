@@ -18,7 +18,8 @@ tree.map(function(node) {
     items.push({...node,
       cncfProject: node.cncf_project,
       path: parts.join(' / '),
-      landscape: parts[0],
+      landscape: parts.join(' / '),
+      category: parts[0],
       certifiedKubernetes: _.sample([null, false, 'platform', 'distribution']),
       vcFunder: _.sample(fakeData.vcFunder),
       marketCap: node.market_cap,
@@ -81,6 +82,7 @@ const generateLandscapeHierarchy = function() {
         id: category + ' / ' + node.name,
         parentId: category,
         label: node.name,
+        groupingLabel: category + ' / ' + node.name,
         url: saneName(node.name),
         level: 2
       }
