@@ -80,11 +80,17 @@ async function fetchImages() {
           console.info('failed to fetch ', url, ' attempting to use existing image');
           var entry = _.find(existingEntries, {url: url});
           if (!entry) {
-            console.info('existing image for ', url,  ' has not been found');
+            if (item.raw_logo.indexOf('.') === 0) {
+              response = fs.readFileSync(item.raw_logo);
+              console.info(`reading ${item.raw_logo} from a local fs`);
+            } else {
+              console.info('existing image for ', url,  ' has not been found');
+              return;
+            }
           } else {
             logos.push(entry);
+            return;
           }
-          return;
         }
         var hash = require('crypto').createHash('sha256').update(response).digest('hex');
         const existingEntry = _.find(existingEntries, {url: url});
