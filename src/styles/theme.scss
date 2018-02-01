@@ -35,6 +35,18 @@
           cursor: pointer;
         }
 
+        .logo::after{
+          content: "";
+          background-color:rgba(0,0,0,0.1);
+          font-weight: bold;
+          display:block;
+          width:100%;
+          height:100%;
+          border-radius:5px;
+
+
+        }
+
       }
 
 
@@ -71,7 +83,7 @@
 
   }
 
-  
+
 }
 
 .header_container{
