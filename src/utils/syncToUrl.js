@@ -49,10 +49,11 @@ function addFieldToParams({field, filters, params}) {
     if (!_.isArray(value)) {
       value = [value];
     }
-    const urlValues = value.map(function(v){
+    const processedValues = fieldInfo.processValuesBeforeSaving(value);
+    const urlValues = processedValues.map(function(v){
       const valueInfo = _.find(fieldInfo.values, {id: v});
       return valueInfo.url
-    })
+    });
     params[fieldInfo.url] = urlValues.join(',');
   }
 }
@@ -105,7 +106,8 @@ function setFieldFromParams({field, filters, params}) {
   }).filter(function(x) { return !!x}).map(function(x) {
     return x.id;
   });
-  const value = fieldInfo.isArray ? values : values[0];
+  const processedValues = fieldInfo.processValuesBeforeLoading(values);
+  const value = fieldInfo.isArray ? processedValues : processedValues[0];
   if (!_.isUndefined(value)) {
     filters[field] = value;
   }

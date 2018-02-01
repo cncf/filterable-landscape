@@ -255,7 +255,34 @@ const fields = {
     id: 'landscape',
     label: 'CNCF Filterable Landscape',
     isArray: true,
-    values: [].concat(lookups.landscape || [])
+    values: [].concat(lookups.landscape || []),
+    processValuesBeforeSaving: function(values) {
+      return values.filter(function(value) {
+        const option = _.find(fields.landscape.values, {id: value});
+        // keep parent only if all children are checked
+        if (option.children) {
+          return _.every(option.children, function(childOptionId) {
+            return values.indexOf(childOptionId) !== -1;
+          });
+        }
+        // keep child only if any of childrens is not checked
+        const parentOption = _.find(fields.landscape.values, {id: option.parentId});
+        return ! _.every(parentOption.children, function(childOptionId) {
+          return values.indexOf(childOptionId) !== -1;
+        });
+      });
+    },
+    processValuesBeforeLoading: function(values) {
+      return fields.landscape.values.filter(function(option) {
+        if (option.children) {
+          return !_.every(option.children, function(childOptionId) {
+            return values.indexOf(childOptionId) === -1
+          }) || values.indexOf(option.id) !== -1;
+        }
+        const parentOption = _.find(fields.landscape.values, {id: option.parentId});
+        return values.indexOf(parentOption.id) !== -1 || values.indexOf(option.id) !== -1;
+      }).map( (option) => option.id);
+    }
   },
   startDate: {
     id: 'startDate',
@@ -268,7 +295,9 @@ _.each(fields, function(field, key) {
   _.defaults(field, {
     groupingLabel: field.label,
     url: field.id,
-    answers: field.values
+    answers: field.values,
+    processValuesBeforeSaving: _.identity,
+    processValuesBeforeLoading: _.identity
   });
   _.each(field.values, function(value, index) {
     _.defaults(value, {
