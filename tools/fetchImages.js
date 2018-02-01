@@ -44,7 +44,7 @@ var logos=[];
 async function fetchImages() {
   const promises = Promise.map(items, async function(item) {
     var url = item.raw_logo;
-    if (url && url.indexOf('http') !== 0) {
+    if (url && url.indexOf('http') !== 0 && url.indexOf('.') !== 0) {
       console.info(`adding a prefix for ${url}`);
       url = 'http://' + url;
     }
@@ -68,28 +68,29 @@ async function fetchImages() {
       outputExt = '.png';
       const fileName = `src/logos/${saneName(item.name)}${outputExt}`;
       try {
+        console.info(url);
         var response = null;
-        try {
-          response = await rp({
-            encoding: null,
-            uri: url,
-            followRedirect: true,
-            simple: true
-          });
-        } catch(ex) {
-          console.info('failed to fetch ', url, ' attempting to use existing image');
-          var entry = _.find(existingEntries, {url: url});
-          if (!entry) {
-            if (item.raw_logo.indexOf('.') === 0) {
-              response = fs.readFileSync(item.raw_logo);
-              console.info(`reading ${item.raw_logo} from a local fs`);
-            } else {
+        if (url.indexOf('.') === 0) {
+          response = fs.readFileSync(url);
+        } else {
+          try {
+            response = await rp({
+              encoding: null,
+              uri: url,
+              followRedirect: true,
+              simple: true,
+              timeout: 30 * 1000
+            });
+          } catch(ex) {
+            console.info('failed to fetch ', url, ' attempting to use existing image');
+            var entry = _.find(existingEntries, {url: url});
+            if (!entry) {
               console.info('existing image for ', url,  ' has not been found');
               return;
+            } else {
+              logos.push(entry);
+              return;
             }
-          } else {
-            logos.push(entry);
-            return;
           }
         }
         var hash = require('crypto').createHash('sha256').update(response).digest('hex');
