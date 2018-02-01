@@ -12,7 +12,7 @@
     $mosaic_size: 175px;
     $shared_height: 70%;
 
-    .mosaic::after{
+    .commercial.mosaic::after{
       content: "";
       background-color:rgba(0,0,0,0.1);
       font-weight: bold;
@@ -21,7 +21,6 @@
       height:$shared_height;
       border-radius:2px 2px 0 0;
       margin-top:-$mosaic_size;
-
     }
 
     .mosaic{
