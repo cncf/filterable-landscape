@@ -3,61 +3,176 @@
   background-color:#F4F4f4;
   overflow:hidden;
   font-family: "Roboto", "Helvetica", "Arial", sans-serif;
-}
 
-.sh_wrapper{
-  position: relative;
-  height: 80px;
-  margin: 20px;
-}
-
-.mosaic{
-  position: relative;
-  display: inline-block;
-  width: 175px;
-  height: 175px;
-  margin: 4px 6px;
-  border-radius:2px;
-  box-shadow: 1px 1px 3px #d6d6d6;
-
-  .logo_wrapper{
-    padding:10px;
-    height: 70%;
-    width: 100%;
-
-    .logo{
-      width: 100%;
-      height: 100%;
-      border-radius:4px 4px 0 0;
-      background-repeat: no-repeat;
-      background-size: contain;
-      background-position: 50%;
-      cursor: pointer;
-    }
-
+  .sidebar{
   }
 
+  .content{
 
-  .info{
-    height: 30%;
-    font-size: 0.6em;
-    border-width:1px 0 0 0;
-    border-style: dotted;
-    border-color:#CCC;
-    padding:10px;
+    $mosaic_size: 175px;
+    $shared_height: 70%;
 
-
-    h5{
-      margin:0 0 5px 0 !important;
+    .commercial.mosaic::after{
+      content: "";
+      background-color:rgba(0,0,0,0.1);
+      font-weight: bold;
+      display:block;
       width:100%;
-      font-size:1em;
+      height:$shared_height;
+      border-radius:2px 2px 0 0;
+      margin-top:-$mosaic_size;
     }
-    & > div, & > div span{
-      display:flex;
-      flex-direction: row;
-      justify-content: space-between;
-      align-items: center;
-      color:#9B9B9B;
+
+    .mosaic{
+      background-color: white;
+      position: relative;
+      display: inline-block;
+      width: $mosaic_size;
+      height: $mosaic_size;
+      margin: 4px 6px;
+      border-radius:2px;
+      box-shadow: 1px 1px 3px #d6d6d6;
+
+      .logo_wrapper{
+        height: $shared_height;
+        width: 100%;
+        padding:20px;
+
+        .logo{
+          width: 100%;
+          height: 100%;
+          border-radius:4px 4px 0 0;
+          background-repeat: no-repeat;
+          background-size: contain;
+          background-position: 50%;
+          background-color: #fff;
+          cursor: pointer;
+
+        }
+
+
+
+      }
+
+      .info{
+        height: 30%;
+        background-color: #FFF;
+        font-size: 0.6em;
+        border-width:1px 0 0 0;
+        border-style: dotted;
+        border-color:#CCC;
+        padding:10px;
+
+
+        h5{
+          margin:0 0 5px 0 !important;
+          width:100%;
+          font-size:1em;
+        }
+        & > div, & > div span{
+          display:flex;
+          flex-direction: row;
+          justify-content: space-between;
+          align-items: center;
+          color:#9B9B9B;
+        }
+      }
+    }
+
+    .subheader{
+      position: relative;
+      height: 80px;
+      margin: 20px;
+    }
+
+  }
+
+
+}
+
+.header_container{
+  display:flex;
+  align-items: center;
+  left: 0;
+  width:100%;
+
+  .header{
+    flex:1;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 15px 30px;
+
+    .logos{
+      display: flex;
+
+      div{
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: 90%;
+        height: 40px;
+        padding:10px 0;
+
+        &.partner1{
+          background-image: url(./assets/cncf.png);
+          min-width: 200px;
+        }
+
+      }
+
+    }
+
+  }
+
+  .title{
+    display:flex;
+    flex-direction: column;
+    font-size:1.3em;
+    color: #6d7e90 !important;
+    align-items: flex-end;
+    padding: 10px 0 0 20px;
+
+    a{
+      color:#949494;
+    }
+
+    p{
+      color:#CCC;
+      font-size:0.6em;
+      margin:3px 0;
+    }
+
+  }
+
+}
+
+//MOBILE SCREENS
+@media (max-width: 767px) {
+
+  .header_container {
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: fixed;
+    left: 0;
+    top: 0;
+
+    .header{
+      padding:10px 20px 0 0;
+
+      .logos div{
+        background-size:70%;
+      }
+    }
+
+    .title{
+      padding:10px 37px;
     }
   }
+
 }
+
+
+
+
+

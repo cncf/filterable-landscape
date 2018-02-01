@@ -7,11 +7,11 @@ import _ from 'lodash';
 const MainContent = ({groupedItems, onSelectItem}) => {
   const itemsAndHeaders = _.map(groupedItems, function(groupedItem) {
     return [
-      <div className="sh_wrapper" key={"subheader:" + groupedItem.header}>
-          <Subheader component="div" style={{fontSize: 24}}>{groupedItem.header} ({groupedItem.items.length})</Subheader>
+      <div className="subheader" key={"subheader:" + groupedItem.header}>
+          <Subheader component="div" style={{fontSize: 14}}>{groupedItem.header} ({groupedItem.items.length})</Subheader>
       </div>
     ].concat(_.map(groupedItem.items, function(item) {
-      return (<div className="mosaic" key={item.id} style={{ background: item.oss ? 'white' : '#eeeeee'}}>
+      return (<div className={classNames('mosaic',{commercial: !item.oss})} key={item.id}>
                 <div className="logo_wrapper" style={{border: '1px solid #f0f0f0'}}
                 >
                   <div className={classNames(`${item.logo}-tile`,{ logo: true})} onClick={() => onSelectItem(item.id)}/>
