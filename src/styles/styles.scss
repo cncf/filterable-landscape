@@ -9,16 +9,6 @@
           }
       
 
-          .logo-etcd-large {
-              background-image: url("../logos/etcd-large.png");
-          }
-      
-
-          .logo-etcd-tile {
-              background-image: url("../logos/etcd-tile.png");
-          }
-      
-
           .logo-microsoft-azure-service-fabric-large {
               background-image: url("../logos/microsoft-azure-service-fabric-large.png");
           }
@@ -26,16 +16,6 @@
 
           .logo-microsoft-azure-service-fabric-tile {
               background-image: url("../logos/microsoft-azure-service-fabric-tile.png");
-          }
-      
-
-          .logo-docker-swarm-large {
-              background-image: url("../logos/docker-swarm-large.png");
-          }
-      
-
-          .logo-docker-swarm-tile {
-              background-image: url("../logos/docker-swarm-tile.png");
           }
       
 
@@ -49,13 +29,23 @@
           }
       
 
-          .logo-mesos-large {
-              background-image: url("../logos/mesos-large.png");
+          .logo-etcd-large {
+              background-image: url("../logos/etcd-large.png");
           }
       
 
-          .logo-mesos-tile {
-              background-image: url("../logos/mesos-tile.png");
+          .logo-etcd-tile {
+              background-image: url("../logos/etcd-tile.png");
+          }
+      
+
+          .logo-docker-swarm-large {
+              background-image: url("../logos/docker-swarm-large.png");
+          }
+      
+
+          .logo-docker-swarm-tile {
+              background-image: url("../logos/docker-swarm-tile.png");
           }
       
 
@@ -69,13 +59,13 @@
           }
       
 
-          .logo-zookeeper-large {
-              background-image: url("../logos/zookeeper-large.png");
+          .logo-mesos-large {
+              background-image: url("../logos/mesos-large.png");
           }
       
 
-          .logo-zookeeper-tile {
-              background-image: url("../logos/zookeeper-tile.png");
+          .logo-mesos-tile {
+              background-image: url("../logos/mesos-tile.png");
           }
       
 
@@ -86,6 +76,16 @@
 
           .logo-kubernetes-tile {
               background-image: url("../logos/kubernetes-tile.png");
+          }
+      
+
+          .logo-zookeeper-large {
+              background-image: url("../logos/zookeeper-large.png");
+          }
+      
+
+          .logo-zookeeper-tile {
+              background-image: url("../logos/zookeeper-tile.png");
           }
       
 
@@ -109,6 +109,16 @@
           }
       
 
+          .logo-container-pilot-large {
+              background-image: url("../logos/container-pilot-large.png");
+          }
+      
+
+          .logo-container-pilot-tile {
+              background-image: url("../logos/container-pilot-tile.png");
+          }
+      
+
           .logo-nomad-large {
               background-image: url("../logos/nomad-large.png");
           }
@@ -116,16 +126,6 @@
 
           .logo-nomad-tile {
               background-image: url("../logos/nomad-tile.png");
-          }
-      
-
-          .logo-graylog-large {
-              background-image: url("../logos/graylog-large.png");
-          }
-      
-
-          .logo-graylog-tile {
-              background-image: url("../logos/graylog-tile.png");
           }
       
 
@@ -139,6 +139,16 @@
           }
       
 
+          .logo-graylog-large {
+              background-image: url("../logos/graylog-large.png");
+          }
+      
+
+          .logo-graylog-tile {
+              background-image: url("../logos/graylog-tile.png");
+          }
+      
+
           .logo-loom-systems-large {
               background-image: url("../logos/loom-systems-large.png");
           }
@@ -149,13 +159,13 @@
           }
       
 
-          .logo-container-pilot-large {
-              background-image: url("../logos/container-pilot-large.png");
+          .logo-skywalking-large {
+              background-image: url("../logos/skywalking-large.png");
           }
       
 
-          .logo-container-pilot-tile {
-              background-image: url("../logos/container-pilot-tile.png");
+          .logo-skywalking-tile {
+              background-image: url("../logos/skywalking-tile.png");
           }
       
 
@@ -179,6 +189,16 @@
           }
       
 
+          .logo-weave-cloud-large {
+              background-image: url("../logos/weave-cloud-large.png");
+          }
+      
+
+          .logo-weave-cloud-tile {
+              background-image: url("../logos/weave-cloud-tile.png");
+          }
+      
+
           .logo-loggly-large {
               background-image: url("../logos/loggly-large.png");
           }
@@ -186,16 +206,6 @@
 
           .logo-loggly-tile {
               background-image: url("../logos/loggly-tile.png");
-          }
-      
-
-          .logo-elastic-large {
-              background-image: url("../logos/elastic-large.png");
-          }
-      
-
-          .logo-elastic-tile {
-              background-image: url("../logos/elastic-tile.png");
           }
       
 
@@ -209,13 +219,13 @@
           }
       
 
-          .logo-weave-cloud-large {
-              background-image: url("../logos/weave-cloud-large.png");
+          .logo-elastic-large {
+              background-image: url("../logos/elastic-large.png");
           }
       
 
-          .logo-weave-cloud-tile {
-              background-image: url("../logos/weave-cloud-tile.png");
+          .logo-elastic-tile {
+              background-image: url("../logos/elastic-tile.png");
           }
       
 
@@ -229,16 +239,6 @@
           }
       
 
-          .logo-logz-large {
-              background-image: url("../logos/logz-large.png");
-          }
-      
-
-          .logo-logz-tile {
-              background-image: url("../logos/logz-tile.png");
-          }
-      
-
           .logo-stack-state-large {
               background-image: url("../logos/stack-state-large.png");
           }
@@ -246,6 +246,16 @@
 
           .logo-stack-state-tile {
               background-image: url("../logos/stack-state-tile.png");
+          }
+      
+
+          .logo-logz-large {
+              background-image: url("../logos/logz-large.png");
+          }
+      
+
+          .logo-logz-tile {
+              background-image: url("../logos/logz-tile.png");
           }
       
 
@@ -259,13 +269,13 @@
           }
       
 
-          .logo-scope-large {
-              background-image: url("../logos/scope-large.png");
+          .logo-weave-scope-large {
+              background-image: url("../logos/weave-scope-large.png");
           }
       
 
-          .logo-scope-tile {
-              background-image: url("../logos/scope-tile.png");
+          .logo-weave-scope-tile {
+              background-image: url("../logos/weave-scope-tile.png");
           }
       
 
@@ -309,6 +319,26 @@
           }
       
 
+          .logo-signal-fx-large {
+              background-image: url("../logos/signal-fx-large.png");
+          }
+      
+
+          .logo-signal-fx-tile {
+              background-image: url("../logos/signal-fx-tile.png");
+          }
+      
+
+          .logo-lighstep-large {
+              background-image: url("../logos/lighstep-large.png");
+          }
+      
+
+          .logo-lighstep-tile {
+              background-image: url("../logos/lighstep-tile.png");
+          }
+      
+
           .logo-centreon-large {
               background-image: url("../logos/centreon-large.png");
           }
@@ -316,16 +346,6 @@
 
           .logo-centreon-tile {
               background-image: url("../logos/centreon-tile.png");
-          }
-      
-
-          .logo-skywalking-large {
-              background-image: url("../logos/skywalking-large.png");
-          }
-      
-
-          .logo-skywalking-tile {
-              background-image: url("../logos/skywalking-tile.png");
           }
       
 
@@ -346,26 +366,6 @@
 
           .logo-dynatrace-tile {
               background-image: url("../logos/dynatrace-tile.png");
-          }
-      
-
-          .logo-signal-fx-large {
-              background-image: url("../logos/signal-fx-large.png");
-          }
-      
-
-          .logo-signal-fx-tile {
-              background-image: url("../logos/signal-fx-tile.png");
-          }
-      
-
-          .logo-lighstep-large {
-              background-image: url("../logos/lighstep-large.png");
-          }
-      
-
-          .logo-lighstep-tile {
-              background-image: url("../logos/lighstep-tile.png");
           }
       
 
@@ -419,16 +419,6 @@
           }
       
 
-          .logo-catchpoint-systems-large {
-              background-image: url("../logos/catchpoint-systems-large.png");
-          }
-      
-
-          .logo-catchpoint-systems-tile {
-              background-image: url("../logos/catchpoint-systems-tile.png");
-          }
-      
-
           .logo-server-density-large {
               background-image: url("../logos/server-density-large.png");
           }
@@ -436,6 +426,16 @@
 
           .logo-server-density-tile {
               background-image: url("../logos/server-density-tile.png");
+          }
+      
+
+          .logo-catchpoint-systems-large {
+              background-image: url("../logos/catchpoint-systems-large.png");
+          }
+      
+
+          .logo-catchpoint-systems-tile {
+              background-image: url("../logos/catchpoint-systems-tile.png");
           }
       
 
@@ -469,13 +469,13 @@
           }
       
 
-          .logo-ops-clarity-large {
-              background-image: url("../logos/ops-clarity-large.png");
+          .logo-graphite-large {
+              background-image: url("../logos/graphite-large.png");
           }
       
 
-          .logo-ops-clarity-tile {
-              background-image: url("../logos/ops-clarity-tile.png");
+          .logo-graphite-tile {
+              background-image: url("../logos/graphite-tile.png");
           }
       
 
@@ -489,16 +489,6 @@
           }
       
 
-          .logo-graphite-large {
-              background-image: url("../logos/graphite-large.png");
-          }
-      
-
-          .logo-graphite-tile {
-              background-image: url("../logos/graphite-tile.png");
-          }
-      
-
           .logo-nagios-large {
               background-image: url("../logos/nagios-large.png");
           }
@@ -509,13 +499,13 @@
           }
       
 
-          .logo-fluent-d-large {
-              background-image: url("../logos/fluent-d-large.png");
+          .logo-ops-clarity-large {
+              background-image: url("../logos/ops-clarity-large.png");
           }
       
 
-          .logo-fluent-d-tile {
-              background-image: url("../logos/fluent-d-tile.png");
+          .logo-ops-clarity-tile {
+              background-image: url("../logos/ops-clarity-tile.png");
           }
       
 
@@ -526,6 +516,46 @@
 
           .logo-rocana-tile {
               background-image: url("../logos/rocana-tile.png");
+          }
+      
+
+          .logo-instana-large {
+              background-image: url("../logos/instana-large.png");
+          }
+      
+
+          .logo-instana-tile {
+              background-image: url("../logos/instana-tile.png");
+          }
+      
+
+          .logo-wavefront-large {
+              background-image: url("../logos/wavefront-large.png");
+          }
+      
+
+          .logo-wavefront-tile {
+              background-image: url("../logos/wavefront-tile.png");
+          }
+      
+
+          .logo-fluentd-large {
+              background-image: url("../logos/fluentd-large.png");
+          }
+      
+
+          .logo-fluentd-tile {
+              background-image: url("../logos/fluentd-tile.png");
+          }
+      
+
+          .logo-iron-db-large {
+              background-image: url("../logos/iron-db-large.png");
+          }
+      
+
+          .logo-iron-db-tile {
+              background-image: url("../logos/iron-db-tile.png");
           }
       
 
@@ -549,6 +579,36 @@
           }
       
 
+          .logo-prometheus-large {
+              background-image: url("../logos/prometheus-large.png");
+          }
+      
+
+          .logo-prometheus-tile {
+              background-image: url("../logos/prometheus-tile.png");
+          }
+      
+
+          .logo-honeybadger-large {
+              background-image: url("../logos/honeybadger-large.png");
+          }
+      
+
+          .logo-honeybadger-tile {
+              background-image: url("../logos/honeybadger-tile.png");
+          }
+      
+
+          .logo-icinga-large {
+              background-image: url("../logos/icinga-large.png");
+          }
+      
+
+          .logo-icinga-tile {
+              background-image: url("../logos/icinga-tile.png");
+          }
+      
+
           .logo-axibase-large {
               background-image: url("../logos/axibase-large.png");
           }
@@ -569,6 +629,16 @@
           }
       
 
+          .logo-stats-db-large {
+              background-image: url("../logos/stats-db-large.png");
+          }
+      
+
+          .logo-stats-db-tile {
+              background-image: url("../logos/stats-db-tile.png");
+          }
+      
+
           .logo-datadog-large {
               background-image: url("../logos/datadog-large.png");
           }
@@ -579,13 +649,13 @@
           }
       
 
-          .logo-prometheus-large {
-              background-image: url("../logos/prometheus-large.png");
+          .logo-azure-functions-large {
+              background-image: url("../logos/azure-functions-large.png");
           }
       
 
-          .logo-prometheus-tile {
-              background-image: url("../logos/prometheus-tile.png");
+          .logo-azure-functions-tile {
+              background-image: url("../logos/azure-functions-tile.png");
           }
       
 
@@ -609,16 +679,6 @@
           }
       
 
-          .logo-sensu-large {
-              background-image: url("../logos/sensu-large.png");
-          }
-      
-
-          .logo-sensu-tile {
-              background-image: url("../logos/sensu-tile.png");
-          }
-      
-
           .logo-n-stack-large {
               background-image: url("../logos/n-stack-large.png");
           }
@@ -626,96 +686,6 @@
 
           .logo-n-stack-tile {
               background-image: url("../logos/n-stack-tile.png");
-          }
-      
-
-          .logo-azure-functions-large {
-              background-image: url("../logos/azure-functions-large.png");
-          }
-      
-
-          .logo-azure-functions-tile {
-              background-image: url("../logos/azure-functions-tile.png");
-          }
-      
-
-          .logo-stats-db-large {
-              background-image: url("../logos/stats-db-large.png");
-          }
-      
-
-          .logo-stats-db-tile {
-              background-image: url("../logos/stats-db-tile.png");
-          }
-      
-
-          .logo-nuclio-large {
-              background-image: url("../logos/nuclio-large.png");
-          }
-      
-
-          .logo-nuclio-tile {
-              background-image: url("../logos/nuclio-tile.png");
-          }
-      
-
-          .logo-honeybadger-large {
-              background-image: url("../logos/honeybadger-large.png");
-          }
-      
-
-          .logo-honeybadger-tile {
-              background-image: url("../logos/honeybadger-tile.png");
-          }
-      
-
-          .logo-serverless-large {
-              background-image: url("../logos/serverless-large.png");
-          }
-      
-
-          .logo-serverless-tile {
-              background-image: url("../logos/serverless-tile.png");
-          }
-      
-
-          .logo-apex-large {
-              background-image: url("../logos/apex-large.png");
-          }
-      
-
-          .logo-apex-tile {
-              background-image: url("../logos/apex-tile.png");
-          }
-      
-
-          .logo-kubeless-large {
-              background-image: url("../logos/kubeless-large.png");
-          }
-      
-
-          .logo-kubeless-tile {
-              background-image: url("../logos/kubeless-tile.png");
-          }
-      
-
-          .logo-pub-nub-large {
-              background-image: url("../logos/pub-nub-large.png");
-          }
-      
-
-          .logo-pub-nub-tile {
-              background-image: url("../logos/pub-nub-tile.png");
-          }
-      
-
-          .logo-webtask-large {
-              background-image: url("../logos/webtask-large.png");
-          }
-      
-
-          .logo-webtask-tile {
-              background-image: url("../logos/webtask-tile.png");
           }
       
 
@@ -729,23 +699,63 @@
           }
       
 
-          .logo-icinga-large {
-              background-image: url("../logos/icinga-large.png");
+          .logo-apex-large {
+              background-image: url("../logos/apex-large.png");
           }
       
 
-          .logo-icinga-tile {
-              background-image: url("../logos/icinga-tile.png");
+          .logo-apex-tile {
+              background-image: url("../logos/apex-tile.png");
           }
       
 
-          .logo-open-whisk-large {
-              background-image: url("../logos/open-whisk-large.png");
+          .logo-webtask-large {
+              background-image: url("../logos/webtask-large.png");
           }
       
 
-          .logo-open-whisk-tile {
-              background-image: url("../logos/open-whisk-tile.png");
+          .logo-webtask-tile {
+              background-image: url("../logos/webtask-tile.png");
+          }
+      
+
+          .logo-pub-nub-large {
+              background-image: url("../logos/pub-nub-large.png");
+          }
+      
+
+          .logo-pub-nub-tile {
+              background-image: url("../logos/pub-nub-tile.png");
+          }
+      
+
+          .logo-serverless-large {
+              background-image: url("../logos/serverless-large.png");
+          }
+      
+
+          .logo-serverless-tile {
+              background-image: url("../logos/serverless-tile.png");
+          }
+      
+
+          .logo-nuclio-large {
+              background-image: url("../logos/nuclio-large.png");
+          }
+      
+
+          .logo-nuclio-tile {
+              background-image: url("../logos/nuclio-tile.png");
+          }
+      
+
+          .logo-kubeless-large {
+              background-image: url("../logos/kubeless-large.png");
+          }
+      
+
+          .logo-kubeless-tile {
+              background-image: url("../logos/kubeless-tile.png");
           }
       
 
@@ -759,23 +769,13 @@
           }
       
 
-          .logo-google-cloud-functions-large {
-              background-image: url("../logos/google-cloud-functions-large.png");
+          .logo-open-whisk-large {
+              background-image: url("../logos/open-whisk-large.png");
           }
       
 
-          .logo-google-cloud-functions-tile {
-              background-image: url("../logos/google-cloud-functions-tile.png");
-          }
-      
-
-          .logo-lambda-large {
-              background-image: url("../logos/lambda-large.png");
-          }
-      
-
-          .logo-lambda-tile {
-              background-image: url("../logos/lambda-tile.png");
+          .logo-open-whisk-tile {
+              background-image: url("../logos/open-whisk-tile.png");
           }
       
 
@@ -789,6 +789,16 @@
           }
       
 
+          .logo-google-cloud-functions-large {
+              background-image: url("../logos/google-cloud-functions-large.png");
+          }
+      
+
+          .logo-google-cloud-functions-tile {
+              background-image: url("../logos/google-cloud-functions-tile.png");
+          }
+      
+
           .logo-suse-caas-platform-large {
               background-image: url("../logos/suse-caas-platform-large.png");
           }
@@ -799,13 +809,13 @@
           }
       
 
-          .logo-supergiant-large {
-              background-image: url("../logos/supergiant-large.png");
+          .logo-lambda-large {
+              background-image: url("../logos/lambda-large.png");
           }
       
 
-          .logo-supergiant-tile {
-              background-image: url("../logos/supergiant-tile.png");
+          .logo-lambda-tile {
+              background-image: url("../logos/lambda-tile.png");
           }
       
 
@@ -816,6 +826,16 @@
 
           .logo-remind-tile {
               background-image: url("../logos/remind-tile.png");
+          }
+      
+
+          .logo-scalingo-large {
+              background-image: url("../logos/scalingo-large.png");
+          }
+      
+
+          .logo-scalingo-tile {
+              background-image: url("../logos/scalingo-tile.png");
           }
       
 
@@ -839,13 +859,13 @@
           }
       
 
-          .logo-scalingo-large {
-              background-image: url("../logos/scalingo-large.png");
+          .logo-supergiant-large {
+              background-image: url("../logos/supergiant-large.png");
           }
       
 
-          .logo-scalingo-tile {
-              background-image: url("../logos/scalingo-tile.png");
+          .logo-supergiant-tile {
+              background-image: url("../logos/supergiant-tile.png");
           }
       
 
@@ -879,23 +899,13 @@
           }
       
 
-          .logo-convox-large {
-              background-image: url("../logos/convox-large.png");
+          .logo-tsuru-large {
+              background-image: url("../logos/tsuru-large.png");
           }
       
 
-          .logo-convox-tile {
-              background-image: url("../logos/convox-tile.png");
-          }
-      
-
-          .logo-deis-large {
-              background-image: url("../logos/deis-large.png");
-          }
-      
-
-          .logo-deis-tile {
-              background-image: url("../logos/deis-tile.png");
+          .logo-tsuru-tile {
+              background-image: url("../logos/tsuru-tile.png");
           }
       
 
@@ -909,13 +919,33 @@
           }
       
 
-          .logo-tsuru-large {
-              background-image: url("../logos/tsuru-large.png");
+          .logo-deis-large {
+              background-image: url("../logos/deis-large.png");
           }
       
 
-          .logo-tsuru-tile {
-              background-image: url("../logos/tsuru-tile.png");
+          .logo-deis-tile {
+              background-image: url("../logos/deis-tile.png");
+          }
+      
+
+          .logo-convox-large {
+              background-image: url("../logos/convox-large.png");
+          }
+      
+
+          .logo-convox-tile {
+              background-image: url("../logos/convox-tile.png");
+          }
+      
+
+          .logo-docker-cloud-large {
+              background-image: url("../logos/docker-cloud-large.png");
+          }
+      
+
+          .logo-docker-cloud-tile {
+              background-image: url("../logos/docker-cloud-tile.png");
           }
       
 
@@ -949,16 +979,6 @@
           }
       
 
-          .logo-docker-cloud-large {
-              background-image: url("../logos/docker-cloud-large.png");
-          }
-      
-
-          .logo-docker-cloud-tile {
-              background-image: url("../logos/docker-cloud-tile.png");
-          }
-      
-
           .logo-lightbend-large {
               background-image: url("../logos/lightbend-large.png");
           }
@@ -969,16 +989,6 @@
           }
       
 
-          .logo-j-hipster-large {
-              background-image: url("../logos/j-hipster-large.png");
-          }
-      
-
-          .logo-j-hipster-tile {
-              background-image: url("../logos/j-hipster-tile.png");
-          }
-      
-
           .logo-exoscale-large {
               background-image: url("../logos/exoscale-large.png");
           }
@@ -986,6 +996,16 @@
 
           .logo-exoscale-tile {
               background-image: url("../logos/exoscale-tile.png");
+          }
+      
+
+          .logo-j-hipster-large {
+              background-image: url("../logos/j-hipster-large.png");
+          }
+      
+
+          .logo-j-hipster-tile {
+              background-image: url("../logos/j-hipster-tile.png");
           }
       
 
@@ -1009,16 +1029,6 @@
           }
       
 
-          .logo-navops-large {
-              background-image: url("../logos/navops-large.png");
-          }
-      
-
-          .logo-navops-tile {
-              background-image: url("../logos/navops-tile.png");
-          }
-      
-
           .logo-heroku-large {
               background-image: url("../logos/heroku-large.png");
           }
@@ -1026,6 +1036,16 @@
 
           .logo-heroku-tile {
               background-image: url("../logos/heroku-tile.png");
+          }
+      
+
+          .logo-go-paddle-large {
+              background-image: url("../logos/go-paddle-large.png");
+          }
+      
+
+          .logo-go-paddle-tile {
+              background-image: url("../logos/go-paddle-tile.png");
           }
       
 
@@ -1039,13 +1059,13 @@
           }
       
 
-          .logo-go-paddle-large {
-              background-image: url("../logos/go-paddle-large.png");
+          .logo-navops-large {
+              background-image: url("../logos/navops-large.png");
           }
       
 
-          .logo-go-paddle-tile {
-              background-image: url("../logos/go-paddle-tile.png");
+          .logo-navops-tile {
+              background-image: url("../logos/navops-tile.png");
           }
       
 
@@ -1069,26 +1089,6 @@
           }
       
 
-          .logo-kubermatic-large {
-              background-image: url("../logos/kubermatic-large.png");
-          }
-      
-
-          .logo-kubermatic-tile {
-              background-image: url("../logos/kubermatic-tile.png");
-          }
-      
-
-          .logo-fission-large {
-              background-image: url("../logos/fission-large.png");
-          }
-      
-
-          .logo-fission-tile {
-              background-image: url("../logos/fission-tile.png");
-          }
-      
-
           .logo-cloud66-large {
               background-image: url("../logos/cloud66-large.png");
           }
@@ -1096,6 +1096,16 @@
 
           .logo-cloud66-tile {
               background-image: url("../logos/cloud66-tile.png");
+          }
+      
+
+          .logo-kubermatic-large {
+              background-image: url("../logos/kubermatic-large.png");
+          }
+      
+
+          .logo-kubermatic-tile {
+              background-image: url("../logos/kubermatic-tile.png");
           }
       
 
@@ -1109,16 +1119,6 @@
           }
       
 
-          .logo-iron-io-large {
-              background-image: url("../logos/iron-io-large.png");
-          }
-      
-
-          .logo-iron-io-tile {
-              background-image: url("../logos/iron-io-tile.png");
-          }
-      
-
           .logo-empire-large {
               background-image: url("../logos/empire-large.png");
           }
@@ -1126,16 +1126,6 @@
 
           .logo-empire-tile {
               background-image: url("../logos/empire-tile.png");
-          }
-      
-
-          .logo-atomist-large {
-              background-image: url("../logos/atomist-large.png");
-          }
-      
-
-          .logo-atomist-tile {
-              background-image: url("../logos/atomist-tile.png");
           }
       
 
@@ -1149,6 +1139,16 @@
           }
       
 
+          .logo-iron-io-large {
+              background-image: url("../logos/iron-io-large.png");
+          }
+      
+
+          .logo-iron-io-tile {
+              background-image: url("../logos/iron-io-tile.png");
+          }
+      
+
           .logo-paa-sta-large {
               background-image: url("../logos/paa-sta-large.png");
           }
@@ -1156,6 +1156,16 @@
 
           .logo-paa-sta-tile {
               background-image: url("../logos/paa-sta-tile.png");
+          }
+      
+
+          .logo-atomist-large {
+              background-image: url("../logos/atomist-large.png");
+          }
+      
+
+          .logo-atomist-tile {
+              background-image: url("../logos/atomist-tile.png");
           }
       
 
@@ -1169,13 +1179,13 @@
           }
       
 
-          .logo-platform9-large {
-              background-image: url("../logos/platform9-large.png");
+          .logo-photon-large {
+              background-image: url("../logos/photon-large.png");
           }
       
 
-          .logo-platform9-tile {
-              background-image: url("../logos/platform9-tile.png");
+          .logo-photon-tile {
+              background-image: url("../logos/photon-tile.png");
           }
       
 
@@ -1186,16 +1196,6 @@
 
           .logo-platform-sh-tile {
               background-image: url("../logos/platform-sh-tile.png");
-          }
-      
-
-          .logo-photon-large {
-              background-image: url("../logos/photon-large.png");
-          }
-      
-
-          .logo-photon-tile {
-              background-image: url("../logos/photon-tile.png");
           }
       
 
@@ -1219,6 +1219,26 @@
           }
       
 
+          .logo-platform9-large {
+              background-image: url("../logos/platform9-large.png");
+          }
+      
+
+          .logo-platform9-tile {
+              background-image: url("../logos/platform9-tile.png");
+          }
+      
+
+          .logo-fission-large {
+              background-image: url("../logos/fission-large.png");
+          }
+      
+
+          .logo-fission-tile {
+              background-image: url("../logos/fission-tile.png");
+          }
+      
+
           .logo-apcera-large {
               background-image: url("../logos/apcera-large.png");
           }
@@ -1236,6 +1256,16 @@
 
           .logo-apprenda-tile {
               background-image: url("../logos/apprenda-tile.png");
+          }
+      
+
+          .logo-tectonic-large {
+              background-image: url("../logos/tectonic-large.png");
+          }
+      
+
+          .logo-tectonic-tile {
+              background-image: url("../logos/tectonic-tile.png");
           }
       
 
@@ -1259,23 +1289,23 @@
           }
       
 
-          .logo-tectonic-large {
-              background-image: url("../logos/tectonic-large.png");
+          .logo-xl-deploy-large {
+              background-image: url("../logos/xl-deploy-large.png");
           }
       
 
-          .logo-tectonic-tile {
-              background-image: url("../logos/tectonic-tile.png");
+          .logo-xl-deploy-tile {
+              background-image: url("../logos/xl-deploy-tile.png");
           }
       
 
-          .logo-concourse-large {
-              background-image: url("../logos/concourse-large.png");
+          .logo-flynn-large {
+              background-image: url("../logos/flynn-large.png");
           }
       
 
-          .logo-concourse-tile {
-              background-image: url("../logos/concourse-tile.png");
+          .logo-flynn-tile {
+              background-image: url("../logos/flynn-tile.png");
           }
       
 
@@ -1289,13 +1319,13 @@
           }
       
 
-          .logo-xl-deploy-large {
-              background-image: url("../logos/xl-deploy-large.png");
+          .logo-concourse-large {
+              background-image: url("../logos/concourse-large.png");
           }
       
 
-          .logo-xl-deploy-tile {
-              background-image: url("../logos/xl-deploy-tile.png");
+          .logo-concourse-tile {
+              background-image: url("../logos/concourse-tile.png");
           }
       
 
@@ -1309,13 +1339,13 @@
           }
       
 
-          .logo-flynn-large {
-              background-image: url("../logos/flynn-large.png");
+          .logo-sensu-large {
+              background-image: url("../logos/sensu-large.png");
           }
       
 
-          .logo-flynn-tile {
-              background-image: url("../logos/flynn-tile.png");
+          .logo-sensu-tile {
+              background-image: url("../logos/sensu-tile.png");
           }
       
 
@@ -1339,6 +1369,16 @@
           }
       
 
+          .logo-solano-labs-large {
+              background-image: url("../logos/solano-labs-large.png");
+          }
+      
+
+          .logo-solano-labs-tile {
+              background-image: url("../logos/solano-labs-tile.png");
+          }
+      
+
           .logo-open-shift-large {
               background-image: url("../logos/open-shift-large.png");
           }
@@ -1359,16 +1399,6 @@
           }
       
 
-          .logo-solano-labs-large {
-              background-image: url("../logos/solano-labs-large.png");
-          }
-      
-
-          .logo-solano-labs-tile {
-              background-image: url("../logos/solano-labs-tile.png");
-          }
-      
-
           .logo-distelli-large {
               background-image: url("../logos/distelli-large.png");
           }
@@ -1376,16 +1406,6 @@
 
           .logo-distelli-tile {
               background-image: url("../logos/distelli-tile.png");
-          }
-      
-
-          .logo-codefresh-large {
-              background-image: url("../logos/codefresh-large.png");
-          }
-      
-
-          .logo-codefresh-tile {
-              background-image: url("../logos/codefresh-tile.png");
           }
       
 
@@ -1399,6 +1419,16 @@
           }
       
 
+          .logo-codefresh-large {
+              background-image: url("../logos/codefresh-large.png");
+          }
+      
+
+          .logo-codefresh-tile {
+              background-image: url("../logos/codefresh-tile.png");
+          }
+      
+
           .logo-spinnaker-large {
               background-image: url("../logos/spinnaker-large.png");
           }
@@ -1406,36 +1436,6 @@
 
           .logo-spinnaker-tile {
               background-image: url("../logos/spinnaker-tile.png");
-          }
-      
-
-          .logo-shippable-large {
-              background-image: url("../logos/shippable-large.png");
-          }
-      
-
-          .logo-shippable-tile {
-              background-image: url("../logos/shippable-tile.png");
-          }
-      
-
-          .logo-cloudbees-large {
-              background-image: url("../logos/cloudbees-large.png");
-          }
-      
-
-          .logo-cloudbees-tile {
-              background-image: url("../logos/cloudbees-tile.png");
-          }
-      
-
-          .logo-wercker-large {
-              background-image: url("../logos/wercker-large.png");
-          }
-      
-
-          .logo-wercker-tile {
-              background-image: url("../logos/wercker-tile.png");
           }
       
 
@@ -1449,6 +1449,16 @@
           }
       
 
+          .logo-cloudbees-large {
+              background-image: url("../logos/cloudbees-large.png");
+          }
+      
+
+          .logo-cloudbees-tile {
+              background-image: url("../logos/cloudbees-tile.png");
+          }
+      
+
           .logo-codeship-large {
               background-image: url("../logos/codeship-large.png");
           }
@@ -1459,13 +1469,33 @@
           }
       
 
-          .logo-drone-large {
-              background-image: url("../logos/drone-large.png");
+          .logo-shippable-large {
+              background-image: url("../logos/shippable-large.png");
           }
       
 
-          .logo-drone-tile {
-              background-image: url("../logos/drone-tile.png");
+          .logo-shippable-tile {
+              background-image: url("../logos/shippable-tile.png");
+          }
+      
+
+          .logo-wercker-large {
+              background-image: url("../logos/wercker-large.png");
+          }
+      
+
+          .logo-wercker-tile {
+              background-image: url("../logos/wercker-tile.png");
+          }
+      
+
+          .logo-octopus-deploy-large {
+              background-image: url("../logos/octopus-deploy-large.png");
+          }
+      
+
+          .logo-octopus-deploy-tile {
+              background-image: url("../logos/octopus-deploy-tile.png");
           }
       
 
@@ -1489,23 +1519,13 @@
           }
       
 
-          .logo-octopus-deploy-large {
-              background-image: url("../logos/octopus-deploy-large.png");
+          .logo-drone-large {
+              background-image: url("../logos/drone-large.png");
           }
       
 
-          .logo-octopus-deploy-tile {
-              background-image: url("../logos/octopus-deploy-tile.png");
-          }
-      
-
-          .logo-open-api-large {
-              background-image: url("../logos/open-api-large.png");
-          }
-      
-
-          .logo-open-api-tile {
-              background-image: url("../logos/open-api-tile.png");
+          .logo-drone-tile {
+              background-image: url("../logos/drone-tile.png");
           }
       
 
@@ -1519,6 +1539,16 @@
           }
       
 
+          .logo-open-api-large {
+              background-image: url("../logos/open-api-large.png");
+          }
+      
+
+          .logo-open-api-tile {
+              background-image: url("../logos/open-api-tile.png");
+          }
+      
+
           .logo-bitnami-large {
               background-image: url("../logos/bitnami-large.png");
           }
@@ -1526,6 +1556,16 @@
 
           .logo-bitnami-tile {
               background-image: url("../logos/bitnami-tile.png");
+          }
+      
+
+          .logo-compose-large {
+              background-image: url("../logos/compose-large.png");
+          }
+      
+
+          .logo-compose-tile {
+              background-image: url("../logos/compose-tile.png");
           }
       
 
@@ -1549,13 +1589,23 @@
           }
       
 
-          .logo-compose-large {
-              background-image: url("../logos/compose-large.png");
+          .logo-packer-large {
+              background-image: url("../logos/packer-large.png");
           }
       
 
-          .logo-compose-tile {
-              background-image: url("../logos/compose-tile.png");
+          .logo-packer-tile {
+              background-image: url("../logos/packer-tile.png");
+          }
+      
+
+          .logo-kinesis-large {
+              background-image: url("../logos/kinesis-large.png");
+          }
+      
+
+          .logo-kinesis-tile {
+              background-image: url("../logos/kinesis-tile.png");
           }
       
 
@@ -1579,16 +1629,6 @@
           }
       
 
-          .logo-kinesis-large {
-              background-image: url("../logos/kinesis-large.png");
-          }
-      
-
-          .logo-kinesis-tile {
-              background-image: url("../logos/kinesis-tile.png");
-          }
-      
-
           .logo-kube-virt-large {
               background-image: url("../logos/kube-virt-large.png");
           }
@@ -1596,16 +1636,6 @@
 
           .logo-kube-virt-tile {
               background-image: url("../logos/kube-virt-tile.png");
-          }
-      
-
-          .logo-packer-large {
-              background-image: url("../logos/packer-large.png");
-          }
-      
-
-          .logo-packer-tile {
-              background-image: url("../logos/packer-tile.png");
           }
       
 
@@ -1619,16 +1649,6 @@
           }
       
 
-          .logo-bib-bucket-large {
-              background-image: url("../logos/bib-bucket-large.png");
-          }
-      
-
-          .logo-bib-bucket-tile {
-              background-image: url("../logos/bib-bucket-tile.png");
-          }
-      
-
           .logo-stream-sets-large {
               background-image: url("../logos/stream-sets-large.png");
           }
@@ -1636,16 +1656,6 @@
 
           .logo-stream-sets-tile {
               background-image: url("../logos/stream-sets-tile.png");
-          }
-      
-
-          .logo-flink-large {
-              background-image: url("../logos/flink-large.png");
-          }
-      
-
-          .logo-flink-tile {
-              background-image: url("../logos/flink-tile.png");
           }
       
 
@@ -1669,6 +1679,26 @@
           }
       
 
+          .logo-bib-bucket-large {
+              background-image: url("../logos/bib-bucket-large.png");
+          }
+      
+
+          .logo-bib-bucket-tile {
+              background-image: url("../logos/bib-bucket-tile.png");
+          }
+      
+
+          .logo-flink-large {
+              background-image: url("../logos/flink-large.png");
+          }
+      
+
+          .logo-flink-tile {
+              background-image: url("../logos/flink-tile.png");
+          }
+      
+
           .logo-nats-large {
               background-image: url("../logos/nats-large.png");
           }
@@ -1686,16 +1716,6 @@
 
           .logo-rabbit-mq-tile {
               background-image: url("../logos/rabbit-mq-tile.png");
-          }
-      
-
-          .logo-heron-large {
-              background-image: url("../logos/heron-large.png");
-          }
-      
-
-          .logo-heron-tile {
-              background-image: url("../logos/heron-tile.png");
           }
       
 
@@ -1719,23 +1739,13 @@
           }
       
 
-          .logo-scylla-large {
-              background-image: url("../logos/scylla-large.png");
+          .logo-heron-large {
+              background-image: url("../logos/heron-large.png");
           }
       
 
-          .logo-scylla-tile {
-              background-image: url("../logos/scylla-tile.png");
-          }
-      
-
-          .logo-pachyderm-large {
-              background-image: url("../logos/pachyderm-large.png");
-          }
-      
-
-          .logo-pachyderm-tile {
-              background-image: url("../logos/pachyderm-tile.png");
+          .logo-heron-tile {
+              background-image: url("../logos/heron-tile.png");
           }
       
 
@@ -1749,6 +1759,16 @@
           }
       
 
+          .logo-pachyderm-large {
+              background-image: url("../logos/pachyderm-large.png");
+          }
+      
+
+          .logo-pachyderm-tile {
+              background-image: url("../logos/pachyderm-tile.png");
+          }
+      
+
           .logo-mem-sql-large {
               background-image: url("../logos/mem-sql-large.png");
           }
@@ -1759,13 +1779,13 @@
           }
       
 
-          .logo-apache-ni-fi-large {
-              background-image: url("../logos/apache-ni-fi-large.png");
+          .logo-scylla-large {
+              background-image: url("../logos/scylla-large.png");
           }
       
 
-          .logo-apache-ni-fi-tile {
-              background-image: url("../logos/apache-ni-fi-tile.png");
+          .logo-scylla-tile {
+              background-image: url("../logos/scylla-tile.png");
           }
       
 
@@ -1779,13 +1799,23 @@
           }
       
 
-          .logo-qubole-large {
-              background-image: url("../logos/qubole-large.png");
+          .logo-apache-ni-fi-large {
+              background-image: url("../logos/apache-ni-fi-large.png");
           }
       
 
-          .logo-qubole-tile {
-              background-image: url("../logos/qubole-tile.png");
+          .logo-apache-ni-fi-tile {
+              background-image: url("../logos/apache-ni-fi-tile.png");
+          }
+      
+
+          .logo-iguazio-large {
+              background-image: url("../logos/iguazio-large.png");
+          }
+      
+
+          .logo-iguazio-tile {
+              background-image: url("../logos/iguazio-tile.png");
           }
       
 
@@ -1799,13 +1829,23 @@
           }
       
 
-          .logo-iguazio-large {
-              background-image: url("../logos/iguazio-large.png");
+          .logo-carbon-data-large {
+              background-image: url("../logos/carbon-data-large.png");
           }
       
 
-          .logo-iguazio-tile {
-              background-image: url("../logos/iguazio-tile.png");
+          .logo-carbon-data-tile {
+              background-image: url("../logos/carbon-data-tile.png");
+          }
+      
+
+          .logo-qubole-large {
+              background-image: url("../logos/qubole-large.png");
+          }
+      
+
+          .logo-qubole-tile {
+              background-image: url("../logos/qubole-tile.png");
           }
       
 
@@ -1829,16 +1869,6 @@
           }
       
 
-          .logo-carbon-data-large {
-              background-image: url("../logos/carbon-data-large.png");
-          }
-      
-
-          .logo-carbon-data-tile {
-              background-image: url("../logos/carbon-data-tile.png");
-          }
-      
-
           .logo-sql-data-warehouse-large {
               background-image: url("../logos/sql-data-warehouse-large.png");
           }
@@ -1846,16 +1876,6 @@
 
           .logo-sql-data-warehouse-tile {
               background-image: url("../logos/sql-data-warehouse-tile.png");
-          }
-      
-
-          .logo-rethink-db-large {
-              background-image: url("../logos/rethink-db-large.png");
-          }
-      
-
-          .logo-rethink-db-tile {
-              background-image: url("../logos/rethink-db-tile.png");
           }
       
 
@@ -1869,23 +1889,13 @@
           }
       
 
-          .logo-couchbase-large {
-              background-image: url("../logos/couchbase-large.png");
+          .logo-rethink-db-large {
+              background-image: url("../logos/rethink-db-large.png");
           }
       
 
-          .logo-couchbase-tile {
-              background-image: url("../logos/couchbase-tile.png");
-          }
-      
-
-          .logo-noms-db-large {
-              background-image: url("../logos/noms-db-large.png");
-          }
-      
-
-          .logo-noms-db-tile {
-              background-image: url("../logos/noms-db-tile.png");
+          .logo-rethink-db-tile {
+              background-image: url("../logos/rethink-db-tile.png");
           }
       
 
@@ -1909,6 +1919,16 @@
           }
       
 
+          .logo-couchbase-large {
+              background-image: url("../logos/couchbase-large.png");
+          }
+      
+
+          .logo-couchbase-tile {
+              background-image: url("../logos/couchbase-tile.png");
+          }
+      
+
           .logo-crate-io-large {
               background-image: url("../logos/crate-io-large.png");
           }
@@ -1919,23 +1939,13 @@
           }
       
 
-          .logo-cassandra-large {
-              background-image: url("../logos/cassandra-large.png");
+          .logo-noms-db-large {
+              background-image: url("../logos/noms-db-large.png");
           }
       
 
-          .logo-cassandra-tile {
-              background-image: url("../logos/cassandra-tile.png");
-          }
-      
-
-          .logo-vitess-large {
-              background-image: url("../logos/vitess-large.png");
-          }
-      
-
-          .logo-vitess-tile {
-              background-image: url("../logos/vitess-tile.png");
+          .logo-noms-db-tile {
+              background-image: url("../logos/noms-db-tile.png");
           }
       
 
@@ -1949,43 +1959,13 @@
           }
       
 
-          .logo-oracle-large {
-              background-image: url("../logos/oracle-large.png");
+          .logo-cassandra-large {
+              background-image: url("../logos/cassandra-large.png");
           }
       
 
-          .logo-oracle-tile {
-              background-image: url("../logos/oracle-tile.png");
-          }
-      
-
-          .logo-mongo-db-large {
-              background-image: url("../logos/mongo-db-large.png");
-          }
-      
-
-          .logo-mongo-db-tile {
-              background-image: url("../logos/mongo-db-tile.png");
-          }
-      
-
-          .logo-redis-large {
-              background-image: url("../logos/redis-large.png");
-          }
-      
-
-          .logo-redis-tile {
-              background-image: url("../logos/redis-tile.png");
-          }
-      
-
-          .logo-sql-server-large {
-              background-image: url("../logos/sql-server-large.png");
-          }
-      
-
-          .logo-sql-server-tile {
-              background-image: url("../logos/sql-server-tile.png");
+          .logo-cassandra-tile {
+              background-image: url("../logos/cassandra-tile.png");
           }
       
 
@@ -1999,6 +1979,46 @@
           }
       
 
+          .logo-redis-large {
+              background-image: url("../logos/redis-large.png");
+          }
+      
+
+          .logo-redis-tile {
+              background-image: url("../logos/redis-tile.png");
+          }
+      
+
+          .logo-mongo-db-large {
+              background-image: url("../logos/mongo-db-large.png");
+          }
+      
+
+          .logo-mongo-db-tile {
+              background-image: url("../logos/mongo-db-tile.png");
+          }
+      
+
+          .logo-sql-server-large {
+              background-image: url("../logos/sql-server-large.png");
+          }
+      
+
+          .logo-sql-server-tile {
+              background-image: url("../logos/sql-server-tile.png");
+          }
+      
+
+          .logo-oracle-large {
+              background-image: url("../logos/oracle-large.png");
+          }
+      
+
+          .logo-oracle-tile {
+              background-image: url("../logos/oracle-tile.png");
+          }
+      
+
           .logo-ibm-db2-large {
               background-image: url("../logos/ibm-db2-large.png");
           }
@@ -2009,13 +2029,13 @@
           }
       
 
-          .logo-my-sql-large {
-              background-image: url("../logos/my-sql-large.png");
+          .logo-weave-net-large {
+              background-image: url("../logos/weave-net-large.png");
           }
       
 
-          .logo-my-sql-tile {
-              background-image: url("../logos/my-sql-tile.png");
+          .logo-weave-net-tile {
+              background-image: url("../logos/weave-net-tile.png");
           }
       
 
@@ -2029,23 +2049,23 @@
           }
       
 
-          .logo-weavenet-large {
-              background-image: url("../logos/weavenet-large.png");
+          .logo-my-sql-large {
+              background-image: url("../logos/my-sql-large.png");
           }
       
 
-          .logo-weavenet-tile {
-              background-image: url("../logos/weavenet-tile.png");
+          .logo-my-sql-tile {
+              background-image: url("../logos/my-sql-tile.png");
           }
       
 
-          .logo-cni-large {
-              background-image: url("../logos/cni-large.png");
+          .logo-sanproute-large {
+              background-image: url("../logos/sanproute-large.png");
           }
       
 
-          .logo-cni-tile {
-              background-image: url("../logos/cni-tile.png");
+          .logo-sanproute-tile {
+              background-image: url("../logos/sanproute-tile.png");
           }
       
 
@@ -2079,23 +2099,33 @@
           }
       
 
-          .logo-sanproute-large {
-              background-image: url("../logos/sanproute-large.png");
+          .logo-nuage-networks-large {
+              background-image: url("../logos/nuage-networks-large.png");
           }
       
 
-          .logo-sanproute-tile {
-              background-image: url("../logos/sanproute-tile.png");
+          .logo-nuage-networks-tile {
+              background-image: url("../logos/nuage-networks-tile.png");
           }
       
 
-          .logo-flannel-large {
-              background-image: url("../logos/flannel-large.png");
+          .logo-vitess-large {
+              background-image: url("../logos/vitess-large.png");
           }
       
 
-          .logo-flannel-tile {
-              background-image: url("../logos/flannel-tile.png");
+          .logo-vitess-tile {
+              background-image: url("../logos/vitess-tile.png");
+          }
+      
+
+          .logo-cni-large {
+              background-image: url("../logos/cni-large.png");
+          }
+      
+
+          .logo-cni-tile {
+              background-image: url("../logos/cni-tile.png");
           }
       
 
@@ -2109,26 +2139,6 @@
           }
       
 
-          .logo-nuage-networks-large {
-              background-image: url("../logos/nuage-networks-large.png");
-          }
-      
-
-          .logo-nuage-networks-tile {
-              background-image: url("../logos/nuage-networks-tile.png");
-          }
-      
-
-          .logo-cumulus-large {
-              background-image: url("../logos/cumulus-large.png");
-          }
-      
-
-          .logo-cumulus-tile {
-              background-image: url("../logos/cumulus-tile.png");
-          }
-      
-
           .logo-nsx-large {
               background-image: url("../logos/nsx-large.png");
           }
@@ -2136,6 +2146,16 @@
 
           .logo-nsx-tile {
               background-image: url("../logos/nsx-tile.png");
+          }
+      
+
+          .logo-flannel-large {
+              background-image: url("../logos/flannel-large.png");
+          }
+      
+
+          .logo-flannel-tile {
+              background-image: url("../logos/flannel-tile.png");
           }
       
 
@@ -2159,23 +2179,13 @@
           }
       
 
-          .logo-big-switch-networks-large {
-              background-image: url("../logos/big-switch-networks-large.png");
+          .logo-cumulus-large {
+              background-image: url("../logos/cumulus-large.png");
           }
       
 
-          .logo-big-switch-networks-tile {
-              background-image: url("../logos/big-switch-networks-tile.png");
-          }
-      
-
-          .logo-aviatrix-large {
-              background-image: url("../logos/aviatrix-large.png");
-          }
-      
-
-          .logo-aviatrix-tile {
-              background-image: url("../logos/aviatrix-tile.png");
+          .logo-cumulus-tile {
+              background-image: url("../logos/cumulus-tile.png");
           }
       
 
@@ -2189,6 +2199,16 @@
           }
       
 
+          .logo-aviatrix-large {
+              background-image: url("../logos/aviatrix-large.png");
+          }
+      
+
+          .logo-aviatrix-tile {
+              background-image: url("../logos/aviatrix-tile.png");
+          }
+      
+
           .logo-canal-large {
               background-image: url("../logos/canal-large.png");
           }
@@ -2199,23 +2219,13 @@
           }
       
 
-          .logo-intel-clear-containers-large {
-              background-image: url("../logos/intel-clear-containers-large.png");
+          .logo-big-switch-networks-large {
+              background-image: url("../logos/big-switch-networks-large.png");
           }
       
 
-          .logo-intel-clear-containers-tile {
-              background-image: url("../logos/intel-clear-containers-tile.png");
-          }
-      
-
-          .logo-aporeto-large {
-              background-image: url("../logos/aporeto-large.png");
-          }
-      
-
-          .logo-aporeto-tile {
-              background-image: url("../logos/aporeto-tile.png");
+          .logo-big-switch-networks-tile {
+              background-image: url("../logos/big-switch-networks-tile.png");
           }
       
 
@@ -2229,13 +2239,13 @@
           }
       
 
-          .logo-cri-o-large {
-              background-image: url("../logos/cri-o-large.png");
+          .logo-aporeto-large {
+              background-image: url("../logos/aporeto-large.png");
           }
       
 
-          .logo-cri-o-tile {
-              background-image: url("../logos/cri-o-tile.png");
+          .logo-aporeto-tile {
+              background-image: url("../logos/aporeto-tile.png");
           }
       
 
@@ -2249,6 +2259,26 @@
           }
       
 
+          .logo-intel-clear-containers-large {
+              background-image: url("../logos/intel-clear-containers-large.png");
+          }
+      
+
+          .logo-intel-clear-containers-tile {
+              background-image: url("../logos/intel-clear-containers-tile.png");
+          }
+      
+
+          .logo-cri-o-large {
+              background-image: url("../logos/cri-o-large.png");
+          }
+      
+
+          .logo-cri-o-tile {
+              background-image: url("../logos/cri-o-tile.png");
+          }
+      
+
           .logo-containerd-large {
               background-image: url("../logos/containerd-large.png");
           }
@@ -2256,16 +2286,6 @@
 
           .logo-containerd-tile {
               background-image: url("../logos/containerd-tile.png");
-          }
-      
-
-          .logo-lxd-large {
-              background-image: url("../logos/lxd-large.png");
-          }
-      
-
-          .logo-lxd-tile {
-              background-image: url("../logos/lxd-tile.png");
           }
       
 
@@ -2279,13 +2299,53 @@
           }
       
 
-          .logo-smart-os-large {
-              background-image: url("../logos/smart-os-large.png");
+          .logo-lxd-large {
+              background-image: url("../logos/lxd-large.png");
           }
       
 
-          .logo-smart-os-tile {
-              background-image: url("../logos/smart-os-tile.png");
+          .logo-lxd-tile {
+              background-image: url("../logos/lxd-tile.png");
+          }
+      
+
+          .logo-runc-large {
+              background-image: url("../logos/runc-large.png");
+          }
+      
+
+          .logo-runc-tile {
+              background-image: url("../logos/runc-tile.png");
+          }
+      
+
+          .logo-rkt-large {
+              background-image: url("../logos/rkt-large.png");
+          }
+      
+
+          .logo-rkt-tile {
+              background-image: url("../logos/rkt-tile.png");
+          }
+      
+
+          .logo-dell-emc-large {
+              background-image: url("../logos/dell-emc-large.png");
+          }
+      
+
+          .logo-dell-emc-tile {
+              background-image: url("../logos/dell-emc-tile.png");
+          }
+      
+
+          .logo-swift-large {
+              background-image: url("../logos/swift-large.png");
+          }
+      
+
+          .logo-swift-tile {
+              background-image: url("../logos/swift-tile.png");
           }
       
 
@@ -2309,13 +2369,13 @@
           }
       
 
-          .logo-dell-emc-large {
-              background-image: url("../logos/dell-emc-large.png");
+          .logo-smart-os-large {
+              background-image: url("../logos/smart-os-large.png");
           }
       
 
-          .logo-dell-emc-tile {
-              background-image: url("../logos/dell-emc-tile.png");
+          .logo-smart-os-tile {
+              background-image: url("../logos/smart-os-tile.png");
           }
       
 
@@ -2329,26 +2389,6 @@
           }
       
 
-          .logo-run-c-large {
-              background-image: url("../logos/run-c-large.png");
-          }
-      
-
-          .logo-run-c-tile {
-              background-image: url("../logos/run-c-tile.png");
-          }
-      
-
-          .logo-rkt-large {
-              background-image: url("../logos/rkt-large.png");
-          }
-      
-
-          .logo-rkt-tile {
-              background-image: url("../logos/rkt-tile.png");
-          }
-      
-
           .logo-open-sds-large {
               background-image: url("../logos/open-sds-large.png");
           }
@@ -2356,36 +2396,6 @@
 
           .logo-open-sds-tile {
               background-image: url("../logos/open-sds-tile.png");
-          }
-      
-
-          .logo-swift-large {
-              background-image: url("../logos/swift-large.png");
-          }
-      
-
-          .logo-swift-tile {
-              background-image: url("../logos/swift-tile.png");
-          }
-      
-
-          .logo-robin-systems-large {
-              background-image: url("../logos/robin-systems-large.png");
-          }
-      
-
-          .logo-robin-systems-tile {
-              background-image: url("../logos/robin-systems-tile.png");
-          }
-      
-
-          .logo-datera-large {
-              background-image: url("../logos/datera-large.png");
-          }
-      
-
-          .logo-datera-tile {
-              background-image: url("../logos/datera-tile.png");
           }
       
 
@@ -2399,33 +2409,13 @@
           }
       
 
-          .logo-kasten-large {
-              background-image: url("../logos/kasten-large.png");
+          .logo-sheepdog-large {
+              background-image: url("../logos/sheepdog-large.png");
           }
       
 
-          .logo-kasten-tile {
-              background-image: url("../logos/kasten-tile.png");
-          }
-      
-
-          .logo-rook-large {
-              background-image: url("../logos/rook-large.png");
-          }
-      
-
-          .logo-rook-tile {
-              background-image: url("../logos/rook-tile.png");
-          }
-      
-
-          .logo-springpath-large {
-              background-image: url("../logos/springpath-large.png");
-          }
-      
-
-          .logo-springpath-tile {
-              background-image: url("../logos/springpath-tile.png");
+          .logo-sheepdog-tile {
+              background-image: url("../logos/sheepdog-tile.png");
           }
       
 
@@ -2439,13 +2429,13 @@
           }
       
 
-          .logo-infinit-large {
-              background-image: url("../logos/infinit-large.png");
+          .logo-robin-systems-large {
+              background-image: url("../logos/robin-systems-large.png");
           }
       
 
-          .logo-infinit-tile {
-              background-image: url("../logos/infinit-tile.png");
+          .logo-robin-systems-tile {
+              background-image: url("../logos/robin-systems-tile.png");
           }
       
 
@@ -2459,13 +2449,63 @@
           }
       
 
-          .logo-sheepdog-large {
-              background-image: url("../logos/sheepdog-large.png");
+          .logo-kasten-large {
+              background-image: url("../logos/kasten-large.png");
           }
       
 
-          .logo-sheepdog-tile {
-              background-image: url("../logos/sheepdog-tile.png");
+          .logo-kasten-tile {
+              background-image: url("../logos/kasten-tile.png");
+          }
+      
+
+          .logo-datera-large {
+              background-image: url("../logos/datera-large.png");
+          }
+      
+
+          .logo-datera-tile {
+              background-image: url("../logos/datera-tile.png");
+          }
+      
+
+          .logo-rook-large {
+              background-image: url("../logos/rook-large.png");
+          }
+      
+
+          .logo-rook-tile {
+              background-image: url("../logos/rook-tile.png");
+          }
+      
+
+          .logo-infinit-large {
+              background-image: url("../logos/infinit-large.png");
+          }
+      
+
+          .logo-infinit-tile {
+              background-image: url("../logos/infinit-tile.png");
+          }
+      
+
+          .logo-springpath-large {
+              background-image: url("../logos/springpath-large.png");
+          }
+      
+
+          .logo-springpath-tile {
+              background-image: url("../logos/springpath-tile.png");
+          }
+      
+
+          .logo-libstorage-large {
+              background-image: url("../logos/libstorage-large.png");
+          }
+      
+
+          .logo-libstorage-tile {
+              background-image: url("../logos/libstorage-tile.png");
           }
       
 
@@ -2489,16 +2529,6 @@
           }
       
 
-          .logo-libstorage-large {
-              background-image: url("../logos/libstorage-large.png");
-          }
-      
-
-          .logo-libstorage-tile {
-              background-image: url("../logos/libstorage-tile.png");
-          }
-      
-
           .logo-hdfs-large {
               background-image: url("../logos/hdfs-large.png");
           }
@@ -2506,16 +2536,6 @@
 
           .logo-hdfs-tile {
               background-image: url("../logos/hdfs-tile.png");
-          }
-      
-
-          .logo-pure-storage-large {
-              background-image: url("../logos/pure-storage-large.png");
-          }
-      
-
-          .logo-pure-storage-tile {
-              background-image: url("../logos/pure-storage-tile.png");
           }
       
 
@@ -2529,13 +2549,23 @@
           }
       
 
-          .logo-gluster-large {
-              background-image: url("../logos/gluster-large.png");
+          .logo-ceph-large {
+              background-image: url("../logos/ceph-large.png");
           }
       
 
-          .logo-gluster-tile {
-              background-image: url("../logos/gluster-tile.png");
+          .logo-ceph-tile {
+              background-image: url("../logos/ceph-tile.png");
+          }
+      
+
+          .logo-pure-storage-large {
+              background-image: url("../logos/pure-storage-large.png");
+          }
+      
+
+          .logo-pure-storage-tile {
+              background-image: url("../logos/pure-storage-tile.png");
           }
       
 
@@ -2549,43 +2579,13 @@
           }
       
 
-          .logo-minio-large {
-              background-image: url("../logos/minio-large.png");
+          .logo-gluster-large {
+              background-image: url("../logos/gluster-large.png");
           }
       
 
-          .logo-minio-tile {
-              background-image: url("../logos/minio-tile.png");
-          }
-      
-
-          .logo-ceph-large {
-              background-image: url("../logos/ceph-large.png");
-          }
-      
-
-          .logo-ceph-tile {
-              background-image: url("../logos/ceph-tile.png");
-          }
-      
-
-          .logo-knox-large {
-              background-image: url("../logos/knox-large.png");
-          }
-      
-
-          .logo-knox-tile {
-              background-image: url("../logos/knox-tile.png");
-          }
-      
-
-          .logo-oracle-policy-automation-large {
-              background-image: url("../logos/oracle-policy-automation-large.png");
-          }
-      
-
-          .logo-oracle-policy-automation-tile {
-              background-image: url("../logos/oracle-policy-automation-tile.png");
+          .logo-gluster-tile {
+              background-image: url("../logos/gluster-tile.png");
           }
       
 
@@ -2599,6 +2599,26 @@
           }
       
 
+          .logo-minio-large {
+              background-image: url("../logos/minio-large.png");
+          }
+      
+
+          .logo-minio-tile {
+              background-image: url("../logos/minio-tile.png");
+          }
+      
+
+          .logo-oracle-policy-automation-large {
+              background-image: url("../logos/oracle-policy-automation-large.png");
+          }
+      
+
+          .logo-oracle-policy-automation-tile {
+              background-image: url("../logos/oracle-policy-automation-tile.png");
+          }
+      
+
           .logo-keywhiz-large {
               background-image: url("../logos/keywhiz-large.png");
           }
@@ -2609,83 +2629,13 @@
           }
       
 
-          .logo-sonatype-nexus-large {
-              background-image: url("../logos/sonatype-nexus-large.png");
+          .logo-knox-large {
+              background-image: url("../logos/knox-large.png");
           }
       
 
-          .logo-sonatype-nexus-tile {
-              background-image: url("../logos/sonatype-nexus-tile.png");
-          }
-      
-
-          .logo-twistlock-large {
-              background-image: url("../logos/twistlock-large.png");
-          }
-      
-
-          .logo-twistlock-tile {
-              background-image: url("../logos/twistlock-tile.png");
-          }
-      
-
-          .logo-tuf-large {
-              background-image: url("../logos/tuf-large.png");
-          }
-      
-
-          .logo-tuf-tile {
-              background-image: url("../logos/tuf-tile.png");
-          }
-      
-
-          .logo-lyft-confidant-large {
-              background-image: url("../logos/lyft-confidant-large.png");
-          }
-      
-
-          .logo-lyft-confidant-tile {
-              background-image: url("../logos/lyft-confidant-tile.png");
-          }
-      
-
-          .logo-clair-large {
-              background-image: url("../logos/clair-large.png");
-          }
-      
-
-          .logo-clair-tile {
-              background-image: url("../logos/clair-tile.png");
-          }
-      
-
-          .logo-open-scap-large {
-              background-image: url("../logos/open-scap-large.png");
-          }
-      
-
-          .logo-open-scap-tile {
-              background-image: url("../logos/open-scap-tile.png");
-          }
-      
-
-          .logo-black-duck-large {
-              background-image: url("../logos/black-duck-large.png");
-          }
-      
-
-          .logo-black-duck-tile {
-              background-image: url("../logos/black-duck-tile.png");
-          }
-      
-
-          .logo-spiffe-large {
-              background-image: url("../logos/spiffe-large.png");
-          }
-      
-
-          .logo-spiffe-tile {
-              background-image: url("../logos/spiffe-tile.png");
+          .logo-knox-tile {
+              background-image: url("../logos/knox-tile.png");
           }
       
 
@@ -2699,6 +2649,86 @@
           }
       
 
+          .logo-open-scap-large {
+              background-image: url("../logos/open-scap-large.png");
+          }
+      
+
+          .logo-open-scap-tile {
+              background-image: url("../logos/open-scap-tile.png");
+          }
+      
+
+          .logo-sonatype-nexus-large {
+              background-image: url("../logos/sonatype-nexus-large.png");
+          }
+      
+
+          .logo-sonatype-nexus-tile {
+              background-image: url("../logos/sonatype-nexus-tile.png");
+          }
+      
+
+          .logo-the-update-framework-tuf-large {
+              background-image: url("../logos/the-update-framework-tuf-large.png");
+          }
+      
+
+          .logo-the-update-framework-tuf-tile {
+              background-image: url("../logos/the-update-framework-tuf-tile.png");
+          }
+      
+
+          .logo-twistlock-large {
+              background-image: url("../logos/twistlock-large.png");
+          }
+      
+
+          .logo-twistlock-tile {
+              background-image: url("../logos/twistlock-tile.png");
+          }
+      
+
+          .logo-clair-large {
+              background-image: url("../logos/clair-large.png");
+          }
+      
+
+          .logo-clair-tile {
+              background-image: url("../logos/clair-tile.png");
+          }
+      
+
+          .logo-spiffe-large {
+              background-image: url("../logos/spiffe-large.png");
+          }
+      
+
+          .logo-spiffe-tile {
+              background-image: url("../logos/spiffe-tile.png");
+          }
+      
+
+          .logo-lyft-confidant-large {
+              background-image: url("../logos/lyft-confidant-large.png");
+          }
+      
+
+          .logo-lyft-confidant-tile {
+              background-image: url("../logos/lyft-confidant-tile.png");
+          }
+      
+
+          .logo-black-duck-large {
+              background-image: url("../logos/black-duck-large.png");
+          }
+      
+
+          .logo-black-duck-tile {
+              background-image: url("../logos/black-duck-tile.png");
+          }
+      
+
           .logo-anchore-large {
               background-image: url("../logos/anchore-large.png");
           }
@@ -2706,6 +2736,16 @@
 
           .logo-anchore-tile {
               background-image: url("../logos/anchore-tile.png");
+          }
+      
+
+          .logo-hashicorp-vault-large {
+              background-image: url("../logos/hashicorp-vault-large.png");
+          }
+      
+
+          .logo-hashicorp-vault-tile {
+              background-image: url("../logos/hashicorp-vault-tile.png");
           }
       
 
@@ -2719,13 +2759,13 @@
           }
       
 
-          .logo-hashicorp-vault-large {
-              background-image: url("../logos/hashicorp-vault-large.png");
+          .logo-aqua-large {
+              background-image: url("../logos/aqua-large.png");
           }
       
 
-          .logo-hashicorp-vault-tile {
-              background-image: url("../logos/hashicorp-vault-tile.png");
+          .logo-aqua-tile {
+              background-image: url("../logos/aqua-tile.png");
           }
       
 
@@ -2759,16 +2799,6 @@
           }
       
 
-          .logo-aqua-large {
-              background-image: url("../logos/aqua-large.png");
-          }
-      
-
-          .logo-aqua-tile {
-              background-image: url("../logos/aqua-tile.png");
-          }
-      
-
           .logo-chef-large {
               background-image: url("../logos/chef-large.png");
           }
@@ -2776,6 +2806,16 @@
 
           .logo-chef-tile {
               background-image: url("../logos/chef-tile.png");
+          }
+      
+
+          .logo-portus-large {
+              background-image: url("../logos/portus-large.png");
+          }
+      
+
+          .logo-portus-tile {
+              background-image: url("../logos/portus-tile.png");
           }
       
 
@@ -2799,13 +2839,13 @@
           }
       
 
-          .logo-portus-large {
-              background-image: url("../logos/portus-large.png");
+          .logo-google-registry-large {
+              background-image: url("../logos/google-registry-large.png");
           }
       
 
-          .logo-portus-tile {
-              background-image: url("../logos/portus-tile.png");
+          .logo-google-registry-tile {
+              background-image: url("../logos/google-registry-tile.png");
           }
       
 
@@ -2816,16 +2856,6 @@
 
           .logo-amazon-ecr-tile {
               background-image: url("../logos/amazon-ecr-tile.png");
-          }
-      
-
-          .logo-google-registry-large {
-              background-image: url("../logos/google-registry-large.png");
-          }
-      
-
-          .logo-google-registry-tile {
-              background-image: url("../logos/google-registry-tile.png");
           }
       
 
@@ -2849,13 +2879,13 @@
           }
       
 
-          .logo-harbor-large {
-              background-image: url("../logos/harbor-large.png");
+          .logo-azure-registry-large {
+              background-image: url("../logos/azure-registry-large.png");
           }
       
 
-          .logo-harbor-tile {
-              background-image: url("../logos/harbor-tile.png");
+          .logo-azure-registry-tile {
+              background-image: url("../logos/azure-registry-tile.png");
           }
       
 
@@ -2869,16 +2899,6 @@
           }
       
 
-          .logo-azure-registry-large {
-              background-image: url("../logos/azure-registry-large.png");
-          }
-      
-
-          .logo-azure-registry-tile {
-              background-image: url("../logos/azure-registry-tile.png");
-          }
-      
-
           .logo-manage-iq-large {
               background-image: url("../logos/manage-iq-large.png");
           }
@@ -2889,13 +2909,23 @@
           }
       
 
-          .logo-infrakit-large {
-              background-image: url("../logos/infrakit-large.png");
+          .logo-artifactory-large {
+              background-image: url("../logos/artifactory-large.png");
           }
       
 
-          .logo-infrakit-tile {
-              background-image: url("../logos/infrakit-tile.png");
+          .logo-artifactory-tile {
+              background-image: url("../logos/artifactory-tile.png");
+          }
+      
+
+          .logo-harbor-large {
+              background-image: url("../logos/harbor-large.png");
+          }
+      
+
+          .logo-harbor-tile {
+              background-image: url("../logos/harbor-tile.png");
           }
       
 
@@ -2906,6 +2936,16 @@
 
           .logo-juju-tile {
               background-image: url("../logos/juju-tile.png");
+          }
+      
+
+          .logo-infrakit-large {
+              background-image: url("../logos/infrakit-large.png");
+          }
+      
+
+          .logo-infrakit-tile {
+              background-image: url("../logos/infrakit-tile.png");
           }
       
 
@@ -2929,16 +2969,6 @@
           }
       
 
-          .logo-digital-rebar-large {
-              background-image: url("../logos/digital-rebar-large.png");
-          }
-      
-
-          .logo-digital-rebar-tile {
-              background-image: url("../logos/digital-rebar-tile.png");
-          }
-      
-
           .logo-cloudify-large {
               background-image: url("../logos/cloudify-large.png");
           }
@@ -2946,6 +2976,26 @@
 
           .logo-cloudify-tile {
               background-image: url("../logos/cloudify-tile.png");
+          }
+      
+
+          .logo-cloud-formation-large {
+              background-image: url("../logos/cloud-formation-large.png");
+          }
+      
+
+          .logo-cloud-formation-tile {
+              background-image: url("../logos/cloud-formation-tile.png");
+          }
+      
+
+          .logo-digital-rebar-large {
+              background-image: url("../logos/digital-rebar-large.png");
+          }
+      
+
+          .logo-digital-rebar-tile {
+              background-image: url("../logos/digital-rebar-tile.png");
           }
       
 
@@ -2979,13 +3029,13 @@
           }
       
 
-          .logo-cloud-formation-large {
-              background-image: url("../logos/cloud-formation-large.png");
+          .logo-maas-large {
+              background-image: url("../logos/maas-large.png");
           }
       
 
-          .logo-cloud-formation-tile {
-              background-image: url("../logos/cloud-formation-tile.png");
+          .logo-maas-tile {
+              background-image: url("../logos/maas-tile.png");
           }
       
 
@@ -3019,13 +3069,13 @@
           }
       
 
-          .logo-maas-large {
-              background-image: url("../logos/maas-large.png");
+          .logo-joyent-large {
+              background-image: url("../logos/joyent-large.png");
           }
       
 
-          .logo-maas-tile {
-              background-image: url("../logos/maas-tile.png");
+          .logo-joyent-tile {
+              background-image: url("../logos/joyent-tile.png");
           }
       
 
@@ -3039,13 +3089,13 @@
           }
       
 
-          .logo-joyent-large {
-              background-image: url("../logos/joyent-large.png");
+          .logo-tencent-cloud-large {
+              background-image: url("../logos/tencent-cloud-large.png");
           }
       
 
-          .logo-joyent-tile {
-              background-image: url("../logos/joyent-tile.png");
+          .logo-tencent-cloud-tile {
+              background-image: url("../logos/tencent-cloud-tile.png");
           }
       
 
@@ -3059,16 +3109,6 @@
           }
       
 
-          .logo-tencent-cloud-large {
-              background-image: url("../logos/tencent-cloud-large.png");
-          }
-      
-
-          .logo-tencent-cloud-tile {
-              background-image: url("../logos/tencent-cloud-tile.png");
-          }
-      
-
           .logo-alibaba-cloud-large {
               background-image: url("../logos/alibaba-cloud-large.png");
           }
@@ -3076,16 +3116,6 @@
 
           .logo-alibaba-cloud-tile {
               background-image: url("../logos/alibaba-cloud-tile.png");
-          }
-      
-
-          .logo-digital-ocean-large {
-              background-image: url("../logos/digital-ocean-large.png");
-          }
-      
-
-          .logo-digital-ocean-tile {
-              background-image: url("../logos/digital-ocean-tile.png");
           }
       
 
@@ -3099,16 +3129,6 @@
           }
       
 
-          .logo-packet-large {
-              background-image: url("../logos/packet-large.png");
-          }
-      
-
-          .logo-packet-tile {
-              background-image: url("../logos/packet-tile.png");
-          }
-      
-
           .logo-docker-registry-large {
               background-image: url("../logos/docker-registry-large.png");
           }
@@ -3119,23 +3139,33 @@
           }
       
 
-          .logo-azure-cloud-services-large {
-              background-image: url("../logos/azure-cloud-services-large.png");
+          .logo-packet-large {
+              background-image: url("../logos/packet-large.png");
           }
       
 
-          .logo-azure-cloud-services-tile {
-              background-image: url("../logos/azure-cloud-services-tile.png");
+          .logo-packet-tile {
+              background-image: url("../logos/packet-tile.png");
           }
       
 
-          .logo-aws-large {
-              background-image: url("../logos/aws-large.png");
+          .logo-digital-ocean-large {
+              background-image: url("../logos/digital-ocean-large.png");
           }
       
 
-          .logo-aws-tile {
-              background-image: url("../logos/aws-tile.png");
+          .logo-digital-ocean-tile {
+              background-image: url("../logos/digital-ocean-tile.png");
+          }
+      
+
+          .logo-kubicorn-large {
+              background-image: url("../logos/kubicorn-large.png");
+          }
+      
+
+          .logo-kubicorn-tile {
+              background-image: url("../logos/kubicorn-tile.png");
           }
       
 
@@ -3149,13 +3179,23 @@
           }
       
 
-          .logo-backplane-large {
-              background-image: url("../logos/backplane-large.png");
+          .logo-aws-large {
+              background-image: url("../logos/aws-large.png");
           }
       
 
-          .logo-backplane-tile {
-              background-image: url("../logos/backplane-tile.png");
+          .logo-aws-tile {
+              background-image: url("../logos/aws-tile.png");
+          }
+      
+
+          .logo-azure-cloud-services-large {
+              background-image: url("../logos/azure-cloud-services-large.png");
+          }
+      
+
+          .logo-azure-cloud-services-tile {
+              background-image: url("../logos/azure-cloud-services-tile.png");
           }
       
 
@@ -3166,6 +3206,16 @@
 
           .logo-oss-tile {
               background-image: url("../logos/oss-tile.png");
+          }
+      
+
+          .logo-backplane-large {
+              background-image: url("../logos/backplane-large.png");
+          }
+      
+
+          .logo-backplane-tile {
+              background-image: url("../logos/backplane-tile.png");
           }
       
 
@@ -3199,73 +3249,13 @@
           }
       
 
-          .logo-kubicorn-large {
-              background-image: url("../logos/kubicorn-large.png");
+          .logo-google-cloud-platform-large {
+              background-image: url("../logos/google-cloud-platform-large.png");
           }
       
 
-          .logo-kubicorn-tile {
-              background-image: url("../logos/kubicorn-tile.png");
-          }
-      
-
-          .logo-hystrix-large {
-              background-image: url("../logos/hystrix-large.png");
-          }
-      
-
-          .logo-hystrix-tile {
-              background-image: url("../logos/hystrix-tile.png");
-          }
-      
-
-          .logo-kong-large {
-              background-image: url("../logos/kong-large.png");
-          }
-      
-
-          .logo-kong-tile {
-              background-image: url("../logos/kong-tile.png");
-          }
-      
-
-          .logo-vamp-large {
-              background-image: url("../logos/vamp-large.png");
-          }
-      
-
-          .logo-vamp-tile {
-              background-image: url("../logos/vamp-tile.png");
-          }
-      
-
-          .logo-apache-thrift-large {
-              background-image: url("../logos/apache-thrift-large.png");
-          }
-      
-
-          .logo-apache-thrift-tile {
-              background-image: url("../logos/apache-thrift-tile.png");
-          }
-      
-
-          .logo-g-rpc-large {
-              background-image: url("../logos/g-rpc-large.png");
-          }
-      
-
-          .logo-g-rpc-tile {
-              background-image: url("../logos/g-rpc-tile.png");
-          }
-      
-
-          .logo-avi-networks-large {
-              background-image: url("../logos/avi-networks-large.png");
-          }
-      
-
-          .logo-avi-networks-tile {
-              background-image: url("../logos/avi-networks-tile.png");
+          .logo-google-cloud-platform-tile {
+              background-image: url("../logos/google-cloud-platform-tile.png");
           }
       
 
@@ -3279,13 +3269,43 @@
           }
       
 
-          .logo-turbine-labs-large {
-              background-image: url("../logos/turbine-labs-large.png");
+          .logo-apache-thrift-large {
+              background-image: url("../logos/apache-thrift-large.png");
           }
       
 
-          .logo-turbine-labs-tile {
-              background-image: url("../logos/turbine-labs-tile.png");
+          .logo-apache-thrift-tile {
+              background-image: url("../logos/apache-thrift-tile.png");
+          }
+      
+
+          .logo-vamp-large {
+              background-image: url("../logos/vamp-large.png");
+          }
+      
+
+          .logo-vamp-tile {
+              background-image: url("../logos/vamp-tile.png");
+          }
+      
+
+          .logo-g-rpc-large {
+              background-image: url("../logos/g-rpc-large.png");
+          }
+      
+
+          .logo-g-rpc-tile {
+              background-image: url("../logos/g-rpc-tile.png");
+          }
+      
+
+          .logo-hystrix-large {
+              background-image: url("../logos/hystrix-large.png");
+          }
+      
+
+          .logo-hystrix-tile {
+              background-image: url("../logos/hystrix-tile.png");
           }
       
 
@@ -3299,33 +3319,33 @@
           }
       
 
-          .logo-traefik-large {
-              background-image: url("../logos/traefik-large.png");
+          .logo-kong-large {
+              background-image: url("../logos/kong-large.png");
           }
       
 
-          .logo-traefik-tile {
-              background-image: url("../logos/traefik-tile.png");
+          .logo-kong-tile {
+              background-image: url("../logos/kong-tile.png");
           }
       
 
-          .logo-google-cloud-platform-large {
-              background-image: url("../logos/google-cloud-platform-large.png");
+          .logo-avi-networks-large {
+              background-image: url("../logos/avi-networks-large.png");
           }
       
 
-          .logo-google-cloud-platform-tile {
-              background-image: url("../logos/google-cloud-platform-tile.png");
+          .logo-avi-networks-tile {
+              background-image: url("../logos/avi-networks-tile.png");
           }
       
 
-          .logo-haret-large {
-              background-image: url("../logos/haret-large.png");
+          .logo-turbine-labs-large {
+              background-image: url("../logos/turbine-labs-large.png");
           }
       
 
-          .logo-haret-tile {
-              background-image: url("../logos/haret-tile.png");
+          .logo-turbine-labs-tile {
+              background-image: url("../logos/turbine-labs-tile.png");
           }
       
 
@@ -3339,23 +3359,13 @@
           }
       
 
-          .logo-eureka-large {
-              background-image: url("../logos/eureka-large.png");
+          .logo-traefik-large {
+              background-image: url("../logos/traefik-large.png");
           }
       
 
-          .logo-eureka-tile {
-              background-image: url("../logos/eureka-tile.png");
-          }
-      
-
-          .logo-ha-proxy-large {
-              background-image: url("../logos/ha-proxy-large.png");
-          }
-      
-
-          .logo-ha-proxy-tile {
-              background-image: url("../logos/ha-proxy-tile.png");
+          .logo-traefik-tile {
+              background-image: url("../logos/traefik-tile.png");
           }
       
 
@@ -3369,33 +3379,13 @@
           }
       
 
-          .logo-3-scale-large {
-              background-image: url("../logos/3-scale-large.png");
+          .logo-ha-proxy-large {
+              background-image: url("../logos/ha-proxy-large.png");
           }
       
 
-          .logo-3-scale-tile {
-              background-image: url("../logos/3-scale-tile.png");
-          }
-      
-
-          .logo-nginx-large {
-              background-image: url("../logos/nginx-large.png");
-          }
-      
-
-          .logo-nginx-tile {
-              background-image: url("../logos/nginx-tile.png");
-          }
-      
-
-          .logo-smart-stack-large {
-              background-image: url("../logos/smart-stack-large.png");
-          }
-      
-
-          .logo-smart-stack-tile {
-              background-image: url("../logos/smart-stack-tile.png");
+          .logo-ha-proxy-tile {
+              background-image: url("../logos/ha-proxy-tile.png");
           }
       
 
@@ -3409,6 +3399,56 @@
           }
       
 
+          .logo-eureka-large {
+              background-image: url("../logos/eureka-large.png");
+          }
+      
+
+          .logo-eureka-tile {
+              background-image: url("../logos/eureka-tile.png");
+          }
+      
+
+          .logo-smart-stack-large {
+              background-image: url("../logos/smart-stack-large.png");
+          }
+      
+
+          .logo-smart-stack-tile {
+              background-image: url("../logos/smart-stack-tile.png");
+          }
+      
+
+          .logo-haret-large {
+              background-image: url("../logos/haret-large.png");
+          }
+      
+
+          .logo-haret-tile {
+              background-image: url("../logos/haret-tile.png");
+          }
+      
+
+          .logo-nginx-large {
+              background-image: url("../logos/nginx-large.png");
+          }
+      
+
+          .logo-nginx-tile {
+              background-image: url("../logos/nginx-tile.png");
+          }
+      
+
+          .logo-3-scale-large {
+              background-image: url("../logos/3-scale-large.png");
+          }
+      
+
+          .logo-3-scale-tile {
+              background-image: url("../logos/3-scale-tile.png");
+          }
+      
+
           .logo-linkerd-large {
               background-image: url("../logos/linkerd-large.png");
           }
@@ -3419,16 +3459,6 @@
           }
       
 
-          .logo-sky-dns-large {
-              background-image: url("../logos/sky-dns-large.png");
-          }
-      
-
-          .logo-sky-dns-tile {
-              background-image: url("../logos/sky-dns-tile.png");
-          }
-      
-
           .logo-envoy-large {
               background-image: url("../logos/envoy-large.png");
           }
@@ -3436,6 +3466,16 @@
 
           .logo-envoy-tile {
               background-image: url("../logos/envoy-tile.png");
+          }
+      
+
+          .logo-sky-dns-large {
+              background-image: url("../logos/sky-dns-large.png");
+          }
+      
+
+          .logo-sky-dns-tile {
+              background-image: url("../logos/sky-dns-tile.png");
           }
       
 

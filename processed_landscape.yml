@@ -627,7 +627,7 @@ landscape:
             homepage_url: 'https://www.weave.works/oss/flux/'
             repo_url: 'https://github.com/weaveworks/flux'
             raw_logo: >-
-              https://d1q6f0aelx0por.cloudfront.net/product-logos/52c94534-ded8-4768-93f7-a6312c0d4cc3-weave-logo-512.png
+              http://events17.linuxfoundation.org/sites/events/files/styles/sponsor_logo_large/public/sponsor-logos/sponsor-weaveworks_1.png
             twitter: 'https://twitter.com/weaveworks'
             crunchbase: 'https://www.crunchbase.com/organization/weaveworks'
             market_cap: 20000000
@@ -1179,7 +1179,7 @@ landscape:
               infrastructure for any application.
             logo: ''
           - item:
-            name: Bosh
+            name: BOSH
             company: Cloud Foundry
             cncf_project: false
             oss: true
@@ -1389,7 +1389,7 @@ landscape:
             commercial: true
             homepage_url: 'https://www.jfrog.com/artifactory/'
             raw_logo: >-
-              http://blog.strive-ltd.com/wp-content/uploads/2016/03/artifactory.png
+              http://www.jfrogchina.com/wp-content/uploads/2015/09/Artifactory_HEX1.png
             twitter: 'https://twitter.com/jfrog'
             crunchbase: 'https://www.crunchbase.com/organization/jfrog-ltd'
             market_cap: 61500000
@@ -1849,7 +1849,7 @@ landscape:
               accelerate software innovation, quality and security.
             logo: ''
           - item:
-            name: TUF
+            name: The Update Framework (TUF)
             company: Cloud Native Computing Foundation (CNCF)
             cncf_project: true
             oss: true
@@ -2553,7 +2553,7 @@ landscape:
         name: Container Runtime
         items:
           - item:
-            name: Rkt
+            name: rkt
             company: Cloud Native Computing Foundation (CNCF)
             cncf_project: true
             oss: true
@@ -2575,7 +2575,7 @@ landscape:
               projects like Kubernetes and Prometheus.
             logo: ''
           - item:
-            name: RunC
+            name: runc
             company: OCI
             cncf_project: false
             oss: true
@@ -3083,25 +3083,23 @@ landscape:
               projects like Kubernetes and Prometheus.
             logo: ''
           - item:
-            name: Weavenet
+            name: Weave Net
             company: Weaveworks
             cncf_project: false
             oss: true
             commercial: false
-            homepage_url: 'https://www.weave.works/docs/net/latest/overview/'
-            repo_url: 'https://github.com/weaveworks'
+            homepage_url: 'https://www.weave.works/oss/net/'
+            repo_url: 'https://github.com/weaveworks/weave'
             raw_logo: >-
-              https://d1q6f0aelx0por.cloudfront.net/product-logos/52c94534-ded8-4768-93f7-a6312c0d4cc3-weave-logo-512.png
+              http://events17.linuxfoundation.org/sites/events/files/styles/sponsor_logo_large/public/sponsor-logos/sponsor-weaveworks_1.png
             twitter: 'https://twitter.com/weaveworks'
             crunchbase: 'https://www.crunchbase.com/organization/weaveworks'
             market_cap: 20000000
             headquarters: 'London, United Kingdom'
             rank: 5353
-            stars: N/A
-            license: N/A
-            description: >-
-              Weaveworks provides a simple and consistent way to connect and
-              manage containers and microservices
+            stars: 4921
+            license: Apache-2.0
+            description: 'Simple, resilient multi-host Docker networking and more.'
             logo: ''
   - category:
     name: App Definition and Developement
@@ -3179,7 +3177,7 @@ landscape:
             commercial: true
             homepage_url: 'https://developer.oracle.com/'
             raw_logo: >-
-              https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Oracle_logo.svg/663px-Oracle_logo.svg.png
+              https://doc.octoperf.com/monitoring/create-connection/oracledb/img/oracledb-logo.png
             stock_ticker: ORCL
             twitter: 'https://twitter.com/Oracle'
             crunchbase: 'https://www.crunchbase.com/organization/oracle'
@@ -4507,9 +4505,10 @@ landscape:
             cncf_project: false
             oss: true
             commercial: false
-            homepage_url: 'https://about.gitlab.com/'
-            repo_url: 'https://github.com/GitLab/'
-            raw_logo: 'https://www.openshift.com/images/partners/gitlab.png'
+            homepage_url: 'https://docs.gitlab.com/runner/'
+            repo_url: 'https://gitlab.com/gitlab-org/gitlab-runner'
+            raw_logo: >-
+              https://gitlab.com/uploads/-/system/project/avatar/250833/runner_logo.png
             twitter: 'https://twitter.com/gitlab'
             crunchbase: 'https://www.crunchbase.com/organization/gitlab-com'
             market_cap: 45620000
@@ -4694,7 +4693,7 @@ landscape:
             commercial: true
             homepage_url: 'https://apprenda.com/'
             raw_logo: >-
-              https://upload.wikimedia.org/wikipedia/commons/c/cc/Apprenda_logo.png
+              https://pbs.twimg.com/profile_images/785690321015476225/hEAuJcjS.jpg
             twitter: 'https://twitter.com/apprenda'
             crunchbase: 'https://www.crunchbase.com/organization/apprenda'
             market_cap: 56000000
@@ -6161,7 +6160,7 @@ landscape:
             commercial: true
             homepage_url: 'https://www.opsclarity.com/'
             raw_logo: >-
-              https://crunchbase-production-res.cloudinary.com/image/upload/v1449064505/fxxthgwxq3jdcwru59rw.png
+              https://p14.zdassets.com/hc/settings_assets/813690/200160158/x15uNJXQmg7prFzT4g3SSQ-OpsClarity_Logo.png
             twitter: 'https://twitter.com/opsclarity'
             crunchbase: 'https://www.crunchbase.com/organization/opsclarity'
             market_cap: 21230740
@@ -6598,15 +6597,15 @@ landscape:
               services.
             logo: ''
           - item:
-            name: Scope
+            name: Weave Scope
             company: Weaveworks
             cncf_project: false
             oss: true
             commercial: false
-            homepage_url: 'https://www.weave.works/'
+            homepage_url: 'https://www.weave.works/oss/scope/'
             repo_url: 'https://github.com/weaveworks/scope'
             raw_logo: >-
-              https://d0.awsstatic.com/logos/600x400_logos/600x400_Weaveworks_logo.png
+              http://events17.linuxfoundation.org/sites/events/files/styles/sponsor_logo_large/public/sponsor-logos/sponsor-weaveworks_1.png
             twitter: 'https://twitter.com/weaveworks'
             crunchbase: 'https://www.crunchbase.com/organization/weaveworks'
             market_cap: 20000000
@@ -6701,17 +6700,18 @@ landscape:
             oss: false
             commercial: true
             homepage_url: 'https://cloud.weave.works/'
-            repo_url: 'https://github.com/weaveworks/weave'
             raw_logo: >-
-              https://d1q6f0aelx0por.cloudfront.net/product-logos/52c94534-ded8-4768-93f7-a6312c0d4cc3-weave-logo-512.png
+              http://events17.linuxfoundation.org/sites/events/files/styles/sponsor_logo_large/public/sponsor-logos/sponsor-weaveworks_1.png
             twitter: 'https://twitter.com/weaveworks'
             crunchbase: 'https://www.crunchbase.com/organization/weaveworks'
             market_cap: 20000000
             headquarters: 'London, United Kingdom'
             rank: 5353
-            stars: 4921
-            license: Apache-2.0
-            description: 'Simple, resilient multi-host Docker networking and more.'
+            stars: N/A
+            license: N/A
+            description: >-
+              Weaveworks provides a simple and consistent way to connect and
+              manage containers and microservices
             logo: ''
       - subcategory:
         name: Logging
@@ -6841,7 +6841,7 @@ landscape:
               unlimited scalability, and predictive fault detection.
             logo: ''
           - item:
-            name: FluentD
+            name: Fluentd
             company: Cloud Native Computing Foundation (CNCF)
             cncf_project: true
             oss: true
