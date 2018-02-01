@@ -9,20 +9,35 @@
 
   .content{
 
+    $mosaic_size: 175px;
+    $shared_height: 70%;
+
+    .mosaic::after{
+      content: "";
+      background-color:rgba(0,0,0,0.1);
+      font-weight: bold;
+      display:block;
+      width:100%;
+      height:$shared_height;
+      border-radius:2px 2px 0 0;
+      margin-top:-$mosaic_size;
+
+    }
+
     .mosaic{
       background-color: white;
       position: relative;
       display: inline-block;
-      width: 175px;
-      height: 175px;
+      width: $mosaic_size;
+      height: $mosaic_size;
       margin: 4px 6px;
       border-radius:2px;
       box-shadow: 1px 1px 3px #d6d6d6;
 
       .logo_wrapper{
-        padding:20px;
-        height: 70%;
+        height: $shared_height;
         width: 100%;
+        padding:20px;
 
         .logo{
           width: 100%;
@@ -33,22 +48,12 @@
           background-position: 50%;
           background-color: #fff;
           cursor: pointer;
-        }
-
-        .logo::after{
-          content: "";
-          background-color:rgba(0,0,0,0.1);
-          font-weight: bold;
-          display:block;
-          width:100%;
-          height:100%;
-          border-radius:5px;
-
 
         }
+
+
 
       }
-
 
       .info{
         height: 30%;
