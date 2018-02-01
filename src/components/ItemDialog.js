@@ -13,7 +13,7 @@ const ItemDialog = ({onClose, itemInfo, previousItemId, nextItemId, onSelectItem
       { previousItemId && <KeyHandler keyValue="ArrowLeft" onKeyHandle={() => onSelectItem(previousItemId)} /> }
       <DialogTitle id="simple-dialog-title">{itemInfo.name}</DialogTitle>
       <div style={{width: 600, height: 600, background: 'white', overflow: 'hidden'}}>
-        <div className={itemInfo.logo} style={{
+        <div className={`${itemInfo.logo}-large`} style={{
           'cursor': 'pointer',
           'width': '100%',
           'height': 200,

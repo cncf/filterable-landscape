@@ -7,9 +7,6 @@ export default function formatCity(name) {
     return `${city}, ${state}`;
   }
   if (country === 'United States') {
-    if (city === state) {
-      return city;
-    }
     return `${city}, ${state}`;
   }
   return `${city}, ${country}`;

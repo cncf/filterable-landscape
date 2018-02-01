@@ -11,15 +11,13 @@ export const initialState = {
   filters: {
     cncfProject: null,
     oss: null,
-    commercial: null,
     stars: null,
     certifiedKubernetes: null,
-    license: null,
+    license: [],
     marketCap: null,
-    // vcFunder: [],
     company: [],
-    headquarters: null,
-    landscape: null
+    headquarters: [],
+    landscape: []
   },
   grouping: 'cncfProject',
   sortField: 'name',
