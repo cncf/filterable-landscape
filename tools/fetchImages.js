@@ -21,9 +21,9 @@ const traverse = require('traverse');
 const source = require('js-yaml').safeLoad(require('fs').readFileSync('landscape.yml'));
 var existingEntries = [];
 try {
-  existingEntries = JSON.parse(fs.readFileSync('src/imageUrls.json', 'utf-8'));
+  existingEntries = require('js-yaml').safeLoad(fs.readFileSync('src/imageUrls.yml', 'utf-8'));
 } catch (ex) {
-  console.info('File src/imagesUrls.json does not exist. New one will be created');
+  console.info('File src/imagesUrls.yml does not exist. New one will be created');
 }
 
 const tree = traverse(source);
@@ -129,8 +129,8 @@ async function fetchImages() {
       }
     }
   }, {concurrency: 10});
-  logos = _.orderBy(logos, 'name');
   await promises;
+  logos = _.orderBy(logos, 'name');
 }
 
 async function generateCss() {
@@ -148,7 +148,9 @@ async function generateCss() {
 }
 
 async function writeUrlHashes() {
-  fs.writeFileSync('src/imageUrls.json', JSON.stringify(logos, null, 2));
+  var dump = require('js-yaml').dump(logos);
+  dump = "# THIS FILE IS GENERATED AUTOMATICALLY based on landscape.yml via babel-node tools/fetchImages.js !\n" + dump;
+  fs.writeFileSync('src/imageUrls.yml', dump);
 }
 
 async function normalizeImage({inputFile, outputFile}) {
