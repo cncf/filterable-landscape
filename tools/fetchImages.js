@@ -35,12 +35,6 @@ tree.map(function(node) {
   if (node.item !== null) {
     return;
   }
-  const path = this.parents.filter(function(p) {
-    return p.node.category === null || p.node.subcategory === null;
-  }).map(function(p) {
-    return p.node.name;
-  }).join(' / ');
-  node.path = path;
   items.push(node);
 });
 _.each(items, function(item) {
@@ -48,7 +42,7 @@ _.each(items, function(item) {
   var id = item.name;
   if (otherItems.length > 1) {
     console.info('Other name: ', id);
-    id = item.path + ' ' + item.name;
+    id = item.company + ' ' + item.name;
     console.info(' resolved with ', id);
   }
   item.id = id;

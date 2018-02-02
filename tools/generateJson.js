@@ -37,7 +37,7 @@ const itemsWithExtraFields = items.map(function(item) {
   const otherItems = _.filter(items, {name: item.name});
   var id = saneName(item.name);
   if (otherItems.length > 1) {
-    id = saneName(item.path + ' ' + item.name);
+    id = saneName(item.company + ' ' + item.name);
   }
   return {
     ...item,
