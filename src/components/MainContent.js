@@ -12,6 +12,9 @@ const MainContent = ({groupedItems, onSelectItem}) => {
           <Subheader component="div" style={{fontSize: 24}}>{groupedItem.header} ({groupedItem.items.length})</Subheader>
       </div>
     ].concat(_.map(groupedItem.items, function(item) {
+      console.log(item);
+      let isInt = Number.isInteger(item.marketCap);
+      
       return (<div className="mosaic" key={item.id} style={{ background: item.oss ? 'white' : '#eeeeee'}}>
                 <div className="logo_wrapper" style={{border: '1px solid #f0f0f0'}}
                 >
@@ -20,7 +23,7 @@ const MainContent = ({groupedItems, onSelectItem}) => {
                 <div className="info">
                   <h5>{item.name}</h5>
                   <div>
-                    <span>{item.company} ({item.marketCapAsText})</span>
+                    <span> {item.company} { isInt ? '('+ millify( item.marketCap )+')' : '' } </span>
                     { item.starsPresent &&
                       <span>
                         <Icon color="disabled" style={{ fontSize: 15 }}>star</Icon>
