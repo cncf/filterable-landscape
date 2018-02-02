@@ -136,7 +136,7 @@ landscape:
           oss: true
           commercial: false
           homepage_url: https://coredns.io/
-          repo_url: https://github.com/coredns
+          repo_url: https://github.com/coredns/coredns
           raw_logo: https://github.com/cncf/artwork/blob/master/coredns/stacked/color/coredns-stacked-color.png
           twitter: https://twitter.com/corednsio
           crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
@@ -233,7 +233,7 @@ landscape:
           oss: true
           commercial: false
           homepage_url: https://linkerd.io/
-          repo_url: https://github.com/linkerd
+          repo_url: https://github.com/linkerd/linkerd
           raw_logo: https://raw.githubusercontent.com/cncf/artwork/master/linkerd/stacked/color/linkerd-stacked-color.png
           twitter: https://twitter.com/linkerd
           crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
@@ -243,8 +243,8 @@ landscape:
           cncf_project: true
           oss: true
           commercial: false
-          homepage_url: https://lyft.github.io/envoy/
-          repo_url: https://github.com/lyft/envoy
+          homepage_url: https://envoyproxy.github.io/
+          repo_url: https://github.com/envoyproxy/envoy
           raw_logo: https://github.com/cncf/artwork/blob/master/envoy/stacked/color/envoy-stacked-color.png
           stock_ticker: 'LYFT'
           twitter: https://twitter.com/envoyproxy
@@ -300,7 +300,7 @@ landscape:
           oss: true
           commercial: false
           homepage_url: https://grpc.io/
-          repo_url: https://github.com/grpc
+          repo_url: https://github.com/grpc/grpc
           raw_logo: https://raw.githubusercontent.com/cncf/artwork/master/grpc/horizontal/color/grpc-horizontal-color.png
           stock_ticker: ''
           twitter: https://twitter.com/grpcio
@@ -978,10 +978,9 @@ landscape:
           cncf_project: true
           oss: true
           commercial: false
-          homepage_url: https://github.com/docker/notary
-          repo_url: https://github.com/docker/notary
+          homepage_url: https://github.com/theupdateframework/notary
+          repo_url: https://github.com/theupdateframework/notary
           raw_logo: https://raw.githubusercontent.com/cncf/artwork/master/notary/stacked/color/notary-stacked-color.png
-          twitter: https://twitter.com/docker
           crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
         - item:
           name: "OpenSCAP"
@@ -1010,7 +1009,7 @@ landscape:
           oss: true
           commercial: false
           homepage_url: https://theupdateframework.github.io/
-          repo_url: https://github.com/theupdateframework
+          repo_url: https://github.com/theupdateframework/tuf
           raw_logo: https://github.com/cncf/artwork/blob/master/tuf/stacked/color/tuf-stacked-color.png
           crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
         - item:
@@ -1395,9 +1394,8 @@ landscape:
           oss: true
           commercial: false
           homepage_url: https://github.com/rkt/rkt
-          repo_url: https://github.com/rkt
+          repo_url: https://github.com/rkt/rkt
           raw_logo:  https://raw.githubusercontent.com/cncf/artwork/master/rkt/stacked/color/rkt-stacked-color.png
-          twitter: https://twitter.com/coreos
           crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
         - item:
           name: "runc"
@@ -1446,9 +1444,8 @@ landscape:
           oss: true
           commercial: false
           homepage_url: http://containerd.io/
-          repo_url: https://github.com/containerd
+          repo_url: https://github.com/containerd/containerd
           raw_logo: https://raw.githubusercontent.com/cncf/artwork/master/containerd/stacked/color/containerd-stacked-color.png
-          twitter: https://twitter.com/docker
           crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
         - item:
           name: "cri-o"
@@ -1672,7 +1669,7 @@ landscape:
           oss: true
           commercial: false
           homepage_url: https://github.com/containernetworking
-          repo_url: https://github.com/containernetworking
+          repo_url: https://github.com/containernetworking/cni
           raw_logo: https://raw.githubusercontent.com/cncf/artwork/master/cni/stacked/color/cni-stacked-color.png
           crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
         - item:
@@ -3277,7 +3274,7 @@ landscape:
           oss: true
           commercial: false
           homepage_url: https://prometheus.io/
-          repo_url: https://github.com/prometheus
+          repo_url: https://github.com/prometheus/prometheus
           raw_logo: https://raw.githubusercontent.com/cncf/artwork/master/prometheus/stacked/color/prometheus-stacked-color.png
           twitter: https://twitter.com/PrometheusIO
           crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
@@ -3765,7 +3762,7 @@ landscape:
           oss: true
           commercial: false
           homepage_url: http://opentracing.io/
-          repo_url: https://github.com/opentracing
+          repo_url: https://github.com/opentracing/opentracing-go
           raw_logo: https://raw.githubusercontent.com/cncf/artwork/master/opentracing/stacked/color/opentracing-stacked-color.png
           twitter: https://twitter.com/opentracing
           crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
@@ -3794,11 +3791,10 @@ landscape:
           cncf_project: true
           oss: true
           commercial: false
-          homepage_url: https://uber.github.io/jaeger/
-          repo_url: https://github.com/uber/jaeger
+          homepage_url: http://jaegertracing.io/
+          repo_url: https://github.com/jaegertracing/jaeger
           raw_logo: https://raw.githubusercontent.com/cncf/artwork/master/jaeger/stacked/color/jaeger-stacked-color.png
-          stock_ticker: 'UBER'
-          twitter: https://twitter.com/UberEng
+          twitter: https://twitter.com/JaegerTracing
           crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
         - item:
           name: "Cloud Sleuth"
