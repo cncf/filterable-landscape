@@ -18,16 +18,16 @@
     "url": "https://raw.githubusercontent.com/Azure/service-fabric/master/service-fabric.png"
   },
   {
-    "name": "docker-swarm",
-    "fileName": "src/logos/docker-swarm.png",
-    "hash": "2d0699052dc39d6578c4997a6893db8e43f4055dfd5291e4cf280926affd9bed",
-    "url": "https://raw.githubusercontent.com/docker/swarm/master/logo.png"
-  },
-  {
     "name": "consul",
     "fileName": "src/logos/consul.png",
     "hash": "1095c05ef2c8822b7c8b035d955ecb27dcae8192080d96dc6ce5570d83133e7e",
     "url": "https://raw.githubusercontent.com/ServiceStack/Assets/master/img/livedemos/techstacks/consul-logo.png"
+  },
+  {
+    "name": "docker-swarm",
+    "fileName": "src/logos/docker-swarm.png",
+    "hash": "2d0699052dc39d6578c4997a6893db8e43f4055dfd5291e4cf280926affd9bed",
+    "url": "https://raw.githubusercontent.com/docker/swarm/master/logo.png"
   },
   {
     "name": "mesos",
@@ -48,16 +48,16 @@
     "url": "https://www.opsview.com/sites/default/files/Zookeeper%20Logo%20REV.png"
   },
   {
-    "name": "cloud-sleuth",
-    "fileName": "src/logos/cloud-sleuth.png",
-    "hash": "65a26400eb19c4626c042509e40e2c56ad7d33a61fbcaf23405c184facbf1731",
-    "url": "https://pragmaticintegrator.files.wordpress.com/2017/03/spring-cloud.jpg"
-  },
-  {
     "name": "kubernetes",
     "fileName": "src/logos/kubernetes.png",
     "hash": "097c7e15346b602d0cf3f3b433c83b5f5119b75705c3a175e7ea5f6f6d49af38",
     "url": "https://raw.githubusercontent.com/cncf/artwork/master/kubernetes/stacked/color/kubernetes-stacked-color.png"
+  },
+  {
+    "name": "cloud-sleuth",
+    "fileName": "src/logos/cloud-sleuth.png",
+    "hash": "65a26400eb19c4626c042509e40e2c56ad7d33a61fbcaf23405c184facbf1731",
+    "url": "https://pragmaticintegrator.files.wordpress.com/2017/03/spring-cloud.jpg"
   },
   {
     "name": "zipkin",
@@ -66,28 +66,10 @@
     "url": "https://4.bp.blogspot.com/-DsmFcaeMi4U/T9DX_XLMrdI/AAAAAAAAABg/jKF_pXToIEo/s1600/zipkin.jpg"
   },
   {
-    "name": "nomad",
-    "fileName": "src/logos/nomad.png",
-    "hash": "58ba3cd1f0a6e696482e60252c58ac132912582dc6089849936112dfd2ecc862",
-    "url": "https://hyzxph.media.zestyio.com/blog-nomad-list.svg"
-  },
-  {
     "name": "jaeger",
     "fileName": "src/logos/jaeger.png",
     "hash": "7674d2e31616416e8745c246482452d152494a1d9d895042178b3da3631c8088",
     "url": "https://raw.githubusercontent.com/cncf/artwork/master/jaeger/stacked/color/jaeger-stacked-color.png"
-  },
-  {
-    "name": "container-pilot",
-    "fileName": "src/logos/container-pilot.png",
-    "hash": "54b63fcce696063e373d3f7302c20c09be94805aff31360c7e80e5810a54610c",
-    "url": "https://raw.githubusercontent.com/alexcontini/alexcontini.github.io/master/ContainerPilot-logo%20(1)-01.png?raw=true"
-  },
-  {
-    "name": "graylog",
-    "fileName": "src/logos/graylog.png",
-    "hash": "d38216a03b591fe974cc99f01a23c739887d892c9e2c45a0ffc3c375508ff9b1",
-    "url": "https://global-uploads.webflow.com/5a218ef7897bf400019e2f16/5a218ef7897bf400019e2f60_logo-graylog.png"
   },
   {
     "name": "loom-systems",
@@ -96,16 +78,22 @@
     "url": "https://raw.githubusercontent.com/alexcontini/alexcontini.github.io/master/loomsystems_logo.png?raw=true"
   },
   {
-    "name": "skywalking",
-    "fileName": "src/logos/skywalking.png",
-    "hash": "c61b2aec66b5822f691a8281481e6c4f2057ad2d01e0b4227b55f2a0da5a72d3",
-    "url": "https://camo.githubusercontent.com/4ac940361b7345156ff71aa21efdb42a449e67d7/68747470733a2f2f736b7977616c6b696e67746573742e6769746875622e696f2f706167652d7265736f75726365732f332e302f736b7977616c6b696e672e706e67"
+    "name": "graylog",
+    "fileName": "src/logos/graylog.png",
+    "hash": "d38216a03b591fe974cc99f01a23c739887d892c9e2c45a0ffc3c375508ff9b1",
+    "url": "https://global-uploads.webflow.com/5a218ef7897bf400019e2f16/5a218ef7897bf400019e2f60_logo-graylog.png"
   },
   {
-    "name": "sumo-logic",
-    "fileName": "src/logos/sumo-logic.png",
-    "hash": "2297b0c43fb8a86dd2e22982b6e11377e5399a518b6a673e690698143a241985",
-    "url": "https://www.cloudfoundry.org/wp-content/uploads/2017/10/icon_sumologic_v2@2x.png"
+    "name": "nomad",
+    "fileName": "src/logos/nomad.png",
+    "hash": "58ba3cd1f0a6e696482e60252c58ac132912582dc6089849936112dfd2ecc862",
+    "url": "https://hyzxph.media.zestyio.com/blog-nomad-list.svg"
+  },
+  {
+    "name": "container-pilot",
+    "fileName": "src/logos/container-pilot.png",
+    "hash": "54b63fcce696063e373d3f7302c20c09be94805aff31360c7e80e5810a54610c",
+    "url": "https://raw.githubusercontent.com/alexcontini/alexcontini.github.io/master/ContainerPilot-logo%20(1)-01.png?raw=true"
   },
   {
     "name": "open-tracing",
@@ -114,10 +102,10 @@
     "url": "https://raw.githubusercontent.com/cncf/artwork/master/opentracing/stacked/color/opentracing-stacked-color.png"
   },
   {
-    "name": "logz",
-    "fileName": "src/logos/logz.png",
-    "hash": "37d0785a42e68fb5f031a7c89bbbda5655adf74900109b04fc41a4b926fa4a70",
-    "url": "https://logz.io/wp-content/uploads/2015/09/logzio.png"
+    "name": "sumo-logic",
+    "fileName": "src/logos/sumo-logic.png",
+    "hash": "2297b0c43fb8a86dd2e22982b6e11377e5399a518b6a673e690698143a241985",
+    "url": "https://www.cloudfoundry.org/wp-content/uploads/2017/10/icon_sumologic_v2@2x.png"
   },
   {
     "name": "weave-cloud",
@@ -132,16 +120,16 @@
     "url": "https://sematext.com/wp-content/uploads/2017/09/octi-square-logo-200x200-2.png"
   },
   {
-    "name": "loggly",
-    "fileName": "src/logos/loggly.png",
-    "hash": "548ace7a18025aaec6ad281c4e5e0c6d3a2c9198933b4da03f6d669e916fc665",
-    "url": "https://www.loggly.com/wp-content/uploads/2017/03/Loggly_RGB.png"
-  },
-  {
     "name": "elastic",
     "fileName": "src/logos/elastic.png",
     "hash": "7da17acf2c1f9b3212254247565e9546406089e2c2a75d1ed76b69ad743528e5",
     "url": "https://www.rittmanmead.com/blog/content/images/2016/06/elastic.png"
+  },
+  {
+    "name": "loggly",
+    "fileName": "src/logos/loggly.png",
+    "hash": "548ace7a18025aaec6ad281c4e5e0c6d3a2c9198933b4da03f6d669e916fc665",
+    "url": "https://www.loggly.com/wp-content/uploads/2017/03/Loggly_RGB.png"
   },
   {
     "name": "splunk",
@@ -150,22 +138,16 @@
     "url": "https://interset.com/wp-content/uploads/2016/10/splunk-logo-300x168.png"
   },
   {
-    "name": "stack-state",
-    "fileName": "src/logos/stack-state.png",
-    "hash": "f8c3a56c9a7bd3c9da28566ddf1e03672dff60b76d8d6f2f128ffbadffc0fb41",
-    "url": "https://www.stackstate.com/wp-content/uploads/2017/04/Sts_LOGO_RGB_Full_Horizontal_OPT.png.pagespeed.ce.LOxsEpaZ5A.png"
-  },
-  {
     "name": "stack-rox",
     "fileName": "src/logos/stack-rox.png",
     "hash": "53bc04f13fc378133de071a3754829f7667da8c9ac2fdd64de90dcdb42f965df",
     "url": "https://techspective.net/wp-content/uploads/2017/07/stackrox_logo.jpg"
   },
   {
-    "name": "weave-scope",
-    "fileName": "src/logos/weave-scope.png",
-    "hash": "be6a564323270e626aebd80da93b1c5d5a6608d39ecdf14006e868290ceaf6ec",
-    "url": "http://events17.linuxfoundation.org/sites/events/files/styles/sponsor_logo_large/public/sponsor-logos/sponsor-weaveworks_1.png"
+    "name": "logz",
+    "fileName": "src/logos/logz.png",
+    "hash": "37d0785a42e68fb5f031a7c89bbbda5655adf74900109b04fc41a4b926fa4a70",
+    "url": "https://logz.io/wp-content/uploads/2015/09/logzio.png"
   },
   {
     "name": "sentry",
@@ -174,40 +156,22 @@
     "url": "https://sentry-brand.storage.googleapis.com/sentry-logo-black.png"
   },
   {
+    "name": "stack-state",
+    "fileName": "src/logos/stack-state.png",
+    "hash": "f8c3a56c9a7bd3c9da28566ddf1e03672dff60b76d8d6f2f128ffbadffc0fb41",
+    "url": "https://www.stackstate.com/wp-content/uploads/2017/04/Sts_LOGO_RGB_Full_Horizontal_OPT.png.pagespeed.ce.LOxsEpaZ5A.png"
+  },
+  {
+    "name": "weave-scope",
+    "fileName": "src/logos/weave-scope.png",
+    "hash": "be6a564323270e626aebd80da93b1c5d5a6608d39ecdf14006e868290ceaf6ec",
+    "url": "http://events17.linuxfoundation.org/sites/events/files/styles/sponsor_logo_large/public/sponsor-logos/sponsor-weaveworks_1.png"
+  },
+  {
     "name": "log-analytics",
     "fileName": "src/logos/log-analytics.png",
     "hash": "557fd644690b5e8d0d5dae90a7911868f152f0b48761b6df4bc283c55f1b58ab",
     "url": "https://i1.wp.com/www.tjopsta.net/wp-content/uploads/2016/10/LogAnalytics-Logo.png"
-  },
-  {
-    "name": "grafana",
-    "fileName": "src/logos/grafana.png",
-    "hash": "c6fba2ad0c819572d0b0a6e941412177cc527ea4272a68edd3860428352f779c",
-    "url": "https://assets.packet.net/media/pages/images/a8849b052492b5106526b2331e526138/xCMw-grafana.png"
-  },
-  {
-    "name": "signal-fx",
-    "fileName": "src/logos/signal-fx.png",
-    "hash": "dc5cc61a9def97b9f1a4e5578e881d54335968ccb592b375053831dd4f1939ae",
-    "url": "https://signalfx.com/wp-content/uploads/2015/09/signalfx-logo1.png"
-  },
-  {
-    "name": "nodesource",
-    "fileName": "src/logos/nodesource.png",
-    "hash": "c7650372d96fb5c0752c9d3a8b312c3d589d89f91e22f6864c75110439329afd",
-    "url": "https://www.crosslinkcapital.com/blog/wp-content/uploads/2016/01/nodesource-512x512.png"
-  },
-  {
-    "name": "lighstep",
-    "fileName": "src/logos/lighstep.png",
-    "hash": "0b3384e424585b1f003fdb9deaa9c61ffb289aef118ae2e64a73e7606b264c7b",
-    "url": "https://www.heavybit.com/wp-content/uploads/2016/02/heavybit-welcomes-new-member-lightstep.png"
-  },
-  {
-    "name": "centreon",
-    "fileName": "src/logos/centreon.png",
-    "hash": "bb6e1194fe7c56ca1f5a5734a50984a7d425fcfa40a933924ebb64e3711f1134",
-    "url": "https://crunchbase-production-res.cloudinary.com/image/upload/v1492080963/vxkgrdh1jnublhxzdrer.jpg"
   },
   {
     "name": "outlyer",
@@ -216,10 +180,52 @@
     "url": "https://p4.zdassets.com/hc/settings_assets/443641/200027036/W5VMeAkQWWuD2EpjxP7VAQ-Logo.png"
   },
   {
+    "name": "skywalking",
+    "fileName": "src/logos/skywalking.png",
+    "hash": "c61b2aec66b5822f691a8281481e6c4f2057ad2d01e0b4227b55f2a0da5a72d3",
+    "url": "https://camo.githubusercontent.com/4ac940361b7345156ff71aa21efdb42a449e67d7/68747470733a2f2f736b7977616c6b696e67746573742e6769746875622e696f2f706167652d7265736f75726365732f332e302f736b7977616c6b696e672e706e67"
+  },
+  {
+    "name": "centreon",
+    "fileName": "src/logos/centreon.png",
+    "hash": "bb6e1194fe7c56ca1f5a5734a50984a7d425fcfa40a933924ebb64e3711f1134",
+    "url": "https://crunchbase-production-res.cloudinary.com/image/upload/v1492080963/vxkgrdh1jnublhxzdrer.jpg"
+  },
+  {
+    "name": "grafana",
+    "fileName": "src/logos/grafana.png",
+    "hash": "c6fba2ad0c819572d0b0a6e941412177cc527ea4272a68edd3860428352f779c",
+    "url": "https://assets.packet.net/media/pages/images/a8849b052492b5106526b2331e526138/xCMw-grafana.png"
+  },
+  {
+    "name": "lighstep",
+    "fileName": "src/logos/lighstep.png",
+    "hash": "0b3384e424585b1f003fdb9deaa9c61ffb289aef118ae2e64a73e7606b264c7b",
+    "url": "https://www.heavybit.com/wp-content/uploads/2016/02/heavybit-welcomes-new-member-lightstep.png"
+  },
+  {
+    "name": "nodesource",
+    "fileName": "src/logos/nodesource.png",
+    "hash": "c7650372d96fb5c0752c9d3a8b312c3d589d89f91e22f6864c75110439329afd",
+    "url": "https://www.crosslinkcapital.com/blog/wp-content/uploads/2016/01/nodesource-512x512.png"
+  },
+  {
+    "name": "signal-fx",
+    "fileName": "src/logos/signal-fx.png",
+    "hash": "dc5cc61a9def97b9f1a4e5578e881d54335968ccb592b375053831dd4f1939ae",
+    "url": "https://signalfx.com/wp-content/uploads/2015/09/signalfx-logo1.png"
+  },
+  {
     "name": "dynatrace",
     "fileName": "src/logos/dynatrace.png",
     "hash": "a9eb0288e002308885b6f5acf0e5d1caeb7f6728008076c84fdc2798a6fcaeb1",
     "url": "https://crunchbase-production-res.cloudinary.com/image/upload/v1460640914/hyk187shdkxuov8iycdt.png"
+  },
+  {
+    "name": "op-beat",
+    "fileName": "src/logos/op-beat.png",
+    "hash": "f24480c4737f4404aaa9b5ae28cc04d5a2bcb7b9115fdaa875a64ae04f894dda",
+    "url": "https://crunchbase-production-res.cloudinary.com/image/upload/v1408666566/nwh15vkpdfklojbp70bo.png"
   },
   {
     "name": "app-neta",
@@ -234,16 +240,16 @@
     "url": "https://alertops.com/wp-content/uploads/2017/04/Librato-logo.jpg"
   },
   {
+    "name": "cobe",
+    "fileName": "src/logos/cobe.png",
+    "hash": "58c306d44eaff1f1420d72ea878188a23e9f873a358d8de56a17e3bec40c1276",
+    "url": "https://pbs.twimg.com/profile_images/630677512163561472/MB2Z1voJ_400x400.png"
+  },
+  {
     "name": "meros",
     "fileName": "src/logos/meros.png",
     "hash": "1de8190718d5378bb551592aef24d77d77f596b263f3042f84d990cf48b1a9bc",
     "url": "http://blog.eckelberry.com/wp-content/uploads/2015/08/meros-logo-small.png"
-  },
-  {
-    "name": "op-beat",
-    "fileName": "src/logos/op-beat.png",
-    "hash": "f24480c4737f4404aaa9b5ae28cc04d5a2bcb7b9115fdaa875a64ae04f894dda",
-    "url": "https://crunchbase-production-res.cloudinary.com/image/upload/v1408666566/nwh15vkpdfklojbp70bo.png"
   },
   {
     "name": "server-density",
@@ -252,22 +258,10 @@
     "url": "https://www.gcppodcast.com//images/post/serverdensity.png"
   },
   {
-    "name": "catchpoint-systems",
-    "fileName": "src/logos/catchpoint-systems.png",
-    "hash": "6841210f7ce2078a2b295af650d8343a70fbbe1ed13b5389ff82cf026f2300f4",
-    "url": "https://alertops.com/wp-content/uploads/2016/11/catchpoint.png"
-  },
-  {
     "name": "open-tsdb",
     "fileName": "src/logos/open-tsdb.png",
     "hash": "c8cd36f84340008c49014da6a0cccc395ec7ebb4502c0e5d3665e75e235f6da0",
     "url": "http://opentsdb.net/img/logo_header.png"
-  },
-  {
-    "name": "cobe",
-    "fileName": "src/logos/cobe.png",
-    "hash": "58c306d44eaff1f1420d72ea878188a23e9f873a358d8de56a17e3bec40c1276",
-    "url": "https://pbs.twimg.com/profile_images/630677512163561472/MB2Z1voJ_400x400.png"
   },
   {
     "name": "netsil",
@@ -276,10 +270,28 @@
     "url": "https://s3.amazonaws.com/docs.netsil.com/logos/Netsil_640x640-blue.jpg"
   },
   {
+    "name": "catchpoint-systems",
+    "fileName": "src/logos/catchpoint-systems.png",
+    "hash": "6841210f7ce2078a2b295af650d8343a70fbbe1ed13b5389ff82cf026f2300f4",
+    "url": "https://alertops.com/wp-content/uploads/2016/11/catchpoint.png"
+  },
+  {
+    "name": "zabbix",
+    "fileName": "src/logos/zabbix.png",
+    "hash": "959a35b5292b7a8c0d7f32eafee6b8c0cdf9a329d5195e2492b2e73200fcf35f",
+    "url": "https://pbs.twimg.com/profile_images/537524757978034176/MlkWTc_x_400x400.png"
+  },
+  {
     "name": "graphite",
     "fileName": "src/logos/graphite.png",
     "hash": "387e0a2685e46f6cf360fec52bf4424f6ac6c7f5d647001eb72b0ff4ec03c9e3",
     "url": "http://blog-centreon-wordpress.s3.amazonaws.com/wp-content/uploads/2017/07/GraphiteLogo.png"
+  },
+  {
+    "name": "fluentd",
+    "fileName": "src/logos/fluentd.png",
+    "hash": "c76da9ec97ddee6eaa9ccee2c97a97db33e9c323144e394808d87bda3091c47f",
+    "url": "https://raw.githubusercontent.com/cncf/artwork/master/fluentd/stacked/color/fluentd-stacked-color.png"
   },
   {
     "name": "influx-db",
@@ -288,10 +300,10 @@
     "url": "https://3yecy51kdipx3blyi37oute1-wpengine.netdna-ssl.com/wp-content/uploads/2016/11/influxdata_400x200.png"
   },
   {
-    "name": "zabbix",
-    "fileName": "src/logos/zabbix.png",
-    "hash": "959a35b5292b7a8c0d7f32eafee6b8c0cdf9a329d5195e2492b2e73200fcf35f",
-    "url": "https://pbs.twimg.com/profile_images/537524757978034176/MlkWTc_x_400x400.png"
+    "name": "nagios",
+    "fileName": "src/logos/nagios.png",
+    "hash": "3fd7489addf5713ba204d12b9500c45745235ceca21088550bb1905082a951d8",
+    "url": "https://pbs.twimg.com/profile_images/2278848253/3gaoi2h254k0canb4hxj_400x400.png"
   },
   {
     "name": "ops-clarity",
@@ -306,22 +318,10 @@
     "url": "http://dej.io/wp-content/uploads/2016/10/Rocana-Logo.png"
   },
   {
-    "name": "nagios",
-    "fileName": "src/logos/nagios.png",
-    "hash": "3fd7489addf5713ba204d12b9500c45745235ceca21088550bb1905082a951d8",
-    "url": "https://pbs.twimg.com/profile_images/2278848253/3gaoi2h254k0canb4hxj_400x400.png"
-  },
-  {
     "name": "instana",
     "fileName": "src/logos/instana.png",
     "hash": "974e511a6d73b19afd9a7ad1bdde8dd2b6fa4d946172539f49c8055a894f7a3f",
     "url": "http://www.instana.com/media/RZ_INSTANA_Dark_Blue.png"
-  },
-  {
-    "name": "iron-db",
-    "fileName": "src/logos/iron-db.png",
-    "hash": "8e67b5dda26563a0378451de1e8e49e56fe76a2048e5b4fe8abd4086a4a1b99d",
-    "url": "https://login.circonus.com/resources/docs/irondb/assets/irondb-logo-1777x761.png"
   },
   {
     "name": "sys-dig",
@@ -342,28 +342,16 @@
     "url": "https://www.gcppodcast.com/images/post/stackdriver.png"
   },
   {
-    "name": "prometheus",
-    "fileName": "src/logos/prometheus.png",
-    "hash": "abdefaf269ec97bc710699ccdc5f9e9ec087f26d368f4beffd8b87cc0d9edfaf",
-    "url": "https://raw.githubusercontent.com/cncf/artwork/master/prometheus/stacked/color/prometheus-stacked-color.png"
-  },
-  {
     "name": "cloud-watch",
     "fileName": "src/logos/cloud-watch.png",
     "hash": "789df4c464938f3185f0a6ceaef3bc239ebae2a0d61b1a89aad2c3e553137cb6",
     "url": "http://truesightpulse.bmc.com/wp-content/uploads/2016/11/cloudwatch.png"
   },
   {
-    "name": "honeybadger",
-    "fileName": "src/logos/honeybadger.png",
-    "hash": "d15adb4ea27a528cf071d530d06da4c8ef407019711943bb888fc3c58a53f7e5",
-    "url": "https://www.honeybadger.io/images/navbar_logo.svg"
-  },
-  {
-    "name": "icinga",
-    "fileName": "src/logos/icinga.png",
-    "hash": "a4546d4d7f175dc76cfee9a12230058980f0c24ea034248c19ae77f771135fb7",
-    "url": "https://appcenter.software-univention.de/meta-inf/4.1/icinga/icinga_detail_logo.svg"
+    "name": "prometheus",
+    "fileName": "src/logos/prometheus.png",
+    "hash": "abdefaf269ec97bc710699ccdc5f9e9ec087f26d368f4beffd8b87cc0d9edfaf",
+    "url": "https://raw.githubusercontent.com/cncf/artwork/master/prometheus/stacked/color/prometheus-stacked-color.png"
   },
   {
     "name": "axibase",
@@ -378,22 +366,16 @@
     "url": "https://crunchbase-production-res.cloudinary.com/image/upload/e9d7401fbbda172d5b1972370437a4be.png"
   },
   {
-    "name": "fluentd",
-    "fileName": "src/logos/fluentd.png",
-    "hash": "c76da9ec97ddee6eaa9ccee2c97a97db33e9c323144e394808d87bda3091c47f",
-    "url": "https://raw.githubusercontent.com/cncf/artwork/master/fluentd/stacked/color/fluentd-stacked-color.png"
+    "name": "iron-db",
+    "fileName": "src/logos/iron-db.png",
+    "hash": "8e67b5dda26563a0378451de1e8e49e56fe76a2048e5b4fe8abd4086a4a1b99d",
+    "url": "https://login.circonus.com/resources/docs/irondb/assets/irondb-logo-1777x761.png"
   },
   {
     "name": "stats-db",
     "fileName": "src/logos/stats-db.png",
     "hash": "99133d5a09bd6fd8bebe2b4f27c964f3d01788023efe2356bcdbdcd28bd274a1",
     "url": "http://www.earlham.ac.uk/sites/default/files/images/pages/Tools%20and%20resources/Tools%20detail/StatsDB/statsdb.jpg"
-  },
-  {
-    "name": "app-dynamics",
-    "fileName": "src/logos/app-dynamics.png",
-    "hash": "4493ead65895eed8018f23e072587786abca4b8dc08f980e5938f3a3d4db6d8c",
-    "url": "https://access.redhat.com/sites/default/files/appd_logo_gray_rgb_1026x104.png"
   },
   {
     "name": "new-relic",
@@ -414,6 +396,36 @@
     "url": "https://pbs.twimg.com/profile_images/807552612295933952/8bEJzlEM_400x400.jpg"
   },
   {
+    "name": "app-dynamics",
+    "fileName": "src/logos/app-dynamics.png",
+    "hash": "4493ead65895eed8018f23e072587786abca4b8dc08f980e5938f3a3d4db6d8c",
+    "url": "https://access.redhat.com/sites/default/files/appd_logo_gray_rgb_1026x104.png"
+  },
+  {
+    "name": "honeybadger",
+    "fileName": "src/logos/honeybadger.png",
+    "hash": "d15adb4ea27a528cf071d530d06da4c8ef407019711943bb888fc3c58a53f7e5",
+    "url": "https://www.honeybadger.io/images/navbar_logo.svg"
+  },
+  {
+    "name": "nuclio",
+    "fileName": "src/logos/nuclio.png",
+    "hash": "099032b5cda5b1b33edac6730939824c077a1202f8d00f2607839c4b55dc9a9f",
+    "url": "https://www.iguazio.com/wp-content/uploads/2017/11/Nuclio_Final-03-1024x470.png"
+  },
+  {
+    "name": "icinga",
+    "fileName": "src/logos/icinga.png",
+    "hash": "a4546d4d7f175dc76cfee9a12230058980f0c24ea034248c19ae77f771135fb7",
+    "url": "https://appcenter.software-univention.de/meta-inf/4.1/icinga/icinga_detail_logo.svg"
+  },
+  {
+    "name": "serverless",
+    "fileName": "src/logos/serverless.png",
+    "hash": "285e308aa14ef0528239101a8b6a214d08358c834ad26f386d48b7f2e28d9a85",
+    "url": "https://user-images.githubusercontent.com/2752551/30404912-d5781a00-989d-11e7-8d25-5ebca177326a.png"
+  },
+  {
     "name": "pub-nub",
     "fileName": "src/logos/pub-nub.png",
     "hash": "68e4d65f280fbc8ccc50250e1159008af9163e2aab20bdd91ab8da8248deddb6",
@@ -426,34 +438,10 @@
     "url": "https://s3-us-west-2.amazonaws.com/assets.site.serverless.com/blog/kubeless.png"
   },
   {
-    "name": "nuclio",
-    "fileName": "src/logos/nuclio.png",
-    "hash": "099032b5cda5b1b33edac6730939824c077a1202f8d00f2607839c4b55dc9a9f",
-    "url": "https://www.iguazio.com/wp-content/uploads/2017/11/Nuclio_Final-03-1024x470.png"
-  },
-  {
     "name": "platform-serverless-event-based-apex",
     "fileName": "src/logos/platform-serverless-event-based-apex.png",
     "hash": "34da803fd00477f3c0b87aec61fa02b1dd8bb6c98db7b739ecf589be1cd0dfc4",
     "url": "https://www.bram.us/wordpress/wp-content/uploads/2016/04/logo.png"
-  },
-  {
-    "name": "serverless",
-    "fileName": "src/logos/serverless.png",
-    "hash": "285e308aa14ef0528239101a8b6a214d08358c834ad26f386d48b7f2e28d9a85",
-    "url": "https://user-images.githubusercontent.com/2752551/30404912-d5781a00-989d-11e7-8d25-5ebca177326a.png"
-  },
-  {
-    "name": "firebase-blocks",
-    "fileName": "src/logos/firebase-blocks.png",
-    "hash": "8efca6bc8912da984fd7356bc20636a96c2f11cdfca19115030c8685494eb067",
-    "url": "https://www.appcoda.com/wp-content/uploads/2016/11/firebase_logo_shot.png"
-  },
-  {
-    "name": "oracle-application-container-cloud",
-    "fileName": "src/logos/oracle-application-container-cloud.png",
-    "hash": "3d93f05c5493d516251fb885cb7186d596f2cc0d721b62402fb5630f75d4f6ed",
-    "url": "https://docs.oracle.com/en/cloud/paas/app-container-cloud/sp_common/shared-images/cloudgs_appcontainer.png"
   },
   {
     "name": "webtask",
@@ -462,16 +450,16 @@
     "url": "https://cdn-images-1.medium.com/max/698/1*4SkA3yFoWNsuH3PPVCpKvQ.png"
   },
   {
+    "name": "firebase-blocks",
+    "fileName": "src/logos/firebase-blocks.png",
+    "hash": "8efca6bc8912da984fd7356bc20636a96c2f11cdfca19115030c8685494eb067",
+    "url": "https://www.appcoda.com/wp-content/uploads/2016/11/firebase_logo_shot.png"
+  },
+  {
     "name": "open-whisk",
     "fileName": "src/logos/open-whisk.png",
     "hash": "e36fe90a1af5f6b141a9e288081c09bed3a39a2565e8f3d846671fa57eea7803",
     "url": "https://cdn-images-1.medium.com/max/1200/1*4Q3kFLD0dZiwbLAKZJGy8Q.png"
-  },
-  {
-    "name": "stack-point-cloud",
-    "fileName": "src/logos/stack-point-cloud.png",
-    "hash": "2a32fad3f4acab6008362a30b909778e3e4c3b03f58971c2ad24e4accf528f2e",
-    "url": "http://www.sysdigccwfs.com/wp-content/uploads/2016/09/stackpointcloud.png"
   },
   {
     "name": "google-cloud-functions",
@@ -480,16 +468,16 @@
     "url": "https://img.stackshare.io/service/6672/google-cloud-functions.png"
   },
   {
-    "name": "lambda",
-    "fileName": "src/logos/lambda.png",
-    "hash": "bd904bb6f5e8d2d14a101a5126543c50fd694450efe77b1863f8c3faf9a6520f",
-    "url": "https://clouda-assets.s3.amazonaws.com/upload/54d0e409d287c266042be5f5.png"
+    "name": "stack-point-cloud",
+    "fileName": "src/logos/stack-point-cloud.png",
+    "hash": "2a32fad3f4acab6008362a30b909778e3e4c3b03f58971c2ad24e4accf528f2e",
+    "url": "http://www.sysdigccwfs.com/wp-content/uploads/2016/09/stackpointcloud.png"
   },
   {
-    "name": "remind",
-    "fileName": "src/logos/remind.png",
-    "hash": "b260115ece0ee6ddf4ed8e3f0856e865625641c4bc8d7d036370a3eec876b884",
-    "url": "http://www.milfordathleticclub.org/wp-content/uploads/2017/05/remind-logo-1.png"
+    "name": "oracle-application-container-cloud",
+    "fileName": "src/logos/oracle-application-container-cloud.png",
+    "hash": "3d93f05c5493d516251fb885cb7186d596f2cc0d721b62402fb5630f75d4f6ed",
+    "url": "https://docs.oracle.com/en/cloud/paas/app-container-cloud/sp_common/shared-images/cloudgs_appcontainer.png"
   },
   {
     "name": "suse-caas-platform",
@@ -498,10 +486,22 @@
     "url": "https://user-images.githubusercontent.com/5948137/32596616-37fe60b8-c534-11e7-8682-bd9200a6c4d1.png"
   },
   {
+    "name": "open-faas",
+    "fileName": "src/logos/open-faas.png",
+    "hash": "564a9be92a34fb46fc0cdcc9388b144877449b0c20c287cbb167728467454b63",
+    "url": "https://raw.githubusercontent.com/openfaas/media/master/OpenFaaS_logo_stacked_opaque.png"
+  },
+  {
     "name": "supergiant",
     "fileName": "src/logos/supergiant.png",
     "hash": "187a2ba3f99aa8f895e502993110830178a1eba833b283789c056970264b6547",
     "url": "https://supergiant.io/uploads/files/supergiant-logo.png"
+  },
+  {
+    "name": "lambda",
+    "fileName": "src/logos/lambda.png",
+    "hash": "bd904bb6f5e8d2d14a101a5126543c50fd694450efe77b1863f8c3faf9a6520f",
+    "url": "https://clouda-assets.s3.amazonaws.com/upload/54d0e409d287c266042be5f5.png"
   },
   {
     "name": "scalingo",
@@ -510,10 +510,10 @@
     "url": "https://avatars0.githubusercontent.com/u/4868969?s=400&v=4"
   },
   {
-    "name": "open-faas",
-    "fileName": "src/logos/open-faas.png",
-    "hash": "564a9be92a34fb46fc0cdcc9388b144877449b0c20c287cbb167728467454b63",
-    "url": "https://raw.githubusercontent.com/openfaas/media/master/OpenFaaS_logo_stacked_opaque.png"
+    "name": "remind",
+    "fileName": "src/logos/remind.png",
+    "hash": "b260115ece0ee6ddf4ed8e3f0856e865625641c4bc8d7d036370a3eec876b884",
+    "url": "http://www.milfordathleticclub.org/wp-content/uploads/2017/05/remind-logo-1.png"
   },
   {
     "name": "pusher",
@@ -528,88 +528,10 @@
     "url": "https://camo.githubusercontent.com/c57e3786d84c99f21e453c6500d8e0333a2cf6d9/68747470733a2f2f706f727461696e65722e696f2f696d616765732f6c6f676f5f616c742e706e67"
   },
   {
-    "name": "gke",
-    "fileName": "src/logos/gke.png",
+    "name": "google-kubernetes-engine-gke",
+    "fileName": "src/logos/google-kubernetes-engine-gke.png",
     "hash": "28b004f190f86ae4c48b21fd1b93aeb6c72ade2823792bd5d1099ca91eb5432d",
     "url": "https://www.gcppodcast.com/images/post/gke.png"
-  },
-  {
-    "name": "tsuru",
-    "fileName": "src/logos/tsuru.png",
-    "hash": "82dd519bcf0cf37746861c7bfb54c2668b60f5ad7f32771d9857a6e27b454afb",
-    "url": "https://raw.githubusercontent.com/alexcontini/alexcontini.github.io/master/tsura.png?raw=true"
-  },
-  {
-    "name": "container-ship",
-    "fileName": "src/logos/container-ship.png",
-    "hash": "bc2bb590a120067f9b5da58f5655afc59f75f131f65ff979e0684d05ef8603f8",
-    "url": "http://resumator.s3.amazonaws.com/customer_20150721151308_KZ8QDZPO4BOHCKCU/social_icons/20150825133703_containership_logo.png"
-  },
-  {
-    "name": "docker-cloud",
-    "fileName": "src/logos/docker-cloud.png",
-    "hash": "670ce8060d7cb86bbff1f750d443c3319a5173046a5f4e4f1931e4806fbaeb85",
-    "url": "https://www.docker.com/sites/default/files/vertical_large.png"
-  },
-  {
-    "name": "deis",
-    "fileName": "src/logos/deis.png",
-    "hash": "0cbda74b8bf9c1befb25a9c058fb6e4e08b8869cdde7b652894b827b07faae46",
-    "url": "https://camo.githubusercontent.com/fb982d796feea404581bc97876079855682f4639/68747470733a2f2f646569732e636f6d2f696d616765732f646569732d6c6f676f2e706e67"
-  },
-  {
-    "name": "ubuntu",
-    "fileName": "src/logos/ubuntu.png",
-    "hash": "5aa9261ddca7abf2012490a37deac04974259f96d9d28c7a5fe9fdc987f02db3",
-    "url": "http://logo-logos.com/wp-content/uploads/2016/11/Ubuntu_logo_logotype.png"
-  },
-  {
-    "name": "convox",
-    "fileName": "src/logos/convox.png",
-    "hash": "f02fae981a421c9e722a18358755fe4c206d5a38ba12ddc09ecf03eff1de7a67",
-    "url": "https://ulam.io/wp-content/uploads/2017/05/c2-1288x724.png"
-  },
-  {
-    "name": "lightbend",
-    "fileName": "src/logos/lightbend.png",
-    "hash": "aaa390eeff874b24714d087f922c149140ac455b06810204bd2e0a3449b85fc6",
-    "url": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b1/Lightbend_full-color_logo.svg/1280px-Lightbend_full-color_logo.svg.png"
-  },
-  {
-    "name": "container-linux",
-    "fileName": "src/logos/container-linux.png",
-    "hash": "4aa7f28c8aa72ae770fd6aead080f6cf4074361d6eed4cde1053830598e37e46",
-    "url": "https://d7umqicpi7263.cloudfront.net/img/product/0d1e0bd0-eaea-4397-9a3a-c56f861d2a14/f234a5bf-d91a-45d8-abe8-f16744f57a6d.PNG"
-  },
-  {
-    "name": "galactic-fog",
-    "fileName": "src/logos/galactic-fog.png",
-    "hash": "4bb4a643f16136c934974ba546541be80659e17657792328aa23146cf3c67490",
-    "url": "https://media.licdn.com/mpr/mpr/AAEAAQAAAAAAAAYHAAAAJGU0Zjc4OGI2LTYzZmEtNGUxMC05ODE5LTVhMjI0OTM3NmI3ZA.png"
-  },
-  {
-    "name": "exoscale",
-    "fileName": "src/logos/exoscale.png",
-    "hash": "5747cf00aad8ab47dcf9aae71aa6438540e3a077b3b0d52596943455e66e947e",
-    "url": "https://avatars0.githubusercontent.com/u/2023286"
-  },
-  {
-    "name": "moby",
-    "fileName": "src/logos/moby.png",
-    "hash": "f90f491b2e90a78df8466cf8c44003e0e1a33d327967535f944fe2596701cb88",
-    "url": "https://raw.githubusercontent.com/moby/moby/moby/docs/static_files/moby-project-logo.png"
-  },
-  {
-    "name": "hyper",
-    "fileName": "src/logos/hyper.png",
-    "hash": "f790e20ba11f17b67b65e57fecdeb7eb21ac35745cac4da28be6273b7913c215",
-    "url": "https://user-images.githubusercontent.com/1701782/29462984-a8451220-8463-11e7-84a0-739418f027f1.png"
-  },
-  {
-    "name": "j-hipster",
-    "fileName": "src/logos/j-hipster.png",
-    "hash": "814be36c65637bb3b7b201744a2d9b8fbc46e735c7bed0d20c57c2c1757d410c",
-    "url": "https://camo.githubusercontent.com/7e24fa15ba0791ec482d9f20e50a0e4620c3b7e7/687474703a2f2f6a6566667368656574732e6769746875622e696f2f42757a7a776f727468794a6176612f6173736574732f696d672f686970737465722d6c6f676f2e706e67"
   },
   {
     "name": "fission",
@@ -618,22 +540,88 @@
     "url": "https://www.gcppodcast.com/images/post/fission-logo.png"
   },
   {
-    "name": "navops",
-    "fileName": "src/logos/navops.png",
-    "hash": "31b37cef351171ca29c173c75e390e310313b924277318847db54f6192a0b242",
-    "url": "https://pbs.twimg.com/profile_images/821470986713366528/1CYRUBEH_400x400.jpg"
+    "name": "sensu",
+    "fileName": "src/logos/sensu.png",
+    "hash": "b322010b925e5c163284f1b4200d779d0d3d01b0dc07f50b48bbe070d9881233",
+    "url": "https://raw.githubusercontent.com/sensu/sensu-logo/master/sensu1_flat%20white%20bg_png.png"
   },
   {
-    "name": "kontena",
-    "fileName": "src/logos/kontena.png",
-    "hash": "b295c9c6a3e131a02c7c34e336743dfe99ab32fdfabcc8326c07a59ff280f6ac",
-    "url": "https://crunchbase-production-res.cloudinary.com/image/upload/v1464604878/uzdj9miitxbfr56opwju.png"
+    "name": "ubuntu",
+    "fileName": "src/logos/ubuntu.png",
+    "hash": "5aa9261ddca7abf2012490a37deac04974259f96d9d28c7a5fe9fdc987f02db3",
+    "url": "http://logo-logos.com/wp-content/uploads/2016/11/Ubuntu_logo_logotype.png"
   },
   {
-    "name": "heroku",
-    "fileName": "src/logos/heroku.png",
-    "hash": "414f00de41b0942891e35c1023fc39ef30a6145cf61e37db217635acf68e0ea3",
-    "url": "https://cdn.iconscout.com/public/images/icon/free/png-512/heroku-logo-brand-development-tools-33b6da5a9c74ddd9-512x512.png"
+    "name": "deis",
+    "fileName": "src/logos/deis.png",
+    "hash": "0cbda74b8bf9c1befb25a9c058fb6e4e08b8869cdde7b652894b827b07faae46",
+    "url": "https://camo.githubusercontent.com/fb982d796feea404581bc97876079855682f4639/68747470733a2f2f646569732e636f6d2f696d616765732f646569732d6c6f676f2e706e67"
+  },
+  {
+    "name": "container-ship",
+    "fileName": "src/logos/container-ship.png",
+    "hash": "bc2bb590a120067f9b5da58f5655afc59f75f131f65ff979e0684d05ef8603f8",
+    "url": "http://resumator.s3.amazonaws.com/customer_20150721151308_KZ8QDZPO4BOHCKCU/social_icons/20150825133703_containership_logo.png"
+  },
+  {
+    "name": "tsuru",
+    "fileName": "src/logos/tsuru.png",
+    "hash": "82dd519bcf0cf37746861c7bfb54c2668b60f5ad7f32771d9857a6e27b454afb",
+    "url": "https://raw.githubusercontent.com/alexcontini/alexcontini.github.io/master/tsura.png?raw=true"
+  },
+  {
+    "name": "container-linux",
+    "fileName": "src/logos/container-linux.png",
+    "hash": "4aa7f28c8aa72ae770fd6aead080f6cf4074361d6eed4cde1053830598e37e46",
+    "url": "https://d7umqicpi7263.cloudfront.net/img/product/0d1e0bd0-eaea-4397-9a3a-c56f861d2a14/f234a5bf-d91a-45d8-abe8-f16744f57a6d.PNG"
+  },
+  {
+    "name": "docker-cloud",
+    "fileName": "src/logos/docker-cloud.png",
+    "hash": "670ce8060d7cb86bbff1f750d443c3319a5173046a5f4e4f1931e4806fbaeb85",
+    "url": "https://www.docker.com/sites/default/files/vertical_large.png"
+  },
+  {
+    "name": "galactic-fog",
+    "fileName": "src/logos/galactic-fog.png",
+    "hash": "4bb4a643f16136c934974ba546541be80659e17657792328aa23146cf3c67490",
+    "url": "https://media.licdn.com/mpr/mpr/AAEAAQAAAAAAAAYHAAAAJGU0Zjc4OGI2LTYzZmEtNGUxMC05ODE5LTVhMjI0OTM3NmI3ZA.png"
+  },
+  {
+    "name": "lightbend",
+    "fileName": "src/logos/lightbend.png",
+    "hash": "aaa390eeff874b24714d087f922c149140ac455b06810204bd2e0a3449b85fc6",
+    "url": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b1/Lightbend_full-color_logo.svg/1280px-Lightbend_full-color_logo.svg.png"
+  },
+  {
+    "name": "moby",
+    "fileName": "src/logos/moby.png",
+    "hash": "f90f491b2e90a78df8466cf8c44003e0e1a33d327967535f944fe2596701cb88",
+    "url": "https://raw.githubusercontent.com/moby/moby/moby/docs/static_files/moby-project-logo.png"
+  },
+  {
+    "name": "exoscale",
+    "fileName": "src/logos/exoscale.png",
+    "hash": "5747cf00aad8ab47dcf9aae71aa6438540e3a077b3b0d52596943455e66e947e",
+    "url": "https://avatars0.githubusercontent.com/u/2023286"
+  },
+  {
+    "name": "convox",
+    "fileName": "src/logos/convox.png",
+    "hash": "f02fae981a421c9e722a18358755fe4c206d5a38ba12ddc09ecf03eff1de7a67",
+    "url": "https://ulam.io/wp-content/uploads/2017/05/c2-1288x724.png"
+  },
+  {
+    "name": "j-hipster",
+    "fileName": "src/logos/j-hipster.png",
+    "hash": "814be36c65637bb3b7b201744a2d9b8fbc46e735c7bed0d20c57c2c1757d410c",
+    "url": "https://camo.githubusercontent.com/7e24fa15ba0791ec482d9f20e50a0e4620c3b7e7/687474703a2f2f6a6566667368656574732e6769746875622e696f2f42757a7a776f727468794a6176612f6173736574732f696d672f686970737465722d6c6f676f2e706e67"
+  },
+  {
+    "name": "hyper",
+    "fileName": "src/logos/hyper.png",
+    "hash": "f790e20ba11f17b67b65e57fecdeb7eb21ac35745cac4da28be6273b7913c215",
+    "url": "https://user-images.githubusercontent.com/1701782/29462984-a8451220-8463-11e7-84a0-739418f027f1.png"
   },
   {
     "name": "mantl",
@@ -642,10 +630,28 @@
     "url": "http://docs.mantl.io/en/latest/_static/mantl-logo.png"
   },
   {
+    "name": "heroku",
+    "fileName": "src/logos/heroku.png",
+    "hash": "414f00de41b0942891e35c1023fc39ef30a6145cf61e37db217635acf68e0ea3",
+    "url": "https://cdn.iconscout.com/public/images/icon/free/png-512/heroku-logo-brand-development-tools-33b6da5a9c74ddd9-512x512.png"
+  },
+  {
     "name": "mirantis",
     "fileName": "src/logos/mirantis.png",
     "hash": "8223c11375c2441bf4a5c567d48060a24f8f358e191b39dd3432ee58f2a40125",
     "url": "https://www.mirantis.com/wp-content/uploads/2017/01/mirantis-logo-2color-rgb-transparent.png"
+  },
+  {
+    "name": "navops",
+    "fileName": "src/logos/navops.png",
+    "hash": "31b37cef351171ca29c173c75e390e310313b924277318847db54f6192a0b242",
+    "url": "https://pbs.twimg.com/profile_images/821470986713366528/1CYRUBEH_400x400.jpg"
+  },
+  {
+    "name": "gravitational",
+    "fileName": "src/logos/gravitational.png",
+    "hash": "ae287d69e9f6414b2f1c77505bc49f772c31cc15fd517bc4fff115ea8a1f802e",
+    "url": "https://crunchbase-production-res.cloudinary.com/image/upload/v1455650059/gpumyj6nwuvgyslcpnet.png"
   },
   {
     "name": "go-paddle",
@@ -654,10 +660,10 @@
     "url": "https://s3.amazonaws.com/www.bluemeric.com/images/gp-cncf-logo.png"
   },
   {
-    "name": "gravitational",
-    "fileName": "src/logos/gravitational.png",
-    "hash": "ae287d69e9f6414b2f1c77505bc49f772c31cc15fd517bc4fff115ea8a1f802e",
-    "url": "https://crunchbase-production-res.cloudinary.com/image/upload/v1455650059/gpumyj6nwuvgyslcpnet.png"
+    "name": "kontena",
+    "fileName": "src/logos/kontena.png",
+    "hash": "b295c9c6a3e131a02c7c34e336743dfe99ab32fdfabcc8326c07a59ff280f6ac",
+    "url": "https://crunchbase-production-res.cloudinary.com/image/upload/v1464604878/uzdj9miitxbfr56opwju.png"
   },
   {
     "name": "kubermatic",
@@ -696,12 +702,6 @@
     "url": "https://cdn.dribbble.com/users/42583/screenshots/2596559/atomist01.jpg"
   },
   {
-    "name": "nirmata",
-    "fileName": "src/logos/nirmata.png",
-    "hash": "ad4b041c15a05788e87104ee8b983cc5a0d9bef30e78f494bc88f5ed1dec2a1f",
-    "url": "https://www.nirmata.com/wp-content/uploads/2017/11/vertical-color-small-01.png"
-  },
-  {
     "name": "paa-sta",
     "fileName": "src/logos/paa-sta.png",
     "hash": "4cb84b7ac1aa3f7abdabf59b23c5a40ff405811679b0153484735875eb0a26b0",
@@ -714,10 +714,16 @@
     "url": "https://pbs.twimg.com/profile_images/654723996970147841/kBqGPhZe_400x400.png"
   },
   {
-    "name": "sensu",
-    "fileName": "src/logos/sensu.png",
-    "hash": "b322010b925e5c163284f1b4200d779d0d3d01b0dc07f50b48bbe070d9881233",
-    "url": "https://raw.githubusercontent.com/sensu/sensu-logo/master/sensu1_flat%20white%20bg_png.png"
+    "name": "nirmata",
+    "fileName": "src/logos/nirmata.png",
+    "hash": "ad4b041c15a05788e87104ee8b983cc5a0d9bef30e78f494bc88f5ed1dec2a1f",
+    "url": "https://www.nirmata.com/wp-content/uploads/2017/11/vertical-color-small-01.png"
+  },
+  {
+    "name": "platform9",
+    "fileName": "src/logos/platform9.png",
+    "hash": "f87030b045aec88169bf5f654008bd9a65cb328f6d88f80cb757d87b782673ad",
+    "url": "https://hostadvice.com/wp-content/uploads/2017/07/Platform9-LogoStacked.png"
   },
   {
     "name": "platform-sh",
@@ -738,12 +744,6 @@
     "url": "http://kublr.com/logo"
   },
   {
-    "name": "platform9",
-    "fileName": "src/logos/platform9.png",
-    "hash": "f87030b045aec88169bf5f654008bd9a65cb328f6d88f80cb757d87b782673ad",
-    "url": "https://hostadvice.com/wp-content/uploads/2017/07/Platform9-LogoStacked.png"
-  },
-  {
     "name": "apprenda",
     "fileName": "src/logos/apprenda.png",
     "hash": "2f7b01c5f078a71cdb32109d5b9037a00beda10164f112e2ffdc3b0825f88819",
@@ -762,6 +762,12 @@
     "url": "https://crunchbase-production-res.cloudinary.com/image/upload/v1445882939/xhdhlohznhrz18iox373.jpg"
   },
   {
+    "name": "cloud-foundry",
+    "fileName": "src/logos/cloud-foundry.png",
+    "hash": "25eebdf408b94558a87c7ba906d5abc6de7eeb4dc8339e449e8f97d47e40f578",
+    "url": "https://www.cloudfoundry.org/wp-content/uploads/2017/01/CFF_Logo_vertical_RGB.png"
+  },
+  {
     "name": "dc-os",
     "fileName": "src/logos/dc-os.png",
     "hash": "4d169fb7bd0e63ec1a608dc9c2ed6ab272315a6adb426bd6dc603b432a2d9ea1",
@@ -774,40 +780,10 @@
     "url": "https://flynn.io/images/flynn-acaf9509.svg"
   },
   {
-    "name": "open-shift",
-    "fileName": "src/logos/open-shift.png",
-    "hash": "d1747a67322c6ba33d39e253a5bcd1c66991563a72d25d2b08fec4751fdecfad",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/OpenShift-LogoType.svg/2000px-OpenShift-LogoType.svg.png"
-  },
-  {
-    "name": "cloud-foundry",
-    "fileName": "src/logos/cloud-foundry.png",
-    "hash": "25eebdf408b94558a87c7ba906d5abc6de7eeb4dc8339e449e8f97d47e40f578",
-    "url": "https://www.cloudfoundry.org/wp-content/uploads/2017/01/CFF_Logo_vertical_RGB.png"
-  },
-  {
-    "name": "appveyor",
-    "fileName": "src/logos/appveyor.png",
-    "hash": "91345dbb1587122abdd2de9971d17c93a6653e0b1ae5be4753a11b56dbe0f191",
-    "url": "https://dka575ofm4ao0.cloudfront.net/pages-transactional_logos/retina/16896/ApwXsQaJT16xVdsGs7aY"
-  },
-  {
-    "name": "buildkite",
-    "fileName": "src/logos/buildkite.png",
-    "hash": "f224161af272e4bc3ad0f01028438d0285539924b9219eab6af5fb30318f2ca5",
-    "url": "https://dka575ofm4ao0.cloudfront.net/pages-transactional_logos/retina/1292/iukn7svdTeev16OTOu1U"
-  },
-  {
     "name": "tectonic",
     "fileName": "src/logos/tectonic.png",
     "hash": "bea094ae70a449147fa9b0dcc0fe07a24611e119f11ba328ede60839a5a0108b",
     "url": "https://i0.wp.com/containerjournal.com/wp-content/uploads/2015/07/tectonic-bycoreos-color-copy.png"
-  },
-  {
-    "name": "container-ops",
-    "fileName": "src/logos/container-ops.png",
-    "hash": "7f3a5b4c5438350e3761a8dc707649d76190431bacf7f7b89267dd0403562702",
-    "url": "http://image20.it168.com/201706_335x251/2924/5f8a80a4b4fadf88.png"
   },
   {
     "name": "xl-deploy",
@@ -816,10 +792,46 @@
     "url": "https://xebialabs-clients-iglusjax.stackpathdns.com/assets/files/media-kit/xl-deploy.png"
   },
   {
+    "name": "container-ops",
+    "fileName": "src/logos/container-ops.png",
+    "hash": "7f3a5b4c5438350e3761a8dc707649d76190431bacf7f7b89267dd0403562702",
+    "url": "http://image20.it168.com/201706_335x251/2924/5f8a80a4b4fadf88.png"
+  },
+  {
+    "name": "solano-labs",
+    "fileName": "src/logos/solano-labs.png",
+    "hash": "ce7d236a369e25ed1cb1c84aefbcd98bf00321a500fc262fad9907d8b3e16a0a",
+    "url": "https://crunchbase-production-res.cloudinary.com/image/upload/v1397183977/413e297b47ece217d728649d86a687be.png"
+  },
+  {
+    "name": "buildkite",
+    "fileName": "src/logos/buildkite.png",
+    "hash": "f224161af272e4bc3ad0f01028438d0285539924b9219eab6af5fb30318f2ca5",
+    "url": "https://dka575ofm4ao0.cloudfront.net/pages-transactional_logos/retina/1292/iukn7svdTeev16OTOu1U"
+  },
+  {
+    "name": "appveyor",
+    "fileName": "src/logos/appveyor.png",
+    "hash": "91345dbb1587122abdd2de9971d17c93a6653e0b1ae5be4753a11b56dbe0f191",
+    "url": "https://dka575ofm4ao0.cloudfront.net/pages-transactional_logos/retina/16896/ApwXsQaJT16xVdsGs7aY"
+  },
+  {
     "name": "concourse",
     "fileName": "src/logos/concourse.png",
     "hash": "593173ddf7e84d5970021eba8c49b372638619b6ae350e0ffbc8d3b9382726a7",
     "url": "https://avatars3.githubusercontent.com/u/7809479"
+  },
+  {
+    "name": "open-shift",
+    "fileName": "src/logos/open-shift.png",
+    "hash": "d1747a67322c6ba33d39e253a5bcd1c66991563a72d25d2b08fec4751fdecfad",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/OpenShift-LogoType.svg/2000px-OpenShift-LogoType.svg.png"
+  },
+  {
+    "name": "distelli",
+    "fileName": "src/logos/distelli.png",
+    "hash": "5a2a43f945b5d1e59831596b5b7dbfe60990c330b09f7455260e6bc8795ec55d",
+    "url": "https://crunchbase-production-res.cloudinary.com/image/upload/fknsopnhqyctio2vqpuh.png"
   },
   {
     "name": "semaphore",
@@ -834,16 +846,10 @@
     "url": "https://gitlab.com/uploads/-/system/project/avatar/250833/runner_logo.png"
   },
   {
-    "name": "solano-labs",
-    "fileName": "src/logos/solano-labs.png",
-    "hash": "ce7d236a369e25ed1cb1c84aefbcd98bf00321a500fc262fad9907d8b3e16a0a",
-    "url": "https://crunchbase-production-res.cloudinary.com/image/upload/v1397183977/413e297b47ece217d728649d86a687be.png"
-  },
-  {
-    "name": "distelli",
-    "fileName": "src/logos/distelli.png",
-    "hash": "5a2a43f945b5d1e59831596b5b7dbfe60990c330b09f7455260e6bc8795ec55d",
-    "url": "https://crunchbase-production-res.cloudinary.com/image/upload/fknsopnhqyctio2vqpuh.png"
+    "name": "buddy-build",
+    "fileName": "src/logos/buddy-build.png",
+    "hash": "9b07d40fcdf25fd6528df9289256d52a4ca70c3b7c3279b033a045654a84ed54",
+    "url": "https://docs.nowsecure.com/uploads/Buddybuild-integration.png"
   },
   {
     "name": "codefresh",
@@ -852,52 +858,10 @@
     "url": "https://crunchbase-production-res.cloudinary.com/image/upload/v1470258929/hhinf38lttfyrjbz1h3t.jpg"
   },
   {
-    "name": "spinnaker",
-    "fileName": "src/logos/spinnaker.png",
-    "hash": "d8d9343972c3ad9da6040490310a9ce45afe1d9731164397f94fa21ae3becc39",
-    "url": "https://www.gcppodcast.com/images/post/spinnaker.png"
-  },
-  {
-    "name": "buddy-build",
-    "fileName": "src/logos/buddy-build.png",
-    "hash": "9b07d40fcdf25fd6528df9289256d52a4ca70c3b7c3279b033a045654a84ed54",
-    "url": "https://docs.nowsecure.com/uploads/Buddybuild-integration.png"
-  },
-  {
-    "name": "codeship",
-    "fileName": "src/logos/codeship.png",
-    "hash": "a93a487948f56e30977eb613481dd4530d318b908975f5b1b5ff91db22c690ce",
-    "url": "http://binarytemple-deckset-parser.s3.amazonaws.com/elixirpresentation/images/tech-codeship.png"
-  },
-  {
     "name": "shippable",
     "fileName": "src/logos/shippable.png",
     "hash": "dd23cd4bae9e5efc9f3f2ead16ae999b8d27efc481dc622c66c27520f92d02b1",
     "url": "https://d0.awsstatic.com/product-marketing/EC2%20Container%20Service/Partners/1039x272%20shippable%20logo%20rust%20text%20black%20tittle.png"
-  },
-  {
-    "name": "bamboo",
-    "fileName": "src/logos/bamboo.png",
-    "hash": "eafe74ecc3bc7b7a7a13344d399d25d7891a37a74f37d820ca7f88b44b3d3a9a",
-    "url": "https://blog.switchbit.io/content/images/2015/12/bamboo300x200.png"
-  },
-  {
-    "name": "cloudbees",
-    "fileName": "src/logos/cloudbees.png",
-    "hash": "8eef8457945660dc43045d3fd62839f861fa9d371247f9644f2c9446bda39247",
-    "url": "http://www.bluecloudventures.com/wp-content/uploads/2016/11/CloudBees-Logo.png"
-  },
-  {
-    "name": "wercker",
-    "fileName": "src/logos/wercker.png",
-    "hash": "9564c02e15deb0cb428a21e9885104989d29445a09cef10b4e5f32fd20fda800",
-    "url": "https://d2lp05f39ek59n.cloudfront.net/uploads/Wercker_product_img_864555651_wercker.png"
-  },
-  {
-    "name": "drone",
-    "fileName": "src/logos/drone.png",
-    "hash": "2e5b90a5aa3f25f23ac0443754ee33adf7932b49a2780e7321cff35f6f80f8ee",
-    "url": "https://d3d7bn43j8qgcg.cloudfront.net/drone_logo.png"
   },
   {
     "name": "circle-ci",
@@ -906,10 +870,34 @@
     "url": "https://assets.brandfolder.com/otz6qz-87qv1c-ipc6/view.png"
   },
   {
-    "name": "travis",
-    "fileName": "src/logos/travis.png",
-    "hash": "e2f839c66f8d7138d47843053872935cee7c534f3750421f2c19e483fb75f040",
-    "url": "http://dearkumar.com/wp-content/uploads/2016/08/Travis-CI-logo.jpg"
+    "name": "drone",
+    "fileName": "src/logos/drone.png",
+    "hash": "2e5b90a5aa3f25f23ac0443754ee33adf7932b49a2780e7321cff35f6f80f8ee",
+    "url": "https://d3d7bn43j8qgcg.cloudfront.net/drone_logo.png"
+  },
+  {
+    "name": "codeship",
+    "fileName": "src/logos/codeship.png",
+    "hash": "a93a487948f56e30977eb613481dd4530d318b908975f5b1b5ff91db22c690ce",
+    "url": "http://binarytemple-deckset-parser.s3.amazonaws.com/elixirpresentation/images/tech-codeship.png"
+  },
+  {
+    "name": "bamboo",
+    "fileName": "src/logos/bamboo.png",
+    "hash": "eafe74ecc3bc7b7a7a13344d399d25d7891a37a74f37d820ca7f88b44b3d3a9a",
+    "url": "https://blog.switchbit.io/content/images/2015/12/bamboo300x200.png"
+  },
+  {
+    "name": "spinnaker",
+    "fileName": "src/logos/spinnaker.png",
+    "hash": "d8d9343972c3ad9da6040490310a9ce45afe1d9731164397f94fa21ae3becc39",
+    "url": "https://www.gcppodcast.com/images/post/spinnaker.png"
+  },
+  {
+    "name": "wercker",
+    "fileName": "src/logos/wercker.png",
+    "hash": "9564c02e15deb0cb428a21e9885104989d29445a09cef10b4e5f32fd20fda800",
+    "url": "https://d2lp05f39ek59n.cloudfront.net/uploads/Wercker_product_img_864555651_wercker.png"
   },
   {
     "name": "octopus-deploy",
@@ -918,22 +906,10 @@
     "url": "https://i.octopus.com/blog/201605-logo-text-blueblacktransparent-800_rgb-XGYC.png"
   },
   {
-    "name": "open-api",
-    "fileName": "src/logos/open-api.png",
-    "hash": "10b462becd52125b9cd0745f475f95ccf459c215bfd01633832feb720c44733d",
-    "url": "https://www.openapis.org/wp-content/uploads/sites/3/2016/10/OpenAPI_Pantone.png"
-  },
-  {
-    "name": "bitnami",
-    "fileName": "src/logos/bitnami.png",
-    "hash": "8ccbe6528a4426a808da40ff56628f9e412b5512b2b37cc39af170aa1c700dbc",
-    "url": "https://bitnami.com/downloads/logos/bitnami.png"
-  },
-  {
-    "name": "habitat",
-    "fileName": "src/logos/habitat.png",
-    "hash": "61d69d6917eceaa8c77f884419e5e5739f4174fb6f9f8c36472594dadc0a0429",
-    "url": "https://brand.chef.io/images/habitat/logos/logo-1.png"
+    "name": "cloudbees",
+    "fileName": "src/logos/cloudbees.png",
+    "hash": "8eef8457945660dc43045d3fd62839f861fa9d371247f9644f2c9446bda39247",
+    "url": "http://www.bluecloudventures.com/wp-content/uploads/2016/11/CloudBees-Logo.png"
   },
   {
     "name": "brooklyn",
@@ -942,16 +918,22 @@
     "url": "https://pbs.twimg.com/profile_images/536922892156428288/mKCs5vgS_400x400.png"
   },
   {
-    "name": "jenkins",
-    "fileName": "src/logos/jenkins.png",
-    "hash": "328acffeaf576479b8952012bc86798d7171a43708b0dff146d5a20f60f826ba",
-    "url": "https://wiki.jenkins.io/download/attachments/2916393/logo-title.png"
+    "name": "travis",
+    "fileName": "src/logos/travis.png",
+    "hash": "e2f839c66f8d7138d47843053872935cee7c534f3750421f2c19e483fb75f040",
+    "url": "http://dearkumar.com/wp-content/uploads/2016/08/Travis-CI-logo.jpg"
   },
   {
-    "name": "packer",
-    "fileName": "src/logos/packer.png",
-    "hash": "8f0c02850d454439dfe44f7a02a04ad559c1b094645a9268a16c640a3e201ca1",
-    "url": "https://res.cloudinary.com/crunchbase-production/image/upload/v1494031899/ni0ybdyhq4v3cyh9n88z.png"
+    "name": "open-api",
+    "fileName": "src/logos/open-api.png",
+    "hash": "10b462becd52125b9cd0745f475f95ccf459c215bfd01633832feb720c44733d",
+    "url": "https://www.openapis.org/wp-content/uploads/sites/3/2016/10/OpenAPI_Pantone.png"
+  },
+  {
+    "name": "habitat",
+    "fileName": "src/logos/habitat.png",
+    "hash": "61d69d6917eceaa8c77f884419e5e5739f4174fb6f9f8c36472594dadc0a0429",
+    "url": "https://brand.chef.io/images/habitat/logos/logo-1.png"
   },
   {
     "name": "microsoft-visual-studio-team-services",
@@ -960,22 +942,34 @@
     "url": "https://raw.githubusercontent.com/alexcontini/alexcontini.github.io/master/Visual-Studio-Team-Services.png?raw=true"
   },
   {
-    "name": "compose",
-    "fileName": "src/logos/compose.png",
-    "hash": "cc0b52fce18fece12f87b50f8abbdfedfcc98e44e20a8a6248c8b8baf8686b84",
-    "url": "https://www.unixmen.com/wp-content/uploads/2017/06/docker-compose-logo.png"
-  },
-  {
     "name": "kube-virt",
     "fileName": "src/logos/kube-virt.png",
     "hash": "4583f20b84a384435e6752bbda02a37345df25835eb4bbda474d1de8891af97d",
     "url": "https://raw.githubusercontent.com/kubevirt/community/master/logo/kubevirt-pre.png"
   },
   {
-    "name": "git-lab",
-    "fileName": "src/logos/git-lab.png",
-    "hash": "8ea545e0889ff05d99346c6bf562a51ed93176a237661160dcaf62783bbda0fd",
-    "url": "https://www.openshift.com/images/partners/gitlab.png"
+    "name": "bitnami",
+    "fileName": "src/logos/bitnami.png",
+    "hash": "8ccbe6528a4426a808da40ff56628f9e412b5512b2b37cc39af170aa1c700dbc",
+    "url": "https://bitnami.com/downloads/logos/bitnami.png"
+  },
+  {
+    "name": "compose",
+    "fileName": "src/logos/compose.png",
+    "hash": "cc0b52fce18fece12f87b50f8abbdfedfcc98e44e20a8a6248c8b8baf8686b84",
+    "url": "https://www.unixmen.com/wp-content/uploads/2017/06/docker-compose-logo.png"
+  },
+  {
+    "name": "packer",
+    "fileName": "src/logos/packer.png",
+    "hash": "8f0c02850d454439dfe44f7a02a04ad559c1b094645a9268a16c640a3e201ca1",
+    "url": "https://res.cloudinary.com/crunchbase-production/image/upload/v1494031899/ni0ybdyhq4v3cyh9n88z.png"
+  },
+  {
+    "name": "jenkins",
+    "fileName": "src/logos/jenkins.png",
+    "hash": "328acffeaf576479b8952012bc86798d7171a43708b0dff146d5a20f60f826ba",
+    "url": "https://wiki.jenkins.io/download/attachments/2916393/logo-title.png"
   },
   {
     "name": "bib-bucket",
@@ -990,6 +984,18 @@
     "url": "https://i0.wp.com/www.awsomeblog.com/wp-content/uploads/2016/04/kinesis.png"
   },
   {
+    "name": "git-lab",
+    "fileName": "src/logos/git-lab.png",
+    "hash": "8ea545e0889ff05d99346c6bf562a51ed93176a237661160dcaf62783bbda0fd",
+    "url": "https://www.openshift.com/images/partners/gitlab.png"
+  },
+  {
+    "name": "apache-storm",
+    "fileName": "src/logos/apache-storm.png",
+    "hash": "5d275321d5bf123d88381b5c69db693f058e4d260e6fa9d06b84af177b23cf8b",
+    "url": "http://storm.apache.org/images/logo.png"
+  },
+  {
     "name": "nats",
     "fileName": "src/logos/nats.png",
     "hash": "2c3bed2fdc387d30ba09dae4d6067960c40f9a6e0a5ea7f5a74f28c6046c7dd6",
@@ -1002,22 +1008,16 @@
     "url": "https://19ttqs47cfw33zkecq3dz58m-wpengine.netdna-ssl.com/wp-content/uploads/2016/08/StreamSets-logo-small.png"
   },
   {
-    "name": "rabbit-mq",
-    "fileName": "src/logos/rabbit-mq.png",
-    "hash": "a866aa834b3beb5ce3585377a2db7804ed0c2957f64dabc35f66f3e88427a3ee",
-    "url": "https://neoteric.eu/wp-content/uploads/2016/06/rabbitmq_logo.png"
-  },
-  {
-    "name": "apache-storm",
-    "fileName": "src/logos/apache-storm.png",
-    "hash": "5d275321d5bf123d88381b5c69db693f058e4d260e6fa9d06b84af177b23cf8b",
-    "url": "http://storm.apache.org/images/logo.png"
-  },
-  {
     "name": "pulsar",
     "fileName": "src/logos/pulsar.png",
     "hash": "82daf31058cdebcd588cf509eb38290e462c4a17ec0f00638e1bf789f7da6bf8",
     "url": "https://pulsar.incubator.apache.org/img/pulsar.png"
+  },
+  {
+    "name": "rabbit-mq",
+    "fileName": "src/logos/rabbit-mq.png",
+    "hash": "a866aa834b3beb5ce3585377a2db7804ed0c2957f64dabc35f66f3e88427a3ee",
+    "url": "https://neoteric.eu/wp-content/uploads/2016/06/rabbitmq_logo.png"
   },
   {
     "name": "app-definition-and-developement-streaming-apex",
@@ -1044,10 +1044,16 @@
     "url": "https://streaml.io/img/heron-logo.png"
   },
   {
-    "name": "spark-streaming",
-    "fileName": "src/logos/spark-streaming.png",
-    "hash": "fae6c1e3e6baa865efe4b3c545b4fd457310ffbc356ace9bae3965e9e64d39c0",
-    "url": "https://spark.apache.org/images/spark-logo-trademark.png"
+    "name": "scylla",
+    "fileName": "src/logos/scylla.png",
+    "hash": "00157ce404010907d9f4ffc2673ec428910f81018f7472105cf9aeaa258b1b22",
+    "url": "https://www.mikelangelo-project.eu/wp-content/uploads/2015/03/LOGO2.png"
+  },
+  {
+    "name": "git-hub",
+    "fileName": "src/logos/git-hub.png",
+    "hash": "4cc9a8fb3e81de922d5e4ed4424b7cb047ff559d14747c8d2b2fbc73d2e64783",
+    "url": "https://cdn.worldvectorlogo.com/logos/github-2.svg"
   },
   {
     "name": "mem-sql",
@@ -1062,16 +1068,16 @@
     "url": "https://www.vectorlogo.zone/logos/apache_kafka/apache_kafka-card.png"
   },
   {
-    "name": "scylla",
-    "fileName": "src/logos/scylla.png",
-    "hash": "00157ce404010907d9f4ffc2673ec428910f81018f7472105cf9aeaa258b1b22",
-    "url": "https://www.mikelangelo-project.eu/wp-content/uploads/2015/03/LOGO2.png"
+    "name": "spark-streaming",
+    "fileName": "src/logos/spark-streaming.png",
+    "hash": "fae6c1e3e6baa865efe4b3c545b4fd457310ffbc356ace9bae3965e9e64d39c0",
+    "url": "https://spark.apache.org/images/spark-logo-trademark.png"
   },
   {
-    "name": "git-hub",
-    "fileName": "src/logos/git-hub.png",
-    "hash": "4cc9a8fb3e81de922d5e4ed4424b7cb047ff559d14747c8d2b2fbc73d2e64783",
-    "url": "https://cdn.worldvectorlogo.com/logos/github-2.svg"
+    "name": "iguazio",
+    "fileName": "src/logos/iguazio.png",
+    "hash": "e88c426cb1e4ee597cbd75b83ee51362116c66d3914a6fe3addc863a07c1faf7",
+    "url": "http://mms.businesswire.com/media/20170314005560/en/575150/4/Logo_-_updated.jpg"
   },
   {
     "name": "druid",
@@ -1086,28 +1092,16 @@
     "url": "https://www.contegix.com/wp-content/uploads/2015/09/Hadoop.png"
   },
   {
-    "name": "vertica",
-    "fileName": "src/logos/vertica.png",
-    "hash": "95d4bbbbae827278ca261f2d1763a3b6fd7abbd76d61e616b7b1e64229d6cb87",
-    "url": "https://h50003.www5.hpe.com/digmedialib/prodimg/lowres/c05032120.png"
-  },
-  {
-    "name": "qubole",
-    "fileName": "src/logos/qubole.png",
-    "hash": "b5f21cac2b150848463c9d5b921795267fa317ea0d6f1795655b2948eec0a54c",
-    "url": "http://go.qubole.com/rs/510-QPZ-296/images/qubole_logo.png"
-  },
-  {
-    "name": "dataflow",
-    "fileName": "src/logos/dataflow.png",
-    "hash": "48a9caed44a9d245adc50dc13a18fd4356ff4639ccef26adab1965f0d1b1048d",
-    "url": "https://www.gcppodcast.com/images/icons/bigdata/Cloud-Dataflow.png"
-  },
-  {
     "name": "apache-ni-fi",
     "fileName": "src/logos/apache-ni-fi.png",
     "hash": "77a065c1bfa414314953eff6e1e150167dec396c31983b929165573fad44dc46",
     "url": "https://nifi.apache.org/assets/images/apache-nifi-logo.svg"
+  },
+  {
+    "name": "vertica",
+    "fileName": "src/logos/vertica.png",
+    "hash": "95d4bbbbae827278ca261f2d1763a3b6fd7abbd76d61e616b7b1e64229d6cb87",
+    "url": "https://h50003.www5.hpe.com/digmedialib/prodimg/lowres/c05032120.png"
   },
   {
     "name": "carbon-data",
@@ -1116,10 +1110,10 @@
     "url": "https://raw.githubusercontent.com/apache/carbondata/master/docs/images/CarbonData_logo.png"
   },
   {
-    "name": "iguazio",
-    "fileName": "src/logos/iguazio.png",
-    "hash": "e88c426cb1e4ee597cbd75b83ee51362116c66d3914a6fe3addc863a07c1faf7",
-    "url": "http://mms.businesswire.com/media/20170314005560/en/575150/4/Logo_-_updated.jpg"
+    "name": "qubole",
+    "fileName": "src/logos/qubole.png",
+    "hash": "b5f21cac2b150848463c9d5b921795267fa317ea0d6f1795655b2948eec0a54c",
+    "url": "http://go.qubole.com/rs/510-QPZ-296/images/qubole_logo.png"
   },
   {
     "name": "snowflake",
@@ -1140,6 +1134,18 @@
     "url": "http://10minbasics.com/wp-content/uploads/2015/09/rethinkdb_logo1.png"
   },
   {
+    "name": "dataflow",
+    "fileName": "src/logos/dataflow.png",
+    "hash": "48a9caed44a9d245adc50dc13a18fd4356ff4639ccef26adab1965f0d1b1048d",
+    "url": "https://www.gcppodcast.com/images/icons/bigdata/Cloud-Dataflow.png"
+  },
+  {
+    "name": "couchbase",
+    "fileName": "src/logos/couchbase.png",
+    "hash": "85885455cc7b8355e2a6044491116616de331e675cac13c5e8d001821845c794",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Couchbase%2C_Inc._official_logo.png/250px-Couchbase%2C_Inc._official_logo.png"
+  },
+  {
     "name": "cockroach-db",
     "fileName": "src/logos/cockroach-db.png",
     "hash": "0a2a364e5d17128418299491f5e03d5e82f9c020c94ded4da59136e3117bab20",
@@ -1150,18 +1156,6 @@
     "fileName": "src/logos/bigchain-db.png",
     "hash": "1e6b1a82bdbccf5d25244bdebabc583ef35897b72b00e87270eba74135579a3e",
     "url": "https://cdn-images-1.medium.com/max/1600/1*wd82_mNF-M0aNAm3UPLMVw.jpeg"
-  },
-  {
-    "name": "couchbase",
-    "fileName": "src/logos/couchbase.png",
-    "hash": "85885455cc7b8355e2a6044491116616de331e675cac13c5e8d001821845c794",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Couchbase%2C_Inc._official_logo.png/250px-Couchbase%2C_Inc._official_logo.png"
-  },
-  {
-    "name": "cassandra",
-    "fileName": "src/logos/cassandra.png",
-    "hash": "005f9073a052f623294dad70a1a157e1bf35db0dfdeef6a664c28c12926b5ac6",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Cassandra_logo.svg/279px-Cassandra_logo.svg.png"
   },
   {
     "name": "crate-io",
@@ -1176,16 +1170,10 @@
     "url": "https://pbs.twimg.com/profile_images/759150998753378304/GoY-XdnG_400x400.jpg"
   },
   {
-    "name": "redis",
-    "fileName": "src/logos/redis.png",
-    "hash": "f01da33447323db3938cda598f7649eda71267a8285b724d53e6b1b73204d61b",
-    "url": "https://blog.newrelic.com/wp-content/uploads/redis.png"
-  },
-  {
-    "name": "mongo-db",
-    "fileName": "src/logos/mongo-db.png",
-    "hash": "08a56a0f22d60dcead9509f2bda8b11443b75a5a76559dca71e2d20ac563bb28",
-    "url": "https://redash.io/assets/images/temp/Mongo2.png"
+    "name": "cassandra",
+    "fileName": "src/logos/cassandra.png",
+    "hash": "005f9073a052f623294dad70a1a157e1bf35db0dfdeef6a664c28c12926b5ac6",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Cassandra_logo.svg/279px-Cassandra_logo.svg.png"
   },
   {
     "name": "maria-db",
@@ -1194,16 +1182,16 @@
     "url": "https://mariadb.org/wp-content/uploads/2015/10/mariadb-usa-inc.png"
   },
   {
-    "name": "vitess",
-    "fileName": "src/logos/vitess.png",
-    "hash": "b752a4ed52f9c14a46fda07bc012571ab7a08e5624095a3438966b24031a672d",
-    "url": "http://vitess.io/images/vitess_logo_with_border.svg"
+    "name": "sql-server",
+    "fileName": "src/logos/sql-server.png",
+    "hash": "f2d3918dd44e8e0ee69a8224f0594531ff1d162a0bc5d3a0fd6fbbe691e6b8d1",
+    "url": "https://seeklogo.com/images/M/microsoft-sql-server-logo-96AF49E2B3-seeklogo.com.png"
   },
   {
-    "name": "postgres",
-    "fileName": "src/logos/postgres.png",
-    "hash": "2157f26867aae6de434f42cbe1bb0250d9a1fc411bc362af9605c265e3b7a6f7",
-    "url": "https://raw.githubusercontent.com/docker-library/docs/01c12653951b2fe592c1f93a13b4e289ada0e3a1/postgres/logo.png"
+    "name": "redis",
+    "fileName": "src/logos/redis.png",
+    "hash": "f01da33447323db3938cda598f7649eda71267a8285b724d53e6b1b73204d61b",
+    "url": "https://blog.newrelic.com/wp-content/uploads/redis.png"
   },
   {
     "name": "ibm-db2",
@@ -1212,10 +1200,16 @@
     "url": "https://selectstar.io/wp-content/uploads/2017/01/imb-db2.jpg"
   },
   {
-    "name": "sql-server",
-    "fileName": "src/logos/sql-server.png",
-    "hash": "f2d3918dd44e8e0ee69a8224f0594531ff1d162a0bc5d3a0fd6fbbe691e6b8d1",
-    "url": "https://seeklogo.com/images/M/microsoft-sql-server-logo-96AF49E2B3-seeklogo.com.png"
+    "name": "postgres",
+    "fileName": "src/logos/postgres.png",
+    "hash": "2157f26867aae6de434f42cbe1bb0250d9a1fc411bc362af9605c265e3b7a6f7",
+    "url": "https://raw.githubusercontent.com/docker-library/docs/01c12653951b2fe592c1f93a13b4e289ada0e3a1/postgres/logo.png"
+  },
+  {
+    "name": "mongo-db",
+    "fileName": "src/logos/mongo-db.png",
+    "hash": "08a56a0f22d60dcead9509f2bda8b11443b75a5a76559dca71e2d20ac563bb28",
+    "url": "https://redash.io/assets/images/temp/Mongo2.png"
   },
   {
     "name": "oracle",
@@ -1224,22 +1218,40 @@
     "url": "https://doc.octoperf.com/monitoring/create-connection/oracledb/img/oracledb-logo.png"
   },
   {
-    "name": "my-sql",
-    "fileName": "src/logos/my-sql.png",
-    "hash": "2d59bc428916752528280eac03330d712164163e2f3c476409f5c25d8a7c2778",
-    "url": "https://www.mysql.com/common/logos/logo-mysql-170x115.png"
-  },
-  {
     "name": "weave-net",
     "fileName": "src/logos/weave-net.png",
     "hash": "be6a564323270e626aebd80da93b1c5d5a6608d39ecdf14006e868290ceaf6ec",
     "url": "http://events17.linuxfoundation.org/sites/events/files/styles/sponsor_logo_large/public/sponsor-logos/sponsor-weaveworks_1.png"
   },
   {
+    "name": "my-sql",
+    "fileName": "src/logos/my-sql.png",
+    "hash": "2d59bc428916752528280eac03330d712164163e2f3c476409f5c25d8a7c2778",
+    "url": "https://www.mysql.com/common/logos/logo-mysql-170x115.png"
+  },
+  {
     "name": "ti-db",
     "fileName": "src/logos/ti-db.png",
     "hash": "4275b05dbca779d0eff1152d7dbc81d5f17ed96e654489337da9b722ebad97a0",
     "url": "http://static.17ky.net/Images/8164803b2f28415d9b8dff6c2499b1fb.png"
+  },
+  {
+    "name": "open-v-switch",
+    "fileName": "src/logos/open-v-switch.png",
+    "hash": "e6c9986f8ad8f5dc9ae6f5d5942e178b0858146541d96e83b8b8a8eb2fe95ccf",
+    "url": "http://openvswitch.org/assets/vswitch.png"
+  },
+  {
+    "name": "romana",
+    "fileName": "src/logos/romana.png",
+    "hash": "ecebcece19a8586e523dfef85a436500c450d1bc70e698bb5c88d9d0937c714b",
+    "url": "http://romana.io/images/Logo.250.png"
+  },
+  {
+    "name": "vitess",
+    "fileName": "src/logos/vitess.png",
+    "hash": "b752a4ed52f9c14a46fda07bc012571ab7a08e5624095a3438966b24031a672d",
+    "url": "http://vitess.io/images/vitess_logo_with_border.svg"
   },
   {
     "name": "plumgrid",
@@ -1254,42 +1266,6 @@
     "url": "https://1v51ha1y9z9f2hpq55t67p7a3u-wpengine.netdna-ssl.com/wp-content/uploads/2016/12/snaproute-logo-2016.jpg"
   },
   {
-    "name": "flannel",
-    "fileName": "src/logos/flannel.png",
-    "hash": "52808a8a60265af8837b6d576909fd2e5bfeed13e605e12108b6edbf67444f63",
-    "url": "https://raw.githubusercontent.com/coreos/flannel/master/logos/flannel-horizontal-color.png"
-  },
-  {
-    "name": "nuage-networks",
-    "fileName": "src/logos/nuage-networks.png",
-    "hash": "0c05827fdb3f11a88e144544c00ecd1980c1dad4cc7d02504da77305b982bb64",
-    "url": "https://user-images.githubusercontent.com/6019102/29992977-e6e92a02-8f5d-11e7-855b-0bf748f13dd9.png"
-  },
-  {
-    "name": "romana",
-    "fileName": "src/logos/romana.png",
-    "hash": "ecebcece19a8586e523dfef85a436500c450d1bc70e698bb5c88d9d0937c714b",
-    "url": "http://romana.io/images/Logo.250.png"
-  },
-  {
-    "name": "open-v-switch",
-    "fileName": "src/logos/open-v-switch.png",
-    "hash": "e6c9986f8ad8f5dc9ae6f5d5942e178b0858146541d96e83b8b8a8eb2fe95ccf",
-    "url": "http://openvswitch.org/assets/vswitch.png"
-  },
-  {
-    "name": "nsx",
-    "fileName": "src/logos/nsx.png",
-    "hash": "42c2050aa55d8f70bd3cd2d61d719cb09c81855b6eaf141bf5ad6d6ea56a8e77",
-    "url": "http://blogs.vmware.com/kb/files/2015/08/NSX.png"
-  },
-  {
-    "name": "midokura",
-    "fileName": "src/logos/midokura.png",
-    "hash": "b3247bc9cc9b7482efb7a11af6c39ca9ac69d34df24abcd0da29dbe51ea7b49c",
-    "url": "https://pbs.twimg.com/profile_images/585843382515179522/4JjWCoqo_400x400.png"
-  },
-  {
     "name": "cni",
     "fileName": "src/logos/cni.png",
     "hash": "7b6e3d7f1b90e554e0685219a4ad0d5aef303ecd83849198960286f312b3c795",
@@ -1302,10 +1278,28 @@
     "url": "https://www.cloudwatt.com/fr/images/a-propos/opencontrail.png"
   },
   {
-    "name": "cumulus",
-    "fileName": "src/logos/cumulus.png",
-    "hash": "e6c0c3978a610fe18a3380af387593f3cf9023c9723f3874c88436d88848f74b",
-    "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F33979767%2F108689379901%2F1%2Foriginal.jpg?w=800&rect=0%2C100%2C800%2C400&s=51632196d88bcd0efb885370c3f3bd94"
+    "name": "nuage-networks",
+    "fileName": "src/logos/nuage-networks.png",
+    "hash": "0c05827fdb3f11a88e144544c00ecd1980c1dad4cc7d02504da77305b982bb64",
+    "url": "https://user-images.githubusercontent.com/6019102/29992977-e6e92a02-8f5d-11e7-855b-0bf748f13dd9.png"
+  },
+  {
+    "name": "midokura",
+    "fileName": "src/logos/midokura.png",
+    "hash": "b3247bc9cc9b7482efb7a11af6c39ca9ac69d34df24abcd0da29dbe51ea7b49c",
+    "url": "https://pbs.twimg.com/profile_images/585843382515179522/4JjWCoqo_400x400.png"
+  },
+  {
+    "name": "nsx",
+    "fileName": "src/logos/nsx.png",
+    "hash": "42c2050aa55d8f70bd3cd2d61d719cb09c81855b6eaf141bf5ad6d6ea56a8e77",
+    "url": "http://blogs.vmware.com/kb/files/2015/08/NSX.png"
+  },
+  {
+    "name": "flannel",
+    "fileName": "src/logos/flannel.png",
+    "hash": "52808a8a60265af8837b6d576909fd2e5bfeed13e605e12108b6edbf67444f63",
+    "url": "https://raw.githubusercontent.com/coreos/flannel/master/logos/flannel-horizontal-color.png"
   },
   {
     "name": "aviatrix",
@@ -1314,10 +1308,10 @@
     "url": "https://crunchbase-production-res.cloudinary.com/image/upload/v1441953231/rp1toqznrlhfvf8n3iim.png"
   },
   {
-    "name": "intel-clear-containers",
-    "fileName": "src/logos/intel-clear-containers.png",
-    "hash": "b62c3619a2ce08a8dcd72d5077907e6c71c34b07bfe24380fcfa5ad838c5f26e",
-    "url": "https://cdn.thenewstack.io/media/2015/11/ClearContainers.jpg"
+    "name": "big-switch-networks",
+    "fileName": "src/logos/big-switch-networks.png",
+    "hash": "711c167f71f9de0d5093bfd66a445dd524ed7ad9152947d27cd68f8cfcf59918",
+    "url": "https://crunchbase-production-res.cloudinary.com/image/upload/v1397750940/0017b5194e393ff05bf0c77f14dde52a.png"
   },
   {
     "name": "cilium",
@@ -1326,28 +1320,28 @@
     "url": "https://avatars2.githubusercontent.com/u/21054566?s=400&v=4"
   },
   {
+    "name": "cumulus",
+    "fileName": "src/logos/cumulus.png",
+    "hash": "e6c0c3978a610fe18a3380af387593f3cf9023c9723f3874c88436d88848f74b",
+    "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F33979767%2F108689379901%2F1%2Foriginal.jpg?w=800&rect=0%2C100%2C800%2C400&s=51632196d88bcd0efb885370c3f3bd94"
+  },
+  {
+    "name": "canal",
+    "fileName": "src/logos/canal.png",
+    "hash": "7a41588f012bd98e320c8531775d0d434d5fb523185c26c031cbf922c4b6602b",
+    "url": "https://raw.githubusercontent.com/projectcalico/canal/master/logos/canal-logo-type-full-color%20328x184.png"
+  },
+  {
     "name": "contiv",
     "fileName": "src/logos/contiv.png",
     "hash": "ff83536ba3c8bbfe3565092d2870f82cf3f5a2d74540c4c4c0a0970c60658339",
     "url": "https://alln-extcloud-storage.cisco.com/ciscoblogs/Contiv-Icon.png"
   },
   {
-    "name": "cri-o",
-    "fileName": "src/logos/cri-o.png",
-    "hash": "9b06621259ef2c68536ae1d2c69c61beeec06ae85fbe07f2c6d44869849ac6fe",
-    "url": "https://raw.githubusercontent.com/kubernetes-incubator/cri-o/master/logo/crio-logo.png"
-  },
-  {
-    "name": "csi",
-    "fileName": "src/logos/csi.png",
-    "hash": "89fb8979e24514fa4eb0247a990bea284a146a50e407e948a0ca8084492f4e02",
-    "url": "https://raw.githubusercontent.com/container-storage-interface/artwork/master/logo/PNG/01.png"
-  },
-  {
-    "name": "big-switch-networks",
-    "fileName": "src/logos/big-switch-networks.png",
-    "hash": "711c167f71f9de0d5093bfd66a445dd524ed7ad9152947d27cd68f8cfcf59918",
-    "url": "https://crunchbase-production-res.cloudinary.com/image/upload/v1397750940/0017b5194e393ff05bf0c77f14dde52a.png"
+    "name": "intel-clear-containers",
+    "fileName": "src/logos/intel-clear-containers.png",
+    "hash": "b62c3619a2ce08a8dcd72d5077907e6c71c34b07bfe24380fcfa5ad838c5f26e",
+    "url": "https://cdn.thenewstack.io/media/2015/11/ClearContainers.jpg"
   },
   {
     "name": "aporeto",
@@ -1362,10 +1356,16 @@
     "url": "https://www.projectcalico.org/wp-content/uploads/2015/03/Project-Calico-logo-1000px.png"
   },
   {
-    "name": "canal",
-    "fileName": "src/logos/canal.png",
-    "hash": "7a41588f012bd98e320c8531775d0d434d5fb523185c26c031cbf922c4b6602b",
-    "url": "https://raw.githubusercontent.com/projectcalico/canal/master/logos/canal-logo-type-full-color%20328x184.png"
+    "name": "csi",
+    "fileName": "src/logos/csi.png",
+    "hash": "89fb8979e24514fa4eb0247a990bea284a146a50e407e948a0ca8084492f4e02",
+    "url": "https://raw.githubusercontent.com/container-storage-interface/artwork/master/logo/PNG/01.png"
+  },
+  {
+    "name": "cri-o",
+    "fileName": "src/logos/cri-o.png",
+    "hash": "9b06621259ef2c68536ae1d2c69c61beeec06ae85fbe07f2c6d44869849ac6fe",
+    "url": "https://raw.githubusercontent.com/kubernetes-incubator/cri-o/master/logo/crio-logo.png"
   },
   {
     "name": "containerd",
@@ -1380,28 +1380,10 @@
     "url": "http://people.canonical.com/~kirkland/lxd.png"
   },
   {
-    "name": "lxd",
-    "fileName": "src/logos/lxd.png",
-    "hash": "23c1411ce2523c9771fac27f04adcf9e6fc2ade611c9a02c80b8a41427807cf1",
-    "url": "http://people.canonical.com/~kirkland/lxd.png"
-  },
-  {
-    "name": "rkt",
-    "fileName": "src/logos/rkt.png",
-    "hash": "4eddf9a6718c723ad0159ecbb796d7e9d0fbcbc9df46f2589b3fb4c8bc546472",
-    "url": "https://raw.githubusercontent.com/cncf/artwork/master/rkt/stacked/color/rkt-stacked-color.png"
-  },
-  {
     "name": "runc",
     "fileName": "src/logos/runc.png",
     "hash": "10cf983193c8d47c6a3c418bdfe4a2d4f722ad326b69f86fab4db94b4457e3b1",
     "url": "https://www.opencontainers.org/wp-content/uploads/sites/10/2016/10/logo_oci.png"
-  },
-  {
-    "name": "hedvig",
-    "fileName": "src/logos/hedvig.png",
-    "hash": "f0fca6c7bce1618695c85a49c491451ee295a9baf847847f815ddb1077925b89",
-    "url": "https://www.hedviginc.com/hs-fs/hub/448929/file-2664694225-png/Press_Kit/Hedvig-Logo/HedvigVerticalLockup-HighResPNG.png?t=1511209134101"
   },
   {
     "name": "dell-emc",
@@ -1410,10 +1392,22 @@
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Dell_EMC_logo.svg/500px-Dell_EMC_logo.svg.png"
   },
   {
-    "name": "swift",
-    "fileName": "src/logos/swift.png",
-    "hash": "4636e0c8aed46641f25a290ad81b374a235b801ca07fed413ea4b1ae6a3121e7",
-    "url": "http://d.not.mn/OpenStack_Project_Swift_vertical.png"
+    "name": "hedvig",
+    "fileName": "src/logos/hedvig.png",
+    "hash": "f0fca6c7bce1618695c85a49c491451ee295a9baf847847f815ddb1077925b89",
+    "url": "https://www.hedviginc.com/hs-fs/hub/448929/file-2664694225-png/Press_Kit/Hedvig-Logo/HedvigVerticalLockup-HighResPNG.png?t=1511209134101"
+  },
+  {
+    "name": "rkt",
+    "fileName": "src/logos/rkt.png",
+    "hash": "4eddf9a6718c723ad0159ecbb796d7e9d0fbcbc9df46f2589b3fb4c8bc546472",
+    "url": "https://raw.githubusercontent.com/cncf/artwork/master/rkt/stacked/color/rkt-stacked-color.png"
+  },
+  {
+    "name": "lxd",
+    "fileName": "src/logos/lxd.png",
+    "hash": "23c1411ce2523c9771fac27f04adcf9e6fc2ade611c9a02c80b8a41427807cf1",
+    "url": "http://people.canonical.com/~kirkland/lxd.png"
   },
   {
     "name": "open-sds",
@@ -1422,10 +1416,10 @@
     "url": "https://www.opensds.io/wp-content/uploads/sites/18/2016/11/logo_opensds.png"
   },
   {
-    "name": "net-app",
-    "fileName": "src/logos/net-app.png",
-    "hash": "5dac067845cbe8a72694344b2c192a5db9eda18021bd41a66cf100bcec36253a",
-    "url": "https://crunchbase-production-res.cloudinary.com/image/upload/v1415386322/w3lnij5oqhxqvlf5jq5c.jpg"
+    "name": "swift",
+    "fileName": "src/logos/swift.png",
+    "hash": "4636e0c8aed46641f25a290ad81b374a235b801ca07fed413ea4b1ae6a3121e7",
+    "url": "http://d.not.mn/OpenStack_Project_Swift_vertical.png"
   },
   {
     "name": "storage-os",
@@ -1434,16 +1428,10 @@
     "url": "https://pbs.twimg.com/profile_images/847754903300616192/Y9Vt22jx_400x400.jpg"
   },
   {
-    "name": "rex-ray",
-    "fileName": "src/logos/rex-ray.png",
-    "hash": "5e812cf9cab794431109baffea7eeb9f0d50f18411abd25669356df4e4a40865",
-    "url": "https://dev.acquia.com/sites/default/files/blog/grid-rexray.png"
-  },
-  {
-    "name": "smart-os",
-    "fileName": "src/logos/smart-os.png",
-    "hash": "a78051f02070fce4baad0058abd46270895f20284cfa8ff2425768f9e2fe8fae",
-    "url": "https://raw.githubusercontent.com/alexcontini/alexcontini.github.io/master/Smart-OS-logo_new-01.png?raw=true"
+    "name": "net-app",
+    "fileName": "src/logos/net-app.png",
+    "hash": "5dac067845cbe8a72694344b2c192a5db9eda18021bd41a66cf100bcec36253a",
+    "url": "https://crunchbase-production-res.cloudinary.com/image/upload/v1415386322/w3lnij5oqhxqvlf5jq5c.jpg"
   },
   {
     "name": "datera",
@@ -1452,40 +1440,28 @@
     "url": "https://res.cloudinary.com/crunchbase-production/image/upload/v1476997797/y1u1jsyziagiptqdiy3f.jpg"
   },
   {
-    "name": "leo-fs",
-    "fileName": "src/logos/leo-fs.png",
-    "hash": "a7d5385d0ee93e617ce7f2149f06d9c6497ddbcd790d667c2a95cd37dd5837c3",
-    "url": "https://camo.githubusercontent.com/9253d4191c8b4a21e7b2960199c9fee4dab14256/68747470733a2f2f6c656f2d70726f6a6563742e6e65742f6c656f66732f646f63732d6f6c642f5f7374617469632f6c656f66732d6c6f676f2d736d616c6c2e706e67"
-  },
-  {
     "name": "kasten",
     "fileName": "src/logos/kasten.png",
     "hash": "b169f49482641942c153cdfadc8c8a56b9551ba6a9dd36a4583a811f6c2f142f",
     "url": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAx9AAAAJDg5NzcxMTk0LTdhNzItNGI1Ny04OTAzLTA2Zjc1NjNiOTY2ZQ.png"
   },
   {
-    "name": "robin-systems",
-    "fileName": "src/logos/robin-systems.png",
-    "hash": "255bba628ec7c216d66f78a133b1e25600cc0b106e6f9daa4efb7b5c86b16896",
-    "url": "http://cdncap-414f.kxcdn.com/wp-content/uploads/2015/02/Logo_black_V1.png"
+    "name": "smart-os",
+    "fileName": "src/logos/smart-os.png",
+    "hash": "a78051f02070fce4baad0058abd46270895f20284cfa8ff2425768f9e2fe8fae",
+    "url": "https://raw.githubusercontent.com/alexcontini/alexcontini.github.io/master/Smart-OS-logo_new-01.png?raw=true"
   },
   {
-    "name": "springpath",
-    "fileName": "src/logos/springpath.png",
-    "hash": "b9dcde2cc61345af3c80cbcf541294fec86a0d102dbc402c69932b9266a4c447",
-    "url": "https://pbs.twimg.com/profile_images/567878347808452608/S6CzefcW_400x400.png"
+    "name": "leo-fs",
+    "fileName": "src/logos/leo-fs.png",
+    "hash": "a7d5385d0ee93e617ce7f2149f06d9c6497ddbcd790d667c2a95cd37dd5837c3",
+    "url": "https://camo.githubusercontent.com/9253d4191c8b4a21e7b2960199c9fee4dab14256/68747470733a2f2f6c656f2d70726f6a6563742e6e65742f6c656f66732f646f63732d6f6c642f5f7374617469632f6c656f66732d6c6f676f2d736d616c6c2e706e67"
   },
   {
-    "name": "sheepdog",
-    "fileName": "src/logos/sheepdog.png",
-    "hash": "a8230aee055624320750b4863597d01dc5761639d1c1026748b49e9b50ff1562",
-    "url": "https://avatars3.githubusercontent.com/u/4846685"
-  },
-  {
-    "name": "rook",
-    "fileName": "src/logos/rook.png",
-    "hash": "fe2ff7c518d785e6f75d70b9bc8a22ace289cd4091f06f7834969e8c84da92be",
-    "url": "https://raw.githubusercontent.com/rook/rook/master/Documentation/media/logo.png"
+    "name": "rex-ray",
+    "fileName": "src/logos/rex-ray.png",
+    "hash": "5e812cf9cab794431109baffea7eeb9f0d50f18411abd25669356df4e4a40865",
+    "url": "https://dev.acquia.com/sites/default/files/blog/grid-rexray.png"
   },
   {
     "name": "infinit",
@@ -1494,22 +1470,34 @@
     "url": "https://www.infinit.sh/images/logotype.png"
   },
   {
+    "name": "robin-systems",
+    "fileName": "src/logos/robin-systems.png",
+    "hash": "255bba628ec7c216d66f78a133b1e25600cc0b106e6f9daa4efb7b5c86b16896",
+    "url": "http://cdncap-414f.kxcdn.com/wp-content/uploads/2015/02/Logo_black_V1.png"
+  },
+  {
+    "name": "sheepdog",
+    "fileName": "src/logos/sheepdog.png",
+    "hash": "a8230aee055624320750b4863597d01dc5761639d1c1026748b49e9b50ff1562",
+    "url": "https://avatars3.githubusercontent.com/u/4846685"
+  },
+  {
     "name": "diamanti",
     "fileName": "src/logos/diamanti.png",
     "hash": "87ad5dd6b0a9b3a18ff7127ad503e86cb32ac6431fa2800f15e301f07679ecfd",
     "url": "http://events.vmblog.com/images/dockercon/diamanti-logo-600.png"
   },
   {
-    "name": "libstorage",
-    "fileName": "src/logos/libstorage.png",
-    "hash": "42c1f8f241774dcd1c10bc21f686fd7f059151d0e9de6a98cec921bb1b1de2fc",
-    "url": "https://www.storagenewsletter.com/wp-content/uploads/2016/06/EMC_LIBSTORAGE_LOGO.jpg"
+    "name": "springpath",
+    "fileName": "src/logos/springpath.png",
+    "hash": "b9dcde2cc61345af3c80cbcf541294fec86a0d102dbc402c69932b9266a4c447",
+    "url": "https://pbs.twimg.com/profile_images/567878347808452608/S6CzefcW_400x400.png"
   },
   {
-    "name": "pure-storage",
-    "fileName": "src/logos/pure-storage.png",
-    "hash": "0d24938595358a3d01928c5f91e1c5800bcefbf9ce4caf547f6c96423fdc7931",
-    "url": "https://vbrownbag.com/wp-content/uploads/2017/07/Pure-Vertical-Medium-212x300.png"
+    "name": "rook",
+    "fileName": "src/logos/rook.png",
+    "hash": "fe2ff7c518d785e6f75d70b9bc8a22ace289cd4091f06f7834969e8c84da92be",
+    "url": "https://raw.githubusercontent.com/rook/rook/master/Documentation/media/logo.png"
   },
   {
     "name": "open-ebs",
@@ -1518,22 +1506,16 @@
     "url": "https://raw.githubusercontent.com/openebs/chitrakala/master/logo/png/logo-01.png"
   },
   {
-    "name": "project-hatchway",
-    "fileName": "src/logos/project-hatchway.png",
-    "hash": "cdceeb740257c0bb61f4598357c8f27f1796ae26597d71acc566430ff7278f71",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Vmware.svg/1000px-Vmware.svg.png"
-  },
-  {
     "name": "manta",
     "fileName": "src/logos/manta.png",
     "hash": "2eb343dd1b7ef294efed3dc2177a1f52f7bf8dc1fc4bee3dfedfd73f25481228",
     "url": "http://p6.zdassets.com/hc/settings_assets/150338/200244868/L3CnsFFWx4OJFUp2C7uUWA-joyentLogo.png"
   },
   {
-    "name": "portworx",
-    "fileName": "src/logos/portworx.png",
-    "hash": "b5e78d815107170b4fa2c425fdd3e0d89e616cec22f370219b6ccba30afb10b0",
-    "url": "https://portworx.com/wp-content/themes/portworx/images/xportworx-logo.png.pagespeed.ic.0Z487a9F2s.png"
+    "name": "libstorage",
+    "fileName": "src/logos/libstorage.png",
+    "hash": "42c1f8f241774dcd1c10bc21f686fd7f059151d0e9de6a98cec921bb1b1de2fc",
+    "url": "https://www.storagenewsletter.com/wp-content/uploads/2016/06/EMC_LIBSTORAGE_LOGO.jpg"
   },
   {
     "name": "hdfs",
@@ -1548,10 +1530,16 @@
     "url": "http://community.redhat.com/images/branding/logo-gluster.png"
   },
   {
-    "name": "minio",
-    "fileName": "src/logos/minio.png",
-    "hash": "97c16e1517ca8108a7ceb2426c3fb4d07e2b98ca41f9a93f1fe1ae66f2da1298",
-    "url": "https://www.cloudfoundry.org/wp-content/uploads/2017/01/Minio-logo_1_1_.png"
+    "name": "project-hatchway",
+    "fileName": "src/logos/project-hatchway.png",
+    "hash": "cdceeb740257c0bb61f4598357c8f27f1796ae26597d71acc566430ff7278f71",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Vmware.svg/1000px-Vmware.svg.png"
+  },
+  {
+    "name": "pure-storage",
+    "fileName": "src/logos/pure-storage.png",
+    "hash": "0d24938595358a3d01928c5f91e1c5800bcefbf9ce4caf547f6c96423fdc7931",
+    "url": "https://vbrownbag.com/wp-content/uploads/2017/07/Pure-Vertical-Medium-212x300.png"
   },
   {
     "name": "ceph",
@@ -1560,22 +1548,40 @@
     "url": "https://i2.wp.com/ceph.com/wp-content/uploads/2016/07/Ceph_Logo_Stacked_RGB_120411_fa.png"
   },
   {
+    "name": "portworx",
+    "fileName": "src/logos/portworx.png",
+    "hash": "b5e78d815107170b4fa2c425fdd3e0d89e616cec22f370219b6ccba30afb10b0",
+    "url": "https://portworx.com/wp-content/themes/portworx/images/xportworx-logo.png.pagespeed.ic.0Z487a9F2s.png"
+  },
+  {
+    "name": "minio",
+    "fileName": "src/logos/minio.png",
+    "hash": "97c16e1517ca8108a7ceb2426c3fb4d07e2b98ca41f9a93f1fe1ae66f2da1298",
+    "url": "https://www.cloudfoundry.org/wp-content/uploads/2017/01/Minio-logo_1_1_.png"
+  },
+  {
     "name": "spire",
     "fileName": "src/logos/spire.png",
     "hash": "39f00bad1d955d4e8749af20db435ba0b46e8c2ebe38edf5cb0fa03220a2abfe",
     "url": "https://raw.githubusercontent.com/spiffe/spire/master/doc/images/spire_logo.png"
   },
   {
-    "name": "knox",
-    "fileName": "src/logos/knox.png",
-    "hash": "17a07f8e48f40589751b57ff18201fc99a9eae9d7246957fa73960b728dbe378",
-    "url": "https://seeklogo.com/images/P/pinterest-badge-logo-82C89A5E42-seeklogo.com.png"
+    "name": "lyft-confidant",
+    "fileName": "src/logos/lyft-confidant.png",
+    "hash": "004e7b589a47dbff2c90e73397fc6f0fea7e0645b1eb75abe5fcf0a16a4e9941",
+    "url": "./src/hosted_logos/lyft-confidant.png"
   },
   {
     "name": "oracle-policy-automation",
     "fileName": "src/logos/oracle-policy-automation.png",
     "hash": "476ac0353d52a419cdd53d84a1120e5794d8f4e702320a3a0281548fdcdd6f08",
     "url": "https://yt3.ggpht.com/-lHhZ9YacajM/AAAAAAAAAAI/AAAAAAAAAAA/v-C_eNK_oF8/s900-c-k-no-mo-rj-c0xffffff/photo.jpg"
+  },
+  {
+    "name": "knox",
+    "fileName": "src/logos/knox.png",
+    "hash": "17a07f8e48f40589751b57ff18201fc99a9eae9d7246957fa73960b728dbe378",
+    "url": "https://seeklogo.com/images/P/pinterest-badge-logo-82C89A5E42-seeklogo.com.png"
   },
   {
     "name": "keywhiz",
@@ -1590,40 +1596,10 @@
     "url": "https://d7umqicpi7263.cloudfront.net/img/product/1fd6301a-a20f-4c14-9e07-3d0f3c0b37fc/e622e016-ff30-4a92-aadc-f749fa9dca86.png"
   },
   {
-    "name": "lyft-confidant",
-    "fileName": "src/logos/lyft-confidant.png",
-    "hash": "19532ff1385965e406c63663f86671f8a85f0ed911fa9fdf3f56ef1b5538d90e",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Lyft_logo.svg/2000px-Lyft_logo.svg.png"
-  },
-  {
-    "name": "open-scap",
-    "fileName": "src/logos/open-scap.png",
-    "hash": "0706f09831612943767c299301fb9dadf10bdacc54c84d8cff618d522dd2df80",
-    "url": "http://people.redhat.com/swells/ssg_logos/OpenSCAP-Logo/OpenSCAP-Vertical-Color.png"
-  },
-  {
     "name": "sonatype-nexus",
     "fileName": "src/logos/sonatype-nexus.png",
     "hash": "8d41a0f2d5ec9b4e1072016023e7537fddbfd959d16cfa1861cb2355c3e67571",
     "url": "https://user-images.githubusercontent.com/7955995/29498304-ee71d418-85c6-11e7-9f95-e87a4439ed3c.png"
-  },
-  {
-    "name": "clair",
-    "fileName": "src/logos/clair.png",
-    "hash": "6ab0196d2fead12e1e07679a4f737c114de47dda09b58cb59085eef5e101a016",
-    "url": "http://zdnet2.cbsistatic.com/hub/i/r/2016/03/18/c9a09a0a-1fcc-48c8-810b-cb1c0379a562/resize/770xauto/cc3c78f58099a9569a899e05ceabba3f/coreos-clair.jpg"
-  },
-  {
-    "name": "the-update-framework-tuf",
-    "fileName": "src/logos/the-update-framework-tuf.png",
-    "hash": "041562bd4146a46e890e21fbd8bfee5b35da67045b33bfc4343fe0f950184c21",
-    "url": "https://raw.githubusercontent.com/cncf/artwork/master/tuf/stacked/color/tuf-stacked-color.png"
-  },
-  {
-    "name": "black-duck",
-    "fileName": "src/logos/black-duck.png",
-    "hash": "96e2d27b6d063f506f3d8c6876782fe2b2b7e531cd354087213fb00d1db8d231",
-    "url": "http://www.southeastlinuxfest.org/wp-content/uploads/2017/05/BlackDuck.png"
   },
   {
     "name": "notary",
@@ -1632,22 +1608,22 @@
     "url": "https://raw.githubusercontent.com/cncf/artwork/master/notary/stacked/color/notary-stacked-color.png"
   },
   {
-    "name": "spiffe",
-    "fileName": "src/logos/spiffe.png",
-    "hash": "2d499c5e5deffcd561e52d87736eb00258ee1cf2204d496f4eac4c31274cf513",
-    "url": "https://spiffe.io/img/spiffe-logo-color-basic.svg"
+    "name": "the-update-framework-tuf",
+    "fileName": "src/logos/the-update-framework-tuf.png",
+    "hash": "041562bd4146a46e890e21fbd8bfee5b35da67045b33bfc4343fe0f950184c21",
+    "url": "https://raw.githubusercontent.com/cncf/artwork/master/tuf/stacked/color/tuf-stacked-color.png"
   },
   {
-    "name": "hashicorp-vault",
-    "fileName": "src/logos/hashicorp-vault.png",
-    "hash": "832b704d5abd53fbff6873372bf0f304a598804e22c5a96e50a890b1d92bbeca",
-    "url": "https://hyzxph.media.zestyio.com/blog-vault-list.svg"
+    "name": "clair",
+    "fileName": "src/logos/clair.png",
+    "hash": "6ab0196d2fead12e1e07679a4f737c114de47dda09b58cb59085eef5e101a016",
+    "url": "http://zdnet2.cbsistatic.com/hub/i/r/2016/03/18/c9a09a0a-1fcc-48c8-810b-cb1c0379a562/resize/770xauto/cc3c78f58099a9569a899e05ceabba3f/coreos-clair.jpg"
   },
   {
-    "name": "aqua",
-    "fileName": "src/logos/aqua.png",
-    "hash": "fd602ce9e70e5ad58590de10135a42692a1764791d8eaf547fd06799423f2c87",
-    "url": "https://www.aquasec.com/wp-content/uploads/2016/05/aqua_logo_fullcolor.png"
+    "name": "black-duck",
+    "fileName": "src/logos/black-duck.png",
+    "hash": "96e2d27b6d063f506f3d8c6876782fe2b2b7e531cd354087213fb00d1db8d231",
+    "url": "http://www.southeastlinuxfest.org/wp-content/uploads/2017/05/BlackDuck.png"
   },
   {
     "name": "neu-vector",
@@ -1656,10 +1632,28 @@
     "url": "https://d0.awsstatic.com/logos/partners/neuvector_logo_600x400.png"
   },
   {
+    "name": "spiffe",
+    "fileName": "src/logos/spiffe.png",
+    "hash": "2d499c5e5deffcd561e52d87736eb00258ee1cf2204d496f4eac4c31274cf513",
+    "url": "https://spiffe.io/img/spiffe-logo-color-basic.svg"
+  },
+  {
+    "name": "aqua",
+    "fileName": "src/logos/aqua.png",
+    "hash": "fd602ce9e70e5ad58590de10135a42692a1764791d8eaf547fd06799423f2c87",
+    "url": "https://www.aquasec.com/wp-content/uploads/2016/05/aqua_logo_fullcolor.png"
+  },
+  {
     "name": "anchore",
     "fileName": "src/logos/anchore.png",
     "hash": "eaeababe5096e27ee21d20ac1fa0d0044fb72f780ebcb8b4fd108d090b134d1f",
     "url": "http://www.marketwire.com/library/MwGo/2016/4/5/11G092078/Anchore_RGB-14b85fa3801f8889be493bbb8e62e356.jpg"
+  },
+  {
+    "name": "open-scap",
+    "fileName": "src/logos/open-scap.png",
+    "hash": "0706f09831612943767c299301fb9dadf10bdacc54c84d8cff618d522dd2df80",
+    "url": "http://people.redhat.com/swells/ssg_logos/OpenSCAP-Logo/OpenSCAP-Vertical-Color.png"
   },
   {
     "name": "rundeck",
@@ -1674,10 +1668,10 @@
     "url": "https://crunchbase-production-res.cloudinary.com/image/upload/ddd2130f2a69731ce90ebf4fc205866f.jpg"
   },
   {
-    "name": "portus",
-    "fileName": "src/logos/portus.png",
-    "hash": "9e41d91720d38e53650ea7743886958d3d4ad47f9d4ce755fc7bee42cce28fa0",
-    "url": "https://raw.githubusercontent.com/SUSE/Portus/master/public/favicon/android-chrome-192x192.png"
+    "name": "hashicorp-vault",
+    "fileName": "src/logos/hashicorp-vault.png",
+    "hash": "832b704d5abd53fbff6873372bf0f304a598804e22c5a96e50a890b1d92bbeca",
+    "url": "https://hyzxph.media.zestyio.com/blog-vault-list.svg"
   },
   {
     "name": "cf-engine",
@@ -1690,6 +1684,12 @@
     "fileName": "src/logos/chef.png",
     "hash": "210bbfbfaca0d2721ee75e6dc8f6f8a76a9083c596acde95d8fd885bf571ff15",
     "url": "https://crunchbase-production-res.cloudinary.com/image/upload/v1397202169/79e96225d5d71f5e6d8ef247a5372278.png"
+  },
+  {
+    "name": "portus",
+    "fileName": "src/logos/portus.png",
+    "hash": "9e41d91720d38e53650ea7743886958d3d4ad47f9d4ce755fc7bee42cce28fa0",
+    "url": "https://raw.githubusercontent.com/SUSE/Portus/master/public/favicon/android-chrome-192x192.png"
   },
   {
     "name": "puppet",
@@ -1716,40 +1716,10 @@
     "url": "http://blog.shippable.com/hs-fs/hubfs/Blog_images/Amazon_ECR_icon.png"
   },
   {
-    "name": "manage-iq",
-    "fileName": "src/logos/manage-iq.png",
-    "hash": "263a8258ce317af23c6ef29d3996909c1334d1c0149a5f5c6c8745a845bd5879",
-    "url": "https://psachin.github.io/images/miq-add-disk/manageiq-logo-standard-vertical.png"
-  },
-  {
     "name": "ansible",
     "fileName": "src/logos/ansible.png",
     "hash": "6145bb733fdf9b3f407394bb05f05b66f75bc3646a3ab46c9173e5864bd7196a",
     "url": "https://www.installvirtual.com/wp-content/uploads/2016/03/ansible_logo_850x400-300x169.png"
-  },
-  {
-    "name": "artifactory",
-    "fileName": "src/logos/artifactory.png",
-    "hash": "a499acf56e859e9f29e540ca2dc6512cec9512671425a22c88e9a1942970e8ea",
-    "url": "http://www.jfrogchina.com/wp-content/uploads/2015/09/Artifactory_HEX1.png"
-  },
-  {
-    "name": "atomic",
-    "fileName": "src/logos/atomic.png",
-    "hash": "956e3c55ce0407ddab9b3ef5d15bd8daf113b053f368cbbfba6f89f81b28153a",
-    "url": "https://community.redhat.com/images/branding/logo-atomic.png"
-  },
-  {
-    "name": "juju",
-    "fileName": "src/logos/juju.png",
-    "hash": "dc833bb8320adde3e061d8a41873a9e95a1dee63672da929546ad50b27160de9",
-    "url": "https://design.canonical.com/wp-content/uploads/2011/10/juju-464x252.png"
-  },
-  {
-    "name": "quay",
-    "fileName": "src/logos/quay.png",
-    "hash": "46d7ba96ebb49ac8bc3d34183bf600729a74d1f30ca11ebc8696a4db9e0f1ed7",
-    "url": "https://quay.io/static/img/quay_preview.png"
   },
   {
     "name": "harbor",
@@ -1758,16 +1728,46 @@
     "url": "https://vmware.github.io/harbor/images/harbor.png"
   },
   {
+    "name": "atomic",
+    "fileName": "src/logos/atomic.png",
+    "hash": "956e3c55ce0407ddab9b3ef5d15bd8daf113b053f368cbbfba6f89f81b28153a",
+    "url": "https://community.redhat.com/images/branding/logo-atomic.png"
+  },
+  {
     "name": "azure-registry",
     "fileName": "src/logos/azure-registry.png",
     "hash": "a836d1ddc8cbd8c944fd92963131f4feea6a5a1e83e218b662ca83a3092c0553",
     "url": "https://azure.microsoft.com/svghandler/container-registry/?width=600&height=315"
   },
   {
-    "name": "cloud-coreo",
-    "fileName": "src/logos/cloud-coreo.png",
-    "hash": "1ed5ea13c365043a73fc5abf65f9156ef81edfce66a8ed01560eab61164d3780",
-    "url": "http://kb.cloudcoreo.com/images/company_logo.png"
+    "name": "artifactory",
+    "fileName": "src/logos/artifactory.png",
+    "hash": "a499acf56e859e9f29e540ca2dc6512cec9512671425a22c88e9a1942970e8ea",
+    "url": "http://www.jfrogchina.com/wp-content/uploads/2015/09/Artifactory_HEX1.png"
+  },
+  {
+    "name": "manage-iq",
+    "fileName": "src/logos/manage-iq.png",
+    "hash": "263a8258ce317af23c6ef29d3996909c1334d1c0149a5f5c6c8745a845bd5879",
+    "url": "https://psachin.github.io/images/miq-add-disk/manageiq-logo-standard-vertical.png"
+  },
+  {
+    "name": "quay",
+    "fileName": "src/logos/quay.png",
+    "hash": "46d7ba96ebb49ac8bc3d34183bf600729a74d1f30ca11ebc8696a4db9e0f1ed7",
+    "url": "https://quay.io/static/img/quay_preview.png"
+  },
+  {
+    "name": "juju",
+    "fileName": "src/logos/juju.png",
+    "hash": "dc833bb8320adde3e061d8a41873a9e95a1dee63672da929546ad50b27160de9",
+    "url": "https://design.canonical.com/wp-content/uploads/2011/10/juju-464x252.png"
+  },
+  {
+    "name": "helm",
+    "fileName": "src/logos/helm.png",
+    "hash": "8621c1d852a17059e1bc4b59bd592752ce06573a33803ede1264627c129aaef4",
+    "url": "https://datamountaineer.com/wp-content/uploads/2016/09/helm.png"
   },
   {
     "name": "cloud-formation",
@@ -1776,22 +1776,16 @@
     "url": "https://media.licdn.com/mpr/mpr/AAEAAQAAAAAAAAi8AAAAJDg0Y2JmM2U2LTc0ODYtNGY5Ni04YzQxLTdmNmM4MjczNDMxMQ.png"
   },
   {
-    "name": "digital-rebar",
-    "fileName": "src/logos/digital-rebar.png",
-    "hash": "687413a90b3093f76f6d68e16261eaccb444fc6db80ff19a82c9fe432d1cc89e",
-    "url": "http://rebar.digital/logo.png"
+    "name": "cloud-coreo",
+    "fileName": "src/logos/cloud-coreo.png",
+    "hash": "1ed5ea13c365043a73fc5abf65f9156ef81edfce66a8ed01560eab61164d3780",
+    "url": "http://kb.cloudcoreo.com/images/company_logo.png"
   },
   {
     "name": "infrakit",
     "fileName": "src/logos/infrakit.png",
     "hash": "66de55a585a7f42fc78b3f84e7144e94ad07a0b7fcd9aaf66b3a142f89a1c02f",
     "url": "https://raw.githubusercontent.com/docker-library/docs/471fa6e4cb58062ccbf91afc111980f9c7004981/swarm/logo.png"
-  },
-  {
-    "name": "helm",
-    "fileName": "src/logos/helm.png",
-    "hash": "8621c1d852a17059e1bc4b59bd592752ce06573a33803ede1264627c129aaef4",
-    "url": "https://datamountaineer.com/wp-content/uploads/2016/09/helm.png"
   },
   {
     "name": "bosh",
@@ -1806,6 +1800,12 @@
     "url": "https://access.redhat.com/sites/default/files/logo-blue_web__grey_0.png"
   },
   {
+    "name": "digital-rebar",
+    "fileName": "src/logos/digital-rebar.png",
+    "hash": "687413a90b3093f76f6d68e16261eaccb444fc6db80ff19a82c9fe432d1cc89e",
+    "url": "http://rebar.digital/logo.png"
+  },
+  {
     "name": "terraform",
     "fileName": "src/logos/terraform.png",
     "hash": "3d65de80d7c07905945d930b8ba0e34e46eed0c5b4063ea55b96d005d6ed069b",
@@ -1816,36 +1816,6 @@
     "fileName": "src/logos/docker-registry.png",
     "hash": "91c524deffc3096915bf9dad2e201eaec6f06c78fe18f7fd7ac591d0f77e4879",
     "url": "https://blog.docker.com/media/2015/11/logo-title-final-registry-2.png"
-  },
-  {
-    "name": "v-mware",
-    "fileName": "src/logos/v-mware.png",
-    "hash": "2c760df8c2264f6cc7e9b15b908213b72a395c3fe22ca5cf1c85f633477f1d2d",
-    "url": "https://regmedia.co.uk/2015/02/02/vmware_cloud_logo.jpg"
-  },
-  {
-    "name": "tencent-cloud",
-    "fileName": "src/logos/tencent-cloud.png",
-    "hash": "aecd05336a8a3532924ff369414f2ba6e3dc9e1add3ba903953b9fc278b36e94",
-    "url": "https://pbs.twimg.com/profile_images/852439695199846400/OqpOmsZ0_400x400.jpg"
-  },
-  {
-    "name": "joyent",
-    "fileName": "src/logos/joyent.png",
-    "hash": "0502e497a4b722973770ccf6e74e9d3ec1ea0583d3135b65f79b749f4aa77b79",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Joyent-logo.png"
-  },
-  {
-    "name": "open-stack",
-    "fileName": "src/logos/open-stack.png",
-    "hash": "6fdb51dce920e19d387cccc309c9792b67d98de625c8b326a14417161944bc71",
-    "url": "https://www.openstack.org/assets/openstack-logo/2016R/OpenStack-Logo-Horizontal.png"
-  },
-  {
-    "name": "scaleway",
-    "fileName": "src/logos/scaleway.png",
-    "hash": "3ede756734a2d51c2efc430415be13c7302114f4593ba51dc9cc619fd1805880",
-    "url": "https://blog.online.net/content/images/2015/04/scaleway_02-1.png"
   },
   {
     "name": "foreman",
@@ -1866,22 +1836,46 @@
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Huawei-optimized.svg/300px-Huawei-optimized.svg.png"
   },
   {
-    "name": "kubicorn",
-    "fileName": "src/logos/kubicorn.png",
-    "hash": "960c6dc606a1a2d46b5faf0270b5c5654f7b5ec05c3408d48eb0f25c27b697e8",
-    "url": "https://raw.githubusercontent.com/kris-nova/kubicorn/master/docs/img/kubicorn-trans.png"
+    "name": "v-mware",
+    "fileName": "src/logos/v-mware.png",
+    "hash": "2c760df8c2264f6cc7e9b15b908213b72a395c3fe22ca5cf1c85f633477f1d2d",
+    "url": "https://regmedia.co.uk/2015/02/02/vmware_cloud_logo.jpg"
   },
   {
-    "name": "fujitsu-k5",
-    "fileName": "src/logos/fujitsu-k5.png",
-    "hash": "181560847f4ad7bef4481fae83a85b0df0641f4f03072d7d20f130f882b478e9",
-    "url": "http://www.fujitsu.com/us/Images/fujitsu-red-jpg-rgb_tcm127-1146712.jpg"
+    "name": "open-stack",
+    "fileName": "src/logos/open-stack.png",
+    "hash": "6fdb51dce920e19d387cccc309c9792b67d98de625c8b326a14417161944bc71",
+    "url": "https://www.openstack.org/assets/openstack-logo/2016R/OpenStack-Logo-Horizontal.png"
+  },
+  {
+    "name": "joyent",
+    "fileName": "src/logos/joyent.png",
+    "hash": "0502e497a4b722973770ccf6e74e9d3ec1ea0583d3135b65f79b749f4aa77b79",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Joyent-logo.png"
+  },
+  {
+    "name": "tencent-cloud",
+    "fileName": "src/logos/tencent-cloud.png",
+    "hash": "aecd05336a8a3532924ff369414f2ba6e3dc9e1add3ba903953b9fc278b36e94",
+    "url": "https://pbs.twimg.com/profile_images/852439695199846400/OqpOmsZ0_400x400.jpg"
+  },
+  {
+    "name": "scaleway",
+    "fileName": "src/logos/scaleway.png",
+    "hash": "3ede756734a2d51c2efc430415be13c7302114f4593ba51dc9cc619fd1805880",
+    "url": "https://blog.online.net/content/images/2015/04/scaleway_02-1.png"
   },
   {
     "name": "alibaba-cloud",
     "fileName": "src/logos/alibaba-cloud.png",
     "hash": "efc338e79381f0b282cffc6ce8455620146a25dc4c9e26b11b7c439a3118712b",
     "url": "https://seeklogo.com/images/A/alibaba-cloud-logo-898D58C1CE-seeklogo.com.png"
+  },
+  {
+    "name": "fujitsu-k5",
+    "fileName": "src/logos/fujitsu-k5.png",
+    "hash": "181560847f4ad7bef4481fae83a85b0df0641f4f03072d7d20f130f882b478e9",
+    "url": "http://www.fujitsu.com/us/Images/fujitsu-red-jpg-rgb_tcm127-1146712.jpg"
   },
   {
     "name": "oracle-cloud",
@@ -1892,44 +1886,20 @@
   {
     "name": "digital-ocean",
     "fileName": "src/logos/digital-ocean.png",
-    "hash": "359adec095109bc69b977c3134d216cab29c020e01c3c56b62ae6452faa56f6e",
+    "hash": "9d8804ba260a93d7e9cc62efd7e1166560ce302d3b4fedc4f925b96ced0fe7d8",
     "url": "https://upload.wikimedia.org/wikipedia/en/thumb/f/ff/DigitalOcean_logo.svg/1024px-DigitalOcean_logo.svg.png"
   },
   {
-    "name": "aws",
-    "fileName": "src/logos/aws.png",
-    "hash": "a093748e237546d07c96b91a122dd1f965125c4395d306af85ca1bceb4789321",
-    "url": "https://www.cncf.io/wp-content/uploads/2017/08/logo_AWS-300x184.png"
-  },
-  {
-    "name": "backplane",
-    "fileName": "src/logos/backplane.png",
-    "hash": "b65ed05c301724d054025ad3986e1ef6d5eae04c2e8dd9702a6fc700357e7cf9",
-    "url": "http://www.backplane.io/static/media/images/backplane.png"
-  },
-  {
-    "name": "ibm-cloud",
-    "fileName": "src/logos/ibm-cloud.png",
-    "hash": "43faa262321e52be221332544d45550aa23dcd6f1e2f80b305df4102f13315f4",
-    "url": "https://login.ng.bluemix.net/UAALoginServerWAR/logo_bluemix_light.svg"
-  },
-  {
-    "name": "packet",
-    "fileName": "src/logos/packet.png",
-    "hash": "72f0b0e550be9a6e61361a9230387a8ad7360388100f80d9bc06d8e76e783b78",
-    "url": "https://user-images.githubusercontent.com/7989673/29498525-38a33f36-85cc-11e7-938d-ef6f10ba6fb3.png"
+    "name": "google-cloud",
+    "fileName": "src/logos/google-cloud.png",
+    "hash": "d640bc081060d125f8b82b62f93e5480ea53348cdbf852c8d00fc71aee13e14b",
+    "url": "https://www.google.com/cloud/assets/press/Google_Cloud_Logo.png"
   },
   {
     "name": "zuul",
     "fileName": "src/logos/zuul.png",
-    "hash": "218bc2b47bb718e6c65206f46f0c9791edcfdf5ccff6e6abcecb7637be7cf33b",
-    "url": "http://www.stickpng.com/assets/images/580b57fcd9996e24bc43c529.png"
-  },
-  {
-    "name": "f5",
-    "fileName": "src/logos/f5.png",
-    "hash": "e17dae4385c621cc645fc691ab2b843b22be041b43826a8cb8c3c373484c94bb",
-    "url": "https://dmcdn.f5.com/Portals/1/Images/F5/Logos/f5-fullcolor-lg.jpg"
+    "hash": "121135debb5f7bcfe0c05846602b41b53722be601193e199cf3c65b0b1bfe454",
+    "url": "./src/hosted_logos/netflix-zuul.png"
   },
   {
     "name": "azure-cloud-services",
@@ -1938,28 +1908,34 @@
     "url": "https://www.cncf.io/wp-content/uploads/2017/07/Azure_logo-300x184.png"
   },
   {
+    "name": "aws",
+    "fileName": "src/logos/aws.png",
+    "hash": "a093748e237546d07c96b91a122dd1f965125c4395d306af85ca1bceb4789321",
+    "url": "https://www.cncf.io/wp-content/uploads/2017/08/logo_AWS-300x184.png"
+  },
+  {
     "name": "ribbon",
     "fileName": "src/logos/ribbon.png",
-    "hash": "218bc2b47bb718e6c65206f46f0c9791edcfdf5ccff6e6abcecb7637be7cf33b",
-    "url": "http://www.stickpng.com/assets/images/580b57fcd9996e24bc43c529.png"
+    "hash": "7368b6c0389f48bab191fdcf0efafcbe44fa621c580ab833d3194d3ce69dade0",
+    "url": "./src/hosted_logos/netflix-ribbon.png"
   },
   {
-    "name": "oss",
-    "fileName": "src/logos/oss.png",
-    "hash": "1d94249ee630db3140743601b62800fad6589401b3f0da57b40d82fd9566ca7d",
-    "url": "https://avatars3.githubusercontent.com/u/913567"
+    "name": "packet",
+    "fileName": "src/logos/packet.png",
+    "hash": "72f0b0e550be9a6e61361a9230387a8ad7360388100f80d9bc06d8e76e783b78",
+    "url": "https://user-images.githubusercontent.com/7989673/29498525-38a33f36-85cc-11e7-938d-ef6f10ba6fb3.png"
   },
   {
-    "name": "hystrix",
-    "fileName": "src/logos/hystrix.png",
-    "hash": "c2ec8d16a7cf32f3ac507e3abb6a50ecae725ee4816b1322b885e4a52234e4db",
-    "url": "https://camo.githubusercontent.com/e871b5d002a9699e7a2d9fa0178af5c72f0743e0/68747470733a2f2f6e6574666c69782e6769746875622e636f6d2f487973747269782f696d616765732f687973747269782d6c6f676f2d7461676c696e652d3835302e706e67"
+    "name": "backplane",
+    "fileName": "src/logos/backplane.png",
+    "hash": "b65ed05c301724d054025ad3986e1ef6d5eae04c2e8dd9702a6fc700357e7cf9",
+    "url": "http://www.backplane.io/static/media/images/backplane.png"
   },
   {
-    "name": "kong",
-    "fileName": "src/logos/kong.png",
-    "hash": "d7e32c61908d6b6e6cdbee1e7cf47674185ecb3e390e4a7ec5fb66e81348b04b",
-    "url": "https://cdn-ssl-devio-img.classmethod.jp/wp-content/uploads/2015/06/kong.png"
+    "name": "f5",
+    "fileName": "src/logos/f5.png",
+    "hash": "e17dae4385c621cc645fc691ab2b843b22be041b43826a8cb8c3c373484c94bb",
+    "url": "https://dmcdn.f5.com/Portals/1/Images/F5/Logos/f5-fullcolor-lg.jpg"
   },
   {
     "name": "weave-flux",
@@ -1968,10 +1944,16 @@
     "url": "http://events17.linuxfoundation.org/sites/events/files/styles/sponsor_logo_large/public/sponsor-logos/sponsor-weaveworks_1.png"
   },
   {
-    "name": "google-cloud-platform",
-    "fileName": "src/logos/google-cloud-platform.png",
-    "hash": "62c2342e8e62b79c0107a2ebddb35c8af580627294cccae940b1c9aea601c631",
-    "url": "http://www.averesystems.com/cmsFiles/relatedImages/logo_lockup_cloud_platform_icon_vertical.png"
+    "name": "ibm-cloud",
+    "fileName": "src/logos/ibm-cloud.png",
+    "hash": "43faa262321e52be221332544d45550aa23dcd6f1e2f80b305df4102f13315f4",
+    "url": "https://login.ng.bluemix.net/UAALoginServerWAR/logo_bluemix_light.svg"
+  },
+  {
+    "name": "oss",
+    "fileName": "src/logos/oss.png",
+    "hash": "1d94249ee630db3140743601b62800fad6589401b3f0da57b40d82fd9566ca7d",
+    "url": "https://avatars3.githubusercontent.com/u/913567"
   },
   {
     "name": "vamp",
@@ -1980,16 +1962,16 @@
     "url": "https://pbs.twimg.com/profile_images/791373995723587585/fPEnNSVH_400x400.jpg"
   },
   {
+    "name": "kong",
+    "fileName": "src/logos/kong.png",
+    "hash": "d7e32c61908d6b6e6cdbee1e7cf47674185ecb3e390e4a7ec5fb66e81348b04b",
+    "url": "https://cdn-ssl-devio-img.classmethod.jp/wp-content/uploads/2015/06/kong.png"
+  },
+  {
     "name": "apache-thrift",
     "fileName": "src/logos/apache-thrift.png",
     "hash": "25435e8c94343d362947262ad248d28e60d4a018f776f6ccd1767bd45acbf2e9",
     "url": "https://raw.githubusercontent.com/ServiceStack/Assets/master/img/livedemos/techstacks/apache-thrift-logo.png"
-  },
-  {
-    "name": "orchestration-management-service-management-datawire",
-    "fileName": "src/logos/orchestration-management-service-management-datawire.png",
-    "hash": "5e33d81d95e7d1c5c3fc03315883ad6521b7456e019abae1641a1d9df6c6df21",
-    "url": "https://media.licdn.com/media/AAEAAQAAAAAAAAcfAAAAJDc1NDg2YzMwLWQzOTYtNDJmYi1iMTg0LWY0OTViMzZmODEzYQ.png"
   },
   {
     "name": "apache-avro",
@@ -1998,10 +1980,22 @@
     "url": "https://avro.apache.org/images/avro-logo.png"
   },
   {
-    "name": "turbine-labs",
-    "fileName": "src/logos/turbine-labs.png",
-    "hash": "301668921455d2c6bf662dad06b015eb1f9c83f9c5e3718bbd56ec34c8bf40ee",
-    "url": "https://cdn-images-1.medium.com/max/1920/1*89vDpBsh4u6g8RwXTWtBHQ@2x.png"
+    "name": "g-rpc",
+    "fileName": "src/logos/g-rpc.png",
+    "hash": "84605e93012d3a4d415aff9a2184c96bfc988e4b47906b074e3ccd66fd553e41",
+    "url": "https://raw.githubusercontent.com/cncf/artwork/master/grpc/horizontal/color/grpc-horizontal-color.png"
+  },
+  {
+    "name": "hystrix",
+    "fileName": "src/logos/hystrix.png",
+    "hash": "c2ec8d16a7cf32f3ac507e3abb6a50ecae725ee4816b1322b885e4a52234e4db",
+    "url": "https://camo.githubusercontent.com/e871b5d002a9699e7a2d9fa0178af5c72f0743e0/68747470733a2f2f6e6574666c69782e6769746875622e636f6d2f487973747269782f696d616765732f687973747269782d6c6f676f2d7461676c696e652d3835302e706e67"
+  },
+  {
+    "name": "kubicorn",
+    "fileName": "src/logos/kubicorn.png",
+    "hash": "960c6dc606a1a2d46b5faf0270b5c5654f7b5ec05c3408d48eb0f25c27b697e8",
+    "url": "https://raw.githubusercontent.com/kris-nova/kubicorn/master/docs/img/kubicorn-trans.png"
   },
   {
     "name": "avi-networks",
@@ -2010,10 +2004,10 @@
     "url": "https://avinetworks.com/wp-content/uploads/2017/06/Avi-Logo-Transparent-Background-Hi-Res-2.png"
   },
   {
-    "name": "g-rpc",
-    "fileName": "src/logos/g-rpc.png",
-    "hash": "84605e93012d3a4d415aff9a2184c96bfc988e4b47906b074e3ccd66fd553e41",
-    "url": "https://raw.githubusercontent.com/cncf/artwork/master/grpc/horizontal/color/grpc-horizontal-color.png"
+    "name": "turbine-labs",
+    "fileName": "src/logos/turbine-labs.png",
+    "hash": "301668921455d2c6bf662dad06b015eb1f9c83f9c5e3718bbd56ec34c8bf40ee",
+    "url": "https://cdn-images-1.medium.com/max/1920/1*89vDpBsh4u6g8RwXTWtBHQ@2x.png"
   },
   {
     "name": "traefik",
@@ -2022,34 +2016,22 @@
     "url": "https://raw.githubusercontent.com/containous/traefik/master/docs/img/traefik.logo.png"
   },
   {
-    "name": "linkerd",
-    "fileName": "src/logos/linkerd.png",
-    "hash": "3c5977c7d7871d91df0c9941c2a48e82a838665f84dce6e55b5673ecc5dec2cb",
-    "url": "https://raw.githubusercontent.com/cncf/artwork/master/linkerd/stacked/color/linkerd-stacked-color.png"
+    "name": "eureka",
+    "fileName": "src/logos/eureka.png",
+    "hash": "a03067781408a93c6918ace48940f81c9336f56ec87b952d0613605ea61242a4",
+    "url": "./src/hosted_logos/netflix-eureka.png"
   },
   {
-    "name": "smart-stack",
-    "fileName": "src/logos/smart-stack.png",
-    "hash": "4e49e01c53a00888d264dbc710d354cb3f30e1c1879104caefcc48b8385a31c6",
-    "url": "https://crunchbase-production-res.cloudinary.com/image/upload/v1405534850/vubc5kxhmw6jalain0ot.jpg"
-  },
-  {
-    "name": "hyperbahn",
-    "fileName": "src/logos/hyperbahn.png",
-    "hash": "f57ac54a78b5a2c06323ad2ca0848834d5a477d0cdfe42ceb67069717f7d08fe",
-    "url": "http://thriftyzone.thriftysigns.netdna-cdn.com/image/cache/data/decals/travel/uber-logo-decal-sticker-uber-logo-500x500.png"
+    "name": "orchestration-management-service-management-datawire",
+    "fileName": "src/logos/orchestration-management-service-management-datawire.png",
+    "hash": "5e33d81d95e7d1c5c3fc03315883ad6521b7456e019abae1641a1d9df6c6df21",
+    "url": "https://media.licdn.com/media/AAEAAQAAAAAAAAcfAAAAJDc1NDg2YzMwLWQzOTYtNDJmYi1iMTg0LWY0OTViMzZmODEzYQ.png"
   },
   {
     "name": "ha-proxy",
     "fileName": "src/logos/ha-proxy.png",
     "hash": "c4f8efc6c57d6da8fdf4d0a81eef9edf3ad9d8583d8b4db92d875c3b0b73207e",
     "url": "https://www.esds.co.in/blog/wp-content/uploads/2016/05/HAProxy.png"
-  },
-  {
-    "name": "eureka",
-    "fileName": "src/logos/eureka.png",
-    "hash": "1d94249ee630db3140743601b62800fad6589401b3f0da57b40d82fd9566ca7d",
-    "url": "https://avatars3.githubusercontent.com/u/913567"
   },
   {
     "name": "haret",
@@ -2064,22 +2046,40 @@
     "url": "https://cdn-1.wp.nginx.com/wp-content/themes/nginx-theme/assets/img/logo.png"
   },
   {
+    "name": "3-scale",
+    "fileName": "src/logos/3-scale.png",
+    "hash": "0adf5f1a55ad3615e03df204d7ba5387f0233587613e325b5d45b1dae3943a61",
+    "url": "https://www.3scale.net/wp-content/uploads/2015/01/3scale-by-redhat.png"
+  },
+  {
+    "name": "hyperbahn",
+    "fileName": "src/logos/hyperbahn.png",
+    "hash": "f57ac54a78b5a2c06323ad2ca0848834d5a477d0cdfe42ceb67069717f7d08fe",
+    "url": "http://thriftyzone.thriftysigns.netdna-cdn.com/image/cache/data/decals/travel/uber-logo-decal-sticker-uber-logo-500x500.png"
+  },
+  {
     "name": "envoy",
     "fileName": "src/logos/envoy.png",
     "hash": "51469d22ff64000839e170ed12b182e09ca629074644c1507b8d8aa0781394e7",
     "url": "https://raw.githubusercontent.com/cncf/artwork/master/envoy/stacked/color/envoy-stacked-color.png"
   },
   {
+    "name": "linkerd",
+    "fileName": "src/logos/linkerd.png",
+    "hash": "3c5977c7d7871d91df0c9941c2a48e82a838665f84dce6e55b5673ecc5dec2cb",
+    "url": "https://raw.githubusercontent.com/cncf/artwork/master/linkerd/stacked/color/linkerd-stacked-color.png"
+  },
+  {
+    "name": "smart-stack",
+    "fileName": "src/logos/smart-stack.png",
+    "hash": "4e49e01c53a00888d264dbc710d354cb3f30e1c1879104caefcc48b8385a31c6",
+    "url": "https://crunchbase-production-res.cloudinary.com/image/upload/v1405534850/vubc5kxhmw6jalain0ot.jpg"
+  },
+  {
     "name": "registrator",
     "fileName": "src/logos/registrator.png",
     "hash": "06a78f9a62a33273f4902d23afc64b0ef67d4b9de5d8f07ffe1a68c354405dfb",
     "url": "https://avatars2.githubusercontent.com/u/8484931"
-  },
-  {
-    "name": "3-scale",
-    "fileName": "src/logos/3-scale.png",
-    "hash": "0adf5f1a55ad3615e03df204d7ba5387f0233587613e325b5d45b1dae3943a61",
-    "url": "https://www.3scale.net/wp-content/uploads/2015/01/3scale-by-redhat.png"
   },
   {
     "name": "sky-dns",
