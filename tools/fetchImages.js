@@ -83,7 +83,7 @@ async function fetchImages() {
             });
           } catch(ex) {
             console.info('failed to fetch ', url, ' attempting to use existing image');
-            var entry = _.find(existingEntries, {url: url});
+            var entry = _.find(existingEntries, {url: url, name: saneName(item.name), fileName: fileName});
             if (!entry) {
               console.info('existing image for ', url,  ' has not been found');
               return;
@@ -94,7 +94,7 @@ async function fetchImages() {
           }
         }
         var hash = require('crypto').createHash('sha256').update(response).digest('hex');
-        const existingEntry = _.find(existingEntries, {url: url});
+        const existingEntry = _.find(existingEntries, {url: url, fileName: fileName, name: saneName(item.name)});
         if (!existingEntry || existingEntry.hash !== hash) {
           if (ext === '.svg') {
             response = await svg2png(response, {width: 1024});
