@@ -1,6 +1,7 @@
 import React from 'react';
 import classNames from 'classnames';
 import Icon from 'material-ui/Icon';
+import millify from 'millify'
 import Subheader from 'material-ui/List/ListSubheader';
 import _ from 'lodash';
 
