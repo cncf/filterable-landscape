@@ -11,6 +11,7 @@ const githubEntries = require('../src/github.json');
 const tree = traverse(source);
 const newSource = tree.map(function(node) {
   if (node && node.item === null) {
+    node.cncf_project = node.company === 'CNCF';
     const crunchbaseInfo = _.find(crunchbase, {"Organization Name URL": node.crunchbase});
     var crunchbaseParts = {
       market_cap: 'Not Entered Yet',
@@ -32,7 +33,7 @@ const newSource = tree.map(function(node) {
     }
     var githubInfo = {
       stars: 'N/A',
-      license: 'Commercial'
+      license: 'NotOpenSource'
     };
     var githubEntry = _.find(githubEntries, {url: node.repo_url});
     if (githubEntry) {

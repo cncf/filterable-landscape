@@ -1563,9 +1563,9 @@
   ],
   "license": [
     {
-      "id": "Commercial",
+      "id": "NotOpenSource",
       "label": "Not Open Source",
-      "url": "commercial",
+      "url": "not-open-source",
       "level": 1,
       "children": []
     },
@@ -1582,7 +1582,8 @@
         "GPL-2.0",
         "GPL-3.0",
         "MIT",
-        "MPL-2.0"
+        "MPL-2.0",
+        "Unknown License"
       ]
     },
     {
@@ -1638,6 +1639,13 @@
       "id": "MPL-2.0",
       "label": "MPL-2.0",
       "url": "mpl-2-0",
+      "parentId": "Open Source",
+      "level": 2
+    },
+    {
+      "id": "Unknown License",
+      "label": "Unknown License",
+      "url": "unknown-license",
       "parentId": "Open Source",
       "level": 2
     }

@@ -23,6 +23,7 @@ tree.map(function(node) {
       certifiedKubernetes: _.sample([null, false, 'platform', 'distribution']),
       vcFunder: _.sample(fakeData.vcFunder),
       marketCap: node.market_cap,
+      oss: node.license !== 'NotOpenSource'
     });
   }
 });
@@ -30,9 +31,6 @@ const itemsWithExtraFields = items.map(function(item) {
   delete item.cncf_project;
   delete item.market_cap;
   delete item.item;
-  if (_.isUndefined(item.commercial)) {
-    console.info('please, fix yaml and set commercial for ', item.name);
-  }
   const otherItems = _.filter(items, {name: item.name});
   var id = saneName(item.name);
   if (otherItems.length > 1) {
@@ -94,12 +92,12 @@ const generateLandscapeHierarchy = function() {
 };
 const generateLicenses = function() {
   const otherLicenses = extractOptions('license').filter(function(x) {
-    return x.id !== 'Commercial';
+    return x.id !== 'NotOpenSource';
   });
   return [{
-    id: 'Commercial',
+    id: 'NotOpenSource',
     label: 'Not Open Source',
-    url: saneName('Commercial'),
+    url: saneName('NotOpenSource'),
     level: 1,
     children: []
   }, {

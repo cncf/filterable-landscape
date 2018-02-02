@@ -30,7 +30,7 @@ const result = [];
 async function readGithubStats() {
   await Promise.map(urls, async function(url) {
     if (url.split('/').length !==  5 || !url.split('/')[4]) {
-      result.push({url, stars: 'N/A', license: 'Commercial'});
+      result.push({url, stars: 'N/A', license: 'Unknown License'});
       console.info(url, ' looks like not a github repo');
       return;
     }
@@ -42,7 +42,7 @@ async function readGithubStats() {
     const dom = new JSDOM(response);
     const doc = dom.window.document;
     var stars = 'N/A';
-    var license = 'Commercial';
+    var license = 'Unknown License';
     const starsElement = doc.querySelector('.js-social-count');
     if (starsElement) {
       stars = +starsElement.textContent.replace(/,/g,'');
