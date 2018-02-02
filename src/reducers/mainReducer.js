@@ -10,7 +10,6 @@ export const initialState = {
   data: null,
   filters: {
     cncfProject: null,
-    oss: null,
     stars: null,
     certifiedKubernetes: null,
     license: [],

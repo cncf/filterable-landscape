@@ -11,7 +11,6 @@ const getFilteredItems = createSelector(
   (state) => state.main.filters,
   function(data, filters) {
     var filterCncfHostedProject = filterFn({field: 'cncfProject', filters});
-    var filterByOss = filterFn({field: 'oss', filters});
     var filterByStars = filterFn({field: 'stars', filters});
     var filterByCertifiedKubernetes = filterFn({field: 'certifiedKubernetes', filters});
     var filterByLicense = filterFn({field: 'license', filters});
@@ -21,7 +20,7 @@ const getFilteredItems = createSelector(
     var filterByHeadquarters = filterFn({field: 'headquarters', filters});
     var filterByLandscape = filterFn({field: 'landscape', filters});
     return data.filter(function(x) {
-      return filterCncfHostedProject(x) && filterByOss(x) && filterByStars(x) && filterByCertifiedKubernetes(x) && filterByLicense(x) && filterByMarketCap(x) && /* filterByVcFunder(x)  && */ filterByCompany(x) && filterByHeadquarters(x) && filterByLandscape(x);
+      return filterCncfHostedProject(x) && filterByStars(x) && filterByCertifiedKubernetes(x) && filterByLicense(x) && filterByMarketCap(x) && /* filterByVcFunder(x)  && */ filterByCompany(x) && filterByHeadquarters(x) && filterByLandscape(x);
     });
   }
 );

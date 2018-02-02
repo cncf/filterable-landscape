@@ -31,35 +31,6 @@ const fields = {
       url: 'any'
     }]
   },
-  oss: {
-    id: 'oss',
-    url: 'oss',
-    label: 'Open Source',
-    filterFn: function(filterValue, itemValue, item) {
-      if (filterValue === null) {
-        return true;
-      }
-      if (filterValue === true) {
-        return itemValue === true && item.commercial === false;
-      }
-      if (filterValue === false) {
-        return itemValue === false && item.commercial === true;
-      }
-    },
-    values: [{
-      id: true,
-      label: 'Open Source and Not Commercial',
-      url: 'yes',
-    }, {
-      id: false,
-      label: 'Commercial and Not Open Source',
-      url: 'no',
-    }, {
-      id: null,
-      label: 'Open Source and Commercial',
-      url: 'any'
-    }]
-  },
   stars: {
     id: 'stars',
     label: 'Stars',
