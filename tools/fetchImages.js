@@ -35,7 +35,23 @@ tree.map(function(node) {
   if (node.item !== null) {
     return;
   }
+  const path = this.parents.filter(function(p) {
+    return p.node.category === null || p.node.subcategory === null;
+  }).map(function(p) {
+    return p.node.name;
+  }).join(' / ');
+  node.path = path;
   items.push(node);
+});
+_.each(items, function(item) {
+  const otherItems = _.filter(items, {name: item.name});
+  var id = item.name;
+  if (otherItems.length > 1) {
+    console.info('Other name: ', id);
+    id = item.path + ' ' + item.name;
+    console.info(' resolved with ', id);
+  }
+  item.id = id;
 });
 
 const errors = [];
@@ -66,9 +82,9 @@ async function fetchImages() {
         ext = '.png';
       }
       outputExt = '.png';
-      const fileName = `src/logos/${saneName(item.name)}${outputExt}`;
+      const fileName = `src/logos/${saneName(item.id)}${outputExt}`;
       try {
-        console.info(url);
+        // console.info(url);
         var response = null;
         if (url.indexOf('.') === 0) {
           response = fs.readFileSync(url);
@@ -83,7 +99,7 @@ async function fetchImages() {
             });
           } catch(ex) {
             console.info('failed to fetch ', url, ' attempting to use existing image');
-            var entry = _.find(existingEntries, {url: url, name: saneName(item.name), fileName: fileName});
+            var entry = _.find(existingEntries, {url: url, name: saneName(item.id), fileName: fileName});
             if (!entry) {
               console.info('existing image for ', url,  ' has not been found');
               return;
@@ -94,7 +110,7 @@ async function fetchImages() {
           }
         }
         var hash = require('crypto').createHash('sha256').update(response).digest('hex');
-        const existingEntry = _.find(existingEntries, {url: url, fileName: fileName, name: saneName(item.name)});
+        const existingEntry = _.find(existingEntries, {url: url, fileName: fileName, name: saneName(item.id)});
         if (!existingEntry || existingEntry.hash !== hash) {
           if (ext === '.svg') {
             response = await svg2png(response, {width: 1024});
@@ -102,7 +118,7 @@ async function fetchImages() {
           // console.info('normalizing image');
           await normalizeImage({inputFile: response,outputFile: fileName});
         }
-        logos.push({name: saneName(item.name), fileName: fileName, hash, url});
+        logos.push({name: saneName(item.id), fileName: fileName, hash, url});
       } catch(ex) {
         console.info(`${item.name} has issues with logo: ${url}`);
         console.info(ex.message.substring(0, 100));

@@ -43,7 +43,7 @@ const itemsWithExtraFields = items.map(function(item) {
     id: id,
     starsCategory: getCategory({field: 'stars', item: item}),
     marketCapCategory: getCategory({field: 'marketCap', item: item}),
-    logo: `logo-${saneName(item.name)}`
+    logo: `logo-${saneName(id)}`
   }
 });
 const extractOptions = function(name) {
