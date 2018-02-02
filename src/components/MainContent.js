@@ -13,7 +13,6 @@ const MainContent = ({groupedItems, onSelectItem}) => {
       </div>
     ].concat(_.map(groupedItem.items, function(item) {
       console.log(item);
-      let isInt = Number.isInteger(item.marketCap);
       
       return (<div className="mosaic" key={item.id} style={{ background: item.oss ? 'white' : '#eeeeee'}}>
                 <div className="logo_wrapper" style={{border: '1px solid #f0f0f0'}}
@@ -21,15 +20,20 @@ const MainContent = ({groupedItems, onSelectItem}) => {
                   <div className={classNames(`${item.logo}-tile`,{ logo: true})} onClick={() => onSelectItem(item.id)}/>
                 </div>
                 <div className="info">
-                  <h5>{item.name}</h5>
                   <div>
-                    <span> {item.company} { isInt ? '('+ millify( item.marketCap )+')' : '' } </span>
+                    <h5>{item.name}</h5>
                     { item.starsPresent &&
                       <span>
                         <Icon color="disabled" style={{ fontSize: 15 }}>star</Icon>
                         <span>{item.starsAsText}</span>
                       </span>
                     }
+                  </div>
+                  <div>
+                    {item.company}
+                    { Number.isInteger(item.marketCap) ? ' ('+ millify( item.marketCap )+')' : '' }
+                    {/*{item.company} { Number.isInteger(item.funcing) ? 'Funding:'+ millify( item.funding )+'' : '' } */}
+  
                   </div>
                 </div>
               </div>);
