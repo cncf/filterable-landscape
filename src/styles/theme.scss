@@ -126,28 +126,15 @@
 
 }
 
-//MOBILE SCREENS
-@media (max-width: 767px) {
+@media (max-width: 300px) {
 
   .header_container {
-    flex-direction: column-reverse;
     justify-content: flex-start;
     align-items: flex-start;
     position: fixed;
     left: 0;
     top: 0;
 
-    .header{
-      padding:10px 20px 0 0;
-
-      .logos div{
-        background-size:70%;
-      }
-    }
-
-    .title{
-      padding:10px 37px;
-    }
   }
 
 }
