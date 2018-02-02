@@ -33,7 +33,7 @@ const newSource = tree.map(function(node) {
     }
     var githubInfo = {
       stars: 'N/A',
-      license: 'N/A'
+      license: 'Commercial'
     };
     var githubEntry = _.find(githubEntries, {url: node.repo_url});
     const imageEntry = _.find(imageEntries, {url: node.raw_url});

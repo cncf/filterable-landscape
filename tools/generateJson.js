@@ -92,10 +92,34 @@ const generateLandscapeHierarchy = function() {
   });
   return result;
 };
+const generateLicenses = function() {
+  const otherLicenses = extractOptions('license').filter(function(x) {
+    return x.id !== 'Commercial';
+  });
+  return [{
+    id: 'Commercial',
+    label: 'Not Open Source',
+    url: saneName('Commercial'),
+    level: 1,
+    children: []
+  }, {
+    id: 'Open Source',
+    label: 'Open Source',
+    url: saneName('Open Source'),
+    level: 1,
+    children: _.map(otherLicenses, 'id')
+  }].concat(otherLicenses.map(function(license){
+    return {
+      ...license,
+      parentId: 'Open Source',
+      level: 2
+    };
+  }));
+};
 const lookups = {
   company: extractOptions('company'),
   landscape: generateLandscapeHierarchy(),
-  license: extractOptions('license'),
+  license: generateLicenses(),
   headquarters: extractOptions('headquarters'),
   vcFunder: extractOptions('vcFunder')
 }

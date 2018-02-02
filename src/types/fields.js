@@ -164,12 +164,13 @@ const fields = {
     id: 'license',
     label: 'License',
     isArray: true,
-    values: [].concat(_.orderBy(lookups.license, function(x) {
-      if  (x.id === 'N/A') {
-        return -1;
-      }
-      return lookups.license.indexOf(x);
-    })|| [])
+    values: [].concat(lookups.license || []),
+    processValuesBeforeSaving: function(values) {
+      return processValuesBeforeSaving({options: fields.license.values, values: values});
+    },
+    processValuesBeforeLoading: function(values) {
+      return processValuesBeforeLoading({options: fields.license.values, values: values});
+    }
   },
   marketCap: {
     id: 'marketCap',
@@ -257,31 +258,10 @@ const fields = {
     isArray: true,
     values: [].concat(lookups.landscape || []),
     processValuesBeforeSaving: function(values) {
-      return values.filter(function(value) {
-        const option = _.find(fields.landscape.values, {id: value});
-        // keep parent only if all children are checked
-        if (option.children) {
-          return _.every(option.children, function(childOptionId) {
-            return values.indexOf(childOptionId) !== -1;
-          });
-        }
-        // keep child only if any of childrens is not checked
-        const parentOption = _.find(fields.landscape.values, {id: option.parentId});
-        return ! _.every(parentOption.children, function(childOptionId) {
-          return values.indexOf(childOptionId) !== -1;
-        });
-      });
+      return processValuesBeforeSaving({options: fields.landscape.values, values: values});
     },
     processValuesBeforeLoading: function(values) {
-      return fields.landscape.values.filter(function(option) {
-        if (option.children) {
-          return !_.every(option.children, function(childOptionId) {
-            return values.indexOf(childOptionId) === -1
-          }) || values.indexOf(option.id) !== -1;
-        }
-        const parentOption = _.find(fields.landscape.values, {id: option.parentId});
-        return values.indexOf(parentOption.id) !== -1 || values.indexOf(option.id) !== -1;
-      }).map( (option) => option.id);
+      return processValuesBeforeLoading({options: fields.landscape.values, values: values});
     }
   },
   startDate: {
@@ -313,6 +293,35 @@ _.each(fields, function(field, key) {
   });
 });
 export default fields;
+
+const processValuesBeforeLoading = function({options, values}) {
+  return options.filter(function(option) {
+    if (option.children) {
+      return !_.every(option.children, function(childOptionId) {
+        return values.indexOf(childOptionId) === -1
+      }) || values.indexOf(option.id) !== -1;
+    }
+    const parentOption = _.find(options, {id: option.parentId});
+    return values.indexOf(parentOption.id) !== -1 || values.indexOf(option.id) !== -1;
+  }).map( (option) => option.id);
+};
+
+const processValuesBeforeSaving = function({options, values}) {
+  return values.filter(function(value) {
+    const option = _.find(options, {id: value});
+    // keep parent only if all children are checked
+    if (option.children) {
+      return _.every(option.children, function(childOptionId) {
+        return values.indexOf(childOptionId) !== -1;
+      });
+    }
+    // keep child only if any of childrens is not checked
+    const parentOption = _.find(options, {id: option.parentId});
+    return ! _.every(parentOption.children, function(childOptionId) {
+      return values.indexOf(childOptionId) !== -1;
+    });
+  });
+};
 
 export function options(field) {
   return fields[field].values.map(function(values) {

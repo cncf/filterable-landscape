@@ -16,11 +16,6 @@
       "url": "alibaba-cloud"
     },
     {
-      "id": "Amazon",
-      "label": "Amazon",
-      "url": "amazon"
-    },
-    {
       "id": "Amazon Web Services",
       "label": "Amazon Web Services",
       "url": "amazon-web-services"
@@ -1568,49 +1563,83 @@
   ],
   "license": [
     {
+      "id": "Commercial",
+      "label": "Not Open Source",
+      "url": "commercial",
+      "level": 1,
+      "children": []
+    },
+    {
+      "id": "Open Source",
+      "label": "Open Source",
+      "url": "open-source",
+      "level": 1,
+      "children": [
+        "Apache-2.0",
+        "BSD-2-Clause",
+        "BSD-3-Clause",
+        "ECL-2.0",
+        "GPL-2.0",
+        "GPL-3.0",
+        "MIT",
+        "MPL-2.0"
+      ]
+    },
+    {
       "id": "Apache-2.0",
       "label": "Apache-2.0",
-      "url": "apache-2-0"
+      "url": "apache-2-0",
+      "parentId": "Open Source",
+      "level": 2
     },
     {
       "id": "BSD-2-Clause",
       "label": "BSD-2-Clause",
-      "url": "bsd-2-clause"
+      "url": "bsd-2-clause",
+      "parentId": "Open Source",
+      "level": 2
     },
     {
       "id": "BSD-3-Clause",
       "label": "BSD-3-Clause",
-      "url": "bsd-3-clause"
+      "url": "bsd-3-clause",
+      "parentId": "Open Source",
+      "level": 2
     },
     {
       "id": "ECL-2.0",
       "label": "ECL-2.0",
-      "url": "ecl-2-0"
+      "url": "ecl-2-0",
+      "parentId": "Open Source",
+      "level": 2
     },
     {
       "id": "GPL-2.0",
       "label": "GPL-2.0",
-      "url": "gpl-2-0"
+      "url": "gpl-2-0",
+      "parentId": "Open Source",
+      "level": 2
     },
     {
       "id": "GPL-3.0",
       "label": "GPL-3.0",
-      "url": "gpl-3-0"
+      "url": "gpl-3-0",
+      "parentId": "Open Source",
+      "level": 2
     },
     {
       "id": "MIT",
       "label": "MIT",
-      "url": "mit"
+      "url": "mit",
+      "parentId": "Open Source",
+      "level": 2
     },
     {
       "id": "MPL-2.0",
       "label": "MPL-2.0",
-      "url": "mpl-2-0"
-    },
-    {
-      "id": "N/A",
-      "label": "N/A",
-      "url": "n-a"
+      "url": "mpl-2-0",
+      "parentId": "Open Source",
+      "level": 2
     }
   ],
   "headquarters": [

@@ -25,29 +25,29 @@ landscape:
             market_cap: N/A
             headquarters: 'San Francisco, California'
             rank: 63493
-            stars: 31806
+            stars: 32000
             license: Apache-2.0
             logo: ''
           - item:
             name: Amazon ECS
-            company: Amazon
+            company: Amazon Web Services
             cncf_project: false
             oss: false
             commercial: true
             homepage_url: 'https://aws.amazon.com/ecs/'
             twitter: 'https://twitter.com/awscloud'
-            crunchbase: 'https://www.crunchbase.com/organization/amazon'
+            crunchbase: 'https://www.crunchbase.com/organization/amazon-web-services'
             stock_ticker: AMZN
             raw_logo: >-
               https://signalfx-82c9.kxcdn.com/wp-content/uploads/2016/03/integrations_awsecs@4x-500x500.png
-            market_cap: 108000000
+            market_cap: N/A
             headquarters: 'Seattle, Washington'
-            rank: 788
+            rank: 10522
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
-              Amazon.com is an international e-commerce website for consumers,
-              sellers, and content creators.
+              Amazon Web Services provides information technology infrastructure
+              services to businesses in the form of web services.
             logo: ''
           - item:
             name: Nomad
@@ -63,7 +63,7 @@ landscape:
             market_cap: 74175000
             headquarters: 'San Francisco, California'
             rank: 949
-            stars: 3195
+            stars: 3215
             license: MPL-2.0
             description: >-
               Nomad is a flexible, enterprise-grade cluster scheduler designed
@@ -88,7 +88,7 @@ landscape:
             headquarters: N/A
             rank: N/A
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Program against your datacenter like it’s a single pool of
               resources.
@@ -109,7 +109,7 @@ landscape:
             market_cap: N/A
             headquarters: N/A
             rank: 60948
-            stars: 253
+            stars: 255
             license: MIT
             description: >-
               This repository is the starting point to engage in and learn about
@@ -129,7 +129,7 @@ landscape:
             market_cap: 242766694
             headquarters: 'San Francisco, California'
             rank: 471
-            stars: 4971
+            stars: 4983
             license: Apache-2.0
             description: 'Swarm: a Docker-native clustering system'
             logo: ''
@@ -151,7 +151,7 @@ landscape:
             market_cap: 50000000
             headquarters: 'San Francisco, California'
             rank: 1547
-            stars: 16532
+            stars: 16626
             license: Apache-2.0
             description: >-
               Distributed reliable key-value store for the most critical data of
@@ -172,7 +172,7 @@ landscape:
             market_cap: 74175000
             headquarters: 'San Francisco, California'
             rank: 949
-            stars: 11241
+            stars: 11283
             license: MPL-2.0
             description: >-
               Consul is a distributed, highly available, and data center aware
@@ -194,7 +194,7 @@ landscape:
             market_cap: N/A
             headquarters: 'Forest Hill, Maryland'
             rank: 84483
-            stars: 3880
+            stars: 3900
             license: Apache-2.0
             description: Mirror of Apache Hadoop ZooKeeper
             logo: ''
@@ -213,7 +213,7 @@ landscape:
             market_cap: 130999998
             headquarters: 'San Francisco, California'
             rank: 1644
-            stars: 854
+            stars: 856
             license: MPL-2.0
             description: >-
               A service for autodiscovery and configuration of applications
@@ -231,7 +231,7 @@ landscape:
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
-            stars: 1715
+            stars: 1717
             license: MIT
             description: DNS service discovery for etcd
             logo: ''
@@ -252,7 +252,7 @@ landscape:
             headquarters: 'San Francisco, California'
             rank: 63493
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               CNCF is an open source software foundation that hosts and nurtures
               projects like Kubernetes and Prometheus.
@@ -271,7 +271,7 @@ landscape:
             market_cap: N/A
             headquarters: 'Austin, Texas'
             rank: N/A
-            stars: 3449
+            stars: 3457
             license: MIT
             description: Service registry bridge for Docker with pluggable adapters
             logo: ''
@@ -324,7 +324,7 @@ landscape:
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
-            stars: 4687
+            stars: 4722
             license: Apache-2.0
             description: >-
               AWS Service registry for resilient mid-tier load balancing and
@@ -345,8 +345,8 @@ landscape:
             market_cap: 393500000
             headquarters: 'Palo Alto, California'
             rank: 5559
-            stars: 464
-            license: N/A
+            stars: 466
+            license: Commercial
             description: >-
               A strongly consistent distributed coordination system, built using
               proven protocols & implemented in Rust.
@@ -370,7 +370,7 @@ landscape:
             headquarters: 'San Francisco, California'
             rank: 14135
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               3scale’s API management platform empowers API providers to easily
               package, distribute, manage and monetize APIs.
@@ -391,7 +391,7 @@ landscape:
             headquarters: 'San Francisco, California'
             rank: 3518
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               NGINX offers advanced internet infrastructure software to help
               companies match the demand for faster web experiences.
@@ -410,8 +410,8 @@ landscape:
             market_cap: N/A
             headquarters: 'Waltham, Massachusetts'
             rank: 86853
-            stars: 869
-            license: N/A
+            stars: 872
+            license: Commercial
             description: >-
               UNOFFICIAL fork of haproxy development repository - ISSUE REPORTS
               ARE IGNORED!
@@ -433,7 +433,7 @@ landscape:
             headquarters: 'San Francisco, California'
             rank: 63493
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               CNCF is an open source software foundation that hosts and nurtures
               projects like Kubernetes and Prometheus.
@@ -455,7 +455,7 @@ landscape:
             market_cap: N/A
             headquarters: 'San Francisco, California'
             rank: 63493
-            stars: 3697
+            stars: 3758
             license: Apache-2.0
             description: C++ front/service proxy
             logo: ''
@@ -475,7 +475,7 @@ landscape:
             headquarters: 'Cambridge, Massachusetts'
             rank: 20948
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               An early stage startup that's focused on making it easy for
               developers to build resilient microservices.
@@ -495,7 +495,7 @@ landscape:
             market_cap: 1000000
             headquarters: 'Lyon, France'
             rank: 23352
-            stars: 12573
+            stars: 12705
             license: MIT
             description: 'Træfik, a modern reverse proxy'
             logo: ''
@@ -515,7 +515,7 @@ landscape:
             headquarters: N/A
             rank: 94227
             stars: N/A
-            license: N/A
+            license: Commercial
             description: Turbine Labs
             logo: ''
           - item:
@@ -534,7 +534,7 @@ landscape:
             headquarters: 'Santa Clara, California'
             rank: 2258
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Avi Networks is a Silicon Valley startup with proven track record
               in building virtualization, networking and software solutions.
@@ -557,7 +557,7 @@ landscape:
             headquarters: 'San Francisco, California'
             rank: 63493
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               CNCF is an open source software foundation that hosts and nurtures
               projects like Kubernetes and Prometheus.
@@ -577,7 +577,7 @@ landscape:
             market_cap: N/A
             headquarters: 'Forest Hill, Maryland'
             rank: 84483
-            stars: 4370
+            stars: 4389
             license: Apache-2.0
             description: Mirror of Apache Thrift
             logo: ''
@@ -595,7 +595,7 @@ landscape:
             market_cap: N/A
             headquarters: 'Forest Hill, Maryland'
             rank: 84483
-            stars: 843
+            stars: 844
             license: Apache-2.0
             description: Mirror of Apache Avro
             logo: ''
@@ -633,7 +633,7 @@ landscape:
             market_cap: 20000000
             headquarters: 'London, United Kingdom'
             rank: 5353
-            stars: 325
+            stars: 332
             license: Apache-2.0
             description: A tool for deploying container images to Kubernetes services
             logo: ''
@@ -652,7 +652,7 @@ landscape:
             market_cap: 26101000
             headquarters: 'San Francisco, California'
             rank: 4031
-            stars: 14069
+            stars: 14174
             license: Apache-2.0
             description: "\U0001F412 The Microservice API Gateway"
             logo: ''
@@ -672,7 +672,7 @@ landscape:
             market_cap: 2803735952
             headquarters: 'Los Gatos, California'
             rank: 5
-            stars: 12365
+            stars: 12425
             license: Apache-2.0
             description: >-
               Hystrix is a latency and fault tolerance library designed to
@@ -696,7 +696,7 @@ landscape:
             headquarters: 'Los Gatos, California'
             rank: 5
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Netflix is an online platform that enables users to watch TV shows
               and movies on smart TVs, PCs, Macs, mobiles, tablets, and so on. 
@@ -716,7 +716,7 @@ landscape:
             market_cap: 2803735952
             headquarters: 'Los Gatos, California'
             rank: 5
-            stars: 1835
+            stars: 1842
             license: Apache-2.0
             description: >-
               Ribbon is a Inter Process Communication (remote procedure calls)
@@ -739,7 +739,7 @@ landscape:
             market_cap: 2803735952
             headquarters: 'Los Gatos, California'
             rank: 5
-            stars: 3718
+            stars: 3747
             license: Apache-2.0
             description: >-
               Zuul is a gateway service that provides dynamic routing,
@@ -758,7 +758,7 @@ landscape:
             headquarters: Not Entered Yet
             rank: Not Entered Yet
             stars: N/A
-            license: N/A
+            license: Commercial
             description: ''
             logo: ''
           - item:
@@ -775,7 +775,7 @@ landscape:
             headquarters: 'Seattle, Washington'
             rank: 24409
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               F5 Networks provides application delivery networking technology
               that optimizes the delivery of network-based applications.
@@ -802,7 +802,7 @@ landscape:
             headquarters: 'Seattle, Washington'
             rank: 10522
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Amazon Web Services provides information technology infrastructure
               services to businesses in the form of web services.
@@ -823,7 +823,7 @@ landscape:
             headquarters: 'San Francisco, California'
             rank: 25410
             stars: N/A
-            license: N/A
+            license: Commercial
             description: Google Cloud Platform is a tool suite for app developers.
             logo: ''
           - item:
@@ -842,7 +842,7 @@ landscape:
             headquarters: 'Redmond, Washington'
             rank: 37
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Microsoft is a software corporation that develops, manufactures,
               licenses, supports, and sells a range of software products and
@@ -863,7 +863,7 @@ landscape:
             headquarters: 'New York, New York'
             rank: 752
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               DigitalOcean is an IaaS company that delivers a seamless way for
               developers and businesses to deploy and scale any application in
@@ -884,7 +884,7 @@ landscape:
             headquarters: 'New York, New York'
             rank: 6813
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Packet is a bare metal cloud built for developers. 8 minute
               deploys, no hypervisor, & full automation support from 15 global
@@ -906,7 +906,7 @@ landscape:
             headquarters: 'Redwood Shores, California'
             rank: 25519
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Oracle is a computer technology corporation developing and
               marketing computer hardware systems and enterprise software
@@ -928,7 +928,7 @@ landscape:
             headquarters: 'Hangzhou, China'
             rank: 46252
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Alibaba Cloud develops highly scalable cloud computing and data
               management services.
@@ -949,7 +949,7 @@ landscape:
             headquarters: 'North Sydney, Australia'
             rank: 14952
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Fujitsu provides information technology and communications
               solutions.
@@ -970,7 +970,7 @@ landscape:
             headquarters: 'Armonk, New York'
             rank: 6083
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               IBM is an IT technology and consulting firm providing computer
               hardware, software, and infrastructure and hosting services.
@@ -989,7 +989,7 @@ landscape:
             headquarters: Not Entered Yet
             rank: Not Entered Yet
             stars: N/A
-            license: N/A
+            license: Commercial
             description: ''
             logo: ''
           - item:
@@ -1007,7 +1007,7 @@ landscape:
             headquarters: 'San Francisco, California'
             rank: 1644
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Joyent is a cloud infrastructure and big data analytics company
               offering a solution that powers real-time web and mobile
@@ -1028,7 +1028,7 @@ landscape:
             headquarters: 'Plano, Texas'
             rank: 1469
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Huawei Technologies provides infrastructure application software
               and devices with wireline, wireless, and IP technologies.
@@ -1052,7 +1052,7 @@ landscape:
             headquarters: 'Austin, Texas'
             rank: 60056
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               OpenStack is the most widely used open source software for
               building public and private clouds.
@@ -1072,7 +1072,7 @@ landscape:
             headquarters: 'Palo Alto, California'
             rank: 5559
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               VMware is a software company providing cloud and virtualization
               services.
@@ -1093,7 +1093,7 @@ landscape:
             headquarters: 'London, United Kingdom'
             rank: 42700
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Canonical is a computer software company that markets commercial
               support and related services for Ubuntu and related projects.
@@ -1114,7 +1114,7 @@ landscape:
             headquarters: N/A
             rank: N/A
             stars: 80
-            license: N/A
+            license: Commercial
             description: The new and improved Foreman website.
             logo: ''
           - item:
@@ -1131,7 +1131,7 @@ landscape:
             headquarters: 'Paris, France'
             rank: 77003
             stars: N/A
-            license: N/A
+            license: Commercial
             description: Scaleway is the world's first Cloud Computing IaaS platform
             logo: ''
           - item:
@@ -1148,7 +1148,7 @@ landscape:
             headquarters: Not Entered Yet
             rank: Not Entered Yet
             stars: N/A
-            license: N/A
+            license: Commercial
             description: ''
             logo: ''
   - category:
@@ -1173,7 +1173,7 @@ landscape:
             headquarters: 'San Francisco, California'
             rank: 949
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               HashiCorp enables organizations to provision, secure, and run any
               infrastructure for any application.
@@ -1194,7 +1194,7 @@ landscape:
             headquarters: 'San Mateo, California'
             rank: 56547
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Cloud Foundry is a self-service, public cloud deployment platform
               enabling developers to build, test, deploy, and scale
@@ -1216,7 +1216,7 @@ landscape:
             headquarters: 'Seattle, Washington'
             rank: 10522
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Amazon Web Services provides information technology infrastructure
               services to businesses in the form of web services.
@@ -1235,7 +1235,7 @@ landscape:
             headquarters: 'Seattle, Washington'
             rank: 15699
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               CloudCoreo is building a next generation cloud management
               platform.
@@ -1256,7 +1256,7 @@ landscape:
             headquarters: 'New York, New York'
             rank: 68185
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Cloudify assists organizations in integrating cloud computing into
               their business strategies and managing infrastructure
@@ -1277,7 +1277,7 @@ landscape:
             headquarters: 'New York, New York'
             rank: 85350
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               A global cyber security and technology firm that provides legal
               and compliance solutions to government and the Enterprise.
@@ -1298,7 +1298,7 @@ landscape:
             headquarters: 'Helsinki, Finland'
             rank: N/A
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Infrakit is a practical solution on how to best utilize BIM in
               road and rail projects.
@@ -1319,7 +1319,7 @@ landscape:
             headquarters: 'London, United Kingdom'
             rank: 42700
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Canonical is a computer software company that markets commercial
               support and related services for Ubuntu and related projects.
@@ -1338,7 +1338,7 @@ landscape:
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
-            stars: 927
+            stars: 936
             license: Apache-2.0
             description: Simple. Cloud Native. Kubernetes. Rainbow. Infrastructure.
             logo: ''
@@ -1358,7 +1358,7 @@ landscape:
             headquarters: 'Mahwah, New Jersey'
             rank: 35264
             stars: N/A
-            license: N/A
+            license: Commercial
             description: "ManageIQ is a commercial open-source software\_firm enabling organizations to deploy, manage and optimize private, public and hybrid\_clouds."
             logo: ''
       - subcategory:
@@ -1378,7 +1378,7 @@ landscape:
             headquarters: 'New York, New York'
             rank: 63761
             stars: N/A
-            license: N/A
+            license: Commercial
             description: Quay.io is a private hosted docker registry.
             logo: ''
           - item:
@@ -1396,7 +1396,7 @@ landscape:
             headquarters: 'Sunnyvale, California'
             rank: 1819
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               JFrog provides software developers with a binary repository
               management solution.
@@ -1415,8 +1415,8 @@ landscape:
             market_cap: 393500000
             headquarters: 'Palo Alto, California'
             rank: 5559
-            stars: 3522
-            license: N/A
+            stars: 3558
+            license: Commercial
             description: >-
               An enterprise-class container registry server based on Docker
               Distribution
@@ -1437,7 +1437,7 @@ landscape:
             headquarters: 'Redmond, Washington'
             rank: 37
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Microsoft is a software corporation that develops, manufactures,
               licenses, supports, and sells a range of software products and
@@ -1457,8 +1457,8 @@ landscape:
             market_cap: N/A
             headquarters: 'Raleigh, North Carolina'
             rank: N/A
-            stars: 379
-            license: N/A
+            stars: 383
+            license: Commercial
             description: Atomic Run Tool for installing/running/managing container images.
             logo: ''
           - item:
@@ -1476,7 +1476,7 @@ landscape:
             market_cap: 242766694
             headquarters: 'San Francisco, California'
             rank: 471
-            stars: 2759
+            stars: 2761
             license: Apache-2.0
             description: >-
               This is **DEPRECATED**! Please go to
@@ -1484,7 +1484,7 @@ landscape:
             logo: ''
           - item:
             name: Amazon ECR
-            company: Amazon
+            company: Amazon Web Services
             cncf_project: false
             oss: false
             commercial: true
@@ -1493,15 +1493,15 @@ landscape:
               http://blog.shippable.com/hs-fs/hubfs/Blog_images/Amazon_ECR_icon.png
             stock_ticker: AMZN
             twitter: 'https://twitter.com/awscloud'
-            crunchbase: 'https://www.crunchbase.com/organization/amazon'
-            market_cap: 108000000
+            crunchbase: 'https://www.crunchbase.com/organization/amazon-web-services'
+            market_cap: N/A
             headquarters: 'Seattle, Washington'
-            rank: 788
+            rank: 10522
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
-              Amazon.com is an international e-commerce website for consumers,
-              sellers, and content creators.
+              Amazon Web Services provides information technology infrastructure
+              services to businesses in the form of web services.
             logo: ''
           - item:
             name: Google Registry
@@ -1519,7 +1519,7 @@ landscape:
             headquarters: 'San Francisco, California'
             rank: 25410
             stars: N/A
-            license: N/A
+            license: Commercial
             description: Google Cloud Platform is a tool suite for app developers.
             logo: ''
           - item:
@@ -1536,7 +1536,7 @@ landscape:
             headquarters: Not Entered Yet
             rank: Not Entered Yet
             stars: N/A
-            license: N/A
+            license: Commercial
             description: ''
             logo: ''
       - subcategory:
@@ -1558,7 +1558,7 @@ landscape:
             headquarters: 'Portland, Oregon'
             rank: 2994
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Puppet is an information technology automation software company
               designed for system administrators.
@@ -1576,7 +1576,7 @@ landscape:
             headquarters: Not Entered Yet
             rank: Not Entered Yet
             stars: N/A
-            license: N/A
+            license: Commercial
             description: ''
             logo: ''
           - item:
@@ -1595,7 +1595,7 @@ landscape:
             headquarters: 'Santa Barbara, California'
             rank: 11426
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Ansible is an automation engine that makes systems and
               applications simple to deploy.
@@ -1616,7 +1616,7 @@ landscape:
             headquarters: 'Seattle, Washington'
             rank: 3174
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Chef is an automation platform that transforms infrastructure into
               code.
@@ -1637,7 +1637,7 @@ landscape:
             headquarters: 'Lehi, Utah'
             rank: 12330
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               SaltStack intelligent orchestration software helps enterprise IT
               ops & DevOps teams configure & manage the software-defined
@@ -1659,7 +1659,7 @@ landscape:
             headquarters: 'Palo Alto, California'
             rank: 20034
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               CFEngine is a pioneer in IT Automation. It radically simplifies
               and automates how companies build, consume infrastructure and
@@ -1681,7 +1681,7 @@ landscape:
             headquarters: N/A
             rank: N/A
             stars: N/A
-            license: N/A
+            license: Commercial
             description: Job Scheduler and Runbook Automation
             logo: ''
       - subcategory:
@@ -1703,7 +1703,7 @@ landscape:
             headquarters: 'Santa Barbara, California'
             rank: 13085
             stars: N/A
-            license: N/A
+            license: Commercial
             description: 'Discover, analyze, and certify containers on your own terms.'
             logo: ''
           - item:
@@ -1721,7 +1721,7 @@ landscape:
             headquarters: 'Ramat Gan, Israel'
             rank: 3253
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Aqua Security enables enterprises to secure their virtual
               container environments from development to production.
@@ -1742,7 +1742,7 @@ landscape:
             headquarters: 'Burlington, Massachusetts'
             rank: 3431
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Black Duck secures & manages open source software worldwide,
               eliminating open source security vulnerabilities & license
@@ -1762,7 +1762,7 @@ landscape:
             headquarters: 'Milpitas, California'
             rank: 5791
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               NeuVector delivers a layer 7 application and network container
               firewall and security solution
@@ -1783,7 +1783,7 @@ landscape:
             headquarters: 'San Francisco, California'
             rank: 1547
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               CoreOS builds industry-leading infrastructure software to securely
               run application containers anywhere.
@@ -1804,7 +1804,7 @@ landscape:
             market_cap: N/A
             headquarters: 'San Francisco, California'
             rank: 63493
-            stars: 1162
+            stars: 1178
             license: Apache-2.0
             description: >-
               Notary is a project that allows anyone to have trust over
@@ -1825,7 +1825,7 @@ landscape:
             headquarters: Not Entered Yet
             rank: Not Entered Yet
             stars: N/A
-            license: N/A
+            license: Commercial
             description: ''
             logo: ''
           - item:
@@ -1843,7 +1843,7 @@ landscape:
             headquarters: 'Fulton, Maryland'
             rank: 3732
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Get precise intelligence about open source components and
               accelerate software innovation, quality and security.
@@ -1864,7 +1864,7 @@ landscape:
             headquarters: 'San Francisco, California'
             rank: 63493
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               CNCF is an open source software foundation that hosts and nurtures
               projects like Kubernetes and Prometheus.
@@ -1884,7 +1884,7 @@ landscape:
             headquarters: 'San Francisco, California'
             rank: 1528
             stars: N/A
-            license: N/A
+            license: Commercial
             description: Twistlock is cloud native cybersecurity for the modern enterprise.
             logo: ''
       - subcategory:
@@ -1904,7 +1904,7 @@ landscape:
             market_cap: 4112500000
             headquarters: 'San Francisco, California'
             rank: 10
-            stars: 1236
+            stars: 1238
             license: Apache-2.0
             description: 'Confidant: your secret keeper.'
             logo: ''
@@ -1922,7 +1922,7 @@ landscape:
             market_cap: 590500000
             headquarters: 'San Francisco, California'
             rank: 21
-            stars: 1861
+            stars: 1866
             license: Apache-2.0
             description: A system for distributing and managing secrets
             logo: ''
@@ -1939,7 +1939,7 @@ landscape:
             market_cap: 1466100000
             headquarters: 'San Francisco, California'
             rank: 192
-            stars: 550
+            stars: 551
             license: Apache-2.0
             description: Knox is a secret management service
             logo: ''
@@ -1957,7 +1957,7 @@ landscape:
             market_cap: 74175000
             headquarters: 'San Francisco, California'
             rank: 949
-            stars: 8365
+            stars: 8404
             license: MPL-2.0
             description: >-
               A tool for secrets management, encryption as a service, and
@@ -1980,7 +1980,7 @@ landscape:
             headquarters: 'Redwood Shores, California'
             rank: 25519
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Oracle is a computer technology corporation developing and
               marketing computer hardware systems and enterprise software
@@ -2001,7 +2001,7 @@ landscape:
             headquarters: 'San Francisco, California'
             rank: 73404
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Scytale.io help engineers securely and easily build
               identity-drive, large-scale distributed software using
@@ -2022,8 +2022,8 @@ landscape:
             market_cap: N/A
             headquarters: 'San Francisco, California'
             rank: 73404
-            stars: 129
-            license: N/A
+            stars: 134
+            license: Commercial
             description: The SPIFFE Runtime Environment
             logo: ''
   - category:
@@ -2048,7 +2048,7 @@ landscape:
             headquarters: 'Los Angeles, California'
             rank: N/A
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Ceph is the future of storage, created and delivered by a global
               community of storage engineers and researchers.
@@ -2070,7 +2070,7 @@ landscape:
             headquarters: 'Sunnyvale, California'
             rank: 22800
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Gluster is an open source, distributed file system that is capable
               of scaling to several petabytes and handling many clients.
@@ -2089,7 +2089,7 @@ landscape:
             market_cap: N/A
             headquarters: N/A
             rank: 73009
-            stars: 5403
+            stars: 5509
             license: Apache-2.0
             description: Mirror of Apache Hadoop
             logo: ''
@@ -2109,7 +2109,7 @@ landscape:
             headquarters: 'Palo Alto, California'
             rank: 4812
             stars: N/A
-            license: N/A
+            license: Commercial
             description: Minio is an open source object storage server.
             logo: ''
           - item:
@@ -2127,7 +2127,7 @@ landscape:
             headquarters: 'Los Altos, California'
             rank: 1736
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Portworx is the solution for stateful containers running in
               production.
@@ -2149,7 +2149,7 @@ landscape:
             headquarters: 'Palo Alto, California'
             rank: 5559
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               VMware is a software company providing cloud and virtualization
               services.
@@ -2170,7 +2170,7 @@ landscape:
             headquarters: 'Mountain View, California'
             rank: 369
             stars: N/A
-            license: N/A
+            license: Commercial
             description: "Pure Storage\_is an\_all-flash enterprise storage company that enables broad deployment of flash in data centers."
             logo: ''
           - item:
@@ -2188,7 +2188,7 @@ landscape:
             market_cap: N/A
             headquarters: 'Hopkinton, Massachusetts'
             rank: 17932
-            stars: 1041
+            stars: 1042
             license: Apache-2.0
             description: >-
               REX-Ray is a container storage orchestration engine enabling
@@ -2230,7 +2230,7 @@ landscape:
             headquarters: 'San Jose, California'
             rank: 4006
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Diamanti is a datacenter infrastructure company founded to solve
               network and storage challenges in Linux containerized
@@ -2251,7 +2251,7 @@ landscape:
             headquarters: Not Entered Yet
             rank: Not Entered Yet
             stars: N/A
-            license: N/A
+            license: Commercial
             description: ''
             logo: ''
           - item:
@@ -2269,7 +2269,7 @@ landscape:
             headquarters: 'San Jose, California'
             rank: 5051
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Data-Centric Compute and Storage Containerization Infrastructure
               Software
@@ -2290,7 +2290,7 @@ landscape:
             headquarters: 'Sunnyvale, California'
             rank: 4907
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Springpath is hyperconvergence software that turns standard
               servers of choice into a single pool of compute and storage
@@ -2311,7 +2311,7 @@ landscape:
             headquarters: 'Mountain View, California'
             rank: 3350
             stars: N/A
-            license: N/A
+            license: Commercial
             description: Datera is an application-driven data infrastructure company.
             logo: ''
           - item:
@@ -2329,7 +2329,7 @@ landscape:
             headquarters: 'Paris, France'
             rank: 19911
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Infinit International Inc. is a venture backed company
               specializing in storage technologies.
@@ -2349,7 +2349,7 @@ landscape:
             market_cap: N/A
             headquarters: 'Los Altos, California'
             rank: 63257
-            stars: 25
+            stars: 26
             license: Apache-2.0
             description: >-
               An extensible framework for application-level data management on
@@ -2369,7 +2369,7 @@ landscape:
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
-            stars: 1116
+            stars: 1119
             license: Apache-2.0
             description: The LeoFS Storage System
             logo: ''
@@ -2386,7 +2386,7 @@ landscape:
             headquarters: Not Entered Yet
             rank: Not Entered Yet
             stars: N/A
-            license: N/A
+            license: Commercial
             description: ''
             logo: ''
           - item:
@@ -2403,7 +2403,7 @@ landscape:
             market_cap: N/A
             headquarters: 'Hopkinton, Massachusetts'
             rank: 17932
-            stars: 1041
+            stars: 1042
             license: Apache-2.0
             description: >-
               REX-Ray is a container storage orchestration engine enabling
@@ -2425,7 +2425,7 @@ landscape:
             headquarters: 'Sunnyvale, California'
             rank: 20092
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               NetApp offers storage and data management solutions that enable
               customers to accelerate business innovations and achieve cost
@@ -2446,7 +2446,7 @@ landscape:
             headquarters: 'London, United Kingdom'
             rank: 12176
             stars: N/A
-            license: N/A
+            license: Commercial
             description: Persistent storage for containers and the cloud
             logo: ''
           - item:
@@ -2465,7 +2465,7 @@ landscape:
             headquarters: 'Hopkinton, Massachusetts'
             rank: 17932
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Dell EMC enables digital transformation with trusted solutions for
               the modern data center.
@@ -2485,7 +2485,7 @@ landscape:
             headquarters: N/A
             rank: N/A
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               OpenSDS is an open source project established to address
               integration challenges for Storage Defined Storage (SDS) vendors.
@@ -2506,7 +2506,7 @@ landscape:
             headquarters: 'Bengaluru, India'
             rank: N/A
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               OpenEBS is a scalable storage platform for spinning out
               containerized block storage volumes for use by container
@@ -2528,7 +2528,7 @@ landscape:
             headquarters: 'Santa Clara, California'
             rank: 4019
             stars: N/A
-            license: N/A
+            license: Commercial
             description: Modern storage for the modern business.
             logo: ''
           - item:
@@ -2545,7 +2545,7 @@ landscape:
             market_cap: N/A
             headquarters: 'Austin, Texas'
             rank: 60056
-            stars: 1660
+            stars: 1663
             license: Apache-2.0
             description: OpenStack Storage (Swift)
             logo: ''
@@ -2569,7 +2569,7 @@ landscape:
             headquarters: 'San Francisco, California'
             rank: 63493
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               CNCF is an open source software foundation that hosts and nurtures
               projects like Kubernetes and Prometheus.
@@ -2588,7 +2588,7 @@ landscape:
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
-            stars: 4406
+            stars: 4419
             license: Apache-2.0
             description: >-
               CLI tool for spawning and running containers according to the OCI
@@ -2608,7 +2608,7 @@ landscape:
             market_cap: N/A
             headquarters: 'London, United Kingdom'
             rank: 42700
-            stars: 1633
+            stars: 1639
             license: Apache-2.0
             description: Daemon based on liblxc offering a REST API to manage containers
             logo: ''
@@ -2623,7 +2623,7 @@ landscape:
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
-            stars: 441
+            stars: 445
             license: Apache-2.0
             description: Hypervisor-based Runtime for OCI
             logo: ''
@@ -2642,8 +2642,8 @@ landscape:
             market_cap: 130999998
             headquarters: 'San Francisco, California'
             rank: 1644
-            stars: 1230
-            license: N/A
+            stars: 1231
+            license: Commercial
             description: >-
               For more information, please see http://smartos.org/ For any
               questions that aren't answered there, please join the SmartOS
@@ -2666,7 +2666,7 @@ landscape:
             headquarters: 'San Francisco, California'
             rank: 63493
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               CNCF is an open source software foundation that hosts and nurtures
               projects like Kubernetes and Prometheus.
@@ -2686,7 +2686,7 @@ landscape:
             headquarters: Not Entered Yet
             rank: Not Entered Yet
             stars: N/A
-            license: N/A
+            license: Commercial
             description: ''
             logo: ''
           - item:
@@ -2705,7 +2705,7 @@ landscape:
             headquarters: 'Santa Clara, California'
             rank: 9708
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Intel designs, manufactures, and sells integrated digital
               technology platforms worldwide.
@@ -2724,7 +2724,7 @@ landscape:
             headquarters: Not Entered Yet
             rank: Not Entered Yet
             stars: N/A
-            license: N/A
+            license: Commercial
             description: ''
             logo: ''
       - subcategory:
@@ -2744,7 +2744,7 @@ landscape:
             headquarters: 'San Jose, California'
             rank: 3069
             stars: N/A
-            license: N/A
+            license: Commercial
             description: Cloud Native Security for Containers and Microservices
             logo: ''
           - item:
@@ -2762,7 +2762,7 @@ landscape:
             headquarters: 'Palo Alto, California'
             rank: 5359
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               The company develops software that enables enterprises to build
               hybrid clouds by easily
@@ -2782,7 +2782,7 @@ landscape:
             headquarters: 'Santa Clara, California'
             rank: 521
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Big Switch Networks is the Next-Generation Data Center Networking
               Company, designing intelligent, agile and flexible networks
@@ -2803,7 +2803,7 @@ landscape:
             headquarters: 'San Francisco, California'
             rank: 153
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Tigera provides secure application connectivity for the cloud
               native world.
@@ -2823,8 +2823,8 @@ landscape:
             market_cap: 23000000
             headquarters: 'San Francisco, California'
             rank: 153
-            stars: 472
-            license: N/A
+            stars: 473
+            license: Commercial
             description: Policy based networking for cloud native applications
             logo: ''
           - item:
@@ -2843,7 +2843,7 @@ landscape:
             headquarters: 'San Jose, California'
             rank: 705
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Cisco develops, manufactures, and sells networking hardware,
               telecommunications equipment, and other high-technology services
@@ -2864,7 +2864,7 @@ landscape:
             headquarters: N/A
             rank: 69525
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Covalent builds Cilium, an HTTP-aware network security layer for
               microservices platforms.
@@ -2885,7 +2885,7 @@ landscape:
             headquarters: 'Mountain View, California'
             rank: 141
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Cumulus Networks, a software company, designs and sells Linux
               operating systems for networking hardware.
@@ -2905,7 +2905,7 @@ landscape:
             market_cap: 23000000
             headquarters: 'San Francisco, California'
             rank: 153
-            stars: 2722
+            stars: 2734
             license: Apache-2.0
             description: >-
               flannel is a network fabric for containers, designed for
@@ -2927,7 +2927,7 @@ landscape:
             headquarters: 'Tokyo, Japan'
             rank: 8611
             stars: N/A
-            license: N/A
+            license: Commercial
             description: Midokura is a cloud networking technology platform.
             logo: ''
           - item:
@@ -2945,7 +2945,7 @@ landscape:
             headquarters: 'Palo Alto, California'
             rank: 5559
             stars: 50
-            license: N/A
+            license: Commercial
             description: A set of Neutron drivers for the VMware NSX.
             logo: ''
           - item:
@@ -2964,7 +2964,7 @@ landscape:
             headquarters: 'California, Kentucky'
             rank: 72838
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Nuage Networks Fundamentals: Software Defined Networking for the
               Datacenter and Beyond.
@@ -2983,7 +2983,7 @@ landscape:
             market_cap: N/A
             headquarters: 'Sunnyvale, California'
             rank: N/A
-            stars: 333
+            stars: 336
             license: Apache-2.0
             description: Contrail Controller
             logo: ''
@@ -3002,7 +3002,7 @@ landscape:
             headquarters: N/A
             rank: N/A
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Open vSwitch is a multilayer virtual switch licensed under the
               open source Apache 2.0 license.
@@ -3022,7 +3022,7 @@ landscape:
             headquarters: 'Santa Clara, California'
             rank: 9236
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               PLUMgrid is involved in virtual networking and SDN/NFV to deliver
               cloud infrastructure solutions that transform businesses.
@@ -3040,7 +3040,7 @@ landscape:
             headquarters: Not Entered Yet
             rank: Not Entered Yet
             stars: N/A
-            license: N/A
+            license: Commercial
             description: ''
             logo: ''
           - item:
@@ -3058,7 +3058,7 @@ landscape:
             headquarters: 'Palo Alto, California'
             rank: 3427
             stars: N/A
-            license: N/A
+            license: Commercial
             description: SnapRoute is an open networking stack company.
             logo: ''
           - item:
@@ -3077,7 +3077,7 @@ landscape:
             headquarters: 'San Francisco, California'
             rank: 63493
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               CNCF is an open source software foundation that hosts and nurtures
               projects like Kubernetes and Prometheus.
@@ -3097,7 +3097,7 @@ landscape:
             market_cap: 20000000
             headquarters: 'London, United Kingdom'
             rank: 5353
-            stars: 4921
+            stars: 4925
             license: Apache-2.0
             description: 'Simple, resilient multi-host Docker networking and more.'
             logo: ''
@@ -3121,7 +3121,7 @@ landscape:
             market_cap: 21600000
             headquarters: 'Beijing, China'
             rank: 10304
-            stars: 11544
+            stars: 11607
             license: Apache-2.0
             description: >-
               TiDB is a distributed HTAP database compatible with the MySQL
@@ -3143,7 +3143,7 @@ landscape:
             headquarters: 'Cupertino, California'
             rank: 66460
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               MySQL is an open-source database that supports scalable web-based
               and embedded database applications.
@@ -3164,7 +3164,7 @@ landscape:
             headquarters: N/A
             rank: N/A
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               PostgreSQL is an object-relational database management system with
               an emphasis on extensibility and standards-compliance.
@@ -3185,7 +3185,7 @@ landscape:
             headquarters: 'Redwood Shores, California'
             rank: 25519
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Oracle is a computer technology corporation developing and
               marketing computer hardware systems and enterprise software
@@ -3207,7 +3207,7 @@ landscape:
             headquarters: 'Redmond, Washington'
             rank: 37
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Microsoft is a software corporation that develops, manufactures,
               licenses, supports, and sells a range of software products and
@@ -3228,7 +3228,7 @@ landscape:
             headquarters: 'Armonk, New York'
             rank: 6083
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               IBM is an IT technology and consulting firm providing computer
               hardware, software, and infrastructure and hosting services.
@@ -3247,8 +3247,8 @@ landscape:
             market_cap: 311000000
             headquarters: 'New York, New York'
             rank: 1132
-            stars: 12995
-            license: N/A
+            stars: 13032
+            license: Commercial
             description: The MongoDB Database
             logo: ''
           - item:
@@ -3266,7 +3266,7 @@ landscape:
             market_cap: N/A
             headquarters: 'Forest Hill, Maryland'
             rank: 84483
-            stars: 4140
+            stars: 4147
             license: Apache-2.0
             description: Mirror of Apache Cassandra
             logo: ''
@@ -3285,7 +3285,7 @@ landscape:
             headquarters: 'Mountain View, California'
             rank: 957
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Redis Labs is the open source home and commercial provider of
               Redis, a database benchmarked as the world’s fastest.
@@ -3305,7 +3305,7 @@ landscape:
             headquarters: 'Espoo, Finland'
             rank: 908
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               MariaDB Corporation is the company behind MariaDB, the fastest
               growing Open Source database.
@@ -3325,7 +3325,7 @@ landscape:
             market_cap: 6000000
             headquarters: 'San Francisco, California'
             rank: 6812
-            stars: 1895
+            stars: 1900
             license: ECL-2.0
             description: >-
               CrateDB is a distributed SQL database that makes it simple to
@@ -3346,8 +3346,8 @@ landscape:
             market_cap: 8100000
             headquarters: 'San Francisco, California'
             rank: 2626
-            stars: 6423
-            license: N/A
+            stars: 6430
+            license: Commercial
             description: 'The versioned, forkable, syncable database'
             logo: ''
           - item:
@@ -3365,8 +3365,8 @@ landscape:
             market_cap: 5370000
             headquarters: 'Berlin, Germany'
             rank: 3491
-            stars: 2082
-            license: N/A
+            stars: 2101
+            license: Commercial
             description: BigchainDB is a scalable blockchain database
             logo: ''
           - item:
@@ -3385,7 +3385,7 @@ landscape:
             headquarters: 'Mountain View, California'
             rank: 969
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Couchbase is a NoSQL vendor that develops Couchbase Server, an
               open-source, NoSQL, document-oriented database.
@@ -3406,7 +3406,7 @@ landscape:
             headquarters: 'New York, New York'
             rank: 1846
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Cockroach Labs provides world class open source infrastructure
               solutions.
@@ -3427,7 +3427,7 @@ landscape:
             headquarters: 'Mountain View, California'
             rank: 11464
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               RethinkDB is an open-source distributed NoSQL database storing
               JSON documents and scaling data for applications.
@@ -3446,7 +3446,7 @@ landscape:
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
-            stars: 5438
+            stars: 5452
             license: Apache-2.0
             description: >-
               Vitess is a database clustering system for horizontal scaling of
@@ -3468,7 +3468,7 @@ landscape:
             headquarters: 'Redmond, Washington'
             rank: 37
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Microsoft is a software corporation that develops, manufactures,
               licenses, supports, and sells a range of software products and
@@ -3489,7 +3489,7 @@ landscape:
             headquarters: 'San Mateo, California'
             rank: 448
             stars: N/A
-            license: N/A
+            license: Commercial
             description: Snowflake is the only data warehouse built for the cloud.
             logo: ''
           - item:
@@ -3506,7 +3506,7 @@ landscape:
             headquarters: Not Entered Yet
             rank: Not Entered Yet
             stars: N/A
-            license: N/A
+            license: Commercial
             description: ''
             logo: ''
           - item:
@@ -3523,7 +3523,7 @@ landscape:
             headquarters: 'Santa Clara, California'
             rank: 2153
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Qubole delivers a Self-Service Platform for Big Data Analytics
               built on Amazon, Microsoft, Google and Oracle Clouds.
@@ -3543,7 +3543,7 @@ landscape:
             market_cap: N/A
             headquarters: 'Forest Hill, Maryland'
             rank: 84483
-            stars: 567
+            stars: 572
             license: Apache-2.0
             description: Mirror of Apache CarbonData
             logo: ''
@@ -3563,7 +3563,7 @@ landscape:
             headquarters: 'Billerica, Massachusetts'
             rank: 62626
             stars: N/A
-            license: N/A
+            license: Commercial
             description: "Vertica Systems develops data management solutions for storing databases\_and allowing clients to conduct real-time and ad hoc queries."
             logo: ''
           - item:
@@ -3580,7 +3580,7 @@ landscape:
             market_cap: N/A
             headquarters: N/A
             rank: 73009
-            stars: 5403
+            stars: 5509
             license: Apache-2.0
             description: Mirror of Apache Hadoop
             logo: ''
@@ -3600,7 +3600,7 @@ landscape:
             headquarters: 'Herzliya, Israel'
             rank: 402
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               iguazio's Continuous Analytics Data Platform has redesigned the
               data stack to accelerate performance in big data, IoT and
@@ -3621,7 +3621,7 @@ landscape:
             headquarters: 'San Francisco, California'
             rank: 2231
             stars: N/A
-            license: N/A
+            license: Commercial
             description: A real-time data warehouse you can run everywhere
             logo: ''
           - item:
@@ -3639,7 +3639,7 @@ landscape:
             market_cap: 2120000
             headquarters: 'San Francisco, California'
             rank: 15676
-            stars: 2496
+            stars: 2502
             license: Apache-2.0
             description: Reproducible Data Science at Scale!
             logo: ''
@@ -3659,7 +3659,7 @@ landscape:
             headquarters: 'Herzliya, Israel'
             rank: 4602
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               ScyllaDB produces a NoSQL database compatible with Apache
               Cassandra at 10x the throughput and jaw dropping low latency.
@@ -3682,7 +3682,7 @@ landscape:
             market_cap: N/A
             headquarters: 'Forest Hill, Maryland'
             rank: 84483
-            stars: 7245
+            stars: 7299
             license: Apache-2.0
             description: Mirror of Apache Kafka
             logo: ''
@@ -3701,7 +3701,7 @@ landscape:
             headquarters: 'San Francisco, California'
             rank: 25410
             stars: N/A
-            license: N/A
+            license: Commercial
             description: Google Cloud Platform is a tool suite for app developers.
             logo: ''
           - item:
@@ -3718,7 +3718,7 @@ landscape:
             market_cap: N/A
             headquarters: 'Forest Hill, Maryland'
             rank: 84483
-            stars: 15957
+            stars: 16016
             license: Apache-2.0
             description: Mirror of Apache Spark
             logo: ''
@@ -3737,7 +3737,7 @@ landscape:
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
-            stars: 3071
+            stars: 3074
             license: Apache-2.0
             description: >-
               Heron is a realtime, distributed, fault-tolerant stream processing
@@ -3758,7 +3758,7 @@ landscape:
             market_cap: N/A
             headquarters: 'Forest Hill, Maryland'
             rank: 84483
-            stars: 3212
+            stars: 3234
             license: Apache-2.0
             description: Mirror of Apache Flink
             logo: ''
@@ -3770,13 +3770,14 @@ landscape:
             commercial: false
             homepage_url: 'https://apex.apache.org/'
             repo_url: 'https://github.com/apache/apex-core'
-            raw_logo: ./src/hosted_logos/apex.png
+            raw_logo: >-
+              https://upload.wikimedia.org/wikipedia/commons/e/e1/Apache_Apex_Logo.png
             twitter: 'https://twitter.com/apacheapex/'
             crunchbase: 'https://www.crunchbase.com/organization/apache'
             market_cap: N/A
             headquarters: 'Forest Hill, Maryland'
             rank: 84483
-            stars: 273
+            stars: 275
             license: Apache-2.0
             description: Mirror of Apache Apex core
             logo: ''
@@ -3794,7 +3795,7 @@ landscape:
             market_cap: N/A
             headquarters: 'Forest Hill, Maryland'
             rank: 84483
-            stars: 4794
+            stars: 4804
             license: Apache-2.0
             description: Mirror of Apache Storm
             logo: ''
@@ -3813,7 +3814,7 @@ landscape:
             headquarters: 'London, United Kingdom'
             rank: 79723
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Rabbit Technologies offers RabbitMQ which is open source message
               broker software implementing the advanced message queuing protocol
@@ -3835,7 +3836,7 @@ landscape:
             headquarters: 'Forest Hill, Maryland'
             rank: 84483
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Apache Software Foundation (501C3) provides organizational, legal
               and financial support for Apache open-source software projects.
@@ -3854,7 +3855,7 @@ landscape:
             market_cap: N/A
             headquarters: 'Forest Hill, Maryland'
             rank: 84483
-            stars: 786
+            stars: 792
             license: Apache-2.0
             description: Mirror of Apache NiFi
             logo: ''
@@ -3872,7 +3873,7 @@ landscape:
             market_cap: N/A
             headquarters: 'Forest Hill, Maryland'
             rank: 84483
-            stars: 1537
+            stars: 1550
             license: Apache-2.0
             description: Pulsar - distributed pub-sub messaging system
             logo: ''
@@ -3892,7 +3893,7 @@ landscape:
             headquarters: 'San Francisco, California'
             rank: 1520
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Streamsets delivers performance management software for data
               flows.
@@ -3913,7 +3914,7 @@ landscape:
             headquarters: 'Seattle, Washington'
             rank: 10522
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Amazon Web Services provides information technology infrastructure
               services to businesses in the form of web services.
@@ -3936,7 +3937,7 @@ landscape:
             headquarters: 'San Francisco, California'
             rank: 66102
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Bitbucket is a Git and Mercurial code management and collaboration
               platform used by professional teams to build, test and deploy
@@ -3956,8 +3957,8 @@ landscape:
             market_cap: 45620000
             headquarters: 'San Francisco, California'
             rank: 2791
-            stars: 20312
-            license: N/A
+            stars: 20318
+            license: Commercial
             description: >-
               GitLab CE | Please open new issues in our issue tracker on
               GitLab.com
@@ -3976,7 +3977,7 @@ landscape:
             headquarters: 'San Francisco, California'
             rank: 669
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               GitHub is a web-based Git repository hosting service offering
               distributed revision control and source code management
@@ -3999,7 +4000,7 @@ landscape:
             headquarters: 'Redmond, Washington'
             rank: 37
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Microsoft is a software corporation that develops, manufactures,
               licenses, supports, and sells a range of software products and
@@ -4023,7 +4024,7 @@ landscape:
             headquarters: Not Entered Yet
             rank: Not Entered Yet
             stars: N/A
-            license: N/A
+            license: Commercial
             description: ''
             logo: ''
           - item:
@@ -4041,7 +4042,7 @@ landscape:
             market_cap: 74175000
             headquarters: 'San Francisco, California'
             rank: 949
-            stars: 7257
+            stars: 7286
             license: MPL-2.0
             description: >-
               Packer is a tool for creating identical machine images for
@@ -4062,7 +4063,7 @@ landscape:
             market_cap: 242766694
             headquarters: 'San Francisco, California'
             rank: 471
-            stars: 11671
+            stars: 11721
             license: Apache-2.0
             description: Define and run multi-container applications with Docker
             logo: ''
@@ -4081,7 +4082,7 @@ landscape:
             headquarters: 'Seattle, Washington'
             rank: 3174
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Chef is an automation platform that transforms infrastructure into
               code.
@@ -4101,8 +4102,8 @@ landscape:
             market_cap: N/A
             headquarters: 'Forest Hill, Maryland'
             rank: 84483
-            stars: 66
-            license: N/A
+            stars: 67
+            license: Commercial
             description: Mirror of Apache Brooklyn
             logo: ''
           - item:
@@ -4119,7 +4120,7 @@ landscape:
             headquarters: 'San Francisco, California'
             rank: 46946
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Loved by Devs, Trusted by Ops. Easy to use cloud images,
               containers, and VMs that work on any platform
@@ -4140,7 +4141,7 @@ landscape:
             headquarters: 'San Francisco, California'
             rank: N/A
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Created by a consortium of forward-looking industry experts who
               recognize the immense value of standardizing on how REST APIs are
@@ -4165,7 +4166,7 @@ landscape:
             headquarters: 'San Francisco, California'
             rank: N/A
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Jenkins CI is an open-source continuous integration server that
               supports various configurations.
@@ -4185,7 +4186,7 @@ landscape:
             headquarters: 'Berlin, Germany'
             rank: 59288
             stars: N/A
-            license: N/A
+            license: Commercial
             description: Hosted Continuous Integration Platform
             logo: ''
           - item:
@@ -4204,7 +4205,7 @@ landscape:
             headquarters: 'Australia, Oceania'
             rank: 27221
             stars: N/A
-            license: N/A
+            license: Commercial
             description: Octopus Deploy is a user-friendly release management
             logo: ''
           - item:
@@ -4222,7 +4223,7 @@ landscape:
             headquarters: 'San Francisco, California'
             rank: 568
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               CircleCI provides software teams the confidence to build, test,
               and deploy across numerous platforms.
@@ -4242,7 +4243,7 @@ landscape:
             headquarters: 'San Francisco, California'
             rank: 38858
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Drone.io is a hosted Continuous Integration and Deployment
               service.
@@ -4262,7 +4263,7 @@ landscape:
             headquarters: 'Boston, Massachusetts'
             rank: 5416
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Bringing Continuous Deployment to everyone The - Codeship runs
               your hosted tests and automated deployments.
@@ -4282,7 +4283,7 @@ landscape:
             headquarters: 'Sydney, Australia'
             rank: 161
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Atlassian provides collaboration software for teams with products
               including JIRA, Confluence, HipChat, Bitbucket, and Stash.
@@ -4303,7 +4304,7 @@ landscape:
             headquarters: 'San Jose, California'
             rank: 2025
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               CloudBees offers the CloudBees Jenkins Platform, an
               enterprise-grade continuous delivery platform powered by Jenkins.
@@ -4322,7 +4323,7 @@ landscape:
             headquarters: Not Entered Yet
             rank: Not Entered Yet
             stars: N/A
-            license: N/A
+            license: Commercial
             description: ''
             logo: ''
           - item:
@@ -4340,7 +4341,7 @@ landscape:
             headquarters: 'Seattle, Washington'
             rank: 5216
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Shippable helps companies ship code faster by giving them a
               powerful continuous integration platform built natively on Docker.
@@ -4362,7 +4363,7 @@ landscape:
             headquarters: 'Amsterdam, The Netherlands'
             rank: 8016
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Wercker is a platform and tool to rapidly develop, build, and
               deploy containerized applications and microservices for the modern
@@ -4383,7 +4384,7 @@ landscape:
             headquarters: 'Mountain View, California'
             rank: 6200
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Codefresh is a continuous delivery and collaboration platform for
               containers and microservices.
@@ -4402,7 +4403,7 @@ landscape:
             headquarters: 'Vancouver, Canada'
             rank: 924
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Buddybuild is a Vancouver-based app tools company focused on
               continuous integration and debugging tools.
@@ -4422,7 +4423,7 @@ landscape:
             headquarters: 'Seattle, Washington'
             rank: 15410
             stars: N/A
-            license: N/A
+            license: Commercial
             description: True Continuous Delivery from Source Control to Servers.
             logo: ''
           - item:
@@ -4440,7 +4441,7 @@ landscape:
             headquarters: 'San Francisco, California'
             rank: 76617
             stars: N/A
-            license: N/A
+            license: Commercial
             description: Continuous Integration & Deployment
             logo: ''
           - item:
@@ -4457,7 +4458,7 @@ landscape:
             headquarters: 'Novi Sad, Serbia'
             rank: 82436
             stars: N/A
-            license: N/A
+            license: Commercial
             description: Hosted continuous integration and deployment service
             logo: ''
           - item:
@@ -4474,7 +4475,7 @@ landscape:
             headquarters: 'Plano, Texas'
             rank: 1469
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Huawei Technologies provides infrastructure application software
               and devices with wireline, wireless, and IP technologies.
@@ -4494,7 +4495,7 @@ landscape:
             headquarters: N/A
             rank: N/A
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Appveyor Systems Inc. aim is to give powerful continuous
               integration and deployment tools to every .NET developer.
@@ -4515,7 +4516,7 @@ landscape:
             headquarters: 'San Francisco, California'
             rank: 2791
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               GitLab is a web-based open source Git repository manager with wiki
               and issue tracking features.
@@ -4536,7 +4537,7 @@ landscape:
             headquarters: N/A
             rank: 90213
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Buildkite creates the best automation and collaboration tools for
               building and shipping software.
@@ -4555,7 +4556,7 @@ landscape:
             headquarters: Not Entered Yet
             rank: Not Entered Yet
             stars: N/A
-            license: N/A
+            license: Commercial
             description: ''
             logo: ''
           - item:
@@ -4574,7 +4575,7 @@ landscape:
             headquarters: 'Boston, Massachusetts'
             rank: 2287
             stars: 0
-            license: N/A
+            license: Commercial
             description: XL Deploy plugin that can call another XLD instance
             logo: ''
   - category:
@@ -4598,7 +4599,7 @@ landscape:
             headquarters: 'San Francisco, California'
             rank: 1547
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               CoreOS builds industry-leading infrastructure software to securely
               run application containers anywhere.
@@ -4619,7 +4620,7 @@ landscape:
             headquarters: 'San Mateo, California'
             rank: 56547
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Cloud Foundry is a self-service, public cloud deployment platform
               enabling developers to build, test, deploy, and scale
@@ -4641,7 +4642,7 @@ landscape:
             headquarters: 'Raleigh, North Carolina'
             rank: 78339
             stars: N/A
-            license: N/A
+            license: Commercial
             description: OpenShift is an open hybrid cloud application platform by Red Hat.
             logo: ''
           - item:
@@ -4660,7 +4661,7 @@ landscape:
             headquarters: 'San Francisco, California'
             rank: 748
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Mesosphere is a novel cloud operating system that treats your
               datacenter like one big computer.
@@ -4680,7 +4681,7 @@ landscape:
             headquarters: 'San Francisco, California'
             rank: 8984
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               The Apcera cloud platform helps enterprises innovate at speed with
               full confidence and trust.
@@ -4700,7 +4701,7 @@ landscape:
             headquarters: 'Troy, New York'
             rank: 5107
             stars: N/A
-            license: N/A
+            license: Commercial
             description: Apprenda is the leading enterprise Platform as a Service.
             logo: ''
           - item:
@@ -4718,8 +4719,8 @@ landscape:
             market_cap: 30000000
             headquarters: 'Cupertino, California'
             rank: 5015
-            stars: 7595
-            license: N/A
+            stars: 7634
+            license: Commercial
             description: Complete container management platform
             logo: ''
           - item:
@@ -4737,7 +4738,7 @@ landscape:
             headquarters: 'Washington, District of Columbia'
             rank: 94312
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Production-ready cluster and application platform that speeds and
               simplifies the set-up and management of your K8S cluster.
@@ -4757,7 +4758,7 @@ landscape:
             headquarters: 'Palo Alto, California'
             rank: 5559
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               VMware is a software company providing cloud and virtualization
               services.
@@ -4778,7 +4779,7 @@ landscape:
             headquarters: 'Paris, France'
             rank: 9885
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Platform.sh is an automated, continuous-deployment
               high-availability cloud hosting solution
@@ -4798,7 +4799,7 @@ landscape:
             headquarters: 'Sunnyvale, California'
             rank: 1803
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Platform9 is the open source-as-a-service company making cloud
               infrastructure easy.
@@ -4818,7 +4819,7 @@ landscape:
             headquarters: 'Newark, Delaware'
             rank: 25194
             stars: N/A
-            license: N/A
+            license: Commercial
             description: The product that ops provides to developers.
             logo: ''
           - item:
@@ -4836,7 +4837,7 @@ landscape:
             headquarters: 'Cambridge, Massachusetts'
             rank: 20948
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               An early stage startup that's focused on making it easy for
               developers to build resilient microservices.
@@ -4856,7 +4857,7 @@ landscape:
             headquarters: 'San Francisco, California'
             rank: 4974
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Atomist make microservice applications Easy and fun to build,
               through a cloud-based service.
@@ -4877,7 +4878,7 @@ landscape:
             headquarters: 'San Francisco, California'
             rank: 6349
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Iron.io is a scalable cloud-based message queue and processing
               platform for building distributed cloud applications.
@@ -4899,7 +4900,7 @@ landscape:
             market_cap: 56000000
             headquarters: 'San Francisco, California'
             rank: 136
-            stars: 1176
+            stars: 1177
             license: Apache-2.0
             description: 'An open, distributed platform as a service'
             logo: ''
@@ -4917,7 +4918,7 @@ landscape:
             market_cap: 59500000
             headquarters: 'San Francisco, California'
             rank: 6237
-            stars: 2350
+            stars: 2352
             license: BSD-2-Clause
             description: A PaaS built on top of Amazon EC2 Container Service (ECS)
             logo: ''
@@ -4937,7 +4938,7 @@ landscape:
             headquarters: 'San Jose, California'
             rank: 68487
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Nirmata is a cloud based, Microservices operations and management
               platform.
@@ -4957,7 +4958,7 @@ landscape:
             headquarters: 'Cologne, Germany'
             rank: 13626
             stars: N/A
-            license: N/A
+            license: Commercial
             description: Managed Kubernetes Anywhere
             logo: ''
           - item:
@@ -4975,7 +4976,7 @@ landscape:
             headquarters: 'London, United Kingdom'
             rank: 14602
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Ops tools for Devs. Build, manage and maintain applications on any
               cloud
@@ -4995,8 +4996,8 @@ landscape:
             market_cap: N/A
             headquarters: 'New York, New York'
             rank: 71573
-            stars: 1279
-            license: N/A
+            stars: 1281
+            license: Commercial
             description: >-
               The developer friendly container and micro services platform.
               Works on any cloud, easy to setup, simple to use.
@@ -5015,7 +5016,7 @@ landscape:
             headquarters: Not Entered Yet
             rank: Not Entered Yet
             stars: N/A
-            license: N/A
+            license: Commercial
             description: ''
             logo: ''
           - item:
@@ -5033,7 +5034,7 @@ landscape:
             headquarters: 'San Francisco, California'
             rank: 25046
             stars: N/A
-            license: N/A
+            license: Commercial
             description: Gravitational deploys and runs your SaaS on private clouds.
             logo: ''
           - item:
@@ -5051,7 +5052,7 @@ landscape:
             headquarters: 'Hoffman Estates, Illinois'
             rank: N/A
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Navops Launch, Command, and Control your container-ready
               enterprise within minutes.
@@ -5072,7 +5073,7 @@ landscape:
             headquarters: 'San Francisco, California'
             rank: 6912
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Heroku is a multi-language cloud application platform that enables
               developers to deploy, scale, and manage their applications.
@@ -5112,7 +5113,7 @@ landscape:
             headquarters: 'Mountain View, California'
             rank: 516
             stars: N/A
-            license: N/A
+            license: Commercial
             description: Mirantis is the pure-play OpenStack company.
             logo: ''
           - item:
@@ -5130,7 +5131,7 @@ landscape:
             headquarters: 'Seattle, Washington'
             rank: N/A
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Bluemeric Inc offers microservices PaaS platform and offers DevOps
               consulting & services to automate cloud deployments.
@@ -5151,7 +5152,7 @@ landscape:
             headquarters: 'New York, New York'
             rank: 85330
             stars: N/A
-            license: N/A
+            license: Commercial
             description: Hyper_ is a secure container cloud service.
             logo: ''
           - item:
@@ -5169,7 +5170,7 @@ landscape:
             headquarters: 'Lausanne, Switzerland'
             rank: 86749
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               The best cloud hosting platform for SaaS companies, developers and
               systems administrators
@@ -5189,7 +5190,7 @@ landscape:
             headquarters: Not Entered Yet
             rank: Not Entered Yet
             stars: N/A
-            license: N/A
+            license: Commercial
             description: ''
             logo: ''
           - item:
@@ -5207,7 +5208,7 @@ landscape:
             market_cap: 242766694
             headquarters: 'San Francisco, California'
             rank: 471
-            stars: 47444
+            stars: 47512
             license: Apache-2.0
             description: >-
               Moby Project - a collaborative project for the container ecosystem
@@ -5228,7 +5229,7 @@ landscape:
             headquarters: 'South Orange, New Jersey'
             rank: 79022
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Build Future-Proof Applications. Simplify integration. Run
               applications anywhere. Adapt to changes instantly.
@@ -5248,7 +5249,7 @@ landscape:
             market_cap: 50000000
             headquarters: 'San Francisco, California'
             rank: 1547
-            stars: 789
+            stars: 791
             license: Apache-2.0
             description: Documentation for CoreOS projects
             logo: ''
@@ -5267,7 +5268,7 @@ landscape:
             headquarters: 'London, United Kingdom'
             rank: 17784
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Ubuntu is a Debian-based open source Linux operating system for
               PC, tablet, phone, and cloud platforms.
@@ -5288,7 +5289,7 @@ landscape:
             headquarters: 'San Francisco, California'
             rank: 4446
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Lightbend (formerly Typesafe) is dedicated to helping developers
               build Reactive applications on the JVM.
@@ -5309,7 +5310,7 @@ landscape:
             market_cap: 1000000
             headquarters: 'Redmond, Washington'
             rank: 37
-            stars: 1074
+            stars: 1080
             license: MIT
             description: The open source PaaS for Kubernetes.
             logo: ''
@@ -5327,7 +5328,7 @@ landscape:
             headquarters: 'San Francisco, California'
             rank: 471
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Docker is a platform for distributed applications that allows
               developers and sysadmins to build, ship, and run distributed
@@ -5347,7 +5348,7 @@ landscape:
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
-            stars: 2638
+            stars: 2643
             license: BSD-3-Clause
             description: >-
               Open source, extensible and Docker-based Platform as a Service
@@ -5368,7 +5369,7 @@ landscape:
             headquarters: 'Pittsburgh, Pennsylvania'
             rank: 10730
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Containership is a Kubernetes based enterprise
               Containers-as-a-Service platform with support for 12 cloud
@@ -5389,7 +5390,7 @@ landscape:
             headquarters: 'San Francisco, California'
             rank: 27760
             stars: N/A
-            license: N/A
+            license: Commercial
             description: Launch a Private Cloud in Minutes.
             logo: ''
           - item:
@@ -5407,7 +5408,7 @@ landscape:
             headquarters: 'San Francisco, California'
             rank: 25410
             stars: N/A
-            license: N/A
+            license: Commercial
             description: Google Cloud Platform is a tool suite for app developers.
             logo: ''
           - item:
@@ -5424,7 +5425,7 @@ landscape:
             headquarters: Not Entered Yet
             rank: Not Entered Yet
             stars: N/A
-            license: N/A
+            license: Commercial
             description: ''
             logo: ''
           - item:
@@ -5443,7 +5444,7 @@ landscape:
             headquarters: 'London, United Kingdom'
             rank: 8452
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Pusher is a cloud-based tech platform enabling developers to
               create collaborative tools, multiplayer games, chat and real-time
@@ -5465,7 +5466,7 @@ landscape:
             headquarters: 'San Francisco, California'
             rank: 6237
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Remind is a communication platform that helps every student
               succeed.
@@ -5485,7 +5486,7 @@ landscape:
             headquarters: 'Strasbourg, France'
             rank: N/A
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Scalingo a Docker Platform Service Transform your code as Docker
               container & run it on our cloud, making it instantly available &
@@ -5505,7 +5506,7 @@ landscape:
             headquarters: Not Entered Yet
             rank: Not Entered Yet
             stars: N/A
-            license: N/A
+            license: Commercial
             description: ''
             logo: ''
           - item:
@@ -5522,7 +5523,7 @@ landscape:
             market_cap: N/A
             headquarters: N/A
             rank: N/A
-            stars: 514
+            stars: 515
             license: Apache-2.0
             description: >-
               Automatically scale hardware and easily run stateful applications
@@ -5544,7 +5545,7 @@ landscape:
             headquarters: 'Nürnberg, Germany'
             rank: 60556
             stars: 10
-            license: N/A
+            license: Commercial
             description: SUSE Container as a Service Platform Documentation
             logo: ''
       - subcategory:
@@ -5566,7 +5567,7 @@ landscape:
             headquarters: 'Seattle, Washington'
             rank: 10522
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Amazon Web Services provides information technology infrastructure
               services to businesses in the form of web services.
@@ -5586,7 +5587,7 @@ landscape:
             market_cap: N/A
             headquarters: 'Peterborough, United Kingdom'
             rank: N/A
-            stars: 8436
+            stars: 8511
             license: MIT
             description: >-
               OpenFaaS - Serverless Functions Made Simple for Docker &
@@ -5607,7 +5608,7 @@ landscape:
             headquarters: 'San Francisco, California'
             rank: 25410
             stars: N/A
-            license: N/A
+            license: Commercial
             description: Google Cloud Platform is a tool suite for app developers.
             logo: ''
           - item:
@@ -5625,7 +5626,7 @@ landscape:
             market_cap: N/A
             headquarters: 'Forest Hill, Maryland'
             rank: 84483
-            stars: 2357
+            stars: 2383
             license: Apache-2.0
             description: >-
               Apache OpenWhisk is a serverless event-based programming service
@@ -5647,7 +5648,7 @@ landscape:
             headquarters: 'Redwood Shores, California'
             rank: 25519
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Oracle is a computer technology corporation developing and
               marketing computer hardware systems and enterprise software
@@ -5669,7 +5670,7 @@ landscape:
             headquarters: 'San Francisco, California'
             rank: 5337
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Firebase is Google's mobile platform. Build and grow your iOS,
               Android, or Web app with Firebase.
@@ -5689,7 +5690,7 @@ landscape:
             headquarters: N/A
             rank: N/A
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Webtasks is a simple, lightweight, and secure way of running
               isolated backend code that removed or reduces the need for a
@@ -5709,7 +5710,7 @@ landscape:
             market_cap: 36500000
             headquarters: 'Sunnyvale, California'
             rank: 1803
-            stars: 2961
+            stars: 2979
             license: Apache-2.0
             description: Fast Serverless Functions for Kubernetes
             logo: ''
@@ -5727,7 +5728,7 @@ landscape:
             headquarters: 'San Francisco, California'
             rank: 3781
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               The PubNub Data Stream Network enables mobile and web developers
               to build and scale realtime apps.
@@ -5746,7 +5747,7 @@ landscape:
             headquarters: Not Entered Yet
             rank: Not Entered Yet
             stars: N/A
-            license: N/A
+            license: Commercial
             description: ''
             logo: ''
           - item:
@@ -5765,7 +5766,7 @@ landscape:
             headquarters: 'San Francisco, California'
             rank: 1999
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Serverless offers developers an open source framework powered by
               AWS Lambda and AWS API Gateway.
@@ -5784,7 +5785,7 @@ landscape:
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
-            stars: 1810
+            stars: 1837
             license: Apache-2.0
             description: Kubernetes Native Serverless Framework
             logo: ''
@@ -5803,7 +5804,7 @@ landscape:
             headquarters: Not Entered Yet
             rank: Not Entered Yet
             stars: N/A
-            license: N/A
+            license: Commercial
             description: ''
             logo: ''
           - item:
@@ -5822,7 +5823,7 @@ landscape:
             headquarters: 'Herzliya, Israel'
             rank: 402
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               iguazio's Continuous Analytics Data Platform has redesigned the
               data stack to accelerate performance in big data, IoT and
@@ -5844,7 +5845,7 @@ landscape:
             headquarters: 'Redmond, Washington'
             rank: 37
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Microsoft is a software corporation that develops, manufactures,
               licenses, supports, and sells a range of software products and
@@ -5890,7 +5891,7 @@ landscape:
             headquarters: 'San Francisco, California'
             rank: 486
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               New Relic is a leading digital intelligence company, delivering
               full-stack visibility and analytics to enterprises around the
@@ -5911,7 +5912,7 @@ landscape:
             headquarters: 'San Francisco, California'
             rank: 405
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               AppDynamics develops application performance management (APM)
               solutions that deliver problem resolution for highly distributed
@@ -5932,7 +5933,7 @@ landscape:
             headquarters: Not Entered Yet
             rank: Not Entered Yet
             stars: N/A
-            license: N/A
+            license: Commercial
             description: ''
             logo: ''
           - item:
@@ -5950,7 +5951,7 @@ landscape:
             headquarters: 'New York, New York'
             rank: 808
             stars: N/A
-            license: N/A
+            license: Commercial
             description: Datadog offers a cloud-scale monitoring service.
             logo: ''
           - item:
@@ -5969,7 +5970,7 @@ landscape:
             headquarters: 'Seattle, Washington'
             rank: 10522
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Amazon Web Services provides information technology infrastructure
               services to businesses in the form of web services.
@@ -5989,7 +5990,7 @@ landscape:
             headquarters: 'Boston, Massachusetts'
             rank: 13387
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Stackdriver provides monitoring services for cloud-powered
               applications.
@@ -6011,7 +6012,7 @@ landscape:
             headquarters: 'San Francisco, California'
             rank: 63493
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               CNCF is an open source software foundation that hosts and nurtures
               projects like Kubernetes and Prometheus.
@@ -6030,7 +6031,7 @@ landscape:
             market_cap: 53000000
             headquarters: 'San Francisco, California'
             rank: 3414
-            stars: 4808
+            stars: 4815
             license: GPL-2.0
             description: >-
               Linux system exploration and troubleshooting tool with first class
@@ -6051,7 +6052,7 @@ landscape:
             headquarters: 'Palo Alto, California'
             rank: 2820
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Wavefront is a hosted platform for ingesting, storing, visualizing
               and alerting on time series data.
@@ -6070,7 +6071,7 @@ landscape:
             headquarters: 'San Francisco, California'
             rank: 1310
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Instana is an APM solution that automatically monitors dynamic
               modern apps.
@@ -6090,7 +6091,7 @@ landscape:
             headquarters: 'Kirkland, Washington'
             rank: 89318
             stars: N/A
-            license: N/A
+            license: Commercial
             description: 'Exception, uptime, and performance monit'
             logo: ''
           - item:
@@ -6109,7 +6110,7 @@ landscape:
             headquarters: N/A
             rank: N/A
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Icinga is a monitoring software project that began as a fork of
               Nagios.
@@ -6130,7 +6131,7 @@ landscape:
             headquarters: 'Fulton, Maryland'
             rank: 67064
             stars: N/A
-            license: N/A
+            license: Commercial
             description: Realtime Monitoring and Analytics
             logo: ''
           - item:
@@ -6147,7 +6148,7 @@ landscape:
             headquarters: 'San Francisco, California'
             rank: 7128
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Rocana is a San Francisco, CA-based provider of root cause
               analysis software company
@@ -6167,7 +6168,7 @@ landscape:
             headquarters: 'Sunnyvale, California'
             rank: 9080
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Intelligent Monitoring for Modern Applications and Data
               Infrastructure
@@ -6188,7 +6189,7 @@ landscape:
             headquarters: 'Saint Paul, Minnesota'
             rank: 74911
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Nagios Enterprises offers monitoring and alerting solutions for
               servers, switches, applications, and services.
@@ -6209,7 +6210,7 @@ landscape:
             headquarters: 'Riga, Latvia'
             rank: 87664
             stars: N/A
-            license: N/A
+            license: Commercial
             description: 'ZABBIX SIA is based in Riga, Latvia.'
             logo: ''
           - item:
@@ -6226,7 +6227,7 @@ landscape:
             headquarters: Not Entered Yet
             rank: Not Entered Yet
             stars: N/A
-            license: N/A
+            license: Commercial
             description: ''
             logo: ''
           - item:
@@ -6244,8 +6245,8 @@ landscape:
             market_cap: 24892000
             headquarters: 'San Francisco, California'
             rank: 1537
-            stars: 12424
-            license: N/A
+            stars: 12472
+            license: Commercial
             description: 'Scalable datastore for metrics, events, and real-time analytics'
             logo: ''
           - item:
@@ -6261,7 +6262,7 @@ landscape:
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
-            stars: 2895
+            stars: 2902
             license: GPL-3.0
             description: 'A scalable, distributed Time Series Database.'
             logo: ''
@@ -6280,7 +6281,7 @@ landscape:
             headquarters: 'San Francisco, California'
             rank: 15129
             stars: N/A
-            license: N/A
+            license: Commercial
             description: Observability and Monitoring for Modern Cloud Applications
             logo: ''
           - item:
@@ -6298,7 +6299,7 @@ landscape:
             headquarters: 'Clearwater, Florida'
             rank: N/A
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Meros is creating enterprise monitoring and management tools for
               Docker
@@ -6318,7 +6319,7 @@ landscape:
             headquarters: 'San Francisco, California'
             rank: 15146
             stars: N/A
-            license: N/A
+            license: Commercial
             description: APM for JavaScript
             logo: ''
           - item:
@@ -6335,7 +6336,7 @@ landscape:
             headquarters: Not Entered Yet
             rank: Not Entered Yet
             stars: N/A
-            license: N/A
+            license: Commercial
             description: ''
             logo: ''
           - item:
@@ -6353,7 +6354,7 @@ landscape:
             headquarters: 'London, United Kingdom'
             rank: 17075
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Server Density is a SaaS product that helps users manage and
               monitor their infrastructure.
@@ -6372,7 +6373,7 @@ landscape:
             headquarters: 'San Francisco, California'
             rank: 13322
             stars: N/A
-            license: N/A
+            license: Commercial
             description: Real time operations analytics for metrics from any source
             logo: ''
           - item:
@@ -6391,7 +6392,7 @@ landscape:
             headquarters: 'Boston, Massachusetts'
             rank: 1431
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               AppNeta is the only app performance monitoring company with
               solutions for apps you develop, SaaS apps you use & networks that
@@ -6411,7 +6412,7 @@ landscape:
             headquarters: 'New York, New York'
             rank: 2781
             stars: N/A
-            license: N/A
+            license: Commercial
             description: 'Catchpoint is a leading digital experience intelligence company '
             logo: ''
           - item:
@@ -6429,7 +6430,7 @@ landscape:
             headquarters: 'Waltham, Massachusetts'
             rank: 2583
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Dynatrace transform how Web and non-Web business-critical
               applications are monitored, managed, and optimized throughout
@@ -6451,7 +6452,7 @@ landscape:
             headquarters: 'Gent, Belgium'
             rank: 15425
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Full stack performance monitoring. Built for container and
               microservices applications. Powered by anomaly detection.
@@ -6471,7 +6472,7 @@ landscape:
             headquarters: 'San Francisco, California'
             rank: 17903
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Infrastructure monitoring platform made for DevOps and
               microservices.
@@ -6491,7 +6492,7 @@ landscape:
             market_cap: N/A
             headquarters: 'Paris, France'
             rank: N/A
-            stars: 187
+            stars: 188
             license: GPL-2.0
             description: >-
               Centreon is a network, system, applicative supervision and
@@ -6512,7 +6513,7 @@ landscape:
             headquarters: 'San Francisco, California'
             rank: 2238
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               LightStep's mission is to cut through the scale and complexity of
               today's software to help organizations stay in control of their
@@ -6532,7 +6533,7 @@ landscape:
             headquarters: 'San Mateo, California'
             rank: 3533
             stars: N/A
-            license: N/A
+            license: Commercial
             description: Advanced monitoring platform for modern applications
             logo: ''
           - item:
@@ -6550,7 +6551,7 @@ landscape:
             headquarters: 'San Francisco, California'
             rank: 600
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Building products focused on Node.js security and performance for
               the Enterprise.
@@ -6571,7 +6572,7 @@ landscape:
             headquarters: 'New York, New York'
             rank: 64875
             stars: N/A
-            license: N/A
+            license: Commercial
             description: the defacto standard for visualizing time series data.
             logo: ''
           - item:
@@ -6590,7 +6591,7 @@ landscape:
             headquarters: 'Redmond, Washington'
             rank: 37
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Microsoft is a software corporation that develops, manufactures,
               licenses, supports, and sells a range of software products and
@@ -6611,7 +6612,7 @@ landscape:
             market_cap: 20000000
             headquarters: 'London, United Kingdom'
             rank: 5353
-            stars: 2157
+            stars: 2166
             license: Apache-2.0
             description: 'Monitoring, visualisation & management for Docker & Kubernetes'
             logo: ''
@@ -6631,7 +6632,7 @@ landscape:
             headquarters: 'Tokyo, Japan'
             rank: 18567
             stars: N/A
-            license: N/A
+            license: Commercial
             description: Managing Creative Obsessions
             logo: ''
           - item:
@@ -6649,7 +6650,7 @@ landscape:
             headquarters: 'San Francisco, California'
             rank: 4725
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Sentry is a real-time crash reporting tool for web, mobile, and
               games.
@@ -6670,7 +6671,7 @@ landscape:
             headquarters: 'Mountain View, California'
             rank: 4843
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               StackRox delivers the industry's only adaptive threat protection
               for containers.
@@ -6690,7 +6691,7 @@ landscape:
             headquarters: 'Utrecht, The Netherlands'
             rank: 72893
             stars: N/A
-            license: N/A
+            license: Commercial
             description: The market-leading Algorithmic IT Operations platform
             logo: ''
           - item:
@@ -6708,7 +6709,7 @@ landscape:
             headquarters: 'London, United Kingdom'
             rank: 5353
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Weaveworks provides a simple and consistent way to connect and
               manage containers and microservices
@@ -6732,7 +6733,7 @@ landscape:
             headquarters: 'San Francisco, California'
             rank: 677
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Splunk provides operational intelligence software that monitors,
               reports, and analyzes real-time machine data.
@@ -6753,7 +6754,7 @@ landscape:
             headquarters: 'Mountain View, California'
             rank: 907
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Elastic builds software to make data usable in real time and at
               scale for search, logging, security, and analytics use cases.
@@ -6774,7 +6775,7 @@ landscape:
             headquarters: 'Brooklyn, New York'
             rank: 86097
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Sematext is a Search and Big Data analytics products and services
               company.
@@ -6795,7 +6796,7 @@ landscape:
             headquarters: 'Redwood City, California'
             rank: 94
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Sumo Logic, a log management and analytics service, transforms big
               data into sources of operations, security and compliance
@@ -6815,7 +6816,7 @@ landscape:
             headquarters: 'San Francisco, California'
             rank: 380
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Loggly parses your log files, shows you the code in GitHub which
               caused the log errors. 10,000+ customers, including 1/3 of the
@@ -6835,7 +6836,7 @@ landscape:
             headquarters: 'Tel Aviv, Israel'
             rank: 1815
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Logz.io is an enterprise-grade ELK as a service with alerts,
               unlimited scalability, and predictive fault detection.
@@ -6856,8 +6857,8 @@ landscape:
             market_cap: N/A
             headquarters: 'San Francisco, California'
             rank: 63493
-            stars: 5976
-            license: N/A
+            stars: 5997
+            license: Commercial
             description: 'Fluentd: Unified Logging Layer (project under CNCF)'
             logo: ''
           - item:
@@ -6875,7 +6876,7 @@ landscape:
             headquarters: 'San Francisco, California'
             rank: 2298
             stars: N/A
-            license: N/A
+            license: Commercial
             description: Predict & Prevent Problems in the Digital Business
             logo: ''
           - item:
@@ -6894,7 +6895,7 @@ landscape:
             headquarters: 'Houston, Texas'
             rank: 13210
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               Graylog is a fully integrated platform for collecting, indexing,
               and analyzing.
@@ -6919,7 +6920,7 @@ landscape:
             headquarters: 'San Francisco, California'
             rank: 63493
             stars: N/A
-            license: N/A
+            license: Commercial
             description: >-
               CNCF is an open source software foundation that hosts and nurtures
               projects like Kubernetes and Prometheus.
@@ -6938,7 +6939,7 @@ landscape:
             headquarters: Not Entered Yet
             rank: Not Entered Yet
             stars: N/A
-            license: N/A
+            license: Commercial
             description: ''
             logo: ''
           - item:
@@ -6955,7 +6956,7 @@ landscape:
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
-            stars: 7541
+            stars: 7565
             license: Apache-2.0
             description: Zipkin is a distributed tracing system
             logo: ''
@@ -6976,7 +6977,7 @@ landscape:
             market_cap: N/A
             headquarters: 'San Francisco, California'
             rank: 63493
-            stars: 3852
+            stars: 3898
             license: Apache-2.0
             description: 'CNCF Jaeger, a Distributed Tracing System'
             logo: ''
@@ -6993,7 +6994,7 @@ landscape:
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
-            stars: 577
+            stars: 579
             license: Apache-2.0
             description: Distributed tracing for spring cloud
             logo: ''
@@ -7009,7 +7010,7 @@ landscape:
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
-            stars: 1209
-            license: N/A
+            stars: 1216
+            license: Commercial
             description: 'Application tracing system for Go, based on Google''s Dapper.'
             logo: ''
