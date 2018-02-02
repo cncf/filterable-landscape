@@ -15,10 +15,46 @@ const Filters = () => {
   return <div>
       <FormGroup row>
         <FormControl component="fieldset">
+          <FormLabel component="legend">{fields.landscape.label}</FormLabel>
+          <LandscapeFilterContainer/>
+        </FormControl>
+      </FormGroup>
+
+      <FormGroup row>
+        <FormControl component="fieldset">
           <FormLabel component="legend">{fields.cncfProject.label}</FormLabel>
           <CncfFilterContainer/>
         </FormControl>
       </FormGroup>
+
+      <FormGroup row>
+        <FormControl component="fieldset">
+          <FormLabel component="legend">{fields.license.label}</FormLabel>
+          <LicenseFilterContainer />
+        </FormControl>
+      </FormGroup>
+
+      <FormGroup row>
+        <FormControl component="fieldset">
+          <FormLabel component="legend">{fields.company.label}</FormLabel>
+          <CompanyFilterContainer />
+        </FormControl>
+      </FormGroup>
+
+      <FormGroup row>
+        <FormControl component="fieldset">
+          <FormLabel component="legend">{fields.marketCap.label}</FormLabel>
+          <MarketCapFilterContainer />
+        </FormControl>
+      </FormGroup>
+
+      <FormGroup row>
+        <FormControl component="fieldset">
+          <FormLabel component="legend">{fields.headquarters.label}</FormLabel>
+          <HeadquartersFilterContainer />
+        </FormControl>
+      </FormGroup>
+
 
       <FormGroup row>
         <FormControl component="fieldset">
@@ -34,19 +70,6 @@ const Filters = () => {
         </FormControl>
       </FormGroup>
 
-      <FormGroup row>
-        <FormControl component="fieldset">
-          <FormLabel component="legend">{fields.license.label}</FormLabel>
-          <LicenseFilterContainer />
-        </FormControl>
-      </FormGroup>
-
-      <FormGroup row>
-        <FormControl component="fieldset">
-          <FormLabel component="legend">{fields.marketCap.label}</FormLabel>
-          <MarketCapFilterContainer />
-        </FormControl>
-      </FormGroup>
 
       {
       // <FormGroup row>
@@ -57,26 +80,7 @@ const Filters = () => {
       // </FormGroup>
       }
 
-      <FormGroup row>
-        <FormControl component="fieldset">
-          <FormLabel component="legend">{fields.company.label}</FormLabel>
-          <CompanyFilterContainer />
-        </FormControl>
-      </FormGroup>
 
-      <FormGroup row>
-        <FormControl component="fieldset">
-          <FormLabel component="legend">{fields.headquarters.label}</FormLabel>
-          <HeadquartersFilterContainer />
-        </FormControl>
-      </FormGroup>
-
-      <FormGroup row>
-        <FormControl component="fieldset">
-          <FormLabel component="legend">{fields.landscape.label}</FormLabel>
-          <LandscapeFilterContainer/>
-        </FormControl>
-      </FormGroup>
     </div>;
 }
 export default Filters;

@@ -225,7 +225,7 @@ const fields = {
   },
   landscape: {
     id: 'landscape',
-    label: 'CNCF Filterable Landscape',
+    label: 'Category',
     isArray: true,
     values: [].concat(lookups.landscape || []),
     processValuesBeforeSaving: function(values) {
