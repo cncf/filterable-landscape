@@ -1,5 +1,4 @@
 import React from 'react';
-import classNames from 'classnames';
 import Icon from 'material-ui/Icon';
 import millify from 'millify'
 import Subheader from 'material-ui/List/ListSubheader';
@@ -12,12 +11,9 @@ const MainContent = ({groupedItems, onSelectItem}) => {
           <Subheader component="div" style={{fontSize: 24}}>{groupedItem.header} ({groupedItem.items.length})</Subheader>
       </div>
     ].concat(_.map(groupedItem.items, function(item) {
-      console.log(item);
-      
-      return (<div className="mosaic" key={item.id} style={{ background: item.oss ? 'white' : '#eeeeee'}}>
-                <div className="logo_wrapper" style={{border: '1px solid #f0f0f0'}}
-                >
-                  <div className={classNames(`${item.logo}-tile`,{ logo: true})} onClick={() => onSelectItem(item.id)}/>
+      return (<div className="mosaic" key={item.id} style={{ background: item.oss ? 'white' : '#eeeeee'}} onClick={() => onSelectItem(item.id)} >
+                <div className="logo_wrapper" style={{border: '1px solid #f0f0f0'}}>
+                  <img src={item.hrefTile} className='logo' max-height='100%' max-width='100%' />
                 </div>
                 <div className="info">
                   <div>

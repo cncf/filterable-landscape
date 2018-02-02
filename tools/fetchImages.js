@@ -169,7 +169,7 @@ async function normalizeImage({inputFile, outputFile}) {
   await image.autocrop();
   await Promise.map(sizes, async function(size) {
     var clone = image.clone();
-    await clone.scaleToFit(size.width, size.height);
+    await clone.contain(size.width, size.height);
     await clone.write(outputFile.replace('.png', `-${size.name}.png`));
   });
 }
