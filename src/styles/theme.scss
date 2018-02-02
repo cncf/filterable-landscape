@@ -77,6 +77,8 @@
 
     .logos{
       display: flex;
+      justify-content: space-between;
+      width:100%;
 
       div{
         background-position: center center;
@@ -85,9 +87,15 @@
         height: 40px;
         padding:10px 0;
 
-        &.partner1{
+        &.cncf_logo{
           background-image: url(./assets/cncf.png);
           min-width: 200px;
+
+        }
+
+        &.cncf_landscape{
+          background-image: url(./assets/cncf-landscape.png);
+          min-width: 150px;
         }
 
       }

@@ -4,15 +4,14 @@ const HeaderContainer = () => {
   
   return (
     <div className="header_container">
-      <div className="title">
-        
-        <p>1</p>
-      </div>
       
       <div className="header">
         <div className="logos">
+          <a href="" target="_blank" rel="noopener noreferrer">
+            <div className="cncf_landscape" />
+          </a>
           <a href="https://www.cncf.io/" target="_blank" rel="noopener noreferrer">
-            <div className="partner1" />
+            <div className="cncf_logo" />
           </a>
         </div>
       
