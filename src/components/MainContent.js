@@ -1,5 +1,6 @@
 import React from 'react';
 import Icon from 'material-ui/Icon';
+import millify from 'millify'
 import Subheader from 'material-ui/List/ListSubheader';
 import _ from 'lodash';
 
@@ -15,15 +16,20 @@ const MainContent = ({groupedItems, onSelectItem}) => {
                   <img src={item.hrefTile} className='logo' max-height='100%' max-width='100%' />
                 </div>
                 <div className="info">
-                  <h5>{item.name}</h5>
                   <div>
-                    <span>{item.company} ({item.marketCapAsText})</span>
+                    <h5>{item.name}</h5>
                     { item.starsPresent &&
                       <span>
                         <Icon color="disabled" style={{ fontSize: 15 }}>star</Icon>
                         <span>{item.starsAsText}</span>
                       </span>
                     }
+                  </div>
+                  <div>
+                    {item.company}
+                    { Number.isInteger(item.marketCap) ? ' ('+ millify( item.marketCap )+')' : '' }
+                    {/*{item.company} { Number.isInteger(item.funcing) ? 'Funding:'+ millify( item.funding )+'' : '' } */}
+  
                   </div>
                 </div>
               </div>);
