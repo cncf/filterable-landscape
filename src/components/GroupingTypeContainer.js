@@ -2,13 +2,13 @@ import { connect } from 'react-redux';
 import ComboboxSelector from './ComboboxSelector';
 import { changeGrouping } from '../reducers/mainReducer.js';
 import fields from '../types/fields';
-import _ from 'lodash';
 
+const groupingFields = ['cncfRelation', 'landscape', 'license', 'company', 'headquarters'];
 const options = [{
   id: 'no',
   label: 'No Grouping',
   url: 'no'
-}].concat(_.keys(fields).map(function(x) {
+}].concat(groupingFields.map(function(x) {
   return  {
     id: x,
     label: fields[x].groupingLabel
