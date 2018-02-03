@@ -19,7 +19,7 @@ const ComboboxSelector = ({value, options, onChange}) => {
 
   return <Select
     multiple
-    style={{width:200}}
+    style={{width:170, fontSize:'0.9em'}}
     value={idToValue(value)}
     onChange={(e) => onChange(valueToId(e.target.value))}
     renderValue={renderValue }
