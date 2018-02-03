@@ -2004,19 +2004,23 @@ landscape:
             cncf_member: true
           - item:
             name: Rook
-            company: Rook
+            company: Cloud Native Computing Foundation (CNCF)
             homepage_url: 'https://rook.io/'
-            repo_url: 'https://github.com/rook'
+            repo_url: 'https://github.com/rook/rook'
             raw_logo: >-
               https://raw.githubusercontent.com/rook/rook/master/Documentation/media/logo.png
             twitter: 'https://twitter.com/rook_io'
-            cncf_project: false
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
-            rank: Not Entered Yet
+            crunchbase: >-
+              https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            cncf_project: true
+            market_cap: N/A
+            headquarters: 'San Francisco, California'
+            rank: 63493
             stars: N/A
-            license: Unknown License
-            description: ''
+            license: NotOpenSource
+            description: >-
+              CNCF is an open source software foundation that hosts and nurtures
+              projects like Kubernetes and Prometheus.
             cncf_member: false
           - item:
             name: Robin Systems
@@ -3068,15 +3072,17 @@ landscape:
             cncf_member: false
           - item:
             name: Vitess
-            company: CNCF
+            company: Cloud Native Computing Foundation (CNCF)
             homepage_url: 'http://vitess.io/'
             raw_logo: 'http://vitess.io/images/vitess_logo_with_border.svg'
             repo_url: 'https://github.com/youtube/vitess'
             twitter: 'https://twitter.com/vitessio'
+            crunchbase: >-
+              https://www.crunchbase.com/organization/cloud-native-computing-foundation
             cncf_project: true
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
-            rank: Not Entered Yet
+            market_cap: N/A
+            headquarters: 'San Francisco, California'
+            rank: 63493
             stars: 5457
             license: Apache-2.0
             description: >-
