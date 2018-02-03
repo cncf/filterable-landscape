@@ -3,6 +3,7 @@
   background-color:#F4F4f4;
   overflow:hidden;
   font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  padding-left:20px;
 }
 
 .sh_wrapper{
@@ -18,9 +19,6 @@
     font-size:0.8em !important;
   }
 
-  .menu_item{
-
-  }
 }
 
 .mosaic{
@@ -84,7 +82,7 @@
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    padding: 15px 30px;
+    padding: 15px 0;
 
     .logos{
       display: flex;

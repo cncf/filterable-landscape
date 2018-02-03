@@ -27,7 +27,7 @@ const HomePage = ({hasData}) => {
           <Filters />
           <Grouping/>
           <Sorting/>
-          <LeftPanelInfoContainer style={{width: 200}}/>
+          <LeftPanelInfoContainer/>
         </Grid>
         <Grid item xs={9} sm={9} className="content">
           {/*<h1 className='logo'> Summary Placeholder </h1>*/}
