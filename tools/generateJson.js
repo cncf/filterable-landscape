@@ -17,6 +17,8 @@ tree.map(function(node) {
     });
     items.push({...node,
       cncfProject: node.cncf_project,
+      cncfMember: node.cncf_member,
+      cncfRelation: node.cncf_project ? 'hosted' : node.cncf_member ? 'member' : false,
       path: parts.join(' / '),
       landscape: parts.join(' / '),
       category: parts[0],
@@ -29,6 +31,7 @@ tree.map(function(node) {
 });
 const itemsWithExtraFields = items.map(function(item) {
   delete item.cncf_project;
+  delete item.cncf_member;
   delete item.market_cap;
   delete item.item;
   const otherItems = _.filter(items, {name: item.name});

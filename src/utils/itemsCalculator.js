@@ -10,7 +10,7 @@ const getFilteredItems = createSelector(
   (state) => state.main.data,
   (state) => state.main.filters,
   function(data, filters) {
-    var filterCncfHostedProject = filterFn({field: 'cncfProject', filters});
+    var filterCncfHostedProject = filterFn({field: 'cncfRelation', filters});
     var filterByStars = filterFn({field: 'stars', filters});
     var filterByCertifiedKubernetes = filterFn({field: 'certifiedKubernetes', filters});
     var filterByLicense = filterFn({field: 'license', filters});

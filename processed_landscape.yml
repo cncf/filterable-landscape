@@ -25,6 +25,7 @@ landscape:
             rank: 63493
             stars: 32043
             license: Apache-2.0
+            cncf_member: false
           - item:
             name: Amazon ECS
             company: Amazon Web Services
@@ -43,6 +44,7 @@ landscape:
             description: >-
               Amazon Web Services provides information technology infrastructure
               services to businesses in the form of web services.
+            cncf_member: true
           - item:
             name: Nomad
             company: HashiCorp
@@ -63,6 +65,7 @@ landscape:
               diverse workload of micro-service, batch, containerized and
               non-containerized applications. Nomad is easy to operate and scale
               and integrates seamlessly with Consul and Vault.
+            cncf_member: false
           - item:
             name: Mesos
             company: Apache Mesos
@@ -81,6 +84,7 @@ landscape:
             description: >-
               Program against your datacenter like it’s a single pool of
               resources.
+            cncf_member: false
           - item:
             name: Microsoft Azure Service Fabric
             company: Microsoft Azure Certified
@@ -100,6 +104,7 @@ landscape:
             description: >-
               This repository is the starting point to engage in and learn about
               Service Fabric open source projects from Microsoft.
+            cncf_member: false
           - item:
             name: Docker Swarm
             company: Docker
@@ -115,6 +120,7 @@ landscape:
             stars: 4983
             license: Apache-2.0
             description: 'Swarm: a Docker-native clustering system'
+            cncf_member: true
       - subcategory:
         name: Coordination & Service Discovery
         items:
@@ -136,6 +142,7 @@ landscape:
             description: >-
               Distributed reliable key-value store for the most critical data of
               a distributed system
+            cncf_member: true
           - item:
             name: Consul
             company: HashiCorp
@@ -155,6 +162,7 @@ landscape:
               Consul is a distributed, highly available, and data center aware
               solution to connect and configure applications across dynamic,
               distributed infrastructure.
+            cncf_member: false
           - item:
             name: Zookeeper
             company: Apache Software Foundation
@@ -171,6 +179,7 @@ landscape:
             stars: 3910
             license: Apache-2.0
             description: Mirror of Apache Hadoop ZooKeeper
+            cncf_member: false
           - item:
             name: ContainerPilot
             company: Joyent
@@ -189,6 +198,7 @@ landscape:
             description: >-
               A service for autodiscovery and configuration of applications
               running in containers
+            cncf_member: true
           - item:
             name: SkyDNS
             company: Skynet Services
@@ -202,6 +212,7 @@ landscape:
             stars: 1716
             license: MIT
             description: DNS service discovery for etcd
+            cncf_member: false
           - item:
             name: CoreDNS
             company: Cloud Native Computing Foundation (CNCF)
@@ -219,6 +230,7 @@ landscape:
             stars: 1577
             license: Apache-2.0
             description: CoreDNS is a DNS server that chains plugins
+            cncf_member: false
           - item:
             name: Registrator
             company: Glider Labs
@@ -234,6 +246,7 @@ landscape:
             stars: 3456
             license: MIT
             description: Service registry bridge for Docker with pluggable adapters
+            cncf_member: false
           - item:
             name: SmartStack
             company: Airbnb
@@ -248,6 +261,7 @@ landscape:
             stars: 205
             license: MIT
             description: The chef recipes for running and testing Airbnb's SmartStack
+            cncf_member: false
           - item:
             name: Hyperbahn
             company: Uber
@@ -264,6 +278,7 @@ landscape:
             description: >-
               Service discovery and routing for large scale microservice
               operations
+            cncf_member: false
           - item:
             name: Eureka
             company: Netflix
@@ -280,6 +295,7 @@ landscape:
             description: >-
               AWS Service registry for resilient mid-tier load balancing and
               failover.
+            cncf_member: false
           - item:
             name: Haret
             company: VMware
@@ -298,6 +314,7 @@ landscape:
             description: >-
               A strongly consistent distributed coordination system, built using
               proven protocols & implemented in Rust.
+            cncf_member: false
       - subcategory:
         name: Service Management
         items:
@@ -319,6 +336,7 @@ landscape:
             description: >-
               3scale’s API management platform empowers API providers to easily
               package, distribute, manage and monetize APIs.
+            cncf_member: false
           - item:
             name: NGINX
             company: 'NGINX, Inc.'
@@ -337,6 +355,7 @@ landscape:
             description: >-
               NGINX offers advanced internet infrastructure software to help
               companies match the demand for faster web experiences.
+            cncf_member: false
           - item:
             name: HAProxy
             company: HAProxy Technologies
@@ -354,6 +373,7 @@ landscape:
             description: >-
               UNOFFICIAL fork of haproxy development repository - ISSUE REPORTS
               ARE IGNORED!
+            cncf_member: false
           - item:
             name: Linkerd
             company: Cloud Native Computing Foundation (CNCF)
@@ -371,6 +391,7 @@ landscape:
             stars: 3499
             license: Apache-2.0
             description: Production-grade feature-rich service mesh for any platform
+            cncf_member: false
           - item:
             name: Envoy
             company: Cloud Native Computing Foundation (CNCF)
@@ -389,6 +410,7 @@ landscape:
             stars: 3763
             license: Apache-2.0
             description: C++ front/service proxy
+            cncf_member: false
           - item:
             name: Datawire
             company: Datawire
@@ -407,6 +429,7 @@ landscape:
             description: >-
               An early stage startup that's focused on making it easy for
               developers to build resilient microservices.
+            cncf_member: false
           - item:
             name: Traefik
             company: Containous
@@ -423,6 +446,7 @@ landscape:
             stars: 12728
             license: MIT
             description: 'Træfik, a modern reverse proxy'
+            cncf_member: false
           - item:
             name: Turbine Labs
             company: Turbine Labs
@@ -439,6 +463,7 @@ landscape:
             stars: N/A
             license: Unknown License
             description: Turbine Labs
+            cncf_member: false
           - item:
             name: Avi Networks
             company: Avi Networks
@@ -457,6 +482,7 @@ landscape:
             description: >-
               Avi Networks is a Silicon Valley startup with proven track record
               in building virtualization, networking and software solutions.
+            cncf_member: true
           - item:
             name: gRPC
             company: Cloud Native Computing Foundation (CNCF)
@@ -475,6 +501,7 @@ landscape:
             stars: 13441
             license: Apache-2.0
             description: 'The C based gRPC (C++, Python, Ruby, Objective-C, PHP, C#)'
+            cncf_member: false
           - item:
             name: Apache Thrift
             company: Apache Software Foundation
@@ -491,6 +518,7 @@ landscape:
             stars: 4394
             license: Apache-2.0
             description: Mirror of Apache Thrift
+            cncf_member: false
           - item:
             name: Apache Avro
             company: Apache Software Foundation
@@ -506,6 +534,7 @@ landscape:
             stars: 843
             license: Apache-2.0
             description: Mirror of Apache Avro
+            cncf_member: false
           - item:
             name: Vamp
             company: magnetic.io
@@ -522,6 +551,7 @@ landscape:
             stars: 573
             license: Apache-2.0
             description: Vamp - canary releasing and autoscaling for microservice systems
+            cncf_member: false
           - item:
             name: Weave Flux
             company: Weaveworks
@@ -538,6 +568,7 @@ landscape:
             stars: 333
             license: Apache-2.0
             description: A tool for deploying container images to Kubernetes services
+            cncf_member: true
           - item:
             name: Kong
             company: Mashape API Marketplace
@@ -554,6 +585,7 @@ landscape:
             stars: 14194
             license: Apache-2.0
             description: "\U0001F412 The Microservice API Gateway"
+            cncf_member: false
           - item:
             name: Hystrix
             company: Netflix
@@ -575,6 +607,7 @@ landscape:
               isolate points of access to remote systems, services and 3rd party
               libraries, stop cascading failure and enable resilience in complex
               distributed systems where failure is inevitable.
+            cncf_member: false
           - item:
             name: OSS
             company: Netflix
@@ -593,6 +626,7 @@ landscape:
             description: >-
               Netflix is an online platform that enables users to watch TV shows
               and movies on smart TVs, PCs, Macs, mobiles, tablets, and so on. 
+            cncf_member: false
           - item:
             name: Ribbon
             company: Netflix
@@ -613,6 +647,7 @@ landscape:
               library with built in software load balancers. The primary usage
               model involves REST calls with various serialization scheme
               support.
+            cncf_member: false
           - item:
             name: Zuul
             company: Netflix
@@ -631,6 +666,7 @@ landscape:
             description: >-
               Zuul is a gateway service that provides dynamic routing,
               monitoring, resiliency, security, and more.
+            cncf_member: false
           - item:
             name: Backplane
             company: Backplane
@@ -644,6 +680,7 @@ landscape:
             stars: N/A
             license: NotOpenSource
             description: ''
+            cncf_member: false
           - item:
             name: F5
             company: F5 Networks
@@ -660,6 +697,7 @@ landscape:
             description: >-
               F5 Networks provides application delivery networking technology
               that optimizes the delivery of network-based applications.
+            cncf_member: false
   - category:
     name: Cloud
     subcategories:
@@ -684,6 +722,7 @@ landscape:
             description: >-
               Amazon Web Services provides information technology infrastructure
               services to businesses in the form of web services.
+            cncf_member: true
           - item:
             name: Google Cloud
             company: Google Cloud Platform
@@ -699,6 +738,7 @@ landscape:
             stars: N/A
             license: NotOpenSource
             description: Google Cloud Platform is a tool suite for app developers.
+            cncf_member: false
           - item:
             name: Azure Cloud Services
             company: Microsoft
@@ -718,6 +758,7 @@ landscape:
               Microsoft is a software corporation that develops, manufactures,
               licenses, supports, and sells a range of software products and
               services.
+            cncf_member: true
           - item:
             name: DigitalOcean
             company: DigitalOcean
@@ -736,6 +777,7 @@ landscape:
               DigitalOcean is an IaaS company that delivers a seamless way for
               developers and businesses to deploy and scale any application in
               the cloud.
+            cncf_member: false
           - item:
             name: Packet
             company: Packet Host
@@ -754,6 +796,7 @@ landscape:
               Packet is a bare metal cloud built for developers. 8 minute
               deploys, no hypervisor, & full automation support from 15 global
               data centers.
+            cncf_member: true
           - item:
             name: Oracle Cloud
             company: Oracle Corporation
@@ -773,6 +816,7 @@ landscape:
               Oracle is a computer technology corporation developing and
               marketing computer hardware systems and enterprise software
               products.
+            cncf_member: false
           - item:
             name: Alibaba Cloud
             company: Alibaba Cloud
@@ -791,6 +835,7 @@ landscape:
             description: >-
               Alibaba Cloud develops highly scalable cloud computing and data
               management services.
+            cncf_member: false
           - item:
             name: Fujitsu K5
             company: Fujitsu
@@ -809,6 +854,7 @@ landscape:
             description: >-
               Fujitsu provides information technology and communications
               solutions.
+            cncf_member: true
           - item:
             name: IBM Cloud
             company: IBM
@@ -827,6 +873,7 @@ landscape:
             description: >-
               IBM is an IT technology and consulting firm providing computer
               hardware, software, and infrastructure and hosting services.
+            cncf_member: true
           - item:
             name: Tencent Cloud
             company: Tencent Cloud
@@ -841,6 +888,7 @@ landscape:
             stars: N/A
             license: NotOpenSource
             description: ''
+            cncf_member: true
           - item:
             name: Joyent
             company: Joyent
@@ -859,6 +907,7 @@ landscape:
               Joyent is a cloud infrastructure and big data analytics company
               offering a solution that powers real-time web and mobile
               applications.
+            cncf_member: true
           - item:
             name: Huawei
             company: Huawei Technologies
@@ -876,6 +925,7 @@ landscape:
             description: >-
               Huawei Technologies provides infrastructure application software
               and devices with wireline, wireless, and IP technologies.
+            cncf_member: false
       - subcategory:
         name: Private
         items:
@@ -897,6 +947,7 @@ landscape:
             description: >-
               OpenStack is the most widely used open source software for
               building public and private clouds.
+            cncf_member: false
           - item:
             name: VMware
             company: VMware
@@ -914,6 +965,7 @@ landscape:
             description: >-
               VMware is a software company providing cloud and virtualization
               services.
+            cncf_member: false
           - item:
             name: MAAS
             company: Canonical
@@ -932,6 +984,7 @@ landscape:
             description: >-
               Canonical is a computer software company that markets commercial
               support and related services for Ubuntu and related projects.
+            cncf_member: true
           - item:
             name: Foreman
             company: Foreman
@@ -948,6 +1001,7 @@ landscape:
             stars: 80
             license: Unknown License
             description: The new and improved Foreman website.
+            cncf_member: false
           - item:
             name: Scaleway
             company: Scaleway
@@ -962,6 +1016,7 @@ landscape:
             stars: N/A
             license: NotOpenSource
             description: Scaleway is the world's first Cloud Computing IaaS platform
+            cncf_member: false
           - item:
             name: Digital Rebar
             company: Digital Rebar
@@ -976,6 +1031,7 @@ landscape:
             stars: N/A
             license: Unknown License
             description: ''
+            cncf_member: false
   - category:
     name: Provisioning
     subcategories:
@@ -1000,6 +1056,7 @@ landscape:
             description: >-
               HashiCorp enables organizations to provision, secure, and run any
               infrastructure for any application.
+            cncf_member: false
           - item:
             name: BOSH
             company: Cloud Foundry
@@ -1019,6 +1076,7 @@ landscape:
               Cloud Foundry is a self-service, public cloud deployment platform
               enabling developers to build, test, deploy, and scale
               applications.
+            cncf_member: false
           - item:
             name: CloudFormation
             company: Amazon Web Services
@@ -1037,6 +1095,7 @@ landscape:
             description: >-
               Amazon Web Services provides information technology infrastructure
               services to businesses in the form of web services.
+            cncf_member: true
           - item:
             name: Cloud Coreo
             company: CloudCoreo
@@ -1053,6 +1112,7 @@ landscape:
             description: >-
               CloudCoreo is building a next generation cloud management
               platform.
+            cncf_member: false
           - item:
             name: Cloudify
             company: Cloudify
@@ -1072,6 +1132,7 @@ landscape:
               Cloudify assists organizations in integrating cloud computing into
               their business strategies and managing infrastructure
               environments.
+            cncf_member: false
           - item:
             name: Helm
             company: Helm Solutions
@@ -1089,6 +1150,7 @@ landscape:
             description: >-
               A global cyber security and technology firm that provides legal
               and compliance solutions to government and the Enterprise.
+            cncf_member: false
           - item:
             name: Infrakit
             company: Infrakit
@@ -1107,6 +1169,7 @@ landscape:
             description: >-
               Infrakit is a practical solution on how to best utilize BIM in
               road and rail projects.
+            cncf_member: false
           - item:
             name: Juju
             company: Canonical
@@ -1125,6 +1188,7 @@ landscape:
             description: >-
               Canonical is a computer software company that markets commercial
               support and related services for Ubuntu and related projects.
+            cncf_member: true
           - item:
             name: Kubicorn
             company: Kubicorn
@@ -1140,6 +1204,7 @@ landscape:
             stars: 936
             license: Apache-2.0
             description: Simple. Cloud Native. Kubernetes. Rainbow. Infrastructure.
+            cncf_member: false
           - item:
             name: ManageIQ
             company: ManageIQ
@@ -1156,6 +1221,7 @@ landscape:
             stars: N/A
             license: Unknown License
             description: "ManageIQ is a commercial open-source software\_firm enabling organizations to deploy, manage and optimize private, public and hybrid\_clouds."
+            cncf_member: false
       - subcategory:
         name: Container Registries
         items:
@@ -1173,6 +1239,7 @@ landscape:
             stars: N/A
             license: NotOpenSource
             description: Quay.io is a private hosted docker registry.
+            cncf_member: false
           - item:
             name: Artifactory
             company: JFrog
@@ -1190,6 +1257,7 @@ landscape:
             description: >-
               JFrog provides software developers with a binary repository
               management solution.
+            cncf_member: false
           - item:
             name: Harbor
             company: VMware
@@ -1207,6 +1275,7 @@ landscape:
             description: >-
               An enterprise-class container registry server based on Docker
               Distribution
+            cncf_member: false
           - item:
             name: Azure Registry
             company: Microsoft
@@ -1226,6 +1295,7 @@ landscape:
               Microsoft is a software corporation that develops, manufactures,
               licenses, supports, and sells a range of software products and
               services.
+            cncf_member: true
           - item:
             name: Atomic
             company: Project Atomic
@@ -1241,6 +1311,7 @@ landscape:
             stars: 385
             license: Unknown License
             description: Atomic Run Tool for installing/running/managing container images.
+            cncf_member: false
           - item:
             name: Docker Registry
             company: Docker
@@ -1259,6 +1330,7 @@ landscape:
             description: >-
               This is **DEPRECATED**! Please go to
               https://github.com/docker/distribution
+            cncf_member: true
           - item:
             name: Amazon ECR
             company: Amazon Web Services
@@ -1277,6 +1349,7 @@ landscape:
             description: >-
               Amazon Web Services provides information technology infrastructure
               services to businesses in the form of web services.
+            cncf_member: true
           - item:
             name: Google Registry
             company: Google Cloud Platform
@@ -1293,6 +1366,7 @@ landscape:
             stars: N/A
             license: NotOpenSource
             description: Google Cloud Platform is a tool suite for app developers.
+            cncf_member: false
           - item:
             name: Portus
             company: SUSE
@@ -1307,6 +1381,7 @@ landscape:
             stars: N/A
             license: NotOpenSource
             description: ''
+            cncf_member: false
       - subcategory:
         name: Host Management/Tooling
         items:
@@ -1328,6 +1403,7 @@ landscape:
             description: >-
               Puppet is an information technology automation software company
               designed for system administrators.
+            cncf_member: false
           - item:
             name: LinuxKit
             company: Linux
@@ -1341,6 +1417,7 @@ landscape:
             stars: N/A
             license: Unknown License
             description: ''
+            cncf_member: false
           - item:
             name: Ansible
             company: Ansible
@@ -1359,6 +1436,7 @@ landscape:
             description: >-
               Ansible is an automation engine that makes systems and
               applications simple to deploy.
+            cncf_member: false
           - item:
             name: Chef
             company: Chef
@@ -1377,6 +1455,7 @@ landscape:
             description: >-
               Chef is an automation platform that transforms infrastructure into
               code.
+            cncf_member: false
           - item:
             name: Salt Stack
             company: SaltStack
@@ -1396,6 +1475,7 @@ landscape:
               SaltStack intelligent orchestration software helps enterprise IT
               ops & DevOps teams configure & manage the software-defined
               datacenter.
+            cncf_member: false
           - item:
             name: CFEngine
             company: CFEngine
@@ -1415,6 +1495,7 @@ landscape:
               CFEngine is a pioneer in IT Automation. It radically simplifies
               and automates how companies build, consume infrastructure and
               devices
+            cncf_member: false
           - item:
             name: Rundeck
             company: Rundeck
@@ -1431,6 +1512,7 @@ landscape:
             stars: N/A
             license: Unknown License
             description: Job Scheduler and Runbook Automation
+            cncf_member: false
       - subcategory:
         name: Secure Images
         items:
@@ -1450,6 +1532,7 @@ landscape:
             stars: N/A
             license: Unknown License
             description: 'Discover, analyze, and certify containers on your own terms.'
+            cncf_member: false
           - item:
             name: Aqua
             company: Aqua Security
@@ -1467,6 +1550,7 @@ landscape:
             description: >-
               Aqua Security enables enterprises to secure their virtual
               container environments from development to production.
+            cncf_member: true
           - item:
             name: Black Duck
             company: Black Duck Software
@@ -1486,6 +1570,7 @@ landscape:
               Black Duck secures & manages open source software worldwide,
               eliminating open source security vulnerabilities & license
               compliance pain.
+            cncf_member: false
           - item:
             name: NeuVector
             company: NeuVector
@@ -1502,6 +1587,7 @@ landscape:
             description: >-
               NeuVector delivers a layer 7 application and network container
               firewall and security solution
+            cncf_member: false
           - item:
             name: Clair
             company: CoreOS
@@ -1520,6 +1606,7 @@ landscape:
             description: >-
               CoreOS builds industry-leading infrastructure software to securely
               run application containers anywhere.
+            cncf_member: true
           - item:
             name: Notary
             company: Cloud Native Computing Foundation (CNCF)
@@ -1538,6 +1625,7 @@ landscape:
             description: >-
               Notary is a project that allows anyone to have trust over
               arbitrary collections of data
+            cncf_member: false
           - item:
             name: OpenSCAP
             company: redhat
@@ -1553,6 +1641,7 @@ landscape:
             stars: N/A
             license: Unknown License
             description: ''
+            cncf_member: false
           - item:
             name: Sonatype Nexus
             company: Sonatype
@@ -1570,6 +1659,7 @@ landscape:
             description: >-
               Get precise intelligence about open source components and
               accelerate software innovation, quality and security.
+            cncf_member: false
           - item:
             name: The Update Framework (TUF)
             company: Cloud Native Computing Foundation (CNCF)
@@ -1586,6 +1676,7 @@ landscape:
             stars: 694
             license: Unknown License
             description: A framework for securing software update systems
+            cncf_member: false
           - item:
             name: Twistlock
             company: Twistlock
@@ -1601,6 +1692,7 @@ landscape:
             stars: N/A
             license: NotOpenSource
             description: Twistlock is cloud native cybersecurity for the modern enterprise.
+            cncf_member: true
       - subcategory:
         name: Key Management
         items:
@@ -1618,6 +1710,7 @@ landscape:
             stars: 1238
             license: Apache-2.0
             description: 'Confidant: your secret keeper.'
+            cncf_member: false
           - item:
             name: Keywhiz
             company: Square
@@ -1633,6 +1726,7 @@ landscape:
             stars: 1866
             license: Apache-2.0
             description: A system for distributing and managing secrets
+            cncf_member: false
           - item:
             name: Knox
             company: Pinterest
@@ -1647,6 +1741,7 @@ landscape:
             stars: 551
             license: Apache-2.0
             description: Knox is a secret management service
+            cncf_member: true
           - item:
             name: Hashicorp Vault
             company: HashiCorp
@@ -1664,6 +1759,7 @@ landscape:
             description: >-
               A tool for secrets management, encryption as a service, and
               privileged access management
+            cncf_member: false
           - item:
             name: Oracle Policy Automation
             company: Oracle Corporation
@@ -1684,6 +1780,7 @@ landscape:
               Oracle is a computer technology corporation developing and
               marketing computer hardware systems and enterprise software
               products.
+            cncf_member: false
           - item:
             name: SPIFFE
             company: Scytale.io
@@ -1702,6 +1799,7 @@ landscape:
               Scytale.io help engineers securely and easily build
               identity-drive, large-scale distributed software using
               technologies like SPIFFE.io.
+            cncf_member: false
           - item:
             name: Spire
             company: Scytale.io
@@ -1718,6 +1816,7 @@ landscape:
             stars: 135
             license: Unknown License
             description: The SPIFFE Runtime Environment
+            cncf_member: false
   - category:
     name: Runtime
     subcategories:
@@ -1742,6 +1841,7 @@ landscape:
             description: >-
               Ceph is the future of storage, created and delivered by a global
               community of storage engineers and researchers.
+            cncf_member: false
           - item:
             name: Gluster
             company: Gluster
@@ -1761,6 +1861,7 @@ landscape:
             description: >-
               Gluster is an open source, distributed file system that is capable
               of scaling to several petabytes and handling many clients.
+            cncf_member: false
           - item:
             name: HDFS
             company: Hadoop
@@ -1776,6 +1877,7 @@ landscape:
             stars: 5523
             license: Apache-2.0
             description: Mirror of Apache Hadoop
+            cncf_member: false
           - item:
             name: Minio
             company: 'Minio, Inc.'
@@ -1792,6 +1894,7 @@ landscape:
             stars: N/A
             license: Unknown License
             description: Minio is an open source object storage server.
+            cncf_member: false
           - item:
             name: Portworx
             company: Portworx
@@ -1809,6 +1912,7 @@ landscape:
             description: >-
               Portworx is the solution for stateful containers running in
               production.
+            cncf_member: true
           - item:
             name: Project Hatchway
             company: VMware
@@ -1828,6 +1932,7 @@ landscape:
             description: >-
               VMware is a software company providing cloud and virtualization
               services.
+            cncf_member: false
           - item:
             name: Pure Storage
             company: Pure Storage
@@ -1844,6 +1949,7 @@ landscape:
             stars: N/A
             license: Unknown License
             description: "Pure Storage\_is an\_all-flash enterprise storage company that enables broad deployment of flash in data centers."
+            cncf_member: false
           - item:
             name: libstorage
             company: Dell EMC
@@ -1862,6 +1968,7 @@ landscape:
             description: >-
               REX-Ray is a container storage orchestration engine enabling
               persistence for cloud native workloads
+            cncf_member: false
           - item:
             name: Manta
             company: Joyent
@@ -1881,6 +1988,7 @@ landscape:
               Manta, Triton’s object storage and converged analytics solutions,
               is a HTTP-based object store that uses OS containers to allow
               compute on data at rest.
+            cncf_member: true
           - item:
             name: Diamanti
             company: Diamanti
@@ -1898,6 +2006,7 @@ landscape:
               Diamanti is a datacenter infrastructure company founded to solve
               network and storage challenges in Linux containerized
               environments.
+            cncf_member: true
           - item:
             name: Rook
             company: Rook
@@ -1913,6 +2022,7 @@ landscape:
             stars: N/A
             license: Unknown License
             description: ''
+            cncf_member: false
           - item:
             name: Robin Systems
             company: Robin Systems
@@ -1930,6 +2040,7 @@ landscape:
             description: >-
               Data-Centric Compute and Storage Containerization Infrastructure
               Software
+            cncf_member: false
           - item:
             name: Springpath
             company: Springpath Inc
@@ -1949,6 +2060,7 @@ landscape:
               Springpath is hyperconvergence software that turns standard
               servers of choice into a single pool of compute and storage
               resources.
+            cncf_member: false
           - item:
             name: Datera
             company: Datera
@@ -1964,6 +2076,7 @@ landscape:
             stars: N/A
             license: NotOpenSource
             description: Datera is an application-driven data infrastructure company.
+            cncf_member: false
           - item:
             name: Infinit
             company: Infinit
@@ -1981,6 +2094,7 @@ landscape:
             description: >-
               Infinit International Inc. is a venture backed company
               specializing in storage technologies.
+            cncf_member: false
           - item:
             name: Kasten
             company: Kasten
@@ -1999,6 +2113,7 @@ landscape:
             description: >-
               An extensible framework for application-level data management on
               Kubernetes
+            cncf_member: true
           - item:
             name: LeoFS
             company: Leo Project
@@ -2014,6 +2129,7 @@ landscape:
             stars: 1120
             license: Apache-2.0
             description: The LeoFS Storage System
+            cncf_member: false
           - item:
             name: Sheepdog
             company: Sheepdog
@@ -2027,6 +2143,7 @@ landscape:
             stars: N/A
             license: Unknown License
             description: ''
+            cncf_member: false
           - item:
             name: Rex-Ray
             company: Dell EMC
@@ -2044,6 +2161,7 @@ landscape:
             description: >-
               REX-Ray is a container storage orchestration engine enabling
               persistence for cloud native workloads
+            cncf_member: false
           - item:
             name: NetApp
             company: NetApp
@@ -2063,6 +2181,7 @@ landscape:
               NetApp offers storage and data management solutions that enable
               customers to accelerate business innovations and achieve cost
               efficiencies.
+            cncf_member: true
           - item:
             name: StorageOS
             company: StorageOS
@@ -2078,6 +2197,7 @@ landscape:
             stars: N/A
             license: NotOpenSource
             description: Persistent storage for containers and the cloud
+            cncf_member: true
           - item:
             name: Dell EMC
             company: Dell EMC
@@ -2096,6 +2216,7 @@ landscape:
             description: >-
               Dell EMC enables digital transformation with trusted solutions for
               the modern data center.
+            cncf_member: false
           - item:
             name: OpenSDS
             company: OpenSDS
@@ -2113,6 +2234,7 @@ landscape:
             description: >-
               OpenSDS is an open source project established to address
               integration challenges for Storage Defined Storage (SDS) vendors.
+            cncf_member: false
           - item:
             name: OpenEBS
             company: Openebs
@@ -2132,6 +2254,7 @@ landscape:
               OpenEBS is a scalable storage platform for spinning out
               containerized block storage volumes for use by container
               applications.
+            cncf_member: false
           - item:
             name: Hedvig
             company: Hedvig
@@ -2148,6 +2271,7 @@ landscape:
             stars: N/A
             license: NotOpenSource
             description: Modern storage for the modern business.
+            cncf_member: false
           - item:
             name: Swift
             company: OpenStack
@@ -2163,6 +2287,7 @@ landscape:
             stars: 1664
             license: Apache-2.0
             description: OpenStack Storage (Swift)
+            cncf_member: false
       - subcategory:
         name: Container Runtime
         items:
@@ -2184,6 +2309,7 @@ landscape:
             description: >-
               rkt is a pod-native container engine for Linux. It is composable,
               secure, and built on standards.
+            cncf_member: false
           - item:
             name: runc
             company: OCI
@@ -2201,6 +2327,7 @@ landscape:
             description: >-
               CLI tool for spawning and running containers according to the OCI
               specification
+            cncf_member: false
           - item:
             name: lxd
             company: Canonical
@@ -2216,6 +2343,7 @@ landscape:
             stars: 1639
             license: Apache-2.0
             description: Daemon based on liblxc offering a REST API to manage containers
+            cncf_member: true
           - item:
             name: RunV
             company: Hyper
@@ -2228,6 +2356,7 @@ landscape:
             stars: 449
             license: Apache-2.0
             description: Hypervisor-based Runtime for OCI
+            cncf_member: false
           - item:
             name: SmartOS
             company: Joyent
@@ -2247,6 +2376,7 @@ landscape:
               For more information, please see http://smartos.org/ For any
               questions that aren't answered there, please join the SmartOS
               discussion list: http://smartos.org/smartos-mailing-list/
+            cncf_member: true
           - item:
             name: containerd
             company: Cloud Native Computing Foundation (CNCF)
@@ -2263,6 +2393,7 @@ landscape:
             stars: 2236
             license: Unknown License
             description: An open and reliable container runtime
+            cncf_member: false
           - item:
             name: cri-o
             company: cri-o
@@ -2278,6 +2409,7 @@ landscape:
             stars: N/A
             license: Unknown License
             description: ''
+            cncf_member: false
           - item:
             name: Intel Clear Containers
             company: Intel
@@ -2296,6 +2428,7 @@ landscape:
             description: >-
               Intel designs, manufactures, and sells integrated digital
               technology platforms worldwide.
+            cncf_member: true
           - item:
             name: CSI
             company: CSI
@@ -2310,6 +2443,7 @@ landscape:
             stars: N/A
             license: Unknown License
             description: ''
+            cncf_member: false
       - subcategory:
         name: Cloud-Native Network
         items:
@@ -2327,6 +2461,7 @@ landscape:
             stars: N/A
             license: NotOpenSource
             description: Cloud Native Security for Containers and Microservices
+            cncf_member: true
           - item:
             name: Aviatrix
             company: 'Aviatrix Systems, Inc.'
@@ -2344,6 +2479,7 @@ landscape:
             description: >-
               The company develops software that enables enterprises to build
               hybrid clouds by easily
+            cncf_member: false
           - item:
             name: Big Switch Networks
             company: Big Switch Networks
@@ -2361,6 +2497,7 @@ landscape:
             description: >-
               Big Switch Networks is the Next-Generation Data Center Networking
               Company, designing intelligent, agile and flexible networks
+            cncf_member: false
           - item:
             name: Project Calico
             company: Tigera
@@ -2379,6 +2516,7 @@ landscape:
             description: >-
               Tigera provides secure application connectivity for the cloud
               native world.
+            cncf_member: false
           - item:
             name: Canal
             company: Tigera
@@ -2395,6 +2533,7 @@ landscape:
             stars: 474
             license: Unknown License
             description: Policy based networking for cloud native applications
+            cncf_member: false
           - item:
             name: Contiv
             company: Cisco
@@ -2414,6 +2553,7 @@ landscape:
               Cisco develops, manufactures, and sells networking hardware,
               telecommunications equipment, and other high-technology services
               and products.
+            cncf_member: true
           - item:
             name: Cilium
             company: Covalent IO
@@ -2431,6 +2571,7 @@ landscape:
             description: >-
               Covalent builds Cilium, an HTTP-aware network security layer for
               microservices platforms.
+            cncf_member: false
           - item:
             name: Cumulus
             company: Cumulus Networks
@@ -2449,6 +2590,7 @@ landscape:
             description: >-
               Cumulus Networks, a software company, designs and sells Linux
               operating systems for networking hardware.
+            cncf_member: false
           - item:
             name: Flannel
             company: Tigera
@@ -2467,6 +2609,7 @@ landscape:
             description: >-
               flannel is a network fabric for containers, designed for
               Kubernetes
+            cncf_member: false
           - item:
             name: Midokura
             company: Midokura
@@ -2483,6 +2626,7 @@ landscape:
             stars: N/A
             license: Unknown License
             description: Midokura is a cloud networking technology platform.
+            cncf_member: false
           - item:
             name: NSX
             company: VMware
@@ -2498,6 +2642,7 @@ landscape:
             stars: 50
             license: Unknown License
             description: A set of Neutron drivers for the VMware NSX.
+            cncf_member: false
           - item:
             name: Nuage Networks
             company: Nuage Networks
@@ -2516,6 +2661,7 @@ landscape:
             description: >-
               Nuage Networks Fundamentals: Software Defined Networking for the
               Datacenter and Beyond.
+            cncf_member: false
           - item:
             name: OpenContrail
             company: OpenContrail
@@ -2531,6 +2677,7 @@ landscape:
             stars: 336
             license: Apache-2.0
             description: Contrail Controller
+            cncf_member: false
           - item:
             name: Open vSwitch
             company: Open vSwitch
@@ -2548,6 +2695,7 @@ landscape:
             description: >-
               Open vSwitch is a multilayer virtual switch licensed under the
               open source Apache 2.0 license.
+            cncf_member: false
           - item:
             name: Plumgrid
             company: PLUMgrid
@@ -2565,6 +2713,7 @@ landscape:
             description: >-
               PLUMgrid is involved in virtual networking and SDN/NFV to deliver
               cloud infrastructure solutions that transform businesses.
+            cncf_member: false
           - item:
             name: Romana
             company: Romana
@@ -2578,6 +2727,7 @@ landscape:
             stars: N/A
             license: Unknown License
             description: ''
+            cncf_member: false
           - item:
             name: Sanproute
             company: SnapRoute Inc.
@@ -2593,6 +2743,7 @@ landscape:
             stars: N/A
             license: NotOpenSource
             description: SnapRoute is an open networking stack company.
+            cncf_member: false
           - item:
             name: CNI
             company: Cloud Native Computing Foundation (CNCF)
@@ -2609,6 +2760,7 @@ landscape:
             stars: 1110
             license: Apache-2.0
             description: Container Network Interface - networking for Linux containers
+            cncf_member: false
           - item:
             name: Weave Net
             company: Weaveworks
@@ -2625,6 +2777,7 @@ landscape:
             stars: 4926
             license: Apache-2.0
             description: 'Simple, resilient multi-host Docker networking and more.'
+            cncf_member: true
   - category:
     name: App Definition and Developement
     subcategories:
@@ -2648,6 +2801,7 @@ landscape:
             description: >-
               TiDB is a distributed HTAP database compatible with the MySQL
               protocol
+            cncf_member: false
           - item:
             name: MySQL
             company: MySQL
@@ -2666,6 +2820,7 @@ landscape:
             description: >-
               MySQL is an open-source database that supports scalable web-based
               and embedded database applications.
+            cncf_member: false
           - item:
             name: Postgres
             company: PostgreSql
@@ -2684,6 +2839,7 @@ landscape:
             description: >-
               PostgreSQL is an object-relational database management system with
               an emphasis on extensibility and standards-compliance.
+            cncf_member: false
           - item:
             name: Oracle
             company: Oracle Corporation
@@ -2703,6 +2859,7 @@ landscape:
               Oracle is a computer technology corporation developing and
               marketing computer hardware systems and enterprise software
               products.
+            cncf_member: false
           - item:
             name: SQL Server
             company: Microsoft
@@ -2722,6 +2879,7 @@ landscape:
               Microsoft is a software corporation that develops, manufactures,
               licenses, supports, and sells a range of software products and
               services.
+            cncf_member: true
           - item:
             name: IBM DB2
             company: IBM
@@ -2739,6 +2897,7 @@ landscape:
             description: >-
               IBM is an IT technology and consulting firm providing computer
               hardware, software, and infrastructure and hosting services.
+            cncf_member: true
           - item:
             name: MongoDB
             company: MongoDB
@@ -2754,6 +2913,7 @@ landscape:
             stars: 13036
             license: Unknown License
             description: The MongoDB Database
+            cncf_member: false
           - item:
             name: Cassandra
             company: Apache Software Foundation
@@ -2770,6 +2930,7 @@ landscape:
             stars: 4152
             license: Apache-2.0
             description: Mirror of Apache Cassandra
+            cncf_member: false
           - item:
             name: Redis
             company: Redis Labs
@@ -2787,6 +2948,7 @@ landscape:
             description: >-
               Redis Labs is the open source home and commercial provider of
               Redis, a database benchmarked as the world’s fastest.
+            cncf_member: false
           - item:
             name: MariaDB
             company: MariaDB
@@ -2804,6 +2966,7 @@ landscape:
             description: >-
               MariaDB Corporation is the company behind MariaDB, the fastest
               growing Open Source database.
+            cncf_member: false
           - item:
             name: Crate.io
             company: Crate.io Inc.
@@ -2822,6 +2985,7 @@ landscape:
             description: >-
               CrateDB is a distributed SQL database that makes it simple to
               store and analyze massive amounts of machine data in real-time.
+            cncf_member: false
           - item:
             name: NomsDB
             company: Attic Labs
@@ -2838,6 +3002,7 @@ landscape:
             stars: 6430
             license: Unknown License
             description: 'The versioned, forkable, syncable database'
+            cncf_member: false
           - item:
             name: BigchainDB
             company: BigchainDB
@@ -2854,6 +3019,7 @@ landscape:
             stars: 2103
             license: Unknown License
             description: BigchainDB is a scalable blockchain database
+            cncf_member: false
           - item:
             name: Couchbase
             company: Couchbase
@@ -2872,6 +3038,7 @@ landscape:
             description: >-
               Couchbase is a NoSQL vendor that develops Couchbase Server, an
               open-source, NoSQL, document-oriented database.
+            cncf_member: true
           - item:
             name: CockroachDB
             company: Cockroach Labs
@@ -2890,6 +3057,7 @@ landscape:
             description: >-
               Cockroach Labs provides world class open source infrastructure
               solutions.
+            cncf_member: false
           - item:
             name: RethinkDB
             company: RethinkDB
@@ -2908,6 +3076,7 @@ landscape:
             description: >-
               RethinkDB is an open-source distributed NoSQL database storing
               JSON documents and scaling data for applications.
+            cncf_member: false
           - item:
             name: Vitess
             company: Google
@@ -2925,6 +3094,7 @@ landscape:
             description: >-
               Vitess is a database clustering system for horizontal scaling of
               MySQL.
+            cncf_member: true
           - item:
             name: SQL Data Warehouse
             company: Microsoft
@@ -2944,6 +3114,7 @@ landscape:
               Microsoft is a software corporation that develops, manufactures,
               licenses, supports, and sells a range of software products and
               services.
+            cncf_member: true
           - item:
             name: Snowflake
             company: Snowflake Computing
@@ -2959,6 +3130,7 @@ landscape:
             stars: N/A
             license: NotOpenSource
             description: Snowflake is the only data warehouse built for the cloud.
+            cncf_member: false
           - item:
             name: Druid
             company: Druid
@@ -2973,6 +3145,7 @@ landscape:
             stars: N/A
             license: Unknown License
             description: ''
+            cncf_member: false
           - item:
             name: Qubole
             company: Qubole
@@ -2989,6 +3162,7 @@ landscape:
             description: >-
               Qubole delivers a Self-Service Platform for Big Data Analytics
               built on Amazon, Microsoft, Google and Oracle Clouds.
+            cncf_member: false
           - item:
             name: CarbonData
             company: Apache Software Foundation
@@ -3005,6 +3179,7 @@ landscape:
             stars: 573
             license: Apache-2.0
             description: Mirror of Apache CarbonData
+            cncf_member: false
           - item:
             name: Vertica
             company: Vertica Systems
@@ -3021,6 +3196,7 @@ landscape:
             stars: N/A
             license: NotOpenSource
             description: "Vertica Systems develops data management solutions for storing databases\_and allowing clients to conduct real-time and ad hoc queries."
+            cncf_member: false
           - item:
             name: Hadoop
             company: Hadoop
@@ -3036,6 +3212,7 @@ landscape:
             stars: 5523
             license: Apache-2.0
             description: Mirror of Apache Hadoop
+            cncf_member: false
           - item:
             name: Iguazio
             company: iguazio
@@ -3055,6 +3232,7 @@ landscape:
               iguazio's Continuous Analytics Data Platform has redesigned the
               data stack to accelerate performance in big data, IoT and
               cloud-native apps.
+            cncf_member: false
           - item:
             name: MemSQL
             company: MemSQL
@@ -3070,6 +3248,7 @@ landscape:
             stars: N/A
             license: Unknown License
             description: A real-time data warehouse you can run everywhere
+            cncf_member: false
           - item:
             name: Pachyderm
             company: Pachyderm
@@ -3086,6 +3265,7 @@ landscape:
             stars: 2506
             license: Apache-2.0
             description: Reproducible Data Science at Scale!
+            cncf_member: false
           - item:
             name: Scylla
             company: ScyllaDB
@@ -3104,6 +3284,7 @@ landscape:
             description: >-
               ScyllaDB produces a NoSQL database compatible with Apache
               Cassandra at 10x the throughput and jaw dropping low latency.
+            cncf_member: false
       - subcategory:
         name: Streaming
         items:
@@ -3123,6 +3304,7 @@ landscape:
             stars: 7316
             license: Apache-2.0
             description: Mirror of Apache Kafka
+            cncf_member: false
           - item:
             name: Dataflow
             company: Google Cloud Platform
@@ -3138,6 +3320,7 @@ landscape:
             stars: N/A
             license: NotOpenSource
             description: Google Cloud Platform is a tool suite for app developers.
+            cncf_member: false
           - item:
             name: Spark Streaming
             company: Apache Software Foundation
@@ -3153,6 +3336,7 @@ landscape:
             stars: 16027
             license: Apache-2.0
             description: Mirror of Apache Spark
+            cncf_member: false
           - item:
             name: Heron
             company: Twitter
@@ -3171,6 +3355,7 @@ landscape:
             description: >-
               Heron is a realtime, distributed, fault-tolerant stream processing
               engine from Twitter
+            cncf_member: true
           - item:
             name: Flink
             company: Apache Software Foundation
@@ -3187,6 +3372,7 @@ landscape:
             stars: 3239
             license: Apache-2.0
             description: Mirror of Apache Flink
+            cncf_member: false
           - item:
             name: Apex
             company: Apache Software Foundation
@@ -3203,6 +3389,7 @@ landscape:
             stars: 275
             license: Apache-2.0
             description: Mirror of Apache Apex core
+            cncf_member: false
           - item:
             name: Apache Storm
             company: Apache Software Foundation
@@ -3218,6 +3405,7 @@ landscape:
             stars: 4810
             license: Apache-2.0
             description: Mirror of Apache Storm
+            cncf_member: false
           - item:
             name: RabbitMQ
             company: Rabbit Technologies
@@ -3236,6 +3424,7 @@ landscape:
               Rabbit Technologies offers RabbitMQ which is open source message
               broker software implementing the advanced message queuing protocol
               (AMQP).
+            cncf_member: false
           - item:
             name: NATS
             company: Apache Software Foundation
@@ -3254,6 +3443,7 @@ landscape:
             description: >-
               Apache Software Foundation (501C3) provides organizational, legal
               and financial support for Apache open-source software projects.
+            cncf_member: false
           - item:
             name: ApacheNiFi
             company: Apache Software Foundation
@@ -3269,6 +3459,7 @@ landscape:
             stars: 794
             license: Apache-2.0
             description: Mirror of Apache NiFi
+            cncf_member: false
           - item:
             name: Pulsar
             company: Apache Software Foundation
@@ -3284,6 +3475,7 @@ landscape:
             stars: 1551
             license: Apache-2.0
             description: Pulsar - distributed pub-sub messaging system
+            cncf_member: false
           - item:
             name: StreamSets
             company: StreamSets
@@ -3302,6 +3494,7 @@ landscape:
             description: >-
               Streamsets delivers performance management software for data
               flows.
+            cncf_member: false
           - item:
             name: Kinesis
             company: Amazon Web Services
@@ -3320,6 +3513,7 @@ landscape:
             description: >-
               Amazon Web Services provides information technology infrastructure
               services to businesses in the form of web services.
+            cncf_member: true
       - subcategory:
         name: SCM
         items:
@@ -3341,6 +3535,7 @@ landscape:
               Bitbucket is a Git and Mercurial code management and collaboration
               platform used by professional teams to build, test and deploy
               software.
+            cncf_member: false
           - item:
             name: GitLab
             company: GitLab Inc
@@ -3358,6 +3553,7 @@ landscape:
             description: >-
               GitLab CE | Please open new issues in our issue tracker on
               GitLab.com
+            cncf_member: false
           - item:
             name: GitHub
             company: GitHub
@@ -3375,6 +3571,7 @@ landscape:
               GitHub is a web-based Git repository hosting service offering
               distributed revision control and source code management
               functionality of Git.
+            cncf_member: false
           - item:
             name: Microsoft Visual Studio Team Services
             company: Microsoft
@@ -3395,6 +3592,7 @@ landscape:
               Microsoft is a software corporation that develops, manufactures,
               licenses, supports, and sells a range of software products and
               services.
+            cncf_member: true
       - subcategory:
         name: Application Definition & Image Build
         items:
@@ -3413,6 +3611,7 @@ landscape:
             stars: N/A
             license: Unknown License
             description: ''
+            cncf_member: false
           - item:
             name: Packer
             company: HashiCorp
@@ -3431,6 +3630,7 @@ landscape:
             description: >-
               Packer is a tool for creating identical machine images for
               multiple platforms from a single source configuration.
+            cncf_member: false
           - item:
             name: Compose
             company: Docker
@@ -3447,6 +3647,7 @@ landscape:
             stars: 11725
             license: Apache-2.0
             description: Define and run multi-container applications with Docker
+            cncf_member: true
           - item:
             name: Habitat
             company: Chef
@@ -3464,6 +3665,7 @@ landscape:
             description: >-
               Chef is an automation platform that transforms infrastructure into
               code.
+            cncf_member: false
           - item:
             name: Brooklyn
             company: Apache Software Foundation
@@ -3480,6 +3682,7 @@ landscape:
             stars: 67
             license: Unknown License
             description: Mirror of Apache Brooklyn
+            cncf_member: false
           - item:
             name: Bitnami
             company: Bitnami
@@ -3496,6 +3699,7 @@ landscape:
             description: >-
               Loved by Devs, Trusted by Ops. Easy to use cloud images,
               containers, and VMs that work on any platform
+            cncf_member: false
           - item:
             name: OpenAPI
             company: The Open API Initiative
@@ -3515,6 +3719,7 @@ landscape:
               Created by a consortium of forward-looking industry experts who
               recognize the immense value of standardizing on how REST APIs are
               described.
+            cncf_member: false
       - subcategory:
         name: CI/CD
         items:
@@ -3536,6 +3741,7 @@ landscape:
             description: >-
               Jenkins CI is an open-source continuous integration server that
               supports various configurations.
+            cncf_member: false
           - item:
             name: Travis
             company: Travis CI
@@ -3551,6 +3757,7 @@ landscape:
             stars: N/A
             license: Unknown License
             description: Hosted Continuous Integration Platform
+            cncf_member: false
           - item:
             name: Octopus Deploy
             company: Octopus Deploy
@@ -3567,6 +3774,7 @@ landscape:
             stars: N/A
             license: Unknown License
             description: Octopus Deploy is a user-friendly release management
+            cncf_member: false
           - item:
             name: CircleCI
             company: CircleCI
@@ -3584,6 +3792,7 @@ landscape:
             description: >-
               CircleCI provides software teams the confidence to build, test,
               and deploy across numerous platforms.
+            cncf_member: false
           - item:
             name: Drone
             company: Drone.io
@@ -3601,6 +3810,7 @@ landscape:
             description: >-
               Drone.io is a hosted Continuous Integration and Deployment
               service.
+            cncf_member: false
           - item:
             name: Codeship
             company: Codeship
@@ -3618,6 +3828,7 @@ landscape:
             description: >-
               Bringing Continuous Deployment to everyone The - Codeship runs
               your hosted tests and automated deployments.
+            cncf_member: true
           - item:
             name: Bamboo
             company: Atlassian
@@ -3635,6 +3846,7 @@ landscape:
             description: >-
               Atlassian provides collaboration software for teams with products
               including JIRA, Confluence, HipChat, Bitbucket, and Stash.
+            cncf_member: false
           - item:
             name: Cloudbees
             company: CloudBees
@@ -3653,6 +3865,7 @@ landscape:
             description: >-
               CloudBees offers the CloudBees Jenkins Platform, an
               enterprise-grade continuous delivery platform powered by Jenkins.
+            cncf_member: false
           - item:
             name: Spinnaker
             company: Spinnaker
@@ -3667,6 +3880,7 @@ landscape:
             stars: N/A
             license: Unknown License
             description: ''
+            cncf_member: false
           - item:
             name: Shippable
             company: Shippable
@@ -3684,6 +3898,7 @@ landscape:
             description: >-
               Shippable helps companies ship code faster by giving them a
               powerful continuous integration platform built natively on Docker.
+            cncf_member: false
           - item:
             name: Wercker
             company: Wercker
@@ -3704,6 +3919,7 @@ landscape:
               Wercker is a platform and tool to rapidly develop, build, and
               deploy containerized applications and microservices for the modern
               cloud.
+            cncf_member: false
           - item:
             name: Codefresh
             company: Codefresh
@@ -3721,6 +3937,7 @@ landscape:
             description: >-
               Codefresh is a continuous delivery and collaboration platform for
               containers and microservices.
+            cncf_member: true
           - item:
             name: BuddyBuild
             company: Buddybuild
@@ -3737,6 +3954,7 @@ landscape:
             description: >-
               Buddybuild is a Vancouver-based app tools company focused on
               continuous integration and debugging tools.
+            cncf_member: false
           - item:
             name: Distelli
             company: Distelli
@@ -3752,6 +3970,7 @@ landscape:
             stars: N/A
             license: NotOpenSource
             description: True Continuous Delivery from Source Control to Servers.
+            cncf_member: false
           - item:
             name: Solano Labs
             company: Solano Labs
@@ -3767,6 +3986,7 @@ landscape:
             stars: N/A
             license: NotOpenSource
             description: Continuous Integration & Deployment
+            cncf_member: false
           - item:
             name: Semaphore
             company: SemaphoreCI
@@ -3781,6 +4001,7 @@ landscape:
             stars: N/A
             license: NotOpenSource
             description: Hosted continuous integration and deployment service
+            cncf_member: false
           - item:
             name: ContainerOps
             company: Huawei Technologies
@@ -3797,6 +4018,7 @@ landscape:
             description: >-
               Huawei Technologies provides infrastructure application software
               and devices with wireline, wireless, and IP technologies.
+            cncf_member: false
           - item:
             name: Appveyor
             company: Appveyor Systems Inc.
@@ -3814,6 +4036,7 @@ landscape:
             description: >-
               Appveyor Systems Inc. aim is to give powerful continuous
               integration and deployment tools to every .NET developer.
+            cncf_member: false
           - item:
             name: Gitlab Runner
             company: GitLab Inc
@@ -3832,6 +4055,7 @@ landscape:
             description: >-
               GitLab is a web-based open source Git repository manager with wiki
               and issue tracking features.
+            cncf_member: false
           - item:
             name: Buildkite
             company: Buildkite
@@ -3850,6 +4074,7 @@ landscape:
             description: >-
               Buildkite creates the best automation and collaboration tools for
               building and shipping software.
+            cncf_member: false
           - item:
             name: Concourse
             company: Concourse
@@ -3864,6 +4089,7 @@ landscape:
             stars: N/A
             license: Unknown License
             description: ''
+            cncf_member: false
           - item:
             name: XL Deploy
             company: XebiaLabs
@@ -3880,6 +4106,7 @@ landscape:
             stars: 0
             license: Unknown License
             description: XL Deploy plugin that can call another XLD instance
+            cncf_member: false
   - category:
     name: Platform
     subcategories:
@@ -3903,6 +4130,7 @@ landscape:
             description: >-
               CoreOS builds industry-leading infrastructure software to securely
               run application containers anywhere.
+            cncf_member: true
           - item:
             name: Cloud Foundry
             company: Cloud Foundry
@@ -3922,6 +4150,7 @@ landscape:
               Cloud Foundry is a self-service, public cloud deployment platform
               enabling developers to build, test, deploy, and scale
               applications.
+            cncf_member: false
           - item:
             name: OpenShift
             company: OpenShift
@@ -3938,6 +4167,7 @@ landscape:
             stars: N/A
             license: Unknown License
             description: OpenShift is an open hybrid cloud application platform by Red Hat.
+            cncf_member: false
           - item:
             name: DC/OS
             company: Mesosphere
@@ -3956,6 +4186,7 @@ landscape:
             description: >-
               Mesosphere is a novel cloud operating system that treats your
               datacenter like one big computer.
+            cncf_member: true
           - item:
             name: Apcera
             company: Apcera
@@ -3973,6 +4204,7 @@ landscape:
             description: >-
               The Apcera cloud platform helps enterprises innovate at speed with
               full confidence and trust.
+            cncf_member: true
           - item:
             name: Apprenda
             company: Apprenda
@@ -3988,6 +4220,7 @@ landscape:
             stars: N/A
             license: NotOpenSource
             description: Apprenda is the leading enterprise Platform as a Service.
+            cncf_member: true
           - item:
             name: Rancher
             company: Rancher Labs
@@ -4004,6 +4237,7 @@ landscape:
             stars: 7644
             license: Unknown License
             description: Complete container management platform
+            cncf_member: true
           - item:
             name: Kublr
             company: Kublr
@@ -4021,6 +4255,7 @@ landscape:
             description: >-
               Production-ready cluster and application platform that speeds and
               simplifies the set-up and management of your K8S cluster.
+            cncf_member: true
           - item:
             name: Photon
             company: VMware
@@ -4038,6 +4273,7 @@ landscape:
             description: >-
               VMware is a software company providing cloud and virtualization
               services.
+            cncf_member: false
           - item:
             name: Platform.sh
             company: Platform.sh
@@ -4056,6 +4292,7 @@ landscape:
             description: >-
               Platform.sh is an automated, continuous-deployment
               high-availability cloud hosting solution
+            cncf_member: false
           - item:
             name: Platform9
             company: Platform9 Systems
@@ -4073,6 +4310,7 @@ landscape:
             description: >-
               Platform9 is the open source-as-a-service company making cloud
               infrastructure easy.
+            cncf_member: false
           - item:
             name: Flynn
             company: Flynn
@@ -4088,6 +4326,7 @@ landscape:
             stars: N/A
             license: Unknown License
             description: The product that ops provides to developers.
+            cncf_member: false
           - item:
             name: Datawire
             company: Datawire
@@ -4105,6 +4344,7 @@ landscape:
             description: >-
               An early stage startup that's focused on making it easy for
               developers to build resilient microservices.
+            cncf_member: false
           - item:
             name: Atomist
             company: Atomist
@@ -4122,6 +4362,7 @@ landscape:
             description: >-
               Atomist make microservice applications Easy and fun to build,
               through a cloud-based service.
+            cncf_member: false
           - item:
             name: Iron.io
             company: Iron.io
@@ -4140,6 +4381,7 @@ landscape:
             description: >-
               Iron.io is a scalable cloud-based message queue and processing
               platform for building distributed cloud applications.
+            cncf_member: false
           - item:
             name: PaaSTA
             company: Yelp
@@ -4158,6 +4400,7 @@ landscape:
             stars: 1177
             license: Apache-2.0
             description: 'An open, distributed platform as a service'
+            cncf_member: false
           - item:
             name: Empire
             company: Remind
@@ -4173,6 +4416,7 @@ landscape:
             stars: 2352
             license: BSD-2-Clause
             description: A PaaS built on top of Amazon EC2 Container Service (ECS)
+            cncf_member: false
           - item:
             name: Nirmata
             company: Nirmata
@@ -4191,6 +4435,7 @@ landscape:
             description: >-
               Nirmata is a cloud based, Microservices operations and management
               platform.
+            cncf_member: true
           - item:
             name: Giant Swarm
             company: Giant Swarm
@@ -4206,6 +4451,7 @@ landscape:
             stars: N/A
             license: NotOpenSource
             description: Managed Kubernetes Anywhere
+            cncf_member: true
           - item:
             name: Cloud66
             company: Cloud 66
@@ -4223,6 +4469,7 @@ landscape:
             description: >-
               Ops tools for Devs. Build, manage and maintain applications on any
               cloud
+            cncf_member: false
           - item:
             name: Kontena
             company: Kontena
@@ -4241,6 +4488,7 @@ landscape:
             description: >-
               The developer friendly container and micro services platform.
               Works on any cloud, easy to setup, simple to use.
+            cncf_member: false
           - item:
             name: Kubermatic
             company: Kubermatic
@@ -4255,6 +4503,7 @@ landscape:
             stars: N/A
             license: Unknown License
             description: ''
+            cncf_member: false
           - item:
             name: Gravitational
             company: Gravitational
@@ -4270,6 +4519,7 @@ landscape:
             stars: N/A
             license: NotOpenSource
             description: Gravitational deploys and runs your SaaS on private clouds.
+            cncf_member: true
           - item:
             name: Navops
             company: Navops
@@ -4287,6 +4537,7 @@ landscape:
             description: >-
               Navops Launch, Command, and Control your container-ready
               enterprise within minutes.
+            cncf_member: false
           - item:
             name: Heroku
             company: Heroku
@@ -4305,6 +4556,7 @@ landscape:
             description: >-
               Heroku is a multi-language cloud application platform that enables
               developers to deploy, scale, and manage their applications.
+            cncf_member: false
           - item:
             name: Mantl
             company: Mantl
@@ -4321,6 +4573,7 @@ landscape:
             description: >-
               Mantl is a modern platform for rapidly deploying globally
               distributed services
+            cncf_member: false
           - item:
             name: Mirantis
             company: Mirantis
@@ -4337,6 +4590,7 @@ landscape:
             stars: N/A
             license: Unknown License
             description: Mirantis is the pure-play OpenStack company.
+            cncf_member: false
           - item:
             name: goPaddle
             company: Bluemeric
@@ -4354,6 +4608,7 @@ landscape:
             description: >-
               Bluemeric Inc offers microservices PaaS platform and offers DevOps
               consulting & services to automate cloud deployments.
+            cncf_member: false
           - item:
             name: Hyper
             company: Hyper_
@@ -4370,6 +4625,7 @@ landscape:
             stars: N/A
             license: Unknown License
             description: Hyper_ is a secure container cloud service.
+            cncf_member: false
           - item:
             name: Exoscale
             company: Exoscale
@@ -4387,6 +4643,7 @@ landscape:
             description: >-
               The best cloud hosting platform for SaaS companies, developers and
               systems administrators
+            cncf_member: true
           - item:
             name: JHipster
             company: JHipster
@@ -4402,6 +4659,7 @@ landscape:
             stars: N/A
             license: Unknown License
             description: ''
+            cncf_member: false
           - item:
             name: Moby
             company: Docker
@@ -4420,6 +4678,7 @@ landscape:
             description: >-
               Moby Project - a collaborative project for the container ecosystem
               to assemble container-based systems
+            cncf_member: true
           - item:
             name: Galactic Fog
             company: Galactic Fog
@@ -4437,6 +4696,7 @@ landscape:
             description: >-
               Build Future-Proof Applications. Simplify integration. Run
               applications anywhere. Adapt to changes instantly.
+            cncf_member: true
           - item:
             name: ContainerLinux
             company: CoreOS
@@ -4453,6 +4713,7 @@ landscape:
             stars: 791
             license: Apache-2.0
             description: Documentation for CoreOS projects
+            cncf_member: true
           - item:
             name: Ubuntu
             company: Ubuntu
@@ -4470,6 +4731,7 @@ landscape:
             description: >-
               Ubuntu is a Debian-based open source Linux operating system for
               PC, tablet, phone, and cloud platforms.
+            cncf_member: false
           - item:
             name: Lightbend
             company: Lightbend
@@ -4488,6 +4750,7 @@ landscape:
             description: >-
               Lightbend (formerly Typesafe) is dedicated to helping developers
               build Reactive applications on the JVM.
+            cncf_member: false
           - item:
             name: Deis
             company: Microsoft
@@ -4505,6 +4768,7 @@ landscape:
             stars: 1080
             license: MIT
             description: The open source PaaS for Kubernetes.
+            cncf_member: true
           - item:
             name: Docker Cloud
             company: Docker
@@ -4522,6 +4786,7 @@ landscape:
               Docker is a platform for distributed applications that allows
               developers and sysadmins to build, ship, and run distributed
               applications.
+            cncf_member: true
           - item:
             name: Tsuru
             company: Tsuru
@@ -4539,6 +4804,7 @@ landscape:
             description: >-
               Open source, extensible and Docker-based Platform as a Service
               (PaaS).
+            cncf_member: false
           - item:
             name: ContainerShip
             company: Containership
@@ -4557,6 +4823,7 @@ landscape:
               Containership is a Kubernetes based enterprise
               Containers-as-a-Service platform with support for 12 cloud
               providers
+            cncf_member: false
           - item:
             name: Convox
             company: Convox
@@ -4572,6 +4839,7 @@ landscape:
             stars: N/A
             license: NotOpenSource
             description: Launch a Private Cloud in Minutes.
+            cncf_member: false
           - item:
             name: Google Kubernetes Engine (GKE)
             company: Google Cloud Platform
@@ -4587,6 +4855,7 @@ landscape:
             stars: N/A
             license: NotOpenSource
             description: Google Cloud Platform is a tool suite for app developers.
+            cncf_member: false
           - item:
             name: Portainer
             company: Portainer
@@ -4601,6 +4870,7 @@ landscape:
             stars: N/A
             license: Unknown License
             description: ''
+            cncf_member: false
           - item:
             name: Pusher
             company: Pusher
@@ -4620,6 +4890,7 @@ landscape:
               Pusher is a cloud-based tech platform enabling developers to
               create collaborative tools, multiplayer games, chat and real-time
               dashboards.
+            cncf_member: false
           - item:
             name: Remind
             company: Remind
@@ -4638,6 +4909,7 @@ landscape:
             description: >-
               Remind is a communication platform that helps every student
               succeed.
+            cncf_member: false
           - item:
             name: Scalingo
             company: Scalingo
@@ -4656,6 +4928,7 @@ landscape:
               Scalingo a Docker Platform Service Transform your code as Docker
               container & run it on our cloud, making it instantly available &
               scalable. 
+            cncf_member: false
           - item:
             name: StackPointCloud
             company: StackPointCloud
@@ -4670,6 +4943,7 @@ landscape:
             stars: N/A
             license: NotOpenSource
             description: ''
+            cncf_member: false
           - item:
             name: Supergiant
             company: Supergiant
@@ -4687,6 +4961,7 @@ landscape:
             description: >-
               Automatically scale hardware and easily run stateful applications
               using Kubernetes.
+            cncf_member: false
           - item:
             name: SUSE Caas Platform
             company: Suse
@@ -4703,6 +4978,7 @@ landscape:
             stars: 10
             license: Unknown License
             description: SUSE Container as a Service Platform Documentation
+            cncf_member: false
       - subcategory:
         name: Serverless/Event-based
         items:
@@ -4724,6 +5000,7 @@ landscape:
             description: >-
               Amazon Web Services provides information technology infrastructure
               services to businesses in the form of web services.
+            cncf_member: true
           - item:
             name: OpenFAAS
             company: OpenFaaS Ltd
@@ -4742,6 +5019,7 @@ landscape:
             description: >-
               OpenFaaS - Serverless Functions Made Simple for Docker &
               Kubernetes
+            cncf_member: false
           - item:
             name: Google Cloud Functions
             company: Google Cloud Platform
@@ -4757,6 +5035,7 @@ landscape:
             stars: N/A
             license: NotOpenSource
             description: Google Cloud Platform is a tool suite for app developers.
+            cncf_member: false
           - item:
             name: OpenWhisk
             company: Apache Software Foundation
@@ -4775,6 +5054,7 @@ landscape:
             description: >-
               Apache OpenWhisk is a serverless event-based programming service
               and an Apache Incubator project.
+            cncf_member: false
           - item:
             name: Oracle Application Container Cloud
             company: Oracle Corporation
@@ -4794,6 +5074,7 @@ landscape:
               Oracle is a computer technology corporation developing and
               marketing computer hardware systems and enterprise software
               products.
+            cncf_member: false
           - item:
             name: Firebase BLOCKS
             company: Firebase
@@ -4812,6 +5093,7 @@ landscape:
             description: >-
               Firebase is Google's mobile platform. Build and grow your iOS,
               Android, or Web app with Firebase.
+            cncf_member: false
           - item:
             name: Webtask
             company: Webtask
@@ -4830,6 +5112,7 @@ landscape:
               Webtasks is a simple, lightweight, and secure way of running
               isolated backend code that removed or reduces the need for a
               backend.
+            cncf_member: false
           - item:
             name: Fission
             company: Platform9 Systems
@@ -4845,6 +5128,7 @@ landscape:
             stars: 2982
             license: Apache-2.0
             description: Fast Serverless Functions for Kubernetes
+            cncf_member: false
           - item:
             name: PubNub
             company: PubNub
@@ -4861,6 +5145,7 @@ landscape:
             description: >-
               The PubNub Data Stream Network enables mobile and web developers
               to build and scale realtime apps.
+            cncf_member: false
           - item:
             name: Apex
             company: apex
@@ -4875,6 +5160,7 @@ landscape:
             stars: N/A
             license: Unknown License
             description: ''
+            cncf_member: false
           - item:
             name: Serverless
             company: Serverless
@@ -4893,6 +5179,7 @@ landscape:
             description: >-
               Serverless offers developers an open source framework powered by
               AWS Lambda and AWS API Gateway.
+            cncf_member: false
           - item:
             name: Kubeless
             company: Kubeless
@@ -4908,6 +5195,7 @@ landscape:
             stars: 1842
             license: Apache-2.0
             description: Kubernetes Native Serverless Framework
+            cncf_member: false
           - item:
             name: NStack
             company: NStack
@@ -4923,6 +5211,7 @@ landscape:
             stars: N/A
             license: Unknown License
             description: ''
+            cncf_member: false
           - item:
             name: Nuclio
             company: iguazio
@@ -4942,6 +5231,7 @@ landscape:
               iguazio's Continuous Analytics Data Platform has redesigned the
               data stack to accelerate performance in big data, IoT and
               cloud-native apps.
+            cncf_member: false
           - item:
             name: Azure Functions
             company: Microsoft
@@ -4961,6 +5251,7 @@ landscape:
               Microsoft is a software corporation that develops, manufactures,
               licenses, supports, and sells a range of software products and
               services.
+            cncf_member: true
   - category:
     name: Observability and Analysis
     subcategories:
@@ -4982,6 +5273,7 @@ landscape:
             stars: 9
             license: GPL-3.0
             description: StatsDB
+            cncf_member: false
           - item:
             name: New Relic
             company: New Relic
@@ -5001,6 +5293,7 @@ landscape:
               New Relic is a leading digital intelligence company, delivering
               full-stack visibility and analytics to enterprises around the
               world.
+            cncf_member: false
           - item:
             name: AppDynamics
             company: AppDynamics
@@ -5019,6 +5312,7 @@ landscape:
               AppDynamics develops application performance management (APM)
               solutions that deliver problem resolution for highly distributed
               applications.
+            cncf_member: false
           - item:
             name: Axibase
             company: Axibase
@@ -5034,6 +5328,7 @@ landscape:
             stars: N/A
             license: Unknown License
             description: ''
+            cncf_member: false
           - item:
             name: Datadog
             company: Datadog
@@ -5049,6 +5344,7 @@ landscape:
             stars: N/A
             license: NotOpenSource
             description: Datadog offers a cloud-scale monitoring service.
+            cncf_member: true
           - item:
             name: CloudWATCH
             company: Amazon Web Services
@@ -5067,6 +5363,7 @@ landscape:
             description: >-
               Amazon Web Services provides information technology infrastructure
               services to businesses in the form of web services.
+            cncf_member: true
           - item:
             name: Stackdriver
             company: Stackdriver
@@ -5084,6 +5381,7 @@ landscape:
             description: >-
               Stackdriver provides monitoring services for cloud-powered
               applications.
+            cncf_member: false
           - item:
             name: Prometheus
             company: Cloud Native Computing Foundation (CNCF)
@@ -5101,6 +5399,7 @@ landscape:
             stars: 14452
             license: Apache-2.0
             description: The Prometheus monitoring system and time series database.
+            cncf_member: false
           - item:
             name: SysDig
             company: Sysdig
@@ -5118,6 +5417,7 @@ landscape:
             description: >-
               Linux system exploration and troubleshooting tool with first class
               support for containers
+            cncf_member: true
           - item:
             name: Wavefront
             company: Wavefront
@@ -5135,6 +5435,7 @@ landscape:
             description: >-
               Wavefront is a hosted platform for ingesting, storing, visualizing
               and alerting on time series data.
+            cncf_member: false
           - item:
             name: Instana
             company: Instana
@@ -5151,6 +5452,7 @@ landscape:
             description: >-
               Instana is an APM solution that automatically monitors dynamic
               modern apps.
+            cncf_member: true
           - item:
             name: Honeybadger
             company: Honeybadger
@@ -5166,6 +5468,7 @@ landscape:
             stars: N/A
             license: Unknown License
             description: 'Exception, uptime, and performance monit'
+            cncf_member: false
           - item:
             name: Icinga
             company: Icinga
@@ -5184,6 +5487,7 @@ landscape:
             description: >-
               Icinga is a monitoring software project that began as a fork of
               Nagios.
+            cncf_member: false
           - item:
             name: IronDB
             company: 'Circonus, Inc.'
@@ -5200,6 +5504,7 @@ landscape:
             stars: N/A
             license: Unknown License
             description: Realtime Monitoring and Analytics
+            cncf_member: false
           - item:
             name: Rocana
             company: Rocana
@@ -5216,6 +5521,7 @@ landscape:
             description: >-
               Rocana is a San Francisco, CA-based provider of root cause
               analysis software company
+            cncf_member: false
           - item:
             name: OpsClarity
             company: OpsClarity Inc.
@@ -5233,6 +5539,7 @@ landscape:
             description: >-
               Intelligent Monitoring for Modern Applications and Data
               Infrastructure
+            cncf_member: false
           - item:
             name: Nagios
             company: Nagios
@@ -5251,6 +5558,7 @@ landscape:
             description: >-
               Nagios Enterprises offers monitoring and alerting solutions for
               servers, switches, applications, and services.
+            cncf_member: false
           - item:
             name: Zabbix
             company: Zabbix
@@ -5267,6 +5575,7 @@ landscape:
             stars: N/A
             license: Unknown License
             description: 'ZABBIX SIA is based in Riga, Latvia.'
+            cncf_member: false
           - item:
             name: Graphite
             company: Graphite
@@ -5281,6 +5590,7 @@ landscape:
             stars: N/A
             license: Unknown License
             description: ''
+            cncf_member: false
           - item:
             name: InfluxDB
             company: InfluxData
@@ -5297,6 +5607,7 @@ landscape:
             stars: 12484
             license: Unknown License
             description: 'Scalable datastore for metrics, events, and real-time analytics'
+            cncf_member: false
           - item:
             name: OpenTSDB
             company: OpenTSDB
@@ -5311,6 +5622,7 @@ landscape:
             stars: 2904
             license: GPL-3.0
             description: 'A scalable, distributed Time Series Database.'
+            cncf_member: false
           - item:
             name: Netsil
             company: Netsil
@@ -5326,6 +5638,7 @@ landscape:
             stars: N/A
             license: NotOpenSource
             description: Observability and Monitoring for Modern Cloud Applications
+            cncf_member: true
           - item:
             name: Meros
             company: 'Meros, Inc.'
@@ -5343,6 +5656,7 @@ landscape:
             description: >-
               Meros is creating enterprise monitoring and management tools for
               Docker
+            cncf_member: false
           - item:
             name: OpBeat
             company: Opbeat
@@ -5358,6 +5672,7 @@ landscape:
             stars: N/A
             license: NotOpenSource
             description: APM for JavaScript
+            cncf_member: false
           - item:
             name: Cobe
             company: Cobe
@@ -5372,6 +5687,7 @@ landscape:
             stars: N/A
             license: NotOpenSource
             description: ''
+            cncf_member: false
           - item:
             name: ServerDensity
             company: Server Density
@@ -5389,6 +5705,7 @@ landscape:
             description: >-
               Server Density is a SaaS product that helps users manage and
               monitor their infrastructure.
+            cncf_member: false
           - item:
             name: Librato
             company: Librato
@@ -5403,6 +5720,7 @@ landscape:
             stars: N/A
             license: NotOpenSource
             description: Real time operations analytics for metrics from any source
+            cncf_member: false
           - item:
             name: AppNeta
             company: AppNeta
@@ -5422,6 +5740,7 @@ landscape:
               AppNeta is the only app performance monitoring company with
               solutions for apps you develop, SaaS apps you use & networks that
               deliver them.
+            cncf_member: false
           - item:
             name: Catchpoint Systems
             company: 'Catchpoint '
@@ -5436,6 +5755,7 @@ landscape:
             stars: N/A
             license: NotOpenSource
             description: 'Catchpoint is a leading digital experience intelligence company '
+            cncf_member: false
           - item:
             name: Dynatrace
             company: Dynatrace
@@ -5454,6 +5774,7 @@ landscape:
               Dynatrace transform how Web and non-Web business-critical
               applications are monitored, managed, and optimized throughout
               their lifecycle.
+            cncf_member: true
           - item:
             name: CoScale
             company: CoScale
@@ -5472,6 +5793,7 @@ landscape:
             description: >-
               Full stack performance monitoring. Built for container and
               microservices applications. Powered by anomaly detection.
+            cncf_member: false
           - item:
             name: Outlyer
             company: Outlyer
@@ -5489,6 +5811,7 @@ landscape:
             description: >-
               Infrastructure monitoring platform made for DevOps and
               microservices.
+            cncf_member: false
           - item:
             name: Centreon
             company: Centreon
@@ -5507,6 +5830,7 @@ landscape:
             description: >-
               Centreon is a network, system, applicative supervision and
               monitoring tool
+            cncf_member: false
           - item:
             name: Lighstep
             company: LightStep
@@ -5525,6 +5849,7 @@ landscape:
               LightStep's mission is to cut through the scale and complexity of
               today's software to help organizations stay in control of their
               systems.
+            cncf_member: false
           - item:
             name: Signal FX
             company: SignalFx
@@ -5539,6 +5864,7 @@ landscape:
             stars: N/A
             license: NotOpenSource
             description: Advanced monitoring platform for modern applications
+            cncf_member: false
           - item:
             name: Nodesource
             company: 'NodeSource, Inc.'
@@ -5556,6 +5882,7 @@ landscape:
             description: >-
               Building products focused on Node.js security and performance for
               the Enterprise.
+            cncf_member: false
           - item:
             name: Grafana
             company: Grafana Labs
@@ -5572,6 +5899,7 @@ landscape:
             stars: N/A
             license: Unknown License
             description: the defacto standard for visualizing time series data.
+            cncf_member: true
           - item:
             name: Log Analytics
             company: Microsoft
@@ -5591,6 +5919,7 @@ landscape:
               Microsoft is a software corporation that develops, manufactures,
               licenses, supports, and sells a range of software products and
               services.
+            cncf_member: true
           - item:
             name: Weave Scope
             company: Weaveworks
@@ -5607,6 +5936,7 @@ landscape:
             stars: 2173
             license: Apache-2.0
             description: 'Monitoring, visualisation & management for Docker & Kubernetes'
+            cncf_member: true
           - item:
             name: Sensu
             company: SENSU
@@ -5623,6 +5953,7 @@ landscape:
             stars: N/A
             license: Unknown License
             description: Managing Creative Obsessions
+            cncf_member: false
           - item:
             name: Sentry
             company: Sentry
@@ -5640,6 +5971,7 @@ landscape:
             description: >-
               Sentry is a real-time crash reporting tool for web, mobile, and
               games.
+            cncf_member: false
           - item:
             name: StackRox
             company: StackRox
@@ -5658,6 +5990,7 @@ landscape:
             description: >-
               StackRox delivers the industry's only adaptive threat protection
               for containers.
+            cncf_member: false
           - item:
             name: StackState
             company: StackState
@@ -5673,6 +6006,7 @@ landscape:
             stars: N/A
             license: NotOpenSource
             description: The market-leading Algorithmic IT Operations platform
+            cncf_member: false
           - item:
             name: Weave Cloud
             company: Weaveworks
@@ -5690,6 +6024,7 @@ landscape:
             description: >-
               Weaveworks provides a simple and consistent way to connect and
               manage containers and microservices
+            cncf_member: true
       - subcategory:
         name: Logging
         items:
@@ -5711,6 +6046,7 @@ landscape:
             description: >-
               Splunk provides operational intelligence software that monitors,
               reports, and analyzes real-time machine data.
+            cncf_member: true
           - item:
             name: Elastic
             company: Elastic
@@ -5729,6 +6065,7 @@ landscape:
             description: >-
               Elastic builds software to make data usable in real time and at
               scale for search, logging, security, and analytics use cases.
+            cncf_member: false
           - item:
             name: Sematext
             company: Sematext
@@ -5747,6 +6084,7 @@ landscape:
             description: >-
               Sematext is a Search and Big Data analytics products and services
               company.
+            cncf_member: false
           - item:
             name: SumoLogic
             company: Sumo Logic
@@ -5766,6 +6104,7 @@ landscape:
               Sumo Logic, a log management and analytics service, transforms big
               data into sources of operations, security and compliance
               intelligence.
+            cncf_member: false
           - item:
             name: Loggly
             company: Loggly
@@ -5783,6 +6122,7 @@ landscape:
               Loggly parses your log files, shows you the code in GitHub which
               caused the log errors. 10,000+ customers, including 1/3 of the
               Fortune 500.
+            cncf_member: false
           - item:
             name: Logz
             company: Logz.io
@@ -5799,6 +6139,7 @@ landscape:
             description: >-
               Logz.io is an enterprise-grade ELK as a service with alerts,
               unlimited scalability, and predictive fault detection.
+            cncf_member: false
           - item:
             name: Fluentd
             company: Cloud Native Computing Foundation (CNCF)
@@ -5816,6 +6157,7 @@ landscape:
             stars: 5998
             license: Unknown License
             description: 'Fluentd: Unified Logging Layer (project under CNCF)'
+            cncf_member: false
           - item:
             name: Loom Systems
             company: Loom Systems
@@ -5831,6 +6173,7 @@ landscape:
             stars: N/A
             license: NotOpenSource
             description: Predict & Prevent Problems in the Digital Business
+            cncf_member: false
           - item:
             name: Graylog
             company: Graylog
@@ -5849,6 +6192,7 @@ landscape:
             description: >-
               Graylog is a fully integrated platform for collecting, indexing,
               and analyzing.
+            cncf_member: false
       - subcategory:
         name: Tracing
         items:
@@ -5869,6 +6213,7 @@ landscape:
             stars: 952
             license: MIT
             description: OpenTracing API for Go
+            cncf_member: false
           - item:
             name: Skywalking
             company: Open Skywalking Organization
@@ -5883,6 +6228,7 @@ landscape:
             stars: N/A
             license: Unknown License
             description: ''
+            cncf_member: false
           - item:
             name: Zipkin
             company: Zipkin
@@ -5898,6 +6244,7 @@ landscape:
             stars: 7568
             license: Apache-2.0
             description: Zipkin is a distributed tracing system
+            cncf_member: false
           - item:
             name: Jaeger
             company: Cloud Native Computing Foundation (CNCF)
@@ -5915,6 +6262,7 @@ landscape:
             stars: 3908
             license: Apache-2.0
             description: 'CNCF Jaeger, a Distributed Tracing System'
+            cncf_member: false
           - item:
             name: Cloud Sleuth
             company: Spring
@@ -5929,6 +6277,7 @@ landscape:
             stars: 580
             license: Apache-2.0
             description: Distributed tracing for spring cloud
+            cncf_member: false
           - item:
             name: Appdash
             company: Sourcegraph
@@ -5942,3 +6291,4 @@ landscape:
             stars: 1216
             license: Unknown License
             description: 'Application tracing system for Go, based on Google''s Dapper.'
+            cncf_member: false

@@ -13,22 +13,26 @@
 import _ from 'lodash';
 import lookups from '../lookup.json';
 const fields = {
-  cncfProject: {
-    id: 'cncfProject',
+  cncfRelation: {
+    id: 'cncfRelation',
     url: 'cncf',
     label: 'CNCF Relation',
     values: [{
-      id: true,
-      label: 'CNCF Hosted Project',
-      url: 'hosted',
-    }, {
-      id: false,
-      label: 'CNCF Member Product',
-      url: 'member',
-    }, {
       id: null,
       label: 'Any',
       url: 'any'
+    }, {
+      id: 'hosted',
+      label: 'CNCF Project',
+      url: 'hosted',
+    }, {
+      id: 'member',
+      label: 'CNCF Member Product/Project',
+      url: 'member',
+    }, {
+      id: false,
+      label: 'Non-CNCF Member Project/Product',
+      url: 'no'
     }]
   },
   stars: {

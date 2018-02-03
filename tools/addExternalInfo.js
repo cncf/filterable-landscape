@@ -7,6 +7,7 @@ import formatCity from '../src/utils/formatCity';
 
 const crunchbase = parse(require('fs').readFileSync('src/crunchbase.csv','utf-8'), {columns: true});
 const githubEntries = require('../src/github.json');
+const cncfMembers = require('js-yaml').safeLoad(require('fs').readFileSync('src/cncf_members.yml'));
 
 const tree = traverse(source);
 const newSource = tree.map(function(node) {
@@ -48,6 +49,7 @@ const newSource = tree.map(function(node) {
     _.assign(node, crunchbaseParts);
     _.assign(node, githubInfo);
     node.description = description;
+    node.cncf_member = cncfMembers.indexOf(node.company) !== -1;
   }
 });
 var dump = require('js-yaml').dump(newSource);

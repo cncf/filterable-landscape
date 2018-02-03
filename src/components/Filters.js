@@ -22,7 +22,7 @@ const Filters = () => {
 
       <FormGroup row>
         <FormControl component="fieldset">
-          <FormLabel component="legend">{fields.cncfProject.label}</FormLabel>
+          <FormLabel component="legend">{fields.cncfRelation.label}</FormLabel>
           <CncfFilterContainer/>
         </FormControl>
       </FormGroup>
