@@ -211,7 +211,6 @@ landscape:
           name: "Avi Networks"
           company: "Avi Networks"
           homepage_url: https://avinetworks.com/
-          repo_url: https://github.com/avinetworks
           raw_logo: https://avinetworks.com/wp-content/uploads/2017/06/Avi-Logo-Transparent-Background-Hi-Res-2.png
           twitter: https://twitter.com/AviNetworks
           crunchbase: https://www.crunchbase.com/organization/avi-networks-inc
@@ -399,6 +398,7 @@ landscape:
             name: "Joyent"
             company: "Triton"
             homepage_url: https://www.joyent.com/
+            repo_url: https://github.com/joyent/smartos-live
             raw_logo: https://upload.wikimedia.org/wikipedia/commons/9/96/Joyent-logo.png
             twitter: https://twitter.com/joyent
             crunchbase: https://www.crunchbase.com/organization/joyent
@@ -432,7 +432,7 @@ landscape:
           name: "MAAS"
           company: "Canonical"
           homepage_url: https://maas.io/
-          repo_url: https://github.com/maas
+          repo_url: https://github.com/maas/maas
           raw_logo: https://github.com/alexcontini/alexcontini.github.io/blob/master/maas.png
           twitter: https://twitter.com/Canonical
           crunchbase: https://www.crunchbase.com/organization/canonical-ltd
@@ -523,7 +523,7 @@ landscape:
           name: "Juju"
           company: "Canonical"
           homepage_url: https://jujucharms.com/
-          repo_url: https://github.com/juju
+          repo_url: https://github.com/juju/juju
           raw_logo: https://design.canonical.com/wp-content/uploads/2011/10/juju-464x252.png
           twitter: https://twitter.com/ubuntucloud
           crunchbase: https://www.crunchbase.com/organization/canonical-ltd
@@ -587,7 +587,7 @@ landscape:
           name: "Docker Registry"
           company: "Docker"
           homepage_url: https://docs.docker.com/registry/
-          repo_url: https://github.com/docker/docker-registry
+          repo_url: https://github.com/docker/distribution
           raw_logo: https://blog.docker.com/media/2015/11/logo-title-final-registry-2.png
           twitter: https://twitter.com/docker
           crunchbase: https://www.crunchbase.com/organization/docker
@@ -707,7 +707,7 @@ landscape:
           name: "Clair"
           company: "CoreOS"
           homepage_url: https://coreos.com/clair/docs/latest/
-          repo_url: https://github.com/coreos
+          repo_url: https://github.com/coreos/clair
           raw_logo: http://zdnet2.cbsistatic.com/hub/i/r/2016/03/18/c9a09a0a-1fcc-48c8-810b-cb1c0379a562/resize/770xauto/cc3c78f58099a9569a899e05ceabba3f/coreos-clair.jpg
           twitter: https://twitter.com/coreos
           crunchbase: https://www.crunchbase.com/organization/coreos
@@ -930,7 +930,6 @@ landscape:
           name: "Kasten"
           company: "Kasten"
           homepage_url: https://kasten.io/
-          repo_url: https://github.com/kanisterio/kanister
           raw_logo: https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAx9AAAAJDg5NzcxMTk0LTdhNzItNGI1Ny04OTAzLTA2Zjc1NjNiOTY2ZQ.png
           twitter: https://twitter.com/kastenhq
           crunchbase: https://www.crunchbase.com/organization/kasten
@@ -1065,7 +1064,7 @@ landscape:
           name: "Intel Clear Containers"
           company: "Intel"
           homepage_url: https://clearlinux.org/containers
-          repo_url: https://github.com/clearcontainers
+          repo_url: https://github.com/clearcontainers/runtime
           raw_logo: https://cdn.thenewstack.io/media/2015/11/ClearContainers.jpg
           stock ticker: INTC
           twitter: https://twitter.com/clearlinux/
@@ -1120,7 +1119,7 @@ landscape:
           name: "Contiv"
           company: "Cisco"
           homepage_url: https://contiv.github.io/
-          repo_url: https://github.com/contiv
+          repo_url: https://github.com/contiv/netplugin
           raw_logo: https://alln-extcloud-storage.cisco.com/ciscoblogs/Contiv-Icon.png
           stock_ticker: 'CSCO'
           twitter: https://twitter.com/projectcontiv
@@ -1339,7 +1338,7 @@ landscape:
           name: "Couchbase"
           company: "Counchbase"
           homepage_url: https://www.couchbase.com/
-          repo_url: https://github.com/couchbase
+          repo_url: https://github.com/couchbase/couchbase-lite-ios
           raw_logo: https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Couchbase%2C_Inc._official_logo.png/250px-Couchbase%2C_Inc._official_logo.png
           twitter: https://twitter.com/couchbase
           crunchbase: https://www.crunchbase.com/organization/couchbase
@@ -1361,7 +1360,7 @@ landscape:
           crunchbase: https://www.crunchbase.com/organization/rethinkdb
         - item:
           name: "Vitess"
-          company: "Google"
+          company: "Google Cloud"
           homepage_url: http://vitess.io/
           raw_logo: http://vitess.io/images/vitess_logo_with_border.svg
           repo_url: https://github.com/youtube/vitess
@@ -1853,7 +1852,7 @@ landscape:
           name: "DC/OS"
           company: "Mesophere"
           homepage_url: https://mesosphere.com/product/
-          repo_url: https://github.com/dcos
+          repo_url: https://github.com/dcos/dcos
           raw_logo: https://github.com/alexcontini/alexcontini.github.io/blob/master/DC.OS.logo-vertical-styled.png?raw=true
           twitter: https://twitter.com/mesosphere
           crunchbase: https://www.crunchbase.com/organization/mesosphere
@@ -1883,7 +1882,6 @@ landscape:
           name: "Kublr"
           company: "kublr"
           homepage_url: http://kublr.com/
-          repo_url: https://github.com/kublr
           raw_logo: http://kublr.com/logo
           twitter: https://twitter.com/kublr
           crunchbase: https://www.crunchbase.com/organization/kublr
@@ -1960,7 +1958,6 @@ landscape:
           name: "Nirmata"
           company: Nirmata
           homepage_url: https://www.nirmata.com/
-          repo_url: https://github.com/Nirmata
           raw_logo: https://www.nirmata.com/wp-content/uploads/2017/11/vertical-color-small-01.png
           twitter: https://twitter.com/nirmatacloud
           crunchbase: https://www.crunchbase.com/organization/nirmata
@@ -2050,7 +2047,6 @@ landscape:
           name: "Exoscale"
           company: "Exoscale"
           homepage_url: https://www.exoscale.ch/
-          repo_url: https://github.com/exoscale
           raw_logo: https://avatars0.githubusercontent.com/u/2023286
           twitter: https://twitter.com/Exoscale
           crunchbase: https://www.crunchbase.com/organization/exoscale
@@ -2077,14 +2073,6 @@ landscape:
           twitter: https://twitter.com/galacticfog
           crunchbase: https://www.crunchbase.com/organization/galactic-fog
         - item:
-          name: "ContainerLinux"
-          company: "CoreOS"
-          homepage_url: https://coreos.com/products/container-linux-subscription/
-          repo_url: https://github.com/coreos/docs
-          raw_logo: https://d7umqicpi7263.cloudfront.net/img/product/0d1e0bd0-eaea-4397-9a3a-c56f861d2a14/f234a5bf-d91a-45d8-abe8-f16744f57a6d.PNG
-          twitter: https://twitter.com/containerlinux
-          crunchbase: https://www.crunchbase.com/organization/coreos
-        - item:
           name: "Ubuntu"
           company: "Ubuntu"
           homepage_url: https://www.ubuntu.com/
@@ -2099,15 +2087,6 @@ landscape:
           raw_logo: https://upload.wikimedia.org/wikipedia/en/thumb/b/b1/Lightbend_full-color_logo.svg/1280px-Lightbend_full-color_logo.svg.png
           twitter: https://twitter.com/lightbend
           crunchbase: https://www.crunchbase.com/organization/typesafe
-        - item:
-          name: "Deis"
-          company: "Microsoft"
-          homepage_url: https://deis.com/
-          repo_url: https://github.com/deis/workflow
-          raw_logo: https://camo.githubusercontent.com/fb982d796feea404581bc97876079855682f4639/68747470733a2f2f646569732e636f6d2f696d616765732f646569732d6c6f676f2e706e67
-          stock_ticker: 'MSFT'
-          twitter: https://twitter.com/opendeis
-          crunchbase: https://www.crunchbase.com/organization/microsoft
         - item:
           name: "Docker Cloud"
           company: "Docker"
@@ -2590,7 +2569,7 @@ landscape:
           name: "Grafana"
           company: "Grafana"
           homepage_url: https://grafana.com/
-          repo_url: https://github.com/grafana/
+          repo_url: https://github.com/grafana/grafana
           raw_logo: https://assets.packet.net/media/pages/images/a8849b052492b5106526b2331e526138/xCMw-grafana.png
           twitter: https://twitter.com/grafana
           crunchbase: https://www.crunchbase.com/organization/raintank
