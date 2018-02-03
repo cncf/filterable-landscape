@@ -3,7 +3,7 @@ import { FormGroup, FormControl, FormLabel } from 'material-ui/Form';
 
 import CncfFilterContainer from './CncfFilterContainer';
 import StarsFilterContainer from './StarsFilterContainer';
-import CertifiedKubernetesFilterContainer from './CertifiedKubernetesFilterContainer'
+// import CertifiedKubernetesFilterContainer from './CertifiedKubernetesFilterContainer'
 import LicenseFilterContainer from './LicenseFilterContainer';
 import MarketCapFilterContainer from './MarketCapFilterContainer';
 // import VCFunderFilterContainer from './VCFunderFilterContainer';
@@ -63,12 +63,14 @@ const Filters = () => {
         </FormControl>
       </FormGroup>
 
-      <FormGroup row style={{}}>
-        <FormControl component="fieldset">
-          <FormLabel component="legend">{fields.certifiedKubernetes.label}</FormLabel>
-          <CertifiedKubernetesFilterContainer/>
-        </FormControl>
-      </FormGroup>
+      {
+      // <FormGroup row style={{}}>
+        // <FormControl component="fieldset">
+          // <FormLabel component="legend">{fields.certifiedKubernetes.label}</FormLabel>
+          // <CertifiedKubernetesFilterContainer/>
+        // </FormControl>
+      // </FormGroup>
+      }
 
 
       {

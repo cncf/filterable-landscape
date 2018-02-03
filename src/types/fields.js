@@ -76,65 +76,65 @@ const fields = {
       }
     }]
   },
-  certifiedKubernetes: {
-    id: 'certifiedKubernetes',
-    url: 'kubernetes',
-    label: '(fake) Certified Kubernetes',
-    filterFn: function(filterValue, itemValue) {
-      if (filterValue === null) {
-        return true;
-      }
-      if (filterValue === 'platform') {
-        return itemValue === 'platform'
-      }
-      if (filterValue === 'distribution') {
-        return itemValue === 'distribution';
-      }
-      if (filterValue === 'platformOrDistribution') {
-        return itemValue === 'platform' || itemValue === 'distribution';
-      }
-      if (filterValue === 'notCertified') {
-        return itemValue === false;
-      }
-      if (filterValue === 'all') {
-        return itemValue === 'platform' || itemValue === 'distribution' || itemValue === false;
-      }
-      console.info('oops, strange filter value: ', filterValue);
-    },
-    values: [{
-      id: null,
-      label: 'Any',
-      url: 'any'
-    }, {
-      id: 'platform',
-      label: 'Platform',
-    }, {
-      id: 'distribution',
-      label: 'Distribution',
-    }, {
-      id: 'platformOrDistribution',
-      label: 'Platform Or Distribution',
-    }, {
-      id: 'notCertified',
-      label: 'Not Certified',
-    }, {
-      id: 'all',
-      label: 'All Kubernetes Products'
-    }],
-    answers: [{
-      id: null,
-      groupingLabel: 'Not Related'
-    }, {
-      id: 'platform',
-      groupingLabel: 'Platform'
-    }, {
-      id: 'distribution',
-      groupingLabel: 'Distribution'
-    }, {
-      id: false,
-      groupingLabel: 'Not Certified'
-    }]
-  },
+  // certifiedKubernetes: {
+    // id: 'certifiedKubernetes',
+    // url: 'kubernetes',
+    // label: '(fake) Certified Kubernetes',
+    // filterFn: function(filterValue, itemValue) {
+      // if (filterValue === null) {
+        // return true;
+      // }
+      // if (filterValue === 'platform') {
+        // return itemValue === 'platform'
+      // }
+      // if (filterValue === 'distribution') {
+        // return itemValue === 'distribution';
+      // }
+      // if (filterValue === 'platformOrDistribution') {
+        // return itemValue === 'platform' || itemValue === 'distribution';
+      // }
+      // if (filterValue === 'notCertified') {
+        // return itemValue === false;
+      // }
+      // if (filterValue === 'all') {
+        // return itemValue === 'platform' || itemValue === 'distribution' || itemValue === false;
+      // }
+      // console.info('oops, strange filter value: ', filterValue);
+    // },
+    // values: [{
+      // id: null,
+      // label: 'Any',
+      // url: 'any'
+    // }, {
+      // id: 'platform',
+      // label: 'Platform',
+    // }, {
+      // id: 'distribution',
+      // label: 'Distribution',
+    // }, {
+      // id: 'platformOrDistribution',
+      // label: 'Platform Or Distribution',
+    // }, {
+      // id: 'notCertified',
+      // label: 'Not Certified',
+    // }, {
+      // id: 'all',
+      // label: 'All Kubernetes Products'
+    // }],
+    // answers: [{
+      // id: null,
+      // groupingLabel: 'Not Related'
+    // }, {
+      // id: 'platform',
+      // groupingLabel: 'Platform'
+    // }, {
+      // id: 'distribution',
+      // groupingLabel: 'Distribution'
+    // }, {
+      // id: false,
+      // groupingLabel: 'Not Certified'
+    // }]
+  // },
   license: {
     id: 'license',
     label: 'License',

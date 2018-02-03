@@ -3,7 +3,6 @@ const traverse = require('traverse');
 const _ = require('lodash');
 import saneName from '../src/utils/saneName';
 import { getCategory } from '../src/types/fields';
-import fakeData from '../src/types/fakeData';
 
 
 const items = [];
@@ -22,8 +21,6 @@ tree.map(function(node) {
       path: parts.join(' / '),
       landscape: parts.join(' / '),
       category: parts[0],
-      certifiedKubernetes: _.sample([null, false, 'platform', 'distribution']),
-      vcFunder: _.sample(fakeData.vcFunder),
       marketCap: node.market_cap,
       oss: node.license !== 'NotOpenSource'
     });
