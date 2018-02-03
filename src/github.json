@@ -11,26 +11,26 @@
     "description": "This repository is the starting point to engage in and learn about Service Fabric open source projects from Microsoft."
   },
   {
+    "url": "https://github.com/docker/swarm",
+    "stars": 4984,
+    "license": "Apache-2.0",
+    "description": "Swarm: a Docker-native clustering system"
+  },
+  {
     "url": "https://github.com/sourcegraph/appdash",
     "stars": 1216,
     "license": "Unknown License",
     "description": "Application tracing system for Go, based on Google's Dapper."
   },
   {
-    "url": "https://github.com/docker/swarm",
-    "stars": 4983,
-    "license": "Apache-2.0",
-    "description": "Swarm: a Docker-native clustering system"
-  },
-  {
     "url": "https://github.com/hashicorp/nomad",
-    "stars": 3220,
+    "stars": 3225,
     "license": "MPL-2.0",
     "description": "Nomad is a flexible, enterprise-grade cluster scheduler designed to easily integrate into existing workflows. Nomad can run a diverse workload of micro-service, batch, containerized and non-containerized applications. Nomad is easy to operate and scale and integrates seamlessly with Consul and Vault."
   },
   {
     "url": "https://github.com/kubernetes/kubernetes",
-    "stars": 32043,
+    "stars": 32080,
     "license": "Apache-2.0",
     "description": "Production-Grade Container Scheduling and Management"
   },
@@ -40,13 +40,8 @@
     "license": "Unknown License"
   },
   {
-    "url": "https://github.com/Graylog2",
-    "stars": "N/A",
-    "license": "Unknown License"
-  },
-  {
     "url": "https://github.com/spring-cloud/spring-cloud-sleuth",
-    "stars": 580,
+    "stars": 581,
     "license": "Apache-2.0",
     "description": "Distributed tracing for spring cloud"
   },
@@ -57,20 +52,25 @@
     "description": "CNCF Jaeger, a Distributed Tracing System"
   },
   {
-    "url": "https://github.com/opentracing/opentracing-go",
-    "stars": 952,
-    "license": "MIT",
-    "description": "OpenTracing API for Go"
+    "url": "https://github.com/Graylog2",
+    "stars": "N/A",
+    "license": "Unknown License"
   },
   {
     "url": "https://github.com/openzipkin/zipkin",
-    "stars": 7568,
+    "stars": 7577,
     "license": "Apache-2.0",
     "description": "Zipkin is a distributed tracing system"
   },
   {
+    "url": "https://github.com/opentracing/opentracing-go",
+    "stars": 953,
+    "license": "MIT",
+    "description": "OpenTracing API for Go"
+  },
+  {
     "url": "https://github.com/fluent/fluentd",
-    "stars": 5998,
+    "stars": 6000,
     "license": "Unknown License",
     "description": "Fluentd: Unified Logging Layer (project under CNCF)"
   },
@@ -105,9 +105,10 @@
     "license": "Unknown License"
   },
   {
-    "url": "https://github.com/grafana/",
-    "stars": "N/A",
-    "license": "Unknown License"
+    "url": "https://github.com/weaveworks/scope",
+    "stars": 2175,
+    "license": "Apache-2.0",
+    "description": "Monitoring, visualisation & management for Docker & Kubernetes"
   },
   {
     "url": "https://github.com/CoScale",
@@ -123,6 +124,30 @@
     "url": "https://github.com/serverdensity",
     "stars": "N/A",
     "license": "Unknown License"
+  },
+  {
+    "url": "https://github.com/grafana/grafana",
+    "stars": 20040,
+    "license": "Apache-2.0",
+    "description": "The tool for beautiful monitoring and metric analytics & dashboards for Graphite, InfluxDB & Prometheus & More"
+  },
+  {
+    "url": "https://github.com/centreon/centreon",
+    "stars": 188,
+    "license": "GPL-2.0",
+    "description": "Centreon is a network, system, applicative supervision and monitoring tool"
+  },
+  {
+    "url": "https://github.com/OpenTSDB/opentsdb",
+    "stars": 2904,
+    "license": "GPL-3.0",
+    "description": "A scalable, distributed Time Series Database."
+  },
+  {
+    "url": "https://github.com/influxdata/influxdb",
+    "stars": 12491,
+    "license": "Unknown License",
+    "description": "Scalable datastore for metrics, events, and real-time analytics"
   },
   {
     "url": "https://github.com/graphite-project",
@@ -155,39 +180,15 @@
     "license": "Unknown License"
   },
   {
-    "url": "https://github.com/weaveworks/scope",
-    "stars": 2173,
-    "license": "Apache-2.0",
-    "description": "Monitoring, visualisation & management for Docker & Kubernetes"
-  },
-  {
-    "url": "https://github.com/OpenTSDB/opentsdb",
-    "stars": 2904,
-    "license": "GPL-3.0",
-    "description": "A scalable, distributed Time Series Database."
-  },
-  {
-    "url": "https://github.com/centreon/centreon",
-    "stars": 188,
-    "license": "GPL-2.0",
-    "description": "Centreon is a network, system, applicative supervision and monitoring tool"
-  },
-  {
-    "url": "https://github.com/draios/sysdig",
-    "stars": 4815,
-    "license": "GPL-2.0",
-    "description": "Linux system exploration and troubleshooting tool with first class support for containers"
-  },
-  {
-    "url": "https://github.com/influxdata/influxdb",
-    "stars": 12484,
-    "license": "Unknown License",
-    "description": "Scalable datastore for metrics, events, and real-time analytics"
-  },
-  {
     "url": "https://github.com/axibase",
     "stars": "N/A",
     "license": "Unknown License"
+  },
+  {
+    "url": "https://github.com/draios/sysdig",
+    "stars": 4816,
+    "license": "GPL-2.0",
+    "description": "Linux system exploration and troubleshooting tool with first class support for containers"
   },
   {
     "url": "https://github.com/nuclio",
@@ -200,6 +201,18 @@
     "license": "Unknown License"
   },
   {
+    "url": "https://github.com/prometheus/prometheus",
+    "stars": 14476,
+    "license": "Apache-2.0",
+    "description": "The Prometheus monitoring system and time series database."
+  },
+  {
+    "url": "https://github.com/TGAC/StatsDB",
+    "stars": 9,
+    "license": "GPL-3.0",
+    "description": "StatsDB"
+  },
+  {
     "url": "https://github.com/serverless",
     "stars": "N/A",
     "license": "Unknown License"
@@ -210,28 +223,22 @@
     "license": "Unknown License"
   },
   {
-    "url": "https://github.com/TGAC/StatsDB",
-    "stars": 9,
-    "license": "GPL-3.0",
-    "description": "StatsDB"
-  },
-  {
-    "url": "https://github.com/prometheus/prometheus",
-    "stars": 14452,
-    "license": "Apache-2.0",
-    "description": "The Prometheus monitoring system and time series database."
-  },
-  {
     "url": "https://github.com/kubeless/kubeless",
-    "stars": 1842,
+    "stars": 1848,
     "license": "Apache-2.0",
     "description": "Kubernetes Native Serverless Framework"
   },
   {
     "url": "https://github.com/fission/fission",
-    "stars": 2982,
+    "stars": 2984,
     "license": "Apache-2.0",
     "description": "Fast Serverless Functions for Kubernetes"
+  },
+  {
+    "url": "https://github.com/openfaas/faas",
+    "stars": 8544,
+    "license": "MIT",
+    "description": "OpenFaaS - Serverless Functions Made Simple for Docker & Kubernetes"
   },
   {
     "url": "https://github.com/topics/oracle-application-container-cloud",
@@ -241,9 +248,21 @@
   },
   {
     "url": "https://github.com/apache/incubator-openwhisk",
-    "stars": 2391,
+    "stars": 2394,
     "license": "Apache-2.0",
     "description": "Apache OpenWhisk is a serverless event-based programming service and an Apache Incubator project."
+  },
+  {
+    "url": "https://github.com/SUSE/doc-caasp",
+    "stars": 10,
+    "license": "Unknown License",
+    "description": "SUSE Container as a Service Platform Documentation"
+  },
+  {
+    "url": "https://github.com/supergiant/supergiant",
+    "stars": 515,
+    "license": "Apache-2.0",
+    "description": "Automatically scale hardware and easily run stateful applications using Kubernetes."
   },
   {
     "url": "https://github.com/Scalingo",
@@ -266,53 +285,12 @@
     "license": "Unknown License"
   },
   {
-    "url": "https://github.com/SUSE/doc-caasp",
-    "stars": 10,
-    "license": "Unknown License",
-    "description": "SUSE Container as a Service Platform Documentation"
-  },
-  {
-    "url": "https://github.com/openfaas/faas",
-    "stars": 8526,
-    "license": "MIT",
-    "description": "OpenFaaS - Serverless Functions Made Simple for Docker & Kubernetes"
-  },
-  {
     "url": "https://github.com/lightbend",
     "stars": "N/A",
     "license": "Unknown License"
   },
   {
-    "url": "https://github.com/supergiant/supergiant",
-    "stars": 515,
-    "license": "Apache-2.0",
-    "description": "Automatically scale hardware and easily run stateful applications using Kubernetes."
-  },
-  {
-    "url": "https://github.com/tsuru/tsuru",
-    "stars": 2645,
-    "license": "BSD-3-Clause",
-    "description": "Open source, extensible and Docker-based Platform as a Service (PaaS)."
-  },
-  {
-    "url": "https://github.com/deis/workflow",
-    "stars": 1080,
-    "license": "MIT",
-    "description": "The open source PaaS for Kubernetes."
-  },
-  {
-    "url": "https://github.com/coreos/docs",
-    "stars": 791,
-    "license": "Apache-2.0",
-    "description": "Documentation for CoreOS projects"
-  },
-  {
     "url": "https://github.com/jhipster",
-    "stars": "N/A",
-    "license": "Unknown License"
-  },
-  {
-    "url": "https://github.com/exoscale",
     "stars": "N/A",
     "license": "Unknown License"
   },
@@ -332,20 +310,39 @@
     "license": "Unknown License"
   },
   {
+    "url": "https://github.com/tsuru/tsuru",
+    "stars": 2645,
+    "license": "BSD-3-Clause",
+    "description": "Open source, extensible and Docker-based Platform as a Service (PaaS)."
+  },
+  {
+    "url": "https://github.com/mantl/mantl",
+    "stars": 3003,
+    "license": "Apache-2.0",
+    "description": "Mantl is a modern platform for rapidly deploying globally distributed services"
+  },
+  {
     "url": "https://github.com/kubermatic/",
     "stars": "N/A",
     "license": "Unknown License"
   },
   {
-    "url": "https://github.com/Nirmata",
-    "stars": "N/A",
-    "license": "Unknown License"
-  },
-  {
     "url": "https://github.com/moby/moby",
-    "stars": 47522,
+    "stars": 47528,
     "license": "Apache-2.0",
     "description": "Moby Project - a collaborative project for the container ecosystem to assemble container-based systems"
+  },
+  {
+    "url": "https://github.com/kontena/kontena",
+    "stars": 1281,
+    "license": "Unknown License",
+    "description": "The developer friendly container and micro services platform. Works on any cloud, easy to setup, simple to use."
+  },
+  {
+    "url": "https://github.com/remind101/empire",
+    "stars": 2352,
+    "license": "BSD-2-Clause",
+    "description": "A PaaS built on top of Amazon EC2 Container Service (ECS)"
   },
   {
     "url": "https://github.com/iron-io",
@@ -363,38 +360,22 @@
     "license": "Unknown License"
   },
   {
-    "url": "https://github.com/kublr",
-    "stars": "N/A",
-    "license": "Unknown License"
-  },
-  {
-    "url": "https://github.com/mantl/mantl",
-    "stars": 3003,
-    "license": "Apache-2.0",
-    "description": "Mantl is a modern platform for rapidly deploying globally distributed services"
-  },
-  {
-    "url": "https://github.com/kontena/kontena",
-    "stars": 1281,
-    "license": "Unknown License",
-    "description": "The developer friendly container and micro services platform. Works on any cloud, easy to setup, simple to use."
-  },
-  {
-    "url": "https://github.com/remind101/empire",
-    "stars": 2352,
-    "license": "BSD-2-Clause",
-    "description": "A PaaS built on top of Amazon EC2 Container Service (ECS)"
-  },
-  {
     "url": "https://github.com/Yelp/paasta",
-    "stars": 1177,
+    "stars": 1178,
     "license": "Apache-2.0",
     "description": "An open, distributed platform as a service"
   },
   {
-    "url": "https://github.com/dcos",
-    "stars": "N/A",
-    "license": "Unknown License"
+    "url": "https://github.com/rancher/rancher",
+    "stars": 7645,
+    "license": "Unknown License",
+    "description": "Complete container management platform"
+  },
+  {
+    "url": "https://github.com/dcos/dcos",
+    "stars": 1881,
+    "license": "Apache-2.0",
+    "description": "DC/OS - The Datacenter Operating System"
   },
   {
     "url": "https://github.com/openshift/",
@@ -462,26 +443,10 @@
     "license": "Unknown License"
   },
   {
-    "url": "https://github.com/rancher/rancher",
-    "stars": 7644,
-    "license": "Unknown License",
-    "description": "Complete container management platform"
-  },
-  {
-    "url": "https://github.com/habitat-sh",
-    "stars": "N/A",
-    "license": "Unknown License"
-  },
-  {
     "url": "https://github.com/xebialabs-community/xld-xldeploy-plugin",
     "stars": 0,
     "license": "Unknown License",
     "description": "XL Deploy plugin that can call another XLD instance"
-  },
-  {
-    "url": "https://github.com/kubevirt",
-    "stars": "N/A",
-    "license": "Unknown License"
   },
   {
     "url": "https://github.com/apache/brooklyn",
@@ -490,15 +455,49 @@
     "description": "Mirror of Apache Brooklyn"
   },
   {
+    "url": "https://github.com/habitat-sh",
+    "stars": "N/A",
+    "license": "Unknown License"
+  },
+  {
+    "url": "https://github.com/kubevirt",
+    "stars": "N/A",
+    "license": "Unknown License"
+  },
+  {
     "url": "https://github.com/docker/compose",
-    "stars": 11725,
+    "stars": 11736,
     "license": "Apache-2.0",
     "description": "Define and run multi-container applications with Docker"
+  },
+  {
+    "url": "https://github.com/hashicorp/packer",
+    "stars": 7295,
+    "license": "MPL-2.0",
+    "description": "Packer is a tool for creating identical machine images for multiple platforms from a single source configuration."
   },
   {
     "url": "https://github.com/streamsets",
     "stars": "N/A",
     "license": "Unknown License"
+  },
+  {
+    "url": "https://github.com/gitlabhq/gitlabhq",
+    "stars": 20326,
+    "license": "Unknown License",
+    "description": "GitLab CE | Please open new issues in our issue tracker on GitLab.com"
+  },
+  {
+    "url": "https://github.com/apache/incubator-pulsar",
+    "stars": 1552,
+    "license": "Apache-2.0",
+    "description": "Pulsar - distributed pub-sub messaging system"
+  },
+  {
+    "url": "https://github.com/apache/nifi",
+    "stars": 795,
+    "license": "Apache-2.0",
+    "description": "Mirror of Apache NiFi"
   },
   {
     "url": "https://github.com/nats-io",
@@ -511,40 +510,16 @@
     "license": "Unknown License"
   },
   {
-    "url": "https://github.com/gitlabhq/gitlabhq",
-    "stars": 20321,
-    "license": "Unknown License",
-    "description": "GitLab CE | Please open new issues in our issue tracker on GitLab.com"
-  },
-  {
-    "url": "https://github.com/apache/nifi",
-    "stars": 794,
+    "url": "https://github.com/apache/apex-core",
+    "stars": 276,
     "license": "Apache-2.0",
-    "description": "Mirror of Apache NiFi"
-  },
-  {
-    "url": "https://github.com/apache/incubator-pulsar",
-    "stars": 1551,
-    "license": "Apache-2.0",
-    "description": "Pulsar - distributed pub-sub messaging system"
-  },
-  {
-    "url": "https://github.com/hashicorp/packer",
-    "stars": 7293,
-    "license": "MPL-2.0",
-    "description": "Packer is a tool for creating identical machine images for multiple platforms from a single source configuration."
+    "description": "Mirror of Apache Apex core"
   },
   {
     "url": "https://github.com/apache/storm",
-    "stars": 4810,
+    "stars": 4809,
     "license": "Apache-2.0",
     "description": "Mirror of Apache Storm"
-  },
-  {
-    "url": "https://github.com/apache/apex-core",
-    "stars": 275,
-    "license": "Apache-2.0",
-    "description": "Mirror of Apache Apex core"
   },
   {
     "url": "https://github.com/apache/flink",
@@ -553,16 +528,16 @@
     "description": "Mirror of Apache Flink"
   },
   {
-    "url": "https://github.com/apache/spark",
-    "stars": 16027,
-    "license": "Apache-2.0",
-    "description": "Mirror of Apache Spark"
-  },
-  {
     "url": "https://github.com/twitter/heron",
-    "stars": 3074,
+    "stars": 3078,
     "license": "Apache-2.0",
     "description": "Heron is a realtime, distributed, fault-tolerant stream processing engine from Twitter"
+  },
+  {
+    "url": "https://github.com/apache/spark",
+    "stars": 16031,
+    "license": "Apache-2.0",
+    "description": "Mirror of Apache Spark"
   },
   {
     "url": "https://github.com/scylladb",
@@ -571,7 +546,7 @@
   },
   {
     "url": "https://github.com/apache/kafka",
-    "stars": 7316,
+    "stars": 7318,
     "license": "Apache-2.0",
     "description": "Mirror of Apache Kafka"
   },
@@ -586,9 +561,21 @@
     "license": "Unknown License"
   },
   {
+    "url": "https://github.com/pachyderm/pachyderm",
+    "stars": 2507,
+    "license": "Apache-2.0",
+    "description": "Reproducible Data Science at Scale!"
+  },
+  {
     "url": "https://github.com/druid-io",
     "stars": "N/A",
     "license": "Unknown License"
+  },
+  {
+    "url": "https://github.com/apache/carbondata",
+    "stars": 574,
+    "license": "Apache-2.0",
+    "description": "Mirror of Apache CarbonData"
   },
   {
     "url": "https://github.com/rethinkdb",
@@ -601,33 +588,34 @@
     "license": "Unknown License"
   },
   {
-    "url": "https://github.com/couchbase",
-    "stars": "N/A",
-    "license": "Unknown License"
-  },
-  {
-    "url": "https://github.com/apache/carbondata",
-    "stars": 573,
-    "license": "Apache-2.0",
-    "description": "Mirror of Apache CarbonData"
-  },
-  {
     "url": "https://github.com/youtube/vitess",
-    "stars": 5456,
+    "stars": 5457,
     "license": "Apache-2.0",
     "description": "Vitess is a database clustering system for horizontal scaling of MySQL."
   },
   {
+    "url": "https://github.com/couchbase/couchbase-lite-ios",
+    "stars": 1277,
+    "license": "Apache-2.0",
+    "description": "Lightweight, embedded, syncable NoSQL database engine for iOS (and Mac!) apps."
+  },
+  {
+    "url": "https://github.com/bigchaindb/bigchaindb",
+    "stars": 2105,
+    "license": "Unknown License",
+    "description": "BigchainDB is a scalable blockchain database"
+  },
+  {
     "url": "https://github.com/attic-labs/noms",
-    "stars": 6430,
+    "stars": 6429,
     "license": "Unknown License",
     "description": "The versioned, forkable, syncable database"
   },
   {
-    "url": "https://github.com/pachyderm/pachyderm",
-    "stars": 2506,
-    "license": "Apache-2.0",
-    "description": "Reproducible Data Science at Scale!"
+    "url": "https://github.com/crate/crate",
+    "stars": 1903,
+    "license": "ECL-2.0",
+    "description": "CrateDB is a distributed SQL database that makes it simple to store and analyze massive amounts of machine data in real-time."
   },
   {
     "url": "https://github.com/MariaDB",
@@ -635,15 +623,21 @@
     "license": "Unknown License"
   },
   {
-    "url": "https://github.com/bigchaindb/bigchaindb",
-    "stars": 2103,
-    "license": "Unknown License",
-    "description": "BigchainDB is a scalable blockchain database"
-  },
-  {
     "url": "https://github.com/redis",
     "stars": "N/A",
     "license": "Unknown License"
+  },
+  {
+    "url": "https://github.com/apache/cassandra",
+    "stars": 4154,
+    "license": "Apache-2.0",
+    "description": "Mirror of Apache Cassandra"
+  },
+  {
+    "url": "https://github.com/mongodb/mongo",
+    "stars": 13042,
+    "license": "Unknown License",
+    "description": "The MongoDB Database"
   },
   {
     "url": "https://github.com/postgres",
@@ -656,26 +650,14 @@
     "license": "Unknown License"
   },
   {
-    "url": "https://github.com/crate/crate",
-    "stars": 1900,
-    "license": "ECL-2.0",
-    "description": "CrateDB is a distributed SQL database that makes it simple to store and analyze massive amounts of machine data in real-time."
-  },
-  {
-    "url": "https://github.com/apache/cassandra",
-    "stars": 4152,
+    "url": "https://github.com/weaveworks/weave",
+    "stars": 4929,
     "license": "Apache-2.0",
-    "description": "Mirror of Apache Cassandra"
-  },
-  {
-    "url": "https://github.com/mongodb/mongo",
-    "stars": 13036,
-    "license": "Unknown License",
-    "description": "The MongoDB Database"
+    "description": "Simple, resilient multi-host Docker networking and more."
   },
   {
     "url": "https://github.com/pingcap/tidb",
-    "stars": 11619,
+    "stars": 11631,
     "license": "Apache-2.0",
     "description": "TiDB is a distributed HTAP database compatible with the MySQL protocol"
   },
@@ -683,6 +665,12 @@
     "url": "https://github.com/romana",
     "stars": "N/A",
     "license": "Unknown License"
+  },
+  {
+    "url": "https://github.com/containernetworking/cni",
+    "stars": 1110,
+    "license": "Apache-2.0",
+    "description": "Container Network Interface - networking for Linux containers"
   },
   {
     "url": "https://github.com/openvswitch/",
@@ -695,27 +683,21 @@
     "license": "Unknown License"
   },
   {
-    "url": "https://github.com/weaveworks/weave",
-    "stars": 4926,
+    "url": "https://github.com/Juniper/contrail-controller",
+    "stars": 337,
     "license": "Apache-2.0",
-    "description": "Simple, resilient multi-host Docker networking and more."
+    "description": "Contrail Controller"
+  },
+  {
+    "url": "https://github.com/openstack/vmware-nsx",
+    "stars": 50,
+    "license": "Unknown License",
+    "description": "A set of Neutron drivers for the VMware NSX."
   },
   {
     "url": "https://github.com/midokura",
     "stars": "N/A",
     "license": "Unknown License"
-  },
-  {
-    "url": "https://github.com/containernetworking/cni",
-    "stars": 1110,
-    "license": "Apache-2.0",
-    "description": "Container Network Interface - networking for Linux containers"
-  },
-  {
-    "url": "https://github.com/Juniper/contrail-controller",
-    "stars": 336,
-    "license": "Apache-2.0",
-    "description": "Contrail Controller"
   },
   {
     "url": "https://github.com/cumulusnetworks/",
@@ -728,21 +710,22 @@
     "license": "Unknown License"
   },
   {
-    "url": "https://github.com/contiv",
-    "stars": "N/A",
-    "license": "Unknown License"
-  },
-  {
-    "url": "https://github.com/openstack/vmware-nsx",
-    "stars": 50,
-    "license": "Unknown License",
-    "description": "A set of Neutron drivers for the VMware NSX."
-  },
-  {
     "url": "https://github.com/coreos/flannel",
-    "stars": 2738,
+    "stars": 2745,
     "license": "Apache-2.0",
     "description": "flannel is a network fabric for containers, designed for Kubernetes"
+  },
+  {
+    "url": "https://github.com/contiv/netplugin",
+    "stars": 334,
+    "license": "Unknown License",
+    "description": "Container networking for various use cases"
+  },
+  {
+    "url": "https://github.com/projectcalico/canal",
+    "stars": 474,
+    "license": "Unknown License",
+    "description": "Policy based networking for cloud native applications"
   },
   {
     "url": "https://github.com/projectcalico/",
@@ -755,38 +738,27 @@
     "license": "Unknown License"
   },
   {
-    "url": "https://github.com/clearcontainers",
-    "stars": "N/A",
-    "license": "Unknown License"
-  },
-  {
     "url": "https://github.com/cri-o",
     "stars": "N/A",
     "license": "Unknown License"
   },
   {
-    "url": "https://github.com/projectcalico/canal",
-    "stars": 474,
+    "url": "https://github.com/clearcontainers/runtime",
+    "stars": 411,
+    "license": "Apache-2.0",
+    "description": "OCI (Open Containers Initiative) compatible runtime using Virtual Machines"
+  },
+  {
+    "url": "https://github.com/containerd/containerd",
+    "stars": 2239,
     "license": "Unknown License",
-    "description": "Policy based networking for cloud native applications"
+    "description": "An open and reliable container runtime"
   },
   {
     "url": "https://github.com/hyperhq/runv",
     "stars": 449,
     "license": "Apache-2.0",
     "description": "Hypervisor-based Runtime for OCI"
-  },
-  {
-    "url": "https://github.com/joyent/smartos-live",
-    "stars": 1231,
-    "license": "Unknown License",
-    "description": "For more information, please see http://smartos.org/ For any questions that aren't answered there, please join the SmartOS discussion list: http://smartos.org/smartos-mailing-list/"
-  },
-  {
-    "url": "https://github.com/containerd/containerd",
-    "stars": 2236,
-    "license": "Unknown License",
-    "description": "An open and reliable container runtime"
   },
   {
     "url": "https://github.com/lxc/lxd",
@@ -796,9 +768,21 @@
   },
   {
     "url": "https://github.com/opencontainers/runc",
-    "stars": 4424,
+    "stars": 4428,
     "license": "Apache-2.0",
     "description": "CLI tool for spawning and running containers according to the OCI specification"
+  },
+  {
+    "url": "https://github.com/rkt/rkt",
+    "stars": 7752,
+    "license": "Apache-2.0",
+    "description": "rkt is a pod-native container engine for Linux. It is composable, secure, and built on standards."
+  },
+  {
+    "url": "https://github.com/openstack/swift",
+    "stars": 1664,
+    "license": "Apache-2.0",
+    "description": "OpenStack Storage (Swift)"
   },
   {
     "url": "https://github.com/openebs",
@@ -826,28 +810,16 @@
     "license": "Unknown License"
   },
   {
-    "url": "https://github.com/rkt/rkt",
-    "stars": 7747,
-    "license": "Apache-2.0",
-    "description": "rkt is a pod-native container engine for Linux. It is composable, secure, and built on standards."
-  },
-  {
-    "url": "https://github.com/openstack/swift",
-    "stars": 1664,
-    "license": "Apache-2.0",
-    "description": "OpenStack Storage (Swift)"
-  },
-  {
-    "url": "https://github.com/kanisterio/kanister",
-    "stars": 26,
-    "license": "Apache-2.0",
-    "description": "An extensible framework for application-level data management on Kubernetes"
-  },
-  {
     "url": "https://github.com/leo-project/leofs",
     "stars": 1120,
     "license": "Apache-2.0",
     "description": "The LeoFS Storage System"
+  },
+  {
+    "url": "https://github.com/joyent/manta",
+    "stars": 416,
+    "license": "MPL-2.0",
+    "description": "Manta, Triton’s object storage and converged analytics solutions, is a HTTP-based object store that uses OS containers to allow compute on data at rest."
   },
   {
     "url": "https://github.com/purestorage",
@@ -860,6 +832,12 @@
     "license": "Unknown License"
   },
   {
+    "url": "https://github.com/codedellemc/rexray",
+    "stars": 1047,
+    "license": "Apache-2.0",
+    "description": "REX-Ray is a container storage orchestration engine enabling persistence for cloud native workloads"
+  },
+  {
     "url": "https://github.com/gluster",
     "stars": "N/A",
     "license": "Unknown License"
@@ -870,10 +848,16 @@
     "license": "Unknown License"
   },
   {
-    "url": "https://github.com/joyent/manta",
-    "stars": 416,
-    "license": "MPL-2.0",
-    "description": "Manta, Triton’s object storage and converged analytics solutions, is a HTTP-based object store that uses OS containers to allow compute on data at rest."
+    "url": "https://github.com/apache/hadoop",
+    "stars": 5540,
+    "license": "Apache-2.0",
+    "description": "Mirror of Apache Hadoop"
+  },
+  {
+    "url": "https://github.com/spiffe/spire",
+    "stars": 135,
+    "license": "Unknown License",
+    "description": "The SPIFFE Runtime Environment"
   },
   {
     "url": "https://github.com/spiffe",
@@ -886,42 +870,37 @@
     "license": "Unknown License"
   },
   {
-    "url": "https://github.com/spiffe/spire",
-    "stars": 135,
-    "license": "Unknown License",
-    "description": "The SPIFFE Runtime Environment"
-  },
-  {
-    "url": "https://github.com/codedellemc/rexray",
-    "stars": 1046,
-    "license": "Apache-2.0",
-    "description": "REX-Ray is a container storage orchestration engine enabling persistence for cloud native workloads"
-  },
-  {
-    "url": "https://github.com/apache/hadoop",
-    "stars": 5523,
-    "license": "Apache-2.0",
-    "description": "Mirror of Apache Hadoop"
-  },
-  {
-    "url": "https://github.com/hashicorp/vault",
-    "stars": 8409,
-    "license": "MPL-2.0",
-    "description": "A tool for secrets management, encryption as a service, and privileged access management"
-  },
-  {
     "url": "https://github.com/pinterest/knox",
-    "stars": 551,
+    "stars": 552,
     "license": "Apache-2.0",
     "description": "Knox is a secret management service"
   },
   {
-    "url": "https://github.com/OpenSCAP",
-    "stars": "N/A",
-    "license": "Unknown License"
+    "url": "https://github.com/hashicorp/vault",
+    "stars": 8416,
+    "license": "MPL-2.0",
+    "description": "A tool for secrets management, encryption as a service, and privileged access management"
   },
   {
-    "url": "https://github.com/coreos",
+    "url": "https://github.com/square/keywhiz",
+    "stars": 1867,
+    "license": "Apache-2.0",
+    "description": "A system for distributing and managing secrets"
+  },
+  {
+    "url": "https://github.com/theupdateframework/tuf",
+    "stars": 697,
+    "license": "Unknown License",
+    "description": "A framework for securing software update systems"
+  },
+  {
+    "url": "https://github.com/lyft/confidant",
+    "stars": 1238,
+    "license": "Apache-2.0",
+    "description": "Confidant: your secret keeper."
+  },
+  {
+    "url": "https://github.com/OpenSCAP",
     "stars": "N/A",
     "license": "Unknown License"
   },
@@ -971,42 +950,37 @@
     "license": "Unknown License"
   },
   {
-    "url": "https://github.com/square/keywhiz",
-    "stars": 1866,
-    "license": "Apache-2.0",
-    "description": "A system for distributing and managing secrets"
-  },
-  {
-    "url": "https://github.com/lyft/confidant",
-    "stars": 1238,
-    "license": "Apache-2.0",
-    "description": "Confidant: your secret keeper."
-  },
-  {
-    "url": "https://github.com/theupdateframework/tuf",
-    "stars": 694,
-    "license": "Unknown License",
-    "description": "A framework for securing software update systems"
-  },
-  {
-    "url": "https://github.com/docker/docker-registry",
-    "stars": 2763,
-    "license": "Apache-2.0",
-    "description": "This is **DEPRECATED**! Please go to https://github.com/docker/distribution"
-  },
-  {
     "url": "https://github.com/theupdateframework/notary",
-    "stars": 1179,
+    "stars": 1182,
     "license": "Apache-2.0",
     "description": "Notary is a project that allows anyone to have trust over arbitrary collections of data"
   },
   {
-    "url": "https://github.com/ManageIQ/",
-    "stars": "N/A",
-    "license": "Unknown License"
+    "url": "https://github.com/coreos/clair",
+    "stars": 3119,
+    "license": "Apache-2.0",
+    "description": "Vulnerability Static Analysis for Containers"
   },
   {
-    "url": "https://github.com/juju",
+    "url": "https://github.com/docker/distribution",
+    "stars": 3718,
+    "license": "Apache-2.0",
+    "description": "The Docker toolset to pack, ship, store, and deliver content"
+  },
+  {
+    "url": "https://github.com/projectatomic/atomic",
+    "stars": 385,
+    "license": "Unknown License",
+    "description": "Atomic Run Tool for installing/running/managing container images."
+  },
+  {
+    "url": "https://github.com/vmware/harbor",
+    "stars": 3564,
+    "license": "Unknown License",
+    "description": "An enterprise-class container registry server based on Docker Distribution"
+  },
+  {
+    "url": "https://github.com/ManageIQ/",
     "stars": "N/A",
     "license": "Unknown License"
   },
@@ -1041,32 +1015,10 @@
     "license": "Unknown License"
   },
   {
-    "url": "https://github.com/maas",
-    "stars": "N/A",
-    "license": "Unknown License"
-  },
-  {
-    "url": "https://github.com/openstack",
-    "stars": "N/A",
-    "license": "Unknown License"
-  },
-  {
-    "url": "https://github.com/projectatomic/atomic",
-    "stars": 385,
-    "license": "Unknown License",
-    "description": "Atomic Run Tool for installing/running/managing container images."
-  },
-  {
     "url": "https://github.com/kris-nova/kubicorn",
-    "stars": 936,
+    "stars": 939,
     "license": "Apache-2.0",
     "description": "Simple. Cloud Native. Kubernetes. Rainbow. Infrastructure."
-  },
-  {
-    "url": "https://github.com/vmware/harbor",
-    "stars": 3562,
-    "license": "Unknown License",
-    "description": "An enterprise-class container registry server based on Docker Distribution"
   },
   {
     "url": "https://github.com/theforeman/theforeman.org",
@@ -1075,15 +1027,38 @@
     "description": "The new and improved Foreman website."
   },
   {
-    "url": "https://github.com/Netflix/zuul",
-    "stars": 3755,
-    "license": "Apache-2.0",
-    "description": "Zuul is a gateway service that provides dynamic routing, monitoring, resiliency, security, and more."
+    "url": "https://github.com/juju/juju",
+    "stars": 1082,
+    "license": "AGPL-3.0",
+    "description": "juju is devops distilled"
+  },
+  {
+    "url": "https://github.com/openstack",
+    "stars": "N/A",
+    "license": "Unknown License"
+  },
+  {
+    "url": "https://github.com/maas/maas",
+    "stars": 24,
+    "license": "AGPL-3.0",
+    "description": "Official MAAS repository mirror. (Do not submit pull requests or bugs here; use Launchpad instead.)"
+  },
+  {
+    "url": "https://github.com/joyent/smartos-live",
+    "stars": 1231,
+    "license": "Unknown License",
+    "description": "For more information, please see http://smartos.org/ For any questions that aren't answered there, please join the SmartOS discussion list: http://smartos.org/smartos-mailing-list/"
   },
   {
     "url": "https://github.com/Netflix/",
     "stars": "N/A",
     "license": "Unknown License"
+  },
+  {
+    "url": "https://github.com/Netflix/zuul",
+    "stars": 3761,
+    "license": "Apache-2.0",
+    "description": "Zuul is a gateway service that provides dynamic routing, monitoring, resiliency, security, and more."
   },
   {
     "url": "https://github.com/Netflix/ribbon",
@@ -1093,27 +1068,21 @@
   },
   {
     "url": "https://github.com/Netflix/Hystrix",
-    "stars": 12438,
+    "stars": 12449,
     "license": "Apache-2.0",
     "description": "Hystrix is a latency and fault tolerance library designed to isolate points of access to remote systems, services and 3rd party libraries, stop cascading failure and enable resilience in complex distributed systems where failure is inevitable."
   },
   {
-    "url": "https://github.com/weaveworks/flux",
-    "stars": 333,
-    "license": "Apache-2.0",
-    "description": "A tool for deploying container images to Kubernetes services"
-  },
-  {
-    "url": "https://github.com/magneticio/vamp",
-    "stars": 573,
-    "license": "Apache-2.0",
-    "description": "Vamp - canary releasing and autoscaling for microservice systems"
-  },
-  {
     "url": "https://github.com/Mashape/kong",
-    "stars": 14194,
+    "stars": 14210,
     "license": "Apache-2.0",
     "description": "🐒 The Microservice API Gateway"
+  },
+  {
+    "url": "https://github.com/weaveworks/flux",
+    "stars": 334,
+    "license": "Apache-2.0",
+    "description": "A tool for deploying container images to Kubernetes services"
   },
   {
     "url": "https://github.com/apache/avro",
@@ -1122,9 +1091,16 @@
     "description": "Mirror of Apache Avro"
   },
   {
-    "url": "https://github.com/avinetworks",
-    "stars": "N/A",
-    "license": "Unknown License"
+    "url": "https://github.com/magneticio/vamp",
+    "stars": 573,
+    "license": "Apache-2.0",
+    "description": "Vamp - canary releasing and autoscaling for microservice systems"
+  },
+  {
+    "url": "https://github.com/apache/thrift",
+    "stars": 4398,
+    "license": "Apache-2.0",
+    "description": "Mirror of Apache Thrift"
   },
   {
     "url": "https://github.com/turbinelabs",
@@ -1132,49 +1108,52 @@
     "license": "Unknown License"
   },
   {
-    "url": "https://github.com/apache/thrift",
-    "stars": 4394,
-    "license": "Apache-2.0",
-    "description": "Mirror of Apache Thrift"
-  },
-  {
-    "url": "https://github.com/datawire",
-    "stars": "N/A",
-    "license": "Unknown License"
-  },
-  {
-    "url": "https://github.com/grpc/grpc",
-    "stars": 13441,
-    "license": "Apache-2.0",
-    "description": "The C based gRPC (C++, Python, Ruby, Objective-C, PHP, C#)"
-  },
-  {
     "url": "https://github.com/containous/traefik",
-    "stars": 12728,
+    "stars": 12752,
     "license": "MIT",
     "description": "Træfik, a modern reverse proxy"
   },
   {
+    "url": "https://github.com/grpc/grpc",
+    "stars": 13453,
+    "license": "Apache-2.0",
+    "description": "The C based gRPC (C++, Python, Ruby, Objective-C, PHP, C#)"
+  },
+  {
+    "url": "https://github.com/datawire/ambassador",
+    "stars": 311,
+    "license": "Apache-2.0",
+    "description": "Kubernetes-native API gateway for microservices built on the Envoy Proxy"
+  },
+  {
     "url": "https://github.com/envoyproxy/envoy",
-    "stars": 3763,
+    "stars": 3775,
     "license": "Apache-2.0",
     "description": "C++ front/service proxy"
   },
   {
-    "url": "https://github.com/nginx",
-    "stars": "N/A",
-    "license": "Unknown License"
-  },
-  {
-    "url": "https://github.com/3scale",
-    "stars": "N/A",
-    "license": "Unknown License"
-  },
-  {
     "url": "https://github.com/linkerd/linkerd",
-    "stars": 3499,
+    "stars": 3501,
     "license": "Apache-2.0",
     "description": "Production-grade feature-rich service mesh for any platform"
+  },
+  {
+    "url": "https://github.com/nginx/nginx",
+    "stars": 5179,
+    "license": "Unknown License",
+    "description": "An official read-only mirror of http://hg.nginx.org/nginx/ which is updated hourly. Pull requests on GitHub cannot be accepted and will be automatically closed. The proper way to submit changes to nginx is via the nginx development mailing list, see http://nginx.org/en/docs/contributing_changes.html"
+  },
+  {
+    "url": "https://github.com/haproxy/haproxy",
+    "stars": 873,
+    "license": "Unknown License",
+    "description": "UNOFFICIAL fork of haproxy development repository - ISSUE REPORTS ARE IGNORED!"
+  },
+  {
+    "url": "https://github.com/3scale/apicast",
+    "stars": 65,
+    "license": "Apache-2.0",
+    "description": "3scale api gateway reloaded"
   },
   {
     "url": "https://github.com/vmware/haret",
@@ -1183,20 +1162,14 @@
     "description": "A strongly consistent distributed coordination system, built using proven protocols & implemented in Rust."
   },
   {
-    "url": "https://github.com/haproxy/haproxy",
-    "stars": 872,
-    "license": "Unknown License",
-    "description": "UNOFFICIAL fork of haproxy development repository - ISSUE REPORTS ARE IGNORED!"
-  },
-  {
     "url": "https://github.com/Netflix/eureka",
-    "stars": 4726,
+    "stars": 4731,
     "license": "Apache-2.0",
     "description": "AWS Service registry for resilient mid-tier load balancing and failover."
   },
   {
     "url": "https://github.com/uber-archive/hyperbahn",
-    "stars": 372,
+    "stars": 373,
     "license": "MIT",
     "description": "Service discovery and routing for large scale microservice operations"
   },
@@ -1214,15 +1187,21 @@
   },
   {
     "url": "https://github.com/coredns/coredns",
-    "stars": 1577,
+    "stars": 1580,
     "license": "Apache-2.0",
     "description": "CoreDNS is a DNS server that chains plugins"
   },
   {
     "url": "https://github.com/skynetservices/skydns",
-    "stars": 1716,
+    "stars": 1717,
     "license": "MIT",
     "description": "DNS service discovery for etcd"
+  },
+  {
+    "url": "https://github.com/apache/zookeeper",
+    "stars": 3913,
+    "license": "Apache-2.0",
+    "description": "Mirror of Apache Hadoop ZooKeeper"
   },
   {
     "url": "https://github.com/joyent/containerpilot",
@@ -1231,20 +1210,14 @@
     "description": "A service for autodiscovery and configuration of applications running in containers"
   },
   {
-    "url": "https://github.com/apache/zookeeper",
-    "stars": 3910,
-    "license": "Apache-2.0",
-    "description": "Mirror of Apache Hadoop ZooKeeper"
-  },
-  {
     "url": "https://github.com/hashicorp/consul",
-    "stars": 11285,
+    "stars": 11290,
     "license": "MPL-2.0",
     "description": "Consul is a distributed, highly available, and data center aware solution to connect and configure applications across dynamic, distributed infrastructure."
   },
   {
     "url": "https://github.com/coreos/etcd",
-    "stars": 16639,
+    "stars": 16660,
     "license": "Apache-2.0",
     "description": "Distributed reliable key-value store for the most critical data of a distributed system"
   }

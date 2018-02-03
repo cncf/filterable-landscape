@@ -23,7 +23,7 @@ landscape:
             market_cap: N/A
             headquarters: 'San Francisco, California'
             rank: 63493
-            stars: 32043
+            stars: 32080
             license: Apache-2.0
             cncf_member: false
           - item:
@@ -57,7 +57,7 @@ landscape:
             market_cap: 74175000
             headquarters: 'San Francisco, California'
             rank: 949
-            stars: 3220
+            stars: 3225
             license: MPL-2.0
             description: >-
               Nomad is a flexible, enterprise-grade cluster scheduler designed
@@ -117,7 +117,7 @@ landscape:
             market_cap: 242766694
             headquarters: 'San Francisco, California'
             rank: 471
-            stars: 4983
+            stars: 4984
             license: Apache-2.0
             description: 'Swarm: a Docker-native clustering system'
             cncf_member: true
@@ -137,7 +137,7 @@ landscape:
             market_cap: 50000000
             headquarters: 'San Francisco, California'
             rank: 1547
-            stars: 16639
+            stars: 16660
             license: Apache-2.0
             description: >-
               Distributed reliable key-value store for the most critical data of
@@ -156,7 +156,7 @@ landscape:
             market_cap: 74175000
             headquarters: 'San Francisco, California'
             rank: 949
-            stars: 11285
+            stars: 11290
             license: MPL-2.0
             description: >-
               Consul is a distributed, highly available, and data center aware
@@ -176,7 +176,7 @@ landscape:
             market_cap: N/A
             headquarters: 'Forest Hill, Maryland'
             rank: 84483
-            stars: 3910
+            stars: 3913
             license: Apache-2.0
             description: Mirror of Apache Hadoop ZooKeeper
             cncf_member: false
@@ -209,7 +209,7 @@ landscape:
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
-            stars: 1716
+            stars: 1717
             license: MIT
             description: DNS service discovery for etcd
             cncf_member: false
@@ -227,7 +227,7 @@ landscape:
             market_cap: N/A
             headquarters: 'San Francisco, California'
             rank: 63493
-            stars: 1577
+            stars: 1580
             license: Apache-2.0
             description: CoreDNS is a DNS server that chains plugins
             cncf_member: false
@@ -273,7 +273,7 @@ landscape:
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
-            stars: 372
+            stars: 373
             license: MIT
             description: >-
               Service discovery and routing for large scale microservice
@@ -290,7 +290,7 @@ landscape:
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
-            stars: 4726
+            stars: 4731
             license: Apache-2.0
             description: >-
               AWS Service registry for resilient mid-tier load balancing and
@@ -320,28 +320,26 @@ landscape:
         items:
           - item:
             name: 3Scale
-            company: 3scale
+            company: Red Hat
             homepage_url: 'https://www.3scale.net/'
-            repo_url: 'https://github.com/3scale'
+            repo_url: 'https://github.com/3scale/apicast'
             raw_logo: >-
               https://www.3scale.net/wp-content/uploads/2015/01/3scale-by-redhat.png
             twitter: 'https://twitter.com/3scale'
-            crunchbase: 'https://www.crunchbase.com/organization/3scale'
+            crunchbase: 'https://www.crunchbase.com/organization/red-hat'
             cncf_project: false
-            market_cap: 5000000
-            headquarters: 'San Francisco, California'
-            rank: 14135
-            stars: N/A
-            license: Unknown License
-            description: >-
-              3scale’s API management platform empowers API providers to easily
-              package, distribute, manage and monetize APIs.
-            cncf_member: false
+            market_cap: Not Entered Yet
+            headquarters: Not Entered Yet
+            rank: Not Entered Yet
+            stars: 65
+            license: Apache-2.0
+            description: 3scale api gateway reloaded
+            cncf_member: true
           - item:
             name: NGINX
             company: 'NGINX, Inc.'
             homepage_url: 'https://www.nginx.com/'
-            repo_url: 'https://github.com/nginx'
+            repo_url: 'https://github.com/nginx/nginx'
             raw_logo: >-
               https://cdn-1.wp.nginx.com/wp-content/themes/nginx-theme/assets/img/logo.png
             twitter: 'https://twitter.com/nginx'
@@ -350,11 +348,14 @@ landscape:
             market_cap: 41000000
             headquarters: 'San Francisco, California'
             rank: 3518
-            stars: N/A
+            stars: 5179
             license: Unknown License
             description: >-
-              NGINX offers advanced internet infrastructure software to help
-              companies match the demand for faster web experiences.
+              An official read-only mirror of http://hg.nginx.org/nginx/ which
+              is updated hourly. Pull requests on GitHub cannot be accepted and
+              will be automatically closed. The proper way to submit changes to
+              nginx is via the nginx development mailing list, see
+              http://nginx.org/en/docs/contributing_changes.html
             cncf_member: false
           - item:
             name: HAProxy
@@ -368,7 +369,7 @@ landscape:
             market_cap: N/A
             headquarters: 'Waltham, Massachusetts'
             rank: 86853
-            stars: 872
+            stars: 873
             license: Unknown License
             description: >-
               UNOFFICIAL fork of haproxy development repository - ISSUE REPORTS
@@ -388,7 +389,7 @@ landscape:
             market_cap: N/A
             headquarters: 'San Francisco, California'
             rank: 63493
-            stars: 3499
+            stars: 3501
             license: Apache-2.0
             description: Production-grade feature-rich service mesh for any platform
             cncf_member: false
@@ -407,7 +408,7 @@ landscape:
             market_cap: N/A
             headquarters: 'San Francisco, California'
             rank: 63493
-            stars: 3763
+            stars: 3775
             license: Apache-2.0
             description: C++ front/service proxy
             cncf_member: false
@@ -424,12 +425,12 @@ landscape:
             market_cap: 250000
             headquarters: 'Cambridge, Massachusetts'
             rank: 20948
-            stars: N/A
-            license: NotOpenSource
+            stars: 311
+            license: Apache-2.0
             description: >-
-              An early stage startup that's focused on making it easy for
-              developers to build resilient microservices.
-            cncf_member: false
+              Kubernetes-native API gateway for microservices built on the Envoy
+              Proxy
+            cncf_member: true
           - item:
             name: Traefik
             company: Containous
@@ -443,7 +444,7 @@ landscape:
             market_cap: 1000000
             headquarters: 'Lyon, France'
             rank: 23352
-            stars: 12728
+            stars: 12752
             license: MIT
             description: 'Træfik, a modern reverse proxy'
             cncf_member: false
@@ -468,7 +469,6 @@ landscape:
             name: Avi Networks
             company: Avi Networks
             homepage_url: 'https://avinetworks.com/'
-            repo_url: 'https://github.com/avinetworks'
             raw_logo: >-
               https://avinetworks.com/wp-content/uploads/2017/06/Avi-Logo-Transparent-Background-Hi-Res-2.png
             twitter: 'https://twitter.com/AviNetworks'
@@ -478,7 +478,7 @@ landscape:
             headquarters: 'Santa Clara, California'
             rank: 2258
             stars: N/A
-            license: Unknown License
+            license: NotOpenSource
             description: >-
               Avi Networks is a Silicon Valley startup with proven track record
               in building virtualization, networking and software solutions.
@@ -498,7 +498,7 @@ landscape:
             market_cap: N/A
             headquarters: 'San Francisco, California'
             rank: 63493
-            stars: 13441
+            stars: 13453
             license: Apache-2.0
             description: 'The C based gRPC (C++, Python, Ruby, Objective-C, PHP, C#)'
             cncf_member: false
@@ -515,7 +515,7 @@ landscape:
             market_cap: N/A
             headquarters: 'Forest Hill, Maryland'
             rank: 84483
-            stars: 4394
+            stars: 4398
             license: Apache-2.0
             description: Mirror of Apache Thrift
             cncf_member: false
@@ -565,7 +565,7 @@ landscape:
             market_cap: 20000000
             headquarters: 'London, United Kingdom'
             rank: 5353
-            stars: 333
+            stars: 334
             license: Apache-2.0
             description: A tool for deploying container images to Kubernetes services
             cncf_member: true
@@ -582,7 +582,7 @@ landscape:
             market_cap: 26101000
             headquarters: 'San Francisco, California'
             rank: 4031
-            stars: 14194
+            stars: 14210
             license: Apache-2.0
             description: "\U0001F412 The Microservice API Gateway"
             cncf_member: false
@@ -600,7 +600,7 @@ landscape:
             market_cap: 2803735952
             headquarters: 'Los Gatos, California'
             rank: 5
-            stars: 12438
+            stars: 12449
             license: Apache-2.0
             description: >-
               Hystrix is a latency and fault tolerance library designed to
@@ -661,7 +661,7 @@ landscape:
             market_cap: 2803735952
             headquarters: 'Los Gatos, California'
             rank: 5
-            stars: 3755
+            stars: 3761
             license: Apache-2.0
             description: >-
               Zuul is a gateway service that provides dynamic routing,
@@ -835,7 +835,7 @@ landscape:
             description: >-
               Alibaba Cloud develops highly scalable cloud computing and data
               management services.
-            cncf_member: false
+            cncf_member: true
           - item:
             name: Fujitsu K5
             company: Fujitsu
@@ -893,6 +893,7 @@ landscape:
             name: Joyent
             company: Joyent
             homepage_url: 'https://www.joyent.com/'
+            repo_url: 'https://github.com/joyent/smartos-live'
             raw_logo: >-
               https://upload.wikimedia.org/wikipedia/commons/9/96/Joyent-logo.png
             twitter: 'https://twitter.com/joyent'
@@ -901,12 +902,12 @@ landscape:
             market_cap: 130999998
             headquarters: 'San Francisco, California'
             rank: 1644
-            stars: N/A
-            license: NotOpenSource
+            stars: 1231
+            license: Unknown License
             description: >-
-              Joyent is a cloud infrastructure and big data analytics company
-              offering a solution that powers real-time web and mobile
-              applications.
+              For more information, please see http://smartos.org/ For any
+              questions that aren't answered there, please join the SmartOS
+              discussion list: http://smartos.org/smartos-mailing-list/
             cncf_member: true
           - item:
             name: Huawei
@@ -970,7 +971,7 @@ landscape:
             name: MAAS
             company: Canonical
             homepage_url: 'https://maas.io/'
-            repo_url: 'https://github.com/maas'
+            repo_url: 'https://github.com/maas/maas'
             raw_logo: >-
               https://github.com/alexcontini/alexcontini.github.io/blob/master/maas.png
             twitter: 'https://twitter.com/Canonical'
@@ -979,11 +980,11 @@ landscape:
             market_cap: N/A
             headquarters: 'London, United Kingdom'
             rank: 42700
-            stars: N/A
-            license: Unknown License
+            stars: 24
+            license: AGPL-3.0
             description: >-
-              Canonical is a computer software company that markets commercial
-              support and related services for Ubuntu and related projects.
+              Official MAAS repository mirror. (Do not submit pull requests or
+              bugs here; use Launchpad instead.)
             cncf_member: true
           - item:
             name: Foreman
@@ -1174,7 +1175,7 @@ landscape:
             name: Juju
             company: Canonical
             homepage_url: 'https://jujucharms.com/'
-            repo_url: 'https://github.com/juju'
+            repo_url: 'https://github.com/juju/juju'
             raw_logo: >-
               https://design.canonical.com/wp-content/uploads/2011/10/juju-464x252.png
             twitter: 'https://twitter.com/ubuntucloud'
@@ -1183,11 +1184,9 @@ landscape:
             market_cap: N/A
             headquarters: 'London, United Kingdom'
             rank: 42700
-            stars: N/A
-            license: Unknown License
-            description: >-
-              Canonical is a computer software company that markets commercial
-              support and related services for Ubuntu and related projects.
+            stars: 1082
+            license: AGPL-3.0
+            description: juju is devops distilled
             cncf_member: true
           - item:
             name: Kubicorn
@@ -1201,7 +1200,7 @@ landscape:
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
-            stars: 936
+            stars: 939
             license: Apache-2.0
             description: Simple. Cloud Native. Kubernetes. Rainbow. Infrastructure.
             cncf_member: false
@@ -1270,7 +1269,7 @@ landscape:
             market_cap: 393500000
             headquarters: 'Palo Alto, California'
             rank: 5559
-            stars: 3562
+            stars: 3564
             license: Unknown License
             description: >-
               An enterprise-class container registry server based on Docker
@@ -1316,7 +1315,7 @@ landscape:
             name: Docker Registry
             company: Docker
             homepage_url: 'https://docs.docker.com/registry/'
-            repo_url: 'https://github.com/docker/docker-registry'
+            repo_url: 'https://github.com/docker/distribution'
             raw_logo: >-
               https://blog.docker.com/media/2015/11/logo-title-final-registry-2.png
             twitter: 'https://twitter.com/docker'
@@ -1325,11 +1324,9 @@ landscape:
             market_cap: 242766694
             headquarters: 'San Francisco, California'
             rank: 471
-            stars: 2763
+            stars: 3718
             license: Apache-2.0
-            description: >-
-              This is **DEPRECATED**! Please go to
-              https://github.com/docker/distribution
+            description: 'The Docker toolset to pack, ship, store, and deliver content'
             cncf_member: true
           - item:
             name: Amazon ECR
@@ -1381,7 +1378,7 @@ landscape:
             stars: N/A
             license: NotOpenSource
             description: ''
-            cncf_member: false
+            cncf_member: true
       - subcategory:
         name: Host Management/Tooling
         items:
@@ -1592,7 +1589,7 @@ landscape:
             name: Clair
             company: CoreOS
             homepage_url: 'https://coreos.com/clair/docs/latest/'
-            repo_url: 'https://github.com/coreos'
+            repo_url: 'https://github.com/coreos/clair'
             raw_logo: >-
               http://zdnet2.cbsistatic.com/hub/i/r/2016/03/18/c9a09a0a-1fcc-48c8-810b-cb1c0379a562/resize/770xauto/cc3c78f58099a9569a899e05ceabba3f/coreos-clair.jpg
             twitter: 'https://twitter.com/coreos'
@@ -1601,11 +1598,9 @@ landscape:
             market_cap: 50000000
             headquarters: 'San Francisco, California'
             rank: 1547
-            stars: N/A
-            license: Unknown License
-            description: >-
-              CoreOS builds industry-leading infrastructure software to securely
-              run application containers anywhere.
+            stars: 3119
+            license: Apache-2.0
+            description: Vulnerability Static Analysis for Containers
             cncf_member: true
           - item:
             name: Notary
@@ -1620,7 +1615,7 @@ landscape:
             market_cap: N/A
             headquarters: 'San Francisco, California'
             rank: 63493
-            stars: 1179
+            stars: 1182
             license: Apache-2.0
             description: >-
               Notary is a project that allows anyone to have trust over
@@ -1673,7 +1668,7 @@ landscape:
             market_cap: N/A
             headquarters: 'San Francisco, California'
             rank: 63493
-            stars: 694
+            stars: 697
             license: Unknown License
             description: A framework for securing software update systems
             cncf_member: false
@@ -1723,7 +1718,7 @@ landscape:
             market_cap: 590500000
             headquarters: 'San Francisco, California'
             rank: 21
-            stars: 1866
+            stars: 1867
             license: Apache-2.0
             description: A system for distributing and managing secrets
             cncf_member: false
@@ -1738,7 +1733,7 @@ landscape:
             market_cap: 1466100000
             headquarters: 'San Francisco, California'
             rank: 192
-            stars: 551
+            stars: 552
             license: Apache-2.0
             description: Knox is a secret management service
             cncf_member: true
@@ -1754,7 +1749,7 @@ landscape:
             market_cap: 74175000
             headquarters: 'San Francisco, California'
             rank: 949
-            stars: 8409
+            stars: 8416
             license: MPL-2.0
             description: >-
               A tool for secrets management, encryption as a service, and
@@ -1874,7 +1869,7 @@ landscape:
             market_cap: N/A
             headquarters: N/A
             rank: 73009
-            stars: 5523
+            stars: 5540
             license: Apache-2.0
             description: Mirror of Apache Hadoop
             cncf_member: false
@@ -1963,7 +1958,7 @@ landscape:
             market_cap: N/A
             headquarters: 'Hopkinton, Massachusetts'
             rank: 17932
-            stars: 1046
+            stars: 1047
             license: Apache-2.0
             description: >-
               REX-Ray is a container storage orchestration engine enabling
@@ -2099,7 +2094,6 @@ landscape:
             name: Kasten
             company: Kasten
             homepage_url: 'https://kasten.io/'
-            repo_url: 'https://github.com/kanisterio/kanister'
             raw_logo: >-
               https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAx9AAAAJDg5NzcxMTk0LTdhNzItNGI1Ny04OTAzLTA2Zjc1NjNiOTY2ZQ.png
             twitter: 'https://twitter.com/kastenhq'
@@ -2108,11 +2102,9 @@ landscape:
             market_cap: N/A
             headquarters: 'Los Altos, California'
             rank: 63257
-            stars: 26
-            license: Apache-2.0
-            description: >-
-              An extensible framework for application-level data management on
-              Kubernetes
+            stars: N/A
+            license: NotOpenSource
+            description: Kasten
             cncf_member: true
           - item:
             name: LeoFS
@@ -2156,7 +2148,7 @@ landscape:
             market_cap: N/A
             headquarters: 'Hopkinton, Massachusetts'
             rank: 17932
-            stars: 1046
+            stars: 1047
             license: Apache-2.0
             description: >-
               REX-Ray is a container storage orchestration engine enabling
@@ -2304,7 +2296,7 @@ landscape:
             market_cap: N/A
             headquarters: 'San Francisco, California'
             rank: 63493
-            stars: 7747
+            stars: 7752
             license: Apache-2.0
             description: >-
               rkt is a pod-native container engine for Linux. It is composable,
@@ -2322,7 +2314,7 @@ landscape:
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
-            stars: 4424
+            stars: 4428
             license: Apache-2.0
             description: >-
               CLI tool for spawning and running containers according to the OCI
@@ -2390,7 +2382,7 @@ landscape:
             market_cap: N/A
             headquarters: 'San Francisco, California'
             rank: 63493
-            stars: 2236
+            stars: 2239
             license: Unknown License
             description: An open and reliable container runtime
             cncf_member: false
@@ -2414,7 +2406,7 @@ landscape:
             name: Intel Clear Containers
             company: Intel
             homepage_url: 'https://clearlinux.org/containers'
-            repo_url: 'https://github.com/clearcontainers'
+            repo_url: 'https://github.com/clearcontainers/runtime'
             raw_logo: 'https://cdn.thenewstack.io/media/2015/11/ClearContainers.jpg'
             stock ticker: INTC
             twitter: 'https://twitter.com/clearlinux/'
@@ -2423,11 +2415,11 @@ landscape:
             market_cap: 2510000
             headquarters: 'Santa Clara, California'
             rank: 9708
-            stars: N/A
-            license: Unknown License
+            stars: 411
+            license: Apache-2.0
             description: >-
-              Intel designs, manufactures, and sells integrated digital
-              technology platforms worldwide.
+              OCI (Open Containers Initiative) compatible runtime using Virtual
+              Machines
             cncf_member: true
           - item:
             name: CSI
@@ -2516,7 +2508,7 @@ landscape:
             description: >-
               Tigera provides secure application connectivity for the cloud
               native world.
-            cncf_member: false
+            cncf_member: true
           - item:
             name: Canal
             company: Tigera
@@ -2533,12 +2525,12 @@ landscape:
             stars: 474
             license: Unknown License
             description: Policy based networking for cloud native applications
-            cncf_member: false
+            cncf_member: true
           - item:
             name: Contiv
             company: Cisco
             homepage_url: 'https://contiv.github.io/'
-            repo_url: 'https://github.com/contiv'
+            repo_url: 'https://github.com/contiv/netplugin'
             raw_logo: 'https://alln-extcloud-storage.cisco.com/ciscoblogs/Contiv-Icon.png'
             stock_ticker: CSCO
             twitter: 'https://twitter.com/projectcontiv'
@@ -2547,12 +2539,9 @@ landscape:
             market_cap: 2500000
             headquarters: 'San Jose, California'
             rank: 705
-            stars: N/A
+            stars: 334
             license: Unknown License
-            description: >-
-              Cisco develops, manufactures, and sells networking hardware,
-              telecommunications equipment, and other high-technology services
-              and products.
+            description: Container networking for various use cases
             cncf_member: true
           - item:
             name: Cilium
@@ -2604,12 +2593,12 @@ landscape:
             market_cap: 23000000
             headquarters: 'San Francisco, California'
             rank: 153
-            stars: 2738
+            stars: 2745
             license: Apache-2.0
             description: >-
               flannel is a network fabric for containers, designed for
               Kubernetes
-            cncf_member: false
+            cncf_member: true
           - item:
             name: Midokura
             company: Midokura
@@ -2674,7 +2663,7 @@ landscape:
             market_cap: N/A
             headquarters: 'Sunnyvale, California'
             rank: N/A
-            stars: 336
+            stars: 337
             license: Apache-2.0
             description: Contrail Controller
             cncf_member: false
@@ -2774,7 +2763,7 @@ landscape:
             market_cap: 20000000
             headquarters: 'London, United Kingdom'
             rank: 5353
-            stars: 4926
+            stars: 4929
             license: Apache-2.0
             description: 'Simple, resilient multi-host Docker networking and more.'
             cncf_member: true
@@ -2796,7 +2785,7 @@ landscape:
             market_cap: 21600000
             headquarters: 'Beijing, China'
             rank: 10304
-            stars: 11619
+            stars: 11631
             license: Apache-2.0
             description: >-
               TiDB is a distributed HTAP database compatible with the MySQL
@@ -2910,7 +2899,7 @@ landscape:
             market_cap: 311000000
             headquarters: 'New York, New York'
             rank: 1132
-            stars: 13036
+            stars: 13042
             license: Unknown License
             description: The MongoDB Database
             cncf_member: false
@@ -2927,7 +2916,7 @@ landscape:
             market_cap: N/A
             headquarters: 'Forest Hill, Maryland'
             rank: 84483
-            stars: 4152
+            stars: 4154
             license: Apache-2.0
             description: Mirror of Apache Cassandra
             cncf_member: false
@@ -2980,7 +2969,7 @@ landscape:
             market_cap: 6000000
             headquarters: 'San Francisco, California'
             rank: 6812
-            stars: 1900
+            stars: 1903
             license: ECL-2.0
             description: >-
               CrateDB is a distributed SQL database that makes it simple to
@@ -2999,7 +2988,7 @@ landscape:
             market_cap: 8100000
             headquarters: 'San Francisco, California'
             rank: 2626
-            stars: 6430
+            stars: 6429
             license: Unknown License
             description: 'The versioned, forkable, syncable database'
             cncf_member: false
@@ -3016,7 +3005,7 @@ landscape:
             market_cap: 5370000
             headquarters: 'Berlin, Germany'
             rank: 3491
-            stars: 2103
+            stars: 2105
             license: Unknown License
             description: BigchainDB is a scalable blockchain database
             cncf_member: false
@@ -3024,7 +3013,7 @@ landscape:
             name: Couchbase
             company: Couchbase
             homepage_url: 'https://www.couchbase.com/'
-            repo_url: 'https://github.com/couchbase'
+            repo_url: 'https://github.com/couchbase/couchbase-lite-ios'
             raw_logo: >-
               https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Couchbase%2C_Inc._official_logo.png/250px-Couchbase%2C_Inc._official_logo.png
             twitter: 'https://twitter.com/couchbase'
@@ -3033,11 +3022,11 @@ landscape:
             market_cap: 146000000
             headquarters: 'Mountain View, California'
             rank: 969
-            stars: N/A
-            license: Unknown License
+            stars: 1277
+            license: Apache-2.0
             description: >-
-              Couchbase is a NoSQL vendor that develops Couchbase Server, an
-              open-source, NoSQL, document-oriented database.
+              Lightweight, embedded, syncable NoSQL database engine for iOS (and
+              Mac!) apps.
             cncf_member: true
           - item:
             name: CockroachDB
@@ -3079,22 +3068,21 @@ landscape:
             cncf_member: false
           - item:
             name: Vitess
-            company: Google
+            company: CNCF
             homepage_url: 'http://vitess.io/'
             raw_logo: 'http://vitess.io/images/vitess_logo_with_border.svg'
             repo_url: 'https://github.com/youtube/vitess'
-            stock ticker: GOOGL
             twitter: 'https://twitter.com/vitessio'
-            cncf_project: false
+            cncf_project: true
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
-            stars: 5456
+            stars: 5457
             license: Apache-2.0
             description: >-
               Vitess is a database clustering system for horizontal scaling of
               MySQL.
-            cncf_member: true
+            cncf_member: false
           - item:
             name: SQL Data Warehouse
             company: Microsoft
@@ -3176,7 +3164,7 @@ landscape:
             market_cap: N/A
             headquarters: 'Forest Hill, Maryland'
             rank: 84483
-            stars: 573
+            stars: 574
             license: Apache-2.0
             description: Mirror of Apache CarbonData
             cncf_member: false
@@ -3209,7 +3197,7 @@ landscape:
             market_cap: N/A
             headquarters: N/A
             rank: 73009
-            stars: 5523
+            stars: 5540
             license: Apache-2.0
             description: Mirror of Apache Hadoop
             cncf_member: false
@@ -3262,7 +3250,7 @@ landscape:
             market_cap: 2120000
             headquarters: 'San Francisco, California'
             rank: 15676
-            stars: 2506
+            stars: 2507
             license: Apache-2.0
             description: Reproducible Data Science at Scale!
             cncf_member: false
@@ -3301,7 +3289,7 @@ landscape:
             market_cap: N/A
             headquarters: 'Forest Hill, Maryland'
             rank: 84483
-            stars: 7316
+            stars: 7318
             license: Apache-2.0
             description: Mirror of Apache Kafka
             cncf_member: false
@@ -3333,7 +3321,7 @@ landscape:
             market_cap: N/A
             headquarters: 'Forest Hill, Maryland'
             rank: 84483
-            stars: 16027
+            stars: 16031
             license: Apache-2.0
             description: Mirror of Apache Spark
             cncf_member: false
@@ -3350,7 +3338,7 @@ landscape:
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
-            stars: 3074
+            stars: 3078
             license: Apache-2.0
             description: >-
               Heron is a realtime, distributed, fault-tolerant stream processing
@@ -3386,7 +3374,7 @@ landscape:
             market_cap: N/A
             headquarters: 'Forest Hill, Maryland'
             rank: 84483
-            stars: 275
+            stars: 276
             license: Apache-2.0
             description: Mirror of Apache Apex core
             cncf_member: false
@@ -3402,7 +3390,7 @@ landscape:
             market_cap: N/A
             headquarters: 'Forest Hill, Maryland'
             rank: 84483
-            stars: 4810
+            stars: 4809
             license: Apache-2.0
             description: Mirror of Apache Storm
             cncf_member: false
@@ -3456,7 +3444,7 @@ landscape:
             market_cap: N/A
             headquarters: 'Forest Hill, Maryland'
             rank: 84483
-            stars: 794
+            stars: 795
             license: Apache-2.0
             description: Mirror of Apache NiFi
             cncf_member: false
@@ -3472,7 +3460,7 @@ landscape:
             market_cap: N/A
             headquarters: 'Forest Hill, Maryland'
             rank: 84483
-            stars: 1551
+            stars: 1552
             license: Apache-2.0
             description: Pulsar - distributed pub-sub messaging system
             cncf_member: false
@@ -3548,7 +3536,7 @@ landscape:
             market_cap: 45620000
             headquarters: 'San Francisco, California'
             rank: 2791
-            stars: 20321
+            stars: 20326
             license: Unknown License
             description: >-
               GitLab CE | Please open new issues in our issue tracker on
@@ -3625,7 +3613,7 @@ landscape:
             market_cap: 74175000
             headquarters: 'San Francisco, California'
             rank: 949
-            stars: 7293
+            stars: 7295
             license: MPL-2.0
             description: >-
               Packer is a tool for creating identical machine images for
@@ -3644,7 +3632,7 @@ landscape:
             market_cap: 242766694
             headquarters: 'San Francisco, California'
             rank: 471
-            stars: 11725
+            stars: 11736
             license: Apache-2.0
             description: Define and run multi-container applications with Docker
             cncf_member: true
@@ -3699,7 +3687,7 @@ landscape:
             description: >-
               Loved by Devs, Trusted by Ops. Easy to use cloud images,
               containers, and VMs that work on any platform
-            cncf_member: false
+            cncf_member: true
           - item:
             name: OpenAPI
             company: The Open API Initiative
@@ -4172,7 +4160,7 @@ landscape:
             name: DC/OS
             company: Mesosphere
             homepage_url: 'https://mesosphere.com/product/'
-            repo_url: 'https://github.com/dcos'
+            repo_url: 'https://github.com/dcos/dcos'
             raw_logo: >-
               https://github.com/alexcontini/alexcontini.github.io/blob/master/DC.OS.logo-vertical-styled.png?raw=true
             twitter: 'https://twitter.com/mesosphere'
@@ -4181,11 +4169,9 @@ landscape:
             market_cap: 122250000
             headquarters: 'San Francisco, California'
             rank: 748
-            stars: N/A
-            license: Unknown License
-            description: >-
-              Mesosphere is a novel cloud operating system that treats your
-              datacenter like one big computer.
+            stars: 1881
+            license: Apache-2.0
+            description: DC/OS - The Datacenter Operating System
             cncf_member: true
           - item:
             name: Apcera
@@ -4234,7 +4220,7 @@ landscape:
             market_cap: 30000000
             headquarters: 'Cupertino, California'
             rank: 5015
-            stars: 7644
+            stars: 7645
             license: Unknown License
             description: Complete container management platform
             cncf_member: true
@@ -4242,7 +4228,6 @@ landscape:
             name: Kublr
             company: Kublr
             homepage_url: 'http://kublr.com/'
-            repo_url: 'https://github.com/kublr'
             raw_logo: 'http://kublr.com/logo'
             twitter: 'https://twitter.com/kublr'
             crunchbase: 'https://www.crunchbase.com/organization/kublr'
@@ -4251,7 +4236,7 @@ landscape:
             headquarters: 'Washington, District of Columbia'
             rank: 94312
             stars: N/A
-            license: Unknown License
+            license: NotOpenSource
             description: >-
               Production-ready cluster and application platform that speeds and
               simplifies the set-up and management of your K8S cluster.
@@ -4344,7 +4329,7 @@ landscape:
             description: >-
               An early stage startup that's focused on making it easy for
               developers to build resilient microservices.
-            cncf_member: false
+            cncf_member: true
           - item:
             name: Atomist
             company: Atomist
@@ -4397,7 +4382,7 @@ landscape:
             market_cap: 56000000
             headquarters: 'San Francisco, California'
             rank: 136
-            stars: 1177
+            stars: 1178
             license: Apache-2.0
             description: 'An open, distributed platform as a service'
             cncf_member: false
@@ -4421,7 +4406,6 @@ landscape:
             name: Nirmata
             company: Nirmata
             homepage_url: 'https://www.nirmata.com/'
-            repo_url: 'https://github.com/Nirmata'
             raw_logo: >-
               https://www.nirmata.com/wp-content/uploads/2017/11/vertical-color-small-01.png
             twitter: 'https://twitter.com/nirmatacloud'
@@ -4431,7 +4415,7 @@ landscape:
             headquarters: 'San Jose, California'
             rank: 68487
             stars: N/A
-            license: Unknown License
+            license: NotOpenSource
             description: >-
               Nirmata is a cloud based, Microservices operations and management
               platform.
@@ -4590,7 +4574,7 @@ landscape:
             stars: N/A
             license: Unknown License
             description: Mirantis is the pure-play OpenStack company.
-            cncf_member: false
+            cncf_member: true
           - item:
             name: goPaddle
             company: Bluemeric
@@ -4630,7 +4614,6 @@ landscape:
             name: Exoscale
             company: Exoscale
             homepage_url: 'https://www.exoscale.ch/'
-            repo_url: 'https://github.com/exoscale'
             raw_logo: 'https://avatars0.githubusercontent.com/u/2023286'
             twitter: 'https://twitter.com/Exoscale'
             crunchbase: 'https://www.crunchbase.com/organization/exoscale'
@@ -4639,7 +4622,7 @@ landscape:
             headquarters: 'Lausanne, Switzerland'
             rank: 86749
             stars: N/A
-            license: Unknown License
+            license: NotOpenSource
             description: >-
               The best cloud hosting platform for SaaS companies, developers and
               systems administrators
@@ -4673,7 +4656,7 @@ landscape:
             market_cap: 242766694
             headquarters: 'San Francisco, California'
             rank: 471
-            stars: 47522
+            stars: 47528
             license: Apache-2.0
             description: >-
               Moby Project - a collaborative project for the container ecosystem
@@ -4696,23 +4679,6 @@ landscape:
             description: >-
               Build Future-Proof Applications. Simplify integration. Run
               applications anywhere. Adapt to changes instantly.
-            cncf_member: true
-          - item:
-            name: ContainerLinux
-            company: CoreOS
-            homepage_url: 'https://coreos.com/products/container-linux-subscription/'
-            repo_url: 'https://github.com/coreos/docs'
-            raw_logo: >-
-              https://d7umqicpi7263.cloudfront.net/img/product/0d1e0bd0-eaea-4397-9a3a-c56f861d2a14/f234a5bf-d91a-45d8-abe8-f16744f57a6d.PNG
-            twitter: 'https://twitter.com/containerlinux'
-            crunchbase: 'https://www.crunchbase.com/organization/coreos'
-            cncf_project: false
-            market_cap: 50000000
-            headquarters: 'San Francisco, California'
-            rank: 1547
-            stars: 791
-            license: Apache-2.0
-            description: Documentation for CoreOS projects
             cncf_member: true
           - item:
             name: Ubuntu
@@ -4751,24 +4717,6 @@ landscape:
               Lightbend (formerly Typesafe) is dedicated to helping developers
               build Reactive applications on the JVM.
             cncf_member: false
-          - item:
-            name: Deis
-            company: Microsoft
-            homepage_url: 'https://deis.com/'
-            repo_url: 'https://github.com/deis/workflow'
-            raw_logo: >-
-              https://camo.githubusercontent.com/fb982d796feea404581bc97876079855682f4639/68747470733a2f2f646569732e636f6d2f696d616765732f646569732d6c6f676f2e706e67
-            stock_ticker: MSFT
-            twitter: 'https://twitter.com/opendeis'
-            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
-            cncf_project: false
-            market_cap: 1000000
-            headquarters: 'Redmond, Washington'
-            rank: 37
-            stars: 1080
-            license: MIT
-            description: The open source PaaS for Kubernetes.
-            cncf_member: true
           - item:
             name: Docker Cloud
             company: Docker
@@ -4823,7 +4771,7 @@ landscape:
               Containership is a Kubernetes based enterprise
               Containers-as-a-Service platform with support for 12 cloud
               providers
-            cncf_member: false
+            cncf_member: true
           - item:
             name: Convox
             company: Convox
@@ -4943,7 +4891,7 @@ landscape:
             stars: N/A
             license: NotOpenSource
             description: ''
-            cncf_member: false
+            cncf_member: true
           - item:
             name: Supergiant
             company: Supergiant
@@ -5014,7 +4962,7 @@ landscape:
             market_cap: N/A
             headquarters: 'Peterborough, United Kingdom'
             rank: N/A
-            stars: 8526
+            stars: 8544
             license: MIT
             description: >-
               OpenFaaS - Serverless Functions Made Simple for Docker &
@@ -5049,7 +4997,7 @@ landscape:
             market_cap: N/A
             headquarters: 'Forest Hill, Maryland'
             rank: 84483
-            stars: 2391
+            stars: 2394
             license: Apache-2.0
             description: >-
               Apache OpenWhisk is a serverless event-based programming service
@@ -5125,7 +5073,7 @@ landscape:
             market_cap: 36500000
             headquarters: 'Sunnyvale, California'
             rank: 1803
-            stars: 2982
+            stars: 2984
             license: Apache-2.0
             description: Fast Serverless Functions for Kubernetes
             cncf_member: false
@@ -5151,7 +5099,7 @@ landscape:
             company: apex
             homepage_url: apex.run
             repo_url: 'https://github.com/apex'
-            raw_logo: 'https://www.bram.us/wordpress/wp-content/uploads/2016/04/logo.png'
+            raw_logo: ./src/hosted_logos/apex.png
             twitter: 'https://twitter.com/apexserverless'
             cncf_project: false
             market_cap: Not Entered Yet
@@ -5192,7 +5140,7 @@ landscape:
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
-            stars: 1842
+            stars: 1848
             license: Apache-2.0
             description: Kubernetes Native Serverless Framework
             cncf_member: false
@@ -5396,7 +5344,7 @@ landscape:
             market_cap: N/A
             headquarters: 'San Francisco, California'
             rank: 63493
-            stars: 14452
+            stars: 14476
             license: Apache-2.0
             description: The Prometheus monitoring system and time series database.
             cncf_member: false
@@ -5412,7 +5360,7 @@ landscape:
             market_cap: 53000000
             headquarters: 'San Francisco, California'
             rank: 3414
-            stars: 4815
+            stars: 4816
             license: GPL-2.0
             description: >-
               Linux system exploration and troubleshooting tool with first class
@@ -5604,7 +5552,7 @@ landscape:
             market_cap: 24892000
             headquarters: 'San Francisco, California'
             rank: 1537
-            stars: 12484
+            stars: 12491
             license: Unknown License
             description: 'Scalable datastore for metrics, events, and real-time analytics'
             cncf_member: false
@@ -5887,7 +5835,7 @@ landscape:
             name: Grafana
             company: Grafana Labs
             homepage_url: 'https://grafana.com/'
-            repo_url: 'https://github.com/grafana/'
+            repo_url: 'https://github.com/grafana/grafana'
             raw_logo: >-
               https://assets.packet.net/media/pages/images/a8849b052492b5106526b2331e526138/xCMw-grafana.png
             twitter: 'https://twitter.com/grafana'
@@ -5896,9 +5844,11 @@ landscape:
             market_cap: N/A
             headquarters: 'New York, New York'
             rank: 64875
-            stars: N/A
-            license: Unknown License
-            description: the defacto standard for visualizing time series data.
+            stars: 20040
+            license: Apache-2.0
+            description: >-
+              The tool for beautiful monitoring and metric analytics &
+              dashboards for Graphite, InfluxDB & Prometheus & More
             cncf_member: true
           - item:
             name: Log Analytics
@@ -5933,7 +5883,7 @@ landscape:
             market_cap: 20000000
             headquarters: 'London, United Kingdom'
             rank: 5353
-            stars: 2173
+            stars: 2175
             license: Apache-2.0
             description: 'Monitoring, visualisation & management for Docker & Kubernetes'
             cncf_member: true
@@ -6154,7 +6104,7 @@ landscape:
             market_cap: N/A
             headquarters: 'San Francisco, California'
             rank: 63493
-            stars: 5998
+            stars: 6000
             license: Unknown License
             description: 'Fluentd: Unified Logging Layer (project under CNCF)'
             cncf_member: false
@@ -6210,7 +6160,7 @@ landscape:
             market_cap: N/A
             headquarters: 'San Francisco, California'
             rank: 63493
-            stars: 952
+            stars: 953
             license: MIT
             description: OpenTracing API for Go
             cncf_member: false
@@ -6241,7 +6191,7 @@ landscape:
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
-            stars: 7568
+            stars: 7577
             license: Apache-2.0
             description: Zipkin is a distributed tracing system
             cncf_member: false
@@ -6274,7 +6224,7 @@ landscape:
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
-            stars: 580
+            stars: 581
             license: Apache-2.0
             description: Distributed tracing for spring cloud
             cncf_member: false

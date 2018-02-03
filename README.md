@@ -47,11 +47,11 @@ If the error is with data from [Crunchbase](https://www.crunchbase.com/) you sho
 
   landscape.yml => `yarn run babel-node tools/addExternalInfo`  => processed_landscape.yml => `yarn yaml2json` => src/data.json + src/lookup.json
 
-  landscape.yml => `yarn run babelnode tools/fetchImages` => src/logos + src/styles/styles.scss + src/imageUrls.yml
+  landscape.yml => `yarn run babel-node tools/fetchImages` => src/logos + src/styles/styles.scss + src/imageUrls.yml
 
   `yarn run babel-node tools/addExternalInfo` uses these files:
   1) landscape.yml - our source
-  2) github.json - an info about repos, can be obtained via `yarn run babel-node tools/fechGithubStats`
+  2) github.json - an info about repos, can be obtained via `yarn run babel-node tools/fetchGithubStats`
   3) crunchbase.csv - an info about companies from the crunchbase, should be download manually from a crunchbase pro account
   4) cncf_members.yml - a list of all cncf members.
 

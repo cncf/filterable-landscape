@@ -1,11 +1,6 @@
 {
   "company": [
     {
-      "id": "3scale",
-      "label": "3scale",
-      "url": "3scale"
-    },
-    {
       "id": "Airbnb",
       "label": "Airbnb",
       "url": "airbnb"
@@ -154,6 +149,11 @@
       "id": "CFEngine",
       "label": "CFEngine",
       "url": "cf-engine"
+    },
+    {
+      "id": "CNCF",
+      "label": "CNCF",
+      "url": "cncf"
     },
     {
       "id": "CSI",
@@ -429,11 +429,6 @@
       "id": "Gluster",
       "label": "Gluster",
       "url": "gluster"
-    },
-    {
-      "id": "Google",
-      "label": "Google",
-      "url": "google"
     },
     {
       "id": "Google Cloud Platform",
@@ -944,6 +939,11 @@
       "id": "Rancher Labs",
       "label": "Rancher Labs",
       "url": "rancher-labs"
+    },
+    {
+      "id": "Red Hat",
+      "label": "Red Hat",
+      "url": "red-hat"
     },
     {
       "id": "Redis Labs",
@@ -1575,6 +1575,7 @@
       "url": "open-source",
       "level": 1,
       "children": [
+        "AGPL-3.0",
         "Apache-2.0",
         "BSD-2-Clause",
         "BSD-3-Clause",
@@ -1585,6 +1586,13 @@
         "MPL-2.0",
         "Unknown License"
       ]
+    },
+    {
+      "id": "AGPL-3.0",
+      "label": "AGPL-3.0",
+      "url": "agpl-3-0",
+      "parentId": "Open Source",
+      "level": 2
     },
     {
       "id": "Apache-2.0",

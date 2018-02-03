@@ -173,7 +173,7 @@
   url: 'https://pbs.twimg.com/profile_images/536922892156428288/mKCs5vgS_400x400.png'
 - name: buddy-build
   fileName: src/logos/buddy-build.png
-  hash: 9b07d40fcdf25fd6528df9289256d52a4ca70c3b7c3279b033a045654a84ed54
+  hash: 756263f53dcb4671b76d582fb691938be73ce5287eb5f417774d857b47a069d9
   url: 'https://docs.nowsecure.com/uploads/Buddybuild-integration.png'
 - name: buildkite
   fileName: src/logos/buildkite.png
@@ -272,6 +272,11 @@
   hash: 7b6e3d7f1b90e554e0685219a4ad0d5aef303ecd83849198960286f312b3c795
   url: >-
     https://raw.githubusercontent.com/cncf/artwork/master/cni/stacked/color/cni-stacked-color.png
+- name: co-scale
+  fileName: src/logos/co-scale.png
+  hash: 32c63c4c8dd6448ac3fbaeadc80c2b4aea9c532db4a3e077069b1c193dc14e42
+  url: >-
+    https://obsidian.co.za/sites/default/files/field/image/product/Coscale_Logo_cmyk_vert.png
 - name: cobe
   fileName: src/logos/cobe.png
   hash: 58c306d44eaff1f1420d72ea878188a23e9f873a358d8de56a17e3bec40c1276
@@ -297,18 +302,13 @@
   url: 'https://www.unixmen.com/wp-content/uploads/2017/06/docker-compose-logo.png'
 - name: concourse
   fileName: src/logos/concourse.png
-  hash: 593173ddf7e84d5970021eba8c49b372638619b6ae350e0ffbc8d3b9382726a7
+  hash: 78fde3240a4f7d9ed4abe01edce5c1908a9c420ba6280fd51a624a7bf141499d
   url: 'https://avatars3.githubusercontent.com/u/7809479'
 - name: consul
   fileName: src/logos/consul.png
   hash: 1095c05ef2c8822b7c8b035d955ecb27dcae8192080d96dc6ce5570d83133e7e
   url: >-
     https://raw.githubusercontent.com/ServiceStack/Assets/master/img/livedemos/techstacks/consul-logo.png
-- name: container-linux
-  fileName: src/logos/container-linux.png
-  hash: 4aa7f28c8aa72ae770fd6aead080f6cf4074361d6eed4cde1053830598e37e46
-  url: >-
-    https://d7umqicpi7263.cloudfront.net/img/product/0d1e0bd0-eaea-4397-9a3a-c56f861d2a14/f234a5bf-d91a-45d8-abe8-f16744f57a6d.PNG
 - name: container-ops
   fileName: src/logos/container-ops.png
   hash: 7f3a5b4c5438350e3761a8dc707649d76190431bacf7f7b89267dd0403562702
@@ -389,11 +389,6 @@
   hash: 4d169fb7bd0e63ec1a608dc9c2ed6ab272315a6adb426bd6dc603b432a2d9ea1
   url: >-
     https://raw.githubusercontent.com/alexcontini/alexcontini.github.io/master/DC.OS.logo-vertical-styled.png?raw=true
-- name: deis
-  fileName: src/logos/deis.png
-  hash: 0cbda74b8bf9c1befb25a9c058fb6e4e08b8869cdde7b652894b827b07faae46
-  url: >-
-    https://camo.githubusercontent.com/fb982d796feea404581bc97876079855682f4639/68747470733a2f2f646569732e636f6d2f696d616765732f646569732d6c6f676f2e706e67
 - name: dell-emc
   fileName: src/logos/dell-emc.png
   hash: 1f3a97a4cc8ff7183aedba0dc100192a2807b8d823187fd1c561e220b62a5b29
@@ -580,7 +575,7 @@
     https://global-uploads.webflow.com/5a218ef7897bf400019e2f16/5a218ef7897bf400019e2f60_logo-graylog.png
 - name: ha-proxy
   fileName: src/logos/ha-proxy.png
-  hash: c4f8efc6c57d6da8fdf4d0a81eef9edf3ad9d8583d8b4db92d875c3b0b73207e
+  hash: 9a9ad39d4a97dcc8b888babea7f5ebd6e08d15f57097ee18584e7addbbb692f5
   url: 'https://www.esds.co.in/blog/wp-content/uploads/2016/05/HAProxy.png'
 - name: habitat
   fileName: src/logos/habitat.png
@@ -818,7 +813,7 @@
   url: 'https://ordina-jworks.github.io/img/dockercon2017/linux-kit.png'
 - name: log-analytics
   fileName: src/logos/log-analytics.png
-  hash: 557fd644690b5e8d0d5dae90a7911868f152f0b48761b6df4bc283c55f1b58ab
+  hash: 0cecbf47578aa57a2828ede8632097c48f41d21d39080c40aff7f6971d4243c1
   url: >-
     https://i1.wp.com/www.tjopsta.net/wp-content/uploads/2016/10/LogAnalytics-Logo.png
 - name: loggly
@@ -1218,7 +1213,7 @@
   url: 'http://10minbasics.com/wp-content/uploads/2015/09/rethinkdb_logo1.png'
 - name: rex-ray
   fileName: src/logos/rex-ray.png
-  hash: 5e812cf9cab794431109baffea7eeb9f0d50f18411abd25669356df4e4a40865
+  hash: 6eb9203ece4fc6d5c3c59e8d76bd81fdf796dfaf514a893e15afcf96e2862e5c
   url: 'https://dev.acquia.com/sites/default/files/blog/grid-rexray.png'
 - name: ribbon
   fileName: src/logos/ribbon.png
@@ -1495,7 +1490,7 @@
   url: 'http://logo-logos.com/wp-content/uploads/2016/11/Ubuntu_logo_logotype.png'
 - name: v-mware
   fileName: src/logos/v-mware.png
-  hash: 2c760df8c2264f6cc7e9b15b908213b72a395c3fe22ca5cf1c85f633477f1d2d
+  hash: 5d633f0f305168b02c253dce956112930ca0ebcc4fb1a04fd785b29806d4e7c8
   url: 'https://regmedia.co.uk/2015/02/02/vmware_cloud_logo.jpg'
 - name: vamp
   fileName: src/logos/vamp.png
