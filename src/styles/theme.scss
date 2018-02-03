@@ -8,8 +8,14 @@
 
 .sh_wrapper{
   position: relative;
-  height: 80px;
-  margin: 20px;
+  margin: 7px;
+  font-size: 1em;
+  background-color: #eeeeee;
+  border-radius: 10px;
+  div{
+    font-size:0.8em !important;
+  }
+
 }
 
 .sidebar{
