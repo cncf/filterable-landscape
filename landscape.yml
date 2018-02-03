@@ -144,17 +144,17 @@ landscape:
         items:
         - item:
           name: "3Scale"
-          company: "redhat"
+          company: "Red Hat"
           homepage_url: https://www.3scale.net/
-          repo_url: https://github.com/3scale
+          repo_url: https://github.com/3scale/apicast
           raw_logo: https://www.3scale.net/wp-content/uploads/2015/01/3scale-by-redhat.png
           twitter: https://twitter.com/3scale
-          crunchbase: https://www.crunchbase.com/organization/3scale
+          crunchbase: https://www.crunchbase.com/organization/red-hat
         - item:
           name: "NGINX"
           company: "NGINX"
           homepage_url: https://www.nginx.com/
-          repo_url: https://github.com/nginx
+          repo_url: https://github.com/nginx/nginx
           raw_logo: https://cdn-1.wp.nginx.com/wp-content/themes/nginx-theme/assets/img/logo.png
           twitter: https://twitter.com/nginx
           crunchbase: https://www.crunchbase.com/organization/nginx
@@ -1360,11 +1360,10 @@ landscape:
           crunchbase: https://www.crunchbase.com/organization/rethinkdb
         - item:
           name: "Vitess"
-          company: "Google Cloud"
+          company: "CNCF"
           homepage_url: http://vitess.io/
           raw_logo: http://vitess.io/images/vitess_logo_with_border.svg
           repo_url: https://github.com/youtube/vitess
-          stock ticker: GOOGL
           twitter: https://twitter.com/vitessio
         - item:
           name: "SQL Data Warehouse"
