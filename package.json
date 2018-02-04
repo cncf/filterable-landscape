@@ -20,7 +20,7 @@
     "fetchAllImages": "(rm src/logos/* || true) && (rm src/imageUrls.yml || true) && babel-node tools/addExternalInfo.js && babel-node tools/fetchImages.js && npm run yaml2json",
     "clean-dist": "npm run remove-dist && mkdir dist",
     "remove-dist": "rimraf ./dist",
-    "prebuild": "babel-node tools/addExternalInfo.js && babel-node tools/fetchImages.jsh&& npm run yaml2json && npm run lint && npm run clean-dist",
+    "prebuild": "babel-node tools/addExternalInfo.js && babel-node tools/fetchImages.js && npm run yaml2json && npm run lint && npm run clean-dist",
     "build": "babel-node tools/build.js && cp _redirects ./dist/",
     "test": "jest",
     "test:CI": "babel-node tools/testCi.js",
