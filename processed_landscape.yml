@@ -13,13 +13,13 @@ landscape:
               scaling, and management of containerized applications
             company: Cloud Native Computing Foundation (CNCF)
             homepage_url: 'https://kubernetes.io/'
+            cncf_project: incubating
             repo_url: 'https://github.com/kubernetes/kubernetes'
             raw_logo: >-
               https://raw.githubusercontent.com/cncf/artwork/master/kubernetes/stacked/color/kubernetes-stacked-color.png
             twitter: 'https://twitter.com/kubernetesio'
             crunchbase: >-
               https://www.crunchbase.com/organization/cloud-native-computing-foundation
-            cncf_project: true
             market_cap: N/A
             headquarters: 'San Francisco, California'
             rank: 63493
@@ -35,7 +35,6 @@ landscape:
             stock_ticker: AMZN
             raw_logo: >-
               https://signalfx-82c9.kxcdn.com/wp-content/uploads/2016/03/integrations_awsecs@4x-500x500.png
-            cncf_project: false
             market_cap: N/A
             headquarters: 'Seattle, Washington'
             rank: 10522
@@ -53,7 +52,6 @@ landscape:
             twitter: 'https://twitter.com/HashiCorp'
             crunchbase: 'https://www.crunchbase.com/organization/hashicorp'
             raw_logo: 'https://hyzxph.media.zestyio.com/blog-nomad-list.svg'
-            cncf_project: false
             market_cap: 74175000
             headquarters: 'San Francisco, California'
             rank: 949
@@ -75,7 +73,6 @@ landscape:
               https://mapr.com/blog/my-experience-running-docker-containers-on-mesos/assets/apache-mesos-logo.jpg
             twitter: 'https://twitter.com/ApacheMesos'
             crunchbase: 'https://www.crunchbase.com/organization/apache'
-            cncf_project: false
             market_cap: N/A
             headquarters: 'Forest Hill, Maryland'
             rank: 84483
@@ -93,7 +90,6 @@ landscape:
             stock ticker: MSFT
             twitter: 'https://twitter.com/azure'
             crunchbase: 'https://www.crunchbase.com/organization/microsoft-azure-certified'
-            cncf_project: false
             market_cap: N/A
             headquarters: N/A
             rank: 60948
@@ -111,7 +107,6 @@ landscape:
             raw_logo: 'https://raw.githubusercontent.com/docker/swarm/master/logo.png'
             twitter: 'https://twitter.com/Docker'
             crunchbase: 'https://www.crunchbase.com/organization/docker'
-            cncf_project: false
             market_cap: 242766694
             headquarters: 'San Francisco, California'
             rank: 471
@@ -131,7 +126,6 @@ landscape:
               https://n40lab.files.wordpress.com/2016/08/etcd1.png?w=163&h=217&crop=1
             twitter: 'https://twitter.com/coreos/'
             crunchbase: 'https://www.crunchbase.com/organization/coreos'
-            cncf_project: false
             market_cap: 50000000
             headquarters: 'San Francisco, California'
             rank: 1547
@@ -150,7 +144,6 @@ landscape:
               https://raw.githubusercontent.com/ServiceStack/Assets/master/img/livedemos/techstacks/consul-logo.png
             twitter: 'https://twitter.com/HashiCorp'
             crunchbase: 'https://www.crunchbase.com/organization/hashicorp'
-            cncf_project: false
             market_cap: 74175000
             headquarters: 'San Francisco, California'
             rank: 949
@@ -170,7 +163,6 @@ landscape:
               https://www.opsview.com/sites/default/files/Zookeeper%20Logo%20REV.png
             twitter: 'https://twitter.com/TheASF'
             crunchbase: 'https://www.crunchbase.com/organization/apache'
-            cncf_project: false
             market_cap: N/A
             headquarters: 'Forest Hill, Maryland'
             rank: 84483
@@ -187,7 +179,6 @@ landscape:
               https://github.com/alexcontini/alexcontini.github.io/blob/master/ContainerPilot-logo%20(1)-01.png?raw=true
             twitter: 'https://twitter.com/joyent'
             crunchbase: 'https://www.crunchbase.com/organization/joyent'
-            cncf_project: false
             market_cap: 130999998
             headquarters: 'San Francisco, California'
             rank: 1644
@@ -203,7 +194,6 @@ landscape:
             homepage_url: 'https://github.com/skynetservices/skydns'
             repo_url: 'https://github.com/skynetservices/skydns'
             raw_logo: 'https://memz.co/wp-content/uploads/2016/07/skydns.jpg'
-            cncf_project: false
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
@@ -215,13 +205,13 @@ landscape:
             name: CoreDNS
             company: Cloud Native Computing Foundation (CNCF)
             homepage_url: 'https://coredns.io/'
+            cncf_project: inception
             repo_url: 'https://github.com/coredns/coredns'
             raw_logo: >-
               https://github.com/cncf/artwork/blob/master/coredns/stacked/color/coredns-stacked-color.png
             twitter: 'https://twitter.com/corednsio'
             crunchbase: >-
               https://www.crunchbase.com/organization/cloud-native-computing-foundation
-            cncf_project: true
             market_cap: N/A
             headquarters: 'San Francisco, California'
             rank: 63493
@@ -237,7 +227,6 @@ landscape:
             raw_logo: 'https://avatars2.githubusercontent.com/u/8484931'
             twitter: 'https://twitter.com/gliderlabs/'
             crunchbase: 'https://www.crunchbase.com/organization/glider-labs'
-            cncf_project: false
             market_cap: N/A
             headquarters: 'Austin, Texas'
             rank: N/A
@@ -251,7 +240,6 @@ landscape:
             homepage_url: 'https://github.com/airbnb/smartstack-cookbook'
             repo_url: 'https://github.com/airbnb/smartstack-cookbook'
             raw_logo: ./src/hosted_logos/smart-stack.png
-            cncf_project: false
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
@@ -266,7 +254,6 @@ landscape:
             repo_url: 'https://github.com/uber-archive/hyperbahn'
             raw_logo: >-
               http://thriftyzone.thriftysigns.netdna-cdn.com/image/cache/data/decals/travel/uber-logo-decal-sticker-uber-logo-500x500.png
-            cncf_project: false
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
@@ -283,7 +270,6 @@ landscape:
             repo_url: 'https://github.com/Netflix/eureka'
             raw_logo: ./src/hosted_logos/netflix-eureka.png
             stock_ticker: NFLX
-            cncf_project: false
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
@@ -302,7 +288,6 @@ landscape:
               http://logodatabases.com/wp-content/uploads/2012/05/vmware-logo-black.jpg
             twitter: 'https://twitter.com/VMware'
             crunchbase: 'https://www.crunchbase.com/organization/vmware'
-            cncf_project: false
             market_cap: 393500000
             headquarters: 'Palo Alto, California'
             rank: 5559
@@ -324,7 +309,6 @@ landscape:
               https://www.3scale.net/wp-content/uploads/2015/01/3scale-by-redhat.png
             twitter: 'https://twitter.com/3scale'
             crunchbase: 'https://www.crunchbase.com/organization/red-hat'
-            cncf_project: false
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
@@ -341,7 +325,6 @@ landscape:
               https://cdn-1.wp.nginx.com/wp-content/themes/nginx-theme/assets/img/logo.png
             twitter: 'https://twitter.com/nginx'
             crunchbase: 'https://www.crunchbase.com/organization/nginx'
-            cncf_project: false
             market_cap: 41000000
             headquarters: 'San Francisco, California'
             rank: 3518
@@ -362,7 +345,6 @@ landscape:
             raw_logo: 'https://www.esds.co.in/blog/wp-content/uploads/2016/05/HAProxy.png'
             twitter: 'https://twitter.com/haproxy_tech'
             crunchbase: 'https://www.crunchbase.com/organization/haproxy-technologies'
-            cncf_project: false
             market_cap: N/A
             headquarters: 'Waltham, Massachusetts'
             rank: 86853
@@ -376,13 +358,13 @@ landscape:
             name: Linkerd
             company: Cloud Native Computing Foundation (CNCF)
             homepage_url: 'https://linkerd.io/'
+            cncf_project: inception
             repo_url: 'https://github.com/linkerd/linkerd'
             raw_logo: >-
               https://raw.githubusercontent.com/cncf/artwork/master/linkerd/stacked/color/linkerd-stacked-color.png
             twitter: 'https://twitter.com/linkerd'
             crunchbase: >-
               https://www.crunchbase.com/organization/cloud-native-computing-foundation
-            cncf_project: true
             market_cap: N/A
             headquarters: 'San Francisco, California'
             rank: 63493
@@ -394,6 +376,7 @@ landscape:
             name: Envoy
             company: Cloud Native Computing Foundation (CNCF)
             homepage_url: 'https://envoyproxy.github.io/'
+            cncf_project: incubating
             repo_url: 'https://github.com/envoyproxy/envoy'
             raw_logo: >-
               https://github.com/cncf/artwork/blob/master/envoy/stacked/color/envoy-stacked-color.png
@@ -401,7 +384,6 @@ landscape:
             twitter: 'https://twitter.com/envoyproxy'
             crunchbase: >-
               https://www.crunchbase.com/organization/cloud-native-computing-foundation
-            cncf_project: true
             market_cap: N/A
             headquarters: 'San Francisco, California'
             rank: 63493
@@ -418,7 +400,6 @@ landscape:
               https://www.datawire.io/wp-content/uploads/2017/05/ambassador_logo@2x-1.png
             twitter: 'https://twitter.com/datawireio'
             crunchbase: 'https://www.crunchbase.com/organization/datawire'
-            cncf_project: false
             market_cap: 250000
             headquarters: 'Cambridge, Massachusetts'
             rank: 20948
@@ -437,7 +418,6 @@ landscape:
               https://raw.githubusercontent.com/containous/traefik/master/docs/img/traefik.logo.png
             twitter: 'https://twitter.com/traefikproxy'
             crunchbase: 'https://www.crunchbase.com/organization/containous'
-            cncf_project: false
             market_cap: 1000000
             headquarters: 'Lyon, France'
             rank: 23352
@@ -454,7 +434,6 @@ landscape:
               https://cdn-images-1.medium.com/max/1920/1*89vDpBsh4u6g8RwXTWtBHQ@2x.png
             twitter: 'https://twitter.com/GoTurbine'
             crunchbase: 'https://www.crunchbase.com/organization/turbine-labs-2'
-            cncf_project: false
             market_cap: N/A
             headquarters: N/A
             rank: 94227
@@ -470,7 +449,6 @@ landscape:
               https://avinetworks.com/wp-content/uploads/2017/06/Avi-Logo-Transparent-Background-Hi-Res-2.png
             twitter: 'https://twitter.com/AviNetworks'
             crunchbase: 'https://www.crunchbase.com/organization/avi-networks-inc'
-            cncf_project: false
             market_cap: 33000000
             headquarters: 'Santa Clara, California'
             rank: 2258
@@ -484,6 +462,7 @@ landscape:
             name: gRPC
             company: Cloud Native Computing Foundation (CNCF)
             homepage_url: 'https://grpc.io/'
+            cncf_project: incubating
             repo_url: 'https://github.com/grpc/grpc'
             raw_logo: >-
               https://raw.githubusercontent.com/cncf/artwork/master/grpc/horizontal/color/grpc-horizontal-color.png
@@ -491,7 +470,6 @@ landscape:
             twitter: 'https://twitter.com/grpcio'
             crunchbase: >-
               https://www.crunchbase.com/organization/cloud-native-computing-foundation
-            cncf_project: true
             market_cap: N/A
             headquarters: 'San Francisco, California'
             rank: 63493
@@ -508,7 +486,6 @@ landscape:
               https://raw.githubusercontent.com/ServiceStack/Assets/master/img/livedemos/techstacks/apache-thrift-logo.png
             twitter: 'https://twitter.com/TheASF'
             crunchbase: 'https://www.crunchbase.com/organization/apache'
-            cncf_project: false
             market_cap: N/A
             headquarters: 'Forest Hill, Maryland'
             rank: 84483
@@ -524,7 +501,6 @@ landscape:
             raw_logo: 'https://avro.apache.org/images/avro-logo.png'
             twitter: 'https://twitter.com/TheASF'
             crunchbase: 'https://www.crunchbase.com/organization/apache'
-            cncf_project: false
             market_cap: N/A
             headquarters: 'Forest Hill, Maryland'
             rank: 84483
@@ -540,7 +516,6 @@ landscape:
             raw_logo: ./src/hosted_logos/vamp.png
             twitter: 'https://twitter.com/vamp_io'
             crunchbase: 'https://www.crunchbase.com/organization/magnetic-io'
-            cncf_project: false
             market_cap: 635000
             headquarters: 'Amsterdam, The Netherlands'
             rank: 33078
@@ -557,7 +532,6 @@ landscape:
               http://events17.linuxfoundation.org/sites/events/files/styles/sponsor_logo_large/public/sponsor-logos/sponsor-weaveworks_1.png
             twitter: 'https://twitter.com/weaveworks'
             crunchbase: 'https://www.crunchbase.com/organization/weaveworks'
-            cncf_project: false
             market_cap: 20000000
             headquarters: 'London, United Kingdom'
             rank: 5353
@@ -574,7 +548,6 @@ landscape:
               https://cdn-ssl-devio-img.classmethod.jp/wp-content/uploads/2015/06/kong.png
             twitter: 'https://twitter.com/mashape'
             crunchbase: 'https://www.crunchbase.com/organization/mashape'
-            cncf_project: false
             market_cap: 26101000
             headquarters: 'San Francisco, California'
             rank: 4031
@@ -592,7 +565,6 @@ landscape:
             stock_ticker: NFLX
             twitter: 'https://twitter.com/hystrixoss'
             crunchbase: 'https://www.crunchbase.com/organization/netflix'
-            cncf_project: false
             market_cap: 2803735952
             headquarters: 'Los Gatos, California'
             rank: 5
@@ -613,7 +585,6 @@ landscape:
             stock_ticker: NFLX
             twitter: 'https://twitter.com/netflixoss'
             crunchbase: 'https://www.crunchbase.com/organization/netflix'
-            cncf_project: false
             market_cap: 2803735952
             headquarters: 'Los Gatos, California'
             rank: 5
@@ -632,7 +603,6 @@ landscape:
             stock_ticker: NFLX
             twitter: 'https://twitter.com/netflixoss'
             crunchbase: 'https://www.crunchbase.com/organization/netflix'
-            cncf_project: false
             market_cap: 2803735952
             headquarters: 'Los Gatos, California'
             rank: 5
@@ -653,7 +623,6 @@ landscape:
             stock_ticker: NFLX
             twitter: 'https://twitter.com/netflixoss'
             crunchbase: 'https://www.crunchbase.com/organization/netflix'
-            cncf_project: false
             market_cap: 2803735952
             headquarters: 'Los Gatos, California'
             rank: 5
@@ -669,7 +638,6 @@ landscape:
             homepage_url: 'https://www.backplane.io/'
             raw_logo: 'http://www.backplane.io/static/media/images/backplane.png'
             twitter: 'https://twitter.com/backplaneio'
-            cncf_project: false
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
@@ -684,7 +652,6 @@ landscape:
             raw_logo: 'https://dmcdn.f5.com/Portals/1/Images/F5/Logos/f5-fullcolor-lg.jpg'
             twitter: 'https://twitter.com/F5Networks'
             crunchbase: 'https://www.crunchbase.com/organization/f5-networks'
-            cncf_project: false
             market_cap: N/A
             headquarters: 'Seattle, Washington'
             rank: 24409
@@ -709,7 +676,6 @@ landscape:
             stock_ticker: AMZN
             twitter: 'https://twitter.com/awscloud'
             crunchbase: 'https://www.crunchbase.com/organization/amazon-web-services'
-            cncf_project: false
             market_cap: N/A
             headquarters: 'Seattle, Washington'
             rank: 10522
@@ -727,7 +693,6 @@ landscape:
             stock_ticker: GOOGL
             twitter: 'https://twitter.com/googlecloud'
             crunchbase: 'https://www.crunchbase.com/organization/google-cloud-platform'
-            cncf_project: false
             market_cap: N/A
             headquarters: 'San Francisco, California'
             rank: 25410
@@ -744,7 +709,6 @@ landscape:
             stock_ticker: MSFT
             twitter: 'https://twitter.com/Azure'
             crunchbase: 'https://www.crunchbase.com/organization/microsoft'
-            cncf_project: false
             market_cap: 1000000
             headquarters: 'Redmond, Washington'
             rank: 37
@@ -763,7 +727,6 @@ landscape:
               https://upload.wikimedia.org/wikipedia/en/thumb/f/ff/DigitalOcean_logo.svg/1024px-DigitalOcean_logo.svg.png
             twitter: 'https://twitter.com/digitalocean'
             crunchbase: 'https://www.crunchbase.com/organization/digitalocean'
-            cncf_project: false
             market_cap: 305405800
             headquarters: 'New York, New York'
             rank: 752
@@ -782,7 +745,6 @@ landscape:
               https://user-images.githubusercontent.com/7989673/29498525-38a33f36-85cc-11e7-938d-ef6f10ba6fb3.png
             twitter: 'https://twitter.com/packethost'
             crunchbase: 'https://www.crunchbase.com/organization/packet-host'
-            cncf_project: false
             market_cap: 11567845
             headquarters: 'New York, New York'
             rank: 6813
@@ -802,7 +764,6 @@ landscape:
             stock_ticker: ORCL
             twitter: 'https://twitter.com/oraclecloud'
             crunchbase: 'https://www.crunchbase.com/organization/oracle'
-            cncf_project: false
             market_cap: N/A
             headquarters: 'Redwood Shores, California'
             rank: 25519
@@ -822,7 +783,6 @@ landscape:
             stock_ticker: BABA
             twitter: 'https://twitter.com/alibaba_cloud'
             crunchbase: 'https://www.crunchbase.com/organization/alibaba-cloud'
-            cncf_project: false
             market_cap: N/A
             headquarters: 'Hangzhou, China'
             rank: 46252
@@ -841,7 +801,6 @@ landscape:
             stock_ticker: FJTSF
             twitter: 'https://twitter.com/Fujitsu_Global'
             crunchbase: 'https://www.crunchbase.com/organization/fujitsu'
-            cncf_project: false
             market_cap: N/A
             headquarters: 'North Sydney, Australia'
             rank: 14952
@@ -860,7 +819,6 @@ landscape:
             stock_ticker: IBM
             twitter: 'https://twitter.com/IBMcloud'
             crunchbase: 'https://www.crunchbase.com/organization/ibm'
-            cncf_project: false
             market_cap: N/A
             headquarters: 'Armonk, New York'
             rank: 6083
@@ -877,7 +835,6 @@ landscape:
             raw_logo: >-
               https://pbs.twimg.com/profile_images/852439695199846400/OqpOmsZ0_400x400.jpg
             twitter: 'https://twitter.com/tencentcloud'
-            cncf_project: false
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
@@ -894,7 +851,6 @@ landscape:
               https://upload.wikimedia.org/wikipedia/commons/9/96/Joyent-logo.png
             twitter: 'https://twitter.com/joyent'
             crunchbase: 'https://www.crunchbase.com/organization/joyent'
-            cncf_project: false
             market_cap: 130999998
             headquarters: 'San Francisco, California'
             rank: 1644
@@ -913,7 +869,6 @@ landscape:
               https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Huawei-optimized.svg/300px-Huawei-optimized.svg.png
             twitter: 'https://twitter.com/Huawei'
             crunchbase: 'https://www.crunchbase.com/organization/huawei'
-            cncf_project: false
             market_cap: N/A
             headquarters: 'Plano, Texas'
             rank: 1469
@@ -935,7 +890,6 @@ landscape:
               https://www.openstack.org/assets/openstack-logo/2016R/OpenStack-Logo-Horizontal.png
             twitter: 'https://twitter.com/OpenStack'
             crunchbase: 'https://www.crunchbase.com/organization/openstack'
-            cncf_project: false
             market_cap: N/A
             headquarters: 'Austin, Texas'
             rank: 60056
@@ -953,7 +907,6 @@ landscape:
             stock_ticker: VMW
             twitter: 'https://twitter.com/VMware'
             crunchbase: 'https://www.crunchbase.com/organization/vmware'
-            cncf_project: false
             market_cap: 393500000
             headquarters: 'Palo Alto, California'
             rank: 5559
@@ -972,7 +925,6 @@ landscape:
               https://github.com/alexcontini/alexcontini.github.io/blob/master/maas.png
             twitter: 'https://twitter.com/Canonical'
             crunchbase: 'https://www.crunchbase.com/organization/canonical-ltd'
-            cncf_project: false
             market_cap: N/A
             headquarters: 'London, United Kingdom'
             rank: 42700
@@ -991,7 +943,6 @@ landscape:
               https://raw.githubusercontent.com/theforeman/foreman-graphics/master/logo/foreman_medium.png
             twitter: 'https://twitter.com/foremanproject'
             crunchbase: 'https://www.crunchbase.com/organization/foreman'
-            cncf_project: false
             market_cap: N/A
             headquarters: N/A
             rank: N/A
@@ -1006,7 +957,6 @@ landscape:
             raw_logo: 'https://blog.online.net/content/images/2015/04/scaleway_02-1.png'
             twitter: 'https://twitter.com/scaleway'
             crunchbase: 'https://www.crunchbase.com/organization/scaleway'
-            cncf_project: false
             market_cap: N/A
             headquarters: 'Paris, France'
             rank: 77003
@@ -1021,7 +971,6 @@ landscape:
             repo_url: 'https://github.com/digitalrebar'
             raw_logo: 'http://rebar.digital/logo.png'
             twitter: 'https://twitter.com/digitalrebar'
-            cncf_project: false
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
@@ -1044,7 +993,6 @@ landscape:
               https://crunchbase-production-res.cloudinary.com/image/upload/v1494032023/ds2ujajovsaxg7cjwgei.png
             twitter: 'https://twitter.com/HashiCorp'
             crunchbase: 'https://www.crunchbase.com/organization/hashicorp'
-            cncf_project: false
             market_cap: 74175000
             headquarters: 'San Francisco, California'
             rank: 949
@@ -1063,7 +1011,6 @@ landscape:
               https://cloudfoundry.org/wp-content/uploads/2012/02/CFF-BOSH-Full-Color.png
             twitter: 'https://twitter.com/cloudfoundry'
             crunchbase: 'https://www.crunchbase.com/organization/cloud-foundry'
-            cncf_project: false
             market_cap: N/A
             headquarters: 'San Mateo, California'
             rank: 56547
@@ -1083,7 +1030,6 @@ landscape:
             stock_ticker: AMZN
             twitter: 'https://twitter.com/awscloudformer'
             crunchbase: 'https://www.crunchbase.com/organization/amazon-web-services'
-            cncf_project: false
             market_cap: N/A
             headquarters: 'Seattle, Washington'
             rank: 10522
@@ -1100,7 +1046,6 @@ landscape:
             raw_logo: 'http://kb.cloudcoreo.com/images/company_logo.png'
             twitter: 'https://twitter.com/cloudcoreo'
             crunchbase: 'https://www.crunchbase.com/organization/cloudcoreo'
-            cncf_project: false
             market_cap: 2900000
             headquarters: 'Seattle, Washington'
             rank: 15699
@@ -1119,7 +1064,6 @@ landscape:
               https://access.redhat.com/sites/default/files/logo-blue_web__grey_0.png
             twitter: 'https://twitter.com/CloudifySource'
             crunchbase: 'https://www.crunchbase.com/organization/cloudify'
-            cncf_project: false
             market_cap: N/A
             headquarters: 'New York, New York'
             rank: 68185
@@ -1138,7 +1082,6 @@ landscape:
             raw_logo: 'https://datamountaineer.com/wp-content/uploads/2016/09/helm.png'
             twitter: 'https://twitter.com/helmpack'
             crunchbase: 'https://www.crunchbase.com/organization/helm-solutions'
-            cncf_project: false
             market_cap: N/A
             headquarters: 'New York, New York'
             rank: 85350
@@ -1157,7 +1100,6 @@ landscape:
               https://raw.githubusercontent.com/docker-library/docs/471fa6e4cb58062ccbf91afc111980f9c7004981/swarm/logo.png
             twitter: 'https://twitter.com/Infrakit'
             crunchbase: 'https://www.crunchbase.com/organization/infrakit'
-            cncf_project: false
             market_cap: N/A
             headquarters: 'Helsinki, Finland'
             rank: N/A
@@ -1176,7 +1118,6 @@ landscape:
               https://design.canonical.com/wp-content/uploads/2011/10/juju-464x252.png
             twitter: 'https://twitter.com/ubuntucloud'
             crunchbase: 'https://www.crunchbase.com/organization/canonical-ltd'
-            cncf_project: false
             market_cap: N/A
             headquarters: 'London, United Kingdom'
             rank: 42700
@@ -1192,7 +1133,6 @@ landscape:
             raw_logo: >-
               https://github.com/kris-nova/kubicorn/blob/master/docs/img/kubicorn-trans.png
             twitter: 'https://twitter.com/kubicornk8s'
-            cncf_project: false
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
@@ -1209,7 +1149,6 @@ landscape:
               https://psachin.github.io/images/miq-add-disk/manageiq-logo-standard-vertical.png
             twitter: 'https://twitter.com/manageiq'
             crunchbase: 'https://www.crunchbase.com/organization/manageiq'
-            cncf_project: false
             market_cap: 5400000
             headquarters: 'Mahwah, New Jersey'
             rank: 35264
@@ -1227,7 +1166,6 @@ landscape:
             raw_logo: 'https://quay.io/static/img/quay_preview.png'
             twitter: 'https://twitter.com/quayio'
             crunchbase: 'https://www.crunchbase.com/organization/quay-io'
-            cncf_project: false
             market_cap: N/A
             headquarters: 'New York, New York'
             rank: 63761
@@ -1243,7 +1181,6 @@ landscape:
               http://www.jfrogchina.com/wp-content/uploads/2015/09/Artifactory_HEX1.png
             twitter: 'https://twitter.com/jfrog'
             crunchbase: 'https://www.crunchbase.com/organization/jfrog-ltd'
-            cncf_project: false
             market_cap: 61500000
             headquarters: 'Sunnyvale, California'
             rank: 1819
@@ -1261,7 +1198,6 @@ landscape:
             raw_logo: 'https://vmware.github.io/harbor/images/harbor.png'
             twitter: 'https://twitter.com/vmware'
             crunchbase: 'https://www.crunchbase.com/organization/vmware'
-            cncf_project: false
             market_cap: 393500000
             headquarters: 'Palo Alto, California'
             rank: 5559
@@ -1280,7 +1216,6 @@ landscape:
             stock_ticker: MSFT
             twitter: 'https://twitter.com/azure'
             crunchbase: 'https://www.crunchbase.com/organization/microsoft'
-            cncf_project: false
             market_cap: 1000000
             headquarters: 'Redmond, Washington'
             rank: 37
@@ -1299,7 +1234,6 @@ landscape:
             raw_logo: 'https://community.redhat.com/images/branding/logo-atomic.png'
             twitter: 'https://twitter.com/projectatomic'
             crunchbase: 'https://www.crunchbase.com/organization/project-atomic'
-            cncf_project: false
             market_cap: N/A
             headquarters: 'Raleigh, North Carolina'
             rank: N/A
@@ -1316,7 +1250,6 @@ landscape:
               https://blog.docker.com/media/2015/11/logo-title-final-registry-2.png
             twitter: 'https://twitter.com/docker'
             crunchbase: 'https://www.crunchbase.com/organization/docker'
-            cncf_project: false
             market_cap: 242766694
             headquarters: 'San Francisco, California'
             rank: 471
@@ -1333,7 +1266,6 @@ landscape:
             stock_ticker: AMZN
             twitter: 'https://twitter.com/awscloud'
             crunchbase: 'https://www.crunchbase.com/organization/amazon-web-services'
-            cncf_project: false
             market_cap: N/A
             headquarters: 'Seattle, Washington'
             rank: 10522
@@ -1352,7 +1284,6 @@ landscape:
             stock_ticker: GOOGL
             twitter: 'https://twitter.com/googlecloud'
             crunchbase: 'https://www.crunchbase.com/organization/google-cloud-platform'
-            cncf_project: false
             market_cap: N/A
             headquarters: 'San Francisco, California'
             rank: 25410
@@ -1367,7 +1298,6 @@ landscape:
             repo_url: null
             raw_logo: >-
               https://github.com/SUSE/Portus/blob/master/public/favicon/android-chrome-192x192.png
-            cncf_project: false
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
@@ -1387,7 +1317,6 @@ landscape:
               https://upload.wikimedia.org/wikipedia/en/0/09/Puppet%27s_company_logo.png
             twitter: 'https://twitter.com/puppetlabs'
             crunchbase: 'https://www.crunchbase.com/organization/puppet-labs'
-            cncf_project: false
             market_cap: 107500000
             headquarters: 'Portland, Oregon'
             rank: 2994
@@ -1403,7 +1332,6 @@ landscape:
             repo_url: 'https://github.com/linuxkit'
             raw_logo: 'https://ordina-jworks.github.io/img/dockercon2017/linux-kit.png'
             twitter: 'https://twitter.com/linuxkit'
-            cncf_project: false
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
@@ -1420,7 +1348,6 @@ landscape:
               https://www.installvirtual.com/wp-content/uploads/2016/03/ansible_logo_850x400-300x169.png
             twitter: 'https://twitter.com/ansible'
             crunchbase: 'https://www.crunchbase.com/organization/ansible'
-            cncf_project: false
             market_cap: 6000000
             headquarters: 'Santa Barbara, California'
             rank: 11426
@@ -1439,7 +1366,6 @@ landscape:
               https://crunchbase-production-res.cloudinary.com/image/upload/v1397202169/79e96225d5d71f5e6d8ef247a5372278.png
             twitter: 'https://twitter.com/chef'
             crunchbase: 'https://www.crunchbase.com/organization/chef'
-            cncf_project: false
             market_cap: 105000000
             headquarters: 'Seattle, Washington'
             rank: 3174
@@ -1458,7 +1384,6 @@ landscape:
               https://crunchbase-production-res.cloudinary.com/image/upload/ddd2130f2a69731ce90ebf4fc205866f.jpg
             twitter: 'https://twitter.com/SaltStack'
             crunchbase: 'https://www.crunchbase.com/organization/saltstack'
-            cncf_project: false
             market_cap: 685000
             headquarters: 'Lehi, Utah'
             rank: 12330
@@ -1478,7 +1403,6 @@ landscape:
               https://crunchbase-production-res.cloudinary.com/image/upload/xq7nwzno4qanyadqph0i.jpg
             twitter: 'https://twitter.com/cfengine'
             crunchbase: 'https://www.crunchbase.com/organization/cfengine'
-            cncf_project: false
             market_cap: 13000000
             headquarters: 'Palo Alto, California'
             rank: 20034
@@ -1498,7 +1422,6 @@ landscape:
               http://cdn.dev.classmethod.jp/wp-content/uploads/2015/08/rundeck_eyecatch.png
             twitter: 'https://twitter.com/rundeck'
             crunchbase: 'https://www.crunchbase.com/organization/rundeck'
-            cncf_project: false
             market_cap: N/A
             headquarters: N/A
             rank: N/A
@@ -1518,7 +1441,6 @@ landscape:
               http://www.marketwire.com/library/MwGo/2016/4/5/11G092078/Anchore_RGB-14b85fa3801f8889be493bbb8e62e356.jpg
             twitter: 'https://twitter.com/anchore'
             crunchbase: 'https://www.crunchbase.com/organization/anchore-inc'
-            cncf_project: false
             market_cap: 7000000
             headquarters: 'Santa Barbara, California'
             rank: 13085
@@ -1534,7 +1456,6 @@ landscape:
               https://www.aquasec.com/wp-content/uploads/2016/05/aqua_logo_fullcolor.png
             twitter: 'https://twitter.com/AquaSecTeam'
             crunchbase: 'https://www.crunchbase.com/organization/aquasecurity'
-            cncf_project: false
             market_cap: 38000000
             headquarters: 'Ramat Gan, Israel'
             rank: 3253
@@ -1553,7 +1474,6 @@ landscape:
               http://www.southeastlinuxfest.org/wp-content/uploads/2017/05/BlackDuck.png
             twitter: 'https://twitter.com/black_duck_sw'
             crunchbase: 'https://www.crunchbase.com/organization/black-duck-software'
-            cncf_project: false
             market_cap: 75500000
             headquarters: 'Burlington, Massachusetts'
             rank: 3431
@@ -1571,7 +1491,6 @@ landscape:
             raw_logo: 'https://d0.awsstatic.com/logos/partners/neuvector_logo_600x400.png'
             twitter: 'https://twitter.com/neuvector'
             crunchbase: 'https://www.crunchbase.com/organization/neuvector'
-            cncf_project: false
             market_cap: 7000000
             headquarters: 'Milpitas, California'
             rank: 5791
@@ -1590,7 +1509,6 @@ landscape:
               http://zdnet2.cbsistatic.com/hub/i/r/2016/03/18/c9a09a0a-1fcc-48c8-810b-cb1c0379a562/resize/770xauto/cc3c78f58099a9569a899e05ceabba3f/coreos-clair.jpg
             twitter: 'https://twitter.com/coreos'
             crunchbase: 'https://www.crunchbase.com/organization/coreos'
-            cncf_project: false
             market_cap: 50000000
             headquarters: 'San Francisco, California'
             rank: 1547
@@ -1602,12 +1520,12 @@ landscape:
             name: Notary
             company: Cloud Native Computing Foundation (CNCF)
             homepage_url: 'https://github.com/theupdateframework/notary'
+            cncf_project: incubating
             repo_url: 'https://github.com/theupdateframework/notary'
             raw_logo: >-
               https://raw.githubusercontent.com/cncf/artwork/master/notary/stacked/color/notary-stacked-color.png
             crunchbase: >-
               https://www.crunchbase.com/organization/cloud-native-computing-foundation
-            cncf_project: true
             market_cap: N/A
             headquarters: 'San Francisco, California'
             rank: 63493
@@ -1625,7 +1543,6 @@ landscape:
             raw_logo: >-
               http://people.redhat.com/swells/ssg_logos/OpenSCAP-Logo/OpenSCAP-Vertical-Color.png
             twitter: 'https://twitter.com/OpenSCAP'
-            cncf_project: false
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
@@ -1641,7 +1558,6 @@ landscape:
               https://user-images.githubusercontent.com/7955995/29498304-ee71d418-85c6-11e7-9f95-e87a4439ed3c.png
             twitter: 'https://twitter.com/sonatype'
             crunchbase: 'https://www.crunchbase.com/organization/sonatype'
-            cncf_project: false
             market_cap: 74707328
             headquarters: 'Fulton, Maryland'
             rank: 3732
@@ -1655,12 +1571,12 @@ landscape:
             name: The Update Framework (TUF)
             company: Cloud Native Computing Foundation (CNCF)
             homepage_url: 'https://theupdateframework.github.io/'
+            cncf_project: incubating
             repo_url: 'https://github.com/theupdateframework/tuf'
             raw_logo: >-
               https://github.com/cncf/artwork/blob/master/tuf/stacked/color/tuf-stacked-color.png
             crunchbase: >-
               https://www.crunchbase.com/organization/cloud-native-computing-foundation
-            cncf_project: true
             market_cap: N/A
             headquarters: 'San Francisco, California'
             rank: 63493
@@ -1676,7 +1592,6 @@ landscape:
               https://d7umqicpi7263.cloudfront.net/img/product/1fd6301a-a20f-4c14-9e07-3d0f3c0b37fc/e622e016-ff30-4a92-aadc-f749fa9dca86.png
             twitter: 'https://twitter.com/twistlockteam'
             crunchbase: 'https://www.crunchbase.com/organization/twistlock'
-            cncf_project: false
             market_cap: 30060000
             headquarters: 'San Francisco, California'
             rank: 1528
@@ -1694,7 +1609,6 @@ landscape:
             repo_url: 'https://github.com/lyft/confidant'
             raw_logo: ./src/hosted_logos/lyft-confidant.png
             crunchbase: 'https://www.crunchbase.com/organization/lyft'
-            cncf_project: false
             market_cap: 4112500000
             headquarters: 'San Francisco, California'
             rank: 10
@@ -1710,7 +1624,6 @@ landscape:
             raw_logo: 'https://avatars0.githubusercontent.com/u/82592?v=4&s=200'
             stock_ticker: SQ
             crunchbase: 'https://www.crunchbase.com/organization/square'
-            cncf_project: false
             market_cap: 590500000
             headquarters: 'San Francisco, California'
             rank: 21
@@ -1725,7 +1638,6 @@ landscape:
             raw_logo: >-
               https://seeklogo.com/images/P/pinterest-badge-logo-82C89A5E42-seeklogo.com.png
             crunchbase: 'https://www.crunchbase.com/organization/pinterest'
-            cncf_project: false
             market_cap: 1466100000
             headquarters: 'San Francisco, California'
             rank: 192
@@ -1741,7 +1653,6 @@ landscape:
             raw_logo: 'https://hyzxph.media.zestyio.com/blog-vault-list.svg'
             twitter: 'https://twitter.com/HashiCorp'
             crunchbase: 'https://www.crunchbase.com/organization/hashicorp'
-            cncf_project: false
             market_cap: 74175000
             headquarters: 'San Francisco, California'
             rank: 949
@@ -1761,7 +1672,6 @@ landscape:
               https://yt3.ggpht.com/-lHhZ9YacajM/AAAAAAAAAAI/AAAAAAAAAAA/v-C_eNK_oF8/s900-c-k-no-mo-rj-c0xffffff/photo.jpg
             twitter: 'https://twitter.com/oracleopa'
             crunchbase: 'https://www.crunchbase.com/organization/oracle'
-            cncf_project: false
             market_cap: N/A
             headquarters: 'Redwood Shores, California'
             rank: 25519
@@ -1780,7 +1690,6 @@ landscape:
             raw_logo: 'https://spiffe.io/img/spiffe-logo-color-basic.svg'
             twitter: 'https://twitter.com/spiffeio'
             crunchbase: 'https://www.crunchbase.com/organization/scytale-io'
-            cncf_project: false
             market_cap: N/A
             headquarters: 'San Francisco, California'
             rank: 73404
@@ -1800,7 +1709,6 @@ landscape:
               https://github.com/spiffe/spire/blob/master/doc/images/spire_logo.png
             twitter: 'https://twitter.com/scytale_io'
             crunchbase: 'https://www.crunchbase.com/organization/scytale-io'
-            cncf_project: false
             market_cap: N/A
             headquarters: 'San Francisco, California'
             rank: 73404
@@ -1823,7 +1731,6 @@ landscape:
               https://i2.wp.com/ceph.com/wp-content/uploads/2016/07/Ceph_Logo_Stacked_RGB_120411_fa.png
             twitter: 'https://twitter.com/Ceph'
             crunchbase: 'https://www.crunchbase.com/organization/ceph-storage'
-            cncf_project: false
             market_cap: N/A
             headquarters: 'Los Angeles, California'
             rank: N/A
@@ -1843,7 +1750,6 @@ landscape:
             crunchbase: 'https://www.crunchbase.com/organization/gluster'
             calculated:
               gh_stars: '12345'
-            cncf_project: false
             market_cap: 12500000
             headquarters: 'Sunnyvale, California'
             rank: 22800
@@ -1861,7 +1767,6 @@ landscape:
             raw_logo: 'http://previsna.com/bilder/hadoop-hdfs.png'
             twitter: 'https://twitter.com/TheASF'
             crunchbase: 'https://www.crunchbase.com/organization/hadoop'
-            cncf_project: false
             market_cap: N/A
             headquarters: N/A
             rank: 73009
@@ -1878,7 +1783,6 @@ landscape:
               https://www.cloudfoundry.org/wp-content/uploads/2017/01/Minio-logo_1_1_.png
             twitter: 'https://twitter.com/minio'
             crunchbase: 'https://www.crunchbase.com/organization/minio-inc'
-            cncf_project: false
             market_cap: 23300000
             headquarters: 'Palo Alto, California'
             rank: 4812
@@ -1894,7 +1798,6 @@ landscape:
               https://portworx.com/wp-content/themes/portworx/images/xportworx-logo.png.pagespeed.ic.0Z487a9F2s.png
             twitter: 'https://twitter.com/portwx'
             crunchbase: 'https://www.crunchbase.com/organization/portworx'
-            cncf_project: false
             market_cap: 28500000
             headquarters: 'Los Altos, California'
             rank: 1736
@@ -1914,7 +1817,6 @@ landscape:
             stock ticker: VMW
             twitter: 'https://twitter.com/VMware'
             crunchbase: 'https://www.crunchbase.com/organization/vmware'
-            cncf_project: false
             market_cap: 393500000
             headquarters: 'Palo Alto, California'
             rank: 5559
@@ -1933,7 +1835,6 @@ landscape:
               https://vbrownbag.com/wp-content/uploads/2017/07/Pure-Vertical-Medium-212x300.png
             twitter: 'https://twitter.com/PureStorage'
             crunchbase: 'https://www.crunchbase.com/organization/pure-storage'
-            cncf_project: false
             market_cap: 530856468
             headquarters: 'Mountain View, California'
             rank: 369
@@ -1950,7 +1851,6 @@ landscape:
               https://www.storagenewsletter.com/wp-content/uploads/2016/06/EMC_LIBSTORAGE_LOGO.jpg
             twitter: 'https://twitter.com/EMCcorp'
             crunchbase: 'https://www.crunchbase.com/organization/dell-emc'
-            cncf_project: false
             market_cap: N/A
             headquarters: 'Hopkinton, Massachusetts'
             rank: 17932
@@ -1969,7 +1869,6 @@ landscape:
               http://p6.zdassets.com/hc/settings_assets/150338/200244868/L3CnsFFWx4OJFUp2C7uUWA-joyentLogo.png
             twitter: 'https://twitter.com/joyent'
             crunchbase: 'https://www.crunchbase.com/organization/joyent'
-            cncf_project: false
             market_cap: 130999998
             headquarters: 'San Francisco, California'
             rank: 1644
@@ -1987,7 +1886,6 @@ landscape:
             raw_logo: 'http://events.vmblog.com/images/dockercon/diamanti-logo-600.png'
             twitter: 'https://twitter.com/diamanticom'
             crunchbase: 'https://www.crunchbase.com/organization/diamanti'
-            cncf_project: false
             market_cap: 43000000
             headquarters: 'San Jose, California'
             rank: 4006
@@ -2002,13 +1900,13 @@ landscape:
             name: Rook
             company: Cloud Native Computing Foundation (CNCF)
             homepage_url: 'https://rook.io/'
+            cncf_project: inception
             repo_url: 'https://github.com/rook/rook'
             raw_logo: >-
               https://raw.githubusercontent.com/rook/rook/master/Documentation/media/logo.png
             twitter: 'https://twitter.com/rook_io'
             crunchbase: >-
               https://www.crunchbase.com/organization/cloud-native-computing-foundation
-            cncf_project: true
             market_cap: N/A
             headquarters: 'San Francisco, California'
             rank: 63493
@@ -2026,7 +1924,6 @@ landscape:
               http://cdncap-414f.kxcdn.com/wp-content/uploads/2015/02/Logo_black_V1.png
             twitter: 'https://twitter.com/robinsystems'
             crunchbase: 'https://www.crunchbase.com/organization/robin-systems'
-            cncf_project: false
             market_cap: 21700000
             headquarters: 'San Jose, California'
             rank: 5051
@@ -2045,7 +1942,6 @@ landscape:
             stock_ticker: CSCO
             twitter: 'https://twitter.com/springpathinc'
             crunchbase: 'https://www.crunchbase.com/organization/springpath-inc'
-            cncf_project: false
             market_cap: 34000000
             headquarters: 'Sunnyvale, California'
             rank: 4907
@@ -2064,7 +1960,6 @@ landscape:
               https://res.cloudinary.com/crunchbase-production/image/upload/v1476997797/y1u1jsyziagiptqdiy3f.jpg
             twitter: 'https://twitter.com/DateraInc'
             crunchbase: 'https://www.crunchbase.com/organization/datera-2'
-            cncf_project: false
             market_cap: 40000000
             headquarters: 'Mountain View, California'
             rank: 3350
@@ -2080,7 +1975,6 @@ landscape:
             raw_logo: 'https://www.infinit.sh/images/logotype.png'
             twitter: 'https://twitter.com/infinit_sh'
             crunchbase: 'https://www.crunchbase.com/organization/infinit'
-            cncf_project: false
             market_cap: 2240000
             headquarters: 'Paris, France'
             rank: 19911
@@ -2098,7 +1992,6 @@ landscape:
               https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAx9AAAAJDg5NzcxMTk0LTdhNzItNGI1Ny04OTAzLTA2Zjc1NjNiOTY2ZQ.png
             twitter: 'https://twitter.com/kastenhq'
             crunchbase: 'https://www.crunchbase.com/organization/kasten'
-            cncf_project: false
             market_cap: N/A
             headquarters: 'Los Altos, California'
             rank: 63257
@@ -2114,7 +2007,6 @@ landscape:
             raw_logo: >-
               https://camo.githubusercontent.com/9253d4191c8b4a21e7b2960199c9fee4dab14256/68747470733a2f2f6c656f2d70726f6a6563742e6e65742f6c656f66732f646f63732d6f6c642f5f7374617469632f6c656f66732d6c6f676f2d736d616c6c2e706e67
             twitter: 'https://twitter.com/LeoFastStorage'
-            cncf_project: false
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
@@ -2128,7 +2020,6 @@ landscape:
             homepage_url: 'https://sheepdog.github.io/sheepdog/'
             repo_url: 'https://github.com/sheepdog'
             raw_logo: 'https://avatars3.githubusercontent.com/u/4846685'
-            cncf_project: false
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
@@ -2144,7 +2035,6 @@ landscape:
             raw_logo: 'https://dev.acquia.com/sites/default/files/blog/grid-rexray.png'
             twitter: 'https://twitter.com/codedellemc'
             crunchbase: 'https://www.crunchbase.com/organization/dell-emc'
-            cncf_project: false
             market_cap: N/A
             headquarters: 'Hopkinton, Massachusetts'
             rank: 17932
@@ -2163,7 +2053,6 @@ landscape:
             stock_ticker: NTAP
             twitter: 'https://twitter.com/netapp'
             crunchbase: 'https://www.crunchbase.com/organization/netapp'
-            cncf_project: false
             market_cap: N/A
             headquarters: 'Sunnyvale, California'
             rank: 20092
@@ -2182,7 +2071,6 @@ landscape:
               https://pbs.twimg.com/profile_images/847754903300616192/Y9Vt22jx_400x400.jpg
             twitter: 'https://twitter.com/Storage_OS'
             crunchbase: 'https://www.crunchbase.com/organization/storageos'
-            cncf_project: false
             market_cap: 2000000
             headquarters: 'London, United Kingdom'
             rank: 12176
@@ -2199,7 +2087,6 @@ landscape:
             stock_ticker: DVMT
             twitter: 'https://twitter.com/dellemc'
             crunchbase: 'https://www.crunchbase.com/organization/dell-emc'
-            cncf_project: false
             market_cap: N/A
             headquarters: 'Hopkinton, Massachusetts'
             rank: 17932
@@ -2217,7 +2104,6 @@ landscape:
             raw_logo: >-
               https://www.opensds.io/wp-content/uploads/sites/18/2016/11/logo_opensds.png
             crunchbase: 'https://www.crunchbase.com/organization/opensds'
-            cncf_project: false
             market_cap: N/A
             headquarters: N/A
             rank: N/A
@@ -2236,7 +2122,6 @@ landscape:
               https://github.com/openebs/chitrakala/blob/master/logo/png/logo-01.png
             twitter: 'https://twitter.com/openebs'
             crunchbase: 'https://www.crunchbase.com/organization/openebs'
-            cncf_project: false
             market_cap: N/A
             headquarters: 'Bengaluru, India'
             rank: N/A
@@ -2256,7 +2141,6 @@ landscape:
               https://www.hedviginc.com/hs-fs/hub/448929/file-2664694225-png/Press_Kit/Hedvig-Logo/HedvigVerticalLockup-HighResPNG.png?t=1511209134101
             twitter: 'https://twitter.com/HedvigInc'
             crunchbase: 'https://www.crunchbase.com/organization/hedvig'
-            cncf_project: false
             market_cap: 52000000
             headquarters: 'Santa Clara, California'
             rank: 4019
@@ -2272,7 +2156,6 @@ landscape:
             raw_logo: 'http://d.not.mn/OpenStack_Project_Swift_vertical.png'
             twitter: 'https://twitter.com/swiftstack?lang=en'
             crunchbase: 'https://www.crunchbase.com/organization/openstack'
-            cncf_project: false
             market_cap: N/A
             headquarters: 'Austin, Texas'
             rank: 60056
@@ -2287,12 +2170,12 @@ landscape:
             name: rkt
             company: Cloud Native Computing Foundation (CNCF)
             homepage_url: 'https://github.com/rkt/rkt'
+            cncf_project: incubating
             repo_url: 'https://github.com/rkt/rkt'
             raw_logo: >-
               https://raw.githubusercontent.com/cncf/artwork/master/rkt/stacked/color/rkt-stacked-color.png
             crunchbase: >-
               https://www.crunchbase.com/organization/cloud-native-computing-foundation
-            cncf_project: true
             market_cap: N/A
             headquarters: 'San Francisco, California'
             rank: 63493
@@ -2310,7 +2193,6 @@ landscape:
             raw_logo: >-
               https://www.opencontainers.org/wp-content/uploads/sites/10/2016/10/logo_oci.png
             twitter: 'https://twitter.com/OCI_ORG'
-            cncf_project: false
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
@@ -2328,7 +2210,6 @@ landscape:
             raw_logo: 'http://people.canonical.com/~kirkland/lxd.png'
             twitter: 'https://twitter.com/Canonical'
             crunchbase: 'https://www.crunchbase.com/organization/canonical-ltd'
-            cncf_project: false
             market_cap: N/A
             headquarters: 'London, United Kingdom'
             rank: 42700
@@ -2341,7 +2222,6 @@ landscape:
             company: Hyper
             repo_url: 'https://github.com/hyperhq/runv'
             raw_logo: 'http://people.canonical.com/~kirkland/lxd.png'
-            cncf_project: false
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
@@ -2358,7 +2238,6 @@ landscape:
               https://github.com/alexcontini/alexcontini.github.io/blob/master/Smart-OS-logo_new-01.png?raw=true
             twitter: 'https://twitter.com/joyent'
             crunchbase: 'https://www.crunchbase.com/organization/joyent'
-            cncf_project: false
             market_cap: 130999998
             headquarters: 'San Francisco, California'
             rank: 1644
@@ -2373,12 +2252,12 @@ landscape:
             name: containerd
             company: Cloud Native Computing Foundation (CNCF)
             homepage_url: 'http://containerd.io/'
+            cncf_project: incubating
             repo_url: 'https://github.com/containerd/containerd'
             raw_logo: >-
               https://raw.githubusercontent.com/cncf/artwork/master/containerd/stacked/color/containerd-stacked-color.png
             crunchbase: >-
               https://www.crunchbase.com/organization/cloud-native-computing-foundation
-            cncf_project: true
             market_cap: N/A
             headquarters: 'San Francisco, California'
             rank: 63493
@@ -2394,7 +2273,6 @@ landscape:
             raw_logo: >-
               https://raw.githubusercontent.com/kubernetes-incubator/cri-o/master/logo/crio-logo.png
             twitter: 'https://twitter.com/hashtag/%22cri-o%22'
-            cncf_project: false
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
@@ -2411,7 +2289,6 @@ landscape:
             stock ticker: INTC
             twitter: 'https://twitter.com/clearlinux/'
             crunchbase: 'https://www.crunchbase.com/organization/intel'
-            cncf_project: false
             market_cap: 2510000
             headquarters: 'Santa Clara, California'
             rank: 9708
@@ -2428,7 +2305,6 @@ landscape:
             repo_url: 'https://github.com/container-storage-interface'
             raw_logo: >-
               https://github.com/container-storage-interface/artwork/blob/master/logo/PNG/01.png
-            cncf_project: false
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
@@ -2446,7 +2322,6 @@ landscape:
             raw_logo: 'https://thenewstack.io/wp-content/uploads/2016/10/Aporeto-Logo.png'
             twitter: 'https://twitter.com/aporeto'
             crunchbase: 'https://www.crunchbase.com/organization/aporeto'
-            cncf_project: false
             market_cap: 14500000
             headquarters: 'San Jose, California'
             rank: 3069
@@ -2462,7 +2337,6 @@ landscape:
               https://crunchbase-production-res.cloudinary.com/image/upload/v1441953231/rp1toqznrlhfvf8n3iim.png
             twitter: 'https://twitter.com/aviatrixsys'
             crunchbase: 'https://www.crunchbase.com/organization/aviatrix'
-            cncf_project: false
             market_cap: 25000000
             headquarters: 'Palo Alto, California'
             rank: 5359
@@ -2480,7 +2354,6 @@ landscape:
               https://crunchbase-production-res.cloudinary.com/image/upload/v1397750940/0017b5194e393ff05bf0c77f14dde52a.png
             twitter: 'https://twitter.com/bigswitch'
             crunchbase: 'https://www.crunchbase.com/organization/big-switch-networks'
-            cncf_project: false
             market_cap: 119500000
             headquarters: 'Santa Clara, California'
             rank: 521
@@ -2499,7 +2372,6 @@ landscape:
               https://www.projectcalico.org/wp-content/uploads/2015/03/Project-Calico-logo-1000px.png
             twitter: 'https://twitter.com/projectcalico'
             crunchbase: 'https://www.crunchbase.com/organization/tigera'
-            cncf_project: false
             market_cap: 23000000
             headquarters: 'San Francisco, California'
             rank: 153
@@ -2518,7 +2390,6 @@ landscape:
               https://raw.githubusercontent.com/projectcalico/canal/master/logos/canal-logo-type-full-color%20328x184.png
             twitter: 'https://twitter.com/projectcalico'
             crunchbase: 'https://www.crunchbase.com/organization/tigera'
-            cncf_project: false
             market_cap: 23000000
             headquarters: 'San Francisco, California'
             rank: 153
@@ -2535,7 +2406,6 @@ landscape:
             stock_ticker: CSCO
             twitter: 'https://twitter.com/projectcontiv'
             crunchbase: 'https://www.crunchbase.com/organization/cisco'
-            cncf_project: false
             market_cap: 2500000
             headquarters: 'San Jose, California'
             rank: 705
@@ -2551,7 +2421,6 @@ landscape:
             raw_logo: 'https://avatars2.githubusercontent.com/u/21054566?s=400&v=4'
             twitter: 'https://twitter.com/ciliumproject'
             crunchbase: 'https://www.crunchbase.com/organization/covalent-io'
-            cncf_project: false
             market_cap: N/A
             headquarters: N/A
             rank: 69525
@@ -2570,7 +2439,6 @@ landscape:
               https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F33979767%2F108689379901%2F1%2Foriginal.jpg?w=800&rect=0%2C100%2C800%2C400&s=51632196d88bcd0efb885370c3f3bd94
             twitter: 'https://twitter.com/CumulusNetworks/'
             crunchbase: 'https://www.crunchbase.com/organization/cumulus-networks'
-            cncf_project: false
             market_cap: 129000000
             headquarters: 'Mountain View, California'
             rank: 141
@@ -2589,7 +2457,6 @@ landscape:
               https://raw.githubusercontent.com/coreos/flannel/master/logos/flannel-horizontal-color.png
             twitter: 'https://twitter.com/tigeraio'
             crunchbase: 'https://www.crunchbase.com/organization/tigera'
-            cncf_project: false
             market_cap: 23000000
             headquarters: 'San Francisco, California'
             rank: 153
@@ -2608,7 +2475,6 @@ landscape:
               https://pbs.twimg.com/profile_images/585843382515179522/4JjWCoqo_400x400.png
             twitter: 'https://twitter.com/midokura'
             crunchbase: 'https://www.crunchbase.com/organization/midokura'
-            cncf_project: false
             market_cap: 38647418
             headquarters: 'Tokyo, Japan'
             rank: 8611
@@ -2624,7 +2490,6 @@ landscape:
             raw_logo: 'http://blogs.vmware.com/kb/files/2015/08/NSX.png'
             twitter: 'https://twitter.com/vmwarensx'
             crunchbase: 'https://www.crunchbase.com/organization/vmware'
-            cncf_project: false
             market_cap: 393500000
             headquarters: 'Palo Alto, California'
             rank: 5559
@@ -2641,7 +2506,6 @@ landscape:
               https://user-images.githubusercontent.com/6019102/29992977-e6e92a02-8f5d-11e7-855b-0bf748f13dd9.png
             twitter: 'https://twitter.com/nuagenetworks'
             crunchbase: 'https://www.crunchbase.com/organization/nuage-networks'
-            cncf_project: false
             market_cap: N/A
             headquarters: 'California, Kentucky'
             rank: 72838
@@ -2659,7 +2523,6 @@ landscape:
             raw_logo: ./src/hosted_logos/open-contrail.png
             twitter: 'https://twitter.com/OpenContrail'
             crunchbase: 'https://www.crunchbase.com/organization/opencontrail'
-            cncf_project: false
             market_cap: N/A
             headquarters: 'Sunnyvale, California'
             rank: N/A
@@ -2675,7 +2538,6 @@ landscape:
             raw_logo: 'http://openvswitch.org/assets/vswitch.png'
             twitter: 'https://twitter.com/openvswitch'
             crunchbase: 'https://www.crunchbase.com/organization/open-vswitch'
-            cncf_project: false
             market_cap: N/A
             headquarters: N/A
             rank: N/A
@@ -2693,7 +2555,6 @@ landscape:
               https://crunchbase-production-res.cloudinary.com/image/upload/v1397203552/4395c21af7405ea945c9a1297cacc116.jpg
             twitter: 'https://twitter.com/PLUMgrid'
             crunchbase: 'https://www.crunchbase.com/organization/plumgrid'
-            cncf_project: false
             market_cap: 48006848
             headquarters: 'Santa Clara, California'
             rank: 9236
@@ -2709,7 +2570,6 @@ landscape:
             homepage_url: 'http://romana.io/'
             repo_url: 'https://github.com/romana'
             raw_logo: 'http://romana.io/images/Logo.250.png'
-            cncf_project: false
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
@@ -2725,7 +2585,6 @@ landscape:
               https://1v51ha1y9z9f2hpq55t67p7a3u-wpengine.netdna-ssl.com/wp-content/uploads/2016/12/snaproute-logo-2016.jpg
             twitter: 'https://twitter.com/snaproute'
             crunchbase: 'https://www.crunchbase.com/organization/snaproute'
-            cncf_project: false
             market_cap: 25000000
             headquarters: 'Palo Alto, California'
             rank: 3427
@@ -2737,12 +2596,12 @@ landscape:
             name: CNI
             company: Cloud Native Computing Foundation (CNCF)
             homepage_url: 'https://github.com/containernetworking'
+            cncf_project: incubating
             repo_url: 'https://github.com/containernetworking/cni'
             raw_logo: >-
               https://raw.githubusercontent.com/cncf/artwork/master/cni/stacked/color/cni-stacked-color.png
             crunchbase: >-
               https://www.crunchbase.com/organization/cloud-native-computing-foundation
-            cncf_project: true
             market_cap: N/A
             headquarters: 'San Francisco, California'
             rank: 63493
@@ -2759,7 +2618,6 @@ landscape:
               http://events17.linuxfoundation.org/sites/events/files/styles/sponsor_logo_large/public/sponsor-logos/sponsor-weaveworks_1.png
             twitter: 'https://twitter.com/weaveworks'
             crunchbase: 'https://www.crunchbase.com/organization/weaveworks'
-            cncf_project: false
             market_cap: 20000000
             headquarters: 'London, United Kingdom'
             rank: 5353
@@ -2781,7 +2639,6 @@ landscape:
             raw_logo: 'http://static.17ky.net/Images/8164803b2f28415d9b8dff6c2499b1fb.png'
             twitter: 'https://twitter.com/PingCAP'
             crunchbase: 'https://www.crunchbase.com/organization/pingcap'
-            cncf_project: false
             market_cap: 21600000
             headquarters: 'Beijing, China'
             rank: 10304
@@ -2800,7 +2657,6 @@ landscape:
             stock_ticker: ORCL
             twitter: 'https://twitter.com/mysql'
             crunchbase: 'https://www.crunchbase.com/organization/mysql'
-            cncf_project: false
             market_cap: 40800000
             headquarters: 'Cupertino, California'
             rank: 66460
@@ -2819,7 +2675,6 @@ landscape:
               https://raw.githubusercontent.com/docker-library/docs/01c12653951b2fe592c1f93a13b4e289ada0e3a1/postgres/logo.png
             twitter: 'https://twitter.com/postgresql'
             crunchbase: 'https://www.crunchbase.com/organization/postgresql'
-            cncf_project: false
             market_cap: N/A
             headquarters: N/A
             rank: N/A
@@ -2838,7 +2693,6 @@ landscape:
             stock_ticker: ORCL
             twitter: 'https://twitter.com/Oracle'
             crunchbase: 'https://www.crunchbase.com/organization/oracle'
-            cncf_project: false
             market_cap: N/A
             headquarters: 'Redwood Shores, California'
             rank: 25519
@@ -2858,7 +2712,6 @@ landscape:
             stock_ticker: MSFT
             twitter: 'https://twitter.com/SQLServer'
             crunchbase: 'https://www.crunchbase.com/organization/microsoft'
-            cncf_project: false
             market_cap: 1000000
             headquarters: 'Redmond, Washington'
             rank: 37
@@ -2877,7 +2730,6 @@ landscape:
             stock_ticker: IBM
             twitter: 'https://twitter.com/ibmdb2'
             crunchbase: 'https://www.crunchbase.com/organization/ibm'
-            cncf_project: false
             market_cap: N/A
             headquarters: 'Armonk, New York'
             rank: 6083
@@ -2895,7 +2747,6 @@ landscape:
             raw_logo: 'https://redash.io/assets/images/temp/Mongo2.png'
             twitter: 'https://twitter.com/mongodb'
             crunchbase: 'https://www.crunchbase.com/organization/mongodb-inc'
-            cncf_project: false
             market_cap: 311000000
             headquarters: 'New York, New York'
             rank: 1132
@@ -2912,7 +2763,6 @@ landscape:
               https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Cassandra_logo.svg/279px-Cassandra_logo.svg.png
             twitter: 'https://twitter.com/cassandra'
             crunchbase: 'https://www.crunchbase.com/organization/apache'
-            cncf_project: false
             market_cap: N/A
             headquarters: 'Forest Hill, Maryland'
             rank: 84483
@@ -2928,7 +2778,6 @@ landscape:
             raw_logo: 'https://blog.newrelic.com/wp-content/uploads/redis.png'
             twitter: 'https://twitter.com/redisfeed'
             crunchbase: 'https://www.crunchbase.com/organization/redis-labs'
-            cncf_project: false
             market_cap: 86000000
             headquarters: 'Mountain View, California'
             rank: 957
@@ -2946,7 +2795,6 @@ landscape:
             raw_logo: 'https://mariadb.org/wp-content/uploads/2015/10/mariadb-usa-inc.png'
             twitter: 'https://twitter.com/mariadbfdn'
             crunchbase: 'https://www.crunchbase.com/organization/mariadb-2'
-            cncf_project: false
             market_cap: 98175561
             headquarters: 'Espoo, Finland'
             rank: 908
@@ -2965,7 +2813,6 @@ landscape:
               http://www.socallinuxexpo.org/sites/default/files/logos/CRA_logo_blue_RGB.png
             twitter: 'https://twitter.com/Crateio'
             crunchbase: 'https://www.crunchbase.com/organization/crate-technology'
-            cncf_project: false
             market_cap: 6000000
             headquarters: 'San Francisco, California'
             rank: 6812
@@ -2984,7 +2831,6 @@ landscape:
               https://pbs.twimg.com/profile_images/759150998753378304/GoY-XdnG_400x400.jpg
             twitter: 'https://twitter.com/nomsdb'
             crunchbase: 'https://www.crunchbase.com/organization/attic-labs'
-            cncf_project: false
             market_cap: 8100000
             headquarters: 'San Francisco, California'
             rank: 2626
@@ -3001,7 +2847,6 @@ landscape:
               https://cdn-images-1.medium.com/max/1600/1*wd82_mNF-M0aNAm3UPLMVw.jpeg
             twitter: 'https://twitter.com/BigchainDB'
             crunchbase: 'https://www.crunchbase.com/organization/bigchaindb'
-            cncf_project: false
             market_cap: 5370000
             headquarters: 'Berlin, Germany'
             rank: 3491
@@ -3018,7 +2863,6 @@ landscape:
               https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Couchbase%2C_Inc._official_logo.png/250px-Couchbase%2C_Inc._official_logo.png
             twitter: 'https://twitter.com/couchbase'
             crunchbase: 'https://www.crunchbase.com/organization/couchbase'
-            cncf_project: false
             market_cap: 146000000
             headquarters: 'Mountain View, California'
             rank: 969
@@ -3037,7 +2881,6 @@ landscape:
               https://raw.githubusercontent.com/cockroachdb/cockroach/master/docs/media/cockroach_db.png
             twitter: 'https://twitter.com/CockroachDB'
             crunchbase: 'https://www.crunchbase.com/organization/cockroach-labs'
-            cncf_project: false
             market_cap: 53500000
             headquarters: 'New York, New York'
             rank: 1846
@@ -3056,7 +2899,6 @@ landscape:
               http://10minbasics.com/wp-content/uploads/2015/09/rethinkdb_logo1.png
             twitter: 'https://twitter.com/rethinkdb'
             crunchbase: 'https://www.crunchbase.com/organization/rethinkdb'
-            cncf_project: false
             market_cap: 12200000
             headquarters: 'Mountain View, California'
             rank: 11464
@@ -3075,7 +2917,6 @@ landscape:
             twitter: 'https://twitter.com/vitessio'
             crunchbase: >-
               https://www.crunchbase.com/organization/cloud-native-computing-foundation
-            cncf_project: true
             market_cap: N/A
             headquarters: 'San Francisco, California'
             rank: 63493
@@ -3094,7 +2935,6 @@ landscape:
             stock_ticker: MSFT
             twitter: 'https://twitter.com/azure'
             crunchbase: 'https://www.crunchbase.com/organization/microsoft'
-            cncf_project: false
             market_cap: 1000000
             headquarters: 'Redmond, Washington'
             rank: 37
@@ -3113,7 +2953,6 @@ landscape:
               https://upload.wikimedia.org/wikipedia/en/6/62/Snowflake_Computing_logo.png
             twitter: 'https://twitter.com/SnowflakeDB'
             crunchbase: 'https://www.crunchbase.com/organization/snowflake-computing'
-            cncf_project: false
             market_cap: 473000000
             headquarters: 'San Mateo, California'
             rank: 448
@@ -3128,7 +2967,6 @@ landscape:
             repo_url: 'https://github.com/druid-io'
             raw_logo: ./src/hosted_logos/druid.png
             twitter: 'https://twitter.com/druidio'
-            cncf_project: false
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
@@ -3143,7 +2981,6 @@ landscape:
             raw_logo: 'http://go.qubole.com/rs/510-QPZ-296/images/qubole_logo.png'
             twitter: 'https://twitter.com/qubole'
             crunchbase: 'https://www.crunchbase.com/organization/qubole'
-            cncf_project: false
             market_cap: 75000000
             headquarters: 'Santa Clara, California'
             rank: 2153
@@ -3162,7 +2999,6 @@ landscape:
               https://raw.githubusercontent.com/apache/carbondata/master/docs/images/CarbonData_logo.png
             twitter: 'https://twitter.com/ApacheCarbonDat'
             crunchbase: 'https://www.crunchbase.com/organization/apache'
-            cncf_project: false
             market_cap: N/A
             headquarters: 'Forest Hill, Maryland'
             rank: 84483
@@ -3179,7 +3015,6 @@ landscape:
             stock_ticker: HPQ
             twitter: 'https://twitter.com/verticahelp'
             crunchbase: 'https://www.crunchbase.com/organization/vertica-systems'
-            cncf_project: false
             market_cap: 30500000
             headquarters: 'Billerica, Massachusetts'
             rank: 62626
@@ -3195,7 +3030,6 @@ landscape:
             raw_logo: 'https://www.contegix.com/wp-content/uploads/2015/09/Hadoop.png'
             twitter: 'https://twitter.com/hadoop'
             crunchbase: 'https://www.crunchbase.com/organization/hadoop'
-            cncf_project: false
             market_cap: N/A
             headquarters: N/A
             rank: 73009
@@ -3212,7 +3046,6 @@ landscape:
               http://mms.businesswire.com/media/20170314005560/en/575150/4/Logo_-_updated.jpg
             twitter: 'https://twitter.com/iguazio'
             crunchbase: 'https://www.crunchbase.com/organization/iguaz-io'
-            cncf_project: false
             market_cap: 48000000
             headquarters: 'Herzliya, Israel'
             rank: 402
@@ -3231,7 +3064,6 @@ landscape:
             raw_logo: 'https://diamanti.com/static/app/img/what-we-do/memsql-logo.png'
             twitter: 'https://twitter.com/memsql/'
             crunchbase: 'https://www.crunchbase.com/organization/memsql'
-            cncf_project: false
             market_cap: 78100000
             headquarters: 'San Francisco, California'
             rank: 2231
@@ -3248,7 +3080,6 @@ landscape:
               https://crunchbase-production-res.cloudinary.com/image/upload/v1441394109/w8muln3r8jvrk5g0ngmj.png
             twitter: 'https://twitter.com/pachydermIO'
             crunchbase: 'https://www.crunchbase.com/organization/pachyderm'
-            cncf_project: false
             market_cap: 2120000
             headquarters: 'San Francisco, California'
             rank: 15676
@@ -3265,7 +3096,6 @@ landscape:
               https://www.mikelangelo-project.eu/wp-content/uploads/2015/03/LOGO2.png
             twitter: 'https://twitter.com/ScyllaDB'
             crunchbase: 'https://www.crunchbase.com/organization/scylladb'
-            cncf_project: false
             market_cap: 23000000
             headquarters: 'Herzliya, Israel'
             rank: 4602
@@ -3287,7 +3117,6 @@ landscape:
               https://www.vectorlogo.zone/logos/apache_kafka/apache_kafka-card.png
             twitter: 'https://twitter.com/apachekafka'
             crunchbase: 'https://www.crunchbase.com/organization/apache'
-            cncf_project: false
             market_cap: N/A
             headquarters: 'Forest Hill, Maryland'
             rank: 84483
@@ -3303,7 +3132,6 @@ landscape:
             stock_ticker: GOOGL
             twitter: 'https://twitter.com/googlecloud'
             crunchbase: 'https://www.crunchbase.com/organization/google-cloud-platform'
-            cncf_project: false
             market_cap: N/A
             headquarters: 'San Francisco, California'
             rank: 25410
@@ -3319,7 +3147,6 @@ landscape:
             raw_logo: 'https://spark.apache.org/images/spark-logo-trademark.png'
             twitter: 'https://twitter.com/apachespark'
             crunchbase: 'https://www.crunchbase.com/organization/apache'
-            cncf_project: false
             market_cap: N/A
             headquarters: 'Forest Hill, Maryland'
             rank: 84483
@@ -3336,7 +3163,6 @@ landscape:
             stock_ticker: TWTR
             twitter: 'https://twitter.com/heronstreaming'
             crunchbase: null
-            cncf_project: false
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
@@ -3355,7 +3181,6 @@ landscape:
               http://www3.imperial.ac.uk/newseventsimages?p_image_type=MEDIUM&p_image_id=27451
             twitter: 'https://twitter.com/apacheflink'
             crunchbase: 'https://www.crunchbase.com/organization/apache'
-            cncf_project: false
             market_cap: N/A
             headquarters: 'Forest Hill, Maryland'
             rank: 84483
@@ -3372,7 +3197,6 @@ landscape:
               https://upload.wikimedia.org/wikipedia/commons/e/e1/Apache_Apex_Logo.png
             twitter: 'https://twitter.com/apacheapex/'
             crunchbase: 'https://www.crunchbase.com/organization/apache'
-            cncf_project: false
             market_cap: N/A
             headquarters: 'Forest Hill, Maryland'
             rank: 84483
@@ -3388,7 +3212,6 @@ landscape:
             raw_logo: 'http://storm.apache.org/images/logo.png'
             twitter: 'https://twitter.com/stormprocessor'
             crunchbase: 'https://www.crunchbase.com/organization/apache'
-            cncf_project: false
             market_cap: N/A
             headquarters: 'Forest Hill, Maryland'
             rank: 84483
@@ -3404,7 +3227,6 @@ landscape:
             raw_logo: 'https://neoteric.eu/wp-content/uploads/2016/06/rabbitmq_logo.png'
             twitter: 'https://twitter.com/rabbitmq'
             crunchbase: 'https://www.crunchbase.com/organization/rabbit-technologies'
-            cncf_project: false
             market_cap: N/A
             headquarters: 'London, United Kingdom'
             rank: 79723
@@ -3424,7 +3246,6 @@ landscape:
               https://i2.wp.com/rishidot.com/wp-content/uploads/2017/02/NATS_logo.png
             twitter: 'https://twitter.com/nats_io'
             crunchbase: 'https://www.crunchbase.com/organization/apache'
-            cncf_project: false
             market_cap: N/A
             headquarters: 'Forest Hill, Maryland'
             rank: 84483
@@ -3442,7 +3263,6 @@ landscape:
             raw_logo: 'https://nifi.apache.org/assets/images/apache-nifi-logo.svg'
             twitter: 'https://twitter.com/theasf'
             crunchbase: 'https://www.crunchbase.com/organization/apache'
-            cncf_project: false
             market_cap: N/A
             headquarters: 'Forest Hill, Maryland'
             rank: 84483
@@ -3458,7 +3278,6 @@ landscape:
             raw_logo: 'https://pulsar.incubator.apache.org/img/pulsar.png'
             twitter: 'https://twitter.com/apache_pulsar'
             crunchbase: 'https://www.crunchbase.com/organization/apache'
-            cncf_project: false
             market_cap: N/A
             headquarters: 'Forest Hill, Maryland'
             rank: 84483
@@ -3475,7 +3294,6 @@ landscape:
               https://19ttqs47cfw33zkecq3dz58m-wpengine.netdna-ssl.com/wp-content/uploads/2016/08/StreamSets-logo-small.png
             twitter: 'https://twitter.com/streamsets'
             crunchbase: 'https://www.crunchbase.com/organization/streamsets'
-            cncf_project: false
             market_cap: 32500000
             headquarters: 'San Francisco, California'
             rank: 1520
@@ -3494,7 +3312,6 @@ landscape:
             stock_ticker: AMZN
             twitter: 'https://twitter.com/awscloud'
             crunchbase: 'https://www.crunchbase.com/organization/amazon-web-services'
-            cncf_project: false
             market_cap: N/A
             headquarters: 'Seattle, Washington'
             rank: 10522
@@ -3515,7 +3332,6 @@ landscape:
               http://cdn2.hubspot.net/hub/362403/file-658956378-png/bitbucket.png
             twitter: 'https://twitter.com/bitbucket'
             crunchbase: 'https://www.crunchbase.com/organization/bitbucket'
-            cncf_project: false
             market_cap: N/A
             headquarters: 'San Francisco, California'
             rank: 66102
@@ -3534,7 +3350,6 @@ landscape:
             raw_logo: 'https://www.openshift.com/images/partners/gitlab.png'
             twitter: 'https://twitter.com/gitlab'
             crunchbase: 'https://www.crunchbase.com/organization/gitlab-com'
-            cncf_project: false
             market_cap: 45620000
             headquarters: 'San Francisco, California'
             rank: 2791
@@ -3551,7 +3366,6 @@ landscape:
             raw_logo: 'https://cdn.worldvectorlogo.com/logos/github-2.svg'
             twitter: 'https://twitter.com/github'
             crunchbase: 'https://www.crunchbase.com/organization/github'
-            cncf_project: false
             market_cap: 350000000
             headquarters: 'San Francisco, California'
             rank: 669
@@ -3572,7 +3386,6 @@ landscape:
             stock ticker: MSFT
             twitter: 'https://twitter.com/vsts'
             crunchbase: 'https://www.crunchbase.com/organization/microsoft'
-            cncf_project: false
             market_cap: 1000000
             headquarters: 'Redmond, Washington'
             rank: 37
@@ -3594,7 +3407,6 @@ landscape:
             raw_logo: >-
               https://raw.githubusercontent.com/kubevirt/community/master/logo/kubevirt-pre.png
             twitter: 'https://twitter.com/kubevirt'
-            cncf_project: false
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
@@ -3611,7 +3423,6 @@ landscape:
               https://res.cloudinary.com/crunchbase-production/image/upload/v1494031899/ni0ybdyhq4v3cyh9n88z.png
             twitter: 'https://twitter.com/HashiCorp'
             crunchbase: 'https://www.crunchbase.com/organization/hashicorp'
-            cncf_project: false
             market_cap: 74175000
             headquarters: 'San Francisco, California'
             rank: 949
@@ -3630,7 +3441,6 @@ landscape:
               https://www.unixmen.com/wp-content/uploads/2017/06/docker-compose-logo.png
             twitter: 'https://twitter.com/Docker'
             crunchbase: 'https://www.crunchbase.com/organization/docker'
-            cncf_project: false
             market_cap: 242766694
             headquarters: 'San Francisco, California'
             rank: 471
@@ -3646,7 +3456,6 @@ landscape:
             raw_logo: 'https://brand.chef.io/images/habitat/logos/logo-1.png'
             twitter: 'https://twitter.com/hashtag/habitatsh'
             crunchbase: 'https://www.crunchbase.com/organization/chef'
-            cncf_project: false
             market_cap: 105000000
             headquarters: 'Seattle, Washington'
             rank: 3174
@@ -3665,7 +3474,6 @@ landscape:
               https://pbs.twimg.com/profile_images/536922892156428288/mKCs5vgS_400x400.png
             twitter: 'https://twitter.com/apachebrooklyn'
             crunchbase: 'https://www.crunchbase.com/organization/apache'
-            cncf_project: false
             market_cap: N/A
             headquarters: 'Forest Hill, Maryland'
             rank: 84483
@@ -3680,7 +3488,6 @@ landscape:
             raw_logo: 'https://bitnami.com/downloads/logos/bitnami.png'
             twitter: 'https://twitter.com/bitnami'
             crunchbase: 'https://www.crunchbase.com/organization/bitnami'
-            cncf_project: false
             market_cap: N/A
             headquarters: 'San Francisco, California'
             rank: 46946
@@ -3699,7 +3506,6 @@ landscape:
               https://www.openapis.org/wp-content/uploads/sites/3/2016/10/OpenAPI_Pantone.png
             twitter: 'https://twitter.com/hashtag/openapi'
             crunchbase: 'https://www.crunchbase.com/organization/the-open-api-initiative'
-            cncf_project: false
             market_cap: N/A
             headquarters: 'San Francisco, California'
             rank: N/A
@@ -3722,7 +3528,6 @@ landscape:
               https://wiki.jenkins.io/download/attachments/2916393/logo-title.png
             twitter: 'https://twitter.com/jenkinsci'
             crunchbase: 'https://www.crunchbase.com/organization/jenkins-ci'
-            cncf_project: false
             market_cap: N/A
             headquarters: 'San Francisco, California'
             rank: N/A
@@ -3740,7 +3545,6 @@ landscape:
             raw_logo: 'http://dearkumar.com/wp-content/uploads/2016/08/Travis-CI-logo.jpg'
             twitter: 'https://twitter.com/travisci'
             crunchbase: 'https://www.crunchbase.com/organization/travis-ci'
-            cncf_project: false
             market_cap: N/A
             headquarters: 'Berlin, Germany'
             rank: 59288
@@ -3757,7 +3561,6 @@ landscape:
               https://i.octopus.com/blog/201605-logo-text-blueblacktransparent-800_rgb-XGYC.png
             twitter: 'https://twitter.com/OctopusDeploy'
             crunchbase: 'https://www.crunchbase.com/organization/octopus-deploy'
-            cncf_project: false
             market_cap: 2000000
             headquarters: 'Australia, Oceania'
             rank: 27221
@@ -3773,7 +3576,6 @@ landscape:
             raw_logo: 'https://assets.brandfolder.com/otz6qz-87qv1c-ipc6/view.png'
             twitter: 'https://twitter.com/circleci'
             crunchbase: 'https://www.crunchbase.com/organization/circle-ci'
-            cncf_project: false
             market_cap: 59000000
             headquarters: 'San Francisco, California'
             rank: 568
@@ -3791,7 +3593,6 @@ landscape:
             raw_logo: 'https://d3d7bn43j8qgcg.cloudfront.net/drone_logo.png'
             twitter: 'https://twitter.com/droneio'
             crunchbase: 'https://www.crunchbase.com/organization/drone-io'
-            cncf_project: false
             market_cap: 28000
             headquarters: 'San Francisco, California'
             rank: 38858
@@ -3809,7 +3610,6 @@ landscape:
               http://binarytemple-deckset-parser.s3.amazonaws.com/elixirpresentation/images/tech-codeship.png
             twitter: 'https://twitter.com/codeship'
             crunchbase: 'https://www.crunchbase.com/organization/codeship'
-            cncf_project: false
             market_cap: 11400000
             headquarters: 'Boston, Massachusetts'
             rank: 5416
@@ -3827,7 +3627,6 @@ landscape:
             stock_ticker: TEAM
             twitter: 'https://twitter.com/atlassian'
             crunchbase: 'https://www.crunchbase.com/organization/atlassian'
-            cncf_project: false
             market_cap: 210000000
             headquarters: 'Sydney, Australia'
             rank: 161
@@ -3846,7 +3645,6 @@ landscape:
             repo_url: 'https://github.com/cloudbees'
             twitter: 'https://twitter.com/CloudBees'
             crunchbase: 'https://www.crunchbase.com/organization/cloudbees'
-            cncf_project: false
             market_cap: 51200000
             headquarters: 'San Jose, California'
             rank: 2025
@@ -3863,7 +3661,6 @@ landscape:
             repo_url: 'https://github.com/spinnaker'
             raw_logo: 'https://www.gcppodcast.com/images/post/spinnaker.png'
             twitter: 'https://twitter.com/spinnakerio'
-            cncf_project: false
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
@@ -3879,7 +3676,6 @@ landscape:
               https://d0.awsstatic.com/product-marketing/EC2%20Container%20Service/Partners/1039x272%20shippable%20logo%20rust%20text%20black%20tittle.png
             twitter: 'https://twitter.com/beshippable'
             crunchbase: 'https://www.crunchbase.com/organization/shippable'
-            cncf_project: false
             market_cap: 10050000
             headquarters: 'Seattle, Washington'
             rank: 5216
@@ -3899,7 +3695,6 @@ landscape:
             stock ticker: ORCL
             twitter: 'https://twitter.com/wercker'
             crunchbase: 'https://www.crunchbase.com/organization/wercker'
-            cncf_project: false
             market_cap: 7900000
             headquarters: 'Amsterdam, The Netherlands'
             rank: 8016
@@ -3918,7 +3713,6 @@ landscape:
               https://crunchbase-production-res.cloudinary.com/image/upload/v1470258929/hhinf38lttfyrjbz1h3t.jpg
             twitter: 'https://twitter.com/codefresh'
             crunchbase: 'https://www.crunchbase.com/organization/code-fresh'
-            cncf_project: false
             market_cap: 7000000
             headquarters: 'Mountain View, California'
             rank: 6200
@@ -3935,7 +3729,6 @@ landscape:
             raw_logo: 'https://docs.nowsecure.com/uploads/Buddybuild-integration.png'
             twitter: 'https://twitter.com/buddybuild'
             crunchbase: 'https://www.crunchbase.com/organization/buddybuild'
-            cncf_project: false
             market_cap: 8800000
             headquarters: 'Vancouver, Canada'
             rank: 924
@@ -3953,7 +3746,6 @@ landscape:
               https://crunchbase-production-res.cloudinary.com/image/upload/fknsopnhqyctio2vqpuh.png
             twitter: 'https://twitter.com/distelli'
             crunchbase: 'https://www.crunchbase.com/organization/distelli-inc'
-            cncf_project: false
             market_cap: 2875000
             headquarters: 'Seattle, Washington'
             rank: 15410
@@ -3969,7 +3761,6 @@ landscape:
               https://crunchbase-production-res.cloudinary.com/image/upload/v1397183977/413e297b47ece217d728649d86a687be.png
             twitter: 'https://twitter.com/SolanoLabs'
             crunchbase: 'https://www.crunchbase.com/organization/solano-labs'
-            cncf_project: false
             market_cap: N/A
             headquarters: 'San Francisco, California'
             rank: 76617
@@ -3984,7 +3775,6 @@ landscape:
             raw_logo: 'https://www.brandeps.com/logo-download/S/Semaphore-01.png'
             twitter: 'https://twitter.com/semaphoreci'
             crunchbase: 'https://www.crunchbase.com/organization/semaphore'
-            cncf_project: false
             market_cap: N/A
             headquarters: 'Novi Sad, Serbia'
             rank: 82436
@@ -3999,7 +3789,6 @@ landscape:
             raw_logo: 'http://image20.it168.com/201706_335x251/2924/5f8a80a4b4fadf88.png'
             twitter: 'https://twitter.com/Huawei'
             crunchbase: 'https://www.crunchbase.com/organization/huawei'
-            cncf_project: false
             market_cap: N/A
             headquarters: 'Plano, Texas'
             rank: 1469
@@ -4017,7 +3806,6 @@ landscape:
               https://dka575ofm4ao0.cloudfront.net/pages-transactional_logos/retina/16896/ApwXsQaJT16xVdsGs7aY
             twitter: 'https://twitter.com/appveyor'
             crunchbase: 'https://www.crunchbase.com/organization/appveyor-systems-inc'
-            cncf_project: false
             market_cap: N/A
             headquarters: N/A
             rank: N/A
@@ -4036,7 +3824,6 @@ landscape:
               https://gitlab.com/uploads/-/system/project/avatar/250833/runner_logo.png
             twitter: 'https://twitter.com/gitlab'
             crunchbase: 'https://www.crunchbase.com/organization/gitlab-com'
-            cncf_project: false
             market_cap: 45620000
             headquarters: 'San Francisco, California'
             rank: 2791
@@ -4055,7 +3842,6 @@ landscape:
               https://dka575ofm4ao0.cloudfront.net/pages-transactional_logos/retina/1292/iukn7svdTeev16OTOu1U
             twitter: 'https://twitter.com/buildkite'
             crunchbase: 'https://www.crunchbase.com/organization/buildkite'
-            cncf_project: false
             market_cap: N/A
             headquarters: N/A
             rank: 90213
@@ -4072,7 +3858,6 @@ landscape:
             repo_url: 'https://github.com/concourse'
             raw_logo: 'https://avatars3.githubusercontent.com/u/7809479'
             twitter: 'https://twitter.com/concourseci'
-            cncf_project: false
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
@@ -4089,7 +3874,6 @@ landscape:
               https://xebialabs-clients-iglusjax.stackpathdns.com/assets/files/media-kit/xl-deploy.png
             twitter: 'https://twitter.com/xldeploy'
             crunchbase: 'https://www.crunchbase.com/organization/xebialabs'
-            cncf_project: false
             market_cap: 21500000
             headquarters: 'Boston, Massachusetts'
             rank: 2287
@@ -4111,7 +3895,6 @@ landscape:
               https://i0.wp.com/containerjournal.com/wp-content/uploads/2015/07/tectonic-bycoreos-color-copy.png
             twitter: 'https://twitter.com/tectonicstack'
             crunchbase: 'https://www.crunchbase.com/organization/coreos'
-            cncf_project: false
             market_cap: 50000000
             headquarters: 'San Francisco, California'
             rank: 1547
@@ -4130,7 +3913,6 @@ landscape:
               https://www.cloudfoundry.org/wp-content/uploads/2017/01/CFF_Logo_vertical_RGB.png
             twitter: 'https://twitter.com/cloudfoundry'
             crunchbase: 'https://www.crunchbase.com/organization/cloud-foundry'
-            cncf_project: false
             market_cap: N/A
             headquarters: 'San Mateo, California'
             rank: 56547
@@ -4150,7 +3932,6 @@ landscape:
               https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/OpenShift-LogoType.svg/2000px-OpenShift-LogoType.svg.png
             twitter: 'https://twitter.com/openshift'
             crunchbase: 'https://www.crunchbase.com/organization/openshift'
-            cncf_project: false
             market_cap: N/A
             headquarters: 'Raleigh, North Carolina'
             rank: 78339
@@ -4167,7 +3948,6 @@ landscape:
               https://github.com/alexcontini/alexcontini.github.io/blob/master/DC.OS.logo-vertical-styled.png?raw=true
             twitter: 'https://twitter.com/mesosphere'
             crunchbase: 'https://www.crunchbase.com/organization/mesosphere'
-            cncf_project: false
             market_cap: 122250000
             headquarters: 'San Francisco, California'
             rank: 748
@@ -4183,7 +3963,6 @@ landscape:
               https://crunchbase-production-res.cloudinary.com/image/upload/v1445882939/xhdhlohznhrz18iox373.jpg
             twitter: 'https://twitter.com/apcera'
             crunchbase: 'https://www.crunchbase.com/organization/apcera'
-            cncf_project: false
             market_cap: 7200000
             headquarters: 'San Francisco, California'
             rank: 8984
@@ -4201,7 +3980,6 @@ landscape:
               https://pbs.twimg.com/profile_images/785690321015476225/hEAuJcjS.jpg
             twitter: 'https://twitter.com/apprenda'
             crunchbase: 'https://www.crunchbase.com/organization/apprenda'
-            cncf_project: false
             market_cap: 56000000
             headquarters: 'Troy, New York'
             rank: 5107
@@ -4218,7 +3996,6 @@ landscape:
               http://cdn.rancher.com/wp-content/uploads/2017/02/05132759/rancher-logo_stacked-full-color-1.jpg
             twitter: 'https://twitter.com/Rancher_Labs'
             crunchbase: 'https://www.crunchbase.com/organization/rancher-labs'
-            cncf_project: false
             market_cap: 30000000
             headquarters: 'Cupertino, California'
             rank: 5015
@@ -4233,7 +4010,6 @@ landscape:
             raw_logo: 'http://kublr.com/logo'
             twitter: 'https://twitter.com/kublr'
             crunchbase: 'https://www.crunchbase.com/organization/kublr'
-            cncf_project: false
             market_cap: N/A
             headquarters: 'Washington, District of Columbia'
             rank: 94312
@@ -4251,7 +4027,6 @@ landscape:
               http://www.vmtocloud.com/wp-content/uploads/2016/05/Photon_featured.jpeg
             twitter: 'https://twitter.com/vmwarephoton'
             crunchbase: 'https://www.crunchbase.com/organization/vmware'
-            cncf_project: false
             market_cap: 393500000
             headquarters: 'Palo Alto, California'
             rank: 5559
@@ -4270,7 +4045,6 @@ landscape:
               https://media.licdn.com/mpr/mpr/shrink_200_200/AAEAAQAAAAAAAAK4AAAAJDllNWYyMDRlLWUyNTMtNDk3YS05YmRiLWI5NTU3M2EwNWViNQ.png
             twitter: 'https://twitter.com/platformsh'
             crunchbase: 'https://www.crunchbase.com/organization/commerce-guys'
-            cncf_project: false
             market_cap: 13300000
             headquarters: 'Paris, France'
             rank: 9885
@@ -4288,7 +4062,6 @@ landscape:
               https://hostadvice.com/wp-content/uploads/2017/07/Platform9-LogoStacked.png
             twitter: 'https://twitter.com/Platform9Sys'
             crunchbase: 'https://www.crunchbase.com/organization/platform9-systems-inc'
-            cncf_project: false
             market_cap: 36500000
             headquarters: 'Sunnyvale, California'
             rank: 1803
@@ -4306,7 +4079,6 @@ landscape:
             raw_logo: 'https://flynn.io/images/flynn-acaf9509.svg'
             twitter: 'https://twitter.com/flynnscale'
             crunchbase: 'https://www.crunchbase.com/organization/flynn'
-            cncf_project: false
             market_cap: 1405000
             headquarters: 'Newark, Delaware'
             rank: 25194
@@ -4322,7 +4094,6 @@ landscape:
               https://pbs.twimg.com/profile_images/654723996970147841/kBqGPhZe_400x400.png
             twitter: 'https://twitter.com/datawireio'
             crunchbase: 'https://www.crunchbase.com/organization/datawire'
-            cncf_project: false
             market_cap: 250000
             headquarters: 'Cambridge, Massachusetts'
             rank: 20948
@@ -4340,7 +4111,6 @@ landscape:
               https://cdn.dribbble.com/users/42583/screenshots/2596559/atomist01.jpg
             twitter: 'https://twitter.com/atomist'
             crunchbase: 'https://www.crunchbase.com/organization/atomist'
-            cncf_project: false
             market_cap: 22000000
             headquarters: 'San Francisco, California'
             rank: 4974
@@ -4359,7 +4129,6 @@ landscape:
               https://crunchbase-production-res.cloudinary.com/image/upload/v1397182859/53934de605f54d407d087900d16e9b75.png
             twitter: 'https://twitter.com/getiron'
             crunchbase: 'https://www.crunchbase.com/organization/iron-io'
-            cncf_project: false
             market_cap: 17000000
             headquarters: 'San Francisco, California'
             rank: 6349
@@ -4380,7 +4149,6 @@ landscape:
             stock_ticker: YELP
             twitter: 'https://twitter.com/Yelp'
             crunchbase: 'https://www.crunchbase.com/organization/yelp'
-            cncf_project: false
             market_cap: 56000000
             headquarters: 'San Francisco, California'
             rank: 136
@@ -4396,7 +4164,6 @@ landscape:
             raw_logo: 'https://upload.wikimedia.org/wikipedia/en/d/df/Remind_app_logo.png'
             twitter: 'https://twitter.com/remindeng'
             crunchbase: 'https://www.crunchbase.com/organization/remind'
-            cncf_project: false
             market_cap: 59500000
             headquarters: 'San Francisco, California'
             rank: 6237
@@ -4412,7 +4179,6 @@ landscape:
               https://www.nirmata.com/wp-content/uploads/2017/11/vertical-color-small-01.png
             twitter: 'https://twitter.com/nirmatacloud'
             crunchbase: 'https://www.crunchbase.com/organization/nirmata'
-            cncf_project: false
             market_cap: N/A
             headquarters: 'San Jose, California'
             rank: 68487
@@ -4430,7 +4196,6 @@ landscape:
               https://crunchbase-production-res.cloudinary.com/image/upload/v1409923504/woifk3fzca4pit2qa3pq.jpg
             twitter: 'https://twitter.com/giantswarm'
             crunchbase: 'https://www.crunchbase.com/organization/giant-swarm'
-            cncf_project: false
             market_cap: 3325000
             headquarters: 'Cologne, Germany'
             rank: 13626
@@ -4446,7 +4211,6 @@ landscape:
               https://pbs.twimg.com/profile_images/875687479151644672/EqNiVriF_400x400.jpg
             twitter: 'https://twitter.com/cloud66'
             crunchbase: 'https://www.crunchbase.com/organization/cloudblocks'
-            cncf_project: false
             market_cap: 2240385
             headquarters: 'London, United Kingdom'
             rank: 14602
@@ -4465,7 +4229,6 @@ landscape:
               https://crunchbase-production-res.cloudinary.com/image/upload/v1464604878/uzdj9miitxbfr56opwju.png
             twitter: 'https://twitter.com/KontenaInc'
             crunchbase: 'https://www.crunchbase.com/organization/kontena'
-            cncf_project: false
             market_cap: N/A
             headquarters: 'New York, New York'
             rank: 71573
@@ -4482,7 +4245,6 @@ landscape:
             repo_url: 'https://github.com/kubermatic/'
             raw_logo: 'https://pbs.twimg.com/media/C8FWtMNW4AAIUt8.png'
             twitter: 'https://twitter.com/kubermatic'
-            cncf_project: false
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
@@ -4498,7 +4260,6 @@ landscape:
               https://crunchbase-production-res.cloudinary.com/image/upload/v1455650059/gpumyj6nwuvgyslcpnet.png
             twitter: 'https://twitter.com/gravitationalco'
             crunchbase: 'https://www.crunchbase.com/organization/gravitational'
-            cncf_project: false
             market_cap: 120000
             headquarters: 'San Francisco, California'
             rank: 25046
@@ -4514,7 +4275,6 @@ landscape:
               https://pbs.twimg.com/profile_images/821470986713366528/1CYRUBEH_400x400.jpg
             twitter: 'https://twitter.com/navops'
             crunchbase: 'https://www.crunchbase.com/organization/navops'
-            cncf_project: false
             market_cap: N/A
             headquarters: 'Hoffman Estates, Illinois'
             rank: N/A
@@ -4533,7 +4293,6 @@ landscape:
             stock_ticker: CRM
             twitter: 'https://twitter.com/heroku'
             crunchbase: 'https://www.crunchbase.com/organization/heroku'
-            cncf_project: false
             market_cap: 13020000
             headquarters: 'San Francisco, California'
             rank: 6912
@@ -4550,7 +4309,6 @@ landscape:
             repo_url: 'https://github.com/mantl/mantl'
             raw_logo: 'http://docs.mantl.io/en/latest/_static/mantl-logo.png'
             twitter: 'https://twitter.com/usemantl'
-            cncf_project: false
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
@@ -4569,7 +4327,6 @@ landscape:
               https://www.mirantis.com/wp-content/uploads/2017/01/mirantis-logo-2color-rgb-transparent.png
             twitter: 'https://twitter.com/MirantisIT'
             crunchbase: 'https://www.crunchbase.com/organization/mirantis'
-            cncf_project: false
             market_cap: 220000000
             headquarters: 'Mountain View, California'
             rank: 516
@@ -4585,7 +4342,6 @@ landscape:
             raw_logo: 'https://s3.amazonaws.com/www.bluemeric.com/images/gp-cncf-logo.png'
             twitter: 'https://twitter.com/bluemeric'
             crunchbase: 'https://www.crunchbase.com/organization/bluemeric'
-            cncf_project: false
             market_cap: N/A
             headquarters: 'Seattle, Washington'
             rank: N/A
@@ -4603,7 +4359,6 @@ landscape:
               https://user-images.githubusercontent.com/1701782/29462984-a8451220-8463-11e7-84a0-739418f027f1.png
             twitter: 'https://twitter.com/hyper_sh'
             crunchbase: 'https://www.crunchbase.com/organization/hyper-4'
-            cncf_project: false
             market_cap: N/A
             headquarters: 'New York, New York'
             rank: 85330
@@ -4618,7 +4373,6 @@ landscape:
             raw_logo: 'https://avatars0.githubusercontent.com/u/2023286'
             twitter: 'https://twitter.com/Exoscale'
             crunchbase: 'https://www.crunchbase.com/organization/exoscale'
-            cncf_project: false
             market_cap: N/A
             headquarters: 'Lausanne, Switzerland'
             rank: 86749
@@ -4636,7 +4390,6 @@ landscape:
             raw_logo: >-
               https://camo.githubusercontent.com/7e24fa15ba0791ec482d9f20e50a0e4620c3b7e7/687474703a2f2f6a6566667368656574732e6769746875622e696f2f42757a7a776f727468794a6176612f6173736574732f696d672f686970737465722d6c6f676f2e706e67
             twitter: 'https://twitter.com/java_hipster'
-            cncf_project: false
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
@@ -4655,7 +4408,6 @@ landscape:
               https://raw.githubusercontent.com/moby/moby/moby/docs/static_files/moby-project-logo.png
             twitter: 'https://twitter.com/moby'
             crunchbase: 'https://www.crunchbase.com/organization/docker'
-            cncf_project: false
             market_cap: 242766694
             headquarters: 'San Francisco, California'
             rank: 471
@@ -4673,7 +4425,6 @@ landscape:
               https://media.licdn.com/mpr/mpr/AAEAAQAAAAAAAAYHAAAAJGU0Zjc4OGI2LTYzZmEtNGUxMC05ODE5LTVhMjI0OTM3NmI3ZA.png
             twitter: 'https://twitter.com/galacticfog'
             crunchbase: 'https://www.crunchbase.com/organization/galactic-fog'
-            cncf_project: false
             market_cap: N/A
             headquarters: 'South Orange, New Jersey'
             rank: 79022
@@ -4691,7 +4442,6 @@ landscape:
               http://logo-logos.com/wp-content/uploads/2016/11/Ubuntu_logo_logotype.png
             twitter: 'https://twitter.com/ubuntu'
             crunchbase: 'https://www.crunchbase.com/organization/ubuntu'
-            cncf_project: false
             market_cap: 12900000
             headquarters: 'London, United Kingdom'
             rank: 17784
@@ -4709,7 +4459,6 @@ landscape:
               https://upload.wikimedia.org/wikipedia/en/thumb/b/b1/Lightbend_full-color_logo.svg/1280px-Lightbend_full-color_logo.svg.png
             twitter: 'https://twitter.com/lightbend'
             crunchbase: 'https://www.crunchbase.com/organization/typesafe'
-            cncf_project: false
             market_cap: 52000000
             headquarters: 'San Francisco, California'
             rank: 4446
@@ -4726,7 +4475,6 @@ landscape:
             raw_logo: 'https://www.docker.com/sites/default/files/vertical_large.png'
             twitter: 'https://twitter.com/docker'
             crunchbase: 'https://www.crunchbase.com/organization/docker'
-            cncf_project: false
             market_cap: 242766694
             headquarters: 'San Francisco, California'
             rank: 471
@@ -4745,7 +4493,6 @@ landscape:
             raw_logo: >-
               https://github.com/alexcontini/alexcontini.github.io/blob/master/tsura.png?raw=true
             twitter: 'https://twitter.com/tsurupaas'
-            cncf_project: false
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
@@ -4763,7 +4510,6 @@ landscape:
               http://resumator.s3.amazonaws.com/customer_20150721151308_KZ8QDZPO4BOHCKCU/social_icons/20150825133703_containership_logo.png
             twitter: 'https://twitter.com/containershipio'
             crunchbase: 'https://www.crunchbase.com/organization/containership'
-            cncf_project: false
             market_cap: 2606729
             headquarters: 'Pittsburgh, Pennsylvania'
             rank: 10730
@@ -4782,7 +4528,6 @@ landscape:
             raw_logo: 'https://ulam.io/wp-content/uploads/2017/05/c2-1288x724.png'
             twitter: 'https://twitter.com/goconvox'
             crunchbase: 'https://www.crunchbase.com/organization/convox'
-            cncf_project: false
             market_cap: 120000
             headquarters: 'San Francisco, California'
             rank: 27760
@@ -4798,7 +4543,6 @@ landscape:
             stock_ticker: GOOGL
             twitter: 'https://twitter.com/googlecloud'
             crunchbase: 'https://www.crunchbase.com/organization/google-cloud-platform'
-            cncf_project: false
             market_cap: N/A
             headquarters: 'San Francisco, California'
             rank: 25410
@@ -4813,7 +4557,6 @@ landscape:
             repo_url: 'https://github.com/portainer/portainer'
             raw_logo: >-
               https://camo.githubusercontent.com/c57e3786d84c99f21e453c6500d8e0333a2cf6d9/68747470733a2f2f706f727461696e65722e696f2f696d616765732f6c6f676f5f616c742e706e67
-            cncf_project: false
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
@@ -4830,7 +4573,6 @@ landscape:
               https://smashingconf.com/ny-2015/content/06-sponsors/03-silver/00-pusher/pusher-logo.png
             twitter: 'https://twitter.com/pusher'
             crunchbase: 'https://www.crunchbase.com/organization/pusher'
-            cncf_project: false
             market_cap: 3500000
             headquarters: 'London, United Kingdom'
             rank: 8452
@@ -4847,7 +4589,6 @@ landscape:
               http://www.milfordathleticclub.org/wp-content/uploads/2017/05/remind-logo-1.png
             twitter: 'https://twitter.com/remindhq'
             crunchbase: 'https://www.crunchbase.com/organization/remind'
-            cncf_project: false
             market_cap: 59500000
             headquarters: 'San Francisco, California'
             rank: 6237
@@ -4864,7 +4605,6 @@ landscape:
             raw_logo: 'https://avatars0.githubusercontent.com/u/4868969?s=400&v=4'
             twitter: 'https://twitter.com/ScalingoHQ'
             crunchbase: 'https://www.crunchbase.com/organization/scalingo'
-            cncf_project: false
             market_cap: N/A
             headquarters: 'Strasbourg, France'
             rank: N/A
@@ -4882,7 +4622,6 @@ landscape:
             raw_logo: >-
               http://www.sysdigccwfs.com/wp-content/uploads/2016/09/stackpointcloud.png
             twitter: 'https://twitter.com/stackpointcloud'
-            cncf_project: false
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
@@ -4898,7 +4637,6 @@ landscape:
             raw_logo: 'https://supergiant.io/uploads/files/supergiant-logo.png'
             twitter: 'https://twitter.com/supergiantio'
             crunchbase: 'https://www.crunchbase.com/organization/supergiant'
-            cncf_project: false
             market_cap: N/A
             headquarters: N/A
             rank: N/A
@@ -4917,7 +4655,6 @@ landscape:
               https://user-images.githubusercontent.com/5948137/32596616-37fe60b8-c534-11e7-8682-bd9200a6c4d1.png
             twitter: 'https://twitter.com/SUSE'
             crunchbase: 'https://www.crunchbase.com/organization/suse'
-            cncf_project: false
             market_cap: N/A
             headquarters: 'Nürnberg, Germany'
             rank: 60556
@@ -4937,7 +4674,6 @@ landscape:
             stock_ticker: AMZN
             twitter: 'https://twitter.com/awscloud'
             crunchbase: 'https://www.crunchbase.com/organization/amazon-web-services'
-            cncf_project: false
             market_cap: N/A
             headquarters: 'Seattle, Washington'
             rank: 10522
@@ -4956,7 +4692,6 @@ landscape:
               https://raw.githubusercontent.com/openfaas/media/master/OpenFaaS_logo_stacked_opaque.png
             twitter: 'https://twitter.com/alexellisuk'
             crunchbase: 'https://www.crunchbase.com/organization/openfaas'
-            cncf_project: false
             market_cap: N/A
             headquarters: 'Peterborough, United Kingdom'
             rank: N/A
@@ -4974,7 +4709,6 @@ landscape:
             stock_ticker: GOOGL
             twitter: 'https://twitter.com/googlecloud'
             crunchbase: 'https://www.crunchbase.com/organization/google-cloud-platform'
-            cncf_project: false
             market_cap: N/A
             headquarters: 'San Francisco, California'
             rank: 25410
@@ -4991,7 +4725,6 @@ landscape:
               https://cdn-images-1.medium.com/max/1200/1*4Q3kFLD0dZiwbLAKZJGy8Q.png
             twitter: 'https://twitter.com/openwhisk'
             crunchbase: 'https://www.crunchbase.com/organization/apache'
-            cncf_project: false
             market_cap: N/A
             headquarters: 'Forest Hill, Maryland'
             rank: 84483
@@ -5010,7 +4743,6 @@ landscape:
               https://docs.oracle.com/en/cloud/paas/app-container-cloud/sp_common/shared-images/cloudgs_appcontainer.png
             twitter: 'https://twitter.com/hashtag/OracleCloudZone'
             crunchbase: 'https://www.crunchbase.com/organization/oracle'
-            cncf_project: false
             market_cap: N/A
             headquarters: 'Redwood Shores, California'
             rank: 25519
@@ -5030,7 +4762,6 @@ landscape:
             stock_ticker: GOOGL
             twitter: 'https://twitter.com/Firebase'
             crunchbase: 'https://www.crunchbase.com/organization/firebase'
-            cncf_project: false
             market_cap: 7000000
             headquarters: 'San Francisco, California'
             rank: 5337
@@ -5048,7 +4779,6 @@ landscape:
               https://cdn-images-1.medium.com/max/698/1*4SkA3yFoWNsuH3PPVCpKvQ.png
             twitter: 'https://twitter.com/webtaskio'
             crunchbase: 'https://www.crunchbase.com/organization/webtask'
-            cncf_project: false
             market_cap: N/A
             headquarters: N/A
             rank: N/A
@@ -5067,7 +4797,6 @@ landscape:
             raw_logo: 'https://www.gcppodcast.com/images/post/fission-logo.png'
             twitter: 'https://twitter.com/Platform9Sys'
             crunchbase: 'https://www.crunchbase.com/organization/platform9-systems-inc'
-            cncf_project: false
             market_cap: 36500000
             headquarters: 'Sunnyvale, California'
             rank: 1803
@@ -5082,7 +4811,6 @@ landscape:
             raw_logo: 'http://ww1.prweb.com/prfiles/2015/11/18/13089283/BLOCKSlogo.png'
             twitter: 'https://twitter.com/PubNub'
             crunchbase: 'https://www.crunchbase.com/organization/pubnub'
-            cncf_project: false
             market_cap: 46100000
             headquarters: 'San Francisco, California'
             rank: 3781
@@ -5099,7 +4827,6 @@ landscape:
             repo_url: 'https://github.com/apex/apex'
             raw_logo: ./src/hosted_logos/apex.png
             twitter: 'https://twitter.com/apexserverless'
-            cncf_project: false
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
@@ -5118,7 +4845,6 @@ landscape:
               https://user-images.githubusercontent.com/2752551/30404912-d5781a00-989d-11e7-8d25-5ebca177326a.png
             twitter: 'https://twitter.com/goserverless'
             crunchbase: 'https://www.crunchbase.com/organization/serverless'
-            cncf_project: false
             market_cap: 3000000
             headquarters: 'San Francisco, California'
             rank: 1999
@@ -5137,7 +4863,6 @@ landscape:
             raw_logo: >-
               https://s3-us-west-2.amazonaws.com/assets.site.serverless.com/blog/kubeless.png
             twitter: 'https://twitter.com/hashtag/kubeless'
-            cncf_project: false
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
@@ -5153,7 +4878,6 @@ landscape:
             raw_logo: >-
               https://pbs.twimg.com/profile_images/807552612295933952/8bEJzlEM_400x400.jpg
             twitter: 'https://twitter.com/nstackcom'
-            cncf_project: false
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
@@ -5170,7 +4894,6 @@ landscape:
               https://www.iguazio.com/wp-content/uploads/2017/11/Nuclio_Final-03-1024x470.png
             twitter: 'https://twitter.com/nuclioio'
             crunchbase: 'https://www.crunchbase.com/organization/iguaz-io'
-            cncf_project: false
             market_cap: 48000000
             headquarters: 'Herzliya, Israel'
             rank: 402
@@ -5187,7 +4910,6 @@ landscape:
             stock_ticker: MSFT
             twitter: 'https://twitter.com/azurefunctions'
             crunchbase: 'https://www.crunchbase.com/organization/microsoft'
-            cncf_project: false
             market_cap: 1000000
             headquarters: 'Redmond, Washington'
             rank: 37
@@ -5212,7 +4934,6 @@ landscape:
             raw_logo: >-
               http://www.earlham.ac.uk/sites/default/files/images/pages/Tools%20and%20resources/Tools%20detail/StatsDB/statsdb.jpg
             twitter: 'https://twitter.com/EarlhamInst'
-            cncf_project: false
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
@@ -5229,7 +4950,6 @@ landscape:
             stock_ticker: NEWR
             twitter: 'https://twitter.com/NewRelic'
             crunchbase: 'https://www.crunchbase.com/organization/new-relic'
-            cncf_project: false
             market_cap: 214500000
             headquarters: 'San Francisco, California'
             rank: 486
@@ -5248,7 +4968,6 @@ landscape:
               https://access.redhat.com/sites/default/files/appd_logo_gray_rgb_1026x104.png
             twitter: 'https://twitter.com/appdynamics'
             crunchbase: 'https://www.crunchbase.com/organization/appdynamics'
-            cncf_project: false
             market_cap: 364500000
             headquarters: 'San Francisco, California'
             rank: 405
@@ -5266,7 +4985,6 @@ landscape:
             raw_logo: >-
               http://axibase.com/wp-content/uploads/2014/12/axibase_logo_orange-2.png
             twitter: 'https://twitter.com/axibase'
-            cncf_project: false
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
@@ -5282,7 +5000,6 @@ landscape:
               https://crunchbase-production-res.cloudinary.com/image/upload/e9d7401fbbda172d5b1972370437a4be.png
             twitter: 'https://twitter.com/datadoghq'
             crunchbase: 'https://www.crunchbase.com/organization/datadog'
-            cncf_project: false
             market_cap: 147900000
             headquarters: 'New York, New York'
             rank: 808
@@ -5299,7 +5016,6 @@ landscape:
             stock_ticker: AMZN
             twitter: 'https://twitter.com/awscloud'
             crunchbase: 'https://www.crunchbase.com/organization/amazon-web-services'
-            cncf_project: false
             market_cap: N/A
             headquarters: 'Seattle, Washington'
             rank: 10522
@@ -5317,7 +5033,6 @@ landscape:
             stock_ticker: GOOGL
             twitter: 'https://twitter.com/stackdriver'
             crunchbase: 'https://www.crunchbase.com/organization/stackdriver'
-            cncf_project: false
             market_cap: 15000000
             headquarters: 'Boston, Massachusetts'
             rank: 13387
@@ -5331,13 +5046,13 @@ landscape:
             name: Prometheus
             company: Cloud Native Computing Foundation (CNCF)
             homepage_url: 'https://prometheus.io/'
+            cncf_project: incubating
             repo_url: 'https://github.com/prometheus/prometheus'
             raw_logo: >-
               https://raw.githubusercontent.com/cncf/artwork/master/prometheus/stacked/color/prometheus-stacked-color.png
             twitter: 'https://twitter.com/PrometheusIO'
             crunchbase: >-
               https://www.crunchbase.com/organization/cloud-native-computing-foundation
-            cncf_project: true
             market_cap: N/A
             headquarters: 'San Francisco, California'
             rank: 63493
@@ -5353,7 +5068,6 @@ landscape:
             raw_logo: 'https://d1q6f0aelx0por.cloudfront.net/sysdig.png'
             twitter: 'https://twitter.com/sysdig'
             crunchbase: 'https://www.crunchbase.com/organization/sysdig'
-            cncf_project: false
             market_cap: 53000000
             headquarters: 'San Francisco, California'
             rank: 3414
@@ -5371,7 +5085,6 @@ landscape:
               https://blogs.vmware.com/management/files/2017/08/Wavefront-Logo-Square-512x512.png
             twitter: 'https://twitter.com/WavefrontHQ'
             crunchbase: 'https://www.crunchbase.com/organization/wavefront'
-            cncf_project: false
             market_cap: 65500000
             headquarters: 'Palo Alto, California'
             rank: 2820
@@ -5388,7 +5101,6 @@ landscape:
             raw_logo: 'http://www.instana.com/media/RZ_INSTANA_Dark_Blue.png'
             twitter: 'https://twitter.com/InstanaHQ'
             crunchbase: 'https://www.crunchbase.com/organization/instana'
-            cncf_project: false
             market_cap: 26000000
             headquarters: 'San Francisco, California'
             rank: 1310
@@ -5405,7 +5117,6 @@ landscape:
             raw_logo: 'https://www.honeybadger.io/images/navbar_logo.svg'
             twitter: 'https://twitter.com/joneybadgerapp'
             crunchbase: 'https://www.crunchbase.com/organization/honeybadger'
-            cncf_project: false
             market_cap: N/A
             headquarters: 'Kirkland, Washington'
             rank: 89318
@@ -5422,7 +5133,6 @@ landscape:
               https://appcenter.software-univention.de/meta-inf/4.1/icinga/icinga_detail_logo.svg
             twitter: 'https://twitter.com/icinga'
             crunchbase: 'https://www.crunchbase.com/organization/icinga'
-            cncf_project: false
             market_cap: N/A
             headquarters: N/A
             rank: N/A
@@ -5438,7 +5148,6 @@ landscape:
               https://login.circonus.com/resources/docs/irondb/assets/irondb-logo-1777x761.png
             twitter: 'https://twitter.com/circonus'
             crunchbase: 'https://www.crunchbase.com/organization/circonus'
-            cncf_project: false
             market_cap: N/A
             headquarters: 'Fulton, Maryland'
             rank: 67064
@@ -5453,7 +5162,6 @@ landscape:
             raw_logo: ./src/hosted_logos/rocana.png
             twitter: 'https://twitter.com/rocanainc'
             crunchbase: 'https://www.crunchbase.com/organization/rocana'
-            cncf_project: false
             market_cap: 19400000
             headquarters: 'San Francisco, California'
             rank: 7128
@@ -5471,7 +5179,6 @@ landscape:
               https://p14.zdassets.com/hc/settings_assets/813690/200160158/x15uNJXQmg7prFzT4g3SSQ-OpsClarity_Logo.png
             twitter: 'https://twitter.com/opsclarity'
             crunchbase: 'https://www.crunchbase.com/organization/opsclarity'
-            cncf_project: false
             market_cap: 21230740
             headquarters: 'Sunnyvale, California'
             rank: 9080
@@ -5490,7 +5197,6 @@ landscape:
               https://pbs.twimg.com/profile_images/2278848253/3gaoi2h254k0canb4hxj_400x400.png
             twitter: 'https://twitter.com/nagiosinc'
             crunchbase: 'https://www.crunchbase.com/organization/nagios'
-            cncf_project: false
             market_cap: N/A
             headquarters: 'Saint Paul, Minnesota'
             rank: 74911
@@ -5507,7 +5213,6 @@ landscape:
               https://pbs.twimg.com/profile_images/537524757978034176/MlkWTc_x_400x400.png
             twitter: 'https://twitter.com/zabbix'
             crunchbase: 'https://www.crunchbase.com/organization/zabbix'
-            cncf_project: false
             market_cap: N/A
             headquarters: 'Riga, Latvia'
             rank: 87664
@@ -5522,7 +5227,6 @@ landscape:
             repo_url: 'https://github.com/graphite-project/graphite-web'
             raw_logo: >-
               http://blog-centreon-wordpress.s3.amazonaws.com/wp-content/uploads/2017/07/GraphiteLogo.png
-            cncf_project: false
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
@@ -5539,7 +5243,6 @@ landscape:
               https://3yecy51kdipx3blyi37oute1-wpengine.netdna-ssl.com/wp-content/uploads/2016/11/influxdata_400x200.png
             twitter: 'https://twitter.com/influxdb'
             crunchbase: 'https://www.crunchbase.com/organization/influxdb'
-            cncf_project: false
             market_cap: 24892000
             headquarters: 'San Francisco, California'
             rank: 1537
@@ -5554,7 +5257,6 @@ landscape:
             repo_url: 'https://github.com/OpenTSDB/opentsdb'
             raw_logo: 'http://opentsdb.net/img/logo_header.png'
             twitter: 'https://twitter.com/opentsdb'
-            cncf_project: false
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
@@ -5570,7 +5272,6 @@ landscape:
               https://s3.amazonaws.com/docs.netsil.com/logos/Netsil_640x640-blue.jpg
             twitter: 'https://twitter.com/Netsil_HQ'
             crunchbase: 'https://www.crunchbase.com/organization/netsil'
-            cncf_project: false
             market_cap: 150000
             headquarters: 'San Francisco, California'
             rank: 15129
@@ -5586,7 +5287,6 @@ landscape:
               http://blog.eckelberry.com/wp-content/uploads/2015/08/meros-logo-small.png
             twitter: 'https://twitter.com/merosdevops'
             crunchbase: 'https://www.crunchbase.com/organization/meros-inc'
-            cncf_project: false
             market_cap: N/A
             headquarters: 'Clearwater, Florida'
             rank: N/A
@@ -5604,7 +5304,6 @@ landscape:
               https://crunchbase-production-res.cloudinary.com/image/upload/v1408666566/nwh15vkpdfklojbp70bo.png
             twitter: 'https://twitter.com/opbeat'
             crunchbase: 'https://www.crunchbase.com/organization/opbeat'
-            cncf_project: false
             market_cap: 2800000
             headquarters: 'San Francisco, California'
             rank: 15146
@@ -5619,7 +5318,6 @@ landscape:
             raw_logo: >-
               https://pbs.twimg.com/profile_images/630677512163561472/MB2Z1voJ_400x400.png
             twitter: 'https://twitter.com/cobeio'
-            cncf_project: false
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
@@ -5635,7 +5333,6 @@ landscape:
             raw_logo: 'https://www.gcppodcast.com//images/post/serverdensity.png'
             twitter: 'https://twitter.com/serverdensity'
             crunchbase: 'https://www.crunchbase.com/organization/server-density'
-            cncf_project: false
             market_cap: 2094514
             headquarters: 'London, United Kingdom'
             rank: 17075
@@ -5650,7 +5347,6 @@ landscape:
             raw_logo: 'https://alertops.com/wp-content/uploads/2017/04/Librato-logo.jpg'
             twitter: 'https://twitter.com/Librato'
             crunchbase: 'https://www.crunchbase.com/organization/librato'
-            cncf_project: false
             market_cap: 5050000
             headquarters: 'San Francisco, California'
             rank: 13322
@@ -5666,7 +5362,6 @@ landscape:
               https://ga1.imgix.net/logo/o/102401-1481321212-6827517?auto=format&ch=Width%2CDPR&ixjsv=2.0.0&ixlib=rb-1.0.0&w=270
             twitter: 'https://twitter.com/Appneta'
             crunchbase: 'https://www.crunchbase.com/organization/appneta'
-            cncf_project: false
             market_cap: 63177998
             headquarters: 'Boston, Massachusetts'
             rank: 1431
@@ -5684,7 +5379,6 @@ landscape:
             raw_logo: 'https://alertops.com/wp-content/uploads/2016/11/catchpoint.png'
             twitter: 'https://twitter.com/catchpoint'
             crunchbase: 'https://www.crunchbase.com/organization/catchpoint-systems'
-            cncf_project: false
             market_cap: 49765055
             headquarters: 'New York, New York'
             rank: 2781
@@ -5700,7 +5394,6 @@ landscape:
               https://crunchbase-production-res.cloudinary.com/image/upload/v1460640914/hyk187shdkxuov8iycdt.png
             twitter: 'https://twitter.com/Dynatrace'
             crunchbase: 'https://www.crunchbase.com/organization/dynatrace-software'
-            cncf_project: false
             market_cap: 21900000
             headquarters: 'Waltham, Massachusetts'
             rank: 2583
@@ -5719,7 +5412,6 @@ landscape:
               https://obsidian.co.za/sites/default/files/field/image/product/Coscale_Logo_cmyk_vert.png
             twitter: 'https://twitter.com/CoScale'
             crunchbase: 'https://www.crunchbase.com/organization/co-scale'
-            cncf_project: false
             market_cap: 3000000
             headquarters: 'Gent, Belgium'
             rank: 15425
@@ -5737,7 +5429,6 @@ landscape:
               https://p4.zdassets.com/hc/settings_assets/443641/200027036/W5VMeAkQWWuD2EpjxP7VAQ-Logo.png
             twitter: 'https://twitter.com/outlyerapp'
             crunchbase: 'https://www.crunchbase.com/organization/outlyer'
-            cncf_project: false
             market_cap: 5480000
             headquarters: 'San Francisco, California'
             rank: 17903
@@ -5756,7 +5447,6 @@ landscape:
               https://crunchbase-production-res.cloudinary.com/image/upload/v1492080963/vxkgrdh1jnublhxzdrer.jpg
             twitter: 'https://twitter.com/centreon'
             crunchbase: 'https://www.crunchbase.com/organization/centreon'
-            cncf_project: false
             market_cap: N/A
             headquarters: 'Paris, France'
             rank: N/A
@@ -5774,7 +5464,6 @@ landscape:
               https://www.heavybit.com/wp-content/uploads/2016/02/heavybit-welcomes-new-member-lightstep.png
             twitter: 'https://twitter.com/lightstephq'
             crunchbase: 'https://www.crunchbase.com/organization/lightstep'
-            cncf_project: false
             market_cap: 27500000
             headquarters: 'San Francisco, California'
             rank: 2238
@@ -5792,7 +5481,6 @@ landscape:
             raw_logo: 'https://signalfx.com/wp-content/uploads/2015/09/signalfx-logo1.png'
             twitter: 'https://twitter.com/signalfx'
             crunchbase: 'https://www.crunchbase.com/organization/signalfuse'
-            cncf_project: false
             market_cap: 28500000
             headquarters: 'San Mateo, California'
             rank: 3533
@@ -5808,7 +5496,6 @@ landscape:
               https://www.crosslinkcapital.com/blog/wp-content/uploads/2016/01/nodesource-512x512.png
             twitter: 'https://twitter.com/nodesource'
             crunchbase: 'https://www.crunchbase.com/organization/nodesource'
-            cncf_project: false
             market_cap: 33400000
             headquarters: 'San Francisco, California'
             rank: 600
@@ -5827,7 +5514,6 @@ landscape:
               https://assets.packet.net/media/pages/images/a8849b052492b5106526b2331e526138/xCMw-grafana.png
             twitter: 'https://twitter.com/grafana'
             crunchbase: 'https://www.crunchbase.com/organization/raintank'
-            cncf_project: false
             market_cap: N/A
             headquarters: 'New York, New York'
             rank: 64875
@@ -5846,7 +5532,6 @@ landscape:
             stock_ticker: MSFT
             twitter: 'https://twitter.com/azure'
             crunchbase: 'https://www.crunchbase.com/organization/microsoft'
-            cncf_project: false
             market_cap: 1000000
             headquarters: 'Redmond, Washington'
             rank: 37
@@ -5866,7 +5551,6 @@ landscape:
               http://events17.linuxfoundation.org/sites/events/files/styles/sponsor_logo_large/public/sponsor-logos/sponsor-weaveworks_1.png
             twitter: 'https://twitter.com/weaveworks'
             crunchbase: 'https://www.crunchbase.com/organization/weaveworks'
-            cncf_project: false
             market_cap: 20000000
             headquarters: 'London, United Kingdom'
             rank: 5353
@@ -5883,7 +5567,6 @@ landscape:
               https://raw.githubusercontent.com/sensu/sensu-logo/master/sensu1_flat%20white%20bg_png.png
             twitter: 'https://twitter.com/sensu'
             crunchbase: 'https://www.crunchbase.com/organization/sensu'
-            cncf_project: false
             market_cap: 2530000
             headquarters: 'Tokyo, Japan'
             rank: 18567
@@ -5899,7 +5582,6 @@ landscape:
             raw_logo: 'https://sentry-brand.storage.googleapis.com/sentry-logo-black.png'
             twitter: 'https://twitter.com/getsentry'
             crunchbase: 'https://www.crunchbase.com/organization/sentry'
-            cncf_project: false
             market_cap: 10500000
             headquarters: 'San Francisco, California'
             rank: 4725
@@ -5917,7 +5599,6 @@ landscape:
               https://techspective.net/wp-content/uploads/2017/07/stackrox_logo.jpg
             twitter: 'https://twitter.com/StackRox'
             crunchbase: 'https://www.crunchbase.com/organization/stackrox'
-            cncf_project: false
             market_cap: 14000000
             headquarters: 'Mountain View, California'
             rank: 4843
@@ -5935,7 +5616,6 @@ landscape:
               https://www.stackstate.com/wp-content/uploads/2017/04/Sts_LOGO_RGB_Full_Horizontal_OPT.png.pagespeed.ce.LOxsEpaZ5A.png
             twitter: 'https://twitter.com/hashtag/stackstate'
             crunchbase: 'https://www.crunchbase.com/organization/stackstate'
-            cncf_project: false
             market_cap: N/A
             headquarters: 'Utrecht, The Netherlands'
             rank: 72893
@@ -5951,7 +5631,6 @@ landscape:
               http://events17.linuxfoundation.org/sites/events/files/styles/sponsor_logo_large/public/sponsor-logos/sponsor-weaveworks_1.png
             twitter: 'https://twitter.com/weaveworks'
             crunchbase: 'https://www.crunchbase.com/organization/weaveworks'
-            cncf_project: false
             market_cap: 20000000
             headquarters: 'London, United Kingdom'
             rank: 5353
@@ -5973,7 +5652,6 @@ landscape:
             stock_ticker: SPLK
             twitter: 'https://twitter.com/splunk'
             crunchbase: 'https://www.crunchbase.com/organization/splunk'
-            cncf_project: false
             market_cap: 40900000
             headquarters: 'San Francisco, California'
             rank: 677
@@ -5992,7 +5670,6 @@ landscape:
               https://www.rittmanmead.com/blog/content/images/2016/06/elastic.png
             twitter: 'https://twitter.com/elastic'
             crunchbase: 'https://www.crunchbase.com/organization/elasticsearch'
-            cncf_project: false
             market_cap: 104000000
             headquarters: 'Mountain View, California'
             rank: 907
@@ -6008,7 +5685,6 @@ landscape:
               https://sematext.com/wp-content/uploads/2017/09/octi-square-logo-200x200-2.png
             twitter: 'https://twitter.com/sematext'
             crunchbase: 'https://www.crunchbase.com/organization/sematext'
-            cncf_project: false
             market_cap: N/A
             headquarters: 'Brooklyn, New York'
             rank: 86097
@@ -6026,7 +5702,6 @@ landscape:
               https://www.cloudfoundry.org/wp-content/uploads/2017/10/icon_sumologic_v2@2x.png
             twitter: 'https://twitter.com/sumologic'
             crunchbase: 'https://www.crunchbase.com/organization/sumo-logic'
-            cncf_project: false
             market_cap: 230000000
             headquarters: 'Redwood City, California'
             rank: 94
@@ -6044,7 +5719,6 @@ landscape:
             raw_logo: 'https://www.loggly.com/wp-content/uploads/2017/03/Loggly_RGB.png'
             twitter: 'https://twitter.com/loggly'
             crunchbase: 'https://www.crunchbase.com/organization/loggly'
-            cncf_project: false
             market_cap: 47400000
             headquarters: 'San Francisco, California'
             rank: 380
@@ -6062,7 +5736,6 @@ landscape:
             raw_logo: 'https://logz.io/wp-content/uploads/2015/09/logzio.png'
             twitter: 'https://twitter.com/logzio'
             crunchbase: 'https://www.crunchbase.com/organization/logz-io'
-            cncf_project: false
             market_cap: 46900000
             headquarters: 'Tel Aviv, Israel'
             rank: 1815
@@ -6076,13 +5749,13 @@ landscape:
             name: Fluentd
             company: Cloud Native Computing Foundation (CNCF)
             homepage_url: 'https://www.fluentd.org/'
+            cncf_project: incubating
             repo_url: 'https://github.com/fluent/fluentd'
             raw_logo: >-
               https://raw.githubusercontent.com/cncf/artwork/master/fluentd/stacked/color/fluentd-stacked-color.png
             twitter: 'https://twitter.com/fluentd'
             crunchbase: >-
               https://www.crunchbase.com/organization/cloud-native-computing-foundation
-            cncf_project: true
             market_cap: N/A
             headquarters: 'San Francisco, California'
             rank: 63493
@@ -6098,7 +5771,6 @@ landscape:
               https://github.com/alexcontini/alexcontini.github.io/blob/master/loomsystems_logo.png?raw=true
             twitter: 'https://twitter.com/Loom_systems'
             crunchbase: 'https://www.crunchbase.com/organization/loom-systems'
-            cncf_project: false
             market_cap: 6000000
             headquarters: 'San Francisco, California'
             rank: 2298
@@ -6115,7 +5787,6 @@ landscape:
               https://global-uploads.webflow.com/5a218ef7897bf400019e2f16/5a218ef7897bf400019e2f60_logo-graylog.png
             twitter: 'https://twitter.com/graylog2'
             crunchbase: 'https://www.crunchbase.com/organization/graylog'
-            cncf_project: false
             market_cap: 4400000
             headquarters: 'Houston, Texas'
             rank: 13210
@@ -6130,13 +5801,13 @@ landscape:
             name: OpenTracing
             company: Cloud Native Computing Foundation (CNCF)
             homepage_url: 'http://opentracing.io/'
+            cncf_project: incubating
             repo_url: 'https://github.com/opentracing/opentracing-go'
             raw_logo: >-
               https://raw.githubusercontent.com/cncf/artwork/master/opentracing/stacked/color/opentracing-stacked-color.png
             twitter: 'https://twitter.com/opentracing'
             crunchbase: >-
               https://www.crunchbase.com/organization/cloud-native-computing-foundation
-            cncf_project: true
             market_cap: N/A
             headquarters: 'San Francisco, California'
             rank: 63493
@@ -6152,7 +5823,6 @@ landscape:
             raw_logo: >-
               https://camo.githubusercontent.com/4ac940361b7345156ff71aa21efdb42a449e67d7/68747470733a2f2f736b7977616c6b696e67746573742e6769746875622e696f2f706167652d7265736f75726365732f332e302f736b7977616c6b696e672e706e67
             crunchbase: 'https://www.crunchbase.com/organization/apache'
-            cncf_project: false
             market_cap: N/A
             headquarters: 'Forest Hill, Maryland'
             rank: 84483
@@ -6170,7 +5840,6 @@ landscape:
             raw_logo: >-
               https://4.bp.blogspot.com/-DsmFcaeMi4U/T9DX_XLMrdI/AAAAAAAAABg/jKF_pXToIEo/s1600/zipkin.jpg
             twitter: 'https://twitter.com/zipkinproject'
-            cncf_project: false
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
@@ -6182,13 +5851,13 @@ landscape:
             name: Jaeger
             company: Cloud Native Computing Foundation (CNCF)
             homepage_url: 'http://jaegertracing.io/'
+            cncf_project: incubating
             repo_url: 'https://github.com/jaegertracing/jaeger'
             raw_logo: >-
               https://raw.githubusercontent.com/cncf/artwork/master/jaeger/stacked/color/jaeger-stacked-color.png
             twitter: 'https://twitter.com/JaegerTracing'
             crunchbase: >-
               https://www.crunchbase.com/organization/cloud-native-computing-foundation
-            cncf_project: true
             market_cap: N/A
             headquarters: 'San Francisco, California'
             rank: 63493
@@ -6203,7 +5872,6 @@ landscape:
             repo_url: 'https://github.com/spring-cloud/spring-cloud-sleuth'
             raw_logo: >-
               https://pragmaticintegrator.files.wordpress.com/2017/03/spring-cloud.jpg
-            cncf_project: false
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
@@ -6217,7 +5885,6 @@ landscape:
             homepage_url: 'https://github.com/sourcegraph/appdash'
             repo_url: 'https://github.com/sourcegraph/appdash'
             raw_logo: ./src/hosted_logos/appdash.png
-            cncf_project: false
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet

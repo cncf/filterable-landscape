@@ -17,7 +17,7 @@ tree.map(function(node) {
     items.push({...node,
       cncfProject: node.cncf_project,
       cncfMember: node.cncf_member,
-      cncfRelation: node.cncf_project ? 'hosted' : node.cncf_member ? 'member' : false,
+      cncfRelation: node.cncf_project || ( node.cncf_member ? 'member' : false ),
       path: parts.join(' / '),
       landscape: parts.join(' / '),
       category: parts[0],

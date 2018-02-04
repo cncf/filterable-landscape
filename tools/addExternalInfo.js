@@ -12,7 +12,6 @@ const cncfMembers = require('js-yaml').safeLoad(require('fs').readFileSync('src/
 const tree = traverse(source);
 const newSource = tree.map(function(node) {
   if (node && node.item === null) {
-    node.cncf_project = node.company === 'CNCF';
     const crunchbaseInfo = _.find(crunchbase, {"Organization Name URL": node.crunchbase});
     var crunchbaseParts = {
       market_cap: 'Not Entered Yet',

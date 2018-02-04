@@ -10,6 +10,7 @@ landscape:
           description: 'Kubernetes is an open-source system for automating deployment, scaling, and management of containerized applications'
           company: "CNCF"
           homepage_url: https://kubernetes.io/
+          cncf_project: incubating
           repo_url: https://github.com/kubernetes/kubernetes
           raw_logo: https://raw.githubusercontent.com/cncf/artwork/master/kubernetes/stacked/color/kubernetes-stacked-color.png
           twitter: https://twitter.com/kubernetesio
@@ -100,6 +101,7 @@ landscape:
           name: "CoreDNS"
           company: "CNCF"
           homepage_url: https://coredns.io/
+          cncf_project: inception
           repo_url: https://github.com/coredns/coredns
           raw_logo: https://github.com/cncf/artwork/blob/master/coredns/stacked/color/coredns-stacked-color.png
           twitter: https://twitter.com/corednsio
@@ -170,6 +172,7 @@ landscape:
           name: "Linkerd"
           company: "CNCF"
           homepage_url: https://linkerd.io/
+          cncf_project: inception
           repo_url: https://github.com/linkerd/linkerd
           raw_logo: https://raw.githubusercontent.com/cncf/artwork/master/linkerd/stacked/color/linkerd-stacked-color.png
           twitter: https://twitter.com/linkerd
@@ -178,6 +181,7 @@ landscape:
           name: "Envoy"
           company: "CNCF"
           homepage_url: https://envoyproxy.github.io/
+          cncf_project: incubating
           repo_url: https://github.com/envoyproxy/envoy
           raw_logo: https://github.com/cncf/artwork/blob/master/envoy/stacked/color/envoy-stacked-color.png
           stock_ticker: 'LYFT'
@@ -218,6 +222,7 @@ landscape:
           name: "gRPC"
           company: "CNCF"
           homepage_url: https://grpc.io/
+          cncf_project: incubating
           repo_url: https://github.com/grpc/grpc
           raw_logo: https://raw.githubusercontent.com/cncf/artwork/master/grpc/horizontal/color/grpc-horizontal-color.png
           stock_ticker: ''
@@ -715,6 +720,7 @@ landscape:
           name: "Notary"
           company: "CNCF"
           homepage_url: https://github.com/theupdateframework/notary
+          cncf_project: incubating
           repo_url: https://github.com/theupdateframework/notary
           raw_logo: https://raw.githubusercontent.com/cncf/artwork/master/notary/stacked/color/notary-stacked-color.png
           crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
@@ -736,6 +742,7 @@ landscape:
           name: "The Update Framework (TUF)"
           company: "CNCF"
           homepage_url: https://theupdateframework.github.io/
+          cncf_project: incubating
           repo_url: https://github.com/theupdateframework/tuf
           raw_logo: https://github.com/cncf/artwork/blob/master/tuf/stacked/color/tuf-stacked-color.png
           crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
@@ -893,6 +900,7 @@ landscape:
           name: "Rook"
           company: "CNCF"
           homepage_url: https://rook.io/
+          cncf_project: inception
           repo_url: https://github.com/rook/rook
           raw_logo: https://raw.githubusercontent.com/rook/rook/master/Documentation/media/logo.png
           twitter: https://twitter.com/rook_io
@@ -1016,6 +1024,7 @@ landscape:
           name: "rkt"
           company: "CNCF"
           homepage_url: https://github.com/rkt/rkt
+          cncf_project: incubating
           repo_url: https://github.com/rkt/rkt
           raw_logo:  https://raw.githubusercontent.com/cncf/artwork/master/rkt/stacked/color/rkt-stacked-color.png
           crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
@@ -1051,6 +1060,7 @@ landscape:
           name: "containerd"
           company: "CNCF"
           homepage_url: http://containerd.io/
+          cncf_project: incubating
           repo_url: https://github.com/containerd/containerd
           raw_logo: https://raw.githubusercontent.com/cncf/artwork/master/containerd/stacked/color/containerd-stacked-color.png
           crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
@@ -1213,6 +1223,7 @@ landscape:
           name: "CNI"
           company: "CNCF"
           homepage_url: https://github.com/containernetworking
+          cncf_project: incubating
           repo_url: https://github.com/containernetworking/cni
           raw_logo: https://raw.githubusercontent.com/cncf/artwork/master/cni/stacked/color/cni-stacked-color.png
           crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
@@ -2353,6 +2364,7 @@ landscape:
           name: "Prometheus"
           company: "CNCF"
           homepage_url: https://prometheus.io/
+          cncf_project: incubating
           repo_url: https://github.com/prometheus/prometheus
           raw_logo: https://raw.githubusercontent.com/cncf/artwork/master/prometheus/stacked/color/prometheus-stacked-color.png
           twitter: https://twitter.com/PrometheusIO
@@ -2670,6 +2682,7 @@ landscape:
           name: "Fluentd"
           company: "CNCF"
           homepage_url: https://www.fluentd.org/
+          cncf_project: incubating
           repo_url: https://github.com/fluent/fluentd
           raw_logo: https://raw.githubusercontent.com/cncf/artwork/master/fluentd/stacked/color/fluentd-stacked-color.png
           twitter: https://twitter.com/fluentd
@@ -2696,6 +2709,7 @@ landscape:
           name: "OpenTracing"
           company: "CNCF"
           homepage_url: http://opentracing.io/
+          cncf_project: incubating
           repo_url: https://github.com/opentracing/opentracing-go
           raw_logo: https://raw.githubusercontent.com/cncf/artwork/master/opentracing/stacked/color/opentracing-stacked-color.png
           twitter: https://twitter.com/opentracing
@@ -2718,6 +2732,7 @@ landscape:
           name: "Jaeger"
           company: "CNCF"
           homepage_url: http://jaegertracing.io/
+          cncf_project: incubating
           repo_url: https://github.com/jaegertracing/jaeger
           raw_logo: https://raw.githubusercontent.com/cncf/artwork/master/jaeger/stacked/color/jaeger-stacked-color.png
           twitter: https://twitter.com/JaegerTracing

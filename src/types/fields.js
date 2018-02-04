@@ -22,16 +22,24 @@ const fields = {
       label: 'Any',
       url: 'any'
     }, {
-      id: 'hosted',
-      label: 'CNCF Project',
-      url: 'hosted',
+      id: 'graduated',
+      label: 'Graduated CNCF Projects',
+      url: 'graduated',
+    }, {
+      id: 'incubating',
+      label: 'Incubating CNCF Projects',
+      url: 'incubating',
+    }, {
+      id: 'inception',
+      label: 'Inception CNCF Projects',
+      url: 'inception',
     }, {
       id: 'member',
-      label: 'CNCF Member Product/Project',
+      label: 'CNCF Member Products/Projects',
       url: 'member',
     }, {
       id: false,
-      label: 'Non-CNCF Member Project/Product',
+      label: 'non-CNCF Member Prodcuts/Projects',
       url: 'no'
     }]
   },
