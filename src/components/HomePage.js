@@ -21,14 +21,14 @@ const HomePage = ({hasData}) => {
         <ItemDialogContainer />
         <HeaderContainer/>
         <Grid container spacing={24}>
-          <Grid item xs={3} sm={3} className="sidebar">
-            <ResetFiltersContainer />
+          <Grid item xs={2} sm={2} className="sidebar">
             <Filters />
             <Grouping/>
             <Sorting/>
-            {/*<LeftPanelInfoContainer/>*/}
+            <ResetFiltersContainer />
+            <LeftPanelInfoContainer/>
           </Grid>
-          <Grid item xs={9} sm={9} className="content">
+          <Grid item xs={10} sm={10} className="content">
             {/*<h1 className='logo'> Summary Placeholder </h1>*/}
             {/*<h1> Available Presets Placeholder</h1>*/}
             <MainContentContainer/>
