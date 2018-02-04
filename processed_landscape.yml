@@ -23,7 +23,7 @@ landscape:
             market_cap: N/A
             headquarters: 'San Francisco, California'
             rank: 63493
-            stars: 32080
+            stars: 32087
             license: Apache-2.0
             cncf_member: false
           - item:
@@ -68,22 +68,20 @@ landscape:
             cncf_member: false
           - item:
             name: Mesos
-            company: Apache Mesos
+            company: Apache Software Foundation
             homepage_url: 'http://mesos.apache.org/'
-            repo_url: 'https://github.com/mesos'
+            repo_url: 'https://github.com/apache/mesos'
             raw_logo: >-
               https://mapr.com/blog/my-experience-running-docker-containers-on-mesos/assets/apache-mesos-logo.jpg
             twitter: 'https://twitter.com/ApacheMesos'
-            crunchbase: 'https://www.crunchbase.com/organization/apache-mesos'
+            crunchbase: 'https://www.crunchbase.com/organization/apache'
             cncf_project: false
             market_cap: N/A
-            headquarters: N/A
-            rank: N/A
-            stars: N/A
-            license: Unknown License
-            description: >-
-              Program against your datacenter like it’s a single pool of
-              resources.
+            headquarters: 'Forest Hill, Maryland'
+            rank: 84483
+            stars: 3523
+            license: Apache-2.0
+            description: Mirror of Apache Mesos
             cncf_member: false
           - item:
             name: Microsoft Azure Service Fabric
@@ -137,7 +135,7 @@ landscape:
             market_cap: 50000000
             headquarters: 'San Francisco, California'
             rank: 1547
-            stars: 16660
+            stars: 16662
             license: Apache-2.0
             description: >-
               Distributed reliable key-value store for the most critical data of
@@ -156,7 +154,7 @@ landscape:
             market_cap: 74175000
             headquarters: 'San Francisco, California'
             rank: 949
-            stars: 11290
+            stars: 11292
             license: MPL-2.0
             description: >-
               Consul is a distributed, highly available, and data center aware
@@ -176,7 +174,7 @@ landscape:
             market_cap: N/A
             headquarters: 'Forest Hill, Maryland'
             rank: 84483
-            stars: 3913
+            stars: 3914
             license: Apache-2.0
             description: Mirror of Apache Hadoop ZooKeeper
             cncf_member: false
@@ -252,8 +250,7 @@ landscape:
             company: Airbnb
             homepage_url: 'https://github.com/airbnb/smartstack-cookbook'
             repo_url: 'https://github.com/airbnb/smartstack-cookbook'
-            raw_logo: >-
-              https://crunchbase-production-res.cloudinary.com/image/upload/v1405534850/vubc5kxhmw6jalain0ot.jpg
+            raw_logo: ./src/hosted_logos/smart-stack.png
             cncf_project: false
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
@@ -408,7 +405,7 @@ landscape:
             market_cap: N/A
             headquarters: 'San Francisco, California'
             rank: 63493
-            stars: 3775
+            stars: 3776
             license: Apache-2.0
             description: C++ front/service proxy
             cncf_member: false
@@ -444,7 +441,7 @@ landscape:
             market_cap: 1000000
             headquarters: 'Lyon, France'
             rank: 23352
-            stars: 12752
+            stars: 12755
             license: MIT
             description: 'Træfik, a modern reverse proxy'
             cncf_member: false
@@ -515,7 +512,7 @@ landscape:
             market_cap: N/A
             headquarters: 'Forest Hill, Maryland'
             rank: 84483
-            stars: 4398
+            stars: 4400
             license: Apache-2.0
             description: Mirror of Apache Thrift
             cncf_member: false
@@ -540,15 +537,14 @@ landscape:
             company: magnetic.io
             homepage_url: null
             repo_url: 'https://github.com/magneticio/vamp'
-            raw_logo: >-
-              https://pbs.twimg.com/profile_images/791373995723587585/fPEnNSVH_400x400.jpg
+            raw_logo: ./src/hosted_logos/vamp.png
             twitter: 'https://twitter.com/vamp_io'
             crunchbase: 'https://www.crunchbase.com/organization/magnetic-io'
             cncf_project: false
             market_cap: 635000
             headquarters: 'Amsterdam, The Netherlands'
             rank: 33078
-            stars: 573
+            stars: 572
             license: Apache-2.0
             description: Vamp - canary releasing and autoscaling for microservice systems
             cncf_member: false
@@ -582,7 +578,7 @@ landscape:
             market_cap: 26101000
             headquarters: 'San Francisco, California'
             rank: 4031
-            stars: 14210
+            stars: 14209
             license: Apache-2.0
             description: "\U0001F412 The Microservice API Gateway"
             cncf_member: false
@@ -600,7 +596,7 @@ landscape:
             market_cap: 2803735952
             headquarters: 'Los Gatos, California'
             rank: 5
-            stars: 12449
+            stars: 12450
             license: Apache-2.0
             description: >-
               Hystrix is a latency and fault tolerance library designed to
@@ -1702,7 +1698,7 @@ landscape:
             market_cap: 4112500000
             headquarters: 'San Francisco, California'
             rank: 10
-            stars: 1238
+            stars: 1240
             license: Apache-2.0
             description: 'Confidant: your secret keeper.'
             cncf_member: false
@@ -1749,7 +1745,7 @@ landscape:
             market_cap: 74175000
             headquarters: 'San Francisco, California'
             rank: 949
-            stars: 8416
+            stars: 8417
             license: MPL-2.0
             description: >-
               A tool for secrets management, encryption as a service, and
@@ -1869,7 +1865,7 @@ landscape:
             market_cap: N/A
             headquarters: N/A
             rank: 73009
-            stars: 5540
+            stars: 5542
             license: Apache-2.0
             description: Mirror of Apache Hadoop
             cncf_member: false
@@ -2016,11 +2012,11 @@ landscape:
             market_cap: N/A
             headquarters: 'San Francisco, California'
             rank: 63493
-            stars: N/A
-            license: NotOpenSource
+            stars: 2167
+            license: Apache-2.0
             description: >-
-              CNCF is an open source software foundation that hosts and nurtures
-              projects like Kubernetes and Prometheus.
+              File, Block, and Object Storage Services for your Cloud-Native
+              Environment
             cncf_member: false
           - item:
             name: Robin Systems
@@ -2280,7 +2276,7 @@ landscape:
             market_cap: N/A
             headquarters: 'Austin, Texas'
             rank: 60056
-            stars: 1664
+            stars: 1665
             license: Apache-2.0
             description: OpenStack Storage (Swift)
             cncf_member: false
@@ -2318,7 +2314,7 @@ landscape:
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
-            stars: 4428
+            stars: 4429
             license: Apache-2.0
             description: >-
               CLI tool for spawning and running containers according to the OCI
@@ -2660,7 +2656,7 @@ landscape:
             company: OpenContrail
             homepage_url: 'http://www.opencontrail.org/'
             repo_url: 'https://github.com/Juniper/contrail-controller'
-            raw_logo: 'https://www.cloudwatt.com/fr/images/a-propos/opencontrail.png'
+            raw_logo: ./src/hosted_logos/open-contrail.png
             twitter: 'https://twitter.com/OpenContrail'
             crunchbase: 'https://www.crunchbase.com/organization/opencontrail'
             cncf_project: false
@@ -2789,7 +2785,7 @@ landscape:
             market_cap: 21600000
             headquarters: 'Beijing, China'
             rank: 10304
-            stars: 11631
+            stars: 11632
             license: Apache-2.0
             description: >-
               TiDB is a distributed HTAP database compatible with the MySQL
@@ -2903,7 +2899,7 @@ landscape:
             market_cap: 311000000
             headquarters: 'New York, New York'
             rank: 1132
-            stars: 13042
+            stars: 13044
             license: Unknown License
             description: The MongoDB Database
             cncf_member: false
@@ -3009,7 +3005,7 @@ landscape:
             market_cap: 5370000
             headquarters: 'Berlin, Germany'
             rank: 3491
-            stars: 2105
+            stars: 2106
             license: Unknown License
             description: BigchainDB is a scalable blockchain database
             cncf_member: false
@@ -3203,7 +3199,7 @@ landscape:
             market_cap: N/A
             headquarters: N/A
             rank: 73009
-            stars: 5540
+            stars: 5542
             license: Apache-2.0
             description: Mirror of Apache Hadoop
             cncf_member: false
@@ -3327,7 +3323,7 @@ landscape:
             market_cap: N/A
             headquarters: 'Forest Hill, Maryland'
             rank: 84483
-            stars: 16031
+            stars: 16034
             license: Apache-2.0
             description: Mirror of Apache Spark
             cncf_member: false
@@ -3619,7 +3615,7 @@ landscape:
             market_cap: 74175000
             headquarters: 'San Francisco, California'
             rank: 949
-            stars: 7295
+            stars: 7296
             license: MPL-2.0
             description: >-
               Packer is a tool for creating identical machine images for
@@ -3638,7 +3634,7 @@ landscape:
             market_cap: 242766694
             headquarters: 'San Francisco, California'
             rank: 471
-            stars: 11736
+            stars: 11737
             license: Apache-2.0
             description: Define and run multi-container applications with Docker
             cncf_member: true
@@ -4175,7 +4171,7 @@ landscape:
             market_cap: 122250000
             headquarters: 'San Francisco, California'
             rank: 748
-            stars: 1881
+            stars: 1880
             license: Apache-2.0
             description: DC/OS - The Datacenter Operating System
             cncf_member: true
@@ -4603,7 +4599,6 @@ landscape:
             name: Hyper
             company: Hyper_
             homepage_url: 'https://www.hyper.sh/'
-            repo_url: 'https://github.com/hyperhq'
             raw_logo: >-
               https://user-images.githubusercontent.com/1701782/29462984-a8451220-8463-11e7-84a0-739418f027f1.png
             twitter: 'https://twitter.com/hyper_sh'
@@ -4613,7 +4608,7 @@ landscape:
             headquarters: 'New York, New York'
             rank: 85330
             stars: N/A
-            license: Unknown License
+            license: NotOpenSource
             description: Hyper_ is a secure container cloud service.
             cncf_member: false
           - item:
@@ -4637,7 +4632,7 @@ landscape:
             name: JHipster
             company: JHipster
             homepage_url: 'http://www.jhipster.tech/'
-            repo_url: 'https://github.com/jhipster'
+            repo_url: 'https://github.com/jhipster/generator-jhipster'
             raw_logo: >-
               https://camo.githubusercontent.com/7e24fa15ba0791ec482d9f20e50a0e4620c3b7e7/687474703a2f2f6a6566667368656574732e6769746875622e696f2f42757a7a776f727468794a6176612f6173736574732f696d672f686970737465722d6c6f676f2e706e67
             twitter: 'https://twitter.com/java_hipster'
@@ -4645,9 +4640,11 @@ landscape:
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
-            stars: N/A
-            license: Unknown License
-            description: ''
+            stars: 9317
+            license: Apache-2.0
+            description: >-
+              Open Source application generator for creating Spring Boot +
+              Angular projects in seconds!
             cncf_member: false
           - item:
             name: Moby
@@ -4662,7 +4659,7 @@ landscape:
             market_cap: 242766694
             headquarters: 'San Francisco, California'
             rank: 471
-            stars: 47528
+            stars: 47529
             license: Apache-2.0
             description: >-
               Moby Project - a collaborative project for the container ecosystem
@@ -4708,7 +4705,6 @@ landscape:
             name: Lightbend
             company: Lightbend
             homepage_url: 'https://www.lightbend.com/'
-            repo_url: 'https://github.com/lightbend'
             raw_logo: >-
               https://upload.wikimedia.org/wikipedia/en/thumb/b/b1/Lightbend_full-color_logo.svg/1280px-Lightbend_full-color_logo.svg.png
             twitter: 'https://twitter.com/lightbend'
@@ -4718,7 +4714,7 @@ landscape:
             headquarters: 'San Francisco, California'
             rank: 4446
             stars: N/A
-            license: Unknown License
+            license: NotOpenSource
             description: >-
               Lightbend (formerly Typesafe) is dedicated to helping developers
               build Reactive applications on the JVM.
@@ -4814,22 +4810,22 @@ landscape:
             name: Portainer
             company: Portainer
             homepage_url: 'https://portainer.io/'
-            repo_url: 'https://github.com/portainer'
+            repo_url: 'https://github.com/portainer/portainer'
             raw_logo: >-
               https://camo.githubusercontent.com/c57e3786d84c99f21e453c6500d8e0333a2cf6d9/68747470733a2f2f706f727461696e65722e696f2f696d616765732f6c6f676f5f616c742e706e67
             cncf_project: false
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
-            stars: N/A
+            stars: 6600
             license: Unknown License
-            description: ''
+            description: Simple management UI for Docker
             cncf_member: false
           - item:
             name: Pusher
             company: Pusher
             homepage_url: 'https://pusher.com/team'
-            repo_url: 'https://github.com/pusher'
+            repo_url: 'https://github.com/pusher/pusher-js'
             raw_logo: >-
               https://smashingconf.com/ny-2015/content/06-sponsors/03-silver/00-pusher/pusher-logo.png
             twitter: 'https://twitter.com/pusher'
@@ -4838,12 +4834,9 @@ landscape:
             market_cap: 3500000
             headquarters: 'London, United Kingdom'
             rank: 8452
-            stars: N/A
-            license: Unknown License
-            description: >-
-              Pusher is a cloud-based tech platform enabling developers to
-              create collaborative tools, multiplayer games, chat and real-time
-              dashboards.
+            stars: 855
+            license: MIT
+            description: Pusher Javascript library | owner=@hph
             cncf_member: false
           - item:
             name: Remind
@@ -4868,7 +4861,6 @@ landscape:
             name: Scalingo
             company: Scalingo
             homepage_url: 'https://scalingo.com/'
-            repo_url: 'https://github.com/Scalingo'
             raw_logo: 'https://avatars0.githubusercontent.com/u/4868969?s=400&v=4'
             twitter: 'https://twitter.com/ScalingoHQ'
             crunchbase: 'https://www.crunchbase.com/organization/scalingo'
@@ -4877,7 +4869,7 @@ landscape:
             headquarters: 'Strasbourg, France'
             rank: N/A
             stars: N/A
-            license: Unknown License
+            license: NotOpenSource
             description: >-
               Scalingo a Docker Platform Service Transform your code as Docker
               container & run it on our cloud, making it instantly available &
@@ -4968,7 +4960,7 @@ landscape:
             market_cap: N/A
             headquarters: 'Peterborough, United Kingdom'
             rank: N/A
-            stars: 8544
+            stars: 8546
             license: MIT
             description: >-
               OpenFaaS - Serverless Functions Made Simple for Docker &
@@ -5103,23 +5095,25 @@ landscape:
           - item:
             name: Apex
             company: apex
-            homepage_url: apex.run
-            repo_url: 'https://github.com/apex'
+            homepage_url: 'http://apex.run'
+            repo_url: 'https://github.com/apex/apex'
             raw_logo: ./src/hosted_logos/apex.png
             twitter: 'https://twitter.com/apexserverless'
             cncf_project: false
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
-            stars: N/A
-            license: Unknown License
-            description: ''
+            stars: 6651
+            license: MIT
+            description: >-
+              Build, deploy, and manage AWS Lambda functions with ease (with Go
+              support!).
             cncf_member: false
           - item:
             name: Serverless
             company: Serverless
             homepage_url: 'https://serverless.com/'
-            repo_url: 'https://github.com/serverless'
+            repo_url: 'https://github.com/serverless/serverless'
             raw_logo: >-
               https://user-images.githubusercontent.com/2752551/30404912-d5781a00-989d-11e7-8d25-5ebca177326a.png
             twitter: 'https://twitter.com/goserverless'
@@ -5128,11 +5122,12 @@ landscape:
             market_cap: 3000000
             headquarters: 'San Francisco, California'
             rank: 1999
-            stars: N/A
+            stars: 21600
             license: Unknown License
             description: >-
-              Serverless offers developers an open source framework powered by
-              AWS Lambda and AWS API Gateway.
+              Serverless Framework – Build web, mobile and IoT applications with
+              serverless architectures using AWS Lambda, Azure Functions, Google
+              CloudFunctions & more! –
             cncf_member: false
           - item:
             name: Kubeless
@@ -5154,7 +5149,7 @@ landscape:
             name: NStack
             company: NStack
             homepage_url: 'https://nstack.com/'
-            repo_url: 'https://github.com/nstack'
+            repo_url: 'https://github.com/nstack/nstack'
             raw_logo: >-
               https://pbs.twimg.com/profile_images/807552612295933952/8bEJzlEM_400x400.jpg
             twitter: 'https://twitter.com/nstackcom'
@@ -5162,15 +5157,15 @@ landscape:
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
-            stars: N/A
-            license: Unknown License
-            description: ''
+            stars: 213
+            license: BSD-3-Clause
+            description: 'Type-safe, composable microservices for data analytics'
             cncf_member: false
           - item:
             name: Nuclio
             company: iguazio
             homepage_url: 'https://nuclio.io/'
-            repo_url: 'https://github.com/nuclio'
+            repo_url: 'https://github.com/nuclio/nuclio'
             raw_logo: >-
               https://www.iguazio.com/wp-content/uploads/2017/11/Nuclio_Final-03-1024x470.png
             twitter: 'https://twitter.com/nuclioio'
@@ -5179,12 +5174,9 @@ landscape:
             market_cap: 48000000
             headquarters: 'Herzliya, Israel'
             rank: 402
-            stars: N/A
-            license: Unknown License
-            description: >-
-              iguazio's Continuous Analytics Data Platform has redesigned the
-              data stack to accelerate performance in big data, IoT and
-              cloud-native apps.
+            stars: 1712
+            license: Apache-2.0
+            description: High-Performance Serverless event and data processing platform
             cncf_member: false
           - item:
             name: Azure Functions
@@ -5271,7 +5263,6 @@ landscape:
             name: Axibase
             company: Axibase
             homepage_url: 'https://axibase.com/'
-            repo_url: 'https://github.com/axibase'
             raw_logo: >-
               http://axibase.com/wp-content/uploads/2014/12/axibase_logo_orange-2.png
             twitter: 'https://twitter.com/axibase'
@@ -5280,7 +5271,7 @@ landscape:
             headquarters: Not Entered Yet
             rank: Not Entered Yet
             stars: N/A
-            license: Unknown License
+            license: NotOpenSource
             description: ''
             cncf_member: false
           - item:
@@ -5350,7 +5341,7 @@ landscape:
             market_cap: N/A
             headquarters: 'San Francisco, California'
             rank: 63493
-            stars: 14476
+            stars: 14479
             license: Apache-2.0
             description: The Prometheus monitoring system and time series database.
             cncf_member: false
@@ -5411,7 +5402,6 @@ landscape:
             name: Honeybadger
             company: Honeybadger
             homepage_url: 'https://www.honeybadger.io/'
-            repo_url: 'https://github.com/honeybadger-io'
             raw_logo: 'https://www.honeybadger.io/images/navbar_logo.svg'
             twitter: 'https://twitter.com/joneybadgerapp'
             crunchbase: 'https://www.crunchbase.com/organization/honeybadger'
@@ -5420,14 +5410,14 @@ landscape:
             headquarters: 'Kirkland, Washington'
             rank: 89318
             stars: N/A
-            license: Unknown License
+            license: NotOpenSource
             description: 'Exception, uptime, and performance monit'
             cncf_member: false
           - item:
             name: Icinga
             company: Icinga
             homepage_url: 'https://www.icinga.com/'
-            repo_url: 'https://github.com/Icinga'
+            repo_url: 'https://github.com/Icinga/icinga2'
             raw_logo: >-
               https://appcenter.software-univention.de/meta-inf/4.1/icinga/icinga_detail_logo.svg
             twitter: 'https://twitter.com/icinga'
@@ -5436,17 +5426,14 @@ landscape:
             market_cap: N/A
             headquarters: N/A
             rank: N/A
-            stars: N/A
+            stars: 851
             license: Unknown License
-            description: >-
-              Icinga is a monitoring software project that began as a fork of
-              Nagios.
+            description: Monitoring as code
             cncf_member: false
           - item:
             name: IronDB
             company: 'Circonus, Inc.'
             homepage_url: 'https://www.circonus.com/irondb/'
-            repo_url: 'https://github.com/circonus-labs'
             raw_logo: >-
               https://login.circonus.com/resources/docs/irondb/assets/irondb-logo-1777x761.png
             twitter: 'https://twitter.com/circonus'
@@ -5456,14 +5443,14 @@ landscape:
             headquarters: 'Fulton, Maryland'
             rank: 67064
             stars: N/A
-            license: Unknown License
+            license: NotOpenSource
             description: Realtime Monitoring and Analytics
             cncf_member: false
           - item:
             name: Rocana
             company: Rocana
             homepage_url: 'https://www.rocana.com/'
-            raw_logo: 'http://dej.io/wp-content/uploads/2016/10/Rocana-Logo.png'
+            raw_logo: ./src/hosted_logos/rocana.png
             twitter: 'https://twitter.com/rocanainc'
             crunchbase: 'https://www.crunchbase.com/organization/rocana'
             cncf_project: false
@@ -5498,7 +5485,7 @@ landscape:
             name: Nagios
             company: Nagios
             homepage_url: 'https://www.nagios.com/'
-            repo_url: 'https://github.com/NagiosEnterprises'
+            repo_url: 'https://github.com/NagiosEnterprises/nagioscore'
             raw_logo: >-
               https://pbs.twimg.com/profile_images/2278848253/3gaoi2h254k0canb4hxj_400x400.png
             twitter: 'https://twitter.com/nagiosinc'
@@ -5507,17 +5494,15 @@ landscape:
             market_cap: N/A
             headquarters: 'Saint Paul, Minnesota'
             rank: 74911
-            stars: N/A
-            license: Unknown License
-            description: >-
-              Nagios Enterprises offers monitoring and alerting solutions for
-              servers, switches, applications, and services.
+            stars: 403
+            license: GPL-2.0
+            description: Nagios Core
             cncf_member: false
           - item:
             name: Zabbix
             company: Zabbix
             homepage_url: 'https://www.zabbix.com/'
-            repo_url: 'https://github.com/zabbix'
+            repo_url: 'https://github.com/zabbix/zabbix'
             raw_logo: >-
               https://pbs.twimg.com/profile_images/537524757978034176/MlkWTc_x_400x400.png
             twitter: 'https://twitter.com/zabbix'
@@ -5526,24 +5511,24 @@ landscape:
             market_cap: N/A
             headquarters: 'Riga, Latvia'
             rank: 87664
-            stars: N/A
+            stars: 190
             license: Unknown License
-            description: 'ZABBIX SIA is based in Riga, Latvia.'
+            description: Live mirror of svn.zabbix.com
             cncf_member: false
           - item:
             name: Graphite
             company: Graphite
             homepage_url: 'https://graphiteapp.org/'
-            repo_url: 'https://github.com/graphite-project'
+            repo_url: 'https://github.com/graphite-project/graphite-web'
             raw_logo: >-
               http://blog-centreon-wordpress.s3.amazonaws.com/wp-content/uploads/2017/07/GraphiteLogo.png
             cncf_project: false
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
-            stars: N/A
-            license: Unknown License
-            description: ''
+            stars: 3976
+            license: Apache-2.0
+            description: A highly scalable real-time graphing system
             cncf_member: false
           - item:
             name: InfluxDB
@@ -5646,7 +5631,7 @@ landscape:
             name: ServerDensity
             company: Server Density
             homepage_url: 'https://www.serverdensity.com/'
-            repo_url: 'https://github.com/serverdensity'
+            repo_url: 'https://github.com/serverdensity/sd-agent'
             raw_logo: 'https://www.gcppodcast.com//images/post/serverdensity.png'
             twitter: 'https://twitter.com/serverdensity'
             crunchbase: 'https://www.crunchbase.com/organization/server-density'
@@ -5654,11 +5639,9 @@ landscape:
             market_cap: 2094514
             headquarters: 'London, United Kingdom'
             rank: 17075
-            stars: N/A
-            license: Unknown License
-            description: >-
-              Server Density is a SaaS product that helps users manage and
-              monitor their infrastructure.
+            stars: 214
+            license: BSD-3-Clause
+            description: 'Monitoring agent for Server Density (Linux, FreeBSD and OS X)'
             cncf_member: false
           - item:
             name: Librato
@@ -5679,7 +5662,6 @@ landscape:
             name: AppNeta
             company: AppNeta
             homepage_url: 'https://www.appneta.com/'
-            repo_url: 'https://github.com/appneta'
             raw_logo: >-
               https://ga1.imgix.net/logo/o/102401-1481321212-6827517?auto=format&ch=Width%2CDPR&ixjsv=2.0.0&ixlib=rb-1.0.0&w=270
             twitter: 'https://twitter.com/Appneta'
@@ -5689,7 +5671,7 @@ landscape:
             headquarters: 'Boston, Massachusetts'
             rank: 1431
             stars: N/A
-            license: Unknown License
+            license: NotOpenSource
             description: >-
               AppNeta is the only app performance monitoring company with
               solutions for apps you develop, SaaS apps you use & networks that
@@ -5733,7 +5715,6 @@ landscape:
             name: CoScale
             company: CoScale
             homepage_url: 'https://www.coscale.com/'
-            repo_url: 'https://github.com/CoScale'
             raw_logo: >-
               https://obsidian.co.za/sites/default/files/field/image/product/Coscale_Logo_cmyk_vert.png
             twitter: 'https://twitter.com/CoScale'
@@ -5743,7 +5724,7 @@ landscape:
             headquarters: 'Gent, Belgium'
             rank: 15425
             stars: N/A
-            license: Unknown License
+            license: NotOpenSource
             description: >-
               Full stack performance monitoring. Built for container and
               microservices applications. Powered by anomaly detection.
@@ -5779,7 +5760,7 @@ landscape:
             market_cap: N/A
             headquarters: 'Paris, France'
             rank: N/A
-            stars: 188
+            stars: 189
             license: GPL-2.0
             description: >-
               Centreon is a network, system, applicative supervision and
@@ -5850,7 +5831,7 @@ landscape:
             market_cap: N/A
             headquarters: 'New York, New York'
             rank: 64875
-            stars: 20040
+            stars: 20042
             license: Apache-2.0
             description: >-
               The tool for beautiful monitoring and metric analytics &
@@ -5897,7 +5878,7 @@ landscape:
             name: Sensu
             company: SENSU
             homepage_url: 'https://sensuapp.org/'
-            repo_url: 'https://github.com/sensu'
+            repo_url: 'https://github.com/sensu/sensu'
             raw_logo: >-
               https://raw.githubusercontent.com/sensu/sensu-logo/master/sensu1_flat%20white%20bg_png.png
             twitter: 'https://twitter.com/sensu'
@@ -5906,15 +5887,15 @@ landscape:
             market_cap: 2530000
             headquarters: 'Tokyo, Japan'
             rank: 18567
-            stars: N/A
-            license: Unknown License
-            description: Managing Creative Obsessions
+            stars: 2751
+            license: MIT
+            description: Monitoring for today's infrastructure.
             cncf_member: false
           - item:
             name: Sentry
             company: Sentry
             homepage_url: 'https://sentry.io/'
-            repo_url: 'https://github.com/getsentry'
+            repo_url: 'https://github.com/getsentry/sentry'
             raw_logo: 'https://sentry-brand.storage.googleapis.com/sentry-logo-black.png'
             twitter: 'https://twitter.com/getsentry'
             crunchbase: 'https://www.crunchbase.com/organization/sentry'
@@ -5922,17 +5903,16 @@ landscape:
             market_cap: 10500000
             headquarters: 'San Francisco, California'
             rank: 4725
-            stars: N/A
-            license: Unknown License
+            stars: 15520
+            license: BSD-3-Clause
             description: >-
-              Sentry is a real-time crash reporting tool for web, mobile, and
-              games.
+              Sentry is a cross-platform crash reporting and aggregation
+              platform.
             cncf_member: false
           - item:
             name: StackRox
             company: StackRox
             homepage_url: 'https://www.stackrox.com/'
-            repo_url: 'https://github.com/ar-stackrox'
             raw_logo: >-
               https://techspective.net/wp-content/uploads/2017/07/stackrox_logo.jpg
             twitter: 'https://twitter.com/StackRox'
@@ -5942,7 +5922,7 @@ landscape:
             headquarters: 'Mountain View, California'
             rank: 4843
             stars: N/A
-            license: Unknown License
+            license: NotOpenSource
             description: >-
               StackRox delivers the industry's only adaptive threat protection
               for containers.
@@ -5966,7 +5946,7 @@ landscape:
           - item:
             name: Weave Cloud
             company: Weaveworks
-            homepage_url: 'https://cloud.weave.works/'
+            homepage_url: 'https://www.weave.works/product/cloud/'
             raw_logo: >-
               http://events17.linuxfoundation.org/sites/events/files/styles/sponsor_logo_large/public/sponsor-logos/sponsor-weaveworks_1.png
             twitter: 'https://twitter.com/weaveworks'
@@ -6007,7 +5987,7 @@ landscape:
             name: Elastic
             company: Elastic
             homepage_url: 'https://www.elastic.co/'
-            repo_url: 'https://github.com/elastic'
+            repo_url: 'https://github.com/elastic/elasticsearch'
             raw_logo: >-
               https://www.rittmanmead.com/blog/content/images/2016/06/elastic.png
             twitter: 'https://twitter.com/elastic'
@@ -6016,17 +5996,14 @@ landscape:
             market_cap: 104000000
             headquarters: 'Mountain View, California'
             rank: 907
-            stars: N/A
-            license: Unknown License
-            description: >-
-              Elastic builds software to make data usable in real time and at
-              scale for search, logging, security, and analytics use cases.
+            stars: 28497
+            license: Apache-2.0
+            description: 'Open Source, Distributed, RESTful Search Engine'
             cncf_member: false
           - item:
             name: Sematext
             company: Sematext
             homepage_url: 'https://sematext.com/'
-            repo_url: 'https://github.com/sematext'
             raw_logo: >-
               https://sematext.com/wp-content/uploads/2017/09/octi-square-logo-200x200-2.png
             twitter: 'https://twitter.com/sematext'
@@ -6036,7 +6013,7 @@ landscape:
             headquarters: 'Brooklyn, New York'
             rank: 86097
             stars: N/A
-            license: Unknown License
+            license: NotOpenSource
             description: >-
               Sematext is a Search and Big Data analytics products and services
               company.
@@ -6045,7 +6022,6 @@ landscape:
             name: SumoLogic
             company: Sumo Logic
             homepage_url: 'https://www.sumologic.com/'
-            repo_url: 'https://github.com/SumoLogic'
             raw_logo: >-
               https://www.cloudfoundry.org/wp-content/uploads/2017/10/icon_sumologic_v2@2x.png
             twitter: 'https://twitter.com/sumologic'
@@ -6055,7 +6031,7 @@ landscape:
             headquarters: 'Redwood City, California'
             rank: 94
             stars: N/A
-            license: Unknown License
+            license: NotOpenSource
             description: >-
               Sumo Logic, a log management and analytics service, transforms big
               data into sources of operations, security and compliance
@@ -6134,7 +6110,7 @@ landscape:
             name: Graylog
             company: Graylog
             homepage_url: 'https://www.graylog.org/'
-            repo_url: 'https://github.com/Graylog2'
+            repo_url: 'https://github.com/Graylog2/graylog2-server'
             raw_logo: >-
               https://global-uploads.webflow.com/5a218ef7897bf400019e2f16/5a218ef7897bf400019e2f60_logo-graylog.png
             twitter: 'https://twitter.com/graylog2'
@@ -6143,11 +6119,9 @@ landscape:
             market_cap: 4400000
             headquarters: 'Houston, Texas'
             rank: 13210
-            stars: N/A
-            license: Unknown License
-            description: >-
-              Graylog is a fully integrated platform for collecting, indexing,
-              and analyzing.
+            stars: 4058
+            license: GPL-3.0
+            description: Free and open source log management
             cncf_member: false
       - subcategory:
         name: Tracing
@@ -6172,18 +6146,21 @@ landscape:
             cncf_member: false
           - item:
             name: Skywalking
-            company: Open Skywalking Organization
+            company: Apache Software Foundation
             homepage_url: 'http://skywalking.org/'
-            repo_url: 'https://github.com/OpenSkywalking'
+            repo_url: 'https://github.com/apache/incubator-skywalking'
             raw_logo: >-
               https://camo.githubusercontent.com/4ac940361b7345156ff71aa21efdb42a449e67d7/68747470733a2f2f736b7977616c6b696e67746573742e6769746875622e696f2f706167652d7265736f75726365732f332e302f736b7977616c6b696e672e706e67
+            crunchbase: 'https://www.crunchbase.com/organization/apache'
             cncf_project: false
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
-            rank: Not Entered Yet
-            stars: N/A
-            license: Unknown License
-            description: ''
+            market_cap: N/A
+            headquarters: 'Forest Hill, Maryland'
+            rank: 84483
+            stars: 2535
+            license: Apache-2.0
+            description: >-
+              A distributed tracing system, and APM ( Application Performance
+              Monitoring )
             cncf_member: false
           - item:
             name: Zipkin
@@ -6197,7 +6174,7 @@ landscape:
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
-            stars: 7577
+            stars: 7578
             license: Apache-2.0
             description: Zipkin is a distributed tracing system
             cncf_member: false
@@ -6215,7 +6192,7 @@ landscape:
             market_cap: N/A
             headquarters: 'San Francisco, California'
             rank: 63493
-            stars: 3908
+            stars: 3909
             license: Apache-2.0
             description: 'CNCF Jaeger, a Distributed Tracing System'
             cncf_member: false
@@ -6244,7 +6221,7 @@ landscape:
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
-            stars: 1216
+            stars: 1217
             license: Unknown License
             description: 'Application tracing system for Go, based on Google''s Dapper.'
             cncf_member: false
