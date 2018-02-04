@@ -18,7 +18,7 @@ const sizes = [{
 }];
 
 const traverse = require('traverse');
-const source = require('js-yaml').safeLoad(require('fs').readFileSync('landscape.yml'));
+const source = require('js-yaml').safeLoad(require('fs').readFileSync('processed_landscape.yml'));
 var existingEntries = [];
 try {
   existingEntries = require('js-yaml').safeLoad(fs.readFileSync('src/imageUrls.yml', 'utf-8'));
