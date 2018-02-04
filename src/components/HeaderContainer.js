@@ -8,7 +8,7 @@ const HeaderContainer = () => {
         <div className="logos">
             <div className="cncf_landscape" />
           <div className="info"><p>
-              This is the interactive counterpart to CNCF's Cloud Native
+              This is the interactive counterpart to CNCF's Cloud Native 
               <a href="https://github.com/cncf/landscape#current-version">Landscape</a>.
               Please <a href="https://github.com/cncf/filterable-landscape/issues/new/">report</a> any issues or,
               even better, open a pull request.
