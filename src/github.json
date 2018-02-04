@@ -41,14 +41,9 @@
   },
   {
     "url": "https://github.com/Mashape/kong",
-    "stars": 14214,
+    "stars": 14216,
     "license": "Apache-2.0",
     "description": "🐒 The Microservice API Gateway"
-  },
-  {
-    "url": "https://github.com/Mirantis",
-    "stars": "N/A",
-    "license": "Unknown License"
   },
   {
     "url": "https://github.com/NagiosEnterprises/nagioscore",
@@ -63,13 +58,13 @@
   },
   {
     "url": "https://github.com/Netflix/Hystrix",
-    "stars": 12454,
+    "stars": 12455,
     "license": "Apache-2.0",
     "description": "Hystrix is a latency and fault tolerance library designed to isolate points of access to remote systems, services and 3rd party libraries, stop cascading failure and enable resilience in complex distributed systems where failure is inevitable."
   },
   {
     "url": "https://github.com/Netflix/eureka",
-    "stars": 4733,
+    "stars": 4734,
     "license": "Apache-2.0",
     "description": "AWS Service registry for resilient mid-tier load balancing and failover."
   },
@@ -178,13 +173,19 @@
   },
   {
     "url": "https://github.com/apache/hadoop",
-    "stars": 5553,
+    "stars": 5557,
     "license": "Apache-2.0",
     "description": "Mirror of Apache Hadoop"
   },
   {
+    "url": "https://github.com/apache/hadoop-hdfs",
+    "stars": 70,
+    "license": "Apache-2.0",
+    "description": "Mirror of Apache Hadoop HDFS"
+  },
+  {
     "url": "https://github.com/apache/incubator-openwhisk",
-    "stars": 2394,
+    "stars": 2395,
     "license": "Apache-2.0",
     "description": "Apache OpenWhisk is a serverless event-based programming service and an Apache Incubator project."
   },
@@ -220,7 +221,7 @@
   },
   {
     "url": "https://github.com/apache/spark",
-    "stars": 16041,
+    "stars": 16042,
     "license": "Apache-2.0",
     "description": "Mirror of Apache Spark"
   },
@@ -256,7 +257,7 @@
   },
   {
     "url": "https://github.com/bigchaindb/bigchaindb",
-    "stars": 2110,
+    "stars": 2111,
     "license": "Unknown License",
     "description": "BigchainDB is a scalable blockchain database"
   },
@@ -271,9 +272,10 @@
     "license": "Unknown License"
   },
   {
-    "url": "https://github.com/buildkite",
-    "stars": "N/A",
-    "license": "Unknown License"
+    "url": "https://github.com/buildkite/agent",
+    "stars": 238,
+    "license": "Unknown License",
+    "description": "The Buildkite Agent is an open-source toolkit written in Golang for securely running build jobs on any device or network"
   },
   {
     "url": "https://github.com/centreon/centreon",
@@ -318,9 +320,10 @@
     "license": "Unknown License"
   },
   {
-    "url": "https://github.com/cloudfoundry",
-    "stars": "N/A",
-    "license": "Unknown License"
+    "url": "https://github.com/cloudfoundry/cf-release",
+    "stars": 605,
+    "license": "Unknown License",
+    "description": "Cloud Foundry Release"
   },
   {
     "url": "https://github.com/cloudify",
@@ -334,14 +337,15 @@
   },
   {
     "url": "https://github.com/codedellemc/rexray",
-    "stars": 1047,
+    "stars": 1048,
     "license": "Apache-2.0",
     "description": "REX-Ray is a container storage orchestration engine enabling persistence for cloud native workloads"
   },
   {
-    "url": "https://github.com/concourse",
-    "stars": "N/A",
-    "license": "Unknown License"
+    "url": "https://github.com/concourse/concourse",
+    "stars": 2500,
+    "license": "Apache-2.0",
+    "description": "BOSH release and development workspace for Concourse"
   },
   {
     "url": "https://github.com/container-storage-interface",
@@ -356,13 +360,13 @@
   },
   {
     "url": "https://github.com/containernetworking/cni",
-    "stars": 1110,
+    "stars": 1111,
     "license": "Apache-2.0",
     "description": "Container Network Interface - networking for Linux containers"
   },
   {
     "url": "https://github.com/containous/traefik",
-    "stars": 12763,
+    "stars": 12766,
     "license": "MIT",
     "description": "Træfik, a modern reverse proxy"
   },
@@ -374,7 +378,7 @@
   },
   {
     "url": "https://github.com/coredns/coredns",
-    "stars": 1582,
+    "stars": 1583,
     "license": "Apache-2.0",
     "description": "CoreDNS is a DNS server that chains plugins"
   },
@@ -386,7 +390,7 @@
   },
   {
     "url": "https://github.com/coreos/etcd",
-    "stars": 16685,
+    "stars": 16687,
     "license": "Apache-2.0",
     "description": "Distributed reliable key-value store for the most critical data of a distributed system"
   },
@@ -455,7 +459,7 @@
   },
   {
     "url": "https://github.com/draios/sysdig",
-    "stars": 4818,
+    "stars": 4820,
     "license": "GPL-2.0",
     "description": "Linux system exploration and troubleshooting tool with first class support for containers"
   },
@@ -477,7 +481,7 @@
   },
   {
     "url": "https://github.com/envoyproxy/envoy",
-    "stars": 3781,
+    "stars": 3782,
     "license": "Apache-2.0",
     "description": "C++ front/service proxy"
   },
@@ -494,19 +498,20 @@
     "description": "Fluentd: Unified Logging Layer (project under CNCF)"
   },
   {
-    "url": "https://github.com/flynn",
-    "stars": "N/A",
-    "license": "Unknown License"
+    "url": "https://github.com/flynn/flynn",
+    "stars": 6495,
+    "license": "Unknown License",
+    "description": "A next generation open source platform as a service (PaaS)"
   },
   {
     "url": "https://github.com/getsentry/sentry",
-    "stars": 15525,
+    "stars": 15524,
     "license": "BSD-3-Clause",
     "description": "Sentry is a cross-platform crash reporting and aggregation platform."
   },
   {
     "url": "https://github.com/gitlabhq/gitlabhq",
-    "stars": 20332,
+    "stars": 20333,
     "license": "Unknown License",
     "description": "GitLab CE | Please open new issues in our issue tracker on GitLab.com"
   },
@@ -522,13 +527,8 @@
     "license": "Unknown License"
   },
   {
-    "url": "https://github.com/gopaddledemo",
-    "stars": "N/A",
-    "license": "Unknown License"
-  },
-  {
     "url": "https://github.com/grafana/grafana",
-    "stars": 20052,
+    "stars": 20053,
     "license": "Apache-2.0",
     "description": "The tool for beautiful monitoring and metric analytics & dashboards for Graphite, InfluxDB & Prometheus & More"
   },
@@ -540,7 +540,7 @@
   },
   {
     "url": "https://github.com/grpc/grpc",
-    "stars": 13459,
+    "stars": 13460,
     "license": "Apache-2.0",
     "description": "The C based gRPC (C++, Python, Ruby, Objective-C, PHP, C#)"
   },
@@ -575,7 +575,7 @@
   },
   {
     "url": "https://github.com/hashicorp/vault",
-    "stars": 8418,
+    "stars": 8420,
     "license": "MPL-2.0",
     "description": "A tool for secrets management, encryption as a service, and privileged access management"
   },
@@ -602,7 +602,7 @@
   },
   {
     "url": "https://github.com/influxdata/influxdb",
-    "stars": 12498,
+    "stars": 12497,
     "license": "Unknown License",
     "description": "Scalable datastore for metrics, events, and real-time analytics"
   },
@@ -629,13 +629,13 @@
   },
   {
     "url": "https://github.com/jhipster/generator-jhipster",
-    "stars": 9320,
+    "stars": 9319,
     "license": "Apache-2.0",
     "description": "Open Source application generator for creating Spring Boot + Angular projects in seconds!"
   },
   {
     "url": "https://github.com/joyent/containerpilot",
-    "stars": 857,
+    "stars": 858,
     "license": "MPL-2.0",
     "description": "A service for autodiscovery and configuration of applications running in containers"
   },
@@ -671,7 +671,7 @@
   },
   {
     "url": "https://github.com/kubeless/kubeless",
-    "stars": 1850,
+    "stars": 1851,
     "license": "Apache-2.0",
     "description": "Kubernetes Native Serverless Framework"
   },
@@ -682,7 +682,7 @@
   },
   {
     "url": "https://github.com/kubernetes/kubernetes",
-    "stars": 32105,
+    "stars": 32113,
     "license": "Apache-2.0",
     "description": "Production-Grade Container Scheduling and Management"
   },
@@ -710,7 +710,7 @@
   },
   {
     "url": "https://github.com/lxc/lxd",
-    "stars": 1640,
+    "stars": 1642,
     "license": "Apache-2.0",
     "description": "Daemon based on liblxc offering a REST API to manage containers"
   },
@@ -755,13 +755,13 @@
   },
   {
     "url": "https://github.com/moby/moby",
-    "stars": 47535,
+    "stars": 47534,
     "license": "Apache-2.0",
     "description": "Moby Project - a collaborative project for the container ecosystem to assemble container-based systems"
   },
   {
     "url": "https://github.com/mongodb/mongo",
-    "stars": 13049,
+    "stars": 13050,
     "license": "Unknown License",
     "description": "The MongoDB Database"
   },
@@ -811,7 +811,7 @@
   },
   {
     "url": "https://github.com/openfaas/faas",
-    "stars": 8551,
+    "stars": 8550,
     "license": "MIT",
     "description": "OpenFaaS - Serverless Functions Made Simple for Docker & Kubernetes"
   },
@@ -821,9 +821,10 @@
     "license": "Unknown License"
   },
   {
-    "url": "https://github.com/openshift/",
-    "stars": "N/A",
-    "license": "Unknown License"
+    "url": "https://github.com/openshift/origin",
+    "stars": 4032,
+    "license": "Apache-2.0",
+    "description": "Enterprise Kubernetes for Developers"
   },
   {
     "url": "https://github.com/openstack",
@@ -883,13 +884,8 @@
     "description": "Knox is a secret management service"
   },
   {
-    "url": "https://github.com/platformsh",
-    "stars": "N/A",
-    "license": "Unknown License"
-  },
-  {
     "url": "https://github.com/portainer/portainer",
-    "stars": 6610,
+    "stars": 6613,
     "license": "Unknown License",
     "description": "Simple management UI for Docker"
   },
@@ -917,7 +913,7 @@
   },
   {
     "url": "https://github.com/prometheus/prometheus",
-    "stars": 14488,
+    "stars": 14490,
     "license": "Apache-2.0",
     "description": "The Prometheus monitoring system and time series database."
   },
@@ -944,17 +940,12 @@
   },
   {
     "url": "https://github.com/rancher/rancher",
-    "stars": 7650,
+    "stars": 7651,
     "license": "Unknown License",
     "description": "Complete container management platform"
   },
   {
     "url": "https://github.com/redis",
-    "stars": "N/A",
-    "license": "Unknown License"
-  },
-  {
-    "url": "https://github.com/remind101",
     "stars": "N/A",
     "license": "Unknown License"
   },
@@ -971,7 +962,7 @@
   },
   {
     "url": "https://github.com/rkt/rkt",
-    "stars": 7753,
+    "stars": 7754,
     "license": "Apache-2.0",
     "description": "rkt is a pod-native container engine for Linux. It is composable, secure, and built on standards."
   },
@@ -1015,7 +1006,7 @@
   },
   {
     "url": "https://github.com/serverless/serverless",
-    "stars": 21613,
+    "stars": 21612,
     "license": "Unknown License",
     "description": "Serverless Framework – Build web, mobile and IoT applications with serverless architectures using AWS Lambda, Azure Functions, Google CloudFunctions & more! –"
   },
@@ -1048,9 +1039,10 @@
     "description": "The SPIFFE Runtime Environment"
   },
   {
-    "url": "https://github.com/spinnaker",
-    "stars": "N/A",
-    "license": "Unknown License"
+    "url": "https://github.com/spinnaker/spinnaker",
+    "stars": 4229,
+    "license": "Apache-2.0",
+    "description": "Spinnaker is an open source, multi-cloud continuous delivery platform for releasing software changes with high velocity and confidence."
   },
   {
     "url": "https://github.com/spring-cloud/spring-cloud-sleuth",
@@ -1146,13 +1138,13 @@
   },
   {
     "url": "https://github.com/weaveworks/flux",
-    "stars": 334,
+    "stars": 335,
     "license": "Apache-2.0",
     "description": "A tool for deploying container images to Kubernetes services"
   },
   {
     "url": "https://github.com/weaveworks/scope",
-    "stars": 2176,
+    "stars": 2177,
     "license": "Apache-2.0",
     "description": "Monitoring, visualisation & management for Docker & Kubernetes"
   },
@@ -1163,9 +1155,10 @@
     "description": "Simple, resilient multi-host Docker networking and more."
   },
   {
-    "url": "https://github.com/wercker",
-    "stars": "N/A",
-    "license": "Unknown License"
+    "url": "https://github.com/wercker/wercker",
+    "stars": 520,
+    "license": "Apache-2.0",
+    "description": "The Wercker CLI can be used to execute pipelines locally for both local development and easy introspection."
   },
   {
     "url": "https://github.com/xebialabs-community/xld-xldeploy-plugin",
