@@ -26,9 +26,13 @@ const ComboboxSelector = ({value, options, onChange}) => {
     displayEmpty
   >
     { options.map( (el) => (
-      <MenuItem key={idToValue(el.id)} value={idToValue(el.id)}>
-        <Checkbox checked={value.indexOf(el.id) !== -1} />
-        <ListItemText primary={el.label} />
+      <MenuItem key={idToValue(el.id)}
+                value={idToValue(el.id)}
+                style={{height:5}}
+                >
+        <Checkbox disableRipple checked={value.indexOf(el.id) !== -1} />
+        
+        <ListItemText disableTypography style={{fontSize:'0.7em'}} primary={el.label}/>
       </MenuItem>
     )) }
   </Select>

@@ -14,7 +14,9 @@ const ComboboxSelector = ({value, options, onChange}) => {
       onChange={(e) => onChange(valueToId(e.target.value))}
   >
     { options.map( (el) => (
-      <MenuItem key={idToValue(el.id)} value={idToValue(el.id)}>{el.label}</MenuItem>
+      <MenuItem key={idToValue(el.id)}
+                value={idToValue(el.id)}
+                style={{height:5, fontSize:'0.7em'}}>{el.label}</MenuItem>
     )) }
   </Select>
 };
