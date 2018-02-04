@@ -1278,41 +1278,6 @@
   ],
   "landscape": [
     {
-      "id": "Orchestration & Management",
-      "label": "Orchestration & Management",
-      "url": "orchestration-management",
-      "level": 1,
-      "children": [
-        "Orchestration & Management / Scheduling & Orchestration",
-        "Orchestration & Management / Coordination & Service Discovery",
-        "Orchestration & Management / Service Management"
-      ]
-    },
-    {
-      "id": "Orchestration & Management / Scheduling & Orchestration",
-      "parentId": "Orchestration & Management",
-      "label": "Scheduling & Orchestration",
-      "groupingLabel": "Orchestration & Management - Scheduling & Orchestration",
-      "url": "scheduling-orchestration",
-      "level": 2
-    },
-    {
-      "id": "Orchestration & Management / Coordination & Service Discovery",
-      "parentId": "Orchestration & Management",
-      "label": "Coordination & Service Discovery",
-      "groupingLabel": "Orchestration & Management - Coordination & Service Discovery",
-      "url": "coordination-service-discovery",
-      "level": 2
-    },
-    {
-      "id": "Orchestration & Management / Service Management",
-      "parentId": "Orchestration & Management",
-      "label": "Service Management",
-      "groupingLabel": "Orchestration & Management - Service Management",
-      "url": "service-management",
-      "level": 2
-    },
-    {
       "id": "Cloud",
       "label": "Cloud",
       "url": "cloud",
@@ -1424,6 +1389,41 @@
       "label": "Cloud-Native Network",
       "groupingLabel": "Runtime - Cloud-Native Network",
       "url": "cloud-native-network",
+      "level": 2
+    },
+    {
+      "id": "Orchestration & Management",
+      "label": "Orchestration & Management",
+      "url": "orchestration-management",
+      "level": 1,
+      "children": [
+        "Orchestration & Management / Scheduling & Orchestration",
+        "Orchestration & Management / Coordination & Service Discovery",
+        "Orchestration & Management / Service Management"
+      ]
+    },
+    {
+      "id": "Orchestration & Management / Scheduling & Orchestration",
+      "parentId": "Orchestration & Management",
+      "label": "Scheduling & Orchestration",
+      "groupingLabel": "Orchestration & Management - Scheduling & Orchestration",
+      "url": "scheduling-orchestration",
+      "level": 2
+    },
+    {
+      "id": "Orchestration & Management / Coordination & Service Discovery",
+      "parentId": "Orchestration & Management",
+      "label": "Coordination & Service Discovery",
+      "groupingLabel": "Orchestration & Management - Coordination & Service Discovery",
+      "url": "coordination-service-discovery",
+      "level": 2
+    },
+    {
+      "id": "Orchestration & Management / Service Management",
+      "parentId": "Orchestration & Management",
+      "label": "Service Management",
+      "groupingLabel": "Orchestration & Management - Service Management",
+      "url": "service-management",
       "level": 2
     },
     {

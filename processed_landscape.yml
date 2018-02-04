@@ -1,667 +1,6 @@
 # THIS FILE IS GENERATED AUTOMATICALLY!
 landscape:
   - category:
-    name: Orchestration & Management
-    subcategories:
-      - subcategory:
-        name: Scheduling & Orchestration
-        items:
-          - item:
-            name: Kubernetes
-            description: >-
-              Kubernetes is an open-source system for automating deployment,
-              scaling, and management of containerized applications
-            company: Cloud Native Computing Foundation (CNCF)
-            homepage_url: 'https://kubernetes.io/'
-            cncf_project: incubating
-            repo_url: 'https://github.com/kubernetes/kubernetes'
-            logo: >-
-              https://raw.githubusercontent.com/cncf/artwork/master/kubernetes/stacked/color/kubernetes-stacked-color.png
-            twitter: 'https://twitter.com/kubernetesio'
-            crunchbase: >-
-              https://www.crunchbase.com/organization/cloud-native-computing-foundation
-            market_cap: N/A
-            headquarters: 'San Francisco, California'
-            rank: 63493
-            stars: 32116
-            license: Apache-2.0
-            cncf_member: false
-          - item:
-            name: Amazon ECS
-            company: Amazon Web Services
-            homepage_url: 'https://aws.amazon.com/ecs/'
-            twitter: 'https://twitter.com/awscloud'
-            crunchbase: 'https://www.crunchbase.com/organization/amazon-web-services'
-            stock_ticker: AMZN
-            logo: >-
-              https://signalfx-82c9.kxcdn.com/wp-content/uploads/2016/03/integrations_awsecs@4x-500x500.png
-            market_cap: N/A
-            headquarters: 'Seattle, Washington'
-            rank: 10522
-            stars: N/A
-            license: NotOpenSource
-            description: >-
-              Amazon Web Services provides information technology infrastructure
-              services to businesses in the form of web services.
-            cncf_member: true
-          - item:
-            name: Nomad
-            company: HashiCorp
-            homepage_url: 'https://www.nomadproject.io/'
-            repo_url: 'https://github.com/hashicorp/nomad'
-            twitter: 'https://twitter.com/HashiCorp'
-            crunchbase: 'https://www.crunchbase.com/organization/hashicorp'
-            logo: 'https://hyzxph.media.zestyio.com/blog-nomad-list.svg'
-            market_cap: 74175000
-            headquarters: 'San Francisco, California'
-            rank: 949
-            stars: 3226
-            license: MPL-2.0
-            description: >-
-              Nomad is a flexible, enterprise-grade cluster scheduler designed
-              to easily integrate into existing workflows. Nomad can run a
-              diverse workload of micro-service, batch, containerized and
-              non-containerized applications. Nomad is easy to operate and scale
-              and integrates seamlessly with Consul and Vault.
-            cncf_member: false
-          - item:
-            name: Mesos
-            company: Apache Software Foundation
-            homepage_url: 'http://mesos.apache.org/'
-            repo_url: 'https://github.com/apache/mesos'
-            logo: >-
-              https://mapr.com/blog/my-experience-running-docker-containers-on-mesos/assets/apache-mesos-logo.jpg
-            twitter: 'https://twitter.com/ApacheMesos'
-            crunchbase: 'https://www.crunchbase.com/organization/apache'
-            market_cap: N/A
-            headquarters: 'Forest Hill, Maryland'
-            rank: 84483
-            stars: 3524
-            license: Apache-2.0
-            description: Mirror of Apache Mesos
-            cncf_member: false
-          - item:
-            name: Microsoft Azure Service Fabric
-            company: Microsoft Azure Certified
-            homepage_url: 'https://azure.microsoft.com/en-us/services/service-fabric/'
-            repo_url: 'https://github.com/Azure/service-fabric'
-            logo: >-
-              https://raw.githubusercontent.com/Azure/service-fabric/master/service-fabric.png
-            stock ticker: MSFT
-            twitter: 'https://twitter.com/azure'
-            crunchbase: 'https://www.crunchbase.com/organization/microsoft-azure-certified'
-            market_cap: N/A
-            headquarters: N/A
-            rank: 60948
-            stars: 255
-            license: MIT
-            description: >-
-              This repository is the starting point to engage in and learn about
-              Service Fabric open source projects from Microsoft.
-            cncf_member: false
-          - item:
-            name: Docker Swarm
-            company: Docker
-            homepage_url: 'https://docs.docker.com/engine/swarm/'
-            repo_url: 'https://github.com/docker/swarm'
-            logo: 'https://raw.githubusercontent.com/docker/swarm/master/logo.png'
-            twitter: 'https://twitter.com/Docker'
-            crunchbase: 'https://www.crunchbase.com/organization/docker'
-            market_cap: 242766694
-            headquarters: 'San Francisco, California'
-            rank: 471
-            stars: 4985
-            license: Apache-2.0
-            description: 'Swarm: a Docker-native clustering system'
-            cncf_member: true
-      - subcategory:
-        name: Coordination & Service Discovery
-        items:
-          - item:
-            name: etcd
-            company: CoreOS
-            homepage_url: 'https://coreos.com/etcd/'
-            repo_url: 'https://github.com/coreos/etcd'
-            logo: >-
-              https://n40lab.files.wordpress.com/2016/08/etcd1.png?w=163&h=217&crop=1
-            twitter: 'https://twitter.com/coreos/'
-            crunchbase: 'https://www.crunchbase.com/organization/coreos'
-            market_cap: 50000000
-            headquarters: 'San Francisco, California'
-            rank: 1547
-            stars: 16687
-            license: Apache-2.0
-            description: >-
-              Distributed reliable key-value store for the most critical data of
-              a distributed system
-            cncf_member: true
-          - item:
-            name: Consul
-            company: HashiCorp
-            homepage_url: 'https://www.consul.io/'
-            repo_url: 'https://github.com/hashicorp/consul'
-            logo: >-
-              https://raw.githubusercontent.com/ServiceStack/Assets/master/img/livedemos/techstacks/consul-logo.png
-            twitter: 'https://twitter.com/HashiCorp'
-            crunchbase: 'https://www.crunchbase.com/organization/hashicorp'
-            market_cap: 74175000
-            headquarters: 'San Francisco, California'
-            rank: 949
-            stars: 11294
-            license: MPL-2.0
-            description: >-
-              Consul is a distributed, highly available, and data center aware
-              solution to connect and configure applications across dynamic,
-              distributed infrastructure.
-            cncf_member: false
-          - item:
-            name: Zookeeper
-            company: Apache Software Foundation
-            homepage_url: 'http://zookeeper.apache.org/'
-            repo_url: 'https://github.com/apache/zookeeper'
-            logo: >-
-              https://www.opsview.com/sites/default/files/Zookeeper%20Logo%20REV.png
-            twitter: 'https://twitter.com/TheASF'
-            crunchbase: 'https://www.crunchbase.com/organization/apache'
-            market_cap: N/A
-            headquarters: 'Forest Hill, Maryland'
-            rank: 84483
-            stars: 3914
-            license: Apache-2.0
-            description: Mirror of Apache Hadoop ZooKeeper
-            cncf_member: false
-          - item:
-            name: ContainerPilot
-            company: Joyent
-            homepage_url: 'https://www.joyent.com/containerpilot'
-            repo_url: 'https://github.com/joyent/containerpilot'
-            logo: >-
-              https://github.com/alexcontini/alexcontini.github.io/blob/master/ContainerPilot-logo%20(1)-01.png?raw=true
-            twitter: 'https://twitter.com/joyent'
-            crunchbase: 'https://www.crunchbase.com/organization/joyent'
-            market_cap: 130999998
-            headquarters: 'San Francisco, California'
-            rank: 1644
-            stars: 858
-            license: MPL-2.0
-            description: >-
-              A service for autodiscovery and configuration of applications
-              running in containers
-            cncf_member: true
-          - item:
-            name: SkyDNS
-            company: Skynet Services
-            homepage_url: 'https://github.com/skynetservices/skydns'
-            repo_url: 'https://github.com/skynetservices/skydns'
-            logo: 'https://memz.co/wp-content/uploads/2016/07/skydns.jpg'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
-            rank: Not Entered Yet
-            stars: 1717
-            license: MIT
-            description: DNS service discovery for etcd
-            cncf_member: false
-          - item:
-            name: CoreDNS
-            company: Cloud Native Computing Foundation (CNCF)
-            homepage_url: 'https://coredns.io/'
-            cncf_project: inception
-            repo_url: 'https://github.com/coredns/coredns'
-            logo: >-
-              https://github.com/cncf/artwork/blob/master/coredns/stacked/color/coredns-stacked-color.png
-            twitter: 'https://twitter.com/corednsio'
-            crunchbase: >-
-              https://www.crunchbase.com/organization/cloud-native-computing-foundation
-            market_cap: N/A
-            headquarters: 'San Francisco, California'
-            rank: 63493
-            stars: 1583
-            license: Apache-2.0
-            description: CoreDNS is a DNS server that chains plugins
-            cncf_member: false
-          - item:
-            name: Registrator
-            company: Glider Labs
-            homepage_url: 'http://gliderlabs.github.io/registrator/latest/'
-            repo_url: 'https://github.com/gliderlabs/registrator'
-            logo: 'https://avatars2.githubusercontent.com/u/8484931'
-            twitter: 'https://twitter.com/gliderlabs/'
-            crunchbase: 'https://www.crunchbase.com/organization/glider-labs'
-            market_cap: N/A
-            headquarters: 'Austin, Texas'
-            rank: N/A
-            stars: 3456
-            license: MIT
-            description: Service registry bridge for Docker with pluggable adapters
-            cncf_member: false
-          - item:
-            name: SmartStack
-            company: Airbnb
-            homepage_url: 'https://github.com/airbnb/smartstack-cookbook'
-            repo_url: 'https://github.com/airbnb/smartstack-cookbook'
-            logo: ./src/hosted_logos/smart-stack.png
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
-            rank: Not Entered Yet
-            stars: 205
-            license: MIT
-            description: The chef recipes for running and testing Airbnb's SmartStack
-            cncf_member: false
-          - item:
-            name: Hyperbahn
-            company: Uber
-            homepage_url: 'https://github.com/uber-archive/hyperbahn'
-            repo_url: 'https://github.com/uber-archive/hyperbahn'
-            logo: >-
-              http://thriftyzone.thriftysigns.netdna-cdn.com/image/cache/data/decals/travel/uber-logo-decal-sticker-uber-logo-500x500.png
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
-            rank: Not Entered Yet
-            stars: 373
-            license: MIT
-            description: >-
-              Service discovery and routing for large scale microservice
-              operations
-            cncf_member: false
-          - item:
-            name: Eureka
-            company: Netflix
-            homepage_url: 'https://github.com/Netflix/eureka'
-            repo_url: 'https://github.com/Netflix/eureka'
-            logo: ./src/hosted_logos/netflix-eureka.png
-            stock_ticker: NFLX
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
-            rank: Not Entered Yet
-            stars: 4734
-            license: Apache-2.0
-            description: >-
-              AWS Service registry for resilient mid-tier load balancing and
-              failover.
-            cncf_member: false
-          - item:
-            name: Haret
-            company: VMware
-            homepage_url: 'https://github.com/vmware/haret'
-            repo_url: 'https://github.com/vmware/haret'
-            logo: >-
-              http://logodatabases.com/wp-content/uploads/2012/05/vmware-logo-black.jpg
-            twitter: 'https://twitter.com/VMware'
-            crunchbase: 'https://www.crunchbase.com/organization/vmware'
-            market_cap: 393500000
-            headquarters: 'Palo Alto, California'
-            rank: 5559
-            stars: 466
-            license: Unknown License
-            description: >-
-              A strongly consistent distributed coordination system, built using
-              proven protocols & implemented in Rust.
-            cncf_member: true
-      - subcategory:
-        name: Service Management
-        items:
-          - item:
-            name: 3Scale
-            company: Red Hat
-            homepage_url: 'https://www.3scale.net/'
-            repo_url: 'https://github.com/3scale/apicast'
-            logo: >-
-              https://www.3scale.net/wp-content/uploads/2015/01/3scale-by-redhat.png
-            twitter: 'https://twitter.com/3scale'
-            crunchbase: 'https://www.crunchbase.com/organization/red-hat'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
-            rank: Not Entered Yet
-            stars: 65
-            license: Apache-2.0
-            description: 3scale api gateway reloaded
-            cncf_member: true
-          - item:
-            name: NGINX
-            company: 'NGINX, Inc.'
-            homepage_url: 'https://www.nginx.com/'
-            repo_url: 'https://github.com/nginx/nginx'
-            logo: >-
-              https://cdn-1.wp.nginx.com/wp-content/themes/nginx-theme/assets/img/logo.png
-            twitter: 'https://twitter.com/nginx'
-            crunchbase: 'https://www.crunchbase.com/organization/nginx'
-            market_cap: 41000000
-            headquarters: 'San Francisco, California'
-            rank: 3518
-            stars: 5183
-            license: Unknown License
-            description: >-
-              An official read-only mirror of http://hg.nginx.org/nginx/ which
-              is updated hourly. Pull requests on GitHub cannot be accepted and
-              will be automatically closed. The proper way to submit changes to
-              nginx is via the nginx development mailing list, see
-              http://nginx.org/en/docs/contributing_changes.html
-            cncf_member: false
-          - item:
-            name: HAProxy
-            company: HAProxy Technologies
-            homepage_url: 'https://www.haproxy.org/'
-            repo_url: 'https://github.com/haproxy/haproxy'
-            logo: 'https://www.esds.co.in/blog/wp-content/uploads/2016/05/HAProxy.png'
-            twitter: 'https://twitter.com/haproxy_tech'
-            crunchbase: 'https://www.crunchbase.com/organization/haproxy-technologies'
-            market_cap: N/A
-            headquarters: 'Waltham, Massachusetts'
-            rank: 86853
-            stars: 873
-            license: Unknown License
-            description: >-
-              UNOFFICIAL fork of haproxy development repository - ISSUE REPORTS
-              ARE IGNORED!
-            cncf_member: false
-          - item:
-            name: Linkerd
-            company: Cloud Native Computing Foundation (CNCF)
-            homepage_url: 'https://linkerd.io/'
-            cncf_project: inception
-            repo_url: 'https://github.com/linkerd/linkerd'
-            logo: >-
-              https://raw.githubusercontent.com/cncf/artwork/master/linkerd/stacked/color/linkerd-stacked-color.png
-            twitter: 'https://twitter.com/linkerd'
-            crunchbase: >-
-              https://www.crunchbase.com/organization/cloud-native-computing-foundation
-            market_cap: N/A
-            headquarters: 'San Francisco, California'
-            rank: 63493
-            stars: 3502
-            license: Apache-2.0
-            description: Production-grade feature-rich service mesh for any platform
-            cncf_member: false
-          - item:
-            name: Envoy
-            company: Cloud Native Computing Foundation (CNCF)
-            homepage_url: 'https://envoyproxy.github.io/'
-            cncf_project: incubating
-            repo_url: 'https://github.com/envoyproxy/envoy'
-            logo: >-
-              https://github.com/cncf/artwork/blob/master/envoy/stacked/color/envoy-stacked-color.png
-            stock_ticker: LYFT
-            twitter: 'https://twitter.com/envoyproxy'
-            crunchbase: >-
-              https://www.crunchbase.com/organization/cloud-native-computing-foundation
-            market_cap: N/A
-            headquarters: 'San Francisco, California'
-            rank: 63493
-            stars: 3782
-            license: Apache-2.0
-            description: C++ front/service proxy
-            cncf_member: false
-          - item:
-            name: Ambassador
-            company: Datawire
-            homepage_url: 'https://www.getambassador.io/'
-            repo_url: 'https://github.com/datawire/ambassador'
-            logo: >-
-              https://www.datawire.io/wp-content/uploads/2017/05/ambassador_logo@2x-1.png
-            twitter: 'https://twitter.com/datawireio'
-            crunchbase: 'https://www.crunchbase.com/organization/datawire'
-            market_cap: 250000
-            headquarters: 'Cambridge, Massachusetts'
-            rank: 20948
-            stars: 312
-            license: Apache-2.0
-            description: >-
-              Kubernetes-native API gateway for microservices built on the Envoy
-              Proxy
-            cncf_member: true
-          - item:
-            name: Traefik
-            company: Containous
-            homepage_url: 'https://traefik.io/'
-            repo_url: 'https://github.com/containous/traefik'
-            logo: >-
-              https://raw.githubusercontent.com/containous/traefik/master/docs/img/traefik.logo.png
-            twitter: 'https://twitter.com/traefikproxy'
-            crunchbase: 'https://www.crunchbase.com/organization/containous'
-            market_cap: 1000000
-            headquarters: 'Lyon, France'
-            rank: 23352
-            stars: 12766
-            license: MIT
-            description: 'Træfik, a modern reverse proxy'
-            cncf_member: false
-          - item:
-            name: Turbine Labs
-            company: Turbine Labs
-            homepage_url: 'https://www.turbinelabs.io/'
-            repo_url: 'https://github.com/turbinelabs'
-            logo: >-
-              https://cdn-images-1.medium.com/max/1920/1*89vDpBsh4u6g8RwXTWtBHQ@2x.png
-            twitter: 'https://twitter.com/GoTurbine'
-            crunchbase: 'https://www.crunchbase.com/organization/turbine-labs-2'
-            market_cap: N/A
-            headquarters: N/A
-            rank: 94227
-            stars: N/A
-            license: Unknown License
-            description: Turbine Labs
-            cncf_member: false
-          - item:
-            name: Avi Networks
-            company: Avi Networks
-            homepage_url: 'https://avinetworks.com/'
-            logo: >-
-              https://avinetworks.com/wp-content/uploads/2017/06/Avi-Logo-Transparent-Background-Hi-Res-2.png
-            twitter: 'https://twitter.com/AviNetworks'
-            crunchbase: 'https://www.crunchbase.com/organization/avi-networks-inc'
-            market_cap: 33000000
-            headquarters: 'Santa Clara, California'
-            rank: 2258
-            stars: N/A
-            license: NotOpenSource
-            description: >-
-              Avi Networks is a Silicon Valley startup with proven track record
-              in building virtualization, networking and software solutions.
-            cncf_member: true
-          - item:
-            name: gRPC
-            company: Cloud Native Computing Foundation (CNCF)
-            homepage_url: 'https://grpc.io/'
-            cncf_project: incubating
-            repo_url: 'https://github.com/grpc/grpc'
-            logo: >-
-              https://raw.githubusercontent.com/cncf/artwork/master/grpc/horizontal/color/grpc-horizontal-color.png
-            stock_ticker: ''
-            twitter: 'https://twitter.com/grpcio'
-            crunchbase: >-
-              https://www.crunchbase.com/organization/cloud-native-computing-foundation
-            market_cap: N/A
-            headquarters: 'San Francisco, California'
-            rank: 63493
-            stars: 13460
-            license: Apache-2.0
-            description: 'The C based gRPC (C++, Python, Ruby, Objective-C, PHP, C#)'
-            cncf_member: false
-          - item:
-            name: Apache Thrift
-            company: Apache Software Foundation
-            homepage_url: 'https://thrift.apache.org/'
-            repo_url: 'https://github.com/apache/thrift'
-            logo: >-
-              https://raw.githubusercontent.com/ServiceStack/Assets/master/img/livedemos/techstacks/apache-thrift-logo.png
-            twitter: 'https://twitter.com/TheASF'
-            crunchbase: 'https://www.crunchbase.com/organization/apache'
-            market_cap: N/A
-            headquarters: 'Forest Hill, Maryland'
-            rank: 84483
-            stars: 4403
-            license: Apache-2.0
-            description: Mirror of Apache Thrift
-            cncf_member: false
-          - item:
-            name: Apache Avro
-            company: Apache Software Foundation
-            homepage_url: 'https://avro.apache.org/'
-            repo_url: 'https://github.com/apache/avro'
-            logo: 'https://avro.apache.org/images/avro-logo.png'
-            twitter: 'https://twitter.com/TheASF'
-            crunchbase: 'https://www.crunchbase.com/organization/apache'
-            market_cap: N/A
-            headquarters: 'Forest Hill, Maryland'
-            rank: 84483
-            stars: 844
-            license: Apache-2.0
-            description: Mirror of Apache Avro
-            cncf_member: false
-          - item:
-            name: Vamp
-            company: magnetic.io
-            homepage_url: null
-            repo_url: 'https://github.com/magneticio/vamp'
-            logo: ./src/hosted_logos/vamp.png
-            twitter: 'https://twitter.com/vamp_io'
-            crunchbase: 'https://www.crunchbase.com/organization/magnetic-io'
-            market_cap: 635000
-            headquarters: 'Amsterdam, The Netherlands'
-            rank: 33078
-            stars: 572
-            license: Apache-2.0
-            description: Vamp - canary releasing and autoscaling for microservice systems
-            cncf_member: false
-          - item:
-            name: Weave Flux
-            company: Weaveworks
-            homepage_url: 'https://www.weave.works/oss/flux/'
-            repo_url: 'https://github.com/weaveworks/flux'
-            logo: >-
-              http://events17.linuxfoundation.org/sites/events/files/styles/sponsor_logo_large/public/sponsor-logos/sponsor-weaveworks_1.png
-            twitter: 'https://twitter.com/weaveworks'
-            crunchbase: 'https://www.crunchbase.com/organization/weaveworks'
-            market_cap: 20000000
-            headquarters: 'London, United Kingdom'
-            rank: 5353
-            stars: 335
-            license: Apache-2.0
-            description: A tool for deploying container images to Kubernetes services
-            cncf_member: true
-          - item:
-            name: Kong
-            company: Mashape API Marketplace
-            homepage_url: 'https://getkong.org/'
-            repo_url: 'https://github.com/Mashape/kong'
-            logo: >-
-              https://cdn-ssl-devio-img.classmethod.jp/wp-content/uploads/2015/06/kong.png
-            twitter: 'https://twitter.com/mashape'
-            crunchbase: 'https://www.crunchbase.com/organization/mashape'
-            market_cap: 26101000
-            headquarters: 'San Francisco, California'
-            rank: 4031
-            stars: 14216
-            license: Apache-2.0
-            description: "\U0001F412 The Microservice API Gateway"
-            cncf_member: false
-          - item:
-            name: Hystrix
-            company: Netflix
-            homepage_url: 'https://github.com/Netflix/Hystrix'
-            repo_url: 'https://github.com/Netflix/Hystrix'
-            logo: >-
-              https://camo.githubusercontent.com/e871b5d002a9699e7a2d9fa0178af5c72f0743e0/68747470733a2f2f6e6574666c69782e6769746875622e636f6d2f487973747269782f696d616765732f687973747269782d6c6f676f2d7461676c696e652d3835302e706e67
-            stock_ticker: NFLX
-            twitter: 'https://twitter.com/hystrixoss'
-            crunchbase: 'https://www.crunchbase.com/organization/netflix'
-            market_cap: 2803735952
-            headquarters: 'Los Gatos, California'
-            rank: 5
-            stars: 12455
-            license: Apache-2.0
-            description: >-
-              Hystrix is a latency and fault tolerance library designed to
-              isolate points of access to remote systems, services and 3rd party
-              libraries, stop cascading failure and enable resilience in complex
-              distributed systems where failure is inevitable.
-            cncf_member: false
-          - item:
-            name: OSS
-            company: Netflix
-            homepage_url: 'https://netflix.github.io/'
-            repo_url: 'https://github.com/Netflix/'
-            logo: 'https://avatars3.githubusercontent.com/u/913567'
-            stock_ticker: NFLX
-            twitter: 'https://twitter.com/netflixoss'
-            crunchbase: 'https://www.crunchbase.com/organization/netflix'
-            market_cap: 2803735952
-            headquarters: 'Los Gatos, California'
-            rank: 5
-            stars: N/A
-            license: Unknown License
-            description: >-
-              Netflix is an online platform that enables users to watch TV shows
-              and movies on smart TVs, PCs, Macs, mobiles, tablets, and so on. 
-            cncf_member: false
-          - item:
-            name: Ribbon
-            company: Netflix
-            homepage_url: 'https://github.com/Netflix/ribbon'
-            repo_url: 'https://github.com/Netflix/ribbon'
-            logo: ./src/hosted_logos/netflix-ribbon.png
-            stock_ticker: NFLX
-            twitter: 'https://twitter.com/netflixoss'
-            crunchbase: 'https://www.crunchbase.com/organization/netflix'
-            market_cap: 2803735952
-            headquarters: 'Los Gatos, California'
-            rank: 5
-            stars: 1845
-            license: Apache-2.0
-            description: >-
-              Ribbon is a Inter Process Communication (remote procedure calls)
-              library with built in software load balancers. The primary usage
-              model involves REST calls with various serialization scheme
-              support.
-            cncf_member: false
-          - item:
-            name: Zuul
-            company: Netflix
-            homepage_url: 'https://github.com/Netflix/zuul'
-            repo_url: 'https://github.com/Netflix/zuul'
-            logo: ./src/hosted_logos/netflix-zuul.png
-            stock_ticker: NFLX
-            twitter: 'https://twitter.com/netflixoss'
-            crunchbase: 'https://www.crunchbase.com/organization/netflix'
-            market_cap: 2803735952
-            headquarters: 'Los Gatos, California'
-            rank: 5
-            stars: 3764
-            license: Apache-2.0
-            description: >-
-              Zuul is a gateway service that provides dynamic routing,
-              monitoring, resiliency, security, and more.
-            cncf_member: false
-          - item:
-            name: Backplane
-            company: Backplane
-            homepage_url: 'https://www.backplane.io/'
-            logo: 'http://www.backplane.io/static/media/images/backplane.png'
-            twitter: 'https://twitter.com/backplaneio'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
-            rank: Not Entered Yet
-            stars: N/A
-            license: NotOpenSource
-            description: ''
-            cncf_member: false
-          - item:
-            name: F5
-            company: F5 Networks
-            homepage_url: 'https://f5.com/'
-            logo: 'https://dmcdn.f5.com/Portals/1/Images/F5/Logos/f5-fullcolor-lg.jpg'
-            twitter: 'https://twitter.com/F5Networks'
-            crunchbase: 'https://www.crunchbase.com/organization/f5-networks'
-            market_cap: N/A
-            headquarters: 'Seattle, Washington'
-            rank: 24409
-            stars: N/A
-            license: NotOpenSource
-            description: >-
-              F5 Networks provides application delivery networking technology
-              that optimizes the delivery of network-based applications.
-            cncf_member: false
-  - category:
     name: Cloud
     subcategories:
       - subcategory:
@@ -2626,6 +1965,667 @@ landscape:
             description: 'Simple, resilient multi-host Docker networking and more.'
             cncf_member: true
   - category:
+    name: Orchestration & Management
+    subcategories:
+      - subcategory:
+        name: Scheduling & Orchestration
+        items:
+          - item:
+            name: Kubernetes
+            description: >-
+              Kubernetes is an open-source system for automating deployment,
+              scaling, and management of containerized applications
+            company: Cloud Native Computing Foundation (CNCF)
+            homepage_url: 'https://kubernetes.io/'
+            cncf_project: incubating
+            repo_url: 'https://github.com/kubernetes/kubernetes'
+            logo: >-
+              https://raw.githubusercontent.com/cncf/artwork/master/kubernetes/stacked/color/kubernetes-stacked-color.png
+            twitter: 'https://twitter.com/kubernetesio'
+            crunchbase: >-
+              https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            market_cap: N/A
+            headquarters: 'San Francisco, California'
+            rank: 63493
+            stars: 32116
+            license: Apache-2.0
+            cncf_member: false
+          - item:
+            name: Amazon ECS
+            company: Amazon Web Services
+            homepage_url: 'https://aws.amazon.com/ecs/'
+            twitter: 'https://twitter.com/awscloud'
+            crunchbase: 'https://www.crunchbase.com/organization/amazon-web-services'
+            stock_ticker: AMZN
+            logo: >-
+              https://signalfx-82c9.kxcdn.com/wp-content/uploads/2016/03/integrations_awsecs@4x-500x500.png
+            market_cap: N/A
+            headquarters: 'Seattle, Washington'
+            rank: 10522
+            stars: N/A
+            license: NotOpenSource
+            description: >-
+              Amazon Web Services provides information technology infrastructure
+              services to businesses in the form of web services.
+            cncf_member: true
+          - item:
+            name: Nomad
+            company: HashiCorp
+            homepage_url: 'https://www.nomadproject.io/'
+            repo_url: 'https://github.com/hashicorp/nomad'
+            twitter: 'https://twitter.com/HashiCorp'
+            crunchbase: 'https://www.crunchbase.com/organization/hashicorp'
+            logo: 'https://hyzxph.media.zestyio.com/blog-nomad-list.svg'
+            market_cap: 74175000
+            headquarters: 'San Francisco, California'
+            rank: 949
+            stars: 3226
+            license: MPL-2.0
+            description: >-
+              Nomad is a flexible, enterprise-grade cluster scheduler designed
+              to easily integrate into existing workflows. Nomad can run a
+              diverse workload of micro-service, batch, containerized and
+              non-containerized applications. Nomad is easy to operate and scale
+              and integrates seamlessly with Consul and Vault.
+            cncf_member: false
+          - item:
+            name: Mesos
+            company: Apache Software Foundation
+            homepage_url: 'http://mesos.apache.org/'
+            repo_url: 'https://github.com/apache/mesos'
+            logo: >-
+              https://mapr.com/blog/my-experience-running-docker-containers-on-mesos/assets/apache-mesos-logo.jpg
+            twitter: 'https://twitter.com/ApacheMesos'
+            crunchbase: 'https://www.crunchbase.com/organization/apache'
+            market_cap: N/A
+            headquarters: 'Forest Hill, Maryland'
+            rank: 84483
+            stars: 3524
+            license: Apache-2.0
+            description: Mirror of Apache Mesos
+            cncf_member: false
+          - item:
+            name: Microsoft Azure Service Fabric
+            company: Microsoft Azure Certified
+            homepage_url: 'https://azure.microsoft.com/en-us/services/service-fabric/'
+            repo_url: 'https://github.com/Azure/service-fabric'
+            logo: >-
+              https://raw.githubusercontent.com/Azure/service-fabric/master/service-fabric.png
+            stock ticker: MSFT
+            twitter: 'https://twitter.com/azure'
+            crunchbase: 'https://www.crunchbase.com/organization/microsoft-azure-certified'
+            market_cap: N/A
+            headquarters: N/A
+            rank: 60948
+            stars: 255
+            license: MIT
+            description: >-
+              This repository is the starting point to engage in and learn about
+              Service Fabric open source projects from Microsoft.
+            cncf_member: false
+          - item:
+            name: Docker Swarm
+            company: Docker
+            homepage_url: 'https://docs.docker.com/engine/swarm/'
+            repo_url: 'https://github.com/docker/swarm'
+            logo: 'https://raw.githubusercontent.com/docker/swarm/master/logo.png'
+            twitter: 'https://twitter.com/Docker'
+            crunchbase: 'https://www.crunchbase.com/organization/docker'
+            market_cap: 242766694
+            headquarters: 'San Francisco, California'
+            rank: 471
+            stars: 4985
+            license: Apache-2.0
+            description: 'Swarm: a Docker-native clustering system'
+            cncf_member: true
+      - subcategory:
+        name: Coordination & Service Discovery
+        items:
+          - item:
+            name: etcd
+            company: CoreOS
+            homepage_url: 'https://coreos.com/etcd/'
+            repo_url: 'https://github.com/coreos/etcd'
+            logo: >-
+              https://n40lab.files.wordpress.com/2016/08/etcd1.png?w=163&h=217&crop=1
+            twitter: 'https://twitter.com/coreos/'
+            crunchbase: 'https://www.crunchbase.com/organization/coreos'
+            market_cap: 50000000
+            headquarters: 'San Francisco, California'
+            rank: 1547
+            stars: 16687
+            license: Apache-2.0
+            description: >-
+              Distributed reliable key-value store for the most critical data of
+              a distributed system
+            cncf_member: true
+          - item:
+            name: Consul
+            company: HashiCorp
+            homepage_url: 'https://www.consul.io/'
+            repo_url: 'https://github.com/hashicorp/consul'
+            logo: >-
+              https://raw.githubusercontent.com/ServiceStack/Assets/master/img/livedemos/techstacks/consul-logo.png
+            twitter: 'https://twitter.com/HashiCorp'
+            crunchbase: 'https://www.crunchbase.com/organization/hashicorp'
+            market_cap: 74175000
+            headquarters: 'San Francisco, California'
+            rank: 949
+            stars: 11294
+            license: MPL-2.0
+            description: >-
+              Consul is a distributed, highly available, and data center aware
+              solution to connect and configure applications across dynamic,
+              distributed infrastructure.
+            cncf_member: false
+          - item:
+            name: Zookeeper
+            company: Apache Software Foundation
+            homepage_url: 'http://zookeeper.apache.org/'
+            repo_url: 'https://github.com/apache/zookeeper'
+            logo: >-
+              https://www.opsview.com/sites/default/files/Zookeeper%20Logo%20REV.png
+            twitter: 'https://twitter.com/TheASF'
+            crunchbase: 'https://www.crunchbase.com/organization/apache'
+            market_cap: N/A
+            headquarters: 'Forest Hill, Maryland'
+            rank: 84483
+            stars: 3914
+            license: Apache-2.0
+            description: Mirror of Apache Hadoop ZooKeeper
+            cncf_member: false
+          - item:
+            name: ContainerPilot
+            company: Joyent
+            homepage_url: 'https://www.joyent.com/containerpilot'
+            repo_url: 'https://github.com/joyent/containerpilot'
+            logo: >-
+              https://github.com/alexcontini/alexcontini.github.io/blob/master/ContainerPilot-logo%20(1)-01.png?raw=true
+            twitter: 'https://twitter.com/joyent'
+            crunchbase: 'https://www.crunchbase.com/organization/joyent'
+            market_cap: 130999998
+            headquarters: 'San Francisco, California'
+            rank: 1644
+            stars: 858
+            license: MPL-2.0
+            description: >-
+              A service for autodiscovery and configuration of applications
+              running in containers
+            cncf_member: true
+          - item:
+            name: SkyDNS
+            company: Skynet Services
+            homepage_url: 'https://github.com/skynetservices/skydns'
+            repo_url: 'https://github.com/skynetservices/skydns'
+            logo: 'https://memz.co/wp-content/uploads/2016/07/skydns.jpg'
+            market_cap: Not Entered Yet
+            headquarters: Not Entered Yet
+            rank: Not Entered Yet
+            stars: 1717
+            license: MIT
+            description: DNS service discovery for etcd
+            cncf_member: false
+          - item:
+            name: CoreDNS
+            company: Cloud Native Computing Foundation (CNCF)
+            homepage_url: 'https://coredns.io/'
+            cncf_project: inception
+            repo_url: 'https://github.com/coredns/coredns'
+            logo: >-
+              https://github.com/cncf/artwork/blob/master/coredns/stacked/color/coredns-stacked-color.png
+            twitter: 'https://twitter.com/corednsio'
+            crunchbase: >-
+              https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            market_cap: N/A
+            headquarters: 'San Francisco, California'
+            rank: 63493
+            stars: 1583
+            license: Apache-2.0
+            description: CoreDNS is a DNS server that chains plugins
+            cncf_member: false
+          - item:
+            name: Registrator
+            company: Glider Labs
+            homepage_url: 'http://gliderlabs.github.io/registrator/latest/'
+            repo_url: 'https://github.com/gliderlabs/registrator'
+            logo: 'https://avatars2.githubusercontent.com/u/8484931'
+            twitter: 'https://twitter.com/gliderlabs/'
+            crunchbase: 'https://www.crunchbase.com/organization/glider-labs'
+            market_cap: N/A
+            headquarters: 'Austin, Texas'
+            rank: N/A
+            stars: 3456
+            license: MIT
+            description: Service registry bridge for Docker with pluggable adapters
+            cncf_member: false
+          - item:
+            name: SmartStack
+            company: Airbnb
+            homepage_url: 'https://github.com/airbnb/smartstack-cookbook'
+            repo_url: 'https://github.com/airbnb/smartstack-cookbook'
+            logo: ./src/hosted_logos/smart-stack.png
+            market_cap: Not Entered Yet
+            headquarters: Not Entered Yet
+            rank: Not Entered Yet
+            stars: 205
+            license: MIT
+            description: The chef recipes for running and testing Airbnb's SmartStack
+            cncf_member: false
+          - item:
+            name: Hyperbahn
+            company: Uber
+            homepage_url: 'https://github.com/uber-archive/hyperbahn'
+            repo_url: 'https://github.com/uber-archive/hyperbahn'
+            logo: >-
+              http://thriftyzone.thriftysigns.netdna-cdn.com/image/cache/data/decals/travel/uber-logo-decal-sticker-uber-logo-500x500.png
+            market_cap: Not Entered Yet
+            headquarters: Not Entered Yet
+            rank: Not Entered Yet
+            stars: 373
+            license: MIT
+            description: >-
+              Service discovery and routing for large scale microservice
+              operations
+            cncf_member: false
+          - item:
+            name: Eureka
+            company: Netflix
+            homepage_url: 'https://github.com/Netflix/eureka'
+            repo_url: 'https://github.com/Netflix/eureka'
+            logo: ./src/hosted_logos/netflix-eureka.png
+            stock_ticker: NFLX
+            market_cap: Not Entered Yet
+            headquarters: Not Entered Yet
+            rank: Not Entered Yet
+            stars: 4734
+            license: Apache-2.0
+            description: >-
+              AWS Service registry for resilient mid-tier load balancing and
+              failover.
+            cncf_member: false
+          - item:
+            name: Haret
+            company: VMware
+            homepage_url: 'https://github.com/vmware/haret'
+            repo_url: 'https://github.com/vmware/haret'
+            logo: >-
+              http://logodatabases.com/wp-content/uploads/2012/05/vmware-logo-black.jpg
+            twitter: 'https://twitter.com/VMware'
+            crunchbase: 'https://www.crunchbase.com/organization/vmware'
+            market_cap: 393500000
+            headquarters: 'Palo Alto, California'
+            rank: 5559
+            stars: 466
+            license: Unknown License
+            description: >-
+              A strongly consistent distributed coordination system, built using
+              proven protocols & implemented in Rust.
+            cncf_member: true
+      - subcategory:
+        name: Service Management
+        items:
+          - item:
+            name: 3Scale
+            company: Red Hat
+            homepage_url: 'https://www.3scale.net/'
+            repo_url: 'https://github.com/3scale/apicast'
+            logo: >-
+              https://www.3scale.net/wp-content/uploads/2015/01/3scale-by-redhat.png
+            twitter: 'https://twitter.com/3scale'
+            crunchbase: 'https://www.crunchbase.com/organization/red-hat'
+            market_cap: Not Entered Yet
+            headquarters: Not Entered Yet
+            rank: Not Entered Yet
+            stars: 65
+            license: Apache-2.0
+            description: 3scale api gateway reloaded
+            cncf_member: true
+          - item:
+            name: NGINX
+            company: 'NGINX, Inc.'
+            homepage_url: 'https://www.nginx.com/'
+            repo_url: 'https://github.com/nginx/nginx'
+            logo: >-
+              https://cdn-1.wp.nginx.com/wp-content/themes/nginx-theme/assets/img/logo.png
+            twitter: 'https://twitter.com/nginx'
+            crunchbase: 'https://www.crunchbase.com/organization/nginx'
+            market_cap: 41000000
+            headquarters: 'San Francisco, California'
+            rank: 3518
+            stars: 5183
+            license: Unknown License
+            description: >-
+              An official read-only mirror of http://hg.nginx.org/nginx/ which
+              is updated hourly. Pull requests on GitHub cannot be accepted and
+              will be automatically closed. The proper way to submit changes to
+              nginx is via the nginx development mailing list, see
+              http://nginx.org/en/docs/contributing_changes.html
+            cncf_member: false
+          - item:
+            name: HAProxy
+            company: HAProxy Technologies
+            homepage_url: 'https://www.haproxy.org/'
+            repo_url: 'https://github.com/haproxy/haproxy'
+            logo: 'https://www.esds.co.in/blog/wp-content/uploads/2016/05/HAProxy.png'
+            twitter: 'https://twitter.com/haproxy_tech'
+            crunchbase: 'https://www.crunchbase.com/organization/haproxy-technologies'
+            market_cap: N/A
+            headquarters: 'Waltham, Massachusetts'
+            rank: 86853
+            stars: 873
+            license: Unknown License
+            description: >-
+              UNOFFICIAL fork of haproxy development repository - ISSUE REPORTS
+              ARE IGNORED!
+            cncf_member: false
+          - item:
+            name: Linkerd
+            company: Cloud Native Computing Foundation (CNCF)
+            homepage_url: 'https://linkerd.io/'
+            cncf_project: inception
+            repo_url: 'https://github.com/linkerd/linkerd'
+            logo: >-
+              https://raw.githubusercontent.com/cncf/artwork/master/linkerd/stacked/color/linkerd-stacked-color.png
+            twitter: 'https://twitter.com/linkerd'
+            crunchbase: >-
+              https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            market_cap: N/A
+            headquarters: 'San Francisco, California'
+            rank: 63493
+            stars: 3502
+            license: Apache-2.0
+            description: Production-grade feature-rich service mesh for any platform
+            cncf_member: false
+          - item:
+            name: Envoy
+            company: Cloud Native Computing Foundation (CNCF)
+            homepage_url: 'https://envoyproxy.github.io/'
+            cncf_project: incubating
+            repo_url: 'https://github.com/envoyproxy/envoy'
+            logo: >-
+              https://github.com/cncf/artwork/blob/master/envoy/stacked/color/envoy-stacked-color.png
+            stock_ticker: LYFT
+            twitter: 'https://twitter.com/envoyproxy'
+            crunchbase: >-
+              https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            market_cap: N/A
+            headquarters: 'San Francisco, California'
+            rank: 63493
+            stars: 3782
+            license: Apache-2.0
+            description: C++ front/service proxy
+            cncf_member: false
+          - item:
+            name: Ambassador
+            company: Datawire
+            homepage_url: 'https://www.getambassador.io/'
+            repo_url: 'https://github.com/datawire/ambassador'
+            logo: >-
+              https://www.datawire.io/wp-content/uploads/2017/05/ambassador_logo@2x-1.png
+            twitter: 'https://twitter.com/datawireio'
+            crunchbase: 'https://www.crunchbase.com/organization/datawire'
+            market_cap: 250000
+            headquarters: 'Cambridge, Massachusetts'
+            rank: 20948
+            stars: 312
+            license: Apache-2.0
+            description: >-
+              Kubernetes-native API gateway for microservices built on the Envoy
+              Proxy
+            cncf_member: true
+          - item:
+            name: Traefik
+            company: Containous
+            homepage_url: 'https://traefik.io/'
+            repo_url: 'https://github.com/containous/traefik'
+            logo: >-
+              https://raw.githubusercontent.com/containous/traefik/master/docs/img/traefik.logo.png
+            twitter: 'https://twitter.com/traefikproxy'
+            crunchbase: 'https://www.crunchbase.com/organization/containous'
+            market_cap: 1000000
+            headquarters: 'Lyon, France'
+            rank: 23352
+            stars: 12766
+            license: MIT
+            description: 'Træfik, a modern reverse proxy'
+            cncf_member: false
+          - item:
+            name: Turbine Labs
+            company: Turbine Labs
+            homepage_url: 'https://www.turbinelabs.io/'
+            repo_url: 'https://github.com/turbinelabs'
+            logo: >-
+              https://cdn-images-1.medium.com/max/1920/1*89vDpBsh4u6g8RwXTWtBHQ@2x.png
+            twitter: 'https://twitter.com/GoTurbine'
+            crunchbase: 'https://www.crunchbase.com/organization/turbine-labs-2'
+            market_cap: N/A
+            headquarters: N/A
+            rank: 94227
+            stars: N/A
+            license: Unknown License
+            description: Turbine Labs
+            cncf_member: false
+          - item:
+            name: Avi Networks
+            company: Avi Networks
+            homepage_url: 'https://avinetworks.com/'
+            logo: >-
+              https://avinetworks.com/wp-content/uploads/2017/06/Avi-Logo-Transparent-Background-Hi-Res-2.png
+            twitter: 'https://twitter.com/AviNetworks'
+            crunchbase: 'https://www.crunchbase.com/organization/avi-networks-inc'
+            market_cap: 33000000
+            headquarters: 'Santa Clara, California'
+            rank: 2258
+            stars: N/A
+            license: NotOpenSource
+            description: >-
+              Avi Networks is a Silicon Valley startup with proven track record
+              in building virtualization, networking and software solutions.
+            cncf_member: true
+          - item:
+            name: gRPC
+            company: Cloud Native Computing Foundation (CNCF)
+            homepage_url: 'https://grpc.io/'
+            cncf_project: incubating
+            repo_url: 'https://github.com/grpc/grpc'
+            logo: >-
+              https://raw.githubusercontent.com/cncf/artwork/master/grpc/horizontal/color/grpc-horizontal-color.png
+            stock_ticker: ''
+            twitter: 'https://twitter.com/grpcio'
+            crunchbase: >-
+              https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            market_cap: N/A
+            headquarters: 'San Francisco, California'
+            rank: 63493
+            stars: 13460
+            license: Apache-2.0
+            description: 'The C based gRPC (C++, Python, Ruby, Objective-C, PHP, C#)'
+            cncf_member: false
+          - item:
+            name: Apache Thrift
+            company: Apache Software Foundation
+            homepage_url: 'https://thrift.apache.org/'
+            repo_url: 'https://github.com/apache/thrift'
+            logo: >-
+              https://raw.githubusercontent.com/ServiceStack/Assets/master/img/livedemos/techstacks/apache-thrift-logo.png
+            twitter: 'https://twitter.com/TheASF'
+            crunchbase: 'https://www.crunchbase.com/organization/apache'
+            market_cap: N/A
+            headquarters: 'Forest Hill, Maryland'
+            rank: 84483
+            stars: 4403
+            license: Apache-2.0
+            description: Mirror of Apache Thrift
+            cncf_member: false
+          - item:
+            name: Apache Avro
+            company: Apache Software Foundation
+            homepage_url: 'https://avro.apache.org/'
+            repo_url: 'https://github.com/apache/avro'
+            logo: 'https://avro.apache.org/images/avro-logo.png'
+            twitter: 'https://twitter.com/TheASF'
+            crunchbase: 'https://www.crunchbase.com/organization/apache'
+            market_cap: N/A
+            headquarters: 'Forest Hill, Maryland'
+            rank: 84483
+            stars: 844
+            license: Apache-2.0
+            description: Mirror of Apache Avro
+            cncf_member: false
+          - item:
+            name: Vamp
+            company: magnetic.io
+            homepage_url: null
+            repo_url: 'https://github.com/magneticio/vamp'
+            logo: ./src/hosted_logos/vamp.png
+            twitter: 'https://twitter.com/vamp_io'
+            crunchbase: 'https://www.crunchbase.com/organization/magnetic-io'
+            market_cap: 635000
+            headquarters: 'Amsterdam, The Netherlands'
+            rank: 33078
+            stars: 572
+            license: Apache-2.0
+            description: Vamp - canary releasing and autoscaling for microservice systems
+            cncf_member: false
+          - item:
+            name: Weave Flux
+            company: Weaveworks
+            homepage_url: 'https://www.weave.works/oss/flux/'
+            repo_url: 'https://github.com/weaveworks/flux'
+            logo: >-
+              http://events17.linuxfoundation.org/sites/events/files/styles/sponsor_logo_large/public/sponsor-logos/sponsor-weaveworks_1.png
+            twitter: 'https://twitter.com/weaveworks'
+            crunchbase: 'https://www.crunchbase.com/organization/weaveworks'
+            market_cap: 20000000
+            headquarters: 'London, United Kingdom'
+            rank: 5353
+            stars: 335
+            license: Apache-2.0
+            description: A tool for deploying container images to Kubernetes services
+            cncf_member: true
+          - item:
+            name: Kong
+            company: Mashape API Marketplace
+            homepage_url: 'https://getkong.org/'
+            repo_url: 'https://github.com/Mashape/kong'
+            logo: >-
+              https://cdn-ssl-devio-img.classmethod.jp/wp-content/uploads/2015/06/kong.png
+            twitter: 'https://twitter.com/mashape'
+            crunchbase: 'https://www.crunchbase.com/organization/mashape'
+            market_cap: 26101000
+            headquarters: 'San Francisco, California'
+            rank: 4031
+            stars: 14216
+            license: Apache-2.0
+            description: "\U0001F412 The Microservice API Gateway"
+            cncf_member: false
+          - item:
+            name: Hystrix
+            company: Netflix
+            homepage_url: 'https://github.com/Netflix/Hystrix'
+            repo_url: 'https://github.com/Netflix/Hystrix'
+            logo: >-
+              https://camo.githubusercontent.com/e871b5d002a9699e7a2d9fa0178af5c72f0743e0/68747470733a2f2f6e6574666c69782e6769746875622e636f6d2f487973747269782f696d616765732f687973747269782d6c6f676f2d7461676c696e652d3835302e706e67
+            stock_ticker: NFLX
+            twitter: 'https://twitter.com/hystrixoss'
+            crunchbase: 'https://www.crunchbase.com/organization/netflix'
+            market_cap: 2803735952
+            headquarters: 'Los Gatos, California'
+            rank: 5
+            stars: 12455
+            license: Apache-2.0
+            description: >-
+              Hystrix is a latency and fault tolerance library designed to
+              isolate points of access to remote systems, services and 3rd party
+              libraries, stop cascading failure and enable resilience in complex
+              distributed systems where failure is inevitable.
+            cncf_member: false
+          - item:
+            name: OSS
+            company: Netflix
+            homepage_url: 'https://netflix.github.io/'
+            repo_url: 'https://github.com/Netflix/'
+            logo: 'https://avatars3.githubusercontent.com/u/913567'
+            stock_ticker: NFLX
+            twitter: 'https://twitter.com/netflixoss'
+            crunchbase: 'https://www.crunchbase.com/organization/netflix'
+            market_cap: 2803735952
+            headquarters: 'Los Gatos, California'
+            rank: 5
+            stars: N/A
+            license: Unknown License
+            description: >-
+              Netflix is an online platform that enables users to watch TV shows
+              and movies on smart TVs, PCs, Macs, mobiles, tablets, and so on. 
+            cncf_member: false
+          - item:
+            name: Ribbon
+            company: Netflix
+            homepage_url: 'https://github.com/Netflix/ribbon'
+            repo_url: 'https://github.com/Netflix/ribbon'
+            logo: ./src/hosted_logos/netflix-ribbon.png
+            stock_ticker: NFLX
+            twitter: 'https://twitter.com/netflixoss'
+            crunchbase: 'https://www.crunchbase.com/organization/netflix'
+            market_cap: 2803735952
+            headquarters: 'Los Gatos, California'
+            rank: 5
+            stars: 1845
+            license: Apache-2.0
+            description: >-
+              Ribbon is a Inter Process Communication (remote procedure calls)
+              library with built in software load balancers. The primary usage
+              model involves REST calls with various serialization scheme
+              support.
+            cncf_member: false
+          - item:
+            name: Zuul
+            company: Netflix
+            homepage_url: 'https://github.com/Netflix/zuul'
+            repo_url: 'https://github.com/Netflix/zuul'
+            logo: ./src/hosted_logos/netflix-zuul.png
+            stock_ticker: NFLX
+            twitter: 'https://twitter.com/netflixoss'
+            crunchbase: 'https://www.crunchbase.com/organization/netflix'
+            market_cap: 2803735952
+            headquarters: 'Los Gatos, California'
+            rank: 5
+            stars: 3764
+            license: Apache-2.0
+            description: >-
+              Zuul is a gateway service that provides dynamic routing,
+              monitoring, resiliency, security, and more.
+            cncf_member: false
+          - item:
+            name: Backplane
+            company: Backplane
+            homepage_url: 'https://www.backplane.io/'
+            logo: 'http://www.backplane.io/static/media/images/backplane.png'
+            twitter: 'https://twitter.com/backplaneio'
+            market_cap: Not Entered Yet
+            headquarters: Not Entered Yet
+            rank: Not Entered Yet
+            stars: N/A
+            license: NotOpenSource
+            description: ''
+            cncf_member: false
+          - item:
+            name: F5
+            company: F5 Networks
+            homepage_url: 'https://f5.com/'
+            logo: 'https://dmcdn.f5.com/Portals/1/Images/F5/Logos/f5-fullcolor-lg.jpg'
+            twitter: 'https://twitter.com/F5Networks'
+            crunchbase: 'https://www.crunchbase.com/organization/f5-networks'
+            market_cap: N/A
+            headquarters: 'Seattle, Washington'
+            rank: 24409
+            stars: N/A
+            license: NotOpenSource
+            description: >-
+              F5 Networks provides application delivery networking technology
+              that optimizes the delivery of network-based applications.
+            cncf_member: false
+  - category:
     name: App Definition and Developement
     subcategories:
       - subcategory:
@@ -3166,7 +3166,7 @@ landscape:
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
-            stars: 3080
+            stars: 3081
             license: Apache-2.0
             description: >-
               Heron is a realtime, distributed, fault-tolerant stream processing
@@ -4389,7 +4389,7 @@ landscape:
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
-            stars: 9319
+            stars: 9318
             license: Apache-2.0
             description: >-
               Open Source application generator for creating Spring Boot +
@@ -5049,7 +5049,7 @@ landscape:
             market_cap: 53000000
             headquarters: 'San Francisco, California'
             rank: 3414
-            stars: 4820
+            stars: 4819
             license: GPL-2.0
             description: >-
               Linux system exploration and troubleshooting tool with first class
