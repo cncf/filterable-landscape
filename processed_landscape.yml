@@ -296,7 +296,7 @@ landscape:
             description: >-
               A strongly consistent distributed coordination system, built using
               proven protocols & implemented in Rust.
-            cncf_member: false
+            cncf_member: true
       - subcategory:
         name: Service Management
         items:
@@ -887,7 +887,7 @@ landscape:
             homepage_url: 'https://www.openstack.org/'
             repo_url: 'https://github.com/openstack'
             raw_logo: >-
-              https://www.openstack.org/assets/openstack-logo/2016R/OpenStack-Logo-Horizontal.png
+              https://www.openstack.org/assets/openstack-logo/2016R/OpenStack-Logo-Vertical.png
             twitter: 'https://twitter.com/OpenStack'
             crunchbase: 'https://www.crunchbase.com/organization/openstack'
             market_cap: N/A
@@ -915,7 +915,7 @@ landscape:
             description: >-
               VMware is a software company providing cloud and virtualization
               services.
-            cncf_member: false
+            cncf_member: true
           - item:
             name: MAAS
             company: Canonical
@@ -1206,7 +1206,7 @@ landscape:
             description: >-
               An enterprise-class container registry server based on Docker
               Distribution
-            cncf_member: false
+            cncf_member: true
           - item:
             name: Azure Registry
             company: Microsoft
@@ -1763,16 +1763,18 @@ landscape:
             name: HDFS
             company: Hadoop
             homepage_url: 'http://hadoop.apache.org/'
-            repo_url: 'https://github.com/apache/hadoop'
+            repo_url: 'https://github.com/apache/hadoop-hdfs'
             raw_logo: 'http://previsna.com/bilder/hadoop-hdfs.png'
             twitter: 'https://twitter.com/TheASF'
             crunchbase: 'https://www.crunchbase.com/organization/hadoop'
             market_cap: N/A
             headquarters: N/A
             rank: 73009
-            stars: 5553
-            license: Apache-2.0
-            description: Mirror of Apache Hadoop
+            stars: N/A
+            license: NotOpenSource
+            description: >-
+              Hadoop is open-source software framework that facilitates the
+              distributed storage of data across clusters of computers.
             cncf_member: false
           - item:
             name: Minio
@@ -1825,7 +1827,7 @@ landscape:
             description: >-
               VMware is a software company providing cloud and virtualization
               services.
-            cncf_member: false
+            cncf_member: true
           - item:
             name: Pure Storage
             company: Pure Storage
@@ -2496,7 +2498,7 @@ landscape:
             stars: 50
             license: Unknown License
             description: A set of Neutron drivers for the VMware NSX.
-            cncf_member: false
+            cncf_member: true
           - item:
             name: Nuage Networks
             company: Nuage Networks
@@ -4035,7 +4037,7 @@ landscape:
             description: >-
               VMware is a software company providing cloud and virtualization
               services.
-            cncf_member: false
+            cncf_member: true
           - item:
             name: Platform.sh
             company: Platform.sh
