@@ -47,7 +47,7 @@ If the error is with data from [Crunchbase](https://www.crunchbase.com/) you sho
 
   landscape.yml => `yarn run babel-node tools/addExternalInfo`  => processed_landscape.yml => `yarn yaml2json` => src/data.json + src/lookup.json
 
-  processed_landscape.yml => `yarn run babel-node tools/fetchImages` => src/logos + src/styles/styles.scss + src/imageUrls.yml
+  processed_landscape.yml => `yarn run babel-node tools/fetchImages` => src/logos + src/styles/styles.scss + src/image_urls.yml
 
   `yarn run babel-node tools/addExternalInfo` uses these files:
   1) landscape.yml - our source
@@ -61,10 +61,10 @@ If the error is with data from [Crunchbase](https://www.crunchbase.com/) you sho
   `yarn run babel-node tools/fetchImages` uses these files:
   1) processed_landscape.yml - our source with extra fields from saved 3rd party data, so we get a proper company name
   2) src/hosted_logos - some logos are stored locally
-  3) src/imageUrls.yml - result from a previous run of this command. Saves us a time on image postprocessing
+  3) src/image_urls.yml - result from a previous run of this command. Saves us a time on image postprocessing
 
   When you change a code iteslf in tools/fetchImages.js, postprocessing may
-  fail, because the file src/imageUrls.yml contains the hash for an input image.
+  fail, because the file src/image_urls.yml contains the hash for an input image.
   Just run `yarn fetchAllImages` to load everything again.
 
   Examples:

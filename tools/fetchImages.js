@@ -21,9 +21,9 @@ const traverse = require('traverse');
 const source = require('js-yaml').safeLoad(require('fs').readFileSync('processed_landscape.yml'));
 var existingEntries = [];
 try {
-  existingEntries = require('js-yaml').safeLoad(fs.readFileSync('src/imageUrls.yml', 'utf-8'));
+  existingEntries = require('js-yaml').safeLoad(fs.readFileSync('src/image_urls.yml', 'utf-8'));
 } catch (ex) {
-  console.info('File src/imagesUrls.yml does not exist. New one will be created');
+  console.info('File src/image_urls.yml does not exist. New one will be created');
 }
 
 const tree = traverse(source);
@@ -53,7 +53,7 @@ var logos=[];
 
 async function fetchImages() {
   const promises = Promise.map(items, async function(item) {
-    var url = item.raw_logo;
+    var url = item.logo;
     if (url && url.indexOf('http') !== 0 && url.indexOf('.') !== 0) {
       console.info(`adding a prefix for ${url}`);
       url = 'http://' + url;
@@ -63,7 +63,7 @@ async function fetchImages() {
       url = url.replace('blob/', '');
     }
     if (!url) {
-      console.info(`"${item.name}" has no raw_logo`);
+      console.info(`"${item.name}" has no logo`);
       errors.push({
         name: item.name,
         logo: ''
@@ -103,22 +103,22 @@ async function fetchImages() {
             }
           }
         }
-        var hash = require('crypto').createHash('sha256').update(response).digest('hex');
+        var sha256 = require('crypto').createHash('sha256').update(response).digest('hex');
         const existingEntry = _.find(existingEntries, {url: url, fileName: fileName, name: saneName(item.id)});
-        if (!existingEntry || existingEntry.hash !== hash) {
+        if (!existingEntry || existingEntry.sha256 !== sha256) {
           if (ext === '.svg') {
             response = await svg2png(response, {width: 1024});
           }
           // console.info('normalizing image');
           await normalizeImage({inputFile: response,outputFile: fileName});
         }
-        logos.push({name: saneName(item.id), fileName: fileName, hash, url});
+        logos.push({name: saneName(item.id), fileName: fileName, sha256, url});
       } catch(ex) {
         console.info(`${item.name} has issues with logo: ${url}`);
         console.info(ex.message.substring(0, 100));
         errors.push({
           name: item.name,
-          logo: item.raw_logo
+          logo: item.logo
         });
       }
     }
@@ -144,7 +144,7 @@ async function generateCss() {
 async function writeUrlHashes() {
   var dump = require('js-yaml').dump(logos);
   dump = "# THIS FILE IS GENERATED AUTOMATICALLY based on landscape.yml via babel-node tools/fetchImages.js !\n" + dump;
-  fs.writeFileSync('src/imageUrls.yml', dump);
+  fs.writeFileSync('src/image_urls.yml', dump);
 }
 
 async function normalizeImage({inputFile, outputFile}) {
