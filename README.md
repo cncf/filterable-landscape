@@ -89,3 +89,11 @@ If the error is with data from [Crunchbase](https://www.crunchbase.com/) you sho
 
 ### rebuilding all images:
    `yarn fetchAllImages`
+
+### adding a custom image:
+   1) save it to the src/hosted_logos/, for example, src/hosted_logos/apex.png
+   2) update the landscape.yml with a  raw_logo, for exaple, `raw_logo: ./src/hosted_logos/apex.png`
+   3) handle it as usually when you modify any reference to the image:
+  - `yarn run babel-node tools/addExternalInfo`
+  - `yarn run babel-node tools/fetchImages`
+  - `yarn yaml2json`
