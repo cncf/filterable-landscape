@@ -1448,13 +1448,6 @@
   ],
   "license": [
     {
-      "id": "NotOpenSource",
-      "label": "Not Open Source",
-      "url": "not-open-source",
-      "level": 1,
-      "children": []
-    },
-    {
       "id": "Open Source",
       "label": "Open Source",
       "url": "open-source",
@@ -1549,6 +1542,13 @@
       "url": "unknown-license",
       "parentId": "Open Source",
       "level": 2
+    },
+    {
+      "id": "NotOpenSource",
+      "label": "Not Open Source",
+      "url": "not-open-source",
+      "level": 1,
+      "children": []
     }
   ],
   "headquarters": [
