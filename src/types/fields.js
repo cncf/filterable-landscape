@@ -51,7 +51,9 @@ const fields = {
     }, {
       id: false,
       label: 'Non-CNCF Member Products/Projects',
-      url: 'no'
+      url: 'no',
+      level: 1,
+      children: []
     }]
   },
   stars: {
