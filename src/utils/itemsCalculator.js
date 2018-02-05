@@ -46,25 +46,29 @@ const getSortedItems = createSelector(
   (state) => state.main.sortField,
   (state) => state.main.sortDirection,
   function(data, sortField, sortDirection) {
-    const sortedViaMainSort =  _.orderBy(data, function(x) {
+    const emptyItemsNA = data.filter(function(x) {
+      return x[sortField] === 'N/A';
+    });
+    const emptyItemsNotEnteredYet = data.filter(function(x) {
+      return x[sortField] === 'Not Entered Yet';
+    });
+    const normalItems = data.filter(function(x) {
+      return x[sortField] !== 'N/A' && x[sortField] !== 'Not Entered Yet';
+    });
+    const sortedViaMainSort =  _.orderBy(normalItems, function(x) {
       var result = x[sortField];
       if (_.isString(result)) {
         result = result.toLowerCase();
       }
       return result;
     },sortDirection);
-    const sortedViaName = _.orderBy(data, function(x) {
+    const sortedViaName1 = _.orderBy(emptyItemsNA, function(x) {
       return x.name.toLowerCase();
     });
-    return _.orderBy(sortedViaMainSort, function(x) {
-      if (x[sortField] === 'N/A') {
-        return 10000 + sortedViaName.indexOf(x);
-      }
-      if (x[sortField] === 'Not Entered Yet') {
-        return 20000 + sortedViaName.indexOf(x);
-      }
-      return sortedViaMainSort.indexOf(x);
+    const sortedViaName2 = _.orderBy(emptyItemsNotEnteredYet, function(x) {
+      return x.name.toLowerCase();
     });
+    return sortedViaMainSort.concat(sortedViaName1).concat(sortedViaName2);
   }
 );
 
