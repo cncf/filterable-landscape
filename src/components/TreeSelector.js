@@ -11,7 +11,7 @@ const TreeSelector = ({value, options, onChange}) => {
     if (selected.length === 0) {
       return 'Any';
     }
-    return selected.join(', ');
+    return selected.map((x) => _.find(options, {id: x}).label).join(', ');
   }
   const onItemChanged = function(newSelection) {
     // we have new list of checked items(newSelection and previous lsit of

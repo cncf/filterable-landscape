@@ -9,7 +9,7 @@ import _ from 'lodash';
 export const initialState = {
   data: null,
   filters: {
-    cncfRelation: null,
+    cncfRelation: [],
     stars: null,
     license: [],
     marketCap: null,

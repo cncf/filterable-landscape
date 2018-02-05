@@ -17,29 +17,40 @@ const fields = {
     id: 'cncfRelation',
     url: 'cncf',
     label: 'CNCF Relation',
+    isArray: true,
     values: [{
-      id: null,
-      label: 'Any',
-      url: 'any'
+      id: 'hosted',
+      label: 'CNCF Projects',
+      url: 'hosted',
+      level: 1,
+      children: ['graduated', 'incubating', 'inception']
     }, {
       id: 'graduated',
-      label: 'Graduated CNCF Projects',
+      label: 'CNCF Graduated Projects',
       url: 'graduated',
+      level: 2,
+      parentId: 'hosted'
     }, {
       id: 'incubating',
       label: 'Incubating CNCF Projects',
       url: 'incubating',
+      level: 2,
+      parentId: 'hosted'
     }, {
       id: 'inception',
       label: 'Inception CNCF Projects',
       url: 'inception',
+      level: 2,
+      parentId: 'hosted'
     }, {
       id: 'member',
       label: 'CNCF Member Products/Projects',
       url: 'member',
+      level: 1,
+      children: []
     }, {
       id: false,
-      label: 'non-CNCF Member Products/Projects',
+      label: 'Non-CNCF Member Products/Projects',
       url: 'no'
     }]
   },
