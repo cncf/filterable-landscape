@@ -430,7 +430,7 @@ landscape:
             stars: 3958
             license: Apache-2.0
             description: The Kubernetes Package Manager
-            cncf_member: false
+            cncf_member: true
           - item:
             name: Infrakit
             company: Docker
@@ -529,7 +529,7 @@ landscape:
             description: >-
               JFrog provides software developers with a binary repository
               management solution.
-            cncf_member: false
+            cncf_member: true
           - item:
             name: Harbor
             company: VMware
@@ -878,7 +878,7 @@ landscape:
             description: >-
               Notary is a project that allows anyone to have trust over
               arbitrary collections of data
-            cncf_member: false
+            cncf_member: true
           - item:
             name: OpenSCAP
             company: Red Hat
@@ -928,7 +928,7 @@ landscape:
             stars: 697
             license: Unknown License
             description: A framework for securing software update systems
-            cncf_member: false
+            cncf_member: true
           - item:
             name: Twistlock
             company: Twistlock
@@ -1081,23 +1081,21 @@ landscape:
             cncf_member: false
           - item:
             name: Gluster
-            company: Gluster
+            company: Red Hat
             homepage_url: 'https://www.gluster.org/'
             repo_url: 'https://github.com/gluster/glusterfs'
             logo: 'http://community.redhat.com/images/branding/logo-gluster.png'
             twitter: 'https://twitter.com/gluster'
-            crunchbase: 'https://www.crunchbase.com/organization/gluster'
-            calculated:
-              gh_stars: '12345'
-            market_cap: 12500000
-            headquarters: 'Sunnyvale, California'
-            rank: 22800
+            crunchbase: 'https://www.crunchbase.com/organization/red-hat'
+            market_cap: Not Entered Yet
+            headquarters: Not Entered Yet
+            rank: Not Entered Yet
             stars: 1439
             license: Unknown License
             description: >-
               Gluster Filesystem - (this is only a public mirror, see the README
               for contributing)
-            cncf_member: false
+            cncf_member: true
           - item:
             name: HDFS
             company: Hadoop
@@ -1255,7 +1253,7 @@ landscape:
             description: >-
               File, Block, and Object Storage Services for your Cloud-Native
               Environment
-            cncf_member: false
+            cncf_member: true
           - item:
             name: Robin Systems
             company: Robin Systems
@@ -1521,7 +1519,7 @@ landscape:
             description: >-
               rkt is a pod-native container engine for Linux. It is composable,
               secure, and built on standards.
-            cncf_member: false
+            cncf_member: true
           - item:
             name: runc
             company: Open Container Initiative
@@ -1604,7 +1602,7 @@ landscape:
             stars: 2244
             license: Unknown License
             description: An open and reliable container runtime
-            cncf_member: false
+            cncf_member: true
           - item:
             name: CRI-O
             company: Cloud Native Computing Foundation (CNCF)
@@ -1622,7 +1620,7 @@ landscape:
             description: >-
               Open Container Initiative-based implementation of Kubernetes
               Container Runtime Interface
-            cncf_member: false
+            cncf_member: true
           - item:
             name: Intel Clear Containers
             company: Intel
@@ -1948,7 +1946,7 @@ landscape:
             stars: 1111
             license: Apache-2.0
             description: Container Network Interface - networking for Linux containers
-            cncf_member: false
+            cncf_member: true
           - item:
             name: Weave Net
             company: Weaveworks
@@ -1990,7 +1988,7 @@ landscape:
             rank: 63493
             stars: 32136
             license: Apache-2.0
-            cncf_member: false
+            cncf_member: true
           - item:
             name: Amazon ECS
             company: Amazon Web Services
@@ -2183,7 +2181,7 @@ landscape:
             stars: 1583
             license: Apache-2.0
             description: CoreDNS is a DNS server that chains plugins
-            cncf_member: false
+            cncf_member: true
           - item:
             name: Registrator
             company: Glider Labs
@@ -2338,7 +2336,7 @@ landscape:
             stars: 3503
             license: Apache-2.0
             description: Production-grade feature-rich service mesh for any platform
-            cncf_member: false
+            cncf_member: true
           - item:
             name: Envoy
             company: Cloud Native Computing Foundation (CNCF)
@@ -2357,7 +2355,7 @@ landscape:
             stars: 3783
             license: Apache-2.0
             description: C++ front/service proxy
-            cncf_member: false
+            cncf_member: true
           - item:
             name: Ambassador
             company: Datawire
@@ -2388,7 +2386,7 @@ landscape:
             market_cap: 1000000
             headquarters: 'Lyon, France'
             rank: 23352
-            stars: 12774
+            stars: 12775
             license: MIT
             description: 'Træfik, a modern reverse proxy'
             cncf_member: false
@@ -2442,7 +2440,7 @@ landscape:
             stars: 13469
             license: Apache-2.0
             description: 'The C based gRPC (C++, Python, Ruby, Objective-C, PHP, C#)'
-            cncf_member: false
+            cncf_member: true
           - item:
             name: Apache Thrift
             company: Apache Software Foundation
@@ -2517,7 +2515,7 @@ landscape:
             market_cap: 26101000
             headquarters: 'San Francisco, California'
             rank: 4031
-            stars: 14226
+            stars: 14227
             license: Apache-2.0
             description: "\U0001F412 The Microservice API Gateway"
             cncf_member: false
@@ -2912,7 +2910,7 @@ landscape:
             description: >-
               Vitess is a database clustering system for horizontal scaling of
               MySQL.
-            cncf_member: false
+            cncf_member: true
           - item:
             name: SQL Data Warehouse
             company: Microsoft
@@ -3022,7 +3020,7 @@ landscape:
             market_cap: N/A
             headquarters: N/A
             rank: 73009
-            stars: 5561
+            stars: 5562
             license: Apache-2.0
             description: Mirror of Apache Hadoop
             cncf_member: false
@@ -3359,7 +3357,7 @@ landscape:
               GitHub is a web-based Git repository hosting service offering
               distributed revision control and source code management
               functionality of Git.
-            cncf_member: false
+            cncf_member: true
           - item:
             name: Microsoft Visual Studio Team Services
             company: Microsoft
@@ -3493,7 +3491,7 @@ landscape:
             market_cap: N/A
             headquarters: 'San Francisco, California'
             rank: N/A
-            stars: 8874
+            stars: 8875
             license: Unknown License
             description: The OpenAPI Specification Repository
             cncf_member: false
@@ -4245,7 +4243,7 @@ landscape:
             company: Navops
             homepage_url: 'https://www.navops.io/'
             logo: >-
-              https://pbs.twimg.com/profile_images/821470986713366528/1CYRUBEH_400x400.jpg
+              https://lh3.googleusercontent.com/-OdE5v5Nid1U/V9qqnXxTlBI/AAAAAAAAA3w/uL4GdnurvjomJWLxe44yI4GpRItsqNGqwCJoC/w2066-h867/navops-byUniva-Logo-RGB.jpg
             twitter: 'https://twitter.com/navops'
             crunchbase: 'https://www.crunchbase.com/organization/navops'
             market_cap: N/A
@@ -4529,7 +4527,7 @@ landscape:
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
-            stars: 6615
+            stars: 6616
             license: Unknown License
             description: Simple management UI for Docker
             cncf_member: false
@@ -5010,7 +5008,7 @@ landscape:
             stars: 14499
             license: Apache-2.0
             description: The Prometheus monitoring system and time series database.
-            cncf_member: false
+            cncf_member: true
           - item:
             name: SysDig
             company: Sysdig
@@ -5624,7 +5622,7 @@ landscape:
             market_cap: 104000000
             headquarters: 'Mountain View, California'
             rank: 907
-            stars: 28517
+            stars: 28518
             license: Apache-2.0
             description: 'Open Source, Distributed, RESTful Search Engine'
             cncf_member: false
@@ -5713,7 +5711,7 @@ landscape:
             stars: 6010
             license: Unknown License
             description: 'Fluentd: Unified Logging Layer (project under CNCF)'
-            cncf_member: false
+            cncf_member: true
           - item:
             name: Loom Systems
             company: Loom Systems
@@ -5765,7 +5763,7 @@ landscape:
             stars: 955
             license: MIT
             description: OpenTracing API for Go
-            cncf_member: false
+            cncf_member: true
           - item:
             name: Skywalking
             company: Apache Software Foundation
@@ -5815,7 +5813,7 @@ landscape:
             stars: 3913
             license: Apache-2.0
             description: 'CNCF Jaeger, a Distributed Tracing System'
-            cncf_member: false
+            cncf_member: true
           - item:
             name: Spring Cloud Sleuth
             company: Pivotal
