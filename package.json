@@ -19,6 +19,7 @@
     "fetch-github": "babel-node tools/fetchGithubStats.js",
     "fetch": "babel-node tools/addExternalInfo.js && babel-node tools/fetchImages.js && npm run yaml2json",
     "yaml2json": "cp src/lookup.json.default src/lookup.json && babel-node tools/generateJson.js",
+    "removeQuotes": "babel-node tools/removeQuotes",
     "fetchAllImages": "(rm src/logos/* || true) && (rm src/image_urls.yml || true) && babel-node tools/addExternalInfo.js && babel-node tools/fetchImages.js && npm run yaml2json",
     "clean-dist": "npm run remove-dist && mkdir dist",
     "remove-dist": "rimraf ./dist",
