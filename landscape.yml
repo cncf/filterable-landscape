@@ -81,6 +81,7 @@ landscape:
             homepage_url: https://cloud.tencent.com/
             logo: https://pbs.twimg.com/profile_images/852439695199846400/OqpOmsZ0_400x400.jpg
             twitter: https://twitter.com/tencentcloud
+            crunchbase: https://www.crunchbase.com/organization/tencent
           - item:
             name: "Joyent"
             company: "Triton"
@@ -217,7 +218,7 @@ landscape:
         - item:
           name: "Kubicorn"
           company: "Kubicorn"
-          homepage_url: https://kubernetes.io/
+          homepage_url: https://github.com/kris-nova/kubicorn
           repo_url: https://github.com/kris-nova/kubicorn
           logo: https://github.com/kris-nova/kubicorn/blob/master/docs/img/kubicorn-trans.png
           twitter: https://twitter.com/kubicornk8s
@@ -269,7 +270,7 @@ landscape:
           repo_url: https://github.com/projectatomic/atomic
           logo: https://community.redhat.com/images/branding/logo-atomic.png
           twitter: https://twitter.com/projectatomic
-          crunchbase: https://www.crunchbase.com/organization/project-atomic
+          crunchbase: https://www.crunchbase.com/organization/red-hat
         - item:
           name: "Docker Registry"
           company: "Docker"
@@ -298,8 +299,10 @@ landscape:
           name: "Portus"
           company: "SUSE"
           homepage_url: http://port.us.org/
-          repo_url:
+          repo_url: https://github.com/SUSE/Portus
           logo: https://github.com/SUSE/Portus/blob/master/public/favicon/android-chrome-192x192.png
+          twotter: https://twitter.com/SUSE
+          crunchbase: https://www.crunchbase.com/organization/suse
       - subcategory:
         name: "Host Management/Tooling"
         items:
@@ -711,11 +714,12 @@ landscape:
           crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
         - item:
           name: "runc"
-          company: "OCI"
+          company: "Open Container Initiative"
           homepage_url: https://www.opencontainers.org/
           repo_url: https://github.com/opencontainers/runc
           logo: https://www.opencontainers.org/wp-content/uploads/sites/10/2016/10/logo_oci.png
           twitter: https://twitter.com/OCI_ORG
+          crunchbase: https://www.crunchbase.com/organization/open-container-initiative
         - item:
           name: "lxd"
           company: "Canonical"
@@ -962,7 +966,7 @@ landscape:
           logo: https://raw.githubusercontent.com/Azure/service-fabric/master/service-fabric.png
           stock ticker: MSFT
           twitter: https://twitter.com/azure
-          crunchbase: https://www.crunchbase.com/organization/microsoft-azure-certified
+          crunchbase: https://www.crunchbase.com/organization/microsoft
         - item:
           name: "Docker Swarm"
           company: "Docker"
@@ -1035,19 +1039,21 @@ landscape:
           homepage_url: https://github.com/airbnb/smartstack-cookbook
           repo_url: https://github.com/airbnb/smartstack-cookbook
           logo: ./src/hosted_logos/smart-stack.png
+          crunchbase: https://www.crunchbase.com/organization/airbnb
         - item:
           name: "Hyperbahn"
           company: "Uber"
           homepage_url: https://github.com/uber-archive/hyperbahn
           repo_url: https://github.com/uber-archive/hyperbahn
           logo: http://thriftyzone.thriftysigns.netdna-cdn.com/image/cache/data/decals/travel/uber-logo-decal-sticker-uber-logo-500x500.png
+          crunchbase: https://www.crunchbase.com/organization/uber
         - item:
           name: "Eureka"
           company: "Netflix"
           homepage_url: https://github.com/Netflix/eureka
           repo_url: https://github.com/Netflix/eureka
           logo: ./src/hosted_logos/netflix-eureka.png
-          stock_ticker: 'NFLX'
+          crunchbase: https://www.crunchbase.com/organization/netflix
         - item:
           name: "Haret"
           company: "VMware"
@@ -1351,12 +1357,12 @@ landscape:
           crunchbase: https://www.crunchbase.com/organization/cockroach-labs
         - item:
           name: "RethinkDB"
-          company: "RethinkDB"
+          company: "Linux Foundation"
           homepage_url: https://www.rethinkdb.com/
           repo_url: https://github.com/rethinkdb/rethinkdb
           logo: http://10minbasics.com/wp-content/uploads/2015/09/rethinkdb_logo1.png
           twitter: https://twitter.com/rethinkdb
-          crunchbase: https://www.crunchbase.com/organization/rethinkdb
+          crunchbase: https://www.crunchbase.com/organization/the-linux-foundation
         - item:
           name: "Vitess"
           company: "CNCF"
@@ -1483,7 +1489,7 @@ landscape:
           logo: https://streaml.io/img/heron-logo.png
           stock_ticker: 'TWTR'
           twitter: https://twitter.com/heronstreaming
-          crunchbase:
+          crunchbase: https://www.crunchbase.com/organization/twitter
         - item:
           name: "Flink"
           company: "Apache"
@@ -1712,11 +1718,12 @@ landscape:
           crunchbase: https://www.crunchbase.com/organization/cloudbees
         - item:
           name: "Spinnaker"
-          company: "Spinnaker"
+          company: "Netflix"
           homepage_url: https://www.spinnaker.io/
           repo_url: https://github.com/spinnaker/spinnaker
           logo: https://www.gcppodcast.com/images/post/spinnaker.png
           twitter: https://twitter.com/spinnakerio
+          crunchbase: https://www.crunchbase.com/organization/netflix
         - item:
           name: "Shippable"
           company: "Shippable"
@@ -1800,11 +1807,12 @@ landscape:
           crunchbase: https://www.crunchbase.com/organization/buildkite
         - item:
           name: "Concourse"
-          company: "Concourse"
+          company: "Pivotal"
           homepage_url: https://concourse.ci/
           repo_url: https://github.com/concourse/concourse
           logo: https://avatars3.githubusercontent.com/u/7809479
           twitter: https://twitter.com/concourseci
+          crunchbase: https://www.crunchbase.com/organization/pivotal
         - item:
           name: "XL Deploy"
           company: "XebiaLabs"
@@ -2063,11 +2071,11 @@ landscape:
           crunchbase: https://www.crunchbase.com/organization/galactic-fog
         - item:
           name: "Ubuntu"
-          company: "Ubuntu"
+          company: "Canonical"
           homepage_url: https://www.ubuntu.com/
           logo: http://logo-logos.com/wp-content/uploads/2016/11/Ubuntu_logo_logotype.png
           twitter: https://twitter.com/ubuntu
-          crunchbase: https://www.crunchbase.com/organization/ubuntu
+          crunchbase: https://www.crunchbase.com/organization/canonical-ltd
         - item:
           name: "Lightbend"
           company: "Lightbend"
@@ -2148,7 +2156,7 @@ landscape:
           twitter: https://twitter.com/supergiantio
           crunchbase: https://www.crunchbase.com/organization/supergiant
         - item:
-          name: "SUSE Caas Platform"
+          name: "SUSE CaaS Platform"
           company: "SUSE"
           homepage_url: https://www.suse.com/products/caas-platform/
           repo_url: https://github.com/SUSE/doc-caasp
@@ -2708,11 +2716,12 @@ landscape:
           twitter: https://twitter.com/JaegerTracing
           crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
         - item:
-          name: "Cloud Sleuth"
-          company: "Spring"
+          name: "Spring Cloud Sleuth"
+          company: "Pivotal"
           homepage_url: https://cloud.spring.io/spring-cloud-sleuth/
           repo_url: https://github.com/spring-cloud/spring-cloud-sleuth
           logo:  https://pragmaticintegrator.files.wordpress.com/2017/03/spring-cloud.jpg
+          crunchbase: https://www.crunchbase.com/organization/pivotal
         - item:
           name: "Appdash"
           company: "Sourcegraph"

@@ -246,10 +246,6 @@
   sha256: 25eebdf408b94558a87c7ba906d5abc6de7eeb4dc8339e449e8f97d47e40f578
   url: >-
     https://www.cloudfoundry.org/wp-content/uploads/2017/01/CFF_Logo_vertical_RGB.png
-- name: cloud-sleuth
-  fileName: src/logos/cloud-sleuth.png
-  sha256: 65a26400eb19c4626c042509e40e2c56ad7d33a61fbcaf23405c184facbf1731
-  url: 'https://pragmaticintegrator.files.wordpress.com/2017/03/spring-cloud.jpg'
 - name: cloud-watch
   fileName: src/logos/cloud-watch.png
   sha256: 789df4c464938f3185f0a6ceaef3bc239ebae2a0d61b1a89aad2c3e553137cb6
@@ -1362,6 +1358,10 @@
   fileName: src/logos/splunk.png
   sha256: 60db788fa3d3458023d13398b24d115884c1b16c8d03a572ab2b65d6ec302aed
   url: 'https://interset.com/wp-content/uploads/2016/10/splunk-logo-300x168.png'
+- name: spring-cloud-sleuth
+  fileName: src/logos/spring-cloud-sleuth.png
+  sha256: 65a26400eb19c4626c042509e40e2c56ad7d33a61fbcaf23405c184facbf1731
+  url: 'https://pragmaticintegrator.files.wordpress.com/2017/03/spring-cloud.jpg'
 - name: springpath
   fileName: src/logos/springpath.png
   sha256: b9dcde2cc61345af3c80cbcf541294fec86a0d102dbc402c69932b9266a4c447
@@ -1416,8 +1416,8 @@
   fileName: src/logos/supergiant.png
   sha256: 187a2ba3f99aa8f895e502993110830178a1eba833b283789c056970264b6547
   url: 'https://supergiant.io/uploads/files/supergiant-logo.png'
-- name: suse-caas-platform
-  fileName: src/logos/suse-caas-platform.png
+- name: suse-caa-s-platform
+  fileName: src/logos/suse-caa-s-platform.png
   sha256: 51d379480424de4e91594cd2fd64bd1f0de7f075da4af8d7390d57273e62623b
   url: >-
     https://user-images.githubusercontent.com/5948137/32596616-37fe60b8-c534-11e7-8682-bd9200a6c4d1.png

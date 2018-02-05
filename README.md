@@ -17,7 +17,7 @@ The build server enhances the source data with the fetched data and saves the re
 
 Please open a pull request with edits to [landscape.yml](landscape.yml). The file [processed_landscape.yml](processed_landscape.yml) is generated and so should never be edited directly.
 
-If the error is with data from [Crunchbase](https://www.crunchbase.com/) you should open an account there and edit the data. If you don't like a project description, edit it in GitHub. If your project isn't showing the license correctly, you may need to paste the license into LICENSE file at the root of your project in GitHub, in order for GitHub to server the information correctly.
+If the error is with data from [Crunchbase](https://www.crunchbase.com/) you should open an account there and edit the data. If you don't like a project description, edit it in GitHub. If your project isn't showing the license correctly, you may need to paste the license into LICENSE file at the root of your project in GitHub, in order for GitHub to serve the information correctly. (It needs to be LICENSE and not LICENSE.txt or LICENSE.code, and the text needs to be the standard license text.)
 
 ## Specification
 
