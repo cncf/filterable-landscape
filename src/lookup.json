@@ -21,11 +21,6 @@
       "url": "anchore-inc"
     },
     {
-      "id": "Ansible",
-      "label": "Ansible",
-      "url": "ansible"
-    },
-    {
       "id": "Apache Software Foundation",
       "label": "Apache Software Foundation",
       "url": "apache-software-foundation"
@@ -34,6 +29,11 @@
       "id": "Apcera",
       "label": "Apcera",
       "url": "apcera"
+    },
+    {
+      "id": "Apex",
+      "label": "Apex",
+      "url": "apex"
     },
     {
       "id": "Aporeto",
@@ -146,11 +146,6 @@
       "url": "cf-engine"
     },
     {
-      "id": "CSI",
-      "label": "CSI",
-      "url": "csi"
-    },
-    {
       "id": "Canonical",
       "label": "Canonical",
       "url": "canonical"
@@ -251,6 +246,11 @@
       "url": "concourse"
     },
     {
+      "id": "Container Storage Interface",
+      "label": "Container Storage Interface",
+      "url": "container-storage-interface"
+    },
+    {
       "id": "Containership",
       "label": "Containership",
       "url": "containership"
@@ -314,11 +314,6 @@
       "id": "Diamanti",
       "label": "Diamanti",
       "url": "diamanti"
-    },
-    {
-      "id": "Digital Rebar",
-      "label": "Digital Rebar",
-      "url": "digital-rebar"
     },
     {
       "id": "DigitalOcean",
@@ -466,11 +461,6 @@
       "url": "hedvig"
     },
     {
-      "id": "Helm Solutions",
-      "label": "Helm Solutions",
-      "url": "helm-solutions"
-    },
-    {
       "id": "Heroku",
       "label": "Heroku",
       "url": "heroku"
@@ -484,11 +474,6 @@
       "id": "Huawei Technologies",
       "label": "Huawei Technologies",
       "url": "huawei-technologies"
-    },
-    {
-      "id": "Hyper",
-      "label": "Hyper",
-      "url": "hyper"
     },
     {
       "id": "Hyper_",
@@ -514,11 +499,6 @@
       "id": "InfluxData",
       "label": "InfluxData",
       "url": "influx-data"
-    },
-    {
-      "id": "Infrakit",
-      "label": "Infrakit",
-      "url": "infrakit"
     },
     {
       "id": "Instana",
@@ -611,11 +591,6 @@
       "url": "lightbend"
     },
     {
-      "id": "Linux",
-      "label": "Linux",
-      "url": "linux"
-    },
-    {
       "id": "Loggly",
       "label": "Loggly",
       "url": "loggly"
@@ -681,9 +656,9 @@
       "url": "microsoft-azure-certified"
     },
     {
-      "id": "Midokura",
-      "label": "Midokura",
-      "url": "midokura"
+      "id": "MidoNet",
+      "label": "MidoNet",
+      "url": "mido-net"
     },
     {
       "id": "Minio, Inc.",
@@ -919,6 +894,11 @@
       "id": "Rabbit Technologies",
       "label": "Rabbit Technologies",
       "url": "rabbit-technologies"
+    },
+    {
+      "id": "RackN",
+      "label": "RackN",
+      "url": "rack-n"
     },
     {
       "id": "Rancher Labs",
@@ -1246,16 +1226,6 @@
       "url": "zipkin"
     },
     {
-      "id": "apex",
-      "label": "apex",
-      "url": "apex"
-    },
-    {
-      "id": "cri-o",
-      "label": "cri-o",
-      "url": "cri-o"
-    },
-    {
       "id": "iguazio",
       "label": "iguazio",
       "url": "iguazio"
@@ -1264,16 +1234,6 @@
       "id": "magnetic.io",
       "label": "magnetic.io",
       "url": "magnetic-io"
-    },
-    {
-      "id": "quay.io",
-      "label": "quay.io",
-      "url": "quay-io"
-    },
-    {
-      "id": "redhat",
-      "label": "redhat",
-      "url": "redhat"
     }
   ],
   "landscape": [
@@ -1562,6 +1522,7 @@
         "ECL-2.0",
         "GPL-2.0",
         "GPL-3.0",
+        "LGPL-2.1",
         "MIT",
         "MPL-2.0",
         "Unknown License"
@@ -1613,6 +1574,13 @@
       "id": "GPL-3.0",
       "label": "GPL-3.0",
       "url": "gpl-3-0",
+      "parentId": "Open Source",
+      "level": 2
+    },
+    {
+      "id": "LGPL-2.1",
+      "label": "LGPL-2.1",
+      "url": "lgpl-2-1",
       "parentId": "Open Source",
       "level": 2
     },
@@ -1743,11 +1711,6 @@
       "id": "Hangzhou, China",
       "label": "Hangzhou, China",
       "url": "hangzhou-china"
-    },
-    {
-      "id": "Helsinki, Finland",
-      "label": "Helsinki, Finland",
-      "url": "helsinki-finland"
     },
     {
       "id": "Herzliya, Israel",

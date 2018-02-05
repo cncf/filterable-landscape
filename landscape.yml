@@ -103,7 +103,7 @@ landscape:
           name: "OpenStack"
           company: "OpenStack"
           homepage_url: https://www.openstack.org/
-          repo_url: https://github.com/openstack
+          repo_url: https://github.com/openstack/nova
           logo: https://www.openstack.org/assets/openstack-logo/2016R/OpenStack-Logo-Vertical.png
           twitter: https://twitter.com/OpenStack
           crunchbase: https://www.crunchbase.com/organization/openstack
@@ -140,11 +140,12 @@ landscape:
           crunchbase: https://www.crunchbase.com/organization/scaleway
         - item:
           name: "Digital Rebar"
-          company: "Digital Rebar"
+          company: RackN
           homepage_url: http://rebar.digital/
-          repo_url: https://github.com/digitalrebar
+          repo_url: https://github.com/digitalrebar/provision
           logo: http://rebar.digital/logo.png
           twitter: https://twitter.com/digitalrebar
+          crunchbase: https://www.crunchbase.com/organization/rackn-inc
   - category:
     name: "Provisioning"
     subcategories:
@@ -155,7 +156,7 @@ landscape:
           name: "Terraform"
           company: Hashicorp
           homepage_url: https://www.terraform.io/
-          repo_url: https://github.com/terraform
+          repo_url: https://github.com/hashicorp/terraform
           logo: https://crunchbase-production-res.cloudinary.com/image/upload/v1494032023/ds2ujajovsaxg7cjwgei.png
           twitter: https://twitter.com/HashiCorp
           crunchbase: https://www.crunchbase.com/organization/hashicorp
@@ -163,7 +164,7 @@ landscape:
           name: "BOSH"
           company: "Cloud Foundry"
           homepage_url: https://bosh.io/
-          repo_url: https://github.com/bosh
+          repo_url: https://github.com/cloudfoundry/bosh
           logo: https://cloudfoundry.org/wp-content/uploads/2012/02/CFF-BOSH-Full-Color.png
           twitter: https://twitter.com/cloudfoundry
           crunchbase: https://www.crunchbase.com/organization/cloud-foundry
@@ -186,26 +187,25 @@ landscape:
           name: "Cloudify"
           company: "Gigaspaces Technologies"
           homepage_url: https://cloudify.co
-          repo_url: https://github.com/cloudify
           logo: https://access.redhat.com/sites/default/files/logo-blue_web__grey_0.png
           twitter: https://twitter.com/CloudifySource
           crunchbase: https://www.crunchbase.com/organization/cloudify
         - item:
           name: "Helm"
-          company: "Helm"
+          company: "CNCF"
           homepage_url: https://helm.sh/
-          repo_url: https://github.com/helm
-          logo: https://datamountaineer.com/wp-content/uploads/2016/09/helm.png
+          repo_url: https://github.com/kubernetes/helm
+          logo: https://helm.sh/assets/images/helm-logo.svg
           twitter: https://twitter.com/helmpack
-          crunchbase: https://www.crunchbase.com/organization/helm-solutions
+          crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
         - item:
           name: "Infrakit"
           company: "Docker"
-          homepage_url: https://infrakit.com/
-          repo_url: https://github.com/infrakit
+          homepage_url: https://github.com/docker/infrakit
+          repo_url: https://github.com/docker/infrakit
           logo: https://raw.githubusercontent.com/docker-library/docs/471fa6e4cb58062ccbf91afc111980f9c7004981/swarm/logo.png
-          twitter: https://twitter.com/Infrakit
-          crunchbase: https://www.crunchbase.com/organization/infrakit
+          twitter: https://twitter.com/docker
+          crunchbase: https://www.crunchbase.com/organization/docker
         - item:
           name: "Juju"
           company: "Canonical"
@@ -225,7 +225,7 @@ landscape:
           name: "ManageIQ"
           company: "ManageIQ"
           homepage_url: https://http://manageiq.org/
-          repo_url: https://github.com/ManageIQ/
+          repo_url: https://github.com/ManageIQ/manageiq
           logo: https://psachin.github.io/images/miq-add-disk/manageiq-logo-standard-vertical.png
           twitter: https://twitter.com/manageiq
           crunchbase: https://www.crunchbase.com/organization/manageiq
@@ -234,11 +234,11 @@ landscape:
         items:
         - item:
           name: "Quay"
-          company: "CoreOS"
+          company: "Red Hat"
           homepage_url: https://quay.io/
           logo: https://quay.io/static/img/quay_preview.png
           twitter: https://twitter.com/quayio
-          crunchbase: https://www.crunchbase.com/organization/quay-io
+          crunchbase: https://www.crunchbase.com/organization/red-hat
         - item:
           name: "Artifactory"
           company: "Jfrog"
@@ -305,31 +305,32 @@ landscape:
         items:
         - item:
           name: "Puppet"
-          company: "Puppet"
+          company: "Puppet Labs"
           homepage_url: https://puppet.com/
-          repo_url: https://github.com/puppetlabs
+          repo_url: https://github.com/puppetlabs/puppet
           logo: https://upload.wikimedia.org/wikipedia/en/0/09/Puppet%27s_company_logo.png
           twitter: https://twitter.com/puppetlabs
           crunchbase: https://www.crunchbase.com/organization/puppet-labs
         - item:
           name: "LinuxKit"
-          company: "Linux"
-          repo_url: https://github.com/linuxkit
+          company: "Docker"
+          repo_url: https://github.com/linuxkit/linuxkit
           logo: https://ordina-jworks.github.io/img/dockercon2017/linux-kit.png
           twitter: https://twitter.com/linuxkit
+          crunchbase: https://www.crunchbase.com/organization/docker
         - item:
           name: "Ansible"
-          company: "Ansible"
+          company: "Red Hat"
           homepage_url: https://www.ansible.com/
-          repo_url: https://github.com/ansible
+          repo_url: https://github.com/ansible/ansible
           logo: https://www.installvirtual.com/wp-content/uploads/2016/03/ansible_logo_850x400-300x169.png
           twitter: https://twitter.com/ansible
-          crunchbase: https://www.crunchbase.com/organization/ansible
+          crunchbase: https://www.crunchbase.com/organization/red-hat
         - item:
           name: "Chef"
           company: "Chef Software"
           homepage_url: https://chef.io
-          repo_url: https://github.com/chef
+          repo_url: https://github.com/chef/chef
           logo: https://crunchbase-production-res.cloudinary.com/image/upload/v1397202169/79e96225d5d71f5e6d8ef247a5372278.png
           twitter: https://twitter.com/chef
           crunchbase: https://www.crunchbase.com/organization/chef
@@ -337,7 +338,7 @@ landscape:
           name: "Salt Stack"
           company: "Salt Stack"
           homepage_url: https://saltstack.com/
-          repo_url: https://github.com/saltstack
+          repo_url: https://github.com/saltstack/salt
           logo: https://crunchbase-production-res.cloudinary.com/image/upload/ddd2130f2a69731ce90ebf4fc205866f.jpg
           twitter: https://twitter.com/SaltStack
           crunchbase: https://www.crunchbase.com/organization/saltstack
@@ -345,7 +346,7 @@ landscape:
           name: "CFEngine"
           company: "CFEngine"
           homepage_url: https://cfengine.com/
-          repo_url: https://github.com/cfengine
+          repo_url: https://github.com/cfengine/core
           logo: https://crunchbase-production-res.cloudinary.com/image/upload/xq7nwzno4qanyadqph0i.jpg
           twitter: https://twitter.com/cfengine
           crunchbase: https://www.crunchbase.com/organization/cfengine
@@ -353,7 +354,7 @@ landscape:
           name: "Rundeck"
           company: "Rundeck"
           homepage_url: http://rundeck.org/
-          repo_url: https://github.com/rundeck
+          repo_url: https://github.com/rundeck/rundeck
           logo: http://cdn.dev.classmethod.jp/wp-content/uploads/2015/08/rundeck_eyecatch.png
           twitter: https://twitter.com/rundeck
           crunchbase: https://www.crunchbase.com/organization/rundeck
@@ -364,7 +365,7 @@ landscape:
           name: "Anchore"
           company:
           homepage_url: https://anchore.io/
-          repo_url: https://github.com/anchore
+          repo_url: https://github.com/anchore/anchore-engine
           logo: http://www.marketwire.com/library/MwGo/2016/4/5/11G092078/Anchore_RGB-14b85fa3801f8889be493bbb8e62e356.jpg
           twitter: https://twitter.com/anchore
           crunchbase: https://www.crunchbase.com/organization/anchore-inc
@@ -379,7 +380,6 @@ landscape:
           name: "Black Duck"
           company: "Synopsis"
           homepage_url: https://www.blackducksoftware.com/
-          repo_url: https://github.com/blackducksoftware
           logo: http://www.southeastlinuxfest.org/wp-content/uploads/2017/05/BlackDuck.png
           twitter: https://twitter.com/black_duck_sw
           crunchbase: https://www.crunchbase.com/organization/black-duck-software
@@ -392,12 +392,12 @@ landscape:
           crunchbase: https://www.crunchbase.com/organization/neuvector
         - item:
           name: "Clair"
-          company: "CoreOS"
+          company: "Red Hat"
           homepage_url: https://coreos.com/clair/docs/latest/
           repo_url: https://github.com/coreos/clair
           logo: http://zdnet2.cbsistatic.com/hub/i/r/2016/03/18/c9a09a0a-1fcc-48c8-810b-cb1c0379a562/resize/770xauto/cc3c78f58099a9569a899e05ceabba3f/coreos-clair.jpg
           twitter: https://twitter.com/coreos
-          crunchbase: https://www.crunchbase.com/organization/coreos
+          crunchbase: https://www.crunchbase.com/organization/red-hat
         - item:
           name: "Notary"
           company: "CNCF"
@@ -408,11 +408,12 @@ landscape:
           crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
         - item:
           name: "OpenSCAP"
-          company: "redhat"
+          company: "Red Hat"
           homepage_url: https://www.open-scap.org/
-          repo_url: https://github.com/OpenSCAP
+          repo_url: https://github.com/OpenSCAP/openscap
           logo: http://people.redhat.com/swells/ssg_logos/OpenSCAP-Logo/OpenSCAP-Vertical-Color.png
           twitter: https://twitter.com/OpenSCAP
+          crunchbase: https://www.crunchbase.com/organization/red-hat
         - item:
           name: "Sonatype Nexus"
           company: "Sonatype"
@@ -471,7 +472,6 @@ landscape:
           name: "Oracle Policy Automation"
           company: "Oracle"
           homepage_url: https://www.oracle.com/applications/oracle-policy-automation/index.html
-          repo_url: https://github.com/oracle
           logo: https://yt3.ggpht.com/-lHhZ9YacajM/AAAAAAAAAAI/AAAAAAAAAAA/v-C_eNK_oF8/s900-c-k-no-mo-rj-c0xffffff/photo.jpg
           twitter: https://twitter.com/oracleopa
           crunchbase: https://www.crunchbase.com/organization/oracle
@@ -479,7 +479,7 @@ landscape:
           name: "SPIFFE"
           company: "Scytale"
           homepage_url: https://spiffe.io/
-          repo_url: https://github.com/spiffe
+          repo_url: https://github.com/spiffe/spiffe
           logo: https://spiffe.io/img/spiffe-logo-color-basic.svg
           twitter: https://twitter.com/spiffeio
           crunchbase: https://www.crunchbase.com/organization/scytale-io
@@ -501,7 +501,7 @@ landscape:
           name: "Ceph"
           company: "Ceph"
           homepage_url: https://ceph.com/
-          repo_url: https://github.com/ceph
+          repo_url: https://github.com/ceph/ceph
           logo: https://i2.wp.com/ceph.com/wp-content/uploads/2016/07/Ceph_Logo_Stacked_RGB_120411_fa.png
           twitter: https://twitter.com/Ceph
           crunchbase: https://www.crunchbase.com/organization/ceph-storage
@@ -509,7 +509,7 @@ landscape:
           name: "Gluster"
           company: "Red Hat"
           homepage_url: https://www.gluster.org/
-          repo_url: https://github.com/gluster
+          repo_url: https://github.com/gluster/glusterfs
           logo: http://community.redhat.com/images/branding/logo-gluster.png
           twitter: https://twitter.com/gluster
           crunchbase: https://www.crunchbase.com/organization/gluster
@@ -527,7 +527,7 @@ landscape:
           name: "Minio"
           company: "Minio"
           homepage_url: https://minio.io/
-          repo_url: https://github.com/minio
+          repo_url: https://github.com/minio/minio
           logo: https://www.cloudfoundry.org/wp-content/uploads/2017/01/Minio-logo_1_1_.png
           twitter: https://twitter.com/minio
           crunchbase: https://www.crunchbase.com/organization/minio-inc
@@ -551,7 +551,6 @@ landscape:
           name: "Pure Storage"
           company: "Pure Storage"
           homepage_url: https://www.purestorage.com/
-          repo_url: https://github.com/purestorage
           logo: https://vbrownbag.com/wp-content/uploads/2017/07/Pure-Vertical-Medium-212x300.png
           twitter: https://twitter.com/PureStorage
           crunchbase: https://www.crunchbase.com/organization/pure-storage
@@ -613,7 +612,7 @@ landscape:
           name: "Infinit"
           company: "Docker"
           homepage_url: https://www.infinit.sh/
-          repo_url: https://github.com/infinit
+          repo_url: https://github.com/infinit/elle
           logo: https://www.infinit.sh/images/logotype.png
           twitter: https://twitter.com/infinit_sh
           crunchbase: https://www.crunchbase.com/organization/infinit
@@ -635,7 +634,7 @@ landscape:
           name: "Sheepdog"
           company: "Sheepdog"
           homepage_url: https://sheepdog.github.io/sheepdog/
-          repo_url: https://github.com/sheepdog
+          repo_url: https://github.com/sheepdog/sheepdog
           logo: https://avatars3.githubusercontent.com/u/4846685
         - item:
           name: "Rex-Ray"
@@ -672,14 +671,14 @@ landscape:
           name: "OpenSDS"
           company: "OpenSDS"
           homepage_url: https://www.opensds.io/
-          repo_url: https://github.com/opensds
+          repo_url: https://github.com/opensds/opensds
           logo: https://www.opensds.io/wp-content/uploads/sites/18/2016/11/logo_opensds.png
           crunchbase: https://www.crunchbase.com/organization/opensds
         - item:
           name: "OpenEBS"
           company: "OpenEBS"
           homepage_url: hhttps://www.openebs.io/
-          repo_url: https://github.com/openebs
+          repo_url: https://github.com/openebs/openebs
           logo:  https://github.com/openebs/chitrakala/blob/master/logo/png/logo-01.png
           twitter: https://twitter.com/openebs
           crunchbase: https://www.crunchbase.com/organization/openebs
@@ -729,7 +728,8 @@ landscape:
           name: "RunV"
           company: "Hyper"
           repo_url: https://github.com/hyperhq/runv
-          logo: http://people.canonical.com/~kirkland/lxd.png
+          logo: https://user-images.githubusercontent.com/1701782/29455671-ab0078ca-8444-11e7-8a7c-f3b41fa1954d.png
+          crunchbase: https://www.crunchbase.com/organization/hyper-4
         - item:
           name: "SmartOS"
           company: "Joyent"
@@ -747,12 +747,12 @@ landscape:
           logo: https://raw.githubusercontent.com/cncf/artwork/master/containerd/stacked/color/containerd-stacked-color.png
           crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
         - item:
-          name: "cri-o"
-          company: "cri-o"
+          name: "CRI-O"
+          company: "CNCF"
           homepage_url: http://cri-o.io/
-          repo_url: https://github.com/cri-o
+          repo_url: https://github.com/kubernetes-incubator/cri-o
           logo: https://raw.githubusercontent.com/kubernetes-incubator/cri-o/master/logo/crio-logo.png
-          twitter: https://twitter.com/hashtag/%22cri-o%22
+          crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
         - item:
           name: "Intel Clear Containers"
           company: "Intel"
@@ -763,10 +763,10 @@ landscape:
           twitter: https://twitter.com/clearlinux/
           crunchbase: https://www.crunchbase.com/organization/intel
         - item:
-          name: "CSI"
-          company: "CSI"
+          name: "Container Storage Interface"
+          company: "Container Storage Interface"
           homepage_url: https://github.com/container-storage-interface
-          repo_url: https://github.com/container-storage-interface
+          repo_url: https://github.com/container-storage-interface/spec
           logo: https://github.com/container-storage-interface/artwork/blob/master/logo/PNG/01.png
       - subcategory:
         name: "Cloud-Native Network"
@@ -796,7 +796,7 @@ landscape:
           name: "Project Calico"
           company: "Tigera"
           homepage_url: https://www.projectcalico.org/
-          repo_url: https://github.com/projectcalico/
+          repo_url: https://github.com/projectcalico/calico
           logo: https://www.projectcalico.org/wp-content/uploads/2015/03/Project-Calico-logo-1000px.png
           twitter: https://twitter.com/projectcalico
           crunchbase: https://www.crunchbase.com/organization/tigera
@@ -821,7 +821,7 @@ landscape:
           name: "Cilium"
           company: "Covalent"
           homepage_url: https://www.cilium.io/
-          repo_url: https://github.com/cilium
+          repo_url: https://github.com/cilium/cilium
           logo: https://avatars2.githubusercontent.com/u/21054566?s=400&v=4
           twitter: https://twitter.com/ciliumproject
           crunchbase: https://www.crunchbase.com/organization/covalent-io
@@ -829,31 +829,29 @@ landscape:
           name: "Cumulus"
           company: "Cumulus Networks"
           homepage_url: https://cumulusnetworks.com
-          repo_url: https://github.com/cumulusnetworks/
           logo: https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F33979767%2F108689379901%2F1%2Foriginal.jpg?w=800&rect=0%2C100%2C800%2C400&s=51632196d88bcd0efb885370c3f3bd94
           twitter: https://twitter.com/CumulusNetworks/
           crunchbase: https://www.crunchbase.com/organization/cumulus-networks
         - item:
           name: "Flannel"
-          company: "Tigera"
+          company: "Red Hat"
           homepage_url: https://github.com/coreos/flannel/
           repo_url: https://github.com/coreos/flannel
           logo: https://raw.githubusercontent.com/coreos/flannel/master/logos/flannel-horizontal-color.png
-          twitter: https://twitter.com/tigeraio
-          crunchbase: https://www.crunchbase.com/organization/tigera
+          twitter: https://twitter.com/coreos
+          crunchbase: https://www.crunchbase.com/organization/red-hat
         - item:
-          name: "Midokura"
-          company: "Midokura"
-          homepage_url: https://www.midokura.com//
-          repo_url: https://github.com/midokura
-          logo: https://pbs.twimg.com/profile_images/585843382515179522/4JjWCoqo_400x400.png
+          name: "MidoNet"
+          company: "MidoNet"
+          homepage_url: https://www.midonet.org/
+          repo_url: https://github.com/midonet/midonet
+          logo: https://www.midokura.com//wp-content/uploads/2012/04/midonet-logo_final.png
           twitter: https://twitter.com/midokura
-          crunchbase: https://www.crunchbase.com/organization/midokura
+          crunchbase: https://www.crunchbase.com/organization/midonet
         - item:
           name: "NSX"
           company: "VMware"
           homepage_url: https://www.vmware.com/products/nsx.html
-          repo_url: https://github.com/openstack/vmware-nsx
           logo: http://blogs.vmware.com/kb/files/2015/08/NSX.png
           twitter: https://twitter.com/vmwarensx
           crunchbase: https://www.crunchbase.com/organization/vmware
@@ -861,7 +859,6 @@ landscape:
           name: "Nuage Networks"
           company: "Nokia"
           homepage_url: http://www.nuagenetworks.net/
-          repo_url: https://github.com/nuagenetworks
           logo: https://user-images.githubusercontent.com/6019102/29992977-e6e92a02-8f5d-11e7-855b-0bf748f13dd9.png
           twitter: https://twitter.com/nuagenetworks
           crunchbase: https://www.crunchbase.com/organization/nuage-networks
@@ -877,7 +874,7 @@ landscape:
           name: "Open vSwitch"
           company: "Open vSwitch"
           homepage_url: http://openvswitch.org/
-          repo_url: https://github.com/openvswitch/
+          repo_url: https://github.com/openvswitch/ovs
           logo: http://openvswitch.org/assets/vswitch.png
           twitter: https://twitter.com/openvswitch
           crunchbase: https://www.crunchbase.com/organization/open-vswitch
@@ -892,7 +889,7 @@ landscape:
           name: "Romana"
           company: "Romana"
           homepage_url: http://romana.io/
-          repo_url: https://github.com/romana
+          repo_url: https://github.com/romana/romana
           logo: http://romana.io/images/Logo.250.png
         - item:
           name: "Sanproute"
@@ -1125,7 +1122,6 @@ landscape:
           name: "Turbine Labs"
           company: "Turbine Labs"
           homepage_url: https://www.turbinelabs.io/
-          repo_url: https://github.com/turbinelabs
           logo: https://cdn-images-1.medium.com/max/1920/1*89vDpBsh4u6g8RwXTWtBHQ@2x.png
           twitter: https://twitter.com/GoTurbine
           crunchbase: https://www.crunchbase.com/organization/turbine-labs-2
@@ -1164,7 +1160,7 @@ landscape:
           crunchbase: https://www.crunchbase.com/organization/apache
         - item:
           name: "Vamp"
-          company: "Magnetic"
+          company: "Vamp"
           homepage_url:
           repo_url: https://github.com/magneticio/vamp
           logo: ./src/hosted_logos/vamp.png
@@ -1194,15 +1190,6 @@ landscape:
           logo: https://camo.githubusercontent.com/e871b5d002a9699e7a2d9fa0178af5c72f0743e0/68747470733a2f2f6e6574666c69782e6769746875622e636f6d2f487973747269782f696d616765732f687973747269782d6c6f676f2d7461676c696e652d3835302e706e67
           stock_ticker: 'NFLX'
           twitter: https://twitter.com/hystrixoss
-          crunchbase: https://www.crunchbase.com/organization/netflix
-        - item:
-          name: "OSS"
-          company: "Netflix"
-          homepage_url: https://netflix.github.io/
-          repo_url: https://github.com/Netflix/
-          logo: https://avatars3.githubusercontent.com/u/913567
-          stock_ticker: 'NFLX'
-          twitter: https://twitter.com/netflixoss
           crunchbase: https://www.crunchbase.com/organization/netflix
         - item:
           name: "Ribbon"
@@ -1253,7 +1240,7 @@ landscape:
           name: "MySQL"
           company: "MySQL"
           homepage_url: https://www.oracle.com/mysql/index.html
-          repo_url: https://github.com/mysql
+          repo_url: https://github.com/mysql/mysql-server
           logo: https://www.mysql.com/common/logos/logo-mysql-170x115.png
           stock_ticker: 'ORCL'
           twitter: https://twitter.com/mysql
@@ -1262,7 +1249,7 @@ landscape:
           name: "Postgres"
           company: "PostgresSQL"
           homepage_url: https://www.postgresql.org/
-          repo_url: https://github.com/postgres
+          repo_url: https://github.com/postgres/postgres
           logo: https://raw.githubusercontent.com/docker-library/docs/01c12653951b2fe592c1f93a13b4e289ada0e3a1/postgres/logo.png
           twitter: https://twitter.com/postgresql
           crunchbase:  https://www.crunchbase.com/organization/postgresql
@@ -1310,7 +1297,7 @@ landscape:
           name: "Redis"
           company: "Redis"
           homepage_url: https://redis.io/
-          repo_url: https://github.com/redis
+          repo_url: https://github.com/antirez/redis
           logo: https://blog.newrelic.com/wp-content/uploads/redis.png
           twitter: https://twitter.com/redisfeed
           crunchbase: https://www.crunchbase.com/organization/redis-labs
@@ -1318,7 +1305,7 @@ landscape:
           name: "MariaDB"
           company: "MariaDB"
           homepage_url: https://mariadb.org/
-          repo_url: https://github.com/MariaDB
+          repo_url: https://github.com/MariaDB/server
           logo: https://mariadb.org/wp-content/uploads/2015/10/mariadb-usa-inc.png
           twitter: https://twitter.com/mariadbfdn
           crunchbase: https://www.crunchbase.com/organization/mariadb-2
@@ -1358,7 +1345,7 @@ landscape:
           name: "CockroachDB"
           company: "CockroachDB"
           homepage_url: https://www.cockroachlabs.com/
-          repo_url: https://github.com/cockroachdb
+          repo_url: https://github.com/cockroachdb/cockroach
           logo: https://raw.githubusercontent.com/cockroachdb/cockroach/master/docs/media/cockroach_db.png
           twitter: https://twitter.com/CockroachDB
           crunchbase: https://www.crunchbase.com/organization/cockroach-labs
@@ -1366,7 +1353,7 @@ landscape:
           name: "RethinkDB"
           company: "RethinkDB"
           homepage_url: https://www.rethinkdb.com/
-          repo_url: https://github.com/rethinkdb
+          repo_url: https://github.com/rethinkdb/rethinkdb
           logo: http://10minbasics.com/wp-content/uploads/2015/09/rethinkdb_logo1.png
           twitter: https://twitter.com/rethinkdb
           crunchbase: https://www.crunchbase.com/organization/rethinkdb
@@ -1397,7 +1384,7 @@ landscape:
           name: "Druid"
           company: "Druid"
           homepage_url: http://druid.io/
-          repo_url: https://github.com/druid-io
+          repo_url: https://github.com/druid-io/druid
           logo: ./src/hosted_logos/druid.png
           twitter: https://twitter.com/druidio
         - item:
@@ -1435,7 +1422,6 @@ landscape:
           name: "Iguazio"
           company: "iguazio"
           homepage_url: https://www.iguazio.com/
-          repo_url: https://github.com/iguazio
           logo: http://mms.businesswire.com/media/20170314005560/en/575150/4/Logo_-_updated.jpg
           twitter: https://twitter.com/iguazio
           crunchbase: https://www.crunchbase.com/organization/iguaz-io
@@ -1443,7 +1429,6 @@ landscape:
           name: "MemSQL"
           company: "MemSQL"
           homepage_url: https://www.memsql.com/
-          repo_url: https://github.com/memsql
           logo: https://diamanti.com/static/app/img/what-we-do/memsql-logo.png
           twitter: https://twitter.com/memsql/
           crunchbase: https://www.crunchbase.com/organization/memsql
@@ -1459,7 +1444,7 @@ landscape:
           name: "Scylla"
           company: "scylla"
           homepage_url: http://www.scylladb.com/
-          repo_url: https://github.com/scylladb
+          repo_url: https://github.com/scylladb/scylla
           logo: https://www.mikelangelo-project.eu/wp-content/uploads/2015/03/LOGO2.png
           twitter: https://twitter.com/ScyllaDB
           crunchbase: https://www.crunchbase.com/organization/scylladb
@@ -1527,7 +1512,7 @@ landscape:
           name: "RabbitMQ"
           company: "Rabbit Technologies"
           homepage_url: https://www.rabbitmq.com/
-          repo_url: https://github.com/rabbitmq
+          repo_url: https://github.com/rabbitmq/rabbitmq-server
           logo:  https://neoteric.eu/wp-content/uploads/2016/06/rabbitmq_logo.png
           twitter: https://twitter.com/rabbitmq
           crunchbase: https://www.crunchbase.com/organization/rabbit-technologies
@@ -1535,7 +1520,7 @@ landscape:
           name: "NATS"
           company: "Apache"
           homepage_url: https://nats.io/
-          repo_url: https://github.com/nats-io
+          repo_url: https://github.com/nats-io/gnatsd
           logo: https://i2.wp.com/rishidot.com/wp-content/uploads/2017/02/NATS_logo.png
           twitter: https://twitter.com/nats_io
           crunchbase: https://www.crunchbase.com/organization/apache
@@ -1559,7 +1544,7 @@ landscape:
           name: "StreamSets"
           company: "StreamSets"
           homepage_url: https://streamsets.com/
-          repo_url: https://github.com/streamsets
+          repo_url: https://github.com/streamsets/datacollector
           logo: https://19ttqs47cfw33zkecq3dz58m-wpengine.netdna-ssl.com/wp-content/uploads/2016/08/StreamSets-logo-small.png
           twitter: https://twitter.com/streamsets
           crunchbase: https://www.crunchbase.com/organization/streamsets
@@ -1612,7 +1597,7 @@ landscape:
           name: "KubeVirt"
           company: "KubeVirt"
           homepage_url: http://www.kubevirt.io/
-          repo_url: https://github.com/kubevirt
+          repo_url: https://github.com/kubevirt/kubevirt
           logo: https://raw.githubusercontent.com/kubevirt/community/master/logo/kubevirt-pre.png
           twitter: https://twitter.com/kubevirt
         - item:
@@ -1635,7 +1620,7 @@ landscape:
           name: "Habitat"
           company: "Chef"
           homepage_url: https://www.habitat.sh/
-          repo_url: https://github.com/habitat-sh
+          repo_url: https://github.com/habitat-sh/habitat
           logo: https://brand.chef.io/images/habitat/logos/logo-1.png
           twitter: https://twitter.com/hashtag/habitatsh
           crunchbase: https://www.crunchbase.com/organization/chef
@@ -1658,7 +1643,7 @@ landscape:
           name: "OpenAPI"
           company: "OpenAPI"
           homepage_url: https://www.openapis.org/
-          repo_url: https://github.com/OAI
+          repo_url: https://github.com/OAI/OpenAPI-Specification
           logo: https://www.openapis.org/wp-content/uploads/sites/3/2016/10/OpenAPI_Pantone.png
           twitter: https://twitter.com/hashtag/openapi
           crunchbase: https://www.crunchbase.com/organization/the-open-api-initiative
@@ -1669,7 +1654,7 @@ landscape:
           name: "Jenkins"
           company: "Jenkins CI"
           homepage_url: https://jenkins.io/
-          repo_url: https://github.com/jenkinsci
+          repo_url: https://github.com/jenkinsci/jenkins
           logo: https://wiki.jenkins.io/download/attachments/2916393/logo-title.png
           twitter: https://twitter.com/jenkinsci
           crunchbase: https://www.crunchbase.com/organization/jenkins-ci
@@ -1677,7 +1662,7 @@ landscape:
           name: "Travis"
           company: "Travis CI"
           homepage_url: https://travis-ci.com/
-          repo_url: https://github.com/travis-ci
+          repo_url: https://github.com/travis-ci/travis-ci
           logo: http://dearkumar.com/wp-content/uploads/2016/08/Travis-CI-logo.jpg
           twitter: https://twitter.com/travisci
           crunchbase: https://www.crunchbase.com/organization/travis-ci
@@ -1685,7 +1670,6 @@ landscape:
           name: "Octopus Deploy"
           company: "Octopus"
           homepage_url: https://octopus.com/
-          repo_url: https://github.com/OctopusDeploy
           logo: https://i.octopus.com/blog/201605-logo-text-blueblacktransparent-800_rgb-XGYC.png
           twitter: https://twitter.com/OctopusDeploy
           crunchbase: https://www.crunchbase.com/organization/octopus-deploy
@@ -1693,7 +1677,6 @@ landscape:
           name: "CircleCI"
           company: "CircleCI"
           homepage_url: https://circleci.com/
-          repo_url: https://github.com/circleci
           logo: https://assets.brandfolder.com/otz6qz-87qv1c-ipc6/view.png
           twitter: https://twitter.com/circleci
           crunchbase: https://www.crunchbase.com/organization/circle-ci
@@ -1701,7 +1684,7 @@ landscape:
           name: "Drone"
           company: "Drone"
           homepage_url: http://try.drone.io/
-          repo_url: https://github.com/drone
+          repo_url: https://github.com/drone/drone
           logo: https://d3d7bn43j8qgcg.cloudfront.net/drone_logo.png
           twitter: https://twitter.com/droneio
           crunchbase: https://www.crunchbase.com/organization/drone-io
@@ -1725,7 +1708,6 @@ landscape:
           company: "Cloudbees"
           homepage_url: https://www.cloudbees.com/
           logo: http://www.bluecloudventures.com/wp-content/uploads/2016/11/CloudBees-Logo.png
-          repo_url: https://github.com/cloudbees
           twitter: https://twitter.com/CloudBees
           crunchbase: https://www.crunchbase.com/organization/cloudbees
         - item:
@@ -1944,7 +1926,7 @@ landscape:
           name: "Iron.io"
           company: "Iron.io"
           homepage_url: https://www.iron.io/
-          repo_url: https://github.com/iron-io
+          repo_url: https://github.com/iron-io/functions
           logo: https://crunchbase-production-res.cloudinary.com/image/upload/v1397182859/53934de605f54d407d087900d16e9b75.png
           twitter: https://twitter.com/getiron
           crunchbase: https://www.crunchbase.com/organization/iron-io
@@ -1998,7 +1980,6 @@ landscape:
           name: "Kubermatic"
           company: "Kubermatic"
           homepage_url: https://cloud.kubermatic.io/
-          repo_url: https://github.com/kubermatic/
           logo: https://pbs.twimg.com/media/C8FWtMNW4AAIUt8.png
           twitter: https://twitter.com/kubermatic
         - item:
@@ -2249,7 +2230,7 @@ landscape:
           crunchbase: https://www.crunchbase.com/organization/pubnub
         - item:
           name: "Apex"
-          company: "apex"
+          company: "Apex"
           homepage_url: http://apex.run
           repo_url: https://github.com/apex/apex
           logo: ./src/hosted_logos/apex.png
