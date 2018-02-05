@@ -600,8 +600,7 @@ landscape:
             name: Amazon ECR
             company: Amazon Web Services
             homepage_url: 'https://aws.amazon.com/ecr/'
-            logo: >-
-              http://blog.shippable.com/hs-fs/hubfs/Blog_images/Amazon_ECR_icon.png
+            logo: ./src/hosted_logos/aws-ecs.png
             stock_ticker: AMZN
             twitter: 'https://twitter.com/awscloud'
             crunchbase: 'https://www.crunchbase.com/organization/amazon-web-services'
@@ -1994,8 +1993,7 @@ landscape:
             twitter: 'https://twitter.com/awscloud'
             crunchbase: 'https://www.crunchbase.com/organization/amazon-web-services'
             stock_ticker: AMZN
-            logo: >-
-              https://signalfx-82c9.kxcdn.com/wp-content/uploads/2016/03/integrations_awsecs@4x-500x500.png
+            logo: ./src/hosted_logos/aws-ecs.png
             market_cap: N/A
             headquarters: 'Seattle, Washington'
             rank: 10522
@@ -3847,7 +3845,6 @@ landscape:
             name: XL Deploy
             company: XebiaLabs
             homepage_url: 'https://xebialabs.com/products/xl-deploy/'
-            repo_url: 'https://github.com/xebialabs-community/xld-xldeploy-plugin'
             logo: >-
               https://xebialabs-clients-iglusjax.stackpathdns.com/assets/files/media-kit/xl-deploy.png
             twitter: 'https://twitter.com/xldeploy'
@@ -3855,9 +3852,9 @@ landscape:
             market_cap: 21500000
             headquarters: 'Boston, Massachusetts'
             rank: 2287
-            stars: 0
-            license: Unknown License
-            description: XL Deploy plugin that can call another XLD instance
+            stars: N/A
+            license: NotOpenSource
+            description: Leading provider of automation for DevOps and Continuous Delivery
             cncf_member: false
   - category:
     name: Platform

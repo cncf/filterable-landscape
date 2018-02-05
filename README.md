@@ -1,6 +1,8 @@
 
 # Cloud Native Filterable Landscape
 
+[![CNCF Landscape Logo](https://raw.githubusercontent.com/cncf/artwork/master/other/cncf-landscape/horizontal/color/cncf-landscape-horizontal-color.png)](https://github.com/cncf/artwork/blob/master/other/cncf-landscape/horizontal/color/cncf-landscape-horizontal-color.png)
+
 This is a CNCF project to provide an interactive version of the static landscape from https://github.com/cncf/landscape#current-version.
 
 ## Data
