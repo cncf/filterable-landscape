@@ -85,7 +85,7 @@ function addSortFieldToParams({sortField, params}) {
   const value = sortField;
   if (value !== initialState.sortField) {
     const fieldInfo = fields[value];
-    params['sortField'] = fieldInfo.url;
+    params['sort'] = fieldInfo.url;
   }
 }
 /*
@@ -144,7 +144,7 @@ function setGroupingFromParams({ newParameters, params}) {
   }
 }
 function setSortFieldFromParams({ newParameters, params}) {
-  const urlValue = params.sortField;
+  const urlValue = params.sort;
   if (!urlValue) {
     return;
   }
