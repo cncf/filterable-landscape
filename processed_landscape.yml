@@ -540,7 +540,7 @@ landscape:
             market_cap: 393500000
             headquarters: 'Palo Alto, California'
             rank: 5559
-            stars: 3576
+            stars: 3577
             license: Unknown License
             description: >-
               An enterprise-class container registry server based on Docker
@@ -1073,7 +1073,7 @@ landscape:
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
-            stars: 4090
+            stars: 4091
             license: Unknown License
             description: 'Ceph is a distributed object, block, and file storage platform'
             cncf_member: true
@@ -1194,7 +1194,7 @@ landscape:
             description: >-
               REX-Ray is a container storage orchestration engine enabling
               persistence for cloud native workloads
-            cncf_member: false
+            cncf_member: true
           - item:
             name: Manta
             company: Joyent
@@ -1376,7 +1376,7 @@ landscape:
             description: >-
               REX-Ray is a container storage orchestration engine enabling
               persistence for cloud native workloads
-            cncf_member: false
+            cncf_member: true
           - item:
             name: NetApp
             company: NetApp
@@ -1428,7 +1428,7 @@ landscape:
             description: >-
               Dell EMC enables digital transformation with trusted solutions for
               the modern data center.
-            cncf_member: false
+            cncf_member: true
           - item:
             name: OpenSDS
             company: OpenSDS
@@ -1456,7 +1456,7 @@ landscape:
             market_cap: N/A
             headquarters: 'Bengaluru, India'
             rank: N/A
-            stars: 4635
+            stars: 4637
             license: Apache-2.0
             description: >-
               OpenEBS is containerized block storage written in Go for cloud
@@ -1983,7 +1983,7 @@ landscape:
             market_cap: N/A
             headquarters: 'San Francisco, California'
             rank: 63493
-            stars: 32143
+            stars: 32144
             license: Apache-2.0
             cncf_member: true
           - item:
@@ -2088,7 +2088,7 @@ landscape:
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
-            stars: 16697
+            stars: 16698
             license: Apache-2.0
             description: >-
               Distributed reliable key-value store for the most critical data of
@@ -2125,7 +2125,7 @@ landscape:
             market_cap: N/A
             headquarters: 'Forest Hill, Maryland'
             rank: 84483
-            stars: 3919
+            stars: 3920
             license: Apache-2.0
             description: Mirror of Apache Hadoop ZooKeeper
             cncf_member: false
@@ -2234,7 +2234,7 @@ landscape:
             market_cap: 2803735952
             headquarters: 'Los Gatos, California'
             rank: 5
-            stars: 4738
+            stars: 4739
             license: Apache-2.0
             description: >-
               AWS Service registry for resilient mid-tier load balancing and
@@ -2348,7 +2348,7 @@ landscape:
             market_cap: N/A
             headquarters: 'San Francisco, California'
             rank: 63493
-            stars: 3785
+            stars: 3786
             license: Apache-2.0
             description: C++ front/service proxy
             cncf_member: true
@@ -2364,7 +2364,7 @@ landscape:
             market_cap: 250000
             headquarters: 'Cambridge, Massachusetts'
             rank: 20948
-            stars: 313
+            stars: 314
             license: Apache-2.0
             description: >-
               Kubernetes-native API gateway for microservices built on the Envoy
@@ -2511,7 +2511,7 @@ landscape:
             market_cap: 26101000
             headquarters: 'San Francisco, California'
             rank: 4031
-            stars: 14233
+            stars: 14234
             license: Apache-2.0
             description: "\U0001F412 The Microservice API Gateway"
             cncf_member: false
@@ -2528,7 +2528,7 @@ landscape:
             market_cap: 2803735952
             headquarters: 'Los Gatos, California'
             rank: 5
-            stars: 12458
+            stars: 12459
             license: Apache-2.0
             description: >-
               Hystrix is a latency and fault tolerance library designed to
@@ -2835,7 +2835,7 @@ landscape:
             market_cap: 5370000
             headquarters: 'Berlin, Germany'
             rank: 3491
-            stars: 2111
+            stars: 2113
             license: Unknown License
             description: BigchainDB is a scalable blockchain database
             cncf_member: false
@@ -3101,7 +3101,7 @@ landscape:
             market_cap: N/A
             headquarters: 'Forest Hill, Maryland'
             rank: 84483
-            stars: 7328
+            stars: 7330
             license: Apache-2.0
             description: Mirror of Apache Kafka
             cncf_member: false
@@ -3211,7 +3211,7 @@ landscape:
             market_cap: N/A
             headquarters: 'London, United Kingdom'
             rank: 79723
-            stars: 3650
+            stars: 3649
             license: Unknown License
             description: Open source multi-protocol messaging broker
             cncf_member: false
@@ -3488,7 +3488,7 @@ landscape:
             market_cap: N/A
             headquarters: 'San Francisco, California'
             rank: N/A
-            stars: 8878
+            stars: 8879
             license: Unknown License
             description: The OpenAPI Specification Repository
             cncf_member: false
@@ -4393,9 +4393,9 @@ landscape:
               applications anywhere. Adapt to changes instantly.
             cncf_member: true
           - item:
-            name: Ubuntu
+            name: Canonical Distribution of Kubernetes
             company: Canonical
-            homepage_url: 'https://www.ubuntu.com/'
+            homepage_url: 'https://www.ubuntu.com/kubernetes'
             logo: >-
               http://logo-logos.com/wp-content/uploads/2016/11/Ubuntu_logo_logotype.png
             twitter: 'https://twitter.com/ubuntu'
@@ -4427,9 +4427,9 @@ landscape:
               build Reactive applications on the JVM.
             cncf_member: false
           - item:
-            name: Docker Cloud
+            name: Docker Enterprise Edition (EE)
             company: Docker
-            homepage_url: 'https://cloud.docker.com/'
+            homepage_url: 'https://www.docker.com/enterprise-edition'
             logo: 'https://www.docker.com/sites/default/files/vertical_large.png'
             twitter: 'https://twitter.com/docker'
             crunchbase: 'https://www.crunchbase.com/organization/docker'
@@ -5521,7 +5521,7 @@ landscape:
             market_cap: 10500000
             headquarters: 'San Francisco, California'
             rank: 4725
-            stars: 15531
+            stars: 15533
             license: BSD-3-Clause
             description: >-
               Sentry is a cross-platform crash reporting and aggregation
