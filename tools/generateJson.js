@@ -3,7 +3,6 @@ const traverse = require('traverse');
 const _ = require('lodash');
 import saneName from '../src/utils/saneName';
 import { getCategory } from '../src/types/fields';
-import fakeData from '../src/types/fakeData';
 
 
 const items = [];
@@ -17,11 +16,11 @@ tree.map(function(node) {
     });
     items.push({...node,
       cncfProject: node.cncf_project,
+      cncfMember: node.cncf_member,
+      cncfRelation: node.cncf_project || ( node.cncf_member ? 'member' : false ),
       path: parts.join(' / '),
       landscape: parts.join(' / '),
       category: parts[0],
-      certifiedKubernetes: _.sample([null, false, 'platform', 'distribution']),
-      vcFunder: _.sample(fakeData.vcFunder),
       marketCap: node.market_cap,
       oss: node.license !== 'NotOpenSource'
     });
@@ -29,12 +28,13 @@ tree.map(function(node) {
 });
 const itemsWithExtraFields = items.map(function(item) {
   delete item.cncf_project;
+  delete item.cncf_member;
   delete item.market_cap;
   delete item.item;
   const otherItems = _.filter(items, {name: item.name});
   var id = saneName(item.name);
   if (otherItems.length > 1) {
-    id = saneName(item.path + ' ' + item.name);
+    id = saneName(item.company + ' ' + item.name);
   }
   return {
     ...item,

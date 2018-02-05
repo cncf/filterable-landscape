@@ -10,9 +10,9 @@ const getFilteredItems = createSelector(
   (state) => state.main.data,
   (state) => state.main.filters,
   function(data, filters) {
-    var filterCncfHostedProject = filterFn({field: 'cncfProject', filters});
+    var filterCncfHostedProject = filterFn({field: 'cncfRelation', filters});
     var filterByStars = filterFn({field: 'stars', filters});
-    var filterByCertifiedKubernetes = filterFn({field: 'certifiedKubernetes', filters});
+    // var filterByCertifiedKubernetes = filterFn({field: 'certifiedKubernetes', filters});
     var filterByLicense = filterFn({field: 'license', filters});
     var filterByMarketCap = filterFn({field: 'marketCap', filters});
     // var filterByVcFunder = filterFn({field: 'vcFunder', filters});
@@ -20,7 +20,7 @@ const getFilteredItems = createSelector(
     var filterByHeadquarters = filterFn({field: 'headquarters', filters});
     var filterByLandscape = filterFn({field: 'landscape', filters});
     return data.filter(function(x) {
-      return filterCncfHostedProject(x) && filterByStars(x) && filterByCertifiedKubernetes(x) && filterByLicense(x) && filterByMarketCap(x) && /* filterByVcFunder(x)  && */ filterByCompany(x) && filterByHeadquarters(x) && filterByLandscape(x);
+      return filterCncfHostedProject(x) && filterByStars(x) && /* filterByCertifiedKubernetes(x) && */ filterByLicense(x) && filterByMarketCap(x) && /* filterByVcFunder(x)  && */ filterByCompany(x) && filterByHeadquarters(x) && filterByLandscape(x);
     });
   }
 );

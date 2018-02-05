@@ -9,16 +9,15 @@ import _ from 'lodash';
 export const initialState = {
   data: null,
   filters: {
-    cncfProject: null,
+    cncfRelation: null,
     stars: null,
-    certifiedKubernetes: null,
     license: [],
     marketCap: null,
     company: [],
     headquarters: [],
     landscape: []
   },
-  grouping: 'cncfProject',
+  grouping: 'cncfRelation',
   sortField: 'name',
   sortDirection: 'asc',
   selectedItemId: null

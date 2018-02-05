@@ -16,13 +16,13 @@ tree.map(function(node) {
   }
   if (node.repo_url && node.repo_url.indexOf('https://github.com') === 0) {
     repos[node.repo_url] = 1;
-  } else {
+  } /* else {
     if (!node.repo_url) {
       console.info(`item: ${node.name} has no repo url`)
     } else {
       console.info(`item: ${node.name} has a non github repo url`)
     }
-  }
+  } */
 });
 const urls = _.keys(repos);
 
@@ -31,7 +31,7 @@ async function readGithubStats() {
   await Promise.map(urls, async function(url) {
     if (url.split('/').length !==  5 || !url.split('/')[4]) {
       result.push({url, stars: 'N/A', license: 'Unknown License'});
-      console.info(url, ' looks like not a github repo');
+      console.info(url, ' does not look like a GitHub repo');
       return;
     }
     var response = await rp({
@@ -64,6 +64,6 @@ async function readGithubStats() {
 }
 async function main() {
   await readGithubStats();
-  require('fs').writeFileSync('src/github.json', JSON.stringify(result, null, 2));
+  require('fs').writeFileSync('src/github.json', JSON.stringify(_.orderBy(result, 'url'), null, 2));
 }
 main();

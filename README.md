@@ -1,6 +1,8 @@
 
 # Cloud Native Filterable Landscape
 
+[![CNCF Landscape Logo](https://raw.githubusercontent.com/cncf/artwork/master/other/cncf-landscape/horizontal/color/cncf-landscape-horizontal-color.png)](https://github.com/cncf/artwork/blob/master/other/cncf-landscape/horizontal/color/cncf-landscape-horizontal-color.png)
+
 This is a CNCF project to provide an interactive version of the static landscape from https://github.com/cncf/landscape#current-version.
 
 ## Data
@@ -17,7 +19,7 @@ The build server enhances the source data with the fetched data and saves the re
 
 Please open a pull request with edits to [landscape.yml](landscape.yml). The file [processed_landscape.yml](processed_landscape.yml) is generated and so should never be edited directly.
 
-If the error is with data from [Crunchbase](https://www.crunchbase.com/) you should open an account there and edit the data. If you don't like a project description, edit it in GitHub.
+If the error is with data from [Crunchbase](https://www.crunchbase.com/) you should open an account there and edit the data. If you don't like a project description, edit it in GitHub. If your project isn't showing the license correctly, you may need to paste the license into LICENSE file at the root of your project in GitHub, in order for GitHub to serve the information correctly. (It needs to be LICENSE and not LICENSE.txt or LICENSE.code, and the text needs to be the standard license text.)
 
 ## Specification
 
@@ -26,7 +28,7 @@ If the error is with data from [Crunchbase](https://www.crunchbase.com/) you sho
 
 ## Static Landscape
 
-[![CNCF Landscape](https://raw.githubusercontent.com/cncf/landscape/master/landscape/CloudNativeLandscape_latest.png)](https://github.com/cncf/landscape/landscape/CloudNativeLandscape_latest.png)
+[![CNCF Landscape](https://raw.githubusercontent.com/cncf/landscape/master/landscape/CloudNativeLandscape_latest.png)](https://raw.githubusercontent.com/cncf/landscape/master/landscape/CloudNativeLandscape_latest.png)
 
 ## Installation
 
@@ -38,25 +40,57 @@ If the error is with data from [Crunchbase](https://www.crunchbase.com/) you sho
 ### Local development
 1. `git pull`
 2. `yarn` (installs dependencies)
-3. `npm run yaml2json` (after fetching new commits or changing landscape.yml file)
 * `yarn open:src` (starts a development server) or
-* `yarn open:dist` (compiles and opens a production build)
+* `yarn build`, then `yarn open:dist` (compiles and opens a production build)
 
-### Fetching and generating data:
-  src/crunchase.csv - download this file from the crunchbase pro account to get latest info
-  src/github.json - generate it with `babel-node tools/fetchGithubStats` to get last info
-  src/addExternalInfo.js - adds github + crunchbase to /landscape.yml and saves to /processed_landscape.yml
-  src/lookup.json - generated during yaml2json, uses only /processed_landscape.yml
-  src/data.json - generated during yaml2jsonm, uses only /processed_landscape.yml
+
+### Updating data
+
+The following options go from least data updated to most:
+1. `npm run fetch`: Fetches images (saving any changes) and updates processed_landscape.yaml
+1. `npm run precommit`: Above plus downloads GitHub info
+1. `npm run rebuild`: Above plus deletes all images first
+
+Netlify runs:
+1. `npm run prebuild` 
+
+### Data flow
+  Nothing is updated automatically during development.
+  Overall, the data flow is this:
+
+  landscape.yml => `yarn run babel-node tools/addExternalInfo` => processed_landscape.yml => `yarn yaml2json` => src/data.json + src/lookup.json
+
+  processed_landscape.yml => `yarn run babel-node tools/fetchImages` => src/logos + src/styles/styles.scss + src/image_urls.yml
+
+  `yarn run babel-node tools/addExternalInfo` uses these files:
+  1. landscape.yml - our source
+  2. github.json - an info about repos, can be obtained via `yarn run babel-node tools/fetchGithubStats`
+  3. crunchbase.csv - an info about companies from the crunchbase, should be download manually from a crunchbase pro account
+  4. cncf_members.yml - a list of all cncf members.
+
+  `yarn yaml2json` uses this files:
+  1. processed_landscape.yml - our source with extra fields from saved 3rd party data.
+
+  `yarn run babel-node tools/fetchImages` uses these files:
+  1. processed_landscape.yml - our source with extra fields from saved 3rd party data, so we get a proper company name
+  2. src/hosted_logos - some logos are stored locally
+  3. src/image_urls.yml - result from a previous run of this command. Saves us a time on image postprocessing
+
+  When you change a code iteslf in tools/fetchImages.js, postprocessing may
+  fail, because the file src/image_urls.yml contains the hash for an input image.
+  Just run `yarn fetchAllImages` to load everything again.
 
 ### building a dist
-   1. `yarn`
-   2. `yarn build`
-or with npm
-   1. `npm run build`
+   `yarn build`
 
 ### rebuilding json from yaml and extra info:
-   `npm run yaml2json`
+   `yarn yaml2json`
 
-### rebuilding images:
-   `./node_modules/bin/babel-node tools/fetchImages.js`
+### rebuilding all images:
+   `yarn fetchAllImages`
+
+### adding a custom image:
+1. save it to the src/hosted_logos/, for example, src/hosted_logos/apex.png
+2. update the landscape.yml with a logo, for exaple, `logo: ./src/hosted_logos/apex.png`
+3. handle it as usually when you modify any reference to the image:
+  - `npm run fetch`
