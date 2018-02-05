@@ -41,45 +41,42 @@ If the error is with data from [Crunchbase](https://www.crunchbase.com/) you sho
 * `yarn open:src` (starts a development server) or
 * `yarn build`, then `yarn open:dist` (compiles and opens a production build)
 
-### Data flow, updating data.
+
+### Updating data
+
+The following options go from least data updated to most:
+1. `npm run fetch`: Fetches images (saving any changes) and updates processed_landscape.yaml
+1. `npm run precommit`: Above plus downloads GitHub info
+1. `npm run rebuild`: Above plus deletes all images first
+
+Netlify runs:
+1. `npm run prebuild` 
+
+### Data flow
   Nothing is updated automatically during development.
   Overall, the data flow is this:
 
-  landscape.yml => `yarn run babel-node tools/addExternalInfo`  => processed_landscape.yml => `yarn yaml2json` => src/data.json + src/lookup.json
+  landscape.yml => `yarn run babel-node tools/addExternalInfo` => processed_landscape.yml => `yarn yaml2json` => src/data.json + src/lookup.json
 
   processed_landscape.yml => `yarn run babel-node tools/fetchImages` => src/logos + src/styles/styles.scss + src/image_urls.yml
 
   `yarn run babel-node tools/addExternalInfo` uses these files:
-  1) landscape.yml - our source
-  2) github.json - an info about repos, can be obtained via `yarn run babel-node tools/fetchGithubStats`
-  3) crunchbase.csv - an info about companies from the crunchbase, should be download manually from a crunchbase pro account
-  4) cncf_members.yml - a list of all cncf members.
+  1. landscape.yml - our source
+  2. github.json - an info about repos, can be obtained via `yarn run babel-node tools/fetchGithubStats`
+  3. crunchbase.csv - an info about companies from the crunchbase, should be download manually from a crunchbase pro account
+  4. cncf_members.yml - a list of all cncf members.
 
   `yarn yaml2json` uses this files:
-  1) processed_landscape.yml - our source with extra fields from saved 3rd party data.
+  1. processed_landscape.yml - our source with extra fields from saved 3rd party data.
 
   `yarn run babel-node tools/fetchImages` uses these files:
-  1) processed_landscape.yml - our source with extra fields from saved 3rd party data, so we get a proper company name
-  2) src/hosted_logos - some logos are stored locally
-  3) src/image_urls.yml - result from a previous run of this command. Saves us a time on image postprocessing
+  1. processed_landscape.yml - our source with extra fields from saved 3rd party data, so we get a proper company name
+  2. src/hosted_logos - some logos are stored locally
+  3. src/image_urls.yml - result from a previous run of this command. Saves us a time on image postprocessing
 
   When you change a code iteslf in tools/fetchImages.js, postprocessing may
   fail, because the file src/image_urls.yml contains the hash for an input image.
   Just run `yarn fetchAllImages` to load everything again.
-
-  Examples:
-  1) You've changed an a single item raw_logo in the landscape.yml. Run this commands:
-  - `yarn run babel-node tools/addExternalInfo`
-  - `yarn run babel-node tools/fetchImages`
-  - `yarn yaml2json`
-  2) You've updated the logo sizes in the file tools/fetchImages.js
-  - `yarn fetchAllImages`
-  3) You've changed a github reference in the landscape.yml
-  - `yarn run babel-node tools/fetchGithubStats`
-  - `yarn run babel-node tools/addExternalInfo`
-  - `yarn yaml2json`
-
-
 
 ### building a dist
    `yarn build`
