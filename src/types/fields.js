@@ -39,7 +39,7 @@ const fields = {
       url: 'member',
     }, {
       id: false,
-      label: 'non-CNCF Member Prodcuts/Projects',
+      label: 'non-CNCF Member Products/Projects',
       url: 'no'
     }]
   },
