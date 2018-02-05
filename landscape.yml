@@ -366,7 +366,7 @@ landscape:
         items:
           - item:
             name: Anchore
-            organization: null
+            organization: Anchore
             homepage_url: 'https://anchore.io/'
             repo_url: 'https://github.com/anchore/anchore-engine'
             logo: 'http://www.marketwire.com/library/MwGo/2016/4/5/11G092078/Anchore_RGB-14b85fa3801f8889be493bbb8e62e356.jpg'
@@ -1166,7 +1166,7 @@ landscape:
           - item:
             name: Vamp
             organization: Vamp
-            homepage_url: null
+            homepage_url: https://vamp.io/
             repo_url: 'https://github.com/magneticio/vamp'
             logo: ./src/hosted_logos/vamp.png
             twitter: 'https://twitter.com/vamp_io'
@@ -2290,13 +2290,6 @@ landscape:
       - subcategory:
         name: Monitoring
         items:
-          - item:
-            name: StatsDB
-            organization: Earlham Institute
-            homepage_url: 'http://www.earlham.ac.uk/statsdb'
-            repo_url: 'https://github.com/TGAC/StatsDB'
-            logo: 'http://www.earlham.ac.uk/sites/default/files/images/pages/Tools%20and%20resources/Tools%20detail/StatsDB/statsdb.jpg'
-            twitter: 'https://twitter.com/EarlhamInst'
           - item:
             name: New Relic
             organization: New Relic
