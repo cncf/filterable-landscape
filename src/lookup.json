@@ -136,11 +136,6 @@
       "url": "buildkite"
     },
     {
-      "id": "CFEngine",
-      "label": "CFEngine",
-      "url": "cf-engine"
-    },
-    {
       "id": "Canonical",
       "label": "Canonical",
       "url": "canonical"
@@ -154,6 +149,11 @@
       "id": "Centreon",
       "label": "Centreon",
       "url": "centreon"
+    },
+    {
+      "id": "CFEngine",
+      "label": "CFEngine",
+      "url": "cf-engine"
     },
     {
       "id": "Chef",
@@ -206,11 +206,6 @@
       "url": "cloudify"
     },
     {
-      "id": "CoScale",
-      "label": "CoScale",
-      "url": "co-scale"
-    },
-    {
       "id": "Cobe",
       "label": "Cobe",
       "url": "cobe"
@@ -249,6 +244,11 @@
       "id": "Convox",
       "label": "Convox",
       "url": "convox"
+    },
+    {
+      "id": "CoScale",
+      "label": "CoScale",
+      "url": "co-scale"
     },
     {
       "id": "Couchbase",
@@ -456,6 +456,11 @@
       "url": "icinga"
     },
     {
+      "id": "iguazio",
+      "label": "iguazio",
+      "url": "iguazio"
+    },
+    {
       "id": "Infinit",
       "label": "Infinit",
       "url": "infinit"
@@ -481,6 +486,11 @@
       "url": "iron-io"
     },
     {
+      "id": "Jenkins CI",
+      "label": "Jenkins CI",
+      "url": "jenkins-ci"
+    },
+    {
       "id": "JFrog",
       "label": "JFrog",
       "url": "j-frog"
@@ -489,11 +499,6 @@
       "id": "JHipster",
       "label": "JHipster",
       "url": "j-hipster"
-    },
-    {
-      "id": "Jenkins CI",
-      "label": "Jenkins CI",
-      "url": "jenkins-ci"
     },
     {
       "id": "Joyent",
@@ -511,11 +516,6 @@
       "url": "kontena"
     },
     {
-      "id": "KubeVirt",
-      "label": "KubeVirt",
-      "url": "kube-virt"
-    },
-    {
       "id": "Kubeless",
       "label": "Kubeless",
       "url": "kubeless"
@@ -524,6 +524,11 @@
       "id": "Kubermatic",
       "label": "Kubermatic",
       "url": "kubermatic"
+    },
+    {
+      "id": "KubeVirt",
+      "label": "KubeVirt",
+      "url": "kube-virt"
     },
     {
       "id": "Kubicorn",
@@ -546,14 +551,14 @@
       "url": "librato"
     },
     {
-      "id": "LightStep",
-      "label": "LightStep",
-      "url": "light-step"
-    },
-    {
       "id": "Lightbend",
       "label": "Lightbend",
       "url": "lightbend"
+    },
+    {
+      "id": "LightStep",
+      "label": "LightStep",
+      "url": "light-step"
     },
     {
       "id": "Linux Foundation",
@@ -579,6 +584,11 @@
       "id": "Lyft",
       "label": "Lyft",
       "url": "lyft"
+    },
+    {
+      "id": "magnetic.io",
+      "label": "magnetic.io",
+      "url": "magnetic-io"
     },
     {
       "id": "ManageIQ",
@@ -646,24 +656,14 @@
       "url": "my-sql"
     },
     {
-      "id": "NATS",
-      "label": "NATS",
-      "url": "nats"
-    },
-    {
-      "id": "NGINX, Inc.",
-      "label": "NGINX, Inc.",
-      "url": "nginx-inc"
-    },
-    {
-      "id": "NStack",
-      "label": "NStack",
-      "url": "n-stack"
-    },
-    {
       "id": "Nagios",
       "label": "Nagios",
       "url": "nagios"
+    },
+    {
+      "id": "NATS",
+      "label": "NATS",
+      "url": "nats"
     },
     {
       "id": "Navops",
@@ -696,6 +696,11 @@
       "url": "new-relic"
     },
     {
+      "id": "NGINX, Inc.",
+      "label": "NGINX, Inc.",
+      "url": "nginx-inc"
+    },
+    {
       "id": "Nirmata",
       "label": "Nirmata",
       "url": "nirmata"
@@ -704,6 +709,11 @@
       "id": "NodeSource, Inc.",
       "label": "NodeSource, Inc.",
       "url": "node-source-inc"
+    },
+    {
+      "id": "NStack",
+      "label": "NStack",
+      "url": "n-stack"
     },
     {
       "id": "Nuage Networks",
@@ -736,6 +746,11 @@
       "url": "open-contrail"
     },
     {
+      "id": "Openebs",
+      "label": "Openebs",
+      "url": "openebs"
+    },
+    {
       "id": "OpenFaaS Ltd",
       "label": "OpenFaaS Ltd",
       "url": "open-faa-s-ltd"
@@ -756,11 +771,6 @@
       "url": "open-tsdb"
     },
     {
-      "id": "Openebs",
-      "label": "Openebs",
-      "url": "openebs"
-    },
-    {
       "id": "OpsClarity Inc.",
       "label": "OpsClarity Inc.",
       "url": "ops-clarity-inc"
@@ -774,11 +784,6 @@
       "id": "Outlyer",
       "label": "Outlyer",
       "url": "outlyer"
-    },
-    {
-      "id": "PLUMgrid",
-      "label": "PLUMgrid",
-      "url": "plu-mgrid"
     },
     {
       "id": "Pachyderm",
@@ -814,6 +819,11 @@
       "id": "Platform9 Systems",
       "label": "Platform9 Systems",
       "url": "platform9-systems"
+    },
+    {
+      "id": "PLUMgrid",
+      "label": "PLUMgrid",
+      "url": "plu-mgrid"
     },
     {
       "id": "Portainer",
@@ -906,11 +916,6 @@
       "url": "rundeck"
     },
     {
-      "id": "SENSU",
-      "label": "SENSU",
-      "url": "sensu"
-    },
-    {
       "id": "Salesforce",
       "label": "Salesforce",
       "url": "salesforce"
@@ -949,6 +954,11 @@
       "id": "Sematext",
       "label": "Sematext",
       "url": "sematext"
+    },
+    {
+      "id": "SENSU",
+      "label": "SENSU",
+      "url": "sensu"
     },
     {
       "id": "Sentry",
@@ -1026,6 +1036,11 @@
       "url": "square"
     },
     {
+      "id": "Stackdriver",
+      "label": "Stackdriver",
+      "url": "stackdriver"
+    },
+    {
       "id": "StackPointCloud",
       "label": "StackPointCloud",
       "url": "stack-point-cloud"
@@ -1039,11 +1054,6 @@
       "id": "StackState",
       "label": "StackState",
       "url": "stack-state"
-    },
-    {
-      "id": "Stackdriver",
-      "label": "Stackdriver",
-      "url": "stackdriver"
     },
     {
       "id": "StorageOS",
@@ -1121,14 +1131,14 @@
       "url": "uber"
     },
     {
-      "id": "VMware",
-      "label": "VMware",
-      "url": "v-mware"
-    },
-    {
       "id": "Vertica Systems",
       "label": "Vertica Systems",
       "url": "vertica-systems"
+    },
+    {
+      "id": "VMware",
+      "label": "VMware",
+      "url": "v-mware"
     },
     {
       "id": "Wavefront",
@@ -1169,16 +1179,6 @@
       "id": "Zipkin",
       "label": "Zipkin",
       "url": "zipkin"
-    },
-    {
-      "id": "iguazio",
-      "label": "iguazio",
-      "url": "iguazio"
-    },
-    {
-      "id": "magnetic.io",
-      "label": "magnetic.io",
-      "url": "magnetic-io"
     }
   ],
   "landscape": [

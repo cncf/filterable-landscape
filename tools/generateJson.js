@@ -4,6 +4,12 @@ const _ = require('lodash');
 import saneName from '../src/utils/saneName';
 import { getCategory } from '../src/types/fields';
 
+function sortFn(x) {
+  if (_.isString(x)) {
+    return x.toLowerCase();
+  }
+  return x;
+}
 
 const items = [];
 const tree = traverse(source);
@@ -51,7 +57,7 @@ const extractOptions = function(name) {
     return x[name];
   }).filter(function(x) {
     return !!x
-  }).sortBy().uniq().map(function(x) {
+  }).sortBy(sortFn).uniq().map(function(x) {
     return {
       id: x,
       label: x,
