@@ -19,16 +19,20 @@ const ComboboxSelector = ({value, options, onChange}) => {
 
   return <Select
     multiple
-    style={{width:200}}
+    style={{width:170, fontSize:'0.7em'}}
     value={idToValue(value)}
     onChange={(e) => onChange(valueToId(e.target.value))}
     renderValue={renderValue }
     displayEmpty
   >
     { options.map( (el) => (
-      <MenuItem key={idToValue(el.id)} value={idToValue(el.id)}>
-        <Checkbox checked={value.indexOf(el.id) !== -1} />
-        <ListItemText primary={el.label} />
+      <MenuItem key={idToValue(el.id)}
+                value={idToValue(el.id)}
+                style={{height:5}}
+                >
+        <Checkbox disableRipple checked={value.indexOf(el.id) !== -1} />
+        
+        <ListItemText disableTypography style={{fontSize:'0.7em'}} primary={el.label}/>
       </MenuItem>
     )) }
   </Select>

@@ -73,17 +73,19 @@ const TreeSelector = ({value, options, onChange}) => {
 
   return <Select
     multiple
-    style={{width:200}}
+    style={{width:170 ,fontSize:'0.7em'}}
     value={value}
     renderValue={renderValue }
     onChange={(e) => onItemChanged(e.target.value)}
     displayEmpty
   >
     { options.map( (el) => (
-      <MenuItem  key={el.id} value={el.id}>
-        <span  style={{width: (el.level - 1) * 40 }}/>
-        <Checkbox checked={value.indexOf(el.id) !== -1} />
-        <ListItemText primary={el.label} />
+      <MenuItem  key={el.id}
+                 value={el.id}
+                 style={{height:5}}>
+        <span  style={{width: (el.level - 1) * 20 }}/>
+        <Checkbox disableRipple checked={value.indexOf(el.id) !== -1} />
+        <ListItemText disableTypography primary={el.label} style={{fontSize:'0.7em', padding:0}} />
       </MenuItem>
     )) }
   </Select>

@@ -1,14 +1,33 @@
-
+body{
+  background-color:#F4F4f4 !important;
+}
 .wrapper{
-  background-color:#F4F4f4;
   overflow:hidden;
   font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  padding-left:20px;
 }
 
 .sh_wrapper{
   position: relative;
-  height: 80px;
-  margin: 20px;
+  margin: 7px;
+  font-size: 1em;
+  background-color: #e8e8e8;
+  border-radius: 10px;
+  div{
+    font-size:0.8em !important;
+  }
+
+}
+
+.sidebar{
+
+  legend{
+    font-size:0.6em !important;
+  }
+  fieldset{
+    margin-top:5px;
+  }
+
 }
 
 .mosaic{
@@ -72,7 +91,7 @@
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    padding: 15px 30px;
+    padding: 15px 0;
 
     .logos{
       display: flex;
