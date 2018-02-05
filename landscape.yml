@@ -188,7 +188,7 @@ landscape:
           name: "Cloudify"
           company: "Gigaspaces Technologies"
           homepage_url: https://cloudify.co
-          logo: https://access.redhat.com/sites/default/files/logo-blue_web__grey_0.png
+          logo: https://cloudify.co/wp-content/uploads/2017/04/Cloudify-Logo-1.png
           twitter: https://twitter.com/CloudifySource
           crunchbase: https://www.crunchbase.com/organization/cloudify
         - item:
@@ -502,12 +502,12 @@ landscape:
         items:
         - item:
           name: "Ceph"
-          company: "Ceph"
+          company: "Red Hat"
           homepage_url: https://ceph.com/
           repo_url: https://github.com/ceph/ceph
           logo: https://i2.wp.com/ceph.com/wp-content/uploads/2016/07/Ceph_Logo_Stacked_RGB_120411_fa.png
           twitter: https://twitter.com/Ceph
-          crunchbase: https://www.crunchbase.com/organization/ceph-storage
+          crunchbase: https://www.crunchbase.com/organization/red-hat
         - item:
           name: "Gluster"
           company: "Red Hat"
@@ -523,7 +523,7 @@ landscape:
           repo_url: https://github.com/apache/hadoop-hdfs
           logo: http://previsna.com/bilder/hadoop-hdfs.png
           twitter: https://twitter.com/TheASF
-          crunchbase: https://www.crunchbase.com/organization/hadoop
+          crunchbase: https://www.crunchbase.com/organization/apache
         - item:
           name: "Minio"
           company: "Minio"
@@ -543,7 +543,6 @@ landscape:
           name: "Project Hatchway"
           company: "VMWare"
           homepage_url: https://vmware.github.io/hatchway/
-          repo_url: https://vmware.github.io/hatchway
           logo: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Vmware.svg/1000px-Vmware.svg.png
           stock ticker: VMW
           twitter: https://twitter.com/VMware
@@ -960,7 +959,6 @@ landscape:
           name: "Microsoft Azure Service Fabric"
           company: "Microsoft"
           homepage_url: https://azure.microsoft.com/en-us/services/service-fabric/
-          repo_url: https://github.com/Azure/service-fabric
           logo: https://raw.githubusercontent.com/Azure/service-fabric/master/service-fabric.png
           stock ticker: MSFT
           twitter: https://twitter.com/azure
@@ -1421,7 +1419,7 @@ landscape:
           repo_url: https://github.com/apache/hadoop
           logo: https://www.contegix.com/wp-content/uploads/2015/09/Hadoop.png
           twitter: https://twitter.com/hadoop
-          crunchbase: https://www.crunchbase.com/organization/hadoop
+          crunchbase: https://www.crunchbase.com/organization/apache
         - item:
           name: "Iguazio"
           company: "iguazio"
@@ -1575,7 +1573,7 @@ landscape:
           company: "GitLab"
           homepage_url: https://gitlab.com/
           repo_url: https://github.com/gitlabhq/gitlabhq
-          logo: https://www.openshift.com/images/partners/gitlab.png
+          logo: https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/9042687287/original/mJ2VHmjgR7f1nkmBjJ1mSMI82-IqHlhvnw.png
           twitter: https://twitter.com/gitlab
           crunchbase: https://www.crunchbase.com/organization/gitlab-com
         - item:
@@ -1777,6 +1775,7 @@ landscape:
           name: "ContainerOps"
           company: "Huawei"
           homepage_url: http://containerops.org/
+          repo_url: https://github.com/Huawei/containerops
           logo: http://image20.it168.com/201706_335x251/2924/5f8a80a4b4fadf88.png
           twitter: https://twitter.com/Huawei
           crunchbase: https://www.crunchbase.com/organization/huawei
@@ -1788,8 +1787,8 @@ landscape:
           twitter: https://twitter.com/appveyor
           crunchbase: https://www.crunchbase.com/organization/appveyor-systems-inc
         - item:
-          name: "Gitlab Runner"
-          company: "Gitlab"
+          name: "GitLab Runner"
+          company: "GitLab"
           homepage_url: https://docs.gitlab.com/runner/
           repo_url: https://gitlab.com/gitlab-org/gitlab-runner
           logo: https://gitlab.com/uploads/-/system/project/avatar/250833/runner_logo.png
@@ -1862,7 +1861,7 @@ landscape:
           homepage_url: https://www.apcera.com/
           logo: https://crunchbase-production-res.cloudinary.com/image/upload/v1445882939/xhdhlohznhrz18iox373.jpg
           twitter: https://twitter.com/apcera
-          crunchbase: https://www.crunchbase.com/organization/apcera
+          crunchbase: https://www.crunchbase.com/organization/ericsson
         - item:
           name: "Apprenda"
           company: "Apprenda"
@@ -2200,18 +2199,17 @@ landscape:
           name: "Oracle Application Container Cloud"
           company: "Oracle"
           homepage_url: https://cloud.oracle.com/acc
-          repo_url: https://github.com/topics/oracle-application-container-cloud
           logo: https://docs.oracle.com/en/cloud/paas/app-container-cloud/sp_common/shared-images/cloudgs_appcontainer.png
           twitter: https://twitter.com/hashtag/OracleCloudZone
           crunchbase: https://www.crunchbase.com/organization/oracle
         - item:
-          name: "Firebase BLOCKS"
+          name: "Firebase"
           company: "Firebase"
           homepage_url: https://firebase.google.com/
           logo: https://www.appcoda.com/wp-content/uploads/2016/11/firebase_logo_shot.png
           stock_ticker: 'GOOGL'
           twitter: https://twitter.com/Firebase
-          crunchbase: https://www.crunchbase.com/organization/firebase
+          crunchbase: https://www.crunchbase.com/organization/google-cloud-platform
         - item:
           name: "Webtask"
           company: "Webtask"
@@ -2540,10 +2538,10 @@ landscape:
           twitter: https://twitter.com/signalfx
           crunchbase: https://www.crunchbase.com/organization/signalfuse
         - item:
-          name: "Nodesource"
-          company: "Nodesource"
+          name: "NodeSource"
+          company: "NodeSource"
           homepage_url: https://nodesource.com/
-          logo: https://www.crosslinkcapital.com/blog/wp-content/uploads/2016/01/nodesource-512x512.png
+          logo: https://nodesource.com/assets/icons/nodesource-512x512.png
           twitter: https://twitter.com/nodesource
           crunchbase: https://www.crunchbase.com/organization/nodesource
         - item:
