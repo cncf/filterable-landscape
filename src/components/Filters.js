@@ -7,7 +7,7 @@ import StarsFilterContainer from './StarsFilterContainer';
 import LicenseFilterContainer from './LicenseFilterContainer';
 import MarketCapFilterContainer from './MarketCapFilterContainer';
 // import VCFunderFilterContainer from './VCFunderFilterContainer';
-import CompanyFilterContainer from './CompanyFilterContainer';
+import OrganizationFilterContainer from './OrganizationFilterContainer';
 import HeadquartersFilterContainer from './HeadquartersFilterContainer';
 import LandscapeFilterContainer from './LandscapeFilterContainer';
 import fields from '../types/fields';
@@ -36,8 +36,8 @@ const Filters = () => {
 
       <FormGroup row>
         <FormControl component="fieldset">
-          <FormLabel component="legend">{fields.company.label}</FormLabel>
-          <CompanyFilterContainer />
+          <FormLabel component="legend">{fields.organization.label}</FormLabel>
+          <OrganizationFilterContainer />
         </FormControl>
       </FormGroup>
 

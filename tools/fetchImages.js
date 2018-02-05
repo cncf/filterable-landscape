@@ -42,7 +42,7 @@ _.each(items, function(item) {
   var id = item.name;
   if (otherItems.length > 1) {
     // console.info('Other name: ', id);
-    id = item.company + ' ' + item.name;
+    id = item.organization + ' ' + item.name;
     // console.info(' resolved with ', id);
   }
   item.id = id;

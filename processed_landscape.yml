@@ -8,7 +8,7 @@ landscape:
         items:
           - item:
             name: AWS
-            company: Amazon Web Services
+            organization: Amazon Web Services
             homepage_url: 'https://aws.amazon.com/'
             logo: >-
               https://www.cncf.io/wp-content/uploads/2017/08/logo_AWS-300x184.png
@@ -26,7 +26,7 @@ landscape:
             cncf_member: true
           - item:
             name: Google Cloud
-            company: Google Cloud Platform
+            organization: Google Cloud Platform
             homepage_url: 'https://cloud.google.com/'
             logo: 'https://www.google.com/cloud/assets/press/Google_Cloud_Logo.png'
             stock_ticker: GOOGL
@@ -41,7 +41,7 @@ landscape:
             cncf_member: true
           - item:
             name: Azure Cloud Services
-            company: Microsoft
+            organization: Microsoft
             homepage_url: 'https://azure.microsoft.com/'
             logo: >-
               https://www.cncf.io/wp-content/uploads/2017/07/Azure_logo-300x184.png
@@ -60,7 +60,7 @@ landscape:
             cncf_member: true
           - item:
             name: DigitalOcean
-            company: DigitalOcean
+            organization: DigitalOcean
             homepage_url: 'https://www.digitalocean.com/'
             logo: >-
               https://upload.wikimedia.org/wikipedia/en/thumb/f/ff/DigitalOcean_logo.svg/1024px-DigitalOcean_logo.svg.png
@@ -78,7 +78,7 @@ landscape:
             cncf_member: false
           - item:
             name: Packet
-            company: Packet Host
+            organization: Packet Host
             homepage_url: 'https://www.packet.net/'
             logo: >-
               https://user-images.githubusercontent.com/7989673/29498525-38a33f36-85cc-11e7-938d-ef6f10ba6fb3.png
@@ -96,7 +96,7 @@ landscape:
             cncf_member: true
           - item:
             name: Oracle Cloud
-            company: Oracle Corporation
+            organization: Oracle Corporation
             homepage_url: 'https://cloud.oracle.com/'
             logo: >-
               http://sabeo.com/wp-content/uploads/2017/05/OracleCloud_logo300.png
@@ -115,7 +115,7 @@ landscape:
             cncf_member: false
           - item:
             name: Alibaba Cloud
-            company: Alibaba Cloud
+            organization: Alibaba Cloud
             homepage_url: 'https://www.alibabacloud.com/'
             logo: >-
               https://seeklogo.com/images/A/alibaba-cloud-logo-898D58C1CE-seeklogo.com.png
@@ -133,7 +133,7 @@ landscape:
             cncf_member: true
           - item:
             name: Fujitsu K5
-            company: Fujitsu
+            organization: Fujitsu
             homepage_url: 'https://www.fujitsu.com/global/solutions/cloud/k5/'
             logo: >-
               http://www.fujitsu.com/us/Images/fujitsu-red-jpg-rgb_tcm127-1146712.jpg
@@ -151,7 +151,7 @@ landscape:
             cncf_member: true
           - item:
             name: IBM Cloud
-            company: IBM
+            organization: IBM
             homepage_url: 'https://www.ibm.com/cloud/'
             logo: >-
               https://login.ng.bluemix.net/UAALoginServerWAR/logo_bluemix_light.svg
@@ -169,7 +169,7 @@ landscape:
             cncf_member: true
           - item:
             name: Tencent Cloud
-            company: Tencent Cloud
+            organization: Tencent Cloud
             homepage_url: 'https://cloud.tencent.com/'
             logo: >-
               https://pbs.twimg.com/profile_images/852439695199846400/OqpOmsZ0_400x400.jpg
@@ -184,7 +184,7 @@ landscape:
             cncf_member: true
           - item:
             name: Joyent
-            company: Joyent
+            organization: Joyent
             homepage_url: 'https://www.joyent.com/'
             repo_url: 'https://github.com/joyent/smartos-live'
             logo: >-
@@ -203,7 +203,7 @@ landscape:
             cncf_member: true
           - item:
             name: Huawei
-            company: Huawei Technologies
+            organization: Huawei Technologies
             homepage_url: 'https://www.huawei.com/'
             logo: >-
               https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Huawei-optimized.svg/300px-Huawei-optimized.svg.png
@@ -223,7 +223,7 @@ landscape:
         items:
           - item:
             name: OpenStack
-            company: OpenStack
+            organization: OpenStack
             homepage_url: 'https://www.openstack.org/'
             repo_url: 'https://github.com/openstack/nova'
             logo: >-
@@ -239,7 +239,7 @@ landscape:
             cncf_member: false
           - item:
             name: VMware
-            company: VMware
+            organization: VMware
             homepage_url: 'https://www.vmware.com/'
             logo: 'https://regmedia.co.uk/2015/02/02/vmware_cloud_logo.jpg'
             stock_ticker: VMW
@@ -256,7 +256,7 @@ landscape:
             cncf_member: true
           - item:
             name: MAAS
-            company: Canonical
+            organization: Canonical
             homepage_url: 'https://maas.io/'
             repo_url: 'https://github.com/maas/maas'
             logo: >-
@@ -274,7 +274,7 @@ landscape:
             cncf_member: true
           - item:
             name: Foreman
-            company: Foreman
+            organization: Foreman
             homepage_url: 'https://theforeman.org/'
             repo_url: 'https://github.com/theforeman/theforeman.org'
             logo: >-
@@ -290,7 +290,7 @@ landscape:
             cncf_member: false
           - item:
             name: Scaleway
-            company: Scaleway
+            organization: Scaleway
             homepage_url: 'https://www.scaleway.com/'
             logo: 'https://blog.online.net/content/images/2015/04/scaleway_02-1.png'
             twitter: 'https://twitter.com/scaleway'
@@ -304,7 +304,7 @@ landscape:
             cncf_member: false
           - item:
             name: Digital Rebar
-            company: RackN
+            organization: RackN
             homepage_url: 'http://rebar.digital/'
             repo_url: 'https://github.com/digitalrebar/provision'
             logo: 'http://rebar.digital/logo.png'
@@ -328,7 +328,7 @@ landscape:
         items:
           - item:
             name: Terraform
-            company: HashiCorp
+            organization: HashiCorp
             homepage_url: 'https://www.terraform.io/'
             repo_url: 'https://github.com/hashicorp/terraform'
             logo: >-
@@ -346,7 +346,7 @@ landscape:
             cncf_member: false
           - item:
             name: BOSH
-            company: Cloud Foundry
+            organization: Cloud Foundry
             homepage_url: 'https://bosh.io/'
             repo_url: 'https://github.com/cloudfoundry/bosh'
             logo: >-
@@ -365,7 +365,7 @@ landscape:
             cncf_member: true
           - item:
             name: CloudFormation
-            company: Amazon Web Services
+            organization: Amazon Web Services
             homepage_url: 'https://aws.amazon.com/cloudformation/'
             logo: >-
               https://media.licdn.com/mpr/mpr/AAEAAQAAAAAAAAi8AAAAJDg0Y2JmM2U2LTc0ODYtNGY5Ni04YzQxLTdmNmM4MjczNDMxMQ.png
@@ -383,7 +383,7 @@ landscape:
             cncf_member: true
           - item:
             name: Cloud Coreo
-            company: CloudCoreo
+            organization: CloudCoreo
             homepage_url: 'https://www.cloudcoreo.com/'
             logo: 'http://kb.cloudcoreo.com/images/company_logo.png'
             twitter: 'https://twitter.com/cloudcoreo'
@@ -399,7 +399,7 @@ landscape:
             cncf_member: false
           - item:
             name: Cloudify
-            company: Cloudify
+            organization: Cloudify
             homepage_url: 'https://cloudify.co'
             logo: 'https://cloudify.co/wp-content/uploads/2017/04/Cloudify-Logo-1.png'
             twitter: 'https://twitter.com/CloudifySource'
@@ -416,7 +416,7 @@ landscape:
             cncf_member: false
           - item:
             name: Helm
-            company: Cloud Native Computing Foundation (CNCF)
+            organization: Cloud Native Computing Foundation (CNCF)
             homepage_url: 'https://helm.sh/'
             repo_url: 'https://github.com/kubernetes/helm'
             logo: 'https://helm.sh/assets/images/helm-logo.svg'
@@ -432,7 +432,7 @@ landscape:
             cncf_member: true
           - item:
             name: Infrakit
-            company: Docker
+            organization: Docker
             homepage_url: 'https://github.com/docker/infrakit'
             repo_url: 'https://github.com/docker/infrakit'
             logo: >-
@@ -450,7 +450,7 @@ landscape:
             cncf_member: true
           - item:
             name: Juju
-            company: Canonical
+            organization: Canonical
             homepage_url: 'https://jujucharms.com/'
             repo_url: 'https://github.com/juju/juju'
             logo: >-
@@ -466,7 +466,7 @@ landscape:
             cncf_member: true
           - item:
             name: Kubicorn
-            company: Kubicorn
+            organization: Kubicorn
             homepage_url: 'https://github.com/kris-nova/kubicorn'
             repo_url: 'https://github.com/kris-nova/kubicorn'
             logo: >-
@@ -481,7 +481,7 @@ landscape:
             cncf_member: false
           - item:
             name: ManageIQ
-            company: ManageIQ
+            organization: ManageIQ
             homepage_url: 'https://http://manageiq.org/'
             repo_url: 'https://github.com/ManageIQ/manageiq'
             logo: >-
@@ -500,7 +500,7 @@ landscape:
         items:
           - item:
             name: Quay
-            company: Red Hat
+            organization: Red Hat
             homepage_url: 'https://quay.io/'
             logo: 'https://quay.io/static/img/quay_preview.png'
             twitter: 'https://twitter.com/quayio'
@@ -514,7 +514,7 @@ landscape:
             cncf_member: true
           - item:
             name: Artifactory
-            company: JFrog
+            organization: JFrog
             homepage_url: 'https://www.jfrog.com/artifactory/'
             logo: >-
               http://www.jfrogchina.com/wp-content/uploads/2015/09/Artifactory_HEX1.png
@@ -531,7 +531,7 @@ landscape:
             cncf_member: true
           - item:
             name: Harbor
-            company: VMware
+            organization: VMware
             homepage_url: 'https://vmware.github.io/harbor/'
             repo_url: 'https://github.com/vmware/harbor'
             logo: 'https://vmware.github.io/harbor/images/harbor.png'
@@ -548,7 +548,7 @@ landscape:
             cncf_member: true
           - item:
             name: Azure Registry
-            company: Microsoft
+            organization: Microsoft
             homepage_url: 'https://azure.microsoft.com/en-us/services/container-registry/'
             logo: >-
               https://azure.microsoft.com/svghandler/container-registry/?width=600&height=315
@@ -567,7 +567,7 @@ landscape:
             cncf_member: true
           - item:
             name: Atomic
-            company: Red Hat
+            organization: Red Hat
             homepage_url: 'https://www.projectatomic.io/'
             repo_url: 'https://github.com/projectatomic/atomic'
             logo: 'https://community.redhat.com/images/branding/logo-atomic.png'
@@ -582,7 +582,7 @@ landscape:
             cncf_member: true
           - item:
             name: Docker Registry
-            company: Docker
+            organization: Docker
             homepage_url: 'https://docs.docker.com/registry/'
             repo_url: 'https://github.com/docker/distribution'
             logo: >-
@@ -598,7 +598,7 @@ landscape:
             cncf_member: true
           - item:
             name: Amazon ECR
-            company: Amazon Web Services
+            organization: Amazon Web Services
             homepage_url: 'https://aws.amazon.com/ecr/'
             logo: ./src/hosted_logos/aws-ecr.png
             stock_ticker: AMZN
@@ -615,7 +615,7 @@ landscape:
             cncf_member: true
           - item:
             name: Google Registry
-            company: Google Cloud Platform
+            organization: Google Cloud Platform
             homepage_url: 'https://cloud.google.com/container-registry/'
             logo: >-
               https://www.blackducksoftware.com/sites/default/files/images/gcr.png
@@ -631,7 +631,7 @@ landscape:
             cncf_member: true
           - item:
             name: Portus
-            company: Suse
+            organization: Suse
             homepage_url: 'http://port.us.org/'
             repo_url: 'https://github.com/SUSE/Portus'
             logo: >-
@@ -650,7 +650,7 @@ landscape:
         items:
           - item:
             name: Puppet
-            company: Puppet
+            organization: Puppet
             homepage_url: 'https://puppet.com/'
             repo_url: 'https://github.com/puppetlabs/puppet'
             logo: >-
@@ -666,7 +666,7 @@ landscape:
             cncf_member: false
           - item:
             name: LinuxKit
-            company: Docker
+            organization: Docker
             repo_url: 'https://github.com/linuxkit/linuxkit'
             logo: 'https://ordina-jworks.github.io/img/dockercon2017/linux-kit.png'
             twitter: 'https://twitter.com/linuxkit'
@@ -682,7 +682,7 @@ landscape:
             cncf_member: true
           - item:
             name: Ansible
-            company: Red Hat
+            organization: Red Hat
             homepage_url: 'https://www.ansible.com/'
             repo_url: 'https://github.com/ansible/ansible'
             logo: >-
@@ -703,7 +703,7 @@ landscape:
             cncf_member: true
           - item:
             name: Chef
-            company: Chef
+            organization: Chef
             homepage_url: 'https://chef.io'
             repo_url: 'https://github.com/chef/chef'
             logo: >-
@@ -721,7 +721,7 @@ landscape:
             cncf_member: false
           - item:
             name: Salt Stack
-            company: SaltStack
+            organization: SaltStack
             homepage_url: 'https://saltstack.com/'
             repo_url: 'https://github.com/saltstack/salt'
             logo: >-
@@ -740,7 +740,7 @@ landscape:
             cncf_member: false
           - item:
             name: CFEngine
-            company: CFEngine
+            organization: CFEngine
             homepage_url: 'https://cfengine.com/'
             repo_url: 'https://github.com/cfengine/core'
             logo: >-
@@ -756,7 +756,7 @@ landscape:
             cncf_member: false
           - item:
             name: Rundeck
-            company: Rundeck
+            organization: Rundeck
             homepage_url: 'http://rundeck.org/'
             repo_url: 'https://github.com/rundeck/rundeck'
             logo: >-
@@ -777,7 +777,7 @@ landscape:
         items:
           - item:
             name: Anchore
-            company: 'Anchore, Inc.'
+            organization: 'Anchore, Inc.'
             homepage_url: 'https://anchore.io/'
             repo_url: 'https://github.com/anchore/anchore-engine'
             logo: >-
@@ -793,7 +793,7 @@ landscape:
             cncf_member: false
           - item:
             name: Aqua
-            company: Aqua Security
+            organization: Aqua Security
             homepage_url: 'https://www.aquasec.com/'
             logo: >-
               https://www.aquasec.com/wp-content/uploads/2016/05/aqua_logo_fullcolor.png
@@ -810,7 +810,7 @@ landscape:
             cncf_member: true
           - item:
             name: Black Duck
-            company: Black Duck Software
+            organization: Black Duck Software
             homepage_url: 'https://www.blackducksoftware.com/'
             logo: >-
               http://www.southeastlinuxfest.org/wp-content/uploads/2017/05/BlackDuck.png
@@ -828,7 +828,7 @@ landscape:
             cncf_member: false
           - item:
             name: NeuVector
-            company: NeuVector
+            organization: NeuVector
             homepage_url: 'https://neuvector.com/'
             logo: 'https://d0.awsstatic.com/logos/partners/neuvector_logo_600x400.png'
             twitter: 'https://twitter.com/neuvector'
@@ -844,7 +844,7 @@ landscape:
             cncf_member: false
           - item:
             name: Clair
-            company: Red Hat
+            organization: Red Hat
             homepage_url: 'https://coreos.com/clair/docs/latest/'
             repo_url: 'https://github.com/coreos/clair'
             logo: >-
@@ -860,7 +860,7 @@ landscape:
             cncf_member: true
           - item:
             name: Notary
-            company: Cloud Native Computing Foundation (CNCF)
+            organization: Cloud Native Computing Foundation (CNCF)
             homepage_url: 'https://github.com/theupdateframework/notary'
             cncf_project: incubating
             repo_url: 'https://github.com/theupdateframework/notary'
@@ -879,7 +879,7 @@ landscape:
             cncf_member: true
           - item:
             name: OpenSCAP
-            company: Red Hat
+            organization: Red Hat
             homepage_url: 'https://www.open-scap.org/'
             repo_url: 'https://github.com/OpenSCAP/openscap'
             logo: >-
@@ -895,7 +895,7 @@ landscape:
             cncf_member: true
           - item:
             name: Sonatype Nexus
-            company: Sonatype
+            organization: Sonatype
             homepage_url: 'https://www.sonatype.com/'
             logo: >-
               https://user-images.githubusercontent.com/7955995/29498304-ee71d418-85c6-11e7-9f95-e87a4439ed3c.png
@@ -912,7 +912,7 @@ landscape:
             cncf_member: false
           - item:
             name: The Update Framework (TUF)
-            company: Cloud Native Computing Foundation (CNCF)
+            organization: Cloud Native Computing Foundation (CNCF)
             homepage_url: 'https://theupdateframework.github.io/'
             cncf_project: incubating
             repo_url: 'https://github.com/theupdateframework/tuf'
@@ -929,7 +929,7 @@ landscape:
             cncf_member: true
           - item:
             name: Twistlock
-            company: Twistlock
+            organization: Twistlock
             homepage_url: 'https://www.twistlock.com/'
             logo: >-
               https://d7umqicpi7263.cloudfront.net/img/product/1fd6301a-a20f-4c14-9e07-3d0f3c0b37fc/e622e016-ff30-4a92-aadc-f749fa9dca86.png
@@ -947,7 +947,7 @@ landscape:
         items:
           - item:
             name: Lyft Confidant
-            company: Lyft
+            organization: Lyft
             homepage_url: 'https://lyft.github.io/confidant/'
             repo_url: 'https://github.com/lyft/confidant'
             logo: ./src/hosted_logos/lyft-confidant.png
@@ -961,7 +961,7 @@ landscape:
             cncf_member: false
           - item:
             name: Keywhiz
-            company: Square
+            organization: Square
             homepage_url: 'https://square.github.io/keywhiz/'
             repo_url: 'https://github.com/square/keywhiz'
             logo: 'https://avatars0.githubusercontent.com/u/82592?v=4&s=200'
@@ -976,7 +976,7 @@ landscape:
             cncf_member: false
           - item:
             name: Knox
-            company: Pinterest
+            organization: Pinterest
             repo_url: 'https://github.com/pinterest/knox'
             logo: >-
               https://seeklogo.com/images/P/pinterest-badge-logo-82C89A5E42-seeklogo.com.png
@@ -990,7 +990,7 @@ landscape:
             cncf_member: true
           - item:
             name: Hashicorp Vault
-            company: HashiCorp
+            organization: HashiCorp
             homepage_url: 'https://www.vaultproject.io/'
             repo_url: 'https://github.com/hashicorp/vault'
             logo: 'https://hyzxph.media.zestyio.com/blog-vault-list.svg'
@@ -1007,7 +1007,7 @@ landscape:
             cncf_member: false
           - item:
             name: Oracle Policy Automation
-            company: Oracle Corporation
+            organization: Oracle Corporation
             homepage_url: >-
               https://www.oracle.com/applications/oracle-policy-automation/index.html
             logo: >-
@@ -1026,7 +1026,7 @@ landscape:
             cncf_member: false
           - item:
             name: SPIFFE
-            company: Scytale.io
+            organization: Scytale.io
             homepage_url: 'https://spiffe.io/'
             repo_url: 'https://github.com/spiffe/spiffe'
             logo: 'https://spiffe.io/img/spiffe-logo-color-basic.svg'
@@ -1041,7 +1041,7 @@ landscape:
             cncf_member: false
           - item:
             name: Spire
-            company: Scytale.io
+            organization: Scytale.io
             homepage_url: 'https://spiffe.io/spire/'
             repo_url: 'https://github.com/spiffe/spire'
             logo: >-
@@ -1063,7 +1063,7 @@ landscape:
         items:
           - item:
             name: Ceph
-            company: Red Hat
+            organization: Red Hat
             homepage_url: 'https://ceph.com/'
             repo_url: 'https://github.com/ceph/ceph'
             logo: >-
@@ -1079,7 +1079,7 @@ landscape:
             cncf_member: true
           - item:
             name: Gluster
-            company: Red Hat
+            organization: Red Hat
             homepage_url: 'https://www.gluster.org/'
             repo_url: 'https://github.com/gluster/glusterfs'
             logo: 'http://community.redhat.com/images/branding/logo-gluster.png'
@@ -1096,7 +1096,7 @@ landscape:
             cncf_member: true
           - item:
             name: HDFS
-            company: Apache Software Foundation
+            organization: Apache Software Foundation
             homepage_url: 'http://hadoop.apache.org/'
             repo_url: 'https://github.com/apache/hadoop-hdfs'
             logo: 'http://previsna.com/bilder/hadoop-hdfs.png'
@@ -1111,7 +1111,7 @@ landscape:
             cncf_member: false
           - item:
             name: Minio
-            company: 'Minio, Inc.'
+            organization: 'Minio, Inc.'
             homepage_url: 'https://minio.io/'
             repo_url: 'https://github.com/minio/minio'
             logo: >-
@@ -1129,7 +1129,7 @@ landscape:
             cncf_member: false
           - item:
             name: Portworx
-            company: Portworx
+            organization: Portworx
             homepage_url: 'https://portworx.com/'
             logo: >-
               https://portworx.com/wp-content/themes/portworx/images/xportworx-logo.png.pagespeed.ic.0Z487a9F2s.png
@@ -1146,7 +1146,7 @@ landscape:
             cncf_member: true
           - item:
             name: Project Hatchway
-            company: VMware
+            organization: VMware
             homepage_url: 'https://vmware.github.io/hatchway/'
             logo: >-
               https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Vmware.svg/1000px-Vmware.svg.png
@@ -1164,7 +1164,7 @@ landscape:
             cncf_member: true
           - item:
             name: Pure Storage
-            company: Pure Storage
+            organization: Pure Storage
             homepage_url: 'https://www.purestorage.com/'
             logo: >-
               https://vbrownbag.com/wp-content/uploads/2017/07/Pure-Vertical-Medium-212x300.png
@@ -1179,7 +1179,7 @@ landscape:
             cncf_member: false
           - item:
             name: libstorage
-            company: Dell EMC
+            organization: Dell EMC
             homepage_url: 'https://libstorage.readthedocs.io/en/stable/'
             repo_url: 'https://github.com/codedellemc/rexray'
             logo: >-
@@ -1197,7 +1197,7 @@ landscape:
             cncf_member: true
           - item:
             name: Manta
-            company: Joyent
+            organization: Joyent
             homepage_url: 'https://www.joyent.com/tech-videos/introduction-to-manta-storage'
             repo_url: 'https://github.com/joyent/manta'
             logo: >-
@@ -1216,7 +1216,7 @@ landscape:
             cncf_member: true
           - item:
             name: Diamanti
-            company: Diamanti
+            organization: Diamanti
             homepage_url: 'https://www.diamanti.com/'
             logo: 'http://events.vmblog.com/images/dockercon/diamanti-logo-600.png'
             twitter: 'https://twitter.com/diamanticom'
@@ -1233,7 +1233,7 @@ landscape:
             cncf_member: true
           - item:
             name: Rook
-            company: Cloud Native Computing Foundation (CNCF)
+            organization: Cloud Native Computing Foundation (CNCF)
             homepage_url: 'https://rook.io/'
             cncf_project: inception
             repo_url: 'https://github.com/rook/rook'
@@ -1253,7 +1253,7 @@ landscape:
             cncf_member: true
           - item:
             name: Robin Systems
-            company: Robin Systems
+            organization: Robin Systems
             homepage_url: 'https://robinsystems.com/'
             logo: >-
               http://cdncap-414f.kxcdn.com/wp-content/uploads/2015/02/Logo_black_V1.png
@@ -1270,7 +1270,7 @@ landscape:
             cncf_member: false
           - item:
             name: Springpath
-            company: Springpath Inc
+            organization: Springpath Inc
             homepage_url: 'http://springpathinc.com/'
             logo: >-
               https://pbs.twimg.com/profile_images/567878347808452608/S6CzefcW_400x400.png
@@ -1289,7 +1289,7 @@ landscape:
             cncf_member: false
           - item:
             name: Datera
-            company: Datera
+            organization: Datera
             homepage_url: 'http://datera.io/'
             logo: >-
               https://res.cloudinary.com/crunchbase-production/image/upload/v1476997797/y1u1jsyziagiptqdiy3f.jpg
@@ -1304,7 +1304,7 @@ landscape:
             cncf_member: false
           - item:
             name: Infinit
-            company: Infinit
+            organization: Infinit
             homepage_url: 'https://www.infinit.sh/'
             repo_url: 'https://github.com/infinit/elle'
             logo: 'https://www.infinit.sh/images/logotype.png'
@@ -1319,7 +1319,7 @@ landscape:
             cncf_member: false
           - item:
             name: Kasten
-            company: Kasten
+            organization: Kasten
             homepage_url: 'https://kasten.io/'
             logo: >-
               https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAx9AAAAJDg5NzcxMTk0LTdhNzItNGI1Ny04OTAzLTA2Zjc1NjNiOTY2ZQ.png
@@ -1334,7 +1334,7 @@ landscape:
             cncf_member: true
           - item:
             name: LeoFS
-            company: Leo Project
+            organization: Leo Project
             homepage_url: 'https://leo-project.net/leofs/'
             repo_url: 'https://github.com/leo-project/leofs'
             logo: >-
@@ -1349,7 +1349,7 @@ landscape:
             cncf_member: false
           - item:
             name: Sheepdog
-            company: Sheepdog
+            organization: Sheepdog
             homepage_url: 'https://sheepdog.github.io/sheepdog/'
             repo_url: 'https://github.com/sheepdog/sheepdog'
             logo: 'https://avatars3.githubusercontent.com/u/4846685'
@@ -1362,7 +1362,7 @@ landscape:
             cncf_member: false
           - item:
             name: Rex-Ray
-            company: Dell EMC
+            organization: Dell EMC
             homepage_url: 'https://rexray.thecodeteam.com/'
             repo_url: 'https://github.com/codedellemc/rexray'
             logo: 'https://dev.acquia.com/sites/default/files/blog/grid-rexray.png'
@@ -1379,7 +1379,7 @@ landscape:
             cncf_member: true
           - item:
             name: NetApp
-            company: NetApp
+            organization: NetApp
             homepage_url: 'https://www.netapp.com/'
             logo: >-
               https://crunchbase-production-res.cloudinary.com/image/upload/v1415386322/w3lnij5oqhxqvlf5jq5c.jpg
@@ -1398,7 +1398,7 @@ landscape:
             cncf_member: true
           - item:
             name: StorageOS
-            company: StorageOS
+            organization: StorageOS
             homepage_url: 'https://storageos.com/'
             logo: >-
               https://pbs.twimg.com/profile_images/847754903300616192/Y9Vt22jx_400x400.jpg
@@ -1413,7 +1413,7 @@ landscape:
             cncf_member: true
           - item:
             name: Dell EMC
-            company: Dell EMC
+            organization: Dell EMC
             homepage_url: 'https://www.dellemc.com/'
             logo: >-
               https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Dell_EMC_logo.svg/500px-Dell_EMC_logo.svg.png
@@ -1431,7 +1431,7 @@ landscape:
             cncf_member: true
           - item:
             name: OpenSDS
-            company: OpenSDS
+            organization: OpenSDS
             homepage_url: 'https://www.opensds.io/'
             repo_url: 'https://github.com/opensds/opensds'
             logo: >-
@@ -1446,7 +1446,7 @@ landscape:
             cncf_member: false
           - item:
             name: OpenEBS
-            company: Openebs
+            organization: Openebs
             homepage_url: 'hhttps://www.openebs.io/'
             repo_url: 'https://github.com/openebs/openebs'
             logo: >-
@@ -1466,7 +1466,7 @@ landscape:
             cncf_member: false
           - item:
             name: Hedvig
-            company: Hedvig
+            organization: Hedvig
             homepage_url: 'https://www.hedviginc.com/'
             rep_url: 'https://github.com/hedvig'
             logo: >-
@@ -1482,7 +1482,7 @@ landscape:
             cncf_member: false
           - item:
             name: Swift
-            company: OpenStack
+            organization: OpenStack
             homepage_url: 'https://www.swiftstack.com/product/openstack-swift'
             repo_url: 'https://github.com/openstack/swift'
             logo: 'http://d.not.mn/OpenStack_Project_Swift_vertical.png'
@@ -1500,7 +1500,7 @@ landscape:
         items:
           - item:
             name: rkt
-            company: Cloud Native Computing Foundation (CNCF)
+            organization: Cloud Native Computing Foundation (CNCF)
             homepage_url: 'https://github.com/rkt/rkt'
             cncf_project: incubating
             repo_url: 'https://github.com/rkt/rkt'
@@ -1519,7 +1519,7 @@ landscape:
             cncf_member: true
           - item:
             name: runc
-            company: Open Container Initiative
+            organization: Open Container Initiative
             homepage_url: 'https://www.opencontainers.org/'
             repo_url: 'https://github.com/opencontainers/runc'
             logo: >-
@@ -1537,7 +1537,7 @@ landscape:
             cncf_member: true
           - item:
             name: lxd
-            company: Canonical
+            organization: Canonical
             homepage_url: 'https://linuxcontainers.org/lxd/'
             repo_url: 'https://github.com/lxc/lxd'
             logo: 'http://people.canonical.com/~kirkland/lxd.png'
@@ -1552,7 +1552,7 @@ landscape:
             cncf_member: true
           - item:
             name: RunV
-            company: Hyper_
+            organization: Hyper_
             repo_url: 'https://github.com/hyperhq/runv'
             logo: >-
               https://user-images.githubusercontent.com/1701782/29455671-ab0078ca-8444-11e7-8a7c-f3b41fa1954d.png
@@ -1566,7 +1566,7 @@ landscape:
             cncf_member: false
           - item:
             name: SmartOS
-            company: Joyent
+            organization: Joyent
             homepage_url: 'https://www.joyent.com/smartos'
             repo_url: 'https://github.com/joyent/smartos-live'
             logo: >-
@@ -1585,7 +1585,7 @@ landscape:
             cncf_member: true
           - item:
             name: containerd
-            company: Cloud Native Computing Foundation (CNCF)
+            organization: Cloud Native Computing Foundation (CNCF)
             homepage_url: 'http://containerd.io/'
             cncf_project: incubating
             repo_url: 'https://github.com/containerd/containerd'
@@ -1602,7 +1602,7 @@ landscape:
             cncf_member: true
           - item:
             name: CRI-O
-            company: Cloud Native Computing Foundation (CNCF)
+            organization: Cloud Native Computing Foundation (CNCF)
             homepage_url: 'http://cri-o.io/'
             repo_url: 'https://github.com/kubernetes-incubator/cri-o'
             logo: >-
@@ -1620,7 +1620,7 @@ landscape:
             cncf_member: true
           - item:
             name: Intel Clear Containers
-            company: Intel
+            organization: Intel
             homepage_url: 'https://clearlinux.org/containers'
             repo_url: 'https://github.com/clearcontainers/runtime'
             logo: 'https://cdn.thenewstack.io/media/2015/11/ClearContainers.jpg'
@@ -1638,7 +1638,7 @@ landscape:
             cncf_member: true
           - item:
             name: Container Storage Interface
-            company: Container Storage Interface
+            organization: Container Storage Interface
             homepage_url: 'https://github.com/container-storage-interface'
             repo_url: 'https://github.com/container-storage-interface/spec'
             logo: >-
@@ -1655,7 +1655,7 @@ landscape:
         items:
           - item:
             name: Aporeto
-            company: Aporeto
+            organization: Aporeto
             homepage_url: 'https://www.aporeto.com/'
             logo: 'https://thenewstack.io/wp-content/uploads/2016/10/Aporeto-Logo.png'
             twitter: 'https://twitter.com/aporeto'
@@ -1669,7 +1669,7 @@ landscape:
             cncf_member: true
           - item:
             name: Aviatrix
-            company: 'Aviatrix Systems, Inc.'
+            organization: 'Aviatrix Systems, Inc.'
             homepage_url: 'https://aviatrix.com/'
             logo: >-
               https://crunchbase-production-res.cloudinary.com/image/upload/v1441953231/rp1toqznrlhfvf8n3iim.png
@@ -1686,7 +1686,7 @@ landscape:
             cncf_member: false
           - item:
             name: Big Switch Networks
-            company: Big Switch Networks
+            organization: Big Switch Networks
             homepage_url: 'http://www.bigswitch.com/'
             logo: >-
               https://crunchbase-production-res.cloudinary.com/image/upload/v1397750940/0017b5194e393ff05bf0c77f14dde52a.png
@@ -1703,7 +1703,7 @@ landscape:
             cncf_member: false
           - item:
             name: Project Calico
-            company: Tigera
+            organization: Tigera
             homepage_url: 'https://www.projectcalico.org/'
             repo_url: 'https://github.com/projectcalico/calico'
             logo: >-
@@ -1719,7 +1719,7 @@ landscape:
             cncf_member: true
           - item:
             name: Canal
-            company: Tigera
+            organization: Tigera
             homepage_url: 'https://github.com/projectcalico/canal'
             repo_url: 'https://github.com/projectcalico/canal'
             logo: >-
@@ -1735,7 +1735,7 @@ landscape:
             cncf_member: true
           - item:
             name: Contiv
-            company: Cisco
+            organization: Cisco
             homepage_url: 'https://contiv.github.io/'
             repo_url: 'https://github.com/contiv/netplugin'
             logo: 'https://alln-extcloud-storage.cisco.com/ciscoblogs/Contiv-Icon.png'
@@ -1751,7 +1751,7 @@ landscape:
             cncf_member: true
           - item:
             name: Cilium
-            company: Covalent IO
+            organization: Covalent IO
             homepage_url: 'https://www.cilium.io/'
             repo_url: 'https://github.com/cilium/cilium'
             logo: 'https://avatars2.githubusercontent.com/u/21054566?s=400&v=4'
@@ -1766,7 +1766,7 @@ landscape:
             cncf_member: false
           - item:
             name: Cumulus
-            company: Cumulus Networks
+            organization: Cumulus Networks
             homepage_url: 'https://cumulusnetworks.com'
             logo: >-
               https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F33979767%2F108689379901%2F1%2Foriginal.jpg?w=800&rect=0%2C100%2C800%2C400&s=51632196d88bcd0efb885370c3f3bd94
@@ -1783,7 +1783,7 @@ landscape:
             cncf_member: false
           - item:
             name: Flannel
-            company: Red Hat
+            organization: Red Hat
             homepage_url: 'https://github.com/coreos/flannel/'
             repo_url: 'https://github.com/coreos/flannel'
             logo: >-
@@ -1801,7 +1801,7 @@ landscape:
             cncf_member: true
           - item:
             name: MidoNet
-            company: MidoNet
+            organization: MidoNet
             homepage_url: 'https://www.midonet.org/'
             repo_url: 'https://github.com/midonet/midonet'
             logo: >-
@@ -1819,7 +1819,7 @@ landscape:
             cncf_member: false
           - item:
             name: NSX
-            company: VMware
+            organization: VMware
             homepage_url: 'https://www.vmware.com/products/nsx.html'
             logo: 'http://blogs.vmware.com/kb/files/2015/08/NSX.png'
             twitter: 'https://twitter.com/vmwarensx'
@@ -1835,7 +1835,7 @@ landscape:
             cncf_member: true
           - item:
             name: Nuage Networks
-            company: Nuage Networks
+            organization: Nuage Networks
             homepage_url: 'http://www.nuagenetworks.net/'
             logo: >-
               https://user-images.githubusercontent.com/6019102/29992977-e6e92a02-8f5d-11e7-855b-0bf748f13dd9.png
@@ -1852,7 +1852,7 @@ landscape:
             cncf_member: false
           - item:
             name: OpenContrail
-            company: OpenContrail
+            organization: OpenContrail
             homepage_url: 'http://www.opencontrail.org/'
             repo_url: 'https://github.com/Juniper/contrail-controller'
             logo: ./src/hosted_logos/open-contrail.png
@@ -1867,7 +1867,7 @@ landscape:
             cncf_member: false
           - item:
             name: Open vSwitch
-            company: Open vSwitch
+            organization: Open vSwitch
             homepage_url: 'http://openvswitch.org/'
             repo_url: 'https://github.com/openvswitch/ovs'
             logo: 'http://openvswitch.org/assets/vswitch.png'
@@ -1882,7 +1882,7 @@ landscape:
             cncf_member: false
           - item:
             name: Plumgrid
-            company: PLUMgrid
+            organization: PLUMgrid
             homepage_url: 'https://www.vmware.com/products/nsx.html'
             logo: >-
               https://crunchbase-production-res.cloudinary.com/image/upload/v1397203552/4395c21af7405ea945c9a1297cacc116.jpg
@@ -1899,7 +1899,7 @@ landscape:
             cncf_member: false
           - item:
             name: Romana
-            company: Romana
+            organization: Romana
             homepage_url: 'http://romana.io/'
             repo_url: 'https://github.com/romana/romana'
             logo: 'http://romana.io/images/Logo.250.png'
@@ -1914,7 +1914,7 @@ landscape:
             cncf_member: false
           - item:
             name: Sanproute
-            company: SnapRoute Inc.
+            organization: SnapRoute Inc.
             homepage_url: 'https://snaproute.com/'
             logo: >-
               https://1v51ha1y9z9f2hpq55t67p7a3u-wpengine.netdna-ssl.com/wp-content/uploads/2016/12/snaproute-logo-2016.jpg
@@ -1929,7 +1929,7 @@ landscape:
             cncf_member: false
           - item:
             name: CNI
-            company: Cloud Native Computing Foundation (CNCF)
+            organization: Cloud Native Computing Foundation (CNCF)
             homepage_url: 'https://github.com/containernetworking'
             cncf_project: incubating
             repo_url: 'https://github.com/containernetworking/cni'
@@ -1946,7 +1946,7 @@ landscape:
             cncf_member: true
           - item:
             name: Weave Net
-            company: Weaveworks
+            organization: Weaveworks
             homepage_url: 'https://www.weave.works/oss/net/'
             repo_url: 'https://github.com/weaveworks/weave'
             logo: >-
@@ -1971,7 +1971,7 @@ landscape:
             description: >-
               Kubernetes is an open-source system for automating deployment,
               scaling, and management of containerized applications
-            company: Cloud Native Computing Foundation (CNCF)
+            organization: Cloud Native Computing Foundation (CNCF)
             homepage_url: 'https://kubernetes.io/'
             cncf_project: incubating
             repo_url: 'https://github.com/kubernetes/kubernetes'
@@ -1988,7 +1988,7 @@ landscape:
             cncf_member: true
           - item:
             name: Amazon ECS
-            company: Amazon Web Services
+            organization: Amazon Web Services
             homepage_url: 'https://aws.amazon.com/ecs/'
             twitter: 'https://twitter.com/awscloud'
             crunchbase: 'https://www.crunchbase.com/organization/amazon-web-services'
@@ -2005,7 +2005,7 @@ landscape:
             cncf_member: true
           - item:
             name: Nomad
-            company: HashiCorp
+            organization: HashiCorp
             homepage_url: 'https://www.nomadproject.io/'
             repo_url: 'https://github.com/hashicorp/nomad'
             twitter: 'https://twitter.com/HashiCorp'
@@ -2025,7 +2025,7 @@ landscape:
             cncf_member: false
           - item:
             name: Mesos
-            company: Apache Software Foundation
+            organization: Apache Software Foundation
             homepage_url: 'http://mesos.apache.org/'
             repo_url: 'https://github.com/apache/mesos'
             logo: >-
@@ -2041,7 +2041,7 @@ landscape:
             cncf_member: false
           - item:
             name: Microsoft Azure Service Fabric
-            company: Microsoft
+            organization: Microsoft
             homepage_url: 'https://azure.microsoft.com/en-us/services/service-fabric/'
             logo: >-
               https://raw.githubusercontent.com/Azure/service-fabric/master/service-fabric.png
@@ -2060,7 +2060,7 @@ landscape:
             cncf_member: true
           - item:
             name: Docker Swarm
-            company: Docker
+            organization: Docker
             homepage_url: 'https://docs.docker.com/engine/swarm/'
             repo_url: 'https://github.com/docker/swarm'
             logo: 'https://raw.githubusercontent.com/docker/swarm/master/logo.png'
@@ -2078,7 +2078,7 @@ landscape:
         items:
           - item:
             name: etcd
-            company: Red Hat
+            organization: Red Hat
             homepage_url: 'https://coreos.com/etcd/'
             repo_url: 'https://github.com/coreos/etcd'
             logo: >-
@@ -2096,7 +2096,7 @@ landscape:
             cncf_member: true
           - item:
             name: Consul
-            company: HashiCorp
+            organization: HashiCorp
             homepage_url: 'https://www.consul.io/'
             repo_url: 'https://github.com/hashicorp/consul'
             logo: >-
@@ -2115,7 +2115,7 @@ landscape:
             cncf_member: false
           - item:
             name: Zookeeper
-            company: Apache Software Foundation
+            organization: Apache Software Foundation
             homepage_url: 'http://zookeeper.apache.org/'
             repo_url: 'https://github.com/apache/zookeeper'
             logo: >-
@@ -2131,7 +2131,7 @@ landscape:
             cncf_member: false
           - item:
             name: ContainerPilot
-            company: Joyent
+            organization: Joyent
             homepage_url: 'https://www.joyent.com/containerpilot'
             repo_url: 'https://github.com/joyent/containerpilot'
             logo: >-
@@ -2149,7 +2149,7 @@ landscape:
             cncf_member: true
           - item:
             name: SkyDNS
-            company: Skynet Services
+            organization: Skynet Services
             homepage_url: 'https://github.com/skynetservices/skydns'
             repo_url: 'https://github.com/skynetservices/skydns'
             logo: 'https://memz.co/wp-content/uploads/2016/07/skydns.jpg'
@@ -2162,7 +2162,7 @@ landscape:
             cncf_member: false
           - item:
             name: CoreDNS
-            company: Cloud Native Computing Foundation (CNCF)
+            organization: Cloud Native Computing Foundation (CNCF)
             homepage_url: 'https://coredns.io/'
             cncf_project: inception
             repo_url: 'https://github.com/coredns/coredns'
@@ -2180,7 +2180,7 @@ landscape:
             cncf_member: true
           - item:
             name: Registrator
-            company: Glider Labs
+            organization: Glider Labs
             homepage_url: 'http://gliderlabs.github.io/registrator/latest/'
             repo_url: 'https://github.com/gliderlabs/registrator'
             logo: 'https://avatars2.githubusercontent.com/u/8484931'
@@ -2195,7 +2195,7 @@ landscape:
             cncf_member: false
           - item:
             name: SmartStack
-            company: Airbnb
+            organization: Airbnb
             homepage_url: 'https://github.com/airbnb/smartstack-cookbook'
             repo_url: 'https://github.com/airbnb/smartstack-cookbook'
             logo: ./src/hosted_logos/smart-stack.png
@@ -2209,7 +2209,7 @@ landscape:
             cncf_member: false
           - item:
             name: Hyperbahn
-            company: Uber
+            organization: Uber
             homepage_url: 'https://github.com/uber-archive/hyperbahn'
             repo_url: 'https://github.com/uber-archive/hyperbahn'
             logo: >-
@@ -2226,7 +2226,7 @@ landscape:
             cncf_member: false
           - item:
             name: Eureka
-            company: Netflix
+            organization: Netflix
             homepage_url: 'https://github.com/Netflix/eureka'
             repo_url: 'https://github.com/Netflix/eureka'
             logo: ./src/hosted_logos/netflix-eureka.png
@@ -2242,7 +2242,7 @@ landscape:
             cncf_member: false
           - item:
             name: Haret
-            company: VMware
+            organization: VMware
             homepage_url: 'https://github.com/vmware/haret'
             repo_url: 'https://github.com/vmware/haret'
             logo: >-
@@ -2263,7 +2263,7 @@ landscape:
         items:
           - item:
             name: 3Scale
-            company: Red Hat
+            organization: Red Hat
             homepage_url: 'https://www.3scale.net/'
             repo_url: 'https://github.com/3scale/apicast'
             logo: >-
@@ -2279,7 +2279,7 @@ landscape:
             cncf_member: true
           - item:
             name: NGINX
-            company: 'NGINX, Inc.'
+            organization: 'NGINX, Inc.'
             homepage_url: 'https://www.nginx.com/'
             repo_url: 'https://github.com/nginx/nginx'
             logo: >-
@@ -2300,7 +2300,7 @@ landscape:
             cncf_member: false
           - item:
             name: HAProxy
-            company: HAProxy Technologies
+            organization: HAProxy Technologies
             homepage_url: 'https://www.haproxy.org/'
             repo_url: 'https://github.com/haproxy/haproxy'
             logo: 'https://www.esds.co.in/blog/wp-content/uploads/2016/05/HAProxy.png'
@@ -2317,7 +2317,7 @@ landscape:
             cncf_member: false
           - item:
             name: Linkerd
-            company: Cloud Native Computing Foundation (CNCF)
+            organization: Cloud Native Computing Foundation (CNCF)
             homepage_url: 'https://linkerd.io/'
             cncf_project: inception
             repo_url: 'https://github.com/linkerd/linkerd'
@@ -2335,7 +2335,7 @@ landscape:
             cncf_member: true
           - item:
             name: Envoy
-            company: Cloud Native Computing Foundation (CNCF)
+            organization: Cloud Native Computing Foundation (CNCF)
             homepage_url: 'https://envoyproxy.github.io/'
             cncf_project: incubating
             repo_url: 'https://github.com/envoyproxy/envoy'
@@ -2354,7 +2354,7 @@ landscape:
             cncf_member: true
           - item:
             name: Ambassador
-            company: Datawire
+            organization: Datawire
             homepage_url: 'https://www.getambassador.io/'
             repo_url: 'https://github.com/datawire/ambassador'
             logo: >-
@@ -2372,7 +2372,7 @@ landscape:
             cncf_member: true
           - item:
             name: Traefik
-            company: Containous
+            organization: Containous
             homepage_url: 'https://traefik.io/'
             repo_url: 'https://github.com/containous/traefik'
             logo: >-
@@ -2388,7 +2388,7 @@ landscape:
             cncf_member: false
           - item:
             name: Turbine Labs
-            company: Turbine Labs
+            organization: Turbine Labs
             homepage_url: 'https://www.turbinelabs.io/'
             logo: >-
               https://cdn-images-1.medium.com/max/1920/1*89vDpBsh4u6g8RwXTWtBHQ@2x.png
@@ -2403,7 +2403,7 @@ landscape:
             cncf_member: false
           - item:
             name: Avi Networks
-            company: Avi Networks
+            organization: Avi Networks
             homepage_url: 'https://avinetworks.com/'
             logo: >-
               https://avinetworks.com/wp-content/uploads/2017/06/Avi-Logo-Transparent-Background-Hi-Res-2.png
@@ -2420,7 +2420,7 @@ landscape:
             cncf_member: true
           - item:
             name: gRPC
-            company: Cloud Native Computing Foundation (CNCF)
+            organization: Cloud Native Computing Foundation (CNCF)
             homepage_url: 'https://grpc.io/'
             cncf_project: incubating
             repo_url: 'https://github.com/grpc/grpc'
@@ -2439,7 +2439,7 @@ landscape:
             cncf_member: true
           - item:
             name: Apache Thrift
-            company: Apache Software Foundation
+            organization: Apache Software Foundation
             homepage_url: 'https://thrift.apache.org/'
             repo_url: 'https://github.com/apache/thrift'
             logo: >-
@@ -2455,7 +2455,7 @@ landscape:
             cncf_member: false
           - item:
             name: Apache Avro
-            company: Apache Software Foundation
+            organization: Apache Software Foundation
             homepage_url: 'https://avro.apache.org/'
             repo_url: 'https://github.com/apache/avro'
             logo: 'https://avro.apache.org/images/avro-logo.png'
@@ -2470,7 +2470,7 @@ landscape:
             cncf_member: false
           - item:
             name: Vamp
-            company: magnetic.io
+            organization: magnetic.io
             homepage_url: null
             repo_url: 'https://github.com/magneticio/vamp'
             logo: ./src/hosted_logos/vamp.png
@@ -2485,7 +2485,7 @@ landscape:
             cncf_member: false
           - item:
             name: Weave Flux
-            company: Weaveworks
+            organization: Weaveworks
             homepage_url: 'https://www.weave.works/oss/flux/'
             repo_url: 'https://github.com/weaveworks/flux'
             logo: >-
@@ -2501,7 +2501,7 @@ landscape:
             cncf_member: true
           - item:
             name: Kong
-            company: Mashape API Marketplace
+            organization: Mashape API Marketplace
             homepage_url: 'https://getkong.org/'
             repo_url: 'https://github.com/Kong/kong'
             logo: >-
@@ -2517,7 +2517,7 @@ landscape:
             cncf_member: false
           - item:
             name: Hystrix
-            company: Netflix
+            organization: Netflix
             homepage_url: 'https://github.com/Netflix/Hystrix'
             repo_url: 'https://github.com/Netflix/Hystrix'
             logo: >-
@@ -2538,7 +2538,7 @@ landscape:
             cncf_member: false
           - item:
             name: Ribbon
-            company: Netflix
+            organization: Netflix
             homepage_url: 'https://github.com/Netflix/ribbon'
             repo_url: 'https://github.com/Netflix/ribbon'
             logo: ./src/hosted_logos/netflix-ribbon.png
@@ -2558,7 +2558,7 @@ landscape:
             cncf_member: false
           - item:
             name: Zuul
-            company: Netflix
+            organization: Netflix
             homepage_url: 'https://github.com/Netflix/zuul'
             repo_url: 'https://github.com/Netflix/zuul'
             logo: ./src/hosted_logos/netflix-zuul.png
@@ -2576,7 +2576,7 @@ landscape:
             cncf_member: false
           - item:
             name: Backplane
-            company: Backplane
+            organization: Backplane
             homepage_url: 'https://www.backplane.io/'
             logo: 'http://www.backplane.io/static/media/images/backplane.png'
             twitter: 'https://twitter.com/backplaneio'
@@ -2589,7 +2589,7 @@ landscape:
             cncf_member: false
           - item:
             name: F5
-            company: F5 Networks
+            organization: F5 Networks
             homepage_url: 'https://f5.com/'
             logo: 'https://dmcdn.f5.com/Portals/1/Images/F5/Logos/f5-fullcolor-lg.jpg'
             twitter: 'https://twitter.com/F5Networks'
@@ -2611,7 +2611,7 @@ landscape:
         items:
           - item:
             name: TiDB
-            company: PingCAP
+            organization: PingCAP
             homepage_url: 'https://pingcap.com/index'
             repo_url: 'https://github.com/pingcap/tidb'
             logo: 'http://static.17ky.net/Images/8164803b2f28415d9b8dff6c2499b1fb.png'
@@ -2628,7 +2628,7 @@ landscape:
             cncf_member: false
           - item:
             name: MySQL
-            company: MySQL
+            organization: MySQL
             homepage_url: 'https://www.oracle.com/mysql/index.html'
             repo_url: 'https://github.com/mysql/mysql-server'
             logo: 'https://www.mysql.com/common/logos/logo-mysql-170x115.png'
@@ -2646,7 +2646,7 @@ landscape:
             cncf_member: false
           - item:
             name: Postgres
-            company: PostgreSql
+            organization: PostgreSql
             homepage_url: 'https://www.postgresql.org/'
             repo_url: 'https://github.com/postgres/postgres'
             logo: >-
@@ -2666,7 +2666,7 @@ landscape:
             cncf_member: false
           - item:
             name: Oracle
-            company: Oracle Corporation
+            organization: Oracle Corporation
             homepage_url: 'https://developer.oracle.com/'
             logo: >-
               https://doc.octoperf.com/monitoring/create-connection/oracledb/img/oracledb-logo.png
@@ -2685,7 +2685,7 @@ landscape:
             cncf_member: false
           - item:
             name: SQL Server
-            company: Microsoft
+            organization: Microsoft
             homepage_url: 'https://www.microsoft.com/en-us/sql-server'
             logo: >-
               https://seeklogo.com/images/M/microsoft-sql-server-logo-96AF49E2B3-seeklogo.com.png
@@ -2704,7 +2704,7 @@ landscape:
             cncf_member: true
           - item:
             name: IBM DB2
-            company: IBM
+            organization: IBM
             homepage_url: 'https://www.ibm.com/analytics/us/en/db2/'
             logo: 'https://selectstar.io/wp-content/uploads/2017/01/imb-db2.jpg'
             stock_ticker: IBM
@@ -2721,7 +2721,7 @@ landscape:
             cncf_member: true
           - item:
             name: MongoDB
-            company: MongoDB
+            organization: MongoDB
             homepage_url: 'https://www.mongodb.com/'
             repo_url: 'https://github.com/mongodb/mongo'
             logo: 'https://redash.io/assets/images/temp/Mongo2.png'
@@ -2736,7 +2736,7 @@ landscape:
             cncf_member: false
           - item:
             name: Cassandra
-            company: Apache Software Foundation
+            organization: Apache Software Foundation
             homepage_url: 'http://cassandra.apache.org/'
             repo_url: 'https://github.com/apache/cassandra'
             logo: >-
@@ -2752,7 +2752,7 @@ landscape:
             cncf_member: false
           - item:
             name: Redis
-            company: Redis Labs
+            organization: Redis Labs
             homepage_url: 'https://redis.io/'
             repo_url: 'https://github.com/antirez/redis'
             logo: 'https://blog.newrelic.com/wp-content/uploads/redis.png'
@@ -2771,7 +2771,7 @@ landscape:
             cncf_member: false
           - item:
             name: MariaDB
-            company: MariaDB
+            organization: MariaDB
             homepage_url: 'https://mariadb.org/'
             repo_url: 'https://github.com/MariaDB/server'
             logo: 'https://mariadb.org/wp-content/uploads/2015/10/mariadb-usa-inc.png'
@@ -2791,7 +2791,7 @@ landscape:
             cncf_member: false
           - item:
             name: Crate.io
-            company: Crate.io Inc.
+            organization: Crate.io Inc.
             homepage_url: 'https://crate.io/'
             repo_url: 'https://github.com/crate/crate'
             logo: >-
@@ -2809,7 +2809,7 @@ landscape:
             cncf_member: false
           - item:
             name: NomsDB
-            company: Attic Labs
+            organization: Attic Labs
             homepage_url: 'https://github.com/attic-labs/noms'
             repo_url: 'https://github.com/attic-labs/noms'
             logo: >-
@@ -2825,7 +2825,7 @@ landscape:
             cncf_member: false
           - item:
             name: BigchainDB
-            company: BigchainDB
+            organization: BigchainDB
             homepage_url: 'https://www.bigchaindb.com/'
             repo_url: 'https://github.com/bigchaindb/bigchaindb'
             logo: >-
@@ -2841,7 +2841,7 @@ landscape:
             cncf_member: false
           - item:
             name: Couchbase
-            company: Couchbase
+            organization: Couchbase
             homepage_url: 'https://www.couchbase.com/'
             repo_url: 'https://github.com/couchbase/couchbase-lite-ios'
             logo: >-
@@ -2859,7 +2859,7 @@ landscape:
             cncf_member: true
           - item:
             name: CockroachDB
-            company: Cockroach Labs
+            organization: Cockroach Labs
             homepage_url: 'https://www.cockroachlabs.com/'
             repo_url: 'https://github.com/cockroachdb/cockroach'
             logo: >-
@@ -2875,7 +2875,7 @@ landscape:
             cncf_member: false
           - item:
             name: RethinkDB
-            company: Linux Foundation
+            organization: Linux Foundation
             homepage_url: 'https://www.rethinkdb.com/'
             repo_url: 'https://github.com/rethinkdb/rethinkdb'
             logo: >-
@@ -2891,7 +2891,7 @@ landscape:
             cncf_member: true
           - item:
             name: Vitess
-            company: Cloud Native Computing Foundation (CNCF)
+            organization: Cloud Native Computing Foundation (CNCF)
             homepage_url: 'http://vitess.io/'
             logo: 'http://vitess.io/images/vitess_logo_with_border.svg'
             repo_url: 'https://github.com/youtube/vitess'
@@ -2909,7 +2909,7 @@ landscape:
             cncf_member: true
           - item:
             name: SQL Data Warehouse
-            company: Microsoft
+            organization: Microsoft
             homepage_url: 'https://azure.microsoft.com/'
             logo: >-
               https://media.licdn.com/mpr/mpr/AAEAAQAAAAAAAAeiAAAAJDRhZGUzMWRhLTI4ODMtNDc1OS1hMDc5LTQwODAwZGI2OTdlMg.png
@@ -2928,7 +2928,7 @@ landscape:
             cncf_member: true
           - item:
             name: Snowflake
-            company: Snowflake Computing
+            organization: Snowflake Computing
             homepage_url: 'https://www.snowflake.net/'
             logo: >-
               https://upload.wikimedia.org/wikipedia/en/6/62/Snowflake_Computing_logo.png
@@ -2943,7 +2943,7 @@ landscape:
             cncf_member: false
           - item:
             name: Druid
-            company: Druid
+            organization: Druid
             homepage_url: 'http://druid.io/'
             repo_url: 'https://github.com/druid-io/druid'
             logo: ./src/hosted_logos/druid.png
@@ -2959,7 +2959,7 @@ landscape:
             cncf_member: false
           - item:
             name: Qubole
-            company: Qubole
+            organization: Qubole
             homepage_url: 'https://www.qubole.com/'
             logo: 'http://go.qubole.com/rs/510-QPZ-296/images/qubole_logo.png'
             twitter: 'https://twitter.com/qubole'
@@ -2975,7 +2975,7 @@ landscape:
             cncf_member: false
           - item:
             name: CarbonData
-            company: Apache Software Foundation
+            organization: Apache Software Foundation
             homepage_url: 'http://carbondata.apache.org/'
             repo_url: 'https://github.com/apache/carbondata'
             logo: >-
@@ -2991,7 +2991,7 @@ landscape:
             cncf_member: false
           - item:
             name: Vertica
-            company: Vertica Systems
+            organization: Vertica Systems
             homepage_url: 'https://www.vertica.com/'
             logo: >-
               https://h50003.www5.hpe.com/digmedialib/prodimg/lowres/c05032120.png
@@ -3007,7 +3007,7 @@ landscape:
             cncf_member: false
           - item:
             name: Hadoop
-            company: Apache Software Foundation
+            organization: Apache Software Foundation
             homepage_url: 'http://hadoop.apache.org/'
             repo_url: 'https://github.com/apache/hadoop'
             logo: 'https://www.contegix.com/wp-content/uploads/2015/09/Hadoop.png'
@@ -3022,7 +3022,7 @@ landscape:
             cncf_member: false
           - item:
             name: Iguazio
-            company: iguazio
+            organization: iguazio
             homepage_url: 'https://www.iguazio.com/'
             logo: >-
               https://i0.wp.com/martechseries.com/wp-content/uploads/2017/07/iguazio.jpg
@@ -3040,7 +3040,7 @@ landscape:
             cncf_member: false
           - item:
             name: MemSQL
-            company: MemSQL
+            organization: MemSQL
             homepage_url: 'https://www.memsql.com/'
             logo: 'https://diamanti.com/static/app/img/what-we-do/memsql-logo.png'
             twitter: 'https://twitter.com/memsql/'
@@ -3054,7 +3054,7 @@ landscape:
             cncf_member: false
           - item:
             name: Pachyderm
-            company: Pachyderm
+            organization: Pachyderm
             homepage_url: 'http://www.pachyderm.io/'
             repo_url: 'https://github.com/pachyderm/pachyderm'
             logo: >-
@@ -3070,7 +3070,7 @@ landscape:
             cncf_member: false
           - item:
             name: Scylla
-            company: ScyllaDB
+            organization: ScyllaDB
             homepage_url: 'http://www.scylladb.com/'
             repo_url: 'https://github.com/scylladb/scylla'
             logo: >-
@@ -3091,7 +3091,7 @@ landscape:
         items:
           - item:
             name: Kafka
-            company: Apache Software Foundation
+            organization: Apache Software Foundation
             homepage_url: 'https://kafka.apache.org/'
             repo_url: 'https://github.com/apache/kafka'
             logo: >-
@@ -3107,7 +3107,7 @@ landscape:
             cncf_member: false
           - item:
             name: Dataflow
-            company: Google Cloud Platform
+            organization: Google Cloud Platform
             homepage_url: 'https://cloud.google.com/dataflow/'
             logo: 'https://www.gcppodcast.com/images/icons/bigdata/Cloud-Dataflow.png'
             stock_ticker: GOOGL
@@ -3122,7 +3122,7 @@ landscape:
             cncf_member: true
           - item:
             name: Spark Streaming
-            company: Apache Software Foundation
+            organization: Apache Software Foundation
             homepage_url: 'https://spark.apache.org/streaming/'
             repo_url: 'https://github.com/apache/spark'
             logo: 'https://spark.apache.org/images/spark-logo-trademark.png'
@@ -3137,7 +3137,7 @@ landscape:
             cncf_member: false
           - item:
             name: Heron
-            company: Twitter
+            organization: Twitter
             homepage_url: 'https://twitter.github.io/heron/'
             repo_url: 'https://github.com/twitter/heron'
             logo: 'https://streaml.io/img/heron-logo.png'
@@ -3155,7 +3155,7 @@ landscape:
             cncf_member: true
           - item:
             name: Flink
-            company: Apache Software Foundation
+            organization: Apache Software Foundation
             homepage_url: 'https://flink.apache.org/'
             repo_url: 'https://github.com/apache/flink'
             logo: >-
@@ -3171,7 +3171,7 @@ landscape:
             cncf_member: false
           - item:
             name: Apex
-            company: Apache Software Foundation
+            organization: Apache Software Foundation
             homepage_url: 'https://apex.apache.org/'
             repo_url: 'https://github.com/apache/apex-core'
             logo: >-
@@ -3187,7 +3187,7 @@ landscape:
             cncf_member: false
           - item:
             name: Apache Storm
-            company: Apache Software Foundation
+            organization: Apache Software Foundation
             homepage_url: 'http://storm.apache.org/'
             repo_url: 'https://github.com/apache/storm'
             logo: 'http://storm.apache.org/images/logo.png'
@@ -3202,7 +3202,7 @@ landscape:
             cncf_member: false
           - item:
             name: RabbitMQ
-            company: Rabbit Technologies
+            organization: Rabbit Technologies
             homepage_url: 'https://www.rabbitmq.com/'
             repo_url: 'https://github.com/rabbitmq/rabbitmq-server'
             logo: 'https://neoteric.eu/wp-content/uploads/2016/06/rabbitmq_logo.png'
@@ -3217,7 +3217,7 @@ landscape:
             cncf_member: false
           - item:
             name: NATS
-            company: NATS
+            organization: NATS
             homepage_url: 'https://nats.io/'
             repo_url: 'https://github.com/nats-io/gnatsd'
             logo: >-
@@ -3235,7 +3235,7 @@ landscape:
             cncf_member: false
           - item:
             name: Apache NiFi
-            company: Apache Software Foundation
+            organization: Apache Software Foundation
             homepage_url: 'https://nifi.apache.org/'
             repo_url: 'https://github.com/apache/nifi'
             logo: 'https://nifi.apache.org/assets/images/apache-nifi-logo.svg'
@@ -3250,7 +3250,7 @@ landscape:
             cncf_member: false
           - item:
             name: Pulsar
-            company: Apache Software Foundation
+            organization: Apache Software Foundation
             homepage_url: 'https://pulsar.apache.org/'
             repo_url: 'https://github.com/apache/incubator-pulsar'
             logo: 'https://pulsar.incubator.apache.org/img/pulsar.png'
@@ -3265,7 +3265,7 @@ landscape:
             cncf_member: false
           - item:
             name: StreamSets
-            company: StreamSets
+            organization: StreamSets
             homepage_url: 'https://streamsets.com/'
             repo_url: 'https://github.com/streamsets/datacollector'
             logo: >-
@@ -3283,7 +3283,7 @@ landscape:
             cncf_member: false
           - item:
             name: Kinesis
-            company: Amazon Web Services
+            organization: Amazon Web Services
             homepage_url: 'https://aws.amazon.com/kinesis/'
             logo: >-
               https://i0.wp.com/www.awsomeblog.com/wp-content/uploads/2016/04/kinesis.png
@@ -3303,8 +3303,8 @@ landscape:
         name: SCM
         items:
           - item:
-            name: BibBucket
-            company: Bitbucket
+            name: Bitbucket
+            organization: Bitbucket
             homepage_url: 'https://bitbucket.org/'
             logo: >-
               http://cdn2.hubspot.net/hub/362403/file-658956378-png/bitbucket.png
@@ -3322,7 +3322,7 @@ landscape:
             cncf_member: false
           - item:
             name: GitLab
-            company: GitLab Inc
+            organization: GitLab Inc
             homepage_url: 'https://gitlab.com/'
             repo_url: 'https://github.com/gitlabhq/gitlabhq'
             logo: >-
@@ -3340,7 +3340,7 @@ landscape:
             cncf_member: false
           - item:
             name: GitHub
-            company: GitHub
+            organization: GitHub
             homepage_url: 'https://github.com/'
             logo: 'https://cdn.worldvectorlogo.com/logos/github-2.svg'
             twitter: 'https://twitter.com/github'
@@ -3357,7 +3357,7 @@ landscape:
             cncf_member: true
           - item:
             name: Microsoft Visual Studio Team Services
-            company: Microsoft
+            organization: Microsoft
             homepage_url: 'https://www.visualstudio.com/team-services/'
             repo_url: 'https://marketplace.visualstudio.com/items'
             logo: >-
@@ -3380,7 +3380,7 @@ landscape:
         items:
           - item:
             name: KubeVirt
-            company: KubeVirt
+            organization: KubeVirt
             homepage_url: 'http://www.kubevirt.io/'
             repo_url: 'https://github.com/kubevirt/kubevirt'
             logo: >-
@@ -3397,7 +3397,7 @@ landscape:
             cncf_member: false
           - item:
             name: Packer
-            company: HashiCorp
+            organization: HashiCorp
             homepage_url: 'https://www.packer.io/intro/index.html'
             repo_url: 'https://github.com/hashicorp/packer'
             logo: >-
@@ -3415,7 +3415,7 @@ landscape:
             cncf_member: false
           - item:
             name: Compose
-            company: Docker
+            organization: Docker
             homepage_url: 'https://docs.docker.com/compose/'
             repo_url: 'https://github.com/docker/compose'
             logo: >-
@@ -3431,7 +3431,7 @@ landscape:
             cncf_member: true
           - item:
             name: Habitat
-            company: Chef
+            organization: Chef
             homepage_url: 'https://www.habitat.sh/'
             repo_url: 'https://github.com/habitat-sh/habitat'
             logo: 'https://brand.chef.io/images/habitat/logos/logo-1.png'
@@ -3446,7 +3446,7 @@ landscape:
             cncf_member: false
           - item:
             name: Brooklyn
-            company: Apache Software Foundation
+            organization: Apache Software Foundation
             homepage_url: 'https://brooklyn.apache.org/'
             repo_url: 'https://github.com/apache/brooklyn'
             logo: >-
@@ -3462,7 +3462,7 @@ landscape:
             cncf_member: false
           - item:
             name: Bitnami
-            company: Bitnami
+            organization: Bitnami
             homepage_url: 'https://bitnami.com/'
             logo: 'https://bitnami.com/downloads/logos/bitnami.png'
             twitter: 'https://twitter.com/bitnami'
@@ -3478,7 +3478,7 @@ landscape:
             cncf_member: true
           - item:
             name: OpenAPI
-            company: The Open API Initiative
+            organization: The Open API Initiative
             homepage_url: 'https://www.openapis.org/'
             repo_url: 'https://github.com/OAI/OpenAPI-Specification'
             logo: >-
@@ -3497,7 +3497,7 @@ landscape:
         items:
           - item:
             name: Jenkins
-            company: Jenkins CI
+            organization: Jenkins CI
             homepage_url: 'https://jenkins.io/'
             repo_url: 'https://github.com/jenkinsci/jenkins'
             logo: >-
@@ -3513,7 +3513,7 @@ landscape:
             cncf_member: false
           - item:
             name: Travis
-            company: Travis CI
+            organization: Travis CI
             homepage_url: 'https://travis-ci.com/'
             repo_url: 'https://github.com/travis-ci/travis-ci'
             logo: 'http://dearkumar.com/wp-content/uploads/2016/08/Travis-CI-logo.jpg'
@@ -3528,7 +3528,7 @@ landscape:
             cncf_member: false
           - item:
             name: Octopus Deploy
-            company: Octopus Deploy
+            organization: Octopus Deploy
             homepage_url: 'https://octopus.com/'
             logo: >-
               https://i.octopus.com/blog/201605-logo-text-blueblacktransparent-800_rgb-XGYC.png
@@ -3543,7 +3543,7 @@ landscape:
             cncf_member: false
           - item:
             name: CircleCI
-            company: CircleCI
+            organization: CircleCI
             homepage_url: 'https://circleci.com/'
             logo: 'https://assets.brandfolder.com/otz6qz-87qv1c-ipc6/view.png'
             twitter: 'https://twitter.com/circleci'
@@ -3559,7 +3559,7 @@ landscape:
             cncf_member: false
           - item:
             name: Drone
-            company: Drone.io
+            organization: Drone.io
             homepage_url: 'http://try.drone.io/'
             repo_url: 'https://github.com/drone/drone'
             logo: 'https://d3d7bn43j8qgcg.cloudfront.net/drone_logo.png'
@@ -3576,7 +3576,7 @@ landscape:
             cncf_member: false
           - item:
             name: Codeship
-            company: Codeship
+            organization: Codeship
             homepage_url: 'https://codeship.com/'
             logo: >-
               http://binarytemple-deckset-parser.s3.amazonaws.com/elixirpresentation/images/tech-codeship.png
@@ -3593,7 +3593,7 @@ landscape:
             cncf_member: true
           - item:
             name: Bamboo
-            company: Atlassian
+            organization: Atlassian
             homepage_url: 'https://www.atlassian.com/software/bamboo/'
             logo: 'https://blog.switchbit.io/content/images/2015/12/bamboo300x200.png'
             stock_ticker: TEAM
@@ -3610,7 +3610,7 @@ landscape:
             cncf_member: false
           - item:
             name: Cloudbees
-            company: CloudBees
+            organization: CloudBees
             homepage_url: 'https://www.cloudbees.com/'
             logo: >-
               http://www.bluecloudventures.com/wp-content/uploads/2016/11/CloudBees-Logo.png
@@ -3627,7 +3627,7 @@ landscape:
             cncf_member: false
           - item:
             name: Spinnaker
-            company: Netflix
+            organization: Netflix
             homepage_url: 'https://www.spinnaker.io/'
             repo_url: 'https://github.com/spinnaker/spinnaker'
             logo: 'https://www.gcppodcast.com/images/post/spinnaker.png'
@@ -3645,7 +3645,7 @@ landscape:
             cncf_member: false
           - item:
             name: Shippable
-            company: Shippable
+            organization: Shippable
             homepage_url: 'http://www.shippable.com/'
             logo: >-
               https://d0.awsstatic.com/product-marketing/EC2%20Container%20Service/Partners/1039x272%20shippable%20logo%20rust%20text%20black%20tittle.png
@@ -3662,7 +3662,7 @@ landscape:
             cncf_member: false
           - item:
             name: Wercker
-            company: Wercker
+            organization: Wercker
             homepage_url: 'https://www.wercker.com/'
             repo_url: 'https://github.com/wercker/wercker'
             logo: >-
@@ -3681,7 +3681,7 @@ landscape:
             cncf_member: false
           - item:
             name: Codefresh
-            company: Codefresh
+            organization: Codefresh
             homepage_url: 'https://codefresh.io/'
             logo: >-
               https://crunchbase-production-res.cloudinary.com/image/upload/v1470258929/hhinf38lttfyrjbz1h3t.jpg
@@ -3698,7 +3698,7 @@ landscape:
             cncf_member: true
           - item:
             name: BuddyBuild
-            company: Buddybuild
+            organization: Buddybuild
             homepage_url: 'https://www.buddybuild.com/'
             logo: 'https://docs.nowsecure.com/uploads/Buddybuild-integration.png'
             twitter: 'https://twitter.com/buddybuild'
@@ -3714,7 +3714,7 @@ landscape:
             cncf_member: false
           - item:
             name: Distelli
-            company: Distelli
+            organization: Distelli
             homepage_url: 'https://www.distelli.com/'
             logo: >-
               https://crunchbase-production-res.cloudinary.com/image/upload/fknsopnhqyctio2vqpuh.png
@@ -3729,7 +3729,7 @@ landscape:
             cncf_member: false
           - item:
             name: Solano Labs
-            company: Solano Labs
+            organization: Solano Labs
             homepage_url: 'https://www.solanolabs.com/'
             logo: >-
               https://crunchbase-production-res.cloudinary.com/image/upload/v1397183977/413e297b47ece217d728649d86a687be.png
@@ -3744,7 +3744,7 @@ landscape:
             cncf_member: false
           - item:
             name: Semaphore
-            company: SemaphoreCI
+            organization: SemaphoreCI
             homepage_url: 'https://semaphoreci.com/'
             logo: 'https://www.brandeps.com/logo-download/S/Semaphore-01.png'
             twitter: 'https://twitter.com/semaphoreci'
@@ -3758,7 +3758,7 @@ landscape:
             cncf_member: false
           - item:
             name: ContainerOps
-            company: Huawei Technologies
+            organization: Huawei Technologies
             homepage_url: 'http://containerops.org/'
             repo_url: 'https://github.com/Huawei/containerops'
             logo: 'http://image20.it168.com/201706_335x251/2924/5f8a80a4b4fadf88.png'
@@ -3773,7 +3773,7 @@ landscape:
             cncf_member: true
           - item:
             name: Appveyor
-            company: Appveyor Systems Inc.
+            organization: Appveyor Systems Inc.
             homepage_url: 'https://www.appveyor.com/'
             logo: >-
               https://dka575ofm4ao0.cloudfront.net/pages-transactional_logos/retina/16896/ApwXsQaJT16xVdsGs7aY
@@ -3790,7 +3790,7 @@ landscape:
             cncf_member: false
           - item:
             name: GitLab Runner
-            company: GitLab Inc
+            organization: GitLab Inc
             homepage_url: 'https://docs.gitlab.com/runner/'
             repo_url: 'https://gitlab.com/gitlab-org/gitlab-runner'
             logo: >-
@@ -3808,7 +3808,7 @@ landscape:
             cncf_member: false
           - item:
             name: Buildkite
-            company: Buildkite
+            organization: Buildkite
             homepage_url: 'https://buildkite.com/'
             repo_url: 'https://github.com/buildkite/agent'
             logo: >-
@@ -3826,7 +3826,7 @@ landscape:
             cncf_member: false
           - item:
             name: Concourse
-            company: Pivotal
+            organization: Pivotal
             homepage_url: 'https://concourse.ci/'
             repo_url: 'https://github.com/concourse/concourse'
             logo: 'https://avatars3.githubusercontent.com/u/7809479'
@@ -3841,7 +3841,7 @@ landscape:
             cncf_member: false
           - item:
             name: XL Deploy
-            company: XebiaLabs
+            organization: XebiaLabs
             homepage_url: 'https://xebialabs.com/products/xl-deploy/'
             logo: >-
               https://xebialabs-clients-iglusjax.stackpathdns.com/assets/files/media-kit/xl-deploy.png
@@ -3862,7 +3862,7 @@ landscape:
         items:
           - item:
             name: Tectonic
-            company: Red Hat
+            organization: Red Hat
             homepage_url: 'https://coreos.com/tectonic'
             logo: >-
               https://i0.wp.com/containerjournal.com/wp-content/uploads/2015/07/tectonic-bycoreos-color-copy.png
@@ -3877,7 +3877,7 @@ landscape:
             cncf_member: true
           - item:
             name: Cloud Foundry
-            company: Cloud Foundry
+            organization: Cloud Foundry
             homepage_url: 'https://www.cloudfoundry.org/'
             repo_url: 'https://github.com/cloudfoundry/cf-release'
             logo: >-
@@ -3893,7 +3893,7 @@ landscape:
             cncf_member: true
           - item:
             name: OpenShift
-            company: Red Hat
+            organization: Red Hat
             homepage_url: 'https://www.openshift.com/'
             repo_url: 'https://github.com/openshift/origin'
             logo: >-
@@ -3909,7 +3909,7 @@ landscape:
             cncf_member: true
           - item:
             name: DC/OS
-            company: Mesosphere
+            organization: Mesosphere
             homepage_url: 'https://mesosphere.com/product/'
             repo_url: 'https://github.com/dcos/dcos'
             logo: >-
@@ -3925,7 +3925,7 @@ landscape:
             cncf_member: true
           - item:
             name: Apcera
-            company: Ericsson
+            organization: Ericsson
             homepage_url: 'https://www.apcera.com/'
             logo: >-
               https://crunchbase-production-res.cloudinary.com/image/upload/v1445882939/xhdhlohznhrz18iox373.jpg
@@ -3940,7 +3940,7 @@ landscape:
             cncf_member: false
           - item:
             name: Apprenda
-            company: Apprenda
+            organization: Apprenda
             homepage_url: 'https://apprenda.com/'
             logo: >-
               https://pbs.twimg.com/profile_images/785690321015476225/hEAuJcjS.jpg
@@ -3955,7 +3955,7 @@ landscape:
             cncf_member: true
           - item:
             name: Rancher
-            company: Rancher Labs
+            organization: Rancher Labs
             homepage_url: 'http://rancher.com/'
             repo_url: 'https://github.com/rancher/rancher'
             logo: >-
@@ -3971,7 +3971,7 @@ landscape:
             cncf_member: true
           - item:
             name: Kublr
-            company: Kublr
+            organization: Kublr
             homepage_url: 'http://kublr.com/'
             logo: 'http://kublr.com/logo'
             twitter: 'https://twitter.com/kublr'
@@ -3987,7 +3987,7 @@ landscape:
             cncf_member: true
           - item:
             name: Photon
-            company: VMware
+            organization: VMware
             homepage_url: 'https://vmware.github.io/photon/'
             logo: >-
               http://www.vmtocloud.com/wp-content/uploads/2016/05/Photon_featured.jpeg
@@ -4004,7 +4004,7 @@ landscape:
             cncf_member: true
           - item:
             name: Platform.sh
-            company: Platform.sh
+            organization: Platform.sh
             homepage_url: 'https://platform.sh/'
             logo: >-
               https://media.licdn.com/mpr/mpr/shrink_200_200/AAEAAQAAAAAAAAK4AAAAJDllNWYyMDRlLWUyNTMtNDk3YS05YmRiLWI5NTU3M2EwNWViNQ.png
@@ -4021,7 +4021,7 @@ landscape:
             cncf_member: false
           - item:
             name: Platform9
-            company: Platform9 Systems
+            organization: Platform9 Systems
             homepage_url: 'https://platform9.com/'
             logo: >-
               https://hostadvice.com/wp-content/uploads/2017/07/Platform9-LogoStacked.png
@@ -4038,7 +4038,7 @@ landscape:
             cncf_member: false
           - item:
             name: Flynn
-            company: Flynn
+            organization: Flynn
             homepage_url: 'https://flynn.io/'
             repo_url: 'https://github.com/flynn/flynn'
             logo: 'https://flynn.io/images/flynn-acaf9509.svg'
@@ -4053,7 +4053,7 @@ landscape:
             cncf_member: false
           - item:
             name: Datawire
-            company: Datawire
+            organization: Datawire
             homepage_url: 'https://www.datawire.io/'
             logo: >-
               https://pbs.twimg.com/profile_images/654723996970147841/kBqGPhZe_400x400.png
@@ -4070,7 +4070,7 @@ landscape:
             cncf_member: true
           - item:
             name: Atomist
-            company: Atomist
+            organization: Atomist
             homepage_url: 'https://www.atomist.com/'
             logo: >-
               https://cdn.dribbble.com/users/42583/screenshots/2596559/atomist01.jpg
@@ -4087,7 +4087,7 @@ landscape:
             cncf_member: false
           - item:
             name: Iron.io
-            company: Iron.io
+            organization: Iron.io
             homepage_url: 'https://www.iron.io/'
             repo_url: 'https://github.com/iron-io/functions'
             logo: >-
@@ -4103,7 +4103,7 @@ landscape:
             cncf_member: false
           - item:
             name: PaaSTA
-            company: Yelp
+            organization: Yelp
             homepage_url: >-
               https://engineeringblog.yelp.com/2015/11/introducing-paasta-an-open-platform-as-a-service.html
             repo_url: 'https://github.com/Yelp/paasta'
@@ -4121,7 +4121,7 @@ landscape:
             cncf_member: false
           - item:
             name: Empire
-            company: Remind
+            organization: Remind
             homepage_url: 'http://engineering.remind.com/'
             repo_url: 'https://github.com/remind101/empire'
             logo: 'https://upload.wikimedia.org/wikipedia/en/d/df/Remind_app_logo.png'
@@ -4136,7 +4136,7 @@ landscape:
             cncf_member: false
           - item:
             name: Nirmata
-            company: Nirmata
+            organization: Nirmata
             homepage_url: 'https://www.nirmata.com/'
             logo: >-
               https://www.nirmata.com/wp-content/uploads/2017/11/vertical-color-small-01.png
@@ -4153,7 +4153,7 @@ landscape:
             cncf_member: true
           - item:
             name: Giant Swarm
-            company: Giant Swarm
+            organization: Giant Swarm
             homepage_url: 'https://giantswarm.io/'
             logo: >-
               https://crunchbase-production-res.cloudinary.com/image/upload/v1409923504/woifk3fzca4pit2qa3pq.jpg
@@ -4168,7 +4168,7 @@ landscape:
             cncf_member: true
           - item:
             name: Cloud66
-            company: Cloud 66
+            organization: Cloud 66
             homepage_url: 'https://www.cloud66.com/'
             logo: >-
               https://pbs.twimg.com/profile_images/875687479151644672/EqNiVriF_400x400.jpg
@@ -4185,7 +4185,7 @@ landscape:
             cncf_member: false
           - item:
             name: Kontena
-            company: Kontena
+            organization: Kontena
             homepage_url: 'https://kontena.io/'
             repo_url: 'https://github.com/kontena/kontena'
             logo: >-
@@ -4203,7 +4203,7 @@ landscape:
             cncf_member: false
           - item:
             name: Kubermatic
-            company: Kubermatic
+            organization: Kubermatic
             homepage_url: 'https://cloud.kubermatic.io/'
             logo: 'https://pbs.twimg.com/media/C8FWtMNW4AAIUt8.png'
             twitter: 'https://twitter.com/kubermatic'
@@ -4216,7 +4216,7 @@ landscape:
             cncf_member: false
           - item:
             name: Gravitational
-            company: Gravitational
+            organization: Gravitational
             homepage_url: 'https://gravitational.com/'
             logo: >-
               https://crunchbase-production-res.cloudinary.com/image/upload/v1455650059/gpumyj6nwuvgyslcpnet.png
@@ -4231,7 +4231,7 @@ landscape:
             cncf_member: true
           - item:
             name: Navops
-            company: Navops
+            organization: Navops
             homepage_url: 'https://www.navops.io/'
             logo: >-
               https://lh3.googleusercontent.com/-OdE5v5Nid1U/V9qqnXxTlBI/AAAAAAAAA3w/uL4GdnurvjomJWLxe44yI4GpRItsqNGqwCJoC/w2066-h867/navops-byUniva-Logo-RGB.jpg
@@ -4248,7 +4248,7 @@ landscape:
             cncf_member: false
           - item:
             name: Heroku
-            company: Salesforce
+            organization: Salesforce
             homepage_url: 'https://www.heroku.com/home'
             logo: >-
               https://cdn.iconscout.com/public/images/icon/free/png-512/heroku-logo-brand-development-tools-33b6da5a9c74ddd9-512x512.png
@@ -4264,7 +4264,7 @@ landscape:
             cncf_member: true
           - item:
             name: Mantl
-            company: Mantl
+            organization: Mantl
             homepage_url: 'https://mantl.io/'
             repo_url: 'https://github.com/mantl/mantl'
             logo: 'http://docs.mantl.io/en/latest/_static/mantl-logo.png'
@@ -4280,7 +4280,7 @@ landscape:
             cncf_member: false
           - item:
             name: Mirantis
-            company: Mirantis
+            organization: Mirantis
             homepage_url: 'https://www.mirantis.com/'
             logo: >-
               https://www.mirantis.com/wp-content/uploads/2017/01/mirantis-logo-2color-rgb-transparent.png
@@ -4295,7 +4295,7 @@ landscape:
             cncf_member: true
           - item:
             name: goPaddle
-            company: Bluemeric
+            organization: Bluemeric
             homepage_url: 'https://www.gopaddle.io/#/'
             logo: 'https://s3.amazonaws.com/www.bluemeric.com/images/gp-cncf-logo.png'
             twitter: 'https://twitter.com/bluemeric'
@@ -4311,7 +4311,7 @@ landscape:
             cncf_member: false
           - item:
             name: Hyper
-            company: Hyper_
+            organization: Hyper_
             homepage_url: 'https://www.hyper.sh/'
             logo: >-
               https://user-images.githubusercontent.com/1701782/29462984-a8451220-8463-11e7-84a0-739418f027f1.png
@@ -4326,7 +4326,7 @@ landscape:
             cncf_member: false
           - item:
             name: Exoscale
-            company: Exoscale
+            organization: Exoscale
             homepage_url: 'https://www.exoscale.ch/'
             logo: 'https://avatars0.githubusercontent.com/u/2023286'
             twitter: 'https://twitter.com/Exoscale'
@@ -4342,7 +4342,7 @@ landscape:
             cncf_member: true
           - item:
             name: JHipster
-            company: JHipster
+            organization: JHipster
             homepage_url: 'http://www.jhipster.tech/'
             repo_url: 'https://github.com/jhipster/generator-jhipster'
             logo: >-
@@ -4359,7 +4359,7 @@ landscape:
             cncf_member: false
           - item:
             name: Moby
-            company: Docker
+            organization: Docker
             homepage_url: 'https://mobyproject.org/'
             repo_url: 'https://github.com/moby/moby'
             logo: >-
@@ -4377,7 +4377,7 @@ landscape:
             cncf_member: true
           - item:
             name: Galactic Fog
-            company: Galactic Fog
+            organization: Galactic Fog
             homepage_url: 'http://www.galacticfog.com/'
             logo: >-
               https://media.licdn.com/mpr/mpr/AAEAAQAAAAAAAAYHAAAAJGU0Zjc4OGI2LTYzZmEtNGUxMC05ODE5LTVhMjI0OTM3NmI3ZA.png
@@ -4394,7 +4394,7 @@ landscape:
             cncf_member: true
           - item:
             name: Canonical Distribution of Kubernetes
-            company: Canonical
+            organization: Canonical
             homepage_url: 'https://www.ubuntu.com/kubernetes'
             logo: >-
               http://logo-logos.com/wp-content/uploads/2016/11/Ubuntu_logo_logotype.png
@@ -4411,7 +4411,7 @@ landscape:
             cncf_member: true
           - item:
             name: Lightbend
-            company: Lightbend
+            organization: Lightbend
             homepage_url: 'https://www.lightbend.com/'
             logo: >-
               https://upload.wikimedia.org/wikipedia/en/thumb/b/b1/Lightbend_full-color_logo.svg/1280px-Lightbend_full-color_logo.svg.png
@@ -4428,7 +4428,7 @@ landscape:
             cncf_member: false
           - item:
             name: Docker Enterprise Edition (EE)
-            company: Docker
+            organization: Docker
             homepage_url: 'https://www.docker.com/enterprise-edition'
             logo: 'https://www.docker.com/sites/default/files/vertical_large.png'
             twitter: 'https://twitter.com/docker'
@@ -4445,7 +4445,7 @@ landscape:
             cncf_member: true
           - item:
             name: Tsuru
-            company: Tsuru
+            organization: Tsuru
             homepage_url: 'https://tsuru.io/'
             repo_url: 'https://github.com/tsuru/tsuru'
             logo: >-
@@ -4462,7 +4462,7 @@ landscape:
             cncf_member: false
           - item:
             name: ContainerShip
-            company: Containership
+            organization: Containership
             homepage_url: 'https://containership.io/'
             logo: >-
               http://resumator.s3.amazonaws.com/customer_20150721151308_KZ8QDZPO4BOHCKCU/social_icons/20150825133703_containership_logo.png
@@ -4480,7 +4480,7 @@ landscape:
             cncf_member: true
           - item:
             name: Convox
-            company: Convox
+            organization: Convox
             homepage_url: 'https://convox.com/'
             rep_url: 'https://github.com/convox'
             logo: 'https://ulam.io/wp-content/uploads/2017/05/c2-1288x724.png'
@@ -4495,7 +4495,7 @@ landscape:
             cncf_member: false
           - item:
             name: Google Kubernetes Engine (GKE)
-            company: Google Cloud Platform
+            organization: Google Cloud Platform
             homepage_url: 'https://cloud.google.com/kubernetes-engine/'
             logo: 'https://www.gcppodcast.com/images/post/gke.png'
             stock_ticker: GOOGL
@@ -4510,7 +4510,7 @@ landscape:
             cncf_member: true
           - item:
             name: Portainer
-            company: Portainer
+            organization: Portainer
             homepage_url: 'https://portainer.io/'
             repo_url: 'https://github.com/portainer/portainer'
             logo: >-
@@ -4524,7 +4524,7 @@ landscape:
             cncf_member: false
           - item:
             name: Pusher
-            company: Pusher
+            organization: Pusher
             homepage_url: 'https://pusher.com/team'
             repo_url: 'https://github.com/pusher/pusher-js'
             logo: >-
@@ -4540,7 +4540,7 @@ landscape:
             cncf_member: false
           - item:
             name: Scalingo
-            company: Scalingo
+            organization: Scalingo
             homepage_url: 'https://scalingo.com/'
             logo: 'https://avatars0.githubusercontent.com/u/4868969?s=400&v=4'
             twitter: 'https://twitter.com/ScalingoHQ'
@@ -4557,7 +4557,7 @@ landscape:
             cncf_member: false
           - item:
             name: StackPointCloud
-            company: StackPointCloud
+            organization: StackPointCloud
             homepage_url: 'https://cloud.google.com/container-engine/'
             logo: >-
               http://www.sysdigccwfs.com/wp-content/uploads/2016/09/stackpointcloud.png
@@ -4571,7 +4571,7 @@ landscape:
             cncf_member: true
           - item:
             name: Supergiant
-            company: Supergiant
+            organization: Supergiant
             homepage_url: 'https://supergiant.io/'
             repo_url: 'https://github.com/supergiant/supergiant'
             logo: 'https://supergiant.io/uploads/files/supergiant-logo.png'
@@ -4588,7 +4588,7 @@ landscape:
             cncf_member: false
           - item:
             name: SUSE CaaS Platform
-            company: Suse
+            organization: Suse
             homepage_url: 'https://www.suse.com/products/caas-platform/'
             repo_url: 'https://github.com/SUSE/doc-caasp'
             logo: >-
@@ -4607,7 +4607,7 @@ landscape:
         items:
           - item:
             name: Lambda
-            company: Amazon Web Services
+            organization: Amazon Web Services
             homepage_url: 'https://aws.amazon.com/lambda/'
             logo: >-
               https://clouda-assets.s3.amazonaws.com/upload/54d0e409d287c266042be5f5.png
@@ -4625,7 +4625,7 @@ landscape:
             cncf_member: true
           - item:
             name: OpenFAAS
-            company: OpenFaaS Ltd
+            organization: OpenFaaS Ltd
             homepage_url: 'https://www.openfaas.com'
             repo_url: 'https://github.com/openfaas/faas'
             logo: >-
@@ -4643,7 +4643,7 @@ landscape:
             cncf_member: false
           - item:
             name: Google Cloud Functions
-            company: Google Cloud Platform
+            organization: Google Cloud Platform
             homepage_url: 'https://cloud.google.com/functions/'
             logo: 'https://img.stackshare.io/service/6672/google-cloud-functions.png'
             stock_ticker: GOOGL
@@ -4658,7 +4658,7 @@ landscape:
             cncf_member: true
           - item:
             name: OpenWhisk
-            company: Apache Software Foundation
+            organization: Apache Software Foundation
             homepage_url: 'http://openwhisk.incubator.apache.org/'
             repo_url: 'https://github.com/apache/incubator-openwhisk'
             logo: >-
@@ -4676,7 +4676,7 @@ landscape:
             cncf_member: false
           - item:
             name: Oracle Application Container Cloud
-            company: Oracle Corporation
+            organization: Oracle Corporation
             homepage_url: 'https://cloud.oracle.com/acc'
             logo: >-
               https://docs.oracle.com/en/cloud/paas/app-container-cloud/sp_common/shared-images/cloudgs_appcontainer.png
@@ -4694,7 +4694,7 @@ landscape:
             cncf_member: false
           - item:
             name: Firebase
-            company: Google Cloud Platform
+            organization: Google Cloud Platform
             homepage_url: 'https://firebase.google.com/'
             logo: >-
               https://www.appcoda.com/wp-content/uploads/2016/11/firebase_logo_shot.png
@@ -4710,7 +4710,7 @@ landscape:
             cncf_member: true
           - item:
             name: Webtask
-            company: Webtask
+            organization: Webtask
             homepage_url: 'https://webtask.io/'
             logo: >-
               https://cdn-images-1.medium.com/max/698/1*4SkA3yFoWNsuH3PPVCpKvQ.png
@@ -4728,7 +4728,7 @@ landscape:
             cncf_member: false
           - item:
             name: Fission
-            company: Platform9 Systems
+            organization: Platform9 Systems
             homepage_url: 'http://fission.io/'
             repo_url: 'https://github.com/fission/fission'
             logo: 'https://www.gcppodcast.com/images/post/fission-logo.png'
@@ -4743,7 +4743,7 @@ landscape:
             cncf_member: false
           - item:
             name: PubNub
-            company: PubNub
+            organization: PubNub
             homepage_url: 'https://www.pubnub.com/docs/blocks-catalog'
             logo: 'http://ww1.prweb.com/prfiles/2015/11/18/13089283/BLOCKSlogo.png'
             twitter: 'https://twitter.com/PubNub'
@@ -4759,7 +4759,7 @@ landscape:
             cncf_member: false
           - item:
             name: Apex
-            company: Apex
+            organization: Apex
             homepage_url: 'http://apex.run'
             repo_url: 'https://github.com/apex/apex'
             logo: ./src/hosted_logos/apex.png
@@ -4775,7 +4775,7 @@ landscape:
             cncf_member: false
           - item:
             name: Serverless
-            company: Serverless
+            organization: Serverless
             homepage_url: 'https://serverless.com/'
             repo_url: 'https://github.com/serverless/serverless'
             logo: >-
@@ -4794,7 +4794,7 @@ landscape:
             cncf_member: false
           - item:
             name: Kubeless
-            company: Kubeless
+            organization: Kubeless
             homepage_url: 'http://kubeless.io/'
             repo_url: 'https://github.com/kubeless/kubeless'
             logo: >-
@@ -4809,7 +4809,7 @@ landscape:
             cncf_member: false
           - item:
             name: NStack
-            company: NStack
+            organization: NStack
             homepage_url: 'https://nstack.com/'
             repo_url: 'https://github.com/nstack/nstack'
             logo: >-
@@ -4824,7 +4824,7 @@ landscape:
             cncf_member: false
           - item:
             name: Nuclio
-            company: iguazio
+            organization: iguazio
             homepage_url: 'https://nuclio.io/'
             repo_url: 'https://github.com/nuclio/nuclio'
             logo: >-
@@ -4840,7 +4840,7 @@ landscape:
             cncf_member: false
           - item:
             name: Azure Functions
-            company: Microsoft
+            organization: Microsoft
             homepage_url: 'https://azure.microsoft.com/en-us/services/functions/'
             logo: >-
               https://pbs.twimg.com/profile_images/857815012013785088/woz9sESR_400x400.jpg
@@ -4865,7 +4865,7 @@ landscape:
         items:
           - item:
             name: StatsDB
-            company: Earlham Institute
+            organization: Earlham Institute
             homepage_url: 'http://www.earlham.ac.uk/statsdb'
             repo_url: 'https://github.com/TGAC/StatsDB'
             logo: >-
@@ -4880,7 +4880,7 @@ landscape:
             cncf_member: false
           - item:
             name: New Relic
-            company: New Relic
+            organization: New Relic
             homepage_url: 'https://newrelic.com/'
             logo: >-
               https://newrelic.com/assets/newrelic/source/NewRelic-logo-square.png
@@ -4899,7 +4899,7 @@ landscape:
             cncf_member: false
           - item:
             name: AppDynamics
-            company: AppDynamics
+            organization: AppDynamics
             homepage_url: 'https://www.appdynamics.com/'
             logo: >-
               https://access.redhat.com/sites/default/files/appd_logo_gray_rgb_1026x104.png
@@ -4917,7 +4917,7 @@ landscape:
             cncf_member: false
           - item:
             name: Axibase
-            company: Axibase
+            organization: Axibase
             homepage_url: 'https://axibase.com/'
             logo: >-
               http://axibase.com/wp-content/uploads/2014/12/axibase_logo_orange-2.png
@@ -4931,7 +4931,7 @@ landscape:
             cncf_member: false
           - item:
             name: Datadog
-            company: Datadog
+            organization: Datadog
             homepage_url: 'https://www.datadoghq.com/'
             logo: >-
               https://crunchbase-production-res.cloudinary.com/image/upload/e9d7401fbbda172d5b1972370437a4be.png
@@ -4946,7 +4946,7 @@ landscape:
             cncf_member: true
           - item:
             name: CloudWATCH
-            company: Amazon Web Services
+            organization: Amazon Web Services
             homepage_url: 'https://aws.amazon.com/cloudwatch/'
             logo: >-
               http://truesightpulse.bmc.com/wp-content/uploads/2016/11/cloudwatch.png
@@ -4964,7 +4964,7 @@ landscape:
             cncf_member: true
           - item:
             name: Stackdriver
-            company: Stackdriver
+            organization: Stackdriver
             homepage_url: 'https://cloud.google.com/stackdriver/'
             logo: 'https://www.gcppodcast.com/images/post/stackdriver.png'
             stock_ticker: GOOGL
@@ -4981,7 +4981,7 @@ landscape:
             cncf_member: false
           - item:
             name: Prometheus
-            company: Cloud Native Computing Foundation (CNCF)
+            organization: Cloud Native Computing Foundation (CNCF)
             homepage_url: 'https://prometheus.io/'
             cncf_project: incubating
             repo_url: 'https://github.com/prometheus/prometheus'
@@ -4999,7 +4999,7 @@ landscape:
             cncf_member: true
           - item:
             name: SysDig
-            company: Sysdig
+            organization: Sysdig
             homepage_url: 'https://sysdig.com/'
             repo_url: 'https://github.com/draios/sysdig'
             logo: 'https://d1q6f0aelx0por.cloudfront.net/sysdig.png'
@@ -5016,7 +5016,7 @@ landscape:
             cncf_member: true
           - item:
             name: Wavefront
-            company: Wavefront
+            organization: Wavefront
             homepage_url: 'https://www.wavefront.com/'
             logo: >-
               https://blogs.vmware.com/management/files/2017/08/Wavefront-Logo-Square-512x512.png
@@ -5033,7 +5033,7 @@ landscape:
             cncf_member: false
           - item:
             name: Instana
-            company: Instana
+            organization: Instana
             homepage_url: 'https://www.instana.com/'
             logo: 'http://www.instana.com/media/RZ_INSTANA_Dark_Blue.png'
             twitter: 'https://twitter.com/InstanaHQ'
@@ -5049,7 +5049,7 @@ landscape:
             cncf_member: true
           - item:
             name: Honeybadger
-            company: Honeybadger
+            organization: Honeybadger
             homepage_url: 'https://www.honeybadger.io/'
             logo: 'https://www.honeybadger.io/images/navbar_logo.svg'
             twitter: 'https://twitter.com/joneybadgerapp'
@@ -5063,7 +5063,7 @@ landscape:
             cncf_member: false
           - item:
             name: Icinga
-            company: Icinga
+            organization: Icinga
             homepage_url: 'https://www.icinga.com/'
             repo_url: 'https://github.com/Icinga/icinga2'
             logo: >-
@@ -5079,7 +5079,7 @@ landscape:
             cncf_member: false
           - item:
             name: IronDB
-            company: 'Circonus, Inc.'
+            organization: 'Circonus, Inc.'
             homepage_url: 'https://www.circonus.com/irondb/'
             logo: >-
               https://login.circonus.com/resources/docs/irondb/assets/irondb-logo-1777x761.png
@@ -5094,7 +5094,7 @@ landscape:
             cncf_member: false
           - item:
             name: Rocana
-            company: Rocana
+            organization: Rocana
             homepage_url: 'https://www.rocana.com/'
             logo: ./src/hosted_logos/rocana.png
             twitter: 'https://twitter.com/rocanainc'
@@ -5110,7 +5110,7 @@ landscape:
             cncf_member: false
           - item:
             name: OpsClarity
-            company: OpsClarity Inc.
+            organization: OpsClarity Inc.
             homepage_url: 'https://www.opsclarity.com/'
             logo: >-
               https://p14.zdassets.com/hc/settings_assets/813690/200160158/x15uNJXQmg7prFzT4g3SSQ-OpsClarity_Logo.png
@@ -5127,7 +5127,7 @@ landscape:
             cncf_member: false
           - item:
             name: Nagios
-            company: Nagios
+            organization: Nagios
             homepage_url: 'https://www.nagios.com/'
             repo_url: 'https://github.com/NagiosEnterprises/nagioscore'
             logo: >-
@@ -5143,7 +5143,7 @@ landscape:
             cncf_member: false
           - item:
             name: Zabbix
-            company: Zabbix
+            organization: Zabbix
             homepage_url: 'https://www.zabbix.com/'
             repo_url: 'https://github.com/zabbix/zabbix'
             logo: >-
@@ -5159,7 +5159,7 @@ landscape:
             cncf_member: false
           - item:
             name: Graphite
-            company: Graphite
+            organization: Graphite
             homepage_url: 'https://graphiteapp.org/'
             repo_url: 'https://github.com/graphite-project/graphite-web'
             logo: >-
@@ -5173,7 +5173,7 @@ landscape:
             cncf_member: false
           - item:
             name: InfluxDB
-            company: InfluxData
+            organization: InfluxData
             homepage_url: 'https://www.influxdata.com/'
             repo_url: 'https://github.com/influxdata/influxdb'
             logo: >-
@@ -5189,7 +5189,7 @@ landscape:
             cncf_member: true
           - item:
             name: OpenTSDB
-            company: OpenTSDB
+            organization: OpenTSDB
             homepage_url: 'http://opentsdb.net/'
             repo_url: 'https://github.com/OpenTSDB/opentsdb'
             logo: 'http://opentsdb.net/img/logo_header.png'
@@ -5203,7 +5203,7 @@ landscape:
             cncf_member: false
           - item:
             name: Netsil
-            company: Netsil
+            organization: Netsil
             homepage_url: 'https://netsil.com/'
             logo: >-
               https://s3.amazonaws.com/docs.netsil.com/logos/Netsil_640x640-blue.jpg
@@ -5218,7 +5218,7 @@ landscape:
             cncf_member: true
           - item:
             name: Meros
-            company: 'Meros, Inc.'
+            organization: 'Meros, Inc.'
             homepage_url: 'https://meros.io/'
             logo: >-
               http://blog.eckelberry.com/wp-content/uploads/2015/08/meros-logo-small.png
@@ -5235,7 +5235,7 @@ landscape:
             cncf_member: false
           - item:
             name: OpBeat
-            company: Opbeat
+            organization: Opbeat
             homepage_url: 'https://opbeat.com/'
             logo: >-
               https://crunchbase-production-res.cloudinary.com/image/upload/v1408666566/nwh15vkpdfklojbp70bo.png
@@ -5250,7 +5250,7 @@ landscape:
             cncf_member: false
           - item:
             name: Cobe
-            company: Cobe
+            organization: Cobe
             homepage_url: 'https://cobe.io/'
             logo: >-
               https://pbs.twimg.com/profile_images/630677512163561472/MB2Z1voJ_400x400.png
@@ -5264,7 +5264,7 @@ landscape:
             cncf_member: false
           - item:
             name: ServerDensity
-            company: Server Density
+            organization: Server Density
             homepage_url: 'https://www.serverdensity.com/'
             repo_url: 'https://github.com/serverdensity/sd-agent'
             logo: 'https://www.gcppodcast.com//images/post/serverdensity.png'
@@ -5279,7 +5279,7 @@ landscape:
             cncf_member: false
           - item:
             name: Librato
-            company: Librato
+            organization: Librato
             homepage_url: 'https://www.librato.com/'
             logo: 'https://alertops.com/wp-content/uploads/2017/04/Librato-logo.jpg'
             twitter: 'https://twitter.com/Librato'
@@ -5293,7 +5293,7 @@ landscape:
             cncf_member: false
           - item:
             name: AppNeta
-            company: AppNeta
+            organization: AppNeta
             homepage_url: 'https://www.appneta.com/'
             logo: >-
               https://ga1.imgix.net/logo/o/102401-1481321212-6827517?auto=format&ch=Width%2CDPR&ixjsv=2.0.0&ixlib=rb-1.0.0&w=270
@@ -5311,7 +5311,7 @@ landscape:
             cncf_member: false
           - item:
             name: Catchpoint Systems
-            company: 'Catchpoint '
+            organization: 'Catchpoint '
             homepage_url: 'http://www.catchpoint.com/'
             logo: 'https://alertops.com/wp-content/uploads/2016/11/catchpoint.png'
             twitter: 'https://twitter.com/catchpoint'
@@ -5325,7 +5325,7 @@ landscape:
             cncf_member: false
           - item:
             name: Dynatrace
-            company: Dynatrace
+            organization: Dynatrace
             homepage_url: 'https://www.dynatrace.com/'
             logo: >-
               https://crunchbase-production-res.cloudinary.com/image/upload/v1460640914/hyk187shdkxuov8iycdt.png
@@ -5343,7 +5343,7 @@ landscape:
             cncf_member: true
           - item:
             name: CoScale
-            company: CoScale
+            organization: CoScale
             homepage_url: 'https://www.coscale.com/'
             logo: >-
               https://obsidian.co.za/sites/default/files/field/image/product/Coscale_Logo_cmyk_vert.png
@@ -5360,7 +5360,7 @@ landscape:
             cncf_member: false
           - item:
             name: Outlyer
-            company: Outlyer
+            organization: Outlyer
             homepage_url: 'https://www.outlyer.com/'
             logo: >-
               https://p4.zdassets.com/hc/settings_assets/443641/200027036/W5VMeAkQWWuD2EpjxP7VAQ-Logo.png
@@ -5377,7 +5377,7 @@ landscape:
             cncf_member: false
           - item:
             name: Centreon
-            company: Centreon
+            organization: Centreon
             homepage_url: 'https://www.centreon.com/en/'
             repo_url: 'https://github.com/centreon/centreon'
             logo: >-
@@ -5395,7 +5395,7 @@ landscape:
             cncf_member: false
           - item:
             name: Lighstep
-            company: LightStep
+            organization: LightStep
             homepage_url: 'http://lightstep.com/'
             logo: >-
               https://www.heavybit.com/wp-content/uploads/2016/02/heavybit-welcomes-new-member-lightstep.png
@@ -5413,7 +5413,7 @@ landscape:
             cncf_member: false
           - item:
             name: Signal FX
-            company: SignalFx
+            organization: SignalFx
             homepage_url: 'https://signalfx.com/'
             logo: 'https://signalfx.com/wp-content/uploads/2015/09/signalfx-logo1.png'
             twitter: 'https://twitter.com/signalfx'
@@ -5427,7 +5427,7 @@ landscape:
             cncf_member: false
           - item:
             name: NodeSource
-            company: 'NodeSource, Inc.'
+            organization: 'NodeSource, Inc.'
             homepage_url: 'https://nodesource.com/'
             logo: 'https://nodesource.com/assets/icons/nodesource-512x512.png'
             twitter: 'https://twitter.com/nodesource'
@@ -5443,7 +5443,7 @@ landscape:
             cncf_member: false
           - item:
             name: Grafana
-            company: Grafana Labs
+            organization: Grafana Labs
             homepage_url: 'https://grafana.com/'
             repo_url: 'https://github.com/grafana/grafana'
             logo: >-
@@ -5461,7 +5461,7 @@ landscape:
             cncf_member: true
           - item:
             name: Log Analytics
-            company: Microsoft
+            organization: Microsoft
             homepage_url: 'https://azure.microsoft.com/en-us/services/log-analytics/'
             logo: >-
               https://i1.wp.com/www.tjopsta.net/wp-content/uploads/2016/10/LogAnalytics-Logo.png
@@ -5480,7 +5480,7 @@ landscape:
             cncf_member: true
           - item:
             name: Weave Scope
-            company: Weaveworks
+            organization: Weaveworks
             homepage_url: 'https://www.weave.works/oss/scope/'
             repo_url: 'https://github.com/weaveworks/scope'
             logo: >-
@@ -5496,7 +5496,7 @@ landscape:
             cncf_member: true
           - item:
             name: Sensu
-            company: SENSU
+            organization: SENSU
             homepage_url: 'https://sensuapp.org/'
             repo_url: 'https://github.com/sensu/sensu'
             logo: >-
@@ -5512,7 +5512,7 @@ landscape:
             cncf_member: false
           - item:
             name: Sentry
-            company: Sentry
+            organization: Sentry
             homepage_url: 'https://sentry.io/'
             repo_url: 'https://github.com/getsentry/sentry'
             logo: 'https://sentry-brand.storage.googleapis.com/sentry-logo-black.png'
@@ -5529,7 +5529,7 @@ landscape:
             cncf_member: false
           - item:
             name: StackRox
-            company: StackRox
+            organization: StackRox
             homepage_url: 'https://www.stackrox.com/'
             logo: >-
               https://techspective.net/wp-content/uploads/2017/07/stackrox_logo.jpg
@@ -5546,7 +5546,7 @@ landscape:
             cncf_member: false
           - item:
             name: StackState
-            company: StackState
+            organization: StackState
             homepage_url: 'https://www.stackstate.com/'
             logo: >-
               https://www.stackstate.com/wp-content/uploads/2017/04/Sts_LOGO_RGB_Full_Horizontal_OPT.png.pagespeed.ce.LOxsEpaZ5A.png
@@ -5561,7 +5561,7 @@ landscape:
             cncf_member: false
           - item:
             name: Weave Cloud
-            company: Weaveworks
+            organization: Weaveworks
             homepage_url: 'https://www.weave.works/product/cloud/'
             logo: >-
               http://events17.linuxfoundation.org/sites/events/files/styles/sponsor_logo_large/public/sponsor-logos/sponsor-weaveworks_1.png
@@ -5581,7 +5581,7 @@ landscape:
         items:
           - item:
             name: Splunk
-            company: Splunk
+            organization: Splunk
             homepage_url: 'https://www.splunk.com/'
             logo: >-
               https://interset.com/wp-content/uploads/2016/10/splunk-logo-300x168.png
@@ -5599,7 +5599,7 @@ landscape:
             cncf_member: true
           - item:
             name: Elastic
-            company: Elastic
+            organization: Elastic
             homepage_url: 'https://www.elastic.co/'
             repo_url: 'https://github.com/elastic/elasticsearch'
             logo: >-
@@ -5615,7 +5615,7 @@ landscape:
             cncf_member: false
           - item:
             name: Sematext
-            company: Sematext
+            organization: Sematext
             homepage_url: 'https://sematext.com/'
             logo: >-
               https://sematext.com/wp-content/uploads/2017/09/octi-square-logo-200x200-2.png
@@ -5632,7 +5632,7 @@ landscape:
             cncf_member: false
           - item:
             name: SumoLogic
-            company: Sumo Logic
+            organization: Sumo Logic
             homepage_url: 'https://www.sumologic.com/'
             logo: >-
               https://www.cloudfoundry.org/wp-content/uploads/2017/10/icon_sumologic_v2@2x.png
@@ -5650,7 +5650,7 @@ landscape:
             cncf_member: false
           - item:
             name: Loggly
-            company: Loggly
+            organization: Loggly
             homepage_url: 'https://www.loggly.com/'
             logo: 'https://www.loggly.com/wp-content/uploads/2017/03/Loggly_RGB.png'
             twitter: 'https://twitter.com/loggly'
@@ -5667,7 +5667,7 @@ landscape:
             cncf_member: false
           - item:
             name: Logz
-            company: Logz.io
+            organization: Logz.io
             homepage_url: 'https://logz.io/'
             logo: 'https://logz.io/wp-content/uploads/2015/09/logzio.png'
             twitter: 'https://twitter.com/logzio'
@@ -5683,7 +5683,7 @@ landscape:
             cncf_member: false
           - item:
             name: Fluentd
-            company: Cloud Native Computing Foundation (CNCF)
+            organization: Cloud Native Computing Foundation (CNCF)
             homepage_url: 'https://www.fluentd.org/'
             cncf_project: incubating
             repo_url: 'https://github.com/fluent/fluentd'
@@ -5701,7 +5701,7 @@ landscape:
             cncf_member: true
           - item:
             name: Loom Systems
-            company: Loom Systems
+            organization: Loom Systems
             homepage_url: 'https://www.loomsystems.com/'
             logo: >-
               https://github.com/alexcontini/alexcontini.github.io/blob/master/loomsystems_logo.png?raw=true
@@ -5716,7 +5716,7 @@ landscape:
             cncf_member: false
           - item:
             name: Graylog
-            company: Graylog
+            organization: Graylog
             homepage_url: 'https://www.graylog.org/'
             repo_url: 'https://github.com/Graylog2/graylog2-server'
             logo: >-
@@ -5735,7 +5735,7 @@ landscape:
         items:
           - item:
             name: OpenTracing
-            company: Cloud Native Computing Foundation (CNCF)
+            organization: Cloud Native Computing Foundation (CNCF)
             homepage_url: 'http://opentracing.io/'
             cncf_project: incubating
             repo_url: 'https://github.com/opentracing/opentracing-go'
@@ -5753,7 +5753,7 @@ landscape:
             cncf_member: true
           - item:
             name: Skywalking
-            company: Apache Software Foundation
+            organization: Apache Software Foundation
             homepage_url: 'http://skywalking.org/'
             repo_url: 'https://github.com/apache/incubator-skywalking'
             logo: >-
@@ -5770,7 +5770,7 @@ landscape:
             cncf_member: false
           - item:
             name: Zipkin
-            company: Zipkin
+            organization: Zipkin
             homepage_url: 'http://zipkin.io/'
             repo_url: 'https://github.com/openzipkin/zipkin'
             logo: >-
@@ -5785,7 +5785,7 @@ landscape:
             cncf_member: false
           - item:
             name: Jaeger
-            company: Cloud Native Computing Foundation (CNCF)
+            organization: Cloud Native Computing Foundation (CNCF)
             homepage_url: 'http://jaegertracing.io/'
             cncf_project: incubating
             repo_url: 'https://github.com/jaegertracing/jaeger'
@@ -5803,7 +5803,7 @@ landscape:
             cncf_member: true
           - item:
             name: Spring Cloud Sleuth
-            company: Pivotal
+            organization: Pivotal
             homepage_url: 'https://cloud.spring.io/spring-cloud-sleuth/'
             repo_url: 'https://github.com/spring-cloud/spring-cloud-sleuth'
             logo: >-
@@ -5818,7 +5818,7 @@ landscape:
             cncf_member: false
           - item:
             name: Appdash
-            company: Sourcegraph
+            organization: Sourcegraph
             homepage_url: 'https://github.com/sourcegraph/appdash'
             repo_url: 'https://github.com/sourcegraph/appdash'
             logo: ./src/hosted_logos/appdash.png

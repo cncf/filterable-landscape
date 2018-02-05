@@ -34,7 +34,7 @@ const itemsWithExtraFields = items.map(function(item) {
   const otherItems = _.filter(items, {name: item.name});
   var id = saneName(item.name);
   if (otherItems.length > 1) {
-    id = saneName(item.company + ' ' + item.name);
+    id = saneName(item.organization + ' ' + item.name);
   }
   return {
     ...item,
@@ -117,7 +117,7 @@ const generateLicenses = function() {
   }));
 };
 const lookups = {
-  company: extractOptions('company'),
+  organization: extractOptions('organization'),
   landscape: generateLandscapeHierarchy(),
   license: generateLicenses(),
   headquarters: extractOptions('headquarters'),

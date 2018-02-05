@@ -13,7 +13,7 @@ export const initialState = {
     stars: null,
     license: [],
     marketCap: null,
-    company: [],
+    organization: [],
     headquarters: [],
     landscape: []
   },

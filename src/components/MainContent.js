@@ -26,10 +26,10 @@ const MainContent = ({groupedItems, onSelectItem}) => {
                     }
                   </div>
                   <div>
-                    {item.company}
+                    {item.organization}
                     { Number.isInteger(item.marketCap) ? ' ('+ millify( item.marketCap )+')' : '' }
-                    {/*{item.company} { Number.isInteger(item.funcing) ? 'Funding:'+ millify( item.funding )+'' : '' } */}
-  
+                    {/*{item.organization} { Number.isInteger(item.funcing) ? 'Funding:'+ millify( item.funding )+'' : '' } */}
+
                   </div>
                 </div>
               </div>);

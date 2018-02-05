@@ -19,7 +19,7 @@ const newSource = tree.map(function(node) {
       rank: 'Not Entered Yet'
     };
     if (!crunchbaseInfo) {
-      console.info('No crunchbase info', node.crunchbase, node.company, node.name);
+      console.info('No crunchbase info', node.crunchbase, node.organization, node.name);
     } else {
       const amount = crunchbaseInfo["Total Funding Amount"].substring(1).replace(/,/g, "");
       const marketCap = amount ? parseInt(amount, 10) : 'N/A';
@@ -27,7 +27,7 @@ const newSource = tree.map(function(node) {
       crunchbaseParts = {
         market_cap: marketCap,
         headquarters: formatCity(crunchbaseInfo["Headquarters Location"]) || 'N/A',
-        company: crunchbaseInfo["Organization Name"],
+        organization: crunchbaseInfo["Organization Name"],
         rank: rank ? + rank : 'N/A'
       }
     }
@@ -48,7 +48,7 @@ const newSource = tree.map(function(node) {
     _.assign(node, crunchbaseParts);
     _.assign(node, githubInfo);
     node.description = description;
-    node.cncf_member = cncfMembers.indexOf(node.company) !== -1;
+    node.cncf_member = cncfMembers.indexOf(node.organization) !== -1;
   }
 });
 var dump = require('js-yaml').dump(newSource);

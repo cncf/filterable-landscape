@@ -16,11 +16,11 @@ const getFilteredItems = createSelector(
     var filterByLicense = filterFn({field: 'license', filters});
     var filterByMarketCap = filterFn({field: 'marketCap', filters});
     // var filterByVcFunder = filterFn({field: 'vcFunder', filters});
-    var filterByCompany = filterFn({field: 'company', filters});
+    var filterByOrganization = filterFn({field: 'organization', filters});
     var filterByHeadquarters = filterFn({field: 'headquarters', filters});
     var filterByLandscape = filterFn({field: 'landscape', filters});
     return data.filter(function(x) {
-      return filterCncfHostedProject(x) && filterByStars(x) && /* filterByCertifiedKubernetes(x) && */ filterByLicense(x) && filterByMarketCap(x) && /* filterByVcFunder(x)  && */ filterByCompany(x) && filterByHeadquarters(x) && filterByLandscape(x);
+      return filterCncfHostedProject(x) && filterByStars(x) && /* filterByCertifiedKubernetes(x) && */ filterByLicense(x) && filterByMarketCap(x) && /* filterByVcFunder(x)  && */ filterByOrganization(x) && filterByHeadquarters(x) && filterByLandscape(x);
     });
   }
 );

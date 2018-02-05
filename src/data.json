@@ -1,7 +1,7 @@
 [
   {
     "name": "AWS",
-    "company": "Amazon Web Services",
+    "organization": "Amazon Web Services",
     "homepage_url": "https://aws.amazon.com/",
     "logo": "logo-aws",
     "stock_ticker": "AMZN",
@@ -27,7 +27,7 @@
   },
   {
     "name": "Google Cloud",
-    "company": "Google Cloud Platform",
+    "organization": "Google Cloud Platform",
     "homepage_url": "https://cloud.google.com/",
     "logo": "logo-google-cloud",
     "stock_ticker": "GOOGL",
@@ -53,7 +53,7 @@
   },
   {
     "name": "Azure Cloud Services",
-    "company": "Microsoft",
+    "organization": "Microsoft",
     "homepage_url": "https://azure.microsoft.com/",
     "logo": "logo-azure-cloud-services",
     "stock_ticker": "MSFT",
@@ -79,7 +79,7 @@
   },
   {
     "name": "DigitalOcean",
-    "company": "DigitalOcean",
+    "organization": "DigitalOcean",
     "homepage_url": "https://www.digitalocean.com/",
     "logo": "logo-digital-ocean",
     "twitter": "https://twitter.com/digitalocean",
@@ -104,7 +104,7 @@
   },
   {
     "name": "Packet",
-    "company": "Packet Host",
+    "organization": "Packet Host",
     "homepage_url": "https://www.packet.net/",
     "logo": "logo-packet",
     "twitter": "https://twitter.com/packethost",
@@ -129,7 +129,7 @@
   },
   {
     "name": "Oracle Cloud",
-    "company": "Oracle Corporation",
+    "organization": "Oracle Corporation",
     "homepage_url": "https://cloud.oracle.com/",
     "logo": "logo-oracle-cloud",
     "stock_ticker": "ORCL",
@@ -155,7 +155,7 @@
   },
   {
     "name": "Alibaba Cloud",
-    "company": "Alibaba Cloud",
+    "organization": "Alibaba Cloud",
     "homepage_url": "https://www.alibabacloud.com/",
     "logo": "logo-alibaba-cloud",
     "stock_ticker": "BABA",
@@ -181,7 +181,7 @@
   },
   {
     "name": "Fujitsu K5",
-    "company": "Fujitsu",
+    "organization": "Fujitsu",
     "homepage_url": "https://www.fujitsu.com/global/solutions/cloud/k5/",
     "logo": "logo-fujitsu-k5",
     "stock_ticker": "FJTSF",
@@ -207,7 +207,7 @@
   },
   {
     "name": "IBM Cloud",
-    "company": "IBM",
+    "organization": "IBM",
     "homepage_url": "https://www.ibm.com/cloud/",
     "logo": "logo-ibm-cloud",
     "stock_ticker": "IBM",
@@ -233,7 +233,7 @@
   },
   {
     "name": "Tencent Cloud",
-    "company": "Tencent Cloud",
+    "organization": "Tencent Cloud",
     "homepage_url": "https://cloud.tencent.com/",
     "logo": "logo-tencent-cloud",
     "twitter": "https://twitter.com/tencentcloud",
@@ -258,7 +258,7 @@
   },
   {
     "name": "Joyent",
-    "company": "Joyent",
+    "organization": "Joyent",
     "homepage_url": "https://www.joyent.com/",
     "repo_url": "https://github.com/joyent/smartos-live",
     "logo": "logo-joyent",
@@ -284,7 +284,7 @@
   },
   {
     "name": "Huawei",
-    "company": "Huawei Technologies",
+    "organization": "Huawei Technologies",
     "homepage_url": "https://www.huawei.com/",
     "logo": "logo-huawei",
     "twitter": "https://twitter.com/Huawei",
@@ -309,7 +309,7 @@
   },
   {
     "name": "OpenStack",
-    "company": "OpenStack",
+    "organization": "OpenStack",
     "homepage_url": "https://www.openstack.org/",
     "repo_url": "https://github.com/openstack/nova",
     "logo": "logo-open-stack",
@@ -335,7 +335,7 @@
   },
   {
     "name": "VMware",
-    "company": "VMware",
+    "organization": "VMware",
     "homepage_url": "https://www.vmware.com/",
     "logo": "logo-v-mware",
     "stock_ticker": "VMW",
@@ -361,7 +361,7 @@
   },
   {
     "name": "MAAS",
-    "company": "Canonical",
+    "organization": "Canonical",
     "homepage_url": "https://maas.io/",
     "repo_url": "https://github.com/maas/maas",
     "logo": "logo-maas",
@@ -387,7 +387,7 @@
   },
   {
     "name": "Foreman",
-    "company": "Foreman",
+    "organization": "Foreman",
     "homepage_url": "https://theforeman.org/",
     "repo_url": "https://github.com/theforeman/theforeman.org",
     "logo": "logo-foreman",
@@ -413,7 +413,7 @@
   },
   {
     "name": "Scaleway",
-    "company": "Scaleway",
+    "organization": "Scaleway",
     "homepage_url": "https://www.scaleway.com/",
     "logo": "logo-scaleway",
     "twitter": "https://twitter.com/scaleway",
@@ -438,7 +438,7 @@
   },
   {
     "name": "Digital Rebar",
-    "company": "RackN",
+    "organization": "RackN",
     "homepage_url": "http://rebar.digital/",
     "repo_url": "https://github.com/digitalrebar/provision",
     "logo": "logo-digital-rebar",
@@ -464,7 +464,7 @@
   },
   {
     "name": "Terraform",
-    "company": "HashiCorp",
+    "organization": "HashiCorp",
     "homepage_url": "https://www.terraform.io/",
     "repo_url": "https://github.com/hashicorp/terraform",
     "logo": "logo-terraform",
@@ -490,7 +490,7 @@
   },
   {
     "name": "BOSH",
-    "company": "Cloud Foundry",
+    "organization": "Cloud Foundry",
     "homepage_url": "https://bosh.io/",
     "repo_url": "https://github.com/cloudfoundry/bosh",
     "logo": "logo-bosh",
@@ -516,7 +516,7 @@
   },
   {
     "name": "CloudFormation",
-    "company": "Amazon Web Services",
+    "organization": "Amazon Web Services",
     "homepage_url": "https://aws.amazon.com/cloudformation/",
     "logo": "logo-cloud-formation",
     "stock_ticker": "AMZN",
@@ -542,7 +542,7 @@
   },
   {
     "name": "Cloud Coreo",
-    "company": "CloudCoreo",
+    "organization": "CloudCoreo",
     "homepage_url": "https://www.cloudcoreo.com/",
     "logo": "logo-cloud-coreo",
     "twitter": "https://twitter.com/cloudcoreo",
@@ -567,7 +567,7 @@
   },
   {
     "name": "Cloudify",
-    "company": "Cloudify",
+    "organization": "Cloudify",
     "homepage_url": "https://cloudify.co",
     "logo": "logo-cloudify",
     "twitter": "https://twitter.com/CloudifySource",
@@ -592,7 +592,7 @@
   },
   {
     "name": "Helm",
-    "company": "Cloud Native Computing Foundation (CNCF)",
+    "organization": "Cloud Native Computing Foundation (CNCF)",
     "homepage_url": "https://helm.sh/",
     "repo_url": "https://github.com/kubernetes/helm",
     "logo": "logo-helm",
@@ -618,7 +618,7 @@
   },
   {
     "name": "Infrakit",
-    "company": "Docker",
+    "organization": "Docker",
     "homepage_url": "https://github.com/docker/infrakit",
     "repo_url": "https://github.com/docker/infrakit",
     "logo": "logo-infrakit",
@@ -644,7 +644,7 @@
   },
   {
     "name": "Juju",
-    "company": "Canonical",
+    "organization": "Canonical",
     "homepage_url": "https://jujucharms.com/",
     "repo_url": "https://github.com/juju/juju",
     "logo": "logo-juju",
@@ -670,7 +670,7 @@
   },
   {
     "name": "Kubicorn",
-    "company": "Kubicorn",
+    "organization": "Kubicorn",
     "homepage_url": "https://github.com/kris-nova/kubicorn",
     "repo_url": "https://github.com/kris-nova/kubicorn",
     "logo": "logo-kubicorn",
@@ -695,7 +695,7 @@
   },
   {
     "name": "ManageIQ",
-    "company": "ManageIQ",
+    "organization": "ManageIQ",
     "homepage_url": "https://http://manageiq.org/",
     "repo_url": "https://github.com/ManageIQ/manageiq",
     "logo": "logo-manage-iq",
@@ -721,7 +721,7 @@
   },
   {
     "name": "Quay",
-    "company": "Red Hat",
+    "organization": "Red Hat",
     "homepage_url": "https://quay.io/",
     "logo": "logo-quay",
     "twitter": "https://twitter.com/quayio",
@@ -746,7 +746,7 @@
   },
   {
     "name": "Artifactory",
-    "company": "JFrog",
+    "organization": "JFrog",
     "homepage_url": "https://www.jfrog.com/artifactory/",
     "logo": "logo-artifactory",
     "twitter": "https://twitter.com/jfrog",
@@ -771,7 +771,7 @@
   },
   {
     "name": "Harbor",
-    "company": "VMware",
+    "organization": "VMware",
     "homepage_url": "https://vmware.github.io/harbor/",
     "repo_url": "https://github.com/vmware/harbor",
     "logo": "logo-harbor",
@@ -797,7 +797,7 @@
   },
   {
     "name": "Azure Registry",
-    "company": "Microsoft",
+    "organization": "Microsoft",
     "homepage_url": "https://azure.microsoft.com/en-us/services/container-registry/",
     "logo": "logo-azure-registry",
     "stock_ticker": "MSFT",
@@ -823,7 +823,7 @@
   },
   {
     "name": "Atomic",
-    "company": "Red Hat",
+    "organization": "Red Hat",
     "homepage_url": "https://www.projectatomic.io/",
     "repo_url": "https://github.com/projectatomic/atomic",
     "logo": "logo-atomic",
@@ -849,7 +849,7 @@
   },
   {
     "name": "Docker Registry",
-    "company": "Docker",
+    "organization": "Docker",
     "homepage_url": "https://docs.docker.com/registry/",
     "repo_url": "https://github.com/docker/distribution",
     "logo": "logo-docker-registry",
@@ -875,7 +875,7 @@
   },
   {
     "name": "Amazon ECR",
-    "company": "Amazon Web Services",
+    "organization": "Amazon Web Services",
     "homepage_url": "https://aws.amazon.com/ecr/",
     "logo": "logo-amazon-ecr",
     "stock_ticker": "AMZN",
@@ -901,7 +901,7 @@
   },
   {
     "name": "Google Registry",
-    "company": "Google Cloud Platform",
+    "organization": "Google Cloud Platform",
     "homepage_url": "https://cloud.google.com/container-registry/",
     "logo": "logo-google-registry",
     "stock_ticker": "GOOGL",
@@ -927,7 +927,7 @@
   },
   {
     "name": "Portus",
-    "company": "Suse",
+    "organization": "Suse",
     "homepage_url": "http://port.us.org/",
     "repo_url": "https://github.com/SUSE/Portus",
     "logo": "logo-portus",
@@ -953,7 +953,7 @@
   },
   {
     "name": "Puppet",
-    "company": "Puppet",
+    "organization": "Puppet",
     "homepage_url": "https://puppet.com/",
     "repo_url": "https://github.com/puppetlabs/puppet",
     "logo": "logo-puppet",
@@ -979,7 +979,7 @@
   },
   {
     "name": "LinuxKit",
-    "company": "Docker",
+    "organization": "Docker",
     "repo_url": "https://github.com/linuxkit/linuxkit",
     "logo": "logo-linux-kit",
     "twitter": "https://twitter.com/linuxkit",
@@ -1004,7 +1004,7 @@
   },
   {
     "name": "Ansible",
-    "company": "Red Hat",
+    "organization": "Red Hat",
     "homepage_url": "https://www.ansible.com/",
     "repo_url": "https://github.com/ansible/ansible",
     "logo": "logo-ansible",
@@ -1030,7 +1030,7 @@
   },
   {
     "name": "Chef",
-    "company": "Chef",
+    "organization": "Chef",
     "homepage_url": "https://chef.io",
     "repo_url": "https://github.com/chef/chef",
     "logo": "logo-chef",
@@ -1056,7 +1056,7 @@
   },
   {
     "name": "Salt Stack",
-    "company": "SaltStack",
+    "organization": "SaltStack",
     "homepage_url": "https://saltstack.com/",
     "repo_url": "https://github.com/saltstack/salt",
     "logo": "logo-salt-stack",
@@ -1082,7 +1082,7 @@
   },
   {
     "name": "CFEngine",
-    "company": "CFEngine",
+    "organization": "CFEngine",
     "homepage_url": "https://cfengine.com/",
     "repo_url": "https://github.com/cfengine/core",
     "logo": "logo-cf-engine",
@@ -1108,7 +1108,7 @@
   },
   {
     "name": "Rundeck",
-    "company": "Rundeck",
+    "organization": "Rundeck",
     "homepage_url": "http://rundeck.org/",
     "repo_url": "https://github.com/rundeck/rundeck",
     "logo": "logo-rundeck",
@@ -1134,7 +1134,7 @@
   },
   {
     "name": "Anchore",
-    "company": "Anchore, Inc.",
+    "organization": "Anchore, Inc.",
     "homepage_url": "https://anchore.io/",
     "repo_url": "https://github.com/anchore/anchore-engine",
     "logo": "logo-anchore",
@@ -1160,7 +1160,7 @@
   },
   {
     "name": "Aqua",
-    "company": "Aqua Security",
+    "organization": "Aqua Security",
     "homepage_url": "https://www.aquasec.com/",
     "logo": "logo-aqua",
     "twitter": "https://twitter.com/AquaSecTeam",
@@ -1185,7 +1185,7 @@
   },
   {
     "name": "Black Duck",
-    "company": "Black Duck Software",
+    "organization": "Black Duck Software",
     "homepage_url": "https://www.blackducksoftware.com/",
     "logo": "logo-black-duck",
     "twitter": "https://twitter.com/black_duck_sw",
@@ -1210,7 +1210,7 @@
   },
   {
     "name": "NeuVector",
-    "company": "NeuVector",
+    "organization": "NeuVector",
     "homepage_url": "https://neuvector.com/",
     "logo": "logo-neu-vector",
     "twitter": "https://twitter.com/neuvector",
@@ -1235,7 +1235,7 @@
   },
   {
     "name": "Clair",
-    "company": "Red Hat",
+    "organization": "Red Hat",
     "homepage_url": "https://coreos.com/clair/docs/latest/",
     "repo_url": "https://github.com/coreos/clair",
     "logo": "logo-clair",
@@ -1261,7 +1261,7 @@
   },
   {
     "name": "Notary",
-    "company": "Cloud Native Computing Foundation (CNCF)",
+    "organization": "Cloud Native Computing Foundation (CNCF)",
     "homepage_url": "https://github.com/theupdateframework/notary",
     "repo_url": "https://github.com/theupdateframework/notary",
     "logo": "logo-notary",
@@ -1287,7 +1287,7 @@
   },
   {
     "name": "OpenSCAP",
-    "company": "Red Hat",
+    "organization": "Red Hat",
     "homepage_url": "https://www.open-scap.org/",
     "repo_url": "https://github.com/OpenSCAP/openscap",
     "logo": "logo-open-scap",
@@ -1313,7 +1313,7 @@
   },
   {
     "name": "Sonatype Nexus",
-    "company": "Sonatype",
+    "organization": "Sonatype",
     "homepage_url": "https://www.sonatype.com/",
     "logo": "logo-sonatype-nexus",
     "twitter": "https://twitter.com/sonatype",
@@ -1338,7 +1338,7 @@
   },
   {
     "name": "The Update Framework (TUF)",
-    "company": "Cloud Native Computing Foundation (CNCF)",
+    "organization": "Cloud Native Computing Foundation (CNCF)",
     "homepage_url": "https://theupdateframework.github.io/",
     "repo_url": "https://github.com/theupdateframework/tuf",
     "logo": "logo-the-update-framework-tuf",
@@ -1364,7 +1364,7 @@
   },
   {
     "name": "Twistlock",
-    "company": "Twistlock",
+    "organization": "Twistlock",
     "homepage_url": "https://www.twistlock.com/",
     "logo": "logo-twistlock",
     "twitter": "https://twitter.com/twistlockteam",
@@ -1389,7 +1389,7 @@
   },
   {
     "name": "Lyft Confidant",
-    "company": "Lyft",
+    "organization": "Lyft",
     "homepage_url": "https://lyft.github.io/confidant/",
     "repo_url": "https://github.com/lyft/confidant",
     "logo": "logo-lyft-confidant",
@@ -1414,7 +1414,7 @@
   },
   {
     "name": "Keywhiz",
-    "company": "Square",
+    "organization": "Square",
     "homepage_url": "https://square.github.io/keywhiz/",
     "repo_url": "https://github.com/square/keywhiz",
     "logo": "logo-keywhiz",
@@ -1440,7 +1440,7 @@
   },
   {
     "name": "Knox",
-    "company": "Pinterest",
+    "organization": "Pinterest",
     "repo_url": "https://github.com/pinterest/knox",
     "logo": "logo-knox",
     "crunchbase": "https://www.crunchbase.com/organization/pinterest",
@@ -1464,7 +1464,7 @@
   },
   {
     "name": "Hashicorp Vault",
-    "company": "HashiCorp",
+    "organization": "HashiCorp",
     "homepage_url": "https://www.vaultproject.io/",
     "repo_url": "https://github.com/hashicorp/vault",
     "logo": "logo-hashicorp-vault",
@@ -1490,7 +1490,7 @@
   },
   {
     "name": "Oracle Policy Automation",
-    "company": "Oracle Corporation",
+    "organization": "Oracle Corporation",
     "homepage_url": "https://www.oracle.com/applications/oracle-policy-automation/index.html",
     "logo": "logo-oracle-policy-automation",
     "twitter": "https://twitter.com/oracleopa",
@@ -1515,7 +1515,7 @@
   },
   {
     "name": "SPIFFE",
-    "company": "Scytale.io",
+    "organization": "Scytale.io",
     "homepage_url": "https://spiffe.io/",
     "repo_url": "https://github.com/spiffe/spiffe",
     "logo": "logo-spiffe",
@@ -1541,7 +1541,7 @@
   },
   {
     "name": "Spire",
-    "company": "Scytale.io",
+    "organization": "Scytale.io",
     "homepage_url": "https://spiffe.io/spire/",
     "repo_url": "https://github.com/spiffe/spire",
     "logo": "logo-spire",
@@ -1567,7 +1567,7 @@
   },
   {
     "name": "Ceph",
-    "company": "Red Hat",
+    "organization": "Red Hat",
     "homepage_url": "https://ceph.com/",
     "repo_url": "https://github.com/ceph/ceph",
     "logo": "logo-ceph",
@@ -1593,7 +1593,7 @@
   },
   {
     "name": "Gluster",
-    "company": "Red Hat",
+    "organization": "Red Hat",
     "homepage_url": "https://www.gluster.org/",
     "repo_url": "https://github.com/gluster/glusterfs",
     "logo": "logo-gluster",
@@ -1619,7 +1619,7 @@
   },
   {
     "name": "HDFS",
-    "company": "Apache Software Foundation",
+    "organization": "Apache Software Foundation",
     "homepage_url": "http://hadoop.apache.org/",
     "repo_url": "https://github.com/apache/hadoop-hdfs",
     "logo": "logo-hdfs",
@@ -1645,7 +1645,7 @@
   },
   {
     "name": "Minio",
-    "company": "Minio, Inc.",
+    "organization": "Minio, Inc.",
     "homepage_url": "https://minio.io/",
     "repo_url": "https://github.com/minio/minio",
     "logo": "logo-minio",
@@ -1671,7 +1671,7 @@
   },
   {
     "name": "Portworx",
-    "company": "Portworx",
+    "organization": "Portworx",
     "homepage_url": "https://portworx.com/",
     "logo": "logo-portworx",
     "twitter": "https://twitter.com/portwx",
@@ -1696,7 +1696,7 @@
   },
   {
     "name": "Project Hatchway",
-    "company": "VMware",
+    "organization": "VMware",
     "homepage_url": "https://vmware.github.io/hatchway/",
     "logo": "logo-project-hatchway",
     "stock ticker": "VMW",
@@ -1722,7 +1722,7 @@
   },
   {
     "name": "Pure Storage",
-    "company": "Pure Storage",
+    "organization": "Pure Storage",
     "homepage_url": "https://www.purestorage.com/",
     "logo": "logo-pure-storage",
     "twitter": "https://twitter.com/PureStorage",
@@ -1747,7 +1747,7 @@
   },
   {
     "name": "libstorage",
-    "company": "Dell EMC",
+    "organization": "Dell EMC",
     "homepage_url": "https://libstorage.readthedocs.io/en/stable/",
     "repo_url": "https://github.com/codedellemc/rexray",
     "logo": "logo-libstorage",
@@ -1773,7 +1773,7 @@
   },
   {
     "name": "Manta",
-    "company": "Joyent",
+    "organization": "Joyent",
     "homepage_url": "https://www.joyent.com/tech-videos/introduction-to-manta-storage",
     "repo_url": "https://github.com/joyent/manta",
     "logo": "logo-manta",
@@ -1799,7 +1799,7 @@
   },
   {
     "name": "Diamanti",
-    "company": "Diamanti",
+    "organization": "Diamanti",
     "homepage_url": "https://www.diamanti.com/",
     "logo": "logo-diamanti",
     "twitter": "https://twitter.com/diamanticom",
@@ -1824,7 +1824,7 @@
   },
   {
     "name": "Rook",
-    "company": "Cloud Native Computing Foundation (CNCF)",
+    "organization": "Cloud Native Computing Foundation (CNCF)",
     "homepage_url": "https://rook.io/",
     "repo_url": "https://github.com/rook/rook",
     "logo": "logo-rook",
@@ -1851,7 +1851,7 @@
   },
   {
     "name": "Robin Systems",
-    "company": "Robin Systems",
+    "organization": "Robin Systems",
     "homepage_url": "https://robinsystems.com/",
     "logo": "logo-robin-systems",
     "twitter": "https://twitter.com/robinsystems",
@@ -1876,7 +1876,7 @@
   },
   {
     "name": "Springpath",
-    "company": "Springpath Inc",
+    "organization": "Springpath Inc",
     "homepage_url": "http://springpathinc.com/",
     "logo": "logo-springpath",
     "stock_ticker": "CSCO",
@@ -1902,7 +1902,7 @@
   },
   {
     "name": "Datera",
-    "company": "Datera",
+    "organization": "Datera",
     "homepage_url": "http://datera.io/",
     "logo": "logo-datera",
     "twitter": "https://twitter.com/DateraInc",
@@ -1927,7 +1927,7 @@
   },
   {
     "name": "Infinit",
-    "company": "Infinit",
+    "organization": "Infinit",
     "homepage_url": "https://www.infinit.sh/",
     "repo_url": "https://github.com/infinit/elle",
     "logo": "logo-infinit",
@@ -1953,7 +1953,7 @@
   },
   {
     "name": "Kasten",
-    "company": "Kasten",
+    "organization": "Kasten",
     "homepage_url": "https://kasten.io/",
     "logo": "logo-kasten",
     "twitter": "https://twitter.com/kastenhq",
@@ -1978,7 +1978,7 @@
   },
   {
     "name": "LeoFS",
-    "company": "Leo Project",
+    "organization": "Leo Project",
     "homepage_url": "https://leo-project.net/leofs/",
     "repo_url": "https://github.com/leo-project/leofs",
     "logo": "logo-leo-fs",
@@ -2003,7 +2003,7 @@
   },
   {
     "name": "Sheepdog",
-    "company": "Sheepdog",
+    "organization": "Sheepdog",
     "homepage_url": "https://sheepdog.github.io/sheepdog/",
     "repo_url": "https://github.com/sheepdog/sheepdog",
     "logo": "logo-sheepdog",
@@ -2027,7 +2027,7 @@
   },
   {
     "name": "Rex-Ray",
-    "company": "Dell EMC",
+    "organization": "Dell EMC",
     "homepage_url": "https://rexray.thecodeteam.com/",
     "repo_url": "https://github.com/codedellemc/rexray",
     "logo": "logo-rex-ray",
@@ -2053,7 +2053,7 @@
   },
   {
     "name": "NetApp",
-    "company": "NetApp",
+    "organization": "NetApp",
     "homepage_url": "https://www.netapp.com/",
     "logo": "logo-net-app",
     "stock_ticker": "NTAP",
@@ -2079,7 +2079,7 @@
   },
   {
     "name": "StorageOS",
-    "company": "StorageOS",
+    "organization": "StorageOS",
     "homepage_url": "https://storageos.com/",
     "logo": "logo-storage-os",
     "twitter": "https://twitter.com/Storage_OS",
@@ -2104,7 +2104,7 @@
   },
   {
     "name": "Dell EMC",
-    "company": "Dell EMC",
+    "organization": "Dell EMC",
     "homepage_url": "https://www.dellemc.com/",
     "logo": "logo-dell-emc",
     "stock_ticker": "DVMT",
@@ -2130,7 +2130,7 @@
   },
   {
     "name": "OpenSDS",
-    "company": "OpenSDS",
+    "organization": "OpenSDS",
     "homepage_url": "https://www.opensds.io/",
     "repo_url": "https://github.com/opensds/opensds",
     "logo": "logo-open-sds",
@@ -2155,7 +2155,7 @@
   },
   {
     "name": "OpenEBS",
-    "company": "Openebs",
+    "organization": "Openebs",
     "homepage_url": "hhttps://www.openebs.io/",
     "repo_url": "https://github.com/openebs/openebs",
     "logo": "logo-open-ebs",
@@ -2181,7 +2181,7 @@
   },
   {
     "name": "Hedvig",
-    "company": "Hedvig",
+    "organization": "Hedvig",
     "homepage_url": "https://www.hedviginc.com/",
     "rep_url": "https://github.com/hedvig",
     "logo": "logo-hedvig",
@@ -2207,7 +2207,7 @@
   },
   {
     "name": "Swift",
-    "company": "OpenStack",
+    "organization": "OpenStack",
     "homepage_url": "https://www.swiftstack.com/product/openstack-swift",
     "repo_url": "https://github.com/openstack/swift",
     "logo": "logo-swift",
@@ -2233,7 +2233,7 @@
   },
   {
     "name": "rkt",
-    "company": "Cloud Native Computing Foundation (CNCF)",
+    "organization": "Cloud Native Computing Foundation (CNCF)",
     "homepage_url": "https://github.com/rkt/rkt",
     "repo_url": "https://github.com/rkt/rkt",
     "logo": "logo-rkt",
@@ -2259,7 +2259,7 @@
   },
   {
     "name": "runc",
-    "company": "Open Container Initiative",
+    "organization": "Open Container Initiative",
     "homepage_url": "https://www.opencontainers.org/",
     "repo_url": "https://github.com/opencontainers/runc",
     "logo": "logo-runc",
@@ -2285,7 +2285,7 @@
   },
   {
     "name": "lxd",
-    "company": "Canonical",
+    "organization": "Canonical",
     "homepage_url": "https://linuxcontainers.org/lxd/",
     "repo_url": "https://github.com/lxc/lxd",
     "logo": "logo-lxd",
@@ -2311,7 +2311,7 @@
   },
   {
     "name": "RunV",
-    "company": "Hyper_",
+    "organization": "Hyper_",
     "repo_url": "https://github.com/hyperhq/runv",
     "logo": "logo-run-v",
     "crunchbase": "https://www.crunchbase.com/organization/hyper-4",
@@ -2335,7 +2335,7 @@
   },
   {
     "name": "SmartOS",
-    "company": "Joyent",
+    "organization": "Joyent",
     "homepage_url": "https://www.joyent.com/smartos",
     "repo_url": "https://github.com/joyent/smartos-live",
     "logo": "logo-smart-os",
@@ -2361,7 +2361,7 @@
   },
   {
     "name": "containerd",
-    "company": "Cloud Native Computing Foundation (CNCF)",
+    "organization": "Cloud Native Computing Foundation (CNCF)",
     "homepage_url": "http://containerd.io/",
     "repo_url": "https://github.com/containerd/containerd",
     "logo": "logo-containerd",
@@ -2387,7 +2387,7 @@
   },
   {
     "name": "CRI-O",
-    "company": "Cloud Native Computing Foundation (CNCF)",
+    "organization": "Cloud Native Computing Foundation (CNCF)",
     "homepage_url": "http://cri-o.io/",
     "repo_url": "https://github.com/kubernetes-incubator/cri-o",
     "logo": "logo-cri-o",
@@ -2412,7 +2412,7 @@
   },
   {
     "name": "Intel Clear Containers",
-    "company": "Intel",
+    "organization": "Intel",
     "homepage_url": "https://clearlinux.org/containers",
     "repo_url": "https://github.com/clearcontainers/runtime",
     "logo": "logo-intel-clear-containers",
@@ -2439,7 +2439,7 @@
   },
   {
     "name": "Container Storage Interface",
-    "company": "Container Storage Interface",
+    "organization": "Container Storage Interface",
     "homepage_url": "https://github.com/container-storage-interface",
     "repo_url": "https://github.com/container-storage-interface/spec",
     "logo": "logo-container-storage-interface",
@@ -2463,7 +2463,7 @@
   },
   {
     "name": "Aporeto",
-    "company": "Aporeto",
+    "organization": "Aporeto",
     "homepage_url": "https://www.aporeto.com/",
     "logo": "logo-aporeto",
     "twitter": "https://twitter.com/aporeto",
@@ -2488,7 +2488,7 @@
   },
   {
     "name": "Aviatrix",
-    "company": "Aviatrix Systems, Inc.",
+    "organization": "Aviatrix Systems, Inc.",
     "homepage_url": "https://aviatrix.com/",
     "logo": "logo-aviatrix",
     "twitter": "https://twitter.com/aviatrixsys",
@@ -2513,7 +2513,7 @@
   },
   {
     "name": "Big Switch Networks",
-    "company": "Big Switch Networks",
+    "organization": "Big Switch Networks",
     "homepage_url": "http://www.bigswitch.com/",
     "logo": "logo-big-switch-networks",
     "twitter": "https://twitter.com/bigswitch",
@@ -2538,7 +2538,7 @@
   },
   {
     "name": "Project Calico",
-    "company": "Tigera",
+    "organization": "Tigera",
     "homepage_url": "https://www.projectcalico.org/",
     "repo_url": "https://github.com/projectcalico/calico",
     "logo": "logo-project-calico",
@@ -2564,7 +2564,7 @@
   },
   {
     "name": "Canal",
-    "company": "Tigera",
+    "organization": "Tigera",
     "homepage_url": "https://github.com/projectcalico/canal",
     "repo_url": "https://github.com/projectcalico/canal",
     "logo": "logo-canal",
@@ -2590,7 +2590,7 @@
   },
   {
     "name": "Contiv",
-    "company": "Cisco",
+    "organization": "Cisco",
     "homepage_url": "https://contiv.github.io/",
     "repo_url": "https://github.com/contiv/netplugin",
     "logo": "logo-contiv",
@@ -2617,7 +2617,7 @@
   },
   {
     "name": "Cilium",
-    "company": "Covalent IO",
+    "organization": "Covalent IO",
     "homepage_url": "https://www.cilium.io/",
     "repo_url": "https://github.com/cilium/cilium",
     "logo": "logo-cilium",
@@ -2643,7 +2643,7 @@
   },
   {
     "name": "Cumulus",
-    "company": "Cumulus Networks",
+    "organization": "Cumulus Networks",
     "homepage_url": "https://cumulusnetworks.com",
     "logo": "logo-cumulus",
     "twitter": "https://twitter.com/CumulusNetworks/",
@@ -2668,7 +2668,7 @@
   },
   {
     "name": "Flannel",
-    "company": "Red Hat",
+    "organization": "Red Hat",
     "homepage_url": "https://github.com/coreos/flannel/",
     "repo_url": "https://github.com/coreos/flannel",
     "logo": "logo-flannel",
@@ -2694,7 +2694,7 @@
   },
   {
     "name": "MidoNet",
-    "company": "MidoNet",
+    "organization": "MidoNet",
     "homepage_url": "https://www.midonet.org/",
     "repo_url": "https://github.com/midonet/midonet",
     "logo": "logo-mido-net",
@@ -2720,7 +2720,7 @@
   },
   {
     "name": "NSX",
-    "company": "VMware",
+    "organization": "VMware",
     "homepage_url": "https://www.vmware.com/products/nsx.html",
     "logo": "logo-nsx",
     "twitter": "https://twitter.com/vmwarensx",
@@ -2745,7 +2745,7 @@
   },
   {
     "name": "Nuage Networks",
-    "company": "Nuage Networks",
+    "organization": "Nuage Networks",
     "homepage_url": "http://www.nuagenetworks.net/",
     "logo": "logo-nuage-networks",
     "twitter": "https://twitter.com/nuagenetworks",
@@ -2770,7 +2770,7 @@
   },
   {
     "name": "OpenContrail",
-    "company": "OpenContrail",
+    "organization": "OpenContrail",
     "homepage_url": "http://www.opencontrail.org/",
     "repo_url": "https://github.com/Juniper/contrail-controller",
     "logo": "logo-open-contrail",
@@ -2796,7 +2796,7 @@
   },
   {
     "name": "Open vSwitch",
-    "company": "Open vSwitch",
+    "organization": "Open vSwitch",
     "homepage_url": "http://openvswitch.org/",
     "repo_url": "https://github.com/openvswitch/ovs",
     "logo": "logo-open-v-switch",
@@ -2822,7 +2822,7 @@
   },
   {
     "name": "Plumgrid",
-    "company": "PLUMgrid",
+    "organization": "PLUMgrid",
     "homepage_url": "https://www.vmware.com/products/nsx.html",
     "logo": "logo-plumgrid",
     "twitter": "https://twitter.com/PLUMgrid",
@@ -2847,7 +2847,7 @@
   },
   {
     "name": "Romana",
-    "company": "Romana",
+    "organization": "Romana",
     "homepage_url": "http://romana.io/",
     "repo_url": "https://github.com/romana/romana",
     "logo": "logo-romana",
@@ -2871,7 +2871,7 @@
   },
   {
     "name": "Sanproute",
-    "company": "SnapRoute Inc.",
+    "organization": "SnapRoute Inc.",
     "homepage_url": "https://snaproute.com/",
     "logo": "logo-sanproute",
     "twitter": "https://twitter.com/snaproute",
@@ -2896,7 +2896,7 @@
   },
   {
     "name": "CNI",
-    "company": "Cloud Native Computing Foundation (CNCF)",
+    "organization": "Cloud Native Computing Foundation (CNCF)",
     "homepage_url": "https://github.com/containernetworking",
     "repo_url": "https://github.com/containernetworking/cni",
     "logo": "logo-cni",
@@ -2922,7 +2922,7 @@
   },
   {
     "name": "Weave Net",
-    "company": "Weaveworks",
+    "organization": "Weaveworks",
     "homepage_url": "https://www.weave.works/oss/net/",
     "repo_url": "https://github.com/weaveworks/weave",
     "logo": "logo-weave-net",
@@ -2949,7 +2949,7 @@
   {
     "name": "Kubernetes",
     "description": "Kubernetes is an open-source system for automating deployment, scaling, and management of containerized applications",
-    "company": "Cloud Native Computing Foundation (CNCF)",
+    "organization": "Cloud Native Computing Foundation (CNCF)",
     "homepage_url": "https://kubernetes.io/",
     "repo_url": "https://github.com/kubernetes/kubernetes",
     "logo": "logo-kubernetes",
@@ -2975,7 +2975,7 @@
   },
   {
     "name": "Amazon ECS",
-    "company": "Amazon Web Services",
+    "organization": "Amazon Web Services",
     "homepage_url": "https://aws.amazon.com/ecs/",
     "twitter": "https://twitter.com/awscloud",
     "crunchbase": "https://www.crunchbase.com/organization/amazon-web-services",
@@ -3001,7 +3001,7 @@
   },
   {
     "name": "Nomad",
-    "company": "HashiCorp",
+    "organization": "HashiCorp",
     "homepage_url": "https://www.nomadproject.io/",
     "repo_url": "https://github.com/hashicorp/nomad",
     "twitter": "https://twitter.com/HashiCorp",
@@ -3027,7 +3027,7 @@
   },
   {
     "name": "Mesos",
-    "company": "Apache Software Foundation",
+    "organization": "Apache Software Foundation",
     "homepage_url": "http://mesos.apache.org/",
     "repo_url": "https://github.com/apache/mesos",
     "logo": "logo-mesos",
@@ -3053,7 +3053,7 @@
   },
   {
     "name": "Microsoft Azure Service Fabric",
-    "company": "Microsoft",
+    "organization": "Microsoft",
     "homepage_url": "https://azure.microsoft.com/en-us/services/service-fabric/",
     "logo": "logo-microsoft-azure-service-fabric",
     "stock ticker": "MSFT",
@@ -3079,7 +3079,7 @@
   },
   {
     "name": "Docker Swarm",
-    "company": "Docker",
+    "organization": "Docker",
     "homepage_url": "https://docs.docker.com/engine/swarm/",
     "repo_url": "https://github.com/docker/swarm",
     "logo": "logo-docker-swarm",
@@ -3105,7 +3105,7 @@
   },
   {
     "name": "etcd",
-    "company": "Red Hat",
+    "organization": "Red Hat",
     "homepage_url": "https://coreos.com/etcd/",
     "repo_url": "https://github.com/coreos/etcd",
     "logo": "logo-etcd",
@@ -3131,7 +3131,7 @@
   },
   {
     "name": "Consul",
-    "company": "HashiCorp",
+    "organization": "HashiCorp",
     "homepage_url": "https://www.consul.io/",
     "repo_url": "https://github.com/hashicorp/consul",
     "logo": "logo-consul",
@@ -3157,7 +3157,7 @@
   },
   {
     "name": "Zookeeper",
-    "company": "Apache Software Foundation",
+    "organization": "Apache Software Foundation",
     "homepage_url": "http://zookeeper.apache.org/",
     "repo_url": "https://github.com/apache/zookeeper",
     "logo": "logo-zookeeper",
@@ -3183,7 +3183,7 @@
   },
   {
     "name": "ContainerPilot",
-    "company": "Joyent",
+    "organization": "Joyent",
     "homepage_url": "https://www.joyent.com/containerpilot",
     "repo_url": "https://github.com/joyent/containerpilot",
     "logo": "logo-container-pilot",
@@ -3209,7 +3209,7 @@
   },
   {
     "name": "SkyDNS",
-    "company": "Skynet Services",
+    "organization": "Skynet Services",
     "homepage_url": "https://github.com/skynetservices/skydns",
     "repo_url": "https://github.com/skynetservices/skydns",
     "logo": "logo-sky-dns",
@@ -3233,7 +3233,7 @@
   },
   {
     "name": "CoreDNS",
-    "company": "Cloud Native Computing Foundation (CNCF)",
+    "organization": "Cloud Native Computing Foundation (CNCF)",
     "homepage_url": "https://coredns.io/",
     "repo_url": "https://github.com/coredns/coredns",
     "logo": "logo-core-dns",
@@ -3260,7 +3260,7 @@
   },
   {
     "name": "Registrator",
-    "company": "Glider Labs",
+    "organization": "Glider Labs",
     "homepage_url": "http://gliderlabs.github.io/registrator/latest/",
     "repo_url": "https://github.com/gliderlabs/registrator",
     "logo": "logo-registrator",
@@ -3286,7 +3286,7 @@
   },
   {
     "name": "SmartStack",
-    "company": "Airbnb",
+    "organization": "Airbnb",
     "homepage_url": "https://github.com/airbnb/smartstack-cookbook",
     "repo_url": "https://github.com/airbnb/smartstack-cookbook",
     "logo": "logo-smart-stack",
@@ -3311,7 +3311,7 @@
   },
   {
     "name": "Hyperbahn",
-    "company": "Uber",
+    "organization": "Uber",
     "homepage_url": "https://github.com/uber-archive/hyperbahn",
     "repo_url": "https://github.com/uber-archive/hyperbahn",
     "logo": "logo-hyperbahn",
@@ -3336,7 +3336,7 @@
   },
   {
     "name": "Eureka",
-    "company": "Netflix",
+    "organization": "Netflix",
     "homepage_url": "https://github.com/Netflix/eureka",
     "repo_url": "https://github.com/Netflix/eureka",
     "logo": "logo-eureka",
@@ -3361,7 +3361,7 @@
   },
   {
     "name": "Haret",
-    "company": "VMware",
+    "organization": "VMware",
     "homepage_url": "https://github.com/vmware/haret",
     "repo_url": "https://github.com/vmware/haret",
     "logo": "logo-haret",
@@ -3387,7 +3387,7 @@
   },
   {
     "name": "3Scale",
-    "company": "Red Hat",
+    "organization": "Red Hat",
     "homepage_url": "https://www.3scale.net/",
     "repo_url": "https://github.com/3scale/apicast",
     "logo": "logo-3-scale",
@@ -3413,7 +3413,7 @@
   },
   {
     "name": "NGINX",
-    "company": "NGINX, Inc.",
+    "organization": "NGINX, Inc.",
     "homepage_url": "https://www.nginx.com/",
     "repo_url": "https://github.com/nginx/nginx",
     "logo": "logo-nginx",
@@ -3439,7 +3439,7 @@
   },
   {
     "name": "HAProxy",
-    "company": "HAProxy Technologies",
+    "organization": "HAProxy Technologies",
     "homepage_url": "https://www.haproxy.org/",
     "repo_url": "https://github.com/haproxy/haproxy",
     "logo": "logo-ha-proxy",
@@ -3465,7 +3465,7 @@
   },
   {
     "name": "Linkerd",
-    "company": "Cloud Native Computing Foundation (CNCF)",
+    "organization": "Cloud Native Computing Foundation (CNCF)",
     "homepage_url": "https://linkerd.io/",
     "repo_url": "https://github.com/linkerd/linkerd",
     "logo": "logo-linkerd",
@@ -3492,7 +3492,7 @@
   },
   {
     "name": "Envoy",
-    "company": "Cloud Native Computing Foundation (CNCF)",
+    "organization": "Cloud Native Computing Foundation (CNCF)",
     "homepage_url": "https://envoyproxy.github.io/",
     "repo_url": "https://github.com/envoyproxy/envoy",
     "logo": "logo-envoy",
@@ -3520,7 +3520,7 @@
   },
   {
     "name": "Ambassador",
-    "company": "Datawire",
+    "organization": "Datawire",
     "homepage_url": "https://www.getambassador.io/",
     "repo_url": "https://github.com/datawire/ambassador",
     "logo": "logo-ambassador",
@@ -3546,7 +3546,7 @@
   },
   {
     "name": "Traefik",
-    "company": "Containous",
+    "organization": "Containous",
     "homepage_url": "https://traefik.io/",
     "repo_url": "https://github.com/containous/traefik",
     "logo": "logo-traefik",
@@ -3572,7 +3572,7 @@
   },
   {
     "name": "Turbine Labs",
-    "company": "Turbine Labs",
+    "organization": "Turbine Labs",
     "homepage_url": "https://www.turbinelabs.io/",
     "logo": "logo-turbine-labs",
     "twitter": "https://twitter.com/GoTurbine",
@@ -3597,7 +3597,7 @@
   },
   {
     "name": "Avi Networks",
-    "company": "Avi Networks",
+    "organization": "Avi Networks",
     "homepage_url": "https://avinetworks.com/",
     "logo": "logo-avi-networks",
     "twitter": "https://twitter.com/AviNetworks",
@@ -3622,7 +3622,7 @@
   },
   {
     "name": "gRPC",
-    "company": "Cloud Native Computing Foundation (CNCF)",
+    "organization": "Cloud Native Computing Foundation (CNCF)",
     "homepage_url": "https://grpc.io/",
     "repo_url": "https://github.com/grpc/grpc",
     "logo": "logo-g-rpc",
@@ -3650,7 +3650,7 @@
   },
   {
     "name": "Apache Thrift",
-    "company": "Apache Software Foundation",
+    "organization": "Apache Software Foundation",
     "homepage_url": "https://thrift.apache.org/",
     "repo_url": "https://github.com/apache/thrift",
     "logo": "logo-apache-thrift",
@@ -3676,7 +3676,7 @@
   },
   {
     "name": "Apache Avro",
-    "company": "Apache Software Foundation",
+    "organization": "Apache Software Foundation",
     "homepage_url": "https://avro.apache.org/",
     "repo_url": "https://github.com/apache/avro",
     "logo": "logo-apache-avro",
@@ -3702,7 +3702,7 @@
   },
   {
     "name": "Vamp",
-    "company": "magnetic.io",
+    "organization": "magnetic.io",
     "homepage_url": null,
     "repo_url": "https://github.com/magneticio/vamp",
     "logo": "logo-vamp",
@@ -3728,7 +3728,7 @@
   },
   {
     "name": "Weave Flux",
-    "company": "Weaveworks",
+    "organization": "Weaveworks",
     "homepage_url": "https://www.weave.works/oss/flux/",
     "repo_url": "https://github.com/weaveworks/flux",
     "logo": "logo-weave-flux",
@@ -3754,7 +3754,7 @@
   },
   {
     "name": "Kong",
-    "company": "Mashape API Marketplace",
+    "organization": "Mashape API Marketplace",
     "homepage_url": "https://getkong.org/",
     "repo_url": "https://github.com/Kong/kong",
     "logo": "logo-kong",
@@ -3780,7 +3780,7 @@
   },
   {
     "name": "Hystrix",
-    "company": "Netflix",
+    "organization": "Netflix",
     "homepage_url": "https://github.com/Netflix/Hystrix",
     "repo_url": "https://github.com/Netflix/Hystrix",
     "logo": "logo-hystrix",
@@ -3807,7 +3807,7 @@
   },
   {
     "name": "Ribbon",
-    "company": "Netflix",
+    "organization": "Netflix",
     "homepage_url": "https://github.com/Netflix/ribbon",
     "repo_url": "https://github.com/Netflix/ribbon",
     "logo": "logo-ribbon",
@@ -3834,7 +3834,7 @@
   },
   {
     "name": "Zuul",
-    "company": "Netflix",
+    "organization": "Netflix",
     "homepage_url": "https://github.com/Netflix/zuul",
     "repo_url": "https://github.com/Netflix/zuul",
     "logo": "logo-zuul",
@@ -3861,7 +3861,7 @@
   },
   {
     "name": "Backplane",
-    "company": "Backplane",
+    "organization": "Backplane",
     "homepage_url": "https://www.backplane.io/",
     "logo": "logo-backplane",
     "twitter": "https://twitter.com/backplaneio",
@@ -3885,7 +3885,7 @@
   },
   {
     "name": "F5",
-    "company": "F5 Networks",
+    "organization": "F5 Networks",
     "homepage_url": "https://f5.com/",
     "logo": "logo-f5",
     "twitter": "https://twitter.com/F5Networks",
@@ -3910,7 +3910,7 @@
   },
   {
     "name": "TiDB",
-    "company": "PingCAP",
+    "organization": "PingCAP",
     "homepage_url": "https://pingcap.com/index",
     "repo_url": "https://github.com/pingcap/tidb",
     "logo": "logo-ti-db",
@@ -3936,7 +3936,7 @@
   },
   {
     "name": "MySQL",
-    "company": "MySQL",
+    "organization": "MySQL",
     "homepage_url": "https://www.oracle.com/mysql/index.html",
     "repo_url": "https://github.com/mysql/mysql-server",
     "logo": "logo-my-sql",
@@ -3963,7 +3963,7 @@
   },
   {
     "name": "Postgres",
-    "company": "PostgreSql",
+    "organization": "PostgreSql",
     "homepage_url": "https://www.postgresql.org/",
     "repo_url": "https://github.com/postgres/postgres",
     "logo": "logo-postgres",
@@ -3989,7 +3989,7 @@
   },
   {
     "name": "Oracle",
-    "company": "Oracle Corporation",
+    "organization": "Oracle Corporation",
     "homepage_url": "https://developer.oracle.com/",
     "logo": "logo-oracle",
     "stock_ticker": "ORCL",
@@ -4015,7 +4015,7 @@
   },
   {
     "name": "SQL Server",
-    "company": "Microsoft",
+    "organization": "Microsoft",
     "homepage_url": "https://www.microsoft.com/en-us/sql-server",
     "logo": "logo-sql-server",
     "stock_ticker": "MSFT",
@@ -4041,7 +4041,7 @@
   },
   {
     "name": "IBM DB2",
-    "company": "IBM",
+    "organization": "IBM",
     "homepage_url": "https://www.ibm.com/analytics/us/en/db2/",
     "logo": "logo-ibm-db2",
     "stock_ticker": "IBM",
@@ -4067,7 +4067,7 @@
   },
   {
     "name": "MongoDB",
-    "company": "MongoDB",
+    "organization": "MongoDB",
     "homepage_url": "https://www.mongodb.com/",
     "repo_url": "https://github.com/mongodb/mongo",
     "logo": "logo-mongo-db",
@@ -4093,7 +4093,7 @@
   },
   {
     "name": "Cassandra",
-    "company": "Apache Software Foundation",
+    "organization": "Apache Software Foundation",
     "homepage_url": "http://cassandra.apache.org/",
     "repo_url": "https://github.com/apache/cassandra",
     "logo": "logo-cassandra",
@@ -4119,7 +4119,7 @@
   },
   {
     "name": "Redis",
-    "company": "Redis Labs",
+    "organization": "Redis Labs",
     "homepage_url": "https://redis.io/",
     "repo_url": "https://github.com/antirez/redis",
     "logo": "logo-redis",
@@ -4145,7 +4145,7 @@
   },
   {
     "name": "MariaDB",
-    "company": "MariaDB",
+    "organization": "MariaDB",
     "homepage_url": "https://mariadb.org/",
     "repo_url": "https://github.com/MariaDB/server",
     "logo": "logo-maria-db",
@@ -4171,7 +4171,7 @@
   },
   {
     "name": "Crate.io",
-    "company": "Crate.io Inc.",
+    "organization": "Crate.io Inc.",
     "homepage_url": "https://crate.io/",
     "repo_url": "https://github.com/crate/crate",
     "logo": "logo-crate-io",
@@ -4197,7 +4197,7 @@
   },
   {
     "name": "NomsDB",
-    "company": "Attic Labs",
+    "organization": "Attic Labs",
     "homepage_url": "https://github.com/attic-labs/noms",
     "repo_url": "https://github.com/attic-labs/noms",
     "logo": "logo-noms-db",
@@ -4223,7 +4223,7 @@
   },
   {
     "name": "BigchainDB",
-    "company": "BigchainDB",
+    "organization": "BigchainDB",
     "homepage_url": "https://www.bigchaindb.com/",
     "repo_url": "https://github.com/bigchaindb/bigchaindb",
     "logo": "logo-bigchain-db",
@@ -4249,7 +4249,7 @@
   },
   {
     "name": "Couchbase",
-    "company": "Couchbase",
+    "organization": "Couchbase",
     "homepage_url": "https://www.couchbase.com/",
     "repo_url": "https://github.com/couchbase/couchbase-lite-ios",
     "logo": "logo-couchbase",
@@ -4275,7 +4275,7 @@
   },
   {
     "name": "CockroachDB",
-    "company": "Cockroach Labs",
+    "organization": "Cockroach Labs",
     "homepage_url": "https://www.cockroachlabs.com/",
     "repo_url": "https://github.com/cockroachdb/cockroach",
     "logo": "logo-cockroach-db",
@@ -4301,7 +4301,7 @@
   },
   {
     "name": "RethinkDB",
-    "company": "Linux Foundation",
+    "organization": "Linux Foundation",
     "homepage_url": "https://www.rethinkdb.com/",
     "repo_url": "https://github.com/rethinkdb/rethinkdb",
     "logo": "logo-rethink-db",
@@ -4327,7 +4327,7 @@
   },
   {
     "name": "Vitess",
-    "company": "Cloud Native Computing Foundation (CNCF)",
+    "organization": "Cloud Native Computing Foundation (CNCF)",
     "homepage_url": "http://vitess.io/",
     "logo": "logo-vitess",
     "repo_url": "https://github.com/youtube/vitess",
@@ -4353,7 +4353,7 @@
   },
   {
     "name": "SQL Data Warehouse",
-    "company": "Microsoft",
+    "organization": "Microsoft",
     "homepage_url": "https://azure.microsoft.com/",
     "logo": "logo-sql-data-warehouse",
     "stock_ticker": "MSFT",
@@ -4379,7 +4379,7 @@
   },
   {
     "name": "Snowflake",
-    "company": "Snowflake Computing",
+    "organization": "Snowflake Computing",
     "homepage_url": "https://www.snowflake.net/",
     "logo": "logo-snowflake",
     "twitter": "https://twitter.com/SnowflakeDB",
@@ -4404,7 +4404,7 @@
   },
   {
     "name": "Druid",
-    "company": "Druid",
+    "organization": "Druid",
     "homepage_url": "http://druid.io/",
     "repo_url": "https://github.com/druid-io/druid",
     "logo": "logo-druid",
@@ -4429,7 +4429,7 @@
   },
   {
     "name": "Qubole",
-    "company": "Qubole",
+    "organization": "Qubole",
     "homepage_url": "https://www.qubole.com/",
     "logo": "logo-qubole",
     "twitter": "https://twitter.com/qubole",
@@ -4454,7 +4454,7 @@
   },
   {
     "name": "CarbonData",
-    "company": "Apache Software Foundation",
+    "organization": "Apache Software Foundation",
     "homepage_url": "http://carbondata.apache.org/",
     "repo_url": "https://github.com/apache/carbondata",
     "logo": "logo-carbon-data",
@@ -4480,7 +4480,7 @@
   },
   {
     "name": "Vertica",
-    "company": "Vertica Systems",
+    "organization": "Vertica Systems",
     "homepage_url": "https://www.vertica.com/",
     "logo": "logo-vertica",
     "stock_ticker": "HPQ",
@@ -4506,7 +4506,7 @@
   },
   {
     "name": "Hadoop",
-    "company": "Apache Software Foundation",
+    "organization": "Apache Software Foundation",
     "homepage_url": "http://hadoop.apache.org/",
     "repo_url": "https://github.com/apache/hadoop",
     "logo": "logo-hadoop",
@@ -4532,7 +4532,7 @@
   },
   {
     "name": "Iguazio",
-    "company": "iguazio",
+    "organization": "iguazio",
     "homepage_url": "https://www.iguazio.com/",
     "logo": "logo-iguazio",
     "twitter": "https://twitter.com/iguazio",
@@ -4557,7 +4557,7 @@
   },
   {
     "name": "MemSQL",
-    "company": "MemSQL",
+    "organization": "MemSQL",
     "homepage_url": "https://www.memsql.com/",
     "logo": "logo-mem-sql",
     "twitter": "https://twitter.com/memsql/",
@@ -4582,7 +4582,7 @@
   },
   {
     "name": "Pachyderm",
-    "company": "Pachyderm",
+    "organization": "Pachyderm",
     "homepage_url": "http://www.pachyderm.io/",
     "repo_url": "https://github.com/pachyderm/pachyderm",
     "logo": "logo-pachyderm",
@@ -4608,7 +4608,7 @@
   },
   {
     "name": "Scylla",
-    "company": "ScyllaDB",
+    "organization": "ScyllaDB",
     "homepage_url": "http://www.scylladb.com/",
     "repo_url": "https://github.com/scylladb/scylla",
     "logo": "logo-scylla",
@@ -4634,7 +4634,7 @@
   },
   {
     "name": "Kafka",
-    "company": "Apache Software Foundation",
+    "organization": "Apache Software Foundation",
     "homepage_url": "https://kafka.apache.org/",
     "repo_url": "https://github.com/apache/kafka",
     "logo": "logo-kafka",
@@ -4660,7 +4660,7 @@
   },
   {
     "name": "Dataflow",
-    "company": "Google Cloud Platform",
+    "organization": "Google Cloud Platform",
     "homepage_url": "https://cloud.google.com/dataflow/",
     "logo": "logo-dataflow",
     "stock_ticker": "GOOGL",
@@ -4686,7 +4686,7 @@
   },
   {
     "name": "Spark Streaming",
-    "company": "Apache Software Foundation",
+    "organization": "Apache Software Foundation",
     "homepage_url": "https://spark.apache.org/streaming/",
     "repo_url": "https://github.com/apache/spark",
     "logo": "logo-spark-streaming",
@@ -4712,7 +4712,7 @@
   },
   {
     "name": "Heron",
-    "company": "Twitter",
+    "organization": "Twitter",
     "homepage_url": "https://twitter.github.io/heron/",
     "repo_url": "https://github.com/twitter/heron",
     "logo": "logo-heron",
@@ -4739,7 +4739,7 @@
   },
   {
     "name": "Flink",
-    "company": "Apache Software Foundation",
+    "organization": "Apache Software Foundation",
     "homepage_url": "https://flink.apache.org/",
     "repo_url": "https://github.com/apache/flink",
     "logo": "logo-flink",
@@ -4765,7 +4765,7 @@
   },
   {
     "name": "Apex",
-    "company": "Apache Software Foundation",
+    "organization": "Apache Software Foundation",
     "homepage_url": "https://apex.apache.org/",
     "repo_url": "https://github.com/apache/apex-core",
     "logo": "logo-apache-software-foundation-apex",
@@ -4791,7 +4791,7 @@
   },
   {
     "name": "Apache Storm",
-    "company": "Apache Software Foundation",
+    "organization": "Apache Software Foundation",
     "homepage_url": "http://storm.apache.org/",
     "repo_url": "https://github.com/apache/storm",
     "logo": "logo-apache-storm",
@@ -4817,7 +4817,7 @@
   },
   {
     "name": "RabbitMQ",
-    "company": "Rabbit Technologies",
+    "organization": "Rabbit Technologies",
     "homepage_url": "https://www.rabbitmq.com/",
     "repo_url": "https://github.com/rabbitmq/rabbitmq-server",
     "logo": "logo-rabbit-mq",
@@ -4843,7 +4843,7 @@
   },
   {
     "name": "NATS",
-    "company": "NATS",
+    "organization": "NATS",
     "homepage_url": "https://nats.io/",
     "repo_url": "https://github.com/nats-io/gnatsd",
     "logo": "logo-nats",
@@ -4869,7 +4869,7 @@
   },
   {
     "name": "Apache NiFi",
-    "company": "Apache Software Foundation",
+    "organization": "Apache Software Foundation",
     "homepage_url": "https://nifi.apache.org/",
     "repo_url": "https://github.com/apache/nifi",
     "logo": "logo-apache-ni-fi",
@@ -4895,7 +4895,7 @@
   },
   {
     "name": "Pulsar",
-    "company": "Apache Software Foundation",
+    "organization": "Apache Software Foundation",
     "homepage_url": "https://pulsar.apache.org/",
     "repo_url": "https://github.com/apache/incubator-pulsar",
     "logo": "logo-pulsar",
@@ -4921,7 +4921,7 @@
   },
   {
     "name": "StreamSets",
-    "company": "StreamSets",
+    "organization": "StreamSets",
     "homepage_url": "https://streamsets.com/",
     "repo_url": "https://github.com/streamsets/datacollector",
     "logo": "logo-stream-sets",
@@ -4947,7 +4947,7 @@
   },
   {
     "name": "Kinesis",
-    "company": "Amazon Web Services",
+    "organization": "Amazon Web Services",
     "homepage_url": "https://aws.amazon.com/kinesis/",
     "logo": "logo-kinesis",
     "stock_ticker": "AMZN",
@@ -4972,10 +4972,10 @@
     "hrefLarge": "/kinesis-large.png"
   },
   {
-    "name": "BibBucket",
-    "company": "Bitbucket",
+    "name": "Bitbucket",
+    "organization": "Bitbucket",
     "homepage_url": "https://bitbucket.org/",
-    "logo": "logo-bib-bucket",
+    "logo": "logo-bitbucket",
     "twitter": "https://twitter.com/bitbucket",
     "crunchbase": "https://www.crunchbase.com/organization/bitbucket",
     "headquarters": "San Francisco, California",
@@ -4990,15 +4990,15 @@
     "category": "App Definition and Developement",
     "marketCap": "N/A",
     "oss": false,
-    "id": "bib-bucket",
+    "id": "bitbucket",
     "starsCategory": "N/A",
     "marketCapCategory": "N/A",
-    "hrefTile": "/bib-bucket-tile.png",
-    "hrefLarge": "/bib-bucket-large.png"
+    "hrefTile": "/bitbucket-tile.png",
+    "hrefLarge": "/bitbucket-large.png"
   },
   {
     "name": "GitLab",
-    "company": "GitLab Inc",
+    "organization": "GitLab Inc",
     "homepage_url": "https://gitlab.com/",
     "repo_url": "https://github.com/gitlabhq/gitlabhq",
     "logo": "logo-git-lab",
@@ -5024,7 +5024,7 @@
   },
   {
     "name": "GitHub",
-    "company": "GitHub",
+    "organization": "GitHub",
     "homepage_url": "https://github.com/",
     "logo": "logo-git-hub",
     "twitter": "https://twitter.com/github",
@@ -5049,7 +5049,7 @@
   },
   {
     "name": "Microsoft Visual Studio Team Services",
-    "company": "Microsoft",
+    "organization": "Microsoft",
     "homepage_url": "https://www.visualstudio.com/team-services/",
     "repo_url": "https://marketplace.visualstudio.com/items",
     "logo": "logo-microsoft-visual-studio-team-services",
@@ -5076,7 +5076,7 @@
   },
   {
     "name": "KubeVirt",
-    "company": "KubeVirt",
+    "organization": "KubeVirt",
     "homepage_url": "http://www.kubevirt.io/",
     "repo_url": "https://github.com/kubevirt/kubevirt",
     "logo": "logo-kube-virt",
@@ -5101,7 +5101,7 @@
   },
   {
     "name": "Packer",
-    "company": "HashiCorp",
+    "organization": "HashiCorp",
     "homepage_url": "https://www.packer.io/intro/index.html",
     "repo_url": "https://github.com/hashicorp/packer",
     "logo": "logo-packer",
@@ -5127,7 +5127,7 @@
   },
   {
     "name": "Compose",
-    "company": "Docker",
+    "organization": "Docker",
     "homepage_url": "https://docs.docker.com/compose/",
     "repo_url": "https://github.com/docker/compose",
     "logo": "logo-compose",
@@ -5153,7 +5153,7 @@
   },
   {
     "name": "Habitat",
-    "company": "Chef",
+    "organization": "Chef",
     "homepage_url": "https://www.habitat.sh/",
     "repo_url": "https://github.com/habitat-sh/habitat",
     "logo": "logo-habitat",
@@ -5179,7 +5179,7 @@
   },
   {
     "name": "Brooklyn",
-    "company": "Apache Software Foundation",
+    "organization": "Apache Software Foundation",
     "homepage_url": "https://brooklyn.apache.org/",
     "repo_url": "https://github.com/apache/brooklyn",
     "logo": "logo-brooklyn",
@@ -5205,7 +5205,7 @@
   },
   {
     "name": "Bitnami",
-    "company": "Bitnami",
+    "organization": "Bitnami",
     "homepage_url": "https://bitnami.com/",
     "logo": "logo-bitnami",
     "twitter": "https://twitter.com/bitnami",
@@ -5230,7 +5230,7 @@
   },
   {
     "name": "OpenAPI",
-    "company": "The Open API Initiative",
+    "organization": "The Open API Initiative",
     "homepage_url": "https://www.openapis.org/",
     "repo_url": "https://github.com/OAI/OpenAPI-Specification",
     "logo": "logo-open-api",
@@ -5256,7 +5256,7 @@
   },
   {
     "name": "Jenkins",
-    "company": "Jenkins CI",
+    "organization": "Jenkins CI",
     "homepage_url": "https://jenkins.io/",
     "repo_url": "https://github.com/jenkinsci/jenkins",
     "logo": "logo-jenkins",
@@ -5282,7 +5282,7 @@
   },
   {
     "name": "Travis",
-    "company": "Travis CI",
+    "organization": "Travis CI",
     "homepage_url": "https://travis-ci.com/",
     "repo_url": "https://github.com/travis-ci/travis-ci",
     "logo": "logo-travis",
@@ -5308,7 +5308,7 @@
   },
   {
     "name": "Octopus Deploy",
-    "company": "Octopus Deploy",
+    "organization": "Octopus Deploy",
     "homepage_url": "https://octopus.com/",
     "logo": "logo-octopus-deploy",
     "twitter": "https://twitter.com/OctopusDeploy",
@@ -5333,7 +5333,7 @@
   },
   {
     "name": "CircleCI",
-    "company": "CircleCI",
+    "organization": "CircleCI",
     "homepage_url": "https://circleci.com/",
     "logo": "logo-circle-ci",
     "twitter": "https://twitter.com/circleci",
@@ -5358,7 +5358,7 @@
   },
   {
     "name": "Drone",
-    "company": "Drone.io",
+    "organization": "Drone.io",
     "homepage_url": "http://try.drone.io/",
     "repo_url": "https://github.com/drone/drone",
     "logo": "logo-drone",
@@ -5384,7 +5384,7 @@
   },
   {
     "name": "Codeship",
-    "company": "Codeship",
+    "organization": "Codeship",
     "homepage_url": "https://codeship.com/",
     "logo": "logo-codeship",
     "twitter": "https://twitter.com/codeship",
@@ -5409,7 +5409,7 @@
   },
   {
     "name": "Bamboo",
-    "company": "Atlassian",
+    "organization": "Atlassian",
     "homepage_url": "https://www.atlassian.com/software/bamboo/",
     "logo": "logo-bamboo",
     "stock_ticker": "TEAM",
@@ -5435,7 +5435,7 @@
   },
   {
     "name": "Cloudbees",
-    "company": "CloudBees",
+    "organization": "CloudBees",
     "homepage_url": "https://www.cloudbees.com/",
     "logo": "logo-cloudbees",
     "twitter": "https://twitter.com/CloudBees",
@@ -5460,7 +5460,7 @@
   },
   {
     "name": "Spinnaker",
-    "company": "Netflix",
+    "organization": "Netflix",
     "homepage_url": "https://www.spinnaker.io/",
     "repo_url": "https://github.com/spinnaker/spinnaker",
     "logo": "logo-spinnaker",
@@ -5486,7 +5486,7 @@
   },
   {
     "name": "Shippable",
-    "company": "Shippable",
+    "organization": "Shippable",
     "homepage_url": "http://www.shippable.com/",
     "logo": "logo-shippable",
     "twitter": "https://twitter.com/beshippable",
@@ -5511,7 +5511,7 @@
   },
   {
     "name": "Wercker",
-    "company": "Wercker",
+    "organization": "Wercker",
     "homepage_url": "https://www.wercker.com/",
     "repo_url": "https://github.com/wercker/wercker",
     "logo": "logo-wercker",
@@ -5538,7 +5538,7 @@
   },
   {
     "name": "Codefresh",
-    "company": "Codefresh",
+    "organization": "Codefresh",
     "homepage_url": "https://codefresh.io/",
     "logo": "logo-codefresh",
     "twitter": "https://twitter.com/codefresh",
@@ -5563,7 +5563,7 @@
   },
   {
     "name": "BuddyBuild",
-    "company": "Buddybuild",
+    "organization": "Buddybuild",
     "homepage_url": "https://www.buddybuild.com/",
     "logo": "logo-buddy-build",
     "twitter": "https://twitter.com/buddybuild",
@@ -5588,7 +5588,7 @@
   },
   {
     "name": "Distelli",
-    "company": "Distelli",
+    "organization": "Distelli",
     "homepage_url": "https://www.distelli.com/",
     "logo": "logo-distelli",
     "twitter": "https://twitter.com/distelli",
@@ -5613,7 +5613,7 @@
   },
   {
     "name": "Solano Labs",
-    "company": "Solano Labs",
+    "organization": "Solano Labs",
     "homepage_url": "https://www.solanolabs.com/",
     "logo": "logo-solano-labs",
     "twitter": "https://twitter.com/SolanoLabs",
@@ -5638,7 +5638,7 @@
   },
   {
     "name": "Semaphore",
-    "company": "SemaphoreCI",
+    "organization": "SemaphoreCI",
     "homepage_url": "https://semaphoreci.com/",
     "logo": "logo-semaphore",
     "twitter": "https://twitter.com/semaphoreci",
@@ -5663,7 +5663,7 @@
   },
   {
     "name": "ContainerOps",
-    "company": "Huawei Technologies",
+    "organization": "Huawei Technologies",
     "homepage_url": "http://containerops.org/",
     "repo_url": "https://github.com/Huawei/containerops",
     "logo": "logo-container-ops",
@@ -5689,7 +5689,7 @@
   },
   {
     "name": "Appveyor",
-    "company": "Appveyor Systems Inc.",
+    "organization": "Appveyor Systems Inc.",
     "homepage_url": "https://www.appveyor.com/",
     "logo": "logo-appveyor",
     "twitter": "https://twitter.com/appveyor",
@@ -5714,7 +5714,7 @@
   },
   {
     "name": "GitLab Runner",
-    "company": "GitLab Inc",
+    "organization": "GitLab Inc",
     "homepage_url": "https://docs.gitlab.com/runner/",
     "repo_url": "https://gitlab.com/gitlab-org/gitlab-runner",
     "logo": "logo-git-lab-runner",
@@ -5740,7 +5740,7 @@
   },
   {
     "name": "Buildkite",
-    "company": "Buildkite",
+    "organization": "Buildkite",
     "homepage_url": "https://buildkite.com/",
     "repo_url": "https://github.com/buildkite/agent",
     "logo": "logo-buildkite",
@@ -5766,7 +5766,7 @@
   },
   {
     "name": "Concourse",
-    "company": "Pivotal",
+    "organization": "Pivotal",
     "homepage_url": "https://concourse.ci/",
     "repo_url": "https://github.com/concourse/concourse",
     "logo": "logo-concourse",
@@ -5792,7 +5792,7 @@
   },
   {
     "name": "XL Deploy",
-    "company": "XebiaLabs",
+    "organization": "XebiaLabs",
     "homepage_url": "https://xebialabs.com/products/xl-deploy/",
     "logo": "logo-xl-deploy",
     "twitter": "https://twitter.com/xldeploy",
@@ -5817,7 +5817,7 @@
   },
   {
     "name": "Tectonic",
-    "company": "Red Hat",
+    "organization": "Red Hat",
     "homepage_url": "https://coreos.com/tectonic",
     "logo": "logo-tectonic",
     "twitter": "https://twitter.com/tectonicstack",
@@ -5842,7 +5842,7 @@
   },
   {
     "name": "Cloud Foundry",
-    "company": "Cloud Foundry",
+    "organization": "Cloud Foundry",
     "homepage_url": "https://www.cloudfoundry.org/",
     "repo_url": "https://github.com/cloudfoundry/cf-release",
     "logo": "logo-cloud-foundry",
@@ -5868,7 +5868,7 @@
   },
   {
     "name": "OpenShift",
-    "company": "Red Hat",
+    "organization": "Red Hat",
     "homepage_url": "https://www.openshift.com/",
     "repo_url": "https://github.com/openshift/origin",
     "logo": "logo-open-shift",
@@ -5894,7 +5894,7 @@
   },
   {
     "name": "DC/OS",
-    "company": "Mesosphere",
+    "organization": "Mesosphere",
     "homepage_url": "https://mesosphere.com/product/",
     "repo_url": "https://github.com/dcos/dcos",
     "logo": "logo-dc-os",
@@ -5920,7 +5920,7 @@
   },
   {
     "name": "Apcera",
-    "company": "Ericsson",
+    "organization": "Ericsson",
     "homepage_url": "https://www.apcera.com/",
     "logo": "logo-apcera",
     "twitter": "https://twitter.com/apcera",
@@ -5945,7 +5945,7 @@
   },
   {
     "name": "Apprenda",
-    "company": "Apprenda",
+    "organization": "Apprenda",
     "homepage_url": "https://apprenda.com/",
     "logo": "logo-apprenda",
     "twitter": "https://twitter.com/apprenda",
@@ -5970,7 +5970,7 @@
   },
   {
     "name": "Rancher",
-    "company": "Rancher Labs",
+    "organization": "Rancher Labs",
     "homepage_url": "http://rancher.com/",
     "repo_url": "https://github.com/rancher/rancher",
     "logo": "logo-rancher",
@@ -5996,7 +5996,7 @@
   },
   {
     "name": "Kublr",
-    "company": "Kublr",
+    "organization": "Kublr",
     "homepage_url": "http://kublr.com/",
     "logo": "logo-kublr",
     "twitter": "https://twitter.com/kublr",
@@ -6021,7 +6021,7 @@
   },
   {
     "name": "Photon",
-    "company": "VMware",
+    "organization": "VMware",
     "homepage_url": "https://vmware.github.io/photon/",
     "logo": "logo-photon",
     "twitter": "https://twitter.com/vmwarephoton",
@@ -6046,7 +6046,7 @@
   },
   {
     "name": "Platform.sh",
-    "company": "Platform.sh",
+    "organization": "Platform.sh",
     "homepage_url": "https://platform.sh/",
     "logo": "logo-platform-sh",
     "twitter": "https://twitter.com/platformsh",
@@ -6071,7 +6071,7 @@
   },
   {
     "name": "Platform9",
-    "company": "Platform9 Systems",
+    "organization": "Platform9 Systems",
     "homepage_url": "https://platform9.com/",
     "logo": "logo-platform9",
     "twitter": "https://twitter.com/Platform9Sys",
@@ -6096,7 +6096,7 @@
   },
   {
     "name": "Flynn",
-    "company": "Flynn",
+    "organization": "Flynn",
     "homepage_url": "https://flynn.io/",
     "repo_url": "https://github.com/flynn/flynn",
     "logo": "logo-flynn",
@@ -6122,7 +6122,7 @@
   },
   {
     "name": "Datawire",
-    "company": "Datawire",
+    "organization": "Datawire",
     "homepage_url": "https://www.datawire.io/",
     "logo": "logo-datawire",
     "twitter": "https://twitter.com/datawireio",
@@ -6147,7 +6147,7 @@
   },
   {
     "name": "Atomist",
-    "company": "Atomist",
+    "organization": "Atomist",
     "homepage_url": "https://www.atomist.com/",
     "logo": "logo-atomist",
     "twitter": "https://twitter.com/atomist",
@@ -6172,7 +6172,7 @@
   },
   {
     "name": "Iron.io",
-    "company": "Iron.io",
+    "organization": "Iron.io",
     "homepage_url": "https://www.iron.io/",
     "repo_url": "https://github.com/iron-io/functions",
     "logo": "logo-iron-io",
@@ -6198,7 +6198,7 @@
   },
   {
     "name": "PaaSTA",
-    "company": "Yelp",
+    "organization": "Yelp",
     "homepage_url": "https://engineeringblog.yelp.com/2015/11/introducing-paasta-an-open-platform-as-a-service.html",
     "repo_url": "https://github.com/Yelp/paasta",
     "logo": "logo-paa-sta",
@@ -6225,7 +6225,7 @@
   },
   {
     "name": "Empire",
-    "company": "Remind",
+    "organization": "Remind",
     "homepage_url": "http://engineering.remind.com/",
     "repo_url": "https://github.com/remind101/empire",
     "logo": "logo-empire",
@@ -6251,7 +6251,7 @@
   },
   {
     "name": "Nirmata",
-    "company": "Nirmata",
+    "organization": "Nirmata",
     "homepage_url": "https://www.nirmata.com/",
     "logo": "logo-nirmata",
     "twitter": "https://twitter.com/nirmatacloud",
@@ -6276,7 +6276,7 @@
   },
   {
     "name": "Giant Swarm",
-    "company": "Giant Swarm",
+    "organization": "Giant Swarm",
     "homepage_url": "https://giantswarm.io/",
     "logo": "logo-giant-swarm",
     "twitter": "https://twitter.com/giantswarm",
@@ -6301,7 +6301,7 @@
   },
   {
     "name": "Cloud66",
-    "company": "Cloud 66",
+    "organization": "Cloud 66",
     "homepage_url": "https://www.cloud66.com/",
     "logo": "logo-cloud66",
     "twitter": "https://twitter.com/cloud66",
@@ -6326,7 +6326,7 @@
   },
   {
     "name": "Kontena",
-    "company": "Kontena",
+    "organization": "Kontena",
     "homepage_url": "https://kontena.io/",
     "repo_url": "https://github.com/kontena/kontena",
     "logo": "logo-kontena",
@@ -6352,7 +6352,7 @@
   },
   {
     "name": "Kubermatic",
-    "company": "Kubermatic",
+    "organization": "Kubermatic",
     "homepage_url": "https://cloud.kubermatic.io/",
     "logo": "logo-kubermatic",
     "twitter": "https://twitter.com/kubermatic",
@@ -6376,7 +6376,7 @@
   },
   {
     "name": "Gravitational",
-    "company": "Gravitational",
+    "organization": "Gravitational",
     "homepage_url": "https://gravitational.com/",
     "logo": "logo-gravitational",
     "twitter": "https://twitter.com/gravitationalco",
@@ -6401,7 +6401,7 @@
   },
   {
     "name": "Navops",
-    "company": "Navops",
+    "organization": "Navops",
     "homepage_url": "https://www.navops.io/",
     "logo": "logo-navops",
     "twitter": "https://twitter.com/navops",
@@ -6426,7 +6426,7 @@
   },
   {
     "name": "Heroku",
-    "company": "Salesforce",
+    "organization": "Salesforce",
     "homepage_url": "https://www.heroku.com/home",
     "logo": "logo-heroku",
     "stock_ticker": "CRM",
@@ -6452,7 +6452,7 @@
   },
   {
     "name": "Mantl",
-    "company": "Mantl",
+    "organization": "Mantl",
     "homepage_url": "https://mantl.io/",
     "repo_url": "https://github.com/mantl/mantl",
     "logo": "logo-mantl",
@@ -6477,7 +6477,7 @@
   },
   {
     "name": "Mirantis",
-    "company": "Mirantis",
+    "organization": "Mirantis",
     "homepage_url": "https://www.mirantis.com/",
     "logo": "logo-mirantis",
     "twitter": "https://twitter.com/MirantisIT",
@@ -6502,7 +6502,7 @@
   },
   {
     "name": "goPaddle",
-    "company": "Bluemeric",
+    "organization": "Bluemeric",
     "homepage_url": "https://www.gopaddle.io/#/",
     "logo": "logo-go-paddle",
     "twitter": "https://twitter.com/bluemeric",
@@ -6527,7 +6527,7 @@
   },
   {
     "name": "Hyper",
-    "company": "Hyper_",
+    "organization": "Hyper_",
     "homepage_url": "https://www.hyper.sh/",
     "logo": "logo-hyper",
     "twitter": "https://twitter.com/hyper_sh",
@@ -6552,7 +6552,7 @@
   },
   {
     "name": "Exoscale",
-    "company": "Exoscale",
+    "organization": "Exoscale",
     "homepage_url": "https://www.exoscale.ch/",
     "logo": "logo-exoscale",
     "twitter": "https://twitter.com/Exoscale",
@@ -6577,7 +6577,7 @@
   },
   {
     "name": "JHipster",
-    "company": "JHipster",
+    "organization": "JHipster",
     "homepage_url": "http://www.jhipster.tech/",
     "repo_url": "https://github.com/jhipster/generator-jhipster",
     "logo": "logo-j-hipster",
@@ -6602,7 +6602,7 @@
   },
   {
     "name": "Moby",
-    "company": "Docker",
+    "organization": "Docker",
     "homepage_url": "https://mobyproject.org/",
     "repo_url": "https://github.com/moby/moby",
     "logo": "logo-moby",
@@ -6628,7 +6628,7 @@
   },
   {
     "name": "Galactic Fog",
-    "company": "Galactic Fog",
+    "organization": "Galactic Fog",
     "homepage_url": "http://www.galacticfog.com/",
     "logo": "logo-galactic-fog",
     "twitter": "https://twitter.com/galacticfog",
@@ -6653,7 +6653,7 @@
   },
   {
     "name": "Canonical Distribution of Kubernetes",
-    "company": "Canonical",
+    "organization": "Canonical",
     "homepage_url": "https://www.ubuntu.com/kubernetes",
     "logo": "logo-canonical-distribution-of-kubernetes",
     "twitter": "https://twitter.com/ubuntu",
@@ -6678,7 +6678,7 @@
   },
   {
     "name": "Lightbend",
-    "company": "Lightbend",
+    "organization": "Lightbend",
     "homepage_url": "https://www.lightbend.com/",
     "logo": "logo-lightbend",
     "twitter": "https://twitter.com/lightbend",
@@ -6703,7 +6703,7 @@
   },
   {
     "name": "Docker Enterprise Edition (EE)",
-    "company": "Docker",
+    "organization": "Docker",
     "homepage_url": "https://www.docker.com/enterprise-edition",
     "logo": "logo-docker-enterprise-edition-ee",
     "twitter": "https://twitter.com/docker",
@@ -6728,7 +6728,7 @@
   },
   {
     "name": "Tsuru",
-    "company": "Tsuru",
+    "organization": "Tsuru",
     "homepage_url": "https://tsuru.io/",
     "repo_url": "https://github.com/tsuru/tsuru",
     "logo": "logo-tsuru",
@@ -6753,7 +6753,7 @@
   },
   {
     "name": "ContainerShip",
-    "company": "Containership",
+    "organization": "Containership",
     "homepage_url": "https://containership.io/",
     "logo": "logo-container-ship",
     "twitter": "https://twitter.com/containershipio",
@@ -6778,7 +6778,7 @@
   },
   {
     "name": "Convox",
-    "company": "Convox",
+    "organization": "Convox",
     "homepage_url": "https://convox.com/",
     "rep_url": "https://github.com/convox",
     "logo": "logo-convox",
@@ -6804,7 +6804,7 @@
   },
   {
     "name": "Google Kubernetes Engine (GKE)",
-    "company": "Google Cloud Platform",
+    "organization": "Google Cloud Platform",
     "homepage_url": "https://cloud.google.com/kubernetes-engine/",
     "logo": "logo-google-kubernetes-engine-gke",
     "stock_ticker": "GOOGL",
@@ -6830,7 +6830,7 @@
   },
   {
     "name": "Portainer",
-    "company": "Portainer",
+    "organization": "Portainer",
     "homepage_url": "https://portainer.io/",
     "repo_url": "https://github.com/portainer/portainer",
     "logo": "logo-portainer",
@@ -6854,7 +6854,7 @@
   },
   {
     "name": "Pusher",
-    "company": "Pusher",
+    "organization": "Pusher",
     "homepage_url": "https://pusher.com/team",
     "repo_url": "https://github.com/pusher/pusher-js",
     "logo": "logo-pusher",
@@ -6880,7 +6880,7 @@
   },
   {
     "name": "Scalingo",
-    "company": "Scalingo",
+    "organization": "Scalingo",
     "homepage_url": "https://scalingo.com/",
     "logo": "logo-scalingo",
     "twitter": "https://twitter.com/ScalingoHQ",
@@ -6905,7 +6905,7 @@
   },
   {
     "name": "StackPointCloud",
-    "company": "StackPointCloud",
+    "organization": "StackPointCloud",
     "homepage_url": "https://cloud.google.com/container-engine/",
     "logo": "logo-stack-point-cloud",
     "twitter": "https://twitter.com/stackpointcloud",
@@ -6929,7 +6929,7 @@
   },
   {
     "name": "Supergiant",
-    "company": "Supergiant",
+    "organization": "Supergiant",
     "homepage_url": "https://supergiant.io/",
     "repo_url": "https://github.com/supergiant/supergiant",
     "logo": "logo-supergiant",
@@ -6955,7 +6955,7 @@
   },
   {
     "name": "SUSE CaaS Platform",
-    "company": "Suse",
+    "organization": "Suse",
     "homepage_url": "https://www.suse.com/products/caas-platform/",
     "repo_url": "https://github.com/SUSE/doc-caasp",
     "logo": "logo-suse-caa-s-platform",
@@ -6981,7 +6981,7 @@
   },
   {
     "name": "Lambda",
-    "company": "Amazon Web Services",
+    "organization": "Amazon Web Services",
     "homepage_url": "https://aws.amazon.com/lambda/",
     "logo": "logo-lambda",
     "stock_ticker": "AMZN",
@@ -7007,7 +7007,7 @@
   },
   {
     "name": "OpenFAAS",
-    "company": "OpenFaaS Ltd",
+    "organization": "OpenFaaS Ltd",
     "homepage_url": "https://www.openfaas.com",
     "repo_url": "https://github.com/openfaas/faas",
     "logo": "logo-open-faas",
@@ -7033,7 +7033,7 @@
   },
   {
     "name": "Google Cloud Functions",
-    "company": "Google Cloud Platform",
+    "organization": "Google Cloud Platform",
     "homepage_url": "https://cloud.google.com/functions/",
     "logo": "logo-google-cloud-functions",
     "stock_ticker": "GOOGL",
@@ -7059,7 +7059,7 @@
   },
   {
     "name": "OpenWhisk",
-    "company": "Apache Software Foundation",
+    "organization": "Apache Software Foundation",
     "homepage_url": "http://openwhisk.incubator.apache.org/",
     "repo_url": "https://github.com/apache/incubator-openwhisk",
     "logo": "logo-open-whisk",
@@ -7085,7 +7085,7 @@
   },
   {
     "name": "Oracle Application Container Cloud",
-    "company": "Oracle Corporation",
+    "organization": "Oracle Corporation",
     "homepage_url": "https://cloud.oracle.com/acc",
     "logo": "logo-oracle-application-container-cloud",
     "twitter": "https://twitter.com/hashtag/OracleCloudZone",
@@ -7110,7 +7110,7 @@
   },
   {
     "name": "Firebase",
-    "company": "Google Cloud Platform",
+    "organization": "Google Cloud Platform",
     "homepage_url": "https://firebase.google.com/",
     "logo": "logo-firebase",
     "stock_ticker": "GOOGL",
@@ -7136,7 +7136,7 @@
   },
   {
     "name": "Webtask",
-    "company": "Webtask",
+    "organization": "Webtask",
     "homepage_url": "https://webtask.io/",
     "logo": "logo-webtask",
     "twitter": "https://twitter.com/webtaskio",
@@ -7161,7 +7161,7 @@
   },
   {
     "name": "Fission",
-    "company": "Platform9 Systems",
+    "organization": "Platform9 Systems",
     "homepage_url": "http://fission.io/",
     "repo_url": "https://github.com/fission/fission",
     "logo": "logo-fission",
@@ -7187,7 +7187,7 @@
   },
   {
     "name": "PubNub",
-    "company": "PubNub",
+    "organization": "PubNub",
     "homepage_url": "https://www.pubnub.com/docs/blocks-catalog",
     "logo": "logo-pub-nub",
     "twitter": "https://twitter.com/PubNub",
@@ -7212,7 +7212,7 @@
   },
   {
     "name": "Apex",
-    "company": "Apex",
+    "organization": "Apex",
     "homepage_url": "http://apex.run",
     "repo_url": "https://github.com/apex/apex",
     "logo": "logo-apex-apex",
@@ -7237,7 +7237,7 @@
   },
   {
     "name": "Serverless",
-    "company": "Serverless",
+    "organization": "Serverless",
     "homepage_url": "https://serverless.com/",
     "repo_url": "https://github.com/serverless/serverless",
     "logo": "logo-serverless",
@@ -7263,7 +7263,7 @@
   },
   {
     "name": "Kubeless",
-    "company": "Kubeless",
+    "organization": "Kubeless",
     "homepage_url": "http://kubeless.io/",
     "repo_url": "https://github.com/kubeless/kubeless",
     "logo": "logo-kubeless",
@@ -7288,7 +7288,7 @@
   },
   {
     "name": "NStack",
-    "company": "NStack",
+    "organization": "NStack",
     "homepage_url": "https://nstack.com/",
     "repo_url": "https://github.com/nstack/nstack",
     "logo": "logo-n-stack",
@@ -7313,7 +7313,7 @@
   },
   {
     "name": "Nuclio",
-    "company": "iguazio",
+    "organization": "iguazio",
     "homepage_url": "https://nuclio.io/",
     "repo_url": "https://github.com/nuclio/nuclio",
     "logo": "logo-nuclio",
@@ -7339,7 +7339,7 @@
   },
   {
     "name": "Azure Functions",
-    "company": "Microsoft",
+    "organization": "Microsoft",
     "homepage_url": "https://azure.microsoft.com/en-us/services/functions/",
     "logo": "logo-azure-functions",
     "stock_ticker": "MSFT",
@@ -7365,7 +7365,7 @@
   },
   {
     "name": "StatsDB",
-    "company": "Earlham Institute",
+    "organization": "Earlham Institute",
     "homepage_url": "http://www.earlham.ac.uk/statsdb",
     "repo_url": "https://github.com/TGAC/StatsDB",
     "logo": "logo-stats-db",
@@ -7390,7 +7390,7 @@
   },
   {
     "name": "New Relic",
-    "company": "New Relic",
+    "organization": "New Relic",
     "homepage_url": "https://newrelic.com/",
     "logo": "logo-new-relic",
     "stock_ticker": "NEWR",
@@ -7416,7 +7416,7 @@
   },
   {
     "name": "AppDynamics",
-    "company": "AppDynamics",
+    "organization": "AppDynamics",
     "homepage_url": "https://www.appdynamics.com/",
     "logo": "logo-app-dynamics",
     "twitter": "https://twitter.com/appdynamics",
@@ -7441,7 +7441,7 @@
   },
   {
     "name": "Axibase",
-    "company": "Axibase",
+    "organization": "Axibase",
     "homepage_url": "https://axibase.com/",
     "logo": "logo-axibase",
     "twitter": "https://twitter.com/axibase",
@@ -7465,7 +7465,7 @@
   },
   {
     "name": "Datadog",
-    "company": "Datadog",
+    "organization": "Datadog",
     "homepage_url": "https://www.datadoghq.com/",
     "logo": "logo-datadog",
     "twitter": "https://twitter.com/datadoghq",
@@ -7490,7 +7490,7 @@
   },
   {
     "name": "CloudWATCH",
-    "company": "Amazon Web Services",
+    "organization": "Amazon Web Services",
     "homepage_url": "https://aws.amazon.com/cloudwatch/",
     "logo": "logo-cloud-watch",
     "stock_ticker": "AMZN",
@@ -7516,7 +7516,7 @@
   },
   {
     "name": "Stackdriver",
-    "company": "Stackdriver",
+    "organization": "Stackdriver",
     "homepage_url": "https://cloud.google.com/stackdriver/",
     "logo": "logo-stackdriver",
     "stock_ticker": "GOOGL",
@@ -7542,7 +7542,7 @@
   },
   {
     "name": "Prometheus",
-    "company": "Cloud Native Computing Foundation (CNCF)",
+    "organization": "Cloud Native Computing Foundation (CNCF)",
     "homepage_url": "https://prometheus.io/",
     "repo_url": "https://github.com/prometheus/prometheus",
     "logo": "logo-prometheus",
@@ -7569,7 +7569,7 @@
   },
   {
     "name": "SysDig",
-    "company": "Sysdig",
+    "organization": "Sysdig",
     "homepage_url": "https://sysdig.com/",
     "repo_url": "https://github.com/draios/sysdig",
     "logo": "logo-sys-dig",
@@ -7595,7 +7595,7 @@
   },
   {
     "name": "Wavefront",
-    "company": "Wavefront",
+    "organization": "Wavefront",
     "homepage_url": "https://www.wavefront.com/",
     "logo": "logo-wavefront",
     "twitter": "https://twitter.com/WavefrontHQ",
@@ -7620,7 +7620,7 @@
   },
   {
     "name": "Instana",
-    "company": "Instana",
+    "organization": "Instana",
     "homepage_url": "https://www.instana.com/",
     "logo": "logo-instana",
     "twitter": "https://twitter.com/InstanaHQ",
@@ -7645,7 +7645,7 @@
   },
   {
     "name": "Honeybadger",
-    "company": "Honeybadger",
+    "organization": "Honeybadger",
     "homepage_url": "https://www.honeybadger.io/",
     "logo": "logo-honeybadger",
     "twitter": "https://twitter.com/joneybadgerapp",
@@ -7670,7 +7670,7 @@
   },
   {
     "name": "Icinga",
-    "company": "Icinga",
+    "organization": "Icinga",
     "homepage_url": "https://www.icinga.com/",
     "repo_url": "https://github.com/Icinga/icinga2",
     "logo": "logo-icinga",
@@ -7696,7 +7696,7 @@
   },
   {
     "name": "IronDB",
-    "company": "Circonus, Inc.",
+    "organization": "Circonus, Inc.",
     "homepage_url": "https://www.circonus.com/irondb/",
     "logo": "logo-iron-db",
     "twitter": "https://twitter.com/circonus",
@@ -7721,7 +7721,7 @@
   },
   {
     "name": "Rocana",
-    "company": "Rocana",
+    "organization": "Rocana",
     "homepage_url": "https://www.rocana.com/",
     "logo": "logo-rocana",
     "twitter": "https://twitter.com/rocanainc",
@@ -7746,7 +7746,7 @@
   },
   {
     "name": "OpsClarity",
-    "company": "OpsClarity Inc.",
+    "organization": "OpsClarity Inc.",
     "homepage_url": "https://www.opsclarity.com/",
     "logo": "logo-ops-clarity",
     "twitter": "https://twitter.com/opsclarity",
@@ -7771,7 +7771,7 @@
   },
   {
     "name": "Nagios",
-    "company": "Nagios",
+    "organization": "Nagios",
     "homepage_url": "https://www.nagios.com/",
     "repo_url": "https://github.com/NagiosEnterprises/nagioscore",
     "logo": "logo-nagios",
@@ -7797,7 +7797,7 @@
   },
   {
     "name": "Zabbix",
-    "company": "Zabbix",
+    "organization": "Zabbix",
     "homepage_url": "https://www.zabbix.com/",
     "repo_url": "https://github.com/zabbix/zabbix",
     "logo": "logo-zabbix",
@@ -7823,7 +7823,7 @@
   },
   {
     "name": "Graphite",
-    "company": "Graphite",
+    "organization": "Graphite",
     "homepage_url": "https://graphiteapp.org/",
     "repo_url": "https://github.com/graphite-project/graphite-web",
     "logo": "logo-graphite",
@@ -7847,7 +7847,7 @@
   },
   {
     "name": "InfluxDB",
-    "company": "InfluxData",
+    "organization": "InfluxData",
     "homepage_url": "https://www.influxdata.com/",
     "repo_url": "https://github.com/influxdata/influxdb",
     "logo": "logo-influx-db",
@@ -7873,7 +7873,7 @@
   },
   {
     "name": "OpenTSDB",
-    "company": "OpenTSDB",
+    "organization": "OpenTSDB",
     "homepage_url": "http://opentsdb.net/",
     "repo_url": "https://github.com/OpenTSDB/opentsdb",
     "logo": "logo-open-tsdb",
@@ -7898,7 +7898,7 @@
   },
   {
     "name": "Netsil",
-    "company": "Netsil",
+    "organization": "Netsil",
     "homepage_url": "https://netsil.com/",
     "logo": "logo-netsil",
     "twitter": "https://twitter.com/Netsil_HQ",
@@ -7923,7 +7923,7 @@
   },
   {
     "name": "Meros",
-    "company": "Meros, Inc.",
+    "organization": "Meros, Inc.",
     "homepage_url": "https://meros.io/",
     "logo": "logo-meros",
     "twitter": "https://twitter.com/merosdevops",
@@ -7948,7 +7948,7 @@
   },
   {
     "name": "OpBeat",
-    "company": "Opbeat",
+    "organization": "Opbeat",
     "homepage_url": "https://opbeat.com/",
     "logo": "logo-op-beat",
     "twitter": "https://twitter.com/opbeat",
@@ -7973,7 +7973,7 @@
   },
   {
     "name": "Cobe",
-    "company": "Cobe",
+    "organization": "Cobe",
     "homepage_url": "https://cobe.io/",
     "logo": "logo-cobe",
     "twitter": "https://twitter.com/cobeio",
@@ -7997,7 +7997,7 @@
   },
   {
     "name": "ServerDensity",
-    "company": "Server Density",
+    "organization": "Server Density",
     "homepage_url": "https://www.serverdensity.com/",
     "repo_url": "https://github.com/serverdensity/sd-agent",
     "logo": "logo-server-density",
@@ -8023,7 +8023,7 @@
   },
   {
     "name": "Librato",
-    "company": "Librato",
+    "organization": "Librato",
     "homepage_url": "https://www.librato.com/",
     "logo": "logo-librato",
     "twitter": "https://twitter.com/Librato",
@@ -8048,7 +8048,7 @@
   },
   {
     "name": "AppNeta",
-    "company": "AppNeta",
+    "organization": "AppNeta",
     "homepage_url": "https://www.appneta.com/",
     "logo": "logo-app-neta",
     "twitter": "https://twitter.com/Appneta",
@@ -8073,7 +8073,7 @@
   },
   {
     "name": "Catchpoint Systems",
-    "company": "Catchpoint ",
+    "organization": "Catchpoint ",
     "homepage_url": "http://www.catchpoint.com/",
     "logo": "logo-catchpoint-systems",
     "twitter": "https://twitter.com/catchpoint",
@@ -8098,7 +8098,7 @@
   },
   {
     "name": "Dynatrace",
-    "company": "Dynatrace",
+    "organization": "Dynatrace",
     "homepage_url": "https://www.dynatrace.com/",
     "logo": "logo-dynatrace",
     "twitter": "https://twitter.com/Dynatrace",
@@ -8123,7 +8123,7 @@
   },
   {
     "name": "CoScale",
-    "company": "CoScale",
+    "organization": "CoScale",
     "homepage_url": "https://www.coscale.com/",
     "logo": "logo-co-scale",
     "twitter": "https://twitter.com/CoScale",
@@ -8148,7 +8148,7 @@
   },
   {
     "name": "Outlyer",
-    "company": "Outlyer",
+    "organization": "Outlyer",
     "homepage_url": "https://www.outlyer.com/",
     "logo": "logo-outlyer",
     "twitter": "https://twitter.com/outlyerapp",
@@ -8173,7 +8173,7 @@
   },
   {
     "name": "Centreon",
-    "company": "Centreon",
+    "organization": "Centreon",
     "homepage_url": "https://www.centreon.com/en/",
     "repo_url": "https://github.com/centreon/centreon",
     "logo": "logo-centreon",
@@ -8199,7 +8199,7 @@
   },
   {
     "name": "Lighstep",
-    "company": "LightStep",
+    "organization": "LightStep",
     "homepage_url": "http://lightstep.com/",
     "logo": "logo-lighstep",
     "twitter": "https://twitter.com/lightstephq",
@@ -8224,7 +8224,7 @@
   },
   {
     "name": "Signal FX",
-    "company": "SignalFx",
+    "organization": "SignalFx",
     "homepage_url": "https://signalfx.com/",
     "logo": "logo-signal-fx",
     "twitter": "https://twitter.com/signalfx",
@@ -8249,7 +8249,7 @@
   },
   {
     "name": "NodeSource",
-    "company": "NodeSource, Inc.",
+    "organization": "NodeSource, Inc.",
     "homepage_url": "https://nodesource.com/",
     "logo": "logo-node-source",
     "twitter": "https://twitter.com/nodesource",
@@ -8274,7 +8274,7 @@
   },
   {
     "name": "Grafana",
-    "company": "Grafana Labs",
+    "organization": "Grafana Labs",
     "homepage_url": "https://grafana.com/",
     "repo_url": "https://github.com/grafana/grafana",
     "logo": "logo-grafana",
@@ -8300,7 +8300,7 @@
   },
   {
     "name": "Log Analytics",
-    "company": "Microsoft",
+    "organization": "Microsoft",
     "homepage_url": "https://azure.microsoft.com/en-us/services/log-analytics/",
     "logo": "logo-log-analytics",
     "stock_ticker": "MSFT",
@@ -8326,7 +8326,7 @@
   },
   {
     "name": "Weave Scope",
-    "company": "Weaveworks",
+    "organization": "Weaveworks",
     "homepage_url": "https://www.weave.works/oss/scope/",
     "repo_url": "https://github.com/weaveworks/scope",
     "logo": "logo-weave-scope",
@@ -8352,7 +8352,7 @@
   },
   {
     "name": "Sensu",
-    "company": "SENSU",
+    "organization": "SENSU",
     "homepage_url": "https://sensuapp.org/",
     "repo_url": "https://github.com/sensu/sensu",
     "logo": "logo-sensu",
@@ -8378,7 +8378,7 @@
   },
   {
     "name": "Sentry",
-    "company": "Sentry",
+    "organization": "Sentry",
     "homepage_url": "https://sentry.io/",
     "repo_url": "https://github.com/getsentry/sentry",
     "logo": "logo-sentry",
@@ -8404,7 +8404,7 @@
   },
   {
     "name": "StackRox",
-    "company": "StackRox",
+    "organization": "StackRox",
     "homepage_url": "https://www.stackrox.com/",
     "logo": "logo-stack-rox",
     "twitter": "https://twitter.com/StackRox",
@@ -8429,7 +8429,7 @@
   },
   {
     "name": "StackState",
-    "company": "StackState",
+    "organization": "StackState",
     "homepage_url": "https://www.stackstate.com/",
     "logo": "logo-stack-state",
     "twitter": "https://twitter.com/hashtag/stackstate",
@@ -8454,7 +8454,7 @@
   },
   {
     "name": "Weave Cloud",
-    "company": "Weaveworks",
+    "organization": "Weaveworks",
     "homepage_url": "https://www.weave.works/product/cloud/",
     "logo": "logo-weave-cloud",
     "twitter": "https://twitter.com/weaveworks",
@@ -8479,7 +8479,7 @@
   },
   {
     "name": "Splunk",
-    "company": "Splunk",
+    "organization": "Splunk",
     "homepage_url": "https://www.splunk.com/",
     "logo": "logo-splunk",
     "stock_ticker": "SPLK",
@@ -8505,7 +8505,7 @@
   },
   {
     "name": "Elastic",
-    "company": "Elastic",
+    "organization": "Elastic",
     "homepage_url": "https://www.elastic.co/",
     "repo_url": "https://github.com/elastic/elasticsearch",
     "logo": "logo-elastic",
@@ -8531,7 +8531,7 @@
   },
   {
     "name": "Sematext",
-    "company": "Sematext",
+    "organization": "Sematext",
     "homepage_url": "https://sematext.com/",
     "logo": "logo-sematext",
     "twitter": "https://twitter.com/sematext",
@@ -8556,7 +8556,7 @@
   },
   {
     "name": "SumoLogic",
-    "company": "Sumo Logic",
+    "organization": "Sumo Logic",
     "homepage_url": "https://www.sumologic.com/",
     "logo": "logo-sumo-logic",
     "twitter": "https://twitter.com/sumologic",
@@ -8581,7 +8581,7 @@
   },
   {
     "name": "Loggly",
-    "company": "Loggly",
+    "organization": "Loggly",
     "homepage_url": "https://www.loggly.com/",
     "logo": "logo-loggly",
     "twitter": "https://twitter.com/loggly",
@@ -8606,7 +8606,7 @@
   },
   {
     "name": "Logz",
-    "company": "Logz.io",
+    "organization": "Logz.io",
     "homepage_url": "https://logz.io/",
     "logo": "logo-logz",
     "twitter": "https://twitter.com/logzio",
@@ -8631,7 +8631,7 @@
   },
   {
     "name": "Fluentd",
-    "company": "Cloud Native Computing Foundation (CNCF)",
+    "organization": "Cloud Native Computing Foundation (CNCF)",
     "homepage_url": "https://www.fluentd.org/",
     "repo_url": "https://github.com/fluent/fluentd",
     "logo": "logo-fluentd",
@@ -8658,7 +8658,7 @@
   },
   {
     "name": "Loom Systems",
-    "company": "Loom Systems",
+    "organization": "Loom Systems",
     "homepage_url": "https://www.loomsystems.com/",
     "logo": "logo-loom-systems",
     "twitter": "https://twitter.com/Loom_systems",
@@ -8683,7 +8683,7 @@
   },
   {
     "name": "Graylog",
-    "company": "Graylog",
+    "organization": "Graylog",
     "homepage_url": "https://www.graylog.org/",
     "repo_url": "https://github.com/Graylog2/graylog2-server",
     "logo": "logo-graylog",
@@ -8709,7 +8709,7 @@
   },
   {
     "name": "OpenTracing",
-    "company": "Cloud Native Computing Foundation (CNCF)",
+    "organization": "Cloud Native Computing Foundation (CNCF)",
     "homepage_url": "http://opentracing.io/",
     "repo_url": "https://github.com/opentracing/opentracing-go",
     "logo": "logo-open-tracing",
@@ -8736,7 +8736,7 @@
   },
   {
     "name": "Skywalking",
-    "company": "Apache Software Foundation",
+    "organization": "Apache Software Foundation",
     "homepage_url": "http://skywalking.org/",
     "repo_url": "https://github.com/apache/incubator-skywalking",
     "logo": "logo-skywalking",
@@ -8761,7 +8761,7 @@
   },
   {
     "name": "Zipkin",
-    "company": "Zipkin",
+    "organization": "Zipkin",
     "homepage_url": "http://zipkin.io/",
     "repo_url": "https://github.com/openzipkin/zipkin",
     "logo": "logo-zipkin",
@@ -8786,7 +8786,7 @@
   },
   {
     "name": "Jaeger",
-    "company": "Cloud Native Computing Foundation (CNCF)",
+    "organization": "Cloud Native Computing Foundation (CNCF)",
     "homepage_url": "http://jaegertracing.io/",
     "repo_url": "https://github.com/jaegertracing/jaeger",
     "logo": "logo-jaeger",
@@ -8813,7 +8813,7 @@
   },
   {
     "name": "Spring Cloud Sleuth",
-    "company": "Pivotal",
+    "organization": "Pivotal",
     "homepage_url": "https://cloud.spring.io/spring-cloud-sleuth/",
     "repo_url": "https://github.com/spring-cloud/spring-cloud-sleuth",
     "logo": "logo-spring-cloud-sleuth",
@@ -8838,7 +8838,7 @@
   },
   {
     "name": "Appdash",
-    "company": "Sourcegraph",
+    "organization": "Sourcegraph",
     "homepage_url": "https://github.com/sourcegraph/appdash",
     "repo_url": "https://github.com/sourcegraph/appdash",
     "logo": "logo-appdash",

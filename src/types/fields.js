@@ -157,7 +157,7 @@ const fields = {
   },
   marketCap: {
     id: 'marketCap',
-    label: 'Market Cap of company',
+    label: 'Market Cap of organization',
     category: 'marketCapCategory',
     values: [{
       id: null,
@@ -215,11 +215,11 @@ const fields = {
     // label: '(fake) VC Funders',
     // values: [].concat(lookups.vcFunder || [])
   // },
-  company: {
-    id: 'company',
-    label: 'Company',
+  organization: {
+    id: 'organization',
+    label: 'Organization',
     isArray: true,
-    values: [].concat(lookups.company || [])
+    values: [].concat(lookups.organization || [])
   },
   headquarters: {
     id: 'headquarters',
