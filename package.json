@@ -24,6 +24,7 @@
     "remove-dist": "rimraf ./dist",
     "precommit": "npm run fetch-github && npm run fetch",
     "prebuild": "npm run fetch && npm run lint && npm run clean-dist",
+    "rebuild": "npm run fetchAllImages && npm run fetch-github",
     "build": "babel-node tools/build.js && cp _redirects ./dist/",
     "test": "jest",
     "test:CI": "babel-node tools/testCi.js",
