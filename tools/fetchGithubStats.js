@@ -31,7 +31,7 @@ async function readGithubStats() {
   await Promise.map(urls, async function(url) {
     if (url.split('/').length !==  5 || !url.split('/')[4]) {
       result.push({url, stars: 'N/A', license: 'Unknown License'});
-      console.info(url, ' does not look like a github repo');
+      console.info(url, ' does not look like a GitHub repo');
       return;
     }
     var response = await rp({
