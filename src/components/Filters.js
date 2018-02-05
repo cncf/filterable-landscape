@@ -2,10 +2,10 @@ import React from 'react';
 import { FormGroup, FormControl, FormLabel } from 'material-ui/Form';
 
 import CncfFilterContainer from './CncfFilterContainer';
-import StarsFilterContainer from './StarsFilterContainer';
+// import StarsFilterContainer from './StarsFilterContainer';
 // import CertifiedKubernetesFilterContainer from './CertifiedKubernetesFilterContainer'
 import LicenseFilterContainer from './LicenseFilterContainer';
-import MarketCapFilterContainer from './MarketCapFilterContainer';
+// import MarketCapFilterContainer from './MarketCapFilterContainer';
 // import VCFunderFilterContainer from './VCFunderFilterContainer';
 import OrganizationFilterContainer from './OrganizationFilterContainer';
 import HeadquartersFilterContainer from './HeadquartersFilterContainer';
@@ -41,12 +41,16 @@ const Filters = () => {
         </FormControl>
       </FormGroup>
 
+      {
+      /*
       <FormGroup row>
         <FormControl component="fieldset">
           <FormLabel component="legend">{fields.marketCap.label}</FormLabel>
           <MarketCapFilterContainer />
         </FormControl>
       </FormGroup>
+      */
+      }
 
       <FormGroup row>
         <FormControl component="fieldset">
@@ -56,12 +60,16 @@ const Filters = () => {
       </FormGroup>
 
 
+      {
+      /*
       <FormGroup row>
         <FormControl component="fieldset">
           <FormLabel component="legend">{fields.stars.label}</FormLabel>
           <StarsFilterContainer/>
         </FormControl>
       </FormGroup>
+      */
+      }
 
       {
       // <FormGroup row style={{}}>
