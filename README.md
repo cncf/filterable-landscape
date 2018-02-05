@@ -28,7 +28,7 @@ If the error is with data from [Crunchbase](https://www.crunchbase.com/) you sho
 
 ## Static Landscape
 
-[![CNCF Landscape](https://raw.githubusercontent.com/cncf/landscape/master/landscape/CloudNativeLandscape_latest.png)](https://github.com/cncf/landscape/master/landscape/CloudNativeLandscape_latest.png)
+[![CNCF Landscape](https://raw.githubusercontent.com/cncf/landscape/master/landscape/CloudNativeLandscape_latest.png)](https://raw.githubusercontent.com/cncf/landscape/master/landscape/CloudNativeLandscape_latest.png)
 
 ## Installation
 
