@@ -1,6 +1,5 @@
 import React from 'react';
-import Dialog, { DialogTitle } from 'material-ui/Dialog';
-import Button from 'material-ui/Button';
+import Dialog from 'material-ui/Dialog';
 import Icon from 'material-ui/Icon';
 import KeyHandler from 'react-key-handler';
 
