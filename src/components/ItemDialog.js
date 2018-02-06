@@ -34,7 +34,7 @@ const ItemDialog = ({onClose, itemInfo, previousItemId, nextItemId, onSelectItem
         <div className="row">
           <div className="col col-25">
             <div className="product-logo">
-              <div className="product-logo-img" style={{backgroundImage: 'url(../logos' + itemInfo.hrefLarge + ')'}} />
+              <div className="product-logo-img" style={{backgroundImage: 'url(' + itemInfo.hrefLarge + ')'}} />
             </div>
             <div className="product-tags">
               <span className="tag tag-blue">
