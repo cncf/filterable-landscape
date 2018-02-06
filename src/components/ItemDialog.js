@@ -117,10 +117,6 @@ const ItemDialog = ({onClose, itemInfo, previousItemId, nextItemId, onSelectItem
                 <div className="product-property-name col col-25">CB Rank</div>
                 <div className="product-property-value col col-75">{itemInfo.rank}</div>
               </div>
-              <div className="product-property row">
-                <div className="product-property-name col col-25">VC Funder</div>
-                <div className="product-property-value col col-75">Other Funder</div>
-              </div>
             </div>
 
             <div style={{display: "none"}}>{JSON.stringify(itemInfo, null, 2)}</div>
