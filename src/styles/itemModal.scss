@@ -1,0 +1,44 @@
+$navy: #224065;
+$navy-light: #607c95;
+$blue: #5093e0;
+
+.modal {
+  .modal-body {overflow: visible; width: 700px; max-width: none; border-radius: 8px;}
+  &-prev, &-next {position: absolute; top: 50%; margin-top: -20px; font-size: 2.5rem; color: #fff; cursor: pointer;
+    &[disabled] {cursor: default; opacity: 0.2;}
+  }
+  &-prev {left: -60px;}
+  &-next {right: -60px;}
+  &-body {padding: 40px;}
+
+  &-close {cursor: pointer; position: absolute; top: 15px; right: 25px; font-size: 30px; opacity: 0.4;
+    &:hover {opacity: 1;}
+  }
+}
+
+.product {
+  &-logo {margin-bottom: 2rem; box-shadow: 0 1px 4px rgba(0,0,0,0.2); border-radius: 4px; padding: 10px;
+    &-img {width: 100%; padding-top: 100%; margin: 0 auto; background-position: 50% 50%; background-size: contain; 
+      cursor: pointer; background-repeat: no-repeat;
+    }
+  }
+  &-main {font-size: 0.8rem; line-height: 130%; color: $navy;}
+  &-name {font-size: 2rem; line-height: 130%;}
+  &-parent {font-weight: bold; margin-bottom: 0.8rem;}
+  &-landscape {color: $navy-light; margin-bottom: 0.8rem;}
+  &-description {font-size: 1.1rem; line-height: 130%; margin-bottom: 0.8rem; max-height: 300px;}
+  &-properties {font-size: 0.8em; color: $navy; margin: 2rem 0;}
+  &-property {margin-bottom: 0.5rem;
+    &-value {color: $blue; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
+    a {color: $blue; text-decoration: none;}
+  }
+  &-repo {padding-right: 75px !important; position: relative;
+    &-stars {position: absolute; right: 20px; top: 0; color: #7b7b7b; font-size: 0.8rem; white-space: nowrap;
+      text-overflow: none;
+      svg {width: 16px; height: 16px; 
+        * {fill: #7b7b7b;}
+      }
+      .material-icons {font-size: 0.9rem; vertical-align: top;}
+    }
+  }
+}

@@ -27,24 +27,28 @@ const fields = {
     }, {
       id: 'graduated',
       label: 'CNCF Graduated Projects',
+      tag: 'Graduated',
       url: 'graduated',
       level: 2,
       parentId: 'hosted'
     }, {
       id: 'incubating',
       label: 'Incubating CNCF Projects',
+      tag: 'Incubating',
       url: 'incubating',
       level: 2,
       parentId: 'hosted'
     }, {
       id: 'inception',
       label: 'Inception CNCF Projects',
+      tag: 'Inception',
       url: 'inception',
       level: 2,
       parentId: 'hosted'
     }, {
       id: 'member',
       label: 'CNCF Member Products/Projects',
+      tag: 'CNCF Member',
       url: 'member',
       level: 1,
       children: []
