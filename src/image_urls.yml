@@ -398,7 +398,7 @@
   url: 'http://events.vmblog.com/images/dockercon/diamanti-logo-600.png'
 - name: digital-ocean
   fileName: src/logos/digital-ocean.png
-  sha256: 4b125d8d91ae48e3312f96e9b4486be4a421b41d22b7d29501d17c2d5a7dac74
+  sha256: 90d8cde5af8198cc8f628ab90281f362823f6f43e82ee855802fa349f2f2dfab
   url: >-
     https://upload.wikimedia.org/wikipedia/en/thumb/f/ff/DigitalOcean_logo.svg/1024px-DigitalOcean_logo.svg.png
 - name: digital-rebar
@@ -1396,11 +1396,6 @@
   fileName: src/logos/stackdriver.png
   sha256: 14271a2126e52e795f6135d32db987559114c9e4da7e83fcfe8c47939965375e
   url: 'https://www.gcppodcast.com/images/post/stackdriver.png'
-- name: stats-db
-  fileName: src/logos/stats-db.png
-  sha256: 99133d5a09bd6fd8bebe2b4f27c964f3d01788023efe2356bcdbdcd28bd274a1
-  url: >-
-    http://www.earlham.ac.uk/sites/default/files/images/pages/Tools%20and%20resources/Tools%20detail/StatsDB/statsdb.jpg
 - name: storage-os
   fileName: src/logos/storage-os.png
   sha256: d8092a804b65a9c8bfc6ddf2187771675abd7b0c83237e495b837614fac51342
@@ -1492,8 +1487,9 @@
   url: 'https://h50003.www5.hpe.com/digmedialib/prodimg/lowres/c05032120.png'
 - name: vitess
   fileName: src/logos/vitess.png
-  sha256: b752a4ed52f9c14a46fda07bc012571ab7a08e5624095a3438966b24031a672d
-  url: 'http://vitess.io/images/vitess_logo_with_border.svg'
+  sha256: e758a7fb4f337c65aa313dad151dc7007cf6ede2d6d405b57677811c0974e10d
+  url: >-
+    https://raw.githubusercontent.com/cncf/artwork/master/vitess/stacked/color/vitess-stacked-color.png
 - name: wavefront
   fileName: src/logos/wavefront.png
   sha256: 46b3f59ff4f2ab80e5f92f6e76d1a7e76f55975ffc03c54eda1c9f364a91dbd2

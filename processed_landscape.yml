@@ -2471,7 +2471,7 @@ landscape:
           - item:
             name: Vamp
             organization: magnetic.io
-            homepage_url: null
+            homepage_url: 'https://vamp.io/'
             repo_url: 'https://github.com/magneticio/vamp'
             logo: ./src/hosted_logos/vamp.png
             twitter: 'https://twitter.com/vamp_io'
@@ -2893,7 +2893,9 @@ landscape:
             name: Vitess
             organization: Cloud Native Computing Foundation (CNCF)
             homepage_url: 'http://vitess.io/'
-            logo: 'http://vitess.io/images/vitess_logo_with_border.svg'
+            cncf_project: incubating
+            logo: >-
+              https://raw.githubusercontent.com/cncf/artwork/master/vitess/stacked/color/vitess-stacked-color.png
             repo_url: 'https://github.com/youtube/vitess'
             twitter: 'https://twitter.com/vitessio'
             crunchbase: >-
@@ -4590,7 +4592,6 @@ landscape:
             name: SUSE CaaS Platform
             organization: Suse
             homepage_url: 'https://www.suse.com/products/caas-platform/'
-            repo_url: 'https://github.com/SUSE/doc-caasp'
             logo: >-
               https://user-images.githubusercontent.com/5948137/32596616-37fe60b8-c534-11e7-8682-bd9200a6c4d1.png
             twitter: 'https://twitter.com/SUSE'
@@ -4598,9 +4599,12 @@ landscape:
             market_cap: N/A
             headquarters: 'Nürnberg, Germany'
             rank: 60556
-            stars: 10
-            license: Unknown License
-            description: SUSE Container as a Service Platform Documentation
+            stars: N/A
+            license: NotOpenSource
+            description: >-
+              SUSE is an open-source software provider that delivers Linux and
+              cloud products, which gives enterprises the control and
+              flexibility.
             cncf_member: false
       - subcategory:
         name: Serverless/Event-based
@@ -4863,21 +4867,6 @@ landscape:
       - subcategory:
         name: Monitoring
         items:
-          - item:
-            name: StatsDB
-            organization: Earlham Institute
-            homepage_url: 'http://www.earlham.ac.uk/statsdb'
-            repo_url: 'https://github.com/TGAC/StatsDB'
-            logo: >-
-              http://www.earlham.ac.uk/sites/default/files/images/pages/Tools%20and%20resources/Tools%20detail/StatsDB/statsdb.jpg
-            twitter: 'https://twitter.com/EarlhamInst'
-            market_cap: Not Entered Yet
-            headquarters: Not Entered Yet
-            rank: Not Entered Yet
-            stars: 9
-            license: GPL-3.0
-            description: StatsDB
-            cncf_member: false
           - item:
             name: New Relic
             organization: New Relic
