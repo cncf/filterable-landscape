@@ -16,50 +16,21 @@ const HomePage = ({hasData}) => {
     return <h1>Loading data... </h1>;
   }
   return (
-      <div className="content">
+      <div>
         <HomePageUrlContainer />
         <ItemDialogContainer />
         <HeaderContainer/>
-        <StickyBox className="content-sidebar">
-            <p>
-              Sidebar Item
-            </p>
-          <p>
-            Sidebar Item
-          </p>
-          <p>
-            Sidebar Item
-          </p>
-          <p>
-            Sidebar Item
-          </p>
-          <p>
-            Sidebar Item
-          </p>
-          <p>
-            Sidebar Item
-          </p>
-          <p>
-            Sidebar Item
-          </p>
-          <p>
-            Sidebar Item
-          </p>
-          <p>
-            Sidebar Item
-          </p>
-          <p>
-            Sidebar Item
-          </p>
-          
-        </StickyBox>
         <Grid container spacing={24}>
           <Grid item xs={2} sm={2} className="sidebar">
-            <ResetFiltersContainer />
-            <Grouping/>
-            <Sorting/>
-            <div style={{width: 200, height: 30}}/>
-            <Filters />
+
+            <StickyBox className="content-sidebar">
+              <ResetFiltersContainer />
+              <Grouping/>
+              <Sorting/>
+              <div style={{width: 200, height: 30}}/>
+              <Filters />
+            </StickyBox>
+
           </Grid>
           <Grid item xs={10} sm={10} className="content">
             <MainContentContainer/>
