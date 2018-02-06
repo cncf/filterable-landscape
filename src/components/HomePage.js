@@ -10,7 +10,6 @@ import ResetFiltersContainer from './ResetFiltersContainer';
 import ItemDialogContainer from './ItemDialogContainer';
 import HeaderContainer from './HeaderContainer';
 
-
 const HomePage = ({hasData}) => {
   if (!hasData) {
     return <h1>Loading data... </h1>;
@@ -20,9 +19,9 @@ const HomePage = ({hasData}) => {
         <HomePageUrlContainer />
         <ItemDialogContainer />
         <HeaderContainer/>
+      
         <Grid container spacing={24}>
           <Grid item xs={2} sm={2} className="sidebar">
-
             <StickyBox className="content-sidebar">
               <ResetFiltersContainer />
               <Grouping/>
@@ -33,6 +32,11 @@ const HomePage = ({hasData}) => {
 
           </Grid>
           <Grid item xs={10} sm={10} className="content">
+            <div className="disclaimer">
+                This is the interactive counterpart to CNCF &#180; s Cloud Native <a href="https://github.com/cncf/landscape#current-version">Landscape</a>.
+                Please <a href="https://github.com/cncf/filterable-landscape/issues/new/">report</a> any issues or,
+                even better, open a pull request.
+            </div>
             <MainContentContainer/>
           </Grid>
         </Grid>
