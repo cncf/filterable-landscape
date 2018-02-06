@@ -7,6 +7,21 @@ body{
   padding-left:20px;
 }
 
+.content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #aaa;
+}
+
+.content-sidebar {
+  flex: 150px 0 0;
+  background-color: #ff0000;
+  padding: 20px 10px 40px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
+}
+
 .sh_wrapper{
   position: relative;
   margin: 7px;

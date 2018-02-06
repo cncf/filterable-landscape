@@ -1,5 +1,6 @@
 import React from 'react';
 import Grid from 'material-ui/Grid';
+import StickyBox from "react-sticky-box";
 import Filters from './Filters';
 import Grouping from './Grouping';
 import Sorting from './Sorting';
@@ -15,10 +16,43 @@ const HomePage = ({hasData}) => {
     return <h1>Loading data... </h1>;
   }
   return (
-      <div className="wrapper">
+      <div className="content">
         <HomePageUrlContainer />
         <ItemDialogContainer />
         <HeaderContainer/>
+        <StickyBox className="content-sidebar">
+            <p>
+              Sidebar Item
+            </p>
+          <p>
+            Sidebar Item
+          </p>
+          <p>
+            Sidebar Item
+          </p>
+          <p>
+            Sidebar Item
+          </p>
+          <p>
+            Sidebar Item
+          </p>
+          <p>
+            Sidebar Item
+          </p>
+          <p>
+            Sidebar Item
+          </p>
+          <p>
+            Sidebar Item
+          </p>
+          <p>
+            Sidebar Item
+          </p>
+          <p>
+            Sidebar Item
+          </p>
+          
+        </StickyBox>
         <Grid container spacing={24}>
           <Grid item xs={2} sm={2} className="sidebar">
             <ResetFiltersContainer />
