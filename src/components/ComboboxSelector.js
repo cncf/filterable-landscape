@@ -9,7 +9,7 @@ const valueToId = (value) => value === 'any' ? null : value;
 const ComboboxSelector = ({value, options, onChange}) => {
 
   return <Select
-      style={{width:170, fontSize:'0.7em'}}
+      style={{width:150, fontSize:'0.7em'}}
       value={idToValue(value)}
       onChange={(e) => onChange(valueToId(e.target.value))}
   >
