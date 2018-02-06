@@ -41,6 +41,13 @@ const openSourceTag = function(oss) {
     <span className="tag-value">Open Source Software</span>
   </span>)
 }
+const licenseTag = function(license) {
+  const text = _.find(fields.license.values, {id: license}).label;
+  return (<span className="tag tag-green">
+    <span className="tag-name">License</span>
+    <span className="tag-value">{text}</span>
+  </span>);
+}
 const ItemDialog = ({onClose, itemInfo, previousItemId, nextItemId, onSelectItem }) => {
   if (!itemInfo) {
     return null;
@@ -64,10 +71,7 @@ const ItemDialog = ({onClose, itemInfo, previousItemId, nextItemId, onSelectItem
             <div className="product-tags">
               {cncfTag(itemInfo.cncfRelation)}
               {openSourceTag(itemInfo.oss)}
-              <span className="tag tag-green">
-                <span className="tag-name">License</span>
-                <span className="tag-value">{itemInfo.license}</span>
-              </span>
+              {licenseTag(itemInfo.license)}
             </div>
           </div>
           <div className="col col-75">
