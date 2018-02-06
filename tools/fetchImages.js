@@ -9,8 +9,8 @@ import svg2png from 'svg2png';
 // x3 because we may have retina display
 const sizes = [{
   name: 'large',
-  width: 600 * 3,
-  height: 200 * 3
+  width: 125 * 3,
+  height: 125 * 3
 }, {
   name: 'tile',
   width: 153 * 3,
