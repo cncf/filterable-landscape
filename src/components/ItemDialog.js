@@ -3,7 +3,7 @@ import Dialog from 'material-ui/Dialog';
 import Icon from 'material-ui/Icon';
 import KeyHandler from 'react-key-handler';
 import _ from 'lodash';
-import formatNumber from 'format-number';
+import formatNumber from '../utils/formatNumber';
 import pretty  from 'pretty-date-js';
 
 const formatDate = function(x) {
@@ -59,7 +59,7 @@ const ItemDialog = ({onClose, itemInfo, previousItemId, nextItemId, onSelectItem
   if (!itemInfo) {
     return null;
   }
-  const cbRank = formatNumber(itemInfo.rank, {separator: ','});
+  const cbRank = formatNumber(itemInfo.rank);
   const itemCategory = function(path) {
     var separator = <span className="product-category-separator">•</span>;
     var partMarkup = (part) => <span>{part}</span>;
@@ -134,10 +134,13 @@ const ItemDialog = ({onClose, itemInfo, previousItemId, nextItemId, onSelectItem
                 <div className="product-property-name col col-25">Headquarters</div>
                 <div className="product-property-value col col-75">{itemInfo.headquarters}</div>
               </div>
+              { cbRank && (
               <div className="product-property row">
                 <div className="product-property-name col col-25">CB Rank</div>
                 <div className="product-property-value col col-75">{cbRank}</div>
               </div>
+              )
+              }
               { itemInfo.firstCommitDate && (
                 <div className="product-property row">
                   <div className="product-property-name col col-25">First Commit</div>
