@@ -64,17 +64,17 @@ const ItemDialog = ({onClose, itemInfo, previousItemId, nextItemId, onSelectItem
           <Icon style={{ fontSize:'1.2em'}}>chevron_right</Icon>
         </span>
         <div className="row">
-          <div className="col col-25">
+          <div className="col col-33">
             <div className="product-logo">
               <div className="product-logo-img" style={{backgroundImage: 'url(' + itemInfo.hrefLarge + ')'}} />
             </div>
             <div className="product-tags">
-              {cncfTag(itemInfo.cncfRelation)}
-              {openSourceTag(itemInfo.oss)}
-              {licenseTag(itemInfo.license)}
+              <div>{cncfTag(itemInfo.cncfRelation)}</div>
+              <div>{openSourceTag(itemInfo.oss)}</div>
+              <div>{licenseTag(itemInfo.license)}</div>
             </div>
           </div>
-          <div className="col col-75">
+          <div className="col col-66">
             <div className="product-main">
               <div className="product-name">{itemInfo.name}</div>
               <div className="product-parent">{itemInfo.organization}</div>

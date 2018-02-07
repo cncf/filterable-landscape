@@ -56,7 +56,9 @@ body{
 .row {margin-left: -20px; margin-right: -20px; display: flex;}
 .col {padding: 0 20px;
   &-25 {width: 25%;}
+  &-33 {width: 33.33%;}
   &-50 {width: 50%;}
+  &-66 {width: 66.66%;}
   &-75 {width: 75%;}
 }
 
