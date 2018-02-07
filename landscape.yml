@@ -128,7 +128,8 @@ landscape:
             name: Foreman
             organization: The Foreman
             homepage_url: 'https://theforeman.org/'
-            repo_url: 'https://github.com/theforeman/theforeman.org'
+            repo_url: 'https://github.com/theforeman/foreman'
+            branch: develop
             logo: 'https://raw.githubusercontent.com/theforeman/foreman-graphics/master/logo/foreman_medium.png'
             twitter: 'https://twitter.com/foremanproject'
             crunchbase: 'https://www.crunchbase.com/organization/foreman'
@@ -326,6 +327,7 @@ landscape:
             organization: Red Hat
             homepage_url: 'https://www.ansible.com/'
             repo_url: 'https://github.com/ansible/ansible'
+            branch: devel
             logo: 'https://www.installvirtual.com/wp-content/uploads/2016/03/ansible_logo_850x400-300x169.png'
             twitter: 'https://twitter.com/ansible'
             crunchbase: 'https://www.crunchbase.com/organization/red-hat'
@@ -342,6 +344,7 @@ landscape:
             organization: Salt Stack
             homepage_url: 'https://saltstack.com/'
             repo_url: 'https://github.com/saltstack/salt'
+            branch: develop
             logo: 'https://crunchbase-production-res.cloudinary.com/image/upload/ddd2130f2a69731ce90ebf4fc205866f.jpg'
             twitter: 'https://twitter.com/SaltStack'
             crunchbase: 'https://www.crunchbase.com/organization/saltstack'
@@ -522,6 +525,7 @@ landscape:
             organization: Apache
             homepage_url: 'http://hadoop.apache.org/'
             repo_url: 'https://github.com/apache/hadoop-hdfs'
+            branch: trunk
             logo: 'http://previsna.com/bilder/hadoop-hdfs.png'
             twitter: 'https://twitter.com/TheASF'
             crunchbase: 'https://www.crunchbase.com/organization/apache'
@@ -1212,6 +1216,7 @@ landscape:
             organization: Netflix
             homepage_url: 'https://github.com/Netflix/zuul'
             repo_url: 'https://github.com/Netflix/zuul'
+            branch: '1.x'
             logo: ./src/hosted_logos/netflix-zuul.png
             stock_ticker: NFLX
             twitter: 'https://twitter.com/netflixoss'
@@ -1248,6 +1253,7 @@ landscape:
             organization: MySQL
             homepage_url: 'https://www.oracle.com/mysql/index.html'
             repo_url: 'https://github.com/mysql/mysql-server'
+            branch: '5.7'
             logo: 'https://www.mysql.com/common/logos/logo-mysql-170x115.png'
             stock_ticker: ORCL
             twitter: 'https://twitter.com/mysql'
@@ -1297,6 +1303,7 @@ landscape:
             organization: Apache
             homepage_url: 'http://cassandra.apache.org/'
             repo_url: 'https://github.com/apache/cassandra'
+            branch: trunk
             logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Cassandra_logo.svg/279px-Cassandra_logo.svg.png'
             twitter: 'https://twitter.com/cassandra'
             crunchbase: 'https://www.crunchbase.com/organization/apache'
@@ -1305,6 +1312,7 @@ landscape:
             organization: Redis
             homepage_url: 'https://redis.io/'
             repo_url: 'https://github.com/antirez/redis'
+            branch: unstable
             logo: 'https://blog.newrelic.com/wp-content/uploads/redis.png'
             twitter: 'https://twitter.com/redisfeed'
             crunchbase: 'https://www.crunchbase.com/organization/redis-labs'
@@ -1313,6 +1321,7 @@ landscape:
             organization: MariaDB
             homepage_url: 'https://mariadb.org/'
             repo_url: 'https://github.com/MariaDB/server'
+            branch: '10.3'
             logo: 'https://mariadb.org/wp-content/uploads/2015/10/mariadb-usa-inc.png'
             twitter: 'https://twitter.com/mariadbfdn'
             crunchbase: 'https://www.crunchbase.com/organization/mariadb-2'
@@ -1361,6 +1370,7 @@ landscape:
             organization: Linux Foundation
             homepage_url: 'https://www.rethinkdb.com/'
             repo_url: 'https://github.com/rethinkdb/rethinkdb'
+            branch: next
             logo: 'http://10minbasics.com/wp-content/uploads/2015/09/rethinkdb_logo1.png'
             twitter: 'https://twitter.com/rethinkdb'
             crunchbase: 'https://www.crunchbase.com/organization/the-linux-foundation'
@@ -1423,6 +1433,7 @@ landscape:
             organization: Apache
             homepage_url: 'http://hadoop.apache.org/'
             repo_url: 'https://github.com/apache/hadoop'
+            branch: trunk
             logo: 'https://www.contegix.com/wp-content/uploads/2015/09/Hadoop.png'
             twitter: 'https://twitter.com/hadoop'
             crunchbase: 'https://www.crunchbase.com/organization/apache'
@@ -1464,6 +1475,7 @@ landscape:
             organization: Apache
             homepage_url: 'https://kafka.apache.org/'
             repo_url: 'https://github.com/apache/kafka'
+            branch: trunk
             logo: 'https://www.vectorlogo.zone/logos/apache_kafka/apache_kafka-card.png'
             twitter: 'https://twitter.com/apachekafka'
             crunchbase: 'https://www.crunchbase.com/organization/apache'
@@ -2414,6 +2426,7 @@ landscape:
             organization: Zabbix
             homepage_url: 'https://www.zabbix.com/'
             repo_url: 'https://github.com/zabbix/zabbix'
+            branch: trunk
             logo: 'https://pbs.twimg.com/profile_images/537524757978034176/MlkWTc_x_400x400.png'
             twitter: 'https://twitter.com/zabbix'
             crunchbase: 'https://www.crunchbase.com/organization/zabbix'
