@@ -12,7 +12,9 @@ const MainContent = ({groupedItems, onSelectItem}) => {
           <Subheader component="div" style={{fontSize: 24}}>{groupedItem.header} ({groupedItem.items.length})</Subheader>
       </div>
     ].concat(_.map(groupedItem.items, function(item) {
-      return (<div className={classNames('mosaic',{inception : item.cncfRelation ==='inception'}, {incubating : item.cncfRelation ==='incubating'}, {graduated : item.cncfRelation ==='graduated'})}
+      return (<div className={classNames('mosaic',{inception : item.cncfRelation ==='inception'},
+                                                  {incubating : item.cncfRelation ==='incubating'},
+                                                  {graduated : item.cncfRelation ==='graduated'})}
                    key={item.id} style={{ background: item.oss ? 'white' : '#eeeeee'}}
                    onClick={() => onSelectItem(item.id)} >
                 <div className="logo_wrapper" style={{border: '1px solid #f0f0f0'}}>

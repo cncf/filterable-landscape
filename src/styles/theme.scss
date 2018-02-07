@@ -88,13 +88,13 @@ body{
   box-shadow: 1px 1px 3px #d6d6d6;
 
   &.inception{
-    border: 2px solid red;
+    border: 2px solid #d1f7ff;
   }
   &.incubating{
-    border: 2px solid green;
+    border: 2px solid #6cc9d8;
   }
   &.graduated{
-    border: 2px solid blue;
+    border: 2px solid #3570a8;
   }
 
   .logo_wrapper{
