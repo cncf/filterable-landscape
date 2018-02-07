@@ -3,6 +3,7 @@ import Dialog from 'material-ui/Dialog';
 import Icon from 'material-ui/Icon';
 import KeyHandler from 'react-key-handler';
 import _ from 'lodash';
+import commaNumber from 'comma-number';
 
 import '../styles/itemModal.scss';
 import fields from '../types/fields';
@@ -115,7 +116,7 @@ const ItemDialog = ({onClose, itemInfo, previousItemId, nextItemId, onSelectItem
               </div>
               <div className="product-property row">
                 <div className="product-property-name col col-25">CB Rank</div>
-                <div className="product-property-value col col-75">{itemInfo.rank}</div>
+                <div className="product-property-value col col-75">{commaNumber(itemInfo.rank)}</div>
               </div>
             </div>
 
