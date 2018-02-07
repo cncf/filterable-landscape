@@ -97,7 +97,7 @@ export async function getRepoStartDate({repo, branch}) {
   branch = branch || 'master';
   const info = await readGithubStats({repo, branch});
   if (info.lastCommitLink) {
-    return info.lastCommitLink;
+    return await getCommitDate(info.lastCommitLink);
   }
   const getScore = async function(i) {
     const result = await getPageStats({base: info.base, offset: i});
