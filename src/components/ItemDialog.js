@@ -3,6 +3,14 @@ import Dialog from 'material-ui/Dialog';
 import Icon from 'material-ui/Icon';
 import KeyHandler from 'react-key-handler';
 import _ from 'lodash';
+import pretty  from 'pretty-date-js';
+
+const formatDate = function(x) {
+  const parts = pretty(x);
+  return parts.value + ' ' + parts.lang + ' ' + parts.misc;
+};
+
+
 
 import '../styles/itemModal.scss';
 import fields from '../types/fields';
@@ -117,6 +125,20 @@ const ItemDialog = ({onClose, itemInfo, previousItemId, nextItemId, onSelectItem
                 <div className="product-property-name col col-25">CB Rank</div>
                 <div className="product-property-value col col-75">{itemInfo.rank}</div>
               </div>
+              { itemInfo.firstCommitDate && (
+                <div className="product-property row">
+                  <div className="product-property-name col col-25">First Commit</div>
+                  <div className="product-property-value col col-75">{formatDate(itemInfo.firstCommitDate)}</div>
+                </div>
+              )
+              }
+              { itemInfo.latestCommitDate && (
+                <div className="product-property row">
+                  <div className="product-property-name col col-25">Latest Commit</div>
+                  <div className="product-property-value col col-75">{formatDate(itemInfo.latestCommitDate)}</div>
+                </div>
+              )
+              }
             </div>
 
             <div style={{display: "none"}}>{JSON.stringify(itemInfo, null, 2)}</div>
