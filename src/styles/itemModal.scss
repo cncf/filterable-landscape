@@ -24,7 +24,6 @@ $blue: #5093e0;
       overflow: auto; margin: 0; border-radius: 0;
       }
   }
-
   &-close {cursor: pointer; position: absolute; top: 15px; right: 25px; font-size: 30px; opacity: 0.4;
     &:hover {opacity: 1;}
   }
@@ -40,7 +39,9 @@ $blue: #5093e0;
   &-main {font-size: 0.8rem; line-height: 130%; color: $navy;}
   &-name {font-size: 2rem; line-height: 130%;}
   &-parent {font-weight: bold; margin-bottom: 0.8rem;}
-  &-landscape {color: $navy-light; margin-bottom: 0.8rem;}
+  &-category {color: $navy-light; margin-bottom: 0.8rem;
+    &-separator {margin: 0 5px; font-size: 0.6rem;}
+  }
   &-description {font-size: 1.1rem; line-height: 130%; margin-bottom: 0.8rem; max-height: 300px;}
   &-properties {font-size: 0.8em; color: $navy; margin: 2rem 0;}
   &-property {margin-bottom: 0.5rem;
@@ -51,13 +52,12 @@ $blue: #5093e0;
       &-value {display: block; width: 100%;}
     }
   }
-  &-repo {padding-right: 75px !important; position: relative;
-    &-stars {position: absolute; right: 20px; top: 0; color: #7b7b7b; font-size: 0.8rem; white-space: nowrap;
-      text-overflow: none;
-      svg {width: 16px; height: 16px; 
+  &-repo {
+    &-stars {color: #7b7b7b; font-size: 0.8rem; white-space: nowrap; line-height: 16px; display: inline-block;
+      svg {width: 16px; height: 16px; display: inline-block; vertical-align: top;
         * {fill: #7b7b7b;}
       }
-      .material-icons {font-size: 0.9rem; vertical-align: top;}
+      .material-icons {font-size: 0.9rem; line-height: 16px; vertical-align: top; margin-right: 2px;}
     }
   }
 }

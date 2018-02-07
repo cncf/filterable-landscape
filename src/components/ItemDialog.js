@@ -3,14 +3,13 @@ import Dialog from 'material-ui/Dialog';
 import Icon from 'material-ui/Icon';
 import KeyHandler from 'react-key-handler';
 import _ from 'lodash';
+import formatNumber from '../utils/formatNumber';
 import pretty  from 'pretty-date-js';
 
 const formatDate = function(x) {
   const parts = pretty(x);
   return parts.value + ' ' + parts.lang + ' ' + parts.misc;
 };
-
-
 
 import '../styles/itemModal.scss';
 import fields from '../types/fields';
@@ -60,6 +59,13 @@ const ItemDialog = ({onClose, itemInfo, previousItemId, nextItemId, onSelectItem
   if (!itemInfo) {
     return null;
   }
+  const cbRank = formatNumber(itemInfo.rank);
+  const itemCategory = function(path) {
+    var separator = <span className="product-category-separator">•</span>;
+    var partMarkup = (part) => <span>{part}</span>;
+    var [category, subcategory] = path.split(' / ');
+    return (<span>{[partMarkup(category), separator, partMarkup(subcategory)]}</span>);
+  }
   return (
     <Dialog open={true} onClose={() => onClose()} className="modal" classes={{paper:'modal-body'}}>
       { nextItemId && <KeyHandler keyValue="ArrowRight" onKeyHandle={() => onSelectItem(nextItemId)} /> }
@@ -86,7 +92,7 @@ const ItemDialog = ({onClose, itemInfo, previousItemId, nextItemId, onSelectItem
             <div className="product-main">
               <div className="product-name">{itemInfo.name}</div>
               <div className="product-parent">{itemInfo.organization}</div>
-              <div className="product-landscape">{itemInfo.landscape}</div>
+              <div className="product-category">{itemCategory(itemInfo.landscape)}</div>
               <div className="product-description">{itemInfo.description}</div>
             </div>
             <div className="product-properties">
@@ -101,6 +107,13 @@ const ItemDialog = ({onClose, itemInfo, previousItemId, nextItemId, onSelectItem
                 <div className="product-property-name col col-25">Repository</div>
                 <div className="product-property-value product-repo col col-75">
                   <a href={itemInfo.repo_url} target="_blank">{itemInfo.repo_url}</a>
+                </div>
+              </div>
+              }
+              {itemInfo.repo_url &&
+              <div className="product-property row">
+                <div className="product-property-name col col-25"></div>
+                <div className="product-property-value col col-75">
                   <span className="product-repo-stars">
                     <Icon>{iconGithub}</Icon>
                     <Icon>star</Icon>
@@ -121,10 +134,13 @@ const ItemDialog = ({onClose, itemInfo, previousItemId, nextItemId, onSelectItem
                 <div className="product-property-name col col-25">Headquarters</div>
                 <div className="product-property-value col col-75">{itemInfo.headquarters}</div>
               </div>
+              { cbRank && (
               <div className="product-property row">
                 <div className="product-property-name col col-25">CB Rank</div>
-                <div className="product-property-value col col-75">{itemInfo.rank}</div>
+                <div className="product-property-value col col-75">{cbRank}</div>
               </div>
+              )
+              }
               { itemInfo.firstCommitDate && (
                 <div className="product-property row">
                   <div className="product-property-name col col-25">First Commit</div>
