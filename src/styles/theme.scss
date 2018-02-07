@@ -86,6 +86,7 @@ body{
   margin: 4px 6px;
   border-radius:2px;
   box-shadow: 1px 1px 3px #d6d6d6;
+  border: 2px solid #FFFFFF;
 
   &.inception{
     border: 2px solid #d1f7ff;
@@ -116,8 +117,8 @@ body{
     height: 30%;
     font-size: 0.6em;
     border-width:1px 0 0 0;
-    border-style: dotted;
-    border-color:#CCC;
+    border-style: solid;
+    border-color: #dedede;
     padding:10px;
 
 

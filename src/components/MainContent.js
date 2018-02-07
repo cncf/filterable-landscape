@@ -17,7 +17,7 @@ const MainContent = ({groupedItems, onSelectItem}) => {
                                                   {graduated : item.cncfRelation ==='graduated'})}
                    key={item.id} style={{ background: item.oss ? 'white' : '#eeeeee'}}
                    onClick={() => onSelectItem(item.id)} >
-                <div className="logo_wrapper" style={{border: '1px solid #f0f0f0'}}>
+                <div className="logo_wrapper">
                   <img src={item.hrefTile} className='logo' max-height='100%' max-width='100%' />
                 </div>
                 <div className="info">
