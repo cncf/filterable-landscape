@@ -27,7 +27,7 @@ const MainContent = ({groupedItems, onSelectItem}) => {
                   </div>
                   <div>
                     {item.organization}
-                    { Number.isInteger(item.marketCap) ? '($'+ millify( item.marketCap )+')' : '' }
+                    { Number.isInteger(item.marketCap) ? ' ($'+ millify( item.marketCap )+')' : '' }
                     
                     {/*{item.organization} { Number.isInteger(item.funcing) ? 'Funding:'+ millify( item.funding )+'' : '' } */}
 
