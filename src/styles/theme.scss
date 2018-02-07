@@ -37,7 +37,7 @@ body{
 .disclaimer{
   padding:0 0 10px 10px;
   color: #9b9b9b;
-  font-size:0.65em;
+  font-size:0.8em;
   a{
     color:#366fa8;
   }
@@ -83,8 +83,8 @@ body{
   cursor: pointer;
   position: relative;
   display: inline-block;
-  width: 175px;
-  height: 175px;
+  width: 200px;
+  height: 200px;
   margin: 4px 6px;
   border-radius:2px;
   box-shadow: 1px 1px 3px #d6d6d6;
@@ -94,6 +94,9 @@ body{
     height: 70%;
     width: 100%;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     .logo{
       width: 153px;
