@@ -71,7 +71,7 @@ landscape:
             name: IBM Cloud
             organization: IBM
             homepage_url: 'https://www.ibm.com/cloud/'
-            logo: 'https://login.ng.bluemix.net/UAALoginServerWAR/logo_bluemix_light.svg'
+            logo: './src/hosted_logos/ibm-cloud.png'
             stock_ticker: IBM
             twitter: 'https://twitter.com/IBMcloud'
             crunchbase: 'https://www.crunchbase.com/organization/ibm'
@@ -291,7 +291,7 @@ landscape:
             name: Google Registry
             organization: Google
             homepage_url: 'https://cloud.google.com/container-registry/'
-            logo: 'https://www.blackducksoftware.com/sites/default/files/images/gcr.png'
+            logo: './src/hosted_logos/google-containerregistry.png'
             stock_ticker: GOOGL
             twitter: 'https://twitter.com/googlecloud'
             crunchbase: 'https://www.crunchbase.com/organization/google-cloud-platform'
@@ -1471,7 +1471,7 @@ landscape:
             name: Dataflow
             organization: Google
             homepage_url: 'https://cloud.google.com/dataflow/'
-            logo: 'https://www.gcppodcast.com/images/icons/bigdata/Cloud-Dataflow.png'
+            logo: './src/hosted_logos/google-dataflow.png'
             stock_ticker: GOOGL
             twitter: 'https://twitter.com/googlecloud'
             crunchbase: 'https://www.crunchbase.com/organization/google-cloud-platform'
@@ -2120,7 +2120,7 @@ landscape:
             name: Google Kubernetes Engine (GKE)
             organization: Google
             homepage_url: 'https://cloud.google.com/kubernetes-engine/'
-            logo: 'https://www.gcppodcast.com/images/post/gke.png'
+            logo: './src/hosted_logos/google-kubernetesengine.png'
             stock_ticker: GOOGL
             twitter: 'https://twitter.com/googlecloud'
             crunchbase: 'https://www.crunchbase.com/organization/google-cloud-platform'
@@ -2190,7 +2190,7 @@ landscape:
             name: Google Cloud Functions
             organization: Google
             homepage_url: 'https://cloud.google.com/functions/'
-            logo: 'https://img.stackshare.io/service/6672/google-cloud-functions.png'
+            logo: './src/hosted_logos/google-cloudfunctions.png'
             stock_ticker: GOOGL
             twitter: 'https://twitter.com/googlecloud'
             crunchbase: 'https://www.crunchbase.com/organization/google-cloud-platform'
