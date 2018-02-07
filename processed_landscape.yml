@@ -153,8 +153,7 @@ landscape:
             name: IBM Cloud
             organization: IBM
             homepage_url: 'https://www.ibm.com/cloud/'
-            logo: >-
-              https://login.ng.bluemix.net/UAALoginServerWAR/logo_bluemix_light.svg
+            logo: ./src/hosted_logos/ibm-cloud.png
             stock_ticker: IBM
             twitter: 'https://twitter.com/IBMcloud'
             crunchbase: 'https://www.crunchbase.com/organization/ibm'
@@ -191,11 +190,13 @@ landscape:
               https://upload.wikimedia.org/wikipedia/commons/9/96/Joyent-logo.png
             twitter: 'https://twitter.com/joyent'
             crunchbase: 'https://www.crunchbase.com/organization/joyent'
+            first_commit_date: '2010-10-29T00:21:22Z'
             market_cap: 130999998
             headquarters: 'San Francisco, California'
             rank: 1644
             stars: 1232
             license: Unknown License
+            latest_commit_date: '2018-02-05T13:03:35Z'
             description: >-
               For more information, please see http://smartos.org/ For any
               questions that aren't answered there, please join the SmartOS
@@ -230,11 +231,13 @@ landscape:
               https://www.openstack.org/assets/openstack-logo/2016R/OpenStack-Logo-Vertical.png
             twitter: 'https://twitter.com/OpenStack'
             crunchbase: 'https://www.crunchbase.com/organization/openstack'
+            first_commit_date: '2010-05-28T06:05:26Z'
             market_cap: N/A
             headquarters: 'Austin, Texas'
             rank: 60056
-            stars: 2150
+            stars: 2151
             license: Apache-2.0
+            latest_commit_date: '2018-02-07T16:56:42Z'
             description: OpenStack Compute (Nova)
             cncf_member: false
           - item:
@@ -263,11 +266,13 @@ landscape:
               https://github.com/alexcontini/alexcontini.github.io/blob/master/maas.png
             twitter: 'https://twitter.com/Canonical'
             crunchbase: 'https://www.crunchbase.com/organization/canonical-ltd'
+            first_commit_date: '2012-01-16T08:33:18Z'
             market_cap: N/A
             headquarters: 'London, United Kingdom'
             rank: 42700
-            stars: 26
+            stars: 27
             license: AGPL-3.0
+            latest_commit_date: '2018-02-07T15:01:43Z'
             description: >-
               Official MAAS repository mirror. (Do not submit pull requests or
               bugs here; use Launchpad instead.)
@@ -276,17 +281,20 @@ landscape:
             name: Foreman
             organization: Foreman
             homepage_url: 'https://theforeman.org/'
-            repo_url: 'https://github.com/theforeman/theforeman.org'
+            repo_url: 'https://github.com/theforeman/foreman'
+            branch: develop
             logo: >-
               https://raw.githubusercontent.com/theforeman/foreman-graphics/master/logo/foreman_medium.png
             twitter: 'https://twitter.com/foremanproject'
             crunchbase: 'https://www.crunchbase.com/organization/foreman'
+            first_commit_date: '2009-07-13T08:55:23Z'
             market_cap: N/A
             headquarters: N/A
             rank: N/A
-            stars: 80
+            stars: 1371
             license: Unknown License
-            description: The new and improved Foreman website.
+            latest_commit_date: '2018-02-06T18:07:44Z'
+            description: an application that automates the lifecycle of servers
             cncf_member: false
           - item:
             name: Scaleway
@@ -310,11 +318,13 @@ landscape:
             logo: 'http://rebar.digital/logo.png'
             twitter: 'https://twitter.com/digitalrebar'
             crunchbase: 'https://www.crunchbase.com/organization/rackn-inc'
+            first_commit_date: '2017-02-08T15:46:53Z'
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
-            stars: 58
+            stars: 59
             license: Unknown License
+            latest_commit_date: '2018-02-06T20:02:34Z'
             description: >-
               Digital Rebar Provision is a simple but powerful Golang executable
               that provides a complete API-driven DHCP/PXE/TFTP provisioning
@@ -335,11 +345,13 @@ landscape:
               https://crunchbase-production-res.cloudinary.com/image/upload/v1494032023/ds2ujajovsaxg7cjwgei.png
             twitter: 'https://twitter.com/HashiCorp'
             crunchbase: 'https://www.crunchbase.com/organization/hashicorp'
+            first_commit_date: '2014-05-21T23:28:53Z'
             market_cap: 74175000
             headquarters: 'San Francisco, California'
             rank: 949
-            stars: 10931
+            stars: 10970
             license: MPL-2.0
+            latest_commit_date: '2018-02-07T17:15:55Z'
             description: >-
               Terraform is a tool for building, changing, and combining
               infrastructure safely and efficiently.
@@ -353,11 +365,13 @@ landscape:
               https://cloudfoundry.org/wp-content/uploads/2012/02/CFF-BOSH-Full-Color.png
             twitter: 'https://twitter.com/cloudfoundry'
             crunchbase: 'https://www.crunchbase.com/organization/cloud-foundry'
+            first_commit_date: '2010-08-19T02:19:00Z'
             market_cap: N/A
             headquarters: 'San Mateo, California'
             rank: 56547
-            stars: 1432
+            stars: 1434
             license: Apache-2.0
+            latest_commit_date: '2018-02-07T17:41:34Z'
             description: >-
               Cloud Foundry BOSH is an open source tool chain for release
               engineering, deployment and lifecycle management of large scale
@@ -423,11 +437,13 @@ landscape:
             twitter: 'https://twitter.com/helmpack'
             crunchbase: >-
               https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            first_commit_date: '2015-11-02T23:52:56Z'
             market_cap: N/A
             headquarters: 'San Francisco, California'
             rank: 63493
-            stars: 3958
+            stars: 4003
             license: Apache-2.0
+            latest_commit_date: '2018-02-06T16:07:32Z'
             description: The Kubernetes Package Manager
             cncf_member: true
           - item:
@@ -439,11 +455,13 @@ landscape:
               https://raw.githubusercontent.com/docker-library/docs/471fa6e4cb58062ccbf91afc111980f9c7004981/swarm/logo.png
             twitter: 'https://twitter.com/docker'
             crunchbase: 'https://www.crunchbase.com/organization/docker'
+            first_commit_date: '2016-04-11T18:12:24Z'
             market_cap: 242766694
             headquarters: 'San Francisco, California'
             rank: 471
-            stars: 1874
+            stars: 1877
             license: Apache-2.0
+            latest_commit_date: '2018-02-07T03:59:52Z'
             description: >-
               A toolkit for creating and managing declarative, self-healing
               infrastructure.
@@ -457,11 +475,13 @@ landscape:
               https://design.canonical.com/wp-content/uploads/2011/10/juju-464x252.png
             twitter: 'https://twitter.com/ubuntucloud'
             crunchbase: 'https://www.crunchbase.com/organization/canonical-ltd'
+            first_commit_date: '2011-08-23T15:10:42Z'
             market_cap: N/A
             headquarters: 'London, United Kingdom'
             rank: 42700
-            stars: 1083
+            stars: 1089
             license: AGPL-3.0
+            latest_commit_date: '2017-03-21T19:56:28Z'
             description: juju is devops distilled
             cncf_member: true
           - item:
@@ -472,11 +492,13 @@ landscape:
             logo: >-
               https://github.com/kris-nova/kubicorn/blob/master/docs/img/kubicorn-trans.png
             twitter: 'https://twitter.com/kubicornk8s'
+            first_commit_date: '2017-06-10T06:49:53Z'
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
-            stars: 940
+            stars: 944
             license: Apache-2.0
+            latest_commit_date: '2018-02-06T23:26:03Z'
             description: Simple. Cloud Native. Kubernetes. Rainbow. Infrastructure.
             cncf_member: false
           - item:
@@ -488,11 +510,13 @@ landscape:
               https://psachin.github.io/images/miq-add-disk/manageiq-logo-standard-vertical.png
             twitter: 'https://twitter.com/manageiq'
             crunchbase: 'https://www.crunchbase.com/organization/manageiq'
+            first_commit_date: '2014-06-13T02:33:38Z'
             market_cap: 5400000
             headquarters: 'Mahwah, New Jersey'
             rank: 35264
-            stars: 604
+            stars: 607
             license: Unknown License
+            latest_commit_date: '2018-02-06T21:15:30Z'
             description: ManageIQ Open-Source Management Platform
             cncf_member: false
       - subcategory:
@@ -537,11 +561,13 @@ landscape:
             logo: 'https://vmware.github.io/harbor/images/harbor.png'
             twitter: 'https://twitter.com/vmware'
             crunchbase: 'https://www.crunchbase.com/organization/vmware'
+            first_commit_date: '2016-02-01T11:59:10Z'
             market_cap: 393500000
             headquarters: 'Palo Alto, California'
             rank: 5559
-            stars: 3577
+            stars: 3593
             license: Unknown License
+            latest_commit_date: '2018-02-06T11:19:50Z'
             description: >-
               An enterprise-class container registry server based on Docker
               Distribution
@@ -573,11 +599,13 @@ landscape:
             logo: 'https://community.redhat.com/images/branding/logo-atomic.png'
             twitter: 'https://twitter.com/projectatomic'
             crunchbase: 'https://www.crunchbase.com/organization/red-hat'
+            first_commit_date: '2015-01-14T22:10:00Z'
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
-            stars: 387
+            stars: 389
             license: Unknown License
+            latest_commit_date: '2018-02-05T17:02:24Z'
             description: Atomic Run Tool for installing/running/managing container images.
             cncf_member: true
           - item:
@@ -589,11 +617,13 @@ landscape:
               https://blog.docker.com/media/2015/11/logo-title-final-registry-2.png
             twitter: 'https://twitter.com/docker'
             crunchbase: 'https://www.crunchbase.com/organization/docker'
+            first_commit_date: '2014-10-21T20:25:04Z'
             market_cap: 242766694
             headquarters: 'San Francisco, California'
             rank: 471
-            stars: 3721
+            stars: 3732
             license: Apache-2.0
+            latest_commit_date: '2018-02-07T00:11:20Z'
             description: 'The Docker toolset to pack, ship, store, and deliver content'
             cncf_member: true
           - item:
@@ -617,8 +647,7 @@ landscape:
             name: Google Registry
             organization: Google Cloud Platform
             homepage_url: 'https://cloud.google.com/container-registry/'
-            logo: >-
-              https://www.blackducksoftware.com/sites/default/files/images/gcr.png
+            logo: ./src/hosted_logos/google-containerregistry.png
             stock_ticker: GOOGL
             twitter: 'https://twitter.com/googlecloud'
             crunchbase: 'https://www.crunchbase.com/organization/google-cloud-platform'
@@ -638,11 +667,13 @@ landscape:
               https://github.com/SUSE/Portus/blob/master/public/favicon/android-chrome-192x192.png
             twotter: 'https://twitter.com/SUSE'
             crunchbase: 'https://www.crunchbase.com/organization/suse'
+            first_commit_date: '2015-04-12T21:58:55Z'
             market_cap: N/A
             headquarters: 'Nürnberg, Germany'
             rank: 60556
-            stars: 1692
+            stars: 1696
             license: Apache-2.0
+            latest_commit_date: '2018-02-07T15:19:42Z'
             description: Authorization service and frontend for Docker registry (v2)
             cncf_member: false
       - subcategory:
@@ -657,11 +688,13 @@ landscape:
               https://upload.wikimedia.org/wikipedia/en/0/09/Puppet%27s_company_logo.png
             twitter: 'https://twitter.com/puppetlabs'
             crunchbase: 'https://www.crunchbase.com/organization/puppet-labs'
+            first_commit_date: '2005-04-13T15:18:05Z'
             market_cap: 107500000
             headquarters: 'Portland, Oregon'
             rank: 2994
-            stars: 4856
+            stars: 4861
             license: Unknown License
+            latest_commit_date: '2018-02-07T01:19:17Z'
             description: Server automation framework and application
             cncf_member: false
           - item:
@@ -671,11 +704,13 @@ landscape:
             logo: 'https://ordina-jworks.github.io/img/dockercon2017/linux-kit.png'
             twitter: 'https://twitter.com/linuxkit'
             crunchbase: 'https://www.crunchbase.com/organization/docker'
+            first_commit_date: '2015-11-26T15:17:40Z'
             market_cap: 242766694
             headquarters: 'San Francisco, California'
             rank: 471
-            stars: 3910
+            stars: 3926
             license: Apache-2.0
+            latest_commit_date: '2018-02-07T14:06:11Z'
             description: >-
               A toolkit for building secure, portable and lean operating systems
               for containers
@@ -685,15 +720,18 @@ landscape:
             organization: Red Hat
             homepage_url: 'https://www.ansible.com/'
             repo_url: 'https://github.com/ansible/ansible'
+            branch: devel
             logo: >-
               https://www.installvirtual.com/wp-content/uploads/2016/03/ansible_logo_850x400-300x169.png
             twitter: 'https://twitter.com/ansible'
             crunchbase: 'https://www.crunchbase.com/organization/red-hat'
+            first_commit_date: '2012-02-23T19:17:24Z'
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
-            stars: 28216
+            stars: 28274
             license: GPL-3.0
+            latest_commit_date: '2018-02-07T18:15:27Z'
             description: >-
               Ansible is a radically simple IT automation platform that makes
               your applications and systems easier to deploy. Avoid writing
@@ -710,11 +748,13 @@ landscape:
               https://crunchbase-production-res.cloudinary.com/image/upload/v1397202169/79e96225d5d71f5e6d8ef247a5372278.png
             twitter: 'https://twitter.com/chef'
             crunchbase: 'https://www.crunchbase.com/organization/chef'
+            first_commit_date: '2008-03-06T07:31:38Z'
             market_cap: 105000000
             headquarters: 'Seattle, Washington'
             rank: 3174
-            stars: 5200
+            stars: 5205
             license: Apache-2.0
+            latest_commit_date: '2018-02-07T14:48:21Z'
             description: >-
               A systems integration framework, built to bring the benefits of
               configuration management to your entire infrastructure.
@@ -724,15 +764,18 @@ landscape:
             organization: SaltStack
             homepage_url: 'https://saltstack.com/'
             repo_url: 'https://github.com/saltstack/salt'
+            branch: develop
             logo: >-
               https://crunchbase-production-res.cloudinary.com/image/upload/ddd2130f2a69731ce90ebf4fc205866f.jpg
             twitter: 'https://twitter.com/SaltStack'
             crunchbase: 'https://www.crunchbase.com/organization/saltstack'
+            first_commit_date: '2011-02-20T20:18:32Z'
             market_cap: 685000
             headquarters: 'Lehi, Utah'
             rank: 12330
-            stars: 8532
+            stars: 8542
             license: Unknown License
+            latest_commit_date: '2018-02-06T14:48:45Z'
             description: >-
               Software to automate the management and configuration of any
               infrastructure or application at scale. Get access to the Salt
@@ -747,11 +790,13 @@ landscape:
               https://crunchbase-production-res.cloudinary.com/image/upload/xq7nwzno4qanyadqph0i.jpg
             twitter: 'https://twitter.com/cfengine'
             crunchbase: 'https://www.crunchbase.com/organization/cfengine'
+            first_commit_date: '2008-01-04T08:50:45Z'
             market_cap: 13000000
             headquarters: 'Palo Alto, California'
             rank: 20034
             stars: 279
             license: Unknown License
+            latest_commit_date: '2018-02-07T12:48:01Z'
             description: CFEngine Community
             cncf_member: false
           - item:
@@ -763,11 +808,13 @@ landscape:
               http://cdn.dev.classmethod.jp/wp-content/uploads/2015/08/rundeck_eyecatch.png
             twitter: 'https://twitter.com/rundeck'
             crunchbase: 'https://www.crunchbase.com/organization/rundeck'
+            first_commit_date: '2010-10-11T21:08:30Z'
             market_cap: N/A
             headquarters: N/A
             rank: N/A
-            stars: 2287
+            stars: 2292
             license: Apache-2.0
+            latest_commit_date: '2018-02-02T23:46:46Z'
             description: >-
               Job scheduler and runbook automation. Enable self-service access
               to existing scripts and tools.
@@ -784,11 +831,13 @@ landscape:
               http://www.marketwire.com/library/MwGo/2016/4/5/11G092078/Anchore_RGB-14b85fa3801f8889be493bbb8e62e356.jpg
             twitter: 'https://twitter.com/anchore'
             crunchbase: 'https://www.crunchbase.com/organization/anchore-inc'
+            first_commit_date: '2017-09-06T18:47:21Z'
             market_cap: 7000000
             headquarters: 'Santa Barbara, California'
             rank: 13085
             stars: 97
             license: Apache-2.0
+            latest_commit_date: '2018-02-06T18:27:34Z'
             description: Anchore Engine Service
             cncf_member: false
           - item:
@@ -851,11 +900,13 @@ landscape:
               http://zdnet2.cbsistatic.com/hub/i/r/2016/03/18/c9a09a0a-1fcc-48c8-810b-cb1c0379a562/resize/770xauto/cc3c78f58099a9569a899e05ceabba3f/coreos-clair.jpg
             twitter: 'https://twitter.com/coreos'
             crunchbase: 'https://www.crunchbase.com/organization/red-hat'
+            first_commit_date: '2015-11-13T19:11:28Z'
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
-            stars: 3122
+            stars: 3133
             license: Apache-2.0
+            latest_commit_date: '2018-02-02T18:52:24Z'
             description: Vulnerability Static Analysis for Containers
             cncf_member: true
           - item:
@@ -868,11 +919,13 @@ landscape:
               https://raw.githubusercontent.com/cncf/artwork/master/notary/stacked/color/notary-stacked-color.png
             crunchbase: >-
               https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            first_commit_date: '2015-03-27T22:57:48Z'
             market_cap: N/A
             headquarters: 'San Francisco, California'
             rank: 63493
-            stars: 1183
+            stars: 1189
             license: Apache-2.0
+            latest_commit_date: '2018-02-07T05:03:02Z'
             description: >-
               Notary is a project that allows anyone to have trust over
               arbitrary collections of data
@@ -886,11 +939,13 @@ landscape:
               http://people.redhat.com/swells/ssg_logos/OpenSCAP-Logo/OpenSCAP-Vertical-Color.png
             twitter: 'https://twitter.com/OpenSCAP'
             crunchbase: 'https://www.crunchbase.com/organization/red-hat'
+            first_commit_date: '2008-11-03T16:58:30Z'
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
-            stars: 271
+            stars: 274
             license: LGPL-2.1
+            latest_commit_date: '2018-01-22T17:43:03Z'
             description: NIST Certified SCAP 1.2 toolkit
             cncf_member: true
           - item:
@@ -920,11 +975,13 @@ landscape:
               https://github.com/cncf/artwork/blob/master/tuf/stacked/color/tuf-stacked-color.png
             crunchbase: >-
               https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            first_commit_date: '2013-01-31T18:54:15Z'
             market_cap: N/A
             headquarters: 'San Francisco, California'
             rank: 63493
-            stars: 697
+            stars: 698
             license: Unknown License
+            latest_commit_date: '2016-07-05T21:20:57Z'
             description: A framework for securing software update systems
             cncf_member: true
           - item:
@@ -952,11 +1009,13 @@ landscape:
             repo_url: 'https://github.com/lyft/confidant'
             logo: ./src/hosted_logos/lyft-confidant.png
             crunchbase: 'https://www.crunchbase.com/organization/lyft'
+            first_commit_date: '2015-10-08T21:57:42Z'
             market_cap: 4112500000
             headquarters: 'San Francisco, California'
             rank: 10
             stars: 1240
             license: Apache-2.0
+            latest_commit_date: '2018-01-03T19:08:35Z'
             description: 'Confidant: your secret keeper.'
             cncf_member: false
           - item:
@@ -967,11 +1026,13 @@ landscape:
             logo: 'https://avatars0.githubusercontent.com/u/82592?v=4&s=200'
             stock_ticker: SQ
             crunchbase: 'https://www.crunchbase.com/organization/square'
+            first_commit_date: '2015-03-27T00:13:45Z'
             market_cap: 590500000
             headquarters: 'San Francisco, California'
             rank: 21
             stars: 1868
             license: Apache-2.0
+            latest_commit_date: '2017-12-05T18:19:45Z'
             description: A system for distributing and managing secrets
             cncf_member: false
           - item:
@@ -981,11 +1042,13 @@ landscape:
             logo: >-
               https://seeklogo.com/images/P/pinterest-badge-logo-82C89A5E42-seeklogo.com.png
             crunchbase: 'https://www.crunchbase.com/organization/pinterest'
+            first_commit_date: /pinterest/knox/commit/385cc7e316aa20f08fc03f5766da1c08b972f39d
             market_cap: 1466100000
             headquarters: 'San Francisco, California'
             rank: 192
             stars: 552
             license: Apache-2.0
+            latest_commit_date: '2017-11-20T10:41:46Z'
             description: Knox is a secret management service
             cncf_member: true
           - item:
@@ -996,11 +1059,13 @@ landscape:
             logo: 'https://hyzxph.media.zestyio.com/blog-vault-list.svg'
             twitter: 'https://twitter.com/HashiCorp'
             crunchbase: 'https://www.crunchbase.com/organization/hashicorp'
+            first_commit_date: '2015-02-25T00:15:59Z'
             market_cap: 74175000
             headquarters: 'San Francisco, California'
             rank: 949
-            stars: 8420
+            stars: 8447
             license: MPL-2.0
+            latest_commit_date: '2018-02-07T14:38:11Z'
             description: >-
               A tool for secrets management, encryption as a service, and
               privileged access management
@@ -1032,11 +1097,13 @@ landscape:
             logo: 'https://spiffe.io/img/spiffe-logo-color-basic.svg'
             twitter: 'https://twitter.com/spiffeio'
             crunchbase: 'https://www.crunchbase.com/organization/scytale-io'
+            first_commit_date: '2017-01-31T06:47:40Z'
             market_cap: N/A
             headquarters: 'San Francisco, California'
             rank: 73404
             stars: 164
             license: Unknown License
+            latest_commit_date: '2018-02-02T01:51:56Z'
             description: The SPIFFE Project
             cncf_member: false
           - item:
@@ -1048,11 +1115,13 @@ landscape:
               https://github.com/spiffe/spire/blob/master/doc/images/spire_logo.png
             twitter: 'https://twitter.com/scytale_io'
             crunchbase: 'https://www.crunchbase.com/organization/scytale-io'
+            first_commit_date: '2017-03-23T07:01:54Z'
             market_cap: N/A
             headquarters: 'San Francisco, California'
             rank: 73404
             stars: 135
             license: Unknown License
+            latest_commit_date: '2018-02-06T16:49:28Z'
             description: The SPIFFE Runtime Environment
             cncf_member: false
   - category:
@@ -1070,11 +1139,13 @@ landscape:
               https://i2.wp.com/ceph.com/wp-content/uploads/2016/07/Ceph_Logo_Stacked_RGB_120411_fa.png
             twitter: 'https://twitter.com/Ceph'
             crunchbase: 'https://www.crunchbase.com/organization/red-hat'
+            first_commit_date: '2001-04-28T22:22:35Z'
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
-            stars: 4091
+            stars: 4099
             license: Unknown License
+            latest_commit_date: '2018-02-07T17:54:50Z'
             description: 'Ceph is a distributed object, block, and file storage platform'
             cncf_member: true
           - item:
@@ -1085,11 +1156,13 @@ landscape:
             logo: 'http://community.redhat.com/images/branding/logo-gluster.png'
             twitter: 'https://twitter.com/gluster'
             crunchbase: 'https://www.crunchbase.com/organization/red-hat'
+            first_commit_date: '2009-02-18T11:31:30Z'
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
-            stars: 1439
+            stars: 1444
             license: Unknown License
+            latest_commit_date: '2018-02-06T09:50:16Z'
             description: >-
               Gluster Filesystem - (this is only a public mirror, see the README
               for contributing)
@@ -1099,14 +1172,17 @@ landscape:
             organization: Apache Software Foundation
             homepage_url: 'http://hadoop.apache.org/'
             repo_url: 'https://github.com/apache/hadoop-hdfs'
+            branch: trunk
             logo: 'http://previsna.com/bilder/hadoop-hdfs.png'
             twitter: 'https://twitter.com/TheASF'
             crunchbase: 'https://www.crunchbase.com/organization/apache'
+            first_commit_date: '2009-05-19T04:20:40Z'
             market_cap: N/A
             headquarters: 'Forest Hill, Maryland'
             rank: 84483
             stars: 70
             license: Apache-2.0
+            latest_commit_date: '2011-06-12T18:37:33Z'
             description: Mirror of Apache Hadoop HDFS
             cncf_member: false
           - item:
@@ -1118,11 +1194,13 @@ landscape:
               https://www.cloudfoundry.org/wp-content/uploads/2017/01/Minio-logo_1_1_.png
             twitter: 'https://twitter.com/minio'
             crunchbase: 'https://www.crunchbase.com/organization/minio-inc'
+            first_commit_date: '2014-10-31T04:48:30Z'
             market_cap: 23300000
             headquarters: 'Palo Alto, California'
             rank: 4812
-            stars: 9970
+            stars: 9994
             license: Apache-2.0
+            latest_commit_date: '2018-02-06T23:37:48Z'
             description: >-
               Minio is an open source object storage server compatible with
               Amazon S3 APIs
@@ -1186,11 +1264,13 @@ landscape:
               https://www.storagenewsletter.com/wp-content/uploads/2016/06/EMC_LIBSTORAGE_LOGO.jpg
             twitter: 'https://twitter.com/EMCcorp'
             crunchbase: 'https://www.crunchbase.com/organization/dell-emc'
+            first_commit_date: '2015-04-14T03:57:41Z'
             market_cap: N/A
             headquarters: 'Hopkinton, Massachusetts'
             rank: 17932
-            stars: 1048
+            stars: 1053
             license: Apache-2.0
+            latest_commit_date: '2017-12-19T22:26:34Z'
             description: >-
               REX-Ray is a container storage orchestration engine enabling
               persistence for cloud native workloads
@@ -1204,11 +1284,13 @@ landscape:
               http://p6.zdassets.com/hc/settings_assets/150338/200244868/L3CnsFFWx4OJFUp2C7uUWA-joyentLogo.png
             twitter: 'https://twitter.com/joyent'
             crunchbase: 'https://www.crunchbase.com/organization/joyent'
+            first_commit_date: '2014-09-02T22:15:52Z'
             market_cap: 130999998
             headquarters: 'San Francisco, California'
             rank: 1644
-            stars: 417
+            stars: 418
             license: MPL-2.0
+            latest_commit_date: '2017-11-11T02:10:06Z'
             description: >-
               Manta, Triton’s object storage and converged analytics solutions,
               is a HTTP-based object store that uses OS containers to allow
@@ -1242,11 +1324,13 @@ landscape:
             twitter: 'https://twitter.com/rook_io'
             crunchbase: >-
               https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            first_commit_date: '2016-07-08T22:44:29Z'
             market_cap: N/A
             headquarters: 'San Francisco, California'
             rank: 63493
-            stars: 2178
+            stars: 2213
             license: Apache-2.0
+            latest_commit_date: '2018-02-04T15:02:07Z'
             description: >-
               File, Block, and Object Storage Services for your Cloud-Native
               Environment
@@ -1310,11 +1394,13 @@ landscape:
             logo: 'https://www.infinit.sh/images/logotype.png'
             twitter: 'https://twitter.com/infinit_sh'
             crunchbase: 'https://www.crunchbase.com/organization/infinit'
+            first_commit_date: '2009-07-15T22:34:41Z'
             market_cap: 2240000
             headquarters: 'Paris, France'
             rank: 19911
             stars: 364
             license: Apache-2.0
+            latest_commit_date: '2017-09-08T12:45:39Z'
             description: The Elle coroutine-based asynchronous C++ development framework.
             cncf_member: false
           - item:
@@ -1340,11 +1426,13 @@ landscape:
             logo: >-
               https://camo.githubusercontent.com/9253d4191c8b4a21e7b2960199c9fee4dab14256/68747470733a2f2f6c656f2d70726f6a6563742e6e65742f6c656f66732f646f63732d6f6c642f5f7374617469632f6c656f66732d6c6f676f2d736d616c6c2e706e67
             twitter: 'https://twitter.com/LeoFastStorage'
+            first_commit_date: '2012-06-06T15:29:16Z'
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
-            stars: 1120
+            stars: 1124
             license: Apache-2.0
+            latest_commit_date: '2018-01-26T07:28:51Z'
             description: The LeoFS Storage System
             cncf_member: false
           - item:
@@ -1353,11 +1441,13 @@ landscape:
             homepage_url: 'https://sheepdog.github.io/sheepdog/'
             repo_url: 'https://github.com/sheepdog/sheepdog'
             logo: 'https://avatars3.githubusercontent.com/u/4846685'
+            first_commit_date: '2009-11-16T18:03:03Z'
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
             stars: 700
             license: GPL-2.0
+            latest_commit_date: '2018-01-16T07:24:11Z'
             description: Distributed Storage System for QEMU
             cncf_member: false
           - item:
@@ -1368,11 +1458,13 @@ landscape:
             logo: 'https://dev.acquia.com/sites/default/files/blog/grid-rexray.png'
             twitter: 'https://twitter.com/codedellemc'
             crunchbase: 'https://www.crunchbase.com/organization/dell-emc'
+            first_commit_date: '2015-04-14T03:57:41Z'
             market_cap: N/A
             headquarters: 'Hopkinton, Massachusetts'
             rank: 17932
-            stars: 1048
+            stars: 1053
             license: Apache-2.0
+            latest_commit_date: '2017-12-19T22:26:34Z'
             description: >-
               REX-Ray is a container storage orchestration engine enabling
               persistence for cloud native workloads
@@ -1437,11 +1529,13 @@ landscape:
             logo: >-
               https://www.opensds.io/wp-content/uploads/sites/18/2016/11/logo_opensds.png
             crunchbase: 'https://www.crunchbase.com/organization/opensds'
+            first_commit_date: '2016-12-22T00:27:55Z'
             market_cap: N/A
             headquarters: N/A
             rank: N/A
-            stars: 46
+            stars: 48
             license: Apache-2.0
+            latest_commit_date: '2018-02-06T02:45:46Z'
             description: 'Hotpot: OpenSDS Controller Project'
             cncf_member: false
           - item:
@@ -1453,11 +1547,13 @@ landscape:
               https://github.com/openebs/chitrakala/blob/master/logo/png/logo-01.png
             twitter: 'https://twitter.com/openebs'
             crunchbase: 'https://www.crunchbase.com/organization/openebs'
+            first_commit_date: '2016-08-01T09:33:33Z'
             market_cap: N/A
             headquarters: 'Bengaluru, India'
             rank: N/A
-            stars: 4637
+            stars: 4914
             license: Apache-2.0
+            latest_commit_date: '2018-02-07T17:57:09Z'
             description: >-
               OpenEBS is containerized block storage written in Go for cloud
               native and other environments w/ per container (or pod) QoS SLAs,
@@ -1488,11 +1584,13 @@ landscape:
             logo: 'http://d.not.mn/OpenStack_Project_Swift_vertical.png'
             twitter: 'https://twitter.com/swiftstack?lang=en'
             crunchbase: 'https://www.crunchbase.com/organization/openstack'
+            first_commit_date: '2010-07-08T01:37:44Z'
             market_cap: N/A
             headquarters: 'Austin, Texas'
             rank: 60056
-            stars: 1665
+            stars: 1666
             license: Apache-2.0
+            latest_commit_date: '2018-02-07T05:50:12Z'
             description: OpenStack Storage (Swift)
             cncf_member: false
       - subcategory:
@@ -1508,11 +1606,13 @@ landscape:
               https://raw.githubusercontent.com/cncf/artwork/master/rkt/stacked/color/rkt-stacked-color.png
             crunchbase: >-
               https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            first_commit_date: '2014-01-19T20:25:11Z'
             market_cap: N/A
             headquarters: 'San Francisco, California'
             rank: 63493
-            stars: 7756
+            stars: 7759
             license: Apache-2.0
+            latest_commit_date: '2018-01-15T16:29:15Z'
             description: >-
               rkt is a pod-native container engine for Linux. It is composable,
               secure, and built on standards.
@@ -1526,11 +1626,13 @@ landscape:
               https://www.opencontainers.org/wp-content/uploads/sites/10/2016/10/logo_oci.png
             twitter: 'https://twitter.com/OCI_ORG'
             crunchbase: 'https://www.crunchbase.com/organization/open-container-initiative'
+            first_commit_date: '2014-02-19T00:56:11Z'
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
-            stars: 4436
+            stars: 4444
             license: Apache-2.0
+            latest_commit_date: '2018-02-07T18:09:35Z'
             description: >-
               CLI tool for spawning and running containers according to the OCI
               specification
@@ -1543,11 +1645,13 @@ landscape:
             logo: 'http://people.canonical.com/~kirkland/lxd.png'
             twitter: 'https://twitter.com/Canonical'
             crunchbase: 'https://www.crunchbase.com/organization/canonical-ltd'
+            first_commit_date: '2014-11-05T15:09:28Z'
             market_cap: N/A
             headquarters: 'London, United Kingdom'
             rank: 42700
-            stars: 1642
+            stars: 1646
             license: Apache-2.0
+            latest_commit_date: '2018-02-02T15:44:44Z'
             description: Daemon based on liblxc offering a REST API to manage containers
             cncf_member: true
           - item:
@@ -1557,11 +1661,13 @@ landscape:
             logo: >-
               https://user-images.githubusercontent.com/1701782/29455671-ab0078ca-8444-11e7-8a7c-f3b41fa1954d.png
             crunchbase: 'https://www.crunchbase.com/organization/hyper-4'
+            first_commit_date: '2015-07-29T07:12:14Z'
             market_cap: N/A
             headquarters: 'New York, New York'
             rank: 85330
-            stars: 449
+            stars: 450
             license: Apache-2.0
+            latest_commit_date: '2018-02-01T13:55:47Z'
             description: Hypervisor-based Runtime for OCI
             cncf_member: false
           - item:
@@ -1573,11 +1679,13 @@ landscape:
               https://github.com/alexcontini/alexcontini.github.io/blob/master/Smart-OS-logo_new-01.png?raw=true
             twitter: 'https://twitter.com/joyent'
             crunchbase: 'https://www.crunchbase.com/organization/joyent'
+            first_commit_date: '2010-10-29T00:21:22Z'
             market_cap: 130999998
             headquarters: 'San Francisco, California'
             rank: 1644
             stars: 1232
             license: Unknown License
+            latest_commit_date: '2018-02-05T13:03:35Z'
             description: >-
               For more information, please see http://smartos.org/ For any
               questions that aren't answered there, please join the SmartOS
@@ -1593,11 +1701,13 @@ landscape:
               https://raw.githubusercontent.com/cncf/artwork/master/containerd/stacked/color/containerd-stacked-color.png
             crunchbase: >-
               https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            first_commit_date: '2015-11-05T23:29:53Z'
             market_cap: N/A
             headquarters: 'San Francisco, California'
             rank: 63493
-            stars: 2244
+            stars: 2252
             license: Unknown License
+            latest_commit_date: '2018-02-07T15:38:32Z'
             description: An open and reliable container runtime
             cncf_member: true
           - item:
@@ -1609,11 +1719,13 @@ landscape:
               https://raw.githubusercontent.com/kubernetes-incubator/cri-o/master/logo/crio-logo.png
             crunchbase: >-
               https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            first_commit_date: '2016-09-09T19:56:31Z'
             market_cap: N/A
             headquarters: 'San Francisco, California'
             rank: 63493
-            stars: 890
+            stars: 898
             license: Apache-2.0
+            latest_commit_date: '2018-02-06T14:48:04Z'
             description: >-
               Open Container Initiative-based implementation of Kubernetes
               Container Runtime Interface
@@ -1627,11 +1739,13 @@ landscape:
             stock ticker: INTC
             twitter: 'https://twitter.com/clearlinux/'
             crunchbase: 'https://www.crunchbase.com/organization/intel'
+            first_commit_date: '2017-01-16T11:00:58Z'
             market_cap: 2510000
             headquarters: 'Santa Clara, California'
             rank: 9708
             stars: 411
             license: Apache-2.0
+            latest_commit_date: '2018-02-07T15:20:56Z'
             description: >-
               OCI (Open Containers Initiative) compatible runtime using Virtual
               Machines
@@ -1643,11 +1757,13 @@ landscape:
             repo_url: 'https://github.com/container-storage-interface/spec'
             logo: >-
               https://github.com/container-storage-interface/artwork/blob/master/logo/PNG/01.png
+            first_commit_date: '2017-05-19T04:23:40Z'
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
             stars: 157
             license: Apache-2.0
+            latest_commit_date: '2018-01-31T18:32:51Z'
             description: Container Storage Interface (CSI) Specification.
             cncf_member: false
       - subcategory:
@@ -1710,11 +1826,13 @@ landscape:
               https://www.projectcalico.org/wp-content/uploads/2015/03/Project-Calico-logo-1000px.png
             twitter: 'https://twitter.com/projectcalico'
             crunchbase: 'https://www.crunchbase.com/organization/tigera'
+            first_commit_date: '2016-07-21T15:45:54Z'
             market_cap: 23000000
             headquarters: 'San Francisco, California'
             rank: 153
-            stars: 363
+            stars: 365
             license: Apache-2.0
+            latest_commit_date: '2018-02-07T00:13:50Z'
             description: Cloud native application connectivity and network policy
             cncf_member: true
           - item:
@@ -1726,11 +1844,13 @@ landscape:
               https://raw.githubusercontent.com/projectcalico/canal/master/logos/canal-logo-type-full-color%20328x184.png
             twitter: 'https://twitter.com/projectcalico'
             crunchbase: 'https://www.crunchbase.com/organization/tigera'
+            first_commit_date: '2016-05-06T13:38:37Z'
             market_cap: 23000000
             headquarters: 'San Francisco, California'
             rank: 153
             stars: 474
             license: Unknown License
+            latest_commit_date: '2018-01-31T18:10:44Z'
             description: Policy based networking for cloud native applications
             cncf_member: true
           - item:
@@ -1742,11 +1862,13 @@ landscape:
             stock_ticker: CSCO
             twitter: 'https://twitter.com/projectcontiv'
             crunchbase: 'https://www.crunchbase.com/organization/cisco'
+            first_commit_date: '2014-12-13T00:27:33Z'
             market_cap: 2500000
             headquarters: 'San Jose, California'
             rank: 705
-            stars: 335
+            stars: 336
             license: Unknown License
+            latest_commit_date: '2018-01-26T22:52:20Z'
             description: Container networking for various use cases
             cncf_member: true
           - item:
@@ -1757,11 +1879,13 @@ landscape:
             logo: 'https://avatars2.githubusercontent.com/u/21054566?s=400&v=4'
             twitter: 'https://twitter.com/ciliumproject'
             crunchbase: 'https://www.crunchbase.com/organization/covalent-io'
+            first_commit_date: '2015-12-16T12:33:31Z'
             market_cap: N/A
             headquarters: N/A
             rank: 69525
-            stars: 1397
+            stars: 1416
             license: Apache-2.0
+            latest_commit_date: '2018-02-06T23:31:37Z'
             description: API-aware Networking and Security for Containers based on BPF
             cncf_member: false
           - item:
@@ -1790,11 +1914,13 @@ landscape:
               https://raw.githubusercontent.com/coreos/flannel/master/logos/flannel-horizontal-color.png
             twitter: 'https://twitter.com/coreos'
             crunchbase: 'https://www.crunchbase.com/organization/red-hat'
+            first_commit_date: '2014-07-10T17:45:29Z'
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
-            stars: 2748
+            stars: 2756
             license: Apache-2.0
+            latest_commit_date: '2018-02-02T19:26:33Z'
             description: >-
               flannel is a network fabric for containers, designed for
               Kubernetes
@@ -1808,11 +1934,13 @@ landscape:
               https://www.midokura.com//wp-content/uploads/2012/04/midonet-logo_final.png
             twitter: 'https://twitter.com/midokura'
             crunchbase: 'https://www.crunchbase.com/organization/midonet'
+            first_commit_date: '2011-06-20T01:25:58Z'
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
-            stars: 182
+            stars: 181
             license: Unknown License
+            latest_commit_date: '2018-02-05T11:19:23Z'
             description: >-
               MidoNet is an Open Source network virtualization system for
               Openstack clouds
@@ -1858,11 +1986,13 @@ landscape:
             logo: ./src/hosted_logos/open-contrail.png
             twitter: 'https://twitter.com/OpenContrail'
             crunchbase: 'https://www.crunchbase.com/organization/opencontrail'
+            first_commit_date: '2013-08-24T18:40:35Z'
             market_cap: N/A
             headquarters: 'Sunnyvale, California'
             rank: N/A
             stars: 338
             license: Apache-2.0
+            latest_commit_date: '2018-02-05T15:07:48Z'
             description: Contrail Controller
             cncf_member: false
           - item:
@@ -1873,11 +2003,13 @@ landscape:
             logo: 'http://openvswitch.org/assets/vswitch.png'
             twitter: 'https://twitter.com/openvswitch'
             crunchbase: 'https://www.crunchbase.com/organization/open-vswitch'
+            first_commit_date: '2009-06-05T18:18:33Z'
             market_cap: N/A
             headquarters: N/A
             rank: N/A
-            stars: 1482
+            stars: 1484
             license: Unknown License
+            latest_commit_date: '2018-02-02T21:49:37Z'
             description: Open vSwitch
             cncf_member: false
           - item:
@@ -1903,11 +2035,13 @@ landscape:
             homepage_url: 'http://romana.io/'
             repo_url: 'https://github.com/romana/romana'
             logo: 'http://romana.io/images/Logo.250.png'
+            first_commit_date: '2015-11-16T02:02:24Z'
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
-            stars: 161
+            stars: 162
             license: Apache-2.0
+            latest_commit_date: '2018-02-07T09:41:07Z'
             description: >-
               The Romana Project - Installation scripts, documentation, issue
               tracker and wiki. Start here.
@@ -1937,11 +2071,13 @@ landscape:
               https://raw.githubusercontent.com/cncf/artwork/master/cni/stacked/color/cni-stacked-color.png
             crunchbase: >-
               https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            first_commit_date: '2015-04-05T03:35:49Z'
             market_cap: N/A
             headquarters: 'San Francisco, California'
             rank: 63493
-            stars: 1111
+            stars: 1116
             license: Apache-2.0
+            latest_commit_date: '2018-02-07T15:47:58Z'
             description: Container Network Interface - networking for Linux containers
             cncf_member: true
           - item:
@@ -1953,11 +2089,13 @@ landscape:
               http://events17.linuxfoundation.org/sites/events/files/styles/sponsor_logo_large/public/sponsor-logos/sponsor-weaveworks_1.png
             twitter: 'https://twitter.com/weaveworks'
             crunchbase: 'https://www.crunchbase.com/organization/weaveworks'
+            first_commit_date: '2014-08-18T16:55:26Z'
             market_cap: 20000000
             headquarters: 'London, United Kingdom'
             rank: 5353
-            stars: 4931
+            stars: 4934
             license: Apache-2.0
+            latest_commit_date: '2018-02-04T16:29:14Z'
             description: 'Simple, resilient multi-host Docker networking and more.'
             cncf_member: true
   - category:
@@ -1980,11 +2118,13 @@ landscape:
             twitter: 'https://twitter.com/kubernetesio'
             crunchbase: >-
               https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            first_commit_date: '2014-06-06T23:40:48Z'
             market_cap: N/A
             headquarters: 'San Francisco, California'
             rank: 63493
-            stars: 32144
+            stars: 32275
             license: Apache-2.0
+            latest_commit_date: '2018-02-07T18:01:32Z'
             cncf_member: true
           - item:
             name: Amazon ECS
@@ -2011,11 +2151,13 @@ landscape:
             twitter: 'https://twitter.com/HashiCorp'
             crunchbase: 'https://www.crunchbase.com/organization/hashicorp'
             logo: 'https://hyzxph.media.zestyio.com/blog-nomad-list.svg'
+            first_commit_date: '2015-06-01T10:21:00Z'
             market_cap: 74175000
             headquarters: 'San Francisco, California'
             rank: 949
-            stars: 3230
+            stars: 3231
             license: MPL-2.0
+            latest_commit_date: '2018-02-07T17:48:57Z'
             description: >-
               Nomad is a flexible, enterprise-grade cluster scheduler designed
               to easily integrate into existing workflows. Nomad can run a
@@ -2032,11 +2174,13 @@ landscape:
               https://mapr.com/blog/my-experience-running-docker-containers-on-mesos/assets/apache-mesos-logo.jpg
             twitter: 'https://twitter.com/ApacheMesos'
             crunchbase: 'https://www.crunchbase.com/organization/apache'
+            first_commit_date: '2011-04-27T06:59:39Z'
             market_cap: N/A
             headquarters: 'Forest Hill, Maryland'
             rank: 84483
-            stars: 3527
+            stars: 3532
             license: Apache-2.0
+            latest_commit_date: '2018-02-07T15:02:17Z'
             description: Mirror of Apache Mesos
             cncf_member: false
           - item:
@@ -2066,11 +2210,13 @@ landscape:
             logo: 'https://raw.githubusercontent.com/docker/swarm/master/logo.png'
             twitter: 'https://twitter.com/Docker'
             crunchbase: 'https://www.crunchbase.com/organization/docker'
+            first_commit_date: '2014-03-11T23:45:58Z'
             market_cap: 242766694
             headquarters: 'San Francisco, California'
             rank: 471
-            stars: 4984
+            stars: 4991
             license: Apache-2.0
+            latest_commit_date: '2018-01-26T17:59:49Z'
             description: 'Swarm: a Docker-native clustering system'
             cncf_member: true
       - subcategory:
@@ -2085,11 +2231,13 @@ landscape:
               https://n40lab.files.wordpress.com/2016/08/etcd1.png?w=163&h=217&crop=1
             twitter: 'https://twitter.com/coreos/'
             crunchbase: 'https://www.crunchbase.com/organization/red-hat'
+            first_commit_date: '2013-06-07T00:43:32Z'
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
-            stars: 16698
+            stars: 16746
             license: Apache-2.0
+            latest_commit_date: '2018-02-07T04:00:50Z'
             description: >-
               Distributed reliable key-value store for the most critical data of
               a distributed system
@@ -2103,11 +2251,13 @@ landscape:
               https://www.datocms-assets.com/2885/1506456506-blog-consul-list.svg
             twitter: 'https://twitter.com/HashiCorp'
             crunchbase: 'https://www.crunchbase.com/organization/hashicorp'
+            first_commit_date: '2013-11-04T22:15:27Z'
             market_cap: 74175000
             headquarters: 'San Francisco, California'
             rank: 949
-            stars: 11301
+            stars: 11333
             license: MPL-2.0
+            latest_commit_date: '2018-02-07T16:08:02Z'
             description: >-
               Consul is a distributed, highly available, and data center aware
               solution to connect and configure applications across dynamic,
@@ -2122,11 +2272,13 @@ landscape:
               https://www.opsview.com/sites/default/files/Zookeeper%20Logo%20REV.png
             twitter: 'https://twitter.com/TheASF'
             crunchbase: 'https://www.crunchbase.com/organization/apache'
+            first_commit_date: '2007-11-03T04:41:15Z'
             market_cap: N/A
             headquarters: 'Forest Hill, Maryland'
             rank: 84483
-            stars: 3920
+            stars: 3937
             license: Apache-2.0
+            latest_commit_date: '2018-02-07T00:05:18Z'
             description: Mirror of Apache Hadoop ZooKeeper
             cncf_member: false
           - item:
@@ -2138,11 +2290,13 @@ landscape:
               https://github.com/alexcontini/alexcontini.github.io/blob/master/ContainerPilot-logo%20(1)-01.png?raw=true
             twitter: 'https://twitter.com/joyent'
             crunchbase: 'https://www.crunchbase.com/organization/joyent'
+            first_commit_date: '2015-10-13T14:59:28Z'
             market_cap: 130999998
             headquarters: 'San Francisco, California'
             rank: 1644
             stars: 858
             license: MPL-2.0
+            latest_commit_date: '2018-01-11T17:21:41Z'
             description: >-
               A service for autodiscovery and configuration of applications
               running in containers
@@ -2153,11 +2307,13 @@ landscape:
             homepage_url: 'https://github.com/skynetservices/skydns'
             repo_url: 'https://github.com/skynetservices/skydns'
             logo: 'https://memz.co/wp-content/uploads/2016/07/skydns.jpg'
+            first_commit_date: '2014-04-22T06:50:27Z'
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
-            stars: 1718
+            stars: 1722
             license: MIT
+            latest_commit_date: '2018-01-12T21:53:20Z'
             description: DNS service discovery for etcd
             cncf_member: false
           - item:
@@ -2171,11 +2327,13 @@ landscape:
             twitter: 'https://twitter.com/corednsio'
             crunchbase: >-
               https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            first_commit_date: '2016-03-18T20:57:35Z'
             market_cap: N/A
             headquarters: 'San Francisco, California'
             rank: 63493
-            stars: 1585
+            stars: 1593
             license: Apache-2.0
+            latest_commit_date: '2018-02-07T16:31:08Z'
             description: CoreDNS is a DNS server that chains plugins
             cncf_member: true
           - item:
@@ -2186,11 +2344,13 @@ landscape:
             logo: 'https://avatars2.githubusercontent.com/u/8484931'
             twitter: 'https://twitter.com/gliderlabs/'
             crunchbase: 'https://www.crunchbase.com/organization/glider-labs'
+            first_commit_date: '2014-06-07T20:44:57Z'
             market_cap: N/A
             headquarters: 'Austin, Texas'
             rank: N/A
-            stars: 3458
+            stars: 3459
             license: MIT
+            latest_commit_date: '2017-08-04T01:04:59Z'
             description: Service registry bridge for Docker with pluggable adapters
             cncf_member: false
           - item:
@@ -2200,11 +2360,14 @@ landscape:
             repo_url: 'https://github.com/airbnb/smartstack-cookbook'
             logo: ./src/hosted_logos/smart-stack.png
             crunchbase: 'https://www.crunchbase.com/organization/airbnb'
+            first_commit_date: >-
+              /airbnb/smartstack-cookbook/commit/ce34ab7d2ee2488da97d68036957c55fd725a15e
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
             stars: 205
             license: MIT
+            latest_commit_date: '2015-03-03T05:20:32Z'
             description: The chef recipes for running and testing Airbnb's SmartStack
             cncf_member: false
           - item:
@@ -2215,11 +2378,13 @@ landscape:
             logo: >-
               http://thriftyzone.thriftysigns.netdna-cdn.com/image/cache/data/decals/travel/uber-logo-decal-sticker-uber-logo-500x500.png
             crunchbase: 'https://www.crunchbase.com/organization/uber'
+            first_commit_date: '2015-08-20T16:22:09Z'
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
             stars: 373
             license: MIT
+            latest_commit_date: '2016-10-24T21:17:40Z'
             description: >-
               Service discovery and routing for large scale microservice
               operations
@@ -2231,11 +2396,13 @@ landscape:
             repo_url: 'https://github.com/Netflix/eureka'
             logo: ./src/hosted_logos/netflix-eureka.png
             crunchbase: 'https://www.crunchbase.com/organization/netflix'
+            first_commit_date: '2001-01-03T18:11:32Z'
             market_cap: 2803735952
             headquarters: 'Los Gatos, California'
             rank: 5
-            stars: 4739
+            stars: 4760
             license: Apache-2.0
+            latest_commit_date: '2018-01-30T18:51:42Z'
             description: >-
               AWS Service registry for resilient mid-tier load balancing and
               failover.
@@ -2249,11 +2416,13 @@ landscape:
               http://logodatabases.com/wp-content/uploads/2012/05/vmware-logo-black.jpg
             twitter: 'https://twitter.com/VMware'
             crunchbase: 'https://www.crunchbase.com/organization/vmware'
+            first_commit_date: '2015-06-11T17:05:15Z'
             market_cap: 393500000
             headquarters: 'Palo Alto, California'
             rank: 5559
             stars: 466
             license: Unknown License
+            latest_commit_date: '2017-09-06T05:34:19Z'
             description: >-
               A strongly consistent distributed coordination system, built using
               proven protocols & implemented in Rust.
@@ -2270,11 +2439,13 @@ landscape:
               https://www.3scale.net/wp-content/uploads/2015/01/3scale-by-redhat.png
             twitter: 'https://twitter.com/3scale'
             crunchbase: 'https://www.crunchbase.com/organization/red-hat'
+            first_commit_date: '2016-03-15T18:20:48Z'
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
             stars: 65
             license: Apache-2.0
+            latest_commit_date: '2018-02-07T16:36:53Z'
             description: 3scale api gateway reloaded
             cncf_member: true
           - item:
@@ -2286,11 +2457,13 @@ landscape:
               https://cdn-1.wp.nginx.com/wp-content/themes/nginx-theme/assets/img/logo.png
             twitter: 'https://twitter.com/nginx'
             crunchbase: 'https://www.crunchbase.com/organization/nginx'
+            first_commit_date: '2002-08-06T16:39:45Z'
             market_cap: 41000000
             headquarters: 'San Francisco, California'
             rank: 3518
-            stars: 5187
+            stars: 5211
             license: Unknown License
+            latest_commit_date: '2018-02-07T13:44:29Z'
             description: >-
               An official read-only mirror of http://hg.nginx.org/nginx/ which
               is updated hourly. Pull requests on GitHub cannot be accepted and
@@ -2306,11 +2479,13 @@ landscape:
             logo: 'https://www.esds.co.in/blog/wp-content/uploads/2016/05/HAProxy.png'
             twitter: 'https://twitter.com/haproxy_tech'
             crunchbase: 'https://www.crunchbase.com/organization/haproxy-technologies'
+            first_commit_date: '2005-12-17T11:21:26Z'
             market_cap: N/A
             headquarters: 'Waltham, Massachusetts'
             rank: 86853
-            stars: 873
+            stars: 874
             license: Unknown License
+            latest_commit_date: '2016-12-10T01:56:52Z'
             description: >-
               UNOFFICIAL fork of haproxy development repository - ISSUE REPORTS
               ARE IGNORED!
@@ -2326,11 +2501,13 @@ landscape:
             twitter: 'https://twitter.com/linkerd'
             crunchbase: >-
               https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            first_commit_date: '2016-01-13T22:17:47Z'
             market_cap: N/A
             headquarters: 'San Francisco, California'
             rank: 63493
-            stars: 3502
+            stars: 3515
             license: Apache-2.0
+            latest_commit_date: '2018-02-02T22:09:02Z'
             description: Production-grade feature-rich service mesh for any platform
             cncf_member: true
           - item:
@@ -2345,11 +2522,13 @@ landscape:
             twitter: 'https://twitter.com/envoyproxy'
             crunchbase: >-
               https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            first_commit_date: '2016-08-08T15:07:25Z'
             market_cap: N/A
             headquarters: 'San Francisco, California'
             rank: 63493
-            stars: 3786
+            stars: 3801
             license: Apache-2.0
+            latest_commit_date: '2018-02-07T17:58:08Z'
             description: C++ front/service proxy
             cncf_member: true
           - item:
@@ -2361,11 +2540,13 @@ landscape:
               https://www.datawire.io/wp-content/uploads/2017/05/ambassador_logo@2x-1.png
             twitter: 'https://twitter.com/datawireio'
             crunchbase: 'https://www.crunchbase.com/organization/datawire'
+            first_commit_date: '2017-03-30T19:54:17Z'
             market_cap: 250000
             headquarters: 'Cambridge, Massachusetts'
             rank: 20948
-            stars: 314
+            stars: 318
             license: Apache-2.0
+            latest_commit_date: '2018-02-06T21:30:40Z'
             description: >-
               Kubernetes-native API gateway for microservices built on the Envoy
               Proxy
@@ -2379,11 +2560,13 @@ landscape:
               https://raw.githubusercontent.com/containous/traefik/master/docs/img/traefik.logo.png
             twitter: 'https://twitter.com/traefikproxy'
             crunchbase: 'https://www.crunchbase.com/organization/containous'
+            first_commit_date: '2015-08-28T16:09:22Z'
             market_cap: 1000000
             headquarters: 'Lyon, France'
             rank: 23352
-            stars: 12779
+            stars: 12848
             license: MIT
+            latest_commit_date: '2018-02-07T14:24:44Z'
             description: 'Træfik, a modern reverse proxy'
             cncf_member: false
           - item:
@@ -2430,11 +2613,13 @@ landscape:
             twitter: 'https://twitter.com/grpcio'
             crunchbase: >-
               https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            first_commit_date: '2014-11-22T00:16:16Z'
             market_cap: N/A
             headquarters: 'San Francisco, California'
             rank: 63493
-            stars: 13471
+            stars: 13524
             license: Apache-2.0
+            latest_commit_date: '2018-02-07T04:40:21Z'
             description: 'The C based gRPC (C++, Python, Ruby, Objective-C, PHP, C#)'
             cncf_member: true
           - item:
@@ -2446,11 +2631,13 @@ landscape:
               https://raw.githubusercontent.com/ServiceStack/Assets/master/img/livedemos/techstacks/apache-thrift-logo.png
             twitter: 'https://twitter.com/TheASF'
             crunchbase: 'https://www.crunchbase.com/organization/apache'
+            first_commit_date: '2006-05-24T21:45:31Z'
             market_cap: N/A
             headquarters: 'Forest Hill, Maryland'
             rank: 84483
-            stars: 4403
+            stars: 4412
             license: Apache-2.0
+            latest_commit_date: '2018-02-01T22:38:10Z'
             description: Mirror of Apache Thrift
             cncf_member: false
           - item:
@@ -2461,11 +2648,13 @@ landscape:
             logo: 'https://avro.apache.org/images/avro-logo.png'
             twitter: 'https://twitter.com/TheASF'
             crunchbase: 'https://www.crunchbase.com/organization/apache'
+            first_commit_date: '2009-04-09T18:13:31Z'
             market_cap: N/A
             headquarters: 'Forest Hill, Maryland'
             rank: 84483
             stars: 844
             license: Apache-2.0
+            latest_commit_date: '2016-11-10T22:07:39Z'
             description: Mirror of Apache Avro
             cncf_member: false
           - item:
@@ -2476,11 +2665,13 @@ landscape:
             logo: ./src/hosted_logos/vamp.png
             twitter: 'https://twitter.com/vamp_io'
             crunchbase: 'https://www.crunchbase.com/organization/magnetic-io'
+            first_commit_date: '2015-02-04T14:53:59Z'
             market_cap: 635000
             headquarters: 'Amsterdam, The Netherlands'
             rank: 33078
             stars: 572
             license: Apache-2.0
+            latest_commit_date: '2018-02-01T09:55:28Z'
             description: Vamp - canary releasing and autoscaling for microservice systems
             cncf_member: false
           - item:
@@ -2492,11 +2683,13 @@ landscape:
               http://events17.linuxfoundation.org/sites/events/files/styles/sponsor_logo_large/public/sponsor-logos/sponsor-weaveworks_1.png
             twitter: 'https://twitter.com/weaveworks'
             crunchbase: 'https://www.crunchbase.com/organization/weaveworks'
+            first_commit_date: '2016-07-07T10:55:14Z'
             market_cap: 20000000
             headquarters: 'London, United Kingdom'
             rank: 5353
-            stars: 335
+            stars: 340
             license: Apache-2.0
+            latest_commit_date: '2018-02-07T17:27:25Z'
             description: A tool for deploying container images to Kubernetes services
             cncf_member: true
           - item:
@@ -2508,11 +2701,13 @@ landscape:
               https://camo.githubusercontent.com/9f17544e4c068845f6bc81053b9eb9b640a63afe/68747470733a2f2f636c2e6c792f3033305631753032303930512f756e6e616d65642e706e67
             twitter: 'https://twitter.com/thekonginc'
             crunchbase: 'https://www.crunchbase.com/organization/mashape'
+            first_commit_date: '2014-11-17T23:56:08Z'
             market_cap: 26101000
             headquarters: 'San Francisco, California'
             rank: 4031
-            stars: 14234
+            stars: 14291
             license: Apache-2.0
+            latest_commit_date: '2018-02-05T18:49:21Z'
             description: "\U0001F412 The Microservice API Gateway"
             cncf_member: false
           - item:
@@ -2525,11 +2720,13 @@ landscape:
             stock_ticker: NFLX
             twitter: 'https://twitter.com/hystrixoss'
             crunchbase: 'https://www.crunchbase.com/organization/netflix'
+            first_commit_date: '2012-03-18T08:07:52Z'
             market_cap: 2803735952
             headquarters: 'Los Gatos, California'
             rank: 5
-            stars: 12459
+            stars: 12497
             license: Apache-2.0
+            latest_commit_date: '2018-01-10T22:12:29Z'
             description: >-
               Hystrix is a latency and fault tolerance library designed to
               isolate points of access to remote systems, services and 3rd party
@@ -2545,11 +2742,13 @@ landscape:
             stock_ticker: NFLX
             twitter: 'https://twitter.com/netflixoss'
             crunchbase: 'https://www.crunchbase.com/organization/netflix'
+            first_commit_date: '2012-03-18T08:07:52Z'
             market_cap: 2803735952
             headquarters: 'Los Gatos, California'
             rank: 5
-            stars: 1846
+            stars: 1853
             license: Apache-2.0
+            latest_commit_date: '2018-01-31T21:09:41Z'
             description: >-
               Ribbon is a Inter Process Communication (remote procedure calls)
               library with built in software load balancers. The primary usage
@@ -2561,15 +2760,18 @@ landscape:
             organization: Netflix
             homepage_url: 'https://github.com/Netflix/zuul'
             repo_url: 'https://github.com/Netflix/zuul'
+            branch: 1.x
             logo: ./src/hosted_logos/netflix-zuul.png
             stock_ticker: NFLX
             twitter: 'https://twitter.com/netflixoss'
             crunchbase: 'https://www.crunchbase.com/organization/netflix'
+            first_commit_date: '2012-03-18T08:07:52Z'
             market_cap: 2803735952
             headquarters: 'Los Gatos, California'
             rank: 5
-            stars: 3773
+            stars: 3790
             license: Apache-2.0
+            latest_commit_date: '2017-11-17T23:26:03Z'
             description: >-
               Zuul is a gateway service that provides dynamic routing,
               monitoring, resiliency, security, and more.
@@ -2617,11 +2819,13 @@ landscape:
             logo: 'http://static.17ky.net/Images/8164803b2f28415d9b8dff6c2499b1fb.png'
             twitter: 'https://twitter.com/PingCAP'
             crunchbase: 'https://www.crunchbase.com/organization/pingcap'
+            first_commit_date: '2015-09-06T04:04:42Z'
             market_cap: 21600000
             headquarters: 'Beijing, China'
             rank: 10304
-            stars: 11642
+            stars: 11661
             license: Apache-2.0
+            latest_commit_date: '2018-02-07T10:35:10Z'
             description: >-
               TiDB is a distributed HTAP database compatible with the MySQL
               protocol
@@ -2631,15 +2835,18 @@ landscape:
             organization: MySQL
             homepage_url: 'https://www.oracle.com/mysql/index.html'
             repo_url: 'https://github.com/mysql/mysql-server'
+            branch: '5.7'
             logo: 'https://www.mysql.com/common/logos/logo-mysql-170x115.png'
             stock_ticker: ORCL
             twitter: 'https://twitter.com/mysql'
             crunchbase: 'https://www.crunchbase.com/organization/mysql'
+            first_commit_date: '2000-07-31T19:10:05Z'
             market_cap: 40800000
             headquarters: 'Cupertino, California'
             rank: 66460
-            stars: 2413
+            stars: 2420
             license: GPL-2.0
+            latest_commit_date: '2017-12-27T10:52:26Z'
             description: >-
               MySQL Server, the world's most popular open source database, and
               MySQL Cluster, a real-time, open source transactional database.
@@ -2653,11 +2860,13 @@ landscape:
               https://raw.githubusercontent.com/docker-library/docs/01c12653951b2fe592c1f93a13b4e289ada0e3a1/postgres/logo.png
             twitter: 'https://twitter.com/postgresql'
             crunchbase: 'https://www.crunchbase.com/organization/postgresql'
+            first_commit_date: '1996-07-09T06:22:35Z'
             market_cap: N/A
             headquarters: N/A
             rank: N/A
-            stars: 3598
+            stars: 3619
             license: Unknown License
+            latest_commit_date: '2018-02-07T03:43:21Z'
             description: >-
               Mirror of the official PostgreSQL GIT repository. Note that this
               is just a *mirror* - we don't work with pull requests on github.
@@ -2727,11 +2936,13 @@ landscape:
             logo: 'https://redash.io/assets/images/temp/Mongo2.png'
             twitter: 'https://twitter.com/mongodb'
             crunchbase: 'https://www.crunchbase.com/organization/mongodb-inc'
+            first_commit_date: '2007-10-19T23:35:48Z'
             market_cap: 311000000
             headquarters: 'New York, New York'
             rank: 1132
-            stars: 13047
+            stars: 13061
             license: Unknown License
+            latest_commit_date: '2018-01-29T19:28:05Z'
             description: The MongoDB Database
             cncf_member: false
           - item:
@@ -2739,15 +2950,18 @@ landscape:
             organization: Apache Software Foundation
             homepage_url: 'http://cassandra.apache.org/'
             repo_url: 'https://github.com/apache/cassandra'
+            branch: trunk
             logo: >-
               https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Cassandra_logo.svg/279px-Cassandra_logo.svg.png
             twitter: 'https://twitter.com/cassandra'
             crunchbase: 'https://www.crunchbase.com/organization/apache'
+            first_commit_date: '2009-03-02T07:57:22Z'
             market_cap: N/A
             headquarters: 'Forest Hill, Maryland'
             rank: 84483
-            stars: 4154
+            stars: 4161
             license: Apache-2.0
+            latest_commit_date: '2018-02-07T16:46:47Z'
             description: Mirror of Apache Cassandra
             cncf_member: false
           - item:
@@ -2755,14 +2969,17 @@ landscape:
             organization: Redis Labs
             homepage_url: 'https://redis.io/'
             repo_url: 'https://github.com/antirez/redis'
+            branch: unstable
             logo: 'https://blog.newrelic.com/wp-content/uploads/redis.png'
             twitter: 'https://twitter.com/redisfeed'
             crunchbase: 'https://www.crunchbase.com/organization/redis-labs'
+            first_commit_date: '2009-03-22T09:30:00Z'
             market_cap: 86000000
             headquarters: 'Mountain View, California'
             rank: 957
-            stars: 27390
+            stars: 27445
             license: BSD-3-Clause
+            latest_commit_date: '2018-02-02T10:10:18Z'
             description: >-
               Redis is an in-memory database that persists on disk. The data
               model is key-value, but many different kind of values are
@@ -2774,14 +2991,17 @@ landscape:
             organization: MariaDB
             homepage_url: 'https://mariadb.org/'
             repo_url: 'https://github.com/MariaDB/server'
+            branch: '10.3'
             logo: 'https://mariadb.org/wp-content/uploads/2015/10/mariadb-usa-inc.png'
             twitter: 'https://twitter.com/mariadbfdn'
             crunchbase: 'https://www.crunchbase.com/organization/mariadb-2'
+            first_commit_date: '2000-07-31T19:10:05Z'
             market_cap: 98175561
             headquarters: 'Espoo, Finland'
             rank: 908
-            stars: 1799
+            stars: 1805
             license: Unknown License
+            latest_commit_date: '2018-02-07T17:56:16Z'
             description: >-
               MariaDB server is a community developed fork of MySQL server.
               Started by core members of the original MySQL team, MariaDB
@@ -2798,11 +3018,13 @@ landscape:
               http://www.socallinuxexpo.org/sites/default/files/logos/CRA_logo_blue_RGB.png
             twitter: 'https://twitter.com/Crateio'
             crunchbase: 'https://www.crunchbase.com/organization/crate-technology'
+            first_commit_date: '2013-04-10T09:18:35Z'
             market_cap: 6000000
             headquarters: 'San Francisco, California'
             rank: 6812
-            stars: 1903
+            stars: 1906
             license: ECL-2.0
+            latest_commit_date: '2018-02-06T15:48:28Z'
             description: >-
               CrateDB is a distributed SQL database that makes it simple to
               store and analyze massive amounts of machine data in real-time.
@@ -2816,11 +3038,13 @@ landscape:
               https://pbs.twimg.com/profile_images/759150998753378304/GoY-XdnG_400x400.jpg
             twitter: 'https://twitter.com/nomsdb'
             crunchbase: 'https://www.crunchbase.com/organization/attic-labs'
+            first_commit_date: '2015-06-03T03:45:33Z'
             market_cap: 8100000
             headquarters: 'San Francisco, California'
             rank: 2626
-            stars: 6430
+            stars: 6432
             license: Unknown License
+            latest_commit_date: '2018-01-25T23:50:02Z'
             description: 'The versioned, forkable, syncable database'
             cncf_member: false
           - item:
@@ -2832,11 +3056,13 @@ landscape:
               https://cdn-images-1.medium.com/max/1600/1*wd82_mNF-M0aNAm3UPLMVw.jpeg
             twitter: 'https://twitter.com/BigchainDB'
             crunchbase: 'https://www.crunchbase.com/organization/bigchaindb'
+            first_commit_date: '2016-02-08T10:12:58Z'
             market_cap: 5370000
             headquarters: 'Berlin, Germany'
             rank: 3491
-            stars: 2113
+            stars: 2133
             license: Unknown License
+            latest_commit_date: '2018-02-06T11:40:05Z'
             description: BigchainDB is a scalable blockchain database
             cncf_member: false
           - item:
@@ -2848,11 +3074,13 @@ landscape:
               https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Couchbase%2C_Inc._official_logo.png/250px-Couchbase%2C_Inc._official_logo.png
             twitter: 'https://twitter.com/couchbase'
             crunchbase: 'https://www.crunchbase.com/organization/couchbase'
+            first_commit_date: '2011-11-30T17:20:58Z'
             market_cap: 146000000
             headquarters: 'Mountain View, California'
             rank: 969
-            stars: 1277
+            stars: 1289
             license: Apache-2.0
+            latest_commit_date: '2018-02-06T05:53:57Z'
             description: >-
               Lightweight, embedded, syncable NoSQL database engine for iOS (and
               Mac!) apps.
@@ -2866,11 +3094,13 @@ landscape:
               https://raw.githubusercontent.com/cockroachdb/cockroach/master/docs/media/cockroach_db.png
             twitter: 'https://twitter.com/CockroachDB'
             crunchbase: 'https://www.crunchbase.com/organization/cockroach-labs'
+            first_commit_date: '2014-02-06T00:18:47Z'
             market_cap: 53500000
             headquarters: 'New York, New York'
             rank: 1846
-            stars: 12433
+            stars: 12450
             license: Unknown License
+            latest_commit_date: '2018-02-07T18:07:20Z'
             description: 'CockroachDB - the open source, cloud-native SQL database.'
             cncf_member: false
           - item:
@@ -2878,15 +3108,18 @@ landscape:
             organization: Linux Foundation
             homepage_url: 'https://www.rethinkdb.com/'
             repo_url: 'https://github.com/rethinkdb/rethinkdb'
+            branch: next
             logo: >-
               http://10minbasics.com/wp-content/uploads/2015/09/rethinkdb_logo1.png
             twitter: 'https://twitter.com/rethinkdb'
             crunchbase: 'https://www.crunchbase.com/organization/the-linux-foundation'
+            first_commit_date: '2009-10-03T22:47:38Z'
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
-            stars: 20693
+            stars: 20706
             license: Apache-2.0
+            latest_commit_date: '2018-01-14T21:04:38Z'
             description: The open-source database for the realtime web.
             cncf_member: true
           - item:
@@ -2900,11 +3133,13 @@ landscape:
             twitter: 'https://twitter.com/vitessio'
             crunchbase: >-
               https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            first_commit_date: '2012-02-25T07:19:43Z'
             market_cap: N/A
             headquarters: 'San Francisco, California'
             rank: 63493
-            stars: 5462
+            stars: 5497
             license: Apache-2.0
+            latest_commit_date: '2018-02-07T15:26:42Z'
             description: >-
               Vitess is a database clustering system for horizontal scaling of
               MySQL.
@@ -2950,11 +3185,13 @@ landscape:
             repo_url: 'https://github.com/druid-io/druid'
             logo: ./src/hosted_logos/druid.png
             twitter: 'https://twitter.com/druidio'
+            first_commit_date: '2012-10-23T19:08:07Z'
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
-            stars: 6058
+            stars: 6075
             license: Apache-2.0
+            latest_commit_date: '2018-02-07T00:45:29Z'
             description: >-
               Column oriented distributed data store ideal for powering
               interactive applications
@@ -2984,11 +3221,13 @@ landscape:
               https://raw.githubusercontent.com/apache/carbondata/master/docs/images/CarbonData_logo.png
             twitter: 'https://twitter.com/ApacheCarbonDat'
             crunchbase: 'https://www.crunchbase.com/organization/apache'
+            first_commit_date: '2016-03-02T07:47:31Z'
             market_cap: N/A
             headquarters: 'Forest Hill, Maryland'
             rank: 84483
-            stars: 574
+            stars: 577
             license: Apache-2.0
+            latest_commit_date: '2018-02-07T11:57:51Z'
             description: Mirror of Apache CarbonData
             cncf_member: false
           - item:
@@ -3012,14 +3251,17 @@ landscape:
             organization: Apache Software Foundation
             homepage_url: 'http://hadoop.apache.org/'
             repo_url: 'https://github.com/apache/hadoop'
+            branch: trunk
             logo: 'https://www.contegix.com/wp-content/uploads/2015/09/Hadoop.png'
             twitter: 'https://twitter.com/hadoop'
             crunchbase: 'https://www.crunchbase.com/organization/apache'
+            first_commit_date: '2009-05-19T04:20:40Z'
             market_cap: N/A
             headquarters: 'Forest Hill, Maryland'
             rank: 84483
-            stars: 5563
+            stars: 5602
             license: Apache-2.0
+            latest_commit_date: '2018-02-07T17:40:33Z'
             description: Mirror of Apache Hadoop
             cncf_member: false
           - item:
@@ -3063,11 +3305,13 @@ landscape:
               https://crunchbase-production-res.cloudinary.com/image/upload/v1441394109/w8muln3r8jvrk5g0ngmj.png
             twitter: 'https://twitter.com/pachydermIO'
             crunchbase: 'https://www.crunchbase.com/organization/pachyderm'
+            first_commit_date: '2014-09-04T07:50:02Z'
             market_cap: 2120000
             headquarters: 'San Francisco, California'
             rank: 15676
-            stars: 2507
+            stars: 2510
             license: Apache-2.0
+            latest_commit_date: '2018-02-06T01:05:32Z'
             description: Reproducible Data Science at Scale!
             cncf_member: false
           - item:
@@ -3079,11 +3323,13 @@ landscape:
               https://www.mikelangelo-project.eu/wp-content/uploads/2015/03/LOGO2.png
             twitter: 'https://twitter.com/ScyllaDB'
             crunchbase: 'https://www.crunchbase.com/organization/scylladb'
+            first_commit_date: '2014-08-10T05:56:33Z'
             market_cap: 23000000
             headquarters: 'Herzliya, Israel'
             rank: 4602
-            stars: 3704
+            stars: 3707
             license: AGPL-3.0
+            latest_commit_date: '2018-02-07T15:55:13Z'
             description: >-
               NoSQL data store using the seastar framework, compatible with
               Apache Cassandra
@@ -3096,22 +3342,25 @@ landscape:
             organization: Apache Software Foundation
             homepage_url: 'https://kafka.apache.org/'
             repo_url: 'https://github.com/apache/kafka'
+            branch: trunk
             logo: >-
               https://www.vectorlogo.zone/logos/apache_kafka/apache_kafka-card.png
             twitter: 'https://twitter.com/apachekafka'
             crunchbase: 'https://www.crunchbase.com/organization/apache'
+            first_commit_date: '2011-08-01T23:41:24Z'
             market_cap: N/A
             headquarters: 'Forest Hill, Maryland'
             rank: 84483
-            stars: 7330
+            stars: 7363
             license: Apache-2.0
+            latest_commit_date: '2018-02-07T11:29:08Z'
             description: Mirror of Apache Kafka
             cncf_member: false
           - item:
             name: Dataflow
             organization: Google Cloud Platform
             homepage_url: 'https://cloud.google.com/dataflow/'
-            logo: 'https://www.gcppodcast.com/images/icons/bigdata/Cloud-Dataflow.png'
+            logo: ./src/hosted_logos/google-dataflow.png
             stock_ticker: GOOGL
             twitter: 'https://twitter.com/googlecloud'
             crunchbase: 'https://www.crunchbase.com/organization/google-cloud-platform'
@@ -3130,11 +3379,13 @@ landscape:
             logo: 'https://spark.apache.org/images/spark-logo-trademark.png'
             twitter: 'https://twitter.com/apachespark'
             crunchbase: 'https://www.crunchbase.com/organization/apache'
+            first_commit_date: '2010-03-29T23:17:55Z'
             market_cap: N/A
             headquarters: 'Forest Hill, Maryland'
             rank: 84483
-            stars: 16050
+            stars: 16092
             license: Apache-2.0
+            latest_commit_date: '2018-02-07T17:48:49Z'
             description: Mirror of Apache Spark
             cncf_member: false
           - item:
@@ -3146,11 +3397,13 @@ landscape:
             stock_ticker: TWTR
             twitter: 'https://twitter.com/heronstreaming'
             crunchbase: 'https://www.crunchbase.com/organization/twitter'
+            first_commit_date: '2015-12-19T20:19:41Z'
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
-            stars: 3081
+            stars: 3083
             license: Apache-2.0
+            latest_commit_date: '2018-02-07T17:41:21Z'
             description: >-
               Heron is a realtime, distributed, fault-tolerant stream processing
               engine from Twitter
@@ -3164,11 +3417,13 @@ landscape:
               http://www3.imperial.ac.uk/newseventsimages?p_image_type=MEDIUM&p_image_id=27451
             twitter: 'https://twitter.com/apacheflink'
             crunchbase: 'https://www.crunchbase.com/organization/apache'
+            first_commit_date: '2010-12-15T16:02:01Z'
             market_cap: N/A
             headquarters: 'Forest Hill, Maryland'
             rank: 84483
-            stars: 3243
+            stars: 3254
             license: Apache-2.0
+            latest_commit_date: '2018-02-07T14:39:58Z'
             description: Mirror of Apache Flink
             cncf_member: false
           - item:
@@ -3180,11 +3435,13 @@ landscape:
               https://upload.wikimedia.org/wikipedia/commons/e/e1/Apache_Apex_Logo.png
             twitter: 'https://twitter.com/apacheapex/'
             crunchbase: 'https://www.crunchbase.com/organization/apache'
+            first_commit_date: '2012-06-07T02:42:55Z'
             market_cap: N/A
             headquarters: 'Forest Hill, Maryland'
             rank: 84483
             stars: 277
             license: Apache-2.0
+            latest_commit_date: '2018-01-18T06:47:47Z'
             description: Mirror of Apache Apex core
             cncf_member: false
           - item:
@@ -3195,11 +3452,13 @@ landscape:
             logo: 'http://storm.apache.org/images/logo.png'
             twitter: 'https://twitter.com/stormprocessor'
             crunchbase: 'https://www.crunchbase.com/organization/apache'
+            first_commit_date: '2011-09-16T05:20:45Z'
             market_cap: N/A
             headquarters: 'Forest Hill, Maryland'
             rank: 84483
-            stars: 4813
+            stars: 4822
             license: Apache-2.0
+            latest_commit_date: '2018-02-06T07:27:07Z'
             description: Mirror of Apache Storm
             cncf_member: false
           - item:
@@ -3210,11 +3469,13 @@ landscape:
             logo: 'https://neoteric.eu/wp-content/uploads/2016/06/rabbitmq_logo.png'
             twitter: 'https://twitter.com/rabbitmq'
             crunchbase: 'https://www.crunchbase.com/organization/rabbit-technologies'
+            first_commit_date: '2008-07-03T12:35:11Z'
             market_cap: N/A
             headquarters: 'London, United Kingdom'
             rank: 79723
-            stars: 3649
+            stars: 3661
             license: Unknown License
+            latest_commit_date: '2018-02-07T17:25:47Z'
             description: Open source multi-protocol messaging broker
             cncf_member: false
           - item:
@@ -3226,11 +3487,13 @@ landscape:
               https://i2.wp.com/rishidot.com/wp-content/uploads/2017/02/NATS_logo.png
             twitter: 'https://twitter.com/nats_io'
             crunchbase: 'https://www.crunchbase.com/organization/nats-3994'
+            first_commit_date: '2012-10-29T16:12:25Z'
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
-            stars: 3734
+            stars: 3744
             license: MIT
+            latest_commit_date: '2018-01-30T22:10:49Z'
             description: >-
               High-Performance server for NATS, the cloud native messaging
               system.
@@ -3243,11 +3506,13 @@ landscape:
             logo: 'https://nifi.apache.org/assets/images/apache-nifi-logo.svg'
             twitter: 'https://twitter.com/theasf'
             crunchbase: 'https://www.crunchbase.com/organization/apache'
+            first_commit_date: '2014-12-08T20:22:14Z'
             market_cap: N/A
             headquarters: 'Forest Hill, Maryland'
             rank: 84483
-            stars: 795
+            stars: 797
             license: Apache-2.0
+            latest_commit_date: '2018-02-06T04:52:48Z'
             description: Mirror of Apache NiFi
             cncf_member: false
           - item:
@@ -3258,11 +3523,13 @@ landscape:
             logo: 'https://pulsar.incubator.apache.org/img/pulsar.png'
             twitter: 'https://twitter.com/apache_pulsar'
             crunchbase: 'https://www.crunchbase.com/organization/apache'
+            first_commit_date: '2016-09-07T05:10:37Z'
             market_cap: N/A
             headquarters: 'Forest Hill, Maryland'
             rank: 84483
-            stars: 1552
+            stars: 1566
             license: Apache-2.0
+            latest_commit_date: '2018-02-07T17:24:15Z'
             description: Pulsar - distributed pub-sub messaging system
             cncf_member: false
           - item:
@@ -3274,11 +3541,13 @@ landscape:
               https://19ttqs47cfw33zkecq3dz58m-wpengine.netdna-ssl.com/wp-content/uploads/2016/08/StreamSets-logo-small.png
             twitter: 'https://twitter.com/streamsets'
             crunchbase: 'https://www.crunchbase.com/organization/streamsets'
+            first_commit_date: '2014-10-09T21:06:04Z'
             market_cap: 32500000
             headquarters: 'San Francisco, California'
             rank: 1520
-            stars: 397
+            stars: 399
             license: Apache-2.0
+            latest_commit_date: '2018-02-07T07:34:34Z'
             description: >-
               StreamSets DataCollector - Continuous big data ingest
               infrastructure
@@ -3331,11 +3600,13 @@ landscape:
               https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/9042687287/original/mJ2VHmjgR7f1nkmBjJ1mSMI82-IqHlhvnw.png
             twitter: 'https://twitter.com/gitlab'
             crunchbase: 'https://www.crunchbase.com/organization/gitlab-com'
+            first_commit_date: '2011-10-08T21:34:49Z'
             market_cap: 45620000
             headquarters: 'San Francisco, California'
             rank: 2791
-            stars: 20336
+            stars: 20341
             license: Unknown License
+            latest_commit_date: '2018-02-07T11:42:28Z'
             description: >-
               GitLab CE | Please open new issues in our issue tracker on
               GitLab.com
@@ -3388,11 +3659,13 @@ landscape:
             logo: >-
               https://raw.githubusercontent.com/kubevirt/community/master/logo/kubevirt-pre.png
             twitter: 'https://twitter.com/kubevirt'
+            first_commit_date: '2016-08-11T14:31:11Z'
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
-            stars: 396
+            stars: 399
             license: Apache-2.0
+            latest_commit_date: '2018-02-07T11:34:00Z'
             description: >-
               A virtualization API and runtime add-on for Kubernetes in order to
               define and manage virtual machines.
@@ -3406,11 +3679,13 @@ landscape:
               https://res.cloudinary.com/crunchbase-production/image/upload/v1494031899/ni0ybdyhq4v3cyh9n88z.png
             twitter: 'https://twitter.com/HashiCorp'
             crunchbase: 'https://www.crunchbase.com/organization/hashicorp'
+            first_commit_date: '2013-03-23T05:41:53Z'
             market_cap: 74175000
             headquarters: 'San Francisco, California'
             rank: 949
-            stars: 7304
+            stars: 7308
             license: MPL-2.0
+            latest_commit_date: '2018-02-07T06:47:04Z'
             description: >-
               Packer is a tool for creating identical machine images for
               multiple platforms from a single source configuration.
@@ -3424,11 +3699,13 @@ landscape:
               https://www.unixmen.com/wp-content/uploads/2017/06/docker-compose-logo.png
             twitter: 'https://twitter.com/Docker'
             crunchbase: 'https://www.crunchbase.com/organization/docker'
+            first_commit_date: '2013-12-09T11:41:05Z'
             market_cap: 242766694
             headquarters: 'San Francisco, California'
             rank: 471
-            stars: 11742
+            stars: 11765
             license: Apache-2.0
+            latest_commit_date: '2018-02-07T01:25:20Z'
             description: Define and run multi-container applications with Docker
             cncf_member: true
           - item:
@@ -3439,11 +3716,13 @@ landscape:
             logo: 'https://brand.chef.io/images/habitat/logos/logo-1.png'
             twitter: 'https://twitter.com/hashtag/habitatsh'
             crunchbase: 'https://www.crunchbase.com/organization/chef'
+            first_commit_date: '2015-05-22T22:15:55Z'
             market_cap: 105000000
             headquarters: 'Seattle, Washington'
             rank: 3174
-            stars: 1372
+            stars: 1374
             license: Apache-2.0
+            latest_commit_date: '2018-02-07T18:11:17Z'
             description: Modern applications with built-in automation
             cncf_member: false
           - item:
@@ -3455,11 +3734,13 @@ landscape:
               https://pbs.twimg.com/profile_images/536922892156428288/mKCs5vgS_400x400.png
             twitter: 'https://twitter.com/apachebrooklyn'
             crunchbase: 'https://www.crunchbase.com/organization/apache'
+            first_commit_date: '2011-06-10T12:55:13Z'
             market_cap: N/A
             headquarters: 'Forest Hill, Maryland'
             rank: 84483
             stars: 67
             license: Unknown License
+            latest_commit_date: '2017-11-21T11:45:14Z'
             description: Mirror of Apache Brooklyn
             cncf_member: false
           - item:
@@ -3487,11 +3768,13 @@ landscape:
               https://www.openapis.org/wp-content/uploads/sites/3/2016/10/OpenAPI_Pantone.png
             twitter: 'https://twitter.com/hashtag/openapi'
             crunchbase: 'https://www.crunchbase.com/organization/the-open-api-initiative'
+            first_commit_date: '2014-03-03T16:54:09Z'
             market_cap: N/A
             headquarters: 'San Francisco, California'
             rank: N/A
-            stars: 8879
+            stars: 8936
             license: Unknown License
+            latest_commit_date: '2018-02-02T22:17:26Z'
             description: The OpenAPI Specification Repository
             cncf_member: false
       - subcategory:
@@ -3506,11 +3789,13 @@ landscape:
               https://wiki.jenkins.io/download/attachments/2916393/logo-title.png
             twitter: 'https://twitter.com/jenkinsci'
             crunchbase: 'https://www.crunchbase.com/organization/jenkins-ci'
+            first_commit_date: '2006-11-05T21:16:01Z'
             market_cap: N/A
             headquarters: 'San Francisco, California'
             rank: N/A
-            stars: 9707
+            stars: 9724
             license: MIT
+            latest_commit_date: '2018-02-06T08:40:24Z'
             description: Jenkins automation server
             cncf_member: false
           - item:
@@ -3521,11 +3806,13 @@ landscape:
             logo: 'http://dearkumar.com/wp-content/uploads/2016/08/Travis-CI-logo.jpg'
             twitter: 'https://twitter.com/travisci'
             crunchbase: 'https://www.crunchbase.com/organization/travis-ci'
+            first_commit_date: '2010-11-28T19:54:27Z'
             market_cap: N/A
             headquarters: 'Berlin, Germany'
             rank: 59288
-            stars: 6460
+            stars: 6461
             license: Unknown License
+            latest_commit_date: '2017-08-16T01:17:36Z'
             description: Free continuous integration platform for GitHub projects.
             cncf_member: false
           - item:
@@ -3567,11 +3854,13 @@ landscape:
             logo: 'https://d3d7bn43j8qgcg.cloudfront.net/drone_logo.png'
             twitter: 'https://twitter.com/droneio'
             crunchbase: 'https://www.crunchbase.com/organization/drone-io'
+            first_commit_date: '2014-02-07T10:10:01Z'
             market_cap: 28000
             headquarters: 'San Francisco, California'
             rank: 38858
-            stars: 13006
+            stars: 13044
             license: Apache-2.0
+            latest_commit_date: '2018-02-01T21:50:06Z'
             description: >-
               Drone is a Continuous Delivery platform built on Docker, written
               in Go
@@ -3635,11 +3924,13 @@ landscape:
             logo: 'https://www.gcppodcast.com/images/post/spinnaker.png'
             twitter: 'https://twitter.com/spinnakerio'
             crunchbase: 'https://www.crunchbase.com/organization/netflix'
+            first_commit_date: '2014-09-07T09:01:23Z'
             market_cap: 2803735952
             headquarters: 'Los Gatos, California'
             rank: 5
-            stars: 4232
+            stars: 4248
             license: Apache-2.0
+            latest_commit_date: '2018-02-06T21:34:03Z'
             description: >-
               Spinnaker is an open source, multi-cloud continuous delivery
               platform for releasing software changes with high velocity and
@@ -3672,11 +3963,13 @@ landscape:
             stock ticker: ORCL
             twitter: 'https://twitter.com/wercker'
             crunchbase: 'https://www.crunchbase.com/organization/wercker'
+            first_commit_date: '2014-06-11T09:28:28Z'
             market_cap: 7900000
             headquarters: 'Amsterdam, The Netherlands'
             rank: 8016
             stars: 520
             license: Apache-2.0
+            latest_commit_date: '2017-12-20T09:49:30Z'
             description: >-
               The Wercker CLI can be used to execute pipelines locally for both
               local development and easy introspection.
@@ -3766,11 +4059,13 @@ landscape:
             logo: 'http://image20.it168.com/201706_335x251/2924/5f8a80a4b4fadf88.png'
             twitter: 'https://twitter.com/Huawei'
             crunchbase: 'https://www.crunchbase.com/organization/huawei'
+            first_commit_date: '2016-10-18T01:48:21Z'
             market_cap: N/A
             headquarters: 'Plano, Texas'
             rank: 1469
-            stars: 213
+            stars: 215
             license: Apache-2.0
+            latest_commit_date: '2017-11-30T03:54:51Z'
             description: DevOps Orchestration Platform
             cncf_member: true
           - item:
@@ -3817,11 +4112,13 @@ landscape:
               https://dka575ofm4ao0.cloudfront.net/pages-transactional_logos/retina/1292/iukn7svdTeev16OTOu1U
             twitter: 'https://twitter.com/buildkite'
             crunchbase: 'https://www.crunchbase.com/organization/buildkite'
+            first_commit_date: '2014-01-29T10:43:45Z'
             market_cap: N/A
             headquarters: N/A
             rank: 90213
             stars: 238
             license: Unknown License
+            latest_commit_date: '2018-01-31T11:23:05Z'
             description: >-
               The Buildkite Agent is an open-source toolkit written in Golang
               for securely running build jobs on any device or network
@@ -3834,11 +4131,13 @@ landscape:
             logo: 'https://avatars3.githubusercontent.com/u/7809479'
             twitter: 'https://twitter.com/concourseci'
             crunchbase: 'https://www.crunchbase.com/organization/pivotal'
+            first_commit_date: '2014-04-27T22:35:04Z'
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
-            stars: 2501
+            stars: 2515
             license: Apache-2.0
+            latest_commit_date: '2018-02-07T17:26:43Z'
             description: BOSH release and development workspace for Concourse
             cncf_member: false
           - item:
@@ -3886,11 +4185,13 @@ landscape:
               https://www.cloudfoundry.org/wp-content/uploads/2017/01/CFF_Logo_vertical_RGB.png
             twitter: 'https://twitter.com/cloudfoundry'
             crunchbase: 'https://www.crunchbase.com/organization/cloud-foundry'
+            first_commit_date: '2012-04-05T04:58:10Z'
             market_cap: N/A
             headquarters: 'San Mateo, California'
             rank: 56547
             stars: 605
             license: Unknown License
+            latest_commit_date: '2018-02-01T19:49:45Z'
             description: Cloud Foundry Release
             cncf_member: true
           - item:
@@ -3902,11 +4203,13 @@ landscape:
               https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/OpenShift-LogoType.svg/2000px-OpenShift-LogoType.svg.png
             twitter: 'https://twitter.com/openshift'
             crunchbase: 'https://www.crunchbase.com/organization/red-hat'
+            first_commit_date: '2014-07-30T18:17:42Z'
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
-            stars: 4033
+            stars: 4039
             license: Apache-2.0
+            latest_commit_date: '2018-02-07T16:18:37Z'
             description: Enterprise Kubernetes for Developers
             cncf_member: true
           - item:
@@ -3918,11 +4221,13 @@ landscape:
               https://github.com/alexcontini/alexcontini.github.io/blob/master/DC.OS.logo-vertical-styled.png?raw=true
             twitter: 'https://twitter.com/mesosphere'
             crunchbase: 'https://www.crunchbase.com/organization/mesosphere'
+            first_commit_date: '2016-04-19T06:50:46Z'
             market_cap: 122250000
             headquarters: 'San Francisco, California'
             rank: 748
-            stars: 1881
+            stars: 1886
             license: Apache-2.0
+            latest_commit_date: '2018-02-05T19:46:58Z'
             description: DC/OS - The Datacenter Operating System
             cncf_member: true
           - item:
@@ -3964,11 +4269,13 @@ landscape:
               http://cdn.rancher.com/wp-content/uploads/2017/02/05132759/rancher-logo_stacked-full-color-1.jpg
             twitter: 'https://twitter.com/Rancher_Labs'
             crunchbase: 'https://www.crunchbase.com/organization/rancher-labs'
+            first_commit_date: '2017-11-14T00:57:39Z'
             market_cap: 30000000
             headquarters: 'Cupertino, California'
             rank: 5015
-            stars: 7653
+            stars: 7673
             license: Unknown License
+            latest_commit_date: '2018-02-07T17:20:20Z'
             description: Complete container management platform
             cncf_member: true
           - item:
@@ -4046,11 +4353,13 @@ landscape:
             logo: 'https://flynn.io/images/flynn-acaf9509.svg'
             twitter: 'https://twitter.com/flynnscale'
             crunchbase: 'https://www.crunchbase.com/organization/flynn'
+            first_commit_date: '2013-07-12T18:05:44Z'
             market_cap: 1405000
             headquarters: 'Newark, Delaware'
             rank: 25194
-            stars: 6499
+            stars: 6504
             license: Unknown License
+            latest_commit_date: '2018-01-17T20:17:00Z'
             description: A next generation open source platform as a service (PaaS)
             cncf_member: false
           - item:
@@ -4096,11 +4405,13 @@ landscape:
               https://crunchbase-production-res.cloudinary.com/image/upload/v1397182859/53934de605f54d407d087900d16e9b75.png
             twitter: 'https://twitter.com/getiron'
             crunchbase: 'https://www.crunchbase.com/organization/iron-io'
+            first_commit_date: '2012-12-31T03:21:31Z'
             market_cap: 17000000
             headquarters: 'San Francisco, California'
             rank: 6349
-            stars: 1989
+            stars: 1991
             license: Apache-2.0
+            latest_commit_date: '2018-01-26T04:49:30Z'
             description: IronFunctions - the serverless microservices platform by
             cncf_member: false
           - item:
@@ -4114,11 +4425,13 @@ landscape:
             stock_ticker: YELP
             twitter: 'https://twitter.com/Yelp'
             crunchbase: 'https://www.crunchbase.com/organization/yelp'
+            first_commit_date: '2013-08-20T13:28:10Z'
             market_cap: 56000000
             headquarters: 'San Francisco, California'
             rank: 136
-            stars: 1179
+            stars: 1180
             license: Apache-2.0
+            latest_commit_date: '2018-02-06T23:46:32Z'
             description: 'An open, distributed platform as a service'
             cncf_member: false
           - item:
@@ -4129,11 +4442,13 @@ landscape:
             logo: 'https://upload.wikimedia.org/wikipedia/en/d/df/Remind_app_logo.png'
             twitter: 'https://twitter.com/remindeng'
             crunchbase: 'https://www.crunchbase.com/organization/remind'
+            first_commit_date: '2015-01-30T03:54:35Z'
             market_cap: 59500000
             headquarters: 'San Francisco, California'
             rank: 6237
             stars: 2352
             license: BSD-2-Clause
+            latest_commit_date: '2017-12-14T22:57:58Z'
             description: A PaaS built on top of Amazon EC2 Container Service (ECS)
             cncf_member: false
           - item:
@@ -4194,11 +4509,13 @@ landscape:
               https://crunchbase-production-res.cloudinary.com/image/upload/v1464604878/uzdj9miitxbfr56opwju.png
             twitter: 'https://twitter.com/KontenaInc'
             crunchbase: 'https://www.crunchbase.com/organization/kontena'
+            first_commit_date: '2015-02-10T07:24:33Z'
             market_cap: N/A
             headquarters: 'New York, New York'
             rank: 71573
-            stars: 1282
+            stars: 1283
             license: Unknown License
+            latest_commit_date: '2018-02-06T12:01:37Z'
             description: >-
               The developer friendly container and micro services platform.
               Works on any cloud, easy to setup, simple to use.
@@ -4271,11 +4588,13 @@ landscape:
             repo_url: 'https://github.com/mantl/mantl'
             logo: 'http://docs.mantl.io/en/latest/_static/mantl-logo.png'
             twitter: 'https://twitter.com/usemantl'
+            first_commit_date: '2014-10-22T19:40:02Z'
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
             stars: 3002
             license: Apache-2.0
+            latest_commit_date: '2018-02-03T03:49:53Z'
             description: >-
               Mantl is a modern platform for rapidly deploying globally
               distributed services
@@ -4350,11 +4669,13 @@ landscape:
             logo: >-
               https://camo.githubusercontent.com/7e24fa15ba0791ec482d9f20e50a0e4620c3b7e7/687474703a2f2f6a6566667368656574732e6769746875622e696f2f42757a7a776f727468794a6176612f6173736574732f696d672f686970737465722d6c6f676f2e706e67
             twitter: 'https://twitter.com/java_hipster'
+            first_commit_date: '2013-10-21T20:07:22Z'
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
-            stars: 9320
+            stars: 9341
             license: Apache-2.0
+            latest_commit_date: '2018-02-06T21:42:27Z'
             description: >-
               Open Source application generator for creating Spring Boot +
               Angular projects in seconds!
@@ -4368,11 +4689,13 @@ landscape:
               https://raw.githubusercontent.com/moby/moby/moby/docs/static_files/moby-project-logo.png
             twitter: 'https://twitter.com/moby'
             crunchbase: 'https://www.crunchbase.com/organization/docker'
+            first_commit_date: '2013-01-19T00:13:39Z'
             market_cap: 242766694
             headquarters: 'San Francisco, California'
             rank: 471
-            stars: 47534
+            stars: 47556
             license: Apache-2.0
+            latest_commit_date: '2018-02-07T05:39:43Z'
             description: >-
               Moby Project - a collaborative project for the container ecosystem
               to assemble container-based systems
@@ -4453,11 +4776,13 @@ landscape:
             logo: >-
               https://github.com/alexcontini/alexcontini.github.io/blob/master/tsura.png?raw=true
             twitter: 'https://twitter.com/tsurupaas'
+            first_commit_date: '2012-03-13T17:03:56Z'
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
-            stars: 2646
+            stars: 2644
             license: BSD-3-Clause
+            latest_commit_date: '2018-02-02T18:12:43Z'
             description: >-
               Open source, extensible and Docker-based Platform as a Service
               (PaaS).
@@ -4499,7 +4824,7 @@ landscape:
             name: Google Kubernetes Engine (GKE)
             organization: Google Cloud Platform
             homepage_url: 'https://cloud.google.com/kubernetes-engine/'
-            logo: 'https://www.gcppodcast.com/images/post/gke.png'
+            logo: ./src/hosted_logos/google-kubernetesengine.png
             stock_ticker: GOOGL
             twitter: 'https://twitter.com/googlecloud'
             crunchbase: 'https://www.crunchbase.com/organization/google-cloud-platform'
@@ -4517,11 +4842,13 @@ landscape:
             repo_url: 'https://github.com/portainer/portainer'
             logo: >-
               https://camo.githubusercontent.com/c57e3786d84c99f21e453c6500d8e0333a2cf6d9/68747470733a2f2f706f727461696e65722e696f2f696d616765732f6c6f676f5f616c742e706e67
+            first_commit_date: '2013-06-09T00:12:14Z'
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
-            stars: 6619
+            stars: 6657
             license: Unknown License
+            latest_commit_date: '2018-01-31T18:11:20Z'
             description: Simple management UI for Docker
             cncf_member: false
           - item:
@@ -4533,11 +4860,13 @@ landscape:
               https://smashingconf.com/ny-2015/content/06-sponsors/03-silver/00-pusher/pusher-logo.png
             twitter: 'https://twitter.com/pusher'
             crunchbase: 'https://www.crunchbase.com/organization/pusher'
+            first_commit_date: '2010-04-19T13:44:10Z'
             market_cap: 3500000
             headquarters: 'London, United Kingdom'
             rank: 8452
-            stars: 855
+            stars: 857
             license: MIT
+            latest_commit_date: '2018-01-04T11:23:17Z'
             description: Pusher Javascript library | owner=@hph
             cncf_member: false
           - item:
@@ -4579,11 +4908,13 @@ landscape:
             logo: 'https://supergiant.io/uploads/files/supergiant-logo.png'
             twitter: 'https://twitter.com/supergiantio'
             crunchbase: 'https://www.crunchbase.com/organization/supergiant'
+            first_commit_date: '2016-02-26T23:35:55Z'
             market_cap: N/A
             headquarters: N/A
             rank: N/A
             stars: 514
             license: Apache-2.0
+            latest_commit_date: '2018-02-06T22:18:44Z'
             description: >-
               Automatically scale hardware and easily run stateful applications
               using Kubernetes.
@@ -4636,11 +4967,13 @@ landscape:
               https://raw.githubusercontent.com/openfaas/media/master/OpenFaaS_logo_stacked_opaque.png
             twitter: 'https://twitter.com/alexellisuk'
             crunchbase: 'https://www.crunchbase.com/organization/openfaas'
+            first_commit_date: '2016-12-22T12:51:40Z'
             market_cap: N/A
             headquarters: 'Peterborough, United Kingdom'
             rank: N/A
-            stars: 8555
+            stars: 8601
             license: MIT
+            latest_commit_date: '2018-02-07T09:13:48Z'
             description: >-
               OpenFaaS - Serverless Functions Made Simple for Docker &
               Kubernetes
@@ -4649,7 +4982,7 @@ landscape:
             name: Google Cloud Functions
             organization: Google Cloud Platform
             homepage_url: 'https://cloud.google.com/functions/'
-            logo: 'https://img.stackshare.io/service/6672/google-cloud-functions.png'
+            logo: ./src/hosted_logos/google-cloudfunctions.png
             stock_ticker: GOOGL
             twitter: 'https://twitter.com/googlecloud'
             crunchbase: 'https://www.crunchbase.com/organization/google-cloud-platform'
@@ -4669,11 +5002,13 @@ landscape:
               https://cdn-images-1.medium.com/max/1200/1*4Q3kFLD0dZiwbLAKZJGy8Q.png
             twitter: 'https://twitter.com/openwhisk'
             crunchbase: 'https://www.crunchbase.com/organization/apache'
+            first_commit_date: '2016-02-19T22:47:33Z'
             market_cap: N/A
             headquarters: 'Forest Hill, Maryland'
             rank: 84483
-            stars: 2397
+            stars: 2405
             license: Apache-2.0
+            latest_commit_date: '2018-02-07T14:47:15Z'
             description: >-
               Apache OpenWhisk is a serverless event-based programming service
               and an Apache Incubator project.
@@ -4738,11 +5073,13 @@ landscape:
             logo: 'https://www.gcppodcast.com/images/post/fission-logo.png'
             twitter: 'https://twitter.com/Platform9Sys'
             crunchbase: 'https://www.crunchbase.com/organization/platform9-systems-inc'
+            first_commit_date: '2016-08-19T04:35:42Z'
             market_cap: 36500000
             headquarters: 'Sunnyvale, California'
             rank: 1803
-            stars: 2986
+            stars: 2990
             license: Apache-2.0
+            latest_commit_date: '2018-02-07T13:44:12Z'
             description: Fast Serverless Functions for Kubernetes
             cncf_member: false
           - item:
@@ -4768,11 +5105,13 @@ landscape:
             repo_url: 'https://github.com/apex/apex'
             logo: ./src/hosted_logos/apex.png
             twitter: 'https://twitter.com/apexserverless'
+            first_commit_date: '2015-12-19T23:53:03Z'
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
-            stars: 6652
+            stars: 6656
             license: MIT
+            latest_commit_date: '2018-01-18T00:45:11Z'
             description: >-
               Build, deploy, and manage AWS Lambda functions with ease (with Go
               support!).
@@ -4786,11 +5125,13 @@ landscape:
               https://user-images.githubusercontent.com/2752551/30404912-d5781a00-989d-11e7-8d25-5ebca177326a.png
             twitter: 'https://twitter.com/goserverless'
             crunchbase: 'https://www.crunchbase.com/organization/serverless'
+            first_commit_date: '2015-04-21T03:49:10Z'
             market_cap: 3000000
             headquarters: 'San Francisco, California'
             rank: 1999
-            stars: 21616
+            stars: 21672
             license: Unknown License
+            latest_commit_date: '2018-02-07T01:49:03Z'
             description: >-
               Serverless Framework – Build web, mobile and IoT applications with
               serverless architectures using AWS Lambda, Azure Functions, Google
@@ -4804,11 +5145,13 @@ landscape:
             logo: >-
               https://s3-us-west-2.amazonaws.com/assets.site.serverless.com/blog/kubeless.png
             twitter: 'https://twitter.com/hashtag/kubeless'
+            first_commit_date: '2016-11-16T13:08:06Z'
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
-            stars: 1855
+            stars: 1867
             license: Apache-2.0
+            latest_commit_date: '2018-02-06T11:39:41Z'
             description: Kubernetes Native Serverless Framework
             cncf_member: false
           - item:
@@ -4819,11 +5162,13 @@ landscape:
             logo: >-
               https://pbs.twimg.com/profile_images/807552612295933952/8bEJzlEM_400x400.jpg
             twitter: 'https://twitter.com/nstackcom'
+            first_commit_date: '2017-03-24T19:48:30Z'
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
-            stars: 213
+            stars: 214
             license: BSD-3-Clause
+            latest_commit_date: '2017-12-06T13:51:33Z'
             description: 'Type-safe, composable microservices for data analytics'
             cncf_member: false
           - item:
@@ -4835,11 +5180,13 @@ landscape:
               https://www.iguazio.com/wp-content/uploads/2017/11/Nuclio_Final-03-1024x470.png
             twitter: 'https://twitter.com/nuclioio'
             crunchbase: 'https://www.crunchbase.com/organization/iguaz-io'
+            first_commit_date: '2017-06-04T20:03:53Z'
             market_cap: 48000000
             headquarters: 'Herzliya, Israel'
             rank: 402
-            stars: 1715
+            stars: 1724
             license: Apache-2.0
+            latest_commit_date: '2018-02-06T14:18:51Z'
             description: High-Performance Serverless event and data processing platform
             cncf_member: false
           - item:
@@ -4979,11 +5326,13 @@ landscape:
             twitter: 'https://twitter.com/PrometheusIO'
             crunchbase: >-
               https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            first_commit_date: '2012-11-24T11:14:12Z'
             market_cap: N/A
             headquarters: 'San Francisco, California'
             rank: 63493
-            stars: 14504
+            stars: 14573
             license: Apache-2.0
+            latest_commit_date: '2018-02-07T10:29:27Z'
             description: The Prometheus monitoring system and time series database.
             cncf_member: true
           - item:
@@ -4994,11 +5343,13 @@ landscape:
             logo: 'https://d1q6f0aelx0por.cloudfront.net/sysdig.png'
             twitter: 'https://twitter.com/sysdig'
             crunchbase: 'https://www.crunchbase.com/organization/sysdig'
+            first_commit_date: '2014-01-15T05:45:17Z'
             market_cap: 53000000
             headquarters: 'San Francisco, California'
             rank: 3414
-            stars: 4819
+            stars: 4822
             license: GPL-2.0
+            latest_commit_date: '2018-01-18T20:05:36Z'
             description: >-
               Linux system exploration and troubleshooting tool with first class
               support for containers
@@ -5059,11 +5410,13 @@ landscape:
               https://appcenter.software-univention.de/meta-inf/4.1/icinga/icinga_detail_logo.svg
             twitter: 'https://twitter.com/icinga'
             crunchbase: 'https://www.crunchbase.com/organization/icinga'
+            first_commit_date: '2012-03-28T11:24:49Z'
             market_cap: N/A
             headquarters: N/A
             rank: N/A
-            stars: 852
+            stars: 853
             license: Unknown License
+            latest_commit_date: '2018-02-06T17:10:12Z'
             description: Monitoring as code
             cncf_member: false
           - item:
@@ -5123,11 +5476,13 @@ landscape:
               https://pbs.twimg.com/profile_images/2278848253/3gaoi2h254k0canb4hxj_400x400.png
             twitter: 'https://twitter.com/nagiosinc'
             crunchbase: 'https://www.crunchbase.com/organization/nagios'
+            first_commit_date: '2002-02-26T04:04:12Z'
             market_cap: N/A
             headquarters: 'Saint Paul, Minnesota'
             rank: 74911
-            stars: 403
+            stars: 404
             license: GPL-2.0
+            latest_commit_date: '2018-01-27T01:20:53Z'
             description: Nagios Core
             cncf_member: false
           - item:
@@ -5135,15 +5490,18 @@ landscape:
             organization: Zabbix
             homepage_url: 'https://www.zabbix.com/'
             repo_url: 'https://github.com/zabbix/zabbix'
+            branch: trunk
             logo: >-
               https://pbs.twimg.com/profile_images/537524757978034176/MlkWTc_x_400x400.png
             twitter: 'https://twitter.com/zabbix'
             crunchbase: 'https://www.crunchbase.com/organization/zabbix'
+            first_commit_date: '2001-03-28T06:45:24Z'
             market_cap: N/A
             headquarters: 'Riga, Latvia'
             rank: 87664
             stars: 190
             license: Unknown License
+            latest_commit_date: '2017-01-13T16:54:02Z'
             description: Live mirror of svn.zabbix.com
             cncf_member: false
           - item:
@@ -5153,11 +5511,13 @@ landscape:
             repo_url: 'https://github.com/graphite-project/graphite-web'
             logo: >-
               http://blog-centreon-wordpress.s3.amazonaws.com/wp-content/uploads/2017/07/GraphiteLogo.png
+            first_commit_date: '2008-04-25T22:22:48Z'
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
-            stars: 3976
+            stars: 3981
             license: Apache-2.0
+            latest_commit_date: '2018-02-05T22:47:01Z'
             description: A highly scalable real-time graphing system
             cncf_member: false
           - item:
@@ -5169,11 +5529,13 @@ landscape:
               https://3yecy51kdipx3blyi37oute1-wpengine.netdna-ssl.com/wp-content/uploads/2016/11/influxdata_400x200.png
             twitter: 'https://twitter.com/influxdb'
             crunchbase: 'https://www.crunchbase.com/organization/influxdb'
+            first_commit_date: '2013-04-11T14:33:27Z'
             market_cap: 24892000
             headquarters: 'San Francisco, California'
             rank: 1537
-            stars: 12500
+            stars: 12543
             license: Unknown License
+            latest_commit_date: '2018-02-06T23:25:03Z'
             description: 'Scalable datastore for metrics, events, and real-time analytics'
             cncf_member: true
           - item:
@@ -5183,11 +5545,13 @@ landscape:
             repo_url: 'https://github.com/OpenTSDB/opentsdb'
             logo: 'http://opentsdb.net/img/logo_header.png'
             twitter: 'https://twitter.com/opentsdb'
+            first_commit_date: '2010-04-11T04:11:12Z'
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
-            stars: 2907
+            stars: 2915
             license: GPL-3.0
+            latest_commit_date: '2018-01-31T01:48:48Z'
             description: 'A scalable, distributed Time Series Database.'
             cncf_member: false
           - item:
@@ -5259,11 +5623,13 @@ landscape:
             logo: 'https://www.gcppodcast.com//images/post/serverdensity.png'
             twitter: 'https://twitter.com/serverdensity'
             crunchbase: 'https://www.crunchbase.com/organization/server-density'
+            first_commit_date: '2009-03-01T23:43:28Z'
             market_cap: 2094514
             headquarters: 'London, United Kingdom'
             rank: 17075
             stars: 214
             license: BSD-3-Clause
+            latest_commit_date: '2018-02-02T10:41:33Z'
             description: 'Monitoring agent for Server Density (Linux, FreeBSD and OS X)'
             cncf_member: false
           - item:
@@ -5373,11 +5739,13 @@ landscape:
               https://crunchbase-production-res.cloudinary.com/image/upload/v1492080963/vxkgrdh1jnublhxzdrer.jpg
             twitter: 'https://twitter.com/centreon'
             crunchbase: 'https://www.crunchbase.com/organization/centreon'
+            first_commit_date: '2006-07-10T10:11:06Z'
             market_cap: N/A
             headquarters: 'Paris, France'
             rank: N/A
-            stars: 189
+            stars: 190
             license: GPL-2.0
+            latest_commit_date: '2018-02-07T09:11:09Z'
             description: >-
               Centreon is a network, system, applicative supervision and
               monitoring tool
@@ -5439,11 +5807,13 @@ landscape:
               https://assets.packet.net/media/pages/images/a8849b052492b5106526b2331e526138/xCMw-grafana.png
             twitter: 'https://twitter.com/grafana'
             crunchbase: 'https://www.crunchbase.com/organization/raintank'
+            first_commit_date: '2013-01-26T04:00:59Z'
             market_cap: N/A
             headquarters: 'New York, New York'
             rank: 64875
-            stars: 20062
+            stars: 20118
             license: Apache-2.0
+            latest_commit_date: '2018-02-07T14:32:30Z'
             description: >-
               The tool for beautiful monitoring and metric analytics &
               dashboards for Graphite, InfluxDB & Prometheus & More
@@ -5476,11 +5846,13 @@ landscape:
               http://events17.linuxfoundation.org/sites/events/files/styles/sponsor_logo_large/public/sponsor-logos/sponsor-weaveworks_1.png
             twitter: 'https://twitter.com/weaveworks'
             crunchbase: 'https://www.crunchbase.com/organization/weaveworks'
+            first_commit_date: '2015-05-19T10:02:02Z'
             market_cap: 20000000
             headquarters: 'London, United Kingdom'
             rank: 5353
-            stars: 2178
+            stars: 2185
             license: Apache-2.0
+            latest_commit_date: '2018-02-06T08:22:17Z'
             description: 'Monitoring, visualisation & management for Docker & Kubernetes'
             cncf_member: true
           - item:
@@ -5492,11 +5864,13 @@ landscape:
               https://raw.githubusercontent.com/sensu/sensu-logo/master/sensu1_flat%20white%20bg_png.png
             twitter: 'https://twitter.com/sensu'
             crunchbase: 'https://www.crunchbase.com/organization/sensu'
+            first_commit_date: '2011-07-11T17:53:50Z'
             market_cap: 2530000
             headquarters: 'Tokyo, Japan'
             rank: 18567
-            stars: 2753
+            stars: 2759
             license: MIT
+            latest_commit_date: '2018-02-07T00:15:20Z'
             description: Monitoring for today's infrastructure.
             cncf_member: false
           - item:
@@ -5507,11 +5881,13 @@ landscape:
             logo: 'https://sentry-brand.storage.googleapis.com/sentry-logo-black.png'
             twitter: 'https://twitter.com/getsentry'
             crunchbase: 'https://www.crunchbase.com/organization/sentry'
+            first_commit_date: '2008-05-12T16:26:19Z'
             market_cap: 10500000
             headquarters: 'San Francisco, California'
             rank: 4725
-            stars: 15533
+            stars: 15566
             license: BSD-3-Clause
+            latest_commit_date: '2018-02-06T22:18:32Z'
             description: >-
               Sentry is a cross-platform crash reporting and aggregation
               platform.
@@ -5595,11 +5971,13 @@ landscape:
               https://www.rittmanmead.com/blog/content/images/2016/06/elastic.png
             twitter: 'https://twitter.com/elastic'
             crunchbase: 'https://www.crunchbase.com/organization/elasticsearch'
+            first_commit_date: '2010-02-08T13:22:27Z'
             market_cap: 104000000
             headquarters: 'Mountain View, California'
             rank: 907
-            stars: 28521
+            stars: 28596
             license: Apache-2.0
+            latest_commit_date: '2018-02-06T12:47:06Z'
             description: 'Open Source, Distributed, RESTful Search Engine'
             cncf_member: false
           - item:
@@ -5681,11 +6059,13 @@ landscape:
             twitter: 'https://twitter.com/fluentd'
             crunchbase: >-
               https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            first_commit_date: '2011-06-18T22:36:35Z'
             market_cap: N/A
             headquarters: 'San Francisco, California'
             rank: 63493
-            stars: 6011
+            stars: 6021
             license: Unknown License
+            latest_commit_date: '2018-02-03T23:35:41Z'
             description: 'Fluentd: Unified Logging Layer (project under CNCF)'
             cncf_member: true
           - item:
@@ -5712,11 +6092,13 @@ landscape:
               https://global-uploads.webflow.com/5a218ef7897bf400019e2f16/5a218ef7897bf400019e2f60_logo-graylog.png
             twitter: 'https://twitter.com/graylog2'
             crunchbase: 'https://www.crunchbase.com/organization/graylog'
+            first_commit_date: '2010-05-17T21:28:14Z'
             market_cap: 4400000
             headquarters: 'Houston, Texas'
             rank: 13210
-            stars: 4059
+            stars: 4060
             license: GPL-3.0
+            latest_commit_date: '2018-02-02T13:06:33Z'
             description: Free and open source log management
             cncf_member: false
       - subcategory:
@@ -5733,11 +6115,13 @@ landscape:
             twitter: 'https://twitter.com/opentracing'
             crunchbase: >-
               https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            first_commit_date: '2015-11-26T06:23:17Z'
             market_cap: N/A
             headquarters: 'San Francisco, California'
             rank: 63493
-            stars: 955
+            stars: 957
             license: MIT
+            latest_commit_date: '2018-02-03T00:37:10Z'
             description: OpenTracing API for Go
             cncf_member: true
           - item:
@@ -5748,11 +6132,13 @@ landscape:
             logo: >-
               https://camo.githubusercontent.com/4ac940361b7345156ff71aa21efdb42a449e67d7/68747470733a2f2f736b7977616c6b696e67746573742e6769746875622e696f2f706167652d7265736f75726365732f332e302f736b7977616c6b696e672e706e67
             crunchbase: 'https://www.crunchbase.com/organization/apache'
+            first_commit_date: '2015-11-07T03:30:37Z'
             market_cap: N/A
             headquarters: 'Forest Hill, Maryland'
             rank: 84483
-            stars: 2544
+            stars: 2571
             license: Apache-2.0
+            latest_commit_date: '2018-02-07T08:23:56Z'
             description: >-
               A distributed tracing system, and APM ( Application Performance
               Monitoring )
@@ -5765,11 +6151,13 @@ landscape:
             logo: >-
               https://4.bp.blogspot.com/-DsmFcaeMi4U/T9DX_XLMrdI/AAAAAAAAABg/jKF_pXToIEo/s1600/zipkin.jpg
             twitter: 'https://twitter.com/zipkinproject'
+            first_commit_date: '2012-06-06T18:28:34Z'
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
-            stars: 7589
+            stars: 7617
             license: Apache-2.0
+            latest_commit_date: '2018-02-07T10:21:14Z'
             description: Zipkin is a distributed tracing system
             cncf_member: false
           - item:
@@ -5783,11 +6171,13 @@ landscape:
             twitter: 'https://twitter.com/JaegerTracing'
             crunchbase: >-
               https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            first_commit_date: '2016-04-18T22:22:11Z'
             market_cap: N/A
             headquarters: 'San Francisco, California'
             rank: 63493
-            stars: 3913
+            stars: 3927
             license: Apache-2.0
+            latest_commit_date: '2018-02-06T16:20:19Z'
             description: 'CNCF Jaeger, a Distributed Tracing System'
             cncf_member: true
           - item:
@@ -5798,11 +6188,13 @@ landscape:
             logo: >-
               https://pragmaticintegrator.files.wordpress.com/2017/03/spring-cloud.jpg
             crunchbase: 'https://www.crunchbase.com/organization/pivotal'
+            first_commit_date: '2015-03-06T20:51:47Z'
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
             stars: 582
             license: Apache-2.0
+            latest_commit_date: '2018-01-31T14:36:49Z'
             description: Distributed tracing for spring cloud
             cncf_member: false
           - item:
@@ -5811,10 +6203,12 @@ landscape:
             homepage_url: 'https://github.com/sourcegraph/appdash'
             repo_url: 'https://github.com/sourcegraph/appdash'
             logo: ./src/hosted_logos/appdash.png
+            first_commit_date: '2014-11-20T09:20:44Z'
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
-            stars: 1217
+            stars: 1222
             license: Unknown License
+            latest_commit_date: '2018-01-10T18:02:08Z'
             description: 'Application tracing system for Go, based on Google''s Dapper.'
             cncf_member: false

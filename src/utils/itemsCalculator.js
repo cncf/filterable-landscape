@@ -52,8 +52,11 @@ const getSortedItems = createSelector(
     const emptyItemsNotEnteredYet = data.filter(function(x) {
       return x[sortField] === 'Not Entered Yet';
     });
+    const emptyItemsUndefined = data.filter(function(x) {
+      return _.isUndefined(x[sortField]);
+    });
     const normalItems = data.filter(function(x) {
-      return x[sortField] !== 'N/A' && x[sortField] !== 'Not Entered Yet';
+      return x[sortField] !== 'N/A' && x[sortField] !== 'Not Entered Yet' && !_.isUndefined(x[sortField]);
     });
     const sortedViaMainSort =  _.orderBy(normalItems, function(x) {
       var result = x[sortField];
@@ -68,7 +71,10 @@ const getSortedItems = createSelector(
     const sortedViaName2 = _.orderBy(emptyItemsNotEnteredYet, function(x) {
       return x.name.toLowerCase();
     });
-    return sortedViaMainSort.concat(sortedViaName1).concat(sortedViaName2);
+    const sortedViaName3 = _.orderBy(emptyItemsUndefined, function(x) {
+      return x.name.toLowerCase();
+    });
+    return sortedViaMainSort.concat(sortedViaName1).concat(sortedViaName2).concat(sortedViaName3);
   }
 );
 

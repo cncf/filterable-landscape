@@ -264,9 +264,16 @@ const fields = {
       return processValuesBeforeLoading({options: fields.landscape.values, values: values});
     }
   },
-  startDate: {
-    id: 'startDate',
+  firstCommitDate: {
+    id: 'firstCommitDate',
     label: 'Project Starting Date',
+    url: 'first-commit',
+    hideInGrouping: true
+  },
+  latestCommitDate: {
+    id: 'latestCommitDate',
+    label: 'Project Latest Date',
+    url: 'latest-commit',
     hideInGrouping: true
   }
 };

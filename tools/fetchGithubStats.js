@@ -5,6 +5,8 @@ import _ from 'lodash';
 const rp = require('request-promise');
 import { JSDOM } from 'jsdom';
 
+import { getRepoLastDate } from './githubDates';
+
 const tree = traverse(source);
 const repos = {};
 tree.map(function(node) {
@@ -15,7 +17,7 @@ tree.map(function(node) {
     return;
   }
   if (node.repo_url && node.repo_url.indexOf('https://github.com') === 0) {
-    repos[node.repo_url] = 1;
+    repos[node.repo_url] = node.branch || 'master';
   } /* else {
     if (!node.repo_url) {
       console.info(`item: ${node.name} has no repo url`)
@@ -34,6 +36,7 @@ async function readGithubStats() {
       console.info(url, ' does not look like a GitHub repo');
       return;
     }
+    const repo = url.split('/').slice(3,5).join('/');
     var response = await rp({
       uri: url,
       followRedirect: true,
@@ -56,9 +59,16 @@ async function readGithubStats() {
     if (descriptionElement) {
       description = descriptionElement.textContent.replace(/\n/g, '').trim();
     }
-    result.push({url, stars, license, description});
+    var date;
+    try {
+      const branch = repos[url];
+      date = await getRepoLastDate({repo, branch });
+    } catch (ex) {
+      console.info ('can not fetch last date for ', repo);
+    }
+    result.push({url, stars, license, description, latest_commit_date: date});
     await Promise.delay(1 * 1000);
-  }, {concurrency: 5});_
+  }, {concurrency: 20});_
 
 
 }

@@ -7,6 +7,7 @@ import formatCity from '../src/utils/formatCity';
 
 const crunchbase = parse(require('fs').readFileSync('src/crunchbase.csv','utf-8'), {columns: true});
 const githubEntries = require('../src/github.json');
+const dateEntries = require('js-yaml').safeLoad(require('fs').readFileSync('src/github_dates.yml'));
 const cncfMembers = require('js-yaml').safeLoad(require('fs').readFileSync('src/cncf_members.yml'));
 
 const tree = traverse(source);
@@ -39,8 +40,13 @@ const newSource = tree.map(function(node) {
     if (githubEntry) {
       githubInfo = {
         stars: githubEntry.stars,
-        license: githubEntry.license
+        license: githubEntry.license,
+        latest_commit_date: githubEntry.latest_commit_date
       };
+    }
+    var dateEntry = _.find(dateEntries, {url: node.repo_url});
+    if (dateEntry) {
+      node.first_commit_date = dateEntry.start_date;
     }
     var description = node.description || (githubEntry || {}).description || (crunchbaseInfo || {})['Description'] || '';
     description = description.replace(/\n/g, ' ');
