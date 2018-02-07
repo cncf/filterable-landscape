@@ -15,7 +15,7 @@ export const options = [{
   id: {field: 'firstCommitDate', direction: 'asc'},
   label: 'Project Started (earlier to sooner)',
 }, {
-  id: {field: 'lastCommitDate', direction: 'asc'},
+  id: {field: 'latestCommitDate', direction: 'asc'},
   label: 'Latest Commit (earlier to sooner)',
 }].map(function(x) {
   return {
