@@ -4,14 +4,13 @@ import Icon from 'material-ui/Icon';
 import KeyHandler from 'react-key-handler';
 import _ from 'lodash';
 import formatNumber from '../utils/formatNumber';
-import pretty  from 'pretty-date-js';
+import relativeDate from 'relative-date';
 
 const formatDate = function(x) {
   if (x === '$TODAY$') {
     return 'today';
   }
-  const parts = pretty(x);
-  return parts.value + ' ' + parts.lang + ' ' + parts.misc;
+  return relativeDate(new Date(x));
 };
 
 import '../styles/itemModal.scss';
