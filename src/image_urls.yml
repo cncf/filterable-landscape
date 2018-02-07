@@ -271,6 +271,11 @@
   sha256: 7b6e3d7f1b90e554e0685219a4ad0d5aef303ecd83849198960286f312b3c795
   url: >-
     https://raw.githubusercontent.com/cncf/artwork/master/cni/stacked/color/cni-stacked-color.png
+- name: co-scale
+  fileName: src/logos/co-scale.png
+  sha256: 32c63c4c8dd6448ac3fbaeadc80c2b4aea9c532db4a3e077069b1c193dc14e42
+  url: >-
+    https://obsidian.co.za/sites/default/files/field/image/product/Coscale_Logo_cmyk_vert.png
 - name: cobe
   fileName: src/logos/cobe.png
   sha256: 58c306d44eaff1f1420d72ea878188a23e9f873a358d8de56a17e3bec40c1276
@@ -296,7 +301,7 @@
   url: 'https://www.unixmen.com/wp-content/uploads/2017/06/docker-compose-logo.png'
 - name: concourse
   fileName: src/logos/concourse.png
-  sha256: 593173ddf7e84d5970021eba8c49b372638619b6ae350e0ffbc8d3b9382726a7
+  sha256: 78fde3240a4f7d9ed4abe01edce5c1908a9c420ba6280fd51a624a7bf141499d
   url: 'https://avatars3.githubusercontent.com/u/7809479'
 - name: consul
   fileName: src/logos/consul.png
@@ -710,7 +715,7 @@
   url: 'https://design.canonical.com/wp-content/uploads/2011/10/juju-464x252.png'
 - name: kafka
   fileName: src/logos/kafka.png
-  sha256: 04a9e8e3c0ad5f1713445cac3f7d7f87ab833e4fc2e2bef9beaacd42d0977a64
+  sha256: 0290ad2ace7c9290890b0b9e4e2c6a0e186ee300396d26bd03e14dcb174d0737
   url: 'https://www.vectorlogo.zone/logos/apache_kafka/apache_kafka-card.png'
 - name: kasten
   fileName: src/logos/kasten.png
@@ -807,7 +812,7 @@
   url: 'https://ordina-jworks.github.io/img/dockercon2017/linux-kit.png'
 - name: log-analytics
   fileName: src/logos/log-analytics.png
-  sha256: 557fd644690b5e8d0d5dae90a7911868f152f0b48761b6df4bc283c55f1b58ab
+  sha256: 0cecbf47578aa57a2828ede8632097c48f41d21d39080c40aff7f6971d4243c1
   url: >-
     https://i1.wp.com/www.tjopsta.net/wp-content/uploads/2016/10/LogAnalytics-Logo.png
 - name: loggly
@@ -934,6 +939,10 @@
   fileName: src/logos/neu-vector.png
   sha256: 6283ad142f5fe3af68e37cf5c65feeff11a6d697888edac47410b073ec5c8080
   url: 'https://d0.awsstatic.com/logos/partners/neuvector_logo_600x400.png'
+- name: new-relic
+  fileName: src/logos/new-relic.png
+  sha256: e05a5957393fc2085e304edf4fa6e100c34bde68aab059dbea0355d6caa9742e
+  url: 'https://newrelic.com/assets/newrelic/source/NewRelic-logo-square.png'
 - name: nginx
   fileName: src/logos/nginx.png
   sha256: 023a3e90a5c41e6c99673b5aa54227ca40a5c62ec5fc70a237b59662771c7abc
@@ -1136,6 +1145,11 @@
   sha256: cdceeb740257c0bb61f4598357c8f27f1796ae26597d71acc566430ff7278f71
   url: >-
     https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Vmware.svg/1000px-Vmware.svg.png
+- name: prometheus
+  fileName: src/logos/prometheus.png
+  sha256: abdefaf269ec97bc710699ccdc5f9e9ec087f26d368f4beffd8b87cc0d9edfaf
+  url: >-
+    https://raw.githubusercontent.com/cncf/artwork/master/prometheus/stacked/color/prometheus-stacked-color.png
 - name: pub-nub
   fileName: src/logos/pub-nub.png
   sha256: 68e4d65f280fbc8ccc50250e1159008af9163e2aab20bdd91ab8da8248deddb6
@@ -1237,6 +1251,11 @@
   sha256: d25007a3a5f99c5da9a13f41bc94edb1a3c71f00a8cf75fc16cbfd7091185ca3
   url: >-
     https://crunchbase-production-res.cloudinary.com/image/upload/ddd2130f2a69731ce90ebf4fc205866f.jpg
+- name: sanproute
+  fileName: src/logos/sanproute.png
+  sha256: 6b58f2db3985356d86e832085285b6524a380e1f6e752c9581bab7bc7ffca5b8
+  url: >-
+    https://1v51ha1y9z9f2hpq55t67p7a3u-wpengine.netdna-ssl.com/wp-content/uploads/2016/12/snaproute-logo-2016.jpg
 - name: scaleway
   fileName: src/logos/scaleway.png
   sha256: 3ede756734a2d51c2efc430415be13c7302114f4593ba51dc9cc619fd1805880
@@ -1404,6 +1423,10 @@
   fileName: src/logos/swift.png
   sha256: 4636e0c8aed46641f25a290ad81b374a235b801ca07fed413ea4b1ae6a3121e7
   url: 'http://d.not.mn/OpenStack_Project_Swift_vertical.png'
+- name: sys-dig
+  fileName: src/logos/sys-dig.png
+  sha256: 0abd59f1d6a3216601ef6652571feac6564dd2da412943487afa0853ec962166
+  url: 'https://d1q6f0aelx0por.cloudfront.net/sysdig.png'
 - name: tectonic
   fileName: src/logos/tectonic.png
   sha256: bea094ae70a449147fa9b0dcc0fe07a24611e119f11ba328ede60839a5a0108b
@@ -1467,6 +1490,11 @@
   sha256: e758a7fb4f337c65aa313dad151dc7007cf6ede2d6d405b57677811c0974e10d
   url: >-
     https://raw.githubusercontent.com/cncf/artwork/master/vitess/stacked/color/vitess-stacked-color.png
+- name: wavefront
+  fileName: src/logos/wavefront.png
+  sha256: 46b3f59ff4f2ab80e5f92f6e76d1a7e76f55975ffc03c54eda1c9f364a91dbd2
+  url: >-
+    https://blogs.vmware.com/management/files/2017/08/Wavefront-Logo-Square-512x512.png
 - name: weave-cloud
   fileName: src/logos/weave-cloud.png
   sha256: be6a564323270e626aebd80da93b1c5d5a6608d39ecdf14006e868290ceaf6ec
