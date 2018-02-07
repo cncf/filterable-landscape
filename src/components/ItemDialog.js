@@ -7,6 +7,9 @@ import formatNumber from '../utils/formatNumber';
 import pretty  from 'pretty-date-js';
 
 const formatDate = function(x) {
+  if (x === '$TODAY$') {
+    return 'today';
+  }
   const parts = pretty(x);
   return parts.value + ' ' + parts.lang + ' ' + parts.misc;
 };

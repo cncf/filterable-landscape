@@ -55,8 +55,11 @@ const getSortedItems = createSelector(
     const emptyItemsUndefined = data.filter(function(x) {
       return _.isUndefined(x[sortField]);
     });
+    const todayItems = data.filter(function(x) {
+      return x[sortField] === '$TODAY$';
+    });
     const normalItems = data.filter(function(x) {
-      return x[sortField] !== 'N/A' && x[sortField] !== 'Not Entered Yet' && !_.isUndefined(x[sortField]);
+      return x[sortField] !== 'N/A' && x[sortField] !== 'Not Entered Yet' && !_.isUndefined(x[sortField]) && x[sortField] !== '$TODAY$';
     });
     const sortedViaMainSort =  _.orderBy(normalItems, function(x) {
       var result = x[sortField];
@@ -65,6 +68,9 @@ const getSortedItems = createSelector(
       }
       return result;
     },sortDirection);
+    const sortedViaName0 = _.orderBy(todayItems, function(x) {
+      return x.name.toLowerCase();
+    });
     const sortedViaName1 = _.orderBy(emptyItemsNA, function(x) {
       return x.name.toLowerCase();
     });
@@ -74,7 +80,7 @@ const getSortedItems = createSelector(
     const sortedViaName3 = _.orderBy(emptyItemsUndefined, function(x) {
       return x.name.toLowerCase();
     });
-    return sortedViaMainSort.concat(sortedViaName1).concat(sortedViaName2).concat(sortedViaName3);
+    return sortedViaMainSort.concat(sortedViaName0).concat(sortedViaName1).concat(sortedViaName2).concat(sortedViaName3);
   }
 );
 
