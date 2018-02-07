@@ -33,7 +33,7 @@ const HomePage = ({hasData}) => {
           </Grid>
           <Grid item xs={10} sm={10} className="content">
             <div className="disclaimer">
-                This is the interactive counterpart to CNCF &#180; s Cloud Native <a href="https://github.com/cncf/landscape#current-version">Landscape</a>.
+                This is the interactive counterpart to CNCF&#180;s Cloud Native <a href="https://github.com/cncf/landscape#current-version">Landscape</a>.
                 Please <a href="https://github.com/cncf/filterable-landscape/issues/new/">report</a> any issues or,
                 even better, open a pull request.
             </div>
