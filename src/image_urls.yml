@@ -26,9 +26,9 @@
     http://www.marketwire.com/library/MwGo/2016/4/5/11G092078/Anchore_RGB-14b85fa3801f8889be493bbb8e62e356.jpg
 - name: ansible
   fileName: src/logos/ansible.png
-  sha256: 6145bb733fdf9b3f407394bb05f05b66f75bc3646a3ab46c9173e5864bd7196a
+  sha256: 0eaefc5427c73819fb8f2bff1b524ab89761b3c0ee1ab974bb549036fd32769c
   url: >-
-    https://www.installvirtual.com/wp-content/uploads/2016/03/ansible_logo_850x400-300x169.png
+    https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Ansible_logo.svg/2000px-Ansible_logo.svg.png
 - name: apache-avro
   fileName: src/logos/apache-avro.png
   sha256: 50785f3206a452bffe1588ed2f3fbb317c06e292abd5ed8c59965ab5fb32cc66
@@ -174,6 +174,11 @@
   fileName: src/logos/buddy-build.png
   sha256: 9b07d40fcdf25fd6528df9289256d52a4ca70c3b7c3279b033a045654a84ed54
   url: 'https://docs.nowsecure.com/uploads/Buddybuild-integration.png'
+- name: buildkite
+  fileName: src/logos/buildkite.png
+  sha256: 7f14ac73d7abd7df8abc137bc9a87915e2e91b88a53eb07e6754f4ef50a20531
+  url: >-
+    https://buildkiteassets.com/assets/blog/new_buildkite_logo-7f14ac73d7abd7df8abc137bc9a87915e2e91b88a53eb07e6754f4ef50a20531.svg
 - name: canal
   fileName: src/logos/canal.png
   sha256: 7a41588f012bd98e320c8531775d0d434d5fb523185c26c031cbf922c4b6602b
@@ -266,6 +271,11 @@
   sha256: 7b6e3d7f1b90e554e0685219a4ad0d5aef303ecd83849198960286f312b3c795
   url: >-
     https://raw.githubusercontent.com/cncf/artwork/master/cni/stacked/color/cni-stacked-color.png
+- name: co-scale
+  fileName: src/logos/co-scale.png
+  sha256: 32c63c4c8dd6448ac3fbaeadc80c2b4aea9c532db4a3e077069b1c193dc14e42
+  url: >-
+    https://obsidian.co.za/sites/default/files/field/image/product/Coscale_Logo_cmyk_vert.png
 - name: cobe
   fileName: src/logos/cobe.png
   sha256: 58c306d44eaff1f1420d72ea878188a23e9f873a358d8de56a17e3bec40c1276
@@ -291,7 +301,7 @@
   url: 'https://www.unixmen.com/wp-content/uploads/2017/06/docker-compose-logo.png'
 - name: concourse
   fileName: src/logos/concourse.png
-  sha256: 593173ddf7e84d5970021eba8c49b372638619b6ae350e0ffbc8d3b9382726a7
+  sha256: 78fde3240a4f7d9ed4abe01edce5c1908a9c420ba6280fd51a624a7bf141499d
   url: 'https://avatars3.githubusercontent.com/u/7809479'
 - name: consul
   fileName: src/logos/consul.png
@@ -359,10 +369,6 @@
   sha256: 0c4d0b39e8f3dab3b9842ded063a8b7dc7b79b88031a2562f8a20af9592a2208
   url: >-
     https://crunchbase-production-res.cloudinary.com/image/upload/e9d7401fbbda172d5b1972370437a4be.png
-- name: dataflow
-  fileName: src/logos/dataflow.png
-  sha256: 01ffae3d7b2f91d45912d7da7b020c8ddbc6eb215c63b8b7565683f443705e37
-  url: ./src/hosted_logos/google-dataflow.png
 - name: datawire
   fileName: src/logos/datawire.png
   sha256: d0b355645fd3ee0b747f6d5582b8d4797430718e1650ac88e64a90381ff1b6fd
@@ -530,18 +536,22 @@
   fileName: src/logos/google-cloud.png
   sha256: d640bc081060d125f8b82b62f93e5480ea53348cdbf852c8d00fc71aee13e14b
   url: 'https://www.google.com/cloud/assets/press/Google_Cloud_Logo.png'
+- name: google-cloud-dataflow
+  fileName: src/logos/google-cloud-dataflow.png
+  sha256: 01ffae3d7b2f91d45912d7da7b020c8ddbc6eb215c63b8b7565683f443705e37
+  url: ./src/hosted_logos/google-dataflow.png
 - name: google-cloud-functions
   fileName: src/logos/google-cloud-functions.png
   sha256: 06862c30fff52280e1d21a09695599a3a5d516288fc34f3f5b107fdaced36630
   url: ./src/hosted_logos/google-cloudfunctions.png
+- name: google-container-registry
+  fileName: src/logos/google-container-registry.png
+  sha256: a4a7d3ed9937a38af0fe011ecd0e147e583feebd9891dca758631751d5551849
+  url: ./src/hosted_logos/google-containerregistry.png
 - name: google-kubernetes-engine-gke
   fileName: src/logos/google-kubernetes-engine-gke.png
   sha256: a132549fff3f27d8b840a4d077ec125524f698b7a1fb47d029cb9b23e3e7628c
   url: ./src/hosted_logos/google-kubernetesengine.png
-- name: google-registry
-  fileName: src/logos/google-registry.png
-  sha256: a4a7d3ed9937a38af0fe011ecd0e147e583feebd9891dca758631751d5551849
-  url: ./src/hosted_logos/google-containerregistry.png
 - name: grafana
   fileName: src/logos/grafana.png
   sha256: c6fba2ad0c819572d0b0a6e941412177cc527ea4272a68edd3860428352f779c
@@ -586,10 +596,6 @@
   fileName: src/logos/hashicorp-vault.png
   sha256: 832b704d5abd53fbff6873372bf0f304a598804e22c5a96e50a890b1d92bbeca
   url: 'https://hyzxph.media.zestyio.com/blog-vault-list.svg'
-- name: hdfs
-  fileName: src/logos/hdfs.png
-  sha256: fd33c4a06b86b05230e4183362728a886fe9232087a14f673565d0db37b92f6a
-  url: 'http://previsna.com/bilder/hadoop-hdfs.png'
 - name: hedvig
   fileName: src/logos/hedvig.png
   sha256: f0fca6c7bce1618695c85a49c491451ee295a9baf847847f815ddb1077925b89
@@ -663,10 +669,19 @@
   sha256: 66de55a585a7f42fc78b3f84e7144e94ad07a0b7fcd9aaf66b3a142f89a1c02f
   url: >-
     https://raw.githubusercontent.com/docker-library/docs/471fa6e4cb58062ccbf91afc111980f9c7004981/swarm/logo.png
+- name: instana
+  fileName: src/logos/instana.png
+  sha256: 974e511a6d73b19afd9a7ad1bdde8dd2b6fa4d946172539f49c8055a894f7a3f
+  url: 'http://www.instana.com/media/RZ_INSTANA_Dark_Blue.png'
 - name: intel-clear-containers
   fileName: src/logos/intel-clear-containers.png
   sha256: b62c3619a2ce08a8dcd72d5077907e6c71c34b07bfe24380fcfa5ad838c5f26e
   url: 'https://cdn.thenewstack.io/media/2015/11/ClearContainers.jpg'
+- name: iron-db
+  fileName: src/logos/iron-db.png
+  sha256: 8e67b5dda26563a0378451de1e8e49e56fe76a2048e5b4fe8abd4086a4a1b99d
+  url: >-
+    https://login.circonus.com/resources/docs/irondb/assets/irondb-logo-1777x761.png
 - name: iron-io
   fileName: src/logos/iron-io.png
   sha256: c8bf4f131a5a1d6fa3abbb275fbe4447d23c4a279869abc7bedfc476a57bb1cd
@@ -793,7 +808,7 @@
   url: 'https://ordina-jworks.github.io/img/dockercon2017/linux-kit.png'
 - name: log-analytics
   fileName: src/logos/log-analytics.png
-  sha256: 557fd644690b5e8d0d5dae90a7911868f152f0b48761b6df4bc283c55f1b58ab
+  sha256: 0cecbf47578aa57a2828ede8632097c48f41d21d39080c40aff7f6971d4243c1
   url: >-
     https://i1.wp.com/www.tjopsta.net/wp-content/uploads/2016/10/LogAnalytics-Logo.png
 - name: loggly
@@ -920,6 +935,10 @@
   fileName: src/logos/neu-vector.png
   sha256: 6283ad142f5fe3af68e37cf5c65feeff11a6d697888edac47410b073ec5c8080
   url: 'https://d0.awsstatic.com/logos/partners/neuvector_logo_600x400.png'
+- name: new-relic
+  fileName: src/logos/new-relic.png
+  sha256: e05a5957393fc2085e304edf4fa6e100c34bde68aab059dbea0355d6caa9742e
+  url: 'https://newrelic.com/assets/newrelic/source/NewRelic-logo-square.png'
 - name: nginx
   fileName: src/logos/nginx.png
   sha256: 023a3e90a5c41e6c99673b5aa54227ca40a5c62ec5fc70a237b59662771c7abc
@@ -962,7 +981,7 @@
     https://www.iguazio.com/wp-content/uploads/2017/11/Nuclio_Final-03-1024x470.png
 - name: octopus-deploy
   fileName: src/logos/octopus-deploy.png
-  sha256: 35211771bf72401852068ba406b43f87a9d9db512e52ef7837f8f01584f338aa
+  sha256: e7d5c10510a57a6da0b37d84353f094f4fd114ba24e9a18bfb61b9d437045e2c
   url: >-
     https://i.octopus.com/blog/201605-logo-text-blueblacktransparent-800_rgb-XGYC.png
 - name: op-beat
@@ -1199,6 +1218,10 @@
   fileName: src/logos/rocana.png
   sha256: 9ba8f51d7e4221f72b40ca155f24c9d6bd7444f5618ffaa48cb9d435ac008c1d
   url: ./src/hosted_logos/rocana.png
+- name: romana
+  fileName: src/logos/romana.png
+  sha256: ecebcece19a8586e523dfef85a436500c450d1bc70e698bb5c88d9d0937c714b
+  url: 'http://romana.io/images/Logo.250.png'
 - name: rook
   fileName: src/logos/rook.png
   sha256: 3a475344959374d5508a63c52776882fa46b8bf190ea6d3a96f36d328f9962e6

@@ -237,7 +237,7 @@ landscape:
             rank: 60056
             stars: 2151
             license: Apache-2.0
-            latest_commit_date: '2018-02-07T16:56:42Z'
+            latest_commit_date: '2018-02-07T20:57:56Z'
             description: OpenStack Compute (Nova)
             cncf_member: false
           - item:
@@ -272,7 +272,7 @@ landscape:
             rank: 42700
             stars: 27
             license: AGPL-3.0
-            latest_commit_date: '2018-02-07T15:01:43Z'
+            latest_commit_date: '2018-02-07T21:17:06Z'
             description: >-
               Official MAAS repository mirror. (Do not submit pull requests or
               bugs here; use Launchpad instead.)
@@ -349,7 +349,7 @@ landscape:
             market_cap: 74175000
             headquarters: 'San Francisco, California'
             rank: 949
-            stars: 10970
+            stars: 10971
             license: MPL-2.0
             latest_commit_date: '2018-02-07T17:15:55Z'
             description: >-
@@ -441,7 +441,7 @@ landscape:
             market_cap: N/A
             headquarters: 'San Francisco, California'
             rank: 63493
-            stars: 4003
+            stars: 4004
             license: Apache-2.0
             latest_commit_date: '2018-02-06T16:07:32Z'
             description: The Kubernetes Package Manager
@@ -461,7 +461,7 @@ landscape:
             rank: 471
             stars: 1877
             license: Apache-2.0
-            latest_commit_date: '2018-02-07T03:59:52Z'
+            latest_commit_date: '2018-02-07T19:42:44Z'
             description: >-
               A toolkit for creating and managing declarative, self-healing
               infrastructure.
@@ -479,7 +479,7 @@ landscape:
             market_cap: N/A
             headquarters: 'London, United Kingdom'
             rank: 42700
-            stars: 1089
+            stars: 1090
             license: AGPL-3.0
             latest_commit_date: '2017-03-21T19:56:28Z'
             description: juju is devops distilled
@@ -516,7 +516,7 @@ landscape:
             rank: 35264
             stars: 607
             license: Unknown License
-            latest_commit_date: '2018-02-06T21:15:30Z'
+            latest_commit_date: '2018-02-07T21:50:36Z'
             description: ManageIQ Open-Source Management Platform
             cncf_member: false
       - subcategory:
@@ -644,7 +644,7 @@ landscape:
               services to businesses in the form of web services.
             cncf_member: true
           - item:
-            name: Google Registry
+            name: Google Container Registry
             organization: Google Cloud Platform
             homepage_url: 'https://cloud.google.com/container-registry/'
             logo: ./src/hosted_logos/google-containerregistry.png
@@ -694,7 +694,7 @@ landscape:
             rank: 2994
             stars: 4861
             license: Unknown License
-            latest_commit_date: '2018-02-07T01:19:17Z'
+            latest_commit_date: '2018-02-07T21:19:04Z'
             description: Server automation framework and application
             cncf_member: false
           - item:
@@ -722,16 +722,16 @@ landscape:
             repo_url: 'https://github.com/ansible/ansible'
             branch: devel
             logo: >-
-              https://www.installvirtual.com/wp-content/uploads/2016/03/ansible_logo_850x400-300x169.png
+              https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Ansible_logo.svg/2000px-Ansible_logo.svg.png
             twitter: 'https://twitter.com/ansible'
             crunchbase: 'https://www.crunchbase.com/organization/red-hat'
             first_commit_date: '2012-02-23T19:17:24Z'
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
-            stars: 28274
+            stars: 28282
             license: GPL-3.0
-            latest_commit_date: '2018-02-07T18:15:27Z'
+            latest_commit_date: '2018-02-07T21:33:11Z'
             description: >-
               Ansible is a radically simple IT automation platform that makes
               your applications and systems easier to deploy. Avoid writing
@@ -775,7 +775,7 @@ landscape:
             rank: 12330
             stars: 8542
             license: Unknown License
-            latest_commit_date: '2018-02-06T14:48:45Z'
+            latest_commit_date: '2018-02-07T20:45:33Z'
             description: >-
               Software to automate the management and configuration of any
               infrastructure or application at scale. Get access to the Salt
@@ -923,7 +923,7 @@ landscape:
             market_cap: N/A
             headquarters: 'San Francisco, California'
             rank: 63493
-            stars: 1189
+            stars: 1190
             license: Apache-2.0
             latest_commit_date: '2018-02-07T05:03:02Z'
             description: >-
@@ -971,6 +971,7 @@ landscape:
             homepage_url: 'https://theupdateframework.github.io/'
             cncf_project: incubating
             repo_url: 'https://github.com/theupdateframework/tuf'
+            branch: develop
             logo: >-
               https://github.com/cncf/artwork/blob/master/tuf/stacked/color/tuf-stacked-color.png
             crunchbase: >-
@@ -981,7 +982,7 @@ landscape:
             rank: 63493
             stars: 698
             license: Unknown License
-            latest_commit_date: '2016-07-05T21:20:57Z'
+            latest_commit_date: '2018-02-06T22:12:14Z'
             description: A framework for securing software update systems
             cncf_member: true
           - item:
@@ -1030,7 +1031,7 @@ landscape:
             market_cap: 590500000
             headquarters: 'San Francisco, California'
             rank: 21
-            stars: 1868
+            stars: 1867
             license: Apache-2.0
             latest_commit_date: '2017-12-05T18:19:45Z'
             description: A system for distributing and managing secrets
@@ -1042,7 +1043,7 @@ landscape:
             logo: >-
               https://seeklogo.com/images/P/pinterest-badge-logo-82C89A5E42-seeklogo.com.png
             crunchbase: 'https://www.crunchbase.com/organization/pinterest'
-            first_commit_date: /pinterest/knox/commit/385cc7e316aa20f08fc03f5766da1c08b972f39d
+            first_commit_date: '2016-05-03T19:57:33Z'
             market_cap: 1466100000
             headquarters: 'San Francisco, California'
             rank: 192
@@ -1063,9 +1064,9 @@ landscape:
             market_cap: 74175000
             headquarters: 'San Francisco, California'
             rank: 949
-            stars: 8447
+            stars: 8448
             license: MPL-2.0
-            latest_commit_date: '2018-02-07T14:38:11Z'
+            latest_commit_date: '2018-02-07T20:57:52Z'
             description: >-
               A tool for secrets management, encryption as a service, and
               privileged access management
@@ -1101,7 +1102,7 @@ landscape:
             market_cap: N/A
             headquarters: 'San Francisco, California'
             rank: 73404
-            stars: 164
+            stars: 165
             license: Unknown License
             latest_commit_date: '2018-02-02T01:51:56Z'
             description: The SPIFFE Project
@@ -1145,7 +1146,7 @@ landscape:
             rank: Not Entered Yet
             stars: 4099
             license: Unknown License
-            latest_commit_date: '2018-02-07T17:54:50Z'
+            latest_commit_date: '2018-02-07T18:46:18Z'
             description: 'Ceph is a distributed object, block, and file storage platform'
             cncf_member: true
           - item:
@@ -1168,24 +1169,6 @@ landscape:
               for contributing)
             cncf_member: true
           - item:
-            name: HDFS
-            organization: Apache Software Foundation
-            homepage_url: 'http://hadoop.apache.org/'
-            repo_url: 'https://github.com/apache/hadoop-hdfs'
-            branch: trunk
-            logo: 'http://previsna.com/bilder/hadoop-hdfs.png'
-            twitter: 'https://twitter.com/TheASF'
-            crunchbase: 'https://www.crunchbase.com/organization/apache'
-            first_commit_date: '2009-05-19T04:20:40Z'
-            market_cap: N/A
-            headquarters: 'Forest Hill, Maryland'
-            rank: 84483
-            stars: 70
-            license: Apache-2.0
-            latest_commit_date: '2011-06-12T18:37:33Z'
-            description: Mirror of Apache Hadoop HDFS
-            cncf_member: false
-          - item:
             name: Minio
             organization: 'Minio, Inc.'
             homepage_url: 'https://minio.io/'
@@ -1198,7 +1181,7 @@ landscape:
             market_cap: 23300000
             headquarters: 'Palo Alto, California'
             rank: 4812
-            stars: 9994
+            stars: 9998
             license: Apache-2.0
             latest_commit_date: '2018-02-06T23:37:48Z'
             description: >-
@@ -1268,7 +1251,7 @@ landscape:
             market_cap: N/A
             headquarters: 'Hopkinton, Massachusetts'
             rank: 17932
-            stars: 1053
+            stars: 1054
             license: Apache-2.0
             latest_commit_date: '2017-12-19T22:26:34Z'
             description: >-
@@ -1328,9 +1311,9 @@ landscape:
             market_cap: N/A
             headquarters: 'San Francisco, California'
             rank: 63493
-            stars: 2213
+            stars: 2215
             license: Apache-2.0
-            latest_commit_date: '2018-02-04T15:02:07Z'
+            latest_commit_date: '2018-02-07T19:25:51Z'
             description: >-
               File, Block, and Object Storage Services for your Cloud-Native
               Environment
@@ -1430,7 +1413,7 @@ landscape:
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
-            stars: 1124
+            stars: 1123
             license: Apache-2.0
             latest_commit_date: '2018-01-26T07:28:51Z'
             description: The LeoFS Storage System
@@ -1462,7 +1445,7 @@ landscape:
             market_cap: N/A
             headquarters: 'Hopkinton, Massachusetts'
             rank: 17932
-            stars: 1053
+            stars: 1054
             license: Apache-2.0
             latest_commit_date: '2017-12-19T22:26:34Z'
             description: >-
@@ -1551,7 +1534,7 @@ landscape:
             market_cap: N/A
             headquarters: 'Bengaluru, India'
             rank: N/A
-            stars: 4914
+            stars: 4915
             license: Apache-2.0
             latest_commit_date: '2018-02-07T17:57:09Z'
             description: >-
@@ -1588,7 +1571,7 @@ landscape:
             market_cap: N/A
             headquarters: 'Austin, Texas'
             rank: 60056
-            stars: 1666
+            stars: 1667
             license: Apache-2.0
             latest_commit_date: '2018-02-07T05:50:12Z'
             description: OpenStack Storage (Swift)
@@ -1610,7 +1593,7 @@ landscape:
             market_cap: N/A
             headquarters: 'San Francisco, California'
             rank: 63493
-            stars: 7759
+            stars: 7760
             license: Apache-2.0
             latest_commit_date: '2018-01-15T16:29:15Z'
             description: >-
@@ -1705,7 +1688,7 @@ landscape:
             market_cap: N/A
             headquarters: 'San Francisco, California'
             rank: 63493
-            stars: 2252
+            stars: 2253
             license: Unknown License
             latest_commit_date: '2018-02-07T15:38:32Z'
             description: An open and reliable container runtime
@@ -1723,7 +1706,7 @@ landscape:
             market_cap: N/A
             headquarters: 'San Francisco, California'
             rank: 63493
-            stars: 898
+            stars: 899
             license: Apache-2.0
             latest_commit_date: '2018-02-06T14:48:04Z'
             description: >-
@@ -1761,7 +1744,7 @@ landscape:
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
-            stars: 157
+            stars: 158
             license: Apache-2.0
             latest_commit_date: '2018-01-31T18:32:51Z'
             description: Container Storage Interface (CSI) Specification.
@@ -1883,9 +1866,9 @@ landscape:
             market_cap: N/A
             headquarters: N/A
             rank: 69525
-            stars: 1416
+            stars: 1418
             license: Apache-2.0
-            latest_commit_date: '2018-02-06T23:31:37Z'
+            latest_commit_date: '2018-02-07T18:53:04Z'
             description: API-aware Networking and Security for Containers based on BPF
             cncf_member: false
           - item:
@@ -1918,7 +1901,7 @@ landscape:
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
-            stars: 2756
+            stars: 2757
             license: Apache-2.0
             latest_commit_date: '2018-02-02T19:26:33Z'
             description: >-
@@ -1992,7 +1975,7 @@ landscape:
             rank: N/A
             stars: 338
             license: Apache-2.0
-            latest_commit_date: '2018-02-05T15:07:48Z'
+            latest_commit_date: '2018-02-07T19:27:29Z'
             description: Contrail Controller
             cncf_member: false
           - item:
@@ -2009,7 +1992,7 @@ landscape:
             rank: N/A
             stars: 1484
             license: Unknown License
-            latest_commit_date: '2018-02-02T21:49:37Z'
+            latest_commit_date: '2018-01-31T13:53:06Z'
             description: Open vSwitch
             cncf_member: false
           - item:
@@ -2075,7 +2058,7 @@ landscape:
             market_cap: N/A
             headquarters: 'San Francisco, California'
             rank: 63493
-            stars: 1116
+            stars: 1117
             license: Apache-2.0
             latest_commit_date: '2018-02-07T15:47:58Z'
             description: Container Network Interface - networking for Linux containers
@@ -2122,9 +2105,9 @@ landscape:
             market_cap: N/A
             headquarters: 'San Francisco, California'
             rank: 63493
-            stars: 32275
+            stars: 32279
             license: Apache-2.0
-            latest_commit_date: '2018-02-07T18:01:32Z'
+            latest_commit_date: '2018-02-07T21:27:50Z'
             cncf_member: true
           - item:
             name: Amazon ECS
@@ -2255,9 +2238,9 @@ landscape:
             market_cap: 74175000
             headquarters: 'San Francisco, California'
             rank: 949
-            stars: 11333
+            stars: 11334
             license: MPL-2.0
-            latest_commit_date: '2018-02-07T16:08:02Z'
+            latest_commit_date: '2018-02-07T21:25:36Z'
             description: >-
               Consul is a distributed, highly available, and data center aware
               solution to connect and configure applications across dynamic,
@@ -2294,7 +2277,7 @@ landscape:
             market_cap: 130999998
             headquarters: 'San Francisco, California'
             rank: 1644
-            stars: 858
+            stars: 859
             license: MPL-2.0
             latest_commit_date: '2018-01-11T17:21:41Z'
             description: >-
@@ -2333,7 +2316,7 @@ landscape:
             rank: 63493
             stars: 1593
             license: Apache-2.0
-            latest_commit_date: '2018-02-07T16:31:08Z'
+            latest_commit_date: '2018-02-07T18:53:23Z'
             description: CoreDNS is a DNS server that chains plugins
             cncf_member: true
           - item:
@@ -2348,7 +2331,7 @@ landscape:
             market_cap: N/A
             headquarters: 'Austin, Texas'
             rank: N/A
-            stars: 3459
+            stars: 3457
             license: MIT
             latest_commit_date: '2017-08-04T01:04:59Z'
             description: Service registry bridge for Docker with pluggable adapters
@@ -2356,19 +2339,19 @@ landscape:
           - item:
             name: SmartStack
             organization: Airbnb
-            homepage_url: 'https://github.com/airbnb/smartstack-cookbook'
-            repo_url: 'https://github.com/airbnb/smartstack-cookbook'
+            homepage_url: >-
+              https://medium.com/airbnb-engineering/smartstack-service-discovery-in-the-cloud-4b8a080de619
+            repo_url: 'https://github.com/airbnb/synapse'
             logo: ./src/hosted_logos/smart-stack.png
             crunchbase: 'https://www.crunchbase.com/organization/airbnb'
-            first_commit_date: >-
-              /airbnb/smartstack-cookbook/commit/ce34ab7d2ee2488da97d68036957c55fd725a15e
+            first_commit_date: '2012-11-09T03:00:57Z'
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
-            stars: 205
+            stars: 1757
             license: MIT
-            latest_commit_date: '2015-03-03T05:20:32Z'
-            description: The chef recipes for running and testing Airbnb's SmartStack
+            latest_commit_date: '2017-11-14T18:08:47Z'
+            description: A transparent service discovery framework for connecting an SOA
             cncf_member: false
           - item:
             name: Hyperbahn
@@ -2461,7 +2444,7 @@ landscape:
             market_cap: 41000000
             headquarters: 'San Francisco, California'
             rank: 3518
-            stars: 5211
+            stars: 5212
             license: Unknown License
             latest_commit_date: '2018-02-07T13:44:29Z'
             description: >-
@@ -2526,9 +2509,9 @@ landscape:
             market_cap: N/A
             headquarters: 'San Francisco, California'
             rank: 63493
-            stars: 3801
+            stars: 3802
             license: Apache-2.0
-            latest_commit_date: '2018-02-07T17:58:08Z'
+            latest_commit_date: '2018-02-07T21:09:15Z'
             description: C++ front/service proxy
             cncf_member: true
           - item:
@@ -2564,7 +2547,7 @@ landscape:
             market_cap: 1000000
             headquarters: 'Lyon, France'
             rank: 23352
-            stars: 12848
+            stars: 12850
             license: MIT
             latest_commit_date: '2018-02-07T14:24:44Z'
             description: 'Træfik, a modern reverse proxy'
@@ -2617,9 +2600,9 @@ landscape:
             market_cap: N/A
             headquarters: 'San Francisco, California'
             rank: 63493
-            stars: 13524
+            stars: 13523
             license: Apache-2.0
-            latest_commit_date: '2018-02-07T04:40:21Z'
+            latest_commit_date: '2018-02-07T21:24:40Z'
             description: 'The C based gRPC (C++, Python, Ruby, Objective-C, PHP, C#)'
             cncf_member: true
           - item:
@@ -2705,7 +2688,7 @@ landscape:
             market_cap: 26101000
             headquarters: 'San Francisco, California'
             rank: 4031
-            stars: 14291
+            stars: 14293
             license: Apache-2.0
             latest_commit_date: '2018-02-05T18:49:21Z'
             description: "\U0001F412 The Microservice API Gateway"
@@ -2769,7 +2752,7 @@ landscape:
             market_cap: 2803735952
             headquarters: 'Los Gatos, California'
             rank: 5
-            stars: 3790
+            stars: 3791
             license: Apache-2.0
             latest_commit_date: '2017-11-17T23:26:03Z'
             description: >-
@@ -2866,7 +2849,7 @@ landscape:
             rank: N/A
             stars: 3619
             license: Unknown License
-            latest_commit_date: '2018-02-07T03:43:21Z'
+            latest_commit_date: '2018-02-07T20:34:30Z'
             description: >-
               Mirror of the official PostgreSQL GIT repository. Note that this
               is just a *mirror* - we don't work with pull requests on github.
@@ -2940,9 +2923,9 @@ landscape:
             market_cap: 311000000
             headquarters: 'New York, New York'
             rank: 1132
-            stars: 13061
+            stars: 13060
             license: Unknown License
-            latest_commit_date: '2018-01-29T19:28:05Z'
+            latest_commit_date: '2018-02-07T19:16:37Z'
             description: The MongoDB Database
             cncf_member: false
           - item:
@@ -2959,7 +2942,7 @@ landscape:
             market_cap: N/A
             headquarters: 'Forest Hill, Maryland'
             rank: 84483
-            stars: 4161
+            stars: 4162
             license: Apache-2.0
             latest_commit_date: '2018-02-07T16:46:47Z'
             description: Mirror of Apache Cassandra
@@ -2977,7 +2960,7 @@ landscape:
             market_cap: 86000000
             headquarters: 'Mountain View, California'
             rank: 957
-            stars: 27445
+            stars: 27446
             license: BSD-3-Clause
             latest_commit_date: '2018-02-02T10:10:18Z'
             description: >-
@@ -2999,9 +2982,9 @@ landscape:
             market_cap: 98175561
             headquarters: 'Espoo, Finland'
             rank: 908
-            stars: 1805
+            stars: 1806
             license: Unknown License
-            latest_commit_date: '2018-02-07T17:56:16Z'
+            latest_commit_date: '2018-02-07T20:23:10Z'
             description: >-
               MariaDB server is a community developed fork of MySQL server.
               Started by core members of the original MySQL team, MariaDB
@@ -3024,7 +3007,7 @@ landscape:
             rank: 6812
             stars: 1906
             license: ECL-2.0
-            latest_commit_date: '2018-02-06T15:48:28Z'
+            latest_commit_date: '2018-02-07T15:11:56Z'
             description: >-
               CrateDB is a distributed SQL database that makes it simple to
               store and analyze massive amounts of machine data in real-time.
@@ -3042,7 +3025,7 @@ landscape:
             market_cap: 8100000
             headquarters: 'San Francisco, California'
             rank: 2626
-            stars: 6432
+            stars: 6433
             license: Unknown License
             latest_commit_date: '2018-01-25T23:50:02Z'
             description: 'The versioned, forkable, syncable database'
@@ -3060,7 +3043,7 @@ landscape:
             market_cap: 5370000
             headquarters: 'Berlin, Germany'
             rank: 3491
-            stars: 2133
+            stars: 2134
             license: Unknown License
             latest_commit_date: '2018-02-06T11:40:05Z'
             description: BigchainDB is a scalable blockchain database
@@ -3098,9 +3081,9 @@ landscape:
             market_cap: 53500000
             headquarters: 'New York, New York'
             rank: 1846
-            stars: 12450
+            stars: 12452
             license: Unknown License
-            latest_commit_date: '2018-02-07T18:07:20Z'
+            latest_commit_date: '2018-02-07T21:50:03Z'
             description: 'CockroachDB - the open source, cloud-native SQL database.'
             cncf_member: false
           - item:
@@ -3137,7 +3120,7 @@ landscape:
             market_cap: N/A
             headquarters: 'San Francisco, California'
             rank: 63493
-            stars: 5497
+            stars: 5498
             license: Apache-2.0
             latest_commit_date: '2018-02-07T15:26:42Z'
             description: >-
@@ -3191,7 +3174,7 @@ landscape:
             rank: Not Entered Yet
             stars: 6075
             license: Apache-2.0
-            latest_commit_date: '2018-02-07T00:45:29Z'
+            latest_commit_date: '2018-02-07T21:24:30Z'
             description: >-
               Column oriented distributed data store ideal for powering
               interactive applications
@@ -3259,9 +3242,9 @@ landscape:
             market_cap: N/A
             headquarters: 'Forest Hill, Maryland'
             rank: 84483
-            stars: 5602
+            stars: 5605
             license: Apache-2.0
-            latest_commit_date: '2018-02-07T17:40:33Z'
+            latest_commit_date: '2018-02-07T19:21:41Z'
             description: Mirror of Apache Hadoop
             cncf_member: false
           - item:
@@ -3309,7 +3292,7 @@ landscape:
             market_cap: 2120000
             headquarters: 'San Francisco, California'
             rank: 15676
-            stars: 2510
+            stars: 2511
             license: Apache-2.0
             latest_commit_date: '2018-02-06T01:05:32Z'
             description: Reproducible Data Science at Scale!
@@ -3327,7 +3310,7 @@ landscape:
             market_cap: 23000000
             headquarters: 'Herzliya, Israel'
             rank: 4602
-            stars: 3707
+            stars: 3708
             license: AGPL-3.0
             latest_commit_date: '2018-02-07T15:55:13Z'
             description: >-
@@ -3353,11 +3336,11 @@ landscape:
             rank: 84483
             stars: 7363
             license: Apache-2.0
-            latest_commit_date: '2018-02-07T11:29:08Z'
+            latest_commit_date: '2018-02-07T19:53:07Z'
             description: Mirror of Apache Kafka
             cncf_member: false
           - item:
-            name: Dataflow
+            name: Google Cloud Dataflow
             organization: Google Cloud Platform
             homepage_url: 'https://cloud.google.com/dataflow/'
             logo: ./src/hosted_logos/google-dataflow.png
@@ -3383,7 +3366,7 @@ landscape:
             market_cap: N/A
             headquarters: 'Forest Hill, Maryland'
             rank: 84483
-            stars: 16092
+            stars: 16093
             license: Apache-2.0
             latest_commit_date: '2018-02-07T17:48:49Z'
             description: Mirror of Apache Spark
@@ -3403,7 +3386,7 @@ landscape:
             rank: Not Entered Yet
             stars: 3083
             license: Apache-2.0
-            latest_commit_date: '2018-02-07T17:41:21Z'
+            latest_commit_date: '2018-02-07T20:07:48Z'
             description: >-
               Heron is a realtime, distributed, fault-tolerant stream processing
               engine from Twitter
@@ -3421,9 +3404,9 @@ landscape:
             market_cap: N/A
             headquarters: 'Forest Hill, Maryland'
             rank: 84483
-            stars: 3254
+            stars: 3255
             license: Apache-2.0
-            latest_commit_date: '2018-02-07T14:39:58Z'
+            latest_commit_date: '2018-02-07T16:33:03Z'
             description: Mirror of Apache Flink
             cncf_member: false
           - item:
@@ -3458,7 +3441,7 @@ landscape:
             rank: 84483
             stars: 4822
             license: Apache-2.0
-            latest_commit_date: '2018-02-06T07:27:07Z'
+            latest_commit_date: '2018-02-07T20:39:45Z'
             description: Mirror of Apache Storm
             cncf_member: false
           - item:
@@ -3473,7 +3456,7 @@ landscape:
             market_cap: N/A
             headquarters: 'London, United Kingdom'
             rank: 79723
-            stars: 3661
+            stars: 3662
             license: Unknown License
             latest_commit_date: '2018-02-07T17:25:47Z'
             description: Open source multi-protocol messaging broker
@@ -3512,7 +3495,7 @@ landscape:
             rank: 84483
             stars: 797
             license: Apache-2.0
-            latest_commit_date: '2018-02-06T04:52:48Z'
+            latest_commit_date: '2018-02-07T18:52:02Z'
             description: Mirror of Apache NiFi
             cncf_member: false
           - item:
@@ -3527,9 +3510,9 @@ landscape:
             market_cap: N/A
             headquarters: 'Forest Hill, Maryland'
             rank: 84483
-            stars: 1566
+            stars: 1567
             license: Apache-2.0
-            latest_commit_date: '2018-02-07T17:24:15Z'
+            latest_commit_date: '2018-02-07T18:32:29Z'
             description: Pulsar - distributed pub-sub messaging system
             cncf_member: false
           - item:
@@ -3547,7 +3530,7 @@ landscape:
             rank: 1520
             stars: 399
             license: Apache-2.0
-            latest_commit_date: '2018-02-07T07:34:34Z'
+            latest_commit_date: '2018-02-01T04:52:59Z'
             description: >-
               StreamSets DataCollector - Continuous big data ingest
               infrastructure
@@ -3685,7 +3668,7 @@ landscape:
             rank: 949
             stars: 7308
             license: MPL-2.0
-            latest_commit_date: '2018-02-07T06:47:04Z'
+            latest_commit_date: '2018-02-07T21:38:53Z'
             description: >-
               Packer is a tool for creating identical machine images for
               multiple platforms from a single source configuration.
@@ -3703,9 +3686,9 @@ landscape:
             market_cap: 242766694
             headquarters: 'San Francisco, California'
             rank: 471
-            stars: 11765
+            stars: 11767
             license: Apache-2.0
-            latest_commit_date: '2018-02-07T01:25:20Z'
+            latest_commit_date: '2018-02-07T20:20:45Z'
             description: Define and run multi-container applications with Docker
             cncf_member: true
           - item:
@@ -3720,9 +3703,9 @@ landscape:
             market_cap: 105000000
             headquarters: 'Seattle, Washington'
             rank: 3174
-            stars: 1374
+            stars: 1375
             license: Apache-2.0
-            latest_commit_date: '2018-02-07T18:11:17Z'
+            latest_commit_date: '2018-02-07T19:44:40Z'
             description: Modern applications with built-in automation
             cncf_member: false
           - item:
@@ -3772,7 +3755,7 @@ landscape:
             market_cap: N/A
             headquarters: 'San Francisco, California'
             rank: N/A
-            stars: 8936
+            stars: 8938
             license: Unknown License
             latest_commit_date: '2018-02-02T22:17:26Z'
             description: The OpenAPI Specification Repository
@@ -3793,7 +3776,7 @@ landscape:
             market_cap: N/A
             headquarters: 'San Francisco, California'
             rank: N/A
-            stars: 9724
+            stars: 9725
             license: MIT
             latest_commit_date: '2018-02-06T08:40:24Z'
             description: Jenkins automation server
@@ -3858,7 +3841,7 @@ landscape:
             market_cap: 28000
             headquarters: 'San Francisco, California'
             rank: 38858
-            stars: 13044
+            stars: 13045
             license: Apache-2.0
             latest_commit_date: '2018-02-01T21:50:06Z'
             description: >-
@@ -4109,7 +4092,7 @@ landscape:
             homepage_url: 'https://buildkite.com/'
             repo_url: 'https://github.com/buildkite/agent'
             logo: >-
-              https://dka575ofm4ao0.cloudfront.net/pages-transactional_logos/retina/1292/iukn7svdTeev16OTOu1U
+              https://buildkiteassets.com/assets/blog/new_buildkite_logo-7f14ac73d7abd7df8abc137bc9a87915e2e91b88a53eb07e6754f4ef50a20531.svg
             twitter: 'https://twitter.com/buildkite'
             crunchbase: 'https://www.crunchbase.com/organization/buildkite'
             first_commit_date: '2014-01-29T10:43:45Z'
@@ -4137,7 +4120,7 @@ landscape:
             rank: Not Entered Yet
             stars: 2515
             license: Apache-2.0
-            latest_commit_date: '2018-02-07T17:26:43Z'
+            latest_commit_date: '2018-02-07T21:00:01Z'
             description: BOSH release and development workspace for Concourse
             cncf_member: false
           - item:
@@ -4207,9 +4190,9 @@ landscape:
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
-            stars: 4039
+            stars: 4044
             license: Apache-2.0
-            latest_commit_date: '2018-02-07T16:18:37Z'
+            latest_commit_date: '2018-02-07T20:44:19Z'
             description: Enterprise Kubernetes for Developers
             cncf_member: true
           - item:
@@ -4273,9 +4256,9 @@ landscape:
             market_cap: 30000000
             headquarters: 'Cupertino, California'
             rank: 5015
-            stars: 7673
+            stars: 7674
             license: Unknown License
-            latest_commit_date: '2018-02-07T17:20:20Z'
+            latest_commit_date: '2018-02-07T21:40:14Z'
             description: Complete container management platform
             cncf_member: true
           - item:
@@ -4357,7 +4340,7 @@ landscape:
             market_cap: 1405000
             headquarters: 'Newark, Delaware'
             rank: 25194
-            stars: 6504
+            stars: 6505
             license: Unknown License
             latest_commit_date: '2018-01-17T20:17:00Z'
             description: A next generation open source platform as a service (PaaS)
@@ -4513,7 +4496,7 @@ landscape:
             market_cap: N/A
             headquarters: 'New York, New York'
             rank: 71573
-            stars: 1283
+            stars: 1284
             license: Unknown License
             latest_commit_date: '2018-02-06T12:01:37Z'
             description: >-
@@ -4673,7 +4656,7 @@ landscape:
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
-            stars: 9341
+            stars: 9343
             license: Apache-2.0
             latest_commit_date: '2018-02-06T21:42:27Z'
             description: >-
@@ -4695,7 +4678,7 @@ landscape:
             rank: 471
             stars: 47556
             license: Apache-2.0
-            latest_commit_date: '2018-02-07T05:39:43Z'
+            latest_commit_date: '2018-02-07T21:06:45Z'
             description: >-
               Moby Project - a collaborative project for the container ecosystem
               to assemble container-based systems
@@ -4846,7 +4829,7 @@ landscape:
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
-            stars: 6657
+            stars: 6659
             license: Unknown License
             latest_commit_date: '2018-01-31T18:11:20Z'
             description: Simple management UI for Docker
@@ -5006,7 +4989,7 @@ landscape:
             market_cap: N/A
             headquarters: 'Forest Hill, Maryland'
             rank: 84483
-            stars: 2405
+            stars: 2406
             license: Apache-2.0
             latest_commit_date: '2018-02-07T14:47:15Z'
             description: >-
@@ -5077,9 +5060,9 @@ landscape:
             market_cap: 36500000
             headquarters: 'Sunnyvale, California'
             rank: 1803
-            stars: 2990
+            stars: 2992
             license: Apache-2.0
-            latest_commit_date: '2018-02-07T13:44:12Z'
+            latest_commit_date: '2018-02-07T19:39:02Z'
             description: Fast Serverless Functions for Kubernetes
             cncf_member: false
           - item:
@@ -5129,7 +5112,7 @@ landscape:
             market_cap: 3000000
             headquarters: 'San Francisco, California'
             rank: 1999
-            stars: 21672
+            stars: 21676
             license: Unknown License
             latest_commit_date: '2018-02-07T01:49:03Z'
             description: >-
@@ -5149,7 +5132,7 @@ landscape:
             market_cap: Not Entered Yet
             headquarters: Not Entered Yet
             rank: Not Entered Yet
-            stars: 1867
+            stars: 1871
             license: Apache-2.0
             latest_commit_date: '2018-02-06T11:39:41Z'
             description: Kubernetes Native Serverless Framework
@@ -5184,7 +5167,7 @@ landscape:
             market_cap: 48000000
             headquarters: 'Herzliya, Israel'
             rank: 402
-            stars: 1724
+            stars: 1726
             license: Apache-2.0
             latest_commit_date: '2018-02-06T14:18:51Z'
             description: High-Performance Serverless event and data processing platform
@@ -5330,7 +5313,7 @@ landscape:
             market_cap: N/A
             headquarters: 'San Francisco, California'
             rank: 63493
-            stars: 14573
+            stars: 14574
             license: Apache-2.0
             latest_commit_date: '2018-02-07T10:29:27Z'
             description: The Prometheus monitoring system and time series database.
@@ -5533,9 +5516,9 @@ landscape:
             market_cap: 24892000
             headquarters: 'San Francisco, California'
             rank: 1537
-            stars: 12543
+            stars: 12545
             license: Unknown License
-            latest_commit_date: '2018-02-06T23:25:03Z'
+            latest_commit_date: '2018-02-07T20:04:39Z'
             description: 'Scalable datastore for metrics, events, and real-time analytics'
             cncf_member: true
           - item:
@@ -5811,7 +5794,7 @@ landscape:
             market_cap: N/A
             headquarters: 'New York, New York'
             rank: 64875
-            stars: 20118
+            stars: 20123
             license: Apache-2.0
             latest_commit_date: '2018-02-07T14:32:30Z'
             description: >-
@@ -5885,9 +5868,9 @@ landscape:
             market_cap: 10500000
             headquarters: 'San Francisco, California'
             rank: 4725
-            stars: 15566
+            stars: 15568
             license: BSD-3-Clause
-            latest_commit_date: '2018-02-06T22:18:32Z'
+            latest_commit_date: '2018-02-07T21:09:17Z'
             description: >-
               Sentry is a cross-platform crash reporting and aggregation
               platform.
@@ -5975,9 +5958,9 @@ landscape:
             market_cap: 104000000
             headquarters: 'Mountain View, California'
             rank: 907
-            stars: 28596
+            stars: 28600
             license: Apache-2.0
-            latest_commit_date: '2018-02-06T12:47:06Z'
+            latest_commit_date: '2018-02-07T21:31:42Z'
             description: 'Open Source, Distributed, RESTful Search Engine'
             cncf_member: false
           - item:
@@ -6175,7 +6158,7 @@ landscape:
             market_cap: N/A
             headquarters: 'San Francisco, California'
             rank: 63493
-            stars: 3927
+            stars: 3929
             license: Apache-2.0
             latest_commit_date: '2018-02-06T16:20:19Z'
             description: 'CNCF Jaeger, a Distributed Tracing System'
@@ -6194,7 +6177,7 @@ landscape:
             rank: Not Entered Yet
             stars: 582
             license: Apache-2.0
-            latest_commit_date: '2018-01-31T14:36:49Z'
+            latest_commit_date: '2018-02-07T19:46:26Z'
             description: Distributed tracing for spring cloud
             cncf_member: false
           - item:

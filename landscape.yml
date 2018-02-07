@@ -289,7 +289,7 @@ landscape:
             twitter: 'https://twitter.com/awscloud'
             crunchbase: 'https://www.crunchbase.com/organization/amazon-web-services'
           - item:
-            name: Google Registry
+            name: Google Container Registry
             organization: Google
             homepage_url: 'https://cloud.google.com/container-registry/'
             logo: './src/hosted_logos/google-containerregistry.png'
@@ -328,7 +328,7 @@ landscape:
             homepage_url: 'https://www.ansible.com/'
             repo_url: 'https://github.com/ansible/ansible'
             branch: devel
-            logo: 'https://www.installvirtual.com/wp-content/uploads/2016/03/ansible_logo_850x400-300x169.png'
+            logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Ansible_logo.svg/2000px-Ansible_logo.svg.png'
             twitter: 'https://twitter.com/ansible'
             crunchbase: 'https://www.crunchbase.com/organization/red-hat'
           - item:
@@ -434,6 +434,7 @@ landscape:
             homepage_url: 'https://theupdateframework.github.io/'
             cncf_project: incubating
             repo_url: 'https://github.com/theupdateframework/tuf'
+            branch: develop
             logo: 'https://github.com/cncf/artwork/blob/master/tuf/stacked/color/tuf-stacked-color.png'
             crunchbase: 'https://www.crunchbase.com/organization/cloud-native-computing-foundation'
           - item:
@@ -520,15 +521,6 @@ landscape:
             logo: 'http://community.redhat.com/images/branding/logo-gluster.png'
             twitter: 'https://twitter.com/gluster'
             crunchbase: 'https://www.crunchbase.com/organization/red-hat'
-          - item:
-            name: HDFS
-            organization: Apache
-            homepage_url: 'http://hadoop.apache.org/'
-            repo_url: 'https://github.com/apache/hadoop-hdfs'
-            branch: trunk
-            logo: 'http://previsna.com/bilder/hadoop-hdfs.png'
-            twitter: 'https://twitter.com/TheASF'
-            crunchbase: 'https://www.crunchbase.com/organization/apache'
           - item:
             name: Minio
             organization: Minio
@@ -1039,8 +1031,8 @@ landscape:
           - item:
             name: SmartStack
             organization: Airbnb
-            homepage_url: 'https://github.com/airbnb/smartstack-cookbook'
-            repo_url: 'https://github.com/airbnb/smartstack-cookbook'
+            homepage_url: 'https://medium.com/airbnb-engineering/smartstack-service-discovery-in-the-cloud-4b8a080de619'
+            repo_url: 'https://github.com/airbnb/synapse'
             logo: ./src/hosted_logos/smart-stack.png
             crunchbase: 'https://www.crunchbase.com/organization/airbnb'
           - item:
@@ -1480,7 +1472,7 @@ landscape:
             twitter: 'https://twitter.com/apachekafka'
             crunchbase: 'https://www.crunchbase.com/organization/apache'
           - item:
-            name: Dataflow
+            name: Google Cloud Dataflow
             organization: Google
             homepage_url: 'https://cloud.google.com/dataflow/'
             logo: './src/hosted_logos/google-dataflow.png'
@@ -1817,7 +1809,7 @@ landscape:
             organization: Buildkite
             homepage_url: 'https://buildkite.com/'
             repo_url: 'https://github.com/buildkite/agent'
-            logo: 'https://dka575ofm4ao0.cloudfront.net/pages-transactional_logos/retina/1292/iukn7svdTeev16OTOu1U'
+            logo: 'https://buildkiteassets.com/assets/blog/new_buildkite_logo-7f14ac73d7abd7df8abc137bc9a87915e2e91b88a53eb07e6754f4ef50a20531.svg'
             twitter: 'https://twitter.com/buildkite'
             crunchbase: 'https://www.crunchbase.com/organization/buildkite'
           - item:
