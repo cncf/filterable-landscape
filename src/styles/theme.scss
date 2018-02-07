@@ -87,6 +87,16 @@ body{
   border-radius:2px;
   box-shadow: 1px 1px 3px #d6d6d6;
 
+  &.inception{
+    border: 2px solid red;
+  }
+  &.incubating{
+    border: 2px solid green;
+  }
+  &.graduated{
+    border: 2px solid blue;
+  }
+
   .logo_wrapper{
     padding:10px;
     height: 70%;
