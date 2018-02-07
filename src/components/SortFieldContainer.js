@@ -13,10 +13,10 @@ export const options = [{
   label: 'Funding / Market Cap (high to low)',
 }, {
   id: {field: 'firstCommitDate', direction: 'asc'},
-  label: 'Project Started (earlier to sooner)',
+  label: 'Project Started (earlier to later)',
 }, {
   id: {field: 'latestCommitDate', direction: 'asc'},
-  label: 'Latest Commit (earlier to sooner)',
+  label: 'Latest Commit (earlier to later)',
 }].map(function(x) {
   return {
     id: JSON.stringify(x.id),
