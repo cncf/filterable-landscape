@@ -73,8 +73,8 @@ const TreeSelector = ({value, options, onChange}) => {
 
   return <Select
     multiple
-    style={{width:150 ,fontSize:'0.7em'}}
     value={value}
+    className="select"
     renderValue={renderValue }
     onChange={(e) => onItemChanged(e.target.value)}
     displayEmpty
