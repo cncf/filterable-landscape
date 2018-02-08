@@ -3,6 +3,7 @@ import Dialog from 'material-ui/Dialog';
 import Icon from 'material-ui/Icon';
 import KeyHandler from 'react-key-handler';
 import _ from 'lodash';
+import millify from 'millify'
 import formatNumber from '../utils/formatNumber';
 import relativeDate from 'relative-date';
 
@@ -68,6 +69,7 @@ const ItemDialog = ({onClose, itemInfo, previousItemId, nextItemId, onSelectItem
     var [category, subcategory] = path.split(' / ');
     return (<span>{[partMarkup(category), separator, partMarkup(subcategory)]}</span>);
   }
+  const funding = 282000000;
   return (
     <Dialog open={true} onClose={() => onClose()} className="modal" classes={{paper:'modal-body'}}>
       { nextItemId && <KeyHandler keyValue="ArrowRight" onKeyHandle={() => onSelectItem(nextItemId)} /> }
@@ -124,6 +126,13 @@ const ItemDialog = ({onClose, itemInfo, previousItemId, nextItemId, onSelectItem
                 </div>
               </div>
               }
+              {Number.isInteger(itemInfo.marketCap) &&
+              <div className="product-property row">
+                <div className="product-property-name col col-25">Funding</div>
+                <div className="product-property-value col col-75">
+                  {'$' + millify(itemInfo.marketCap)}
+                </div>
+              </div>              }
               {itemInfo.crunchbase &&
               <div className="product-property row">
                 <div className="product-property-name col col-25">Crunchbase</div>
