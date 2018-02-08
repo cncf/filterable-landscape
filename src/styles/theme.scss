@@ -132,7 +132,7 @@ body{
     margin:0 0 5px 0 !important;
     font-size: 1em;
   }
-  &-stars {line-height: 15px; text-align: right;
+  &-stars {line-height: 15px; text-align: right; white-space: nowrap;
     .material-icons {line-height: 15px; vertical-align: top;}
   }
   &-funding {white-space: nowrap;}
