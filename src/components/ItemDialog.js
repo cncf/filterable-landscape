@@ -125,15 +125,6 @@ const ItemDialog = ({onClose, itemInfo, previousItemId, nextItemId, onSelectItem
                 </div>
               </div>
               }
-              {Number.isInteger(itemInfo.marketCap) && (
-              <div className="product-property row">
-                <div className="product-property-name col col-25">Funding</div>
-                <div className="product-property-value col col-75">
-                  {'$' + millify(itemInfo.marketCap)}
-                </div>
-              </div>              
-              )
-              }
               {itemInfo.crunchbase &&
               <div className="product-property row">
                 <div className="product-property-name col col-25">Crunchbase</div>
@@ -146,6 +137,15 @@ const ItemDialog = ({onClose, itemInfo, previousItemId, nextItemId, onSelectItem
                 <div className="product-property-name col col-25">Headquarters</div>
                 <div className="product-property-value col col-75">{itemInfo.headquarters}</div>
               </div>
+              {Number.isInteger(itemInfo.marketCap) && (
+              <div className="product-property row">
+                <div className="product-property-name col col-25">Funding</div>
+                <div className="product-property-value col col-75">
+                  {'$' + millify(itemInfo.marketCap)}
+                </div>
+              </div>              
+              )
+              }
               { cbRank && (
               <div className="product-property row">
                 <div className="product-property-name col col-25">CB Rank</div>
