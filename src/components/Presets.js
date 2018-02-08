@@ -1,13 +1,25 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 
+const presets = [{
+  url: "/grouping=landscape",
+  label: 'Landscape categories'
+},{
+  url:  "/grouping=landscape&landscape=monitoring&license=open-source&sort=stars",
+  label: 'Open source monitoring projects by stars'
+}, {
+  url:   "/grouping=headquarters&headquarters=new-york-new-york",
+  label: 'Offerings from New York'
+}, {
+  url: "/grouping=landscape&license=apache-2-0&sort=stars",
+  label: 'Apache-licensed projects by category and popularity'
+}];
 const Presets = () => {
   return (
-  <div className="sidebar-presets">
-  	<div><a className="preset active" href="/grouping=landscape">Landscape categories</a></div>
-  	<div><a className="preset" href="/grouping=landscape&landscape=monitoring&license=open-source&sort=stars">Open source monitoring projects by stars</a></div>
-  	<div><a className="preset" href="/grouping=headquarters&headquarters=new-york-new-york">Offerings from New York</a></div>
-  	<div><a className="preset" href="/grouping=landscape&license=apache-2-0&sort=stars">Apache-licensed projects by category and popularity</a></div>
-  </div>
+    <div className="sidebar-presets">{presets.map( entry => (
+      <div><NavLink className="preset" activeClassName="active" to={entry.url}>{entry.label}</NavLink></div>
+    ))}
+    </div>
   )
 };
 export default Presets;
