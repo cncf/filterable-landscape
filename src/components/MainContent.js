@@ -32,7 +32,9 @@ const MainContent = ({groupedItems, onSelectItem}) => {
                         <span>{item.starsAsText}</span>
                       </div>
                     }
-                    { Number.isInteger(item.marketCap) ? '$'+ millify( item.marketCap ) : '' }
+                    { Number.isInteger(item.marketCap) &&
+                      <div className="mosaic-funding">Funding: {'$'+ millify( item.marketCap )}</div>
+                    }
                   </div>
                 </div>
               </div>);
