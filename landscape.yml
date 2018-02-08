@@ -459,14 +459,14 @@ landscape:
             organization: Square
             homepage_url: 'https://square.github.io/keywhiz/'
             repo_url: 'https://github.com/square/keywhiz'
-            logo: 'https://avatars0.githubusercontent.com/u/82592?v=4&s=200'
+            logo: './src/hosted_logos/square-keywhiz.png'
             stock_ticker: SQ
             crunchbase: 'https://www.crunchbase.com/organization/square'
           - item:
             name: Knox
             organization: Pinterest
             repo_url: 'https://github.com/pinterest/knox'
-            logo: 'https://seeklogo.com/images/P/pinterest-badge-logo-82C89A5E42-seeklogo.com.png'
+            logo: './src/hosted_logos/pinterest-knox.png'
             crunchbase: 'https://www.crunchbase.com/organization/pinterest'
           - item:
             name: Hashicorp Vault
@@ -1040,7 +1040,7 @@ landscape:
             organization: Uber
             homepage_url: 'https://github.com/uber-archive/hyperbahn'
             repo_url: 'https://github.com/uber-archive/hyperbahn'
-            logo: 'http://thriftyzone.thriftysigns.netdna-cdn.com/image/cache/data/decals/travel/uber-logo-decal-sticker-uber-logo-500x500.png'
+            logo: './src/hosted_logos/uber-hyperbahn.png'
             crunchbase: 'https://www.crunchbase.com/organization/uber'
           - item:
             name: Eureka
