@@ -9,6 +9,7 @@ import HomePageUrlContainer from './HomePageUrlContainer';
 import ResetFiltersContainer from './ResetFiltersContainer';
 import ItemDialogContainer from './ItemDialogContainer';
 import HeaderContainer from './HeaderContainer';
+import Footer from './Footer';
 
 const HomePage = ({hasData}) => {
   if (!hasData) {
@@ -19,7 +20,7 @@ const HomePage = ({hasData}) => {
         <HomePageUrlContainer />
         <ItemDialogContainer />
         <HeaderContainer/>
-      
+
         <Grid container spacing={24}>
           <Grid item xs={2} sm={2} className="sidebar">
             <StickyBox className="content-sidebar">
@@ -38,6 +39,7 @@ const HomePage = ({hasData}) => {
                 even better, open a pull request.
             </div>
             <MainContentContainer/>
+            <Footer/>
           </Grid>
         </Grid>
       </div>
