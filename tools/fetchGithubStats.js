@@ -5,7 +5,7 @@ import _ from 'lodash';
 const rp = require('request-promise');
 import { JSDOM } from 'jsdom';
 
-import { getRepoLastDate } from './githubDates';
+import { getRepoLatestDate } from './githubDates';
 
 const tree = traverse(source);
 const repos = {};
@@ -60,13 +60,17 @@ async function readGithubStats() {
       description = descriptionElement.textContent.replace(/\n/g, '').trim();
     }
     var date;
+    var latestCommitLink;
     try {
       const branch = repos[url];
-      date = await getRepoLastDate({repo, branch });
+      var latestDateResult = await getRepoLatestDate({repo, branch });
+      // console.info(repo, latestDateResult);
+      date = latestDateResult.date;
+      latestCommitLink = latestDateResult.commitLink;
     } catch (ex) {
       console.info ('can not fetch last date for ', repo);
     }
-    result.push({url, stars, license, description, latest_commit_date: date});
+    result.push({url, stars, license, description, latest_commit_date: date, latest_commit_link: latestCommitLink });
     await Promise.delay(1 * 1000);
   }, {concurrency: 20});_
 

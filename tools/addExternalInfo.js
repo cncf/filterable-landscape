@@ -41,12 +41,14 @@ const newSource = tree.map(function(node) {
       githubInfo = {
         stars: githubEntry.stars,
         license: githubEntry.license,
-        latest_commit_date: githubEntry.latest_commit_date
+        latest_commit_date: githubEntry.latest_commit_date,
+        latest_commit_link: 'https://github.com' + githubEntry.latest_commit_link
       };
     }
     var dateEntry = _.find(dateEntries, {url: node.repo_url});
     if (dateEntry) {
       node.first_commit_date = dateEntry.start_date;
+      node.first_commit_link = 'https://github.com' + dateEntry.start_commit_link;
     }
     var description = node.description || (githubEntry || {}).description || (crunchbaseInfo || {})['Description'] || '';
     description = description.replace(/\n/g, ' ');

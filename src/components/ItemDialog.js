@@ -156,14 +156,14 @@ const ItemDialog = ({onClose, itemInfo, previousItemId, nextItemId, onSelectItem
               { itemInfo.firstCommitDate && (
                 <div className="product-property row">
                   <div className="product-property-name col col-25">First Commit</div>
-                  <div className="product-property-value col col-75">{formatDate(itemInfo.firstCommitDate)}</div>
+                  <div className="product-property-value col col-75"><a href={itemInfo.firstCommitLink} target="_blank">{formatDate(itemInfo.firstCommitDate)}</a></div>
                 </div>
               )
               }
               { itemInfo.latestCommitDate && (
                 <div className="product-property row">
                   <div className="product-property-name col col-25">Latest Commit</div>
-                  <div className="product-property-value col col-75">{formatDate(itemInfo.latestCommitDate)}</div>
+                  <div className="product-property-value col col-75"><a href={itemInfo.latestCommitLink} target="_blank">{formatDate(itemInfo.latestCommitDate)}</a></div>
                 </div>
               )
               }

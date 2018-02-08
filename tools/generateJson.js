@@ -25,7 +25,9 @@ tree.map(function(node) {
       cncfMember: node.cncf_member,
       cncfRelation: node.cncf_project || ( node.cncf_member ? 'member' : false ),
       firstCommitDate: node.first_commit_date,
+      firstCommitLink: node.first_commit_link,
       latestCommitDate:node.latest_commit_date,
+      latestCommitLink: node.latest_commit_link,
       path: parts.join(' / '),
       landscape: parts.join(' / '),
       category: parts[0],
@@ -40,6 +42,8 @@ const itemsWithExtraFields = items.map(function(item) {
   delete item.market_cap;
   delete item.first_commit_date;
   delete item.latest_commit_date;
+  delete item.first_commit_link;
+  delete item.latest_commit_link;
   delete item.item;
   const otherItems = _.filter(items, {name: item.name});
   var id = saneName(item.name);
