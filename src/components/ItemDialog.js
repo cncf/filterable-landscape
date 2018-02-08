@@ -3,7 +3,7 @@ import Dialog from 'material-ui/Dialog';
 import Icon from 'material-ui/Icon';
 import KeyHandler from 'react-key-handler';
 import _ from 'lodash';
-import millify from 'millify'
+import millify from 'millify';
 import formatNumber from '../utils/formatNumber';
 import relativeDate from 'relative-date';
 
@@ -126,13 +126,15 @@ const ItemDialog = ({onClose, itemInfo, previousItemId, nextItemId, onSelectItem
                 </div>
               </div>
               }
-              {Number.isInteger(itemInfo.marketCap) &&
+              {Number.isInteger(itemInfo.marketCap) && (
               <div className="product-property row">
                 <div className="product-property-name col col-25">Funding</div>
                 <div className="product-property-value col col-75">
                   {'$' + millify(itemInfo.marketCap)}
                 </div>
-              </div>              }
+              </div>              
+              )
+              }
               {itemInfo.crunchbase &&
               <div className="product-property row">
                 <div className="product-property-name col col-25">Crunchbase</div>
