@@ -105,7 +105,7 @@ class HomePage extends React.Component {
                 onClick={this.handleDrawerToggle}
                 className={classes.navIconHide}
               >
-                <Icon>settings_backup_restore</Icon>
+                <Icon>menu</Icon>
               </IconButton>
               <Typography variant="title" color="inherit" noWrap>
                 Responsive drawer
