@@ -69,7 +69,6 @@ const ItemDialog = ({onClose, itemInfo, previousItemId, nextItemId, onSelectItem
     var [category, subcategory] = path.split(' / ');
     return (<span>{[partMarkup(category), separator, partMarkup(subcategory)]}</span>);
   }
-  const funding = 282000000;
   return (
     <Dialog open={true} onClose={() => onClose()} className="modal" classes={{paper:'modal-body'}}>
       { nextItemId && <KeyHandler keyValue="ArrowRight" onKeyHandle={() => onSelectItem(nextItemId)} /> }
