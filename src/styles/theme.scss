@@ -117,30 +117,25 @@ body{
 
   }
 
-
-  .info{
+  &-info {
     height: 30%;
     font-size: 0.6em;
     border-width:1px 0 0 0;
     border-style: solid;
     border-color: #dedede;
     padding:10px;
-
-
-    h5{
-      margin:0 0 5px 0 !important;
-      width:100%;
-      font-size:1em;
-      display:inline-block;
-    }
-    & > div, & > div span{
-      display:flex;
-      flex-direction: row;
-      justify-content: space-between;
-      align-items: center;
-      color:#9B9B9B;
-    }
+    display: flex;
+    justify-content: space-between;
+    color:#9B9B9B;
   }
+  h5 {
+    margin:0 0 5px 0 !important;
+    font-size: 1em;
+  }
+  &-stars {line-height: 15px; text-align: right; white-space: nowrap;
+    .material-icons {line-height: 15px; vertical-align: top;}
+  }
+  &-funding {white-space: nowrap;}
 }
 
 .header_container{

@@ -20,22 +20,21 @@ const MainContent = ({groupedItems, onSelectItem}) => {
                 <div className="logo_wrapper">
                   <img src={item.hrefTile} className='logo' max-height='100%' max-width='100%' />
                 </div>
-                <div className="info">
+                <div className="mosaic-info">
                   <div>
                     <h5>{item.name}</h5>
+                     {item.organization}
+                  </div>
+                  <div className="mosaic-stars">
                     { item.starsPresent &&
-                      <span>
+                      <div>
                         <Icon color="disabled" style={{ fontSize: 15 }}>star</Icon>
                         <span>{item.starsAsText}</span>
-                      </span>
+                      </div>
                     }
-                  </div>
-                  <div>
-                    {item.organization}
-                    { Number.isInteger(item.marketCap) ? ' ($'+ millify( item.marketCap )+')' : '' }
-                    
-                    {/*{item.organization} { Number.isInteger(item.funcing) ? 'Funding:'+ millify( item.funding )+'' : '' } */}
-
+                    { Number.isInteger(item.marketCap) &&
+                      <div className="mosaic-funding">Funding: {'$'+ millify( item.marketCap )}</div>
+                    }
                   </div>
                 </div>
               </div>);
