@@ -1,13 +1,12 @@
-export default function formatCity(name) {
-  if (!name) {
-    return;
+export default function formatCity({city, region, country}) {
+  if (!city) {
+    return null;
   }
-  const [city, state, country] = name.split(', ');
   if (!country) {
-    return `${city}, ${state}`;
+    return `${city}, ${region}`;
   }
   if (country === 'United States') {
-    return `${city}, ${state}`;
+    return `${city}, ${region}`;
   }
   return `${city}, ${country}`;
 }

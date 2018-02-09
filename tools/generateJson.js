@@ -31,7 +31,7 @@ tree.map(function(node) {
       path: parts.join(' / '),
       landscape: parts.join(' / '),
       category: parts[0],
-      marketCap: node.market_cap,
+      marketCap: node.crunchbase_data.funding || 'N/A',
       oss: node.license !== 'NotOpenSource'
     });
   }
