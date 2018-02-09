@@ -223,6 +223,7 @@ landscape:
             repo_url: 'https://github.com/kris-nova/kubicorn'
             logo: 'https://github.com/kris-nova/kubicorn/blob/master/docs/img/kubicorn-trans.png'
             twitter: 'https://twitter.com/kubicornk8s'
+            crunchbase: 'https://www.crunchbase.com/organization/kubicorn'
           - item:
             name: ManageIQ
             organization: ManageIQ
@@ -762,11 +763,12 @@ landscape:
             twitter: 'https://twitter.com/clearlinux/'
             crunchbase: 'https://www.crunchbase.com/organization/intel'
           - item:
-            name: Container Storage Interface
-            organization: Container Storage Interface
+            name: Container Storage Interface (CSI)
+            organization: CNCF
             homepage_url: 'https://github.com/container-storage-interface'
             repo_url: 'https://github.com/container-storage-interface/spec'
             logo: 'https://github.com/container-storage-interface/artwork/blob/master/logo/PNG/01.png'
+            crunchbase: 'https://www.crunchbase.com/organization/cloud-native-computing-foundation'
       - subcategory:
         name: Cloud-Native Network
         items:
@@ -1397,6 +1399,7 @@ landscape:
             repo_url: 'https://github.com/druid-io/druid'
             logo: ./src/hosted_logos/druid.png
             twitter: 'https://twitter.com/druidio'
+            crunchbase: https://www.crunchbase.com/organization/metamarkets
           - item:
             name: Qubole
             organization: Qubole
