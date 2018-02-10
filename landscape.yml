@@ -6,7 +6,7 @@ landscape:
         name: Public
         items:
           - item:
-            name: AWS
+            name: Amazon Web Services
             organization: Amazon Web Services
             homepage_url: 'https://aws.amazon.com/'
             logo: 'https://www.cncf.io/wp-content/uploads/2017/08/logo_AWS-300x184.png'
@@ -171,10 +171,10 @@ landscape:
             twitter: 'https://twitter.com/cloudfoundry'
             crunchbase: 'https://www.crunchbase.com/organization/cloud-foundry'
           - item:
-            name: CloudFormation
+            name: AWS CloudFormation
             organization: Amazon Web Services
             homepage_url: 'https://aws.amazon.com/cloudformation/'
-            logo: 'https://media.licdn.com/mpr/mpr/AAEAAQAAAAAAAAi8AAAAJDg0Y2JmM2U2LTc0ODYtNGY5Ni04YzQxLTdmNmM4MjczNDMxMQ.png'
+            logo: './src/hosted_logos/aws-cloudformation.png'
             stock_ticker: AMZN
             twitter: 'https://twitter.com/awscloudformer'
             crunchbase: 'https://www.crunchbase.com/organization/amazon-web-services'
@@ -223,6 +223,7 @@ landscape:
             repo_url: 'https://github.com/kris-nova/kubicorn'
             logo: 'https://github.com/kris-nova/kubicorn/blob/master/docs/img/kubicorn-trans.png'
             twitter: 'https://twitter.com/kubicornk8s'
+            crunchbase: 'https://www.crunchbase.com/organization/kubicorn'
           - item:
             name: ManageIQ
             organization: ManageIQ
@@ -281,7 +282,7 @@ landscape:
             twitter: 'https://twitter.com/docker'
             crunchbase: 'https://www.crunchbase.com/organization/docker'
           - item:
-            name: Amazon ECR
+            name: Amazon Elastic Container Registry (ECR)
             organization: Amazon Web Services
             homepage_url: 'https://aws.amazon.com/ecr/'
             logo: ./src/hosted_logos/aws-ecr.png
@@ -762,11 +763,12 @@ landscape:
             twitter: 'https://twitter.com/clearlinux/'
             crunchbase: 'https://www.crunchbase.com/organization/intel'
           - item:
-            name: Container Storage Interface
-            organization: Container Storage Interface
+            name: Container Storage Interface (CSI)
+            organization: CNCF
             homepage_url: 'https://github.com/container-storage-interface'
             repo_url: 'https://github.com/container-storage-interface/spec'
             logo: 'https://github.com/container-storage-interface/artwork/blob/master/logo/PNG/01.png'
+            crunchbase: 'https://www.crunchbase.com/organization/cloud-native-computing-foundation'
       - subcategory:
         name: Cloud-Native Network
         items:
@@ -931,7 +933,7 @@ landscape:
             twitter: 'https://twitter.com/kubernetesio'
             crunchbase: 'https://www.crunchbase.com/organization/cloud-native-computing-foundation'
           - item:
-            name: Amazon ECS
+            name: Amazon Elastic Container Service (ECS)
             organization: Amazon Web Services
             homepage_url: 'https://aws.amazon.com/ecs/'
             twitter: 'https://twitter.com/awscloud'
@@ -1397,6 +1399,7 @@ landscape:
             repo_url: 'https://github.com/druid-io/druid'
             logo: ./src/hosted_logos/druid.png
             twitter: 'https://twitter.com/druidio'
+            crunchbase: https://www.crunchbase.com/organization/metamarkets
           - item:
             name: Qubole
             organization: Qubole
@@ -1561,10 +1564,10 @@ landscape:
             twitter: 'https://twitter.com/streamsets'
             crunchbase: 'https://www.crunchbase.com/organization/streamsets'
           - item:
-            name: Kinesis
+            name: Amazon Kinesis
             organization: Amazon Web Services
             homepage_url: 'https://aws.amazon.com/kinesis/'
-            logo: 'https://i0.wp.com/www.awsomeblog.com/wp-content/uploads/2016/04/kinesis.png'
+            logo: './src/hosted_logos/aws-kinesis.png'
             stock_ticker: AMZN
             twitter: 'https://twitter.com/awscloud'
             crunchbase: 'https://www.crunchbase.com/organization/amazon-web-services'
@@ -2062,6 +2065,7 @@ landscape:
             logo: >-
               https://camo.githubusercontent.com/7e24fa15ba0791ec482d9f20e50a0e4620c3b7e7/687474703a2f2f6a6566667368656574732e6769746875622e696f2f42757a7a776f727468794a6176612f6173736574732f696d672f686970737465722d6c6f676f2e706e67
             twitter: 'https://twitter.com/java_hipster'
+            crunchbase: 'https://www.crunchbase.com/organization/jhipster'
           - item:
             name: Moby
             organization: Docker
@@ -2175,10 +2179,10 @@ landscape:
         name: Serverless/Event-based
         items:
           - item:
-            name: Lambda
+            name: AWS Lambda
             organization: Amazon Web Services
             homepage_url: 'https://aws.amazon.com/lambda/'
-            logo: 'https://clouda-assets.s3.amazonaws.com/upload/54d0e409d287c266042be5f5.png'
+            logo: './src/hosted_logos/aws-lambda.png'
             stock_ticker: AMZN
             twitter: 'https://twitter.com/awscloud'
             crunchbase: 'https://www.crunchbase.com/organization/amazon-web-services'
@@ -2323,10 +2327,10 @@ landscape:
             twitter: 'https://twitter.com/datadoghq'
             crunchbase: 'https://www.crunchbase.com/organization/datadog'
           - item:
-            name: CloudWATCH
+            name: Amazon CloudWatch
             organization: Amazon Web Services
             homepage_url: 'https://aws.amazon.com/cloudwatch/'
-            logo: 'http://truesightpulse.bmc.com/wp-content/uploads/2016/11/cloudwatch.png'
+            logo: './src/hosted_logos/aws-cloudwatch.png'
             stock_ticker: AMZN
             twitter: 'https://twitter.com/awscloud'
             crunchbase: 'https://www.crunchbase.com/organization/amazon-web-services'

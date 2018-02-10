@@ -17,7 +17,7 @@ const presets = [{
 const Presets = () => {
   return (
     <div className="sidebar-presets">{presets.map( entry => (
-      <div><NavLink className="preset" activeClassName="active" to={entry.url}>{entry.label}</NavLink></div>
+      <div><NavLink key={entry.url} className="preset" activeClassName="active" to={entry.url}>{entry.label}</NavLink></div>
     ))}
     </div>
   )

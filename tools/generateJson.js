@@ -25,21 +25,35 @@ tree.map(function(node) {
       cncfMember: node.cncf_member,
       cncfRelation: node.cncf_project || ( node.cncf_member ? 'member' : false ),
       firstCommitDate: node.first_commit_date,
+      firstCommitLink: node.first_commit_link,
       latestCommitDate:node.latest_commit_date,
+      latestCommitLink: node.latest_commit_link,
+      crunchbaseData: node.crunchbase_data,
       path: parts.join(' / '),
       landscape: parts.join(' / '),
       category: parts[0],
-      marketCap: node.market_cap,
+      marketCap: node.crunchbase_data.funding || 'N/A',
       oss: node.license !== 'NotOpenSource'
     });
   }
 });
 const itemsWithExtraFields = items.map(function(item) {
+  if (item.crunchbase_data) {
+    item.crunchbaseData.numEmployeesMin = item.crunchbaseData.num_employees_min;
+    item.crunchbaseData.numEmployeesMax = item.crunchbaseData.num_employees_max;
+    item.crunchbaseData.tickerSymbol = item.crunchbaseData.ticker_symbol;
+  }
+  delete item.crunchbase_data;
+  delete item.crunchbaseData.num_employees_min;
+  delete item.crunchbaseData.num_employees_max;
+  delete item.crunchbaseData.ticker_symbol;
   delete item.cncf_project;
   delete item.cncf_member;
   delete item.market_cap;
   delete item.first_commit_date;
   delete item.latest_commit_date;
+  delete item.first_commit_link;
+  delete item.latest_commit_link;
   delete item.item;
   const otherItems = _.filter(items, {name: item.name});
   var id = saneName(item.name);
@@ -56,6 +70,40 @@ const itemsWithExtraFields = items.map(function(item) {
     hrefLarge: `/${saneName(id)}-large.png`,
   }
 });
+
+// protect us from duplicates
+var hasDuplicates = false;
+_.values(_.groupBy(itemsWithExtraFields, 'id')).forEach(function(duplicates) {
+  if (duplicates.length > 1) {
+    hasDuplicates = true;
+    _.each(duplicates, function(duplicate) {
+      console.error(`Duplicate item: ${duplicate.organization} ${duplicate.name} at path ${duplicate.path}`);
+    });
+  }
+});
+if (hasDuplicates) {
+  require('process').exit(1);
+}
+// ensure that crunchbase references are not wrong
+var hasDifferentCrunchbasePerOrganization = false;
+_.values(_.groupBy(itemsWithExtraFields, 'organization')).forEach(function(itemsInOrganization) {
+  var crunchbaseEntries = _.uniq(_.map(itemsInOrganization, 'crunchbase'));
+  if (crunchbaseEntries.length > 1) {
+    hasDifferentCrunchbasePerOrganization = true;
+    _.each(itemsInOrganization, function(item) {
+      console.info(`Entry ${item.name} of an organization ${item.organization} has crunchbase ${item.crunchbase}`);
+    });
+  }
+});
+if (hasDifferentCrunchbasePerOrganization) {
+  require('process').exit(1);
+}
+
+
+
+
+
+
 const extractOptions = function(name) {
   return _.chain(itemsWithExtraFields).map(function(x) {
     return x[name];

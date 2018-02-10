@@ -5,7 +5,12 @@ import fs from 'fs';
 import _ from 'lodash';
 
 import { getRepoStartDate } from './githubDates';
-const existingDates = require('js-yaml').safeLoad(require('fs').readFileSync('src/github_dates.yml'));
+const existingDates = do {
+  try {
+    require('js-yaml').safeLoad(require('fs').readFileSync('src/github_dates.yml'));
+  } catch (ex) { null; }
+} || [];
+
 
 const tree = traverse(source);
 const entries = [];
@@ -47,10 +52,11 @@ async function readGithubStats() {
     }
     const repo = url.split('/').slice(3,5).join('/');
     try {
-      const startDate = await getRepoStartDate({repo, branch});
-      result.push({url, start_date: startDate});
+      const { date, commitLink } = await getRepoStartDate({repo, branch});
+      result.push({url, start_commit_link: commitLink, start_date: date});
     } catch (ex) {
       console.info ('can not fetch dates for ', url);
+      console.info(ex);
     }
     await Promise.delay(1 * 1000);
   }, {concurrency: 20});_

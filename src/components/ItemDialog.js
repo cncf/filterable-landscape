@@ -3,6 +3,7 @@ import Dialog from 'material-ui/Dialog';
 import Icon from 'material-ui/Icon';
 import KeyHandler from 'react-key-handler';
 import _ from 'lodash';
+import millify from 'millify';
 import formatNumber from '../utils/formatNumber';
 import relativeDate from 'relative-date';
 
@@ -132,10 +133,29 @@ const ItemDialog = ({onClose, itemInfo, previousItemId, nextItemId, onSelectItem
                 </div>
               </div>
               }
+              { itemInfo.headquarters && itemInfo.headquarters !== 'N/A' && (
+                <div className="product-property row">
+                  <div className="product-property-name col col-25">Headquarters</div>
+                  <div className="product-property-value col col-75">{itemInfo.headquarters}</div>
+                </div>
+              )
+              }
+              { itemInfo.crunchbaseData && itemInfo.crunchbaseData.numEmployeesMin && (
+                <div className="product-property row">
+                  <div className="product-property-name col col-25">Headcount</div>
+                  <div className="product-property-value col col-75">{itemInfo.crunchbaseData.numEmployeesMin}-{itemInfo.crunchbaseData.numEmployeesMax}</div>
+                </div>
+              )
+              }
+              {Number.isInteger(itemInfo.marketCap) && (
               <div className="product-property row">
-                <div className="product-property-name col col-25">Headquarters</div>
-                <div className="product-property-value col col-75">{itemInfo.headquarters}</div>
+                <div className="product-property-name col col-25">Funding</div>
+                <div className="product-property-value col col-75">
+                  {'$' + millify(itemInfo.marketCap)}
+                </div>
               </div>
+              )
+              }
               { cbRank && (
               <div className="product-property row">
                 <div className="product-property-name col col-25">CB Rank</div>
@@ -146,14 +166,14 @@ const ItemDialog = ({onClose, itemInfo, previousItemId, nextItemId, onSelectItem
               { itemInfo.firstCommitDate && (
                 <div className="product-property row">
                   <div className="product-property-name col col-25">First Commit</div>
-                  <div className="product-property-value col col-75">{formatDate(itemInfo.firstCommitDate)}</div>
+                  <div className="product-property-value col col-75"><a href={itemInfo.firstCommitLink} target="_blank">{formatDate(itemInfo.firstCommitDate)}</a></div>
                 </div>
               )
               }
               { itemInfo.latestCommitDate && (
                 <div className="product-property row">
                   <div className="product-property-name col col-25">Latest Commit</div>
-                  <div className="product-property-value col col-75">{formatDate(itemInfo.latestCommitDate)}</div>
+                  <div className="product-property-value col col-75"><a href={itemInfo.latestCommitLink} target="_blank">{formatDate(itemInfo.latestCommitDate)}</a></div>
                 </div>
               )
               }

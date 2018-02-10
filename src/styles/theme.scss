@@ -1,7 +1,7 @@
 body{
   background-color:#F4F4f4 !important;
   font-family: Arial, Helvetica, sans-serif;
-} 
+}
 
 .wrapper{
   overflow:hidden;
@@ -17,7 +17,11 @@ body{
   background-color: #aaa;
 }
 
-.content-sidebar {padding: 13px 0 0 10px;}
+.content-sidebar {
+  flex: 150px 0 0;
+  padding: 13px 0 0 10px;
+
+}
 
 .sh_wrapper{
   position: relative;
@@ -40,20 +44,22 @@ body{
   }
 }
 
-.sidebar{width: 200px; position: absolute; top: 60px; left: 0;
-  .select {width: 190px; font-size: 0.8rem;}
-  legend{font-size: 0.7rem !important;}
-  fieldset {margin-top: 1rem;}
-  &-presets {margin: 3rem 0; font-size: 0.8em;
-    div {margin-bottom: 0.5em;}
-    a {text-decoration: none; color: rgb(54, 111, 168); display: block; padding: 5px 10px;
-      &.active {color: #000; font-weight: bold;}
-      &:hover, &.active {background: rgba(0,0,0,0.05);}
-    }
+.sidebar{
+  legend{
+    font-size:0.6em !important;
+  }
+  fieldset{
+    margin-top:5px;
+  }
+  &-presets {margin: 3rem 0; font-size: 0.6em; width: 160px;
+  div {margin-bottom: 0.5em;}
+  a {text-decoration: none; color: rgb(54, 111, 168); display: block; padding: 5px 10px;
+    &.active {color: #000; font-weight: bold;}
+    &:hover, &.active {background: rgba(0,0,0,0.05);}
   }
 }
 
-.content {margin-left: 230px;}
+}
 
 /* grid */
 .row {margin-left: -20px; margin-right: -20px; display: flex;}
@@ -120,30 +126,25 @@ body{
 
   }
 
-
-  .info{
+  &-info {
     height: 30%;
     font-size: 0.6em;
     border-width:1px 0 0 0;
     border-style: solid;
     border-color: #dedede;
     padding:10px;
-
-
-    h5{
-      margin:0 0 5px 0 !important;
-      width:100%;
-      font-size:1em;
-      display:inline-block;
-    }
-    & > div, & > div span{
-      display:flex;
-      flex-direction: row;
-      justify-content: space-between;
-      align-items: center;
-      color:#9B9B9B;
-    }
+    display: flex;
+    justify-content: space-between;
+    color:#9B9B9B;
   }
+  h5 {
+    margin:0 0 5px 0 !important;
+    font-size: 1em;
+  }
+  &-stars {line-height: 15px; text-align: right; white-space: nowrap;
+    .material-icons {line-height: 15px; vertical-align: top;}
+  }
+  &-funding {white-space: nowrap;}
 }
 
 .header_container{
