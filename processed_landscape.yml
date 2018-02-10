@@ -429,6 +429,7 @@ landscape:
             name: VMware
             organization: VMware
             homepage_url: 'https://www.vmware.com/'
+            stock_ticker: VMW
             logo: 'https://regmedia.co.uk/2015/02/02/vmware_cloud_logo.jpg'
             twitter: 'https://twitter.com/VMware'
             crunchbase: 'https://www.crunchbase.com/organization/vmware'
@@ -988,6 +989,7 @@ landscape:
             homepage_url: 'https://vmware.github.io/harbor/'
             repo_url: 'https://github.com/vmware/harbor'
             logo: 'https://vmware.github.io/harbor/images/harbor.png'
+            stock_ticker: VMW
             twitter: 'https://twitter.com/vmware'
             crunchbase: 'https://www.crunchbase.com/organization/vmware'
             headquarters: 'Palo Alto, California'
@@ -1973,10 +1975,7 @@ landscape:
               twitter: 'http://twitter.com/Oracle'
               linkedin: 'http://www.linkedin.com/company/1028'
               ticker: ORCL
-              funding:
-                raw: 197583093760
-                fmt: 197.58B
-                longFmt: '197,583,093,760'
+              funding: 197583093760
               kind: market_cap
             stars: N/A
             license: NotOpenSource
@@ -2194,6 +2193,7 @@ landscape:
             name: Project Hatchway
             organization: VMware
             homepage_url: 'https://vmware.github.io/hatchway/'
+            stock_ticker: VMW
             logo: >-
               https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Vmware.svg/1000px-Vmware.svg.png
             twitter: 'https://twitter.com/VMware'
@@ -3231,16 +3231,16 @@ landscape:
                 Big Switch Networks is the Next-Generation Data Center
                 Networking Company, designing intelligent, agile and flexible
                 networks
-              ticker_symbol: null
               num_employees_min: 101
               num_employees_max: 250
-              funding: 119500000
               homepage: 'http://www.bigswitch.com'
               city: Santa Clara
               region: California
               country: United States
               twitter: 'http://twitter.com/bigswitch'
               linkedin: 'http://www.linkedin.com/company/1011021'
+              kind: funding
+              funding: 119500000
             stars: N/A
             license: NotOpenSource
             cncf_member: false
@@ -3490,6 +3490,7 @@ landscape:
             name: NSX
             organization: VMware
             homepage_url: 'https://www.vmware.com/products/nsx.html'
+            stock_ticker: VMW
             logo: 'http://blogs.vmware.com/kb/files/2015/08/NSX.png'
             twitter: 'https://twitter.com/vmwarensx'
             crunchbase: 'https://www.crunchbase.com/organization/vmware'
@@ -4331,6 +4332,7 @@ landscape:
             name: Haret
             organization: VMware
             homepage_url: 'https://github.com/vmware/haret'
+            stock_ticker: VMW
             repo_url: 'https://github.com/vmware/haret'
             logo: >-
               http://logodatabases.com/wp-content/uploads/2012/05/vmware-logo-black.jpg
@@ -7801,6 +7803,7 @@ landscape:
             homepage_url: 'https://vmware.github.io/photon/'
             logo: >-
               http://www.vmtocloud.com/wp-content/uploads/2016/05/Photon_featured.jpeg
+            stock_ticker: VMW
             twitter: 'https://twitter.com/vmwarephoton'
             crunchbase: 'https://www.crunchbase.com/organization/vmware'
             headquarters: 'Palo Alto, California'
@@ -9500,33 +9503,30 @@ landscape:
             cncf_member: true
           - item:
             name: Stackdriver
-            organization: Stackdriver
+            organization: Google Cloud Platform
             homepage_url: 'https://cloud.google.com/stackdriver/'
             logo: 'https://www.gcppodcast.com/images/post/stackdriver.png'
             twitter: 'https://twitter.com/stackdriver'
-            crunchbase: 'https://www.crunchbase.com/organization/stackdriver'
-            headquarters: 'Boston, Massachusetts'
-            description: >-
-              Stackdriver provides monitoring services for cloud-powered
-              applications.
+            crunchbase: 'https://www.crunchbase.com/organization/google-cloud-platform'
+            headquarters: 'San Francisco, California'
+            description: Google Cloud Platform is a tool suite for app developers.
             crunchbase_data:
-              name: Stackdriver
-              description: >-
-                Stackdriver provides monitoring services for cloud-powered
-                applications.
-              num_employees_min: 11
-              num_employees_max: 50
-              homepage: 'http://www.stackdriver.com'
-              city: Boston
-              region: Massachusetts
+              name: Google Cloud Platform
+              description: Google Cloud Platform is a tool suite for app developers.
+              num_employees_min: null
+              num_employees_max: null
+              homepage: 'http://cloud.google.com/'
+              city: San Francisco
+              region: California
               country: United States
-              twitter: 'http://twitter.com/stackdriver'
-              linkedin: 'http://www.linkedin.com/company/stackdriver'
-              kind: funding
-              funding: 15000000
+              twitter: 'http://twitter.com/googlecloud'
+              linkedin: 'https://www.linkedin.com/company/google-cloud'
+              ticker: GOOG
+              funding: 722909265920
+              kind: market_cap
             stars: N/A
             license: NotOpenSource
-            cncf_member: false
+            cncf_member: true
           - item:
             name: Prometheus
             organization: Cloud Native Computing Foundation (CNCF)
