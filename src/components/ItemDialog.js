@@ -62,6 +62,9 @@ const ItemDialog = ({onClose, itemInfo, previousItemId, nextItemId, onSelectItem
   if (!itemInfo) {
     return null;
   }
+  setTimeout(function() {
+    window.twttr.widgets.load();
+  });
   const cbRank = formatNumber(itemInfo.rank);
   const itemCategory = function(path) {
     var separator = <span className="product-category-separator">•</span>;
@@ -180,6 +183,11 @@ const ItemDialog = ({onClose, itemInfo, previousItemId, nextItemId, onSelectItem
             </div>
 
             <div style={{display: "none"}}>{JSON.stringify(itemInfo, null, 2)}</div>
+            { itemInfo.twitter && (
+              <div>
+                <a className="twitter-timeline" href={itemInfo.twitter} data-tweet-limit="3" data-chrome="noheader nofooter">Tweets by ${itemInfo.name}</a>
+              </div>
+            )}
           </div>
         </div>
     </Dialog>
