@@ -4,6 +4,7 @@ import StickyBox from "react-sticky-box";
 import Filters from './Filters';
 import Grouping from './Grouping';
 import Sorting from './Sorting';
+import Presets from './Presets';
 import MainContentContainer from './MainContentContainer';
 import HomePageUrlContainer from './HomePageUrlContainer';
 import ResetFiltersContainer from './ResetFiltersContainer';
@@ -11,16 +12,19 @@ import ItemDialogContainer from './ItemDialogContainer';
 import HeaderContainer from './HeaderContainer';
 import Footer from './Footer';
 
-const HomePage = ({hasData}) => {
-  if (!hasData) {
-    return <h1>Loading data... </h1>;
+const HomePage = ({ready}) => {
+  if (!ready) {
+    return (
+      <div>
+        <HomePageUrlContainer />
+      </div>
+    )
   }
   return (
       <div>
         <HomePageUrlContainer />
         <ItemDialogContainer />
         <HeaderContainer/>
-
         <Grid container spacing={24}>
           <Grid item xs={2} sm={2} className="sidebar">
             <StickyBox className="content-sidebar">
@@ -29,6 +33,7 @@ const HomePage = ({hasData}) => {
               <Sorting/>
               <div style={{width: 200, height: 30}}/>
               <Filters />
+              <Presets />
             </StickyBox>
 
           </Grid>

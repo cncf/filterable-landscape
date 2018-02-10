@@ -5,28 +5,39 @@ import { createSelector } from 'reselect';
 import { parseUrl } from '../utils/syncToUrl';
 import { changeParameters} from '../reducers/mainReducer';
 
+// var bouncedFn = _.debounce((fn, args) => {console.info('Real Change!', args);fn(args)}, 10000);
+import { history} from '../store/configureStore';
+
+history.listen(function(x) {
+  console.info('Url changed: ', x);
+});
+
+
+
 const getParameters = createSelector(
-  () => window.location.pathname.split('/').slice(-1)[0] : '',
+  (state) => state.routing.location.pathname.split('/').slice(-1)[0],
   function(part) {
     return parseUrl(part);
   }
 );
 
-const mapStateToProps = (_state, ownProps) => ({
-  info: getParameters(ownProps),
-  other: _state.routing.location.pathname
+const mapStateToProps = (state) => ({
+  info: getParameters(state),
 });
 const mapDispatchToProps = {
   changeParameters: changeParameters
 };
 
+
 const render = ({info, changeParameters}) => {
+  console.info('Want to change : ', JSON.stringify(info));
+  window.setTimeout(() => changeParameters(info), 1);
+  return <div/>;
   // if we are here - url has changed
   // otherwise everything is cached
-  setTimeout(function() {
-    changeParameters(info);
-  }, 1);
-  return <div/>;
+  // console.info('Schedule change!', info);
+  // bouncedFn(changeParameters, info);
+  // return <div/>;
 }
 
 
