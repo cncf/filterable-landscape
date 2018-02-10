@@ -5,6 +5,7 @@
 import { loadData } from './api';
 import { filtersToUrl } from '../utils/syncToUrl';
 import _ from 'lodash';
+import { push } from 'react-router-redux';
 
 export const initialState = {
   data: null,
@@ -37,7 +38,7 @@ export function changeFilter(name, value) {
     // effect - set an url
     const state = getState().main;
     const url = filtersToUrl(state);
-    window.history.pushState({}, null, url);
+    dispatch(push(url));
   }
 }
 
@@ -47,7 +48,7 @@ export function changeGrouping(value) {
 
     const state = getState().main;
     const url = filtersToUrl(state);
-    window.history.pushState({}, null, url);
+    dispatch(push(url));
   }
 }
 export function changeSortField(value) {
@@ -56,7 +57,7 @@ export function changeSortField(value) {
 
     const state = getState().main;
     const url = filtersToUrl(state);
-    window.history.pushState({}, null, url);
+    dispatch(push(url));
   }
 }
 export function changeSortDirection(value) {
@@ -65,7 +66,7 @@ export function changeSortDirection(value) {
 
     const state = getState().main;
     const url = filtersToUrl(state);
-    window.history.pushState({}, null, url);
+    dispatch(push(url));
   }
 }
 
@@ -76,7 +77,7 @@ export function changeSortFieldAndDirection(value) {
 
     const state = getState().main;
     const url = filtersToUrl(state);
-    window.history.pushState({}, null, url);
+    dispatch(push(url));
   }
 }
 
@@ -86,7 +87,7 @@ export function changeSelectedItemId(value) {
 
     const state = getState().main;
     const url = filtersToUrl(state);
-    window.history.pushState({}, null, url);
+    dispatch(push(url));
 
   }
 }
@@ -97,7 +98,7 @@ export function closeDialog() {
 
     const state = getState().main;
     const url = filtersToUrl(state);
-    window.history.pushState({}, null, url);
+    dispatch(push(url));
   }
 }
 
@@ -110,7 +111,7 @@ export function changeParameters(value) {
 export function resetParameters() {
   return function(dispatch) {
     dispatch(setParameters(initialState));
-    window.history.pushState({}, null, '/');
+    dispatch(push('/'));
   }
 }
 
