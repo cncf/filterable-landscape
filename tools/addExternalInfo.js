@@ -51,7 +51,14 @@ async function main() {
       } else {
         crunchbaseData = crunchbaseInfo;
       }
+      delete crunchbaseData.url;
       node.headquarters = crunchbaseData.headquarters || formatCity(crunchbaseData);
+      if (!node.headquarters) {
+        delete node.headquarters;
+      }
+      if (crunchbaseData.twitter && !node.twitter) {
+        console.info(`Warning: ${node.name} has no twitter but its crunchbase ${node.crunchbase} has a twitter: ${crunchbaseData.twitter}`);
+      }
       node.description = node.description || crunchbaseData.description;
       node.organization = crunchbaseData.name || node.organization;
       var githubInfo = {

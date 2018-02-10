@@ -43,7 +43,7 @@ export async function extractSavedCrunchbaseEntries() {
       return;
     }
     if (node.crunchbase && node.crunchbase_data) {
-      organizations.push(node.crunchbase_data);
+      organizations.push({...node.crunchbase_data, url: node.crunchbase});
     }
   });
 
@@ -76,7 +76,7 @@ export async function fetchCrunchbaseEntries(organizations) {
         url: c.crunchbase,
         name: cbInfo.name,
         description: cbInfo.short_description,
-        stock: cbInfo.stock_symbol,
+        ticker: cbInfo.stock_symbol,
         min: cbInfo.num_employees_min,
         max: cbInfo.num_employees_max,
         funding: cbInfo.total_funding_usd,
@@ -85,7 +85,7 @@ export async function fetchCrunchbaseEntries(organizations) {
         region: headquarters && headquarters.item && headquarters.item.properties.region || null,
         country: headquarters && headquarters.item && headquarters.item.properties.country || null,
         twitter: twitterEntry ? twitterEntry.properties.url : null,
-        linkedIn: linkedInEntry ? linkedInEntry.properties.url : null
+        linkedin: linkedInEntry ? linkedInEntry.properties.url : null
       };
       return entry;
       // console.info(entry);
