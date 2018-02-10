@@ -10,7 +10,6 @@ landscape:
             organization: Amazon Web Services
             homepage_url: 'https://aws.amazon.com/'
             logo: 'https://www.cncf.io/wp-content/uploads/2017/08/logo_AWS-300x184.png'
-            stock_ticker: AMZN
             twitter: 'https://twitter.com/awscloud'
             crunchbase: 'https://www.crunchbase.com/organization/amazon-web-services'
           - item:
@@ -18,7 +17,6 @@ landscape:
             organization: Google
             homepage_url: 'https://cloud.google.com/'
             logo: 'https://www.google.com/cloud/assets/press/Google_Cloud_Logo.png'
-            stock_ticker: GOOGL
             twitter: 'https://twitter.com/googlecloud'
             crunchbase: 'https://www.crunchbase.com/organization/google-cloud-platform'
           - item:
@@ -26,7 +24,6 @@ landscape:
             organization: Microsoft
             homepage_url: 'https://azure.microsoft.com/'
             logo: 'https://www.cncf.io/wp-content/uploads/2017/07/Azure_logo-300x184.png'
-            stock_ticker: MSFT
             twitter: 'https://twitter.com/Azure'
             crunchbase: 'https://www.crunchbase.com/organization/microsoft'
           - item:
@@ -48,7 +45,6 @@ landscape:
             organization: Oracle
             homepage_url: 'https://cloud.oracle.com/'
             logo: 'http://sabeo.com/wp-content/uploads/2017/05/OracleCloud_logo300.png'
-            stock_ticker: ORCL
             twitter: 'https://twitter.com/oraclecloud'
             crunchbase: 'https://www.crunchbase.com/organization/oracle'
           - item:
@@ -56,7 +52,6 @@ landscape:
             organization: Alibaba
             homepage_url: 'https://www.alibabacloud.com/'
             logo: 'https://seeklogo.com/images/A/alibaba-cloud-logo-898D58C1CE-seeklogo.com.png'
-            stock_ticker: BABA
             twitter: 'https://twitter.com/alibaba_cloud'
             crunchbase: 'https://www.crunchbase.com/organization/alibaba-cloud'
           - item:
@@ -72,7 +67,6 @@ landscape:
             organization: IBM
             homepage_url: 'https://www.ibm.com/cloud/'
             logo: './src/hosted_logos/ibm-cloud.png'
-            stock_ticker: IBM
             twitter: 'https://twitter.com/IBMcloud'
             crunchbase: 'https://www.crunchbase.com/organization/ibm'
           - item:
@@ -80,6 +74,7 @@ landscape:
             organization: Tencent Cloud
             homepage_url: 'https://cloud.tencent.com/'
             logo: 'https://pbs.twimg.com/profile_images/852439695199846400/OqpOmsZ0_400x400.jpg'
+            stock_ticker: TCEHY
             twitter: 'https://twitter.com/tencentcloud'
             crunchbase: 'https://www.crunchbase.com/organization/tencent'
           - item:
@@ -113,7 +108,6 @@ landscape:
             organization: EMC
             homepage_url: 'https://www.vmware.com/'
             logo: 'https://regmedia.co.uk/2015/02/02/vmware_cloud_logo.jpg'
-            stock_ticker: VMW
             twitter: 'https://twitter.com/VMware'
             crunchbase: 'https://www.crunchbase.com/organization/vmware'
           - item:
@@ -175,7 +169,6 @@ landscape:
             organization: Amazon Web Services
             homepage_url: 'https://aws.amazon.com/cloudformation/'
             logo: './src/hosted_logos/aws-cloudformation.png'
-            stock_ticker: AMZN
             twitter: 'https://twitter.com/awscloudformer'
             crunchbase: 'https://www.crunchbase.com/organization/amazon-web-services'
           - item:
@@ -262,7 +255,6 @@ landscape:
             organization: Microsoft
             homepage_url: 'https://azure.microsoft.com/en-us/services/container-registry/'
             logo: 'https://azure.microsoft.com/svghandler/container-registry/?width=600&height=315'
-            stock_ticker: MSFT
             twitter: 'https://twitter.com/azure'
             crunchbase: 'https://www.crunchbase.com/organization/microsoft'
           - item:
@@ -286,7 +278,6 @@ landscape:
             organization: Amazon Web Services
             homepage_url: 'https://aws.amazon.com/ecr/'
             logo: ./src/hosted_logos/aws-ecr.png
-            stock_ticker: AMZN
             twitter: 'https://twitter.com/awscloud'
             crunchbase: 'https://www.crunchbase.com/organization/amazon-web-services'
           - item:
@@ -294,7 +285,6 @@ landscape:
             organization: Google
             homepage_url: 'https://cloud.google.com/container-registry/'
             logo: './src/hosted_logos/google-containerregistry.png'
-            stock_ticker: GOOGL
             twitter: 'https://twitter.com/googlecloud'
             crunchbase: 'https://www.crunchbase.com/organization/google-cloud-platform'
           - item:
@@ -461,7 +451,6 @@ landscape:
             homepage_url: 'https://square.github.io/keywhiz/'
             repo_url: 'https://github.com/square/keywhiz'
             logo: './src/hosted_logos/square-keywhiz.png'
-            stock_ticker: SQ
             crunchbase: 'https://www.crunchbase.com/organization/square'
           - item:
             name: Knox
@@ -542,7 +531,6 @@ landscape:
             organization: VMWare
             homepage_url: 'https://vmware.github.io/hatchway/'
             logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Vmware.svg/1000px-Vmware.svg.png'
-            stock ticker: VMW
             twitter: 'https://twitter.com/VMware'
             crunchbase: 'https://www.crunchbase.com/organization/vmware'
           - item:
@@ -596,7 +584,6 @@ landscape:
             organization: Cisco
             homepage_url: 'http://springpathinc.com/'
             logo: 'https://pbs.twimg.com/profile_images/567878347808452608/S6CzefcW_400x400.png'
-            stock_ticker: CSCO
             twitter: 'https://twitter.com/springpathinc'
             crunchbase: 'https://www.crunchbase.com/organization/springpath-inc'
           - item:
@@ -648,7 +635,6 @@ landscape:
             organization: NetApp
             homepage_url: 'https://www.netapp.com/'
             logo: 'https://crunchbase-production-res.cloudinary.com/image/upload/v1415386322/w3lnij5oqhxqvlf5jq5c.jpg'
-            stock_ticker: NTAP
             twitter: 'https://twitter.com/netapp'
             crunchbase: 'https://www.crunchbase.com/organization/netapp'
           - item:
@@ -663,7 +649,6 @@ landscape:
             organization: Dell
             homepage_url: 'https://www.dellemc.com/'
             logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Dell_EMC_logo.svg/500px-Dell_EMC_logo.svg.png'
-            stock_ticker: DVMT
             twitter: 'https://twitter.com/dellemc'
             crunchbase: 'https://www.crunchbase.com/organization/dell-emc'
           - item:
@@ -759,7 +744,6 @@ landscape:
             homepage_url: 'https://clearlinux.org/containers'
             repo_url: 'https://github.com/clearcontainers/runtime'
             logo: 'https://cdn.thenewstack.io/media/2015/11/ClearContainers.jpg'
-            stock ticker: INTC
             twitter: 'https://twitter.com/clearlinux/'
             crunchbase: 'https://www.crunchbase.com/organization/intel'
           - item:
@@ -815,7 +799,6 @@ landscape:
             homepage_url: 'https://contiv.github.io/'
             repo_url: 'https://github.com/contiv/netplugin'
             logo: 'https://alln-extcloud-storage.cisco.com/ciscoblogs/Contiv-Icon.png'
-            stock_ticker: CSCO
             twitter: 'https://twitter.com/projectcontiv'
             crunchbase: 'https://www.crunchbase.com/organization/cisco'
           - item:
@@ -938,7 +921,6 @@ landscape:
             homepage_url: 'https://aws.amazon.com/ecs/'
             twitter: 'https://twitter.com/awscloud'
             crunchbase: 'https://www.crunchbase.com/organization/amazon-web-services'
-            stock_ticker: AMZN
             logo: ./src/hosted_logos/aws-ecs.png
           - item:
             name: Nomad
@@ -961,7 +943,6 @@ landscape:
             organization: Microsoft
             homepage_url: 'https://azure.microsoft.com/en-us/services/service-fabric/'
             logo: 'https://raw.githubusercontent.com/Azure/service-fabric/master/service-fabric.png'
-            stock ticker: MSFT
             twitter: 'https://twitter.com/azure'
             crunchbase: 'https://www.crunchbase.com/organization/microsoft'
           - item:
@@ -1102,7 +1083,6 @@ landscape:
             cncf_project: incubating
             repo_url: 'https://github.com/envoyproxy/envoy'
             logo: 'https://github.com/cncf/artwork/blob/master/envoy/stacked/color/envoy-stacked-color.png'
-            stock_ticker: LYFT
             twitter: 'https://twitter.com/envoyproxy'
             crunchbase: 'https://www.crunchbase.com/organization/cloud-native-computing-foundation'
           - item:
@@ -1142,7 +1122,6 @@ landscape:
             cncf_project: incubating
             repo_url: 'https://github.com/grpc/grpc'
             logo: 'https://raw.githubusercontent.com/cncf/artwork/master/grpc/horizontal/color/grpc-horizontal-color.png'
-            stock_ticker: ''
             twitter: 'https://twitter.com/grpcio'
             crunchbase: 'https://www.crunchbase.com/organization/cloud-native-computing-foundation'
           - item:
@@ -1193,7 +1172,6 @@ landscape:
             repo_url: 'https://github.com/Netflix/Hystrix'
             logo: >-
               https://camo.githubusercontent.com/e871b5d002a9699e7a2d9fa0178af5c72f0743e0/68747470733a2f2f6e6574666c69782e6769746875622e636f6d2f487973747269782f696d616765732f687973747269782d6c6f676f2d7461676c696e652d3835302e706e67
-            stock_ticker: NFLX
             twitter: 'https://twitter.com/hystrixoss'
             crunchbase: 'https://www.crunchbase.com/organization/netflix'
           - item:
@@ -1202,7 +1180,6 @@ landscape:
             homepage_url: 'https://github.com/Netflix/ribbon'
             repo_url: 'https://github.com/Netflix/ribbon'
             logo: ./src/hosted_logos/netflix-ribbon.png
-            stock_ticker: NFLX
             twitter: 'https://twitter.com/netflixoss'
             crunchbase: 'https://www.crunchbase.com/organization/netflix'
           - item:
@@ -1212,7 +1189,6 @@ landscape:
             repo_url: 'https://github.com/Netflix/zuul'
             branch: '1.x'
             logo: ./src/hosted_logos/netflix-zuul.png
-            stock_ticker: NFLX
             twitter: 'https://twitter.com/netflixoss'
             crunchbase: 'https://www.crunchbase.com/organization/netflix'
           - item:
@@ -1249,7 +1225,6 @@ landscape:
             repo_url: 'https://github.com/mysql/mysql-server'
             branch: '5.7'
             logo: 'https://www.mysql.com/common/logos/logo-mysql-170x115.png'
-            stock_ticker: ORCL
             twitter: 'https://twitter.com/mysql'
             crunchbase: 'https://www.crunchbase.com/organization/mysql'
           - item:
@@ -1265,7 +1240,6 @@ landscape:
             organization: Oracle
             homepage_url: 'https://developer.oracle.com/'
             logo: 'https://doc.octoperf.com/monitoring/create-connection/oracledb/img/oracledb-logo.png'
-            stock_ticker: ORCL
             twitter: 'https://twitter.com/Oracle'
             crunchbase: 'https://www.crunchbase.com/organization/oracle'
           - item:
@@ -1273,7 +1247,6 @@ landscape:
             organization: Microsoft
             homepage_url: 'https://www.microsoft.com/en-us/sql-server'
             logo: 'https://seeklogo.com/images/M/microsoft-sql-server-logo-96AF49E2B3-seeklogo.com.png'
-            stock_ticker: MSFT
             twitter: 'https://twitter.com/SQLServer'
             crunchbase: 'https://www.crunchbase.com/organization/microsoft'
           - item:
@@ -1281,7 +1254,6 @@ landscape:
             organization: IBM
             homepage_url: 'https://www.ibm.com/analytics/us/en/db2/'
             logo: 'https://selectstar.io/wp-content/uploads/2017/01/imb-db2.jpg'
-            stock_ticker: IBM
             twitter: 'https://twitter.com/ibmdb2'
             crunchbase: 'https://www.crunchbase.com/organization/ibm'
           - item:
@@ -1382,7 +1354,6 @@ landscape:
             organization: Microsoft
             homepage_url: 'https://azure.microsoft.com/'
             logo: 'https://media.licdn.com/mpr/mpr/AAEAAQAAAAAAAAeiAAAAJDRhZGUzMWRhLTI4ODMtNDc1OS1hMDc5LTQwODAwZGI2OTdlMg.png'
-            stock_ticker: MSFT
             twitter: 'https://twitter.com/azure'
             crunchbase: 'https://www.crunchbase.com/organization/microsoft'
           - item:
@@ -1420,7 +1391,6 @@ landscape:
             organization: HPE
             homepage_url: 'https://www.vertica.com/'
             logo: 'https://h50003.www5.hpe.com/digmedialib/prodimg/lowres/c05032120.png'
-            stock_ticker: HPQ
             twitter: 'https://twitter.com/verticahelp'
             crunchbase: 'https://www.crunchbase.com/organization/vertica-systems'
           - item:
@@ -1479,7 +1449,6 @@ landscape:
             organization: Google
             homepage_url: 'https://cloud.google.com/dataflow/'
             logo: './src/hosted_logos/google-dataflow.png'
-            stock_ticker: GOOGL
             twitter: 'https://twitter.com/googlecloud'
             crunchbase: 'https://www.crunchbase.com/organization/google-cloud-platform'
           - item:
@@ -1496,7 +1465,6 @@ landscape:
             homepage_url: 'https://twitter.github.io/heron/'
             repo_url: 'https://github.com/twitter/heron'
             logo: 'https://streaml.io/img/heron-logo.png'
-            stock_ticker: TWTR
             twitter: 'https://twitter.com/heronstreaming'
             crunchbase: 'https://www.crunchbase.com/organization/twitter'
           - item:
@@ -1568,7 +1536,6 @@ landscape:
             organization: Amazon Web Services
             homepage_url: 'https://aws.amazon.com/kinesis/'
             logo: './src/hosted_logos/aws-kinesis.png'
-            stock_ticker: AMZN
             twitter: 'https://twitter.com/awscloud'
             crunchbase: 'https://www.crunchbase.com/organization/amazon-web-services'
       - subcategory:
@@ -1602,7 +1569,6 @@ landscape:
             homepage_url: 'https://www.visualstudio.com/team-services/'
             repo_url: 'https://marketplace.visualstudio.com/items'
             logo: 'https://github.com/alexcontini/alexcontini.github.io/blob/master/Visual-Studio-Team-Services.png?raw=true'
-            stock ticker: MSFT
             twitter: 'https://twitter.com/vsts'
             crunchbase: 'https://www.crunchbase.com/organization/microsoft'
       - subcategory:
@@ -1715,7 +1681,6 @@ landscape:
             organization: Atlassian
             homepage_url: 'https://www.atlassian.com/software/bamboo/'
             logo: 'https://blog.switchbit.io/content/images/2015/12/bamboo300x200.png'
-            stock_ticker: TEAM
             twitter: 'https://twitter.com/atlassian'
             crunchbase: 'https://www.crunchbase.com/organization/atlassian'
           - item:
@@ -1746,7 +1711,6 @@ landscape:
             homepage_url: 'https://www.wercker.com/'
             repo_url: 'https://github.com/wercker/wercker'
             logo: 'https://d2lp05f39ek59n.cloudfront.net/uploads/Wercker_product_img_864555651_wercker.png'
-            stock ticker: ORCL
             twitter: 'https://twitter.com/wercker'
             crunchbase: 'https://www.crunchbase.com/organization/wercker'
           - item:
@@ -1953,7 +1917,6 @@ landscape:
             homepage_url: 'https://engineeringblog.yelp.com/2015/11/introducing-paasta-an-open-platform-as-a-service.html'
             repo_url: 'https://github.com/Yelp/paasta'
             logo: 'https://engineeringblog.yelp.com/images/posts/introducing-paasta-an-open-platform-as-a-service/paasta_logo.png'
-            stock_ticker: YELP
             twitter: 'https://twitter.com/Yelp'
             crunchbase: 'https://www.crunchbase.com/organization/yelp'
           - item:
@@ -2019,7 +1982,6 @@ landscape:
             organization: Salesforce
             homepage_url: 'https://www.heroku.com/home'
             logo: 'https://cdn.iconscout.com/public/images/icon/free/png-512/heroku-logo-brand-development-tools-33b6da5a9c74ddd9-512x512.png'
-            stock_ticker: CRM
             twitter: 'https://twitter.com/heroku'
             crunchbase: 'https://www.crunchbase.com/organization/salesforce'
           - item:
@@ -2129,7 +2091,6 @@ landscape:
             organization: Google
             homepage_url: 'https://cloud.google.com/kubernetes-engine/'
             logo: './src/hosted_logos/google-kubernetesengine.png'
-            stock_ticker: GOOGL
             twitter: 'https://twitter.com/googlecloud'
             crunchbase: 'https://www.crunchbase.com/organization/google-cloud-platform'
           - item:
@@ -2183,7 +2144,6 @@ landscape:
             organization: Amazon Web Services
             homepage_url: 'https://aws.amazon.com/lambda/'
             logo: './src/hosted_logos/aws-lambda.png'
-            stock_ticker: AMZN
             twitter: 'https://twitter.com/awscloud'
             crunchbase: 'https://www.crunchbase.com/organization/amazon-web-services'
           - item:
@@ -2199,7 +2159,6 @@ landscape:
             organization: Google
             homepage_url: 'https://cloud.google.com/functions/'
             logo: './src/hosted_logos/google-cloudfunctions.png'
-            stock_ticker: GOOGL
             twitter: 'https://twitter.com/googlecloud'
             crunchbase: 'https://www.crunchbase.com/organization/google-cloud-platform'
           - item:
@@ -2222,7 +2181,6 @@ landscape:
             organization: Firebase
             homepage_url: 'https://firebase.google.com/'
             logo: 'https://www.appcoda.com/wp-content/uploads/2016/11/firebase_logo_shot.png'
-            stock_ticker: GOOGL
             twitter: 'https://twitter.com/Firebase'
             crunchbase: 'https://www.crunchbase.com/organization/google-cloud-platform'
           - item:
@@ -2289,7 +2247,6 @@ landscape:
             organization: Microsoft
             homepage_url: 'https://azure.microsoft.com/en-us/services/functions/'
             logo: 'https://pbs.twimg.com/profile_images/857815012013785088/woz9sESR_400x400.jpg'
-            stock_ticker: MSFT
             twitter: 'https://twitter.com/azurefunctions'
             crunchbase: 'https://www.crunchbase.com/organization/microsoft'
   - category:
@@ -2303,7 +2260,6 @@ landscape:
             organization: New Relic
             homepage_url: 'https://newrelic.com/'
             logo: 'https://newrelic.com/assets/newrelic/source/NewRelic-logo-square.png'
-            stock_ticker: NEWR
             twitter: 'https://twitter.com/NewRelic'
             crunchbase: 'https://www.crunchbase.com/organization/new-relic'
           - item:
@@ -2331,7 +2287,6 @@ landscape:
             organization: Amazon Web Services
             homepage_url: 'https://aws.amazon.com/cloudwatch/'
             logo: './src/hosted_logos/aws-cloudwatch.png'
-            stock_ticker: AMZN
             twitter: 'https://twitter.com/awscloud'
             crunchbase: 'https://www.crunchbase.com/organization/amazon-web-services'
           - item:
@@ -2339,7 +2294,6 @@ landscape:
             organization: Google
             homepage_url: 'https://cloud.google.com/stackdriver/'
             logo: 'https://www.gcppodcast.com/images/post/stackdriver.png'
-            stock_ticker: GOOGL
             twitter: 'https://twitter.com/stackdriver'
             crunchbase: 'https://www.crunchbase.com/organization/stackdriver'
           - item:
@@ -2566,7 +2520,6 @@ landscape:
             organization: Microsoft
             homepage_url: 'https://azure.microsoft.com/en-us/services/log-analytics/'
             logo: 'https://i1.wp.com/www.tjopsta.net/wp-content/uploads/2016/10/LogAnalytics-Logo.png'
-            stock_ticker: MSFT
             twitter: 'https://twitter.com/azure'
             crunchbase: 'https://www.crunchbase.com/organization/microsoft'
           - item:
@@ -2622,7 +2575,6 @@ landscape:
             organization: Splunk
             homepage_url: 'https://www.splunk.com/'
             logo: 'https://interset.com/wp-content/uploads/2016/10/splunk-logo-300x168.png'
-            stock_ticker: SPLK
             twitter: 'https://twitter.com/splunk'
             crunchbase: 'https://www.crunchbase.com/organization/splunk'
           - item:

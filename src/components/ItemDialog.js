@@ -4,7 +4,6 @@ import Icon from 'material-ui/Icon';
 import KeyHandler from 'react-key-handler';
 import _ from 'lodash';
 import millify from 'millify';
-import formatNumber from '../utils/formatNumber';
 import relativeDate from 'relative-date';
 
 const formatDate = function(x) {
@@ -62,7 +61,6 @@ const ItemDialog = ({onClose, itemInfo, previousItemId, nextItemId, onSelectItem
   if (!itemInfo) {
     return null;
   }
-  const cbRank = formatNumber(itemInfo.rank);
   const itemCategory = function(path) {
     var separator = <span className="product-category-separator">•</span>;
     var partMarkup = (part) => <span>{part}</span>;
@@ -149,17 +147,17 @@ const ItemDialog = ({onClose, itemInfo, previousItemId, nextItemId, onSelectItem
               }
               {Number.isInteger(itemInfo.marketCap) && (
               <div className="product-property row">
-                <div className="product-property-name col col-25">Funding</div>
+                <div className="product-property-name col col-25">{itemInfo.crunchbaseData.kind === 'funding' ? 'Funding' : 'Market Cap'}</div>
                 <div className="product-property-value col col-75">
                   {'$' + millify(itemInfo.marketCap)}
                 </div>
               </div>
               )
               }
-              { cbRank && (
+              {itemInfo.crunchbaseData.ticker && (
               <div className="product-property row">
-                <div className="product-property-name col col-25">CB Rank</div>
-                <div className="product-property-value col col-75">{cbRank}</div>
+                <div className="product-property-name col col-25">Ticker</div>
+                <div className="product-property-value col col-75">{itemInfo.crunchbaseData.ticker}</div>
               </div>
               )
               }
