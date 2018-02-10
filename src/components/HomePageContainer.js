@@ -2,7 +2,7 @@ import { connect } from 'react-redux';
 import HomePage from './HomePage';
 
 const mapStateToProps = (state) => ({
-  hasData: !!state.main.data
+  ready: !!state.main.ready
 });
 const mapDispatchToProps = {};
 
