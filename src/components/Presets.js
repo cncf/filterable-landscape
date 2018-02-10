@@ -2,21 +2,24 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 
 const presets = [{
+  url: "/grouping=no&license=open-source&sort=first-commit",
+  label: 'Open source projects by first commit'
+},{
   url: "/grouping=landscape",
   label: 'Landscape categories'
 },{
-  url:  "/grouping=landscape&landscape=monitoring&license=open-source&sort=stars",
-  label: 'Open source monitoring projects by stars'
+  url:  "/grouping=no&license=open-source&sort=stars",
+  label: 'Open source projects by stars'
 }, {
   url:   "/grouping=headquarters&headquarters=new-york-new-york",
   label: 'Offerings from New York'
 }, {
   url: "/grouping=landscape&license=apache-2-0&sort=stars",
-  label: 'Apache-licensed projects by category and popularity'
+  label: 'Apache-licensed projects by category and stars'
 }];
 const Presets = () => {
   return (
-    <div className="sidebar-presets">{presets.map( entry => (
+    <div className="sidebar-presets">Example filters:<br />{presets.map( entry => (
       <div><NavLink key={entry.url} className="preset" activeClassName="active" to={entry.url}>{entry.label}</NavLink></div>
     ))}
     </div>
