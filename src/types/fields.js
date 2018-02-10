@@ -243,9 +243,6 @@ const fields = {
     label: 'Headquarters Location',
     isArray: true,
     values: [].concat(_.orderBy(lookups.headquarters, function(x) {
-      if (x.id === 'Not Entered Yet') {
-        return -2;
-      }
       if  (x.id === 'N/A') {
         return -1;
       }

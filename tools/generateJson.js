@@ -28,15 +28,25 @@ tree.map(function(node) {
       firstCommitLink: node.first_commit_link,
       latestCommitDate:node.latest_commit_date,
       latestCommitLink: node.latest_commit_link,
+      crunchbaseData: node.crunchbase_data,
       path: parts.join(' / '),
       landscape: parts.join(' / '),
       category: parts[0],
-      marketCap: node.market_cap,
+      marketCap: node.crunchbase_data.funding || 'N/A',
       oss: node.license !== 'NotOpenSource'
     });
   }
 });
 const itemsWithExtraFields = items.map(function(item) {
+  if (item.crunchbase_data) {
+    item.crunchbaseData.numEmployeesMin = item.crunchbaseData.num_employees_min;
+    item.crunchbaseData.numEmployeesMax = item.crunchbaseData.num_employees_max;
+    item.crunchbaseData.tickerSymbol = item.crunchbaseData.ticker_symbol;
+  }
+  delete item.crunchbase_data;
+  delete item.crunchbaseData.num_employees_min;
+  delete item.crunchbaseData.num_employees_max;
+  delete item.crunchbaseData.ticker_symbol;
   delete item.cncf_project;
   delete item.cncf_member;
   delete item.market_cap;
