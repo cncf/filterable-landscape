@@ -1870,7 +1870,7 @@ landscape:
             description: Kubernetes Cluster Manager for Kubeadm
             certified_kubernetes: Distribution
             homepage_url: 'https://appscode.com/products/pharmer/'
-            repo_url: 'https://appscode.com/products/cloud-deployment/'
+            repo_url: 'https://github.com/kubernetes/kubernetes/tree/master/cmd/kubeadm'
             logo: 'https://kubernetes.io/images/square-logos/appscode.png'
             crunchbase: 'https://www.crunchbase.com/organization/appscode'
           - item:
@@ -2130,7 +2130,7 @@ landscape:
             logo: 'https://mesosphere.com/wp-content/uploads/2017/11/mesosphere-logo.png'
             crunchbase: 'https://www.crunchbase.com/organization/mesosphere'
           - item:
-            name: ACS Engine
+            name: Azure (ACS) Engine
             organization: Microsoft
             description: Azure Container Service Engine - a place for community to collaborate and build the best open Docker container infrastructure for Azure.
             certified_kubernetes: Platform
@@ -2420,14 +2420,6 @@ landscape:
         name: PaaS/Container Service
         items:
           - item:
-            name: Cloud Foundry
-            organization: Cloud Foundry
-            homepage_url: 'https://www.cloudfoundry.org/'
-            repo_url: 'https://github.com/cloudfoundry/cf-release'
-            logo: 'https://www.cloudfoundry.org/wp-content/uploads/2017/01/CFF_Logo_vertical_RGB.png'
-            twitter: 'https://twitter.com/cloudfoundry'
-            crunchbase: 'https://www.crunchbase.com/organization/cloud-foundry'
-          - item:
             name: DC/OS
             organization: Mesophere
             homepage_url: 'https://mesosphere.com/product/'
@@ -2443,13 +2435,6 @@ landscape:
             twitter: 'https://twitter.com/apcera'
             crunchbase: 'https://www.crunchbase.com/organization/ericsson'
           - item:
-            name: Apprenda
-            organization: Apprenda
-            homepage_url: 'https://apprenda.com/'
-            logo: 'https://pbs.twimg.com/profile_images/785690321015476225/hEAuJcjS.jpg'
-            twitter: 'https://twitter.com/apprenda'
-            crunchbase: 'https://www.crunchbase.com/organization/apprenda'
-          - item:
             name: Photon
             organization: VMware
             homepage_url: 'https://vmware.github.io/photon/'
@@ -2463,13 +2448,6 @@ landscape:
             logo: 'https://media.licdn.com/mpr/mpr/shrink_200_200/AAEAAQAAAAAAAAK4AAAAJDllNWYyMDRlLWUyNTMtNDk3YS05YmRiLWI5NTU3M2EwNWViNQ.png'
             twitter: 'https://twitter.com/platformsh'
             crunchbase: 'https://www.crunchbase.com/organization/commerce-guys'
-          - item:
-            name: Platform9
-            organization: Platform9 Systems
-            homepage_url: 'https://platform9.com/'
-            logo: 'https://hostadvice.com/wp-content/uploads/2017/07/Platform9-LogoStacked.png'
-            twitter: 'https://twitter.com/Platform9Sys'
-            crunchbase: 'https://www.crunchbase.com/organization/platform9-systems-inc'
           - item:
             name: Flynn
             organization: Flynn
@@ -2518,20 +2496,6 @@ landscape:
             twitter: 'https://twitter.com/remindeng'
             crunchbase: 'https://www.crunchbase.com/organization/remind'
           - item:
-            name: Nirmata
-            organization: Nirmata
-            homepage_url: 'https://www.nirmata.com/'
-            logo: 'https://www.nirmata.com/wp-content/uploads/2017/11/vertical-color-small-01.png'
-            twitter: 'https://twitter.com/nirmatacloud'
-            crunchbase: 'https://www.crunchbase.com/organization/nirmata'
-          - item:
-            name: Cloud66
-            organization: Cloud66
-            homepage_url: 'https://www.cloud66.com/'
-            logo: 'https://pbs.twimg.com/profile_images/875687479151644672/EqNiVriF_400x400.jpg'
-            twitter: 'https://twitter.com/cloud66'
-            crunchbase: 'https://www.crunchbase.com/organization/cloudblocks'
-          - item:
             name: Kontena
             organization: Kontena
             homepage_url: 'https://kontena.io/'
@@ -2539,13 +2503,6 @@ landscape:
             logo: 'https://crunchbase-production-res.cloudinary.com/image/upload/v1464604878/uzdj9miitxbfr56opwju.png'
             twitter: 'https://twitter.com/KontenaInc'
             crunchbase: 'https://www.crunchbase.com/organization/kontena'
-          - item:
-            name: Gravitational
-            organization: Gravitational
-            homepage_url: 'https://gravitational.com/'
-            logo: 'https://crunchbase-production-res.cloudinary.com/image/upload/v1455650059/gpumyj6nwuvgyslcpnet.png'
-            twitter: 'https://twitter.com/gravitationalco'
-            crunchbase: 'https://www.crunchbase.com/organization/gravitational'
           - item:
             name: Heroku
             organization: Salesforce
@@ -2562,13 +2519,6 @@ landscape:
             logo: 'http://docs.mantl.io/en/latest/_static/mantl-logo.png'
             twitter: 'https://twitter.com/usemantl'
             crunchbase: 'https://www.crunchbase.com/organization/mantl-9966'
-          - item:
-            name: Mirantis
-            organization: Mirantis
-            homepage_url: 'https://www.mirantis.com/'
-            logo: 'https://www.mirantis.com/wp-content/uploads/2017/01/mirantis-logo-2color-rgb-transparent.png'
-            twitter: 'https://twitter.com/MirantisIT'
-            crunchbase: 'https://www.crunchbase.com/organization/mirantis'
           - item:
             name: Hyper
             organization: Hyper
@@ -2628,13 +2578,6 @@ landscape:
             logo: 'https://github.com/alexcontini/alexcontini.github.io/blob/master/tsura.png?raw=true'
             twitter: 'https://twitter.com/tsurupaas'
             crunchbase: 'https://www.crunchbase.com/organization/tsuru'
-          - item:
-            name: ContainerShip
-            organization: ContainerShip
-            homepage_url: 'https://containership.io/'
-            logo: 'http://resumator.s3.amazonaws.com/customer_20150721151308_KZ8QDZPO4BOHCKCU/social_icons/20150825133703_containership_logo.png'
-            twitter: 'https://twitter.com/containershipio'
-            crunchbase: 'https://www.crunchbase.com/organization/containership'
           - item:
             name: Convox
             organization: Convox
