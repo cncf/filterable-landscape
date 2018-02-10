@@ -28,6 +28,7 @@ tree.map(function(node) {
       firstCommitLink: node.first_commit_link,
       latestCommitDate:node.latest_commit_date,
       latestCommitLink: node.latest_commit_link,
+      crunchbaseData: node.crunchbase_data,
       path: parts.join(' / '),
       landscape: parts.join(' / '),
       category: parts[0],
@@ -37,6 +38,7 @@ tree.map(function(node) {
   }
 });
 const itemsWithExtraFields = items.map(function(item) {
+  delete item.crunchbase_data;
   delete item.cncf_project;
   delete item.cncf_member;
   delete item.market_cap;

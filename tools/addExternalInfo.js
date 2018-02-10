@@ -32,9 +32,7 @@ async function main() {
     if (node && node.item === null) {
       var crunchbaseInfo = _.find(crunchbaseEntries, {url: node.crunchbase});
       var crunchbaseData = {
-        market_cap: 'Not Entered Yet',
-        headquarters: 'Not Entered Yet',
-        rank: 'Not Entered Yet'
+        headquarters: 'N/A'
       };
       if (!crunchbaseInfo) {
         if (node.crunchbase) {
@@ -54,7 +52,7 @@ async function main() {
       delete crunchbaseData.url;
       node.headquarters = crunchbaseData.headquarters || formatCity(crunchbaseData);
       if (!node.headquarters) {
-        delete node.headquarters;
+        node.headquarters='N/A';
       }
       if (crunchbaseData.twitter && !node.twitter) {
         console.info(`Warning: ${node.name} has no twitter but its crunchbase ${node.crunchbase} has a twitter: ${crunchbaseData.twitter}`);
