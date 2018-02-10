@@ -69,12 +69,12 @@ landscape:
             crunchbase: 'https://www.crunchbase.com/organization/fujitsu'
           - item:
             name: IBM Cloud
-            organization: IBM
+            organization: IBM Cloud
             homepage_url: 'https://www.ibm.com/cloud/'
             logo: './src/hosted_logos/ibm-cloud.png'
             stock_ticker: IBM
             twitter: 'https://twitter.com/IBMcloud'
-            crunchbase: 'https://www.crunchbase.com/organization/ibm'
+            crunchbase: 'https://www.crunchbase.com/organization/ibm-cloud'
           - item:
             name: Tencent Cloud
             organization: Tencent Cloud
@@ -1925,22 +1925,22 @@ landscape:
             crunchbase: 'https://www.crunchbase.com/organization/cloud-foundry'
           - item:
             name: Tectonic
-            organization: CoreOS
+            organization: Red Hat
             description: 'Tectonic ships with CoreOS''s signature automated operations, runs multi-cloud, and is the fastest, most secure path to Kubernetes.'
             certified_kubernetes: Distribution
             homepage_url: 'https://coreos.com/tectonic'
             repo_url: 'https://github.com/coreos/tectonic-installer'
             logo: 'https://i0.wp.com/containerjournal.com/wp-content/uploads/2015/07/tectonic-bycoreos-color-copy.png'
-            crunchbase: 'https://www.crunchbase.com/organization/coreos'
+            crunchbase: 'https://www.crunchbase.com/organization/red-hat'
           - item:
             name: bootkube
-            organization: CoreOS
+            organization: Red Hat
             description: Bootkube is a tool for launching self-hosted Kubernetes clusters.
             certified_kubernetes: Distribution
             homepage_url: 'https://github.com/kubernetes-incubator/bootkube'
             repo_url: 'https://github.com/kubernetes-incubator/bootkube'
             logo: 'https://i.pinimg.com/originals/8d/4b/d4/8d4bd4b4011e8cd7c5c0b1478855f21d.jpg'
-            crunchbase: 'https://www.crunchbase.com/organization/coreos'
+            crunchbase: 'https://www.crunchbase.com/organization/red-hat'
           - item:
             name: DaoCloud Enterprise
             organization: DaoCloud
@@ -2060,7 +2060,7 @@ landscape:
             crunchbase: 'https://www.crunchbase.com/organization/huawei'
           - item:
             name: IBM Cloud Private
-            organization: IBM
+            organization: IBM Cloud
             description: 'Build open, cloud-native apps with public services and run them anywhere — on public cloud or on your existing on-premises systems.'
             certified_kubernetes: Distribution
             homepage_url: 'https://www.ibm.com/cloud-computing/products/ibm-cloud-private/'
@@ -2068,7 +2068,7 @@ landscape:
             crunchbase: 'https://www.crunchbase.com/organization/ibm-cloud'
           - item:
             name: IBM Cloud Container Service
-            organization: IBM
+            organization: IBM Cloud
             description: >-
               IBM® Cloud Container Service delivers powerful tools by combining Docker and Kubernetes technologies, an intuitive user experience, and built-in
               security and isolation to automate the deployment, operation, scaling, and monitoring of containerized apps in a cluster of compute hosts.
@@ -2618,7 +2618,7 @@ landscape:
             name: Clouber
             organization: Clouber
             homepage_url: 'https://www.clouber.io/'
-            logo: ./src/hosted_logos/clouber.png
+            logo: 'https://s3.amazonaws.com/awsmp-logos/clouber.PNG'
             twitter: 'https://twitter.com/clouberio'
             crunchbase: 'https://www.crunchbase.com/organization/clouber'
           - item:
@@ -3251,3 +3251,228 @@ landscape:
             homepage_url: 'https://github.com/sourcegraph/appdash'
             repo_url: 'https://github.com/sourcegraph/appdash'
             logo: ./src/hosted_logos/appdash.png
+  - category:
+    name: Special
+    subcategories:
+      - subcategory:
+        name: Kubernetes Certified Service Provider
+        items:
+          - item:
+            name: Accenture
+            organization: Accenture
+            description: 'Architecture, implementation and operation of world-class Kubernetes solutions for cloud-native clients.'
+            homepage_url: 'https://www.accenture.com/us-en/service-application-containers'
+            logo: 'https://www.underconsideration.com/brandnew/archives/accenture_logo.png'
+            crunchbase: 'https://www.crunchbase.com/organization/accenture'
+          - item:
+            name: Bitnami (KCSP)
+            organization: Bitnami
+            description: 'Bitnami brings a catalog of trusted, up to date, and easy to use applications and application building blocks to Kubernetes.'
+            homepage_url: 'https://bitnami.com/kubernetes'
+            logo: 'https://www.cncf.io/wp-content/uploads/2017/03/logo_bitnami_17-300x184.png'
+            crunchbase: 'https://www.crunchbase.com/organization/bitnami'
+          - item:
+            name: Booz Allan Hamilton
+            organization: Booz Allan Hamilton
+            description: >-
+              Booz Allen partners with public and private sector clients to solve their most difficult challenges through a combination of consulting,
+              analytics, mission operations, technology, systems delivery, cybersecurity, engineering, and innovation expertise.
+            homepage_url: 'https://www.boozallen.com/'
+            logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Booz_Allen_Hamilton_logo.svg/1280px-Booz_Allen_Hamilton_logo.svg.png'
+            crunchbase: 'https://www.crunchbase.com/organization/booz-allen-hamilton'
+          - item:
+            name: Caicloud
+            organization: Caicloud
+            description: >-
+              Founded by ex-Googlers,and early Kubernetes contributors, Caicloud leverages Kubernetes to provide container products which have successfully
+              served Fortune 500 enterprises, and further utilizes Kubernetes as a vehicle to deliver ultra-speed deep learning experience.
+            homepage_url: 'https://caicloud.io/'
+            logo: 'https://image.pitchbook.com/RNFCWpPvnzY5XE28UPpaYPlM6xB1498539307943_200x200'
+            crunchbase: 'https://www.crunchbase.com/organization/caicloud'
+          - item:
+            name: Canonical
+            organization: Canonical
+            description: >-
+              The Canonical Distribution of Kubernetes enables you to operate Kubernetes clusters on demand on any major public cloud and private
+              infrastructure.
+            homepage_url: 'https://jujucharms.com/canonical-kubernetes/'
+            logo: 'https://zentera.net/wp-content/uploads/2015/10/Canonical.png'
+            crunchbase: 'https://www.crunchbase.com/organization/canonical-ltd'
+          - item:
+            name: Claranet
+            organization: Claranet
+            description: >-
+              Claranet helps people migrate to the cloud and take full advantage of the new world it offers. We consult, design, build and proactively manage
+              the right infrastructure and automation tooling for clients to achieve this.
+            homepage_url: 'http://www.claranet.co.uk/hosting/google-cloud-platform-consulting-managed-services'
+            logo: 'https://www.claranet.com/sites/all/themes/claranet_responsive_2015/logo.png'
+            crunchbase: 'https://www.crunchbase.com/organization/claranet'
+          - item:
+            name: CloudOps
+            organization: CloudOps
+            description: CloudOps gets you hands-on with the K8s ecosystem via workshop/lab. Get prod ready K8s in cloud(s) of your choice with our managed services.
+            homepage_url: 'https://www.cloudops.com/services/docker-and-kubernetes-workshops/'
+            logo: 'https://user-images.githubusercontent.com/4029488/31637036-bf1cad18-b281-11e7-953d-ec976f962fc2.png'
+            crunchbase: 'https://www.crunchbase.com/organization/cloudops'
+          - item:
+            name: Container Solutions
+            organization: Container Solutions
+            description: >-
+              Container Solutions is a premium software consultancy that focuses on programmable infrastructure, offering our expertise in software development,
+              strategy and operations to help you innovate at speed and scale.
+            homepage_url: 'http://container-solutions.com/resources/kubernetes/'
+            logo: 'http://container-solutions.com/content/uploads/2015/06/logo-big.png'
+            crunchbase: 'https://www.crunchbase.com/organization/container-solutions'
+          - item:
+            name: Contino
+            organization: Contino
+            description: >-
+              We help enterprise organizations adopt DevOps, containers and cloud computing. Contino is a global consultancy that enables regulated
+              organizations to accelerate innovation through the adoption of modern approaches to software delivery.
+            homepage_url: 'https://www.contino.io/'
+            logo: 'https://workablehr.s3.amazonaws.com/uploads/account/logo/152669/large_Contino_Logo_DarkGrey_Large_Web.png'
+            crunchbase: 'https://www.crunchbase.com/organization/contino'
+          - item:
+            name: CoreOS (KCSP)
+            organization: Red Hat
+            description: >-
+              Tectonic is the enterprise-ready Kubernetes product, by CoreOS. It adds key features to allow you to manage, update, and control clusters in
+              production.
+            homepage_url: 'https://coreos.com/'
+            logo: 'https://s-media-cache-ak0.pinimg.com/originals/8d/4b/d4/8d4bd4b4011e8cd7c5c0b1478855f21d.jpg'
+            crunchbase: 'https://www.crunchbase.com/organization/red-hat'
+          - item:
+            name: DaoCloud
+            organization: DaoCloud
+            description: We provide enterprise-level cloud native application platform that supports both Kubernetes and Docker Swarm.
+            homepage_url: 'http://www.daocloud.io/dce'
+            logo: 'https://opencollective-production.s3-us-west-1.amazonaws.com/6d959930-b283-11e7-aea9-770057e229d7.png'
+            crunchbase: 'https://www.crunchbase.com/organization/dao-cloud'
+          - item:
+            name: Ghostcloud
+            organization: Ghostcloud
+            description: >-
+              EcOS is an enterprise-grade PaaS / CaaS based on Docker and Kubernetes, which makes it easier to configure, deploy and manage containerized
+              applications.
+            homepage_url: 'https://www.ghostcloud.cn/ecos-kubernetes'
+            logo: 'https://assets.sdxcentral.com/ghostcloud-logo.png'
+          - item:
+            name: Heptio
+            organization: Heptio
+            description: Heptio helps businesses of all sizes get closer to the vibrant Kubernetes community.
+            homepage_url: 'https://heptio.com/'
+            logo: 'https://pbs.twimg.com/profile_images/907768517545443328/x0Jn6BwF.jpg'
+            crunchbase: 'https://www.crunchbase.com/organization/heptio'
+          - item:
+            name: Giant Swarm
+            organization: Giant Swarm (KCSP)
+            description: 'Giant Swarm provides fully-managed Kubernetes Clusters in your location of choice, so you can focus on your product.'
+            homepage_url: 'https://giantswarm.io/'
+            logo: 'http://velrok.github.io/images/giantswarm_logo_standard.png'
+            crunchbase: 'https://www.crunchbase.com/organization/giant-swarm'
+          - item:
+            name: Huawei (KCSP)
+            organization: Huawei
+            description: >-
+              FusionStage is an enterprise-grade Platform as a Service product, the core of which is based on mainstream open source container technology
+              including Kubernetes and Docker.
+            homepage_url: 'http://developer.huawei.com/ict/en/site-paas'
+            logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Huawei.svg/2000px-Huawei.svg.png'
+            crunchbase: 'https://www.crunchbase.com/organization/huawei'
+          - item:
+            name: IBM Cloud (KCSP)
+            organization: IBM Cloud
+            description: >-
+              The IBM Bluemix Container Service combines Docker and Kubernetes to deliver powerful tools, an intuitive user experiences, and built-in security
+              and isolation to enable rapid delivery of applications all while leveraging Cloud Services including cognitive capabilities from Watson.
+            homepage_url: 'https://www.ibm.com/cloud-computing/bluemix/containers'
+            logo: './src/hosted_logos/ibm-cloud.png'
+            crunchbase: 'https://www.crunchbase.com/organization/ibm-cloud'
+          - item:
+            name: inwinSTACK INC
+            organization: inwinSTACK INC
+            description: 'Our container service leverages OpenStack-based infrastructure and its container orchestration engine Magnum to manage Kubernetes clusters. '
+            homepage_url: 'http://www.inwinstack.com/index.php/en/solutions-en/'
+            logo: 'https://pbs.twimg.com/profile_images/913967961135661056/llUSv_YQ_400x400.jpg'
+          - item:
+            name: Jetstack
+            organization: Jetstack
+            description: >-
+              Jetstack is an organisation focused entirely on Kubernetes. They will help you to get the most out of Kubernetes through expert professional
+              services and open source tooling. Get in touch, and accelerate your project.
+            homepage_url: 'https://www.jetstack.io/'
+            logo: 'https://www.jetstack.io/img/png/newlogoblack.png'
+            crunchbase: 'https://www.crunchbase.com/organization/jetstack'
+          - item:
+            name: LiveWyer
+            organization: LiveWyer
+            description: 'Kubernetes experts that on-board applications and empower IT teams to get the most out of containerised technology. '
+            homepage_url: 'https://livewyer.io/services/kubernetes-experts/'
+            logo: 'https://pbs.twimg.com/profile_images/658665833888133120/j-xRn1_v_400x400.jpg'
+            crunchbase: 'https://www.crunchbase.com/organization/livewyer'
+          - item:
+            name: Loodse
+            organization: Loodse
+            description: 'Loodse provides Kubernetes training & consulting, and host related events regularly across Europe. '
+            homepage_url: 'https://loodse.com/'
+            logo: 'https://pbs.twimg.com/profile_images/826839537750048772/ThKLTvI2.jpg'
+            crunchbase: 'https://www.crunchbase.com/organization/loodse-gmbh'
+          - item:
+            name: Mirantis (KCSP)
+            organization: Mirantis
+            description: 'Mirantis builds and manages private clouds with open source software such as OpenStack, deployed as containers orchestrated by Kubernetes. '
+            homepage_url: 'https://content.mirantis.com/Containerizing-OpenStack-on-Kubernetes-Video-Landing-Page.html'
+            logo: 'https://www.mirantis.com/wp-content/uploads/2017/01/mirantis-logo-2color-rgb-transparent.png'
+            crunchbase: 'https://www.crunchbase.com/organization/mirantis'
+          - item:
+            name: Nirmata (KCSP)
+            organization: Nirmata
+            description: 'Nirmata simplifies kubernetes for application development teams. '
+            homepage_url: 'https://www.nirmata.com/'
+            logo: 'https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco/v1501447457/hzaahdettnwjbpyuenjf.png'
+            crunchbase: 'https://www.crunchbase.com/organization/nirmata'
+          - item:
+            name: RX-M LLC
+            organization: RX-M LLC
+            description: 'Market neutral Kubernetes Dev, DevOps and Production training and consulting services '
+            homepage_url: 'http://rx-m.com/training/kubernetes-training/'
+            logo: 'http://rx-m.com/wp-content/uploads/2017/12/RX-M-logo-999999-17479E-CNC.svg'
+            crunchbase: 'https://www.crunchbase.com/organization/rx-m'
+          - item:
+            name: Samsung SDS
+            organization: Samsung SDS
+            description: >-
+              Samsung SDS’s Cloud Native Computing Team offers expert consulting across the range of technical aspects involved in building services targeted at
+              a Kubernetes cluster.
+            homepage_url: 'https://www.samsungsds.com/us/en/index.html'
+            logo: 'http://www.wise-iot.eu/wp-content/uploads/2016/07/logo-SDS-300x100.png'
+            crunchbase: 'https://www.crunchbase.com/organization/samsung-sds'
+          - item:
+            name: StackPointCloud
+            organization: StackPointCloud
+            description: >-
+              StackPointCloud offers a wide range of support plans for managed Kubernetes clusters built through its universal control plane for Kubernetes
+              Anywhere.
+            homepage_url: 'https://stackpoint.io/'
+            logo: 'https://www.cncf.io/wp-content/uploads/2016/09/logo_stackpointcloud.png'
+            crunchbase: 'https://www.crunchbase.com/organization/stackpointcloud'
+          - item:
+            name: Supergiant (KCSP)
+            organization: Supergiant
+            description: 'Supergiant autoscales hardware for Kubernetes. Open-source, it makes HA, distributed, stateful apps easy to deploy, manage, and scale. '
+            homepage_url: 'https://supergiant.io/blog/supergiant-packing-algorithm-unique-save-money'
+            logo: 'https://media.licdn.com/mpr/mpr/shrink_200_200/AAEAAQAAAAAAAA3pAAAAJDA4MmJlMGI2LTkwOTgtNDEzNi1hNGI4LWE1NWZkNjA3ZTljMg.png'
+            crunchbase: 'https://www.crunchbase.com/organization/supergiant'
+          - item:
+            name: 'Treasure Data '
+            organization: 'Treasure Data '
+            description: 'Fluentd Enterprise brings smart, secure logging to Kubernetes, and brings integrations with backends such as Splunk, Kafka, or AWS S3. '
+            homepage_url: 'https://www.treasuredata.com/'
+            logo: 'https://d1eipm3vz40hy0.cloudfront.net/images/p-apps-marketplace/apps/87957/logo.png'
+            crunchbase: 'https://www.crunchbase.com/organization//treasure-data'
+          - item:
+            name: Wise2c
+            organization: Wise2c
+            description: 'Using Kubernetes to providing IT continuous delivery and Enterprise grade container management solution to Financial Industry. '
+            homepage_url: 'http://www.wise2c.com/'
+            logo: 'https://www.cncf.io/wp-content/uploads/2017/11/wise2c.png'
