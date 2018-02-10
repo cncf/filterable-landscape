@@ -34,6 +34,19 @@ If the error is with data from [Crunchbase](https://www.crunchbase.com/) you sho
 
 This repository contains data received from [Crunchbase](http://www.crunchbase.com). This data is not licensed pursuant to the Apache License, Version 2.0. It is subject to Crunchbase’s Data Access Terms, available at [https://data.crunchbase.com/v3.1/docs/terms](https://data.crunchbase.com/v3.1/docs/terms), and is only permitted to be used with this CNCF Cloud Native Landscape Project.
 
+Everything else is under the Apache License, Version 2.0, except for project and product logos, which are generally copyrighted by the company that created them, and are simply cached here for reliability.
+
+## Logos
+
+The following rules will produce the most readable and attractive logos:
+
+1. Dimensions of the source logo should be at least 375x375, as that is what they are resized to.
+1. Source must be PNG or SVG. Transparent background is better. It will be converted to PNG with a transparent background.
+1. When multiple variants exist, use stacked (not horizontal) logos. For example, we use the second column (stacked), not the first (horizontal), of CNCF project [logos](https://github.com/cncf/artwork/#cncf-incubating-logos).
+1. Don't use reversed logos (i.e., with a non-white, non-transparent background color). If you only have a reversed logo, create an issue with it attached and we'll produce a non-reversed version for you.
+1. Logos must include the company, product or project name in English. It's fine to also include words from another language. If you don't have a version of your logo with the name in it, please open an issue and we'll create one for you (and please specify the font).
+1. If the name of the product is not in the logo, then the company name should be included in the product name. So an Acme Rocket logo that shows "Rocket" should have product name "Rocket", while if the logo shows "Acme", the product name should be "Acme Rocket".
+
 ## Installation
 
 ### Install on Mac
