@@ -33,7 +33,7 @@ const MainContent = ({groupedItems, onSelectItem}) => {
                       </div>
                     }
                     { Number.isInteger(item.marketCap) &&
-                      <div className="mosaic-funding">Funding: {'$'+ millify( item.marketCap )}</div>
+                        <div className="mosaic-funding">{item.crunchbaseData.kind === 'funding' ? 'Funding: ': 'MCap: '} {'$'+ millify( item.marketCap )}</div>
                     }
                   </div>
                 </div>

@@ -72,6 +72,7 @@ async function getParentCompanies(companyInfo) {
       json: true
     });
     var cbInfo = fullParentInfo.data.items[0];
+    await Promise.delay(1 * 1000);
     return [parentInfo].concat(await getParentCompanies(cbInfo));
   }
 }
@@ -145,7 +146,7 @@ export async function fetchCrunchbaseEntries(organizations) {
       console.info(c, ' - fail');
       return null;
     }
-  }, {concurrency: 10})
+  }, {concurrency: 5})
 }
 // async function main() {
   // const organizations = await getCrunchbaseOrganizationsList();
