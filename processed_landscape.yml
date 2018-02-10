@@ -25,9 +25,9 @@ landscape:
                 Amazon Web Services provides information technology
                 infrastructure services to businesses in the form of web
                 services.
-              ticker: null
-              min: 10001
-              max: 1000000
+              ticker_symbol: null
+              num_employees_min: 10001
+              num_employees_max: 1000000
               funding: 0
               homepage: 'http://aws.amazon.com'
               city: Seattle
@@ -51,9 +51,9 @@ landscape:
             crunchbase_data:
               name: Google Cloud Platform
               description: Google Cloud Platform is a tool suite for app developers.
-              ticker: null
-              min: null
-              max: null
+              ticker_symbol: null
+              num_employees_min: null
+              num_employees_max: null
               funding: 0
               homepage: 'http://cloud.google.com/'
               city: San Francisco
@@ -84,9 +84,9 @@ landscape:
                 Microsoft is a software corporation that develops, manufactures,
                 licenses, supports, and sells a range of software products and
                 services.
-              ticker: MSFT
-              min: 10001
-              max: 1000000
+              ticker_symbol: MSFT
+              num_employees_min: 10001
+              num_employees_max: 1000000
               funding: 1000000
               homepage: 'http://www.microsoft.com'
               city: Redmond
@@ -116,9 +116,9 @@ landscape:
                 DigitalOcean is an IaaS company that delivers a seamless way for
                 developers and businesses to deploy and scale any application in
                 the cloud.
-              ticker: null
-              min: 251
-              max: 500
+              ticker_symbol: null
+              num_employees_min: 251
+              num_employees_max: 500
               funding: 305405800
               homepage: 'http://www.digitalocean.com'
               city: New York
@@ -148,9 +148,9 @@ landscape:
                 Packet is a bare metal cloud built for developers. 8 minute
                 deploys, no hypervisor, & full automation support from 15 global
                 data centers.
-              ticker: null
-              min: 11
-              max: 50
+              ticker_symbol: null
+              num_employees_min: 11
+              num_employees_max: 50
               funding: 11567845
               homepage: 'https://www.packet.net'
               city: New York
@@ -181,9 +181,9 @@ landscape:
                 Oracle is a computer technology corporation developing and
                 marketing computer hardware systems and enterprise software
                 products.
-              ticker: ORCL
-              min: 10001
-              max: 1000000
+              ticker_symbol: ORCL
+              num_employees_min: 10001
+              num_employees_max: 1000000
               funding: 0
               homepage: 'http://oracle.com'
               city: Redwood Shores
@@ -212,9 +212,9 @@ landscape:
               description: >-
                 Alibaba Cloud develops highly scalable cloud computing and data
                 management services.
-              ticker: null
-              min: null
-              max: null
+              ticker_symbol: null
+              num_employees_min: null
+              num_employees_max: null
               funding: 0
               homepage: 'https://www.alibabacloud.com/'
               city: Hangzhou
@@ -243,9 +243,9 @@ landscape:
               description: >-
                 Fujitsu provides information technology and communications
                 solutions.
-              ticker: '6702'
-              min: 10001
-              max: 1000000
+              ticker_symbol: '6702'
+              num_employees_min: 10001
+              num_employees_max: 1000000
               funding: 0
               homepage: 'http://www.fujitsu.com'
               city: North Sydney
@@ -273,9 +273,9 @@ landscape:
               description: >-
                 IBM is an IT technology and consulting firm providing computer
                 hardware, software, and infrastructure and hosting services.
-              ticker: IBM
-              min: 10001
-              max: 1000000
+              ticker_symbol: IBM
+              num_employees_min: 10001
+              num_employees_max: 1000000
               funding: 0
               homepage: 'http://www.ibm.com/'
               city: Armonk
@@ -304,9 +304,9 @@ landscape:
                 Tencent is a Chinese internet service portal offering
                 value-added internet, mobile, telecom, and online advertising
                 services.
-              ticker: '0700'
-              min: 10001
-              max: 1000000
+              ticker_symbol: '0700'
+              num_employees_min: 10001
+              num_employees_max: 1000000
               funding: 420000
               homepage: 'https://www.tencent.com/en-us/'
               city: Shenzhen
@@ -340,9 +340,9 @@ landscape:
                 Joyent is a cloud infrastructure and big data analytics company
                 offering a solution that powers real-time web and mobile
                 applications.
-              ticker: null
-              min: 101
-              max: 250
+              ticker_symbol: null
+              num_employees_min: 101
+              num_employees_max: 250
               funding: 130999998
               homepage: 'http://www.joyent.com'
               city: San Francisco
@@ -373,9 +373,9 @@ landscape:
               description: >-
                 Huawei Technologies provides infrastructure application software
                 and devices with wireline, wireless, and IP technologies.
-              ticker: null
-              min: 5001
-              max: 10000
+              ticker_symbol: null
+              num_employees_min: 5001
+              num_employees_max: 10000
               funding: 0
               homepage: 'http://huawei.com'
               city: Plano
@@ -410,9 +410,9 @@ landscape:
               description: >-
                 OpenStack is the most widely used open source software for
                 building public and private clouds.
-              ticker: null
-              min: 11
-              max: 50
+              ticker_symbol: null
+              num_employees_min: 11
+              num_employees_max: 50
               funding: 0
               homepage: 'http://www.openstack.org'
               city: Austin
@@ -443,9 +443,9 @@ landscape:
               description: >-
                 VMware is a software company providing cloud and virtualization
                 services.
-              ticker: null
-              min: 10001
-              max: 1000000
+              ticker_symbol: null
+              num_employees_min: 10001
+              num_employees_max: 1000000
               funding: 393500000
               homepage: 'http://www.vmware.com'
               city: Palo Alto
@@ -477,9 +477,9 @@ landscape:
               description: >-
                 Canonical is a computer software company that markets commercial
                 support and related services for Ubuntu and related projects.
-              ticker: null
-              min: 11
-              max: 50
+              ticker_symbol: null
+              num_employees_min: 11
+              num_employees_max: 50
               funding: 0
               homepage: 'http://www.canonical.com'
               city: London
@@ -515,9 +515,9 @@ landscape:
               description: >-
                 Foreman is an open source lifecycle management tool for physical
                 and virtual servers.
-              ticker: null
-              min: null
-              max: null
+              ticker_symbol: null
+              num_employees_min: null
+              num_employees_max: null
               funding: 0
               homepage: 'http://theforeman.org/'
               city: null
@@ -543,9 +543,9 @@ landscape:
             crunchbase_data:
               name: Scaleway
               description: Scaleway is the world's first Cloud Computing IaaS platform
-              ticker: null
-              min: 11
-              max: 50
+              ticker_symbol: null
+              num_employees_min: 11
+              num_employees_max: 50
               funding: 0
               homepage: 'https://www.scaleway.com/'
               city: Paris
@@ -572,9 +572,9 @@ landscape:
             crunchbase_data:
               name: RackN
               description: Hybrid DevOps Software For The Hybrid Enterprise
-              ticker: null
-              min: 1
-              max: 10
+              ticker_symbol: null
+              num_employees_min: 1
+              num_employees_max: 10
               funding: 800000
               homepage: 'http://www.rackn.com'
               city: Austin
@@ -615,9 +615,9 @@ landscape:
               description: >-
                 HashiCorp enables organizations to provision, secure, and run
                 any infrastructure for any application.
-              ticker: null
-              min: 101
-              max: 250
+              ticker_symbol: null
+              num_employees_min: 101
+              num_employees_max: 250
               funding: 74175000
               homepage: 'https://www.hashicorp.com'
               city: San Francisco
@@ -654,9 +654,9 @@ landscape:
                 Cloud Foundry is a self-service, public cloud deployment
                 platform enabling developers to build, test, deploy, and scale
                 applications.
-              ticker: null
-              min: 1001
-              max: 5000
+              ticker_symbol: null
+              num_employees_min: 1001
+              num_employees_max: 5000
               funding: 0
               homepage: 'https://www.cloudfoundry.org/'
               city: San Mateo
@@ -688,9 +688,9 @@ landscape:
                 Amazon Web Services provides information technology
                 infrastructure services to businesses in the form of web
                 services.
-              ticker: null
-              min: 10001
-              max: 1000000
+              ticker_symbol: null
+              num_employees_min: 10001
+              num_employees_max: 1000000
               funding: 0
               homepage: 'http://aws.amazon.com'
               city: Seattle
@@ -717,9 +717,9 @@ landscape:
               description: >-
                 CloudCoreo is building a next generation cloud management
                 platform.
-              ticker: null
-              min: 1
-              max: 10
+              ticker_symbol: null
+              num_employees_min: 1
+              num_employees_max: 10
               funding: 2900000
               homepage: 'http://cloudcoreo.com'
               city: Seattle
@@ -748,9 +748,9 @@ landscape:
                 Cloudify assists organizations in integrating cloud computing
                 into their business strategies and managing infrastructure
                 environments.
-              ticker: null
-              min: 1
-              max: 10
+              ticker_symbol: null
+              num_employees_min: 1
+              num_employees_max: 10
               funding: 0
               homepage: 'http://cloudify.me'
               city: New York
@@ -782,9 +782,9 @@ landscape:
               description: >-
                 CNCF is an open source software foundation that hosts and
                 nurtures projects like Kubernetes and Prometheus.
-              ticker: null
-              min: 11
-              max: 50
+              ticker_symbol: null
+              num_employees_min: 11
+              num_employees_max: 50
               funding: 0
               homepage: 'https://www.cncf.io/'
               city: San Francisco
@@ -822,9 +822,9 @@ landscape:
                 Docker is a platform for distributed applications that allows
                 developers and sysadmins to build, ship, and run distributed
                 applications.
-              ticker: null
-              min: 101
-              max: 250
+              ticker_symbol: null
+              num_employees_min: 101
+              num_employees_max: 250
               funding: 242766694
               homepage: 'https://www.docker.com'
               city: San Francisco
@@ -859,9 +859,9 @@ landscape:
               description: >-
                 Canonical is a computer software company that markets commercial
                 support and related services for Ubuntu and related projects.
-              ticker: null
-              min: 11
-              max: 50
+              ticker_symbol: null
+              num_employees_min: 11
+              num_employees_max: 50
               funding: 0
               homepage: 'http://www.canonical.com'
               city: London
@@ -892,9 +892,9 @@ landscape:
             crunchbase_data:
               name: Kubicorn
               description: Infrastructure Automation
-              ticker: null
-              min: null
-              max: null
+              ticker_symbol: null
+              num_employees_min: null
+              num_employees_max: null
               funding: 0
               homepage: 'https://github.com/kris-nova/kubicorn'
               city: Denver
@@ -925,9 +925,9 @@ landscape:
             crunchbase_data:
               name: ManageIQ
               description: "ManageIQ is a commercial open-source software\_firm enabling organizations to deploy, manage and optimize private, public and hybrid\_clouds."
-              ticker: null
-              min: 51
-              max: 100
+              ticker_symbol: null
+              num_employees_min: 51
+              num_employees_max: 100
               funding: 5400000
               homepage: 'http://www.manageiq.com'
               city: Mahwah
@@ -956,9 +956,9 @@ landscape:
             crunchbase_data:
               name: Red Hat
               description: "Red Hat is\_a multinational software company engaged in providing open-source software products to the enterprise community."
-              ticker: RHT
-              min: 5001
-              max: 10000
+              ticker_symbol: RHT
+              num_employees_min: 5001
+              num_employees_max: 10000
               funding: 0
               homepage: 'http://www.redhat.com'
               city: Raleigh
@@ -986,9 +986,9 @@ landscape:
               description: >-
                 JFrog provides software developers with a binary repository
                 management solution.
-              ticker: null
-              min: 101
-              max: 250
+              ticker_symbol: null
+              num_employees_min: 101
+              num_employees_max: 250
               funding: 61500000
               homepage: 'http://www.jfrog.com'
               city: Sunnyvale
@@ -1019,9 +1019,9 @@ landscape:
               description: >-
                 VMware is a software company providing cloud and virtualization
                 services.
-              ticker: null
-              min: 10001
-              max: 1000000
+              ticker_symbol: null
+              num_employees_min: 10001
+              num_employees_max: 1000000
               funding: 393500000
               homepage: 'http://www.vmware.com'
               city: Palo Alto
@@ -1055,9 +1055,9 @@ landscape:
                 Microsoft is a software corporation that develops, manufactures,
                 licenses, supports, and sells a range of software products and
                 services.
-              ticker: MSFT
-              min: 10001
-              max: 1000000
+              ticker_symbol: MSFT
+              num_employees_min: 10001
+              num_employees_max: 1000000
               funding: 1000000
               homepage: 'http://www.microsoft.com'
               city: Redmond
@@ -1084,9 +1084,9 @@ landscape:
             crunchbase_data:
               name: Red Hat
               description: "Red Hat is\_a multinational software company engaged in providing open-source software products to the enterprise community."
-              ticker: RHT
-              min: 5001
-              max: 10000
+              ticker_symbol: RHT
+              num_employees_min: 5001
+              num_employees_max: 10000
               funding: 0
               homepage: 'http://www.redhat.com'
               city: Raleigh
@@ -1123,9 +1123,9 @@ landscape:
                 Docker is a platform for distributed applications that allows
                 developers and sysadmins to build, ship, and run distributed
                 applications.
-              ticker: null
-              min: 101
-              max: 250
+              ticker_symbol: null
+              num_employees_min: 101
+              num_employees_max: 250
               funding: 242766694
               homepage: 'https://www.docker.com'
               city: San Francisco
@@ -1157,9 +1157,9 @@ landscape:
                 Amazon Web Services provides information technology
                 infrastructure services to businesses in the form of web
                 services.
-              ticker: null
-              min: 10001
-              max: 1000000
+              ticker_symbol: null
+              num_employees_min: 10001
+              num_employees_max: 1000000
               funding: 0
               homepage: 'http://aws.amazon.com'
               city: Seattle
@@ -1183,9 +1183,9 @@ landscape:
             crunchbase_data:
               name: Google Cloud Platform
               description: Google Cloud Platform is a tool suite for app developers.
-              ticker: null
-              min: null
-              max: null
+              ticker_symbol: null
+              num_employees_min: null
+              num_employees_max: null
               funding: 0
               homepage: 'http://cloud.google.com/'
               city: San Francisco
@@ -1219,9 +1219,9 @@ landscape:
                 SUSE is an open-source software provider that delivers Linux and
                 cloud products, which gives enterprises the control and
                 flexibility.
-              ticker: null
-              min: 501
-              max: 1000
+              ticker_symbol: null
+              num_employees_min: 501
+              num_employees_max: 1000
               funding: 0
               homepage: 'http://www.suse.com'
               city: Nürnberg
@@ -1259,9 +1259,9 @@ landscape:
               description: >-
                 Puppet is an information technology automation software company
                 designed for system administrators.
-              ticker: null
-              min: 251
-              max: 500
+              ticker_symbol: null
+              num_employees_min: 251
+              num_employees_max: 500
               funding: 107500000
               homepage: 'https://puppet.com/'
               city: Portland
@@ -1296,9 +1296,9 @@ landscape:
                 Docker is a platform for distributed applications that allows
                 developers and sysadmins to build, ship, and run distributed
                 applications.
-              ticker: null
-              min: 101
-              max: 250
+              ticker_symbol: null
+              num_employees_min: 101
+              num_employees_max: 250
               funding: 242766694
               homepage: 'https://www.docker.com'
               city: San Francisco
@@ -1330,9 +1330,9 @@ landscape:
             crunchbase_data:
               name: Red Hat
               description: "Red Hat is\_a multinational software company engaged in providing open-source software products to the enterprise community."
-              ticker: RHT
-              min: 5001
-              max: 10000
+              ticker_symbol: RHT
+              num_employees_min: 5001
+              num_employees_max: 10000
               funding: 0
               homepage: 'http://www.redhat.com'
               city: Raleigh
@@ -1367,9 +1367,9 @@ landscape:
               description: >-
                 Chef is an automation platform that transforms infrastructure
                 into code.
-              ticker: null
-              min: 101
-              max: 250
+              ticker_symbol: null
+              num_employees_min: 101
+              num_employees_max: 250
               funding: 105000000
               homepage: 'https://www.chef.io/'
               city: Seattle
@@ -1407,9 +1407,9 @@ landscape:
                 SaltStack intelligent orchestration software helps enterprise IT
                 ops & DevOps teams configure & manage the software-defined
                 datacenter.
-              ticker: null
-              min: 51
-              max: 100
+              ticker_symbol: null
+              num_employees_min: 51
+              num_employees_max: 100
               funding: 685000
               homepage: 'http://www.saltstack.com'
               city: Lehi
@@ -1446,9 +1446,9 @@ landscape:
                 CFEngine is a pioneer in IT Automation. It radically simplifies
                 and automates how companies build, consume infrastructure and
                 devices
-              ticker: null
-              min: 11
-              max: 50
+              ticker_symbol: null
+              num_employees_min: 11
+              num_employees_max: 50
               funding: 13000000
               homepage: 'http://www.cfengine.com'
               city: Palo Alto
@@ -1479,9 +1479,9 @@ landscape:
             crunchbase_data:
               name: Rundeck
               description: Job Scheduler and Runbook Automation
-              ticker: null
-              min: null
-              max: null
+              ticker_symbol: null
+              num_employees_min: null
+              num_employees_max: null
               funding: 0
               homepage: 'http://rundeck.org/'
               city: null
@@ -1515,9 +1515,9 @@ landscape:
             crunchbase_data:
               name: Anchore
               description: 'Discover, analyze, and certify containers on your own terms.'
-              ticker: null
-              min: 1
-              max: 10
+              ticker_symbol: null
+              num_employees_min: 1
+              num_employees_max: 10
               funding: 7000000
               homepage: 'https://anchore.com/'
               city: Santa Barbara
@@ -1548,9 +1548,9 @@ landscape:
               description: >-
                 Aqua Security enables enterprises to secure their virtual
                 container environments from development to production.
-              ticker: null
-              min: 11
-              max: 50
+              ticker_symbol: null
+              num_employees_min: 11
+              num_employees_max: 50
               funding: 38000000
               homepage: 'https://www.aquasec.com'
               city: Ramat Gan
@@ -1580,9 +1580,9 @@ landscape:
                 Black Duck secures & manages open source software worldwide,
                 eliminating open source security vulnerabilities & license
                 compliance pain.
-              ticker: null
-              min: 101
-              max: 250
+              ticker_symbol: null
+              num_employees_min: 101
+              num_employees_max: 250
               funding: 75500000
               homepage: 'http://www.blackducksoftware.com'
               city: Burlington
@@ -1609,9 +1609,9 @@ landscape:
               description: >-
                 NeuVector delivers a layer 7 application and network container
                 firewall and security solution
-              ticker: null
-              min: 11
-              max: 50
+              ticker_symbol: null
+              num_employees_min: 11
+              num_employees_max: 50
               funding: 7000000
               homepage: 'http://www.neuvector.com'
               city: Milpitas
@@ -1639,9 +1639,9 @@ landscape:
             crunchbase_data:
               name: Red Hat
               description: "Red Hat is\_a multinational software company engaged in providing open-source software products to the enterprise community."
-              ticker: RHT
-              min: 5001
-              max: 10000
+              ticker_symbol: RHT
+              num_employees_min: 5001
+              num_employees_max: 10000
               funding: 0
               homepage: 'http://www.redhat.com'
               city: Raleigh
@@ -1677,9 +1677,9 @@ landscape:
               description: >-
                 CNCF is an open source software foundation that hosts and
                 nurtures projects like Kubernetes and Prometheus.
-              ticker: null
-              min: 11
-              max: 50
+              ticker_symbol: null
+              num_employees_min: 11
+              num_employees_max: 50
               funding: 0
               homepage: 'https://www.cncf.io/'
               city: San Francisco
@@ -1711,9 +1711,9 @@ landscape:
             crunchbase_data:
               name: Red Hat
               description: "Red Hat is\_a multinational software company engaged in providing open-source software products to the enterprise community."
-              ticker: RHT
-              min: 5001
-              max: 10000
+              ticker_symbol: RHT
+              num_employees_min: 5001
+              num_employees_max: 10000
               funding: 0
               homepage: 'http://www.redhat.com'
               city: Raleigh
@@ -1744,9 +1744,9 @@ landscape:
               description: >-
                 Get precise intelligence about open source components and
                 accelerate software innovation, quality and security.
-              ticker: null
-              min: 101
-              max: 250
+              ticker_symbol: null
+              num_employees_min: 101
+              num_employees_max: 250
               funding: 74707328
               homepage: 'http://sonatype.com'
               city: Fulton
@@ -1780,9 +1780,9 @@ landscape:
               description: >-
                 CNCF is an open source software foundation that hosts and
                 nurtures projects like Kubernetes and Prometheus.
-              ticker: null
-              min: 11
-              max: 50
+              ticker_symbol: null
+              num_employees_min: 11
+              num_employees_max: 50
               funding: 0
               homepage: 'https://www.cncf.io/'
               city: San Francisco
@@ -1812,9 +1812,9 @@ landscape:
               description: >-
                 Twistlock is cloud native cybersecurity for the modern
                 enterprise.
-              ticker: null
-              min: 51
-              max: 100
+              ticker_symbol: null
+              num_employees_min: 51
+              num_employees_max: 100
               funding: 30060000
               homepage: 'https://www.twistlock.com/'
               city: Portland
@@ -1843,9 +1843,9 @@ landscape:
             crunchbase_data:
               name: Lyft
               description: Lyft is an on-demand transportation service in the US.
-              ticker: null
-              min: 1001
-              max: 5000
+              ticker_symbol: null
+              num_employees_min: 1001
+              num_employees_max: 5000
               funding: 4112500000
               homepage: 'http://lyft.com'
               city: San Francisco
@@ -1879,9 +1879,9 @@ landscape:
               description: >-
                 Square is a merchant services aggregator and mobile payment
                 company that aims to simplify commerce through technology.
-              ticker: SQ
-              min: 1001
-              max: 5000
+              ticker_symbol: SQ
+              num_employees_min: 1001
+              num_employees_max: 5000
               funding: 590500000
               homepage: 'http://squareup.com'
               city: San Francisco
@@ -1913,9 +1913,9 @@ landscape:
               description: >-
                 Pinterest is a visual bookmarking tool for saving and
                 discovering creative ideas.
-              ticker: null
-              min: 251
-              max: 500
+              ticker_symbol: null
+              num_employees_min: 251
+              num_employees_max: 500
               funding: 1466100000
               homepage: 'https://pinterest.com'
               city: San Francisco
@@ -1949,9 +1949,9 @@ landscape:
               description: >-
                 HashiCorp enables organizations to provision, secure, and run
                 any infrastructure for any application.
-              ticker: null
-              min: 101
-              max: 250
+              ticker_symbol: null
+              num_employees_min: 101
+              num_employees_max: 250
               funding: 74175000
               homepage: 'https://www.hashicorp.com'
               city: San Francisco
@@ -1985,9 +1985,9 @@ landscape:
                 Oracle is a computer technology corporation developing and
                 marketing computer hardware systems and enterprise software
                 products.
-              ticker: ORCL
-              min: 10001
-              max: 1000000
+              ticker_symbol: ORCL
+              num_employees_min: 10001
+              num_employees_max: 1000000
               funding: 0
               homepage: 'http://oracle.com'
               city: Redwood Shores
@@ -2020,9 +2020,9 @@ landscape:
                 Scytale.io help engineers securely and easily build
                 identity-drive, large-scale distributed software using
                 technologies like SPIFFE.io.
-              ticker: null
-              min: 1
-              max: 10
+              ticker_symbol: null
+              num_employees_min: 1
+              num_employees_max: 10
               funding: 0
               homepage: 'https://www.scytale.io'
               city: San Francisco
@@ -2059,9 +2059,9 @@ landscape:
                 Scytale.io help engineers securely and easily build
                 identity-drive, large-scale distributed software using
                 technologies like SPIFFE.io.
-              ticker: null
-              min: 1
-              max: 10
+              ticker_symbol: null
+              num_employees_min: 1
+              num_employees_max: 10
               funding: 0
               homepage: 'https://www.scytale.io'
               city: San Francisco
@@ -2098,9 +2098,9 @@ landscape:
             crunchbase_data:
               name: Red Hat
               description: "Red Hat is\_a multinational software company engaged in providing open-source software products to the enterprise community."
-              ticker: RHT
-              min: 5001
-              max: 10000
+              ticker_symbol: RHT
+              num_employees_min: 5001
+              num_employees_max: 10000
               funding: 0
               homepage: 'http://www.redhat.com'
               city: Raleigh
@@ -2130,9 +2130,9 @@ landscape:
             crunchbase_data:
               name: Red Hat
               description: "Red Hat is\_a multinational software company engaged in providing open-source software products to the enterprise community."
-              ticker: RHT
-              min: 5001
-              max: 10000
+              ticker_symbol: RHT
+              num_employees_min: 5001
+              num_employees_max: 10000
               funding: 0
               homepage: 'http://www.redhat.com'
               city: Raleigh
@@ -2163,9 +2163,9 @@ landscape:
             crunchbase_data:
               name: Minio
               description: Minio is an open source object storage server.
-              ticker: null
-              min: 11
-              max: 50
+              ticker_symbol: null
+              num_employees_min: 11
+              num_employees_max: 50
               funding: 23300000
               homepage: 'https://www.minio.io'
               city: Palo Alto
@@ -2196,9 +2196,9 @@ landscape:
               description: >-
                 Portworx is the solution for stateful containers running in
                 production.
-              ticker: null
-              min: 11
-              max: 50
+              ticker_symbol: null
+              num_employees_min: 11
+              num_employees_max: 50
               funding: 28500000
               homepage: 'https://portworx.com/'
               city: Los Altos
@@ -2227,9 +2227,9 @@ landscape:
               description: >-
                 VMware is a software company providing cloud and virtualization
                 services.
-              ticker: null
-              min: 10001
-              max: 1000000
+              ticker_symbol: null
+              num_employees_min: 10001
+              num_employees_max: 1000000
               funding: 393500000
               homepage: 'http://www.vmware.com'
               city: Palo Alto
@@ -2253,9 +2253,9 @@ landscape:
             crunchbase_data:
               name: Pure Storage
               description: "Pure Storage\_is an\_all-flash enterprise storage company that enables broad deployment of flash in data centers."
-              ticker: PSTG
-              min: 1001
-              max: 5000
+              ticker_symbol: PSTG
+              num_employees_min: 1001
+              num_employees_max: 5000
               funding: 530856468
               homepage: 'http://www.purestorage.com'
               city: Mountain View
@@ -2287,9 +2287,9 @@ landscape:
               description: >-
                 Dell EMC enables digital transformation with trusted solutions
                 for the modern data center.
-              ticker: null
-              min: 10001
-              max: 1000000
+              ticker_symbol: null
+              num_employees_min: 10001
+              num_employees_max: 1000000
               funding: 0
               homepage: 'http://dellemc.com'
               city: Hopkinton
@@ -2326,9 +2326,9 @@ landscape:
                 Joyent is a cloud infrastructure and big data analytics company
                 offering a solution that powers real-time web and mobile
                 applications.
-              ticker: null
-              min: 101
-              max: 250
+              ticker_symbol: null
+              num_employees_min: 101
+              num_employees_max: 250
               funding: 130999998
               homepage: 'http://www.joyent.com'
               city: San Francisco
@@ -2360,9 +2360,9 @@ landscape:
                 Diamanti is a datacenter infrastructure company founded to solve
                 network and storage challenges in Linux containerized
                 environments.
-              ticker: null
-              min: 11
-              max: 50
+              ticker_symbol: null
+              num_employees_min: 11
+              num_employees_max: 50
               funding: 43000000
               homepage: 'https://www.diamanti.com/'
               city: San Jose
@@ -2396,9 +2396,9 @@ landscape:
               description: >-
                 CNCF is an open source software foundation that hosts and
                 nurtures projects like Kubernetes and Prometheus.
-              ticker: null
-              min: 11
-              max: 50
+              ticker_symbol: null
+              num_employees_min: 11
+              num_employees_max: 50
               funding: 0
               homepage: 'https://www.cncf.io/'
               city: San Francisco
@@ -2430,9 +2430,9 @@ landscape:
               description: >-
                 Data-Centric Compute and Storage Containerization Infrastructure
                 Software
-              ticker: null
-              min: 11
-              max: 50
+              ticker_symbol: null
+              num_employees_min: 11
+              num_employees_max: 50
               funding: 21700000
               homepage: 'http://www.robinsystems.com'
               city: San Jose
@@ -2463,9 +2463,9 @@ landscape:
                 Springpath is hyperconvergence software that turns standard
                 servers of choice into a single pool of compute and storage
                 resources.
-              ticker: null
-              min: 51
-              max: 100
+              ticker_symbol: null
+              num_employees_min: 51
+              num_employees_max: 100
               funding: 34000000
               homepage: 'http://springpathinc.com/'
               city: Sunnyvale
@@ -2489,9 +2489,9 @@ landscape:
             crunchbase_data:
               name: Datera
               description: Datera is an application-driven data infrastructure company.
-              ticker: null
-              min: 51
-              max: 100
+              ticker_symbol: null
+              num_employees_min: 51
+              num_employees_max: 100
               funding: 40000000
               homepage: 'http://datera.io'
               city: Mountain View
@@ -2522,9 +2522,9 @@ landscape:
               description: >-
                 Infinit International Inc. is a venture backed company
                 specializing in storage technologies.
-              ticker: null
-              min: 11
-              max: 50
+              ticker_symbol: null
+              num_employees_min: 11
+              num_employees_max: 50
               funding: 2240000
               homepage: 'http://www.infinit.sh'
               city: Paris
@@ -2551,9 +2551,9 @@ landscape:
             crunchbase_data:
               name: Kasten
               description: Kasten
-              ticker: null
-              min: 1
-              max: 10
+              ticker_symbol: null
+              num_employees_min: 1
+              num_employees_max: 10
               funding: 0
               homepage: 'https://kasten.io/'
               city: Los Altos
@@ -2624,9 +2624,9 @@ landscape:
               description: >-
                 Dell EMC enables digital transformation with trusted solutions
                 for the modern data center.
-              ticker: null
-              min: 10001
-              max: 1000000
+              ticker_symbol: null
+              num_employees_min: 10001
+              num_employees_max: 1000000
               funding: 0
               homepage: 'http://dellemc.com'
               city: Hopkinton
@@ -2660,9 +2660,9 @@ landscape:
                 NetApp offers storage and data management solutions that enable
                 customers to accelerate business innovations and achieve cost
                 efficiencies.
-              ticker: NTAP
-              min: 10001
-              max: 1000000
+              ticker_symbol: NTAP
+              num_employees_min: 10001
+              num_employees_max: 1000000
               funding: 0
               homepage: 'http://netapp.com'
               city: Sunnyvale
@@ -2686,9 +2686,9 @@ landscape:
             crunchbase_data:
               name: StorageOS
               description: Persistent storage for containers and the cloud
-              ticker: null
-              min: 11
-              max: 50
+              ticker_symbol: null
+              num_employees_min: 11
+              num_employees_max: 50
               funding: 2000000
               homepage: 'http://storageos.com'
               city: London
@@ -2717,9 +2717,9 @@ landscape:
               description: >-
                 Dell EMC enables digital transformation with trusted solutions
                 for the modern data center.
-              ticker: null
-              min: 10001
-              max: 1000000
+              ticker_symbol: null
+              num_employees_min: 10001
+              num_employees_max: 1000000
               funding: 0
               homepage: 'http://dellemc.com'
               city: Hopkinton
@@ -2751,9 +2751,9 @@ landscape:
                 OpenSDS is an open source project established to address
                 integration challenges for Storage Defined Storage (SDS)
                 vendors.
-              ticker: null
-              min: null
-              max: null
+              ticker_symbol: null
+              num_employees_min: null
+              num_employees_max: null
               funding: 0
               homepage: 'https://www.opensds.io/'
               city: null
@@ -2790,9 +2790,9 @@ landscape:
                 OpenEBS is a scalable storage platform for spinning out
                 containerized block storage volumes for use by container
                 applications.
-              ticker: null
-              min: 11
-              max: 50
+              ticker_symbol: null
+              num_employees_min: 11
+              num_employees_max: 50
               funding: 0
               homepage: 'https://www.openebs.io'
               city: Bengaluru
@@ -2820,9 +2820,9 @@ landscape:
             crunchbase_data:
               name: Hedvig
               description: Modern storage for the modern business.
-              ticker: null
-              min: 11
-              max: 50
+              ticker_symbol: null
+              num_employees_min: 11
+              num_employees_max: 50
               funding: 52000000
               homepage: 'http://hedviginc.com'
               city: Santa Clara
@@ -2853,9 +2853,9 @@ landscape:
               description: >-
                 OpenStack is the most widely used open source software for
                 building public and private clouds.
-              ticker: null
-              min: 11
-              max: 50
+              ticker_symbol: null
+              num_employees_min: 11
+              num_employees_max: 50
               funding: 0
               homepage: 'http://www.openstack.org'
               city: Austin
@@ -2894,9 +2894,9 @@ landscape:
               description: >-
                 CNCF is an open source software foundation that hosts and
                 nurtures projects like Kubernetes and Prometheus.
-              ticker: null
-              min: 11
-              max: 50
+              ticker_symbol: null
+              num_employees_min: 11
+              num_employees_max: 50
               funding: 0
               homepage: 'https://www.cncf.io/'
               city: San Francisco
@@ -2932,9 +2932,9 @@ landscape:
               description: >-
                 A lightweight, open governance structure, under the auspices of
                 the Linux Foundation.
-              ticker: null
-              min: null
-              max: null
+              ticker_symbol: null
+              num_employees_min: null
+              num_employees_max: null
               funding: 0
               homepage: 'http://opencontainers.org/'
               city: San Francisco
@@ -2968,9 +2968,9 @@ landscape:
               description: >-
                 Canonical is a computer software company that markets commercial
                 support and related services for Ubuntu and related projects.
-              ticker: null
-              min: 11
-              max: 50
+              ticker_symbol: null
+              num_employees_min: 11
+              num_employees_max: 50
               funding: 0
               homepage: 'http://www.canonical.com'
               city: London
@@ -2999,9 +2999,9 @@ landscape:
             crunchbase_data:
               name: Hyper_
               description: Hyper_ is a secure container cloud service.
-              ticker: null
-              min: 1
-              max: 10
+              ticker_symbol: null
+              num_employees_min: 1
+              num_employees_max: 10
               funding: 0
               homepage: 'https://hyper.sh/'
               city: New York
@@ -3038,9 +3038,9 @@ landscape:
                 Joyent is a cloud infrastructure and big data analytics company
                 offering a solution that powers real-time web and mobile
                 applications.
-              ticker: null
-              min: 101
-              max: 250
+              ticker_symbol: null
+              num_employees_min: 101
+              num_employees_max: 250
               funding: 130999998
               homepage: 'http://www.joyent.com'
               city: San Francisco
@@ -3076,9 +3076,9 @@ landscape:
               description: >-
                 CNCF is an open source software foundation that hosts and
                 nurtures projects like Kubernetes and Prometheus.
-              ticker: null
-              min: 11
-              max: 50
+              ticker_symbol: null
+              num_employees_min: 11
+              num_employees_max: 50
               funding: 0
               homepage: 'https://www.cncf.io/'
               city: San Francisco
@@ -3114,9 +3114,9 @@ landscape:
               description: >-
                 CNCF is an open source software foundation that hosts and
                 nurtures projects like Kubernetes and Prometheus.
-              ticker: null
-              min: 11
-              max: 50
+              ticker_symbol: null
+              num_employees_min: 11
+              num_employees_max: 50
               funding: 0
               homepage: 'https://www.cncf.io/'
               city: San Francisco
@@ -3152,9 +3152,9 @@ landscape:
               description: >-
                 Intel designs, manufactures, and sells integrated digital
                 technology platforms worldwide.
-              ticker: INTC
-              min: 10001
-              max: 1000000
+              ticker_symbol: INTC
+              num_employees_min: 10001
+              num_employees_max: 1000000
               funding: 2510000
               homepage: 'http://www.intel.com/'
               city: Santa Clara
@@ -3189,9 +3189,9 @@ landscape:
               description: >-
                 CNCF is an open source software foundation that hosts and
                 nurtures projects like Kubernetes and Prometheus.
-              ticker: null
-              min: 11
-              max: 50
+              ticker_symbol: null
+              num_employees_min: 11
+              num_employees_max: 50
               funding: 0
               homepage: 'https://www.cncf.io/'
               city: San Francisco
@@ -3221,9 +3221,9 @@ landscape:
             crunchbase_data:
               name: Aporeto
               description: Cloud Native Security for Containers and Microservices
-              ticker: null
-              min: 1
-              max: 10
+              ticker_symbol: null
+              num_employees_min: 1
+              num_employees_max: 10
               funding: 14500000
               homepage: 'https://aporeto.com'
               city: San Jose
@@ -3251,9 +3251,9 @@ landscape:
               description: >-
                 The company develops software that enables enterprises to build
                 hybrid clouds by easily
-              ticker: null
-              min: 11
-              max: 50
+              ticker_symbol: null
+              num_employees_min: 11
+              num_employees_max: 50
               funding: 25000000
               homepage: 'http://aviatrix.com/'
               city: Palo Alto
@@ -3282,9 +3282,9 @@ landscape:
                 Big Switch Networks is the Next-Generation Data Center
                 Networking Company, designing intelligent, agile and flexible
                 networks
-              ticker: null
-              min: 101
-              max: 250
+              ticker_symbol: null
+              num_employees_min: 101
+              num_employees_max: 250
               funding: 119500000
               homepage: 'http://www.bigswitch.com'
               city: Santa Clara
@@ -3316,9 +3316,9 @@ landscape:
               description: >-
                 Tigera provides secure application connectivity for the cloud
                 native world.
-              ticker: null
-              min: 11
-              max: 50
+              ticker_symbol: null
+              num_employees_min: 11
+              num_employees_max: 50
               funding: 23000000
               homepage: 'https://www.tigera.io/'
               city: San Francisco
@@ -3353,9 +3353,9 @@ landscape:
               description: >-
                 Tigera provides secure application connectivity for the cloud
                 native world.
-              ticker: null
-              min: 11
-              max: 50
+              ticker_symbol: null
+              num_employees_min: 11
+              num_employees_max: 50
               funding: 23000000
               homepage: 'https://www.tigera.io/'
               city: San Francisco
@@ -3392,9 +3392,9 @@ landscape:
                 Cisco develops, manufactures, and sells networking hardware,
                 telecommunications equipment, and other high-technology services
                 and products.
-              ticker: CSCO
-              min: 10001
-              max: 1000000
+              ticker_symbol: CSCO
+              num_employees_min: 10001
+              num_employees_max: 1000000
               funding: 2500000
               homepage: 'http://www.cisco.com'
               city: San Jose
@@ -3428,9 +3428,9 @@ landscape:
               description: >-
                 Covalent builds Cilium, an HTTP-aware network security layer for
                 microservices platforms.
-              ticker: null
-              min: null
-              max: null
+              ticker_symbol: null
+              num_employees_min: null
+              num_employees_max: null
               funding: 0
               homepage: 'http://covalent.io/'
               city: null
@@ -3461,9 +3461,9 @@ landscape:
               description: >-
                 Cumulus Networks, a software company, designs, and sells Linux
                 operating systems for networking hardware.
-              ticker: null
-              min: 101
-              max: 250
+              ticker_symbol: null
+              num_employees_min: 101
+              num_employees_max: 250
               funding: 129000000
               homepage: 'http://cumulusnetworks.com'
               city: Mountain View
@@ -3491,9 +3491,9 @@ landscape:
             crunchbase_data:
               name: Red Hat
               description: "Red Hat is\_a multinational software company engaged in providing open-source software products to the enterprise community."
-              ticker: RHT
-              min: 5001
-              max: 10000
+              ticker_symbol: RHT
+              num_employees_min: 5001
+              num_employees_max: 10000
               funding: 0
               homepage: 'http://www.redhat.com'
               city: Raleigh
@@ -3524,9 +3524,9 @@ landscape:
             crunchbase_data:
               name: MidoNet
               description: MidoNet Open Source Network Virtualization.
-              ticker: null
-              min: null
-              max: null
+              ticker_symbol: null
+              num_employees_min: null
+              num_employees_max: null
               funding: 0
               homepage: 'https://www.midonet.org/'
               city: null
@@ -3556,9 +3556,9 @@ landscape:
               description: >-
                 VMware is a software company providing cloud and virtualization
                 services.
-              ticker: null
-              min: 10001
-              max: 1000000
+              ticker_symbol: null
+              num_employees_min: 10001
+              num_employees_max: 1000000
               funding: 393500000
               homepage: 'http://www.vmware.com'
               city: Palo Alto
@@ -3586,9 +3586,9 @@ landscape:
               description: >-
                 Nuage Networks Fundamentals: Software Defined Networking for the
                 Datacenter and Beyond.
-              ticker: null
-              min: 51
-              max: 100
+              ticker_symbol: null
+              num_employees_min: 51
+              num_employees_max: 100
               funding: 0
               homepage: 'http://www.nuagenetworks.net/'
               city: California
@@ -3619,9 +3619,9 @@ landscape:
               description: >-
                 OpenContrail is a community-led open source project committed to
                 innovation in SDN and Network Virtualization.
-              ticker: null
-              min: null
-              max: null
+              ticker_symbol: null
+              num_employees_min: null
+              num_employees_max: null
               funding: 0
               homepage: 'http://www.opencontrail.org/'
               city: Sunnyvale
@@ -3655,9 +3655,9 @@ landscape:
               description: >-
                 Open vSwitch is a multilayer virtual switch licensed under the
                 open source Apache 2.0 license.
-              ticker: null
-              min: null
-              max: null
+              ticker_symbol: null
+              num_employees_min: null
+              num_employees_max: null
               funding: 0
               homepage: 'http://openvswitch.org/'
               city: null
@@ -3689,9 +3689,9 @@ landscape:
                 PLUMgrid is involved in virtual networking and SDN/NFV to
                 deliver cloud infrastructure solutions that transform
                 businesses.
-              ticker: null
-              min: 51
-              max: 100
+              ticker_symbol: null
+              num_employees_min: 51
+              num_employees_max: 100
               funding: 48006848
               homepage: 'http://plumgrid.com'
               city: Santa Clara
@@ -3736,9 +3736,9 @@ landscape:
             crunchbase_data:
               name: SnapRoute
               description: SnapRoute is an open networking stack company.
-              ticker: null
-              min: 11
-              max: 50
+              ticker_symbol: null
+              num_employees_min: 11
+              num_employees_max: 50
               funding: 25000000
               homepage: 'http://www.snaproute.com/'
               city: Palo Alto
@@ -3771,9 +3771,9 @@ landscape:
               description: >-
                 CNCF is an open source software foundation that hosts and
                 nurtures projects like Kubernetes and Prometheus.
-              ticker: null
-              min: 11
-              max: 50
+              ticker_symbol: null
+              num_employees_min: 11
+              num_employees_max: 50
               funding: 0
               homepage: 'https://www.cncf.io/'
               city: San Francisco
@@ -3808,9 +3808,9 @@ landscape:
               description: >-
                 Weaveworks provides a simple and consistent way to connect and
                 manage containers and microservices
-              ticker: null
-              min: 11
-              max: 50
+              ticker_symbol: null
+              num_employees_min: 11
+              num_employees_max: 50
               funding: 20000000
               homepage: 'https://www.weave.works/'
               city: London
@@ -3853,9 +3853,9 @@ landscape:
               description: >-
                 CNCF is an open source software foundation that hosts and
                 nurtures projects like Kubernetes and Prometheus.
-              ticker: null
-              min: 11
-              max: 50
+              ticker_symbol: null
+              num_employees_min: 11
+              num_employees_max: 50
               funding: 0
               homepage: 'https://www.cncf.io/'
               city: San Francisco
@@ -3888,9 +3888,9 @@ landscape:
                 Amazon Web Services provides information technology
                 infrastructure services to businesses in the form of web
                 services.
-              ticker: null
-              min: 10001
-              max: 1000000
+              ticker_symbol: null
+              num_employees_min: 10001
+              num_employees_max: 1000000
               funding: 0
               homepage: 'http://aws.amazon.com'
               city: Seattle
@@ -3921,9 +3921,9 @@ landscape:
               description: >-
                 HashiCorp enables organizations to provision, secure, and run
                 any infrastructure for any application.
-              ticker: null
-              min: 101
-              max: 250
+              ticker_symbol: null
+              num_employees_min: 101
+              num_employees_max: 250
               funding: 74175000
               homepage: 'https://www.hashicorp.com'
               city: San Francisco
@@ -3959,9 +3959,9 @@ landscape:
                 Apache Software Foundation (501C3) provides organizational,
                 legal and financial support for Apache open-source software
                 projects.
-              ticker: null
-              min: 1
-              max: 10
+              ticker_symbol: null
+              num_employees_min: 1
+              num_employees_max: 10
               funding: 0
               homepage: 'http://www.apache.org'
               city: Forest Hill
@@ -3995,9 +3995,9 @@ landscape:
                 Microsoft is a software corporation that develops, manufactures,
                 licenses, supports, and sells a range of software products and
                 services.
-              ticker: MSFT
-              min: 10001
-              max: 1000000
+              ticker_symbol: MSFT
+              num_employees_min: 10001
+              num_employees_max: 1000000
               funding: 1000000
               homepage: 'http://www.microsoft.com'
               city: Redmond
@@ -4030,9 +4030,9 @@ landscape:
                 Docker is a platform for distributed applications that allows
                 developers and sysadmins to build, ship, and run distributed
                 applications.
-              ticker: null
-              min: 101
-              max: 250
+              ticker_symbol: null
+              num_employees_min: 101
+              num_employees_max: 250
               funding: 242766694
               homepage: 'https://www.docker.com'
               city: San Francisco
@@ -4066,9 +4066,9 @@ landscape:
             crunchbase_data:
               name: Red Hat
               description: "Red Hat is\_a multinational software company engaged in providing open-source software products to the enterprise community."
-              ticker: RHT
-              min: 5001
-              max: 10000
+              ticker_symbol: RHT
+              num_employees_min: 5001
+              num_employees_max: 10000
               funding: 0
               homepage: 'http://www.redhat.com'
               city: Raleigh
@@ -4103,9 +4103,9 @@ landscape:
               description: >-
                 HashiCorp enables organizations to provision, secure, and run
                 any infrastructure for any application.
-              ticker: null
-              min: 101
-              max: 250
+              ticker_symbol: null
+              num_employees_min: 101
+              num_employees_max: 250
               funding: 74175000
               homepage: 'https://www.hashicorp.com'
               city: San Francisco
@@ -4141,9 +4141,9 @@ landscape:
                 Apache Software Foundation (501C3) provides organizational,
                 legal and financial support for Apache open-source software
                 projects.
-              ticker: null
-              min: 1
-              max: 10
+              ticker_symbol: null
+              num_employees_min: 1
+              num_employees_max: 10
               funding: 0
               homepage: 'http://www.apache.org'
               city: Forest Hill
@@ -4180,9 +4180,9 @@ landscape:
                 Joyent is a cloud infrastructure and big data analytics company
                 offering a solution that powers real-time web and mobile
                 applications.
-              ticker: null
-              min: 101
-              max: 250
+              ticker_symbol: null
+              num_employees_min: 101
+              num_employees_max: 250
               funding: 130999998
               homepage: 'http://www.joyent.com'
               city: San Francisco
@@ -4238,9 +4238,9 @@ landscape:
               description: >-
                 CNCF is an open source software foundation that hosts and
                 nurtures projects like Kubernetes and Prometheus.
-              ticker: null
-              min: 11
-              max: 50
+              ticker_symbol: null
+              num_employees_min: 11
+              num_employees_max: 50
               funding: 0
               homepage: 'https://www.cncf.io/'
               city: San Francisco
@@ -4275,9 +4275,9 @@ landscape:
               description: >-
                 Help you build container-first cloud infrastructure and delivery
                 pipelines.
-              ticker: null
-              min: 1
-              max: 10
+              ticker_symbol: null
+              num_employees_min: 1
+              num_employees_max: 10
               funding: 0
               homepage: 'http://gliderlabs.com/'
               city: Austin
@@ -4311,9 +4311,9 @@ landscape:
               description: >-
                 Airbnb is an online community marketplace for people to list,
                 discover, and book accommodations around the world.
-              ticker: null
-              min: 1001
-              max: 5000
+              ticker_symbol: null
+              num_employees_min: 1001
+              num_employees_max: 5000
               funding: 4398082100
               homepage: 'http://airbnb.com'
               city: San Francisco
@@ -4344,9 +4344,9 @@ landscape:
               description: >-
                 Uber is a mobile app connecting passengers with drivers for
                 hire.
-              ticker: null
-              min: 5001
-              max: 10000
+              ticker_symbol: null
+              num_employees_min: 5001
+              num_employees_max: 10000
               funding: 22212450000
               homepage: 'http://www.uber.com'
               city: San Francisco
@@ -4380,9 +4380,9 @@ landscape:
                 Netflix is an online platform that enables users to watch TV
                 shows and movies on smart TVs, PCs, Macs, mobiles, tablets, and
                 so on. 
-              ticker: NFLX
-              min: 1001
-              max: 5000
+              ticker_symbol: NFLX
+              num_employees_min: 1001
+              num_employees_max: 5000
               funding: 2803735952
               homepage: 'https://www.netflix.com'
               city: Los Gatos
@@ -4417,9 +4417,9 @@ landscape:
               description: >-
                 VMware is a software company providing cloud and virtualization
                 services.
-              ticker: null
-              min: 10001
-              max: 1000000
+              ticker_symbol: null
+              num_employees_min: 10001
+              num_employees_max: 1000000
               funding: 393500000
               homepage: 'http://www.vmware.com'
               city: Palo Alto
@@ -4453,9 +4453,9 @@ landscape:
             crunchbase_data:
               name: Red Hat
               description: "Red Hat is\_a multinational software company engaged in providing open-source software products to the enterprise community."
-              ticker: RHT
-              min: 5001
-              max: 10000
+              ticker_symbol: RHT
+              num_employees_min: 5001
+              num_employees_max: 10000
               funding: 0
               homepage: 'http://www.redhat.com'
               city: Raleigh
@@ -4490,9 +4490,9 @@ landscape:
               description: >-
                 NGINX offers advanced internet infrastructure software to help
                 companies match the demand for faster web experiences.
-              ticker: null
-              min: 101
-              max: 250
+              ticker_symbol: null
+              num_employees_min: 101
+              num_employees_max: 250
               funding: 41000000
               homepage: 'https://www.nginx.com'
               city: San Francisco
@@ -4528,9 +4528,9 @@ landscape:
                 HAProxy offers a full line of load balancers to improve Perf,
                 guarantee QoS and ensure the availability of critical business
                 applications.
-              ticker: null
-              min: 101
-              max: 250
+              ticker_symbol: null
+              num_employees_min: 101
+              num_employees_max: 250
               funding: 0
               homepage: 'http://www.haproxy.com'
               city: Waltham
@@ -4568,9 +4568,9 @@ landscape:
               description: >-
                 CNCF is an open source software foundation that hosts and
                 nurtures projects like Kubernetes and Prometheus.
-              ticker: null
-              min: 11
-              max: 50
+              ticker_symbol: null
+              num_employees_min: 11
+              num_employees_max: 50
               funding: 0
               homepage: 'https://www.cncf.io/'
               city: San Francisco
@@ -4609,9 +4609,9 @@ landscape:
               description: >-
                 CNCF is an open source software foundation that hosts and
                 nurtures projects like Kubernetes and Prometheus.
-              ticker: null
-              min: 11
-              max: 50
+              ticker_symbol: null
+              num_employees_min: 11
+              num_employees_max: 50
               funding: 0
               homepage: 'https://www.cncf.io/'
               city: San Francisco
@@ -4647,9 +4647,9 @@ landscape:
               description: >-
                 An early stage startup that's focused on making it easy for
                 developers to build resilient microservices.
-              ticker: null
-              min: 11
-              max: 50
+              ticker_symbol: null
+              num_employees_min: 11
+              num_employees_max: 50
               funding: 250000
               homepage: 'https://www.datawire.io/'
               city: Cambridge
@@ -4684,9 +4684,9 @@ landscape:
               description: >-
                 Containous creates open-source infrastructure software for the
                 modern datacenter. Containous is the company behind Traefik.
-              ticker: null
-              min: null
-              max: null
+              ticker_symbol: null
+              num_employees_min: null
+              num_employees_max: null
               funding: 1060899
               homepage: 'https://containo.us'
               city: Lyon
@@ -4713,9 +4713,9 @@ landscape:
             crunchbase_data:
               name: Turbine Labs
               description: Turbine Labs
-              ticker: null
-              min: null
-              max: null
+              ticker_symbol: null
+              num_employees_min: null
+              num_employees_max: null
               funding: 0
               homepage: 'https://turbinelabs.io/'
               city: null
@@ -4744,9 +4744,9 @@ landscape:
                 Avi Networks is a Silicon Valley startup with proven track
                 record in building virtualization, networking and software
                 solutions.
-              ticker: null
-              min: 101
-              max: 250
+              ticker_symbol: null
+              num_employees_min: 101
+              num_employees_max: 250
               funding: 33000000
               homepage: 'https://www.avinetworks.com'
               city: Santa Clara
@@ -4781,9 +4781,9 @@ landscape:
               description: >-
                 CNCF is an open source software foundation that hosts and
                 nurtures projects like Kubernetes and Prometheus.
-              ticker: null
-              min: 11
-              max: 50
+              ticker_symbol: null
+              num_employees_min: 11
+              num_employees_max: 50
               funding: 0
               homepage: 'https://www.cncf.io/'
               city: San Francisco
@@ -4820,9 +4820,9 @@ landscape:
                 Apache Software Foundation (501C3) provides organizational,
                 legal and financial support for Apache open-source software
                 projects.
-              ticker: null
-              min: 1
-              max: 10
+              ticker_symbol: null
+              num_employees_min: 1
+              num_employees_max: 10
               funding: 0
               homepage: 'http://www.apache.org'
               city: Forest Hill
@@ -4857,9 +4857,9 @@ landscape:
                 Apache Software Foundation (501C3) provides organizational,
                 legal and financial support for Apache open-source software
                 projects.
-              ticker: null
-              min: 1
-              max: 10
+              ticker_symbol: null
+              num_employees_min: 1
+              num_employees_max: 10
               funding: 0
               homepage: 'http://www.apache.org'
               city: Forest Hill
@@ -4889,9 +4889,9 @@ landscape:
             crunchbase_data:
               name: Vamp
               description: The canary test & release platform for containers
-              ticker: null
-              min: 1
-              max: 10
+              ticker_symbol: null
+              num_employees_min: 1
+              num_employees_max: 10
               funding: 733882
               homepage: 'http://vamp.io'
               city: Amsterdam
@@ -4925,9 +4925,9 @@ landscape:
               description: >-
                 Weaveworks provides a simple and consistent way to connect and
                 manage containers and microservices
-              ticker: null
-              min: 11
-              max: 50
+              ticker_symbol: null
+              num_employees_min: 11
+              num_employees_max: 50
               funding: 20000000
               homepage: 'https://www.weave.works/'
               city: London
@@ -4962,9 +4962,9 @@ landscape:
               description: >-
                 Kong is a provider of application programming interfaces for
                 companies.
-              ticker: null
-              min: 11
-              max: 50
+              ticker_symbol: null
+              num_employees_min: 11
+              num_employees_max: 50
               funding: 44101000
               homepage: 'https://konghq.com/'
               city: San Francisco
@@ -5001,9 +5001,9 @@ landscape:
                 Netflix is an online platform that enables users to watch TV
                 shows and movies on smart TVs, PCs, Macs, mobiles, tablets, and
                 so on. 
-              ticker: NFLX
-              min: 1001
-              max: 5000
+              ticker_symbol: NFLX
+              num_employees_min: 1001
+              num_employees_max: 5000
               funding: 2803735952
               homepage: 'https://www.netflix.com'
               city: Los Gatos
@@ -5039,9 +5039,9 @@ landscape:
                 Netflix is an online platform that enables users to watch TV
                 shows and movies on smart TVs, PCs, Macs, mobiles, tablets, and
                 so on. 
-              ticker: NFLX
-              min: 1001
-              max: 5000
+              ticker_symbol: NFLX
+              num_employees_min: 1001
+              num_employees_max: 5000
               funding: 2803735952
               homepage: 'https://www.netflix.com'
               city: Los Gatos
@@ -5078,9 +5078,9 @@ landscape:
                 Netflix is an online platform that enables users to watch TV
                 shows and movies on smart TVs, PCs, Macs, mobiles, tablets, and
                 so on. 
-              ticker: NFLX
-              min: 1001
-              max: 5000
+              ticker_symbol: NFLX
+              num_employees_min: 1001
+              num_employees_max: 5000
               funding: 2803735952
               homepage: 'https://www.netflix.com'
               city: Los Gatos
@@ -5123,9 +5123,9 @@ landscape:
               description: >-
                 F5 Networks provides application delivery networking technology
                 that optimizes the delivery of network-based applications.
-              ticker: FFIV
-              min: 1001
-              max: 5000
+              ticker_symbol: FFIV
+              num_employees_min: 1001
+              num_employees_max: 5000
               funding: 0
               homepage: 'http://www.f5.com'
               city: Seattle
@@ -5162,9 +5162,9 @@ landscape:
               description: >-
                 PingCAP is the team behind TiDB, an open source distributed
                 Hybrid Transactional/Analytical Processing (HTAP) database.
-              ticker: null
-              min: 51
-              max: 100
+              ticker_symbol: null
+              num_employees_min: 51
+              num_employees_max: 100
               funding: 21600000
               homepage: 'https://pingcap.com'
               city: Beijing
@@ -5200,9 +5200,9 @@ landscape:
               description: >-
                 MySQL is an open-source database that supports scalable
                 web-based and embedded database applications.
-              ticker: null
-              min: 10001
-              max: 1000000
+              ticker_symbol: null
+              num_employees_min: 10001
+              num_employees_max: 1000000
               funding: 40800000
               homepage: 'http://www.mysql.com'
               city: Cupertino
@@ -5237,9 +5237,9 @@ landscape:
               description: >-
                 PostgreSQL is an object-relational database management system
                 with an emphasis on extensibility and standards-compliance.
-              ticker: null
-              min: 51
-              max: 100
+              ticker_symbol: null
+              num_employees_min: 51
+              num_employees_max: 100
               funding: 0
               homepage: 'http://www.postgresql.org/'
               city: null
@@ -5273,9 +5273,9 @@ landscape:
                 Oracle is a computer technology corporation developing and
                 marketing computer hardware systems and enterprise software
                 products.
-              ticker: ORCL
-              min: 10001
-              max: 1000000
+              ticker_symbol: ORCL
+              num_employees_min: 10001
+              num_employees_max: 1000000
               funding: 0
               homepage: 'http://oracle.com'
               city: Redwood Shores
@@ -5306,9 +5306,9 @@ landscape:
                 Microsoft is a software corporation that develops, manufactures,
                 licenses, supports, and sells a range of software products and
                 services.
-              ticker: MSFT
-              min: 10001
-              max: 1000000
+              ticker_symbol: MSFT
+              num_employees_min: 10001
+              num_employees_max: 1000000
               funding: 1000000
               homepage: 'http://www.microsoft.com'
               city: Redmond
@@ -5336,9 +5336,9 @@ landscape:
               description: >-
                 IBM is an IT technology and consulting firm providing computer
                 hardware, software, and infrastructure and hosting services.
-              ticker: IBM
-              min: 10001
-              max: 1000000
+              ticker_symbol: IBM
+              num_employees_min: 10001
+              num_employees_max: 1000000
               funding: 0
               homepage: 'http://www.ibm.com/'
               city: Armonk
@@ -5369,9 +5369,9 @@ landscape:
               description: >-
                 MongoDB is a next-generation database that helps businesses
                 transform their industries by harnessing the power of data.
-              ticker: MDB
-              min: 501
-              max: 1000
+              ticker_symbol: MDB
+              num_employees_min: 501
+              num_employees_max: 1000
               funding: 311000000
               homepage: 'http://www.mongodb.com'
               city: New York
@@ -5408,9 +5408,9 @@ landscape:
                 Apache Software Foundation (501C3) provides organizational,
                 legal and financial support for Apache open-source software
                 projects.
-              ticker: null
-              min: 1
-              max: 10
+              ticker_symbol: null
+              num_employees_min: 1
+              num_employees_max: 10
               funding: 0
               homepage: 'http://www.apache.org'
               city: Forest Hill
@@ -5445,9 +5445,9 @@ landscape:
               description: >-
                 Redis Labs is the open source home and commercial provider of
                 Redis, a database benchmarked as the world’s fastest.
-              ticker: null
-              min: 51
-              max: 100
+              ticker_symbol: null
+              num_employees_min: 51
+              num_employees_max: 100
               funding: 86000000
               homepage: 'http://redislabs.com'
               city: Mountain View
@@ -5482,9 +5482,9 @@ landscape:
               description: >-
                 MariaDB Corporation is the company behind MariaDB, the fastest
                 growing Open Source database.
-              ticker: null
-              min: 101
-              max: 250
+              ticker_symbol: null
+              num_employees_min: 101
+              num_employees_max: 250
               funding: 98175561
               homepage: 'https://mariadb.com/'
               city: Espoo
@@ -5521,9 +5521,9 @@ landscape:
                 Crate.io creates an open source SQL database with integrated
                 search for storing and analyzing IoT and machine data in real
                 time.
-              ticker: null
-              min: 11
-              max: 50
+              ticker_symbol: null
+              num_employees_min: 11
+              num_employees_max: 50
               funding: 6894791
               homepage: 'https://crate.io'
               city: San Francisco
@@ -5558,9 +5558,9 @@ landscape:
               description: >-
                 Attic Labs is working on a new approach to data storage,
                 synchronization, and collaboration.
-              ticker: null
-              min: 1
-              max: 10
+              ticker_symbol: null
+              num_employees_min: 1
+              num_employees_max: 10
               funding: 8100000
               homepage: 'http://attic.io'
               city: San Francisco
@@ -5591,9 +5591,9 @@ landscape:
             crunchbase_data:
               name: BigchainDB
               description: BigchainDB is a scalable blockchain database
-              ticker: null
-              min: 11
-              max: 50
+              ticker_symbol: null
+              num_employees_min: 11
+              num_employees_max: 50
               funding: 5370000
               homepage: 'https://www.bigchaindb.com'
               city: Berlin
@@ -5629,9 +5629,9 @@ landscape:
               description: >-
                 Couchbase is a NoSQL vendor that develops Couchbase Server, an
                 open-source, NoSQL, document-oriented database.
-              ticker: null
-              min: 251
-              max: 500
+              ticker_symbol: null
+              num_employees_min: 251
+              num_employees_max: 500
               funding: 146000000
               homepage: 'http://www.couchbase.com'
               city: Mountain View
@@ -5666,9 +5666,9 @@ landscape:
               description: >-
                 Cockroach Labs is the company behind CockroachDB, an open
                 source, distributed SQL database. 
-              ticker: null
-              min: 11
-              max: 50
+              ticker_symbol: null
+              num_employees_min: 11
+              num_employees_max: 50
               funding: 53500000
               homepage: 'http://www.cockroachlabs.com/'
               city: New York
@@ -5704,9 +5704,9 @@ landscape:
               description: >-
                 The Linux Foundation promotes, protects, and standardizes Linux
                 by hosting important workgroups, events, and online resources.
-              ticker: null
-              min: 11
-              max: 50
+              ticker_symbol: null
+              num_employees_min: 11
+              num_employees_max: 50
               funding: 0
               homepage: 'http://www.linuxfoundation.org'
               city: San Francisco
@@ -5744,9 +5744,9 @@ landscape:
               description: >-
                 CNCF is an open source software foundation that hosts and
                 nurtures projects like Kubernetes and Prometheus.
-              ticker: null
-              min: 11
-              max: 50
+              ticker_symbol: null
+              num_employees_min: 11
+              num_employees_max: 50
               funding: 0
               homepage: 'https://www.cncf.io/'
               city: San Francisco
@@ -5781,9 +5781,9 @@ landscape:
                 Microsoft is a software corporation that develops, manufactures,
                 licenses, supports, and sells a range of software products and
                 services.
-              ticker: MSFT
-              min: 10001
-              max: 1000000
+              ticker_symbol: MSFT
+              num_employees_min: 10001
+              num_employees_max: 1000000
               funding: 1000000
               homepage: 'http://www.microsoft.com'
               city: Redmond
@@ -5807,9 +5807,9 @@ landscape:
             crunchbase_data:
               name: Snowflake Computing
               description: Snowflake is the only data warehouse built for the cloud.
-              ticker: null
-              min: 101
-              max: 250
+              ticker_symbol: null
+              num_employees_min: 101
+              num_employees_max: 250
               funding: 472899110
               homepage: 'http://www.snowflake.net/'
               city: San Mateo
@@ -5840,9 +5840,9 @@ landscape:
               description: >-
                 Metamarkets offers an interactive analytics platform for buyers
                 and sellers of programmatic advertising.
-              ticker: null
-              min: 11
-              max: 50
+              ticker_symbol: null
+              num_employees_min: 11
+              num_employees_max: 50
               funding: 57750000
               homepage: 'http://www.metamarkets.com'
               city: San Francisco
@@ -5872,9 +5872,9 @@ landscape:
               description: >-
                 Qubole delivers a Self-Service Platform for Big Data Analytics
                 built on Amazon, Microsoft, Google and Oracle Clouds.
-              ticker: null
-              min: 101
-              max: 250
+              ticker_symbol: null
+              num_employees_min: 101
+              num_employees_max: 250
               funding: 75000000
               homepage: 'http://www.qubole.com'
               city: Santa Clara
@@ -5907,9 +5907,9 @@ landscape:
                 Apache Software Foundation (501C3) provides organizational,
                 legal and financial support for Apache open-source software
                 projects.
-              ticker: null
-              min: 1
-              max: 10
+              ticker_symbol: null
+              num_employees_min: 1
+              num_employees_max: 10
               funding: 0
               homepage: 'http://www.apache.org'
               city: Forest Hill
@@ -5937,9 +5937,9 @@ landscape:
             crunchbase_data:
               name: Vertica Systems
               description: "Vertica Systems develops data management solutions for storing databases\_and allowing clients to conduct real-time and ad hoc queries."
-              ticker: null
-              min: null
-              max: null
+              ticker_symbol: null
+              num_employees_min: null
+              num_employees_max: null
               funding: 30500000
               homepage: 'http://www.vertica.com'
               city: Billerica
@@ -5972,9 +5972,9 @@ landscape:
                 Apache Software Foundation (501C3) provides organizational,
                 legal and financial support for Apache open-source software
                 projects.
-              ticker: null
-              min: 1
-              max: 10
+              ticker_symbol: null
+              num_employees_min: 1
+              num_employees_max: 10
               funding: 0
               homepage: 'http://www.apache.org'
               city: Forest Hill
@@ -6007,9 +6007,9 @@ landscape:
                 iguazio's Continuous Analytics Data Platform has redesigned the
                 data stack to accelerate performance in big data, IoT and
                 cloud-native apps.
-              ticker: null
-              min: 51
-              max: 100
+              ticker_symbol: null
+              num_employees_min: 51
+              num_employees_max: 100
               funding: 48000000
               homepage: 'http://www.iguazio.com/'
               city: Herzliya
@@ -6032,9 +6032,9 @@ landscape:
             crunchbase_data:
               name: MemSQL
               description: A real-time data warehouse you can run everywhere
-              ticker: null
-              min: 101
-              max: 250
+              ticker_symbol: null
+              num_employees_min: 101
+              num_employees_max: 250
               funding: 78100000
               homepage: 'http://www.memsql.com'
               city: San Francisco
@@ -6066,9 +6066,9 @@ landscape:
               description: >-
                 Pachyderm is an open source analytics engine that uses Docker
                 containers for distributed computations.
-              ticker: null
-              min: 1
-              max: 10
+              ticker_symbol: null
+              num_employees_min: 1
+              num_employees_max: 10
               funding: 2120000
               homepage: 'https://www.pachyderm.io/'
               city: San Francisco
@@ -6103,9 +6103,9 @@ landscape:
               description: >-
                 ScyllaDB produces a NoSQL database compatible with Apache
                 Cassandra at 10x the throughput and jaw dropping low latency.
-              ticker: null
-              min: 11
-              max: 50
+              ticker_symbol: null
+              num_employees_min: 11
+              num_employees_max: 50
               funding: 23000000
               homepage: 'http://www.scylladb.com/'
               city: Herzliya
@@ -6145,9 +6145,9 @@ landscape:
                 Apache Software Foundation (501C3) provides organizational,
                 legal and financial support for Apache open-source software
                 projects.
-              ticker: null
-              min: 1
-              max: 10
+              ticker_symbol: null
+              num_employees_min: 1
+              num_employees_max: 10
               funding: 0
               homepage: 'http://www.apache.org'
               city: Forest Hill
@@ -6174,9 +6174,9 @@ landscape:
             crunchbase_data:
               name: Google Cloud Platform
               description: Google Cloud Platform is a tool suite for app developers.
-              ticker: null
-              min: null
-              max: null
+              ticker_symbol: null
+              num_employees_min: null
+              num_employees_max: null
               funding: 0
               homepage: 'http://cloud.google.com/'
               city: San Francisco
@@ -6208,9 +6208,9 @@ landscape:
                 Apache Software Foundation (501C3) provides organizational,
                 legal and financial support for Apache open-source software
                 projects.
-              ticker: null
-              min: 1
-              max: 10
+              ticker_symbol: null
+              num_employees_min: 1
+              num_employees_max: 10
               funding: 0
               homepage: 'http://www.apache.org'
               city: Forest Hill
@@ -6245,9 +6245,9 @@ landscape:
               description: >-
                 Twitter is a global social networking platform that allows its
                 users to send and read 140-character messages known as “tweets.”
-              ticker: TWTR
-              min: 1001
-              max: 5000
+              ticker_symbol: TWTR
+              num_employees_min: 1001
+              num_employees_max: 5000
               funding: 1460166511
               homepage: 'http://www.twitter.com/'
               city: San Francisco
@@ -6283,9 +6283,9 @@ landscape:
                 Apache Software Foundation (501C3) provides organizational,
                 legal and financial support for Apache open-source software
                 projects.
-              ticker: null
-              min: 1
-              max: 10
+              ticker_symbol: null
+              num_employees_min: 1
+              num_employees_max: 10
               funding: 0
               homepage: 'http://www.apache.org'
               city: Forest Hill
@@ -6321,9 +6321,9 @@ landscape:
                 Apache Software Foundation (501C3) provides organizational,
                 legal and financial support for Apache open-source software
                 projects.
-              ticker: null
-              min: 1
-              max: 10
+              ticker_symbol: null
+              num_employees_min: 1
+              num_employees_max: 10
               funding: 0
               homepage: 'http://www.apache.org'
               city: Forest Hill
@@ -6358,9 +6358,9 @@ landscape:
                 Apache Software Foundation (501C3) provides organizational,
                 legal and financial support for Apache open-source software
                 projects.
-              ticker: null
-              min: 1
-              max: 10
+              ticker_symbol: null
+              num_employees_min: 1
+              num_employees_max: 10
               funding: 0
               homepage: 'http://www.apache.org'
               city: Forest Hill
@@ -6396,9 +6396,9 @@ landscape:
                 Rabbit Technologies offers RabbitMQ which is open source message
                 broker software implementing the advanced message queuing
                 protocol (AMQP).
-              ticker: null
-              min: 1
-              max: 10
+              ticker_symbol: null
+              num_employees_min: 1
+              num_employees_max: 10
               funding: 0
               homepage: 'http://www.rabbitmq.com'
               city: London
@@ -6429,9 +6429,9 @@ landscape:
             crunchbase_data:
               name: 'NATS '
               description: 'NATS is a simple, flexible, high performance messaging solution.'
-              ticker: null
-              min: null
-              max: null
+              ticker_symbol: null
+              num_employees_min: null
+              num_employees_max: null
               funding: 0
               homepage: 'http://www.nats.io'
               city: San Francisco
@@ -6466,9 +6466,9 @@ landscape:
                 Apache Software Foundation (501C3) provides organizational,
                 legal and financial support for Apache open-source software
                 projects.
-              ticker: null
-              min: 1
-              max: 10
+              ticker_symbol: null
+              num_employees_min: 1
+              num_employees_max: 10
               funding: 0
               homepage: 'http://www.apache.org'
               city: Forest Hill
@@ -6503,9 +6503,9 @@ landscape:
                 Apache Software Foundation (501C3) provides organizational,
                 legal and financial support for Apache open-source software
                 projects.
-              ticker: null
-              min: 1
-              max: 10
+              ticker_symbol: null
+              num_employees_min: 1
+              num_employees_max: 10
               funding: 0
               homepage: 'http://www.apache.org'
               city: Forest Hill
@@ -6540,9 +6540,9 @@ landscape:
               description: >-
                 Streamsets delivers performance management software for data
                 flows.
-              ticker: null
-              min: 51
-              max: 100
+              ticker_symbol: null
+              num_employees_min: 51
+              num_employees_max: 100
               funding: 32500000
               homepage: 'https://streamsets.com/'
               city: San Francisco
@@ -6574,9 +6574,9 @@ landscape:
                 Amazon Web Services provides information technology
                 infrastructure services to businesses in the form of web
                 services.
-              ticker: null
-              min: 10001
-              max: 1000000
+              ticker_symbol: null
+              num_employees_min: 10001
+              num_employees_max: 1000000
               funding: 0
               homepage: 'http://aws.amazon.com'
               city: Seattle
@@ -6609,9 +6609,9 @@ landscape:
                 Bitbucket is a Git and Mercurial code management and
                 collaboration platform used by professional teams to build, test
                 and deploy software.
-              ticker: null
-              min: 1
-              max: 10
+              ticker_symbol: null
+              num_employees_min: 1
+              num_employees_max: 10
               funding: 0
               homepage: 'http://bitbucket.org'
               city: San Francisco
@@ -6643,9 +6643,9 @@ landscape:
               description: >-
                 GitLab is a web-based open source Git repository manager with
                 wiki and issue tracking features.
-              ticker: null
-              min: 11
-              max: 50
+              ticker_symbol: null
+              num_employees_min: 11
+              num_employees_max: 50
               funding: 45620000
               homepage: 'http://about.gitlab.com'
               city: San Francisco
@@ -6677,9 +6677,9 @@ landscape:
                 GitHub is a web-based Git repository hosting service offering
                 distributed revision control and source code management
                 functionality of Git.
-              ticker: null
-              min: 501
-              max: 1000
+              ticker_symbol: null
+              num_employees_min: 501
+              num_employees_max: 1000
               funding: 350000000
               homepage: 'https://github.com'
               city: San Francisco
@@ -6711,9 +6711,9 @@ landscape:
                 Microsoft is a software corporation that develops, manufactures,
                 licenses, supports, and sells a range of software products and
                 services.
-              ticker: MSFT
-              min: 10001
-              max: 1000000
+              ticker_symbol: MSFT
+              num_employees_min: 10001
+              num_employees_max: 1000000
               funding: 1000000
               homepage: 'http://www.microsoft.com'
               city: Redmond
@@ -6771,9 +6771,9 @@ landscape:
               description: >-
                 HashiCorp enables organizations to provision, secure, and run
                 any infrastructure for any application.
-              ticker: null
-              min: 101
-              max: 250
+              ticker_symbol: null
+              num_employees_min: 101
+              num_employees_max: 250
               funding: 74175000
               homepage: 'https://www.hashicorp.com'
               city: San Francisco
@@ -6810,9 +6810,9 @@ landscape:
                 Docker is a platform for distributed applications that allows
                 developers and sysadmins to build, ship, and run distributed
                 applications.
-              ticker: null
-              min: 101
-              max: 250
+              ticker_symbol: null
+              num_employees_min: 101
+              num_employees_max: 250
               funding: 242766694
               homepage: 'https://www.docker.com'
               city: San Francisco
@@ -6846,9 +6846,9 @@ landscape:
               description: >-
                 Chef is an automation platform that transforms infrastructure
                 into code.
-              ticker: null
-              min: 101
-              max: 250
+              ticker_symbol: null
+              num_employees_min: 101
+              num_employees_max: 250
               funding: 105000000
               homepage: 'https://www.chef.io/'
               city: Seattle
@@ -6884,9 +6884,9 @@ landscape:
                 Apache Software Foundation (501C3) provides organizational,
                 legal and financial support for Apache open-source software
                 projects.
-              ticker: null
-              min: 1
-              max: 10
+              ticker_symbol: null
+              num_employees_min: 1
+              num_employees_max: 10
               funding: 0
               homepage: 'http://www.apache.org'
               city: Forest Hill
@@ -6916,9 +6916,9 @@ landscape:
               description: >-
                 Loved by Devs, Trusted by Ops. Easy to use cloud images,
                 containers, and VMs that work on any platform
-              ticker: null
-              min: 51
-              max: 100
+              ticker_symbol: null
+              num_employees_min: 51
+              num_employees_max: 100
               funding: 0
               homepage: 'https://bitnami.com'
               city: San Francisco
@@ -6952,9 +6952,9 @@ landscape:
                 Created by a consortium of forward-looking industry experts who
                 recognize the immense value of standardizing on how REST APIs
                 are described.
-              ticker: null
-              min: null
-              max: null
+              ticker_symbol: null
+              num_employees_min: null
+              num_employees_max: null
               funding: 0
               homepage: 'https://openapis.org/'
               city: San Francisco
@@ -6992,9 +6992,9 @@ landscape:
               description: >-
                 Jenkins CI is an open-source continuous integration server that
                 supports various configurations.
-              ticker: null
-              min: 11
-              max: 50
+              ticker_symbol: null
+              num_employees_min: 11
+              num_employees_max: 50
               funding: 0
               homepage: 'https://jenkins.io'
               city: San Francisco
@@ -7024,9 +7024,9 @@ landscape:
             crunchbase_data:
               name: Travis CI
               description: Hosted Continuous Integration Platform
-              ticker: null
-              min: 51
-              max: 100
+              ticker_symbol: null
+              num_employees_min: 51
+              num_employees_max: 100
               funding: 0
               homepage: 'http://travis-ci.com'
               city: Berlin
@@ -7053,9 +7053,9 @@ landscape:
             crunchbase_data:
               name: Octopus Deploy
               description: Octopus Deploy is a user-friendly release management
-              ticker: null
-              min: 1
-              max: 10
+              ticker_symbol: null
+              num_employees_min: 1
+              num_employees_max: 10
               funding: 2000000
               homepage: 'https://octopusdeploy.com/'
               city: Brisbane
@@ -7082,9 +7082,9 @@ landscape:
               description: >-
                 CircleCI provides software teams the confidence to build, test,
                 and deploy across numerous platforms.
-              ticker: null
-              min: 101
-              max: 250
+              ticker_symbol: null
+              num_employees_min: 101
+              num_employees_max: 250
               funding: 59000000
               homepage: 'https://circleci.com/'
               city: San Francisco
@@ -7115,9 +7115,9 @@ landscape:
               description: >-
                 Drone.io is a hosted Continuous Integration and Deployment
                 service.
-              ticker: null
-              min: 1
-              max: 10
+              ticker_symbol: null
+              num_employees_min: 1
+              num_employees_max: 10
               funding: 28000
               homepage: 'http://drone.io'
               city: San Francisco
@@ -7148,9 +7148,9 @@ landscape:
               description: >-
                 Bringing Continuous Deployment to everyone The - Codeship runs
                 your hosted tests and automated deployments.
-              ticker: null
-              min: 11
-              max: 50
+              ticker_symbol: null
+              num_employees_min: 11
+              num_employees_max: 50
               funding: 11400000
               homepage: 'https://codeship.com'
               city: Boston
@@ -7179,9 +7179,9 @@ landscape:
                 Atlassian provides collaboration software for teams with
                 products including JIRA, Confluence, HipChat, Bitbucket, and
                 Stash.
-              ticker: TEAM
-              min: 1001
-              max: 5000
+              ticker_symbol: TEAM
+              num_employees_min: 1001
+              num_employees_max: 5000
               funding: 210000000
               homepage: 'http://www.atlassian.com'
               city: Sydney
@@ -7210,9 +7210,9 @@ landscape:
                 CloudBees offers the CloudBees Jenkins Platform, an
                 enterprise-grade continuous delivery platform powered by
                 Jenkins.
-              ticker: null
-              min: 251
-              max: 500
+              ticker_symbol: null
+              num_employees_min: 251
+              num_employees_max: 500
               funding: 51200000
               homepage: 'http://www.cloudbees.com'
               city: San Jose
@@ -7244,9 +7244,9 @@ landscape:
                 Netflix is an online platform that enables users to watch TV
                 shows and movies on smart TVs, PCs, Macs, mobiles, tablets, and
                 so on. 
-              ticker: NFLX
-              min: 1001
-              max: 5000
+              ticker_symbol: NFLX
+              num_employees_min: 1001
+              num_employees_max: 5000
               funding: 2803735952
               homepage: 'https://www.netflix.com'
               city: Los Gatos
@@ -7278,9 +7278,9 @@ landscape:
                 Shippable helps companies ship code faster by giving them a
                 powerful continuous integration platform built natively on
                 Docker.
-              ticker: null
-              min: 11
-              max: 50
+              ticker_symbol: null
+              num_employees_min: 11
+              num_employees_max: 50
               funding: 10050000
               homepage: 'https://www.shippable.com/'
               city: Seattle
@@ -7315,9 +7315,9 @@ landscape:
                 Wercker is a platform and tool to rapidly develop, build, and
                 deploy containerized applications and microservices for the
                 modern cloud.
-              ticker: null
-              min: 11
-              max: 50
+              ticker_symbol: null
+              num_employees_min: 11
+              num_employees_max: 50
               funding: 7900000
               homepage: 'http://wercker.com'
               city: Amsterdam
@@ -7348,9 +7348,9 @@ landscape:
               description: >-
                 Codefresh is a continuous delivery and collaboration platform
                 for containers and microservices.
-              ticker: null
-              min: 11
-              max: 50
+              ticker_symbol: null
+              num_employees_min: 11
+              num_employees_max: 50
               funding: 7000000
               homepage: 'https://www.codefresh.io/'
               city: Mountain View
@@ -7377,9 +7377,9 @@ landscape:
               description: >-
                 Buddybuild is a Vancouver-based app tools company focused on
                 continuous integration and debugging tools.
-              ticker: null
-              min: 11
-              max: 50
+              ticker_symbol: null
+              num_employees_min: 11
+              num_employees_max: 50
               funding: 8800000
               homepage: 'https://www.buddybuild.com/'
               city: Vancouver
@@ -7403,9 +7403,9 @@ landscape:
             crunchbase_data:
               name: Distelli
               description: True Continuous Delivery from Source Control to Servers.
-              ticker: null
-              min: 1
-              max: 10
+              ticker_symbol: null
+              num_employees_min: 1
+              num_employees_max: 10
               funding: 2875000
               homepage: 'https://www.distelli.com'
               city: Seattle
@@ -7429,9 +7429,9 @@ landscape:
             crunchbase_data:
               name: Solano Labs
               description: Continuous Integration & Deployment
-              ticker: null
-              min: 11
-              max: 50
+              ticker_symbol: null
+              num_employees_min: 11
+              num_employees_max: 50
               funding: 0
               homepage: 'http://solanolabs.com'
               city: San Francisco
@@ -7454,9 +7454,9 @@ landscape:
             crunchbase_data:
               name: SemaphoreCI
               description: Hosted continuous integration and deployment service
-              ticker: null
-              min: 11
-              max: 50
+              ticker_symbol: null
+              num_employees_min: 11
+              num_employees_max: 50
               funding: 0
               homepage: 'http://semaphoreci.com'
               city: Novi Sad
@@ -7487,9 +7487,9 @@ landscape:
               description: >-
                 Huawei Technologies provides infrastructure application software
                 and devices with wireline, wireless, and IP technologies.
-              ticker: null
-              min: 5001
-              max: 10000
+              ticker_symbol: null
+              num_employees_min: 5001
+              num_employees_max: 10000
               funding: 0
               homepage: 'http://huawei.com'
               city: Plano
@@ -7520,9 +7520,9 @@ landscape:
               description: >-
                 Appveyor Systems Inc. aim is to give powerful continuous
                 integration and deployment tools to every .NET developer.
-              ticker: null
-              min: null
-              max: null
+              ticker_symbol: null
+              num_employees_min: null
+              num_employees_max: null
               funding: 0
               homepage: 'https://www.appveyor.com'
               city: Vancouver
@@ -7551,9 +7551,9 @@ landscape:
               description: >-
                 GitLab is a web-based open source Git repository manager with
                 wiki and issue tracking features.
-              ticker: null
-              min: 11
-              max: 50
+              ticker_symbol: null
+              num_employees_min: 11
+              num_employees_max: 50
               funding: 45620000
               homepage: 'http://about.gitlab.com'
               city: San Francisco
@@ -7585,9 +7585,9 @@ landscape:
               description: >-
                 Buildkite creates the best automation and collaboration tools
                 for building and shipping software.
-              ticker: null
-              min: 1
-              max: 10
+              ticker_symbol: null
+              num_employees_min: 1
+              num_employees_max: 10
               funding: 0
               homepage: 'https://buildkite.com/'
               city: null
@@ -7621,9 +7621,9 @@ landscape:
               description: >-
                 Pivotal is a software company that provides digital
                 transformation technology and services.
-              ticker: null
-              min: 1001
-              max: 5000
+              ticker_symbol: null
+              num_employees_min: 1001
+              num_employees_max: 5000
               funding: 1704000000
               homepage: 'http://www.pivotal.io'
               city: San Francisco
@@ -7652,9 +7652,9 @@ landscape:
               description: >-
                 Leading provider of automation for DevOps and Continuous
                 Delivery
-              ticker: null
-              min: 101
-              max: 250
+              ticker_symbol: null
+              num_employees_min: 101
+              num_employees_max: 250
               funding: 21500000
               homepage: 'http://www.xebialabs.com'
               city: Boston
@@ -7684,9 +7684,9 @@ landscape:
             crunchbase_data:
               name: Red Hat
               description: "Red Hat is\_a multinational software company engaged in providing open-source software products to the enterprise community."
-              ticker: RHT
-              min: 5001
-              max: 10000
+              ticker_symbol: RHT
+              num_employees_min: 5001
+              num_employees_max: 10000
               funding: 0
               homepage: 'http://www.redhat.com'
               city: Raleigh
@@ -7720,9 +7720,9 @@ landscape:
                 Cloud Foundry is a self-service, public cloud deployment
                 platform enabling developers to build, test, deploy, and scale
                 applications.
-              ticker: null
-              min: 1001
-              max: 5000
+              ticker_symbol: null
+              num_employees_min: 1001
+              num_employees_max: 5000
               funding: 0
               homepage: 'https://www.cloudfoundry.org/'
               city: San Mateo
@@ -7753,9 +7753,9 @@ landscape:
             crunchbase_data:
               name: Red Hat
               description: "Red Hat is\_a multinational software company engaged in providing open-source software products to the enterprise community."
-              ticker: RHT
-              min: 5001
-              max: 10000
+              ticker_symbol: RHT
+              num_employees_min: 5001
+              num_employees_max: 10000
               funding: 0
               homepage: 'http://www.redhat.com'
               city: Raleigh
@@ -7790,9 +7790,9 @@ landscape:
               description: >-
                 Mesosphere is a novel cloud operating system that treats your
                 datacenter like one big computer.
-              ticker: null
-              min: 101
-              max: 250
+              ticker_symbol: null
+              num_employees_min: 101
+              num_employees_max: 250
               funding: 122250000
               homepage: 'http://mesosphere.com'
               city: San Francisco
@@ -7825,9 +7825,9 @@ landscape:
                 Ericsson is a technology company that provides and operates
                 telecommunications networks, television and video systems, and
                 related services.
-              ticker: ERIC
-              min: 10001
-              max: 1000000
+              ticker_symbol: ERIC
+              num_employees_min: 10001
+              num_employees_max: 1000000
               funding: 370000000
               homepage: 'http://www.ericsson.com'
               city: Stockholm
@@ -7851,9 +7851,9 @@ landscape:
             crunchbase_data:
               name: Apprenda
               description: Apprenda is the leading enterprise Platform as a Service.
-              ticker: null
-              min: 101
-              max: 250
+              ticker_symbol: null
+              num_employees_min: 101
+              num_employees_max: 250
               funding: 56000000
               homepage: 'http://www.apprenda.com'
               city: Troy
@@ -7885,9 +7885,9 @@ landscape:
               description: >-
                 Rancher Labs is a newly-formed startup developing the next
                 generation of cloud software.
-              ticker: null
-              min: 11
-              max: 50
+              ticker_symbol: null
+              num_employees_min: 11
+              num_employees_max: 50
               funding: 30000000
               homepage: 'http://rancher.com/'
               city: Cupertino
@@ -7917,9 +7917,9 @@ landscape:
               description: >-
                 Production-ready cluster and application platform that speeds
                 and simplifies the set-up and management of your K8S cluster.
-              ticker: null
-              min: null
-              max: null
+              ticker_symbol: null
+              num_employees_min: null
+              num_employees_max: null
               funding: 0
               homepage: 'http://kublr.com/'
               city: Washington
@@ -7947,9 +7947,9 @@ landscape:
               description: >-
                 VMware is a software company providing cloud and virtualization
                 services.
-              ticker: null
-              min: 10001
-              max: 1000000
+              ticker_symbol: null
+              num_employees_min: 10001
+              num_employees_max: 1000000
               funding: 393500000
               homepage: 'http://www.vmware.com'
               city: Palo Alto
@@ -7977,9 +7977,9 @@ landscape:
               description: >-
                 Platform.sh is an automated, continuous-deployment
                 high-availability cloud hosting solution
-              ticker: null
-              min: 51
-              max: 100
+              ticker_symbol: null
+              num_employees_min: 51
+              num_employees_max: 100
               funding: 13300000
               homepage: 'https://platform.sh'
               city: Paris
@@ -8007,9 +8007,9 @@ landscape:
               description: >-
                 Platform9 is the open source-as-a-service company making cloud
                 infrastructure easy.
-              ticker: null
-              min: 51
-              max: 100
+              ticker_symbol: null
+              num_employees_min: 51
+              num_employees_max: 100
               funding: 36500000
               homepage: 'https://platform9.com'
               city: Sunnyvale
@@ -8036,9 +8036,9 @@ landscape:
             crunchbase_data:
               name: Flynn
               description: The product that ops provides to developers.
-              ticker: null
-              min: null
-              max: null
+              ticker_symbol: null
+              num_employees_min: null
+              num_employees_max: null
               funding: 1405000
               homepage: 'https://flynn.io/'
               city: Newark
@@ -8069,9 +8069,9 @@ landscape:
               description: >-
                 An early stage startup that's focused on making it easy for
                 developers to build resilient microservices.
-              ticker: null
-              min: 11
-              max: 50
+              ticker_symbol: null
+              num_employees_min: 11
+              num_employees_max: 50
               funding: 250000
               homepage: 'https://www.datawire.io/'
               city: Cambridge
@@ -8099,9 +8099,9 @@ landscape:
               description: >-
                 Atomist make microservice applications Easy and fun to build,
                 through a cloud-based service.
-              ticker: null
-              min: 11
-              max: 50
+              ticker_symbol: null
+              num_employees_min: 11
+              num_employees_max: 50
               funding: 22000000
               homepage: 'http://www.atomist.com/'
               city: San Francisco
@@ -8133,9 +8133,9 @@ landscape:
               description: >-
                 Iron.io is a scalable cloud-based message queue and processing
                 platform for building distributed cloud applications.
-              ticker: null
-              min: 11
-              max: 50
+              ticker_symbol: null
+              num_employees_min: 11
+              num_employees_max: 50
               funding: 17000000
               homepage: 'https://www.iron.io'
               city: San Francisco
@@ -8172,9 +8172,9 @@ landscape:
               description: >-
                 Yelp operates an online platform that connects people with local
                 businesses.
-              ticker: YELP
-              min: 501
-              max: 1000
+              ticker_symbol: YELP
+              num_employees_min: 501
+              num_employees_max: 1000
               funding: 56000000
               homepage: 'http://yelp.com'
               city: San Francisco
@@ -8208,9 +8208,9 @@ landscape:
               description: >-
                 Remind is a communication platform that helps every student
                 succeed.
-              ticker: null
-              min: 51
-              max: 100
+              ticker_symbol: null
+              num_employees_min: 51
+              num_employees_max: 100
               funding: 59500000
               homepage: 'http://office.com-setup-install.com'
               city: San Francisco
@@ -8241,9 +8241,9 @@ landscape:
               description: >-
                 Nirmata is a cloud based, Microservices operations and
                 management platform.
-              ticker: null
-              min: 1
-              max: 10
+              ticker_symbol: null
+              num_employees_min: 1
+              num_employees_max: 10
               funding: 0
               homepage: 'http://nirmata.com'
               city: San Jose
@@ -8267,9 +8267,9 @@ landscape:
             crunchbase_data:
               name: Giant Swarm
               description: Managed Kubernetes Anywhere
-              ticker: null
-              min: 11
-              max: 50
+              ticker_symbol: null
+              num_employees_min: 11
+              num_employees_max: 50
               funding: 3325000
               homepage: 'http://giantswarm.io'
               city: Cologne
@@ -8297,9 +8297,9 @@ landscape:
               description: >-
                 Ops tools for Devs. Build, deliver, deploy and manage any
                 applications on any cloud or server.
-              ticker: null
-              min: 11
-              max: 50
+              ticker_symbol: null
+              num_employees_min: 11
+              num_employees_max: 50
               funding: 2240385
               homepage: 'http://www.cloud66.com'
               city: San Francisco
@@ -8333,9 +8333,9 @@ landscape:
                 Kontena provides the most easy-to-use, fully integrated solution
                 for DevOps to deploy, run, monitor & operate containers on the
                 cloud.
-              ticker: null
-              min: 11
-              max: 50
+              ticker_symbol: null
+              num_employees_min: 11
+              num_employees_max: 50
               funding: 0
               homepage: 'http://www.kontena.io'
               city: New York
@@ -8375,9 +8375,9 @@ landscape:
             crunchbase_data:
               name: Gravitational
               description: Gravitational deploys and runs your SaaS on private clouds.
-              ticker: null
-              min: 1
-              max: 10
+              ticker_symbol: null
+              num_employees_min: 1
+              num_employees_max: 10
               funding: 120000
               homepage: 'http://gravitational.com/'
               city: San Francisco
@@ -8405,9 +8405,9 @@ landscape:
               description: >-
                 Navops Launch, Command, and Control your container-ready
                 enterprise within minutes.
-              ticker: null
-              min: null
-              max: null
+              ticker_symbol: null
+              num_employees_min: null
+              num_employees_max: null
               funding: 0
               homepage: 'http://navops.io/'
               city: Hoffman Estates
@@ -8437,9 +8437,9 @@ landscape:
                 Salesforce is a global cloud computing company that develops CRM
                 solutions and provides business software on a subscription
                 basis.
-              ticker: CRM
-              min: 10001
-              max: 1000000
+              ticker_symbol: CRM
+              num_employees_min: 10001
+              num_employees_max: 1000000
               funding: 64375124
               homepage: 'https://www.salesforce.com'
               city: San Francisco
@@ -8485,9 +8485,9 @@ landscape:
             crunchbase_data:
               name: Mirantis
               description: Mirantis is the pure-play OpenStack company.
-              ticker: null
-              min: 501
-              max: 1000
+              ticker_symbol: null
+              num_employees_min: 501
+              num_employees_max: 1000
               funding: 220000000
               homepage: 'http://www.mirantis.com'
               city: Mountain View
@@ -8514,9 +8514,9 @@ landscape:
               description: >-
                 Bluemeric Inc offers microservices PaaS platform and offers
                 DevOps consulting & services to automate cloud deployments.
-              ticker: null
-              min: 11
-              max: 50
+              ticker_symbol: null
+              num_employees_min: 11
+              num_employees_max: 50
               funding: 0
               homepage: 'http://bluemeric.com'
               city: Seattle
@@ -8540,9 +8540,9 @@ landscape:
             crunchbase_data:
               name: Hyper_
               description: Hyper_ is a secure container cloud service.
-              ticker: null
-              min: 1
-              max: 10
+              ticker_symbol: null
+              num_employees_min: 1
+              num_employees_max: 10
               funding: 0
               homepage: 'https://hyper.sh/'
               city: New York
@@ -8569,9 +8569,9 @@ landscape:
               description: >-
                 Exoscale is the cloud hosting platform for SaaS companies,
                 developers and systems administrators.
-              ticker: null
-              min: 11
-              max: 50
+              ticker_symbol: null
+              num_employees_min: 11
+              num_employees_max: 50
               funding: 0
               homepage: 'https://www.exoscale.ch'
               city: Crissier
@@ -8599,9 +8599,9 @@ landscape:
             crunchbase_data:
               name: JHipster
               description: PaaS/Container Service
-              ticker: null
-              min: null
-              max: null
+              ticker_symbol: null
+              num_employees_min: null
+              num_employees_max: null
               funding: 0
               homepage: 'http://www.jhipster.tech/'
               city: null
@@ -8638,9 +8638,9 @@ landscape:
                 Docker is a platform for distributed applications that allows
                 developers and sysadmins to build, ship, and run distributed
                 applications.
-              ticker: null
-              min: 101
-              max: 250
+              ticker_symbol: null
+              num_employees_min: 101
+              num_employees_max: 250
               funding: 242766694
               homepage: 'https://www.docker.com'
               city: San Francisco
@@ -8671,9 +8671,9 @@ landscape:
               description: >-
                 Build Future-Proof Applications. Simplify integration. Run
                 applications anywhere. Adapt to changes instantly.
-              ticker: null
-              min: 1
-              max: 10
+              ticker_symbol: null
+              num_employees_min: 1
+              num_employees_max: 10
               funding: 0
               homepage: 'http://www.galacticfog.com/'
               city: South Orange
@@ -8701,9 +8701,9 @@ landscape:
               description: >-
                 Canonical is a computer software company that markets commercial
                 support and related services for Ubuntu and related projects.
-              ticker: null
-              min: 11
-              max: 50
+              ticker_symbol: null
+              num_employees_min: 11
+              num_employees_max: 50
               funding: 0
               homepage: 'http://www.canonical.com'
               city: London
@@ -8731,9 +8731,9 @@ landscape:
               description: >-
                 Lightbend (formerly Typesafe) is dedicated to helping developers
                 build Reactive applications on the JVM.
-              ticker: null
-              min: 51
-              max: 100
+              ticker_symbol: null
+              num_employees_min: 51
+              num_employees_max: 100
               funding: 52000000
               homepage: 'http://www.lightbend.com'
               city: San Francisco
@@ -8762,9 +8762,9 @@ landscape:
                 Docker is a platform for distributed applications that allows
                 developers and sysadmins to build, ship, and run distributed
                 applications.
-              ticker: null
-              min: 101
-              max: 250
+              ticker_symbol: null
+              num_employees_min: 101
+              num_employees_max: 250
               funding: 242766694
               homepage: 'https://www.docker.com'
               city: San Francisco
@@ -8817,9 +8817,9 @@ landscape:
                 Containership is a Kubernetes based enterprise
                 Containers-as-a-Service platform with support for 12 cloud
                 providers
-              ticker: null
-              min: 11
-              max: 50
+              ticker_symbol: null
+              num_employees_min: 11
+              num_employees_max: 50
               funding: 2606729
               homepage: 'https://containership.io'
               city: Pittsburgh
@@ -8843,9 +8843,9 @@ landscape:
             crunchbase_data:
               name: Convox
               description: Launch a Private Cloud in Minutes.
-              ticker: null
-              min: 1
-              max: 10
+              ticker_symbol: null
+              num_employees_min: 1
+              num_employees_max: 10
               funding: 120000
               homepage: 'http://convox.com/'
               city: San Francisco
@@ -8869,9 +8869,9 @@ landscape:
             crunchbase_data:
               name: Google Cloud Platform
               description: Google Cloud Platform is a tool suite for app developers.
-              ticker: null
-              min: null
-              max: null
+              ticker_symbol: null
+              num_employees_min: null
+              num_employees_max: null
               funding: 0
               homepage: 'http://cloud.google.com/'
               city: San Francisco
@@ -8925,9 +8925,9 @@ landscape:
                 Pusher is a cloud-based tech platform enabling developers to
                 create collaborative tools, multiplayer games, chat and
                 real-time dashboards.
-              ticker: null
-              min: 51
-              max: 100
+              ticker_symbol: null
+              num_employees_min: 51
+              num_employees_max: 100
               funding: 3500000
               homepage: 'http://pusher.com'
               city: London
@@ -8959,9 +8959,9 @@ landscape:
                 Scalingo a Docker Platform Service Transform your code as Docker
                 container & run it on our cloud, making it instantly available &
                 scalable. 
-              ticker: null
-              min: null
-              max: null
+              ticker_symbol: null
+              num_employees_min: null
+              num_employees_max: null
               funding: 0
               homepage: 'https://scalingo.com/'
               city: Strasbourg
@@ -9006,9 +9006,9 @@ landscape:
               description: >-
                 Supergiant is the first datacenter total control system that
                 makes it easy to manage stateful, distributed app containers.
-              ticker: null
-              min: 11
-              max: 50
+              ticker_symbol: null
+              num_employees_min: 11
+              num_employees_max: 50
               funding: 0
               homepage: 'http://supergiant.io/'
               city: null
@@ -9041,9 +9041,9 @@ landscape:
                 SUSE is an open-source software provider that delivers Linux and
                 cloud products, which gives enterprises the control and
                 flexibility.
-              ticker: null
-              min: 501
-              max: 1000
+              ticker_symbol: null
+              num_employees_min: 501
+              num_employees_max: 1000
               funding: 0
               homepage: 'http://www.suse.com'
               city: Nürnberg
@@ -9075,9 +9075,9 @@ landscape:
                 Amazon Web Services provides information technology
                 infrastructure services to businesses in the form of web
                 services.
-              ticker: null
-              min: 10001
-              max: 1000000
+              ticker_symbol: null
+              num_employees_min: 10001
+              num_employees_max: 1000000
               funding: 0
               homepage: 'http://aws.amazon.com'
               city: Seattle
@@ -9111,9 +9111,9 @@ landscape:
                 OpenFaaS provides a platform for building serverless functions
                 with containers, anywhere (in cloud, on Edge or IoT devices,
                 on-prem DCs)
-              ticker: null
-              min: 1
-              max: 10
+              ticker_symbol: null
+              num_employees_min: 1
+              num_employees_max: 10
               funding: 0
               homepage: 'https://www.openfaas.com'
               city: Peterborough
@@ -9140,9 +9140,9 @@ landscape:
             crunchbase_data:
               name: Google Cloud Platform
               description: Google Cloud Platform is a tool suite for app developers.
-              ticker: null
-              min: null
-              max: null
+              ticker_symbol: null
+              num_employees_min: null
+              num_employees_max: null
               funding: 0
               homepage: 'http://cloud.google.com/'
               city: San Francisco
@@ -9175,9 +9175,9 @@ landscape:
                 Apache Software Foundation (501C3) provides organizational,
                 legal and financial support for Apache open-source software
                 projects.
-              ticker: null
-              min: 1
-              max: 10
+              ticker_symbol: null
+              num_employees_min: 1
+              num_employees_max: 10
               funding: 0
               homepage: 'http://www.apache.org'
               city: Forest Hill
@@ -9210,9 +9210,9 @@ landscape:
                 Oracle is a computer technology corporation developing and
                 marketing computer hardware systems and enterprise software
                 products.
-              ticker: ORCL
-              min: 10001
-              max: 1000000
+              ticker_symbol: ORCL
+              num_employees_min: 10001
+              num_employees_max: 1000000
               funding: 0
               homepage: 'http://oracle.com'
               city: Redwood Shores
@@ -9237,9 +9237,9 @@ landscape:
             crunchbase_data:
               name: Google Cloud Platform
               description: Google Cloud Platform is a tool suite for app developers.
-              ticker: null
-              min: null
-              max: null
+              ticker_symbol: null
+              num_employees_min: null
+              num_employees_max: null
               funding: 0
               homepage: 'http://cloud.google.com/'
               city: San Francisco
@@ -9269,9 +9269,9 @@ landscape:
                 Webtasks is a simple, lightweight, and secure way of running
                 isolated backend code that removed or reduces the need for a
                 backend.
-              ticker: null
-              min: null
-              max: null
+              ticker_symbol: null
+              num_employees_min: null
+              num_employees_max: null
               funding: 0
               homepage: 'https://webtask.io'
               city: null
@@ -9302,9 +9302,9 @@ landscape:
               description: >-
                 Platform9 is the open source-as-a-service company making cloud
                 infrastructure easy.
-              ticker: null
-              min: 51
-              max: 100
+              ticker_symbol: null
+              num_employees_min: 51
+              num_employees_max: 100
               funding: 36500000
               homepage: 'https://platform9.com'
               city: Sunnyvale
@@ -9334,9 +9334,9 @@ landscape:
               description: >-
                 The PubNub Data Stream Network enables mobile and web developers
                 to build and scale realtime apps.
-              ticker: null
-              min: 51
-              max: 100
+              ticker_symbol: null
+              num_employees_min: 51
+              num_employees_max: 100
               funding: 46100000
               homepage: 'https://www.pubnub.com'
               city: San Francisco
@@ -9390,9 +9390,9 @@ landscape:
               description: >-
                 Serverless offers developers an open source framework powered by
                 AWS Lambda and AWS API Gateway.
-              ticker: null
-              min: 1
-              max: 10
+              ticker_symbol: null
+              num_employees_min: 1
+              num_employees_max: 10
               funding: 3000000
               homepage: 'https://serverless.com/'
               city: San Francisco
@@ -9471,9 +9471,9 @@ landscape:
                 iguazio's Continuous Analytics Data Platform has redesigned the
                 data stack to accelerate performance in big data, IoT and
                 cloud-native apps.
-              ticker: null
-              min: 51
-              max: 100
+              ticker_symbol: null
+              num_employees_min: 51
+              num_employees_max: 100
               funding: 48000000
               homepage: 'http://www.iguazio.com/'
               city: Herzliya
@@ -9507,9 +9507,9 @@ landscape:
                 Microsoft is a software corporation that develops, manufactures,
                 licenses, supports, and sells a range of software products and
                 services.
-              ticker: MSFT
-              min: 10001
-              max: 1000000
+              ticker_symbol: MSFT
+              num_employees_min: 10001
+              num_employees_max: 1000000
               funding: 1000000
               homepage: 'http://www.microsoft.com'
               city: Redmond
@@ -9546,9 +9546,9 @@ landscape:
                 New Relic is a leading digital intelligence company, delivering
                 full-stack visibility and analytics to enterprises around the
                 world.
-              ticker: NEWR
-              min: 1001
-              max: 5000
+              ticker_symbol: NEWR
+              num_employees_min: 1001
+              num_employees_max: 5000
               funding: 214500000
               homepage: 'http://newrelic.com'
               city: San Francisco
@@ -9578,9 +9578,9 @@ landscape:
                 AppDynamics develops application performance management (APM)
                 solutions that deliver problem resolution for highly distributed
                 applications.
-              ticker: null
-              min: 501
-              max: 1000
+              ticker_symbol: null
+              num_employees_min: 501
+              num_employees_max: 1000
               funding: 364500000
               homepage: 'http://www.appdynamics.com'
               city: San Francisco
@@ -9618,9 +9618,9 @@ landscape:
             crunchbase_data:
               name: Datadog
               description: Datadog offers a cloud-scale monitoring service.
-              ticker: null
-              min: 501
-              max: 1000
+              ticker_symbol: null
+              num_employees_min: 501
+              num_employees_max: 1000
               funding: 147900000
               homepage: 'http://datadog.com'
               city: New York
@@ -9649,9 +9649,9 @@ landscape:
                 Amazon Web Services provides information technology
                 infrastructure services to businesses in the form of web
                 services.
-              ticker: null
-              min: 10001
-              max: 1000000
+              ticker_symbol: null
+              num_employees_min: 10001
+              num_employees_max: 1000000
               funding: 0
               homepage: 'http://aws.amazon.com'
               city: Seattle
@@ -9679,9 +9679,9 @@ landscape:
               description: >-
                 Stackdriver provides monitoring services for cloud-powered
                 applications.
-              ticker: null
-              min: 11
-              max: 50
+              ticker_symbol: null
+              num_employees_min: 11
+              num_employees_max: 50
               funding: 15000000
               homepage: 'http://www.stackdriver.com'
               city: Boston
@@ -9715,9 +9715,9 @@ landscape:
               description: >-
                 CNCF is an open source software foundation that hosts and
                 nurtures projects like Kubernetes and Prometheus.
-              ticker: null
-              min: 11
-              max: 50
+              ticker_symbol: null
+              num_employees_min: 11
+              num_employees_max: 50
               funding: 0
               homepage: 'https://www.cncf.io/'
               city: San Francisco
@@ -9752,9 +9752,9 @@ landscape:
               description: >-
                 The container intelligence company - a unified platform to
                 secure, monitor, and troubleshoot your containerized environment
-              ticker: null
-              min: 51
-              max: 100
+              ticker_symbol: null
+              num_employees_min: 51
+              num_employees_max: 100
               funding: 53000000
               homepage: 'https://www.sysdig.com'
               city: San Francisco
@@ -9785,9 +9785,9 @@ landscape:
               description: >-
                 Wavefront is a hosted platform for ingesting, storing,
                 visualizing and alerting on time series data.
-              ticker: null
-              min: 11
-              max: 50
+              ticker_symbol: null
+              num_employees_min: 11
+              num_employees_max: 50
               funding: 65500000
               homepage: 'http://www.wavefront.com/'
               city: Palo Alto
@@ -9814,9 +9814,9 @@ landscape:
               description: >-
                 Instana is an APM solution that automatically monitors dynamic
                 modern apps.
-              ticker: null
-              min: 11
-              max: 50
+              ticker_symbol: null
+              num_employees_min: 11
+              num_employees_max: 50
               funding: 26000000
               homepage: 'http://www.instana.com'
               city: San Francisco
@@ -9839,9 +9839,9 @@ landscape:
             crunchbase_data:
               name: Honeybadger
               description: 'Exception, uptime, and performance monit'
-              ticker: null
-              min: 1
-              max: 10
+              ticker_symbol: null
+              num_employees_min: 1
+              num_employees_max: 10
               funding: 0
               homepage: 'http://www.honeybadger.io'
               city: Kirkland
@@ -9873,9 +9873,9 @@ landscape:
               description: >-
                 Icinga is a monitoring software project that began as a fork of
                 Nagios.
-              ticker: null
-              min: 1
-              max: 10
+              ticker_symbol: null
+              num_employees_min: 1
+              num_employees_max: 10
               funding: 0
               homepage: 'https://www.icinga.org/'
               city: null
@@ -9902,9 +9902,9 @@ landscape:
             crunchbase_data:
               name: Circonus
               description: Realtime Monitoring and Analytics
-              ticker: null
-              min: 11
-              max: 50
+              ticker_symbol: null
+              num_employees_min: 11
+              num_employees_max: 50
               funding: 0
               homepage: 'http://circonus.com'
               city: Fulton
@@ -9931,9 +9931,9 @@ landscape:
               description: >-
                 Rocana is a San Francisco, CA-based provider of root cause
                 analysis software company
-              ticker: null
-              min: 51
-              max: 100
+              ticker_symbol: null
+              num_employees_min: 51
+              num_employees_max: 100
               funding: 19400000
               homepage: 'http://rocana.com'
               city: San Francisco
@@ -9961,9 +9961,9 @@ landscape:
               description: >-
                 Intelligent Monitoring for Modern Applications and Data
                 Infrastructure
-              ticker: null
-              min: 11
-              max: 50
+              ticker_symbol: null
+              num_employees_min: 11
+              num_employees_max: 50
               funding: 21230740
               homepage: 'http://www.opsclarity.com/'
               city: Sunnyvale
@@ -9995,9 +9995,9 @@ landscape:
               description: >-
                 Nagios Enterprises offers monitoring and alerting solutions for
                 servers, switches, applications, and services.
-              ticker: null
-              min: null
-              max: null
+              ticker_symbol: null
+              num_employees_min: null
+              num_employees_max: null
               funding: 0
               homepage: 'http://www.nagios.org/'
               city: Saint Paul
@@ -10029,9 +10029,9 @@ landscape:
             crunchbase_data:
               name: Zabbix
               description: 'ZABBIX SIA is based in Riga, Latvia.'
-              ticker: null
-              min: 11
-              max: 50
+              ticker_symbol: null
+              num_employees_min: 11
+              num_employees_max: 50
               funding: 0
               homepage: 'http://www.zabbix.com/'
               city: Riga
@@ -10086,9 +10086,9 @@ landscape:
               description: >-
                 InfluxData develops the TICK stack, the first open source
                 platform for managing IoT time-series data at scale.
-              ticker: null
-              min: 11
-              max: 50
+              ticker_symbol: null
+              num_employees_min: 11
+              num_employees_max: 50
               funding: 24892000
               homepage: 'http://influxdata.com/'
               city: San Francisco
@@ -10135,9 +10135,9 @@ landscape:
             crunchbase_data:
               name: Netsil
               description: Observability and Monitoring for Modern Cloud Applications
-              ticker: null
-              min: 11
-              max: 50
+              ticker_symbol: null
+              num_employees_min: 11
+              num_employees_max: 50
               funding: 5700000
               homepage: 'https://netsil.com'
               city: San Francisco
@@ -10165,9 +10165,9 @@ landscape:
               description: >-
                 Meros is creating enterprise monitoring and management tools for
                 Docker
-              ticker: null
-              min: 1
-              max: 10
+              ticker_symbol: null
+              num_employees_min: 1
+              num_employees_max: 10
               funding: 0
               homepage: 'http://meros.io'
               city: Clearwater
@@ -10191,9 +10191,9 @@ landscape:
             crunchbase_data:
               name: Opbeat
               description: APM for JavaScript
-              ticker: null
-              min: 11
-              max: 50
+              ticker_symbol: null
+              num_employees_min: 11
+              num_employees_max: 50
               funding: 2800000
               homepage: 'http://www.opbeat.com'
               city: San Francisco
@@ -10238,9 +10238,9 @@ landscape:
               description: >-
                 Server Density is a SaaS product that helps users manage and
                 monitor their infrastructure.
-              ticker: null
-              min: 11
-              max: 50
+              ticker_symbol: null
+              num_employees_min: 11
+              num_employees_max: 50
               funding: 2094514
               homepage: 'https://www.serverdensity.com'
               city: London
@@ -10266,9 +10266,9 @@ landscape:
             crunchbase_data:
               name: Librato
               description: Real time operations analytics for metrics from any source
-              ticker: null
-              min: 11
-              max: 50
+              ticker_symbol: null
+              num_employees_min: 11
+              num_employees_max: 50
               funding: 5050000
               homepage: 'http://www.librato.com'
               city: San Francisco
@@ -10298,9 +10298,9 @@ landscape:
                 AppNeta is the only app performance monitoring company with
                 solutions for apps you develop, SaaS apps you use & networks
                 that deliver them.
-              ticker: null
-              min: 101
-              max: 250
+              ticker_symbol: null
+              num_employees_min: 101
+              num_employees_max: 250
               funding: 63177998
               homepage: 'http://www.appneta.com'
               city: Boston
@@ -10323,9 +10323,9 @@ landscape:
             crunchbase_data:
               name: 'Catchpoint '
               description: 'Catchpoint is a leading digital experience intelligence company '
-              ticker: null
-              min: 101
-              max: 250
+              ticker_symbol: null
+              num_employees_min: 101
+              num_employees_max: 250
               funding: 49765055
               homepage: 'http://www.catchpoint.com'
               city: New York
@@ -10355,9 +10355,9 @@ landscape:
                 Dynatrace transform how Web and non-Web business-critical
                 applications are monitored, managed, and optimized throughout
                 their lifecycle.
-              ticker: null
-              min: 1001
-              max: 5000
+              ticker_symbol: null
+              num_employees_min: 1001
+              num_employees_max: 5000
               funding: 21900000
               homepage: 'https://www.dynatrace.com'
               city: Waltham
@@ -10385,9 +10385,9 @@ landscape:
               description: >-
                 Full stack performance monitoring. Built for container and
                 microservices applications. Powered by anomaly detection.
-              ticker: null
-              min: 11
-              max: 50
+              ticker_symbol: null
+              num_employees_min: 11
+              num_employees_max: 50
               funding: 3567454
               homepage: 'http://www.coscale.com'
               city: Gent
@@ -10415,9 +10415,9 @@ landscape:
               description: >-
                 Infrastructure monitoring platform made for DevOps and
                 microservices.
-              ticker: null
-              min: null
-              max: null
+              ticker_symbol: null
+              num_employees_min: null
+              num_employees_max: null
               funding: 5480000
               homepage: null
               city: San Francisco
@@ -10445,9 +10445,9 @@ landscape:
             crunchbase_data:
               name: Centreon
               description: An industry reference for open source monitoring
-              ticker: null
-              min: 11
-              max: 50
+              ticker_symbol: null
+              num_employees_min: 11
+              num_employees_max: 50
               funding: 0
               homepage: 'https://www.centreon.com'
               city: Paris
@@ -10480,9 +10480,9 @@ landscape:
                 LightStep's mission is to cut through the scale and complexity
                 of today's software to help organizations stay in control of
                 their systems.
-              ticker: null
-              min: 11
-              max: 50
+              ticker_symbol: null
+              num_employees_min: 11
+              num_employees_max: 50
               funding: 27500000
               homepage: 'http://lightstep.com/'
               city: San Francisco
@@ -10505,9 +10505,9 @@ landscape:
             crunchbase_data:
               name: SignalFx
               description: Advanced monitoring platform for modern applications
-              ticker: null
-              min: 51
-              max: 100
+              ticker_symbol: null
+              num_employees_min: 51
+              num_employees_max: 100
               funding: 28500000
               homepage: 'http://signalfx.com'
               city: San Mateo
@@ -10534,9 +10534,9 @@ landscape:
               description: >-
                 Building products focused on Node.js security and performance
                 for the Enterprise.
-              ticker: null
-              min: 11
-              max: 50
+              ticker_symbol: null
+              num_employees_min: 11
+              num_employees_max: 50
               funding: 33400000
               homepage: 'https://nodesource.com/'
               city: San Francisco
@@ -10564,9 +10564,9 @@ landscape:
             crunchbase_data:
               name: Grafana Labs
               description: the defacto standard for visualizing time series data.
-              ticker: null
-              min: 11
-              max: 50
+              ticker_symbol: null
+              num_employees_min: 11
+              num_employees_max: 50
               funding: 0
               homepage: 'http://raintank.io'
               city: New York
@@ -10600,9 +10600,9 @@ landscape:
                 Microsoft is a software corporation that develops, manufactures,
                 licenses, supports, and sells a range of software products and
                 services.
-              ticker: MSFT
-              min: 10001
-              max: 1000000
+              ticker_symbol: MSFT
+              num_employees_min: 10001
+              num_employees_max: 1000000
               funding: 1000000
               homepage: 'http://www.microsoft.com'
               city: Redmond
@@ -10633,9 +10633,9 @@ landscape:
               description: >-
                 Weaveworks provides a simple and consistent way to connect and
                 manage containers and microservices
-              ticker: null
-              min: 11
-              max: 50
+              ticker_symbol: null
+              num_employees_min: 11
+              num_employees_max: 50
               funding: 20000000
               homepage: 'https://www.weave.works/'
               city: London
@@ -10666,9 +10666,9 @@ landscape:
             crunchbase_data:
               name: SENSU
               description: Managing Creative Obsessions
-              ticker: null
-              min: 1
-              max: 10
+              ticker_symbol: null
+              num_employees_min: 1
+              num_employees_max: 10
               funding: 2530000
               homepage: 'https://www.sensu.one'
               city: Tokyo
@@ -10702,9 +10702,9 @@ landscape:
               description: >-
                 Sentry is a real-time crash reporting tool for web, mobile, and
                 games.
-              ticker: null
-              min: 11
-              max: 50
+              ticker_symbol: null
+              num_employees_min: 11
+              num_employees_max: 50
               funding: 10500000
               homepage: 'https://www.sentry.io'
               city: San Francisco
@@ -10735,9 +10735,9 @@ landscape:
               description: >-
                 StackRox delivers the industry's only adaptive threat protection
                 for containers.
-              ticker: null
-              min: 11
-              max: 50
+              ticker_symbol: null
+              num_employees_min: 11
+              num_employees_max: 50
               funding: 14000000
               homepage: 'http://www.stackrox.com'
               city: Mountain View
@@ -10761,9 +10761,9 @@ landscape:
             crunchbase_data:
               name: StackState
               description: The market-leading Algorithmic IT Operations platform
-              ticker: null
-              min: 11
-              max: 50
+              ticker_symbol: null
+              num_employees_min: 11
+              num_employees_max: 50
               funding: 0
               homepage: 'https://stackstate.com/'
               city: Utrecht
@@ -10790,9 +10790,9 @@ landscape:
               description: >-
                 Weaveworks provides a simple and consistent way to connect and
                 manage containers and microservices
-              ticker: null
-              min: 11
-              max: 50
+              ticker_symbol: null
+              num_employees_min: 11
+              num_employees_max: 50
               funding: 20000000
               homepage: 'https://www.weave.works/'
               city: London
@@ -10824,9 +10824,9 @@ landscape:
               description: >-
                 Splunk provides operational intelligence software that monitors,
                 reports, and analyzes real-time machine data.
-              ticker: SPLK
-              min: 5001
-              max: 10000
+              ticker_symbol: SPLK
+              num_employees_min: 5001
+              num_employees_max: 10000
               funding: 40900000
               homepage: 'https://www.splunk.com'
               city: San Francisco
@@ -10858,9 +10858,9 @@ landscape:
               description: >-
                 Elastic builds software to make data usable in real time and at
                 scale for search, logging, security, and analytics use cases.
-              ticker: null
-              min: 501
-              max: 1000
+              ticker_symbol: null
+              num_employees_min: 501
+              num_employees_max: 1000
               funding: 104000000
               homepage: 'https://www.elastic.co'
               city: Mountain View
@@ -10891,9 +10891,9 @@ landscape:
               description: >-
                 Sematext is a Search and Big Data analytics products and
                 services company.
-              ticker: null
-              min: 11
-              max: 50
+              ticker_symbol: null
+              num_employees_min: 11
+              num_employees_max: 50
               funding: 0
               homepage: 'http://sematext.com/'
               city: Brooklyn
@@ -10923,9 +10923,9 @@ landscape:
                 Sumo Logic, a log management and analytics service, transforms
                 big data into sources of operations, security and compliance
                 intelligence.
-              ticker: null
-              min: 101
-              max: 250
+              ticker_symbol: null
+              num_employees_min: 101
+              num_employees_max: 250
               funding: 230000000
               homepage: 'http://www.sumologic.com'
               city: Redwood City
@@ -10954,9 +10954,9 @@ landscape:
                 Loggly parses your log files, shows you the code in GitHub which
                 caused the log errors. 10,000+ customers, including 1/3 of the
                 Fortune 500.
-              ticker: null
-              min: 51
-              max: 100
+              ticker_symbol: null
+              num_employees_min: 51
+              num_employees_max: 100
               funding: 47400000
               homepage: 'https://www.loggly.com/'
               city: San Francisco
@@ -10983,9 +10983,9 @@ landscape:
               description: >-
                 Logz.io is an enterprise-grade ELK as a service with alerts,
                 unlimited scalability, and predictive fault detection.
-              ticker: null
-              min: 11
-              max: 50
+              ticker_symbol: null
+              num_employees_min: 11
+              num_employees_max: 50
               funding: 46900000
               homepage: 'https://logz.io/'
               city: Tel Aviv
@@ -11019,9 +11019,9 @@ landscape:
               description: >-
                 CNCF is an open source software foundation that hosts and
                 nurtures projects like Kubernetes and Prometheus.
-              ticker: null
-              min: 11
-              max: 50
+              ticker_symbol: null
+              num_employees_min: 11
+              num_employees_max: 50
               funding: 0
               homepage: 'https://www.cncf.io/'
               city: San Francisco
@@ -11049,9 +11049,9 @@ landscape:
             crunchbase_data:
               name: Loom Systems
               description: Predict & Prevent Problems in the Digital Business
-              ticker: null
-              min: 11
-              max: 50
+              ticker_symbol: null
+              num_employees_min: 11
+              num_employees_max: 50
               funding: 6000000
               homepage: 'http://www.loomsystems.com'
               city: San Francisco
@@ -11083,9 +11083,9 @@ landscape:
               description: >-
                 Graylog is a fully integrated platform for collecting, indexing,
                 and analyzing.
-              ticker: null
-              min: 11
-              max: 50
+              ticker_symbol: null
+              num_employees_min: 11
+              num_employees_max: 50
               funding: 4400000
               homepage: 'https://www.graylog.com'
               city: Houston
@@ -11125,9 +11125,9 @@ landscape:
               description: >-
                 CNCF is an open source software foundation that hosts and
                 nurtures projects like Kubernetes and Prometheus.
-              ticker: null
-              min: 11
-              max: 50
+              ticker_symbol: null
+              num_employees_min: 11
+              num_employees_max: 50
               funding: 0
               homepage: 'https://www.cncf.io/'
               city: San Francisco
@@ -11163,9 +11163,9 @@ landscape:
                 Apache Software Foundation (501C3) provides organizational,
                 legal and financial support for Apache open-source software
                 projects.
-              ticker: null
-              min: 1
-              max: 10
+              ticker_symbol: null
+              num_employees_min: 1
+              num_employees_max: 10
               funding: 0
               homepage: 'http://www.apache.org'
               city: Forest Hill
@@ -11223,9 +11223,9 @@ landscape:
               description: >-
                 CNCF is an open source software foundation that hosts and
                 nurtures projects like Kubernetes and Prometheus.
-              ticker: null
-              min: 11
-              max: 50
+              ticker_symbol: null
+              num_employees_min: 11
+              num_employees_max: 50
               funding: 0
               homepage: 'https://www.cncf.io/'
               city: San Francisco
@@ -11260,9 +11260,9 @@ landscape:
               description: >-
                 Pivotal is a software company that provides digital
                 transformation technology and services.
-              ticker: null
-              min: 1001
-              max: 5000
+              ticker_symbol: null
+              num_employees_min: 1001
+              num_employees_max: 5000
               funding: 1704000000
               homepage: 'http://www.pivotal.io'
               city: San Francisco
