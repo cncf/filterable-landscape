@@ -55,7 +55,7 @@ function getProcessedItems() {
     if (node.item !== null) {
       return;
     }
-    items.push({logo: node.logo, name: node.name, crunchbase: node.crunchbase, organization: node.organization});
+    items.push({low_res: node.low_res, logo: node.logo, name: node.name, crunchbase: node.crunchbase, organization: node.organization});
   });
   _.each(items, function(item) {
     const otherItems = _.filter(items, {name: item.name});
@@ -81,6 +81,12 @@ export async function fetchImages(newSource) {
   const promises = Promise.map(landscapeItems, async function(item) {
     var savedItem = _.find(processedItems, { name: item.name, crunchbase: item.crunchbase }) || {};
     if (savedItem.logo ===  item.logo && imagesExist(savedItem.id)) {
+      if (savedItem.low_res) {
+          errors.push({
+            logo: savedItem.logo,
+            low_res: savedItem.low_res
+          });
+      }
       return; // logo is same. images are present.
     }
     console.info('fetching ', item.logo, ' for ', item.id);
