@@ -42,7 +42,7 @@ const MainContent = ({groupedItems, onSelectItem}) => {
     }));
   });
   return (
-      <div>
+      <div className="column-content">
       { _.flatten(itemsAndHeaders) }
     </div>
   );

@@ -38,6 +38,7 @@ body{
   }
 }
 
+
 .sidebar{
   legend{
     font-size:0.6em !important;
@@ -55,6 +56,26 @@ body{
     flex: 150px 0 0;
     padding: 13px 0 0 20px;
   }
+}
+
+.columns{
+  display:flex;
+
+  .sidebar{
+    width:200px;
+  }
+  .column-content{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+  }
+
+
+}
+
+.columns .content{
+
 }
 
 

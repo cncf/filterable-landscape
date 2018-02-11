@@ -1,5 +1,4 @@
 import React from 'react';
-import Grid from 'material-ui/Grid';
 import Drawer from 'material-ui/Drawer';
 import IconButton from 'material-ui/IconButton';
 import Icon from 'material-ui/Icon';
@@ -63,22 +62,22 @@ const HomePage = ({hasData}) => {
         </Hidden>
       </HeaderContainer>
 
-      <Grid container spacing={24}>
-        <Grid item xs={2} sm={2} className="sidebar">
+      <div className="columns">
+        <div className="sidebar">
           <StickyBox className="content-sidebar">
             {filters}
           </StickyBox>
 
-        </Grid>
-        <Grid item xs={10} sm={10} className="content">
+        </div>
+        <div className="content">
           <div className="disclaimer">
             This is the interactive counterpart to CNCF&#180;s Cloud Native <a href="https://github.com/cncf/landscape#current-version">Landscape</a>.
             Please <a href="https://github.com/cncf/filterable-landscape/issues/new/">report</a> any issues or,
             even better, open a pull request.
           </div>
           <MainContentContainer/>
-        </Grid>
-      </Grid>
+        </div>
+      </div>
       
      
     </div>
