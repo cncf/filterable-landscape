@@ -40,6 +40,7 @@ async function readGithubStats() {
     var response = await rp({
       uri: url,
       followRedirect: true,
+      timeout: 10 * 1000,
       simple: true
     });
     const dom = new JSDOM(response);
@@ -69,6 +70,7 @@ async function readGithubStats() {
       latestCommitLink = latestDateResult.commitLink;
     } catch (ex) {
       console.info ('can not fetch last date for ', repo);
+      return;
     }
     result.push({url, stars, license, description, latest_commit_date: date, latest_commit_link: latestCommitLink });
     await Promise.delay(1 * 1000);

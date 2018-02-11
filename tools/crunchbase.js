@@ -61,6 +61,7 @@ async function getParentCompanies(companyInfo) {
     var fullParentInfo =  await rp({
       method: 'POST',
       uri: 'http://api.crunchbase.com/v3.1/batch',
+      timeout: 10 * 1000,
       headers: {
         'X-Cb-User-Key': key
       },
@@ -94,6 +95,7 @@ export async function fetchCrunchbaseEntries(organizations) {
         headers: {
           'X-Cb-User-Key': key
         },
+        timeout: 10 * 1000,
         body: {
           "requests":[
             { "type":"Organization","uuid": c.name},

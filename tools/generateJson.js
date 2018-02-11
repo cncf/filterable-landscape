@@ -65,9 +65,7 @@ const itemsWithExtraFields = items.map(function(item) {
     id: id,
     starsCategory: getCategory({field: 'stars', item: item}),
     marketCapCategory: getCategory({field: 'marketCap', item: item}),
-    logo: `logo-${saneName(id)}`,
-    hrefTile: `/${saneName(id)}-tile.png`,
-    hrefLarge: `/${saneName(id)}-large.png`,
+    href: `/logos/${saneName(id)}.png`,
   }
 });
 

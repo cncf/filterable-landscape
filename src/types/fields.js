@@ -368,9 +368,14 @@ export function getGroupingValue({item, grouping}) {
 export function getCategory({field, item }) {
   const fieldInfo = fields[field];
   const value = item[field];
-  const category = _.find(fieldInfo.values, function(valueInfo) {
+  const categoryEntry = _.find(fieldInfo.values, function(valueInfo) {
     return valueInfo.match && valueInfo.match(value);
-  }).id;
+  })
+  if (!categoryEntry.id) {
+    console.info('error! can not find category for the ' , field, ' with value: ', value);
+    return 'N/A';
+  }
+  const category = categoryEntry.id;
   return category;
 }
 export function sample(field) {

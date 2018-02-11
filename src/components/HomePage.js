@@ -26,12 +26,12 @@ const filters=(
     <Presets />
   </div>
   );
-  
+
 const fakeState = {
     drawer: false,
     burgerIcon: false
   };
-  
+
 const HomePage = ({ready}) => {
   if (!ready) {
     return (
@@ -56,10 +56,10 @@ const HomePage = ({ready}) => {
           </div>
         </Drawer>
       </Hidden>
-      
+
       <HomePageUrlContainer />
       <ItemDialogContainer />
-      
+
       <div className="columns">
         <div className="sidebar">
           <StickyBox className="content-sidebar">
@@ -81,7 +81,7 @@ const HomePage = ({ready}) => {
           <Footer/>
         </div>
       </div>
-     
+
     </div>
   );
 };
