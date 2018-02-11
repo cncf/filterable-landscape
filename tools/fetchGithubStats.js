@@ -69,6 +69,7 @@ async function readGithubStats() {
       latestCommitLink = latestDateResult.commitLink;
     } catch (ex) {
       console.info ('can not fetch last date for ', repo);
+      return;
     }
     result.push({url, stars, license, description, latest_commit_date: date, latest_commit_link: latestCommitLink });
     await Promise.delay(1 * 1000);
