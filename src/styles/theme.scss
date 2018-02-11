@@ -23,7 +23,7 @@ body{
   font-size: 1em;
   background-color: #e8e8e8;
   border-radius: 10px;
-  width:100%;
+  width:98%;
   div{
     font-size:0.8em !important;
   }
@@ -123,31 +123,27 @@ body{
 @media (min-width: 250px) { // =< 800
   .mosaic{
     min-width: 96%;
-    border:1px solid green !important;
   }
 }
 
 @media (min-width: 670px) { // =< 800
   .mosaic{
     min-width: 47%;
-    border:1px solid red !important;
   }
 }
 @media (min-width: 900px) { // =< 900
   .mosaic{
     min-width: 31.5%;
-    border:1px solid blue !important;
   }
 }
 
 @media (min-width: 1150px) { // 900
   .mosaic{
     min-width: 23.5%;
-    border:1px solid purple !important;
   }
 }
 
-@media (min-width: 1350px) { // 900
+@media (min-width: 1270px) { // 900
   .mosaic{
     width:200px;
     min-width: 200px;
@@ -161,14 +157,12 @@ body{
   cursor: pointer;
   position: relative;
   display: inline-block;
-  //width: 200px;
-  //min-width: 23.5%;
-  border:1px solid orange;
+  width: 200px;
   height: 200px;
   margin: 4px 6px;
   border-radius:2px;
   box-shadow: 1px 1px 3px #d6d6d6;
-  border: 1px solid #00FFFF;
+  border: 1px solid #FFFFFF;
 
 
 

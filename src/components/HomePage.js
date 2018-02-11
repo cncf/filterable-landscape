@@ -1,7 +1,5 @@
 import React from 'react';
 import Drawer from 'material-ui/Drawer';
-import IconButton from 'material-ui/IconButton';
-import Icon from 'material-ui/Icon';
 import Hidden from 'material-ui/Hidden';
 
 import StickyBox from "react-sticky-box";
@@ -51,16 +49,7 @@ const HomePage = ({hasData}) => {
       
       <HomePageUrlContainer />
       <ItemDialogContainer />
-      <HeaderContainer>
-        <Hidden smDown implementation="css">
-          <IconButton
-            color="inherit"
-            aria-label="open drawer"
-          >
-            <Icon>menu</Icon>
-          </IconButton>
-        </Hidden>
-      </HeaderContainer>
+      <HeaderContainer/>
 
       <div className="columns">
         <div className="sidebar">
@@ -70,11 +59,13 @@ const HomePage = ({hasData}) => {
 
         </div>
         <div className="content">
-          <div className="disclaimer">
-            This is the interactive counterpart to CNCF&#180;s Cloud Native <a href="https://github.com/cncf/landscape#current-version">Landscape</a>.
-            Please <a href="https://github.com/cncf/filterable-landscape/issues/new/">report</a> any issues or,
-            even better, open a pull request.
-          </div>
+          <Hidden smDown implementation="css">
+            <div className="disclaimer">
+              This is the interactive counterpart to CNCF&#180;s Cloud Native <a href="https://github.com/cncf/landscape#current-version">Landscape</a>.
+              Please <a href="https://github.com/cncf/filterable-landscape/issues/new/">report</a> any issues or,
+              even better, open a pull request.
+            </div>
+          </Hidden>
           <MainContentContainer/>
         </div>
       </div>
