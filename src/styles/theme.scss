@@ -16,11 +16,6 @@ body{
   background-color: #aaa;
 }
 
-.content-sidebar {
-  flex: 150px 0 0;
-  padding: 13px 0 0 10px;
-
-}
 
 .sh_wrapper{
   position: relative;
@@ -50,7 +45,31 @@ body{
   fieldset{
     margin-top:5px;
   }
+
+  .content-sidebar {
+    flex: 150px 0 0;
+    padding: 13px 0 0 10px;
+  }
+
+  .content-sidebar-mobile {
+    flex: 150px 0 0;
+    padding: 13px 0 0 20px;
+  }
 }
+
+
+.cncf_landscape_mobile{
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: 70%;
+  height: 50px;
+  padding:10px 0;
+  background-image: url(./assets/cncf-landscape.png);
+  min-width: 150px;
+}
+
+
+
 
 /* grid */
 .row {margin-left: -20px; margin-right: -20px; display: flex;}
