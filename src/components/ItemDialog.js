@@ -1,10 +1,14 @@
 import React from 'react';
 import Dialog from 'material-ui/Dialog';
+import { NavLink } from 'react-router-dom';
 import Icon from 'material-ui/Icon';
 import KeyHandler from 'react-key-handler';
 import _ from 'lodash';
 import millify from 'millify';
 import relativeDate from 'relative-date';
+import { filtersToUrl } from '../utils/syncToUrl';
+import saneName from '../utils/saneName';
+import formatNumber from '../utils/formatNumber';
 
 const formatDate = function(x) {
   if (x === '$TODAY$') {
@@ -34,12 +38,12 @@ const cncfTag = function(cncfRelation) {
   }
   if (cncfRelation === 'member') {
     return (<span className="tag tag-blue">
-      <span className="tag-value">{text}</span>
+      <span className="tag-value"><NavLink to={filtersToUrl({filters:{cncfRelation: cncfRelation}})}>{text}</NavLink></span>
     </span>)
   }
   return (<span className="tag tag-blue">
     <span className="tag-name">CNCF Project</span>
-    <span className="tag-value">{text}</span>
+    <span className="tag-value"><NavLink to={filtersToUrl({filters:{cncfRelation: cncfRelation}})}>{text}</NavLink></span>
   </span>)
 };
 const openSourceTag = function(oss) {
@@ -47,25 +51,31 @@ const openSourceTag = function(oss) {
     return null;
   }
   return (<span className="tag tag-grass">
-    <span className="tag-value">Open Source Software</span>
+    <span className="tag-value"><NavLink to="/license=open-source">Open Source Software</NavLink></span>
   </span>)
 }
 const licenseTag = function(license) {
   const text = _.find(fields.license.values, {id: license}).label;
   return (<span className="tag tag-green">
     <span className="tag-name">License</span>
-    <span className="tag-value">{text}</span>
+    <span className="tag-value"><NavLink to={filtersToUrl({filters:{license: license}})}>{text}</NavLink></span>
   </span>);
 }
 const ItemDialog = ({onClose, itemInfo, previousItemId, nextItemId, onSelectItem }) => {
   if (!itemInfo) {
     return null;
   }
+  const linkToOrganization = filtersToUrl({filters: {organization: itemInfo.organization}});
   const itemCategory = function(path) {
     var separator = <span className="product-category-separator">•</span>;
-    var partMarkup = (part) => <span>{part}</span>;
     var [category, subcategory] = path.split(' / ');
-    return (<span>{[partMarkup(category), separator, partMarkup(subcategory)]}</span>);
+    var categoryMarkup = (
+      <span><NavLink to={`/landscape=${saneName(category)}`}>{category}</NavLink></span>
+    )
+    var subcategoryMarkup = (
+      <span><NavLink to={filtersToUrl({filters: {landscape: path}})}>{subcategory}</NavLink></span>
+    )
+    return (<span>{[categoryMarkup, separator, subcategoryMarkup]}</span>);
   }
   return (
     <Dialog open={true} onClose={() => onClose()} className="modal" classes={{paper:'modal-body'}}>
@@ -92,7 +102,7 @@ const ItemDialog = ({onClose, itemInfo, previousItemId, nextItemId, onSelectItem
           <div className="col col-66">
             <div className="product-main">
               <div className="product-name">{itemInfo.name}</div>
-              <div className="product-parent">{itemInfo.organization}</div>
+              <div className="product-parent"><NavLink to={linkToOrganization}>{itemInfo.organization}</NavLink></div>
               <div className="product-category">{itemCategory(itemInfo.landscape)}</div>
               <div className="product-description">{itemInfo.description}</div>
             </div>
@@ -131,17 +141,33 @@ const ItemDialog = ({onClose, itemInfo, previousItemId, nextItemId, onSelectItem
                 </div>
               </div>
               }
+              {itemInfo.twitter &&
+              <div className="product-property row">
+                <div className="product-property-name col col-25">Twitter</div>
+                <div className="product-property-value col col-75">
+                  <a href={itemInfo.twitter} target="_blank">{itemInfo.twitter}</a>
+                </div>
+              </div>
+              }
+              {itemInfo.linkedin &&
+              <div className="product-property row">
+                <div className="product-property-name col col-25">LinkedIn</div>
+                <div className="product-property-value col col-75">
+                  <a href={itemInfo.linkedin} target="_blank">{itemInfo.linkedin}</a>
+                </div>
+              </div>
+              }
               { itemInfo.headquarters && itemInfo.headquarters !== 'N/A' && (
                 <div className="product-property row">
                   <div className="product-property-name col col-25">Headquarters</div>
-                  <div className="product-property-value col col-75">{itemInfo.headquarters}</div>
+                  <div className="product-property-value col col-75"><NavLink to={filtersToUrl({filters:{headquarters:itemInfo.headquarters}})}>{itemInfo.headquarters}</NavLink></div>
                 </div>
               )
               }
               { itemInfo.crunchbaseData && itemInfo.crunchbaseData.numEmployeesMin && (
                 <div className="product-property row">
                   <div className="product-property-name col col-25">Headcount</div>
-                  <div className="product-property-value col col-75">{itemInfo.crunchbaseData.numEmployeesMin}-{itemInfo.crunchbaseData.numEmployeesMax}</div>
+                  <div className="product-property-value col col-75">{formatNumber(itemInfo.crunchbaseData.numEmployeesMin)}-{formatNumber(itemInfo.crunchbaseData.numEmployeesMax)}</div>
                 </div>
               )
               }
@@ -157,7 +183,7 @@ const ItemDialog = ({onClose, itemInfo, previousItemId, nextItemId, onSelectItem
               {itemInfo.crunchbaseData.ticker && (
               <div className="product-property row">
                 <div className="product-property-name col col-25">Ticker</div>
-                <div className="product-property-value col col-75">{itemInfo.crunchbaseData.ticker}</div>
+                <div className="product-property-value col col-75"><a target="_blank" href={"https://finance.yahoo.com/quote/" + itemInfo.crunchbaseData.ticker}>{itemInfo.crunchbaseData.ticker}</a></div>
               </div>
               )
               }

@@ -47,7 +47,7 @@ $blue: #5093e0;
   &-description {font-size: 1.1rem; line-height: 130%; margin-bottom: 0.8rem; max-height: 300px;}
   &-properties {font-size: 0.8em; color: $navy; margin: 2rem 0;}
   &-property {margin-bottom: 0.5rem;
-    &-value {color: $blue; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
+    &-value {white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
     a {color: $blue; text-decoration: none;}
     @media (max-width: 767px) {
       &-name {display: block; width: 100%;}
