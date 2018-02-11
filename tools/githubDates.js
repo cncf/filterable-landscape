@@ -6,6 +6,7 @@ async function readGithubStats({repo, branch}) {
   var response = await rp({
     uri: url,
     followRedirect: true,
+    timeout: 10 * 1000,
     simple: true
   });
   const dom = new JSDOM(response);
@@ -35,6 +36,7 @@ async function getCommitDate(link) {
   var response = await rp({
     uri: url,
     followRedirect: true,
+    timeout: 10 * 1000,
     simple: true
   });
   const dom = new JSDOM(response);
@@ -48,6 +50,7 @@ async function getPageStats({base, offset}) {
   var response = await rp({
     uri: `${base}+${offset}`,
     followRedirect: true,
+    timeout: 10 * 1000,
     simple: true
   });
   const dom = new JSDOM(response);

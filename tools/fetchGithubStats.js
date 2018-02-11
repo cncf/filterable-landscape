@@ -40,6 +40,7 @@ async function readGithubStats() {
     var response = await rp({
       uri: url,
       followRedirect: true,
+      timeout: 10 * 1000,
       simple: true
     });
     const dom = new JSDOM(response);
