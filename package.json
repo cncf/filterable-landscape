@@ -25,7 +25,7 @@
     "fetchAllImages": "(rm src/logos/* || true) && (rm src/image_urls.yml || true) && babel-node tools/addExternalInfo.js && babel-node tools/fetchImages.js && npm run yaml2json",
     "clean-dist": "npm run remove-dist && mkdir dist",
     "remove-dist": "rimraf ./dist",
-    "precommit": "npm run fetch-github && npm run fetch",
+    "precommit": "npm run fetch-external && npm run fetch",
     "prebuild": "npm run fetch && npm run lint && npm run clean-dist",
     "rebuild": "npm run fetchAllImages && npm run fetch-github",
     "build": "babel-node tools/build.js && cp _redirects ./dist/",
