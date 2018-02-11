@@ -19,7 +19,7 @@ const ComboboxSelector = ({value, options, onChange}) => {
 
   return <Select
     multiple
-    style={{width:175, fontSize:'0.7em'}}
+    style={{width:175, fontSize:'0.8em'}}
     value={idToValue(value)}
     onChange={(e) => onChange(valueToId(e.target.value))}
     renderValue={renderValue }
@@ -32,7 +32,7 @@ const ComboboxSelector = ({value, options, onChange}) => {
                 >
         <Checkbox disableRipple checked={value.indexOf(el.id) !== -1} />
 
-        <ListItemText disableTypography style={{fontSize:'0.7em'}} primary={el.label}/>
+        <ListItemText disableTypography style={{fontSize:'0.8em'}} primary={el.label}/>
       </MenuItem>
     )) }
   </Select>

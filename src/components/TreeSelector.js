@@ -73,7 +73,7 @@ const TreeSelector = ({value, options, onChange}) => {
 
   return <Select
     multiple
-    style={{width:175 ,fontSize:'0.7em'}}
+    style={{width:175 ,fontSize:'0.8em'}}
     value={value}
     renderValue={renderValue }
     onChange={(e) => onItemChanged(e.target.value)}
@@ -85,7 +85,7 @@ const TreeSelector = ({value, options, onChange}) => {
                  style={{height:5}}>
         <span  style={{width: (el.level - 1) * 20 }}/>
         <Checkbox disableRipple checked={value.indexOf(el.id) !== -1} />
-        <ListItemText disableTypography primary={el.label} style={{fontSize:'0.7em', padding:0}} />
+        <ListItemText disableTypography primary={el.label} style={{fontSize:'0.8em', padding:0}} />
       </MenuItem>
     )) }
   </Select>

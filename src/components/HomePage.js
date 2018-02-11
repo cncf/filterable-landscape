@@ -67,9 +67,11 @@ const HomePage = ({ready}) => {
           </StickyBox>
         </div>
         <div className="content">
+          <HeaderContainer/>
           <Hidden smDown implementation="css">
-            <HeaderContainer/>
             <div className="disclaimer">
+              <strong>CNCF Cloud Native Interactive Landscape</strong>
+              <br/>
               This is the interactive counterpart to CNCF's Cloud Native <a href="https://github.com/cncf/landscape#current-version">Landscape</a>.
               Please <a href="https://github.com/cncf/filterable-landscape/issues/new/">report</a> any issues or,
               even better, open a pull request.
