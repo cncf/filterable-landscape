@@ -117,7 +117,7 @@ export async function fetchImages(newSource) {
           }
         }
         if (ext === '.svg') {
-          response = await svg2png(response, {width: size.width});
+          response = await svg2png(response, {width: size.width * 2});
         }
         // console.info('normalizing image');
         await normalizeImage({inputFile: response,outputFile: fileName});
