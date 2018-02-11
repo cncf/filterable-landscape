@@ -55,7 +55,7 @@ async function main() {
       if (!node.headquarters) {
         node.headquarters='N/A';
       }
-      if (crunchbaseData.twitter && !node.twitter) {
+      if (crunchbaseData.twitter && _.isUndefined(node.twitter)) {
         console.info(`Warning: ${node.name} has no twitter but its crunchbase ${node.crunchbase} has a twitter: ${crunchbaseData.twitter}`);
       }
       node.description = node.description || crunchbaseData.description;
