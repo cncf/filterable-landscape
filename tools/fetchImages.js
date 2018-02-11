@@ -40,7 +40,12 @@ function getLandscapeItems(source) {
   return items;
 }
 function getProcessedItems() {
-  const source = require('js-yaml').safeLoad(require('fs').readFileSync('processed_landscape.yml'));
+  var source = [];
+  try {
+    source = require('js-yaml').safeLoad(require('fs').readFileSync('processed_landscape.yml'));
+  } catch (ex) {
+    console.info('file ./processed_landscape.yml does not present, can not use it for caching images');
+  }
   const tree = traverse(source);
   const items = [];
   tree.map(function(node) {
@@ -71,6 +76,7 @@ function imagesExist(itemId) {
 }
 
 export async function fetchImages(newSource) {
+  const errors = [];
   const landscapeItems = getLandscapeItems(newSource);
   const promises = Promise.map(landscapeItems, async function(item) {
     var savedItem = _.find(processedItems, { name: item.name, crunchbase: item.crunchbase }) || {};
@@ -120,7 +126,13 @@ export async function fetchImages(newSource) {
           response = await svg2png(response, {width: size.width * 2});
         }
         // console.info('normalizing image');
-        await normalizeImage({inputFile: response,outputFile: fileName});
+        const result = await normalizeImage({inputFile: response,outputFile: fileName, item});
+        if (result.low_res) {
+          errors.push({
+            logo: item.logo,
+            low_res: result.low_res
+          });
+        }
       } catch(ex) {
         console.info(`${item.name} has issues with logo: ${url}`);
         console.info(ex.message.substring(0, 100));
@@ -128,9 +140,11 @@ export async function fetchImages(newSource) {
     }
   }, {concurrency: 10});
   await promises;
+  return errors;
 }
 
-async function normalizeImage({inputFile, outputFile}) {
+async function normalizeImage({inputFile, outputFile, item}) {
+  var result = {};
   const threshold  = 0.05;
   const maxValue = 255 - 255 * threshold;
   const image = await Jimp.read(inputFile);
@@ -146,8 +160,13 @@ async function normalizeImage({inputFile, outputFile}) {
     this.bitmap.data[idx + 3 ] = alpha;
   });
   await image.autocrop();
+  if (image.bitmap.width < size.width || image.bitmap.height < size.height) {
+    result = { low_res:  `${image.bitmap.width}x${image.bitmap.height}`};
+    console.info('Low Resolution Warning: ', item.name, ' has image size: ', image.bitmap.width, 'x', image.bitmap.height, ' but we want ', size.width, 'x', size.height);
+  }
   await image.contain(size.width, size.height);
   await image.write(outputFile);
+  return result;
 }
 
 // async function main() {

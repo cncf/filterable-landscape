@@ -87,10 +87,18 @@ async function main() {
       node.cncf_member = cncfMembers.indexOf(node.organization) !== -1;
     }
   });
-  await fetchImages(newSource);
+  const result = await fetchImages(newSource);
+  const sourceWithLowRes = traverse(newSource).map(function(node) {
+    if (node && node.logo) {
+      var error = _.find(result, {logo: node.logo});
+      if (error) {
+        node.low_res = error.low_res;
+      }
+    }
+  });
 
 
-  var dump = require('js-yaml').dump(newSource);
+  var dump = require('js-yaml').dump(sourceWithLowRes);
   dump = dump.replace(/(- \w+:) null/g, '$1');
   dump = "# THIS FILE IS GENERATED AUTOMATICALLY!\n" + dump;
   require('fs').writeFileSync('processed_landscape.yml', dump);
