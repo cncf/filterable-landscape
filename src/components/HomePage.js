@@ -28,7 +28,7 @@ const filters=(
   );
 
 const fakeState = {
-    drawer: false,
+    drawer: true,
     burgerIcon: false
   };
 
