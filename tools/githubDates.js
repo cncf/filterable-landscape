@@ -88,16 +88,22 @@ async function promiseBinarySearch(low, high, fn) {
 }
 
 
-export async function getRepoLastDate({repo, branch}) {
+export async function getRepoLatestDate({repo, branch}) {
   branch = branch || 'master';
   const info = await readGithubStats({repo, branch});
-  return getCommitDate(info.firstCommitLink); //first row on the page
+  return {
+    date: await getCommitDate(info.firstCommitLink), //first row on the page
+    commitLink: info.firstCommitLink
+  }
 }
 export async function getRepoStartDate({repo, branch}) {
   branch = branch || 'master';
   const info = await readGithubStats({repo, branch});
   if (info.lastCommitLink) {
-    return await getCommitDate(info.lastCommitLink);
+    return {
+      date: await getCommitDate(info.lastCommitLink),
+      commitLink: info.lastCommitLink
+    };
   }
   const getScore = async function(i) {
     const result = await getPageStats({base: info.base, offset: i});
@@ -113,7 +119,7 @@ export async function getRepoStartDate({repo, branch}) {
   const offset = await promiseBinarySearch(0, 256000, getScore);
   const stats = await getPageStats({base: info.base, offset: offset});
   const firstCommitDate = await getCommitDate(stats.lastHref); //last row on the page
-  return firstCommitDate;
+  return { date: firstCommitDate, commitLink: stats.lastHref};
 }
 // getRepoStartDate({repo: 'rails/rails'}).then(console.info).catch(console.info);
-// getRepoLastDate({repo: 'theforeman/foreman', branch: 'develop'}).then(console.info).catch(console.info);
+// getRepoLatestDate({repo: 'theforeman/foreman', branch: 'develop'}).then(console.info).catch(console.info);

@@ -2,6 +2,7 @@ body{
   background-color:#F4F4f4 !important;
   font-family: Arial, Helvetica, sans-serif;
 }
+
 .wrapper{
   overflow:hidden;
   font-family: "Roboto", "Helvetica", "Arial", sans-serif;
@@ -57,6 +58,17 @@ body{
     flex: 150px 0 0;
     padding: 13px 0 0 20px;
   }
+
+  &-presets {
+    margin: 3rem 0; font-size: 0.6em; width: 160px;
+    h4 { padding: 0px 10px;}
+    div {margin-bottom: 0.5em;}
+    a {text-decoration: none; color: rgb(54, 111, 168); display: block; padding: 5px 10px;
+      &.active {color: #000; font-weight: bold;}
+      &:hover, &.active {background: rgba(0,0,0,0.05);}
+      }
+  }
+
 }
 
 .columns{
@@ -193,30 +205,25 @@ body{
 
   }
 
-
-  .info{
+  &-info {
     height: 30%;
     font-size: 0.6em;
     border-width:1px 0 0 0;
     border-style: solid;
     border-color: #dedede;
     padding:10px;
-
-
-    h5{
-      margin:0 0 5px 0 !important;
-      width:100%;
-      font-size:1em;
-      display:inline-block;
-    }
-    & > div, & > div span{
-      display:flex;
-      flex-direction: row;
-      justify-content: space-between;
-      align-items: center;
-      color:#9B9B9B;
-    }
+    display: flex;
+    justify-content: space-between;
+    color:#9B9B9B;
   }
+  h5 {
+    margin:0 0 5px 0 !important;
+    font-size: 1em;
+  }
+  &-stars {line-height: 15px; text-align: right; white-space: nowrap;
+    .material-icons {line-height: 15px; vertical-align: top;}
+  }
+  &-funding {white-space: nowrap;}
 }
 
 

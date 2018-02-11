@@ -3,18 +3,46 @@
   fileName: src/logos/3-scale.png
   sha256: 0adf5f1a55ad3615e03df204d7ba5387f0233587613e325b5d45b1dae3943a61
   url: 'https://www.3scale.net/wp-content/uploads/2015/01/3scale-by-redhat.png'
+- name: accenture
+  fileName: src/logos/accenture.png
+  sha256: fc4b09506cc29210bb347296731ec714bcf2e16dd3168a4ffb05359bbbe0e496
+  url: 'https://www.underconsideration.com/brandnew/archives/accenture_logo.png'
+- name: alauda-ee
+  fileName: src/logos/alauda-ee.png
+  sha256: 070e8248edef416d38f99e0457c4712d2e80ef134b9597f43aa03ac3fe330f04
+  url: 'https://www.cncf.io/wp-content/uploads/2017/11/alauda.png'
 - name: alibaba-cloud
   fileName: src/logos/alibaba-cloud.png
   sha256: efc338e79381f0b282cffc6ce8455620146a25dc4c9e26b11b7c439a3118712b
   url: 'https://seeklogo.com/images/A/alibaba-cloud-logo-898D58C1CE-seeklogo.com.png'
-- name: amazon-ecr
-  fileName: src/logos/amazon-ecr.png
+- name: alibaba-cloud-container-service
+  fileName: src/logos/alibaba-cloud-container-service.png
+  sha256: efc338e79381f0b282cffc6ce8455620146a25dc4c9e26b11b7c439a3118712b
+  url: 'https://seeklogo.com/images/A/alibaba-cloud-logo-898D58C1CE-seeklogo.com.png'
+- name: amazon-cloud-watch
+  fileName: src/logos/amazon-cloud-watch.png
+  sha256: de9c2af1d2c801d06b01a8f8a5f46a62cb36777ff1f535eeeac9f5516332532e
+  url: ./src/hosted_logos/aws-cloudwatch.png
+- name: amazon-elastic-container-registry-ecr
+  fileName: src/logos/amazon-elastic-container-registry-ecr.png
   sha256: 0ac743ce2a47049a8987e4b273ee6e98c30755fe6cc2f63854b835a6ee2ec5c3
   url: ./src/hosted_logos/aws-ecr.png
-- name: amazon-ecs
-  fileName: src/logos/amazon-ecs.png
+- name: amazon-elastic-container-service-ecs
+  fileName: src/logos/amazon-elastic-container-service-ecs.png
   sha256: 9478c7e868e342b6006ba04bad3df15df4e9d92a84cb1204363886f97933dd57
   url: ./src/hosted_logos/aws-ecs.png
+- name: amazon-elastic-container-service-for-kubernetes-eks
+  fileName: src/logos/amazon-elastic-container-service-for-kubernetes-eks.png
+  sha256: 2ab546fff564f999078f50eb85695c5dca1bc9bcb043235b8d900f4426dcdbbe
+  url: 'https://cdn-images-1.medium.com/max/1600/1*5YAnP-tNi1Tkjzk1urIJYw.png'
+- name: amazon-kinesis
+  fileName: src/logos/amazon-kinesis.png
+  sha256: 0ad3eb5aa8f470ebed132ebd013145cf1672caff1b2f5cf8ddb28c3d71a82328
+  url: ./src/hosted_logos/aws-kinesis.png
+- name: amazon-web-services
+  fileName: src/logos/amazon-web-services.png
+  sha256: a093748e237546d07c96b91a122dd1f965125c4395d306af85ca1bceb4789321
+  url: 'https://www.cncf.io/wp-content/uploads/2017/08/logo_AWS-300x184.png'
 - name: ambassador
   fileName: src/logos/ambassador.png
   sha256: d49d515e8919e630b45ef133977b72193af6d299ab6b866866fb9a1ed6ebd101
@@ -37,10 +65,6 @@
   fileName: src/logos/apache-ni-fi.png
   sha256: 77a065c1bfa414314953eff6e1e150167dec396c31983b929165573fad44dc46
   url: 'https://nifi.apache.org/assets/images/apache-nifi-logo.svg'
-- name: apache-software-foundation-apex
-  fileName: src/logos/apache-software-foundation-apex.png
-  sha256: d5df8f2d27b39980d9a3478effb973601b58b8ecb7e53eb76cd085d6711cf0be
-  url: 'https://upload.wikimedia.org/wikipedia/commons/e/e1/Apache_Apex_Logo.png'
 - name: apache-storm
   fileName: src/logos/apache-storm.png
   sha256: 5d275321d5bf123d88381b5c69db693f058e4d260e6fa9d06b84af177b23cf8b
@@ -55,8 +79,12 @@
   sha256: 489a5592dbb7af1ac5db696db3540431d368176a28ff89f8d111d9fc6dea1087
   url: >-
     https://crunchbase-production-res.cloudinary.com/image/upload/v1445882939/xhdhlohznhrz18iox373.jpg
-- name: apex-apex
-  fileName: src/logos/apex-apex.png
+- name: apex
+  fileName: src/logos/apex.png
+  sha256: d5df8f2d27b39980d9a3478effb973601b58b8ecb7e53eb76cd085d6711cf0be
+  url: 'https://upload.wikimedia.org/wikipedia/commons/e/e1/Apache_Apex_Logo.png'
+- name: apex-serverless
+  fileName: src/logos/apex-serverless.png
   sha256: 2f7903371c4a63ebb7cc82fa1ff896b3c0b8490c169833ea876cef3ff55e1bf2
   url: ./src/hosted_logos/apex.png
 - name: aporeto
@@ -77,10 +105,14 @@
   fileName: src/logos/appdash.png
   sha256: 073d15fcad7ac5357968aee9514e3e4dd09c32a06b9066523f90de8df2d11fe2
   url: ./src/hosted_logos/appdash.png
-- name: apprenda
-  fileName: src/logos/apprenda.png
-  sha256: 2f7b01c5f078a71cdb32109d5b9037a00beda10164f112e2ffdc3b0825f88819
-  url: 'https://pbs.twimg.com/profile_images/785690321015476225/hEAuJcjS.jpg'
+- name: apprenda-kismatic-enterprise-toolkit-ket
+  fileName: src/logos/apprenda-kismatic-enterprise-toolkit-ket.png
+  sha256: 687eb03e1b829b0902c18dd78aa9187ddddea0cb4b5645182eb4c42cc40e9cee
+  url: 'https://cdn.evbuc.com/images/27464188/125492687415/2/logo.png'
+- name: appscode-pharmer
+  fileName: src/logos/appscode-pharmer.png
+  sha256: 4fcf82c792c5f8b1741e842b70a1c1d3535af29dc9d04aafd0cc28c6af5903d1
+  url: 'https://kubernetes.io/images/square-logos/appscode.png'
 - name: appveyor
   fileName: src/logos/appveyor.png
   sha256: 91345dbb1587122abdd2de9971d17c93a6653e0b1ae5be4753a11b56dbe0f191
@@ -112,18 +144,30 @@
   sha256: 0a02993f0a1aae12fc3065850ee7da0b7a7c0c510c13b588c39a252947d85898
   url: >-
     https://crunchbase-production-res.cloudinary.com/image/upload/v1441953231/rp1toqznrlhfvf8n3iim.png
-- name: aws
-  fileName: src/logos/aws.png
-  sha256: a093748e237546d07c96b91a122dd1f965125c4395d306af85ca1bceb4789321
-  url: 'https://www.cncf.io/wp-content/uploads/2017/08/logo_AWS-300x184.png'
+- name: aws-cloud-formation
+  fileName: src/logos/aws-cloud-formation.png
+  sha256: 02a588f6fc7904a3db1780e8a6d26c6fdcce7f8c0e73e6ac5487d036fb7381e9
+  url: ./src/hosted_logos/aws-cloudformation.png
+- name: aws-lambda
+  fileName: src/logos/aws-lambda.png
+  sha256: 06381ef2b1383f391ec98eed780c5b5c02a600c9e68eae370f66251c95003249
+  url: ./src/hosted_logos/aws-lambda.png
 - name: axibase
   fileName: src/logos/axibase.png
   sha256: ff21fd0d21403d2e46b404fb1325081734474baf4cb07c3b4d13541c7f8b0955
   url: 'http://axibase.com/wp-content/uploads/2014/12/axibase_logo_orange-2.png'
+- name: azure-acs-engine
+  fileName: src/logos/azure-acs-engine.png
+  sha256: 269a58d6b48c56d43851b8ea6261983e532992845200ba9bea3d6e30e38e3650
+  url: 'https://www.nasuni.com/wp-content/uploads/2016/04/azure.png'
 - name: azure-cloud-services
   fileName: src/logos/azure-cloud-services.png
   sha256: 17b904934cd83422fede6d0f13ea091bcfbd73e01069248216fa7d1249de5380
   url: 'https://www.cncf.io/wp-content/uploads/2017/07/Azure_logo-300x184.png'
+- name: azure-container-service-aks
+  fileName: src/logos/azure-container-service-aks.png
+  sha256: 269a58d6b48c56d43851b8ea6261983e532992845200ba9bea3d6e30e38e3650
+  url: 'https://www.nasuni.com/wp-content/uploads/2016/04/azure.png'
 - name: azure-functions
   fileName: src/logos/azure-functions.png
   sha256: db77592089da1488958d8b96ca51609f8ed8141504b56ed7e2533c202e82cca9
@@ -158,10 +202,24 @@
   fileName: src/logos/bitnami.png
   sha256: 8ccbe6528a4426a808da40ff56628f9e412b5512b2b37cc39af170aa1c700dbc
   url: 'https://bitnami.com/downloads/logos/bitnami.png'
+- name: bitnami-kcsp
+  fileName: src/logos/bitnami-kcsp.png
+  sha256: 11155b991ed98f9d129ef099bab45c16c01f52076ab22f6af409b2de54a36a5c
+  url: 'https://www.cncf.io/wp-content/uploads/2017/03/logo_bitnami_17-300x184.png'
 - name: black-duck
   fileName: src/logos/black-duck.png
   sha256: 96e2d27b6d063f506f3d8c6876782fe2b2b7e531cd354087213fb00d1db8d231
   url: 'http://www.southeastlinuxfest.org/wp-content/uploads/2017/05/BlackDuck.png'
+- name: bo-cloud-beyondcent-container
+  fileName: src/logos/bo-cloud-beyondcent-container.png
+  sha256: c47c00cd8b8094dd7fcfc5806dbe9fd167f516932330c6f8ee5de0aa398fdad1
+  url: >-
+    http://images.tmtpost.com/uploads/images/2017/05/10/de220d631464bcf29f89ac3e434c262614944057435518.jpg
+- name: booz-allan-hamilton
+  fileName: src/logos/booz-allan-hamilton.png
+  sha256: 3fb4b5d41c78d0c9e6f2c0ae758e1c145dff8c470d75650a99db72a3f6d87abe
+  url: >-
+    https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Booz_Allen_Hamilton_logo.svg/1280px-Booz_Allen_Hamilton_logo.svg.png
 - name: bosh
   fileName: src/logos/bosh.png
   sha256: 333d50c4854c182b8cd7d5aa1dd095b8ec3b1447051eed12562b3c7ae69e7956
@@ -179,15 +237,27 @@
   sha256: 7f14ac73d7abd7df8abc137bc9a87915e2e91b88a53eb07e6754f4ef50a20531
   url: >-
     https://buildkiteassets.com/assets/blog/new_buildkite_logo-7f14ac73d7abd7df8abc137bc9a87915e2e91b88a53eb07e6754f4ef50a20531.svg
+- name: caicloud
+  fileName: src/logos/caicloud.png
+  sha256: 703abfa815d502186eb1cb3d2816dad87c7dd4ae6642c237dee2943ef03ee8e5
+  url: 'https://image.pitchbook.com/RNFCWpPvnzY5XE28UPpaYPlM6xB1498539307943_200x200'
+- name: caicloud-compass
+  fileName: src/logos/caicloud-compass.png
+  sha256: 703abfa815d502186eb1cb3d2816dad87c7dd4ae6642c237dee2943ef03ee8e5
+  url: 'https://image.pitchbook.com/RNFCWpPvnzY5XE28UPpaYPlM6xB1498539307943_200x200'
 - name: canal
   fileName: src/logos/canal.png
   sha256: 7a41588f012bd98e320c8531775d0d434d5fb523185c26c031cbf922c4b6602b
   url: >-
     https://raw.githubusercontent.com/projectcalico/canal/master/logos/canal-logo-type-full-color%20328x184.png
+- name: canonical
+  fileName: src/logos/canonical.png
+  sha256: 16da20e1940863dee9a4c273f411a5cc76342279f39be4b6c8168445750753b6
+  url: 'https://zentera.net/wp-content/uploads/2015/10/Canonical.png'
 - name: canonical-distribution-of-kubernetes
   fileName: src/logos/canonical-distribution-of-kubernetes.png
-  sha256: 5aa9261ddca7abf2012490a37deac04974259f96d9d28c7a5fe9fdc987f02db3
-  url: 'http://logo-logos.com/wp-content/uploads/2016/11/Ubuntu_logo_logotype.png'
+  sha256: 16da20e1940863dee9a4c273f411a5cc76342279f39be4b6c8168445750753b6
+  url: 'https://zentera.net/wp-content/uploads/2015/10/Canonical.png'
 - name: carbon-data
   fileName: src/logos/carbon-data.png
   sha256: 7439399a6d7715147ac82d0a25fbb11df2b9f3662fbd07713aadac311a20353e
@@ -230,33 +300,42 @@
   fileName: src/logos/circle-ci.png
   sha256: 8eb095b795a5325d10c3f474c8f96ea353ce89d1ca17dee8f6437e049522aeee
   url: 'https://assets.brandfolder.com/otz6qz-87qv1c-ipc6/view.png'
+- name: cisco-container-platform
+  fileName: src/logos/cisco-container-platform.png
+  sha256: 49f88fce187b33562436308ef8eda0adfdac883ca92542992c25fe98b24e780e
+  url: >-
+    https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Cisco_logo.svg/2000px-Cisco_logo.svg.png
 - name: clair
   fileName: src/logos/clair.png
   sha256: 6ab0196d2fead12e1e07679a4f737c114de47dda09b58cb59085eef5e101a016
   url: >-
     http://zdnet2.cbsistatic.com/hub/i/r/2016/03/18/c9a09a0a-1fcc-48c8-810b-cb1c0379a562/resize/770xauto/cc3c78f58099a9569a899e05ceabba3f/coreos-clair.jpg
+- name: claranet
+  fileName: src/logos/claranet.png
+  sha256: 2c75eb3c1bb66375823a70764494e31402df5148ad506edd37da478dedd56eb9
+  url: 'https://www.claranet.com/sites/all/themes/claranet_responsive_2015/logo.png'
+- name: clouber
+  fileName: src/logos/clouber.png
+  sha256: 8f064cfa167cb89cd710164055101a2f26ebbfc70bf6c9165c024791fc4ff535
+  url: 'https://s3.amazonaws.com/awsmp-logos/clouber.PNG'
 - name: cloud-coreo
   fileName: src/logos/cloud-coreo.png
   sha256: 1ed5ea13c365043a73fc5abf65f9156ef81edfce66a8ed01560eab61164d3780
   url: 'http://kb.cloudcoreo.com/images/company_logo.png'
-- name: cloud-formation
-  fileName: src/logos/cloud-formation.png
-  sha256: d16e3da1f0f4769e87722c07e90b55025d5f3eb8aa519c880533d53e913253ca
-  url: >-
-    https://media.licdn.com/mpr/mpr/AAEAAQAAAAAAAAi8AAAAJDg0Y2JmM2U2LTc0ODYtNGY5Ni04YzQxLTdmNmM4MjczNDMxMQ.png
-- name: cloud-foundry
-  fileName: src/logos/cloud-foundry.png
+- name: cloud-foundry-container-runtime
+  fileName: src/logos/cloud-foundry-container-runtime.png
   sha256: 25eebdf408b94558a87c7ba906d5abc6de7eeb4dc8339e449e8f97d47e40f578
   url: >-
     https://www.cloudfoundry.org/wp-content/uploads/2017/01/CFF_Logo_vertical_RGB.png
-- name: cloud-watch
-  fileName: src/logos/cloud-watch.png
-  sha256: 789df4c464938f3185f0a6ceaef3bc239ebae2a0d61b1a89aad2c3e553137cb6
-  url: 'http://truesightpulse.bmc.com/wp-content/uploads/2016/11/cloudwatch.png'
-- name: cloud66
-  fileName: src/logos/cloud66.png
-  sha256: 7d45932a9de5c5651fe606d238eb2344911122a58cb612405f21a80ede64695b
-  url: 'https://pbs.twimg.com/profile_images/875687479151644672/EqNiVriF_400x400.jpg'
+- name: cloud-ops
+  fileName: src/logos/cloud-ops.png
+  sha256: f613e3a215725f03b2519959794bec4e58474664143373e247b0a22a2d53a7ee
+  url: >-
+    https://user-images.githubusercontent.com/4029488/31637036-bf1cad18-b281-11e7-953d-ec976f962fc2.png
+- name: cloud66-maestro
+  fileName: src/logos/cloud66-maestro.png
+  sha256: b7b290ce4ed5392ac5fb67b056d38f7f3b9ebfb1288fc80d648d3350dee27ced
+  url: 'http://cloud66.com/images/cloud66-maestro-logo-c.png'
 - name: cloudbees
   fileName: src/logos/cloudbees.png
   sha256: 8eef8457945660dc43045d3fd62839f861fa9d371247f9644f2c9446bda39247
@@ -316,13 +395,18 @@
   sha256: 54b63fcce696063e373d3f7302c20c09be94805aff31360c7e80e5810a54610c
   url: >-
     https://raw.githubusercontent.com/alexcontini/alexcontini.github.io/master/ContainerPilot-logo%20(1)-01.png?raw=true
-- name: container-ship
-  fileName: src/logos/container-ship.png
+- name: container-ship-nck
+  fileName: src/logos/container-ship-nck.png
   sha256: bc2bb590a120067f9b5da58f5655afc59f75f131f65ff979e0684d05ef8603f8
   url: >-
     http://resumator.s3.amazonaws.com/customer_20150721151308_KZ8QDZPO4BOHCKCU/social_icons/20150825133703_containership_logo.png
-- name: container-storage-interface
-  fileName: src/logos/container-storage-interface.png
+- name: container-solutions
+  fileName: src/logos/container-solutions.png
+  sha256: 659631158679c70301108fd407bb93549532b030c0c6444a0c0351c7bb209331
+  url: >-
+    http://ww1.prweb.com/prfiles/2016/06/07/13471157/CS_logo_RGB_logo_primary.jpg
+- name: container-storage-interface-csi
+  fileName: src/logos/container-storage-interface-csi.png
   sha256: 89fb8979e24514fa4eb0247a990bea284a146a50e407e948a0ca8084492f4e02
   url: >-
     https://raw.githubusercontent.com/container-storage-interface/artwork/master/logo/PNG/01.png
@@ -331,6 +415,11 @@
   sha256: 755aaada70b7f27212e627a476fd4512798e2b32d257de170691ad5a95ff0517
   url: >-
     https://raw.githubusercontent.com/cncf/artwork/master/containerd/stacked/color/containerd-stacked-color.png
+- name: contino
+  fileName: src/logos/contino.png
+  sha256: 96a47a59c27ab37e986fb8849415eb164b8ee1f94010182e907bfc9523b2a383
+  url: >-
+    https://workablehr.s3.amazonaws.com/uploads/account/logo/152669/large_Contino_Logo_DarkGrey_Large_Web.png
 - name: contiv
   fileName: src/logos/contiv.png
   sha256: ff83536ba3c8bbfe3565092d2870f82cf3f5a2d74540c4c4c0a0970c60658339
@@ -344,6 +433,15 @@
   sha256: 932e11c7f650d6cbbddd4211baecdfef011df5854f0cb85ee63d91d38a80a385
   url: >-
     https://raw.githubusercontent.com/cncf/artwork/master/coredns/stacked/color/coredns-stacked-color.png
+- name: core-os-bootkube
+  fileName: src/logos/core-os-bootkube.png
+  sha256: 9cf4bca2a553def061fc54a79b4b8eb1f9581f58ce8be407ee94835c38476146
+  url: 'https://i.pinimg.com/originals/8d/4b/d4/8d4bd4b4011e8cd7c5c0b1478855f21d.jpg'
+- name: core-os-kcsp
+  fileName: src/logos/core-os-kcsp.png
+  sha256: 9cf4bca2a553def061fc54a79b4b8eb1f9581f58ce8be407ee94835c38476146
+  url: >-
+    https://s-media-cache-ak0.pinimg.com/originals/8d/4b/d4/8d4bd4b4011e8cd7c5c0b1478855f21d.jpg
 - name: couchbase
   fileName: src/logos/couchbase.png
   sha256: 85885455cc7b8355e2a6044491116616de331e675cac13c5e8d001821845c794
@@ -364,6 +462,16 @@
   sha256: e6c0c3978a610fe18a3380af387593f3cf9023c9723f3874c88436d88848f74b
   url: >-
     https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F33979767%2F108689379901%2F1%2Foriginal.jpg?w=800&rect=0%2C100%2C800%2C400&s=51632196d88bcd0efb885370c3f3bd94
+- name: dao-cloud
+  fileName: src/logos/dao-cloud.png
+  sha256: 1fde1c8b89ffb1d5d3e3008664029b4b3b2a54c9a939151ca46fa3d142657ccf
+  url: >-
+    https://opencollective-production.s3-us-west-1.amazonaws.com/6d959930-b283-11e7-aea9-770057e229d7.png
+- name: dao-cloud-enterprise
+  fileName: src/logos/dao-cloud-enterprise.png
+  sha256: 1fde1c8b89ffb1d5d3e3008664029b4b3b2a54c9a939151ca46fa3d142657ccf
+  url: >-
+    https://opencollective-production.s3-us-west-1.amazonaws.com/6d959930-b283-11e7-aea9-770057e229d7.png
 - name: datadog
   fileName: src/logos/datadog.png
   sha256: 0c4d0b39e8f3dab3b9842ded063a8b7dc7b79b88031a2562f8a20af9592a2208
@@ -378,11 +486,6 @@
   sha256: af763dd5de70e4c47ee6f89b0b2c2acdd26c4553282adb039157a4f7f49d5abf
   url: >-
     https://res.cloudinary.com/crunchbase-production/image/upload/v1476997797/y1u1jsyziagiptqdiy3f.jpg
-- name: dc-os
-  fileName: src/logos/dc-os.png
-  sha256: 4d169fb7bd0e63ec1a608dc9c2ed6ab272315a6adb426bd6dc603b432a2d9ea1
-  url: >-
-    https://raw.githubusercontent.com/alexcontini/alexcontini.github.io/master/DC.OS.logo-vertical-styled.png?raw=true
 - name: dell-emc
   fileName: src/logos/dell-emc.png
   sha256: 1f3a97a4cc8ff7183aedba0dc100192a2807b8d823187fd1c561e220b62a5b29
@@ -390,6 +493,10 @@
     https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Dell_EMC_logo.svg/500px-Dell_EMC_logo.svg.png
 - name: diamanti
   fileName: src/logos/diamanti.png
+  sha256: 87ad5dd6b0a9b3a18ff7127ad503e86cb32ac6431fa2800f15e301f07679ecfd
+  url: 'http://events.vmblog.com/images/dockercon/diamanti-logo-600.png'
+- name: diamanti-converged-container-infrastructure
+  fileName: src/logos/diamanti-converged-container-infrastructure.png
   sha256: 87ad5dd6b0a9b3a18ff7127ad503e86cb32ac6431fa2800f15e301f07679ecfd
   url: 'http://events.vmblog.com/images/dockercon/diamanti-logo-600.png'
 - name: digital-ocean
@@ -406,10 +513,10 @@
   sha256: 5a2a43f945b5d1e59831596b5b7dbfe60990c330b09f7455260e6bc8795ec55d
   url: >-
     https://crunchbase-production-res.cloudinary.com/image/upload/fknsopnhqyctio2vqpuh.png
-- name: docker-enterprise-edition-ee
-  fileName: src/logos/docker-enterprise-edition-ee.png
-  sha256: 670ce8060d7cb86bbff1f750d443c3319a5173046a5f4e4f1931e4806fbaeb85
-  url: 'https://www.docker.com/sites/default/files/vertical_large.png'
+- name: docker-ee-ce
+  fileName: src/logos/docker-ee-ce.png
+  sha256: 66f8004b281aaf7f5deb5361d62d6133b141f1fb83deced41295df9ea2cc44b8
+  url: 'http://blog.iron.io/wp-content/uploads/2016/01/platform-docker-logo.png'
 - name: docker-registry
   fileName: src/logos/docker-registry.png
   sha256: 91c524deffc3096915bf9dad2e201eaec6f06c78fe18f7fd7ac591d0f77e4879
@@ -431,6 +538,14 @@
   sha256: a9eb0288e002308885b6f5acf0e5d1caeb7f6728008076c84fdc2798a6fcaeb1
   url: >-
     https://crunchbase-production-res.cloudinary.com/image/upload/v1460640914/hyk187shdkxuov8iycdt.png
+- name: e-king-cloud-container-platform
+  fileName: src/logos/e-king-cloud-container-platform.png
+  sha256: 0a89be41b5593c07b405b26ac41fc99758e003beb8ea43a76bf22dad28d88530
+  url: 'http://www.chinatravelnews.com/images/201512/287461104de1f06f.jpg'
+- name: easy-stack-kubernetes-service-eks
+  fileName: src/logos/easy-stack-kubernetes-service-eks.png
+  sha256: 3829acf80d6921eb41df72aecffefcbf2a74f5e6a5448a90ae323b937b34883e
+  url: 'https://easystack.cn/static/cn/images/easystack-logo.png'
 - name: elastic
   fileName: src/logos/elastic.png
   sha256: 7da17acf2c1f9b3212254247565e9546406089e2c2a75d1ed76b69ad743528e5
@@ -487,6 +602,11 @@
   fileName: src/logos/flynn.png
   sha256: 262ad35f445dc1a83c99dc939902bcbd82fb81599ee67ca4f147c72ebe7a63e4
   url: 'https://flynn.io/images/flynn-acaf9509.svg'
+- name: fn
+  fileName: src/logos/fn.png
+  sha256: 96801d6824ae91044baa4edd9fbabf5c5948aba81757854c55f7af5fdc797fd7
+  url: >-
+    https://camo.githubusercontent.com/aad13cfe0e267f38143fd8cc6816ab8adde37a56/687474703a2f2f666e70726f6a6563742e696f2f696d616765732f666e2d333030783132352e706e67
 - name: foreman
   fileName: src/logos/foreman.png
   sha256: bc4b67b7ce16c32c5b4c1b2f44473c11f0c53c6d3126793e0707f7eda5b7cd90
@@ -506,11 +626,23 @@
   sha256: 4bb4a643f16136c934974ba546541be80659e17657792328aa23146cf3c67490
   url: >-
     https://media.licdn.com/mpr/mpr/AAEAAQAAAAAAAAYHAAAAJGU0Zjc4OGI2LTYzZmEtNGUxMC05ODE5LTVhMjI0OTM3NmI3ZA.png
+- name: ghostcloud
+  fileName: src/logos/ghostcloud.png
+  sha256: a776f9517899b95b3d6dae8b04ac39097bb1a6641a6b7ae38a7f63c833d703e2
+  url: 'https://assets.sdxcentral.com/ghostcloud-logo.png'
+- name: ghostcloud-ec-os
+  fileName: src/logos/ghostcloud-ec-os.png
+  sha256: a776f9517899b95b3d6dae8b04ac39097bb1a6641a6b7ae38a7f63c833d703e2
+  url: 'https://assets.sdxcentral.com/ghostcloud-logo.png'
 - name: giant-swarm
   fileName: src/logos/giant-swarm.png
-  sha256: 6acf6df5cc1cde2c9810c3920d03628a313cc3e76624ffb018586f2369cb2a97
+  sha256: a9f4794c78228d194259e07b167643a87f1e91930f0f33f142d686e18d04d61e
+  url: 'http://velrok.github.io/images/giantswarm_logo_standard.png'
+- name: giant-swarm-managed-kubernetes
+  fileName: src/logos/giant-swarm-managed-kubernetes.png
+  sha256: a471a8505c7e393f7b6aede7fd032eb5b21bb712eef8ed7d969353d8d238e56a
   url: >-
-    https://crunchbase-production-res.cloudinary.com/image/upload/v1409923504/woifk3fzca4pit2qa3pq.jpg
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/giant-swarm.png
 - name: git-hub
   fileName: src/logos/git-hub.png
   sha256: 4cc9a8fb3e81de922d5e4ed4424b7cb047ff559d14747c8d2b2fbc73d2e64783
@@ -548,6 +680,10 @@
   fileName: src/logos/google-container-registry.png
   sha256: a4a7d3ed9937a38af0fe011ecd0e147e583feebd9891dca758631751d5551849
   url: ./src/hosted_logos/google-containerregistry.png
+- name: google-kube-up
+  fileName: src/logos/google-kube-up.png
+  sha256: d640bc081060d125f8b82b62f93e5480ea53348cdbf852c8d00fc71aee13e14b
+  url: 'https://www.google.com/cloud/assets/press/Google_Cloud_Logo.png'
 - name: google-kubernetes-engine-gke
   fileName: src/logos/google-kubernetes-engine-gke.png
   sha256: a132549fff3f27d8b840a4d077ec125524f698b7a1fb47d029cb9b23e3e7628c
@@ -562,11 +698,11 @@
   sha256: 387e0a2685e46f6cf360fec52bf4424f6ac6c7f5d647001eb72b0ff4ec03c9e3
   url: >-
     http://blog-centreon-wordpress.s3.amazonaws.com/wp-content/uploads/2017/07/GraphiteLogo.png
-- name: gravitational
-  fileName: src/logos/gravitational.png
-  sha256: ae287d69e9f6414b2f1c77505bc49f772c31cc15fd517bc4fff115ea8a1f802e
+- name: gravitatonal-telekube
+  fileName: src/logos/gravitatonal-telekube.png
+  sha256: 16025ebdd603e27a1113066090882e73a33574e85916b142df063e4fd93adf48
   url: >-
-    https://crunchbase-production-res.cloudinary.com/image/upload/v1455650059/gpumyj6nwuvgyslcpnet.png
+    http://p6.zdassets.com/hc/settings_assets/1487247/115000080947/1LXmhqqWlVJFpwdDgxO4UQ-gravitational-logo-300in-width.png
 - name: graylog
   fileName: src/logos/graylog.png
   sha256: d38216a03b591fe974cc99f01a23c739887d892c9e2c45a0ffc3c375508ff9b1
@@ -592,10 +728,19 @@
   fileName: src/logos/haret.png
   sha256: 973386ccd2fdb444aa4162da7bcdec3a3943722186256bfab630d8c15e7733bf
   url: 'http://logodatabases.com/wp-content/uploads/2012/05/vmware-logo-black.jpg'
+- name: harmony-cloud-container-platform
+  fileName: src/logos/harmony-cloud-container-platform.png
+  sha256: 5144b3834e423d82c825bc1a1f36a61cc62d3b8769c6f05dd1b4707b23af6814
+  url: 'https://www.cncf.io/wp-content/uploads/2017/03/harmony-cloud-300x184.png'
 - name: hashicorp-vault
   fileName: src/logos/hashicorp-vault.png
   sha256: 832b704d5abd53fbff6873372bf0f304a598804e22c5a96e50a890b1d92bbeca
   url: 'https://hyzxph.media.zestyio.com/blog-vault-list.svg'
+- name: hasura
+  fileName: src/logos/hasura.png
+  sha256: 70cc09a296a013a5ffc4a79d4fd26d6454f519948005d550ae96c1473cc03af9
+  url: >-
+    https://d1qb2nb5cznatu.cloudfront.net/startups/i/820697-7da6f327870c08c1f39c09a0e1801b31-medium_jpg.jpg?buster=1441133201
 - name: hedvig
   fileName: src/logos/hedvig.png
   sha256: f0fca6c7bce1618695c85a49c491451ee295a9baf847847f815ddb1077925b89
@@ -605,6 +750,14 @@
   fileName: src/logos/helm.png
   sha256: f00c78c3d69449faaabd6e1a0de266432bbd88cf28a95e01c64c4318c23fcfcb
   url: 'https://helm.sh/assets/images/helm-logo.svg'
+- name: heptio
+  fileName: src/logos/heptio.png
+  sha256: fd52fef53f49a457c08e5a9722c259599d41b390df14ac73cb9eb3ca2ea60619
+  url: 'https://pbs.twimg.com/profile_images/907768517545443328/x0Jn6BwF.jpg'
+- name: heptio-quickstart-for-kubernetes
+  fileName: src/logos/heptio-quickstart-for-kubernetes.png
+  sha256: fd52fef53f49a457c08e5a9722c259599d41b390df14ac73cb9eb3ca2ea60619
+  url: 'https://pbs.twimg.com/profile_images/907768517545443328/x0Jn6BwF.jpg'
 - name: heroku
   fileName: src/logos/heroku.png
   sha256: 414f00de41b0942891e35c1023fc39ef30a6145cf61e37db217635acf68e0ea3
@@ -623,16 +776,26 @@
   sha256: 00218c486293473af97e9a16757de2479ed3a2e2c05b41a26deff6f34d32fdcb
   url: >-
     https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Huawei-optimized.svg/300px-Huawei-optimized.svg.png
+- name: huawei-cloud-container-engine-cce
+  fileName: src/logos/huawei-cloud-container-engine-cce.png
+  sha256: 80f7da1145a53df2813d83e45240ff88915921335e35b03353b66b2c2fece8a9
+  url: >-
+    https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Huawei.svg/2000px-Huawei.svg.png
+- name: huawei-fusion-stage
+  fileName: src/logos/huawei-fusion-stage.png
+  sha256: 80f7da1145a53df2813d83e45240ff88915921335e35b03353b66b2c2fece8a9
+  url: >-
+    https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Huawei.svg/2000px-Huawei.svg.png
+- name: huawei-kcsp
+  fileName: src/logos/huawei-kcsp.png
+  sha256: 80f7da1145a53df2813d83e45240ff88915921335e35b03353b66b2c2fece8a9
+  url: >-
+    https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Huawei.svg/2000px-Huawei.svg.png
 - name: hyper
   fileName: src/logos/hyper.png
   sha256: f790e20ba11f17b67b65e57fecdeb7eb21ac35745cac4da28be6273b7913c215
   url: >-
     https://user-images.githubusercontent.com/1701782/29462984-a8451220-8463-11e7-84a0-739418f027f1.png
-- name: hyperbahn
-  fileName: src/logos/hyperbahn.png
-  sha256: f57ac54a78b5a2c06323ad2ca0848834d5a477d0cdfe42ceb67069717f7d08fe
-  url: >-
-    http://thriftyzone.thriftysigns.netdna-cdn.com/image/cache/data/decals/travel/uber-logo-decal-sticker-uber-logo-500x500.png
 - name: hystrix
   fileName: src/logos/hystrix.png
   sha256: c2ec8d16a7cf32f3ac507e3abb6a50ecae725ee4816b1322b885e4a52234e4db
@@ -640,6 +803,18 @@
     https://camo.githubusercontent.com/e871b5d002a9699e7a2d9fa0178af5c72f0743e0/68747470733a2f2f6e6574666c69782e6769746875622e636f6d2f487973747269782f696d616765732f687973747269782d6c6f676f2d7461676c696e652d3835302e706e67
 - name: ibm-cloud
   fileName: src/logos/ibm-cloud.png
+  sha256: 43f610113418bbbc49c0aae481bd543020d39427277c2b4b265adb2923e2f2f6
+  url: ./src/hosted_logos/ibm-cloud.png
+- name: ibm-cloud-container-service
+  fileName: src/logos/ibm-cloud-container-service.png
+  sha256: 43f610113418bbbc49c0aae481bd543020d39427277c2b4b265adb2923e2f2f6
+  url: ./src/hosted_logos/ibm-cloud.png
+- name: ibm-cloud-kcsp
+  fileName: src/logos/ibm-cloud-kcsp.png
+  sha256: 43f610113418bbbc49c0aae481bd543020d39427277c2b4b265adb2923e2f2f6
+  url: ./src/hosted_logos/ibm-cloud.png
+- name: ibm-cloud-private
+  fileName: src/logos/ibm-cloud-private.png
   sha256: 43f610113418bbbc49c0aae481bd543020d39427277c2b4b265adb2923e2f2f6
   url: ./src/hosted_logos/ibm-cloud.png
 - name: ibm-db2
@@ -677,6 +852,14 @@
   fileName: src/logos/intel-clear-containers.png
   sha256: b62c3619a2ce08a8dcd72d5077907e6c71c34b07bfe24380fcfa5ad838c5f26e
   url: 'https://cdn.thenewstack.io/media/2015/11/ClearContainers.jpg'
+- name: inwin-stack-inc
+  fileName: src/logos/inwin-stack-inc.png
+  sha256: 0b834687efe786f6b25641e75f561b8886cb8a83f7a26b787ead61b05f324303
+  url: 'https://pbs.twimg.com/profile_images/913967961135661056/llUSv_YQ_400x400.jpg'
+- name: inwin-stack-kube-ansible
+  fileName: src/logos/inwin-stack-kube-ansible.png
+  sha256: 0b834687efe786f6b25641e75f561b8886cb8a83f7a26b787ead61b05f324303
+  url: 'https://pbs.twimg.com/profile_images/913967961135661056/llUSv_YQ_400x400.jpg'
 - name: iron-db
   fileName: src/logos/iron-db.png
   sha256: 8e67b5dda26563a0378451de1e8e49e56fe76a2048e5b4fe8abd4086a4a1b99d
@@ -701,17 +884,26 @@
   fileName: src/logos/jenkins.png
   sha256: 328acffeaf576479b8952012bc86798d7171a43708b0dff146d5a20f60f826ba
   url: 'https://wiki.jenkins.io/download/attachments/2916393/logo-title.png'
+- name: jetstack
+  fileName: src/logos/jetstack.png
+  sha256: b0953c600892609fde06f5c0528cf4043df63617a47ee4ef2e415e0c64489594
+  url: 'https://www.jetstack.io/img/png/newlogoblack.png'
 - name: joyent
   fileName: src/logos/joyent.png
   sha256: 0502e497a4b722973770ccf6e74e9d3ec1ea0583d3135b65f79b749f4aa77b79
   url: 'https://upload.wikimedia.org/wikipedia/commons/9/96/Joyent-logo.png'
+- name: joyent-triton-kubernetes-managed-service
+  fileName: src/logos/joyent-triton-kubernetes-managed-service.png
+  sha256: 2eb343dd1b7ef294efed3dc2177a1f52f7bf8dc1fc4bee3dfedfd73f25481228
+  url: >-
+    https://p6.zdassets.com/hc/settings_assets/150338/200244868/L3CnsFFWx4OJFUp2C7uUWA-joyentLogo.png
 - name: juju
   fileName: src/logos/juju.png
   sha256: dc833bb8320adde3e061d8a41873a9e95a1dee63672da929546ad50b27160de9
   url: 'https://design.canonical.com/wp-content/uploads/2011/10/juju-464x252.png'
 - name: kafka
   fileName: src/logos/kafka.png
-  sha256: c65b27b092b78b9281773303fc871755726a4255bf7868f6c26a363688408e0c
+  sha256: ae7ac9dd39e0ca0d5cd259ea6b97e5ed3817146481af82637ce38e5153b7160d
   url: 'https://www.vectorlogo.zone/logos/apache_kafka/apache_kafka-card.png'
 - name: kasten
   fileName: src/logos/kasten.png
@@ -720,17 +912,16 @@
     https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAx9AAAAJDg5NzcxMTk0LTdhNzItNGI1Ny04OTAzLTA2Zjc1NjNiOTY2ZQ.png
 - name: keywhiz
   fileName: src/logos/keywhiz.png
-  sha256: 442ce6df6dcda9db6f52d1cbcf2452bc2ab912f317ad55c52b0b8506c3fda4c7
-  url: 'https://avatars0.githubusercontent.com/u/82592?v=4&s=200'
-- name: kinesis
-  fileName: src/logos/kinesis.png
-  sha256: 823d42210b9e5b25b1ef58804c8ca1838e93fe95913487026364ca91b9a03392
-  url: 'https://i0.wp.com/www.awsomeblog.com/wp-content/uploads/2016/04/kinesis.png'
+  sha256: a8eca7dd90841a6da931c221602cafec0482a814e0f385842eca58254b814c32
+  url: ./src/hosted_logos/square-keywhiz.png
+- name: kinvolk-kube-spawn
+  fileName: src/logos/kinvolk-kube-spawn.png
+  sha256: 2bf271388db2afc895c1c642cb867151eb3c71c3763960f0e68094202919dab9
+  url: 'https://www.cncf.io/wp-content/uploads/2017/03/kinvolk_logo-1.png'
 - name: knox
   fileName: src/logos/knox.png
-  sha256: 17a07f8e48f40589751b57ff18201fc99a9eae9d7246957fa73960b728dbe378
-  url: >-
-    https://seeklogo.com/images/P/pinterest-badge-logo-82C89A5E42-seeklogo.com.png
+  sha256: fe6c96e2b0c18d6fef18e6b6337a51d873384b638fa3b37a0f6cc4c1a095ac8f
+  url: ./src/hosted_logos/pinterest-knox.png
 - name: kong
   fileName: src/logos/kong.png
   sha256: 2c5b97e59caa272484e1139782dbbfdf5c1880dafdb7aedb038e24d3b1b3deed
@@ -751,10 +942,6 @@
   sha256: 6e470e9d64faa14b9ddf4373eebcee059919789f96a0af9d4930bc1b8cc8bc8e
   url: >-
     https://s3-us-west-2.amazonaws.com/assets.site.serverless.com/blog/kubeless.png
-- name: kubermatic
-  fileName: src/logos/kubermatic.png
-  sha256: c5f42819bfb12a09eb2618de90aac8cf2c99a1eb35ee8a69bcfeea8cd5ed6de8
-  url: 'https://pbs.twimg.com/media/C8FWtMNW4AAIUt8.png'
 - name: kubernetes
   fileName: src/logos/kubernetes.png
   sha256: 097c7e15346b602d0cf3f3b433c83b5f5119b75705c3a175e7ea5f6f6d49af38
@@ -767,12 +954,8 @@
     https://raw.githubusercontent.com/kris-nova/kubicorn/master/docs/img/kubicorn-trans.png
 - name: kublr
   fileName: src/logos/kublr.png
-  sha256: a54484ab8a5dfc891fb09024cc35aa49bc14f5d4937267b69eca5941961112d2
-  url: 'http://kublr.com/logo'
-- name: lambda
-  fileName: src/logos/lambda.png
-  sha256: bd904bb6f5e8d2d14a101a5126543c50fd694450efe77b1863f8c3faf9a6520f
-  url: 'https://clouda-assets.s3.amazonaws.com/upload/54d0e409d287c266042be5f5.png'
+  sha256: 971c5b7d1f1a9ccd2a86146d194699a1c3c0f2a13c2f32b146334934519d42c1
+  url: 'http://kublr.com/images/KublrLogo.svg'
 - name: leo-fs
   fileName: src/logos/leo-fs.png
   sha256: a7d5385d0ee93e617ce7f2149f06d9c6497ddbcd790d667c2a95cd37dd5837c3
@@ -806,6 +989,10 @@
   fileName: src/logos/linux-kit.png
   sha256: 23c64d54feacecf98f1bbaa6455804a007c19b21a8858530a4dba5d3fdc9a374
   url: 'https://ordina-jworks.github.io/img/dockercon2017/linux-kit.png'
+- name: live-wyer
+  fileName: src/logos/live-wyer.png
+  sha256: 99b80bbdfa3a9a1a7530820febb122518198d99afec2ec0be5a95f43b7cb5d62
+  url: 'https://pbs.twimg.com/profile_images/658665833888133120/j-xRn1_v_400x400.jpg'
 - name: log-analytics
   fileName: src/logos/log-analytics.png
   sha256: 0cecbf47578aa57a2828ede8632097c48f41d21d39080c40aff7f6971d4243c1
@@ -819,6 +1006,14 @@
   fileName: src/logos/logz.png
   sha256: 37d0785a42e68fb5f031a7c89bbbda5655adf74900109b04fc41a4b926fa4a70
   url: 'https://logz.io/wp-content/uploads/2015/09/logzio.png'
+- name: loodse
+  fileName: src/logos/loodse.png
+  sha256: 4348bdc25369c5297b85e458f216cefda637247f2c89c138ffb2afb423b2cb2c
+  url: 'https://pbs.twimg.com/profile_images/826839537750048772/ThKLTvI2.jpg'
+- name: loodse-kubermatic
+  fileName: src/logos/loodse-kubermatic.png
+  sha256: c5f42819bfb12a09eb2618de90aac8cf2c99a1eb35ee8a69bcfeea8cd5ed6de8
+  url: 'https://pbs.twimg.com/media/C8FWtMNW4AAIUt8.png'
 - name: loom-systems
   fileName: src/logos/loom-systems.png
   sha256: 100102ed11159597c924daf456b33d8b252702c6e2cc0f1b5c1dda29cac5ee84
@@ -868,6 +1063,10 @@
   sha256: 9b226d752266f87595de074037a5c7ee1409a3b3faf94406204145ec8700e850
   url: >-
     https://mapr.com/blog/my-experience-running-docker-containers-on-mesos/assets/apache-mesos-logo.jpg
+- name: mesosphere-kubernetes-on-dc-os
+  fileName: src/logos/mesosphere-kubernetes-on-dc-os.png
+  sha256: 99f2ff5d422c49c08c5dd9bcdc84176b5acc7b6aa0a40a830bd57a38e3bc1641
+  url: 'https://mesosphere.com/wp-content/uploads/2017/11/mesosphere-logo.png'
 - name: microsoft-azure-service-fabric
   fileName: src/logos/microsoft-azure-service-fabric.png
   sha256: 7aff54244d3b0496b5b782d80c7af8743460d26dd89c7b9d578f81efcf7c6804
@@ -886,16 +1085,16 @@
   fileName: src/logos/minio.png
   sha256: 97c16e1517ca8108a7ceb2426c3fb4d07e2b98ca41f9a93f1fe1ae66f2da1298
   url: 'https://www.cloudfoundry.org/wp-content/uploads/2017/01/Minio-logo_1_1_.png'
-- name: mirantis
-  fileName: src/logos/mirantis.png
+- name: mirantis-cloud-platform
+  fileName: src/logos/mirantis-cloud-platform.png
   sha256: 8223c11375c2441bf4a5c567d48060a24f8f358e191b39dd3432ee58f2a40125
   url: >-
     https://www.mirantis.com/wp-content/uploads/2017/01/mirantis-logo-2color-rgb-transparent.png
-- name: moby
-  fileName: src/logos/moby.png
-  sha256: f90f491b2e90a78df8466cf8c44003e0e1a33d327967535f944fe2596701cb88
+- name: mirantis-kcsp
+  fileName: src/logos/mirantis-kcsp.png
+  sha256: 8223c11375c2441bf4a5c567d48060a24f8f358e191b39dd3432ee58f2a40125
   url: >-
-    https://raw.githubusercontent.com/moby/moby/moby/docs/static_files/moby-project-logo.png
+    https://www.mirantis.com/wp-content/uploads/2017/01/mirantis-logo-2color-rgb-transparent.png
 - name: mongo-db
   fileName: src/logos/mongo-db.png
   sha256: 08a56a0f22d60dcead9509f2bda8b11443b75a5a76559dca71e2d20ac563bb28
@@ -919,14 +1118,17 @@
   url: 'https://i2.wp.com/rishidot.com/wp-content/uploads/2017/02/NATS_logo.png'
 - name: navops
   fileName: src/logos/navops.png
-  sha256: ddfbca94053d953860a5aca23bb1fa5657309437b0682920de04dedf91386d91
-  url: >-
-    https://lh3.googleusercontent.com/-OdE5v5Nid1U/V9qqnXxTlBI/AAAAAAAAA3w/uL4GdnurvjomJWLxe44yI4GpRItsqNGqwCJoC/w2066-h867/navops-byUniva-Logo-RGB.jpg
+  sha256: fe68b6f5166cfea53302f277b58a25a316947d60f39e49122033363ecd10db61
+  url: 'http://www.univa.com/img/navops-byUniva-Logo2-01.png'
 - name: net-app
   fileName: src/logos/net-app.png
   sha256: 5dac067845cbe8a72694344b2c192a5db9eda18021bd41a66cf100bcec36253a
   url: >-
     https://crunchbase-production-res.cloudinary.com/image/upload/v1415386322/w3lnij5oqhxqvlf5jq5c.jpg
+- name: netease-container-service-dedicated
+  fileName: src/logos/netease-container-service-dedicated.png
+  sha256: 1d88fa3549240054c1485f0f89935ff54bc5046c5e54bd7ef1cb56baefdabe6d
+  url: 'https://www.cncf.io/wp-content/uploads/2017/11/NetEase-Cloud-logo-300x48.jpg'
 - name: netsil
   fileName: src/logos/netsil.png
   sha256: 6917a4e568f1246d3810f298cb67e1011c2561ffad5e04f6535f46f3d8083b5a
@@ -943,11 +1145,16 @@
   fileName: src/logos/nginx.png
   sha256: 023a3e90a5c41e6c99673b5aa54227ca40a5c62ec5fc70a237b59662771c7abc
   url: 'https://cdn-1.wp.nginx.com/wp-content/themes/nginx-theme/assets/img/logo.png'
-- name: nirmata
-  fileName: src/logos/nirmata.png
-  sha256: ad4b041c15a05788e87104ee8b983cc5a0d9bef30e78f494bc88f5ed1dec2a1f
+- name: nirmata-kcsp
+  fileName: src/logos/nirmata-kcsp.png
+  sha256: 697b06ab160f6e895dce99bac4ae33fc816cba56776b0dfe1e86a777208dd46f
   url: >-
-    https://www.nirmata.com/wp-content/uploads/2017/11/vertical-color-small-01.png
+    https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco/v1501447457/hzaahdettnwjbpyuenjf.png
+- name: nirmata-managed-kubernetes
+  fileName: src/logos/nirmata-managed-kubernetes.png
+  sha256: 697b06ab160f6e895dce99bac4ae33fc816cba56776b0dfe1e86a777208dd46f
+  url: >-
+    https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco/v1501447457/hzaahdettnwjbpyuenjf.png
 - name: node-source
   fileName: src/logos/node-source.png
   sha256: 56c4fae287c3f4e118123ddb9c91c4b145dd10f5ca2464b10ba8b6be3643c987
@@ -981,7 +1188,7 @@
     https://www.iguazio.com/wp-content/uploads/2017/11/Nuclio_Final-03-1024x470.png
 - name: octopus-deploy
   fileName: src/logos/octopus-deploy.png
-  sha256: e7d5c10510a57a6da0b37d84353f094f4fd114ba24e9a18bfb61b9d437045e2c
+  sha256: 35211771bf72401852068ba406b43f87a9d9db512e52ef7837f8f01584f338aa
   url: >-
     https://i.octopus.com/blog/201605-logo-text-blueblacktransparent-800_rgb-XGYC.png
 - name: op-beat
@@ -1038,8 +1245,9 @@
   url: 'http://opentsdb.net/img/logo_header.png'
 - name: open-v-switch
   fileName: src/logos/open-v-switch.png
-  sha256: e6c9986f8ad8f5dc9ae6f5d5942e178b0858146541d96e83b8b8a8eb2fe95ccf
-  url: 'http://openvswitch.org/assets/vswitch.png'
+  sha256: 68f6569944fc683b713cc1417765b02f4343ee4f4070406ba8a8dfebdd77ba64
+  url: >-
+    https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Open_vSwitch_Logo.svg/1200px-Open_vSwitch_Logo.svg.png
 - name: open-whisk
   fileName: src/logos/open-whisk.png
   sha256: e36fe90a1af5f6b141a9e288081c09bed3a39a2565e8f3d846671fa57eea7803
@@ -1063,11 +1271,23 @@
   fileName: src/logos/oracle-cloud.png
   sha256: 657caafa22ba50289d0636a10dd96e51bcb04cdd70a71b2ada58112d0e419799
   url: 'http://sabeo.com/wp-content/uploads/2017/05/OracleCloud_logo300.png'
+- name: oracle-container-engine
+  fileName: src/logos/oracle-container-engine.png
+  sha256: 6d649210f097159d6a589c70f4f5d9eca246bab78825d68c5e670e3a8fc430fe
+  url: 'http://1000logos.net/wp-content/uploads/2017/04/Oracle-Logo.png'
+- name: oracle-linux-container-services
+  fileName: src/logos/oracle-linux-container-services.png
+  sha256: 6d649210f097159d6a589c70f4f5d9eca246bab78825d68c5e670e3a8fc430fe
+  url: 'http://1000logos.net/wp-content/uploads/2017/04/Oracle-Logo.png'
 - name: oracle-policy-automation
   fileName: src/logos/oracle-policy-automation.png
   sha256: 476ac0353d52a419cdd53d84a1120e5794d8f4e702320a3a0281548fdcdd6f08
   url: >-
     https://yt3.ggpht.com/-lHhZ9YacajM/AAAAAAAAAAI/AAAAAAAAAAA/v-C_eNK_oF8/s900-c-k-no-mo-rj-c0xffffff/photo.jpg
+- name: oracle-terraform-kubernetes-installer
+  fileName: src/logos/oracle-terraform-kubernetes-installer.png
+  sha256: 6d649210f097159d6a589c70f4f5d9eca246bab78825d68c5e670e3a8fc430fe
+  url: 'http://1000logos.net/wp-content/uploads/2017/04/Oracle-Logo.png'
 - name: outlyer
   fileName: src/logos/outlyer.png
   sha256: ed63246279e160fea150b8b01ca70d24be9379ba526ad3b4967bce8161909657
@@ -1093,17 +1313,18 @@
   sha256: 72f0b0e550be9a6e61361a9230387a8ad7360388100f80d9bc06d8e76e783b78
   url: >-
     https://user-images.githubusercontent.com/7989673/29498525-38a33f36-85cc-11e7-938d-ef6f10ba6fb3.png
-- name: photon
-  fileName: src/logos/photon.png
-  sha256: a83e9545d4720ee988e0ccccd1b06fae995b923fcdfa69006cce06e8bb571cc4
-  url: 'http://www.vmtocloud.com/wp-content/uploads/2016/05/Photon_featured.jpeg'
+- name: pivotal-container-service-pks
+  fileName: src/logos/pivotal-container-service-pks.png
+  sha256: 9bcfe73e5cb68e2f168668fe6a41422638711ffcb710c44697b6131d222584f1
+  url: >-
+    https://newrelic.cdn.prismic.io/newrelic/4080a2492514766cbfaddd717b4b0ab5e761b277_pivotal_logo.png
 - name: platform-sh
   fileName: src/logos/platform-sh.png
   sha256: ef054218c04f5cf1bd513d97ad0e602f30d3c4414dc82cd5644ac49bb0319ca0
   url: >-
     https://media.licdn.com/mpr/mpr/shrink_200_200/AAEAAQAAAAAAAAK4AAAAJDllNWYyMDRlLWUyNTMtNDk3YS05YmRiLWI5NTU3M2EwNWViNQ.png
-- name: platform9
-  fileName: src/logos/platform9.png
+- name: platform9-managed-kubernetes
+  fileName: src/logos/platform9-managed-kubernetes.png
   sha256: f87030b045aec88169bf5f654008bd9a65cb328f6d88f80cb757d87b782673ad
   url: 'https://hostadvice.com/wp-content/uploads/2017/07/Platform9-LogoStacked.png'
 - name: plumgrid
@@ -1182,17 +1403,13 @@
   url: 'https://neoteric.eu/wp-content/uploads/2016/06/rabbitmq_logo.png'
 - name: rancher
   fileName: src/logos/rancher.png
-  sha256: d8204b6e1a1b09e58d18b8464d5dcdb59656b00f225cff891a86e8b55c80abe3
+  sha256: a3064fa236d7ea769e6961ddcb8d1d02e96f9f851ed91744b6b40e4ad83e12ff
   url: >-
-    http://cdn.rancher.com/wp-content/uploads/2017/02/05132759/rancher-logo_stacked-full-color-1.jpg
+    https://cloudssky.com/.galleries/images/rancher-logo-stacked-color.png?__scale=w:400,h:203,c:transparent
 - name: redis
   fileName: src/logos/redis.png
   sha256: f01da33447323db3938cda598f7649eda71267a8285b724d53e6b1b73204d61b
   url: 'https://blog.newrelic.com/wp-content/uploads/redis.png'
-- name: registrator
-  fileName: src/logos/registrator.png
-  sha256: 06a78f9a62a33273f4902d23afc64b0ef67d4b9de5d8f07ffe1a68c354405dfb
-  url: 'https://avatars2.githubusercontent.com/u/8484931'
 - name: rethink-db
   fileName: src/logos/rethink-db.png
   sha256: 04e189b36fa1e6a66bc03329b0c2394604d2632f110e78e0f4904c2c8829d87d
@@ -1242,16 +1459,33 @@
   sha256: 47709da35f924b88e19aa7dc473add55ce0185322c7c21a6508767963a88cfaa
   url: >-
     http://cdn.dev.classmethod.jp/wp-content/uploads/2015/08/rundeck_eyecatch.png
+- name: rx-m-llc
+  fileName: src/logos/rx-m-llc.png
+  sha256: 4022b81282323dfc9e1cfeed996a7232380c743d4fd277d7d86f8e9570eacc88
+  url: 'http://rx-m.com/wp-content/uploads/2017/12/RX-M-logo-999999-17479E-CNC.svg'
 - name: salt-stack
   fileName: src/logos/salt-stack.png
   sha256: d25007a3a5f99c5da9a13f41bc94edb1a3c71f00a8cf75fc16cbfd7091185ca3
   url: >-
     https://crunchbase-production-res.cloudinary.com/image/upload/ddd2130f2a69731ce90ebf4fc205866f.jpg
+- name: samsung-kraken
+  fileName: src/logos/samsung-kraken.png
+  sha256: a9f26199d29d1ea27c258cf7704311dfb3f1ca606188b564b6006bb149cc1a9e
+  url: 'https://databricks.com/wp-content/uploads/2015/06/samsung_sds_logo.png'
+- name: samsung-sds
+  fileName: src/logos/samsung-sds.png
+  sha256: a9f26199d29d1ea27c258cf7704311dfb3f1ca606188b564b6006bb149cc1a9e
+  url: 'https://databricks.com/wp-content/uploads/2015/06/samsung_sds_logo.png'
 - name: sanproute
   fileName: src/logos/sanproute.png
   sha256: 6b58f2db3985356d86e832085285b6524a380e1f6e752c9581bab7bc7ffca5b8
   url: >-
     https://1v51ha1y9z9f2hpq55t67p7a3u-wpengine.netdna-ssl.com/wp-content/uploads/2016/12/snaproute-logo-2016.jpg
+- name: sap-cloud-platform-gardener-aws-azure-gce
+  fileName: src/logos/sap-cloud-platform-gardener-aws-azure-gce.png
+  sha256: c84e092cdceebcda62819a0b65775d44bfbd7954976e8a97ddd27fcdb679d274
+  url: >-
+    https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/SAP_2011_logo.svg/2000px-SAP_2011_logo.svg.png
 - name: scaleway
   fileName: src/logos/scaleway.png
   sha256: 3ede756734a2d51c2efc430415be13c7302114f4593ba51dc9cc619fd1805880
@@ -1342,7 +1576,7 @@
   url: 'https://spark.apache.org/images/spark-logo-trademark.png'
 - name: spiffe
   fileName: src/logos/spiffe.png
-  sha256: 2d499c5e5deffcd561e52d87736eb00258ee1cf2204d496f4eac4c31274cf513
+  sha256: 6c458d00686e676d843f5f966f1146bea6b2e148cc4ebac592c98d7205c0172d
   url: 'https://spiffe.io/img/spiffe-logo-color-basic.svg'
 - name: spinnaker
   fileName: src/logos/spinnaker.png
@@ -1377,8 +1611,12 @@
     https://seeklogo.com/images/M/microsoft-sql-server-logo-96AF49E2B3-seeklogo.com.png
 - name: stack-point-cloud
   fileName: src/logos/stack-point-cloud.png
-  sha256: 2a32fad3f4acab6008362a30b909778e3e4c3b03f58971c2ad24e4accf528f2e
-  url: 'http://www.sysdigccwfs.com/wp-content/uploads/2016/09/stackpointcloud.png'
+  sha256: 5400fa438de818e2e021f3adfbed917c4eef3f0afe131fff42cd43f77b8ddcd3
+  url: 'https://www.cncf.io/wp-content/uploads/2016/09/logo_stackpointcloud.png'
+- name: stack-point-cloud-spc
+  fileName: src/logos/stack-point-cloud-spc.png
+  sha256: 5400fa438de818e2e021f3adfbed917c4eef3f0afe131fff42cd43f77b8ddcd3
+  url: 'https://www.cncf.io/wp-content/uploads/2016/09/logo_stackpointcloud.png'
 - name: stack-rox
   fileName: src/logos/stack-rox.png
   sha256: 53bc04f13fc378133de071a3754829f7667da8c9ac2fdd64de90dcdb42f965df
@@ -1396,6 +1634,10 @@
   fileName: src/logos/storage-os.png
   sha256: d8092a804b65a9c8bfc6ddf2187771675abd7b0c83237e495b837614fac51342
   url: 'https://pbs.twimg.com/profile_images/847754903300616192/Y9Vt22jx_400x400.jpg'
+- name: stratoscale-symphony
+  fileName: src/logos/stratoscale-symphony.png
+  sha256: 196247271ac8ef09eae6760ce4ae316fc374fdc8cb7e09507f29d9e67f2f30a5
+  url: 'https://www.stratoscale.com/wp-content/uploads/logoverticalpositivo.png'
 - name: stream-sets
   fileName: src/logos/stream-sets.png
   sha256: 520736e1ea30c22be1bf6bbdd2c3f3d2c955ea19f7741dbf8cd45e4f8249de77
@@ -1408,13 +1650,19 @@
     https://www.cloudfoundry.org/wp-content/uploads/2017/10/icon_sumologic_v2@2x.png
 - name: supergiant
   fileName: src/logos/supergiant.png
-  sha256: 187a2ba3f99aa8f895e502993110830178a1eba833b283789c056970264b6547
-  url: 'https://supergiant.io/uploads/files/supergiant-logo.png'
-- name: suse-caa-s-platform
-  fileName: src/logos/suse-caa-s-platform.png
-  sha256: 51d379480424de4e91594cd2fd64bd1f0de7f075da4af8d7390d57273e62623b
+  sha256: c80f458ad46013a2024dd5e29d77dae425be88cd40c8b859b0b3d4aa3c990b4d
   url: >-
-    https://user-images.githubusercontent.com/5948137/32596616-37fe60b8-c534-11e7-8682-bd9200a6c4d1.png
+    https://media.licdn.com/mpr/mpr/shrink_200_200/AAEAAQAAAAAAAA3pAAAAJDA4MmJlMGI2LTkwOTgtNDEzNi1hNGI4LWE1NWZkNjA3ZTljMg.png
+- name: supergiant-kcsp
+  fileName: src/logos/supergiant-kcsp.png
+  sha256: c80f458ad46013a2024dd5e29d77dae425be88cd40c8b859b0b3d4aa3c990b4d
+  url: >-
+    https://media.licdn.com/mpr/mpr/shrink_200_200/AAEAAQAAAAAAAA3pAAAAJDA4MmJlMGI2LTkwOTgtNDEzNi1hNGI4LWE1NWZkNjA3ZTljMg.png
+- name: suse-container-as-a-service-platform
+  fileName: src/logos/suse-container-as-a-service-platform.png
+  sha256: 444256ebd2b1d0b86c107c28f3472cc62f7ef0f15e6d3abe4b759051cf2c40e5
+  url: >-
+    https://www3.lenovo.com/medias/lenovo-systems-solutions-suse-cloud.png?context=bWFzdGVyfHJvb3R8ODg5NHxpbWFnZS9wbmd8aDBhL2g0OC85NDQ4OTkzODE2NjA2LnBuZ3w0ODZkYjYwMDYyNTg2MjNkZDRiODYxYTJiODFkNjI2NzExYWM0YjcyMTNmMzU3YzI2N2ZkYzYyOWYyZDQxMjg0
 - name: swift
   fileName: src/logos/swift.png
   sha256: 4636e0c8aed46641f25a290ad81b374a235b801ca07fed413ea4b1ae6a3121e7
@@ -1432,6 +1680,14 @@
   fileName: src/logos/tencent-cloud.png
   sha256: aecd05336a8a3532924ff369414f2ba6e3dc9e1add3ba903953b9fc278b36e94
   url: 'https://pbs.twimg.com/profile_images/852439695199846400/OqpOmsZ0_400x400.jpg'
+- name: tencent-cloud-container-service-ccs
+  fileName: src/logos/tencent-cloud-container-service-ccs.png
+  sha256: 3e0d02e81cb443783dc0089d071c7c4928bb5f90da18e7ec867604cab17aeb40
+  url: 'https://www.cncf.io/wp-content/uploads/2017/05/logo_tencent-300x184.png'
+- name: tenx-cloud-container-engine-tce
+  fileName: src/logos/tenx-cloud-container-engine-tce.png
+  sha256: 9f207cafb371f020df40beae25db0785c343e4426cf6ee543c59bdab22bfda37
+  url: 'https://www.cncf.io/wp-content/uploads/2017/11/tenxcloud.png'
 - name: terraform
   fileName: src/logos/terraform.png
   sha256: 3d65de80d7c07905945d930b8ba0e34e46eed0c5b4063ea55b96d005d6ed069b
@@ -1455,6 +1711,11 @@
   fileName: src/logos/travis.png
   sha256: e2f839c66f8d7138d47843053872935cee7c534f3750421f2c19e483fb75f040
   url: 'http://dearkumar.com/wp-content/uploads/2016/08/Travis-CI-logo.jpg'
+- name: treasure-data
+  fileName: src/logos/treasure-data.png
+  sha256: 69e6a9a9a3b991553a06d70c3ca44ca0028b46df42669af55f8afd69a00cb17d
+  url: >-
+    https://d1eipm3vz40hy0.cloudfront.net/images/p-apps-marketplace/apps/87957/logo.png
 - name: tsuru
   fileName: src/logos/tsuru.png
   sha256: 82dd519bcf0cf37746861c7bfb54c2668b60f5ad7f32771d9857a6e27b454afb
@@ -1469,6 +1730,10 @@
   sha256: 921f9a886ea8b6615c19b5c99526793623ea70257ffd91f4e944e8ec841e00e2
   url: >-
     https://d7umqicpi7263.cloudfront.net/img/product/1fd6301a-a20f-4c14-9e07-3d0f3c0b37fc/e622e016-ff30-4a92-aadc-f749fa9dca86.png
+- name: typhoon
+  fileName: src/logos/typhoon.png
+  sha256: 2b16996277e096f3fe0ec4888c27bc98b8bdfc31f05023088099ad6591d24636
+  url: 'https://kubernetes.io/images/square-logos/poseidon.png'
 - name: v-mware
   fileName: src/logos/v-mware.png
   sha256: 2c760df8c2264f6cc7e9b15b908213b72a395c3fe22ca5cf1c85f633477f1d2d
@@ -1486,6 +1751,11 @@
   sha256: e758a7fb4f337c65aa313dad151dc7007cf6ede2d6d405b57677811c0974e10d
   url: >-
     https://raw.githubusercontent.com/cncf/artwork/master/vitess/stacked/color/vitess-stacked-color.png
+- name: vm-ware-pivotal-container-service-pks
+  fileName: src/logos/vm-ware-pivotal-container-service-pks.png
+  sha256: cdceeb740257c0bb61f4598357c8f27f1796ae26597d71acc566430ff7278f71
+  url: >-
+    https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Vmware.svg/1000px-Vmware.svg.png
 - name: wavefront
   fileName: src/logos/wavefront.png
   sha256: 46b3f59ff4f2ab80e5f92f6e76d1a7e76f55975ffc03c54eda1c9f364a91dbd2
@@ -1493,24 +1763,25 @@
     https://blogs.vmware.com/management/files/2017/08/Wavefront-Logo-Square-512x512.png
 - name: weave-cloud
   fileName: src/logos/weave-cloud.png
-  sha256: be6a564323270e626aebd80da93b1c5d5a6608d39ecdf14006e868290ceaf6ec
-  url: >-
-    http://events17.linuxfoundation.org/sites/events/files/styles/sponsor_logo_large/public/sponsor-logos/sponsor-weaveworks_1.png
+  sha256: b2cd7ec38adf973ef6b755322a875b4250c69167eea41ebaf4323d80e71b20f1
+  url: ./src/hosted_logos/weave-cloud.png
 - name: weave-flux
   fileName: src/logos/weave-flux.png
-  sha256: be6a564323270e626aebd80da93b1c5d5a6608d39ecdf14006e868290ceaf6ec
-  url: >-
-    http://events17.linuxfoundation.org/sites/events/files/styles/sponsor_logo_large/public/sponsor-logos/sponsor-weaveworks_1.png
+  sha256: 86aba3474eb76cd5d3504a3e71c0ac9b9483b345524d988d50bf7f7c49bb78e8
+  url: ./src/hosted_logos/weave-flux.png
 - name: weave-net
   fileName: src/logos/weave-net.png
-  sha256: be6a564323270e626aebd80da93b1c5d5a6608d39ecdf14006e868290ceaf6ec
-  url: >-
-    http://events17.linuxfoundation.org/sites/events/files/styles/sponsor_logo_large/public/sponsor-logos/sponsor-weaveworks_1.png
+  sha256: f9acfa5ff864c88ed29fa49e411378cc85a761573aad1c2c1e98a8e83f37bf54
+  url: ./src/hosted_logos/weave-net.png
 - name: weave-scope
   fileName: src/logos/weave-scope.png
-  sha256: be6a564323270e626aebd80da93b1c5d5a6608d39ecdf14006e868290ceaf6ec
+  sha256: 81ab9a301540adf8a78628dc2d894f9dc0c40d7c97bd1bc14eca5675019d5263
+  url: ./src/hosted_logos/weave-scope.png
+- name: weaveworks-kubeadm
+  fileName: src/logos/weaveworks-kubeadm.png
+  sha256: 0299d24a5940f7274d18191ed1c8b7f3eb6e934126fb6f53f820e16e6d9cc2c0
   url: >-
-    http://events17.linuxfoundation.org/sites/events/files/styles/sponsor_logo_large/public/sponsor-logos/sponsor-weaveworks_1.png
+    https://events.linuxfoundation.org/wp-content/uploads/2017/05/logo_weaveworks.png
 - name: webtask
   fileName: src/logos/webtask.png
   sha256: 5eabe294c505b74cca05f274a2c6820a8a78acc6583c507bfc9636b48e6c3f30
@@ -1520,6 +1791,14 @@
   sha256: 9564c02e15deb0cb428a21e9885104989d29445a09cef10b4e5f32fd20fda800
   url: >-
     https://d2lp05f39ek59n.cloudfront.net/uploads/Wercker_product_img_864555651_wercker.png
+- name: wise-cloud
+  fileName: src/logos/wise-cloud.png
+  sha256: 2a66e6edd7882f8b8d7d52b07b9393fb5626277cdc4c61fd16bd8b27c20a014b
+  url: 'https://www.cncf.io/wp-content/uploads/2017/11/wise2c.png'
+- name: wise2c
+  fileName: src/logos/wise2c.png
+  sha256: 2a66e6edd7882f8b8d7d52b07b9393fb5626277cdc4c61fd16bd8b27c20a014b
+  url: 'https://www.cncf.io/wp-content/uploads/2017/11/wise2c.png'
 - name: xl-deploy
   fileName: src/logos/xl-deploy.png
   sha256: df37164aab1400bcec7121e538112e76c0321fbe2d21622b7ac3acbc51e4bf2a
@@ -1538,6 +1817,10 @@
   fileName: src/logos/zookeeper.png
   sha256: a4f9f0f4971f6354a3b059f8a9f217a5de5f9dea8b1e4c19be44366fc4cef6c6
   url: 'https://www.opsview.com/sites/default/files/Zookeeper%20Logo%20REV.png'
+- name: zte-tecs
+  fileName: src/logos/zte-tecs.png
+  sha256: 1e5cfe8ce3ea0d5eaffd98eeda29675614687c4e72ea6dfab148fe954e3136a2
+  url: 'https://icdn2.digitaltrends.com/image/zte-new-logo-2015-720x480.jpg?ver=1'
 - name: zuul
   fileName: src/logos/zuul.png
   sha256: 121135debb5f7bcfe0c05846602b41b53722be601193e199cf3c65b0b1bfe454
