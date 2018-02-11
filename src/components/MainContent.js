@@ -18,7 +18,7 @@ const MainContent = ({groupedItems, onSelectItem}) => {
                    key={item.id} style={{ background: item.oss ? 'white' : '#eeeeee'}}
                    onClick={() => onSelectItem(item.id)} >
                 <div className="logo_wrapper">
-                  <img src={item.hrefTile} className='logo' max-height='100%' max-width='100%' />
+                  <img src={item.href} className='logo' max-height='100%' max-width='100%' />
                 </div>
                 <div className="mosaic-info">
                   <div>

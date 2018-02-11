@@ -3,6 +3,7 @@ const source = require('js-yaml').safeLoad(require('fs').readFileSync('landscape
 const traverse = require('traverse');
 const _ = require('lodash');
 import formatCity from '../src/utils/formatCity';
+import { fetchImages } from './fetchImages';
 
 import { getCrunchbaseOrganizationsList, fetchCrunchbaseEntries, extractSavedCrunchbaseEntries } from './crunchbase';
 
@@ -86,6 +87,9 @@ async function main() {
       node.cncf_member = cncfMembers.indexOf(node.organization) !== -1;
     }
   });
+  await fetchImages(newSource);
+
+
   var dump = require('js-yaml').dump(newSource);
   dump = dump.replace(/(- \w+:) null/g, '$1');
   dump = "# THIS FILE IS GENERATED AUTOMATICALLY!\n" + dump;

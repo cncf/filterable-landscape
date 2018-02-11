@@ -81,7 +81,7 @@ const ItemDialog = ({onClose, itemInfo, previousItemId, nextItemId, onSelectItem
         <div className="row">
           <div className="col col-33">
             <div className="product-logo">
-              <div className="product-logo-img" style={{backgroundImage: 'url(' + itemInfo.hrefLarge + ')'}} />
+              <img src={itemInfo.href} className='product-logo-img'/>
             </div>
             <div className="product-tags">
               <div>{cncfTag(itemInfo.cncfRelation)}</div>
