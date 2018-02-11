@@ -614,7 +614,7 @@ landscape:
               linkedin: 'https://www.linkedin.com/company/HashiCorp'
               kind: funding
               funding: 74175000
-            stars: 11017
+            stars: 11018
             license: MPL-2.0
             latest_commit_date: '2018-02-09T23:21:10Z'
             latest_commit_link: >-
@@ -776,7 +776,7 @@ landscape:
               twitter: 'https://twitter.com/cloudnativefdn'
               linkedin: >-
                 https://www.linkedin.com/company/cloud-native-computing-foundation
-            stars: 4046
+            stars: 4048
             license: Apache-2.0
             latest_commit_date: '2018-02-10T00:12:52Z'
             latest_commit_link: >-
@@ -826,6 +826,7 @@ landscape:
             organization: Canonical
             homepage_url: 'https://jujucharms.com/'
             repo_url: 'https://github.com/juju/juju'
+            branch: develop
             logo: >-
               https://design.canonical.com/wp-content/uploads/2011/10/juju-464x252.png
             twitter: 'https://twitter.com/ubuntucloud'
@@ -852,9 +853,9 @@ landscape:
               linkedin: 'https://www.linkedin.com/company/canonical-ltd.'
             stars: 1093
             license: AGPL-3.0
-            latest_commit_date: '2017-03-21T19:56:28Z'
+            latest_commit_date: '2018-02-09T15:49:13Z'
             latest_commit_link: >-
-              https://github.com/juju/juju/commit/a0d745913c35e47c33dc13f0230ee55d9a0e021a
+              https://github.com/juju/juju/commit/6793a3ca5af644b7bbc323905828b97e1f45b98d
             cncf_member: true
           - item:
             name: Kubicorn
@@ -1286,7 +1287,7 @@ landscape:
               linkedin: 'https://www.linkedin.com/company/docker'
               kind: funding
               funding: 242766694
-            stars: 3939
+            stars: 3940
             license: Apache-2.0
             latest_commit_date: '2018-02-08T16:56:21Z'
             latest_commit_link: >-
@@ -1321,7 +1322,7 @@ landscape:
               ticker: RHT
               funding: 22451187712
               kind: market_cap
-            stars: 28354
+            stars: 28357
             license: GPL-3.0
             latest_commit_date: '2018-02-10T18:48:44Z'
             latest_commit_link: >-
@@ -1468,7 +1469,7 @@ landscape:
               country: null
               twitter: null
               linkedin: null
-            stars: 2297
+            stars: 2298
             license: Apache-2.0
             latest_commit_date: '2018-02-02T23:46:46Z'
             latest_commit_link: >-
@@ -2083,11 +2084,11 @@ landscape:
               ticker: RHT
               funding: 22451187712
               kind: market_cap
-            stars: 4108
+            stars: 4109
             license: Unknown License
-            latest_commit_date: '2018-02-10T17:24:31Z'
+            latest_commit_date: '2018-02-11T01:53:40Z'
             latest_commit_link: >-
-              https://github.com/ceph/ceph/commit/7e36b630a00c44368198b5f61c99365d15d241e1
+              https://github.com/ceph/ceph/commit/511fc9c4b200e076b0030e7bce89b35e1b525c98
             cncf_member: true
           - item:
             name: Gluster
@@ -2761,7 +2762,7 @@ landscape:
               country: India
               twitter: 'https://twitter.com/openebs'
               linkedin: 'https://www.linkedin.com/company/openebs'
-            stars: 4926
+            stars: 4927
             license: Apache-2.0
             latest_commit_date: '2018-02-10T18:20:58Z'
             latest_commit_link: >-
@@ -2822,7 +2823,7 @@ landscape:
               country: United States
               twitter: 'http://twitter.com/OpenStack'
               linkedin: 'http://www.linkedin.com/company/openstack'
-            stars: 1668
+            stars: 1669
             license: Apache-2.0
             latest_commit_date: '2018-02-10T01:26:56Z'
             latest_commit_link: >-
@@ -3383,9 +3384,9 @@ landscape:
               linkedin: null
             stars: 1446
             license: Apache-2.0
-            latest_commit_date: '2018-02-09T23:52:10Z'
+            latest_commit_date: '2018-02-11T00:13:02Z'
             latest_commit_link: >-
-              https://github.com/cilium/cilium/commit/e5f444369970b945ecbeb3a5376753a70922f55d
+              https://github.com/cilium/cilium/commit/78aa0aaf8353658b4664b3d42ac60dc906c06ec9
             cncf_member: false
           - item:
             name: Cumulus
@@ -3798,7 +3799,7 @@ landscape:
               twitter: 'https://twitter.com/cloudnativefdn'
               linkedin: >-
                 https://www.linkedin.com/company/cloud-native-computing-foundation
-            stars: 32416
+            stars: 32420
             license: Apache-2.0
             latest_commit_date: '2018-02-10T22:03:08Z'
             latest_commit_link: >-
@@ -3903,9 +3904,9 @@ landscape:
               linkedin: 'http://www.linkedin.com/company/the-apache-software-foundation'
             stars: 3539
             license: Apache-2.0
-            latest_commit_date: '2018-02-10T07:58:16Z'
+            latest_commit_date: '2018-02-11T01:50:55Z'
             latest_commit_link: >-
-              https://github.com/apache/mesos/commit/ea1ca0b9a53a77d255cc2b0a6d547f086a314515
+              https://github.com/apache/mesos/commit/934681e91254178d7ad7a454d670f79fdbddc4da
             cncf_member: false
           - item:
             name: Microsoft Azure Service Fabric
@@ -3972,7 +3973,7 @@ landscape:
               linkedin: 'https://www.linkedin.com/company/docker'
               kind: funding
               funding: 242766694
-            stars: 4994
+            stars: 4995
             license: Apache-2.0
             latest_commit_date: '2018-01-26T17:59:49Z'
             latest_commit_link: >-
@@ -4185,40 +4186,6 @@ landscape:
               https://github.com/coredns/coredns/commit/bd156dc9d19867f98bfac0d8fe9945f923724a7c
             cncf_member: true
           - item:
-            name: Registrator
-            organization: Glider Labs
-            homepage_url: 'http://gliderlabs.github.io/registrator/latest/'
-            repo_url: 'https://github.com/gliderlabs/registrator'
-            logo: 'https://avatars2.githubusercontent.com/u/8484931'
-            twitter: 'https://twitter.com/gliderlabs/'
-            crunchbase: 'https://www.crunchbase.com/organization/glider-labs'
-            headquarters: 'Austin, Texas'
-            description: >-
-              Help you build container-first cloud infrastructure and delivery
-              pipelines.
-            first_commit_date: '2014-06-07T20:44:57Z'
-            first_commit_link: >-
-              https://github.com/gliderlabs/registrator/commit/db3d7ae5abb5733ec7f060cf7f2a26c5a76830b3
-            crunchbase_data:
-              name: Glider Labs
-              description: >-
-                Help you build container-first cloud infrastructure and delivery
-                pipelines.
-              num_employees_min: 1
-              num_employees_max: 10
-              homepage: 'http://gliderlabs.com/'
-              city: Austin
-              region: Texas
-              country: United States
-              twitter: 'https://twitter.com/gliderlabs'
-              linkedin: null
-            stars: 3461
-            license: MIT
-            latest_commit_date: '2017-08-04T01:04:59Z'
-            latest_commit_link: >-
-              https://github.com/gliderlabs/registrator/commit/e0b2c60a83ffb1dea4c7664e4e50b137399658e9
-            cncf_member: false
-          - item:
             name: SmartStack
             organization: Airbnb
             homepage_url: >-
@@ -4253,39 +4220,6 @@ landscape:
             latest_commit_date: '2017-11-14T18:08:47Z'
             latest_commit_link: >-
               https://github.com/airbnb/synapse/commit/c50b6dd5027d068f8acf7196d652eeea4109fbc7
-            cncf_member: false
-          - item:
-            name: Hyperbahn
-            organization: Uber
-            homepage_url: 'https://github.com/uber-archive/hyperbahn'
-            repo_url: 'https://github.com/uber-archive/hyperbahn'
-            logo: ./src/hosted_logos/uber-hyperbahn.png
-            crunchbase: 'https://www.crunchbase.com/organization/uber'
-            headquarters: 'San Francisco, California'
-            description: Uber is a mobile app connecting passengers with drivers for hire.
-            first_commit_date: '2015-08-20T16:22:09Z'
-            first_commit_link: >-
-              https://github.com/uber-archive/hyperbahn/commit/3d91246060ef706ccb05572b7db0c05fefa0ff5c
-            crunchbase_data:
-              name: Uber
-              description: >-
-                Uber is a mobile app connecting passengers with drivers for
-                hire.
-              num_employees_min: 5001
-              num_employees_max: 10000
-              homepage: 'http://www.uber.com'
-              city: San Francisco
-              region: California
-              country: United States
-              twitter: 'http://twitter.com/uber'
-              linkedin: 'https://www.linkedin.com/company/1815218'
-              kind: funding
-              funding: 22212450000
-            stars: 372
-            license: MIT
-            latest_commit_date: '2016-10-24T21:17:40Z'
-            latest_commit_link: >-
-              https://github.com/uber-archive/hyperbahn/commit/3b5ebee4fdf815a8f95d8e84bbaedf3fa92d26a9
             cncf_member: false
           - item:
             name: Eureka
@@ -4710,7 +4644,7 @@ landscape:
               twitter: 'https://twitter.com/cloudnativefdn'
               linkedin: >-
                 https://www.linkedin.com/company/cloud-native-computing-foundation
-            stars: 13581
+            stars: 13583
             license: Apache-2.0
             latest_commit_date: '2018-02-10T16:58:46Z'
             latest_commit_link: >-
@@ -4746,7 +4680,7 @@ landscape:
               country: United States
               twitter: 'http://twitter.com/TheASF'
               linkedin: 'http://www.linkedin.com/company/the-apache-software-foundation'
-            stars: 4416
+            stars: 4417
             license: Apache-2.0
             latest_commit_date: '2018-02-10T09:11:08Z'
             latest_commit_link: >-
@@ -5002,7 +4936,7 @@ landscape:
               ticker: NFLX
               funding: 108257009664
               kind: market_cap
-            stars: 3809
+            stars: 3810
             license: Apache-2.0
             latest_commit_date: '2017-11-17T23:26:03Z'
             latest_commit_link: >-
@@ -5087,11 +5021,11 @@ landscape:
               linkedin: 'https://www.linkedin.com/company/pingcap/'
               kind: funding
               funding: 21600000
-            stars: 11697
+            stars: 11698
             license: Apache-2.0
-            latest_commit_date: '2018-02-09T13:43:19Z'
+            latest_commit_date: '2018-02-11T02:22:56Z'
             latest_commit_link: >-
-              https://github.com/pingcap/tidb/commit/a63601ad2198a3e77431888ec2b3e7a53b07c9cf
+              https://github.com/pingcap/tidb/commit/f3c99cd535745cbf503eebecac3be43cc644129d
             cncf_member: false
           - item:
             name: MySQL
@@ -5159,7 +5093,7 @@ landscape:
               country: null
               twitter: 'http://twitter.com/postgresql'
               linkedin: 'http://www.linkedin.com/company/758353'
-            stars: 3628
+            stars: 3629
             license: Unknown License
             latest_commit_date: '2018-02-10T18:37:12Z'
             latest_commit_link: >-
@@ -5366,7 +5300,7 @@ landscape:
               linkedin: 'http://www.linkedin.com/company/redis-labs-inc'
               kind: funding
               funding: 86000000
-            stars: 27486
+            stars: 27488
             license: BSD-3-Clause
             latest_commit_date: '2018-02-02T10:10:18Z'
             latest_commit_link: >-
@@ -5587,7 +5521,7 @@ landscape:
               linkedin: 'https://www.linkedin.com/company/cockroach-labs'
               kind: funding
               funding: 53500000
-            stars: 12487
+            stars: 12488
             license: Unknown License
             latest_commit_date: '2018-02-10T22:32:48Z'
             latest_commit_link: >-
@@ -5822,7 +5756,7 @@ landscape:
               country: United States
               twitter: 'http://twitter.com/TheASF'
               linkedin: 'http://www.linkedin.com/company/the-apache-software-foundation'
-            stars: 592
+            stars: 593
             license: Apache-2.0
             latest_commit_date: '2018-02-08T17:40:43Z'
             latest_commit_link: >-
@@ -5884,7 +5818,7 @@ landscape:
               country: United States
               twitter: 'http://twitter.com/TheASF'
               linkedin: 'http://www.linkedin.com/company/the-apache-software-foundation'
-            stars: 5650
+            stars: 5654
             license: Apache-2.0
             latest_commit_date: '2018-02-10T01:01:25Z'
             latest_commit_link: >-
@@ -6055,7 +5989,7 @@ landscape:
               country: United States
               twitter: 'http://twitter.com/TheASF'
               linkedin: 'http://www.linkedin.com/company/the-apache-software-foundation'
-            stars: 7394
+            stars: 7395
             license: Apache-2.0
             latest_commit_date: '2018-02-09T23:44:55Z'
             latest_commit_link: >-
@@ -6116,7 +6050,7 @@ landscape:
               country: United States
               twitter: 'http://twitter.com/TheASF'
               linkedin: 'http://www.linkedin.com/company/the-apache-software-foundation'
-            stars: 16128
+            stars: 16129
             license: Apache-2.0
             latest_commit_date: '2018-02-10T16:46:45Z'
             latest_commit_link: >-
@@ -6189,7 +6123,7 @@ landscape:
               country: United States
               twitter: 'http://twitter.com/TheASF'
               linkedin: 'http://www.linkedin.com/company/the-apache-software-foundation'
-            stars: 3271
+            stars: 3272
             license: Apache-2.0
             latest_commit_date: '2017-08-10T05:57:09Z'
             latest_commit_link: >-
@@ -6327,7 +6261,7 @@ landscape:
               country: United States
               twitter: 'https://twitter.com/nats_io'
               linkedin: null
-            stars: 3758
+            stars: 3759
             license: MIT
             latest_commit_date: '2018-01-30T22:10:49Z'
             latest_commit_link: >-
@@ -6665,7 +6599,7 @@ landscape:
               linkedin: 'https://www.linkedin.com/company/HashiCorp'
               kind: funding
               funding: 74175000
-            stars: 7320
+            stars: 7321
             license: MPL-2.0
             latest_commit_date: '2018-02-10T21:59:28Z'
             latest_commit_link: >-
@@ -6840,7 +6774,7 @@ landscape:
               country: United States
               twitter: 'https://twitter.com/OpenApiSpec'
               linkedin: 'https://www.linkedin.com/groups/8556951'
-            stars: 8972
+            stars: 8973
             license: Unknown License
             latest_commit_date: '2018-02-09T17:50:50Z'
             latest_commit_link: >-
@@ -6888,15 +6822,11 @@ landscape:
             name: Travis
             organization: Travis CI
             homepage_url: 'https://travis-ci.com/'
-            repo_url: 'https://github.com/travis-ci/travis-ci'
             logo: 'http://dearkumar.com/wp-content/uploads/2016/08/Travis-CI-logo.jpg'
             twitter: 'https://twitter.com/travisci'
             crunchbase: 'https://www.crunchbase.com/organization/travis-ci'
             headquarters: 'Berlin, Germany'
             description: Hosted Continuous Integration Platform
-            first_commit_date: '2010-11-28T19:54:27Z'
-            first_commit_link: >-
-              https://github.com/travis-ci/travis-ci/commit/76e71516d21f59a9cd6c71851d2b81c66ed1fcc0
             crunchbase_data:
               name: Travis CI
               description: Hosted Continuous Integration Platform
@@ -6908,11 +6838,8 @@ landscape:
               country: Germany
               twitter: 'http://twitter.com/travisci'
               linkedin: null
-            stars: 6470
-            license: Unknown License
-            latest_commit_date: '2017-08-16T01:17:36Z'
-            latest_commit_link: >-
-              https://github.com/travis-ci/travis-ci/commit/d82b9b0dffdedd61a7d6bbd40e08d768660db322
+            stars: N/A
+            license: NotOpenSource
             cncf_member: false
           - item:
             name: Octopus Deploy
@@ -7538,14 +7465,14 @@ landscape:
           - item:
             name: Alauda EE
             organization: Alauda
-            description: >-
-              Alauda is a pioneer cloud platform provider that focuses on
-              containers and microservices.
             certified_kubernetes: Platform
             homepage_url: 'https://www.alauda.cn/product/detail/id/68.html'
             logo: 'https://www.cncf.io/wp-content/uploads/2017/11/alauda.png'
             crunchbase: 'https://www.crunchbase.com/organization/alauda'
             headquarters: 'Haidian, China'
+            description: >-
+              Alauda is a pioneer cloud platform provider that focuses on
+              containers and microservices.
             crunchbase_data:
               name: Alauda
               description: >-
@@ -8979,7 +8906,7 @@ landscape:
             homepage_url: 'http://samsung-cnct.github.io/'
             repo_url: 'https://github.com/samsung-cnct/kraken'
             logo: >-
-              http://www.wise-iot.eu/wp-content/uploads/2016/07/logo-SDS-300x100.png
+              https://databricks.com/wp-content/uploads/2015/06/samsung_sds_logo.png
             crunchbase: 'https://www.crunchbase.com/organization/samsung-sds'
             headquarters: 'Ridgefield Park, New Jersey'
             first_commit_date: '2016-10-26T17:41:11Z'
@@ -9599,7 +9526,7 @@ landscape:
               linkedin: null
               kind: funding
               funding: 1405000
-            stars: 6515
+            stars: 6516
             license: Unknown License
             latest_commit_date: '2018-01-17T20:17:00Z'
             latest_commit_link: >-
@@ -10141,13 +10068,30 @@ landscape:
               https://smashingconf.com/ny-2015/content/06-sponsors/03-silver/00-pusher/pusher-logo.png
             twitter: 'https://twitter.com/pusher'
             crunchbase: 'https://www.crunchbase.com/organization/pusher'
-            headquarters: N/A
-            description: Pusher Javascript library | owner=@hph
+            headquarters: 'London, United Kingdom'
+            description: >-
+              Pusher is a cloud-based tech platform enabling developers to
+              create collaborative tools, multiplayer games, chat and real-time
+              dashboards.
             first_commit_date: '2010-04-19T13:44:10Z'
             first_commit_link: >-
               https://github.com/pusher/pusher-js/commit/c92df665f608a0e1e356b018583d3731b5184978
             crunchbase_data:
-              headquarters: N/A
+              name: Pusher
+              description: >-
+                Pusher is a cloud-based tech platform enabling developers to
+                create collaborative tools, multiplayer games, chat and
+                real-time dashboards.
+              num_employees_min: 51
+              num_employees_max: 100
+              homepage: 'http://pusher.com'
+              city: London
+              region: England
+              country: United Kingdom
+              twitter: 'http://twitter.com/pusher'
+              linkedin: 'https://www.linkedin.com/company/pusher-app'
+              kind: funding
+              funding: 3500000
             stars: 859
             license: MIT
             latest_commit_date: '2018-01-04T11:23:17Z'
@@ -10516,7 +10460,7 @@ landscape:
               country: null
               twitter: null
               linkedin: null
-            stars: 6669
+            stars: 6668
             license: MIT
             latest_commit_date: '2018-02-07T23:20:38Z'
             latest_commit_link: >-
@@ -10553,7 +10497,7 @@ landscape:
               linkedin: 'https://www.linkedin.com/company/serverless'
               kind: funding
               funding: 3000000
-            stars: 21731
+            stars: 21733
             license: Unknown License
             latest_commit_date: '2018-02-09T00:17:03Z'
             latest_commit_link: >-
@@ -11725,7 +11669,7 @@ landscape:
               country: United States
               twitter: 'https://www.twitter.com/raintanksaas'
               linkedin: null
-            stars: 20187
+            stars: 20189
             license: Apache-2.0
             latest_commit_date: '2018-02-10T19:11:11Z'
             latest_commit_link: >-
@@ -11863,7 +11807,7 @@ landscape:
               linkedin: 'https://www.linkedin.com/company/getsentry'
               kind: funding
               funding: 10500000
-            stars: 15639
+            stars: 15640
             license: BSD-3-Clause
             latest_commit_date: '2018-02-10T23:59:01Z'
             latest_commit_link: >-
@@ -12017,7 +11961,7 @@ landscape:
               linkedin: 'https://www.linkedin.com/company/elasticsearch'
               kind: funding
               funding: 104000000
-            stars: 28682
+            stars: 28683
             license: Apache-2.0
             latest_commit_date: '2018-02-09T23:05:19Z'
             latest_commit_link: >-
@@ -12335,7 +12279,7 @@ landscape:
               https://github.com/openzipkin/zipkin/commit/6e0efb29482edb2b388fb5440bd8846388baf665
             crunchbase_data:
               headquarters: N/A
-            stars: 7640
+            stars: 7641
             license: Apache-2.0
             latest_commit_date: '2018-02-08T14:13:12Z'
             latest_commit_link: >-
@@ -13082,7 +13026,7 @@ landscape:
               services targeted at a Kubernetes cluster.
             homepage_url: 'https://www.samsungsds.com/us/en/index.html'
             logo: >-
-              http://www.wise-iot.eu/wp-content/uploads/2016/07/logo-SDS-300x100.png
+              https://databricks.com/wp-content/uploads/2015/06/samsung_sds_logo.png
             crunchbase: 'https://www.crunchbase.com/organization/samsung-sds'
             headquarters: 'Ridgefield Park, New Jersey'
             crunchbase_data:
@@ -13157,7 +13101,7 @@ landscape:
             license: NotOpenSource
             cncf_member: false
           - item:
-            name: 'Treasure Data '
+            name: Treasure Data
             organization: Treasure Data
             description: >-
               Fluentd Enterprise brings smart, secure logging to Kubernetes, and

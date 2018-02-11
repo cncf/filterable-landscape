@@ -207,6 +207,7 @@ landscape:
             organization: Canonical
             homepage_url: 'https://jujucharms.com/'
             repo_url: 'https://github.com/juju/juju'
+            branch: develop
             logo: 'https://design.canonical.com/wp-content/uploads/2011/10/juju-464x252.png'
             twitter: 'https://twitter.com/ubuntucloud'
             crunchbase: 'https://www.crunchbase.com/organization/canonical-ltd'
@@ -1008,27 +1009,12 @@ landscape:
             twitter: 'https://twitter.com/corednsio'
             crunchbase: 'https://www.crunchbase.com/organization/cloud-native-computing-foundation'
           - item:
-            name: Registrator
-            organization: Glider Labs
-            homepage_url: 'http://gliderlabs.github.io/registrator/latest/'
-            repo_url: 'https://github.com/gliderlabs/registrator'
-            logo: 'https://avatars2.githubusercontent.com/u/8484931'
-            twitter: 'https://twitter.com/gliderlabs/'
-            crunchbase: 'https://www.crunchbase.com/organization/glider-labs'
-          - item:
             name: SmartStack
             organization: Airbnb
             homepage_url: 'https://medium.com/airbnb-engineering/smartstack-service-discovery-in-the-cloud-4b8a080de619'
             repo_url: 'https://github.com/airbnb/synapse'
             logo: ./src/hosted_logos/smart-stack.png
             crunchbase: 'https://www.crunchbase.com/organization/airbnb'
-          - item:
-            name: Hyperbahn
-            organization: Uber
-            homepage_url: 'https://github.com/uber-archive/hyperbahn'
-            repo_url: 'https://github.com/uber-archive/hyperbahn'
-            logo: './src/hosted_logos/uber-hyperbahn.png'
-            crunchbase: 'https://www.crunchbase.com/organization/uber'
           - item:
             name: Eureka
             organization: Netflix
@@ -1648,7 +1634,6 @@ landscape:
             name: Travis
             organization: Travis CI
             homepage_url: 'https://travis-ci.com/'
-            repo_url: 'https://github.com/travis-ci/travis-ci'
             logo: 'http://dearkumar.com/wp-content/uploads/2016/08/Travis-CI-logo.jpg'
             twitter: 'https://twitter.com/travisci'
             crunchbase: 'https://www.crunchbase.com/organization/travis-ci'
@@ -1808,7 +1793,6 @@ landscape:
           - item:
             name: Alauda EE
             organization: Alauda
-            description: null
             certified_kubernetes: Platform
             homepage_url: 'https://www.alauda.cn/product/detail/id/68.html'
             logo: 'https://www.cncf.io/wp-content/uploads/2017/11/alauda.png'
@@ -2241,7 +2225,7 @@ landscape:
             certified_kubernetes: Distribution
             homepage_url: 'http://samsung-cnct.github.io/'
             repo_url: 'https://github.com/samsung-cnct/kraken'
-            logo: 'http://www.wise-iot.eu/wp-content/uploads/2016/07/logo-SDS-300x100.png'
+            logo: 'https://databricks.com/wp-content/uploads/2015/06/samsung_sds_logo.png'
             crunchbase: 'https://www.crunchbase.com/organization/samsung-sds'
           - item:
             name: SUSE Container as a Service Platform
@@ -3325,7 +3309,7 @@ landscape:
               Samsung SDS’s Cloud Native Computing Team offers expert consulting across the range of technical aspects involved in building services targeted at
               a Kubernetes cluster.
             homepage_url: 'https://www.samsungsds.com/us/en/index.html'
-            logo: 'http://www.wise-iot.eu/wp-content/uploads/2016/07/logo-SDS-300x100.png'
+            logo: 'https://databricks.com/wp-content/uploads/2015/06/samsung_sds_logo.png'
             crunchbase: 'https://www.crunchbase.com/organization/samsung-sds'
           - item:
             name: StackPointCloud
@@ -3344,8 +3328,8 @@ landscape:
             logo: 'https://media.licdn.com/mpr/mpr/shrink_200_200/AAEAAQAAAAAAAA3pAAAAJDA4MmJlMGI2LTkwOTgtNDEzNi1hNGI4LWE1NWZkNjA3ZTljMg.png'
             crunchbase: 'https://www.crunchbase.com/organization/supergiant'
           - item:
-            name: 'Treasure Data '
-            organization: 'Treasure Data '
+            name: 'Treasure Data'
+            organization: 'Treasure Data'
             description: 'Fluentd Enterprise brings smart, secure logging to Kubernetes, and brings integrations with backends such as Splunk, Kafka, or AWS S3. '
             homepage_url: 'https://www.treasuredata.com/'
             logo: 'https://d1eipm3vz40hy0.cloudfront.net/images/p-apps-marketplace/apps/87957/logo.png'
