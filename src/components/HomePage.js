@@ -17,6 +17,7 @@ import Footer from './Footer';
 
 const filters=(
   <div>
+    <div className="cncf_landscape" />
     <ResetFiltersContainer />
     <Grouping/>
     <Sorting/>
@@ -58,7 +59,6 @@ const HomePage = ({ready}) => {
       
       <HomePageUrlContainer />
       <ItemDialogContainer />
-      <HeaderContainer/>
       
       <div className="columns">
         <div className="sidebar">
@@ -68,6 +68,7 @@ const HomePage = ({ready}) => {
         </div>
         <div className="content">
           <Hidden smDown implementation="css">
+            <HeaderContainer/>
             <div className="disclaimer">
               This is the interactive counterpart to CNCF's Cloud Native <a href="https://github.com/cncf/landscape#current-version">Landscape</a>.
               Please <a href="https://github.com/cncf/filterable-landscape/issues/new/">report</a> any issues or,

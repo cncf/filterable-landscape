@@ -51,7 +51,7 @@ body{
 
   .content-sidebar {
     flex: 150px 0 0;
-    padding: 13px 0 0 10px;
+    padding: 13px 0 0 20px;
   }
 
   .content-sidebar-mobile {
@@ -92,7 +92,7 @@ body{
 }
 
 
-.cncf_landscape_mobile{
+.cncf_landscape{
   background-position: left center;
   background-repeat: no-repeat;
   background-size: 70%;
@@ -238,12 +238,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    padding: 15px 0;
-
-    .logos{
-      display: flex;
-      justify-content: space-between;
-      width:100%;
+    padding: 35px 0;
 
       div{
         background-position: center center;
@@ -265,14 +260,9 @@ body{
 
         }
 
-        &.cncf_landscape{
-          background-image: url(./assets/cncf-landscape.png);
-          min-width: 150px;
-        }
-
       }
 
-    }
+
 
   }
 
