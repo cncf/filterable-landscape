@@ -1982,6 +1982,7 @@ landscape:
             organization: Google
             certified_kubernetes: Distribution
             homepage_url: 'https://github.com/kubernetes/kubernetes/tree/master/cluster'
+            repo_url: 'https://github.com/kubernetes/kube-deploy'
             logo: 'https://www.google.com/cloud/assets/press/Google_Cloud_Logo.png'
             crunchbase: 'https://www.crunchbase.com/organization/google-cloud-platform'
           - item:
@@ -2269,6 +2270,7 @@ landscape:
             organization: Tencent
             description: Tencent Cloud Container Service (CCS) is a container management service with high scalability and high performance.
             certified_kubernetes: Platform
+            stock_ticker: TCEHY
             homepage_url: 'https://cloud.tencent.com/product/ccs?lang=en'
             logo: 'https://www.cncf.io/wp-content/uploads/2017/05/logo_tencent-300x184.png'
             crunchbase: 'https://www.crunchbase.com/organization/tencent'
@@ -2295,7 +2297,8 @@ landscape:
               kubeadm is a toolkit that helps you bootstrap a best-practice Kubernetes cluster in an easy, reasonably secure and extensible way. It also
               supports managing Bootstrap Tokens for you and upgrading/downgrading clusters.
             certified_kubernetes: Distribution
-            homepage_url: 'https://github.com/kubernetes/kubeadm'
+            homepage_url: 'https://kubernetes.io/docs/setup/independent/create-cluster-kubeadm/'
+            repo_url: 'https://github.com/kubernetes/kubeadm'
             logo: 'https://events.linuxfoundation.org/wp-content/uploads/2017/05/logo_weaveworks.png'
             crunchbase: 'https://www.crunchbase.com/organization/weaveworks'
           - item:
@@ -2317,7 +2320,7 @@ landscape:
             certified_kubernetes: false
             homepage_url: 'https://aws.amazon.com/eks/'
             logo: 'https://cdn-images-1.medium.com/max/1600/1*5YAnP-tNi1Tkjzk1urIJYw.png'
-            crunchbase: 'https://www.crunchbase.com/organization/amazon'
+            crunchbase: 'https://www.crunchbase.com/organization/amazon-web-services'
           - item:
             name: goPaddle
             organization: Bluemeric
