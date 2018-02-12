@@ -73,7 +73,7 @@ const ItemDialog = ({onClose, itemInfo, previousItemId, nextItemId, onSelectItem
     return (<span>{[partMarkup(category), separator, partMarkup(subcategory)]}</span>);
   }
   return (
-    <Dialog open={true} onClose={() => onClose()} className="modal" classes={{paper:'modal-body'}}>
+    <Dialog open={true} onClose={() => onClose()} className="modal product" classes={{paper:'modal-body'}}>
       { nextItemId && <KeyHandler keyValue="ArrowRight" onKeyHandle={() => onSelectItem(nextItemId)} /> }
       { previousItemId && <KeyHandler keyValue="ArrowLeft" onKeyHandle={() => onSelectItem(previousItemId)} /> }
         <a className="modal-close" onClick={() => onClose()}>×</a>
@@ -95,6 +95,7 @@ const ItemDialog = ({onClose, itemInfo, previousItemId, nextItemId, onSelectItem
             </div>
           </div>
           <div className="col col-66">
+            <div className="product-scroll">
             <div className="product-main">
               <div className="product-name">{itemInfo.name}</div>
               <div className="product-parent">{itemInfo.organization}</div>
@@ -184,10 +185,11 @@ const ItemDialog = ({onClose, itemInfo, previousItemId, nextItemId, onSelectItem
 
             <div style={{display: "none"}}>{JSON.stringify(itemInfo, null, 2)}</div>
             { itemInfo.twitter && (
-              <div>
+              <div className="product-twitter">
                 <a className="twitter-timeline" href={itemInfo.twitter} data-tweet-limit="3" data-chrome="noheader nofooter">Tweets by ${itemInfo.name}</a>
               </div>
             )}
+          </div>
           </div>
         </div>
     </Dialog>
