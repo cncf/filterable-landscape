@@ -1,5 +1,6 @@
 import React from 'react';
 import Dialog from 'material-ui/Dialog';
+import { Timeline } from 'react-twitter-widgets'
 import { NavLink } from 'react-router-dom';
 import Icon from 'material-ui/Icon';
 import KeyHandler from 'react-key-handler';
@@ -65,6 +66,13 @@ const ItemDialog = ({onClose, itemInfo, previousItemId, nextItemId, onSelectItem
   if (!itemInfo) {
     return null;
   }
+  // setTimeout(function() {
+    // const existingFrame = document.querySelector('iframe[data-widget-id]');
+    // if (existingFrame) {
+      // existingFrame.parentNode.removeChild(existingFrame);
+    // }
+    // window.twttr.widgets.load();
+  // });
   const linkToOrganization = filtersToUrl({filters: {organization: itemInfo.organization}});
   const itemCategory = function(path) {
     var separator = <span className="product-category-separator">•</span>;
@@ -78,7 +86,7 @@ const ItemDialog = ({onClose, itemInfo, previousItemId, nextItemId, onSelectItem
     return (<span>{[categoryMarkup, separator, subcategoryMarkup]}</span>);
   }
   return (
-    <Dialog open={true} onClose={() => onClose()} className="modal" classes={{paper:'modal-body'}}>
+    <Dialog open={true} onClose={() => onClose()} className="modal product" classes={{paper:'modal-body'}}>
       { nextItemId && <KeyHandler keyValue="ArrowRight" onKeyHandle={() => onSelectItem(nextItemId)} /> }
       { previousItemId && <KeyHandler keyValue="ArrowLeft" onKeyHandle={() => onSelectItem(previousItemId)} /> }
         <a className="modal-close" onClick={() => onClose()}>×</a>
@@ -100,6 +108,7 @@ const ItemDialog = ({onClose, itemInfo, previousItemId, nextItemId, onSelectItem
             </div>
           </div>
           <div className="col col-66">
+            <div className="product-scroll">
             <div className="product-main">
               <div className="product-name">{itemInfo.name}</div>
               <div className="product-parent"><NavLink to={linkToOrganization}>{itemInfo.organization}</NavLink></div>
@@ -204,6 +213,22 @@ const ItemDialog = ({onClose, itemInfo, previousItemId, nextItemId, onSelectItem
             </div>
 
             <div style={{display: "none"}}>{JSON.stringify(itemInfo, null, 2)}</div>
+            { itemInfo.twitter && (
+              <div className="product-twitter">
+              <Timeline
+                dataSource={{
+                  sourceType: 'profile',
+                  screenName: itemInfo.twitter.split('/').slice(-1)[0]
+                }}
+                options={{
+                  username: itemInfo.name,
+                  tweetLimit: 3
+                }}
+                onLoad={() => console.log('Timeline is loaded!')}
+              />
+              </div>
+            )}
+          </div>
           </div>
         </div>
     </Dialog>
