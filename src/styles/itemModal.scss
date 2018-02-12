@@ -24,7 +24,7 @@ $blue: #5093e0;
       overflow: auto; margin: 0; border-radius: 0;
       }
   }
-  &-close {cursor: pointer; position: absolute; top: 15px; right: 25px; font-size: 30px; opacity: 0.4;
+  &-close {cursor: pointer; position: absolute; top: 15px; right: 25px; font-size: 30px; opacity: 0.4; color: #000;
     &:hover {opacity: 1;}
   }
 }
@@ -40,9 +40,12 @@ $blue: #5093e0;
   }
   &-main {font-size: 0.8rem; line-height: 130%; color: $navy;}
   &-name {font-size: 2rem; line-height: 130%;}
-  &-parent {font-weight: bold; margin-bottom: 0.8rem;}
+  &-parent {font-weight: bold; margin-bottom: 0.8rem;
+    a {color: $navy;}
+  }
   &-category {color: $navy-light; margin-bottom: 0.8rem;
     &-separator {margin: 0 5px; font-size: 0.6rem;}
+    a {color: $navy-light;}
   }
   &-description {font-size: 1.1rem; line-height: 130%; margin-bottom: 0.8rem; max-height: 300px;}
   &-properties {font-size: 0.8em; color: $navy; margin: 2rem 0;}

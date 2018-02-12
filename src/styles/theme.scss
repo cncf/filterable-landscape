@@ -1,6 +1,11 @@
-body{
-  background-color:#F4F4f4 !important;
-  font-family: Arial, Helvetica, sans-serif;
+$navy: #224065;
+$navy-light: #607c95;
+$blue: #5093e0;
+
+body{background-color:#F4F4f4 !important; font-family: Arial, Helvetica, sans-serif;}
+
+a {text-decoration: none; transition: all 0.5s; color: $blue;
+  &:hover {transition: all 0.1s;}
 }
 
 .wrapper{
@@ -74,17 +79,21 @@ body{
 
 /* tags */
 .tag {display: inline-block; vertical-align: top; white-space: nowrap; border-radius: 4px; font-size: 0;
-  border: #4e92df 1px solid; margin: 0 10px 10px 0;
+  border: rgba(78, 146, 223, 0.6) 1px solid; margin: 0 10px 10px 0;
+  &:hover {border-color: rgba(78, 146, 223, 1);}
   &-name {padding: 3px 6px; font-size: 0.6rem; font-weight: bold; display: inline-block; border-radius: 3px 0 0 3px;}
   &-value {padding: 3px 6px; font-size: 0.6rem; display: inline-block;}
-  &-blue {border-color: #4e92df; color: #4e92df;
+  &-blue {border-color: rgba(78, 146, 223, 0.6); color: #4e92df;
     .tag-name {background: #e5effa;}
+    &:hover {border-color: rgba(78, 146, 223, 1);}
   }
-  &-grass {border-color: #7fbc40; color: #7fbc40;
+  &-grass {border-color: rgba(127, 188, 24, 0.6); color: #7fbc40;
     .tag-name {background: #d5eac0;}
+    &:hover {border-color: rgba(127, 188, 24, 1);}
   }
-  &-green {border-color: #26a195; color: #26a195;
+  &-green {border-color: rgba(38, 161, 149, 0.6); color: #26a195;
     .tag-name {background: #dff2f0;}
+    &:hover {border-color: rgba(38, 161, 149, 1);}
   }
 
 }
