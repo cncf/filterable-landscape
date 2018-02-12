@@ -1338,17 +1338,9 @@
       "url": "cloud",
       "level": 1,
       "children": [
-        "Cloud / Private",
-        "Cloud / Public"
+        "Cloud / Public",
+        "Cloud / Private"
       ]
-    },
-    {
-      "id": "Cloud / Private",
-      "parentId": "Cloud",
-      "label": "Private",
-      "groupingLabel": "Cloud - Private",
-      "url": "private",
-      "level": 2
     },
     {
       "id": "Cloud / Public",
@@ -1359,25 +1351,25 @@
       "level": 2
     },
     {
+      "id": "Cloud / Private",
+      "parentId": "Cloud",
+      "label": "Private",
+      "groupingLabel": "Cloud - Private",
+      "url": "private",
+      "level": 2
+    },
+    {
       "id": "Provisioning",
       "label": "Provisioning",
       "url": "provisioning",
       "level": 1,
       "children": [
-        "Provisioning / Container Registries",
         "Provisioning / Host Management/Tooling",
         "Provisioning / Infrastructure Automation",
-        "Provisioning / Key Management",
-        "Provisioning / Secure Images"
+        "Provisioning / Container Registries",
+        "Provisioning / Secure Images",
+        "Provisioning / Key Management"
       ]
-    },
-    {
-      "id": "Provisioning / Container Registries",
-      "parentId": "Provisioning",
-      "label": "Container Registries",
-      "groupingLabel": "Provisioning - Container Registries",
-      "url": "container-registries",
-      "level": 2
     },
     {
       "id": "Provisioning / Host Management/Tooling",
@@ -1396,11 +1388,11 @@
       "level": 2
     },
     {
-      "id": "Provisioning / Key Management",
+      "id": "Provisioning / Container Registries",
       "parentId": "Provisioning",
-      "label": "Key Management",
-      "groupingLabel": "Provisioning - Key Management",
-      "url": "key-management",
+      "label": "Container Registries",
+      "groupingLabel": "Provisioning - Container Registries",
+      "url": "container-registries",
       "level": 2
     },
     {
@@ -1412,23 +1404,23 @@
       "level": 2
     },
     {
+      "id": "Provisioning / Key Management",
+      "parentId": "Provisioning",
+      "label": "Key Management",
+      "groupingLabel": "Provisioning - Key Management",
+      "url": "key-management",
+      "level": 2
+    },
+    {
       "id": "Runtime",
       "label": "Runtime",
       "url": "runtime",
       "level": 1,
       "children": [
-        "Runtime / Cloud-Native Network",
         "Runtime / Cloud-Native Storage",
-        "Runtime / Container Runtime"
+        "Runtime / Container Runtime",
+        "Runtime / Cloud-Native Network"
       ]
-    },
-    {
-      "id": "Runtime / Cloud-Native Network",
-      "parentId": "Runtime",
-      "label": "Cloud-Native Network",
-      "groupingLabel": "Runtime - Cloud-Native Network",
-      "url": "cloud-native-network",
-      "level": 2
     },
     {
       "id": "Runtime / Cloud-Native Storage",
@@ -1447,23 +1439,23 @@
       "level": 2
     },
     {
+      "id": "Runtime / Cloud-Native Network",
+      "parentId": "Runtime",
+      "label": "Cloud-Native Network",
+      "groupingLabel": "Runtime - Cloud-Native Network",
+      "url": "cloud-native-network",
+      "level": 2
+    },
+    {
       "id": "Orchestration & Management",
       "label": "Orchestration & Management",
       "url": "orchestration-management",
       "level": 1,
       "children": [
-        "Orchestration & Management / Coordination & Service Discovery",
         "Orchestration & Management / Scheduling & Orchestration",
+        "Orchestration & Management / Coordination & Service Discovery",
         "Orchestration & Management / Service Management"
       ]
-    },
-    {
-      "id": "Orchestration & Management / Coordination & Service Discovery",
-      "parentId": "Orchestration & Management",
-      "label": "Coordination & Service Discovery",
-      "groupingLabel": "Orchestration & Management - Coordination & Service Discovery",
-      "url": "coordination-service-discovery",
-      "level": 2
     },
     {
       "id": "Orchestration & Management / Scheduling & Orchestration",
@@ -1471,6 +1463,14 @@
       "label": "Scheduling & Orchestration",
       "groupingLabel": "Orchestration & Management - Scheduling & Orchestration",
       "url": "scheduling-orchestration",
+      "level": 2
+    },
+    {
+      "id": "Orchestration & Management / Coordination & Service Discovery",
+      "parentId": "Orchestration & Management",
+      "label": "Coordination & Service Discovery",
+      "groupingLabel": "Orchestration & Management - Coordination & Service Discovery",
+      "url": "coordination-service-discovery",
       "level": 2
     },
     {
@@ -1487,12 +1487,36 @@
       "url": "app-definition-and-developement",
       "level": 1,
       "children": [
-        "App Definition and Developement / Application Definition & Image Build",
-        "App Definition and Developement / CI/CD",
         "App Definition and Developement / Database and Data Warehouse",
+        "App Definition and Developement / Streaming",
         "App Definition and Developement / Source Code Management (SCM)",
-        "App Definition and Developement / Streaming"
+        "App Definition and Developement / Application Definition & Image Build",
+        "App Definition and Developement / CI/CD"
       ]
+    },
+    {
+      "id": "App Definition and Developement / Database and Data Warehouse",
+      "parentId": "App Definition and Developement",
+      "label": "Database and Data Warehouse",
+      "groupingLabel": "App Definition and Developement - Database and Data Warehouse",
+      "url": "database-and-data-warehouse",
+      "level": 2
+    },
+    {
+      "id": "App Definition and Developement / Streaming",
+      "parentId": "App Definition and Developement",
+      "label": "Streaming",
+      "groupingLabel": "App Definition and Developement - Streaming",
+      "url": "streaming",
+      "level": 2
+    },
+    {
+      "id": "App Definition and Developement / Source Code Management (SCM)",
+      "parentId": "App Definition and Developement",
+      "label": "Source Code Management (SCM)",
+      "groupingLabel": "App Definition and Developement - Source Code Management (SCM)",
+      "url": "source-code-management-scm",
+      "level": 2
     },
     {
       "id": "App Definition and Developement / Application Definition & Image Build",
@@ -1508,30 +1532,6 @@
       "label": "CI/CD",
       "groupingLabel": "App Definition and Developement - CI/CD",
       "url": "ci-cd",
-      "level": 2
-    },
-    {
-      "id": "App Definition and Developement / Database and Data Warehouse",
-      "parentId": "App Definition and Developement",
-      "label": "Database and Data Warehouse",
-      "groupingLabel": "App Definition and Developement - Database and Data Warehouse",
-      "url": "database-and-data-warehouse",
-      "level": 2
-    },
-    {
-      "id": "App Definition and Developement / Source Code Management (SCM)",
-      "parentId": "App Definition and Developement",
-      "label": "Source Code Management (SCM)",
-      "groupingLabel": "App Definition and Developement - Source Code Management (SCM)",
-      "url": "source-code-management-scm",
-      "level": 2
-    },
-    {
-      "id": "App Definition and Developement / Streaming",
-      "parentId": "App Definition and Developement",
-      "label": "Streaming",
-      "groupingLabel": "App Definition and Developement - Streaming",
-      "url": "streaming",
       "level": 2
     },
     {
@@ -1584,18 +1584,10 @@
       "url": "observability-and-analysis",
       "level": 1,
       "children": [
-        "Observability and Analysis / Logging",
         "Observability and Analysis / Monitoring",
+        "Observability and Analysis / Logging",
         "Observability and Analysis / Tracing"
       ]
-    },
-    {
-      "id": "Observability and Analysis / Logging",
-      "parentId": "Observability and Analysis",
-      "label": "Logging",
-      "groupingLabel": "Observability and Analysis - Logging",
-      "url": "logging",
-      "level": 2
     },
     {
       "id": "Observability and Analysis / Monitoring",
@@ -1603,6 +1595,14 @@
       "label": "Monitoring",
       "groupingLabel": "Observability and Analysis - Monitoring",
       "url": "monitoring",
+      "level": 2
+    },
+    {
+      "id": "Observability and Analysis / Logging",
+      "parentId": "Observability and Analysis",
+      "label": "Logging",
+      "groupingLabel": "Observability and Analysis - Logging",
+      "url": "logging",
       "level": 2
     },
     {
