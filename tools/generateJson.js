@@ -60,13 +60,12 @@ const itemsWithExtraFields = items.map(function(item) {
   if (otherItems.length > 1) {
     id = saneName(item.organization + ' ' + item.name);
   }
-  const existsSvg = require('fs').existsSync(`./src/logos/${saneName(id)}.svg`);
   return {
     ...item,
     id: id,
     starsCategory: getCategory({field: 'stars', item: item}),
     marketCapCategory: getCategory({field: 'marketCap', item: item}),
-    href: `/logos/${saneName(id)}.${existsSvg ? 'svg': 'png'}`,
+    href: `/logos/${saneName(id)}.png`,
   }
 });
 

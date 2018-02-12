@@ -17,7 +17,7 @@ async function main() {
   } catch (ex) {
     console.info('can not get saved crunchbase entries');
   }
-  if (process.env.CRUNCHBASE_KEY && !process.env.SKIP_CB) {
+  if (process.env.CRUNCHBASE_KEY) {
     crunchbaseEntries = await fetchCrunchbaseEntries(crunchbaseOrganizations);
   } else {
     console.info('CRUNCHBASE_KEY is not set. Using processed_landscape.yml as a source for crunchbase info');
