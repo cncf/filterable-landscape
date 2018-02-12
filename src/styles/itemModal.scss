@@ -1,6 +1,7 @@
 $navy: #224065;
 $navy-light: #607c95;
 $blue: #5093e0;
+$blue-hover: #0e61c0;
 
 .modal {overflow: auto; display: block;
   &-prev, &-next {position: absolute; top: 50%; margin-top: -20px; font-size: 2.5rem; color: #fff; cursor: pointer;
@@ -35,8 +36,8 @@ $blue: #5093e0;
     // &-img {width: 100%; padding-top: 100%; margin: 0 auto; background-position: 50% 50%; background-size: contain;
       // cursor: pointer; background-repeat: no-repeat;
     &-img {
-      max-width: 100%;
-      max-height: 100%;
+      width: 210px;
+      height: 140px;
       cursor: pointer;
     }
     @media (max-width: 767px) {max-width: 250px; margin: 0 auto 2.5rem;}
@@ -47,17 +48,21 @@ $blue: #5093e0;
   }
   &-name {font-size: 2rem; line-height: 130%;}
   &-parent {font-weight: bold; margin-bottom: 0.8rem;
-    a {color: $navy;}
+    a {color: $navy;
+      &:hover {color: $blue-hover;}
+    }
   }
   &-category {color: $navy-light; margin-bottom: 0.8rem;
     &-separator {margin: 0 5px; font-size: 0.6rem;}
-    a {color: $navy-light;}
+    a {color: $navy-light;
+       &:hover {color: $blue-hover;}
+    }
   }
   &-description {font-size: 1.1rem; line-height: 130%; margin-bottom: 0.8rem; max-height: 300px;}
   &-properties {font-size: 0.8em; color: $navy; margin: 2rem 0;}
   &-property {margin-bottom: 0.5rem;
     &-value {white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
-    a {color: $blue; text-decoration: none;}
+    a {color: $blue;}
     @media (max-width: 767px) {
       &-name {display: block; width: 100%;}
       &-value {display: block; width: 100%;}

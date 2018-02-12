@@ -17,7 +17,7 @@ async function main() {
   } catch (ex) {
     console.info('can not get saved crunchbase entries');
   }
-  if (process.env.CRUNCHBASE_KEY) {
+  if (process.env.CRUNCHBASE_KEY && !process.env.SKIP_CB) {
     crunchbaseEntries = await fetchCrunchbaseEntries(crunchbaseOrganizations);
   } else {
     console.info('CRUNCHBASE_KEY is not set. Using processed_landscape.yml as a source for crunchbase info');
@@ -62,7 +62,7 @@ async function main() {
       node.organization = crunchbaseData.name || node.organization;
       var githubInfo = {
         stars: 'N/A',
-        license: 'NotOpenSource'
+        license: node.repo_url ? 'Unknown License' : 'NotOpenSource'
       };
       var githubEntry = _.find(githubEntries, {url: node.repo_url});
       if (githubEntry) {
