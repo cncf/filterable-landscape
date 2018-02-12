@@ -1,6 +1,7 @@
 import React from 'react';
 import Drawer from 'material-ui/Drawer';
 import Hidden from 'material-ui/Hidden';
+import Button from 'material-ui/Button';
 
 import StickyBox from "react-sticky-box";
 import Filters from './Filters';
@@ -15,24 +16,8 @@ import HeaderContainer from './HeaderContainer';
 import Footer from './Footer';
 
 
-const filters=(
-  <div>
-    <div className="cncf_landscape" />
-    <ResetFiltersContainer />
-    <Grouping/>
-    <Sorting/>
-    <div style={{width: 200, height: 30}}/>
-    <Filters />
-    <Presets />
-  </div>
-  );
 
-const fakeState = {
-    drawer: true,
-    burgerIcon: false
-  };
-
-const HomePage = ({ready}) => {
+const HomePage = ({ready, filtersVisible, hideFilters, showFilters}) => {
   if (!ready) {
     return (
       <div>
@@ -41,16 +26,29 @@ const HomePage = ({ready}) => {
     )
   }
 
+  const filters=(
+    <div>
+      <div className="cncf_landscape" />
+      <ResetFiltersContainer />
+      <Grouping/>
+      <Sorting/>
+      <div style={{width: 200, height: 30}}/>
+      <Filters />
+      <Presets />
+    </div>
+  );
+
   return (
     <div >
       <Hidden smDown implementation="css">
         <Drawer
           variant="permanent"
-          open={fakeState.drawer}
+          open={filtersVisible}
         >
           <div className="sidebar">
             <div className="content-sidebar-mobile">
               <div className="cncf_landscape_mobile" />
+              <Button onClick={hideFilters}>Hide</Button>
               {filters}
             </div>
           </div>
@@ -68,6 +66,7 @@ const HomePage = ({ready}) => {
         </div>
         <div className="content">
           <HeaderContainer/>
+          <Button onClick={showFilters}>Show</Button>
           <Hidden smDown implementation="css">
             <div className="disclaimer">
               <strong>CNCF Cloud Native Interactive Landscape</strong>

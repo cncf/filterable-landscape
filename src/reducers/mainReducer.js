@@ -22,7 +22,8 @@ export const initialState = {
   grouping: 'cncfRelation',
   sortField: 'name',
   sortDirection: 'asc',
-  selectedItemId: null
+  selectedItemId: null,
+  filtersVisible: false
 };
 // thunk
 export function loadMainData() {
@@ -117,6 +118,17 @@ export function resetParameters() {
   }
 }
 
+export function showFilters() {
+  return {
+    type: 'Main/ShowFilters'
+  };
+}
+export function hideFilters() {
+  return {
+    type: 'Main/HideFilters'
+  };
+}
+
 function setData(data) {
   return {
     type: 'Main/SetData',
@@ -199,6 +211,12 @@ function setParametersHandler(state, action) {
 function setReadyHandler(state) {
   return { ...state, ready: true };
 }
+function showFiltersHandler(state) {
+  return {...state, filtersVisible: true};
+}
+function hideFiltersHandler(state) {
+  return {...state, filtersVisible: false};
+}
 
 function reducer(state = initialState, action) {
   switch(action.type) {
@@ -218,6 +236,10 @@ function reducer(state = initialState, action) {
       return setSelectedItemIdHandler(state, action);
     case 'Main/SetReady':
       return setReadyHandler(state);
+    case 'Main/ShowFilters':
+      return showFiltersHandler(state);
+    case 'Main/HideFilters':
+      return hideFiltersHandler(state);
     default:
       return state;
   }
