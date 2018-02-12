@@ -149,11 +149,11 @@ const ItemDialog = ({onClose, itemInfo, previousItemId, nextItemId, onSelectItem
                 </div>
               </div>
               }
-              {itemInfo.linkedin &&
+              {itemInfo.crunchbaseData.linkedin &&
               <div className="product-property row">
                 <div className="product-property-name col col-25">LinkedIn</div>
                 <div className="product-property-value col col-75">
-                  <a href={itemInfo.linkedin} target="_blank">{itemInfo.linkedin}</a>
+                  <a href={itemInfo.crunchbaseData.linkedin} target="_blank">{itemInfo.crunchbaseData.linkedin}</a>
                 </div>
               </div>
               }
