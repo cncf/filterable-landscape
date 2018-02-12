@@ -41,25 +41,25 @@ const cncfTag = function(cncfRelation) {
       <span className="tag-value"><NavLink to={filtersToUrl({filters:{cncfRelation: cncfRelation}})}>{text}</NavLink></span>
     </span>)
   }
-  return (<span className="tag tag-blue">
+  return (<NavLink to={filtersToUrl({filters:{cncfRelation: cncfRelation}})} className="tag tag-blue">
     <span className="tag-name">CNCF Project</span>
-    <span className="tag-value"><NavLink to={filtersToUrl({filters:{cncfRelation: cncfRelation}})}>{text}</NavLink></span>
-  </span>)
+    <span className="tag-value">{text}</span>
+  </NavLink>)
 };
 const openSourceTag = function(oss) {
   if (!oss) {
     return null;
   }
-  return (<span className="tag tag-grass">
-    <span className="tag-value"><NavLink to="/license=open-source">Open Source Software</NavLink></span>
-  </span>)
+  return (<NavLink to="/license=open-source" className="tag tag-grass">
+    <span className="tag-value">Open Source Software</span>
+  </NavLink>)
 }
 const licenseTag = function(license) {
   const text = _.find(fields.license.values, {id: license}).label;
-  return (<span className="tag tag-green">
+  return (<NavLink to={filtersToUrl({filters:{license: license}})} className="tag tag-green">
     <span className="tag-name">License</span>
-    <span className="tag-value"><NavLink to={filtersToUrl({filters:{license: license}})}>{text}</NavLink></span>
-  </span>);
+    <span className="tag-value">{text}</span>
+  </NavLink>);
 }
 const ItemDialog = ({onClose, itemInfo, previousItemId, nextItemId, onSelectItem }) => {
   if (!itemInfo) {
@@ -70,10 +70,10 @@ const ItemDialog = ({onClose, itemInfo, previousItemId, nextItemId, onSelectItem
     var separator = <span className="product-category-separator">•</span>;
     var [category, subcategory] = path.split(' / ');
     var categoryMarkup = (
-      <span><NavLink to={`/landscape=${saneName(category)}`}>{category}</NavLink></span>
+      <NavLink to={`/landscape=${saneName(category)}`}>{category}</NavLink>
     )
     var subcategoryMarkup = (
-      <span><NavLink to={filtersToUrl({filters: {landscape: path}})}>{subcategory}</NavLink></span>
+      <NavLink to={filtersToUrl({filters: {landscape: path}})}>{subcategory}</NavLink>
     )
     return (<span>{[categoryMarkup, separator, subcategoryMarkup]}</span>);
   }
@@ -121,7 +121,7 @@ const ItemDialog = ({onClose, itemInfo, previousItemId, nextItemId, onSelectItem
                 </div>
               </div>
               }
-              {itemInfo.repo_url &&
+              {itemInfo.starsAsText &&
               <div className="product-property row">
                 <div className="product-property-name col col-25"></div>
                 <div className="product-property-value col col-75">
