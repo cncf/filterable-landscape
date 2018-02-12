@@ -62,7 +62,7 @@ async function main() {
       node.organization = crunchbaseData.name || node.organization;
       var githubInfo = {
         stars: 'N/A',
-        license: 'NotOpenSource'
+        license: node.repo_url ? 'Unknown License' : 'NotOpenSource'
       };
       var githubEntry = _.find(githubEntries, {url: node.repo_url});
       if (githubEntry) {
