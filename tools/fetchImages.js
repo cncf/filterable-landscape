@@ -71,9 +71,8 @@ function getProcessedItems() {
 }
 var processedItems = getProcessedItems();
 function imagesExist(itemId) {
-  const fileName1 = './src/logos/' + saneName(itemId) + '.png';
-  const fileName2 = './src/logos/' + saneName(itemId) + '.svg';
-  return require('fs').existsSync(fileName1) || require('fs').existsSync(fileName2);
+  const fileName = './src/logos/' + saneName(itemId) + '.png';
+  return require('fs').existsSync(fileName);
 }
 
 export async function fetchImages(newSource) {
@@ -109,7 +108,7 @@ export async function fetchImages(newSource) {
       if (['.jpg', '.png', '.gif', '.svg'].indexOf(ext) === -1 ) {
         ext = '.png';
       }
-      outputExt = ext === '.svg' ? '.svg' : '.png';
+      outputExt = '.png';
       const fileName = `src/logos/${saneName(item.id)}${outputExt}`;
       try {
         // console.info(url);
@@ -130,17 +129,15 @@ export async function fetchImages(newSource) {
           }
         }
         if (ext === '.svg') {
-          require('fs').writeFileSync(fileName, response);
           response = await svg2png(response, {width: size.width * 2});
-        } else {
+        }
         // console.info('normalizing image');
-          const result = await normalizeImage({inputFile: response,outputFile: fileName, item});
-          if (result.low_res) {
-            errors.push({
-              logo: item.logo,
-              low_res: result.low_res
-            });
-          }
+        const result = await normalizeImage({inputFile: response,outputFile: fileName, item});
+        if (result.low_res) {
+          errors.push({
+            logo: item.logo,
+            low_res: result.low_res
+          });
         }
       } catch(ex) {
         console.info(`${item.name} has issues with logo: ${url}`);
