@@ -3,7 +3,6 @@ import Drawer from 'material-ui/Drawer';
 import Hidden from 'material-ui/Hidden';
 import Button from 'material-ui/Button';
 
-import StickyBox from "react-sticky-box";
 import Filters from './Filters';
 import Grouping from './Grouping';
 import Sorting from './Sorting';
@@ -59,11 +58,6 @@ const HomePage = ({ready, filtersVisible, hideFilters, showFilters}) => {
       <ItemDialogContainer />
 
       <div className="columns">
-        <div className="sidebar">
-          <StickyBox className="content-sidebar">
-            {filters}
-          </StickyBox>
-        </div>
         <div className="content">
           <HeaderContainer/>
           <Button onClick={showFilters}>Show</Button>
