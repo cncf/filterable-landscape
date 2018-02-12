@@ -58,6 +58,9 @@ export function parseUrl(url) {
 function addFieldToParams({field, filters, params}) {
   var value = filters[field];
   const fieldInfo = fields[field];
+  if (_.isUndefined(value)) {
+    return;
+  }
   if (JSON.stringify(value) !== JSON.stringify(initialState.filters[field])) {
     if (!_.isArray(value)) {
       value = [value];
@@ -72,6 +75,9 @@ function addFieldToParams({field, filters, params}) {
 }
 function addGroupingToParams({grouping, params}) {
   const value = grouping;
+  if (_.isUndefined(value)) {
+    return;
+  }
   if (value !== initialState.grouping) {
     const fieldInfo = fields[value];
     if (grouping === 'no') {
@@ -83,6 +89,9 @@ function addGroupingToParams({grouping, params}) {
 }
 function addSortFieldToParams({sortField, params}) {
   const value = sortField;
+  if (_.isUndefined(value)) {
+    return;
+  }
   if (value !== initialState.sortField) {
     const fieldInfo = fields[value];
     params['sort'] = fieldInfo.url;
@@ -99,6 +108,9 @@ function addSortDirectionToParams({sortDirection, params}) {
 
 function addSelectedItemIdToParams({selectedItemId, params}) {
   const value = selectedItemId;
+  if (_.isUndefined(value)) {
+    return;
+  }
   if (value !== initialState.selectedItemId) {
     params['selected'] = value;
   }

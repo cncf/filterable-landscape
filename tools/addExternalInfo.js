@@ -3,6 +3,7 @@ const source = require('js-yaml').safeLoad(require('fs').readFileSync('landscape
 const traverse = require('traverse');
 const _ = require('lodash');
 import formatCity from '../src/utils/formatCity';
+import { fetchImages } from './fetchImages';
 
 import { getCrunchbaseOrganizationsList, fetchCrunchbaseEntries, extractSavedCrunchbaseEntries } from './crunchbase';
 
@@ -54,7 +55,7 @@ async function main() {
       if (!node.headquarters) {
         node.headquarters='N/A';
       }
-      if (crunchbaseData.twitter && !node.twitter) {
+      if (crunchbaseData.twitter && _.isUndefined(node.twitter)) {
         console.info(`Warning: ${node.name} has no twitter but its crunchbase ${node.crunchbase} has a twitter: ${crunchbaseData.twitter}`);
       }
       node.description = node.description || crunchbaseData.description;
@@ -86,7 +87,18 @@ async function main() {
       node.cncf_member = cncfMembers.indexOf(node.organization) !== -1;
     }
   });
-  var dump = require('js-yaml').dump(newSource);
+  const result = await fetchImages(newSource);
+  const sourceWithLowRes = traverse(newSource).map(function(node) {
+    if (node && node.logo) {
+      var error = _.find(result, {logo: node.logo});
+      if (error) {
+        node.low_res = error.low_res;
+      }
+    }
+  });
+
+
+  var dump = require('js-yaml').dump(sourceWithLowRes);
   dump = dump.replace(/(- \w+:) null/g, '$1');
   dump = "# THIS FILE IS GENERATED AUTOMATICALLY!\n" + dump;
   require('fs').writeFileSync('processed_landscape.yml', dump);

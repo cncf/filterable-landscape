@@ -12,12 +12,16 @@ import ItemDialogContainer from './ItemDialogContainer';
 import HeaderContainer from './HeaderContainer';
 import Footer from './Footer';
 
-const HomePage = ({hasData}) => {
-  if (!hasData) {
-    return <h1>Loading data... </h1>;
+const HomePage = ({ready}) => {
+  if (!ready) {
+    return (
+      <div>
+        <HomePageUrlContainer />
+      </div>
+    )
   }
   return (
-      <div>
+      <div style={{overflowX: 'hidden'}}>
         <HomePageUrlContainer />
         <ItemDialogContainer />
         <HeaderContainer/>

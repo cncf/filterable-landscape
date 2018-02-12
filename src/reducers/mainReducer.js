@@ -9,6 +9,7 @@ import { push } from 'react-router-redux';
 
 export const initialState = {
   data: null,
+  ready: false,
   filters: {
     cncfRelation: [],
     stars: null,
@@ -105,7 +106,8 @@ export function closeDialog() {
 
 export function changeParameters(value) {
   return function(dispatch) {
-    return dispatch(setParameters(value));
+    dispatch(setParameters(value));
+    dispatch(setReady());
   }
 }
 export function resetParameters() {
@@ -119,6 +121,11 @@ function setData(data) {
   return {
     type: 'Main/SetData',
     data: data
+  };
+}
+function setReady() {
+  return {
+    type: 'Main/SetReady'
   };
 }
 
@@ -189,6 +196,9 @@ function setParametersHandler(state, action) {
     selectedItemId: action.value.selectedItemId || initialState.selectedItemId
   };
 }
+function setReadyHandler(state) {
+  return { ...state, ready: true };
+}
 
 function reducer(state = initialState, action) {
   switch(action.type) {
@@ -206,6 +216,8 @@ function reducer(state = initialState, action) {
       return setParametersHandler(state, action);
     case 'Main/SetSelectedItemId':
       return setSelectedItemIdHandler(state, action);
+    case 'Main/SetReady':
+      return setReadyHandler(state);
     default:
       return state;
   }
