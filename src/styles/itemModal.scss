@@ -42,7 +42,7 @@ $blue: #5093e0;
     @media (max-width: 767px) {max-width: 250px; margin: 0 auto 2.5rem;}
   }
   &-main {font-size: 0.8rem; line-height: 130%; color: $navy;}
-  &-scroll {margin-right: -80px; padding-right: 80px; overflow: auto; height: 600px;
+  &-scroll {margin-right: -20px; padding-right: 20px; overflow: auto; height: 600px;
     @media (max-width: 767px) {margin: 0; padding: 0; height: auto; overflow: visible;}
   }
   &-name {font-size: 2rem; line-height: 130%;}
