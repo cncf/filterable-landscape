@@ -243,7 +243,7 @@ landscape:
             organization: Amazon Web Services
             homepage_url: 'https://aws.amazon.com/'
             logo: >-
-              https://www.cncf.io/wp-content/uploads/2017/08/logo_AWS-300x184.png
+              https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg
             twitter: 'https://twitter.com/awscloud'
             crunchbase: 'https://www.crunchbase.com/organization/amazon-web-services'
             headquarters: 'Seattle, Washington'
@@ -270,13 +270,11 @@ landscape:
             stars: N/A
             license: NotOpenSource
             cncf_member: true
-            low_res: 248x148
           - item:
             name: Azure Cloud Services
             organization: Microsoft
             homepage_url: 'https://azure.microsoft.com/'
-            logo: >-
-              https://partner.microsoft.com/-/media/mssc/mpn/partner/marketing/azure-500x375.ashx
+            logo: 'https://www.datocms-assets.com/2885/1513729661-azure_logo_blue.svg'
             twitter: 'https://twitter.com/Azure'
             crunchbase: 'https://www.crunchbase.com/organization/microsoft'
             headquarters: 'Redmond, Washington'
@@ -304,7 +302,7 @@ landscape:
             stars: N/A
             license: NotOpenSource
             cncf_member: true
-            low_res: 461x130
+            low_res: 1080x296
           - item:
             name: DigitalOcean
             organization: DigitalOcean
@@ -7757,8 +7755,7 @@ landscape:
             certified_kubernetes: Platform
             homepage_url: 'https://github.com/Azure/acs-engine'
             repo_url: 'https://github.com/Azure/acs-engine'
-            logo: >-
-              https://partner.microsoft.com/-/media/mssc/mpn/partner/marketing/azure-500x375.ashx
+            logo: 'https://www.datocms-assets.com/2885/1513729661-azure_logo_blue.svg'
             crunchbase: 'https://www.crunchbase.com/organization/microsoft'
             headquarters: 'Redmond, Washington'
             first_commit_date: '2016-05-17T17:19:35Z'
@@ -7787,7 +7784,7 @@ landscape:
             latest_commit_link: >-
               https://github.com/Azure/acs-engine/commit/fe571504a91e68a8ac6fe1f55172740abed53a35
             cncf_member: true
-            low_res: 461x130
+            low_res: 1080x296
           - item:
             name: Azure Container Service (AKS)
             organization: Microsoft
@@ -7797,8 +7794,7 @@ landscape:
               choose other orchestrators.
             certified_kubernetes: Platform
             homepage_url: 'https://azure.microsoft.com/en-us/services/container-service/'
-            logo: >-
-              https://partner.microsoft.com/-/media/mssc/mpn/partner/marketing/azure-500x375.ashx
+            logo: 'https://www.datocms-assets.com/2885/1513729661-azure_logo_blue.svg'
             crunchbase: 'https://www.crunchbase.com/organization/microsoft'
             headquarters: 'Redmond, Washington'
             crunchbase_data:
@@ -7821,7 +7817,7 @@ landscape:
             stars: N/A
             license: NotOpenSource
             cncf_member: true
-            low_res: 461x130
+            low_res: 1080x296
           - item:
             name: BoCloud BeyondcentContainer
             organization: Bocloud
@@ -8487,7 +8483,7 @@ landscape:
             cncf_member: true
             low_res: 240x192
           - item:
-            name: Joyent Triton Kubernetes Managed Service
+            name: Joyent Triton for Kubernetes
             organization: Joyent
             description: >-
               Triton Kubernetes is a multi-cloud Kubernetes solution. It has a
@@ -8496,7 +8492,7 @@ landscape:
               current release uses Triton (Joyent public cloud). You can update
               the APIs to switch to another cloud or log an enhancement request.
             certified_kubernetes: Distribution
-            homepage_url: 'https://github.com/joyent/triton-kubernetes'
+            homepage_url: 'https://www.joyent.com/triton/compute'
             repo_url: 'https://github.com/joyent/triton-kubernetes'
             logo: >-
               https://p6.zdassets.com/hc/settings_assets/150338/200244868/L3CnsFFWx4OJFUp2C7uUWA-joyentLogo.png
