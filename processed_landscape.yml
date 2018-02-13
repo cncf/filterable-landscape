@@ -2085,8 +2085,7 @@ landscape:
             organization: Red Hat
             homepage_url: 'https://ceph.com/'
             repo_url: 'https://github.com/ceph/ceph'
-            logo: >-
-              https://ceph.com/wp-content/uploads/2016/07/Ceph_Logo_Stacked_RGB_120411_fa.png
+            logo: ./src/hosted_logos/ceph.svg
             twitter: 'https://twitter.com/Ceph'
             crunchbase: 'https://www.crunchbase.com/organization/red-hat'
             headquarters: 'Raleigh, North Carolina'
@@ -2114,7 +2113,6 @@ landscape:
             latest_commit_link: >-
               https://github.com/ceph/ceph/commit/511fc9c4b200e076b0030e7bce89b35e1b525c98
             cncf_member: true
-            low_res: 536x736
           - item:
             name: Datera
             organization: Datera
