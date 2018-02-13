@@ -107,7 +107,7 @@ landscape:
             organization: DigitalOcean
             homepage_url: 'https://www.digitalocean.com/'
             logo: >-
-              https://upload.wikimedia.org/wikipedia/en/thumb/f/ff/DigitalOcean_logo.svg/1024px-DigitalOcean_logo.svg.png
+              https://upload.wikimedia.org/wikipedia/commons/f/ff/DigitalOcean_logo.svg
             twitter: 'https://twitter.com/digitalocean'
             crunchbase: 'https://www.crunchbase.com/organization/digitalocean'
             headquarters: 'New York, New York'
@@ -139,7 +139,7 @@ landscape:
             organization: Fujitsu
             homepage_url: 'https://www.fujitsu.com/global/solutions/cloud/k5/'
             logo: >-
-              http://www.fujitsu.com/us/Images/fujitsu-red-jpg-rgb_tcm127-1146712.jpg
+              https://upload.wikimedia.org/wikipedia/commons/5/53/Fujitsu-Logo.svg
             stock_ticker: FJTSF
             twitter: 'https://twitter.com/Fujitsu_Global'
             crunchbase: 'https://www.crunchbase.com/organization/fujitsu'
@@ -170,7 +170,8 @@ landscape:
             name: Google Cloud
             organization: Google Cloud Platform
             homepage_url: 'https://cloud.google.com/'
-            logo: 'https://www.google.com/cloud/assets/press/Google_Cloud_Logo.png'
+            logo: >-
+              https://www.google.com/cloud/assets/global/google/google_cloud_color.svg
             twitter: 'https://twitter.com/googlecloud'
             crunchbase: 'https://www.crunchbase.com/organization/google-cloud-platform'
             headquarters: 'San Francisco, California'
@@ -192,13 +193,11 @@ landscape:
             stars: N/A
             license: NotOpenSource
             cncf_member: true
-            low_res: 376x68
           - item:
             name: Huawei
             organization: Huawei Technologies
             homepage_url: 'https://www.huawei.com/'
-            logo: >-
-              https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Huawei-optimized.svg/300px-Huawei-optimized.svg.png
+            logo: 'https://upload.wikimedia.org/wikipedia/commons/0/00/Huawei.svg'
             twitter: 'https://twitter.com/Huawei'
             crunchbase: 'https://www.crunchbase.com/organization/huawei'
             headquarters: 'Plano, Texas'
@@ -221,7 +220,6 @@ landscape:
             stars: N/A
             license: NotOpenSource
             cncf_member: true
-            low_res: 300x300
           - item:
             name: IBM Cloud
             organization: IBM Cloud
@@ -256,6 +254,7 @@ landscape:
             repo_url: 'https://github.com/joyent/smartos-live'
             logo: >-
               https://p6.zdassets.com/hc/settings_assets/150338/200244868/L3CnsFFWx4OJFUp2C7uUWA-joyentLogo.png
+            best_res: null
             twitter: 'https://twitter.com/joyent'
             crunchbase: 'https://www.crunchbase.com/organization/joyent'
             headquarters: 'San Francisco, California'
@@ -293,7 +292,7 @@ landscape:
             organization: Oracle
             homepage_url: 'https://cloud.oracle.com/'
             logo: >-
-              http://sabeo.com/wp-content/uploads/2017/05/OracleCloud_logo300.png
+              https://visualpharm.com/assets/643/Oracle%20Logo-595b40b85ba036ed117da774.svg
             twitter: 'https://twitter.com/oraclecloud'
             crunchbase: 'https://www.crunchbase.com/organization/oracle'
             headquarters: 'Redwood Shores, California'
@@ -321,13 +320,11 @@ landscape:
             stars: N/A
             license: NotOpenSource
             cncf_member: true
-            low_res: 282x97
           - item:
             name: Packet
             organization: Packet Host
             homepage_url: 'https://www.packet.net/'
-            logo: >-
-              https://user-images.githubusercontent.com/7989673/29498525-38a33f36-85cc-11e7-938d-ef6f10ba6fb3.png
+            logo: 'https://assets.packet.net/company/logo.svg'
             twitter: 'https://twitter.com/packethost'
             crunchbase: 'https://www.crunchbase.com/organization/packet-host'
             headquarters: 'New York, New York'
@@ -503,7 +500,7 @@ landscape:
             homepage_url: 'https://www.openstack.org/'
             repo_url: 'https://github.com/openstack/nova'
             logo: >-
-              https://www.openstack.org/assets/openstack-logo/2016R/OpenStack-Logo-Vertical.png
+              https://openstack.thothlab.com/static/dashboard/img/logo-splash.svg
             twitter: 'https://twitter.com/OpenStack'
             crunchbase: 'https://www.crunchbase.com/organization/openstack'
             headquarters: 'Austin, Texas'
@@ -532,12 +529,12 @@ landscape:
             latest_commit_link: >-
               https://github.com/openstack/nova/commit/fa6c0f9cb14f1b4ce4d9b1dbacb1743173089986
             cncf_member: false
-            low_res: 470x227
           - item:
             name: Scaleway
             organization: Scaleway
             homepage_url: 'https://www.scaleway.com/'
-            logo: 'https://blog.online.net/content/images/2015/04/scaleway_02-1.png'
+            logo: >-
+              https://www.scaleway.com/assets/images/illustrations/scw-logo-large-purple.svg
             twitter: 'https://twitter.com/scaleway'
             crunchbase: 'https://www.crunchbase.com/organization/scaleway'
             headquarters: 'Paris, France'
@@ -556,13 +553,12 @@ landscape:
             stars: N/A
             license: NotOpenSource
             cncf_member: false
-            low_res: 1106x229
           - item:
             name: VMware
             organization: VMware
             homepage_url: 'https://www.vmware.com/'
             stock_ticker: VMW
-            logo: 'https://regmedia.co.uk/2015/02/02/vmware_cloud_logo.jpg'
+            logo: 'https://practice-labs.com/images/vmware-logo.svg'
             twitter: 'https://twitter.com/VMware'
             crunchbase: 'https://www.crunchbase.com/organization/vmware'
             headquarters: 'Palo Alto, California'
@@ -587,7 +583,6 @@ landscape:
             stars: N/A
             license: NotOpenSource
             cncf_member: true
-            low_res: 472x344
   - category:
     name: Provisioning
     subcategories:
@@ -600,8 +595,7 @@ landscape:
             homepage_url: 'https://www.ansible.com/'
             repo_url: 'https://github.com/ansible/ansible'
             branch: devel
-            logo: >-
-              https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Ansible_logo.svg/2000px-Ansible_logo.svg.png
+            logo: 'https://cdn.worldvectorlogo.com/logos/ansible.svg'
             twitter: 'https://twitter.com/ansible'
             crunchbase: 'https://www.crunchbase.com/organization/red-hat'
             headquarters: 'Raleigh, North Carolina'
@@ -634,8 +628,7 @@ landscape:
             organization: CFEngine
             homepage_url: 'https://cfengine.com/'
             repo_url: 'https://github.com/cfengine/core'
-            logo: >-
-              https://crunchbase-production-res.cloudinary.com/image/upload/xq7nwzno4qanyadqph0i.jpg
+            logo: 'https://cohesion.nl/wp-content/uploads/2017/05/cfengine.svg'
             twitter: 'https://twitter.com/cfengine'
             crunchbase: 'https://www.crunchbase.com/organization/cfengine'
             headquarters: 'Palo Alto, California'
@@ -710,7 +703,8 @@ landscape:
             name: LinuxKit
             organization: Docker
             repo_url: 'https://github.com/linuxkit/linuxkit'
-            logo: 'https://ordina-jworks.github.io/img/dockercon2017/linux-kit.png'
+            logo: >-
+              https://raw.githubusercontent.com/linuxkit/linuxkit/master/logo/linux-kit%403x.svg
             twitter: 'https://twitter.com/linuxkit'
             crunchbase: 'https://www.crunchbase.com/organization/docker'
             headquarters: 'San Francisco, California'
@@ -743,14 +737,12 @@ landscape:
             latest_commit_link: >-
               https://github.com/linuxkit/linuxkit/commit/957d0a100e894287d221426d1d6e1096bbdf5a83
             cncf_member: true
-            low_res: 592x174
           - item:
             name: Puppet
             organization: Puppet
             homepage_url: 'https://puppet.com/'
             repo_url: 'https://github.com/puppetlabs/puppet'
-            logo: >-
-              https://upload.wikimedia.org/wikipedia/en/0/09/Puppet%27s_company_logo.png
+            logo: 'https://www.nutanix.com/wp-content/uploads/2017/02/logo_puppet.svg'
             twitter: 'https://twitter.com/puppetlabs'
             crunchbase: 'https://www.crunchbase.com/organization/puppet-labs'
             headquarters: 'Portland, Oregon'
@@ -781,7 +773,6 @@ landscape:
             latest_commit_link: >-
               https://github.com/puppetlabs/puppet/commit/53ecfaf1bc7cb7576fed14db0567441c4df385cb
             cncf_member: false
-            low_res: 532x187
           - item:
             name: Rundeck
             organization: Rundeck
@@ -821,7 +812,7 @@ landscape:
             repo_url: 'https://github.com/saltstack/salt'
             branch: develop
             logo: >-
-              https://crunchbase-production-res.cloudinary.com/image/upload/ddd2130f2a69731ce90ebf4fc205866f.jpg
+              https://www.signalsciences.com/dist/images/integration-logos/salt.svg
             twitter: 'https://twitter.com/SaltStack'
             crunchbase: 'https://www.crunchbase.com/organization/saltstack'
             headquarters: 'Lehi, Utah'
@@ -854,7 +845,6 @@ landscape:
             latest_commit_link: >-
               https://github.com/saltstack/salt/commit/94aaa5bb28a0516f1e55d1f161904e4d4bb22339
             cncf_member: false
-            low_res: 567x324
       - subcategory:
         name: Infrastructure Automation
         items:
@@ -1068,7 +1058,7 @@ landscape:
             repo_url: 'https://github.com/juju/juju'
             branch: develop
             logo: >-
-              https://design.canonical.com/wp-content/uploads/2011/10/juju-464x252.png
+              https://assets.ubuntu.com/v1/d2041fee-juju_black-orange_hex+(Alex%2BMilazzo%27s%2Bconflicted%2Bcopy%2B2016-07-18).svg
             twitter: 'https://twitter.com/ubuntucloud'
             crunchbase: 'https://www.crunchbase.com/organization/canonical-ltd'
             headquarters: 'London, United Kingdom'
@@ -1097,7 +1087,6 @@ landscape:
             latest_commit_link: >-
               https://github.com/juju/juju/commit/6793a3ca5af644b7bbc323905828b97e1f45b98d
             cncf_member: true
-            low_res: 240x246
           - item:
             name: Kubicorn
             organization: Kubicorn
@@ -1168,7 +1157,7 @@ landscape:
             homepage_url: 'https://www.terraform.io/'
             repo_url: 'https://github.com/hashicorp/terraform'
             logo: >-
-              https://crunchbase-production-res.cloudinary.com/image/upload/v1494032023/ds2ujajovsaxg7cjwgei.png
+              https://www.datocms-assets.com/2885/1506457071-blog-terraform-list.svg
             twitter: 'https://twitter.com/HashiCorp'
             crunchbase: 'https://www.crunchbase.com/organization/hashicorp'
             headquarters: 'San Francisco, California'
@@ -2159,8 +2148,7 @@ landscape:
             name: Dell EMC
             organization: Dell EMC
             homepage_url: 'https://www.dellemc.com/'
-            logo: >-
-              https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Dell_EMC_logo.svg/500px-Dell_EMC_logo.svg.png
+            logo: 'https://www.aerohive.com/wp-content/uploads/dellEMC.LOGO_.svg'
             twitter: 'https://twitter.com/dellemc'
             crunchbase: 'https://www.crunchbase.com/organization/dell-emc'
             headquarters: 'Hopkinton, Massachusetts'
@@ -2183,7 +2171,6 @@ landscape:
             stars: N/A
             license: NotOpenSource
             cncf_member: true
-            low_res: 500x83
           - item:
             name: Diamanti
             organization: Diamanti
@@ -2360,42 +2347,6 @@ landscape:
               https://github.com/leo-project/leofs/commit/9bcce867b186a84862e84688c8fe1c5f83adcfb0
             cncf_member: false
             low_res: 392x136
-          - item:
-            name: libstorage
-            organization: Dell EMC
-            homepage_url: 'https://libstorage.readthedocs.io/en/stable/'
-            repo_url: 'https://github.com/codedellemc/rexray'
-            logo: >-
-              https://www.storagenewsletter.com/wp-content/uploads/2016/06/EMC_LIBSTORAGE_LOGO.jpg
-            twitter: 'https://twitter.com/EMCcorp'
-            crunchbase: 'https://www.crunchbase.com/organization/dell-emc'
-            headquarters: 'Hopkinton, Massachusetts'
-            description: >-
-              Dell EMC enables digital transformation with trusted solutions for
-              the modern data center.
-            first_commit_date: '2015-04-14T03:57:41Z'
-            first_commit_link: >-
-              https://github.com/thecodeteam/rexray/commit/16fc924fc90462597d2a27db15c50dbd02bbfe99
-            crunchbase_data:
-              name: Dell EMC
-              description: >-
-                Dell EMC enables digital transformation with trusted solutions
-                for the modern data center.
-              num_employees_min: 10001
-              num_employees_max: 1000000
-              homepage: 'http://dellemc.com'
-              city: Hopkinton
-              region: Massachusetts
-              country: United States
-              twitter: 'https://twitter.com/dellemc'
-              linkedin: 'https://www.linkedin.com/company-beta/1128'
-            stars: 1058
-            license: Apache-2.0
-            latest_commit_date: '2017-12-19T22:26:34Z'
-            latest_commit_link: >-
-              https://github.com/thecodeteam/rexray/commit/1608180686ac4426b04941b4002fb33b9efd972e
-            cncf_member: true
-            low_res: 279x237
           - item:
             name: Manta
             organization: Joyent
@@ -2611,8 +2562,7 @@ landscape:
             organization: VMware
             homepage_url: 'https://vmware.github.io/hatchway/'
             stock_ticker: VMW
-            logo: >-
-              https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Vmware.svg/1000px-Vmware.svg.png
+            logo: 'https://practice-labs.com/images/vmware-logo.svg'
             twitter: 'https://twitter.com/VMware'
             crunchbase: 'https://www.crunchbase.com/organization/vmware'
             headquarters: 'Palo Alto, California'
@@ -2637,7 +2587,6 @@ landscape:
             stars: N/A
             license: NotOpenSource
             cncf_member: true
-            low_res: 989x151
           - item:
             name: Pure Storage
             organization: Pure Storage
@@ -3614,7 +3563,7 @@ landscape:
             homepage_url: 'http://openvswitch.org/'
             repo_url: 'https://github.com/openvswitch/ovs'
             logo: >-
-              https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Open_vSwitch_Logo.svg/1200px-Open_vSwitch_Logo.svg.png
+              https://upload.wikimedia.org/wikipedia/commons/5/59/Open_vSwitch_Logo.svg
             twitter: 'https://twitter.com/openvswitch'
             crunchbase: 'https://www.crunchbase.com/organization/open-vswitch'
             headquarters: N/A
@@ -4251,8 +4200,7 @@ landscape:
             homepage_url: 'https://github.com/vmware/haret'
             stock_ticker: VMW
             repo_url: 'https://github.com/vmware/haret'
-            logo: >-
-              http://logodatabases.com/wp-content/uploads/2012/05/vmware-logo-black.jpg
+            logo: 'https://practice-labs.com/images/vmware-logo.svg'
             twitter: 'https://twitter.com/VMware'
             crunchbase: 'https://www.crunchbase.com/organization/vmware'
             headquarters: 'Palo Alto, California'
@@ -5163,7 +5111,7 @@ landscape:
             repo_url: 'https://github.com/apache/cassandra'
             branch: trunk
             logo: >-
-              https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Cassandra_logo.svg/279px-Cassandra_logo.svg.png
+              https://upload.wikimedia.org/wikipedia/commons/5/5e/Cassandra_logo.svg
             twitter: 'https://twitter.com/cassandra'
             crunchbase: 'https://www.crunchbase.com/organization/apache'
             headquarters: 'Forest Hill, Maryland'
@@ -5193,7 +5141,6 @@ landscape:
             latest_commit_link: >-
               https://github.com/apache/cassandra/commit/161c37da8fa93f572e3c9474cb37fc6d96058ff6
             cncf_member: false
-            low_res: 269x178
           - item:
             name: CockroachDB
             organization: Cockroach Labs
@@ -6219,8 +6166,7 @@ landscape:
             organization: Apache Software Foundation
             homepage_url: 'https://flink.apache.org/'
             repo_url: 'https://github.com/apache/flink'
-            logo: >-
-              http://www3.imperial.ac.uk/newseventsimages?p_image_type=MEDIUM&p_image_id=27451
+            logo: 'https://flink.apache.org/img/flink-header-logo.svg'
             twitter: 'https://twitter.com/apacheflink'
             crunchbase: 'https://www.crunchbase.com/organization/apache'
             headquarters: 'Forest Hill, Maryland'
@@ -6250,7 +6196,6 @@ landscape:
             latest_commit_link: >-
               https://github.com/apache/flink/commit/556ea8a71731218096f013c5b06af57fa6404560
             cncf_member: false
-            low_res: 252x340
           - item:
             name: Google Cloud Dataflow
             organization: Google Cloud Platform
@@ -6781,7 +6726,7 @@ landscape:
             organization: Chef
             homepage_url: 'https://www.habitat.sh/'
             repo_url: 'https://github.com/habitat-sh/habitat'
-            logo: 'https://brand.chef.io/images/habitat/logos/logo-1.png'
+            logo: 'https://upload.wikimedia.org/wikipedia/commons/8/8a/Chef_logo.svg'
             twitter: 'https://twitter.com/hashtag/habitatsh'
             crunchbase: 'https://www.crunchbase.com/organization/chef'
             headquarters: 'Seattle, Washington'
@@ -6812,7 +6757,6 @@ landscape:
             latest_commit_link: >-
               https://github.com/habitat-sh/habitat/commit/055d5b283a5be3aec1448e05a989869b6a07344e
             cncf_member: false
-            low_res: 672x240
           - item:
             name: KubeVirt
             organization: KubeVirt
@@ -6879,7 +6823,7 @@ landscape:
             homepage_url: 'https://www.packer.io/intro/index.html'
             repo_url: 'https://github.com/hashicorp/packer'
             logo: >-
-              https://res.cloudinary.com/crunchbase-production/image/upload/v1494031899/ni0ybdyhq4v3cyh9n88z.png
+              https://www.datocms-assets.com/2885/1506457192-blog-packer-list.svg
             twitter: 'https://twitter.com/HashiCorp'
             crunchbase: 'https://www.crunchbase.com/organization/hashicorp'
             headquarters: 'San Francisco, California'
@@ -7921,7 +7865,7 @@ landscape:
             homepage_url: >-
               https://www.cisco.com/c/en/us/products/cloud-systems-management/container-platform/index.html
             logo: >-
-              https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Cisco_logo.svg/2000px-Cisco_logo.svg.png
+              https://merchandise-store.cisco.com/skin/frontend/ultimo/fullpond/images/Cisco_Logo.svg
             crunchbase: 'https://www.crunchbase.com/organization/cisco'
             headquarters: 'San Jose, California'
             crunchbase_data:
@@ -8368,8 +8312,7 @@ landscape:
               environment on the cloud with ease.
             certified_kubernetes: Platform
             homepage_url: 'http://www.huaweicloud.com/en-us/product/cce.html'
-            logo: >-
-              https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Huawei.svg/2000px-Huawei.svg.png
+            logo: 'https://upload.wikimedia.org/wikipedia/commons/0/00/Huawei.svg'
             crunchbase: 'https://www.crunchbase.com/organization/huawei'
             headquarters: 'Plano, Texas'
             crunchbase_data:
@@ -8738,7 +8681,7 @@ landscape:
             homepage_url: 'https://www.openshift.com/'
             repo_url: 'https://github.com/openshift/origin'
             logo: >-
-              https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/OpenShift-LogoType.svg/2000px-OpenShift-LogoType.svg.png
+              https://upload.wikimedia.org/wikipedia/commons/3/3a/OpenShift-LogoType.svg
             crunchbase: 'https://www.crunchbase.com/organization/red-hat'
             headquarters: 'Raleigh, North Carolina'
             first_commit_date: '2014-07-30T18:17:42Z'
@@ -9028,7 +8971,7 @@ landscape:
             certified_kubernetes: Platform
             homepage_url: 'https://cloudplatform.sap.com/index.html'
             logo: >-
-              https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/SAP_2011_logo.svg/2000px-SAP_2011_logo.svg.png
+              https://www.ariba.com/frontend/aribacom/dist/assets/images/sap_logo.svg
             crunchbase: 'https://www.crunchbase.com/organization/sap'
             headquarters: 'Walldorf, Germany'
             crunchbase_data:
@@ -9244,8 +9187,7 @@ landscape:
               Customers.
             certified_kubernetes: Distribution
             homepage_url: 'https://www.vmware.com/radius/pivotal-container-services/'
-            logo: >-
-              https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Vmware.svg/1000px-Vmware.svg.png
+            logo: 'https://practice-labs.com/images/vmware-logo.svg'
             crunchbase: 'https://www.crunchbase.com/organization/vmware'
             headquarters: 'Palo Alto, California'
             crunchbase_data:
@@ -9266,7 +9208,6 @@ landscape:
             stars: N/A
             license: NotOpenSource
             cncf_member: true
-            low_res: 989x151
           - item:
             name: Weaveworks kubeadm
             organization: Weaveworks
@@ -9486,8 +9427,7 @@ landscape:
               (CSPs).
             certified_kubernetes: false
             homepage_url: 'http://e.huawei.com/us/solutions/technical/cloud-computing'
-            logo: >-
-              https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Huawei.svg/2000px-Huawei.svg.png
+            logo: 'https://upload.wikimedia.org/wikipedia/commons/0/00/Huawei.svg'
             crunchbase: 'https://www.crunchbase.com/organization/huawei'
             headquarters: 'Plano, Texas'
             crunchbase_data:
@@ -10079,7 +10019,7 @@ landscape:
             organization: Lightbend
             homepage_url: 'https://www.lightbend.com/'
             logo: >-
-              https://upload.wikimedia.org/wikipedia/en/thumb/b/b1/Lightbend_full-color_logo.svg/1280px-Lightbend_full-color_logo.svg.png
+              https://upload.wikimedia.org/wikipedia/en/b/b1/Lightbend_full-color_logo.svg
             twitter: 'https://twitter.com/lightbend'
             crunchbase: 'https://www.crunchbase.com/organization/typesafe'
             headquarters: 'San Francisco, California'
@@ -10104,7 +10044,6 @@ landscape:
             stars: N/A
             license: NotOpenSource
             cncf_member: false
-            low_res: 1270x269
           - item:
             name: Mantl
             organization: Mantl
@@ -12723,7 +12662,7 @@ landscape:
               delivery, cybersecurity, engineering, and innovation expertise.
             homepage_url: 'https://www.boozallen.com/'
             logo: >-
-              https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Booz_Allen_Hamilton_logo.svg/1280px-Booz_Allen_Hamilton_logo.svg.png
+              http://b.oflogo.com/wp-content/uploads/boflogo-booz-allen-hamilton.svg
             crunchbase: 'https://www.crunchbase.com/organization/booz-allen-hamilton'
             headquarters: 'Mclean, Virginia'
             crunchbase_data:
@@ -12742,7 +12681,6 @@ landscape:
             stars: N/A
             license: NotOpenSource
             cncf_member: false
-            low_res: 1153x129
           - item:
             name: Caicloud
             organization: Caicloud
@@ -13066,8 +13004,7 @@ landscape:
               the core of which is based on mainstream open source container
               technology including Kubernetes and Docker.
             homepage_url: 'http://developer.huawei.com/ict/en/site-paas'
-            logo: >-
-              https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Huawei.svg/2000px-Huawei.svg.png
+            logo: 'https://upload.wikimedia.org/wikipedia/commons/0/00/Huawei.svg'
             crunchbase: 'https://www.crunchbase.com/organization/huawei'
             headquarters: 'Plano, Texas'
             crunchbase_data:
@@ -13118,8 +13055,8 @@ landscape:
             cncf_member: false
             low_res: 439x253
           - item:
-            name: inwinSTACK INC
-            organization: inwinSTACK INC
+            name: inwinSTACK
+            organization: inwinSTACK
             description: >-
               Our container service leverages OpenStack-based infrastructure and
               its container orchestration engine Magnum to manage Kubernetes
@@ -13132,7 +13069,7 @@ landscape:
               headquarters: N/A
             stars: N/A
             license: NotOpenSource
-            cncf_member: false
+            cncf_member: true
             low_res: 240x192
           - item:
             name: Jetstack
