@@ -59,7 +59,7 @@ landscape:
             name: IBM Cloud
             organization: IBM Cloud
             homepage_url: 'https://www.ibm.com/cloud/'
-            logo: ./src/hosted_logos/ibm-cloud.png
+            logo: ./src/hosted_logos/ibm-cloud.svg
             twitter: 'https://twitter.com/IBMcloud'
             crunchbase: 'https://www.crunchbase.com/organization/ibm-cloud'
           - item:
@@ -1798,7 +1798,7 @@ landscape:
               microservices architecture.
             certified_kubernetes: Platform
             homepage_url: 'https://www.alibabacloud.com/product/container-service?spm=a3c0i.7911826.709257.dproducta4.1010a3feFbGgBW'
-            logo: 'https://seeklogo.com/images/A/alibaba-cloud-logo-898D58C1CE-seeklogo.com.png'
+            logo: ./src/hosted_logos/alibaba-cloud.svg
             crunchbase: 'https://www.crunchbase.com/organization/alibaba-cloud'
           - item:
             name: Apprenda Kismatic Enterprise Toolkit (KET)
@@ -2029,7 +2029,7 @@ landscape:
             description: 'Build open, cloud-native apps with public services and run them anywhere — on public cloud or on your existing on-premises systems.'
             certified_kubernetes: Distribution
             homepage_url: 'https://www.ibm.com/cloud-computing/products/ibm-cloud-private/'
-            logo: ./src/hosted_logos/ibm-cloud.png
+            logo: ./src/hosted_logos/ibm-cloud.svg
             crunchbase: 'https://www.crunchbase.com/organization/ibm-cloud'
           - item:
             name: inwinSTACK kube-ansible
@@ -2238,7 +2238,7 @@ landscape:
             certified_kubernetes: Platform
             stock_ticker: TCEHY
             homepage_url: 'https://cloud.tencent.com/product/ccs?lang=en'
-            logo: 'https://www.cncf.io/wp-content/uploads/2017/05/logo_tencent-300x184.png'
+            logo: ./src/hosted_logos/tencent-cloud.svg
             crunchbase: 'https://www.crunchbase.com/organization/tencent'
           - item:
             name: TenxCloud Container Engine (TCE)
@@ -3251,7 +3251,7 @@ landscape:
               The IBM Bluemix Container Service combines Docker and Kubernetes to deliver powerful tools, an intuitive user experiences, and built-in security
               and isolation to enable rapid delivery of applications all while leveraging Cloud Services including cognitive capabilities from Watson.
             homepage_url: 'https://www.ibm.com/cloud-computing/bluemix/containers'
-            logo: ./src/hosted_logos/ibm-cloud.png
+            logo: ./src/hosted_logos/ibm-cloud.svg
             crunchbase: 'https://www.crunchbase.com/organization/ibm-cloud'
           - item:
             name: inwinSTACK
