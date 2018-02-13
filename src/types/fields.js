@@ -26,7 +26,7 @@ const fields = {
       children: ['graduated', 'incubating', 'inception']
     }, {
       id: 'graduated',
-      label: 'CNCF Graduated Projects',
+      label: 'Graduated CNCF Projects',
       tag: 'Graduated',
       url: 'graduated',
       level: 2,
