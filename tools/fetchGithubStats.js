@@ -1,5 +1,4 @@
 const Promise = require('bluebird');
-const source = require('js-yaml').safeLoad(require('fs').readFileSync('landscape.yml'));
 const traverse = require('traverse');
 import _ from 'lodash';
 const rp = require('request-promise');
@@ -7,79 +6,110 @@ import { JSDOM } from 'jsdom';
 
 import { getRepoLatestDate } from './githubDates';
 
-const tree = traverse(source);
-const repos = {};
-tree.map(function(node) {
-  if (!node) {
-    return;
+
+export async function extractSavedGithubEntries() {
+  const result = [];
+  const traverse = require('traverse');
+  let source = [];
+  try {
+    source =  require('js-yaml').safeLoad(require('fs').readFileSync('processed_landscape.yml'));
+  } catch(_ex) {
+    console.info('Can not extract github entries from the processed_landscape.yml');
   }
-  if (node.item !== null) {
-    return;
-  }
-  if (node.repo_url && node.repo_url.indexOf('https://github.com') === 0) {
-    repos[node.repo_url] = node.branch || 'master';
-  } /* else {
-    if (!node.repo_url) {
-      console.info(`item: ${node.name} has no repo url`)
-    } else {
-      console.info(`item: ${node.name} has a non github repo url`)
+  const tree = traverse(source);
+  tree.map(function(node) {
+    if (!node) {
+      return;
     }
-  } */
-});
-const urls = _.keys(repos);
+    if (node.github_data) {
+      result.push({...node.github_data, repo_url: node.repo_url});
+    }
+  });
+  return result;
+}
+
+async function getGithubRepos() {
+  const source =  require('js-yaml').safeLoad(require('fs').readFileSync('landscape.yml'));
+  const tree = traverse(source);
+  const repos = [];
+  tree.map(function(node) {
+    if (!node) {
+      return;
+    }
+    if (node.item !== null) {
+      return;
+    }
+    if (node.repo_url && node.repo_url.indexOf('https://github.com') === 0) {
+      repos.push({
+        url: node.repo_url,
+        branch: node.branch || 'master'
+      });
+    } /* else {
+      if (!node.repo_url) {
+        console.info(`item: ${node.name} has no repo url`)
+      } else {
+        console.info(`item: ${node.name} has a non github repo url`)
+      }
+    } */
+  });
+  return _.uniq(repos);
+}
+
 
 const result = [];
-async function readGithubStats() {
-  await Promise.map(urls, async function(url) {
-    if (url.split('/').length !==  5 || !url.split('/')[4]) {
-      result.push({url, stars: 'N/A', license: 'Unknown License'});
-      console.info(url, ' does not look like a GitHub repo');
-      return;
+export async function fetchGithubEntries({cache, preferCache}) {
+  const repos = await getGithubRepos();
+  return await Promise.map(repos, async function(repo) {
+    const cachedEntry = _.find(cache, {url: repo.repo_url});
+    if (cachedEntry && preferCache) {
+      return cachedEntry;
     }
-    const repo = url.split('/').slice(3,5).join('/');
-    var response = await rp({
-      uri: url,
-      followRedirect: true,
-      timeout: 10 * 1000,
-      simple: true
-    });
-    const dom = new JSDOM(response);
-    const doc = dom.window.document;
-    var stars = 'N/A';
-    var license = 'Unknown License';
-    const starsElement = doc.querySelector('.js-social-count');
-    if (starsElement) {
-      stars = +starsElement.textContent.replace(/,/g,'');
-    }
-    const licenseElement = doc.querySelector('.octicon-law');
-    if (stars !== 'N/A' && licenseElement) {
-      license = licenseElement.nextSibling.textContent.replace(/\n/g, '').trim();
-    }
-    const descriptionElement = doc.querySelector('.repository-meta-content > [itemprop="about"]');
-    var description = '';
-    if (descriptionElement) {
-      description = descriptionElement.textContent.replace(/\n/g, '').trim();
-    }
-    var date;
-    var latestCommitLink;
-    try {
-      const branch = repos[url];
-      var latestDateResult = await getRepoLatestDate({repo, branch });
-      // console.info(repo, latestDateResult);
-      date = latestDateResult.date;
-      latestCommitLink = latestDateResult.commitLink;
-    } catch (ex) {
-      console.info ('can not fetch last date for ', repo);
-      return;
-    }
-    result.push({url, stars, license, description, latest_commit_date: date, latest_commit_link: latestCommitLink });
     await Promise.delay(1 * 1000);
-  }, {concurrency: 20});_
-
-
+    try {
+      const url = repo.url;
+      if (url.split('/').length !==  5 || !url.split('/')[4]) {
+        result.push({url, stars: 'N/A', license: 'Unknown License'});
+        console.info(url, ' does not look like a GitHub repo');
+        return;
+      }
+      const repoName = url.split('/').slice(3,5).join('/');
+      var response = await rp({
+        uri: url,
+        followRedirect: true,
+        timeout: 10 * 1000,
+        simple: true
+      });
+      const dom = new JSDOM(response);
+      const doc = dom.window.document;
+      var stars = 'N/A';
+      var license = 'Unknown License';
+      const starsElement = doc.querySelector('.js-social-count');
+      if (starsElement) {
+        stars = +starsElement.textContent.replace(/,/g,'');
+      }
+      const licenseElement = doc.querySelector('.octicon-law');
+      if (stars !== 'N/A' && licenseElement) {
+        license = licenseElement.nextSibling.textContent.replace(/\n/g, '').trim();
+      }
+      const descriptionElement = doc.querySelector('.repository-meta-content > [itemprop="about"]');
+      var description = '';
+      if (descriptionElement) {
+        description = descriptionElement.textContent.replace(/\n/g, '').trim();
+      }
+      var date;
+      var latestCommitLink;
+      try {
+        var latestDateResult = await getRepoLatestDate({repo:repoName, branch: repo.branch });
+        // console.info(repo, latestDateResult);
+        date = latestDateResult.date;
+        latestCommitLink = latestDateResult.commitLink;
+      } catch (ex) {
+        console.info ('can not fetch last date for ', repoName, ex.message.substring(0, 100));
+        return;
+      }
+      return ({url: repo.repo_url, stars, license, description, latest_commit_date: date, latest_commit_link: latestCommitLink });
+    } catch (ex) {
+      return cachedEntry || null;
+    }
+  }, {concurrency: 20});
 }
-async function main() {
-  await readGithubStats();
-  require('fs').writeFileSync('src/github.json', JSON.stringify(_.orderBy(result, 'url'), null, 2));
-}
-main();

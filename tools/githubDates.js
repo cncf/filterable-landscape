@@ -94,6 +94,7 @@ async function promiseBinarySearch(low, high, fn) {
 export async function getRepoLatestDate({repo, branch}) {
   branch = branch || 'master';
   const info = await readGithubStats({repo, branch});
+  // console.info(info);
   return {
     date: await getCommitDate(info.firstCommitLink), //first row on the page
     commitLink: info.firstCommitLink

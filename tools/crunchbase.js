@@ -37,7 +37,13 @@ export async function getCrunchbaseOrganizationsList() {
 
 export async function extractSavedCrunchbaseEntries() {
   const traverse = require('traverse');
-  const source = require('js-yaml').safeLoad(require('fs').readFileSync('processed_landscape.yml'));
+  let source = [];
+  try {
+    source =  require('js-yaml').safeLoad(require('fs').readFileSync('processed_landscape.yml'));
+  } catch(_ex) {
+    console.info('Can not extract crunchbase entries from the processed_landscape.yml');
+  }
+
   var organizations = [];
   const tree = traverse(source);
   tree.map(function(node) {
@@ -83,10 +89,15 @@ async function getMarketCap(ticker) {
   return quote.summaryDetail.marketCap;
 }
 
-export async function fetchCrunchbaseEntries(organizations) {
+export async function fetchCrunchbaseEntries({cache, preferCache}) {
   // console.info(organizations);
   // console.info(_.find(organizations, {name: 'foreman'}));
+  const organizations = await getCrunchbaseOrganizationsList();
   return await Promise.map(organizations,async function(c) {
+    const cachedEntry = _.find(cache, {url: c.crunchbase});
+    if (cachedEntry && preferCache) {
+      return cachedEntry;
+    }
     await Promise.delay(1 * 1000);
     try {
       const result = await rp({
@@ -126,11 +137,12 @@ export async function fetchCrunchbaseEntries(organizations) {
       var firstWithTicker = _.find( meAndParents, (org) => !!org.properties.stock_symbol );
       var firstWithFunding = _.find( meAndParents, (org) => !!org.properties.total_funding_usd );
       if (firstWithTicker) {
-        entry.ticker = c.ticker || firstWithTicker.properties.stock_symbol;
+        entry.ticker = firstWithTicker.properties.stock_symbol;
+        entry.effective_ticker = c.ticker || entry.ticker;
         try {
-          entry.funding = await getMarketCap(entry.ticker, cbInfo.stock_exchange);
+          entry.market_cap = await getMarketCap(entry.effective_ticker, cbInfo.stock_exchange);
         } catch(ex) {
-          console.info('can not fetch market cap for the ', cbInfo.name, entry.ticker);
+          console.info('can not fetch market cap for the ', cbInfo.name, entry.effective_ticker);
         }
         entry.kind = 'market_cap';
         // console.info(cbInfo.name, 'ticker: ', entry.ticker, ' market cap: ', entry.funding);
@@ -146,7 +158,7 @@ export async function fetchCrunchbaseEntries(organizations) {
     } catch (ex) {
       console.info(ex.message, ex.stack);
       console.info(c, ' - fail');
-      return null;
+      return cachedEntry || null;
     }
   }, {concurrency: 5})
 }
