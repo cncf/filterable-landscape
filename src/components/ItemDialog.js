@@ -218,7 +218,7 @@ const ItemDialog = ({onClose, itemInfo, previousItemId, nextItemId, onSelectItem
               <Timeline
                 dataSource={{
                   sourceType: 'profile',
-                  screenName: itemInfo.twitter.split('/').slice(-1)[0]
+                  screenName: itemInfo.twitter.split('/').filter( x => !!x).slice(-1)[0]
                 }}
                 options={{
                   username: itemInfo.name,
