@@ -40,13 +40,13 @@ Everything else is under the Apache License, Version 2.0, except for project and
 
 The following rules will produce the most readable and attractive logos:
 
-1. Dimensions of the source logo should be at least 450x300, as that is what they are resized to.
-1. Source must be PNG or SVG. Transparent background is better. It will be converted to PNG with a transparent background.
+1. We strongly prefer SVG, as they are smaller, display correctly at any scale, and work on all modern browsers. If you only have the logo in another vector format (like AI, EPS, or PSD), please open as issue and we'll convert it to SVG for you.
+1. If it must be a PNG, the dimensions of the source logo need to be at least 450x300, as that is what they are resized to. A transparent background is better; white will be converted to PNG with a transparent background.
 1. When multiple variants exist, use stacked (not horizontal) logos. For example, we use the second column (stacked), not the first (horizontal), of CNCF project [logos](https://github.com/cncf/artwork/#cncf-incubating-logos).
 1. Don't use reversed logos (i.e., with a non-white, non-transparent background color). If you only have a reversed logo, create an issue with it attached and we'll produce a non-reversed version for you.
 1. Logos must include the company, product or project name in English. It's fine to also include words from another language. If you don't have a version of your logo with the name in it, please open an issue and we'll create one for you (and please specify the font).
-1. If the name of the product is not in the logo, then the company name should be included in the product name. So an Acme Rocket logo that shows "Rocket" should have product name "Rocket", while if the logo shows "Acme", the product name should be "Acme Rocket".
-1. Google images is often the best way to find a good version of the logo (but ensure it's the up-to-date version). Search for [project-name logo], click images, click Tools, More Tools, and then Show Sizes. You can also add `filetype:svg` to the search to find SVG images, if a sufficiently high resolution PNG isn't available.
+1. If the name of the product is not in the logo, then the company name should be included in the product name. So an Acme Rocket logo that shows "Rocket" should have product name "Rocket", while if the logo shows "Acme", the product name should be "Acme Rocket". Otherwise, logos looks out of place when you sort alphabetically.
+1. Google images is often the best way to find a good version of the logo (but ensure it's the up-to-date version). Search for [project-name logo filetype:svg], click images, click Tools, More Tools, and then Show Sizes. You can then change SVG files to PNG if you can't find a suitable SVG. Or click this [image search link](https://www.google.com/search?q=kubernetes&tbs=ift:svg,imgo:1&tbm=isch) and change the search query.
 
 ## Installation
 
