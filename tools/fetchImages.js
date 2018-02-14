@@ -4,7 +4,7 @@ import Promise from 'bluebird';
 import saneName from '../src/utils/saneName';
 import fs from 'fs';
 import _ from 'lodash';
-import svg2png from 'svg2png';
+const debug = require('debug')('images');
 
 // x3 because we may have retina display
 const size = {
@@ -14,8 +14,8 @@ const size = {
 
 const traverse = require('traverse');
 
-
-function getLandscapeItems(source) {
+async function getLandscapeItems() {
+  const source = require('js-yaml').safeLoad(require('fs').readFileSync('landscape.yml'));
   const tree = traverse(source);
   const items = [];
   tree.map(function(node) {
@@ -25,72 +25,58 @@ function getLandscapeItems(source) {
     if (node.item !== null) {
       return;
     }
-    items.push({logo: node.logo, name: node.name, crunchbase: node.crunchbase, organization: node.organization});
+    items.push({logo: node.logo, name: node.name, organization: node.organization});
   });
   _.each(items, function(item) {
     const otherItems = _.filter(items, {name: item.name});
     var id = item.name;
     if (otherItems.length > 1) {
-      // console.info('Other name: ', id);
       id = item.organization + ' ' + item.name;
-      // console.info(' resolved with ', id);
     }
     item.id = id;
   });
   return items;
 }
-function getProcessedItems() {
-  var source = [];
+
+export async function extractSavedImageEntries() {
+  const traverse = require('traverse');
+  let source = [];
   try {
-    source = require('js-yaml').safeLoad(require('fs').readFileSync('processed_landscape.yml'));
-  } catch (ex) {
-    console.info('file ./processed_landscape.yml does not present, can not use it for caching images');
+    source =  require('js-yaml').safeLoad(require('fs').readFileSync('processed_landscape.yml'));
+  } catch(_ex) {
+    console.info('Can not extract image entries from the processed_landscape.yml');
   }
+
+  var images = [];
   const tree = traverse(source);
-  const items = [];
   tree.map(function(node) {
     if (!node) {
       return;
     }
-    if (node.item !== null) {
-      return;
+    if (node.image_data) {
+      images.push({...node.image_data, logo: node.logo});
     }
-    items.push({low_res: node.low_res, logo: node.logo, name: node.name, crunchbase: node.crunchbase, organization: node.organization});
   });
-  _.each(items, function(item) {
-    const otherItems = _.filter(items, {name: item.name});
-    var id = item.name;
-    if (otherItems.length > 1) {
-      // console.info('Other name: ', id);
-      id = item.organization + ' ' + item.name;
-      // console.info(' resolved with ', id);
-    }
-    item.id = id;
-  });
-  return items;
-}
-var processedItems = getProcessedItems();
-function imagesExist(itemId) {
-  const fileName1 = './src/logos/' + saneName(itemId) + '.png';
-  const fileName2 = './src/logos/' + saneName(itemId) + '.svg';
-  return require('fs').existsSync(fileName1) || require('fs').existsSync(fileName2);
+
+  return _.uniq(images);
 }
 
-export async function fetchImages(newSource) {
-  const errors = [];
-  const landscapeItems = getLandscapeItems(newSource);
-  const promises = Promise.map(landscapeItems, async function(item) {
-    var savedItem = _.find(processedItems, { name: item.name, crunchbase: item.crunchbase }) || {};
-    if (savedItem.logo ===  item.logo && imagesExist(savedItem.id)) {
-      if (savedItem.low_res) {
-          errors.push({
-            logo: savedItem.logo,
-            low_res: savedItem.low_res
-          });
-      }
-      return; // logo is same. images are present.
+
+
+function imageExist(entry) {
+  const fileName = './src/logos/' + entry.fileName ;
+  return require('fs').existsSync(fileName);
+}
+
+export async function fetchImageEntries({cache, preferCache}) {
+  const items = await getLandscapeItems();
+  return Promise.map(items, async function(item) {
+    const cachedEntry = _.find(cache, {logo: item.logo});
+    if (preferCache && cachedEntry && imageExist(cachedEntry)) {
+      debug(`Found cached entry for ${item.logo}`);
+      return cachedEntry;
     }
-    console.info('fetching ', item.logo, ' for ', item.id);
+    debug(`Fetching data for ${item.logo}`);
     var url = item.logo;
     if (url && url.indexOf('http') !== 0 && url.indexOf('.') !== 0) {
       console.info(`adding a prefix for ${url}`);
@@ -101,7 +87,7 @@ export async function fetchImages(newSource) {
       url = url.replace('blob/', '');
     }
     if (!url) {
-      console.info(`"${item.name}" has no logo`);
+      return null;
     } else {
       const extWithQuery = url.split('.').slice(-1)[0];
       var ext='.' + extWithQuery.split('?')[0];
@@ -110,9 +96,8 @@ export async function fetchImages(newSource) {
         ext = '.png';
       }
       outputExt = ext === '.svg' ? '.svg' : '.png';
-      const fileName = `src/logos/${saneName(item.id)}${outputExt}`;
+      const fileName = `${saneName(item.id)}${outputExt}`;
       try {
-        // console.info(url);
         var response = null;
         if (url.indexOf('.') === 0) {
           response = fs.readFileSync(url);
@@ -129,27 +114,35 @@ export async function fetchImages(newSource) {
             console.info('failed to fetch ', url, ' attempting to use existing image');
           }
         }
+        let low_res;
         if (ext === '.svg') {
-          require('fs').writeFileSync(fileName, response);
-          response = await svg2png(response, {width: size.width * 2});
+          require('fs').writeFileSync(`src/logos/${fileName}`, response);
         } else {
-        // console.info('normalizing image');
-          const result = await normalizeImage({inputFile: response,outputFile: fileName, item});
-          if (result.low_res) {
-            errors.push({
-              logo: item.logo,
-              low_res: result.low_res
-            });
-          }
+          const result = await normalizeImage({inputFile: response,outputFile: `src/logos/${fileName}`, item});
+          low_res = result.low_res;
         }
+        return {
+          fileName: fileName,
+          low_res: low_res,
+          logo: item.logo
+        };
       } catch(ex) {
         console.info(`${item.name} has issues with logo: ${url}`);
         console.info(ex.message.substring(0, 100));
+        return cachedEntry || null;
       }
     }
   }, {concurrency: 10});
-  await promises;
-  return errors;
+}
+
+export function removeNonReferencedImages(imageEntries) {
+  const existingFiles = fs.readdirSync('./src/logos');
+  const allowedFiles = imageEntries.filter( (e) => !!e).map( (e) => e.fileName );
+  _.each(existingFiles, function(existingFile) {
+    if (allowedFiles.indexOf(existingFile) === -1){
+      fs.unlinkSync('./src/logos/' + existingFile);
+    }
+  })
 }
 
 async function normalizeImage({inputFile, outputFile, item}) {

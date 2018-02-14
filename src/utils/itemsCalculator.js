@@ -11,16 +11,14 @@ const getFilteredItems = createSelector(
   (state) => state.main.filters,
   function(data, filters) {
     var filterCncfHostedProject = filterFn({field: 'cncfRelation', filters});
-    var filterByStars = filterFn({field: 'stars', filters});
     // var filterByCertifiedKubernetes = filterFn({field: 'certifiedKubernetes', filters});
     var filterByLicense = filterFn({field: 'license', filters});
-    var filterByMarketCap = filterFn({field: 'marketCap', filters});
     // var filterByVcFunder = filterFn({field: 'vcFunder', filters});
     var filterByOrganization = filterFn({field: 'organization', filters});
     var filterByHeadquarters = filterFn({field: 'headquarters', filters});
     var filterByLandscape = filterFn({field: 'landscape', filters});
     return data.filter(function(x) {
-      return filterCncfHostedProject(x) && filterByStars(x) && /* filterByCertifiedKubernetes(x) && */ filterByLicense(x) && filterByMarketCap(x) && /* filterByVcFunder(x)  && */ filterByOrganization(x) && filterByHeadquarters(x) && filterByLandscape(x);
+      return filterCncfHostedProject(x) && filterByLicense(x) && /* filterByVcFunder(x)  && */ filterByOrganization(x) && filterByHeadquarters(x) && filterByLandscape(x);
     });
   }
 );
@@ -30,12 +28,12 @@ const getExtraFields = createSelector(
   function(data) {
     return _.map(data, function(data) {
       const hasStars = data.stars !== 'N/A' && data.stars !== 'Not Entered Yet';
-      const hasMarketCap = data.marketCap !== 'N/A' && data.marketCap !== 'Not Entered Yet';
+      const hasMarketCap = data.amount !== 'N/A' && data.amount !== 'Not Entered Yet';
       return { ...data,
         starsPresent: hasStars ,
         starsAsText: hasStars ? formatNumber({integerSeparator: ','})(data.stars) : '',
         marketCapPresent: hasMarketCap,
-        marketCapAsText: formatAmount(data.marketCap)
+        marketCapAsText: formatAmount(data.amount)
       };
     });
   }
