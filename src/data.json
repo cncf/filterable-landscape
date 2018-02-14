@@ -785,14 +785,13 @@
     "organization": "Chef",
     "homepage_url": "https://chef.io",
     "repo_url": "https://github.com/chef/chef",
-    "logo": "https://crunchbase-production-res.cloudinary.com/image/upload/v1397202169/79e96225d5d71f5e6d8ef247a5372278.png",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Chef_logo.svg",
     "twitter": "https://twitter.com/chef",
     "crunchbase": "https://www.crunchbase.com/organization/chef",
     "headquarters": "Seattle, Washington",
     "description": "Chef is an automation platform that transforms infrastructure into code.",
     "stars": 5211,
     "license": "Apache-2.0",
-    "low_res": "346x340",
     "cncfMember": true,
     "cncfRelation": "member",
     "firstCommitDate": "2008-03-06T07:31:38Z",
@@ -821,7 +820,7 @@
     "id": "chef",
     "starsCategory": "1000to10000",
     "marketCapCategory": "100mto1000m",
-    "href": "/logos/chef.png"
+    "href": "/logos/chef.svg"
   },
   {
     "name": "LinuxKit",
@@ -1186,14 +1185,13 @@
     "organization": "Docker",
     "homepage_url": "https://github.com/docker/infrakit",
     "repo_url": "https://github.com/docker/infrakit",
-    "logo": "https://raw.githubusercontent.com/docker-library/docs/471fa6e4cb58062ccbf91afc111980f9c7004981/swarm/logo.png",
+    "logo": "./src/hosted_logos/infrakit.svg",
     "twitter": "https://twitter.com/docker",
     "crunchbase": "https://www.crunchbase.com/organization/docker",
     "headquarters": "San Francisco, California",
     "description": "Docker is a platform for distributed applications that allows developers and sysadmins to build, ship, and run distributed applications.",
     "stars": 1886,
     "license": "Apache-2.0",
-    "low_res": "430x337",
     "cncfMember": true,
     "cncfRelation": "member",
     "firstCommitDate": "2016-04-11T18:12:24Z",
@@ -1222,7 +1220,7 @@
     "id": "infrakit",
     "starsCategory": "1000to10000",
     "marketCapCategory": "100mto1000m",
-    "href": "/logos/infrakit.png"
+    "href": "/logos/infrakit.svg"
   },
   {
     "name": "Juju",
@@ -1428,10 +1426,10 @@
     "href": "/logos/amazon-elastic-container-registry-ecr.svg"
   },
   {
-    "name": "Artifactory",
+    "name": "JFrog Artifactory",
     "organization": "JFrog",
     "homepage_url": "https://www.jfrog.com/artifactory/",
-    "logo": "http://www.jfrogchina.com/wp-content/uploads/2015/09/Artifactory_HEX1.png",
+    "logo": "https://docs.tea-ci.org/logos/artifactory.svg",
     "twitter": "https://twitter.com/jfrog",
     "crunchbase": "https://www.crunchbase.com/organization/jfrog-ltd",
     "headquarters": "Sunnyvale, California",
@@ -1459,10 +1457,10 @@
     "category": "Provisioning",
     "marketCap": 61500000,
     "oss": false,
-    "id": "artifactory",
+    "id": "j-frog-artifactory",
     "starsCategory": "N/A",
     "marketCapCategory": "10mto100m",
-    "href": "/logos/artifactory.png"
+    "href": "/logos/j-frog-artifactory.svg"
   },
   {
     "name": "Atomic",
@@ -2361,7 +2359,7 @@
     "organization": "Scytale.io",
     "homepage_url": "https://spiffe.io/",
     "repo_url": "https://github.com/spiffe/spiffe",
-    "logo": "https://spiffe.io/img/spiffe-logo-color-basic.svg",
+    "logo": "./src/hosted_logos/spiffe.svg",
     "twitter": "https://twitter.com/spiffeio",
     "crunchbase": "https://www.crunchbase.com/organization/scytale-io",
     "headquarters": "San Francisco, California",
@@ -3225,12 +3223,11 @@
     "organization": "Sheepdog",
     "homepage_url": "https://sheepdog.github.io/sheepdog/",
     "repo_url": "https://github.com/sheepdog/sheepdog",
-    "logo": "https://avatars3.githubusercontent.com/u/4846685",
+    "logo": "./src/hosted_logos/sheepdog.svg",
     "headquarters": "N/A",
     "description": "Distributed Storage System for QEMU",
     "stars": 700,
     "license": "GPL-2.0",
-    "low_res": "460x460",
     "cncfMember": false,
     "cncfRelation": false,
     "firstCommitDate": "2009-11-16T18:03:03Z",
@@ -3248,7 +3245,7 @@
     "id": "sheepdog",
     "starsCategory": "100to1000",
     "marketCapCategory": "N/A",
-    "href": "/logos/sheepdog.png"
+    "href": "/logos/sheepdog.svg"
   },
   {
     "name": "Springpath",
@@ -3489,14 +3486,13 @@
     "organization": "Intel",
     "homepage_url": "https://clearlinux.org/containers",
     "repo_url": "https://github.com/clearcontainers/runtime",
-    "logo": "https://cdn.thenewstack.io/media/2015/11/ClearContainers.jpg",
+    "logo": "./src/hosted_logos/intel-clearcontainers.svg",
     "twitter": "https://twitter.com/clearlinux/",
     "crunchbase": "https://www.crunchbase.com/organization/intel",
     "headquarters": "Santa Clara, California",
     "description": "Intel designs, manufactures, and sells integrated digital technology platforms worldwide.",
     "stars": 412,
     "license": "Apache-2.0",
-    "low_res": "238x363",
     "cncfMember": true,
     "cncfRelation": "member",
     "firstCommitDate": "2017-01-16T11:00:58Z",
@@ -3526,7 +3522,7 @@
     "id": "intel-clear-containers",
     "starsCategory": "100to1000",
     "marketCapCategory": "over1000m",
-    "href": "/logos/intel-clear-containers.png"
+    "href": "/logos/intel-clear-containers.svg"
   },
   {
     "name": "lxd",
@@ -4331,7 +4327,7 @@
     "organization": "Tigera",
     "homepage_url": "https://www.projectcalico.org/",
     "repo_url": "https://github.com/projectcalico/calico",
-    "logo": "https://www.projectcalico.org/wp-content/uploads/2015/03/Project-Calico-logo-1000px.png",
+    "logo": "https://coreos.com/assets/images/partners/project-calico-color.svg",
     "twitter": "https://twitter.com/projectcalico",
     "crunchbase": "https://www.crunchbase.com/organization/tigera",
     "headquarters": "San Francisco, California",
@@ -4366,7 +4362,7 @@
     "id": "project-calico",
     "starsCategory": "100to1000",
     "marketCapCategory": "10mto100m",
-    "href": "/logos/project-calico.png"
+    "href": "/logos/project-calico.svg"
   },
   {
     "name": "Romana",
@@ -4939,7 +4935,7 @@
     "homepage_url": "https://github.com/vmware/haret",
     "stock_ticker": "VMW",
     "repo_url": "https://github.com/vmware/haret",
-    "logo": "https://practice-labs.com/images/vmware-logo.svg",
+    "logo": "./src/hosted_logos/vmware-haret.svg",
     "twitter": "https://twitter.com/VMware",
     "crunchbase": "https://www.crunchbase.com/organization/vmware",
     "headquarters": "Palo Alto, California",
@@ -5137,7 +5133,7 @@
     "organization": "Datawire",
     "homepage_url": "https://www.getambassador.io/",
     "repo_url": "https://github.com/datawire/ambassador",
-    "logo": "https://www.datawire.io/wp-content/uploads/2017/05/ambassador_logo@2x-1.png",
+    "logo": "./src/hosted_logos/ambassador.svg",
     "twitter": "https://twitter.com/datawireio",
     "crunchbase": "https://www.crunchbase.com/organization/datawire",
     "headquarters": "Cambridge, Massachusetts",
@@ -5172,7 +5168,7 @@
     "id": "ambassador",
     "starsCategory": "100to1000",
     "marketCapCategory": "below1m",
-    "href": "/logos/ambassador.png"
+    "href": "/logos/ambassador.svg"
   },
   {
     "name": "Apache Avro",
@@ -6736,14 +6732,13 @@
     "homepage_url": "https://www.rethinkdb.com/",
     "repo_url": "https://github.com/rethinkdb/rethinkdb",
     "branch": "next",
-    "logo": "http://10minbasics.com/wp-content/uploads/2015/09/rethinkdb_logo1.png",
+    "logo": "./src/hosted_logos/rethinkdb.svg",
     "twitter": "https://twitter.com/rethinkdb",
     "crunchbase": "https://www.crunchbase.com/organization/the-linux-foundation",
     "headquarters": "San Francisco, California",
     "description": "The Linux Foundation promotes, protects, and standardizes Linux by hosting important workgroups, events, and online resources.",
     "stars": 20729,
     "license": "Apache-2.0",
-    "low_res": "475x89",
     "cncfMember": false,
     "cncfRelation": false,
     "firstCommitDate": "2009-10-03T22:47:38Z",
@@ -6770,7 +6765,7 @@
     "id": "rethink-db",
     "starsCategory": "over10000",
     "marketCapCategory": "N/A",
-    "href": "/logos/rethink-db.png"
+    "href": "/logos/rethink-db.svg"
   },
   {
     "name": "Scylla",
@@ -7743,7 +7738,7 @@
     "name": "Bitnami",
     "organization": "Bitnami",
     "homepage_url": "https://bitnami.com/",
-    "logo": "https://bitnami.com/downloads/logos/bitnami.png",
+    "logo": "https://about.gitlab.com/images/press/bitnami-logo.svg",
     "twitter": "https://twitter.com/bitnami",
     "crunchbase": "https://www.crunchbase.com/organization/bitnami",
     "headquarters": "San Francisco, California",
@@ -7772,7 +7767,7 @@
     "id": "bitnami",
     "starsCategory": "N/A",
     "marketCapCategory": "N/A",
-    "href": "/logos/bitnami.png"
+    "href": "/logos/bitnami.svg"
   },
   {
     "name": "Apache Brooklyn",
@@ -7862,7 +7857,7 @@
     "organization": "Chef",
     "homepage_url": "https://www.habitat.sh/",
     "repo_url": "https://github.com/habitat-sh/habitat",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Chef_logo.svg",
+    "logo": "https://www.chef.io/wp-content/uploads/2017/05/appauto_HabitatbyChef.svg",
     "twitter": "https://twitter.com/hashtag/habitatsh",
     "crunchbase": "https://www.crunchbase.com/organization/chef",
     "headquarters": "Seattle, Washington",
@@ -7904,7 +7899,7 @@
     "organization": "KubeVirt",
     "homepage_url": "http://www.kubevirt.io/",
     "repo_url": "https://github.com/kubevirt/kubevirt",
-    "logo": "https://raw.githubusercontent.com/kubevirt/community/master/logo/kubevirt-pre.png",
+    "logo": "./src/hosted_logos/kubevirt.svg",
     "twitter": "https://twitter.com/kubevirt",
     "headquarters": "N/A",
     "description": "A virtualization API and runtime add-on for Kubernetes in order to define and manage virtual machines.",
@@ -7927,7 +7922,7 @@
     "id": "kube-virt",
     "starsCategory": "100to1000",
     "marketCapCategory": "N/A",
-    "href": "/logos/kube-virt.png"
+    "href": "/logos/kube-virt.svg"
   },
   {
     "name": "OpenAPI",
@@ -8318,14 +8313,13 @@
     "organization": "Pivotal",
     "homepage_url": "https://concourse.ci/",
     "repo_url": "https://github.com/concourse/concourse",
-    "logo": "https://avatars3.githubusercontent.com/u/7809479",
+    "logo": "./src/hosted_logos/concourse.svg",
     "twitter": "https://twitter.com/concourseci",
     "crunchbase": "https://www.crunchbase.com/organization/pivotal",
     "headquarters": "San Francisco, California",
     "description": "Pivotal is a software company that provides digital transformation technology and services.",
     "stars": 2524,
     "license": "Apache-2.0",
-    "low_res": "460x460",
     "cncfMember": true,
     "cncfRelation": "member",
     "firstCommitDate": "2014-04-27T22:35:04Z",
@@ -8354,7 +8348,7 @@
     "id": "concourse",
     "starsCategory": "1000to10000",
     "marketCapCategory": "over1000m",
-    "href": "/logos/concourse.png"
+    "href": "/logos/concourse.svg"
   },
   {
     "name": "ContainerOps",
@@ -8869,13 +8863,12 @@
     "organization": "Alauda",
     "certified_kubernetes": "Platform",
     "homepage_url": "https://www.alauda.cn/product/detail/id/68.html",
-    "logo": "https://www.cncf.io/wp-content/uploads/2017/11/alauda.png",
+    "logo": "http://cdn4.infoqstatic.com/statics_s1_20180206-0549-1/images/partners/cn/company/alauda.svg",
     "crunchbase": "https://www.crunchbase.com/organization/alauda",
     "headquarters": "Haidian, China",
     "description": "Alauda is a pioneer cloud platform provider that focuses on containers and microservices.",
     "stars": "N/A",
     "license": "NotOpenSource",
-    "low_res": "282x84",
     "cncfMember": true,
     "cncfRelation": "member",
     "crunchbaseData": {
@@ -8900,7 +8893,7 @@
     "id": "alauda-ee",
     "starsCategory": "N/A",
     "marketCapCategory": "10mto100m",
-    "href": "/logos/alauda-ee.png"
+    "href": "/logos/alauda-ee.svg"
   },
   {
     "name": "Alibaba Cloud Container Service",
@@ -10139,12 +10132,11 @@
     "description": "Container Services Cloud Edition is an enterprise-class container platform, deployed in the user's own cloud resources. Based on Kubernetes technology, provide users exclusive container cluster. Provide users the freedom to choose the Kubernetes version of the cluster capabilities, easy to follow up the latest developments in the community. Comply with Kubernetes conformance standards, portability is good.",
     "certified_kubernetes": "Distribution",
     "homepage_url": "https://www.163yun.com/product/container-service-dedicated",
-    "logo": "https://www.cncf.io/wp-content/uploads/2017/11/NetEase-Cloud-logo-300x48.jpg",
+    "logo": "./src/hosted_logos/netease-cloud.svg",
     "crunchbase": "https://www.crunchbase.com/organization/netease-com",
     "headquarters": "Hangzhou, China",
     "stars": "N/A",
     "license": "NotOpenSource",
-    "low_res": "300x48",
     "cncfMember": false,
     "cncfRelation": false,
     "crunchbaseData": {
@@ -10170,7 +10162,7 @@
     "id": "netease-container-service-dedicated",
     "starsCategory": "N/A",
     "marketCapCategory": "over1000m",
-    "href": "/logos/netease-container-service-dedicated.png"
+    "href": "/logos/netease-container-service-dedicated.svg"
   },
   {
     "name": "Nirmata Managed Kubernetes",
@@ -11051,12 +11043,11 @@
     "description": "Telekube combines a production hardened deployment of Kubernetes with Teleport, our multi-region SSH server, so you can effectively manage multiple deployments of Kubernetes applications across various regions, data centers and cloud providers.",
     "certified_kubernetes": false,
     "homepage_url": "http://gravitational.com/telekube/",
-    "logo": "http://p6.zdassets.com/hc/settings_assets/1487247/115000080947/1LXmhqqWlVJFpwdDgxO4UQ-gravitational-logo-300in-width.png",
+    "logo": "./src/hosted_logos/gravitational.svg",
     "crunchbase": "https://www.crunchbase.com/organization/gravitational",
     "headquarters": "San Francisco, California",
     "stars": "N/A",
     "license": "NotOpenSource",
-    "low_res": "299x316",
     "cncfMember": true,
     "cncfRelation": "member",
     "crunchbaseData": {
@@ -11081,7 +11072,7 @@
     "id": "gravitatonal-telekube",
     "starsCategory": "N/A",
     "marketCapCategory": "below1m",
-    "href": "/logos/gravitatonal-telekube.png"
+    "href": "/logos/gravitatonal-telekube.svg"
   },
   {
     "name": "Huawei FusionStage",
@@ -11423,14 +11414,13 @@
     "name": "Datawire",
     "organization": "Datawire",
     "homepage_url": "https://www.datawire.io/",
-    "logo": "https://pbs.twimg.com/profile_images/654723996970147841/kBqGPhZe_400x400.png",
+    "logo": "http://playbook.microservices.com/images/datawire-logo.svg",
     "twitter": "https://twitter.com/datawireio",
     "crunchbase": "https://www.crunchbase.com/organization/datawire",
     "headquarters": "Cambridge, Massachusetts",
     "description": "An early stage startup that's focused on making it easy for developers to build resilient microservices.",
     "stars": "N/A",
     "license": "NotOpenSource",
-    "low_res": "179x206",
     "cncfMember": true,
     "cncfRelation": "member",
     "crunchbaseData": {
@@ -11455,7 +11445,7 @@
     "id": "datawire",
     "starsCategory": "N/A",
     "marketCapCategory": "below1m",
-    "href": "/logos/datawire.png"
+    "href": "/logos/datawire.svg"
   },
   {
     "name": "Empire",
@@ -11931,14 +11921,13 @@
     "organization": "Yelp",
     "homepage_url": "https://engineeringblog.yelp.com/2015/11/introducing-paasta-an-open-platform-as-a-service.html",
     "repo_url": "https://github.com/Yelp/paasta",
-    "logo": "https://engineeringblog.yelp.com/images/posts/introducing-paasta-an-open-platform-as-a-service/paasta_logo.png",
+    "logo": "./src/hosted_logos/paasta.svg",
     "twitter": "https://twitter.com/Yelp",
     "crunchbase": "https://www.crunchbase.com/organization/yelp",
     "headquarters": "San Francisco, California",
     "description": "Yelp operates an online platform that connects people with local businesses.",
     "stars": 1181,
     "license": "Apache-2.0",
-    "low_res": "700x256",
     "cncfMember": false,
     "cncfRelation": false,
     "firstCommitDate": "2013-08-20T13:28:10Z",
@@ -11968,7 +11957,7 @@
     "id": "paa-sta",
     "starsCategory": "1000to10000",
     "marketCapCategory": "over1000m",
-    "href": "/logos/paa-sta.png"
+    "href": "/logos/paa-sta.svg"
   },
   {
     "name": "Platform.sh",
@@ -12643,14 +12632,13 @@
     "name": "Oracle Application Container Cloud",
     "organization": "Oracle",
     "homepage_url": "https://cloud.oracle.com/acc",
-    "logo": "https://docs.oracle.com/en/cloud/paas/app-container-cloud/sp_common/shared-images/cloudgs_appcontainer.png",
+    "logo": "./src/hosted_logos/oracle-applicationcontainercloud.svg",
     "twitter": "https://twitter.com/hashtag/OracleCloudZone",
     "crunchbase": "https://www.crunchbase.com/organization/oracle",
     "headquarters": "Redwood Shores, California",
     "description": "Oracle is a computer technology corporation developing and marketing computer hardware systems and enterprise software products.",
     "stars": "N/A",
     "license": "NotOpenSource",
-    "low_res": "209x146",
     "cncfMember": true,
     "cncfRelation": "member",
     "crunchbaseData": {
@@ -12676,7 +12664,7 @@
     "id": "oracle-application-container-cloud",
     "starsCategory": "N/A",
     "marketCapCategory": "over1000m",
-    "href": "/logos/oracle-application-container-cloud.png"
+    "href": "/logos/oracle-application-container-cloud.svg"
   },
   {
     "name": "PubNub",
@@ -13018,13 +13006,12 @@
     "name": "Cobe",
     "organization": "Cobe",
     "homepage_url": "https://cobe.io/",
-    "logo": "https://pbs.twimg.com/profile_images/630677512163561472/MB2Z1voJ_400x400.png",
+    "logo": "./src/hosted_logos/cobe.svg",
     "twitter": "https://twitter.com/cobeio",
     "headquarters": "N/A",
     "description": "",
     "stars": "N/A",
     "license": "NotOpenSource",
-    "low_res": "400x400",
     "cncfMember": false,
     "cncfRelation": false,
     "crunchbaseData": {
@@ -13038,7 +13025,7 @@
     "id": "cobe",
     "starsCategory": "N/A",
     "marketCapCategory": "N/A",
-    "href": "/logos/cobe.png"
+    "href": "/logos/cobe.svg"
   },
   {
     "name": "CoScale",
@@ -13494,14 +13481,13 @@
     "name": "Log Analytics",
     "organization": "Microsoft",
     "homepage_url": "https://azure.microsoft.com/en-us/services/log-analytics/",
-    "logo": "https://i1.wp.com/www.tjopsta.net/wp-content/uploads/2016/10/LogAnalytics-Logo.png",
+    "logo": "./src/hosted_logos/loganalytics.svg",
     "twitter": "https://twitter.com/azure",
     "crunchbase": "https://www.crunchbase.com/organization/microsoft",
     "headquarters": "Redmond, Washington",
     "description": "Microsoft is a software corporation that develops, manufactures, licenses, supports, and sells a range of software products and services.",
     "stars": "N/A",
     "license": "NotOpenSource",
-    "low_res": "600x315",
     "cncfMember": true,
     "cncfRelation": "member",
     "crunchbaseData": {
@@ -13527,7 +13513,7 @@
     "id": "log-analytics",
     "starsCategory": "N/A",
     "marketCapCategory": "over1000m",
-    "href": "/logos/log-analytics.png"
+    "href": "/logos/log-analytics.svg"
   },
   {
     "name": "Meros",
@@ -14147,7 +14133,7 @@
     "name": "StackRox",
     "organization": "StackRox",
     "homepage_url": "https://www.stackrox.com/",
-    "logo": "https://pbs.twimg.com/media/DU38cFAWkAIdlxu.png",
+    "logo": "./src/hosted_logos/stackrox.svg",
     "twitter": "https://twitter.com/StackRox",
     "crunchbase": "https://www.crunchbase.com/organization/stackrox",
     "headquarters": "Mountain View, California",
@@ -14178,7 +14164,7 @@
     "id": "stack-rox",
     "starsCategory": "N/A",
     "marketCapCategory": "10mto100m",
-    "href": "/logos/stack-rox.png"
+    "href": "/logos/stack-rox.svg"
   },
   {
     "name": "StackState",
@@ -15045,12 +15031,11 @@
     "organization": "Bitnami",
     "description": "Bitnami brings a catalog of trusted, up to date, and easy to use applications and application building blocks to Kubernetes.",
     "homepage_url": "https://bitnami.com/kubernetes",
-    "logo": "https://www.cncf.io/wp-content/uploads/2017/03/logo_bitnami_17-300x184.png",
+    "logo": "https://about.gitlab.com/images/press/bitnami-logo.svg",
     "crunchbase": "https://www.crunchbase.com/organization/bitnami",
     "headquarters": "San Francisco, California",
     "stars": "N/A",
     "license": "NotOpenSource",
-    "low_res": "300x184",
     "cncfMember": true,
     "cncfRelation": "member",
     "crunchbaseData": {
@@ -15073,7 +15058,7 @@
     "id": "bitnami-kcsp",
     "starsCategory": "N/A",
     "marketCapCategory": "N/A",
-    "href": "/logos/bitnami-kcsp.png"
+    "href": "/logos/bitnami-kcsp.svg"
   },
   {
     "name": "Booz Allan Hamilton",
