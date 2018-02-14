@@ -34,7 +34,7 @@ a {text-decoration: none; transition: all 0.5s; color: $blue;
 
 }
 
-.disclaimer {margin: -60px 5px 5px; margin-bottom: 1rem; color: #9b9b9b; font-size: 0.8em; padding-right: 220px;
+.disclaimer {margin: -60px 5px 5px; margin-bottom: 1rem; color: #9b9b9b; font-size: 0.8em; padding-right: 200px;
   a {color: #366fa8;}
   @media (max-width: 767px) {padding-right: 0;}
 }
@@ -42,12 +42,12 @@ a {text-decoration: none; transition: all 0.5s; color: $blue;
 .header_container {z-index: 2; height: 70px;
   .header {padding: 20px;
     .landscape-logo {position: fixed; top: 0; left: 0;  padding: 20px; width: 215px; height: 70px; z-index: 2;
-       background: #f4f4f4 url(./assets/cncf-landscape.png) 20px 20px no-repeat; background-size: 126px 30px;
+       background: #f4f4f4 url(./assets/cncf-landscape.svg) 20px 20px no-repeat; background-size: 126px 30px;
        transform: none; transition: all 0.3s;
        @media (max-width: 767px) {width: 100%; padding-left: 60px; background-position: 60px 20px;}
     }
-    .cncf-logo{display: block; width: 200px; height: 30px; position: absolute; top: 20px; right: 20px;
-      background: url(./assets/cncf.png) 50% 50% no-repeat; background-size: 90%;
+    .cncf-logo{display: block; width: 170px; height: 30px; position: absolute; top: 20px; right: 20px;
+      background: url(./assets/cncf.svg) 100% 0 no-repeat; background-size: 170px 30px;
       @media (max-width: 767px) {display: none;}
     }
     .info {margin-top: -32px; padding-left: 20px; height: auto;}
