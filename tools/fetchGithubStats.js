@@ -109,6 +109,7 @@ export async function fetchGithubEntries({cache, preferCache}) {
       return ({url: repo.url, stars, license, description, latest_commit_date: date, latest_commit_link: latestCommitLink });
     } catch (ex) {
       debug(`Fetch failed for ${repo.url}, attempt to use a cached entry`);
+      console.info(`Can not fetch: ${repo.url} `, ex.message.substring(0, 50));
       return cachedEntry || null;
     }
   }, {concurrency: 20});

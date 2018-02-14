@@ -44,7 +44,7 @@ export async function extractSavedImageEntries() {
   try {
     source =  require('js-yaml').safeLoad(require('fs').readFileSync('processed_landscape.yml'));
   } catch(_ex) {
-    console.info('Can not extract image entries from the processed_landscape.yml');
+    console.info('Cannot extract image entries from the processed_landscape.yml');
   }
 
   var images = [];
@@ -127,6 +127,7 @@ export async function fetchImageEntries({cache, preferCache}) {
           logo: item.logo
         };
       } catch(ex) {
+        debug(`Cannot fetch ${url}`);
         console.info(`${item.name} has issues with logo: ${url}`);
         console.info(ex.message.substring(0, 100));
         return cachedEntry || null;
