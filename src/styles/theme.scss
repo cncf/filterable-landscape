@@ -44,9 +44,7 @@ a {text-decoration: none; transition: all 0.5s; color: $blue;
     .landscape-logo {position: fixed; top: 0; left: 0;  padding: 20px; width: 215px; height: 70px; z-index: 2;
        background: #f4f4f4 url(./assets/cncf-landscape.png) 20px 20px no-repeat; background-size: 126px 30px;
        transform: none; transition: all 0.3s;
-       @media (max-width: 767px) {width: 100%; padding-left: 60px; background-position: 60px 20px;
-            .filters-opened & {transform: translate(215px, 0);}
-       }
+       @media (max-width: 767px) {width: 100%; padding-left: 60px; background-position: 60px 20px;}
     }
     .cncf-logo{display: block; width: 200px; height: 30px; position: absolute; top: 20px; right: 20px;
       background: url(./assets/cncf.png) 50% 50% no-repeat; background-size: 90%;
@@ -91,10 +89,9 @@ a {text-decoration: none; transition: all 0.5s; color: $blue;
 .app {
     .sidebar-show {display: none;}
     @media (max-width: 767px) {
-        .sidebar-show {display: block; position: fixed; top: 11px; left: 11px; z-index: 3; transition: all 0.3s; transform: none;
+        .sidebar-show {display: block; position: fixed; top: 11px; left: 11px; z-index: 3;
         }
     }
-    &.filters-opened .sidebar-show {transform: translate(215px, 0);}
 }
 
 .app-overlay {opacity: 0; position: fixed; top: 0; left: 0; bottom: 0; width: 100%; background: #000; margin-left: -100%;
@@ -105,9 +102,7 @@ a {text-decoration: none; transition: all 0.5s; color: $blue;
 }
 
 .main {margin-left: 215px; padding: 10px;
-  @media (max-width: 767px) {margin-left: 0; position: relative; transform: none; transition: all 0.3s; padding-top: 70px;
-    .filters-opened & {transform: translate(215px, 0);}
-  }
+  @media (max-width: 767px) {margin-left: 0; position: relative; padding-top: 70px;}
 }
 
 /* grid */
@@ -143,7 +138,7 @@ a {text-decoration: none; transition: all 0.5s; color: $blue;
 
 .mosaic {
   &-wrap {padding: 5px; display: inline-block; width: 200px;
-    @media (min-width: 250px) {width: 100%;}
+  /*  @media (min-width: 250px) {width: 100%;}
     @media (min-width: 400px) {width: 50%;}
     @media (min-width: 600px) {width: 33.3333%;}
     @media (min-width: 768px) {width: 50%;}
@@ -151,6 +146,7 @@ a {text-decoration: none; transition: all 0.5s; color: $blue;
     @media (min-width: 1024px) {width: 25%;}
     @media (min-width: 1270px) {width: 20%;}
     @media (min-width: 1500px) {width: 16.666%;}
+  */
   }
   height: 200px;
   cursor: pointer;
