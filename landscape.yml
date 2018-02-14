@@ -317,7 +317,7 @@ landscape:
             name: Azure Registry
             organization: Microsoft
             homepage_url: 'https://azure.microsoft.com/en-us/services/container-registry/'
-            logo: 'https://azure.microsoft.com/svghandler/container-registry/?width=600&height=315'
+            logo: ./src/hosted_logos/azureregistry.svg
             twitter: 'https://twitter.com/azure'
             crunchbase: 'https://www.crunchbase.com/organization/microsoft'
           - item:
@@ -367,7 +367,7 @@ landscape:
             organization: Anchore
             homepage_url: 'https://anchore.io/'
             repo_url: 'https://github.com/anchore/anchore-engine'
-            logo: 'http://www.marketwire.com/library/MwGo/2016/4/5/11G092078/Anchore_RGB-14b85fa3801f8889be493bbb8e62e356.jpg'
+            logo: ./src/hosted_logos/anchore.svg
             twitter: 'https://twitter.com/anchore'
             crunchbase: 'https://www.crunchbase.com/organization/anchore-inc'
           - item:
@@ -490,7 +490,7 @@ landscape:
             organization: Scytale
             homepage_url: 'https://spiffe.io/spire/'
             repo_url: 'https://github.com/spiffe/spire'
-            logo: 'https://github.com/spiffe/spire/blob/master/doc/images/spire_logo.png'
+            logo: ./src/hosted_logos/spire.svg
             twitter: 'https://twitter.com/scytale_io'
             crunchbase: 'https://www.crunchbase.com/organization/scytale-io'
   - category:
@@ -632,7 +632,7 @@ landscape:
             organization: Dell EMC
             homepage_url: 'https://rexray.thecodeteam.com/'
             repo_url: 'https://github.com/codedellemc/rexray'
-            logo: 'https://dev.acquia.com/sites/default/files/blog/grid-rexray.png'
+            logo: ./src/hosted_logos/rexray.svg
             twitter: 'https://twitter.com/codedellemc'
             crunchbase: 'https://www.crunchbase.com/organization/dell-emc'
           - item:
@@ -779,7 +779,7 @@ landscape:
             organization: Tigera
             homepage_url: 'https://github.com/projectcalico/canal'
             repo_url: 'https://github.com/projectcalico/canal'
-            logo: 'https://raw.githubusercontent.com/projectcalico/canal/master/logos/canal-logo-type-full-color%20328x184.png'
+            logo: ./src/hosted_logos/canal.svg
             twitter: 'https://twitter.com/projectcalico'
             crunchbase: 'https://www.crunchbase.com/organization/tigera'
           - item:
@@ -1021,7 +1021,7 @@ landscape:
             organization: Apache
             homepage_url: 'http://zookeeper.apache.org/'
             repo_url: 'https://github.com/apache/zookeeper'
-            logo: 'https://www.opsview.com/sites/default/files/Zookeeper%20Logo%20REV.png'
+            logo: ./src/hosted_logos/zookeeper.svg
             twitter: 'https://twitter.com/TheASF'
             crunchbase: 'https://www.crunchbase.com/organization/apache'
       - subcategory:
@@ -1048,7 +1048,7 @@ landscape:
             organization: Apache
             homepage_url: 'https://avro.apache.org/'
             repo_url: 'https://github.com/apache/avro'
-            logo: 'https://avro.apache.org/images/avro-logo.png'
+            logo: ./src/hosted_logos/avro.svg
             twitter: 'https://twitter.com/TheASF'
             crunchbase: 'https://www.crunchbase.com/organization/apache'
           - item:
@@ -1232,7 +1232,7 @@ landscape:
             organization: Counchbase
             homepage_url: 'https://www.couchbase.com/'
             repo_url: 'https://github.com/couchbase/couchbase-lite-ios'
-            logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Couchbase%2C_Inc._official_logo.png/250px-Couchbase%2C_Inc._official_logo.png'
+            logo: ./src/hosted_logos/couchbase.svg
             twitter: 'https://twitter.com/couchbase'
             crunchbase: 'https://www.crunchbase.com/organization/couchbase'
           - item:
@@ -1280,14 +1280,14 @@ landscape:
             homepage_url: 'https://mariadb.org/'
             repo_url: 'https://github.com/MariaDB/server'
             branch: '10.3'
-            logo: 'https://www.clearos.com/images/marketplace-svg/mariadb.svg'
+            logo: ./src/hosted_logos/mariadb.svg
             twitter: 'https://twitter.com/mariadbfdn'
             crunchbase: 'https://www.crunchbase.com/organization/mariadb-2'
           - item:
             name: MemSQL
             organization: MemSQL
             homepage_url: 'https://www.memsql.com/'
-            logo: 'https://diamanti.com/static/app/img/what-we-do/memsql-logo.png'
+            logo: ./src/hosted_logos/memsql.svg
             twitter: 'https://twitter.com/memsql/'
             crunchbase: 'https://www.crunchbase.com/organization/memsql'
           - item:
@@ -1327,7 +1327,7 @@ landscape:
             organization: Pachyderm
             homepage_url: 'http://www.pachyderm.io/'
             repo_url: 'https://github.com/pachyderm/pachyderm'
-            logo: 'https://crunchbase-production-res.cloudinary.com/image/upload/v1441394109/w8muln3r8jvrk5g0ngmj.png'
+            logo: ./src/hosted_logos/pachyderm.svg
             twitter: 'https://twitter.com/pachydermIO'
             crunchbase: 'https://www.crunchbase.com/organization/pachyderm'
           - item:
@@ -1439,7 +1439,7 @@ landscape:
             organization: Apache
             homepage_url: 'http://storm.apache.org/'
             repo_url: 'https://github.com/apache/storm'
-            logo: 'http://storm.apache.org/images/logo.png'
+            logo: ./src/hosted_logos/apache-storm.svg
             twitter: 'https://twitter.com/stormprocessor'
             crunchbase: 'https://www.crunchbase.com/organization/apache'
           - item:
@@ -1447,7 +1447,7 @@ landscape:
             organization: Apache
             homepage_url: 'https://apex.apache.org/'
             repo_url: 'https://github.com/apache/apex-core'
-            logo: 'https://upload.wikimedia.org/wikipedia/commons/e/e1/Apache_Apex_Logo.png'
+            logo: ./src/hosted_logos/apache-apex.svg
             twitter: 'https://twitter.com/apacheapex/'
             crunchbase: 'https://www.crunchbase.com/organization/apache'
           - item:
@@ -1684,7 +1684,7 @@ landscape:
             organization: Huawei
             homepage_url: 'http://containerops.org/'
             repo_url: 'https://github.com/Huawei/containerops'
-            logo: 'http://image20.it168.com/201706_335x251/2924/5f8a80a4b4fadf88.png'
+            logo: ./src/hosted_logos/containerops.svg
             twitter: 'https://twitter.com/Huawei'
             crunchbase: 'https://www.crunchbase.com/organization/huawei'
           - item:
@@ -2101,7 +2101,7 @@ landscape:
               easy to follow up the latest developments in the community. Comply with Kubernetes conformance standards, portability is good.
             certified_kubernetes: Distribution
             homepage_url: 'https://www.163yun.com/product/container-service-dedicated'
-            logo: ./src/hosted_logos/netease-cloud.svg
+            logo: ./src/hosted_logos/netease.svg
             crunchbase: 'https://www.crunchbase.com/organization/netease-com'
           - item:
             name: Nirmata Managed Kubernetes
@@ -2349,7 +2349,7 @@ landscape:
               costs.
             certified_kubernetes: false
             homepage_url: 'https://www.navops.io/'
-            logo: 'http://www.univa.com/img/navops-byUniva-Logo2-01.png'
+            logo: ./src/hosted_logos/navops.svg
             crunchbase: 'https://www.crunchbase.com/organization/navops'
           - item:
             name: Stratoscale Symphony
@@ -2443,7 +2443,7 @@ landscape:
             name: Galactic Fog
             organization: Galactic Fog
             homepage_url: 'http://www.galacticfog.com/'
-            logo: 'https://media.licdn.com/mpr/mpr/AAEAAQAAAAAAAAYHAAAAJGU0Zjc4OGI2LTYzZmEtNGUxMC05ODE5LTVhMjI0OTM3NmI3ZA.png'
+            logo: ./src/hosted_logos/galacticfog.svg
             twitter: 'https://twitter.com/galacticfog'
             crunchbase: 'https://www.crunchbase.com/organization/galactic-fog'
           - item:
@@ -2576,7 +2576,7 @@ landscape:
             name: Azure Functions
             organization: Microsoft
             homepage_url: 'https://azure.microsoft.com/en-us/services/functions/'
-            logo: 'https://pbs.twimg.com/profile_images/857815012013785088/woz9sESR_400x400.jpg'
+            logo: ./src/hosted_logos/azurefunctions.svg
             twitter: 'https://twitter.com/azurefunctions'
             crunchbase: 'https://www.crunchbase.com/organization/microsoft'
           - item:
@@ -3258,7 +3258,7 @@ landscape:
             organization: inwinSTACK
             description: 'Our container service leverages OpenStack-based infrastructure and its container orchestration engine Magnum to manage Kubernetes clusters. '
             homepage_url: 'http://www.inwinstack.com/index.php/en/solutions-en/'
-            logo: 'https://pbs.twimg.com/profile_images/913967961135661056/llUSv_YQ_400x400.jpg'
+            logo: ./src/hosted_logos/inwinstack.svg
           - item:
             name: Jetstack
             organization: Jetstack
