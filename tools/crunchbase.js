@@ -156,8 +156,7 @@ export async function fetchCrunchbaseEntries({cache, preferCache}) {
       // console.info(entry);
     } catch (ex) {
       debug(`normal request failed, so returning a cached entry for ${c.name}`);
-      console.info(ex.message, ex.stack);
-      console.info(c, ' - fail');
+      console.info(`Can not fetch: ${c.name} `, ex.message.substring(0, 50));
       return cachedEntry || null;
     }
   }, {concurrency: 5})

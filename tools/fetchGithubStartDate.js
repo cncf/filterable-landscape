@@ -13,7 +13,7 @@ export async function extractSavedStartDateEntries() {
   try {
     source =  require('js-yaml').safeLoad(fs.readFileSync('processed_landscape.yml'));
   } catch(_ex) {
-    console.info('Can not extract github entries from the processed_landscape.yml');
+    console.info('Cannot extract github entries from the processed_landscape.yml');
   }
   const tree = traverse(source);
   tree.map(function(node) {
@@ -76,8 +76,7 @@ export async function fetchStartDateEntries({cache, preferCache}) {
       return ({url: repo.url, start_commit_link: commitLink, start_date: date});
     } catch (ex) {
       debug(`Fetch failed for ${repo.url}, attempt to use a cached entry`);
-      console.info ('can not fetch dates for ', url);
-      console.info(ex);
+      console.info(`Cannot fetch: ${repo.url} `, ex.message.substring(0, 50));
       return cachedEntry || null;
     }
   }, {concurrency: 20});
