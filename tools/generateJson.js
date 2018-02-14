@@ -2,7 +2,7 @@ const source = require('js-yaml').safeLoad(require('fs').readFileSync('processed
 const traverse = require('traverse');
 const _ = require('lodash');
 import saneName from '../src/utils/saneName';
-import { getCategory } from '../src/types/fields';
+import formatCity from '../src/utils/formatCity';
 
 function sortFn(x) {
   if (_.isString(x)) {
@@ -20,20 +20,85 @@ tree.map(function(node) {
     }).map(function(p) {
       return p.node.name;
     });
+    const getHeadquarters = function() {
+      let result = null;
+      if (node.crunchbase_data) {
+        result = formatCity(node.crunchbase_data);
+      }
+      if (!result) {
+        result = 'N/A';
+      }
+      return result;
+    };
+    const getTwitter = function() {
+      if (_.isUndefined(node.twitter)) {
+        return (node.crunchbase_data || {}).twitter;
+      }
+      return node.twitter;
+    };
+    const getDescription = function() {
+      if (! _.isUndefined(node.description)) {
+        return node.description;
+      }
+      if (node.github_data && node.github_data.description) {
+        return node.github_data.description;
+      }
+      if (node.crunchbase_data && node.crunchbase_data.description) {
+        return node.crunchbase_data.description;
+      }
+      return null;
+    };
+    const getLicense = function() {
+      if (!node.github_data) {
+        if (node.repo_url) {
+          return 'Unknown License';
+        }
+        return 'NotOpenSource';
+      }
+      return node.github_data.license;
+    }
+    const getAmount = function() {
+      if (node.yahoo_finance_data) {
+        return node.yahoo_finance_data.market_cap;
+      }
+      if (node.crunchbase_data) {
+        return node.crunchbase_data.funding;
+      }
+      return 'N/A';
+    }
+    const getTicker = function() {
+      if (node.yahoo_finance_data) {
+        return node.yahoo_finance_data.marketCap;
+      }
+      return (node.crunchbase_data || {}).effective_ticker;
+    };
+    if (!node.image_data) {
+      console.info(`Item ${node.name} has no image_data`);
+    }
+
     items.push({...node,
       cncfProject: node.cncf_project,
-      cncfMember: node.cncf_member,
-      cncfRelation: node.cncf_project || ( node.cncf_member ? 'member' : false ),
-      firstCommitDate: node.first_commit_date,
-      firstCommitLink: node.first_commit_link,
-      latestCommitDate:node.latest_commit_date,
-      latestCommitLink: node.latest_commit_link,
+      cncfMember: node.cncf_membership_data.cncf_member,
+      cncfRelation: node.cncf_project || ( node.cncf_membership_data.cncf_member ? 'member' : false ),
+      firstCommitDate: (node.github_start_commit_data || {}).start_date,
+      firstCommitLink: (node.github_start_commit_data || {}).start_commit_link,
+      latestCommitDate:(node.github_data || {}).latest_commit_date,
+      latestCommitLink:(node.github_data || {}).latest_commit_link,
+      stars: (node.github_data || {}).stars,
+      license: getLicense(),
+      headquarters: getHeadquarters(),
+      twitter: getTwitter(),
+      description: getDescription(),
+      organization: (node.crunchbase_data || {}).name || node.organization,
       crunchbaseData: node.crunchbase_data,
       path: parts.join(' / '),
       landscape: parts.join(' / '),
       category: parts[0],
-      marketCap: node.crunchbase_data.funding || 'N/A',
-      oss: node.license !== 'NotOpenSource'
+      amountKind: (node.crunchbase_data || {}).kind,
+      amount: getAmount(),
+      ticker: getTicker(),
+      oss: getLicense() !== 'NotOpenSource',
+      href: `/logos/${(node.image_data || {}).fileName}`
     });
   }
 });
@@ -44,9 +109,11 @@ const itemsWithExtraFields = items.map(function(item) {
     item.crunchbaseData.tickerSymbol = item.crunchbaseData.ticker_symbol;
   }
   delete item.crunchbase_data;
-  delete item.crunchbaseData.num_employees_min;
-  delete item.crunchbaseData.num_employees_max;
-  delete item.crunchbaseData.ticker_symbol;
+  if (item.crunnchbaseData) {
+    delete item.crunchbaseData.num_employees_min;
+    delete item.crunchbaseData.num_employees_max;
+    delete item.crunchbaseData.ticker_symbol;
+  }
   delete item.cncf_project;
   delete item.cncf_member;
   delete item.market_cap;
@@ -60,13 +127,9 @@ const itemsWithExtraFields = items.map(function(item) {
   if (otherItems.length > 1) {
     id = saneName(item.organization + ' ' + item.name);
   }
-  const existsSvg = require('fs').existsSync(`./src/logos/${saneName(id)}.svg`);
   return {
     ...item,
     id: id,
-    starsCategory: getCategory({field: 'stars', item: item}),
-    marketCapCategory: getCategory({field: 'marketCap', item: item}),
-    href: `/logos/${saneName(id)}.${existsSvg ? 'svg': 'png'}`,
   }
 });
 
