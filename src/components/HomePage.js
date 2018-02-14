@@ -22,7 +22,7 @@ const HomePage = ({ready}) => {
     )
   }
   return (
-      <div style={{overflowX: 'hidden'}}>
+      <div style={{overflow: 'hidden'}}>
         <HomePageUrlContainer />
         <ItemDialogContainer />
         <HeaderContainer/>
