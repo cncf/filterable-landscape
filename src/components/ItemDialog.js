@@ -165,7 +165,7 @@ const ItemDialog = ({onClose, itemInfo, previousItemId, nextItemId, onSelectItem
                 </div>
               </div>
               }
-              {itemInfo.crunchbaseData.linkedin &&
+              {itemInfo.crunchbaseData && itemInfo.crunchbaseData.linkedin &&
               <div className="product-property row">
                 <div className="product-property-name col col-25">LinkedIn</div>
                 <div className="product-property-value col col-75">
