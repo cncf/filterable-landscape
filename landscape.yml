@@ -1776,35 +1776,13 @@ landscape:
             logo: 'https://xebialabs-clients-iglusjax.stackpathdns.com/assets/files/media-kit/xl-deploy.png'
             twitter: 'https://twitter.com/xldeploy'
             crunchbase: 'https://www.crunchbase.com/organization/xebialabs'
-  - category:
-    name: Platform
-    subcategories:
       - subcategory:
-        name: Certified Kubernetes
+        name: Certified Kubernetes - Distribution
         items:
-          - item:
-            name: Alauda EE
-            organization: Alauda
-            certified_kubernetes: Platform
-            homepage_url: 'https://www.alauda.cn/product/detail/id/68.html'
-            logo: 'https://www.cncf.io/wp-content/uploads/2017/11/alauda.png'
-            crunchbase: 'https://www.crunchbase.com/organization/alauda'
-          - item:
-            name: Alibaba Cloud Container Service
-            organization: Alibaba
-            description: >-
-              Container Services Provides high-performance, scalable container application management services that enable lifecycle management of containerized
-              applications with Docker and Kubernetes, multiple application deployment methods and continuous delivery capabilities, and support for
-              microservices architecture.
-            certified_kubernetes: Platform
-            homepage_url: 'https://www.alibabacloud.com/product/container-service?spm=a3c0i.7911826.709257.dproducta4.1010a3feFbGgBW'
-            logo: 'https://seeklogo.com/images/A/alibaba-cloud-logo-898D58C1CE-seeklogo.com.png'
-            crunchbase: 'https://www.crunchbase.com/organization/alibaba-cloud'
           - item:
             name: Apprenda Kismatic Enterprise Toolkit (KET)
             organization: Apprenda
             description: The open source enterprise toolkit for deploying and operating full lifecycle Kubernetes clusters in production.
-            certified_kubernetes: Distribution
             homepage_url: 'https://apprenda.com/kismatic/'
             repo_url: 'https://github.com/apprenda/kismatic'
             logo: 'https://cdn.evbuc.com/images/27464188/125492687415/2/logo.png'
@@ -1813,46 +1791,15 @@ landscape:
             name: Appscode Pharmer
             organization: Appscode
             description: Kubernetes Cluster Manager for Kubeadm
-            certified_kubernetes: Distribution
             homepage_url: 'https://appscode.com/products/pharmer/'
             logo: 'https://kubernetes.io/images/square-logos/appscode.png'
             crunchbase: 'https://www.crunchbase.com/organization/appscode'
-          - item:
-            name: Azure (ACS) Engine
-            organization: Microsoft
-            description: Azure Container Service Engine - a place for community to collaborate and build the best open Docker container infrastructure for Azure.
-            certified_kubernetes: Platform
-            homepage_url: 'https://github.com/Azure/acs-engine'
-            repo_url: 'https://github.com/Azure/acs-engine'
-            logo: 'https://www.datocms-assets.com/2885/1513729661-azure_logo_blue.svg'
-            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
-          - item:
-            name: Azure Container Service (AKS)
-            organization: Microsoft
-            description: >-
-              Simplify the deployment, management, and operations of Kubernetes. Use a fully managed Kubernetes container orchestration service or choose other
-              orchestrators.
-            certified_kubernetes: Platform
-            homepage_url: 'https://azure.microsoft.com/en-us/services/container-service/'
-            logo: 'https://www.datocms-assets.com/2885/1513729661-azure_logo_blue.svg'
-            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
-          - item:
-            name: BoCloud BeyondcentContainer
-            organization: BoCloud
-            description: >-
-              PaaS cloud solutions for docketing and managing Internet applications using docker container technology. Help customers respond to the explosive
-              and unpredictable nature of Internet services.
-            certified_kubernetes: Platform
-            homepage_url: 'http://bocloud.com.cn/product_container.html'
-            logo: 'http://images.tmtpost.com/uploads/images/2017/05/10/de220d631464bcf29f89ac3e434c262614944057435518.jpg'
-            crunchbase: 'https://www.crunchbase.com/organization/bocloud'
           - item:
             name: Caicloud Compass
             organization: Caicloud
             description: >-
               Compass is an enterprise container cluster management platform based on Kubernetes and Google's 10-year container usage best practices, to provide
               users with a stable, easy-to-use, and secure multi-cloud hybrid cloud management solution across clusters.
-            certified_kubernetes: Distribution
             homepage_url: 'https://caicloud.io/products/compass'
             logo: 'https://image.pitchbook.com/RNFCWpPvnzY5XE28UPpaYPlM6xB1498539307943_200x200'
             crunchbase: 'https://www.crunchbase.com/organization/caicloud'
@@ -1862,35 +1809,14 @@ landscape:
             description: >-
               This is pure Kubernetes tested across the widest range of clouds with modern metrics and monitoring, brought to you by the people who deliver
               Ubuntu.
-            certified_kubernetes: Distribution
             homepage_url: 'https://caicloud.io/products/compass'
             repo_url: 'https://github.com/juju-solutions/bundle-canonical-kubernetes'
             logo: 'https://zentera.net/wp-content/uploads/2015/10/Canonical.png'
             crunchbase: 'https://www.crunchbase.com/organization/canonical-ltd'
           - item:
-            name: Cisco Container Platform
-            organization: Cisco
-            description: >-
-              Cisco Container Platform (CCP) automates the repetitive things and simplifies the complex ones so everyone can just go back to enjoying the magic
-              of containers.
-            certified_kubernetes: Platform
-            homepage_url: 'https://www.cisco.com/c/en/us/products/cloud-systems-management/container-platform/index.html'
-            logo: 'https://merchandise-store.cisco.com/skin/frontend/ultimo/fullpond/images/Cisco_Logo.svg'
-            crunchbase: 'https://www.crunchbase.com/organization/cisco'
-          - item:
-            name: Cloud Foundry Container Runtime
-            organization: Cloud Foundry
-            description: ' Cloud Foundry Application Runtime utilizes containers as part of its DNA, and has since before Docker popularized containers. The new CF Container Runtime gives you more granular control and management of containers with Kubernetes.'
-            certified_kubernetes: Platform
-            homepage_url: 'https://www.cloudfoundry.org/'
-            repo_url: 'https://github.com/cloudfoundry-incubator/kubo-deployment'
-            logo: 'https://www.cloudfoundry.org/wp-content/uploads/2017/01/CFF_Logo_vertical_RGB.png'
-            crunchbase: 'https://www.crunchbase.com/organization/cloud-foundry'
-          - item:
             name: CoreOS bootkube
             organization: CoreOS
             description: Bootkube is a tool for launching self-hosted Kubernetes clusters.
-            certified_kubernetes: Distribution
             homepage_url: 'https://github.com/kubernetes-incubator/bootkube'
             repo_url: 'https://github.com/kubernetes-incubator/bootkube'
             logo: 'https://i.pinimg.com/originals/8d/4b/d4/8d4bd4b4011e8cd7c5c0b1478855f21d.jpg'
@@ -1899,7 +1825,6 @@ landscape:
             name: DaoCloud Enterprise
             organization: DaoCloud
             description: 'With DaoCloud Enterprise, support for cloud native applications quickly bring innovative business to market.'
-            certified_kubernetes: Distribution
             homepage_url: 'https://www.daocloud.io'
             logo: 'https://opencollective-production.s3-us-west-1.amazonaws.com/6d959930-b283-11e7-aea9-770057e229d7.png'
             crunchbase: 'https://www.crunchbase.com/organization/dao-cloud'
@@ -1909,7 +1834,6 @@ landscape:
             description: >-
               Diamanti brings to market the first purpose built bare metal container platform for moving your applications from development to production.
               Diamanti accelerates time-to-market, guarantees real-time service levels, and consolidates containers with 90% utilization.
-            certified_kubernetes: Distribution
             homepage_url: 'https://diamanti.com/products/'
             logo: 'http://events.vmblog.com/images/dockercon/diamanti-logo-600.png'
             crunchbase: 'https://www.crunchbase.com/organization/diamanti'
@@ -1919,34 +1843,15 @@ landscape:
             description: >-
               The Docker platform is getting support for Kubernetes. This means that developers and operators can build apps with Docker and seamlessly test and
               deploy them using both Docker Swarm and Kubernetes.
-            certified_kubernetes: Distribution
             homepage_url: 'https://www.docker.com/kubernetes'
             logo: 'http://blog.iron.io/wp-content/uploads/2016/01/platform-docker-logo.png'
             crunchbase: 'https://www.crunchbase.com/organization/docker'
-          - item:
-            name: EasyStack Kubernetes Service (EKS)
-            organization: EasyStack
-            description: >-
-              EasyStack Kubernetes Service's enterprise container platform integrates applications and infrastructure resources through deep integration of
-              Kubernetes and OpenStack platforms in multiple management dimensions such as scheduling, scheduling, security, operation and maintenance, and
-              finally launches a new generation of application delivery in the cloud data center One kilometer, play 1 +1> 2 performance advantages.
-            certified_kubernetes: Platform
-            homepage_url: 'https://easystack.cn/eks/'
-            logo: 'https://easystack.cn/static/cn/images/easystack-logo.png'
-            crunchbase: 'https://www.crunchbase.com/organization/easystack'
-          - item:
-            name: eKing Cloud Container Platform
-            organization: Hainan Eking
-            certified_kubernetes: Platform
-            homepage_url: 'http://www.haihangyun.com/landing'
-            logo: 'http://www.chinatravelnews.com/images/201512/287461104de1f06f.jpg'
           - item:
             name: Ghostcloud EcOS
             organization: Ghostcloud
             description: >-
               Enterprise Container Operation System(EcOS) is an enterprise-grade PaaS / CaaS platform based on Docker &Kubernetes. The EcOS-Kubernetes platform
               makes it easier to configure, deploy and manage containerized applications.
-            certified_kubernetes: Distribution
             homepage_url: 'https://www.ghostcloud.cn/ecos-kubernetes/'
             logo: 'https://assets.sdxcentral.com/ghostcloud-logo.png'
           - item:
@@ -1955,79 +1860,28 @@ landscape:
             description: >-
               Next to open source products from various leading companies in the ecosystem, we develop our own tools that interact with, automate, and manage
               the infrastructure and its components.
-            certified_kubernetes: Distribution
             homepage_url: 'https://giantswarm.io/product/'
             logo: 'http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/giant-swarm.png'
             crunchbase: 'https://www.crunchbase.com/organization/giant-swarm'
           - item:
             name: Google Kube-Up
             organization: Google
-            certified_kubernetes: Distribution
             homepage_url: 'https://github.com/kubernetes/kubernetes/tree/master/cluster'
             repo_url: 'https://github.com/kubernetes/kube-deploy'
             logo: 'https://www.google.com/cloud/assets/press/Google_Cloud_Logo.png'
             crunchbase: 'https://www.crunchbase.com/organization/google-cloud-platform'
           - item:
-            name: Google Kubernetes Engine (GKE)
-            organization: Google
-            description: >-
-              Google Kubernetes Engine is a managed environment for deploying containerized applications. It brings our latest innovations in developer
-              productivity, resource efficiency, automated operations, and open source flexibility to accelerate your time to market.
-            certified_kubernetes: Platform
-            homepage_url: 'https://cloud.google.com/kubernetes-engine/'
-            logo: ./src/hosted_logos/google-kubernetesengine.svg
-            crunchbase: 'https://www.crunchbase.com/organization/google-cloud-platform'
-          - item:
-            name: HarmonyCloud Container Platform
-            organization: Harmony Cloud
-            description: 'Kubernetes, second generation PaaS cloud computing platform, builds industry-leading container cloud computing framework'
-            certified_kubernetes: Platform
-            homepage_url: 'http://harmonycloud.cn'
-            logo: 'https://www.cncf.io/wp-content/uploads/2017/03/harmony-cloud-300x184.png'
-          - item:
-            name: Hasura
-            organization: Hasura
-            description: >-
-              Hasura helps you build applications quickly. Hasura provides APIs for common uses cases (data, auth, filestore) and allows you to build your
-              custom microservices easily too.
-            certified_kubernetes: Platform
-            homepage_url: 'https://hasura.io/'
-            logo: 'https://d1qb2nb5cznatu.cloudfront.net/startups/i/820697-7da6f327870c08c1f39c09a0e1801b31-medium_jpg.jpg?buster=1441133201'
-            crunchbase: 'https://www.crunchbase.com/organization/hasura'
-          - item:
             name: Heptio Quickstart for Kubernetes
             organization: Heptio
             description: Flexible container orchestration platform on the AWS Cloud
-            certified_kubernetes: Distribution
             homepage_url: 'https://aws.amazon.com/quickstart/architecture/heptio-kubernetes/'
             repo_url: 'https://github.com/heptio/aws-quickstart'
             logo: 'https://pbs.twimg.com/profile_images/907768517545443328/x0Jn6BwF.jpg'
             crunchbase: 'https://www.crunchbase.com/organization/heptio'
           - item:
-            name: Huawei Cloud Container Engine (CCE)
-            organization: Huawei
-            description: >-
-              Cloud Container Engine (CCE) is a high-performance, high-reliability service through which enterprises can manage containerized applications. CCE
-              supports native Kubernetes applications and tools, allowing you to set up a container runtime environment on the cloud with ease.
-            certified_kubernetes: Platform
-            homepage_url: 'http://www.huaweicloud.com/en-us/product/cce.html'
-            logo: 'https://upload.wikimedia.org/wikipedia/commons/0/00/Huawei.svg'
-            crunchbase: 'https://www.crunchbase.com/organization/huawei'
-          - item:
-            name: IBM Cloud Container Service
-            organization: IBM Cloud
-            description: >-
-              IBM® Cloud Container Service delivers powerful tools by combining Docker and Kubernetes technologies, an intuitive user experience, and built-in
-              security and isolation to automate the deployment, operation, scaling, and monitoring of containerized apps in a cluster of compute hosts.
-            certified_kubernetes: Platform
-            homepage_url: 'https://console.bluemix.net/docs/containers/cs_ov.html#cs_ov'
-            logo: ./src/hosted_logos/ibm-cloud.png
-            crunchbase: 'https://www.crunchbase.com/organization/ibm-cloud'
-          - item:
             name: IBM Cloud Private
             organization: IBM Cloud
             description: 'Build open, cloud-native apps with public services and run them anywhere — on public cloud or on your existing on-premises systems.'
-            certified_kubernetes: Distribution
             homepage_url: 'https://www.ibm.com/cloud-computing/products/ibm-cloud-private/'
             logo: ./src/hosted_logos/ibm-cloud.png
             crunchbase: 'https://www.crunchbase.com/organization/ibm-cloud'
@@ -2035,7 +1889,6 @@ landscape:
             name: inwinSTACK kube-ansible
             organization: inwinSTACK
             description: Build a Kubernetes cluster using Ansible playbooks.
-            certified_kubernetes: Distribution
             homepage_url: 'https://github.com/inwinstack/kube-ansible'
             repo_url: 'https://github.com/inwinstack/kube-ansible'
             logo: 'https://pbs.twimg.com/profile_images/913967961135661056/llUSv_YQ_400x400.jpg'
@@ -2046,7 +1899,6 @@ landscape:
               Triton Kubernetes is a multi-cloud Kubernetes solution. It has a global cluster manager which can run on any cloud - Public, Private or Bare Metal
               and manages Kubernetes environments. The current release uses Triton (Joyent public cloud). You can update the APIs to switch to another cloud or
               log an enhancement request.
-            certified_kubernetes: Distribution
             homepage_url: 'https://www.joyent.com/triton/compute'
             repo_url: 'https://github.com/joyent/triton-kubernetes'
             logo: 'https://p6.zdassets.com/hc/settings_assets/150338/200244868/L3CnsFFWx4OJFUp2C7uUWA-joyentLogo.png'
@@ -2055,7 +1907,6 @@ landscape:
             name: Kinvolk kube-spawn
             organization: Kinvolk
             description: 'A tool for creating multi-node Kubernetes clusters on a Linux machine using kubeadm & systemd-nspawn. Brought to you by the Kinvolk team. '
-            certified_kubernetes: Distribution
             homepage_url: 'https://github.com/kinvolk/kube-spawn'
             repo_url: 'https://github.com/kinvolk/kube-spawn'
             logo: 'https://www.cncf.io/wp-content/uploads/2017/03/kinvolk_logo-1.png'
@@ -2064,7 +1915,6 @@ landscape:
             name: Kublr
             organization: Kublr
             description: 'Accelerate and control the deployment, scaling, monitoring and management of your containerized applications. '
-            certified_kubernetes: Distribution
             homepage_url: 'https://kublr.com/'
             logo: 'http://kublr.com/images/KublrLogo.svg'
             crunchbase: 'https://www.crunchbase.com/organization/kublr'
@@ -2072,7 +1922,6 @@ landscape:
             name: Loodse Kubermatic
             organization: Loodse
             description: Scale apps with one click in the cloud or in your own datacenter.
-            certified_kubernetes: Distribution
             homepage_url: 'https://cloud.kubermatic.io/'
             logo: 'https://pbs.twimg.com/media/C8FWtMNW4AAIUt8.png'
             crunchbase: 'https://www.crunchbase.com/organization/loodse-gmbh'
@@ -2080,18 +1929,9 @@ landscape:
             name: Mesosphere Kubernetes on DC/OS
             organization: Mesosphere
             description: Mesosphere DC/OS runs Kubernetes-as-a-Service alongside traditional apps and data services on any infrastructure.
-            certified_kubernetes: Distribution
             homepage_url: 'https://mesosphere.com/kubernetes/'
             logo: 'https://mesosphere.com/wp-content/uploads/2017/11/mesosphere-logo.png'
             crunchbase: 'https://www.crunchbase.com/organization/mesosphere'
-          - item:
-            name: Mirantis Cloud Platform
-            organization: Mirantis
-            description: Mirantis Cloud Platform (MCP) includes a pure play distribution of Kubernetes for enterprise-grade container orchestration.
-            certified_kubernetes: Platform
-            homepage_url: 'https://www.mirantis.com/software/kubernetes/'
-            logo: 'https://www.mirantis.com/wp-content/uploads/2017/01/mirantis-logo-2color-rgb-transparent.png'
-            crunchbase: 'https://www.crunchbase.com/organization/mirantis'
           - item:
             name: Netease Container Service Dedicated
             organization: Netease
@@ -2099,42 +1939,31 @@ landscape:
               Container Services Cloud Edition is an enterprise-class container platform, deployed in the user's own cloud resources. Based on Kubernetes
               technology, provide users exclusive container cluster. Provide users the freedom to choose the Kubernetes version of the cluster capabilities,
               easy to follow up the latest developments in the community. Comply with Kubernetes conformance standards, portability is good.
-            certified_kubernetes: Distribution
             homepage_url: 'https://www.163yun.com/product/container-service-dedicated'
             logo: 'https://www.cncf.io/wp-content/uploads/2017/11/NetEase-Cloud-logo-300x48.jpg'
             crunchbase: 'https://www.crunchbase.com/organization/netease-com'
           - item:
-            name: Nirmata Managed Kubernetes
-            organization: Nirmata
-            description: 'Nirmata is a platform that helps enterprise DevOps teams deploy, operate, and optimize Kubernetes applications across public and private clouds.'
-            certified_kubernetes: Platform
-            homepage_url: 'https://www.nirmata.com/'
-            logo: 'https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco/v1501447457/hzaahdettnwjbpyuenjf.png'
-            crunchbase: 'https://www.crunchbase.com/organization/nirmata'
-          - item:
             name: OpenShift
             organization: Red Hat
             description: Red Hat® OpenShift is a container application platform that brings docker and Kubernetes to the enterprise.
-            certified_kubernetes: Distribution
             homepage_url: 'https://www.openshift.com/'
             repo_url: 'https://github.com/openshift/origin'
             logo: 'https://upload.wikimedia.org/wikipedia/commons/3/3a/OpenShift-LogoType.svg'
             crunchbase: 'https://www.crunchbase.com/organization/red-hat'
           - item:
-            name: Oracle Container Engine
-            organization: Oracle
-            description: Next generation of container-native development. Container life cycle made easy.
-            certified_kubernetes: Platform
-            homepage_url: 'http://www.wercker.com/product'
-            logo: 'https://cdn.worldvectorlogo.com/logos/oracle-6.svg'
-            crunchbase: 'https://www.crunchbase.com/organization/oracle'
+            name: OpenShift
+            organization: Red Hat
+            description: Red Hat® OpenShift is a container application platform that brings docker and Kubernetes to the enterprise.
+            homepage_url: 'https://www.openshift.com/'
+            repo_url: 'https://github.com/openshift/origin'
+            logo: 'https://upload.wikimedia.org/wikipedia/commons/3/3a/OpenShift-LogoType.svg'
+            crunchbase: 'https://www.crunchbase.com/organization/red-hat'
           - item:
             name: Oracle Linux Container Services
             organization: Oracle
             description: >-
               Continuing Oracle's commitment to open source and the container ecosystem, Oracle joins the Cloud Native Computing Foundation, and we are pleased
               to announce Oracle Container Services for use with Kubernetes.
-            certified_kubernetes: Distribution
             homepage_url: 'https://blogs.oracle.com/linux/announcing-oracle-linux-container-services-for-use-with-kubernetes'
             logo: 'https://cdn.worldvectorlogo.com/logos/oracle-6.svg'
             crunchbase: 'https://www.crunchbase.com/organization/oracle'
@@ -2142,7 +1971,6 @@ landscape:
             name: Oracle Terraform Kubernetes Installer
             organization: Oracle
             description: Terraform Installer for Kubernetes on Oracle Cloud Infrastructure.
-            certified_kubernetes: Distribution
             homepage_url: 'https://github.com/oracle/terraform-kubernetes-installer'
             repo_url: 'https://github.com/oracle/terraform-kubernetes-installer'
             logo: 'https://cdn.worldvectorlogo.com/logos/oracle-6.svg'
@@ -2153,7 +1981,6 @@ landscape:
             description: >-
               Reliably deploy and run containerized workloads across private and public clouds. PKS eases the Day 2 operations burden for container
               orchestration with built-in HA, monitoring, automated health checks, and much more.
-            certified_kubernetes: Distribution
             homepage_url: 'https://pivotal.io/platform/pivotal-container-service'
             logo: 'https://newrelic.cdn.prismic.io/newrelic/4080a2492514766cbfaddd717b4b0ab5e761b277_pivotal_logo.png'
             crunchbase: 'https://www.crunchbase.com/organization/pivotal'
@@ -2161,7 +1988,6 @@ landscape:
             name: Platform9 Managed Kubernetes
             organization: Platform9
             description: 'Platform9 Managed Kubernetes is SaaS-managed, infrastructure-agnostic, and works across public clouds and on-premises server infrastructure.'
-            certified_kubernetes: Distribution
             homepage_url: 'https://platform9.com/managed-kubernetes/'
             logo: 'https://hostadvice.com/wp-content/uploads/2017/07/Platform9-LogoStacked.png'
             crunchbase: 'https://www.crunchbase.com/organization/platform9-systems-inc'
@@ -2171,7 +1997,6 @@ landscape:
             description: >-
               Rancher container management platform makes it easy for you to manage all aspects of running containers. You no longer need to develop the
               technical skills required to integrate and maintain a complex set of open source technologies.
-            certified_kubernetes: Distribution
             homepage_url: 'http://rancher.com/kubernetes/'
             repo_url: 'https://github.com/rancher/rancher'
             logo: 'https://cloudssky.com/.galleries/images/rancher-logo-stacked-color.png?__scale=w:400,h:203,c:transparent'
@@ -2182,31 +2007,16 @@ landscape:
             description: >-
               The Samsung SDS Cloud Native Computing Team's (CNCT) mission is to help companies in adoption of Cloud Native development principles and improve
               their organizational velocity.
-            certified_kubernetes: Distribution
             homepage_url: 'http://samsung-cnct.github.io/'
             repo_url: 'https://github.com/samsung-cnct/kraken'
             logo: 'https://databricks.com/wp-content/uploads/2015/06/samsung_sds_logo.png'
             crunchbase: 'https://www.crunchbase.com/organization/samsung-sds'
-          - item:
-            name: 'SAP Cloud Platform - Gardener (AWS, Azure, GCE)'
-            organization: SAP
-            description: >-
-              SAP Cloud Platform is an open platform as a service (PaaS) which provides customers and partners with in-memory capabilities, core platform
-              services, and unique business services for building and extending personalized, collaborative, mobile-enabled cloud applications. SAP Cloud
-              Platform is designed to accelerate digital transformation across your business by enabling your organization to build the exact application you
-              need more quickly, easily, and economically – all  without the requirement of maintaining or investing in on-premises infrastructure. Based on
-              open standards, SAP Cloud Platform offers complete flexibility and control over your choice of clouds, frameworks, and applications.
-            certified_kubernetes: Platform
-            homepage_url: 'https://cloudplatform.sap.com/index.html'
-            logo: 'https://www.ariba.com/frontend/aribacom/dist/assets/images/sap_logo.svg'
-            crunchbase: 'https://www.crunchbase.com/organization/sap'
           - item:
             name: StackPointCloud (SPC)
             organization: StackPointCloud
             description: >-
               The universal control plane for managed Kubernetes. Deploy a Kubernetes cluster to the cloud provider of your choice in 3 steps using our
               web-based interface.
-            certified_kubernetes: Distribution
             homepage_url: 'https://stackpoint.io/'
             logo: 'https://www.cncf.io/wp-content/uploads/2016/09/logo_stackpointcloud.png'
             crunchbase: 'https://www.crunchbase.com/organization/stackpointcloud'
@@ -2217,7 +2027,6 @@ landscape:
               SUSE Containers as a Service Platform is the solution that puts together SUSE Linux Enterprise MicroOS, the operating system optimized for running
               the next generation of applications with Linux containers, and the container orchestration solution for container cluster management based on
               Kubernetes.
-            certified_kubernetes: Distribution
             homepage_url: 'https://www.suse.com/c/introducing-suse-containers-service-platform/'
             logo: >-
               https://www3.lenovo.com/medias/lenovo-systems-solutions-suse-cloud.png?context=bWFzdGVyfHJvb3R8ODg5NHxpbWFnZS9wbmd8aDBhL2g0OC85NDQ4OTkzODE2NjA2LnBuZ3w0ODZkYjYwMDYyNTg2MjNkZDRiODYxYTJiODFkNjI2NzExYWM0YjcyMTNmMzU3YzI2N2ZkYzYyOWYyZDQxMjg0
@@ -2226,35 +2035,16 @@ landscape:
             name: Tectonic
             organization: Red Hat
             description: 'Tectonic ships with CoreOS''s signature automated operations, runs multi-cloud, and is the fastest, most secure path to Kubernetes.'
-            certified_kubernetes: Distribution
             homepage_url: 'https://coreos.com/tectonic'
             repo_url: 'https://github.com/coreos/tectonic-installer'
             logo: 'https://i0.wp.com/containerjournal.com/wp-content/uploads/2015/07/tectonic-bycoreos-color-copy.png'
             crunchbase: 'https://www.crunchbase.com/organization/red-hat'
-          - item:
-            name: Tencent Cloud Container Service (CCS)
-            organization: Tencent
-            description: Tencent Cloud Container Service (CCS) is a container management service with high scalability and high performance.
-            certified_kubernetes: Platform
-            stock_ticker: TCEHY
-            homepage_url: 'https://cloud.tencent.com/product/ccs?lang=en'
-            logo: 'https://www.cncf.io/wp-content/uploads/2017/05/logo_tencent-300x184.png'
-            crunchbase: 'https://www.crunchbase.com/organization/tencent'
-          - item:
-            name: TenxCloud Container Engine (TCE)
-            organization: TenxCloud
-            description: The first enterprise container cloud management platform based on Kubernetes and supporting private deployments.
-            certified_kubernetes: Platform
-            homepage_url: 'https://tenxcloud.com/'
-            logo: 'https://www.cncf.io/wp-content/uploads/2017/11/tenxcloud.png'
-            crunchbase: 'https://www.crunchbase.com/organization/tenxcloud'
           - item:
             name: Typhoon
             organization: Poseidon
             description: >-
               Typhoon distributes upstream Kubernetes, architectural conventions, and cluster addons, much like a GNU/Linux distribution provides the Linux
               kernel and userspace components.
-            certified_kubernetes: Distribution
             homepage_url: 'https://typhoon.psdn.io/'
             repo_url: 'https://github.com/poseidon/typhoon'
             logo: 'https://kubernetes.io/images/square-logos/poseidon.png'
@@ -2262,7 +2052,6 @@ landscape:
             name: VMWare Pivotal Container Service (PKS)
             organization: VMware
             description: VMware and Pivotal Launch Pivotal Container Service (PKS) and Collaborate with Google Cloud to Bring Kubernetes to Enterprise Customers.
-            certified_kubernetes: Distribution
             homepage_url: 'https://www.vmware.com/radius/pivotal-container-services/'
             logo: 'https://practice-labs.com/images/vmware-logo.svg'
             crunchbase: 'https://www.crunchbase.com/organization/vmware'
@@ -2272,7 +2061,6 @@ landscape:
             description: >-
               kubeadm is a toolkit that helps you bootstrap a best-practice Kubernetes cluster in an easy, reasonably secure and extensible way. It also
               supports managing Bootstrap Tokens for you and upgrading/downgrading clusters.
-            certified_kubernetes: Distribution
             homepage_url: 'https://kubernetes.io/docs/setup/independent/create-cluster-kubeadm/'
             repo_url: 'https://github.com/kubernetes/kubeadm'
             logo: 'https://events.linuxfoundation.org/wp-content/uploads/2017/05/logo_weaveworks.png'
@@ -2281,9 +2069,175 @@ landscape:
             name: WiseCloud
             organization: Wise2c
             description: Cover the whole process of modern software production line needs.
-            certified_kubernetes: Distribution
             homepage_url: 'http://www.wise2c.com/solution'
             logo: 'https://www.cncf.io/wp-content/uploads/2017/11/wise2c.png'
+      - subcategory:
+        name: Certified Kubernetes - Platform
+        items:
+          - item:
+            name: Alauda EE
+            organization: Alauda
+            homepage_url: 'https://www.alauda.cn/product/detail/id/68.html'
+            logo: 'https://www.cncf.io/wp-content/uploads/2017/11/alauda.png'
+            crunchbase: 'https://www.crunchbase.com/organization/alauda'
+          - item:
+            name: Alibaba Cloud Container Service
+            organization: Alibaba
+            description: >-
+              Container Services Provides high-performance, scalable container application management services that enable lifecycle management of containerized
+              applications with Docker and Kubernetes, multiple application deployment methods and continuous delivery capabilities, and support for
+              microservices architecture.
+            homepage_url: 'https://www.alibabacloud.com/product/container-service?spm=a3c0i.7911826.709257.dproducta4.1010a3feFbGgBW'
+            logo: 'https://seeklogo.com/images/A/alibaba-cloud-logo-898D58C1CE-seeklogo.com.png'
+            crunchbase: 'https://www.crunchbase.com/organization/alibaba-cloud'
+          - item:
+            name: Azure (ACS) Engine
+            organization: Microsoft
+            description: Azure Container Service Engine - a place for community to collaborate and build the best open Docker container infrastructure for Azure.
+            homepage_url: 'https://github.com/Azure/acs-engine'
+            repo_url: 'https://github.com/Azure/acs-engine'
+            logo: 'https://www.datocms-assets.com/2885/1513729661-azure_logo_blue.svg'
+            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+          - item:
+            name: Azure Container Service (AKS)
+            organization: Microsoft
+            description: >-
+              Simplify the deployment, management, and operations of Kubernetes. Use a fully managed Kubernetes container orchestration service or choose other
+              orchestrators.
+            homepage_url: 'https://azure.microsoft.com/en-us/services/container-service/'
+            logo: 'https://www.datocms-assets.com/2885/1513729661-azure_logo_blue.svg'
+            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+          - item:
+            name: BoCloud BeyondcentContainer
+            organization: BoCloud
+            description: >-
+              PaaS cloud solutions for docketing and managing Internet applications using docker container technology. Help customers respond to the explosive
+              and unpredictable nature of Internet services.
+            homepage_url: 'http://bocloud.com.cn/product_container.html'
+            logo: 'http://images.tmtpost.com/uploads/images/2017/05/10/de220d631464bcf29f89ac3e434c262614944057435518.jpg'
+            crunchbase: 'https://www.crunchbase.com/organization/bocloud'
+          - item:
+            name: Cisco Container Platform
+            organization: Cisco
+            description: >-
+              Cisco Container Platform (CCP) automates the repetitive things and simplifies the complex ones so everyone can just go back to enjoying the magic
+              of containers.
+            homepage_url: 'https://www.cisco.com/c/en/us/products/cloud-systems-management/container-platform/index.html'
+            logo: 'https://merchandise-store.cisco.com/skin/frontend/ultimo/fullpond/images/Cisco_Logo.svg'
+            crunchbase: 'https://www.crunchbase.com/organization/cisco'
+          - item:
+            name: Cloud Foundry Container Runtime
+            organization: Cloud Foundry
+            description: ' Cloud Foundry Application Runtime utilizes containers as part of its DNA, and has since before Docker popularized containers. The new CF Container Runtime gives you more granular control and management of containers with Kubernetes.'
+            homepage_url: 'https://www.cloudfoundry.org/'
+            repo_url: 'https://github.com/cloudfoundry-incubator/kubo-deployment'
+            logo: 'https://www.cloudfoundry.org/wp-content/uploads/2017/01/CFF_Logo_vertical_RGB.png'
+            crunchbase: 'https://www.crunchbase.com/organization/cloud-foundry'
+          - item:
+            name: EasyStack Kubernetes Service (EKS)
+            organization: EasyStack
+            description: >-
+              EasyStack Kubernetes Service's enterprise container platform integrates applications and infrastructure resources through deep integration of
+              Kubernetes and OpenStack platforms in multiple management dimensions such as scheduling, scheduling, security, operation and maintenance, and
+              finally launches a new generation of application delivery in the cloud data center One kilometer, play 1 +1> 2 performance advantages.
+            homepage_url: 'https://easystack.cn/eks/'
+            logo: 'https://easystack.cn/static/cn/images/easystack-logo.png'
+            crunchbase: 'https://www.crunchbase.com/organization/easystack'
+          - item:
+            name: eKing Cloud Container Platform
+            organization: Hainan Eking
+            homepage_url: 'http://www.haihangyun.com/landing'
+            logo: 'http://www.chinatravelnews.com/images/201512/287461104de1f06f.jpg'
+          - item:
+            name: Google Kubernetes Engine (GKE)
+            organization: Google
+            description: >-
+              Google Kubernetes Engine is a managed environment for deploying containerized applications. It brings our latest innovations in developer
+              productivity, resource efficiency, automated operations, and open source flexibility to accelerate your time to market.
+            homepage_url: 'https://cloud.google.com/kubernetes-engine/'
+            logo: ./src/hosted_logos/google-kubernetesengine.svg
+            crunchbase: 'https://www.crunchbase.com/organization/google-cloud-platform'
+          - item:
+            name: HarmonyCloud Container Platform
+            organization: Harmony Cloud
+            description: 'Kubernetes, second generation PaaS cloud computing platform, builds industry-leading container cloud computing framework'
+            homepage_url: 'http://harmonycloud.cn'
+            logo: 'https://www.cncf.io/wp-content/uploads/2017/03/harmony-cloud-300x184.png'
+          - item:
+            name: Hasura
+            organization: Hasura
+            description: >-
+              Hasura helps you build applications quickly. Hasura provides APIs for common uses cases (data, auth, filestore) and allows you to build your
+              custom microservices easily too.
+            homepage_url: 'https://hasura.io/'
+            logo: 'https://d1qb2nb5cznatu.cloudfront.net/startups/i/820697-7da6f327870c08c1f39c09a0e1801b31-medium_jpg.jpg?buster=1441133201'
+            crunchbase: 'https://www.crunchbase.com/organization/hasura'
+          - item:
+            name: Huawei Cloud Container Engine (CCE)
+            organization: Huawei
+            description: >-
+              Cloud Container Engine (CCE) is a high-performance, high-reliability service through which enterprises can manage containerized applications. CCE
+              supports native Kubernetes applications and tools, allowing you to set up a container runtime environment on the cloud with ease.
+            homepage_url: 'http://www.huaweicloud.com/en-us/product/cce.html'
+            logo: 'https://upload.wikimedia.org/wikipedia/commons/0/00/Huawei.svg'
+            crunchbase: 'https://www.crunchbase.com/organization/huawei'
+          - item:
+            name: IBM Cloud Container Service
+            organization: IBM Cloud
+            description: >-
+              IBM® Cloud Container Service delivers powerful tools by combining Docker and Kubernetes technologies, an intuitive user experience, and built-in
+              security and isolation to automate the deployment, operation, scaling, and monitoring of containerized apps in a cluster of compute hosts.
+            homepage_url: 'https://console.bluemix.net/docs/containers/cs_ov.html#cs_ov'
+            logo: ./src/hosted_logos/ibm-cloud.png
+            crunchbase: 'https://www.crunchbase.com/organization/ibm-cloud'
+          - item:
+            name: Mirantis Cloud Platform
+            organization: Mirantis
+            description: Mirantis Cloud Platform (MCP) includes a pure play distribution of Kubernetes for enterprise-grade container orchestration.
+            homepage_url: 'https://www.mirantis.com/software/kubernetes/'
+            logo: 'https://www.mirantis.com/wp-content/uploads/2017/01/mirantis-logo-2color-rgb-transparent.png'
+            crunchbase: 'https://www.crunchbase.com/organization/mirantis'
+          - item:
+            name: Nirmata Managed Kubernetes
+            organization: Nirmata
+            description: 'Nirmata is a platform that helps enterprise DevOps teams deploy, operate, and optimize Kubernetes applications across public and private clouds.'
+            homepage_url: 'https://www.nirmata.com/'
+            logo: 'https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco/v1501447457/hzaahdettnwjbpyuenjf.png'
+            crunchbase: 'https://www.crunchbase.com/organization/nirmata'
+          - item:
+            name: Oracle Container Engine
+            organization: Oracle
+            description: Next generation of container-native development. Container life cycle made easy.
+            homepage_url: 'http://www.wercker.com/product'
+            logo: 'https://cdn.worldvectorlogo.com/logos/oracle-6.svg'
+            crunchbase: 'https://www.crunchbase.com/organization/oracle'
+          - item:
+            name: 'SAP Cloud Platform - Gardener (AWS, Azure, GCE)'
+            organization: SAP
+            description: >-
+              SAP Cloud Platform is an open platform as a service (PaaS) which provides customers and partners with in-memory capabilities, core platform
+              services, and unique business services for building and extending personalized, collaborative, mobile-enabled cloud applications. SAP Cloud
+              Platform is designed to accelerate digital transformation across your business by enabling your organization to build the exact application you
+              need more quickly, easily, and economically – all  without the requirement of maintaining or investing in on-premises infrastructure. Based on
+              open standards, SAP Cloud Platform offers complete flexibility and control over your choice of clouds, frameworks, and applications.
+            homepage_url: 'https://cloudplatform.sap.com/index.html'
+            logo: 'https://www.ariba.com/frontend/aribacom/dist/assets/images/sap_logo.svg'
+            crunchbase: 'https://www.crunchbase.com/organization/sap'
+          - item:
+            name: Tencent Cloud Container Service (CCS)
+            organization: Tencent
+            description: Tencent Cloud Container Service (CCS) is a container management service with high scalability and high performance.
+            stock_ticker: TCEHY
+            homepage_url: 'https://cloud.tencent.com/product/ccs?lang=en'
+            logo: 'https://www.cncf.io/wp-content/uploads/2017/05/logo_tencent-300x184.png'
+            crunchbase: 'https://www.crunchbase.com/organization/tencent'
+          - item:
+            name: TenxCloud Container Engine (TCE)
+            organization: TenxCloud
+            description: The first enterprise container cloud management platform based on Kubernetes and supporting private deployments.
+            homepage_url: 'https://tenxcloud.com/'
+            logo: 'https://www.cncf.io/wp-content/uploads/2017/11/tenxcloud.png'
+            crunchbase: 'https://www.crunchbase.com/organization/tenxcloud'
       - subcategory:
         name: Non-Certified Kubernetes
         items:
