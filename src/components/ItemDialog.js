@@ -1,10 +1,16 @@
 import React from 'react';
 import Dialog from 'material-ui/Dialog';
+import { Timeline } from 'react-twitter-widgets'
+import { NavLink } from 'react-router-dom';
 import Icon from 'material-ui/Icon';
 import KeyHandler from 'react-key-handler';
 import _ from 'lodash';
 import millify from 'millify';
+import classNames from 'classnames'
 import relativeDate from 'relative-date';
+import { filtersToUrl } from '../utils/syncToUrl';
+import saneName from '../utils/saneName';
+import formatNumber from '../utils/formatNumber';
 
 const formatDate = function(x) {
   if (x === '$TODAY$') {
@@ -34,41 +40,60 @@ const cncfTag = function(cncfRelation) {
   }
   if (cncfRelation === 'member') {
     return (<span className="tag tag-blue">
-      <span className="tag-value">{text}</span>
+      <span className="tag-value"><NavLink to={filtersToUrl({filters:{cncfRelation: cncfRelation}})}>{text}</NavLink></span>
     </span>)
   }
-  return (<span className="tag tag-blue">
+  return (<NavLink to={filtersToUrl({filters:{cncfRelation: cncfRelation}})} className="tag tag-blue">
     <span className="tag-name">CNCF Project</span>
     <span className="tag-value">{text}</span>
-  </span>)
+  </NavLink>)
 };
 const openSourceTag = function(oss) {
   if (!oss) {
     return null;
   }
-  return (<span className="tag tag-grass">
+  return (<NavLink to="/license=open-source" className="tag tag-grass">
     <span className="tag-value">Open Source Software</span>
-  </span>)
+  </NavLink>)
 }
 const licenseTag = function(license) {
   const text = _.find(fields.license.values, {id: license}).label;
-  return (<span className="tag tag-green">
+  return (<NavLink to={filtersToUrl({filters:{license: license}})} className="tag tag-green">
     <span className="tag-name">License</span>
     <span className="tag-value">{text}</span>
-  </span>);
+  </NavLink>);
 }
 const ItemDialog = ({onClose, itemInfo, previousItemId, nextItemId, onSelectItem }) => {
   if (!itemInfo) {
     return null;
   }
+  // setTimeout(function() {
+    // const existingFrame = document.querySelector('iframe[data-widget-id]');
+    // if (existingFrame) {
+      // existingFrame.parentNode.removeChild(existingFrame);
+    // }
+    // window.twttr.widgets.load();
+  // });
+  const linkToOrganization = filtersToUrl({filters: {organization: itemInfo.organization}});
   const itemCategory = function(path) {
     var separator = <span className="product-category-separator">•</span>;
-    var partMarkup = (part) => <span>{part}</span>;
     var [category, subcategory] = path.split(' / ');
-    return (<span>{[partMarkup(category), separator, partMarkup(subcategory)]}</span>);
+    var categoryMarkup = (
+      <NavLink to={`/landscape=${saneName(category)}`}>{category}</NavLink>
+    )
+    var subcategoryMarkup = (
+      <NavLink to={filtersToUrl({filters: {landscape: path}})}>{subcategory}</NavLink>
+    )
+    return (<span>{[categoryMarkup, separator, subcategoryMarkup]}</span>);
   }
   return (
-    <Dialog open={true} onClose={() => onClose()} className="modal" classes={{paper:'modal-body'}}>
+    <Dialog open={true} onClose={() => onClose()}
+      classes={{paper:'modal-body'}}
+      className={classNames('modal', 'product', {inception : itemInfo.cncfRelation ==='inception'},
+                                                 {incubating : itemInfo.cncfRelation ==='incubating'},
+                                                 {graduated : itemInfo.cncfRelation ==='graduated'},
+                                                 {nonoss : itemInfo.oss === false})}
+      >
       { nextItemId && <KeyHandler keyValue="ArrowRight" onKeyHandle={() => onSelectItem(nextItemId)} /> }
       { previousItemId && <KeyHandler keyValue="ArrowLeft" onKeyHandle={() => onSelectItem(previousItemId)} /> }
         <a className="modal-close" onClick={() => onClose()}>×</a>
@@ -90,9 +115,10 @@ const ItemDialog = ({onClose, itemInfo, previousItemId, nextItemId, onSelectItem
             </div>
           </div>
           <div className="col col-66">
+            <div className="product-scroll">
             <div className="product-main">
               <div className="product-name">{itemInfo.name}</div>
-              <div className="product-parent">{itemInfo.organization}</div>
+              <div className="product-parent"><NavLink to={linkToOrganization}>{itemInfo.organization}</NavLink></div>
               <div className="product-category">{itemCategory(itemInfo.landscape)}</div>
               <div className="product-description">{itemInfo.description}</div>
             </div>
@@ -111,7 +137,7 @@ const ItemDialog = ({onClose, itemInfo, previousItemId, nextItemId, onSelectItem
                 </div>
               </div>
               }
-              {itemInfo.repo_url &&
+              {itemInfo.starsAsText &&
               <div className="product-property row">
                 <div className="product-property-name col col-25"></div>
                 <div className="product-property-value col col-75">
@@ -131,17 +157,33 @@ const ItemDialog = ({onClose, itemInfo, previousItemId, nextItemId, onSelectItem
                 </div>
               </div>
               }
+              {itemInfo.twitter &&
+              <div className="product-property row">
+                <div className="product-property-name col col-25">Twitter</div>
+                <div className="product-property-value col col-75">
+                  <a href={itemInfo.twitter} target="_blank">{itemInfo.twitter}</a>
+                </div>
+              </div>
+              }
+              {itemInfo.crunchbaseData.linkedin &&
+              <div className="product-property row">
+                <div className="product-property-name col col-25">LinkedIn</div>
+                <div className="product-property-value col col-75">
+                  <a href={itemInfo.crunchbaseData.linkedin} target="_blank">{itemInfo.crunchbaseData.linkedin}</a>
+                </div>
+              </div>
+              }
               { itemInfo.headquarters && itemInfo.headquarters !== 'N/A' && (
                 <div className="product-property row">
                   <div className="product-property-name col col-25">Headquarters</div>
-                  <div className="product-property-value col col-75">{itemInfo.headquarters}</div>
+                  <div className="product-property-value col col-75"><NavLink to={filtersToUrl({filters:{headquarters:itemInfo.headquarters}})}>{itemInfo.headquarters}</NavLink></div>
                 </div>
               )
               }
               { itemInfo.crunchbaseData && itemInfo.crunchbaseData.numEmployeesMin && (
                 <div className="product-property row">
                   <div className="product-property-name col col-25">Headcount</div>
-                  <div className="product-property-value col col-75">{itemInfo.crunchbaseData.numEmployeesMin}-{itemInfo.crunchbaseData.numEmployeesMax}</div>
+                  <div className="product-property-value col col-75">{formatNumber(itemInfo.crunchbaseData.numEmployeesMin)}-{formatNumber(itemInfo.crunchbaseData.numEmployeesMax)}</div>
                 </div>
               )
               }
@@ -157,7 +199,7 @@ const ItemDialog = ({onClose, itemInfo, previousItemId, nextItemId, onSelectItem
               {itemInfo.crunchbaseData.ticker && (
               <div className="product-property row">
                 <div className="product-property-name col col-25">Ticker</div>
-                <div className="product-property-value col col-75">{itemInfo.crunchbaseData.ticker}</div>
+                <div className="product-property-value col col-75"><a target="_blank" href={"https://finance.yahoo.com/quote/" + itemInfo.crunchbaseData.ticker}>{itemInfo.crunchbaseData.ticker}</a></div>
               </div>
               )
               }
@@ -178,6 +220,22 @@ const ItemDialog = ({onClose, itemInfo, previousItemId, nextItemId, onSelectItem
             </div>
 
             <div style={{display: "none"}}>{JSON.stringify(itemInfo, null, 2)}</div>
+            { itemInfo.twitter && (
+              <div className="product-twitter">
+              <Timeline
+                dataSource={{
+                  sourceType: 'profile',
+                  screenName: itemInfo.twitter.split('/').filter( x => !!x).slice(-1)[0]
+                }}
+                options={{
+                  username: itemInfo.name,
+                  tweetLimit: 3
+                }}
+                onLoad={() => console.log('Timeline is loaded!')}
+              />
+              </div>
+            )}
+          </div>
           </div>
         </div>
     </Dialog>

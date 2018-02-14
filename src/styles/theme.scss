@@ -1,6 +1,12 @@
-body{
-  background-color: #F4F4f4 !important;
-  font-family: Arial, Helvetica, sans-serif;
+$navy: #224065;
+$navy-light: #607c95;
+$blue: #5093e0;
+$blue-hover: #0e61c0;
+
+body{background-color:#F4F4f4 !important; font-family: Arial, Helvetica, sans-serif;}
+
+a {text-decoration: none; transition: all 0.5s; color: $blue;
+  &:hover {transition: all 0.1s; color: $blue-hover;}
 }
 
 .wrapper{
@@ -116,17 +122,21 @@ body{
 
 /* tags */
 .tag {display: inline-block; vertical-align: top; white-space: nowrap; border-radius: 4px; font-size: 0;
-  border: #4e92df 1px solid; margin: 0 10px 10px 0;
+  border: rgba(78, 146, 223, 0.4) 1px solid; margin: 0 10px 10px 0;
+  &:hover {border-color: rgba(78, 146, 223, 1);}
   &-name {padding: 3px 6px; font-size: 0.6rem; font-weight: bold; display: inline-block; border-radius: 3px 0 0 3px;}
   &-value {padding: 3px 6px; font-size: 0.6rem; display: inline-block;}
-  &-blue {border-color: #4e92df; color: #4e92df;
+  &-blue {border-color: rgba(78, 146, 223, 0.4); color: #4e92df;
     .tag-name {background: #e5effa;}
+    &:hover {border-color: rgba(78, 146, 223, 1); color: #4e92df;}
   }
-  &-grass {border-color: #7fbc40; color: #7fbc40;
+  &-grass {border-color: rgba(127, 188, 24, 0.4); color: #7fbc40;
     .tag-name {background: #d5eac0;}
+    &:hover {border-color: rgba(127, 188, 24, 1);  color: #7fbc40;}
   }
-  &-green {border-color: #26a195; color: #26a195;
+  &-green {border-color: rgba(38, 161, 149, 0.4); color: #26a195;
     .tag-name {background: #dff2f0;}
+    &:hover {border-color: rgba(38, 161, 149, 1); color: #26a195;}
   }
 
 }
@@ -147,11 +157,19 @@ body{
   position: relative;
   border-radius:2px;
   box-shadow: 1px 1px 3px #d6d6d6;
-  border: 1px solid #FFFFFF;
+  background: #fff;
+  border: 1px solid #fff;
 
-  &.inception {border: 4px solid #d1f7ff;}
-  &.incubating {border: 4px solid #00cbff;}
-  &.graduated {border: 4px solid #3570a8;}
+  &.inception{
+    border: 4px solid #d1f7ff;
+  }
+  &.incubating{
+    border: 4px solid #00cbff;
+  }
+  &.graduated{
+    border: 4px solid #3570a8;
+  }
+  &.nonoss{background: #eee;}
 
   .logo_wrapper{
     padding:10px;

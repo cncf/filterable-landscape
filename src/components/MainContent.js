@@ -15,9 +15,9 @@ const MainContent = ({groupedItems, onSelectItem}) => {
       return (<div className="mosaic-wrap">
         <div className={classNames('mosaic',{inception : item.cncfRelation ==='inception'},
                                                   {incubating : item.cncfRelation ==='incubating'},
-                                                  {graduated : item.cncfRelation ==='graduated'})}
-                   key={item.id} style={{ background: item.oss ? 'white' : '#eeeeee'}}
-                   onClick={() => onSelectItem(item.id)} >
+                                                  {graduated : item.cncfRelation ==='graduated'},
+                                                  {nonoss : item.oss === false})}
+                   key={item.id} onClick={() => onSelectItem(item.id)} >
                 <div className="logo_wrapper">
                   <img src={item.href} className='logo' max-height='100%' max-width='100%' />
                 </div>
