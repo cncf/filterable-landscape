@@ -6,6 +6,7 @@ import Icon from 'material-ui/Icon';
 import KeyHandler from 'react-key-handler';
 import _ from 'lodash';
 import millify from 'millify';
+import classNames from 'classnames'
 import relativeDate from 'relative-date';
 import { filtersToUrl } from '../utils/syncToUrl';
 import saneName from '../utils/saneName';
@@ -86,7 +87,13 @@ const ItemDialog = ({onClose, itemInfo, previousItemId, nextItemId, onSelectItem
     return (<span>{[categoryMarkup, separator, subcategoryMarkup]}</span>);
   }
   return (
-    <Dialog open={true} onClose={() => onClose()} className="modal product" classes={{paper:'modal-body'}}>
+    <Dialog open={true} onClose={() => onClose()}
+      classes={{paper:'modal-body'}}
+      className={classNames('modal', 'product', {inception : itemInfo.cncfRelation ==='inception'},
+                                                 {incubating : itemInfo.cncfRelation ==='incubating'},
+                                                 {graduated : itemInfo.cncfRelation ==='graduated'},
+                                                 {nonoss : itemInfo.oss === false})}
+      >
       { nextItemId && <KeyHandler keyValue="ArrowRight" onKeyHandle={() => onSelectItem(nextItemId)} /> }
       { previousItemId && <KeyHandler keyValue="ArrowLeft" onKeyHandle={() => onSelectItem(previousItemId)} /> }
         <a className="modal-close" onClick={() => onClose()}>×</a>
