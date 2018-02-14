@@ -3,14 +3,13 @@
     "name": "Alibaba Cloud",
     "organization": "Alibaba Cloud",
     "homepage_url": "https://www.alibabacloud.com/",
-    "logo": "https://seeklogo.com/images/A/alibaba-cloud-logo-898D58C1CE-seeklogo.com.png",
+    "logo": "./src/hosted_logos/alibaba-cloud.svg",
     "twitter": "https://twitter.com/alibaba_cloud",
     "crunchbase": "https://www.crunchbase.com/organization/alibaba-cloud",
     "headquarters": "Hangzhou, China",
     "description": "Alibaba Cloud develops highly scalable cloud computing and data management services.",
     "stars": "N/A",
     "license": "NotOpenSource",
-    "low_res": "300x148",
     "cncfMember": true,
     "cncfRelation": "member",
     "crunchbaseData": {
@@ -36,7 +35,7 @@
     "id": "alibaba-cloud",
     "starsCategory": "N/A",
     "marketCapCategory": "over1000m",
-    "href": "/logos/alibaba-cloud.png"
+    "href": "/logos/alibaba-cloud.svg"
   },
   {
     "name": "Amazon Web Services",
@@ -267,14 +266,13 @@
     "name": "IBM Cloud",
     "organization": "IBM Cloud",
     "homepage_url": "https://www.ibm.com/cloud/",
-    "logo": "./src/hosted_logos/ibm-cloud.png",
+    "logo": "./src/hosted_logos/ibm-cloud.svg",
     "twitter": "https://twitter.com/IBMcloud",
     "crunchbase": "https://www.crunchbase.com/organization/ibm-cloud",
     "headquarters": "New York, New York",
     "description": "IBM Cloud delivers a new way to work.",
     "stars": "N/A",
     "license": "NotOpenSource",
-    "low_res": "439x253",
     "cncfMember": false,
     "cncfRelation": false,
     "crunchbaseData": {
@@ -300,7 +298,7 @@
     "id": "ibm-cloud",
     "starsCategory": "N/A",
     "marketCapCategory": "over1000m",
-    "href": "/logos/ibm-cloud.png"
+    "href": "/logos/ibm-cloud.svg"
   },
   {
     "name": "Joyent",
@@ -387,7 +385,7 @@
     "name": "Packet",
     "organization": "Packet Host",
     "homepage_url": "https://www.packet.net/",
-    "logo": "https://assets.packet.net/company/logo.svg",
+    "logo": "./src/hosted_logos/packet.svg",
     "twitter": "https://twitter.com/packethost",
     "crunchbase": "https://www.crunchbase.com/organization/packet-host",
     "headquarters": "New York, New York",
@@ -424,7 +422,7 @@
     "name": "Tencent Cloud",
     "organization": "Tencent Holdings",
     "homepage_url": "https://cloud.tencent.com/",
-    "logo": "https://pbs.twimg.com/profile_images/852439695199846400/OqpOmsZ0_400x400.jpg",
+    "logo": "./src/hosted_logos/tencent-cloud.svg",
     "stock_ticker": "TCEHY",
     "twitter": "https://twitter.com/tencentcloud",
     "crunchbase": "https://www.crunchbase.com/organization/tencent",
@@ -432,7 +430,6 @@
     "description": "Tencent is a Chinese internet service portal offering value-added internet, mobile, telecom, and online advertising services.",
     "stars": "N/A",
     "license": "NotOpenSource",
-    "low_res": "384x268",
     "cncfMember": false,
     "cncfRelation": false,
     "crunchbaseData": {
@@ -458,21 +455,20 @@
     "id": "tencent-cloud",
     "starsCategory": "N/A",
     "marketCapCategory": "over1000m",
-    "href": "/logos/tencent-cloud.png"
+    "href": "/logos/tencent-cloud.svg"
   },
   {
     "name": "Digital Rebar",
     "organization": "RackN",
     "homepage_url": "http://rebar.digital/",
     "repo_url": "https://github.com/digitalrebar/provision",
-    "logo": "http://rebar.digital/logo.png",
+    "logo": "./src/hosted_logos/digitalrebar.svg",
     "twitter": "https://twitter.com/digitalrebar",
     "crunchbase": "https://www.crunchbase.com/organization/rackn-inc",
     "headquarters": "Austin, Texas",
     "description": "Hybrid DevOps Software For The Hybrid Enterprise",
     "stars": 61,
     "license": "Unknown License",
-    "low_res": "485x165",
     "cncfMember": true,
     "cncfRelation": "member",
     "firstCommitDate": "2017-02-08T15:46:53Z",
@@ -501,7 +497,7 @@
     "id": "digital-rebar",
     "starsCategory": "1to100",
     "marketCapCategory": "below1m",
-    "href": "/logos/digital-rebar.png"
+    "href": "/logos/digital-rebar.svg"
   },
   {
     "name": "Foreman",
@@ -509,14 +505,13 @@
     "homepage_url": "https://theforeman.org/",
     "repo_url": "https://github.com/theforeman/foreman",
     "branch": "develop",
-    "logo": "https://raw.githubusercontent.com/theforeman/foreman-graphics/master/logo/foreman_medium.png",
+    "logo": "./src/hosted_logos/foreman.svg",
     "twitter": "https://twitter.com/foremanproject",
     "crunchbase": "https://www.crunchbase.com/organization/foreman",
     "headquarters": "N/A",
     "description": "Foreman is an open source lifecycle management tool for physical and virtual servers.",
     "stars": 1371,
     "license": "Unknown License",
-    "low_res": "291x121",
     "cncfMember": false,
     "cncfRelation": false,
     "firstCommitDate": "2009-07-13T08:55:23Z",
@@ -543,7 +538,7 @@
     "id": "foreman",
     "starsCategory": "1000to10000",
     "marketCapCategory": "N/A",
-    "href": "/logos/foreman.png"
+    "href": "/logos/foreman.svg"
   },
   {
     "name": "MAAS",
@@ -999,7 +994,7 @@
     "name": "AWS CloudFormation",
     "organization": "Amazon Web Services",
     "homepage_url": "https://aws.amazon.com/cloudformation/",
-    "logo": "./src/hosted_logos/aws-cloudformation.png",
+    "logo": "./src/hosted_logos/aws-cloudformation.svg",
     "twitter": "https://twitter.com/awscloudformer",
     "crunchbase": "https://www.crunchbase.com/organization/amazon-web-services",
     "headquarters": "Seattle, Washington",
@@ -1031,14 +1026,14 @@
     "id": "aws-cloud-formation",
     "starsCategory": "N/A",
     "marketCapCategory": "over1000m",
-    "href": "/logos/aws-cloud-formation.png"
+    "href": "/logos/aws-cloud-formation.svg"
   },
   {
     "name": "BOSH",
     "organization": "Cloud Foundry",
     "homepage_url": "https://bosh.io/",
     "repo_url": "https://github.com/cloudfoundry/bosh",
-    "logo": "https://cloudfoundry.org/wp-content/uploads/2012/02/CFF-BOSH-Full-Color.png",
+    "logo": "./src/hosted_logos/cloudfoundry-bosh.svg",
     "twitter": "https://twitter.com/cloudfoundry",
     "crunchbase": "https://www.crunchbase.com/organization/cloud-foundry",
     "headquarters": "San Mateo, California",
@@ -1071,7 +1066,7 @@
     "id": "bosh",
     "starsCategory": "1000to10000",
     "marketCapCategory": "N/A",
-    "href": "/logos/bosh.png"
+    "href": "/logos/bosh.svg"
   },
   {
     "name": "Cloud Coreo",
@@ -1398,14 +1393,13 @@
     "name": "Amazon Elastic Container Registry (ECR)",
     "organization": "Amazon Web Services",
     "homepage_url": "https://aws.amazon.com/ecr/",
-    "logo": "./src/hosted_logos/aws-ecr.png",
+    "logo": "./src/hosted_logos/aws-ecr.svg",
     "twitter": "https://twitter.com/awscloud",
     "crunchbase": "https://www.crunchbase.com/organization/amazon-web-services",
     "headquarters": "Seattle, Washington",
     "description": "Amazon Web Services provides information technology infrastructure services to businesses in the form of web services.",
     "stars": "N/A",
     "license": "NotOpenSource",
-    "low_res": "449x553",
     "cncfMember": true,
     "cncfRelation": "member",
     "crunchbaseData": {
@@ -1431,7 +1425,7 @@
     "id": "amazon-elastic-container-registry-ecr",
     "starsCategory": "N/A",
     "marketCapCategory": "over1000m",
-    "href": "/logos/amazon-elastic-container-registry-ecr.png"
+    "href": "/logos/amazon-elastic-container-registry-ecr.svg"
   },
   {
     "name": "Artifactory",
@@ -2205,13 +2199,12 @@
     "organization": "Square",
     "homepage_url": "https://square.github.io/keywhiz/",
     "repo_url": "https://github.com/square/keywhiz",
-    "logo": "./src/hosted_logos/square-keywhiz.png",
+    "logo": "./src/hosted_logos/square-keywhiz.svg",
     "crunchbase": "https://www.crunchbase.com/organization/square",
     "headquarters": "San Francisco, California",
     "description": "Square is a merchant services aggregator and mobile payment company that aims to simplify commerce through technology.",
     "stars": 1869,
     "license": "Apache-2.0",
-    "low_res": "400x400",
     "cncfMember": false,
     "cncfRelation": false,
     "firstCommitDate": "2015-03-27T00:13:45Z",
@@ -2241,19 +2234,18 @@
     "id": "keywhiz",
     "starsCategory": "1000to10000",
     "marketCapCategory": "over1000m",
-    "href": "/logos/keywhiz.png"
+    "href": "/logos/keywhiz.svg"
   },
   {
     "name": "Knox",
     "organization": "Pinterest",
     "repo_url": "https://github.com/pinterest/knox",
-    "logo": "./src/hosted_logos/pinterest-knox.png",
+    "logo": "./src/hosted_logos/pinterest-knox.svg",
     "crunchbase": "https://www.crunchbase.com/organization/pinterest",
     "headquarters": "San Francisco, California",
     "description": "Pinterest is a visual bookmarking tool for saving and discovering creative ideas.",
     "stars": 552,
     "license": "Apache-2.0",
-    "low_res": "300x395",
     "cncfMember": true,
     "cncfRelation": "member",
     "firstCommitDate": "2016-05-03T19:57:33Z",
@@ -2282,20 +2274,19 @@
     "id": "knox",
     "starsCategory": "100to1000",
     "marketCapCategory": "over1000m",
-    "href": "/logos/knox.png"
+    "href": "/logos/knox.svg"
   },
   {
     "name": "Lyft Confidant",
     "organization": "Lyft",
     "homepage_url": "https://lyft.github.io/confidant/",
     "repo_url": "https://github.com/lyft/confidant",
-    "logo": "./src/hosted_logos/lyft-confidant.png",
+    "logo": "./src/hosted_logos/lyft-confidant.svg",
     "crunchbase": "https://www.crunchbase.com/organization/lyft",
     "headquarters": "San Francisco, California",
     "description": "Lyft is an on-demand transportation service in the US.",
     "stars": 1242,
     "license": "Apache-2.0",
-    "low_res": "328x243",
     "cncfMember": false,
     "cncfRelation": false,
     "firstCommitDate": "2015-10-08T21:57:42Z",
@@ -2324,7 +2315,7 @@
     "id": "lyft-confidant",
     "starsCategory": "1000to10000",
     "marketCapCategory": "over1000m",
-    "href": "/logos/lyft-confidant.png"
+    "href": "/logos/lyft-confidant.svg"
   },
   {
     "name": "Oracle Policy Automation",
@@ -4262,14 +4253,13 @@
     "organization": "OpenContrail",
     "homepage_url": "http://www.opencontrail.org/",
     "repo_url": "https://github.com/Juniper/contrail-controller",
-    "logo": "./src/hosted_logos/open-contrail.png",
+    "logo": "./src/hosted_logos/opencontrail.svg",
     "twitter": "https://twitter.com/OpenContrail",
     "crunchbase": "https://www.crunchbase.com/organization/opencontrail",
     "headquarters": "Sunnyvale, California",
     "description": "OpenContrail is a community-led open source project committed to innovation in SDN and Network Virtualization.",
     "stars": 340,
     "license": "Apache-2.0",
-    "low_res": "578x284",
     "cncfMember": false,
     "cncfRelation": false,
     "firstCommitDate": "2013-08-24T18:40:35Z",
@@ -4296,7 +4286,7 @@
     "id": "open-contrail",
     "starsCategory": "100to1000",
     "marketCapCategory": "N/A",
-    "href": "/logos/open-contrail.png"
+    "href": "/logos/open-contrail.svg"
   },
   {
     "name": "Plumgrid",
@@ -4451,14 +4441,13 @@
     "organization": "Weaveworks",
     "homepage_url": "https://www.weave.works/oss/net/",
     "repo_url": "https://github.com/weaveworks/weave",
-    "logo": "./src/hosted_logos/weave-net.png",
+    "logo": "./src/hosted_logos/weave-net.svg",
     "twitter": "https://twitter.com/weaveworks",
     "crunchbase": "https://www.crunchbase.com/organization/weaveworks",
     "headquarters": "London, United Kingdom",
     "description": "Weaveworks provides a simple and consistent way to connect and manage containers and microservices",
     "stars": 4941,
     "license": "Apache-2.0",
-    "low_res": "398x386",
     "cncfMember": true,
     "cncfRelation": "member",
     "firstCommitDate": "2014-08-18T16:55:26Z",
@@ -4487,7 +4476,7 @@
     "id": "weave-net",
     "starsCategory": "1000to10000",
     "marketCapCategory": "10mto100m",
-    "href": "/logos/weave-net.png"
+    "href": "/logos/weave-net.svg"
   },
   {
     "name": "Amazon Elastic Container Service (ECS)",
@@ -4495,12 +4484,11 @@
     "homepage_url": "https://aws.amazon.com/ecs/",
     "twitter": "https://twitter.com/awscloud",
     "crunchbase": "https://www.crunchbase.com/organization/amazon-web-services",
-    "logo": "./src/hosted_logos/aws-ecs.png",
+    "logo": "./src/hosted_logos/aws-ecs.svg",
     "headquarters": "Seattle, Washington",
     "description": "Amazon Web Services provides information technology infrastructure services to businesses in the form of web services.",
     "stars": "N/A",
     "license": "NotOpenSource",
-    "low_res": "447x531",
     "cncfMember": true,
     "cncfRelation": "member",
     "crunchbaseData": {
@@ -4526,7 +4514,7 @@
     "id": "amazon-elastic-container-service-ecs",
     "starsCategory": "N/A",
     "marketCapCategory": "over1000m",
-    "href": "/logos/amazon-elastic-container-service-ecs.png"
+    "href": "/logos/amazon-elastic-container-service-ecs.svg"
   },
   {
     "name": "Docker Swarm",
@@ -4908,13 +4896,12 @@
     "organization": "Netflix",
     "homepage_url": "https://github.com/Netflix/eureka",
     "repo_url": "https://github.com/Netflix/eureka",
-    "logo": "./src/hosted_logos/netflix-eureka.png",
+    "logo": "./src/hosted_logos/netflix-eureka.svg",
     "crunchbase": "https://www.crunchbase.com/organization/netflix",
     "headquarters": "Los Gatos, California",
     "description": "Netflix is an online platform that enables users to watch TV shows and movies on smart TVs, PCs, Macs, mobiles, tablets, and so on. ",
     "stars": 4777,
     "license": "Apache-2.0",
-    "low_res": "325x164",
     "cncfMember": false,
     "cncfRelation": false,
     "firstCommitDate": "2001-01-03T18:11:32Z",
@@ -4944,7 +4931,7 @@
     "id": "eureka",
     "starsCategory": "1000to10000",
     "marketCapCategory": "over1000m",
-    "href": "/logos/eureka.png"
+    "href": "/logos/eureka.svg"
   },
   {
     "name": "Haret",
@@ -5024,13 +5011,12 @@
     "organization": "Airbnb",
     "homepage_url": "https://medium.com/airbnb-engineering/smartstack-service-discovery-in-the-cloud-4b8a080de619",
     "repo_url": "https://github.com/airbnb/synapse",
-    "logo": "./src/hosted_logos/smart-stack.png",
+    "logo": "./src/hosted_logos/smartstack.svg",
     "crunchbase": "https://www.crunchbase.com/organization/airbnb",
     "headquarters": "San Francisco, California",
     "description": "Airbnb is an online community marketplace for people to list, discover, and book accommodations around the world.",
     "stars": 1758,
     "license": "MIT",
-    "low_res": "322x390",
     "cncfMember": false,
     "cncfRelation": false,
     "firstCommitDate": "2012-11-09T03:00:57Z",
@@ -5059,7 +5045,7 @@
     "id": "smart-stack",
     "starsCategory": "1000to10000",
     "marketCapCategory": "over1000m",
-    "href": "/logos/smart-stack.png"
+    "href": "/logos/smart-stack.svg"
   },
   {
     "name": "Zookeeper",
@@ -5669,14 +5655,13 @@
     "organization": "Netflix",
     "homepage_url": "https://github.com/Netflix/ribbon",
     "repo_url": "https://github.com/Netflix/ribbon",
-    "logo": "./src/hosted_logos/netflix-ribbon.png",
+    "logo": "./src/hosted_logos/netflix-ribbon.svg",
     "twitter": "https://twitter.com/netflixoss",
     "crunchbase": "https://www.crunchbase.com/organization/netflix",
     "headquarters": "Los Gatos, California",
     "description": "Netflix is an online platform that enables users to watch TV shows and movies on smart TVs, PCs, Macs, mobiles, tablets, and so on. ",
     "stars": 1857,
     "license": "Apache-2.0",
-    "low_res": "321x168",
     "cncfMember": false,
     "cncfRelation": false,
     "firstCommitDate": "2012-03-18T08:07:52Z",
@@ -5706,7 +5691,7 @@
     "id": "ribbon",
     "starsCategory": "1000to10000",
     "marketCapCategory": "over1000m",
-    "href": "/logos/ribbon.png"
+    "href": "/logos/ribbon.svg"
   },
   {
     "name": "Traefik",
@@ -5791,14 +5776,13 @@
     "organization": "Vamp",
     "homepage_url": "https://vamp.io/",
     "repo_url": "https://github.com/magneticio/vamp",
-    "logo": "./src/hosted_logos/vamp.png",
+    "logo": "./src/hosted_logos/vamp.svg",
     "twitter": "https://twitter.com/vamp_io",
     "crunchbase": "https://www.crunchbase.com/organization/magnetic-io",
     "headquarters": "Amsterdam, The Netherlands",
     "description": "The canary test & release platform for containers",
     "stars": 572,
     "license": "Apache-2.0",
-    "low_res": "297x282",
     "cncfMember": false,
     "cncfRelation": false,
     "firstCommitDate": "2015-02-04T14:53:59Z",
@@ -5827,21 +5811,20 @@
     "id": "vamp",
     "starsCategory": "100to1000",
     "marketCapCategory": "below1m",
-    "href": "/logos/vamp.png"
+    "href": "/logos/vamp.svg"
   },
   {
     "name": "Weave Flux",
     "organization": "Weaveworks",
     "homepage_url": "https://www.weave.works/oss/flux/",
     "repo_url": "https://github.com/weaveworks/flux",
-    "logo": "./src/hosted_logos/weave-flux.png",
+    "logo": "./src/hosted_logos/weave-flux.svg",
     "twitter": "https://twitter.com/weaveworks",
     "crunchbase": "https://www.crunchbase.com/organization/weaveworks",
     "headquarters": "London, United Kingdom",
     "description": "Weaveworks provides a simple and consistent way to connect and manage containers and microservices",
     "stars": 342,
     "license": "Apache-2.0",
-    "low_res": "398x386",
     "cncfMember": true,
     "cncfRelation": "member",
     "firstCommitDate": "2016-07-07T10:55:14Z",
@@ -5870,7 +5853,7 @@
     "id": "weave-flux",
     "starsCategory": "100to1000",
     "marketCapCategory": "10mto100m",
-    "href": "/logos/weave-flux.png"
+    "href": "/logos/weave-flux.svg"
   },
   {
     "name": "Zuul",
@@ -5878,14 +5861,13 @@
     "homepage_url": "https://github.com/Netflix/zuul",
     "repo_url": "https://github.com/Netflix/zuul",
     "branch": "1.x",
-    "logo": "./src/hosted_logos/netflix-zuul.png",
+    "logo": "./src/hosted_logos/netflix-zuul.svg",
     "twitter": "https://twitter.com/netflixoss",
     "crunchbase": "https://www.crunchbase.com/organization/netflix",
     "headquarters": "Los Gatos, California",
     "description": "Netflix is an online platform that enables users to watch TV shows and movies on smart TVs, PCs, Macs, mobiles, tablets, and so on. ",
     "stars": 3814,
     "license": "Apache-2.0",
-    "low_res": "323x185",
     "cncfMember": false,
     "cncfRelation": false,
     "firstCommitDate": "2012-03-18T08:07:52Z",
@@ -5915,7 +5897,7 @@
     "id": "zuul",
     "starsCategory": "1000to10000",
     "marketCapCategory": "over1000m",
-    "href": "/logos/zuul.png"
+    "href": "/logos/zuul.svg"
   },
   {
     "name": "BigchainDB",
@@ -6176,14 +6158,13 @@
     "organization": "Metamarkets",
     "homepage_url": "http://druid.io/",
     "repo_url": "https://github.com/druid-io/druid",
-    "logo": "./src/hosted_logos/druid.png",
+    "logo": "./src/hosted_logos/druid.svg",
     "twitter": "https://twitter.com/druidio",
     "crunchbase": "https://www.crunchbase.com/organization/metamarkets",
     "headquarters": "San Francisco, California",
     "description": "Metamarkets offers an interactive analytics platform for buyers and sellers of programmatic advertising.",
     "stars": 6085,
     "license": "Apache-2.0",
-    "low_res": "400x232",
     "cncfMember": false,
     "cncfRelation": false,
     "firstCommitDate": "2012-10-23T19:08:07Z",
@@ -6212,7 +6193,7 @@
     "id": "druid",
     "starsCategory": "1000to10000",
     "marketCapCategory": "10mto100m",
-    "href": "/logos/druid.png"
+    "href": "/logos/druid.svg"
   },
   {
     "name": "Hadoop",
@@ -7075,14 +7056,13 @@
     "name": "Amazon Kinesis",
     "organization": "Amazon Web Services",
     "homepage_url": "https://aws.amazon.com/kinesis/",
-    "logo": "./src/hosted_logos/aws-kinesis.png",
+    "logo": "./src/hosted_logos/aws-kinesis.svg",
     "twitter": "https://twitter.com/awscloud",
     "crunchbase": "https://www.crunchbase.com/organization/amazon-web-services",
     "headquarters": "Seattle, Washington",
     "description": "Amazon Web Services provides information technology infrastructure services to businesses in the form of web services.",
     "stars": "N/A",
     "license": "NotOpenSource",
-    "low_res": "450x543",
     "cncfMember": true,
     "cncfRelation": "member",
     "crunchbaseData": {
@@ -7108,7 +7088,7 @@
     "id": "amazon-kinesis",
     "starsCategory": "N/A",
     "marketCapCategory": "over1000m",
-    "href": "/logos/amazon-kinesis.png"
+    "href": "/logos/amazon-kinesis.svg"
   },
   {
     "name": "Apache NiFi",
@@ -8928,12 +8908,11 @@
     "description": "Container Services Provides high-performance, scalable container application management services that enable lifecycle management of containerized applications with Docker and Kubernetes, multiple application deployment methods and continuous delivery capabilities, and support for microservices architecture.",
     "certified_kubernetes": "Platform",
     "homepage_url": "https://www.alibabacloud.com/product/container-service?spm=a3c0i.7911826.709257.dproducta4.1010a3feFbGgBW",
-    "logo": "https://seeklogo.com/images/A/alibaba-cloud-logo-898D58C1CE-seeklogo.com.png",
+    "logo": "./src/hosted_logos/alibaba-cloud.svg",
     "crunchbase": "https://www.crunchbase.com/organization/alibaba-cloud",
     "headquarters": "Hangzhou, China",
     "stars": "N/A",
     "license": "NotOpenSource",
-    "low_res": "300x148",
     "cncfMember": true,
     "cncfRelation": "member",
     "crunchbaseData": {
@@ -8959,7 +8938,7 @@
     "id": "alibaba-cloud-container-service",
     "starsCategory": "N/A",
     "marketCapCategory": "over1000m",
-    "href": "/logos/alibaba-cloud-container-service.png"
+    "href": "/logos/alibaba-cloud-container-service.svg"
   },
   {
     "name": "Apprenda Kismatic Enterprise Toolkit (KET)",
@@ -9281,7 +9260,7 @@
     "certified_kubernetes": "Platform",
     "homepage_url": "https://www.cloudfoundry.org/",
     "repo_url": "https://github.com/cloudfoundry-incubator/kubo-deployment",
-    "logo": "https://www.cloudfoundry.org/wp-content/uploads/2017/01/CFF_Logo_vertical_RGB.png",
+    "logo": "./src/hosted_logos/cloudfoundry.svg",
     "crunchbase": "https://www.crunchbase.com/organization/cloud-foundry",
     "headquarters": "San Mateo, California",
     "stars": 205,
@@ -9312,7 +9291,7 @@
     "id": "cloud-foundry-container-runtime",
     "starsCategory": "100to1000",
     "marketCapCategory": "N/A",
-    "href": "/logos/cloud-foundry-container-runtime.png"
+    "href": "/logos/cloud-foundry-container-runtime.svg"
   },
   {
     "name": "CoreOS bootkube",
@@ -9824,12 +9803,11 @@
     "description": "IBM® Cloud Container Service delivers powerful tools by combining Docker and Kubernetes technologies, an intuitive user experience, and built-in security and isolation to automate the deployment, operation, scaling, and monitoring of containerized apps in a cluster of compute hosts.",
     "certified_kubernetes": "Platform",
     "homepage_url": "https://console.bluemix.net/docs/containers/cs_ov.html#cs_ov",
-    "logo": "./src/hosted_logos/ibm-cloud.png",
+    "logo": "./src/hosted_logos/ibm-cloud.svg",
     "crunchbase": "https://www.crunchbase.com/organization/ibm-cloud",
     "headquarters": "New York, New York",
     "stars": "N/A",
     "license": "NotOpenSource",
-    "low_res": "439x253",
     "cncfMember": false,
     "cncfRelation": false,
     "crunchbaseData": {
@@ -9855,7 +9833,7 @@
     "id": "ibm-cloud-container-service",
     "starsCategory": "N/A",
     "marketCapCategory": "over1000m",
-    "href": "/logos/ibm-cloud-container-service.png"
+    "href": "/logos/ibm-cloud-container-service.svg"
   },
   {
     "name": "IBM Cloud Private",
@@ -9863,12 +9841,11 @@
     "description": "Build open, cloud-native apps with public services and run them anywhere — on public cloud or on your existing on-premises systems.",
     "certified_kubernetes": "Distribution",
     "homepage_url": "https://www.ibm.com/cloud-computing/products/ibm-cloud-private/",
-    "logo": "./src/hosted_logos/ibm-cloud.png",
+    "logo": "./src/hosted_logos/ibm-cloud.svg",
     "crunchbase": "https://www.crunchbase.com/organization/ibm-cloud",
     "headquarters": "New York, New York",
     "stars": "N/A",
     "license": "NotOpenSource",
-    "low_res": "439x253",
     "cncfMember": false,
     "cncfRelation": false,
     "crunchbaseData": {
@@ -9894,7 +9871,7 @@
     "id": "ibm-cloud-private",
     "starsCategory": "N/A",
     "marketCapCategory": "over1000m",
-    "href": "/logos/ibm-cloud-private.png"
+    "href": "/logos/ibm-cloud-private.svg"
   },
   {
     "name": "inwinSTACK kube-ansible",
@@ -10714,12 +10691,11 @@
     "certified_kubernetes": "Platform",
     "stock_ticker": "TCEHY",
     "homepage_url": "https://cloud.tencent.com/product/ccs?lang=en",
-    "logo": "https://www.cncf.io/wp-content/uploads/2017/05/logo_tencent-300x184.png",
+    "logo": "./src/hosted_logos/tencent-cloud.svg",
     "crunchbase": "https://www.crunchbase.com/organization/tencent",
     "headquarters": "Shenzhen, China",
     "stars": "N/A",
     "license": "NotOpenSource",
-    "low_res": "250x174",
     "cncfMember": false,
     "cncfRelation": false,
     "crunchbaseData": {
@@ -10745,7 +10721,7 @@
     "id": "tencent-cloud-container-service-ccs",
     "starsCategory": "N/A",
     "marketCapCategory": "over1000m",
-    "href": "/logos/tencent-cloud-container-service-ccs.png"
+    "href": "/logos/tencent-cloud-container-service-ccs.svg"
   },
   {
     "name": "TenxCloud Container Engine (TCE)",
@@ -12197,14 +12173,13 @@
     "organization": "Apex",
     "homepage_url": "http://apex.run",
     "repo_url": "https://github.com/apex/apex",
-    "logo": "./src/hosted_logos/apex.png",
+    "logo": "./src/hosted_logos/apex.svg",
     "twitter": "https://twitter.com/apexserverless",
     "crunchbase": "https://www.crunchbase.com/organization/apex-7f19",
     "headquarters": "N/A",
     "description": "Serverless/Event-based",
     "stars": 6670,
     "license": "MIT",
-    "low_res": "341x102",
     "cncfMember": false,
     "cncfRelation": false,
     "firstCommitDate": "2015-12-19T23:53:03Z",
@@ -12231,20 +12206,19 @@
     "id": "apex",
     "starsCategory": "1000to10000",
     "marketCapCategory": "N/A",
-    "href": "/logos/apex.png"
+    "href": "/logos/apex.svg"
   },
   {
     "name": "AWS Lambda",
     "organization": "Amazon Web Services",
     "homepage_url": "https://aws.amazon.com/lambda/",
-    "logo": "./src/hosted_logos/aws-lambda.png",
+    "logo": "./src/hosted_logos/aws-lambda.svg",
     "twitter": "https://twitter.com/awscloud",
     "crunchbase": "https://www.crunchbase.com/organization/amazon-web-services",
     "headquarters": "Seattle, Washington",
     "description": "Amazon Web Services provides information technology infrastructure services to businesses in the form of web services.",
     "stars": "N/A",
     "license": "NotOpenSource",
-    "low_res": "479x540",
     "cncfMember": true,
     "cncfRelation": "member",
     "crunchbaseData": {
@@ -12270,7 +12244,7 @@
     "id": "aws-lambda",
     "starsCategory": "N/A",
     "marketCapCategory": "over1000m",
-    "href": "/logos/aws-lambda.png"
+    "href": "/logos/aws-lambda.svg"
   },
   {
     "name": "Azure Functions",
@@ -12825,14 +12799,13 @@
     "name": "Amazon CloudWatch",
     "organization": "Amazon Web Services",
     "homepage_url": "https://aws.amazon.com/cloudwatch/",
-    "logo": "./src/hosted_logos/aws-cloudwatch.png",
+    "logo": "./src/hosted_logos/aws-cloudwatch.svg",
     "twitter": "https://twitter.com/awscloud",
     "crunchbase": "https://www.crunchbase.com/organization/amazon-web-services",
     "headquarters": "Seattle, Washington",
     "description": "Amazon Web Services provides information technology infrastructure services to businesses in the form of web services.",
     "stars": "N/A",
     "license": "NotOpenSource",
-    "low_res": "502x537",
     "cncfMember": true,
     "cncfRelation": "member",
     "crunchbaseData": {
@@ -12858,7 +12831,7 @@
     "id": "amazon-cloud-watch",
     "starsCategory": "N/A",
     "marketCapCategory": "over1000m",
-    "href": "/logos/amazon-cloud-watch.png"
+    "href": "/logos/amazon-cloud-watch.svg"
   },
   {
     "name": "AppDynamics",
@@ -13673,7 +13646,7 @@
     "name": "New Relic",
     "organization": "New Relic",
     "homepage_url": "https://newrelic.com/",
-    "logo": "./src/hosted_logos/new-relic.png",
+    "logo": "./src/hosted_logos/newrelic.svg",
     "twitter": "https://twitter.com/NewRelic",
     "crunchbase": "https://www.crunchbase.com/organization/new-relic",
     "headquarters": "San Francisco, California",
@@ -13705,7 +13678,7 @@
     "id": "new-relic",
     "starsCategory": "N/A",
     "marketCapCategory": "over1000m",
-    "href": "/logos/new-relic.png"
+    "href": "/logos/new-relic.svg"
   },
   {
     "name": "NodeSource",
@@ -13934,14 +13907,13 @@
     "name": "Rocana",
     "organization": "Rocana",
     "homepage_url": "https://www.rocana.com/",
-    "logo": "./src/hosted_logos/rocana.png",
+    "logo": "./src/hosted_logos/rocana.svg",
     "twitter": "https://twitter.com/rocanainc",
     "crunchbase": "https://www.crunchbase.com/organization/rocana",
     "headquarters": "San Francisco, California",
     "description": "Rocana is a San Francisco, CA-based provider of root cause analysis software company",
     "stars": "N/A",
     "license": "NotOpenSource",
-    "low_res": "402x401",
     "cncfMember": false,
     "cncfRelation": false,
     "crunchbaseData": {
@@ -13966,7 +13938,7 @@
     "id": "rocana",
     "starsCategory": "N/A",
     "marketCapCategory": "10mto100m",
-    "href": "/logos/rocana.png"
+    "href": "/logos/rocana.svg"
   },
   {
     "name": "Sensu",
@@ -14329,14 +14301,13 @@
     "name": "Weave Cloud",
     "organization": "Weaveworks",
     "homepage_url": "https://www.weave.works/product/cloud/",
-    "logo": "./src/hosted_logos/weave-cloud.png",
+    "logo": "./src/hosted_logos/weave-cloud.svg",
     "twitter": "https://twitter.com/weaveworks",
     "crunchbase": "https://www.crunchbase.com/organization/weaveworks",
     "headquarters": "London, United Kingdom",
     "description": "Weaveworks provides a simple and consistent way to connect and manage containers and microservices",
     "stars": "N/A",
     "license": "NotOpenSource",
-    "low_res": "398x386",
     "cncfMember": true,
     "cncfRelation": "member",
     "crunchbaseData": {
@@ -14361,21 +14332,20 @@
     "id": "weave-cloud",
     "starsCategory": "N/A",
     "marketCapCategory": "10mto100m",
-    "href": "/logos/weave-cloud.png"
+    "href": "/logos/weave-cloud.svg"
   },
   {
     "name": "Weave Scope",
     "organization": "Weaveworks",
     "homepage_url": "https://www.weave.works/oss/scope/",
     "repo_url": "https://github.com/weaveworks/scope",
-    "logo": "./src/hosted_logos/weave-scope.png",
+    "logo": "./src/hosted_logos/weave-scope.svg",
     "twitter": "https://twitter.com/weaveworks",
     "crunchbase": "https://www.crunchbase.com/organization/weaveworks",
     "headquarters": "London, United Kingdom",
     "description": "Weaveworks provides a simple and consistent way to connect and manage containers and microservices",
     "stars": 2188,
     "license": "Apache-2.0",
-    "low_res": "400x400",
     "cncfMember": true,
     "cncfRelation": "member",
     "firstCommitDate": "2015-05-19T10:02:02Z",
@@ -14404,7 +14374,7 @@
     "id": "weave-scope",
     "starsCategory": "1000to10000",
     "marketCapCategory": "10mto100m",
-    "href": "/logos/weave-scope.png"
+    "href": "/logos/weave-scope.svg"
   },
   {
     "name": "Zabbix",
@@ -14804,7 +14774,7 @@
     "organization": "Sourcegraph",
     "homepage_url": "https://github.com/sourcegraph/appdash",
     "repo_url": "https://github.com/sourcegraph/appdash",
-    "logo": "./src/hosted_logos/appdash.png",
+    "logo": "./src/hosted_logos/appdash.svg",
     "headquarters": "N/A",
     "description": "Application tracing system for Go, based on Google's Dapper.",
     "stars": 1227,
@@ -14826,7 +14796,7 @@
     "id": "appdash",
     "starsCategory": "1000to10000",
     "marketCapCategory": "N/A",
-    "href": "/logos/appdash.png"
+    "href": "/logos/appdash.svg"
   },
   {
     "name": "Jaeger",
@@ -15563,12 +15533,11 @@
     "organization": "IBM Cloud",
     "description": "The IBM Bluemix Container Service combines Docker and Kubernetes to deliver powerful tools, an intuitive user experiences, and built-in security and isolation to enable rapid delivery of applications all while leveraging Cloud Services including cognitive capabilities from Watson.",
     "homepage_url": "https://www.ibm.com/cloud-computing/bluemix/containers",
-    "logo": "./src/hosted_logos/ibm-cloud.png",
+    "logo": "./src/hosted_logos/ibm-cloud.svg",
     "crunchbase": "https://www.crunchbase.com/organization/ibm-cloud",
     "headquarters": "New York, New York",
     "stars": "N/A",
     "license": "NotOpenSource",
-    "low_res": "439x253",
     "cncfMember": false,
     "cncfRelation": false,
     "crunchbaseData": {
@@ -15594,7 +15563,7 @@
     "id": "ibm-cloud-kcsp",
     "starsCategory": "N/A",
     "marketCapCategory": "over1000m",
-    "href": "/logos/ibm-cloud-kcsp.png"
+    "href": "/logos/ibm-cloud-kcsp.svg"
   },
   {
     "name": "inwinSTACK",
