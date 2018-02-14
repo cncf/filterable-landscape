@@ -50,7 +50,7 @@ export async function extractSavedCrunchbaseEntries() {
       return;
     }
     if (node.crunchbase && node.crunchbase_data) {
-      organizations.push({...node.crunchbase_data, url: node.crunchbase});
+      organizations.push({...node.crunchbase_data, ...node.yahoo_finance_data, url: node.crunchbase});
     }
   });
 
@@ -82,10 +82,12 @@ async function getParentCompanies(companyInfo) {
     return [parentInfo].concat(await getParentCompanies(cbInfo));
   }
 }
+const marketCapCache = {};
 async function getMarketCap(ticker) {
   // console.info(ticker, stock_exchange);
   debug(`Extracting the ticker from ${ticker}`);
-  const quote =  await yahooFinance.quote({symbol: ticker, modules: ['summaryDetail']})
+  const quote = marketCapCache[ticker] ||  await yahooFinance.quote({symbol: ticker, modules: ['summaryDetail']});
+  marketCapCache[ticker] = quote;
   return quote.summaryDetail.marketCap;
 }
 
@@ -138,13 +140,9 @@ export async function fetchCrunchbaseEntries({cache, preferCache}) {
       var firstWithTicker = _.find( meAndParents, (org) => !!org.properties.stock_symbol );
       var firstWithFunding = _.find( meAndParents, (org) => !!org.properties.total_funding_usd );
       if (firstWithTicker || c.ticker) {
-        entry.ticker = firstWithTicker.properties.stock_symbol;
+        entry.ticker = firstWithTicker ? firstWithTicker.properties.stock_symbol : undefined;
         entry.effective_ticker = c.ticker || entry.ticker;
-        try {
-          entry.market_cap = await getMarketCap(entry.effective_ticker, cbInfo.stock_exchange);
-        } catch(ex) {
-          console.info('can not fetch market cap for the ', cbInfo.name, entry.effective_ticker);
-        }
+        entry.market_cap = await getMarketCap(entry.effective_ticker, cbInfo.stock_exchange);
         entry.kind = 'market_cap';
         // console.info(cbInfo.name, 'ticker: ', entry.ticker, ' market cap: ', entry.funding);
       } else if (firstWithFunding) {

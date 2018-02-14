@@ -9,7 +9,7 @@ import { fetchCrunchbaseEntries, extractSavedCrunchbaseEntries } from './crunchb
 import { fetchGithubEntries, extractSavedGithubEntries } from './fetchGithubStats';
 import { fetchStartDateEntries, extractSavedStartDateEntries } from './fetchGithubStartDate';
 
-var useCrunchbaseCache = true;
+var useCrunchbaseCache = false;
 var useImagesCache=true;
 var useGithubCache=true;
 var useGithubStartDatesCache=true;
@@ -87,9 +87,11 @@ async function main() {
   });
   removeNonReferencedImages(imageEntries);
 
+  console.info('Fetching yaml members');
   const cncfMembers = require('js-yaml').safeLoad(require('fs').readFileSync('src/cncf_members.yml'));
 
   const tree = traverse(source);
+  console.info('Processing the tree');
   const newSource = tree.map(function(node) {
     if (node && node.item === null) {
       //crunchbase
@@ -102,13 +104,15 @@ async function main() {
       var githubEntry = _.clone(_.find(githubEntries, {url: node.repo_url}));
       if (githubEntry) {
         node.github_data = githubEntry;
-        delete node.github_data.url
+        delete node.github_data.url;
+        delete node.github_data.branch;
       }
       //github start dates
       var dateEntry = _.clone(_.find(startDateEntries, {url: node.repo_url}));
       if (dateEntry) {
         node.github_start_commit_data = dateEntry;
-        delete node.github_start_commit_data.url
+        delete node.github_start_commit_data.url;
+        delete node.github_start_commit_data.branch;
       }
       //cncf membership
       node.cncf_membership_data = {
