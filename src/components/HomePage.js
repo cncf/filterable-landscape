@@ -1,8 +1,7 @@
 import React from 'react';
-import Drawer from 'material-ui/Drawer';
-import Hidden from 'material-ui/Hidden';
-import Button from 'material-ui/Button';
-
+import IconButton from 'material-ui/IconButton';
+import Icon from 'material-ui/Icon';
+import classNames from 'classnames'
 import Filters from './Filters';
 import Grouping from './Grouping';
 import Sorting from './Sorting';
@@ -15,7 +14,6 @@ import HeaderContainer from './HeaderContainer';
 import Footer from './Footer';
 
 
-
 const HomePage = ({ready, filtersVisible, hideFilters, showFilters}) => {
   if (!ready) {
     return (
@@ -25,55 +23,39 @@ const HomePage = ({ready, filtersVisible, hideFilters, showFilters}) => {
     )
   }
 
-  const filters=(
-    <div>
-      <div className="cncf_landscape" />
-      <ResetFiltersContainer />
-      <Grouping/>
-      <Sorting/>
-      <div style={{width: 200, height: 30}}/>
-      <Filters />
-      <Presets />
-    </div>
-  );
-
   return (
-    <div >
-      <Hidden smDown implementation="css">
-        <Drawer
-          variant="permanent"
-          open={filtersVisible}
-        >
-          <div className="sidebar">
-            <div className="content-sidebar-mobile">
-              <div className="cncf_landscape_mobile" />
-              <Button onClick={hideFilters}>Hide</Button>
-              {filters}
-            </div>
-          </div>
-        </Drawer>
-      </Hidden>
+    <div className={classNames('app',{'filters-opened' : filtersVisible})}>
+
+      <HeaderContainer/>
+      <IconButton className="sidebar-show" onClick={showFilters}><Icon>menu</Icon></IconButton>
+
+      <div className="sidebar">
+        <IconButton className="sidebar-collapse" onClick={hideFilters}><Icon>close</Icon></IconButton>
+        <ResetFiltersContainer />
+        <Grouping/>
+        <Sorting/>
+        <Filters />
+        <Presets />
+      </div>
+
+      <div className="app-overlay" onClick={hideFilters}></div>
 
       <HomePageUrlContainer />
       <ItemDialogContainer />
 
-      <div className="columns">
-        <div className="content">
-          <HeaderContainer/>
-          <Button onClick={showFilters}>Show</Button>
-          <Hidden smDown implementation="css">
-            <div className="disclaimer">
-              <strong>CNCF Cloud Native Interactive Landscape</strong>
-              <br/>
-              This is the interactive counterpart to CNCF's Cloud Native <a href="https://github.com/cncf/landscape#current-version">Landscape</a>.
-              Please <a href="https://github.com/cncf/filterable-landscape/issues/new/">report</a> any issues or,
-              even better, open a pull request.
-            </div>
-          </Hidden>
-          <MainContentContainer/>
-          <Footer/>
+      <div className="main">
+        <div className="disclaimer">
+          <strong>CNCF Cloud Native Interactive Landscape</strong>
+          <br/>
+          This is the interactive counterpart to CNCF's Cloud Native <a href="https://github.com/cncf/landscape#current-version">Landscape</a>.
+          Please <a href="https://github.com/cncf/filterable-landscape/issues/new/">report</a> any issues or,
+          even better, open a pull request.
         </div>
+
+        <MainContentContainer/>
+        <Footer/>
       </div>
+
 
     </div>
   );

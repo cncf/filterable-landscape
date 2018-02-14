@@ -1,12 +1,12 @@
 body{
-  background-color:#F4F4f4 !important;
+  background-color: #F4F4f4 !important;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .wrapper{
   overflow:hidden;
   font-family: "Roboto", "Helvetica", "Arial", sans-serif;
-  padding-left:20px;
+  padding-left: 20px;
 }
 
 .content-wrapper {
@@ -20,47 +20,59 @@ body{
 
 .sh_wrapper{
   position: relative;
-  margin: 7px;
   font-size: 1em;
   background-color: #e8e8e8;
   border-radius: 10px;
-  width:98%;
-  div{
-    font-size:0.8em !important;
-  }
+  margin: 0.5rem 5px;
+  div{font-size:0.8em !important;}
 
 }
 
-.disclaimer{
-  padding:0 0 10px 10px;
-  color: #9b9b9b;
-  font-size:0.8em;
-  a{
-    color:#366fa8;
+.disclaimer {margin: -60px 5px 5px; margin-bottom: 1rem; color: #9b9b9b; font-size: 0.8em; padding-right: 220px;
+  a {color: #366fa8;}
+  @media (max-width: 767px) {padding-right: 0;}
+}
+
+.header_container {z-index: 2; height: 70px;
+  .header {padding: 20px;
+    .landscape-logo {position: fixed; top: 0; left: 0;  padding: 20px; width: 215px; height: 70px; z-index: 2;
+       background: #f4f4f4 url(./assets/cncf-landscape.png) 20px 20px no-repeat; background-size: 126px 30px;
+       transform: none; transition: all 0.3s;
+       @media (max-width: 767px) {width: 100%; padding-left: 60px; background-position: 60px 20px;
+            .filters-opened & {transform: translate(215px, 0);}
+       }
+    }
+    .cncf-logo{display: block; width: 200px; height: 30px; position: absolute; top: 20px; right: 20px;
+      background: url(./assets/cncf.png) 50% 50% no-repeat; background-size: 90%;
+      @media (max-width: 767px) {display: none;}
+    }
+    .info {margin-top: -32px; padding-left: 20px; height: auto;}
+  }
+
+  .title{
+    display:flex;
+    flex-direction: column;
+    font-size:1.3em;
+    color: #6d7e90 !important;
+    align-items: flex-end;
+    padding: 10px 0 0 20px;
+    a {color:#949494;}
+    p {color: #CCC; font-size: 0.6em; margin: 3px 0;}
+
   }
 }
 
-
-.sidebar{
-  legend{
-    font-size:0.7em !important;
+.sidebar {width: 215px; position: fixed; top: 70px; left: 0; bottom: 0; overflow: auto; padding: 12px 20px;
+  .sidebar-collapse {position: absolute; top: 11px; right: 11px; display: none; z-index: 3;}
+  @media (max-width: 767px) {transform: translate(-215px, 0); transition: 0.3s; top: 0; z-index: 5; background: #fff;
+    .sidebar-collapse {display: block;}
+    .filters-opened & {transform: none;}
   }
-  fieldset{
-    margin-top:5px;
-  }
-
-  .content-sidebar {
-    flex: 150px 0 0;
-    padding: 13px 0 0 20px;
-  }
-
-  .content-sidebar-mobile {
-    flex: 150px 0 0;
-    padding: 13px 0 0 20px;
-  }
-
+  legend {font-size: 0.7em !important;}
+  fieldset {margin-top:5px;}
+  .content-sidebar {flex: 150px 0 0; padding: 13px 0 0 20px;}
   &-presets {
-    margin: 3rem 0; font-size: 0.6em; width: 160px;
+    margin: 3rem -10px; font-size: 0.8rem; width: 160px;
     h4 { padding: 0px 10px;}
     div {margin-bottom: 0.5em;}
     a {text-decoration: none; color: rgb(54, 111, 168); display: block; padding: 5px 10px;
@@ -68,42 +80,29 @@ body{
       &:hover, &.active {background: rgba(0,0,0,0.05);}
       }
   }
-
 }
 
-.columns{
-  display:flex;
+.app {
+    .sidebar-show {display: none;}
+    @media (max-width: 767px) {
+        .sidebar-show {display: block; position: fixed; top: 11px; left: 11px; z-index: 3; transition: all 0.3s; transform: none;
+        }
+    }
+    &.filters-opened .sidebar-show {transform: translate(215px, 0);}
+}
 
-  .sidebar{
-    width:200px;
+.app-overlay {opacity: 0; position: fixed; top: 0; left: 0; bottom: 0; width: 100%; background: #000; margin-left: -100%;
+  transition: opacity 0.3s, margin 0s; transition-delay: 0s, 0.3s; z-index: 4;
+}
+.filters-opened {overflow: hidden;
+  .app-overlay {margin: 0; opacity: 0.4; transition-delay: 0s, 0s;}
+}
+
+.main {margin-left: 215px; padding: 10px;
+  @media (max-width: 767px) {margin-left: 0; position: relative; transform: none; transition: all 0.3s; padding-top: 70px;
+    .filters-opened & {transform: translate(215px, 0);}
   }
-  .column-content{
-    width: 100%;
-    //display: flex;
-    //flex-flow: row wrap;
-    //justify-content: space-around;
-  }
-
-
 }
-
-.columns .content{
-
-}
-
-
-.cncf_landscape{
-  background-position: left center;
-  background-repeat: no-repeat;
-  background-size: 70%;
-  height: 50px;
-  padding:10px 0;
-  background-image: url(./assets/cncf-landscape.png);
-  min-width: 150px;
-}
-
-
-
 
 /* grid */
 .row {margin-left: -20px; margin-right: -20px; display: flex;}
@@ -132,61 +131,27 @@ body{
 
 }
 
-@media (min-width: 250px) { // =< 800
-  .mosaic{
-    min-width: 96%;
+.mosaic {
+  &-wrap {padding: 5px; display: inline-block; width: 200px;
+    @media (min-width: 250px) {width: 100%;}
+    @media (min-width: 400px) {width: 50%;}
+    @media (min-width: 600px) {width: 33.3333%;}
+    @media (min-width: 768px) {width: 50%;}
+    @media (min-width: 900px) {width: 33.3333%;}
+    @media (min-width: 1024px) {width: 25%;}
+    @media (min-width: 1270px) {width: 20%;}
+    @media (min-width: 1500px) {width: 16.666%;}
   }
-}
-
-@media (min-width: 670px) { // =< 800
-  .mosaic{
-    min-width: 47%;
-  }
-}
-@media (min-width: 900px) { // =< 900
-  .mosaic{
-    min-width: 31.5%;
-  }
-}
-
-@media (min-width: 1150px) { // 900
-  .mosaic{
-    min-width: 23.5%;
-  }
-}
-
-@media (min-width: 1270px) { // 900
-  .mosaic{
-    width:200px;
-    min-width: 200px;
-  }
-}
-
-
-
-
-.mosaic{
+  height: 200px;
   cursor: pointer;
   position: relative;
-  display: inline-block;
-  width: 200px;
-  height: 200px;
-  margin: 4px 6px;
   border-radius:2px;
   box-shadow: 1px 1px 3px #d6d6d6;
   border: 1px solid #FFFFFF;
 
-
-
-  &.inception{
-    border: 4px solid #d1f7ff;
-  }
-  &.incubating{
-    border: 4px solid #00cbff;
-  }
-  &.graduated{
-    border: 4px solid #3570a8;
-  }
+  &.inception {border: 4px solid #d1f7ff;}
+  &.incubating {border: 4px solid #00cbff;}
+  &.graduated {border: 4px solid #3570a8;}
 
   .logo_wrapper{
     padding:10px;
@@ -226,73 +191,3 @@ body{
   &-funding {white-space: nowrap;}
 }
 
-
-.header_container{
-  display:flex;
-  align-items: center;
-  left: 0;
-  width:100%;
-
-  .header{
-    flex:1;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    padding: 25px 0 15px 0;
-
-      div{
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-size: 90%;
-        height: 30px;
-        padding:10px 0;
-
-        &.cncf_logo{
-          background-image: url(./assets/cncf.png);
-          min-width: 200px;
-
-        }
-
-        &.info {
-          margin-top: -32px;
-          padding-left: 20px;
-          height: auto;
-
-        }
-
-      }
-
-
-
-  }
-
-  .title{
-    display:flex;
-    flex-direction: column;
-    font-size:1.3em;
-    color: #6d7e90 !important;
-    align-items: flex-end;
-    padding: 10px 0 0 20px;
-
-    a{
-      color:#949494;
-    }
-
-    p{
-      color:#CCC;
-      font-size:0.6em;
-      margin:3px 0;
-    }
-
-  }
-}
-
-@media (max-width: 300px) {
-  .header_container {
-    justify-content: flex-start;
-    align-items: flex-start;
-    position: fixed;
-    left: 0;
-    top: 0;
-  }
-}
