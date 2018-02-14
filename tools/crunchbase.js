@@ -3,6 +3,7 @@ import process from 'process'
 import rp from 'request-promise'
 import Promise from 'bluebird'
 import _ from 'lodash';
+const debug = require('debug')('cb');
 const key = process.env.CRUNCHBASE_KEY;
 if (!key) {
   console.info('key not provided');
@@ -21,17 +22,14 @@ export async function getCrunchbaseOrganizationsList() {
       return;
     }
     if (!node.crunchbase) {
-      // console.info('No cb for', node.name);
       return;
     }
-    // console.info('Adding: ', node.crunchbase);
     organizations.push({
       name: node.crunchbase.split('/').slice(-1)[0],
       crunchbase: node.crunchbase,
       ticker: node.stock_ticker
     });
   });
-  // console.info(_.find(_.uniq(organizations), {name: 'foreman'}));
   return _.uniq(organizations);
 }
 
@@ -41,6 +39,7 @@ export async function extractSavedCrunchbaseEntries() {
   try {
     source =  require('js-yaml').safeLoad(require('fs').readFileSync('processed_landscape.yml'));
   } catch(_ex) {
+    console.info(_ex.message.substring(0,100));
     console.info('Can not extract crunchbase entries from the processed_landscape.yml');
   }
 
@@ -85,6 +84,7 @@ async function getParentCompanies(companyInfo) {
 }
 async function getMarketCap(ticker) {
   // console.info(ticker, stock_exchange);
+  debug(`Extracting the ticker from ${ticker}`);
   const quote =  await yahooFinance.quote({symbol: ticker, modules: ['summaryDetail']})
   return quote.summaryDetail.marketCap;
 }
@@ -96,6 +96,7 @@ export async function fetchCrunchbaseEntries({cache, preferCache}) {
   return await Promise.map(organizations,async function(c) {
     const cachedEntry = _.find(cache, {url: c.crunchbase});
     if (cachedEntry && preferCache) {
+      debug(`returning a cached entry for ${cachedEntry.url}`);
       return cachedEntry;
     }
     await Promise.delay(1 * 1000);
@@ -136,7 +137,7 @@ export async function fetchCrunchbaseEntries({cache, preferCache}) {
       var meAndParents = [result.data.items[0]].concat(parents);
       var firstWithTicker = _.find( meAndParents, (org) => !!org.properties.stock_symbol );
       var firstWithFunding = _.find( meAndParents, (org) => !!org.properties.total_funding_usd );
-      if (firstWithTicker) {
+      if (firstWithTicker || c.ticker) {
         entry.ticker = firstWithTicker.properties.stock_symbol;
         entry.effective_ticker = c.ticker || entry.ticker;
         try {
@@ -156,14 +157,10 @@ export async function fetchCrunchbaseEntries({cache, preferCache}) {
       return entry;
       // console.info(entry);
     } catch (ex) {
+      debug(`normal request failed, so returning a cached entry for ${c.name}`);
       console.info(ex.message, ex.stack);
       console.info(c, ' - fail');
       return cachedEntry || null;
     }
   }, {concurrency: 5})
 }
-// async function main() {
-  // const organizations = await getCrunchbaseOrganizationsList();
-  // return await fetchCrunchbaseEntries(organizations.slice(0, 100));
-// }
-// main().catch(console.info);

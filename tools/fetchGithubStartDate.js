@@ -2,6 +2,7 @@ const Promise = require('bluebird');
 const traverse = require('traverse');
 import fs from 'fs';
 import _ from 'lodash';
+const debug = require('debug')('github');
 
 import { getRepoStartDate } from './githubDates';
 
@@ -20,7 +21,7 @@ export async function extractSavedStartDateEntries() {
       return;
     }
     if (node.github_start_commit_data) {
-      result.push({...node.github_start_commit_data, repo_url: node.repo_url});
+      result.push({...node.github_start_commit_data, url: node.repo_url, branch: node.branch || 'master'});
     }
   });
   return result;
@@ -56,10 +57,12 @@ async function getGithubRepos() {
 export async function fetchStartDateEntries({cache, preferCache}) {
   const repos = await getGithubRepos();
   return await Promise.map(repos, async function(repo) {
-    const cachedEntry = _.find(cache, {url: repo.repo_url});
+    const cachedEntry = _.find(cache, {url: repo.url, branch: repo.branch});
     if (cachedEntry && preferCache) {
+      debug(`Cache found for ${repo.url}`);
       return cachedEntry;
     }
+    debug(`Cache not found for ${repo.url}`);
     await Promise.delay(1 * 1000);
     const url = repo.url;
     const branch  = repo.branch;
@@ -70,8 +73,9 @@ export async function fetchStartDateEntries({cache, preferCache}) {
     const repoName = url.split('/').slice(3,5).join('/');
     try {
       const { date, commitLink } = await getRepoStartDate({repo: repoName, branch});
-      return ({url: repo.repo_url, start_commit_link: commitLink, start_date: date});
+      return ({url: repo.url, start_commit_link: commitLink, start_date: date});
     } catch (ex) {
+      debug(`Fetch failed for ${repo.url}, attempt to use a cached entry`);
       console.info ('can not fetch dates for ', url);
       console.info(ex);
       return cachedEntry || null;

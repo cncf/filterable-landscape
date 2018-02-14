@@ -4,6 +4,7 @@ import Promise from 'bluebird';
 import saneName from '../src/utils/saneName';
 import fs from 'fs';
 import _ from 'lodash';
+const debug = require('debug')('images');
 
 // x3 because we may have retina display
 const size = {
@@ -72,8 +73,10 @@ export async function fetchImageEntries({cache, preferCache}) {
   return Promise.map(items, async function(item) {
     const cachedEntry = _.find(cache, {logo: item.logo});
     if (preferCache && cachedEntry && imageExist(cachedEntry)) {
+      debug(`Found cached entry for ${item.logo}`);
       return cachedEntry;
     }
+    debug(`Fetching data for ${item.logo}`);
     var url = item.logo;
     if (url && url.indexOf('http') !== 0 && url.indexOf('.') !== 0) {
       console.info(`adding a prefix for ${url}`);
@@ -130,6 +133,16 @@ export async function fetchImageEntries({cache, preferCache}) {
       }
     }
   }, {concurrency: 10});
+}
+
+export function removeNonReferencedImages(imageEntries) {
+  const existingFiles = fs.readdirSync('./src/logos');
+  const allowedFiles = imageEntries.filter( (e) => !!e).map( (e) => e.fileName );
+  _.each(existingFiles, function(existingFile) {
+    if (allowedFiles.indexOf(existingFile) === -1){
+      fs.unlinkSync('./src/logos/' + existingFile);
+    }
+  })
 }
 
 async function normalizeImage({inputFile, outputFile, item}) {

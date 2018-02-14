@@ -2,8 +2,9 @@ import process from 'process';
 const source = require('js-yaml').safeLoad(require('fs').readFileSync('landscape.yml'));
 const traverse = require('traverse');
 const _ = require('lodash');
+import {dump} from './yaml';
 // import formatCity from '../src/utils/formatCity';
-import { fetchImageEntries, extractSavedImageEntries } from './fetchImages';
+import { fetchImageEntries, extractSavedImageEntries, removeNonReferencedImages } from './fetchImages';
 import { fetchCrunchbaseEntries, extractSavedCrunchbaseEntries } from './crunchbase';
 import { fetchGithubEntries, extractSavedGithubEntries } from './fetchGithubStats';
 import { fetchStartDateEntries, extractSavedStartDateEntries } from './fetchGithubStartDate';
@@ -53,13 +54,9 @@ else if (key.toLowerCase() === 'complete') {
 async function main() {
 
   var crunchbaseEntries;
-  var savedCrunchbaseEntries = [];
-  try {
-    savedCrunchbaseEntries = await extractSavedCrunchbaseEntries();
-  } catch (ex) {
-    console.info('can not get saved crunchbase entries');
-  }
+  var savedCrunchbaseEntries = await extractSavedCrunchbaseEntries();
   if (process.env.CRUNCHBASE_KEY) {
+    console.info('Fetching crunchbase entries');
     crunchbaseEntries = await fetchCrunchbaseEntries({
       cache: savedCrunchbaseEntries,
       preferCache: useCrunchbaseCache});
@@ -68,23 +65,27 @@ async function main() {
     crunchbaseEntries = savedCrunchbaseEntries;
   }
 
+  console.info('Fetching github entries');
   const savedGithubEntries = await extractSavedGithubEntries();
   const githubEntries = await fetchGithubEntries({
     cache: savedGithubEntries,
     preferCache: useGithubCache
   });
 
+  console.info('Fetching start date entries');
   const savedStartDateEntries = await extractSavedStartDateEntries();
   const startDateEntries = await fetchStartDateEntries({
     cache: savedStartDateEntries,
     preferCache: useGithubStartDatesCache
   });
 
+  console.info('Fetching images');
   const savedImageEntries = await extractSavedImageEntries();
   const imageEntries = await fetchImageEntries({
     cache: savedImageEntries,
     preferCache: useImagesCache
   });
+  removeNonReferencedImages(imageEntries);
 
   const cncfMembers = require('js-yaml').safeLoad(require('fs').readFileSync('src/cncf_members.yml'));
 
@@ -139,9 +140,7 @@ async function main() {
     }
   });
 
-  var dump = require('js-yaml').dump(newSource);
-  dump = dump.replace(/(- \w+:) null/g, '$1');
-  dump = "# THIS FILE IS GENERATED AUTOMATICALLY!\n" + dump;
-  require('fs').writeFileSync('processed_landscape.yml', dump);
+  const newContent = "# THIS FILE IS GENERATED AUTOMATICALLY!\n" + dump(newSource);
+  require('fs').writeFileSync('processed_landscape.yml', newContent);
 }
-main();
+main().catch(console.info);

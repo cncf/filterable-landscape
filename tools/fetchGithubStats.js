@@ -3,6 +3,7 @@ const traverse = require('traverse');
 import _ from 'lodash';
 const rp = require('request-promise');
 import { JSDOM } from 'jsdom';
+const debug = require('debug')('github');
 
 import { getRepoLatestDate } from './githubDates';
 
@@ -22,7 +23,7 @@ export async function extractSavedGithubEntries() {
       return;
     }
     if (node.github_data) {
-      result.push({...node.github_data, repo_url: node.repo_url});
+      result.push({...node.github_data, url: node.repo_url, branch: node.branch || 'master'});
     }
   });
   return result;
@@ -59,11 +60,14 @@ async function getGithubRepos() {
 const result = [];
 export async function fetchGithubEntries({cache, preferCache}) {
   const repos = await getGithubRepos();
+  debug(cache);
   return await Promise.map(repos, async function(repo) {
-    const cachedEntry = _.find(cache, {url: repo.repo_url});
+    const cachedEntry = _.find(cache, {url: repo.url, branch: repo.branch});
     if (cachedEntry && preferCache) {
+      debug(`Cache ${cachedEntry} found for ${repo.url}`);
       return cachedEntry;
     }
+    debug(`No cache found for ${repo.url} ${repo.branch}`);
     await Promise.delay(1 * 1000);
     try {
       const url = repo.url;
@@ -98,17 +102,13 @@ export async function fetchGithubEntries({cache, preferCache}) {
       }
       var date;
       var latestCommitLink;
-      try {
-        var latestDateResult = await getRepoLatestDate({repo:repoName, branch: repo.branch });
-        // console.info(repo, latestDateResult);
-        date = latestDateResult.date;
-        latestCommitLink = latestDateResult.commitLink;
-      } catch (ex) {
-        console.info ('can not fetch last date for ', repoName, ex.message.substring(0, 100));
-        return;
-      }
-      return ({url: repo.repo_url, stars, license, description, latest_commit_date: date, latest_commit_link: latestCommitLink });
+      var latestDateResult = await getRepoLatestDate({repo:repoName, branch: repo.branch });
+      // console.info(repo, latestDateResult);
+      date = latestDateResult.date;
+      latestCommitLink = latestDateResult.commitLink;
+      return ({url: repo.url, stars, license, description, latest_commit_date: date, latest_commit_link: latestCommitLink });
     } catch (ex) {
+      debug(`Fetch failed for ${repo.url}, attempt to use a cached entry`);
       return cachedEntry || null;
     }
   }, {concurrency: 20});
