@@ -9,7 +9,7 @@ import { fetchCrunchbaseEntries, extractSavedCrunchbaseEntries } from './crunchb
 import { fetchGithubEntries, extractSavedGithubEntries } from './fetchGithubStats';
 import { fetchStartDateEntries, extractSavedStartDateEntries } from './fetchGithubStartDate';
 
-var useCrunchbaseCache = false;
+var useCrunchbaseCache = true;
 var useImagesCache=true;
 var useGithubCache=true;
 var useGithubStartDatesCache=true;

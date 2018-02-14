@@ -10,7 +10,7 @@ landscape:
             name: Alibaba Cloud
             organization: Alibaba
             homepage_url: 'https://www.alibabacloud.com/'
-            logo: 'https://seeklogo.com/images/A/alibaba-cloud-logo-898D58C1CE-seeklogo.com.png'
+            logo: ./src/hosted_logos/alibaba-cloud.svg
             twitter: 'https://twitter.com/alibaba_cloud'
             crunchbase: 'https://www.crunchbase.com/organization/alibaba-cloud'
             crunchbase_data:
@@ -29,11 +29,10 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             yahoo_finance_data:
-              market_cap: 471982604288
+              market_cap: 475602747392
               effective_ticker: BABA
             image_data:
-              fileName: alibaba-cloud.png
-              low_res: 300x148
+              fileName: alibaba-cloud.svg
           - item:
             name: Amazon Web Services
             organization: Amazon Web Services
@@ -57,7 +56,7 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 695308386304
+              market_cap: 695798661120
               effective_ticker: AMZN
             image_data:
               fileName: amazon-web-services.svg
@@ -84,7 +83,7 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 689285169152
+              market_cap: 693096546304
               effective_ticker: MSFT
             image_data:
               fileName: azure-cloud-services.svg
@@ -92,7 +91,7 @@ landscape:
             name: DigitalOcean
             organization: DigitalOcean
             homepage_url: 'https://www.digitalocean.com/'
-            logo: 'https://upload.wikimedia.org/wikipedia/en/thumb/f/ff/DigitalOcean_logo.svg/1024px-DigitalOcean_logo.svg.png'
+            logo: 'https://upload.wikimedia.org/wikipedia/commons/f/ff/DigitalOcean_logo.svg'
             twitter: 'https://twitter.com/digitalocean'
             crunchbase: 'https://www.crunchbase.com/organization/digitalocean'
             crunchbase_data:
@@ -111,12 +110,12 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             image_data:
-              fileName: digital-ocean.png
+              fileName: digital-ocean.svg
           - item:
             name: Fujitsu K5
             organization: Fujitsu
             homepage_url: 'https://www.fujitsu.com/global/solutions/cloud/k5/'
-            logo: 'http://www.fujitsu.com/us/Images/fujitsu-red-jpg-rgb_tcm127-1146712.jpg'
+            logo: 'https://upload.wikimedia.org/wikipedia/commons/5/53/Fujitsu-Logo.svg'
             stock_ticker: FJTSF
             twitter: 'https://twitter.com/Fujitsu_Global'
             crunchbase: 'https://www.crunchbase.com/organization/fujitsu'
@@ -139,12 +138,12 @@ landscape:
               market_cap: 12108505088
               effective_ticker: FJTSF
             image_data:
-              fileName: fujitsu-k5.png
+              fileName: fujitsu-k5.svg
           - item:
             name: Google Cloud
             organization: Google
             homepage_url: 'https://cloud.google.com/'
-            logo: 'https://www.google.com/cloud/assets/press/Google_Cloud_Logo.png'
+            logo: 'https://www.google.com/cloud/assets/global/google/google_cloud_color.svg'
             twitter: 'https://twitter.com/googlecloud'
             crunchbase: 'https://www.crunchbase.com/organization/google-cloud-platform'
             crunchbase_data:
@@ -163,16 +162,15 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             yahoo_finance_data:
-              market_cap: 741491212288
+              market_cap: 745757343744
               effective_ticker: GOOG
             image_data:
-              fileName: google-cloud.png
-              low_res: 376x68
+              fileName: google-cloud.svg
           - item:
             name: Huawei
             organization: Huawei
             homepage_url: 'https://www.huawei.com/'
-            logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Huawei-optimized.svg/300px-Huawei-optimized.svg.png'
+            logo: 'https://upload.wikimedia.org/wikipedia/commons/0/00/Huawei.svg'
             twitter: 'https://twitter.com/Huawei'
             crunchbase: 'https://www.crunchbase.com/organization/huawei'
             crunchbase_data:
@@ -189,13 +187,12 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             image_data:
-              fileName: huawei.png
-              low_res: 300x300
+              fileName: huawei.svg
           - item:
             name: IBM Cloud
             organization: IBM Cloud
             homepage_url: 'https://www.ibm.com/cloud/'
-            logo: ./src/hosted_logos/ibm-cloud.png
+            logo: ./src/hosted_logos/ibm-cloud.svg
             twitter: 'https://twitter.com/IBMcloud'
             crunchbase: 'https://www.crunchbase.com/organization/ibm-cloud'
             crunchbase_data:
@@ -214,17 +211,17 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             yahoo_finance_data:
-              market_cap: 141215531008
+              market_cap: 141905231872
               effective_ticker: IBM
             image_data:
-              fileName: ibm-cloud.png
-              low_res: 439x253
+              fileName: ibm-cloud.svg
           - item:
             name: Joyent
             organization: Joyent
             homepage_url: 'https://www.joyent.com/'
             repo_url: 'https://github.com/joyent/smartos-live'
             logo: 'https://p6.zdassets.com/hc/settings_assets/150338/200244868/L3CnsFFWx4OJFUp2C7uUWA-joyentLogo.png'
+            best_res: null
             twitter: 'https://twitter.com/joyent'
             crunchbase: 'https://www.crunchbase.com/organization/joyent'
             crunchbase_data:
@@ -259,7 +256,7 @@ landscape:
             name: Oracle Cloud
             organization: Oracle
             homepage_url: 'https://cloud.oracle.com/'
-            logo: 'http://sabeo.com/wp-content/uploads/2017/05/OracleCloud_logo300.png'
+            logo: 'https://cdn.worldvectorlogo.com/logos/oracle-6.svg'
             twitter: 'https://twitter.com/oraclecloud'
             crunchbase: 'https://www.crunchbase.com/organization/oracle'
             crunchbase_data:
@@ -278,16 +275,15 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 201350135808
+              market_cap: 203047370752
               effective_ticker: ORCL
             image_data:
-              fileName: oracle-cloud.png
-              low_res: 282x97
+              fileName: oracle-cloud.svg
           - item:
             name: Packet
             organization: Packet
             homepage_url: 'https://www.packet.net/'
-            logo: 'https://user-images.githubusercontent.com/7989673/29498525-38a33f36-85cc-11e7-938d-ef6f10ba6fb3.png'
+            logo: ./src/hosted_logos/packet.svg
             twitter: 'https://twitter.com/packethost'
             crunchbase: 'https://www.crunchbase.com/organization/packet-host'
             crunchbase_data:
@@ -306,12 +302,12 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             image_data:
-              fileName: packet.png
+              fileName: packet.svg
           - item:
             name: Tencent Cloud
             organization: Tencent Cloud
             homepage_url: 'https://cloud.tencent.com/'
-            logo: 'https://pbs.twimg.com/profile_images/852439695199846400/OqpOmsZ0_400x400.jpg'
+            logo: ./src/hosted_logos/tencent-cloud.svg
             stock_ticker: TCEHY
             twitter: 'https://twitter.com/tencentcloud'
             crunchbase: 'https://www.crunchbase.com/organization/tencent'
@@ -331,11 +327,10 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 529111678976
+              market_cap: 531379683328
               effective_ticker: TCEHY
             image_data:
-              fileName: tencent-cloud.png
-              low_res: 384x268
+              fileName: tencent-cloud.svg
       - subcategory:
         name: Private
         items:
@@ -344,7 +339,7 @@ landscape:
             organization: RackN
             homepage_url: 'http://rebar.digital/'
             repo_url: 'https://github.com/digitalrebar/provision'
-            logo: 'http://rebar.digital/logo.png'
+            logo: ./src/hosted_logos/digitalrebar.svg
             twitter: 'https://twitter.com/digitalrebar'
             crunchbase: 'https://www.crunchbase.com/organization/rackn-inc'
             crunchbase_data:
@@ -364,23 +359,22 @@ landscape:
               stars: 63
               license: Unknown License
               description: Digital Rebar Provision is a simple but powerful Golang executable that provides a complete API-driven DHCP/PXE/TFTP provisioning system.
-              latest_commit_date: '2018-02-14T04:52:51Z'
-              latest_commit_link: /digitalrebar/provision/commit/d11c2a7a79edf7e23b4f8a6a78b1ae59aaf63822
+              latest_commit_date: '2018-02-14T16:29:40Z'
+              latest_commit_link: /digitalrebar/provision/commit/f2d140403d0bf1bb9573d142e4a525eeeaa69ac1
             github_start_commit_data:
               start_commit_link: /digitalrebar/provision/commit/317f954bdb794c8754aff69659c830220a71d9fe
               start_date: '2017-02-08T15:46:53Z'
             cncf_membership_data:
               cncf_member: true
             image_data:
-              fileName: digital-rebar.png
-              low_res: 485x165
+              fileName: digital-rebar.svg
           - item:
             name: Foreman
             organization: The Foreman
             homepage_url: 'https://theforeman.org/'
             repo_url: 'https://github.com/theforeman/foreman'
             branch: develop
-            logo: 'https://raw.githubusercontent.com/theforeman/foreman-graphics/master/logo/foreman_medium.png'
+            logo: ./src/hosted_logos/foreman.svg
             twitter: 'https://twitter.com/foremanproject'
             crunchbase: 'https://www.crunchbase.com/organization/foreman'
             crunchbase_data:
@@ -406,8 +400,7 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             image_data:
-              fileName: foreman.png
-              low_res: 291x121
+              fileName: foreman.svg
           - item:
             name: MAAS
             organization: Canonical
@@ -446,7 +439,7 @@ landscape:
             organization: OpenStack
             homepage_url: 'https://www.openstack.org/'
             repo_url: 'https://github.com/openstack/nova'
-            logo: 'https://www.openstack.org/assets/openstack-logo/2016R/OpenStack-Logo-Vertical.png'
+            logo: 'https://upload.wikimedia.org/wikipedia/commons/e/e6/OpenStack%C2%AE_Logo_2016.svg'
             twitter: 'https://twitter.com/OpenStack'
             crunchbase: 'https://www.crunchbase.com/organization/openstack'
             crunchbase_data:
@@ -472,13 +465,12 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             image_data:
-              fileName: open-stack.png
-              low_res: 470x227
+              fileName: open-stack.svg
           - item:
             name: Scaleway
             organization: Scaleway
             homepage_url: 'https://www.scaleway.com/'
-            logo: 'https://blog.online.net/content/images/2015/04/scaleway_02-1.png'
+            logo: 'https://www.scaleway.com/assets/images/illustrations/scw-logo-large-purple.svg'
             twitter: 'https://twitter.com/scaleway'
             crunchbase: 'https://www.crunchbase.com/organization/scaleway'
             crunchbase_data:
@@ -495,14 +487,13 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             image_data:
-              fileName: scaleway.png
-              low_res: 1106x229
+              fileName: scaleway.svg
           - item:
             name: VMware
             organization: VMware
             homepage_url: 'https://www.vmware.com/'
             stock_ticker: VMW
-            logo: 'https://regmedia.co.uk/2015/02/02/vmware_cloud_logo.jpg'
+            logo: 'https://practice-labs.com/images/vmware-logo.svg'
             twitter: 'https://twitter.com/VMware'
             crunchbase: 'https://www.crunchbase.com/organization/vmware'
             crunchbase_data:
@@ -520,11 +511,10 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 49525501952
+              market_cap: 49600081920
               effective_ticker: VMW
             image_data:
-              fileName: v-mware.png
-              low_res: 472x344
+              fileName: v-mware.svg
   - category:
     name: Provisioning
     subcategories:
@@ -537,7 +527,7 @@ landscape:
             homepage_url: 'https://www.ansible.com/'
             repo_url: 'https://github.com/ansible/ansible'
             branch: devel
-            logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Ansible_logo.svg/2000px-Ansible_logo.svg.png'
+            logo: 'https://www.elao.com/images/logo_ansible.svg'
             twitter: 'https://twitter.com/ansible'
             crunchbase: 'https://www.crunchbase.com/organization/red-hat'
             crunchbase_data:
@@ -554,30 +544,30 @@ landscape:
               ticker: RHT
               kind: market_cap
             github_data:
-              stars: 28443
+              stars: 28446
               license: GPL-3.0
               description: >-
                 Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy. Avoid writing scripts or custom
                 code to deploy and update your applications— automate in a language that approaches plain English, using SSH, with no agents to install on
                 remote systems.
-              latest_commit_date: '2018-02-14T15:09:20Z'
-              latest_commit_link: /ansible/ansible/commit/3093285c94b34ec23822e330a72fd9679677e0c7
+              latest_commit_date: '2018-02-14T17:24:18Z'
+              latest_commit_link: /ansible/ansible/commit/7dfa11cd8a036636d14f0a0d7e6054d2ae90e457
             github_start_commit_data:
               start_commit_link: /ansible/ansible/commit/f31421576b00f0b167cdbe61217c31c21a41ac02
               start_date: '2012-02-23T19:17:24Z'
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 23513743360
+              market_cap: 23707029504
               effective_ticker: RHT
             image_data:
-              fileName: ansible.png
+              fileName: ansible.svg
           - item:
             name: CFEngine
             organization: CFEngine
             homepage_url: 'https://cfengine.com/'
             repo_url: 'https://github.com/cfengine/core'
-            logo: 'https://crunchbase-production-res.cloudinary.com/image/upload/xq7nwzno4qanyadqph0i.jpg'
+            logo: 'https://cohesion.nl/wp-content/uploads/2017/05/cfengine.svg'
             twitter: 'https://twitter.com/cfengine'
             crunchbase: 'https://www.crunchbase.com/organization/cfengine'
             crunchbase_data:
@@ -605,13 +595,13 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             image_data:
-              fileName: cf-engine.png
+              fileName: cf-engine.svg
           - item:
             name: Chef
             organization: Chef Software
             homepage_url: 'https://chef.io'
             repo_url: 'https://github.com/chef/chef'
-            logo: 'https://crunchbase-production-res.cloudinary.com/image/upload/v1397202169/79e96225d5d71f5e6d8ef247a5372278.png'
+            logo: 'https://upload.wikimedia.org/wikipedia/commons/8/8a/Chef_logo.svg'
             twitter: 'https://twitter.com/chef'
             crunchbase: 'https://www.crunchbase.com/organization/chef'
             crunchbase_data:
@@ -637,15 +627,14 @@ landscape:
               start_commit_link: /chef/chef/commit/b5117775e86cff40399187b6292c98fba9dc5034
               start_date: '2008-03-06T07:31:38Z'
             cncf_membership_data:
-              cncf_member: true
+              cncf_member: false
             image_data:
-              fileName: chef.png
-              low_res: 346x340
+              fileName: chef.svg
           - item:
             name: LinuxKit
             organization: Docker
             repo_url: 'https://github.com/linuxkit/linuxkit'
-            logo: 'https://ordina-jworks.github.io/img/dockercon2017/linux-kit.png'
+            logo: 'https://raw.githubusercontent.com/linuxkit/linuxkit/master/logo/linux-kit%403x.svg'
             twitter: 'https://twitter.com/linuxkit'
             crunchbase: 'https://www.crunchbase.com/organization/docker'
             crunchbase_data:
@@ -662,7 +651,7 @@ landscape:
               kind: funding
               funding: 242766694
             github_data:
-              stars: 3954
+              stars: 3953
               license: Apache-2.0
               description: 'A toolkit for building secure, portable and lean operating systems for containers'
               latest_commit_date: '2018-02-14T15:33:51Z'
@@ -673,14 +662,13 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             image_data:
-              fileName: linux-kit.png
-              low_res: 592x174
+              fileName: linux-kit.svg
           - item:
             name: Puppet
             organization: Puppet Labs
             homepage_url: 'https://puppet.com/'
             repo_url: 'https://github.com/puppetlabs/puppet'
-            logo: 'https://upload.wikimedia.org/wikipedia/en/0/09/Puppet%27s_company_logo.png'
+            logo: 'https://www.nutanix.com/wp-content/uploads/2017/02/logo_puppet.svg'
             twitter: 'https://twitter.com/puppetlabs'
             crunchbase: 'https://www.crunchbase.com/organization/puppet-labs'
             crunchbase_data:
@@ -708,8 +696,7 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             image_data:
-              fileName: puppet.png
-              low_res: 532x187
+              fileName: puppet.svg
           - item:
             name: Rundeck
             organization: Rundeck
@@ -749,7 +736,7 @@ landscape:
             homepage_url: 'https://saltstack.com/'
             repo_url: 'https://github.com/saltstack/salt'
             branch: develop
-            logo: 'https://crunchbase-production-res.cloudinary.com/image/upload/ddd2130f2a69731ce90ebf4fc205866f.jpg'
+            logo: 'https://www.signalsciences.com/dist/images/integration-logos/salt.svg'
             twitter: 'https://twitter.com/SaltStack'
             crunchbase: 'https://www.crunchbase.com/organization/saltstack'
             crunchbase_data:
@@ -766,7 +753,7 @@ landscape:
               kind: funding
               funding: 685000
             github_data:
-              stars: 8568
+              stars: 8569
               license: Unknown License
               description: >-
                 Software to automate the management and configuration of any infrastructure or application at scale. Get access to the Salt software package
@@ -779,8 +766,7 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             image_data:
-              fileName: salt-stack.png
-              low_res: 567x324
+              fileName: salt-stack.svg
       - subcategory:
         name: Infrastructure Automation
         items:
@@ -788,7 +774,7 @@ landscape:
             name: AWS CloudFormation
             organization: Amazon Web Services
             homepage_url: 'https://aws.amazon.com/cloudformation/'
-            logo: ./src/hosted_logos/aws-cloudformation.png
+            logo: ./src/hosted_logos/aws-cloudformation.svg
             twitter: 'https://twitter.com/awscloudformer'
             crunchbase: 'https://www.crunchbase.com/organization/amazon-web-services'
             crunchbase_data:
@@ -807,16 +793,16 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 695308386304
+              market_cap: 695798661120
               effective_ticker: AMZN
             image_data:
-              fileName: aws-cloud-formation.png
+              fileName: aws-cloud-formation.svg
           - item:
             name: BOSH
             organization: Cloud Foundry
             homepage_url: 'https://bosh.io/'
             repo_url: 'https://github.com/cloudfoundry/bosh'
-            logo: 'https://cloudfoundry.org/wp-content/uploads/2012/02/CFF-BOSH-Full-Color.png'
+            logo: ./src/hosted_logos/cloudfoundry-bosh.svg
             twitter: 'https://twitter.com/cloudfoundry'
             crunchbase: 'https://www.crunchbase.com/organization/cloud-foundry'
             crunchbase_data:
@@ -844,7 +830,7 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             image_data:
-              fileName: bosh.png
+              fileName: bosh.svg
           - item:
             name: Cloud Coreo
             organization: Cloud Coreo
@@ -912,7 +898,7 @@ landscape:
               twitter: 'https://twitter.com/cloudnativefdn'
               linkedin: 'https://www.linkedin.com/company/cloud-native-computing-foundation'
             github_data:
-              stars: 4089
+              stars: 4091
               license: Apache-2.0
               description: The Kubernetes Package Manager
               latest_commit_date: '2018-02-14T08:09:03Z'
@@ -929,7 +915,7 @@ landscape:
             organization: Docker
             homepage_url: 'https://github.com/docker/infrakit'
             repo_url: 'https://github.com/docker/infrakit'
-            logo: 'https://raw.githubusercontent.com/docker-library/docs/471fa6e4cb58062ccbf91afc111980f9c7004981/swarm/logo.png'
+            logo: ./src/hosted_logos/infrakit.svg
             twitter: 'https://twitter.com/docker'
             crunchbase: 'https://www.crunchbase.com/organization/docker'
             crunchbase_data:
@@ -957,15 +943,14 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             image_data:
-              fileName: infrakit.png
-              low_res: 430x337
+              fileName: infrakit.svg
           - item:
             name: Juju
             organization: Canonical
             homepage_url: 'https://jujucharms.com/'
             repo_url: 'https://github.com/juju/juju'
             branch: develop
-            logo: 'https://design.canonical.com/wp-content/uploads/2011/10/juju-464x252.png'
+            logo: 'https://assets.ubuntu.com/v1/d2041fee-juju_black-orange_hex+(Alex%2BMilazzo%27s%2Bconflicted%2Bcopy%2B2016-07-18).svg'
             twitter: 'https://twitter.com/ubuntucloud'
             crunchbase: 'https://www.crunchbase.com/organization/canonical-ltd'
             crunchbase_data:
@@ -991,14 +976,13 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             image_data:
-              fileName: juju.png
-              low_res: 240x246
+              fileName: juju.svg
           - item:
             name: Kubicorn
             organization: Kubicorn
             homepage_url: 'https://github.com/kris-nova/kubicorn'
             repo_url: 'https://github.com/kris-nova/kubicorn'
-            logo: 'https://github.com/kris-nova/kubicorn/blob/master/docs/img/kubicorn-trans.png'
+            logo: ./src/hosted_logos/kubicorn.svg
             twitter: 'https://twitter.com/kubicornk8s'
             crunchbase: 'https://www.crunchbase.com/organization/kubicorn'
             crunchbase_data:
@@ -1013,7 +997,7 @@ landscape:
               twitter: null
               linkedin: null
             github_data:
-              stars: 955
+              stars: 956
               license: Apache-2.0
               description: Simple. Cloud Native. Kubernetes. Rainbow. Infrastructure.
               latest_commit_date: '2018-02-08T19:11:01Z'
@@ -1024,7 +1008,7 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             image_data:
-              fileName: kubicorn.png
+              fileName: kubicorn.svg
           - item:
             name: ManageIQ
             organization: ManageIQ
@@ -1064,7 +1048,7 @@ landscape:
             organization: Hashicorp
             homepage_url: 'https://www.terraform.io/'
             repo_url: 'https://github.com/hashicorp/terraform'
-            logo: 'https://crunchbase-production-res.cloudinary.com/image/upload/v1494032023/ds2ujajovsaxg7cjwgei.png'
+            logo: 'https://www.datocms-assets.com/2885/1506457071-blog-terraform-list.svg'
             twitter: 'https://twitter.com/HashiCorp'
             crunchbase: 'https://www.crunchbase.com/organization/hashicorp'
             crunchbase_data:
@@ -1081,7 +1065,7 @@ landscape:
               kind: funding
               funding: 74175000
             github_data:
-              stars: 11068
+              stars: 11069
               license: MPL-2.0
               description: 'Terraform is a tool for building, changing, and combining infrastructure safely and efficiently.'
               latest_commit_date: '2018-02-13T20:15:24Z'
@@ -1092,7 +1076,7 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             image_data:
-              fileName: terraform.png
+              fileName: terraform.svg
       - subcategory:
         name: Container Registries
         items:
@@ -1100,7 +1084,7 @@ landscape:
             name: Amazon Elastic Container Registry (ECR)
             organization: Amazon Web Services
             homepage_url: 'https://aws.amazon.com/ecr/'
-            logo: ./src/hosted_logos/aws-ecr.png
+            logo: ./src/hosted_logos/aws-ecr.svg
             twitter: 'https://twitter.com/awscloud'
             crunchbase: 'https://www.crunchbase.com/organization/amazon-web-services'
             crunchbase_data:
@@ -1119,16 +1103,15 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 695308386304
+              market_cap: 695798661120
               effective_ticker: AMZN
             image_data:
-              fileName: amazon-elastic-container-registry-ecr.png
-              low_res: 449x553
+              fileName: amazon-elastic-container-registry-ecr.svg
           - item:
-            name: Artifactory
-            organization: Jfrog
+            name: JFrog Artifactory
+            organization: JFrog
             homepage_url: 'https://www.jfrog.com/artifactory/'
-            logo: 'http://www.jfrogchina.com/wp-content/uploads/2015/09/Artifactory_HEX1.png'
+            logo: 'https://docs.tea-ci.org/logos/artifactory.svg'
             twitter: 'https://twitter.com/jfrog'
             crunchbase: 'https://www.crunchbase.com/organization/jfrog-ltd'
             crunchbase_data:
@@ -1145,11 +1128,11 @@ landscape:
               kind: funding
               funding: 61500000
             cncf_membership_data:
-              cncf_member: false
+              cncf_member: true
             image_data:
-              fileName: artifactory.png
+              fileName: j-frog-artifactory.svg
           - item:
-            name: Atomic
+            name: Project Atomic
             organization: Red Hat
             homepage_url: 'https://www.projectatomic.io/'
             repo_url: 'https://github.com/projectatomic/atomic'
@@ -1173,18 +1156,18 @@ landscape:
               stars: 393
               license: Unknown License
               description: Atomic Run Tool for installing/running/managing container images.
-              latest_commit_date: '2018-02-13T15:22:52Z'
-              latest_commit_link: /projectatomic/atomic/commit/c64d77f883db7f5ab5ea94dece18dcf1d245a96a
+              latest_commit_date: '2018-02-12T20:28:30Z'
+              latest_commit_link: /projectatomic/atomic/commit/594ce2a1aeb357cc1201cc4326074b62319f05c3
             github_start_commit_data:
               start_commit_link: /projectatomic/atomic/commit/2c226ffd5c928cb1f7fe113dce76f14bc01d3a5e
               start_date: '2015-01-14T22:10:00Z'
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 23513743360
+              market_cap: 23707029504
               effective_ticker: RHT
             image_data:
-              fileName: atomic.png
+              fileName: project-atomic.png
               low_res: 357x409
           - item:
             name: Azure Registry
@@ -1209,7 +1192,7 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 689285169152
+              market_cap: 693096546304
               effective_ticker: MSFT
             image_data:
               fileName: azure-registry.png
@@ -1271,7 +1254,7 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             yahoo_finance_data:
-              market_cap: 741491212288
+              market_cap: 745757343744
               effective_ticker: GOOG
             image_data:
               fileName: google-container-registry.svg
@@ -1308,7 +1291,7 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 49525501952
+              market_cap: 49600081920
               effective_ticker: VMW
             image_data:
               fileName: harbor.png
@@ -1369,7 +1352,7 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 23513743360
+              market_cap: 23707029504
               effective_ticker: RHT
             image_data:
               fileName: quay.png
@@ -1444,19 +1427,6 @@ landscape:
             logo: 'http://www.southeastlinuxfest.org/wp-content/uploads/2017/05/BlackDuck.png'
             twitter: 'https://twitter.com/black_duck_sw'
             crunchbase: 'https://www.crunchbase.com/organization/black-duck-software'
-            crunchbase_data:
-              name: Black Duck Software
-              description: 'Black Duck secures & manages open source software worldwide, eliminating open source security vulnerabilities & license compliance pain.'
-              num_employees_min: 101
-              num_employees_max: 250
-              homepage: 'http://www.blackducksoftware.com'
-              city: Burlington
-              region: Massachusetts
-              country: United States
-              twitter: 'http://twitter.com/black_duck_sw'
-              linkedin: 'http://www.linkedin.com/company/black-duck-software'
-              kind: funding
-              funding: 75500000
             cncf_membership_data:
               cncf_member: false
             image_data:
@@ -1496,7 +1466,7 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 23513743360
+              market_cap: 23707029504
               effective_ticker: RHT
             image_data:
               fileName: clair.png
@@ -1532,7 +1502,7 @@ landscape:
             homepage_url: 'https://github.com/theupdateframework/notary'
             cncf_project: incubating
             repo_url: 'https://github.com/theupdateframework/notary'
-            logo: 'https://raw.githubusercontent.com/cncf/artwork/master/notary/stacked/color/notary-stacked-color.png'
+            logo: 'https://raw.githubusercontent.com/cncf/artwork/master/notary/stacked/color/notary-stacked-color.svg'
             crunchbase: 'https://www.crunchbase.com/organization/cloud-native-computing-foundation'
             crunchbase_data:
               name: Cloud Native Computing Foundation (CNCF)
@@ -1557,7 +1527,7 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             image_data:
-              fileName: notary.png
+              fileName: notary.svg
           - item:
             name: OpenSCAP
             organization: Red Hat
@@ -1591,7 +1561,7 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 23513743360
+              market_cap: 23707029504
               effective_ticker: RHT
             image_data:
               fileName: open-scap.png
@@ -1628,7 +1598,7 @@ landscape:
             cncf_project: incubating
             repo_url: 'https://github.com/theupdateframework/tuf'
             branch: develop
-            logo: 'https://github.com/cncf/artwork/blob/master/tuf/stacked/color/tuf-stacked-color.png'
+            logo: 'https://github.com/cncf/artwork/blob/master/tuf/stacked/color/tuf-stacked-color.svg'
             crunchbase: 'https://www.crunchbase.com/organization/cloud-native-computing-foundation'
             crunchbase_data:
               name: Cloud Native Computing Foundation (CNCF)
@@ -1653,7 +1623,7 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             image_data:
-              fileName: the-update-framework-tuf.png
+              fileName: the-update-framework-tuf.svg
           - item:
             name: Twistlock
             organization: Twistlock
@@ -1682,7 +1652,7 @@ landscape:
         name: Key Management
         items:
           - item:
-            name: Hashicorp Vault
+            name: Vault
             organization: Hashicorp
             homepage_url: 'https://www.vaultproject.io/'
             repo_url: 'https://github.com/hashicorp/vault'
@@ -1706,21 +1676,21 @@ landscape:
               stars: 8486
               license: MPL-2.0
               description: 'A tool for secrets management, encryption as a service, and privileged access management'
-              latest_commit_date: '2018-02-14T15:39:52Z'
-              latest_commit_link: /hashicorp/vault/commit/901f98f3ce0e90133661ad39800bc2a5c57c6865
+              latest_commit_date: '2018-02-14T17:00:39Z'
+              latest_commit_link: /hashicorp/vault/commit/3c1c80972dd0fe6d3c82230f86b6d1702ff1aeb3
             github_start_commit_data:
               start_commit_link: /hashicorp/vault/commit/ed3069f01d4ee023d296212a3521d3354f109194
               start_date: '2015-02-25T00:15:59Z'
             cncf_membership_data:
               cncf_member: false
             image_data:
-              fileName: hashicorp-vault.svg
+              fileName: vault.svg
           - item:
             name: Keywhiz
             organization: Square
             homepage_url: 'https://square.github.io/keywhiz/'
             repo_url: 'https://github.com/square/keywhiz'
-            logo: ./src/hosted_logos/square-keywhiz.png
+            logo: ./src/hosted_logos/square-keywhiz.svg
             crunchbase: 'https://www.crunchbase.com/organization/square'
             crunchbase_data:
               name: Square
@@ -1747,16 +1717,15 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             yahoo_finance_data:
-              market_cap: 15909022720
+              market_cap: 16102218752
               effective_ticker: SQ
             image_data:
-              fileName: keywhiz.png
-              low_res: 400x400
+              fileName: keywhiz.svg
           - item:
             name: Knox
             organization: Pinterest
             repo_url: 'https://github.com/pinterest/knox'
-            logo: ./src/hosted_logos/pinterest-knox.png
+            logo: ./src/hosted_logos/pinterest-knox.svg
             crunchbase: 'https://www.crunchbase.com/organization/pinterest'
             crunchbase_data:
               name: Pinterest
@@ -1783,14 +1752,13 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             image_data:
-              fileName: knox.png
-              low_res: 300x395
+              fileName: knox.svg
           - item:
             name: Lyft Confidant
             organization: Lyft
             homepage_url: 'https://lyft.github.io/confidant/'
             repo_url: 'https://github.com/lyft/confidant'
-            logo: ./src/hosted_logos/lyft-confidant.png
+            logo: ./src/hosted_logos/lyft-confidant.svg
             crunchbase: 'https://www.crunchbase.com/organization/lyft'
             crunchbase_data:
               name: Lyft
@@ -1817,8 +1785,7 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             image_data:
-              fileName: lyft-confidant.png
-              low_res: 328x243
+              fileName: lyft-confidant.svg
           - item:
             name: Oracle Policy Automation
             organization: Oracle
@@ -1842,7 +1809,7 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 201350135808
+              market_cap: 203047370752
               effective_ticker: ORCL
             image_data:
               fileName: oracle-policy-automation.png
@@ -1852,7 +1819,7 @@ landscape:
             organization: Scytale
             homepage_url: 'https://spiffe.io/'
             repo_url: 'https://github.com/spiffe/spiffe'
-            logo: 'https://spiffe.io/img/spiffe-logo-color-basic.svg'
+            logo: ./src/hosted_logos/spiffe.svg
             twitter: 'https://twitter.com/spiffeio'
             crunchbase: 'https://www.crunchbase.com/organization/scytale-io'
             crunchbase_data:
@@ -1867,7 +1834,7 @@ landscape:
               twitter: 'https://twitter.com/scytale_io'
               linkedin: 'https://www.linkedin.com/company-beta/17975570/'
             github_data:
-              stars: 170
+              stars: 171
               license: Unknown License
               description: The SPIFFE Project
               latest_commit_date: '2018-02-10T17:36:05Z'
@@ -1923,7 +1890,7 @@ landscape:
             organization: Red Hat
             homepage_url: 'https://ceph.com/'
             repo_url: 'https://github.com/ceph/ceph'
-            logo: 'https://i2.wp.com/ceph.com/wp-content/uploads/2016/07/Ceph_Logo_Stacked_RGB_120411_fa.png'
+            logo: ./src/hosted_logos/ceph.svg
             twitter: 'https://twitter.com/Ceph'
             crunchbase: 'https://www.crunchbase.com/organization/red-hat'
             crunchbase_data:
@@ -1951,11 +1918,10 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 23513743360
+              market_cap: 23707029504
               effective_ticker: RHT
             image_data:
-              fileName: ceph.png
-              low_res: 536x736
+              fileName: ceph.svg
           - item:
             name: Datera
             organization: Datera Inc.
@@ -1985,7 +1951,7 @@ landscape:
             name: Dell EMC
             organization: Dell
             homepage_url: 'https://www.dellemc.com/'
-            logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Dell_EMC_logo.svg/500px-Dell_EMC_logo.svg.png'
+            logo: 'https://www.aerohive.com/wp-content/uploads/dellEMC.LOGO_.svg'
             twitter: 'https://twitter.com/dellemc'
             crunchbase: 'https://www.crunchbase.com/organization/dell-emc'
             crunchbase_data:
@@ -2002,8 +1968,7 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             image_data:
-              fileName: dell-emc.png
-              low_res: 500x83
+              fileName: dell-emc.svg
           - item:
             name: Diamanti
             organization: Diamanti
@@ -2054,15 +2019,15 @@ landscape:
               stars: 1449
               license: Unknown License
               description: 'Gluster Filesystem - (this is only a public mirror, see the README for contributing)'
-              latest_commit_date: '2018-02-13T22:59:07Z'
-              latest_commit_link: /gluster/glusterfs/commit/7a4ca270af19124a262f93fafc367e3635da3c0b
+              latest_commit_date: '2018-02-13T06:53:39Z'
+              latest_commit_link: /gluster/glusterfs/commit/c096bec4ec3f3ac33cc0787c60978944792e074e
             github_start_commit_data:
               start_commit_link: /gluster/glusterfs/commit/f3b2e6580e5663292ee113c741343c8a43ee133f
               start_date: '2009-02-18T11:31:30Z'
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 23513743360
+              market_cap: 23707029504
               effective_ticker: RHT
             image_data:
               fileName: gluster.png
@@ -2172,39 +2137,6 @@ landscape:
               fileName: leo-fs.png
               low_res: 392x136
           - item:
-            name: libstorage
-            organization: Dell EMC
-            homepage_url: 'https://libstorage.readthedocs.io/en/stable/'
-            repo_url: 'https://github.com/codedellemc/rexray'
-            logo: 'https://www.storagenewsletter.com/wp-content/uploads/2016/06/EMC_LIBSTORAGE_LOGO.jpg'
-            twitter: 'https://twitter.com/EMCcorp'
-            crunchbase: 'https://www.crunchbase.com/organization/dell-emc'
-            crunchbase_data:
-              name: Dell EMC
-              description: Dell EMC enables digital transformation with trusted solutions for the modern data center.
-              num_employees_min: 10001
-              num_employees_max: 1000000
-              homepage: 'http://dellemc.com'
-              city: Hopkinton
-              region: Massachusetts
-              country: United States
-              twitter: 'https://twitter.com/dellemc'
-              linkedin: 'https://www.linkedin.com/company-beta/1128'
-            github_data:
-              stars: 1063
-              license: Apache-2.0
-              description: REX-Ray is a container storage orchestration engine enabling persistence for cloud native workloads
-              latest_commit_date: '2017-12-19T22:26:34Z'
-              latest_commit_link: /thecodeteam/rexray/commit/1608180686ac4426b04941b4002fb33b9efd972e
-            github_start_commit_data:
-              start_commit_link: /thecodeteam/rexray/commit/16fc924fc90462597d2a27db15c50dbd02bbfe99
-              start_date: '2015-04-14T03:57:41Z'
-            cncf_membership_data:
-              cncf_member: true
-            image_data:
-              fileName: libstorage.png
-              low_res: 279x237
-          - item:
             name: Manta
             organization: Joyent
             homepage_url: 'https://www.joyent.com/tech-videos/introduction-to-manta-storage'
@@ -2262,7 +2194,7 @@ landscape:
               kind: funding
               funding: 23300000
             github_data:
-              stars: 10060
+              stars: 10064
               license: Apache-2.0
               description: Minio is an open source object storage server compatible with Amazon S3 APIs
               latest_commit_date: '2018-02-14T04:59:19Z'
@@ -2298,7 +2230,7 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 16046738432
+              market_cap: 16081635328
               effective_ticker: NTAP
             image_data:
               fileName: net-app.png
@@ -2398,7 +2330,7 @@ landscape:
             organization: VMware
             homepage_url: 'https://vmware.github.io/hatchway/'
             stock_ticker: VMW
-            logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Vmware.svg/1000px-Vmware.svg.png'
+            logo: 'https://practice-labs.com/images/vmware-logo.svg'
             twitter: 'https://twitter.com/VMware'
             crunchbase: 'https://www.crunchbase.com/organization/vmware'
             crunchbase_data:
@@ -2416,11 +2348,10 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 49525501952
+              market_cap: 49600081920
               effective_ticker: VMW
             image_data:
-              fileName: project-hatchway.png
-              low_res: 989x151
+              fileName: v-mware.svg
           - item:
             name: Pure Storage
             organization: Pure Storage
@@ -2444,11 +2375,8 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             yahoo_finance_data:
-              market_cap: 4647632896
+              market_cap: 4641324032
               effective_ticker: PSTG
-            image_data:
-              fileName: pure-storage.png
-              low_res: 212x300
           - item:
             name: Rex-Ray
             organization: Dell EMC
@@ -2513,7 +2441,7 @@ landscape:
             homepage_url: 'https://rook.io/'
             cncf_project: inception
             repo_url: 'https://github.com/rook/rook'
-            logo: 'https://raw.githubusercontent.com/cncf/artwork/master/rook/stacked/color/rook-stacked-color.png'
+            logo: 'https://raw.githubusercontent.com/cncf/artwork/master/rook/stacked/color/rook-stacked-color.svg'
             twitter: 'https://twitter.com/rook_io'
             crunchbase: 'https://www.crunchbase.com/organization/cloud-native-computing-foundation'
             crunchbase_data:
@@ -2539,13 +2467,13 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             image_data:
-              fileName: rook.png
+              fileName: rook.svg
           - item:
             name: Sheepdog
             organization: Sheepdog
             homepage_url: 'https://sheepdog.github.io/sheepdog/'
             repo_url: 'https://github.com/sheepdog/sheepdog'
-            logo: 'https://avatars3.githubusercontent.com/u/4846685'
+            logo: ./src/hosted_logos/sheepdog.svg
             github_data:
               stars: 700
               license: GPL-2.0
@@ -2558,8 +2486,7 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             image_data:
-              fileName: sheepdog.png
-              low_res: 460x460
+              fileName: sheepdog.svg
           - item:
             name: Springpath
             organization: Cisco
@@ -2682,7 +2609,7 @@ landscape:
             homepage_url: 'http://containerd.io/'
             cncf_project: incubating
             repo_url: 'https://github.com/containerd/containerd'
-            logo: 'https://raw.githubusercontent.com/cncf/artwork/master/containerd/stacked/color/containerd-stacked-color.png'
+            logo: 'https://raw.githubusercontent.com/cncf/artwork/master/containerd/stacked/color/containerd-stacked-color.svg'
             crunchbase: 'https://www.crunchbase.com/organization/cloud-native-computing-foundation'
             crunchbase_data:
               name: Cloud Native Computing Foundation (CNCF)
@@ -2707,13 +2634,13 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             image_data:
-              fileName: containerd.png
+              fileName: containerd.svg
           - item:
             name: CRI-O
             organization: CNCF
             homepage_url: 'http://cri-o.io/'
             repo_url: 'https://github.com/kubernetes-incubator/cri-o'
-            logo: 'https://raw.githubusercontent.com/kubernetes-incubator/cri-o/master/logo/crio-logo.png'
+            logo: 'https://raw.githubusercontent.com/kubernetes-incubator/cri-o/master/logo/crio-logo.svg'
             crunchbase: 'https://www.crunchbase.com/organization/cloud-native-computing-foundation'
             crunchbase_data:
               name: Cloud Native Computing Foundation (CNCF)
@@ -2730,22 +2657,21 @@ landscape:
               stars: 912
               license: Apache-2.0
               description: Open Container Initiative-based implementation of Kubernetes Container Runtime Interface
-              latest_commit_date: '2018-02-13T12:17:27Z'
-              latest_commit_link: /kubernetes-incubator/cri-o/commit/4cc3d0a508d67db41c281ff8988df7a7630caa92
+              latest_commit_date: '2018-02-14T18:06:06Z'
+              latest_commit_link: /kubernetes-incubator/cri-o/commit/fa8cedf98112faff6cc5601392e132c917aba8b7
             github_start_commit_data:
               start_commit_link: /kubernetes-incubator/cri-o/commit/580db0719d68b3ff3bb30f60397c3892be383eb5
               start_date: '2016-09-09T19:56:31Z'
             cncf_membership_data:
               cncf_member: false
             image_data:
-              fileName: cri-o.png
-              low_res: 311x106
+              fileName: cri-o.svg
           - item:
             name: Intel Clear Containers
             organization: Intel
             homepage_url: 'https://clearlinux.org/containers'
             repo_url: 'https://github.com/clearcontainers/runtime'
-            logo: 'https://cdn.thenewstack.io/media/2015/11/ClearContainers.jpg'
+            logo: ./src/hosted_logos/intel-clearcontainers.svg
             twitter: 'https://twitter.com/clearlinux/'
             crunchbase: 'https://www.crunchbase.com/organization/intel'
             crunchbase_data:
@@ -2773,11 +2699,10 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 207604809728
+              market_cap: 209379917824
               effective_ticker: INTC
             image_data:
-              fileName: intel-clear-containers.png
-              low_res: 238x363
+              fileName: intel-clear-containers.svg
           - item:
             name: lxd
             organization: Canonical
@@ -2798,7 +2723,7 @@ landscape:
               twitter: 'http://twitter.com/Canonical'
               linkedin: 'https://www.linkedin.com/company/canonical-ltd.'
             github_data:
-              stars: 1650
+              stars: 1651
               license: Apache-2.0
               description: Daemon based on liblxc offering a REST API to manage containers
               latest_commit_date: '2018-02-14T05:41:33Z'
@@ -2817,7 +2742,7 @@ landscape:
             homepage_url: 'https://github.com/rkt/rkt'
             cncf_project: incubating
             repo_url: 'https://github.com/rkt/rkt'
-            logo: 'https://raw.githubusercontent.com/cncf/artwork/master/rkt/stacked/color/rkt-stacked-color.png'
+            logo: 'https://raw.githubusercontent.com/cncf/artwork/master/rkt/stacked/color/rkt-stacked-color.svg'
             crunchbase: 'https://www.crunchbase.com/organization/cloud-native-computing-foundation'
             crunchbase_data:
               name: Cloud Native Computing Foundation (CNCF)
@@ -2831,7 +2756,7 @@ landscape:
               twitter: 'https://twitter.com/cloudnativefdn'
               linkedin: 'https://www.linkedin.com/company/cloud-native-computing-foundation'
             github_data:
-              stars: 7768
+              stars: 7767
               license: Apache-2.0
               description: 'rkt is a pod-native container engine for Linux. It is composable, secure, and built on standards.'
               latest_commit_date: '2018-01-15T16:29:15Z'
@@ -2842,7 +2767,7 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             image_data:
-              fileName: rkt.png
+              fileName: rkt.svg
           - item:
             name: runc
             organization: Open Container Initiative
@@ -3077,8 +3002,8 @@ landscape:
               stars: 1457
               license: Apache-2.0
               description: API-aware Networking and Security for Containers based on BPF
-              latest_commit_date: '2018-02-08T07:37:53Z'
-              latest_commit_link: /cilium/cilium/commit/97faf61623e9ea7713c63a98e6c8346db148fedb
+              latest_commit_date: '2018-02-14T16:16:12Z'
+              latest_commit_link: /cilium/cilium/commit/d74c7373036c6dfe8717e23b4cfb03eefd557083
             github_start_commit_data:
               start_commit_link: /cilium/cilium/commit/7fa3c60eb7dbe7a5a4caea3aab0396f75a8b10c7
               start_date: '2015-12-16T12:33:31Z'
@@ -3093,7 +3018,7 @@ landscape:
             homepage_url: 'https://github.com/containernetworking'
             cncf_project: incubating
             repo_url: 'https://github.com/containernetworking/cni'
-            logo: 'https://raw.githubusercontent.com/cncf/artwork/master/cni/stacked/color/cni-stacked-color.png'
+            logo: 'https://raw.githubusercontent.com/cncf/artwork/master/cni/stacked/color/cni-stacked-color.svg'
             crunchbase: 'https://www.crunchbase.com/organization/cloud-native-computing-foundation'
             crunchbase_data:
               name: Cloud Native Computing Foundation (CNCF)
@@ -3118,7 +3043,7 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             image_data:
-              fileName: cni.png
+              fileName: cni.svg
           - item:
             name: Contiv
             organization: Cisco
@@ -3152,7 +3077,7 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 206544437248
+              market_cap: 208151117824
               effective_ticker: CSCO
             image_data:
               fileName: contiv.png
@@ -3216,7 +3141,7 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 23513743360
+              market_cap: 23707029504
               effective_ticker: RHT
             image_data:
               fileName: flannel.png
@@ -3277,7 +3202,7 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 49525501952
+              market_cap: 49600081920
               effective_ticker: VMW
             image_data:
               fileName: nsx.png
@@ -3309,7 +3234,7 @@ landscape:
             organization: Open vSwitch
             homepage_url: 'http://openvswitch.org/'
             repo_url: 'https://github.com/openvswitch/ovs'
-            logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Open_vSwitch_Logo.svg/1200px-Open_vSwitch_Logo.svg.png'
+            logo: 'https://upload.wikimedia.org/wikipedia/commons/5/59/Open_vSwitch_Logo.svg'
             twitter: 'https://twitter.com/openvswitch'
             crunchbase: 'https://www.crunchbase.com/organization/open-vswitch'
             crunchbase_data:
@@ -3335,13 +3260,13 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             image_data:
-              fileName: open-v-switch.png
+              fileName: open-v-switch.svg
           - item:
             name: OpenContrail
             organization: Juniper Networks
             homepage_url: 'http://www.opencontrail.org/'
             repo_url: 'https://github.com/Juniper/contrail-controller'
-            logo: ./src/hosted_logos/open-contrail.png
+            logo: ./src/hosted_logos/opencontrail.svg
             twitter: 'https://twitter.com/OpenContrail'
             crunchbase: 'https://www.crunchbase.com/organization/opencontrail'
             crunchbase_data:
@@ -3367,8 +3292,7 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             image_data:
-              fileName: open-contrail.png
-              low_res: 578x284
+              fileName: open-contrail.svg
           - item:
             name: Plumgrid
             organization: VMware
@@ -3399,7 +3323,7 @@ landscape:
             organization: Tigera
             homepage_url: 'https://www.projectcalico.org/'
             repo_url: 'https://github.com/projectcalico/calico'
-            logo: 'https://www.projectcalico.org/wp-content/uploads/2015/03/Project-Calico-logo-1000px.png'
+            logo: 'https://coreos.com/assets/images/partners/project-calico-color.svg'
             twitter: 'https://twitter.com/projectcalico'
             crunchbase: 'https://www.crunchbase.com/organization/tigera'
             crunchbase_data:
@@ -3427,7 +3351,7 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             image_data:
-              fileName: project-calico.png
+              fileName: project-calico.svg
           - item:
             name: Romana
             organization: Romana
@@ -3478,7 +3402,7 @@ landscape:
             organization: Weaveworks
             homepage_url: 'https://www.weave.works/oss/net/'
             repo_url: 'https://github.com/weaveworks/weave'
-            logo: ./src/hosted_logos/weave-net.png
+            logo: ./src/hosted_logos/weave-net.svg
             twitter: 'https://twitter.com/weaveworks'
             crunchbase: 'https://www.crunchbase.com/organization/weaveworks'
             crunchbase_data:
@@ -3506,8 +3430,7 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             image_data:
-              fileName: weave-net.png
-              low_res: 398x386
+              fileName: weave-net.svg
   - category:
     name: Orchestration & Management
     subcategories:
@@ -3520,7 +3443,7 @@ landscape:
             homepage_url: 'https://aws.amazon.com/ecs/'
             twitter: 'https://twitter.com/awscloud'
             crunchbase: 'https://www.crunchbase.com/organization/amazon-web-services'
-            logo: ./src/hosted_logos/aws-ecs.png
+            logo: ./src/hosted_logos/aws-ecs.svg
             crunchbase_data:
               name: Amazon Web Services
               description: Amazon Web Services provides information technology infrastructure services to businesses in the form of web services.
@@ -3537,11 +3460,10 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 695308386304
+              market_cap: 695798661120
               effective_ticker: AMZN
             image_data:
-              fileName: amazon-elastic-container-service-ecs.png
-              low_res: 447x531
+              fileName: amazon-elastic-container-service-ecs.svg
           - item:
             name: Docker Swarm
             organization: Docker
@@ -3564,7 +3486,7 @@ landscape:
               kind: funding
               funding: 242766694
             github_data:
-              stars: 4994
+              stars: 4995
               license: Apache-2.0
               description: 'Swarm: a Docker-native clustering system'
               latest_commit_date: '2018-02-12T23:18:32Z'
@@ -3584,7 +3506,7 @@ landscape:
             homepage_url: 'https://kubernetes.io/'
             cncf_project: incubating
             repo_url: 'https://github.com/kubernetes/kubernetes'
-            logo: 'https://raw.githubusercontent.com/cncf/artwork/master/kubernetes/stacked/color/kubernetes-stacked-color.png'
+            logo: 'https://raw.githubusercontent.com/cncf/artwork/master/kubernetes/stacked/color/kubernetes-stacked-color.svg'
             twitter: 'https://twitter.com/kubernetesio'
             crunchbase: 'https://www.crunchbase.com/organization/cloud-native-computing-foundation'
             crunchbase_data:
@@ -3599,18 +3521,18 @@ landscape:
               twitter: 'https://twitter.com/cloudnativefdn'
               linkedin: 'https://www.linkedin.com/company/cloud-native-computing-foundation'
             github_data:
-              stars: 32548
+              stars: 32551
               license: Apache-2.0
               description: Production-Grade Container Scheduling and Management
-              latest_commit_date: '2018-02-14T16:11:32Z'
-              latest_commit_link: /kubernetes/kubernetes/commit/a3bc08da1d068738f412bfe78d917c336b58c30a
+              latest_commit_date: '2018-02-14T17:45:31Z'
+              latest_commit_link: /kubernetes/kubernetes/commit/97ad5912d543439607a31787471caecedb8baba0
             github_start_commit_data:
               start_commit_link: /kubernetes/kubernetes/commit/2c4b3a562ce34cddc3f8218a2c4d11c7310e6d56
               start_date: '2014-06-06T23:40:48Z'
             cncf_membership_data:
               cncf_member: false
             image_data:
-              fileName: kubernetes.png
+              fileName: kubernetes.svg
           - item:
             name: Mesos
             organization: Apache
@@ -3667,7 +3589,7 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 689285169152
+              market_cap: 693096546304
               effective_ticker: MSFT
             image_data:
               fileName: microsoft-azure-service-fabric.png
@@ -3700,8 +3622,8 @@ landscape:
                 Nomad is a flexible, enterprise-grade cluster scheduler designed to easily integrate into existing workflows. Nomad can run a diverse workload
                 of micro-service, batch, containerized and non-containerized applications. Nomad is easy to operate and scale and integrates seamlessly with
                 Consul and Vault.
-              latest_commit_date: '2018-02-14T02:09:51Z'
-              latest_commit_link: /hashicorp/nomad/commit/d9276e22b3b74674996fb548cdb6bc4c70d5b0e4
+              latest_commit_date: '2018-02-14T17:24:55Z'
+              latest_commit_link: /hashicorp/nomad/commit/23df204bcd680a9ce095e02e6b8daca80d9106f9
             github_start_commit_data:
               start_commit_link: /hashicorp/nomad/commit/bab9f6b1960e7c12d03565ed5286a744cad9de23
               start_date: '2015-06-01T10:21:00Z'
@@ -3734,7 +3656,7 @@ landscape:
               kind: funding
               funding: 74175000
             github_data:
-              stars: 11382
+              stars: 11381
               license: MPL-2.0
               description: >-
                 Consul is a distributed, highly available, and data center aware solution to connect and configure applications across dynamic, distributed
@@ -3770,7 +3692,7 @@ landscape:
               kind: funding
               funding: 130999998
             github_data:
-              stars: 860
+              stars: 859
               license: MPL-2.0
               description: A service for autodiscovery and configuration of applications running in containers
               latest_commit_date: '2018-01-11T17:21:41Z'
@@ -3788,7 +3710,7 @@ landscape:
             homepage_url: 'https://coredns.io/'
             cncf_project: inception
             repo_url: 'https://github.com/coredns/coredns'
-            logo: 'https://github.com/cncf/artwork/blob/master/coredns/stacked/color/coredns-stacked-color.png'
+            logo: 'https://github.com/cncf/artwork/blob/master/coredns/stacked/color/coredns-stacked-color.svg'
             twitter: 'https://twitter.com/corednsio'
             crunchbase: 'https://www.crunchbase.com/organization/cloud-native-computing-foundation'
             crunchbase_data:
@@ -3803,7 +3725,7 @@ landscape:
               twitter: 'https://twitter.com/cloudnativefdn'
               linkedin: 'https://www.linkedin.com/company/cloud-native-computing-foundation'
             github_data:
-              stars: 1608
+              stars: 1609
               license: Apache-2.0
               description: CoreDNS is a DNS server that chains plugins
               latest_commit_date: '2018-02-14T15:00:04Z'
@@ -3814,13 +3736,13 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             image_data:
-              fileName: core-dns.png
+              fileName: core-dns.svg
           - item:
             name: etcd
             organization: Red Hat
             homepage_url: 'https://coreos.com/etcd/'
             repo_url: 'https://github.com/coreos/etcd'
-            logo: 'https://n40lab.files.wordpress.com/2016/08/etcd1.png?w=163&h=217&crop=1'
+            logo: 'https://cdn.worldvectorlogo.com/logos/etcd.svg'
             twitter: 'https://twitter.com/coreos/'
             crunchbase: 'https://www.crunchbase.com/organization/red-hat'
             crunchbase_data:
@@ -3837,28 +3759,27 @@ landscape:
               ticker: RHT
               kind: market_cap
             github_data:
-              stars: 16835
+              stars: 16836
               license: Apache-2.0
               description: Distributed reliable key-value store for the most critical data of a distributed system
-              latest_commit_date: '2018-02-13T22:17:57Z'
-              latest_commit_link: /coreos/etcd/commit/fcd71b47d51a4b64baf1c903b9bfd00e5edb5e6f
+              latest_commit_date: '2018-02-14T17:26:48Z'
+              latest_commit_link: /coreos/etcd/commit/e48b585e22382106b5d4ba3f414d3dbe3fb259f1
             github_start_commit_data:
               start_commit_link: /coreos/etcd/commit/20ca21a3f7122cf7caa91cb0e9b9c69be9279950
               start_date: '2013-06-07T00:43:32Z'
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 23513743360
+              market_cap: 23707029504
               effective_ticker: RHT
             image_data:
-              fileName: etcd.png
-              low_res: 163x217
+              fileName: etcd.svg
           - item:
             name: Eureka
             organization: Netflix
             homepage_url: 'https://github.com/Netflix/eureka'
             repo_url: 'https://github.com/Netflix/eureka'
-            logo: ./src/hosted_logos/netflix-eureka.png
+            logo: ./src/hosted_logos/netflix-eureka.svg
             crunchbase: 'https://www.crunchbase.com/organization/netflix'
             crunchbase_data:
               name: Netflix
@@ -3885,18 +3806,17 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             yahoo_finance_data:
-              market_cap: 115946356736
+              market_cap: 116389191680
               effective_ticker: NFLX
             image_data:
-              fileName: eureka.png
-              low_res: 325x164
+              fileName: eureka.svg
           - item:
-            name: Haret
+            name: VMware Haret
             organization: VMware
             homepage_url: 'https://github.com/vmware/haret'
             stock_ticker: VMW
             repo_url: 'https://github.com/vmware/haret'
-            logo: 'http://logodatabases.com/wp-content/uploads/2012/05/vmware-logo-black.jpg'
+            logo: ./src/hosted_logos/vmware-haret.svg
             twitter: 'https://twitter.com/VMware'
             crunchbase: 'https://www.crunchbase.com/organization/vmware'
             crunchbase_data:
@@ -3912,7 +3832,7 @@ landscape:
               linkedin: 'http://www.linkedin.com/company/vmware'
               kind: market_cap
             github_data:
-              stars: 466
+              stars: 465
               license: Unknown License
               description: 'A strongly consistent distributed coordination system, built using proven protocols & implemented in Rust.'
               latest_commit_date: '2017-09-06T05:34:19Z'
@@ -3923,10 +3843,10 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 49525501952
+              market_cap: 49600081920
               effective_ticker: VMW
             image_data:
-              fileName: haret.png
+              fileName: v-mware-haret.svg
           - item:
             name: SkyDNS
             organization: Skynet Services
@@ -3952,7 +3872,7 @@ landscape:
             organization: Airbnb
             homepage_url: 'https://medium.com/airbnb-engineering/smartstack-service-discovery-in-the-cloud-4b8a080de619'
             repo_url: 'https://github.com/airbnb/synapse'
-            logo: ./src/hosted_logos/smart-stack.png
+            logo: ./src/hosted_logos/smartstack.svg
             crunchbase: 'https://www.crunchbase.com/organization/airbnb'
             crunchbase_data:
               name: Airbnb
@@ -3979,8 +3899,7 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             image_data:
-              fileName: smart-stack.png
-              low_res: 322x390
+              fileName: smart-stack.svg
           - item:
             name: Zookeeper
             organization: Apache
@@ -4050,7 +3969,7 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 23513743360
+              market_cap: 23707029504
               effective_ticker: RHT
             image_data:
               fileName: 3-scale.png
@@ -4060,7 +3979,7 @@ landscape:
             organization: Datawire
             homepage_url: 'https://www.getambassador.io/'
             repo_url: 'https://github.com/datawire/ambassador'
-            logo: 'https://www.datawire.io/wp-content/uploads/2017/05/ambassador_logo@2x-1.png'
+            logo: ./src/hosted_logos/ambassador.svg
             twitter: 'https://twitter.com/datawireio'
             crunchbase: 'https://www.crunchbase.com/organization/datawire'
             crunchbase_data:
@@ -4088,7 +4007,7 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             image_data:
-              fileName: ambassador.png
+              fileName: ambassador.svg
           - item:
             name: Apache Avro
             organization: Apache
@@ -4196,7 +4115,7 @@ landscape:
             homepage_url: 'https://envoyproxy.github.io/'
             cncf_project: incubating
             repo_url: 'https://github.com/envoyproxy/envoy'
-            logo: 'https://github.com/cncf/artwork/blob/master/envoy/stacked/color/envoy-stacked-color.png'
+            logo: 'https://github.com/cncf/artwork/blob/master/envoy/stacked/color/envoy-stacked-color.svg'
             twitter: 'https://twitter.com/envoyproxy'
             crunchbase: 'https://www.crunchbase.com/organization/cloud-native-computing-foundation'
             crunchbase_data:
@@ -4211,7 +4130,7 @@ landscape:
               twitter: 'https://twitter.com/cloudnativefdn'
               linkedin: 'https://www.linkedin.com/company/cloud-native-computing-foundation'
             github_data:
-              stars: 3872
+              stars: 3873
               license: Apache-2.0
               description: C++ front/service proxy
               latest_commit_date: '2018-02-14T15:44:19Z'
@@ -4222,7 +4141,7 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             image_data:
-              fileName: envoy.png
+              fileName: envoy.svg
           - item:
             name: F5
             organization: F5
@@ -4246,7 +4165,7 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 8866631680
+              market_cap: 8895697920
               effective_ticker: FFIV
             image_data:
               fileName: f5.png
@@ -4256,7 +4175,7 @@ landscape:
             homepage_url: 'https://grpc.io/'
             cncf_project: incubating
             repo_url: 'https://github.com/grpc/grpc'
-            logo: 'https://raw.githubusercontent.com/cncf/artwork/master/grpc/horizontal/color/grpc-horizontal-color.png'
+            logo: 'https://raw.githubusercontent.com/cncf/artwork/master/grpc/horizontal/color/grpc-horizontal-color.svg'
             twitter: 'https://twitter.com/grpcio'
             crunchbase: 'https://www.crunchbase.com/organization/cloud-native-computing-foundation'
             crunchbase_data:
@@ -4274,16 +4193,15 @@ landscape:
               stars: 13647
               license: Apache-2.0
               description: 'The C based gRPC (C++, Python, Ruby, Objective-C, PHP, C#)'
-              latest_commit_date: '2018-02-14T02:00:44Z'
-              latest_commit_link: /grpc/grpc/commit/fcb446a9dd9d8b5f8887fd63176f7dc8135cf426
+              latest_commit_date: '2018-02-14T17:51:56Z'
+              latest_commit_link: /grpc/grpc/commit/e27b27bcea1ad3e28364b7af4933cad365e24d53
             github_start_commit_data:
               start_commit_link: /grpc/grpc/commit/0e905e63db21bcdd85d3d1af051fcdc5bb5caa38
               start_date: '2014-11-22T00:16:16Z'
             cncf_membership_data:
               cncf_member: false
             image_data:
-              fileName: g-rpc.png
-              low_res: 834x295
+              fileName: g-rpc.svg
           - item:
             name: HAProxy
             organization: HAProxy Technologies
@@ -4341,7 +4259,7 @@ landscape:
               ticker: NFLX
               kind: market_cap
             github_data:
-              stars: 12577
+              stars: 12578
               license: Apache-2.0
               description: >-
                 Hystrix is a latency and fault tolerance library designed to isolate points of access to remote systems, services and 3rd party libraries, stop
@@ -4354,7 +4272,7 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             yahoo_finance_data:
-              market_cap: 115946356736
+              market_cap: 116389191680
               effective_ticker: NFLX
             image_data:
               fileName: hystrix.png
@@ -4382,7 +4300,7 @@ landscape:
               kind: funding
               funding: 44101000
             github_data:
-              stars: 14406
+              stars: 14407
               license: Apache-2.0
               description: "\U0001F412 The Microservice API Gateway"
               latest_commit_date: '2018-02-09T20:39:45Z'
@@ -4400,7 +4318,7 @@ landscape:
             homepage_url: 'https://linkerd.io/'
             cncf_project: inception
             repo_url: 'https://github.com/linkerd/linkerd'
-            logo: 'https://raw.githubusercontent.com/cncf/artwork/master/linkerd/stacked/color/linkerd-stacked-color.png'
+            logo: 'https://raw.githubusercontent.com/cncf/artwork/master/linkerd/stacked/color/linkerd-stacked-color.svg'
             twitter: 'https://twitter.com/linkerd'
             crunchbase: 'https://www.crunchbase.com/organization/cloud-native-computing-foundation'
             crunchbase_data:
@@ -4415,7 +4333,7 @@ landscape:
               twitter: 'https://twitter.com/cloudnativefdn'
               linkedin: 'https://www.linkedin.com/company/cloud-native-computing-foundation'
             github_data:
-              stars: 3558
+              stars: 3557
               license: Apache-2.0
               description: Production-grade feature-rich service mesh for any platform
               latest_commit_date: '2018-02-13T21:53:10Z'
@@ -4426,7 +4344,7 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             image_data:
-              fileName: linkerd.png
+              fileName: linkerd.svg
           - item:
             name: NGINX
             organization: NGINX
@@ -4470,7 +4388,7 @@ landscape:
             organization: Netflix
             homepage_url: 'https://github.com/Netflix/ribbon'
             repo_url: 'https://github.com/Netflix/ribbon'
-            logo: ./src/hosted_logos/netflix-ribbon.png
+            logo: ./src/hosted_logos/netflix-ribbon.svg
             twitter: 'https://twitter.com/netflixoss'
             crunchbase: 'https://www.crunchbase.com/organization/netflix'
             crunchbase_data:
@@ -4500,11 +4418,10 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             yahoo_finance_data:
-              market_cap: 115946356736
+              market_cap: 116389191680
               effective_ticker: NFLX
             image_data:
-              fileName: ribbon.png
-              low_res: 321x168
+              fileName: ribbon.svg
           - item:
             name: Traefik
             organization: Conainous
@@ -4527,7 +4444,7 @@ landscape:
               kind: funding
               funding: 1060899
             github_data:
-              stars: 13008
+              stars: 13013
               license: MIT
               description: 'Træfik, a modern reverse proxy'
               latest_commit_date: '2018-02-14T08:56:04Z'
@@ -4567,7 +4484,7 @@ landscape:
             organization: Vamp
             homepage_url: 'https://vamp.io/'
             repo_url: 'https://github.com/magneticio/vamp'
-            logo: ./src/hosted_logos/vamp.png
+            logo: ./src/hosted_logos/vamp.svg
             twitter: 'https://twitter.com/vamp_io'
             crunchbase: 'https://www.crunchbase.com/organization/magnetic-io'
             crunchbase_data:
@@ -4595,14 +4512,13 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             image_data:
-              fileName: vamp.png
-              low_res: 297x282
+              fileName: vamp.svg
           - item:
             name: Weave Flux
             organization: Weaveworks
             homepage_url: 'https://www.weave.works/oss/flux/'
             repo_url: 'https://github.com/weaveworks/flux'
-            logo: ./src/hosted_logos/weave-flux.png
+            logo: ./src/hosted_logos/weave-flux.svg
             twitter: 'https://twitter.com/weaveworks'
             crunchbase: 'https://www.crunchbase.com/organization/weaveworks'
             crunchbase_data:
@@ -4630,15 +4546,14 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             image_data:
-              fileName: weave-flux.png
-              low_res: 398x386
+              fileName: weave-flux.svg
           - item:
             name: Zuul
             organization: Netflix
             homepage_url: 'https://github.com/Netflix/zuul'
             repo_url: 'https://github.com/Netflix/zuul'
             branch: 1.x
-            logo: ./src/hosted_logos/netflix-zuul.png
+            logo: ./src/hosted_logos/netflix-zuul.svg
             twitter: 'https://twitter.com/netflixoss'
             crunchbase: 'https://www.crunchbase.com/organization/netflix'
             crunchbase_data:
@@ -4666,11 +4581,10 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             yahoo_finance_data:
-              market_cap: 115946356736
+              market_cap: 116389191680
               effective_ticker: NFLX
             image_data:
-              fileName: zuul.png
-              low_res: 323x185
+              fileName: zuul.svg
   - category:
     name: App Definition and Developement
     subcategories:
@@ -4700,7 +4614,7 @@ landscape:
               kind: funding
               funding: 5370000
             github_data:
-              stars: 2158
+              stars: 2159
               license: Unknown License
               description: BigchainDB is a scalable blockchain database
               latest_commit_date: '2018-02-13T13:09:41Z'
@@ -4752,7 +4666,7 @@ landscape:
             homepage_url: 'http://cassandra.apache.org/'
             repo_url: 'https://github.com/apache/cassandra'
             branch: trunk
-            logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Cassandra_logo.svg/279px-Cassandra_logo.svg.png'
+            logo: 'https://upload.wikimedia.org/wikipedia/commons/5/5e/Cassandra_logo.svg'
             twitter: 'https://twitter.com/cassandra'
             crunchbase: 'https://www.crunchbase.com/organization/apache'
             crunchbase_data:
@@ -4778,8 +4692,7 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             image_data:
-              fileName: cassandra.png
-              low_res: 269x178
+              fileName: cassandra.svg
           - item:
             name: CockroachDB
             organization: CockroachDB
@@ -4805,8 +4718,8 @@ landscape:
               stars: 12531
               license: Unknown License
               description: 'CockroachDB - the open source, cloud-native SQL database.'
-              latest_commit_date: '2018-02-14T16:02:55Z'
-              latest_commit_link: /cockroachdb/cockroach/commit/2bda39329b804c2e9ccd7b2a21a92b015286aa74
+              latest_commit_date: '2018-02-14T17:36:08Z'
+              latest_commit_link: /cockroachdb/cockroach/commit/00539916398b5f2133ca6b7845bbff56d87eaf94
             github_start_commit_data:
               start_commit_link: /cockroachdb/cockroach/commit/8548987813ff9e1b8a9878023d3abfc6911c16db
               start_date: '2014-02-06T00:18:47Z'
@@ -4890,7 +4803,7 @@ landscape:
             organization: Druid
             homepage_url: 'http://druid.io/'
             repo_url: 'https://github.com/druid-io/druid'
-            logo: ./src/hosted_logos/druid.png
+            logo: ./src/hosted_logos/druid.svg
             twitter: 'https://twitter.com/druidio'
             crunchbase: 'https://www.crunchbase.com/organization/metamarkets'
             crunchbase_data:
@@ -4918,8 +4831,7 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             image_data:
-              fileName: druid.png
-              low_res: 400x232
+              fileName: druid.svg
           - item:
             name: Hadoop
             organization: Apache
@@ -4941,7 +4853,7 @@ landscape:
               twitter: 'http://twitter.com/TheASF'
               linkedin: 'http://www.linkedin.com/company/the-apache-software-foundation'
             github_data:
-              stars: 5715
+              stars: 5716
               license: Apache-2.0
               description: Mirror of Apache Hadoop
               latest_commit_date: '2018-02-14T16:20:14Z'
@@ -4977,7 +4889,7 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 141215531008
+              market_cap: 141905231872
               effective_ticker: IBM
             image_data:
               fileName: ibm-db2.png
@@ -5013,7 +4925,7 @@ landscape:
             homepage_url: 'https://mariadb.org/'
             repo_url: 'https://github.com/MariaDB/server'
             branch: '10.3'
-            logo: 'https://mariadb.org/wp-content/uploads/2015/10/mariadb-usa-inc.png'
+            logo: 'https://www.clearos.com/images/marketplace-svg/mariadb.svg'
             twitter: 'https://twitter.com/mariadbfdn'
             crunchbase: 'https://www.crunchbase.com/organization/mariadb-2'
             crunchbase_data:
@@ -5043,8 +4955,7 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             image_data:
-              fileName: maria-db.png
-              low_res: 236x167
+              fileName: maria-db.svg
           - item:
             name: MemSQL
             organization: MemSQL
@@ -5095,41 +5006,41 @@ landscape:
               stars: 13091
               license: Unknown License
               description: The MongoDB Database
-              latest_commit_date: '2018-02-13T20:04:24Z'
-              latest_commit_link: /mongodb/mongo/commit/5e96abd5e08a2ec0e566a3b8db47af8c2b4d5f21
+              latest_commit_date: '2018-02-08T20:34:13Z'
+              latest_commit_link: /mongodb/mongo/commit/87a217c70c86a9cd1a3ff1622caefc147b110144
             github_start_commit_data:
               start_commit_link: /mongodb/mongo/commit/e73188b5512c82290a4070af4afddac20d0b981e
               start_date: '2007-10-19T23:35:48Z'
             cncf_membership_data:
               cncf_member: false
             yahoo_finance_data:
-              market_cap: 1517956864
+              market_cap: 1526049920
               effective_ticker: MDB
             image_data:
               fileName: mongo-db.png
               low_res: 350x380
           - item:
             name: MySQL
-            organization: MySQL
+            organization: Oracle
             homepage_url: 'https://www.oracle.com/mysql/index.html'
             repo_url: 'https://github.com/mysql/mysql-server'
             branch: '5.7'
-            logo: 'https://www.mysql.com/common/logos/logo-mysql-170x115.png'
+            logo: 'https://chocolatey.org/content/packageimages/mysql-cli.5.7.19.svg'
             twitter: 'https://twitter.com/mysql'
-            crunchbase: 'https://www.crunchbase.com/organization/mysql'
+            crunchbase: 'https://www.crunchbase.com/organization/oracle'
             crunchbase_data:
-              name: MySQL
-              description: MySQL is an open-source database that supports scalable web-based and embedded database applications.
+              name: Oracle
+              description: Oracle is a computer technology corporation developing and marketing computer hardware systems and enterprise software products.
               num_employees_min: 10001
               num_employees_max: 1000000
-              homepage: 'http://www.mysql.com'
-              city: Cupertino
+              homepage: 'http://oracle.com'
+              city: Redwood Shores
               region: California
               country: United States
-              twitter: 'https://twitter.com/mysql'
-              linkedin: 'https://www.linkedin.com/company/165081'
-              kind: funding
-              funding: 40800000
+              twitter: 'http://twitter.com/Oracle'
+              linkedin: 'http://www.linkedin.com/company/1028'
+              ticker: ORCL
+              kind: market_cap
             github_data:
               stars: 2432
               license: GPL-2.0
@@ -5140,10 +5051,12 @@ landscape:
               start_commit_link: /mysql/mysql-server/commit/7eec25e393727b16bb916b50d82b0aa3084e065c
               start_date: '2000-07-31T19:10:05Z'
             cncf_membership_data:
-              cncf_member: false
+              cncf_member: true
+            yahoo_finance_data:
+              market_cap: 203047370752
+              effective_ticker: ORCL
             image_data:
-              fileName: my-sql.png
-              low_res: 169x115
+              fileName: my-sql.svg
           - item:
             name: NomsDB
             organization: attic-labs
@@ -5202,7 +5115,7 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 201350135808
+              market_cap: 203047370752
               effective_ticker: ORCL
             image_data:
               fileName: oracle.png
@@ -5247,7 +5160,7 @@ landscape:
             organization: PostgreSQL
             homepage_url: 'https://www.postgresql.org/'
             repo_url: 'https://github.com/postgres/postgres'
-            logo: 'http://logonoid.com/images/postgresql-logo.png'
+            logo: 'http://www.djc.space/images/tech/postgresql-logo.svg'
             twitter: 'https://twitter.com/postgresql'
             crunchbase: 'https://www.crunchbase.com/organization/postgresql'
             crunchbase_data:
@@ -5275,7 +5188,7 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             image_data:
-              fileName: postgre-sql.png
+              fileName: postgre-sql.svg
           - item:
             name: Qubole
             organization: Qubole
@@ -5345,7 +5258,7 @@ landscape:
             homepage_url: 'https://www.rethinkdb.com/'
             repo_url: 'https://github.com/rethinkdb/rethinkdb'
             branch: next
-            logo: 'http://10minbasics.com/wp-content/uploads/2015/09/rethinkdb_logo1.png'
+            logo: ./src/hosted_logos/rethinkdb.svg
             twitter: 'https://twitter.com/rethinkdb'
             crunchbase: 'https://www.crunchbase.com/organization/the-linux-foundation'
             crunchbase_data:
@@ -5371,8 +5284,7 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             image_data:
-              fileName: rethink-db.png
-              low_res: 475x89
+              fileName: rethink-db.svg
           - item:
             name: Scylla
             organization: scylla
@@ -5395,7 +5307,7 @@ landscape:
               kind: funding
               funding: 23000000
             github_data:
-              stars: 3726
+              stars: 3725
               license: AGPL-3.0
               description: 'NoSQL data store using the seastar framework, compatible with Apache Cassandra'
               latest_commit_date: '2018-02-14T14:37:42Z'
@@ -5455,7 +5367,7 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 689285169152
+              market_cap: 693096546304
               effective_ticker: MSFT
             image_data:
               fileName: sql-data-warehouse.png
@@ -5483,7 +5395,7 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 689285169152
+              market_cap: 693096546304
               effective_ticker: MSFT
             image_data:
               fileName: sql-server.png
@@ -5553,7 +5465,7 @@ landscape:
             organization: CNCF
             homepage_url: 'http://vitess.io/'
             cncf_project: incubating
-            logo: 'https://raw.githubusercontent.com/cncf/artwork/master/vitess/stacked/color/vitess-stacked-color.png'
+            logo: 'https://raw.githubusercontent.com/cncf/artwork/master/vitess/stacked/color/vitess-stacked-color.svg'
             repo_url: 'https://github.com/youtube/vitess'
             twitter: 'https://twitter.com/vitessio'
             crunchbase: 'https://www.crunchbase.com/organization/cloud-native-computing-foundation'
@@ -5580,7 +5492,7 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             image_data:
-              fileName: vitess.png
+              fileName: vitess.svg
       - subcategory:
         name: Streaming
         items:
@@ -5588,7 +5500,7 @@ landscape:
             name: Amazon Kinesis
             organization: Amazon Web Services
             homepage_url: 'https://aws.amazon.com/kinesis/'
-            logo: ./src/hosted_logos/aws-kinesis.png
+            logo: ./src/hosted_logos/aws-kinesis.svg
             twitter: 'https://twitter.com/awscloud'
             crunchbase: 'https://www.crunchbase.com/organization/amazon-web-services'
             crunchbase_data:
@@ -5607,11 +5519,10 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 695308386304
+              market_cap: 695798661120
               effective_ticker: AMZN
             image_data:
-              fileName: amazon-kinesis.png
-              low_res: 450x543
+              fileName: amazon-kinesis.svg
           - item:
             name: Apache NiFi
             organization: Apache
@@ -5664,7 +5575,7 @@ landscape:
               twitter: 'http://twitter.com/TheASF'
               linkedin: 'http://www.linkedin.com/company/the-apache-software-foundation'
             github_data:
-              stars: 4836
+              stars: 4837
               license: Apache-2.0
               description: Mirror of Apache Storm
               latest_commit_date: '2018-02-14T13:48:31Z'
@@ -5678,7 +5589,7 @@ landscape:
               fileName: apache-storm.png
               low_res: 255x80
           - item:
-            name: Apex
+            name: Apache Apex
             organization: Apache
             homepage_url: 'https://apex.apache.org/'
             repo_url: 'https://github.com/apache/apex-core'
@@ -5708,13 +5619,13 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             image_data:
-              fileName: apex.png
+              fileName: apache-apex.png
           - item:
             name: Flink
             organization: Apache
             homepage_url: 'https://flink.apache.org/'
             repo_url: 'https://github.com/apache/flink'
-            logo: 'http://www3.imperial.ac.uk/newseventsimages?p_image_type=MEDIUM&p_image_id=27451'
+            logo: 'https://flink.apache.org/img/flink-header-logo.svg'
             twitter: 'https://twitter.com/apacheflink'
             crunchbase: 'https://www.crunchbase.com/organization/apache'
             crunchbase_data:
@@ -5732,16 +5643,15 @@ landscape:
               stars: 3286
               license: Apache-2.0
               description: Mirror of Apache Flink
-              latest_commit_date: '2018-02-07T00:11:18Z'
-              latest_commit_link: /apache/flink/commit/ae3d547afe7ec44d37beeee38222a3ea40d9181e
+              latest_commit_date: '2018-02-14T16:52:35Z'
+              latest_commit_link: /apache/flink/commit/75b8398b58e6a7d0ea2c86e85d6c36de6f26537e
             github_start_commit_data:
               start_commit_link: /apache/flink/commit/3b88e30924268799c96317fe1bf9f5b9c6bf6f80
               start_date: '2010-12-15T16:02:01Z'
             cncf_membership_data:
               cncf_member: false
             image_data:
-              fileName: flink.png
-              low_res: 252x340
+              fileName: flink.svg
           - item:
             name: Google Cloud Dataflow
             organization: Google
@@ -5765,7 +5675,7 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             yahoo_finance_data:
-              market_cap: 741491212288
+              market_cap: 745757343744
               effective_ticker: GOOG
             image_data:
               fileName: google-cloud-dataflow.svg
@@ -5774,7 +5684,7 @@ landscape:
             organization: Twitter
             homepage_url: 'https://twitter.github.io/heron/'
             repo_url: 'https://github.com/twitter/heron'
-            logo: 'https://streaml.io/img/heron-logo.png'
+            logo: 'https://bazel.build/images/user-logos/heron.svg'
             twitter: 'https://twitter.com/heronstreaming'
             crunchbase: 'https://www.crunchbase.com/organization/twitter'
             crunchbase_data:
@@ -5791,7 +5701,7 @@ landscape:
               ticker: TWTR
               kind: market_cap
             github_data:
-              stars: 3088
+              stars: 3089
               license: Apache-2.0
               description: 'Heron is a realtime, distributed, fault-tolerant stream processing engine from Twitter'
               latest_commit_date: '2018-02-14T12:24:34Z'
@@ -5802,11 +5712,10 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 24622749696
+              market_cap: 24726300672
               effective_ticker: TWTR
             image_data:
-              fileName: heron.png
-              low_res: 259x90
+              fileName: heron.svg
           - item:
             name: Kafka
             organization: Apache
@@ -5831,8 +5740,8 @@ landscape:
               stars: 7417
               license: Apache-2.0
               description: Mirror of Apache Kafka
-              latest_commit_date: '2018-02-14T02:36:35Z'
-              latest_commit_link: /apache/kafka/commit/234b54c2c46fb7e7e60b3cedd5be642925f1da19
+              latest_commit_date: '2018-02-14T17:53:49Z'
+              latest_commit_link: /apache/kafka/commit/36b00300f5a9117abb4e8570c1714b3023a0ab01
             github_start_commit_data:
               start_commit_link: /apache/kafka/commit/642da2f28c9bc6e373603d6d9119ce33684090f5
               start_date: '2011-08-01T23:41:24Z'
@@ -5960,7 +5869,7 @@ landscape:
               twitter: 'http://twitter.com/TheASF'
               linkedin: 'http://www.linkedin.com/company/the-apache-software-foundation'
             github_data:
-              stars: 16169
+              stars: 16170
               license: Apache-2.0
               description: Mirror of Apache Spark
               latest_commit_date: '2018-02-14T14:45:54Z'
@@ -6034,7 +5943,7 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             yahoo_finance_data:
-              market_cap: 11890688000
+              market_cap: 11920879616
               effective_ticker: TEAM
             image_data:
               fileName: bitbucket.png
@@ -6088,8 +5997,8 @@ landscape:
               stars: 20360
               license: Unknown License
               description: GitLab CE | Please open new issues in our issue tracker on GitLab.com
-              latest_commit_date: '2018-02-13T20:03:42Z'
-              latest_commit_link: /gitlabhq/gitlabhq/commit/91002b129a6e8644c288bd3174eae8942285ca81
+              latest_commit_date: '2018-02-14T17:36:20Z'
+              latest_commit_link: /gitlabhq/gitlabhq/commit/dd633bc1888453a07474d045eca91a9e66302ce0
             github_start_commit_data:
               start_commit_link: /gitlabhq/gitlabhq/commit/93efff945215a4407afcaf0cba15ac601b56df0d
               start_date: '2011-10-08T21:34:49Z'
@@ -6101,7 +6010,6 @@ landscape:
             name: Microsoft Visual Studio Team Services
             organization: Microsoft
             homepage_url: 'https://www.visualstudio.com/team-services/'
-            repo_url: 'https://marketplace.visualstudio.com/items'
             logo: 'https://github.com/alexcontini/alexcontini.github.io/blob/master/Visual-Studio-Team-Services.png?raw=true'
             twitter: 'https://twitter.com/vsts'
             crunchbase: 'https://www.crunchbase.com/organization/microsoft'
@@ -6121,7 +6029,7 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 689285169152
+              market_cap: 693096546304
               effective_ticker: MSFT
             image_data:
               fileName: microsoft-visual-studio-team-services.png
@@ -6133,7 +6041,7 @@ landscape:
             name: Bitnami
             organization: Bitnami
             homepage_url: 'https://bitnami.com/'
-            logo: 'https://bitnami.com/downloads/logos/bitnami.png'
+            logo: 'https://about.gitlab.com/images/press/bitnami-logo.svg'
             twitter: 'https://twitter.com/bitnami'
             crunchbase: 'https://www.crunchbase.com/organization/bitnami'
             crunchbase_data:
@@ -6150,9 +6058,9 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             image_data:
-              fileName: bitnami.png
+              fileName: bitnami.svg
           - item:
-            name: Brooklyn
+            name: Apache Brooklyn
             organization: Apache
             homepage_url: 'https://brooklyn.apache.org/'
             repo_url: 'https://github.com/apache/brooklyn'
@@ -6182,7 +6090,7 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             image_data:
-              fileName: brooklyn.png
+              fileName: apache-brooklyn.png
               low_res: 357x183
           - item:
             name: Compose
@@ -6223,7 +6131,7 @@ landscape:
             organization: Chef
             homepage_url: 'https://www.habitat.sh/'
             repo_url: 'https://github.com/habitat-sh/habitat'
-            logo: 'https://brand.chef.io/images/habitat/logos/logo-1.png'
+            logo: 'https://www.chef.io/wp-content/uploads/2017/05/appauto_HabitatbyChef.svg'
             twitter: 'https://twitter.com/hashtag/habitatsh'
             crunchbase: 'https://www.crunchbase.com/organization/chef'
             crunchbase_data:
@@ -6249,16 +6157,15 @@ landscape:
               start_commit_link: /habitat-sh/habitat/commit/05225f2b130e431d50aeec984303adea1bd3da5c
               start_date: '2015-05-22T22:15:55Z'
             cncf_membership_data:
-              cncf_member: false
+              cncf_member: true
             image_data:
-              fileName: habitat.png
-              low_res: 672x240
+              fileName: habitat.svg
           - item:
             name: KubeVirt
             organization: KubeVirt
             homepage_url: 'http://www.kubevirt.io/'
             repo_url: 'https://github.com/kubevirt/kubevirt'
-            logo: 'https://raw.githubusercontent.com/kubevirt/community/master/logo/kubevirt-pre.png'
+            logo: ./src/hosted_logos/kubevirt.svg
             twitter: 'https://twitter.com/kubevirt'
             github_data:
               stars: 407
@@ -6272,7 +6179,7 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             image_data:
-              fileName: kube-virt.png
+              fileName: kube-virt.svg
           - item:
             name: OpenAPI
             organization: OpenAPI
@@ -6310,7 +6217,7 @@ landscape:
             organization: Hashicorp
             homepage_url: 'https://www.packer.io/intro/index.html'
             repo_url: 'https://github.com/hashicorp/packer'
-            logo: 'https://res.cloudinary.com/crunchbase-production/image/upload/v1494031899/ni0ybdyhq4v3cyh9n88z.png'
+            logo: 'https://www.datocms-assets.com/2885/1506457192-blog-packer-list.svg'
             twitter: 'https://twitter.com/HashiCorp'
             crunchbase: 'https://www.crunchbase.com/organization/hashicorp'
             crunchbase_data:
@@ -6327,7 +6234,7 @@ landscape:
               kind: funding
               funding: 74175000
             github_data:
-              stars: 7331
+              stars: 7330
               license: MPL-2.0
               description: Packer is a tool for creating identical machine images for multiple platforms from a single source configuration.
               latest_commit_date: '2018-02-14T01:06:20Z'
@@ -6338,7 +6245,7 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             image_data:
-              fileName: packer.png
+              fileName: packer.svg
       - subcategory:
         name: CI/CD
         items:
@@ -6388,7 +6295,7 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             yahoo_finance_data:
-              market_cap: 11890688000
+              market_cap: 11920879616
               effective_ticker: TEAM
             image_data:
               fileName: bamboo.svg
@@ -6552,7 +6459,7 @@ landscape:
             organization: Pivotal
             homepage_url: 'https://concourse.ci/'
             repo_url: 'https://github.com/concourse/concourse'
-            logo: 'https://avatars3.githubusercontent.com/u/7809479'
+            logo: ./src/hosted_logos/concourse.svg
             twitter: 'https://twitter.com/concourseci'
             crunchbase: 'https://www.crunchbase.com/organization/pivotal'
             crunchbase_data:
@@ -6578,10 +6485,9 @@ landscape:
               start_commit_link: /concourse/concourse/commit/c99ac1afac7eac0742aa12f3661553c5d075b1d9
               start_date: '2014-04-27T22:35:04Z'
             cncf_membership_data:
-              cncf_member: false
+              cncf_member: true
             image_data:
-              fileName: concourse.png
-              low_res: 460x460
+              fileName: concourse.svg
           - item:
             name: ContainerOps
             organization: Huawei
@@ -6661,7 +6567,7 @@ landscape:
               kind: funding
               funding: 28000
             github_data:
-              stars: 13131
+              stars: 13132
               license: Apache-2.0
               description: 'Drone is a Continuous Delivery platform built on Docker, written in Go'
               latest_commit_date: '2018-02-13T16:19:41Z'
@@ -6720,7 +6626,7 @@ landscape:
               twitter: 'http://twitter.com/jenkinsci'
               linkedin: null
             github_data:
-              stars: 9748
+              stars: 9747
               license: MIT
               description: Jenkins automation server
               latest_commit_date: '2018-02-14T15:45:51Z'
@@ -6862,7 +6768,7 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             yahoo_finance_data:
-              market_cap: 115946356736
+              market_cap: 116389191680
               effective_ticker: NFLX
             image_data:
               fileName: spinnaker.png
@@ -6895,7 +6801,7 @@ landscape:
             organization: Oracle
             homepage_url: 'https://www.wercker.com/'
             repo_url: 'https://github.com/wercker/wercker'
-            logo: 'https://d2lp05f39ek59n.cloudfront.net/uploads/Wercker_product_img_864555651_wercker.png'
+            logo: 'https://cdn.worldvectorlogo.com/logos/oracle-6.svg'
             twitter: 'https://twitter.com/wercker'
             crunchbase: 'https://www.crunchbase.com/organization/wercker'
             crunchbase_data:
@@ -6923,8 +6829,7 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             image_data:
-              fileName: wercker.png
-              low_res: 600x142
+              fileName: oracle-cloud.svg
           - item:
             name: XL Deploy
             organization: XebiaLabs
@@ -6960,7 +6865,7 @@ landscape:
             organization: Alauda
             certified_kubernetes: Platform
             homepage_url: 'https://www.alauda.cn/product/detail/id/68.html'
-            logo: 'https://www.cncf.io/wp-content/uploads/2017/11/alauda.png'
+            logo: 'http://cdn4.infoqstatic.com/statics_s1_20180206-0549-1/images/partners/cn/company/alauda.svg'
             crunchbase: 'https://www.crunchbase.com/organization/alauda'
             crunchbase_data:
               name: Alauda
@@ -6976,10 +6881,9 @@ landscape:
               kind: funding
               funding: 15000000
             cncf_membership_data:
-              cncf_member: false
+              cncf_member: true
             image_data:
-              fileName: alauda-ee.png
-              low_res: 282x84
+              fileName: alauda-ee.svg
           - item:
             name: Alibaba Cloud Container Service
             organization: Alibaba
@@ -6989,7 +6893,7 @@ landscape:
               microservices architecture.
             certified_kubernetes: Platform
             homepage_url: 'https://www.alibabacloud.com/product/container-service?spm=a3c0i.7911826.709257.dproducta4.1010a3feFbGgBW'
-            logo: 'https://seeklogo.com/images/A/alibaba-cloud-logo-898D58C1CE-seeklogo.com.png'
+            logo: ./src/hosted_logos/alibaba-cloud.svg
             crunchbase: 'https://www.crunchbase.com/organization/alibaba-cloud'
             crunchbase_data:
               name: Alibaba Cloud
@@ -7007,11 +6911,10 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             yahoo_finance_data:
-              market_cap: 471982604288
+              market_cap: 475602747392
               effective_ticker: BABA
             image_data:
-              fileName: alibaba-cloud.png
-              low_res: 300x148
+              fileName: alibaba-cloud.svg
           - item:
             name: Apprenda Kismatic Enterprise Toolkit (KET)
             organization: Apprenda
@@ -7054,7 +6957,7 @@ landscape:
             description: Kubernetes Cluster Manager for Kubeadm
             certified_kubernetes: Distribution
             homepage_url: 'https://appscode.com/products/pharmer/'
-            logo: 'https://kubernetes.io/images/square-logos/appscode.png'
+            logo: 'https://appscode.com/images/logo-color.svg'
             crunchbase: 'https://www.crunchbase.com/organization/appscode'
             crunchbase_data:
               name: AppsCode Inc.
@@ -7070,8 +6973,7 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             image_data:
-              fileName: appscode-pharmer.png
-              low_res: 151x31
+              fileName: appscode-pharmer.svg
           - item:
             name: Azure (ACS) Engine
             organization: Microsoft
@@ -7098,15 +7000,15 @@ landscape:
               stars: 657
               license: MIT
               description: Azure Container Service Engine - a place for community to collaborate and build the best open Docker container infrastructure for Azure.
-              latest_commit_date: '2018-02-14T01:09:31Z'
-              latest_commit_link: /Azure/acs-engine/commit/84f08198252354e0c5957f54884f0419f894f0ea
+              latest_commit_date: '2018-02-14T17:32:15Z'
+              latest_commit_link: /Azure/acs-engine/commit/bb26c506e5bdf5e5ca504e89487a656b5f9f1611
             github_start_commit_data:
               start_commit_link: /Azure/acs-engine/commit/d9bb7f4bbfd1b2932f1d0319e07429eee6127dbf
               start_date: '2016-05-17T17:19:35Z'
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 689285169152
+              market_cap: 693096546304
               effective_ticker: MSFT
             image_data:
               fileName: azure-cloud-services.svg
@@ -7136,7 +7038,7 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 689285169152
+              market_cap: 693096546304
               effective_ticker: MSFT
             image_data:
               fileName: azure-cloud-services.svg
@@ -7174,7 +7076,7 @@ landscape:
               users with a stable, easy-to-use, and secure multi-cloud hybrid cloud management solution across clusters.
             certified_kubernetes: Distribution
             homepage_url: 'https://caicloud.io/products/compass'
-            logo: 'https://image.pitchbook.com/RNFCWpPvnzY5XE28UPpaYPlM6xB1498539307943_200x200'
+            logo: 'https://caicloud.io/_static/caicloud_logo.svg'
             crunchbase: 'https://www.crunchbase.com/organization/caicloud'
             crunchbase_data:
               name: Caicloud
@@ -7192,8 +7094,7 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             image_data:
-              fileName: caicloud-compass.png
-              low_res: 173x197
+              fileName: caicloud-compass.svg
           - item:
             name: Canonical Distribution of Kubernetes
             organization: Canonical
@@ -7238,7 +7139,7 @@ landscape:
               of containers.
             certified_kubernetes: Platform
             homepage_url: 'https://www.cisco.com/c/en/us/products/cloud-systems-management/container-platform/index.html'
-            logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Cisco_logo.svg/2000px-Cisco_logo.svg.png'
+            logo: 'https://merchandise-store.cisco.com/skin/frontend/ultimo/fullpond/images/Cisco_Logo.svg'
             crunchbase: 'https://www.crunchbase.com/organization/cisco'
             crunchbase_data:
               name: Cisco
@@ -7256,10 +7157,10 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 206544437248
+              market_cap: 208151117824
               effective_ticker: CSCO
             image_data:
-              fileName: cisco-container-platform.png
+              fileName: cisco-container-platform.svg
           - item:
             name: Cloud Foundry Container Runtime
             organization: Cloud Foundry
@@ -7267,7 +7168,7 @@ landscape:
             certified_kubernetes: Platform
             homepage_url: 'https://www.cloudfoundry.org/'
             repo_url: 'https://github.com/cloudfoundry-incubator/kubo-deployment'
-            logo: 'https://www.cloudfoundry.org/wp-content/uploads/2017/01/CFF_Logo_vertical_RGB.png'
+            logo: ./src/hosted_logos/cloudfoundry.svg
             crunchbase: 'https://www.crunchbase.com/organization/cloud-foundry'
             crunchbase_data:
               name: Cloud Foundry
@@ -7284,15 +7185,15 @@ landscape:
               stars: 208
               license: Apache-2.0
               description: Contains scripts and configuration files used to build and deploy Kubo (Kubernetes on Bosh)
-              latest_commit_date: '2018-02-13T15:18:07Z'
-              latest_commit_link: /cloudfoundry-incubator/kubo-deployment/commit/3474195fb44fdecb311cde057e3f68dddd0ac9fd
+              latest_commit_date: '2018-02-14T11:14:44Z'
+              latest_commit_link: /cloudfoundry-incubator/kubo-deployment/commit/e577452eb6c0e8d5a916308f5a8343da2416a4d2
             github_start_commit_data:
               start_commit_link: /cloudfoundry-incubator/kubo-deployment/commit/5c6e3eee066c58c90224c12e3c3691a57f65ed52
               start_date: '2016-11-12T00:45:26Z'
             cncf_membership_data:
               cncf_member: true
             image_data:
-              fileName: cloud-foundry-container-runtime.png
+              fileName: cloud-foundry-container-runtime.svg
           - item:
             name: CoreOS bootkube
             organization: CoreOS
@@ -7316,7 +7217,7 @@ landscape:
               kind: funding
               funding: 48000000
             github_data:
-              stars: 641
+              stars: 642
               license: Apache-2.0
               description: bootkube - Launch a self-hosted Kubernetes cluster
               latest_commit_date: '2018-02-13T22:11:14Z'
@@ -7389,7 +7290,7 @@ landscape:
               deploy them using both Docker Swarm and Kubernetes.
             certified_kubernetes: Distribution
             homepage_url: 'https://www.docker.com/kubernetes'
-            logo: 'http://blog.iron.io/wp-content/uploads/2016/01/platform-docker-logo.png'
+            logo: 'https://mblum.me/images/docker.svg'
             crunchbase: 'https://www.crunchbase.com/organization/docker'
             crunchbase_data:
               name: Docker
@@ -7407,8 +7308,7 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             image_data:
-              fileName: docker-ee-ce.png
-              low_res: 340x205
+              fileName: docker-ee-ce.svg
           - item:
             name: EasyStack Kubernetes Service (EKS)
             organization: EasyStack
@@ -7496,7 +7396,7 @@ landscape:
             certified_kubernetes: Distribution
             homepage_url: 'https://github.com/kubernetes/kubernetes/tree/master/cluster'
             repo_url: 'https://github.com/kubernetes/kube-deploy'
-            logo: 'https://www.google.com/cloud/assets/press/Google_Cloud_Logo.png'
+            logo: 'https://www.google.com/cloud/assets/global/google/google_cloud_color.svg'
             crunchbase: 'https://www.crunchbase.com/organization/google-cloud-platform'
             crunchbase_data:
               name: Google Cloud Platform
@@ -7523,11 +7423,10 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             yahoo_finance_data:
-              market_cap: 741491212288
+              market_cap: 745757343744
               effective_ticker: GOOG
             image_data:
-              fileName: google-cloud.png
-              low_res: 376x68
+              fileName: google-cloud.svg
           - item:
             name: Google Kubernetes Engine (GKE)
             organization: Google
@@ -7554,7 +7453,7 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             yahoo_finance_data:
-              market_cap: 741491212288
+              market_cap: 745757343744
               effective_ticker: GOOG
             image_data:
               fileName: google-kubernetes-engine-gke.svg
@@ -7640,7 +7539,7 @@ landscape:
               supports native Kubernetes applications and tools, allowing you to set up a container runtime environment on the cloud with ease.
             certified_kubernetes: Platform
             homepage_url: 'http://www.huaweicloud.com/en-us/product/cce.html'
-            logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Huawei.svg/2000px-Huawei.svg.png'
+            logo: 'https://upload.wikimedia.org/wikipedia/commons/0/00/Huawei.svg'
             crunchbase: 'https://www.crunchbase.com/organization/huawei'
             crunchbase_data:
               name: Huawei Technologies
@@ -7656,7 +7555,7 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             image_data:
-              fileName: huawei-cloud-container-engine-cce.png
+              fileName: huawei.svg
           - item:
             name: IBM Cloud Container Service
             organization: IBM Cloud
@@ -7665,7 +7564,7 @@ landscape:
               security and isolation to automate the deployment, operation, scaling, and monitoring of containerized apps in a cluster of compute hosts.
             certified_kubernetes: Platform
             homepage_url: 'https://console.bluemix.net/docs/containers/cs_ov.html#cs_ov'
-            logo: ./src/hosted_logos/ibm-cloud.png
+            logo: ./src/hosted_logos/ibm-cloud.svg
             crunchbase: 'https://www.crunchbase.com/organization/ibm-cloud'
             crunchbase_data:
               name: IBM Cloud
@@ -7683,18 +7582,17 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             yahoo_finance_data:
-              market_cap: 141215531008
+              market_cap: 141905231872
               effective_ticker: IBM
             image_data:
-              fileName: ibm-cloud.png
-              low_res: 439x253
+              fileName: ibm-cloud.svg
           - item:
             name: IBM Cloud Private
             organization: IBM Cloud
             description: 'Build open, cloud-native apps with public services and run them anywhere — on public cloud or on your existing on-premises systems.'
             certified_kubernetes: Distribution
             homepage_url: 'https://www.ibm.com/cloud-computing/products/ibm-cloud-private/'
-            logo: ./src/hosted_logos/ibm-cloud.png
+            logo: ./src/hosted_logos/ibm-cloud.svg
             crunchbase: 'https://www.crunchbase.com/organization/ibm-cloud'
             crunchbase_data:
               name: IBM Cloud
@@ -7712,11 +7610,10 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             yahoo_finance_data:
-              market_cap: 141215531008
+              market_cap: 141905231872
               effective_ticker: IBM
             image_data:
-              fileName: ibm-cloud.png
-              low_res: 439x253
+              fileName: ibm-cloud.svg
           - item:
             name: inwinSTACK kube-ansible
             organization: inwinSTACK
@@ -7918,7 +7815,7 @@ landscape:
               easy to follow up the latest developments in the community. Comply with Kubernetes conformance standards, portability is good.
             certified_kubernetes: Distribution
             homepage_url: 'https://www.163yun.com/product/container-service-dedicated'
-            logo: 'https://www.cncf.io/wp-content/uploads/2017/11/NetEase-Cloud-logo-300x48.jpg'
+            logo: ./src/hosted_logos/netease-cloud.svg
             crunchbase: 'https://www.crunchbase.com/organization/netease-com'
             crunchbase_data:
               name: NetEase.com
@@ -7935,9 +7832,11 @@ landscape:
               kind: market_cap
             cncf_membership_data:
               cncf_member: false
+            yahoo_finance_data:
+              market_cap: 40198070272
+              effective_ticker: NTES
             image_data:
-              fileName: netease-container-service-dedicated.png
-              low_res: 300x48
+              fileName: netease-container-service-dedicated.svg
           - item:
             name: Nirmata Managed Kubernetes
             organization: Nirmata
@@ -7969,7 +7868,7 @@ landscape:
             certified_kubernetes: Distribution
             homepage_url: 'https://www.openshift.com/'
             repo_url: 'https://github.com/openshift/origin'
-            logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/OpenShift-LogoType.svg/2000px-OpenShift-LogoType.svg.png'
+            logo: 'https://upload.wikimedia.org/wikipedia/commons/3/3a/OpenShift-LogoType.svg'
             crunchbase: 'https://www.crunchbase.com/organization/red-hat'
             crunchbase_data:
               name: Red Hat
@@ -7988,25 +7887,25 @@ landscape:
               stars: 4065
               license: Apache-2.0
               description: Enterprise Kubernetes for Developers
-              latest_commit_date: '2018-02-13T22:08:28Z'
-              latest_commit_link: /openshift/origin/commit/a26198c56a2a016c36dd8589f12f84fd40c1c5f3
+              latest_commit_date: '2018-02-14T17:29:21Z'
+              latest_commit_link: /openshift/origin/commit/a658a12b56541924514d1d64883bae52a07920ce
             github_start_commit_data:
               start_commit_link: /openshift/origin/commit/e0a5699f2049372633b18c43a98a522999b1f297
               start_date: '2014-07-30T18:17:42Z'
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 23513743360
+              market_cap: 23707029504
               effective_ticker: RHT
             image_data:
-              fileName: open-shift.png
+              fileName: open-shift.svg
           - item:
             name: Oracle Container Engine
             organization: Oracle
             description: Next generation of container-native development. Container life cycle made easy.
             certified_kubernetes: Platform
             homepage_url: 'http://www.wercker.com/product'
-            logo: 'http://1000logos.net/wp-content/uploads/2017/04/Oracle-Logo.png'
+            logo: 'https://cdn.worldvectorlogo.com/logos/oracle-6.svg'
             crunchbase: 'https://www.crunchbase.com/organization/oracle'
             crunchbase_data:
               name: Oracle
@@ -8024,11 +7923,10 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 201350135808
+              market_cap: 203047370752
               effective_ticker: ORCL
             image_data:
-              fileName: oracle-container-engine.png
-              low_res: 1926x243
+              fileName: oracle-cloud.svg
           - item:
             name: Oracle Linux Container Services
             organization: Oracle
@@ -8037,7 +7935,7 @@ landscape:
               to announce Oracle Container Services for use with Kubernetes.
             certified_kubernetes: Distribution
             homepage_url: 'https://blogs.oracle.com/linux/announcing-oracle-linux-container-services-for-use-with-kubernetes'
-            logo: 'http://1000logos.net/wp-content/uploads/2017/04/Oracle-Logo.png'
+            logo: 'https://cdn.worldvectorlogo.com/logos/oracle-6.svg'
             crunchbase: 'https://www.crunchbase.com/organization/oracle'
             crunchbase_data:
               name: Oracle
@@ -8055,11 +7953,10 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 201350135808
+              market_cap: 203047370752
               effective_ticker: ORCL
             image_data:
-              fileName: oracle-container-engine.png
-              low_res: 1926x243
+              fileName: oracle-cloud.svg
           - item:
             name: Oracle Terraform Kubernetes Installer
             organization: Oracle
@@ -8067,7 +7964,7 @@ landscape:
             certified_kubernetes: Distribution
             homepage_url: 'https://github.com/oracle/terraform-kubernetes-installer'
             repo_url: 'https://github.com/oracle/terraform-kubernetes-installer'
-            logo: 'http://1000logos.net/wp-content/uploads/2017/04/Oracle-Logo.png'
+            logo: 'https://cdn.worldvectorlogo.com/logos/oracle-6.svg'
             crunchbase: 'https://www.crunchbase.com/organization/oracle'
             crunchbase_data:
               name: Oracle
@@ -8086,19 +7983,18 @@ landscape:
               stars: 75
               license: Unknown License
               description: Terraform Installer for Kubernetes on Oracle Cloud Infrastructure
-              latest_commit_date: '2018-02-13T20:06:37Z'
-              latest_commit_link: /oracle/terraform-kubernetes-installer/commit/7ae71db382bf37b2bc3fa2a9b372f7c94a9c6519
+              latest_commit_date: '2018-02-14T17:09:36Z'
+              latest_commit_link: /oracle/terraform-kubernetes-installer/commit/a981cbcf81f091a87ff13460ecc39e7dd73676fe
             github_start_commit_data:
               start_commit_link: /oracle/terraform-kubernetes-installer/commit/bbb988d23fef02317a01a5403805cdbc921cd562
               start_date: '2017-09-09T01:03:47Z'
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 201350135808
+              market_cap: 203047370752
               effective_ticker: ORCL
             image_data:
-              fileName: oracle-container-engine.png
-              low_res: 1926x243
+              fileName: oracle-cloud.svg
           - item:
             name: Pivotal Container Service (PKS)
             organization: Pivotal
@@ -8123,7 +8019,7 @@ landscape:
               kind: funding
               funding: 1704000000
             cncf_membership_data:
-              cncf_member: false
+              cncf_member: true
             image_data:
               fileName: pivotal-container-service-pks.png
               low_res: 600x138
@@ -8178,7 +8074,7 @@ landscape:
               kind: funding
               funding: 30000000
             github_data:
-              stars: 7717
+              stars: 7718
               license: Unknown License
               description: Complete container management platform
               latest_commit_date: '2018-02-14T00:10:31Z'
@@ -8238,7 +8134,7 @@ landscape:
               open standards, SAP Cloud Platform offers complete flexibility and control over your choice of clouds, frameworks, and applications.
             certified_kubernetes: Platform
             homepage_url: 'https://cloudplatform.sap.com/index.html'
-            logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/SAP_2011_logo.svg/2000px-SAP_2011_logo.svg.png'
+            logo: 'https://www.ariba.com/frontend/aribacom/dist/assets/images/sap_logo.svg'
             crunchbase: 'https://www.crunchbase.com/organization/sap'
             crunchbase_data:
               name: SAP
@@ -8255,8 +8151,11 @@ landscape:
               kind: market_cap
             cncf_membership_data:
               cncf_member: true
+            yahoo_finance_data:
+              market_cap: 118318170112
+              effective_ticker: SAP
             image_data:
-              fileName: sap-cloud-platform-gardener-aws-azure-gce.png
+              fileName: sap-cloud-platform-gardener-aws-azure-gce.svg
           - item:
             name: StackPointCloud (SPC)
             organization: StackPointCloud
@@ -8337,15 +8236,15 @@ landscape:
               stars: 431
               license: Apache-2.0
               description: 'Install a Kubernetes cluster the CoreOS Tectonic Way: HA, self-hosted, RBAC, etcd Operator, and more'
-              latest_commit_date: '2018-02-13T12:46:47Z'
-              latest_commit_link: /coreos/tectonic-installer/commit/42d3deb01d0e502ebc35f85ea7541cc3e706dfb9
+              latest_commit_date: '2018-02-14T16:38:24Z'
+              latest_commit_link: /coreos/tectonic-installer/commit/095e604493e35dec6cf968e0b65dbc5130fae5c8
             github_start_commit_data:
               start_commit_link: /coreos/tectonic-installer/commit/054de85da2173bb7857ed08032375fb643efeeac
               start_date: '2014-01-19T20:25:11Z'
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 23513743360
+              market_cap: 23707029504
               effective_ticker: RHT
             image_data:
               fileName: tectonic.png
@@ -8357,7 +8256,7 @@ landscape:
             certified_kubernetes: Platform
             stock_ticker: TCEHY
             homepage_url: 'https://cloud.tencent.com/product/ccs?lang=en'
-            logo: 'https://www.cncf.io/wp-content/uploads/2017/05/logo_tencent-300x184.png'
+            logo: ./src/hosted_logos/tencent-cloud.svg
             crunchbase: 'https://www.crunchbase.com/organization/tencent'
             crunchbase_data:
               name: Tencent Holdings
@@ -8375,11 +8274,10 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             yahoo_finance_data:
-              market_cap: 529111678976
+              market_cap: 531379683328
               effective_ticker: TCEHY
             image_data:
-              fileName: tencent-cloud-container-service-ccs.png
-              low_res: 250x174
+              fileName: tencent-cloud.svg
           - item:
             name: TenxCloud Container Engine (TCE)
             organization: TenxCloud
@@ -8415,7 +8313,7 @@ landscape:
             repo_url: 'https://github.com/poseidon/typhoon'
             logo: 'https://kubernetes.io/images/square-logos/poseidon.png'
             github_data:
-              stars: 300
+              stars: 301
               license: MIT
               description: Minimal and free Kubernetes distribution
               latest_commit_date: '2018-02-14T00:19:03Z'
@@ -8434,7 +8332,7 @@ landscape:
             description: VMware and Pivotal Launch Pivotal Container Service (PKS) and Collaborate with Google Cloud to Bring Kubernetes to Enterprise Customers.
             certified_kubernetes: Distribution
             homepage_url: 'https://www.vmware.com/radius/pivotal-container-services/'
-            logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Vmware.svg/1000px-Vmware.svg.png'
+            logo: 'https://practice-labs.com/images/vmware-logo.svg'
             crunchbase: 'https://www.crunchbase.com/organization/vmware'
             crunchbase_data:
               name: VMware
@@ -8451,11 +8349,10 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 49525501952
+              market_cap: 49600081920
               effective_ticker: VMW
             image_data:
-              fileName: project-hatchway.png
-              low_res: 989x151
+              fileName: v-mware.svg
           - item:
             name: Weaveworks kubeadm
             organization: Weaveworks
@@ -8517,7 +8414,7 @@ landscape:
               needing to install and operate your own Kubernetes clusters.
             certified_kubernetes: false
             homepage_url: 'https://aws.amazon.com/eks/'
-            logo: 'https://cdn-images-1.medium.com/max/1600/1*5YAnP-tNi1Tkjzk1urIJYw.png'
+            logo: 'https://d33wubrfki0l68.cloudfront.net/c009a5857974740fb8db35232c37148662905585/0a972/img/amazon-eks.svg'
             crunchbase: 'https://www.crunchbase.com/organization/amazon-web-services'
             crunchbase_data:
               name: Amazon Web Services
@@ -8535,11 +8432,10 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 695308386304
+              market_cap: 695798661120
               effective_ticker: AMZN
             image_data:
-              fileName: amazon-elastic-container-service-for-kubernetes-eks.png
-              low_res: 933x249
+              fileName: amazon-elastic-container-service-for-kubernetes-eks.svg
           - item:
             name: Cloud66 Maestro
             organization: Cloud66
@@ -8622,7 +8518,7 @@ landscape:
               multiple deployments of Kubernetes applications across various regions, data centers and cloud providers.
             certified_kubernetes: false
             homepage_url: 'http://gravitational.com/telekube/'
-            logo: 'http://p6.zdassets.com/hc/settings_assets/1487247/115000080947/1LXmhqqWlVJFpwdDgxO4UQ-gravitational-logo-300in-width.png'
+            logo: ./src/hosted_logos/gravitational.svg
             crunchbase: 'https://www.crunchbase.com/organization/gravitational'
             crunchbase_data:
               name: Gravitational
@@ -8640,8 +8536,7 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             image_data:
-              fileName: gravitatonal-telekube.png
-              low_res: 299x316
+              fileName: gravitatonal-telekube.svg
           - item:
             name: Huawei FusionStage
             organization: Huawei
@@ -8650,7 +8545,7 @@ landscape:
               IT networks, and Cloud Service Providers (CSPs).
             certified_kubernetes: false
             homepage_url: 'http://e.huawei.com/us/solutions/technical/cloud-computing'
-            logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Huawei.svg/2000px-Huawei.svg.png'
+            logo: 'https://upload.wikimedia.org/wikipedia/commons/0/00/Huawei.svg'
             crunchbase: 'https://www.crunchbase.com/organization/huawei'
             crunchbase_data:
               name: Huawei Technologies
@@ -8666,7 +8561,7 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             image_data:
-              fileName: huawei-cloud-container-engine-cce.png
+              fileName: huawei.svg
           - item:
             name: Navops
             organization: Univa
@@ -8759,7 +8654,7 @@ landscape:
             name: ZTE TECS
             organization: ZTE
             homepage_url: 'https://sdnfv.zte.com.cn/en/products/126'
-            logo: 'https://icdn2.digitaltrends.com/image/zte-new-logo-2015-720x480.jpg?ver=1'
+            logo: 'https://vignette.wikia.nocookie.net/logopedia/images/5/5d/ZTE.svg/revision/latest?cb=20141230214441'
             twitter: 'https://twitter.com/ZTEPress'
             crunchbase: 'https://www.crunchbase.com/organization/zte-corporation'
             crunchbase_data:
@@ -8775,9 +8670,6 @@ landscape:
               linkedin: 'https://www.linkedin.com/company/5804'
             cncf_membership_data:
               cncf_member: true
-            image_data:
-              fileName: zte-tecs.png
-              low_res: 678x340
       - subcategory:
         name: PaaS/Container Service
         items:
@@ -8802,7 +8694,10 @@ landscape:
               ticker: ERIC
               kind: market_cap
             cncf_membership_data:
-              cncf_member: false
+              cncf_member: true
+            yahoo_finance_data:
+              market_cap: 22099677184
+              effective_ticker: ERIC
             image_data:
               fileName: apcera.png
               low_res: 371x295
@@ -8861,19 +8756,6 @@ landscape:
             logo: 'https://ulam.io/wp-content/uploads/2017/05/c2-1288x724.png'
             twitter: 'https://twitter.com/goconvox'
             crunchbase: 'https://www.crunchbase.com/organization/convox'
-            crunchbase_data:
-              name: Convox
-              description: Launch a Private Cloud in Minutes.
-              num_employees_min: 1
-              num_employees_max: 10
-              homepage: 'http://convox.com/'
-              city: San Francisco
-              region: California
-              country: United States
-              twitter: 'https://twitter.com/goconvox'
-              linkedin: 'https://www.linkedin.com/company/convox'
-              kind: funding
-              funding: 120000
             cncf_membership_data:
               cncf_member: false
             image_data:
@@ -8883,7 +8765,7 @@ landscape:
             name: Datawire
             organization: Datawire
             homepage_url: 'https://www.datawire.io/'
-            logo: 'https://pbs.twimg.com/profile_images/654723996970147841/kBqGPhZe_400x400.png'
+            logo: 'http://playbook.microservices.com/images/datawire-logo.svg'
             twitter: 'https://twitter.com/datawireio'
             crunchbase: 'https://www.crunchbase.com/organization/datawire'
             crunchbase_data:
@@ -8902,8 +8784,7 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             image_data:
-              fileName: datawire.png
-              low_res: 179x206
+              fileName: datawire.svg
           - item:
             name: Empire
             organization: Remind
@@ -8943,7 +8824,7 @@ landscape:
             name: Exoscale
             organization: Exoscale
             homepage_url: 'https://www.exoscale.ch/'
-            logo: 'https://avatars0.githubusercontent.com/u/2023286'
+            logo: 'https://www.exoscale.ch/static/img/exoscale-logo-full-201711.svg'
             twitter: 'https://twitter.com/Exoscale'
             crunchbase: 'https://www.crunchbase.com/organization/exoscale'
             crunchbase_data:
@@ -8960,8 +8841,7 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             image_data:
-              fileName: exoscale.png
-              low_res: 326x280
+              fileName: exoscale.svg
           - item:
             name: Flynn
             organization: Flynn
@@ -9041,6 +8921,9 @@ landscape:
               kind: market_cap
             cncf_membership_data:
               cncf_member: true
+            yahoo_finance_data:
+              market_cap: 78427340800
+              effective_ticker: CRM
             image_data:
               fileName: heroku.png
               low_res: 512x512
@@ -9088,7 +8971,7 @@ landscape:
               kind: funding
               funding: 17000000
             github_data:
-              stars: 2009
+              stars: 2010
               license: Apache-2.0
               description: IronFunctions - the serverless microservices platform by
               latest_commit_date: '2018-01-26T04:49:30Z'
@@ -9172,7 +9055,7 @@ landscape:
             name: Lightbend
             organization: Lightbend
             homepage_url: 'https://www.lightbend.com/'
-            logo: 'https://upload.wikimedia.org/wikipedia/en/thumb/b/b1/Lightbend_full-color_logo.svg/1280px-Lightbend_full-color_logo.svg.png'
+            logo: 'https://upload.wikimedia.org/wikipedia/en/b/b1/Lightbend_full-color_logo.svg'
             twitter: 'https://twitter.com/lightbend'
             crunchbase: 'https://www.crunchbase.com/organization/typesafe'
             crunchbase_data:
@@ -9191,8 +9074,7 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             image_data:
-              fileName: lightbend.png
-              low_res: 1270x269
+              fileName: lightbend.svg
           - item:
             name: Mantl
             organization: Mantl
@@ -9227,11 +9109,43 @@ landscape:
               fileName: mantl.png
               low_res: 639x257
           - item:
+            name: No Code
+            organization: No Code
+            homepage_url: 'https://github.com/kelseyhightower/nocode'
+            repo_url: 'https://github.com/kelseyhightower/nocode'
+            logo: ./src/hosted_logos/nocode.svg
+            twitter: 'hhttps://twitter.com/kelseyhightower'
+            crunchbase: 'https://www.crunchbase.com/organization/no-code'
+            crunchbase_data:
+              name: No Code
+              description: The best way to write secure and reliable applications. Write nothing; deploy nowhere.
+              num_employees_min: null
+              num_employees_max: null
+              homepage: 'https://github.com/kelseyhightower/nocode'
+              city: null
+              region: null
+              country: null
+              twitter: null
+              linkedin: null
+            github_data:
+              stars: 13176
+              license: Apache-2.0
+              description: The best way to write secure and reliable applications. Write nothing; deploy nowhere.
+              latest_commit_date: '2018-02-07T01:31:48Z'
+              latest_commit_link: /kelseyhightower/nocode/commit/ed6c73fc16578ec53ea374585df2b965ce9f4a31
+            github_start_commit_data:
+              start_commit_link: /kelseyhightower/nocode/commit/c46f06e642e9c19c83242ec918ff5c9bee52e384
+              start_date: '2018-02-06T23:53:05Z'
+            cncf_membership_data:
+              cncf_member: false
+            image_data:
+              fileName: no-code.svg
+          - item:
             name: PaaSTA
             organization: Yelp
             homepage_url: 'https://engineeringblog.yelp.com/2015/11/introducing-paasta-an-open-platform-as-a-service.html'
             repo_url: 'https://github.com/Yelp/paasta'
-            logo: 'https://engineeringblog.yelp.com/images/posts/introducing-paasta-an-open-platform-as-a-service/paasta_logo.png'
+            logo: ./src/hosted_logos/paasta.svg
             twitter: 'https://twitter.com/Yelp'
             crunchbase: 'https://www.crunchbase.com/organization/yelp'
             crunchbase_data:
@@ -9258,9 +9172,11 @@ landscape:
               start_date: '2013-08-20T13:28:10Z'
             cncf_membership_data:
               cncf_member: false
+            yahoo_finance_data:
+              market_cap: 3337143296
+              effective_ticker: YELP
             image_data:
-              fileName: paa-sta.png
-              low_res: 700x256
+              fileName: paa-sta.svg
           - item:
             name: Platform.sh
             organization: Platform.sh
@@ -9414,11 +9330,11 @@ landscape:
         name: Serverless/Event-based
         items:
           - item:
-            name: Apex (Serverless)
+            name: Apex
             organization: Apex
             homepage_url: 'http://apex.run'
             repo_url: 'https://github.com/apex/apex'
-            logo: ./src/hosted_logos/apex.png
+            logo: ./src/hosted_logos/apex.svg
             twitter: 'https://twitter.com/apexserverless'
             crunchbase: 'https://www.crunchbase.com/organization/apex-7f19'
             crunchbase_data:
@@ -9433,7 +9349,7 @@ landscape:
               twitter: null
               linkedin: null
             github_data:
-              stars: 6685
+              stars: 6686
               license: MIT
               description: 'Build, deploy, and manage AWS Lambda functions with ease (with Go support!).'
               latest_commit_date: '2018-02-07T23:20:38Z'
@@ -9444,13 +9360,12 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             image_data:
-              fileName: apex-serverless.png
-              low_res: 341x102
+              fileName: apex.svg
           - item:
             name: AWS Lambda
             organization: Amazon Web Services
             homepage_url: 'https://aws.amazon.com/lambda/'
-            logo: ./src/hosted_logos/aws-lambda.png
+            logo: ./src/hosted_logos/aws-lambda.svg
             twitter: 'https://twitter.com/awscloud'
             crunchbase: 'https://www.crunchbase.com/organization/amazon-web-services'
             crunchbase_data:
@@ -9469,11 +9384,10 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 695308386304
+              market_cap: 695798661120
               effective_ticker: AMZN
             image_data:
-              fileName: aws-lambda.png
-              low_res: 479x540
+              fileName: aws-lambda.svg
           - item:
             name: Azure Functions
             organization: Microsoft
@@ -9497,7 +9411,7 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 689285169152
+              market_cap: 693096546304
               effective_ticker: MSFT
             image_data:
               fileName: azure-functions.png
@@ -9525,7 +9439,7 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             yahoo_finance_data:
-              market_cap: 741491212288
+              market_cap: 745757343744
               effective_ticker: GOOG
             image_data:
               fileName: firebase.png
@@ -9573,7 +9487,7 @@ landscape:
               https://camo.githubusercontent.com/aad13cfe0e267f38143fd8cc6816ab8adde37a56/687474703a2f2f666e70726f6a6563742e696f2f696d616765732f666e2d333030783132352e706e67
             twitter: 'https://twitter.com/fnproj'
             github_data:
-              stars: 2175
+              stars: 2176
               license: Apache-2.0
               description: 'The container native, cloud agnostic serverless platform.'
               latest_commit_date: '2018-02-14T04:01:41Z'
@@ -9609,7 +9523,7 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             yahoo_finance_data:
-              market_cap: 741491212288
+              market_cap: 745757343744
               effective_ticker: GOOG
             image_data:
               fileName: google-cloud-functions.svg
@@ -9633,7 +9547,7 @@ landscape:
               twitter: null
               linkedin: null
             github_data:
-              stars: 1925
+              stars: 1926
               license: Apache-2.0
               description: Kubernetes Native Serverless Framework
               latest_commit_date: '2018-02-14T10:28:57Z'
@@ -9701,7 +9615,7 @@ landscape:
               kind: funding
               funding: 48000000
             github_data:
-              stars: 1739
+              stars: 1740
               license: Apache-2.0
               description: High-Performance Serverless event and data processing platform
               latest_commit_date: '2018-02-06T14:18:51Z'
@@ -9733,7 +9647,7 @@ landscape:
               twitter: 'https://twitter.com/openfaas'
               linkedin: 'https://www.linkedin.com/company/11372926/'
             github_data:
-              stars: 8705
+              stars: 8707
               license: MIT
               description: OpenFaaS - Serverless Functions Made Simple for Docker & Kubernetes
               latest_commit_date: '2018-02-14T10:26:58Z'
@@ -9750,7 +9664,7 @@ landscape:
             organization: Apache
             homepage_url: 'http://openwhisk.incubator.apache.org/'
             repo_url: 'https://github.com/apache/incubator-openwhisk'
-            logo: 'https://cdn-images-1.medium.com/max/1200/1*4Q3kFLD0dZiwbLAKZJGy8Q.png'
+            logo: ./src/hosted_logos/apache-openwhisk.svg
             twitter: 'https://twitter.com/openwhisk'
             crunchbase: 'https://www.crunchbase.com/organization/apache'
             crunchbase_data:
@@ -9765,7 +9679,7 @@ landscape:
               twitter: 'http://twitter.com/TheASF'
               linkedin: 'http://www.linkedin.com/company/the-apache-software-foundation'
             github_data:
-              stars: 2425
+              stars: 2426
               license: Apache-2.0
               description: Apache OpenWhisk is a serverless event-based programming service and an Apache Incubator project.
               latest_commit_date: '2018-02-14T15:33:56Z'
@@ -9776,13 +9690,12 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             image_data:
-              fileName: open-whisk.png
-              low_res: 800x144
+              fileName: open-whisk.svg
           - item:
             name: Oracle Application Container Cloud
             organization: Oracle
             homepage_url: 'https://cloud.oracle.com/acc'
-            logo: 'https://docs.oracle.com/en/cloud/paas/app-container-cloud/sp_common/shared-images/cloudgs_appcontainer.png'
+            logo: ./src/hosted_logos/oracle-applicationcontainercloud.svg
             twitter: 'https://twitter.com/hashtag/OracleCloudZone'
             crunchbase: 'https://www.crunchbase.com/organization/oracle'
             crunchbase_data:
@@ -9801,11 +9714,10 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 201350135808
+              market_cap: 203047370752
               effective_ticker: ORCL
             image_data:
-              fileName: oracle-application-container-cloud.png
-              low_res: 209x146
+              fileName: oracle-application-container-cloud.svg
           - item:
             name: PubNub
             organization: Blocks
@@ -9853,7 +9765,7 @@ landscape:
               kind: funding
               funding: 3000000
             github_data:
-              stars: 21818
+              stars: 21820
               license: Unknown License
               description: >-
                 Serverless Framework – Build web, mobile and IoT applications with serverless architectures using AWS Lambda, Azure Functions, Google
@@ -9901,7 +9813,7 @@ landscape:
             name: Amazon CloudWatch
             organization: Amazon Web Services
             homepage_url: 'https://aws.amazon.com/cloudwatch/'
-            logo: ./src/hosted_logos/aws-cloudwatch.png
+            logo: ./src/hosted_logos/aws-cloudwatch.svg
             twitter: 'https://twitter.com/awscloud'
             crunchbase: 'https://www.crunchbase.com/organization/amazon-web-services'
             crunchbase_data:
@@ -9920,11 +9832,10 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 695308386304
+              market_cap: 695798661120
               effective_ticker: AMZN
             image_data:
-              fileName: amazon-cloud-watch.png
-              low_res: 502x537
+              fileName: amazon-cloud-watch.svg
           - item:
             name: AppDynamics
             organization: Cisco
@@ -10048,13 +9959,12 @@ landscape:
             name: Cobe
             organization: Cobe
             homepage_url: 'https://cobe.io/'
-            logo: 'https://pbs.twimg.com/profile_images/630677512163561472/MB2Z1voJ_400x400.png'
+            logo: ./src/hosted_logos/cobe.svg
             twitter: 'https://twitter.com/cobeio'
             cncf_membership_data:
               cncf_member: false
             image_data:
-              fileName: cobe.png
-              low_res: 400x400
+              fileName: cobe.svg
           - item:
             name: CoScale
             organization: CoScale
@@ -10146,7 +10056,7 @@ landscape:
               twitter: 'https://www.twitter.com/raintanksaas'
               linkedin: null
             github_data:
-              stars: 20258
+              stars: 20259
               license: Apache-2.0
               description: 'The tool for beautiful monitoring and metric analytics & dashboards for Graphite, InfluxDB & Prometheus & More'
               latest_commit_date: '2018-02-14T15:39:05Z'
@@ -10255,11 +10165,11 @@ landscape:
               kind: funding
               funding: 59892000
             github_data:
-              stars: 12598
+              stars: 12597
               license: Unknown License
               description: 'Scalable datastore for metrics, events, and real-time analytics'
-              latest_commit_date: '2018-02-13T14:15:30Z'
-              latest_commit_link: /influxdata/influxdb/commit/56b4a91acfc93bb33a140fd05e05d54070f9d0db
+              latest_commit_date: '2018-02-14T17:05:17Z'
+              latest_commit_link: /influxdata/influxdb/commit/26545b33d698e05c7964f861df581dff7c5379ea
             github_start_commit_data:
               start_commit_link: /influxdata/influxdb/commit/2bb37643603faece3ba36c1db40caab2027a1c20
               start_date: '2013-04-11T14:33:27Z'
@@ -10369,7 +10279,7 @@ landscape:
             name: Log Analytics
             organization: Microsoft
             homepage_url: 'https://azure.microsoft.com/en-us/services/log-analytics/'
-            logo: 'https://i1.wp.com/www.tjopsta.net/wp-content/uploads/2016/10/LogAnalytics-Logo.png'
+            logo: ./src/hosted_logos/loganalytics.svg
             twitter: 'https://twitter.com/azure'
             crunchbase: 'https://www.crunchbase.com/organization/microsoft'
             crunchbase_data:
@@ -10388,11 +10298,10 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 689285169152
+              market_cap: 693096546304
               effective_ticker: MSFT
             image_data:
-              fileName: log-analytics.png
-              low_res: 600x315
+              fileName: log-analytics.svg
           - item:
             name: Meros
             organization: Meros Inc
@@ -10421,7 +10330,7 @@ landscape:
             organization: Nagios Enterprises
             homepage_url: 'https://www.nagios.com/'
             repo_url: 'https://github.com/NagiosEnterprises/nagioscore'
-            logo: 'https://pbs.twimg.com/profile_images/2278848253/3gaoi2h254k0canb4hxj_400x400.png'
+            logo: 'https://redislabs.com/wp-content/uploads/2016/11/nagios.svg'
             twitter: 'https://twitter.com/nagiosinc'
             crunchbase: 'https://www.crunchbase.com/organization/nagios'
             crunchbase_data:
@@ -10447,8 +10356,7 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             image_data:
-              fileName: nagios.png
-              low_res: 394x93
+              fileName: nagios.svg
           - item:
             name: Netsil
             organization: Netsil
@@ -10477,7 +10385,7 @@ landscape:
             name: New Relic
             organization: New Relic
             homepage_url: 'https://newrelic.com/'
-            logo: ./src/hosted_logos/new-relic.png
+            logo: ./src/hosted_logos/newrelic.svg
             twitter: 'https://twitter.com/NewRelic'
             crunchbase: 'https://www.crunchbase.com/organization/new-relic'
             crunchbase_data:
@@ -10496,10 +10404,10 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             yahoo_finance_data:
-              market_cap: 3823232000
+              market_cap: 3796065792
               effective_ticker: NEWR
             image_data:
-              fileName: new-relic.png
+              fileName: new-relic.svg
           - item:
             name: NodeSource
             organization: NodeSource
@@ -10626,7 +10534,7 @@ landscape:
             homepage_url: 'https://prometheus.io/'
             cncf_project: incubating
             repo_url: 'https://github.com/prometheus/prometheus'
-            logo: 'https://raw.githubusercontent.com/cncf/artwork/master/prometheus/stacked/color/prometheus-stacked-color.png'
+            logo: 'https://raw.githubusercontent.com/cncf/artwork/master/prometheus/stacked/color/prometheus-stacked-color.svg'
             twitter: 'https://twitter.com/PrometheusIO'
             crunchbase: 'https://www.crunchbase.com/organization/cloud-native-computing-foundation'
             crunchbase_data:
@@ -10641,7 +10549,7 @@ landscape:
               twitter: 'https://twitter.com/cloudnativefdn'
               linkedin: 'https://www.linkedin.com/company/cloud-native-computing-foundation'
             github_data:
-              stars: 14699
+              stars: 14701
               license: Apache-2.0
               description: The Prometheus monitoring system and time series database.
               latest_commit_date: '2018-02-14T06:15:39Z'
@@ -10652,12 +10560,12 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             image_data:
-              fileName: prometheus.png
+              fileName: prometheus.svg
           - item:
             name: Rocana
             organization: Rocana
             homepage_url: 'https://www.rocana.com/'
-            logo: ./src/hosted_logos/rocana.png
+            logo: ./src/hosted_logos/rocana.svg
             twitter: 'https://twitter.com/rocanainc'
             crunchbase: 'https://www.crunchbase.com/organization/rocana'
             crunchbase_data:
@@ -10676,8 +10584,7 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             image_data:
-              fileName: rocana.png
-              low_res: 402x401
+              fileName: rocana.svg
           - item:
             name: Sensu
             organization: sensu
@@ -10734,7 +10641,7 @@ landscape:
               kind: funding
               funding: 10500000
             github_data:
-              stars: 15682
+              stars: 15684
               license: BSD-3-Clause
               description: Sentry is a cross-platform crash reporting and aggregation platform.
               latest_commit_date: '2018-02-14T01:50:31Z'
@@ -10807,7 +10714,7 @@ landscape:
               fileName: signal-fx.png
               low_res: 359x109
           - item:
-            name: Stackdriver
+            name: Google Stackdriver
             organization: Google Cloud
             homepage_url: 'https://cloud.google.com/stackdriver/'
             logo: ./src/hosted_logos/google-stackdriver.svg
@@ -10829,15 +10736,15 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             yahoo_finance_data:
-              market_cap: 741491212288
+              market_cap: 745757343744
               effective_ticker: GOOG
             image_data:
-              fileName: stackdriver.svg
+              fileName: google-stackdriver.svg
           - item:
             name: StackRox
             organization: stackrox
             homepage_url: 'https://www.stackrox.com/'
-            logo: 'https://pbs.twimg.com/media/DU38cFAWkAIdlxu.png'
+            logo: ./src/hosted_logos/stackrox.svg
             twitter: 'https://twitter.com/StackRox'
             crunchbase: 'https://www.crunchbase.com/organization/stackrox'
             crunchbase_data:
@@ -10856,7 +10763,7 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             image_data:
-              fileName: stack-rox.png
+              fileName: stack-rox.svg
           - item:
             name: StackState
             organization: stackstate
@@ -10944,7 +10851,7 @@ landscape:
             name: Weave Cloud
             organization: Weave
             homepage_url: 'https://www.weave.works/product/cloud/'
-            logo: ./src/hosted_logos/weave-cloud.png
+            logo: ./src/hosted_logos/weave-cloud.svg
             twitter: 'https://twitter.com/weaveworks'
             crunchbase: 'https://www.crunchbase.com/organization/weaveworks'
             crunchbase_data:
@@ -10963,14 +10870,13 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             image_data:
-              fileName: weave-cloud.png
-              low_res: 398x386
+              fileName: weave-cloud.svg
           - item:
             name: Weave Scope
             organization: Weaveworks
             homepage_url: 'https://www.weave.works/oss/scope/'
             repo_url: 'https://github.com/weaveworks/scope'
-            logo: ./src/hosted_logos/weave-scope.png
+            logo: ./src/hosted_logos/weave-scope.svg
             twitter: 'https://twitter.com/weaveworks'
             crunchbase: 'https://www.crunchbase.com/organization/weaveworks'
             crunchbase_data:
@@ -10998,8 +10904,7 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             image_data:
-              fileName: weave-scope.png
-              low_res: 400x400
+              fileName: weave-scope.svg
           - item:
             name: Zabbix
             organization: Zabbix
@@ -11042,7 +10947,7 @@ landscape:
             organization: Elastic
             homepage_url: 'https://www.elastic.co/'
             repo_url: 'https://github.com/elastic/elasticsearch'
-            logo: 'https://www.rittmanmead.com/blog/content/images/2016/06/elastic.png'
+            logo: 'https://www.elastic.co/assets/blt45b0886c90beceee/logo-elastic.svg'
             twitter: 'https://twitter.com/elastic'
             crunchbase: 'https://www.crunchbase.com/organization/elasticsearch'
             crunchbase_data:
@@ -11070,15 +10975,14 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             image_data:
-              fileName: elastic.png
-              low_res: 218x265
+              fileName: elastic.svg
           - item:
             name: Fluentd
             organization: CNCF
             homepage_url: 'https://www.fluentd.org/'
             cncf_project: incubating
             repo_url: 'https://github.com/fluent/fluentd'
-            logo: 'https://raw.githubusercontent.com/cncf/artwork/master/fluentd/stacked/color/fluentd-stacked-color.png'
+            logo: 'https://raw.githubusercontent.com/cncf/artwork/master/fluentd/stacked/color/fluentd-stacked-color.svg'
             twitter: 'https://twitter.com/fluentd'
             crunchbase: 'https://www.crunchbase.com/organization/cloud-native-computing-foundation'
             crunchbase_data:
@@ -11093,7 +10997,7 @@ landscape:
               twitter: 'https://twitter.com/cloudnativefdn'
               linkedin: 'https://www.linkedin.com/company/cloud-native-computing-foundation'
             github_data:
-              stars: 6036
+              stars: 6037
               license: Unknown License
               description: 'Fluentd: Unified Logging Layer (project under CNCF)'
               latest_commit_date: '2018-02-08T21:10:55Z'
@@ -11104,7 +11008,7 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             image_data:
-              fileName: fluentd.png
+              fileName: fluentd.svg
           - item:
             name: Graylog
             organization: Graylog
@@ -11130,8 +11034,8 @@ landscape:
               stars: 4071
               license: GPL-3.0
               description: Free and open source log management
-              latest_commit_date: '2018-02-14T14:04:45Z'
-              latest_commit_link: /Graylog2/graylog2-server/commit/a88950653eddf45d2645d21d1cfa3b533af97582
+              latest_commit_date: '2018-02-14T16:39:19Z'
+              latest_commit_link: /Graylog2/graylog2-server/commit/60406c5ec8bffd138d1b2f3256ea5e0e99791e6c
             github_start_commit_data:
               start_commit_link: /Graylog2/graylog2-server/commit/a94595708f220747318c0dc26e11d40c2d26d795
               start_date: '2010-05-17T21:28:14Z'
@@ -11258,6 +11162,9 @@ landscape:
               kind: market_cap
             cncf_membership_data:
               cncf_member: true
+            yahoo_finance_data:
+              market_cap: 13008250880
+              effective_ticker: SPLK
             image_data:
               fileName: splunk.png
               low_res: 275x82
@@ -11294,7 +11201,7 @@ landscape:
             organization: Sourcegraph
             homepage_url: 'https://github.com/sourcegraph/appdash'
             repo_url: 'https://github.com/sourcegraph/appdash'
-            logo: ./src/hosted_logos/appdash.png
+            logo: ./src/hosted_logos/appdash.svg
             github_data:
               stars: 1233
               license: Unknown License
@@ -11307,14 +11214,14 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             image_data:
-              fileName: appdash.png
+              fileName: appdash.svg
           - item:
             name: Jaeger
             organization: CNCF
             homepage_url: 'http://jaegertracing.io/'
             cncf_project: incubating
             repo_url: 'https://github.com/jaegertracing/jaeger'
-            logo: 'https://raw.githubusercontent.com/cncf/artwork/master/jaeger/stacked/color/jaeger-stacked-color.png'
+            logo: 'https://raw.githubusercontent.com/cncf/artwork/master/jaeger/stacked/color/jaeger-stacked-color.svg'
             twitter: 'https://twitter.com/JaegerTracing'
             crunchbase: 'https://www.crunchbase.com/organization/cloud-native-computing-foundation'
             crunchbase_data:
@@ -11329,7 +11236,7 @@ landscape:
               twitter: 'https://twitter.com/cloudnativefdn'
               linkedin: 'https://www.linkedin.com/company/cloud-native-computing-foundation'
             github_data:
-              stars: 3969
+              stars: 3970
               license: Apache-2.0
               description: 'CNCF Jaeger, a Distributed Tracing System'
               latest_commit_date: '2018-02-12T14:57:27Z'
@@ -11340,14 +11247,14 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             image_data:
-              fileName: jaeger.png
+              fileName: jaeger.svg
           - item:
             name: OpenTracing
             organization: CNCF
             homepage_url: 'http://opentracing.io/'
             cncf_project: incubating
             repo_url: 'https://github.com/opentracing/opentracing-go'
-            logo: 'https://raw.githubusercontent.com/cncf/artwork/master/opentracing/stacked/color/opentracing-stacked-color.png'
+            logo: 'https://raw.githubusercontent.com/cncf/artwork/master/opentracing/stacked/color/opentracing-stacked-color.svg'
             twitter: 'https://twitter.com/opentracing'
             crunchbase: 'https://www.crunchbase.com/organization/cloud-native-computing-foundation'
             crunchbase_data:
@@ -11373,7 +11280,7 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             image_data:
-              fileName: open-tracing.png
+              fileName: open-tracing.svg
           - item:
             name: Skywalking
             organization: Apache
@@ -11431,13 +11338,13 @@ landscape:
               stars: 587
               license: Apache-2.0
               description: Distributed tracing for spring cloud
-              latest_commit_date: '2018-02-14T15:33:10Z'
-              latest_commit_link: /spring-cloud/spring-cloud-sleuth/commit/a560b52db73a92a187f1b4cafd3c802ab9c7ef68
+              latest_commit_date: '2018-02-14T17:13:54Z'
+              latest_commit_link: /spring-cloud/spring-cloud-sleuth/commit/98afee22ae7f7d0e7ce3aaefb30f71127de0e545
             github_start_commit_data:
               start_commit_link: /spring-cloud/spring-cloud-sleuth/commit/f0c8a4e458bac2cfd68d91e3fd7610ab059c2fb9
               start_date: '2015-03-06T20:51:47Z'
             cncf_membership_data:
-              cncf_member: false
+              cncf_member: true
             image_data:
               fileName: spring-cloud-sleuth.png
               low_res: 366x238
@@ -11500,7 +11407,10 @@ landscape:
               ticker: ACN
               kind: market_cap
             cncf_membership_data:
-              cncf_member: false
+              cncf_member: true
+            yahoo_finance_data:
+              market_cap: 97427382272
+              effective_ticker: ACN
             image_data:
               fileName: accenture.png
               low_res: 982x259
@@ -11509,7 +11419,7 @@ landscape:
             organization: Bitnami
             description: 'Bitnami brings a catalog of trusted, up to date, and easy to use applications and application building blocks to Kubernetes.'
             homepage_url: 'https://bitnami.com/kubernetes'
-            logo: 'https://www.cncf.io/wp-content/uploads/2017/03/logo_bitnami_17-300x184.png'
+            logo: 'https://about.gitlab.com/images/press/bitnami-logo.svg'
             crunchbase: 'https://www.crunchbase.com/organization/bitnami'
             crunchbase_data:
               name: Bitnami
@@ -11525,8 +11435,7 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             image_data:
-              fileName: bitnami-kcsp.png
-              low_res: 300x184
+              fileName: bitnami.svg
           - item:
             name: Booz Allan Hamilton
             organization: Booz Allan Hamilton
@@ -11534,7 +11443,7 @@ landscape:
               Booz Allen partners with public and private sector clients to solve their most difficult challenges through a combination of consulting,
               analytics, mission operations, technology, systems delivery, cybersecurity, engineering, and innovation expertise.
             homepage_url: 'https://www.boozallen.com/'
-            logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Booz_Allen_Hamilton_logo.svg/1280px-Booz_Allen_Hamilton_logo.svg.png'
+            logo: 'http://b.oflogo.com/wp-content/uploads/boflogo-booz-allen-hamilton.svg'
             crunchbase: 'https://www.crunchbase.com/organization/booz-allen-hamilton'
             crunchbase_data:
               name: Booz Allen Hamilton
@@ -11550,8 +11459,7 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             image_data:
-              fileName: booz-allan-hamilton.png
-              low_res: 1153x129
+              fileName: booz-allan-hamilton.svg
           - item:
             name: Caicloud
             organization: Caicloud
@@ -11559,7 +11467,7 @@ landscape:
               Founded by ex-Googlers,and early Kubernetes contributors, Caicloud leverages Kubernetes to provide container products which have successfully
               served Fortune 500 enterprises, and further utilizes Kubernetes as a vehicle to deliver ultra-speed deep learning experience.
             homepage_url: 'https://caicloud.io/'
-            logo: 'https://image.pitchbook.com/RNFCWpPvnzY5XE28UPpaYPlM6xB1498539307943_200x200'
+            logo: 'https://caicloud.io/_static/caicloud_logo.svg'
             crunchbase: 'https://www.crunchbase.com/organization/caicloud'
             crunchbase_data:
               name: Caicloud
@@ -11577,8 +11485,7 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             image_data:
-              fileName: caicloud-compass.png
-              low_res: 173x197
+              fileName: caicloud-compass.svg
           - item:
             name: Canonical
             organization: Canonical
@@ -11729,7 +11636,7 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 23513743360
+              market_cap: 23707029504
               effective_ticker: RHT
             image_data:
               fileName: core-os-kcsp.png
@@ -11826,7 +11733,7 @@ landscape:
               FusionStage is an enterprise-grade Platform as a Service product, the core of which is based on mainstream open source container technology
               including Kubernetes and Docker.
             homepage_url: 'http://developer.huawei.com/ict/en/site-paas'
-            logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Huawei.svg/2000px-Huawei.svg.png'
+            logo: 'https://upload.wikimedia.org/wikipedia/commons/0/00/Huawei.svg'
             crunchbase: 'https://www.crunchbase.com/organization/huawei'
             crunchbase_data:
               name: Huawei Technologies
@@ -11842,7 +11749,7 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             image_data:
-              fileName: huawei-cloud-container-engine-cce.png
+              fileName: huawei.svg
           - item:
             name: IBM Cloud (KCSP)
             organization: IBM Cloud
@@ -11850,7 +11757,7 @@ landscape:
               The IBM Bluemix Container Service combines Docker and Kubernetes to deliver powerful tools, an intuitive user experiences, and built-in security
               and isolation to enable rapid delivery of applications all while leveraging Cloud Services including cognitive capabilities from Watson.
             homepage_url: 'https://www.ibm.com/cloud-computing/bluemix/containers'
-            logo: ./src/hosted_logos/ibm-cloud.png
+            logo: ./src/hosted_logos/ibm-cloud.svg
             crunchbase: 'https://www.crunchbase.com/organization/ibm-cloud'
             crunchbase_data:
               name: IBM Cloud
@@ -11868,19 +11775,18 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             yahoo_finance_data:
-              market_cap: 141215531008
+              market_cap: 141905231872
               effective_ticker: IBM
             image_data:
-              fileName: ibm-cloud.png
-              low_res: 439x253
+              fileName: ibm-cloud.svg
           - item:
-            name: inwinSTACK INC
-            organization: inwinSTACK INC
+            name: inwinSTACK
+            organization: inwinSTACK
             description: 'Our container service leverages OpenStack-based infrastructure and its container orchestration engine Magnum to manage Kubernetes clusters. '
             homepage_url: 'http://www.inwinstack.com/index.php/en/solutions-en/'
             logo: 'https://pbs.twimg.com/profile_images/913967961135661056/llUSv_YQ_400x400.jpg'
             cncf_membership_data:
-              cncf_member: false
+              cncf_member: true
             image_data:
               fileName: inwin-stack-kube-ansible.png
               low_res: 240x192

@@ -59,7 +59,7 @@ tree.map(function(node) {
     }
     const getAmount = function() {
       if (node.yahoo_finance_data) {
-        return node.yahoo_finance_data.marketCap;
+        return node.yahoo_finance_data.market_cap;
       }
       if (node.crunchbase_data) {
         return node.crunchbase_data.funding;
@@ -80,8 +80,8 @@ tree.map(function(node) {
       cncfProject: node.cncf_project,
       cncfMember: node.cncf_membership_data.cncf_member,
       cncfRelation: node.cncf_project || ( node.cncf_membership_data.cncf_member ? 'member' : false ),
-      firstCommitDate: (node.github_start_commit_data || {}).first_commit_date,
-      firstCommitLink: (node.github_start_commit_data || {}).first_commit_link,
+      firstCommitDate: (node.github_start_commit_data || {}).start_date,
+      firstCommitLink: (node.github_start_commit_data || {}).start_commit_link,
       latestCommitDate:(node.github_data || {}).latest_commit_date,
       latestCommitLink:(node.github_data || {}).latest_commit_link,
       stars: (node.github_data || {}).stars,
@@ -89,7 +89,7 @@ tree.map(function(node) {
       headquarters: getHeadquarters(),
       twitter: getTwitter(),
       description: getDescription(),
-      organization: (node.crunchbase_data || {}).organization || node.organization,
+      organization: (node.crunchbase_data || {}).name || node.organization,
       crunchbaseData: node.crunchbase_data,
       path: parts.join(' / '),
       landscape: parts.join(' / '),
