@@ -252,7 +252,7 @@ landscape:
             organization: Docker
             homepage_url: 'https://github.com/docker/infrakit'
             repo_url: 'https://github.com/docker/infrakit'
-            logo: 'https://raw.githubusercontent.com/docker-library/docs/471fa6e4cb58062ccbf91afc111980f9c7004981/swarm/logo.png'
+            logo: ./src/hosted_logos/infrakit.svg
             twitter: 'https://twitter.com/docker'
             crunchbase: 'https://www.crunchbase.com/organization/docker'
           - item:
@@ -482,7 +482,7 @@ landscape:
             organization: Scytale
             homepage_url: 'https://spiffe.io/'
             repo_url: 'https://github.com/spiffe/spiffe'
-            logo: 'https://spiffe.io/img/spiffe-logo-color-basic.svg'
+            logo: ./src/hosted_logos/spiffe.svg
             twitter: 'https://twitter.com/spiffeio'
             crunchbase: 'https://www.crunchbase.com/organization/scytale-io'
           - item:
@@ -656,7 +656,7 @@ landscape:
             organization: Sheepdog
             homepage_url: 'https://sheepdog.github.io/sheepdog/'
             repo_url: 'https://github.com/sheepdog/sheepdog'
-            logo: 'https://avatars3.githubusercontent.com/u/4846685'
+            logo: ./src/hosted_logos/sheepdog.svg
           - item:
             name: Springpath
             organization: Cisco
@@ -709,7 +709,7 @@ landscape:
             organization: Intel
             homepage_url: 'https://clearlinux.org/containers'
             repo_url: 'https://github.com/clearcontainers/runtime'
-            logo: 'https://cdn.thenewstack.io/media/2015/11/ClearContainers.jpg'
+            logo: ./src/hosted_logos/intel-clearcontainers.svg
             twitter: 'https://twitter.com/clearlinux/'
             crunchbase: 'https://www.crunchbase.com/organization/intel'
           - item:
@@ -1000,7 +1000,7 @@ landscape:
             homepage_url: 'https://github.com/vmware/haret'
             stock_ticker: VMW
             repo_url: 'https://github.com/vmware/haret'
-            logo: 'https://practice-labs.com/images/vmware-logo.svg'
+            logo: ./src/hosted_logos/vmware-haret.svg
             twitter: 'https://twitter.com/VMware'
             crunchbase: 'https://www.crunchbase.com/organization/vmware'
           - item:
@@ -1040,7 +1040,7 @@ landscape:
             organization: Datawire
             homepage_url: 'https://www.getambassador.io/'
             repo_url: 'https://github.com/datawire/ambassador'
-            logo: 'https://www.datawire.io/wp-content/uploads/2017/05/ambassador_logo@2x-1.png'
+            logo: ./src/hosted_logos/ambassador.svg
             twitter: 'https://twitter.com/datawireio'
             crunchbase: 'https://www.crunchbase.com/organization/datawire'
           - item:
@@ -1360,7 +1360,7 @@ landscape:
             homepage_url: 'https://www.rethinkdb.com/'
             repo_url: 'https://github.com/rethinkdb/rethinkdb'
             branch: next
-            logo: 'http://10minbasics.com/wp-content/uploads/2015/09/rethinkdb_logo1.png'
+            logo: ./src/hosted_logos/rethinkdb.svg
             twitter: 'https://twitter.com/rethinkdb'
             crunchbase: 'https://www.crunchbase.com/organization/the-linux-foundation'
           - item:
@@ -1593,7 +1593,7 @@ landscape:
             organization: KubeVirt
             homepage_url: 'http://www.kubevirt.io/'
             repo_url: 'https://github.com/kubevirt/kubevirt'
-            logo: 'https://raw.githubusercontent.com/kubevirt/community/master/logo/kubevirt-pre.png'
+            logo: ./src/hosted_logos/kubevirt.svg
             twitter: 'https://twitter.com/kubevirt'
           - item:
             name: OpenAPI
@@ -1676,7 +1676,7 @@ landscape:
             organization: Pivotal
             homepage_url: 'https://concourse.ci/'
             repo_url: 'https://github.com/concourse/concourse'
-            logo: 'https://avatars3.githubusercontent.com/u/7809479'
+            logo: ./src/hosted_logos/concourse.svg
             twitter: 'https://twitter.com/concourseci'
             crunchbase: 'https://www.crunchbase.com/organization/pivotal'
           - item:
@@ -2101,7 +2101,7 @@ landscape:
               easy to follow up the latest developments in the community. Comply with Kubernetes conformance standards, portability is good.
             certified_kubernetes: Distribution
             homepage_url: 'https://www.163yun.com/product/container-service-dedicated'
-            logo: 'https://www.cncf.io/wp-content/uploads/2017/11/NetEase-Cloud-logo-300x48.jpg'
+            logo: ./src/hosted_logos/netease-cloud.svg
             crunchbase: 'https://www.crunchbase.com/organization/netease-com'
           - item:
             name: Nirmata Managed Kubernetes
@@ -2328,7 +2328,7 @@ landscape:
               multiple deployments of Kubernetes applications across various regions, data centers and cloud providers.
             certified_kubernetes: false
             homepage_url: 'http://gravitational.com/telekube/'
-            logo: 'http://p6.zdassets.com/hc/settings_assets/1487247/115000080947/1LXmhqqWlVJFpwdDgxO4UQ-gravitational-logo-300in-width.png'
+            logo: ./src/hosted_logos/gravitational.svg
             crunchbase: 'https://www.crunchbase.com/organization/gravitational'
           - item:
             name: Huawei FusionStage
@@ -2513,7 +2513,7 @@ landscape:
             organization: Yelp
             homepage_url: 'https://engineeringblog.yelp.com/2015/11/introducing-paasta-an-open-platform-as-a-service.html'
             repo_url: 'https://github.com/Yelp/paasta'
-            logo: 'https://engineeringblog.yelp.com/images/posts/introducing-paasta-an-open-platform-as-a-service/paasta_logo.png'
+            logo: ./src/hosted_logos/paasta.svg
             twitter: 'https://twitter.com/Yelp'
             crunchbase: 'https://www.crunchbase.com/organization/yelp'
           - item:
@@ -2653,7 +2653,7 @@ landscape:
             name: Oracle Application Container Cloud
             organization: Oracle
             homepage_url: 'https://cloud.oracle.com/acc'
-            logo: 'https://docs.oracle.com/en/cloud/paas/app-container-cloud/sp_common/shared-images/cloudgs_appcontainer.png'
+            logo: ./src/hosted_logos/oracle-applicationcontainercloud.svg
             twitter: 'https://twitter.com/hashtag/OracleCloudZone'
             crunchbase: 'https://www.crunchbase.com/organization/oracle'
           - item:
@@ -2730,7 +2730,7 @@ landscape:
             name: Cobe
             organization: Cobe
             homepage_url: 'https://cobe.io/'
-            logo: 'https://pbs.twimg.com/profile_images/630677512163561472/MB2Z1voJ_400x400.png'
+            logo: ./src/hosted_logos/cobe.svg
             twitter: 'https://twitter.com/cobeio'
           - item:
             name: CoScale
@@ -2822,7 +2822,7 @@ landscape:
             name: Log Analytics
             organization: Microsoft
             homepage_url: 'https://azure.microsoft.com/en-us/services/log-analytics/'
-            logo: 'https://i1.wp.com/www.tjopsta.net/wp-content/uploads/2016/10/LogAnalytics-Logo.png'
+            logo: ./src/hosted_logos/loganalytics.svg
             twitter: 'https://twitter.com/azure'
             crunchbase: 'https://www.crunchbase.com/organization/microsoft'
           - item:
@@ -2947,7 +2947,7 @@ landscape:
             name: StackRox
             organization: stackrox
             homepage_url: 'https://www.stackrox.com/'
-            logo: 'https://pbs.twimg.com/media/DU38cFAWkAIdlxu.png'
+            logo: ./src/hosted_logos/stackrox.svg
             twitter: 'https://twitter.com/StackRox'
             crunchbase: 'https://www.crunchbase.com/organization/stackrox'
           - item:
