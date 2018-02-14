@@ -6,6 +6,7 @@ import Filters from './Filters';
 import Grouping from './Grouping';
 import Sorting from './Sorting';
 import Presets from './Presets';
+import Note from './Note';
 import MainContentContainer from './MainContentContainer';
 import HomePageUrlContainer from './HomePageUrlContainer';
 import ResetFiltersContainer from './ResetFiltersContainer';
@@ -36,6 +37,7 @@ const HomePage = ({ready, filtersVisible, hideFilters, showFilters}) => {
         <Sorting/>
         <Filters />
         <Presets />
+        <Note />
       </div>
 
       <div className="app-overlay" onClick={hideFilters}></div>
