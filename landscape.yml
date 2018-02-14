@@ -9,7 +9,7 @@ landscape:
             name: Alibaba Cloud
             organization: Alibaba
             homepage_url: 'https://www.alibabacloud.com/'
-            logo: 'https://seeklogo.com/images/A/alibaba-cloud-logo-898D58C1CE-seeklogo.com.png'
+            logo: ./src/hosted_logos/alibaba-cloud.svg
             twitter: 'https://twitter.com/alibaba_cloud'
             crunchbase: 'https://www.crunchbase.com/organization/alibaba-cloud'
           - item:
@@ -59,7 +59,7 @@ landscape:
             name: IBM Cloud
             organization: IBM Cloud
             homepage_url: 'https://www.ibm.com/cloud/'
-            logo: ./src/hosted_logos/ibm-cloud.png
+            logo: ./src/hosted_logos/ibm-cloud.svg
             twitter: 'https://twitter.com/IBMcloud'
             crunchbase: 'https://www.crunchbase.com/organization/ibm-cloud'
           - item:
@@ -82,14 +82,14 @@ landscape:
             name: Packet
             organization: Packet
             homepage_url: 'https://www.packet.net/'
-            logo: 'https://assets.packet.net/company/logo.svg'
+            logo: ./src/hosted_logos/packet.svg
             twitter: 'https://twitter.com/packethost'
             crunchbase: 'https://www.crunchbase.com/organization/packet-host'
           - item:
             name: Tencent Cloud
             organization: Tencent Cloud
             homepage_url: 'https://cloud.tencent.com/'
-            logo: 'https://pbs.twimg.com/profile_images/852439695199846400/OqpOmsZ0_400x400.jpg'
+            logo: ./src/hosted_logos/tencent-cloud.svg
             stock_ticker: TCEHY
             twitter: 'https://twitter.com/tencentcloud'
             crunchbase: 'https://www.crunchbase.com/organization/tencent'
@@ -101,7 +101,7 @@ landscape:
             organization: RackN
             homepage_url: 'http://rebar.digital/'
             repo_url: 'https://github.com/digitalrebar/provision'
-            logo: 'http://rebar.digital/logo.png'
+            logo: ./src/hosted_logos/digitalrebar.svg
             twitter: 'https://twitter.com/digitalrebar'
             crunchbase: 'https://www.crunchbase.com/organization/rackn-inc'
           - item:
@@ -110,7 +110,7 @@ landscape:
             homepage_url: 'https://theforeman.org/'
             repo_url: 'https://github.com/theforeman/foreman'
             branch: develop
-            logo: 'https://raw.githubusercontent.com/theforeman/foreman-graphics/master/logo/foreman_medium.png'
+            logo: ./src/hosted_logos/foreman.svg
             twitter: 'https://twitter.com/foremanproject'
             crunchbase: 'https://www.crunchbase.com/organization/foreman'
           - item:
@@ -214,7 +214,7 @@ landscape:
             name: AWS CloudFormation
             organization: Amazon Web Services
             homepage_url: 'https://aws.amazon.com/cloudformation/'
-            logo: ./src/hosted_logos/aws-cloudformation.png
+            logo: ./src/hosted_logos/aws-cloudformation.svg
             twitter: 'https://twitter.com/awscloudformer'
             crunchbase: 'https://www.crunchbase.com/organization/amazon-web-services'
           - item:
@@ -222,7 +222,7 @@ landscape:
             organization: Cloud Foundry
             homepage_url: 'https://bosh.io/'
             repo_url: 'https://github.com/cloudfoundry/bosh'
-            logo: 'https://cloudfoundry.org/wp-content/uploads/2012/02/CFF-BOSH-Full-Color.png'
+            logo: ./src/hosted_logos/cloudfoundry-bosh.svg
             twitter: 'https://twitter.com/cloudfoundry'
             crunchbase: 'https://www.crunchbase.com/organization/cloud-foundry'
           - item:
@@ -295,7 +295,7 @@ landscape:
             name: Amazon Elastic Container Registry (ECR)
             organization: Amazon Web Services
             homepage_url: 'https://aws.amazon.com/ecr/'
-            logo: ./src/hosted_logos/aws-ecr.png
+            logo: ./src/hosted_logos/aws-ecr.svg
             twitter: 'https://twitter.com/awscloud'
             crunchbase: 'https://www.crunchbase.com/organization/amazon-web-services'
           - item:
@@ -455,20 +455,20 @@ landscape:
             organization: Square
             homepage_url: 'https://square.github.io/keywhiz/'
             repo_url: 'https://github.com/square/keywhiz'
-            logo: ./src/hosted_logos/square-keywhiz.png
+            logo: ./src/hosted_logos/square-keywhiz.svg
             crunchbase: 'https://www.crunchbase.com/organization/square'
           - item:
             name: Knox
             organization: Pinterest
             repo_url: 'https://github.com/pinterest/knox'
-            logo: ./src/hosted_logos/pinterest-knox.png
+            logo: ./src/hosted_logos/pinterest-knox.svg
             crunchbase: 'https://www.crunchbase.com/organization/pinterest'
           - item:
             name: Lyft Confidant
             organization: Lyft
             homepage_url: 'https://lyft.github.io/confidant/'
             repo_url: 'https://github.com/lyft/confidant'
-            logo: ./src/hosted_logos/lyft-confidant.png
+            logo: ./src/hosted_logos/lyft-confidant.svg
             crunchbase: 'https://www.crunchbase.com/organization/lyft'
           - item:
             name: Oracle Policy Automation
@@ -858,7 +858,7 @@ landscape:
             organization: Juniper Networks
             homepage_url: 'http://www.opencontrail.org/'
             repo_url: 'https://github.com/Juniper/contrail-controller'
-            logo: ./src/hosted_logos/open-contrail.png
+            logo: ./src/hosted_logos/opencontrail.svg
             twitter: 'https://twitter.com/OpenContrail'
             crunchbase: 'https://www.crunchbase.com/organization/opencontrail'
           - item:
@@ -894,7 +894,7 @@ landscape:
             organization: Weaveworks
             homepage_url: 'https://www.weave.works/oss/net/'
             repo_url: 'https://github.com/weaveworks/weave'
-            logo: ./src/hosted_logos/weave-net.png
+            logo: ./src/hosted_logos/weave-net.svg
             twitter: 'https://twitter.com/weaveworks'
             crunchbase: 'https://www.crunchbase.com/organization/weaveworks'
   - category:
@@ -909,7 +909,7 @@ landscape:
             homepage_url: 'https://aws.amazon.com/ecs/'
             twitter: 'https://twitter.com/awscloud'
             crunchbase: 'https://www.crunchbase.com/organization/amazon-web-services'
-            logo: ./src/hosted_logos/aws-ecs.png
+            logo: ./src/hosted_logos/aws-ecs.svg
           - item:
             name: Docker Swarm
             organization: Docker
@@ -992,7 +992,7 @@ landscape:
             organization: Netflix
             homepage_url: 'https://github.com/Netflix/eureka'
             repo_url: 'https://github.com/Netflix/eureka'
-            logo: ./src/hosted_logos/netflix-eureka.png
+            logo: ./src/hosted_logos/netflix-eureka.svg
             crunchbase: 'https://www.crunchbase.com/organization/netflix'
           - item:
             name: Haret
@@ -1014,7 +1014,7 @@ landscape:
             organization: Airbnb
             homepage_url: 'https://medium.com/airbnb-engineering/smartstack-service-discovery-in-the-cloud-4b8a080de619'
             repo_url: 'https://github.com/airbnb/synapse'
-            logo: ./src/hosted_logos/smart-stack.png
+            logo: ./src/hosted_logos/smartstack.svg
             crunchbase: 'https://www.crunchbase.com/organization/airbnb'
           - item:
             name: Zookeeper
@@ -1145,7 +1145,7 @@ landscape:
             organization: Netflix
             homepage_url: 'https://github.com/Netflix/ribbon'
             repo_url: 'https://github.com/Netflix/ribbon'
-            logo: ./src/hosted_logos/netflix-ribbon.png
+            logo: ./src/hosted_logos/netflix-ribbon.svg
             twitter: 'https://twitter.com/netflixoss'
             crunchbase: 'https://www.crunchbase.com/organization/netflix'
           - item:
@@ -1168,7 +1168,7 @@ landscape:
             organization: Vamp
             homepage_url: 'https://vamp.io/'
             repo_url: 'https://github.com/magneticio/vamp'
-            logo: ./src/hosted_logos/vamp.png
+            logo: ./src/hosted_logos/vamp.svg
             twitter: 'https://twitter.com/vamp_io'
             crunchbase: 'https://www.crunchbase.com/organization/magnetic-io'
           - item:
@@ -1176,7 +1176,7 @@ landscape:
             organization: Weaveworks
             homepage_url: 'https://www.weave.works/oss/flux/'
             repo_url: 'https://github.com/weaveworks/flux'
-            logo: ./src/hosted_logos/weave-flux.png
+            logo: ./src/hosted_logos/weave-flux.svg
             twitter: 'https://twitter.com/weaveworks'
             crunchbase: 'https://www.crunchbase.com/organization/weaveworks'
           - item:
@@ -1185,7 +1185,7 @@ landscape:
             homepage_url: 'https://github.com/Netflix/zuul'
             repo_url: 'https://github.com/Netflix/zuul'
             branch: 1.x
-            logo: ./src/hosted_logos/netflix-zuul.png
+            logo: ./src/hosted_logos/netflix-zuul.svg
             twitter: 'https://twitter.com/netflixoss'
             crunchbase: 'https://www.crunchbase.com/organization/netflix'
   - category:
@@ -1248,7 +1248,7 @@ landscape:
             organization: Druid
             homepage_url: 'http://druid.io/'
             repo_url: 'https://github.com/druid-io/druid'
-            logo: ./src/hosted_logos/druid.png
+            logo: ./src/hosted_logos/druid.svg
             twitter: 'https://twitter.com/druidio'
             crunchbase: 'https://www.crunchbase.com/organization/metamarkets'
           - item:
@@ -1423,7 +1423,7 @@ landscape:
             name: Amazon Kinesis
             organization: Amazon Web Services
             homepage_url: 'https://aws.amazon.com/kinesis/'
-            logo: ./src/hosted_logos/aws-kinesis.png
+            logo: ./src/hosted_logos/aws-kinesis.svg
             twitter: 'https://twitter.com/awscloud'
             crunchbase: 'https://www.crunchbase.com/organization/amazon-web-services'
           - item:
@@ -1798,7 +1798,7 @@ landscape:
               microservices architecture.
             certified_kubernetes: Platform
             homepage_url: 'https://www.alibabacloud.com/product/container-service?spm=a3c0i.7911826.709257.dproducta4.1010a3feFbGgBW'
-            logo: 'https://seeklogo.com/images/A/alibaba-cloud-logo-898D58C1CE-seeklogo.com.png'
+            logo: ./src/hosted_logos/alibaba-cloud.svg
             crunchbase: 'https://www.crunchbase.com/organization/alibaba-cloud'
           - item:
             name: Apprenda Kismatic Enterprise Toolkit (KET)
@@ -1884,7 +1884,7 @@ landscape:
             certified_kubernetes: Platform
             homepage_url: 'https://www.cloudfoundry.org/'
             repo_url: 'https://github.com/cloudfoundry-incubator/kubo-deployment'
-            logo: 'https://www.cloudfoundry.org/wp-content/uploads/2017/01/CFF_Logo_vertical_RGB.png'
+            logo: ./src/hosted_logos/cloudfoundry.svg
             crunchbase: 'https://www.crunchbase.com/organization/cloud-foundry'
           - item:
             name: CoreOS bootkube
@@ -2021,7 +2021,7 @@ landscape:
               security and isolation to automate the deployment, operation, scaling, and monitoring of containerized apps in a cluster of compute hosts.
             certified_kubernetes: Platform
             homepage_url: 'https://console.bluemix.net/docs/containers/cs_ov.html#cs_ov'
-            logo: ./src/hosted_logos/ibm-cloud.png
+            logo: ./src/hosted_logos/ibm-cloud.svg
             crunchbase: 'https://www.crunchbase.com/organization/ibm-cloud'
           - item:
             name: IBM Cloud Private
@@ -2029,7 +2029,7 @@ landscape:
             description: 'Build open, cloud-native apps with public services and run them anywhere — on public cloud or on your existing on-premises systems.'
             certified_kubernetes: Distribution
             homepage_url: 'https://www.ibm.com/cloud-computing/products/ibm-cloud-private/'
-            logo: ./src/hosted_logos/ibm-cloud.png
+            logo: ./src/hosted_logos/ibm-cloud.svg
             crunchbase: 'https://www.crunchbase.com/organization/ibm-cloud'
           - item:
             name: inwinSTACK kube-ansible
@@ -2238,7 +2238,7 @@ landscape:
             certified_kubernetes: Platform
             stock_ticker: TCEHY
             homepage_url: 'https://cloud.tencent.com/product/ccs?lang=en'
-            logo: 'https://www.cncf.io/wp-content/uploads/2017/05/logo_tencent-300x184.png'
+            logo: ./src/hosted_logos/tencent-cloud.svg
             crunchbase: 'https://www.crunchbase.com/organization/tencent'
           - item:
             name: TenxCloud Container Engine (TCE)
@@ -2562,14 +2562,14 @@ landscape:
             organization: Apex
             homepage_url: 'http://apex.run'
             repo_url: 'https://github.com/apex/apex'
-            logo: ./src/hosted_logos/apex.png
+            logo: ./src/hosted_logos/apex.svg
             twitter: 'https://twitter.com/apexserverless'
             crunchbase: 'https://www.crunchbase.com/organization/apex-7f19'
           - item:
             name: AWS Lambda
             organization: Amazon Web Services
             homepage_url: 'https://aws.amazon.com/lambda/'
-            logo: ./src/hosted_logos/aws-lambda.png
+            logo: ./src/hosted_logos/aws-lambda.svg
             twitter: 'https://twitter.com/awscloud'
             crunchbase: 'https://www.crunchbase.com/organization/amazon-web-services'
           - item:
@@ -2688,7 +2688,7 @@ landscape:
             name: Amazon CloudWatch
             organization: Amazon Web Services
             homepage_url: 'https://aws.amazon.com/cloudwatch/'
-            logo: ./src/hosted_logos/aws-cloudwatch.png
+            logo: ./src/hosted_logos/aws-cloudwatch.svg
             twitter: 'https://twitter.com/awscloud'
             crunchbase: 'https://www.crunchbase.com/organization/amazon-web-services'
           - item:
@@ -2851,7 +2851,7 @@ landscape:
             name: New Relic
             organization: New Relic
             homepage_url: 'https://newrelic.com/'
-            logo: ./src/hosted_logos/new-relic.png
+            logo: ./src/hosted_logos/newrelic.svg
             twitter: 'https://twitter.com/NewRelic'
             crunchbase: 'https://www.crunchbase.com/organization/new-relic'
           - item:
@@ -2902,7 +2902,7 @@ landscape:
             name: Rocana
             organization: Rocana
             homepage_url: 'https://www.rocana.com/'
-            logo: ./src/hosted_logos/rocana.png
+            logo: ./src/hosted_logos/rocana.svg
             twitter: 'https://twitter.com/rocanainc'
             crunchbase: 'https://www.crunchbase.com/organization/rocana'
           - item:
@@ -2976,7 +2976,7 @@ landscape:
             name: Weave Cloud
             organization: Weave
             homepage_url: 'https://www.weave.works/product/cloud/'
-            logo: ./src/hosted_logos/weave-cloud.png
+            logo: ./src/hosted_logos/weave-cloud.svg
             twitter: 'https://twitter.com/weaveworks'
             crunchbase: 'https://www.crunchbase.com/organization/weaveworks'
           - item:
@@ -2984,7 +2984,7 @@ landscape:
             organization: Weaveworks
             homepage_url: 'https://www.weave.works/oss/scope/'
             repo_url: 'https://github.com/weaveworks/scope'
-            logo: ./src/hosted_logos/weave-scope.png
+            logo: ./src/hosted_logos/weave-scope.svg
             twitter: 'https://twitter.com/weaveworks'
             crunchbase: 'https://www.crunchbase.com/organization/weaveworks'
           - item:
@@ -3074,7 +3074,7 @@ landscape:
             organization: Sourcegraph
             homepage_url: 'https://github.com/sourcegraph/appdash'
             repo_url: 'https://github.com/sourcegraph/appdash'
-            logo: ./src/hosted_logos/appdash.png
+            logo: ./src/hosted_logos/appdash.svg
           - item:
             name: Jaeger
             organization: CNCF
@@ -3251,7 +3251,7 @@ landscape:
               The IBM Bluemix Container Service combines Docker and Kubernetes to deliver powerful tools, an intuitive user experiences, and built-in security
               and isolation to enable rapid delivery of applications all while leveraging Cloud Services including cognitive capabilities from Watson.
             homepage_url: 'https://www.ibm.com/cloud-computing/bluemix/containers'
-            logo: ./src/hosted_logos/ibm-cloud.png
+            logo: ./src/hosted_logos/ibm-cloud.svg
             crunchbase: 'https://www.crunchbase.com/organization/ibm-cloud'
           - item:
             name: inwinSTACK
