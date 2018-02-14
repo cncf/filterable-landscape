@@ -50,7 +50,7 @@ a {text-decoration: none; transition: all 0.5s; color: $blue;
   }
 }
 
-.sidebar{
+.sidebar {
   legend{
     font-size:0.6em !important;
   }
@@ -58,14 +58,14 @@ a {text-decoration: none; transition: all 0.5s; color: $blue;
     margin-top:5px;
   }
   &-presets {margin: 3rem 0; font-size: 0.6em; width: 160px;
-  h4 { padding: 0px 10px;}
-  div {margin-bottom: 0.5em;}
-  a {text-decoration: none; color: rgb(54, 111, 168); display: block; padding: 5px 10px;
-    &.active {color: #000; font-weight: bold;}
-    &:hover, &.active {background: rgba(0,0,0,0.05);}
+    h4 { padding: 0px 10px;}
+    div {margin-bottom: 0.5em;}
+    a {text-decoration: none; color: rgb(54, 111, 168); display: block; padding: 5px 10px;
+      &.active {color: #000; font-weight: bold;}
+      &:hover, &.active {background: rgba(0,0,0,0.05);}
+    }
   }
-}
-
+  &-note {background: #e8e8e8; font-size: 0.7rem; color: #999; padding: 10px 15px; border-radius: 3px;}
 }
 
 /* grid */
