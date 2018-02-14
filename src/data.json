@@ -1995,7 +1995,7 @@
     "name": "Azure Registry",
     "organization": "Microsoft",
     "homepage_url": "https://azure.microsoft.com/en-us/services/container-registry/",
-    "logo": "https://azure.microsoft.com/svghandler/container-registry/?width=600&height=315",
+    "logo": "./src/hosted_logos/azureregistry.svg",
     "twitter": "https://twitter.com/azure",
     "crunchbase": "https://www.crunchbase.com/organization/microsoft",
     "cncf_membership_data": {
@@ -2006,8 +2006,7 @@
       "effective_ticker": "MSFT"
     },
     "image_data": {
-      "fileName": "azure-registry.png",
-      "low_res": "600x315"
+      "fileName": "azure-registry.svg"
     },
     "cncfMember": true,
     "cncfRelation": "member",
@@ -2036,7 +2035,7 @@
     "amountKind": "market_cap",
     "amount": 693096546304,
     "oss": false,
-    "href": "/logos/azure-registry.png",
+    "href": "/logos/azure-registry.svg",
     "id": "azure-registry"
   },
   {
@@ -2322,7 +2321,7 @@
     "organization": "Anchore",
     "homepage_url": "https://anchore.io/",
     "repo_url": "https://github.com/anchore/anchore-engine",
-    "logo": "http://www.marketwire.com/library/MwGo/2016/4/5/11G092078/Anchore_RGB-14b85fa3801f8889be493bbb8e62e356.jpg",
+    "logo": "./src/hosted_logos/anchore.svg",
     "twitter": "https://twitter.com/anchore",
     "crunchbase": "https://www.crunchbase.com/organization/anchore-inc",
     "github_data": {
@@ -2340,8 +2339,7 @@
       "cncf_member": false
     },
     "image_data": {
-      "fileName": "anchore.png",
-      "low_res": "300x78"
+      "fileName": "anchore.svg"
     },
     "cncfMember": false,
     "cncfRelation": false,
@@ -2375,7 +2373,7 @@
     "amountKind": "funding",
     "amount": 7000000,
     "oss": true,
-    "href": "/logos/anchore.png",
+    "href": "/logos/anchore.svg",
     "id": "anchore"
   },
   {
@@ -3194,7 +3192,7 @@
     "organization": "Scytale.io",
     "homepage_url": "https://spiffe.io/spire/",
     "repo_url": "https://github.com/spiffe/spire",
-    "logo": "https://github.com/spiffe/spire/blob/master/doc/images/spire_logo.png",
+    "logo": "./src/hosted_logos/spire.svg",
     "twitter": "https://twitter.com/scytale_io",
     "crunchbase": "https://www.crunchbase.com/organization/scytale-io",
     "github_data": {
@@ -3212,8 +3210,7 @@
       "cncf_member": false
     },
     "image_data": {
-      "fileName": "spire.png",
-      "low_res": "183x67"
+      "fileName": "spire.svg"
     },
     "cncfMember": false,
     "cncfRelation": false,
@@ -3243,7 +3240,7 @@
     "landscape": "Provisioning / Key Management",
     "category": "Provisioning",
     "oss": true,
-    "href": "/logos/spire.png",
+    "href": "/logos/spire.svg",
     "id": "spire"
   },
   {
@@ -4114,7 +4111,7 @@
     "organization": "Dell EMC",
     "homepage_url": "https://rexray.thecodeteam.com/",
     "repo_url": "https://github.com/codedellemc/rexray",
-    "logo": "https://dev.acquia.com/sites/default/files/blog/grid-rexray.png",
+    "logo": "./src/hosted_logos/rexray.svg",
     "twitter": "https://twitter.com/codedellemc",
     "crunchbase": "https://www.crunchbase.com/organization/dell-emc",
     "github_data": {
@@ -4132,8 +4129,7 @@
       "cncf_member": true
     },
     "image_data": {
-      "fileName": "rex-ray.png",
-      "low_res": "282x404"
+      "fileName": "rex-ray.svg"
     },
     "cncfMember": true,
     "cncfRelation": "member",
@@ -4163,7 +4159,7 @@
     "landscape": "Runtime / Cloud-Native Storage",
     "category": "Runtime",
     "oss": true,
-    "href": "/logos/rex-ray.png",
+    "href": "/logos/rex-ray.svg",
     "id": "rex-ray"
   },
   {
@@ -5107,7 +5103,7 @@
     "organization": "Tigera",
     "homepage_url": "https://github.com/projectcalico/canal",
     "repo_url": "https://github.com/projectcalico/canal",
-    "logo": "https://raw.githubusercontent.com/projectcalico/canal/master/logos/canal-logo-type-full-color%20328x184.png",
+    "logo": "./src/hosted_logos/canal.svg",
     "twitter": "https://twitter.com/projectcalico",
     "crunchbase": "https://www.crunchbase.com/organization/tigera",
     "github_data": {
@@ -5125,8 +5121,7 @@
       "cncf_member": true
     },
     "image_data": {
-      "fileName": "canal.png",
-      "low_res": "328x184"
+      "fileName": "canal.svg"
     },
     "cncfMember": true,
     "cncfRelation": "member",
@@ -5160,7 +5155,7 @@
     "amountKind": "funding",
     "amount": 23000000,
     "oss": true,
-    "href": "/logos/canal.png",
+    "href": "/logos/canal.svg",
     "id": "canal"
   },
   {
@@ -6763,7 +6758,7 @@
     "organization": "Apache Software Foundation",
     "homepage_url": "http://zookeeper.apache.org/",
     "repo_url": "https://github.com/apache/zookeeper",
-    "logo": "https://www.opsview.com/sites/default/files/Zookeeper%20Logo%20REV.png",
+    "logo": "./src/hosted_logos/zookeeper.svg",
     "twitter": "https://twitter.com/TheASF",
     "crunchbase": "https://www.crunchbase.com/organization/apache",
     "github_data": {
@@ -6781,8 +6776,7 @@
       "cncf_member": false
     },
     "image_data": {
-      "fileName": "zookeeper.png",
-      "low_res": "347x189"
+      "fileName": "zookeeper.svg"
     },
     "cncfMember": false,
     "cncfRelation": false,
@@ -6812,7 +6806,7 @@
     "landscape": "Orchestration & Management / Coordination & Service Discovery",
     "category": "Orchestration & Management",
     "oss": true,
-    "href": "/logos/zookeeper.png",
+    "href": "/logos/zookeeper.svg",
     "id": "zookeeper"
   },
   {
@@ -6945,7 +6939,7 @@
     "organization": "Apache Software Foundation",
     "homepage_url": "https://avro.apache.org/",
     "repo_url": "https://github.com/apache/avro",
-    "logo": "https://avro.apache.org/images/avro-logo.png",
+    "logo": "./src/hosted_logos/avro.svg",
     "twitter": "https://twitter.com/TheASF",
     "crunchbase": "https://www.crunchbase.com/organization/apache",
     "github_data": {
@@ -6963,8 +6957,7 @@
       "cncf_member": false
     },
     "image_data": {
-      "fileName": "apache-avro.png",
-      "low_res": "296x92"
+      "fileName": "apache-avro.svg"
     },
     "cncfMember": false,
     "cncfRelation": false,
@@ -6994,7 +6987,7 @@
     "landscape": "Orchestration & Management / Service Management",
     "category": "Orchestration & Management",
     "oss": true,
-    "href": "/logos/apache-avro.png",
+    "href": "/logos/apache-avro.svg",
     "id": "apache-avro"
   },
   {
@@ -8174,7 +8167,7 @@
     "organization": "Couchbase",
     "homepage_url": "https://www.couchbase.com/",
     "repo_url": "https://github.com/couchbase/couchbase-lite-ios",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Couchbase%2C_Inc._official_logo.png/250px-Couchbase%2C_Inc._official_logo.png",
+    "logo": "./src/hosted_logos/couchbase.svg",
     "twitter": "https://twitter.com/couchbase",
     "crunchbase": "https://www.crunchbase.com/organization/couchbase",
     "github_data": {
@@ -8192,8 +8185,7 @@
       "cncf_member": false
     },
     "image_data": {
-      "fileName": "couchbase.png",
-      "low_res": "210x89"
+      "fileName": "couchbase.svg"
     },
     "cncfMember": false,
     "cncfRelation": false,
@@ -8227,7 +8219,7 @@
     "amountKind": "funding",
     "amount": 146000000,
     "oss": true,
-    "href": "/logos/couchbase.png",
+    "href": "/logos/couchbase.svg",
     "id": "couchbase"
   },
   {
@@ -8507,7 +8499,7 @@
     "homepage_url": "https://mariadb.org/",
     "repo_url": "https://github.com/MariaDB/server",
     "branch": "10.3",
-    "logo": "https://www.clearos.com/images/marketplace-svg/mariadb.svg",
+    "logo": "./src/hosted_logos/mariadb.svg",
     "twitter": "https://twitter.com/mariadbfdn",
     "crunchbase": "https://www.crunchbase.com/organization/mariadb-2",
     "github_data": {
@@ -8566,15 +8558,14 @@
     "name": "MemSQL",
     "organization": "MemSQL",
     "homepage_url": "https://www.memsql.com/",
-    "logo": "https://diamanti.com/static/app/img/what-we-do/memsql-logo.png",
+    "logo": "./src/hosted_logos/memsql.svg",
     "twitter": "https://twitter.com/memsql/",
     "crunchbase": "https://www.crunchbase.com/organization/memsql",
     "cncf_membership_data": {
       "cncf_member": false
     },
     "image_data": {
-      "fileName": "mem-sql.png",
-      "low_res": "137x68"
+      "fileName": "mem-sql.svg"
     },
     "cncfMember": false,
     "cncfRelation": false,
@@ -8603,7 +8594,7 @@
     "amountKind": "funding",
     "amount": 78100000,
     "oss": false,
-    "href": "/logos/mem-sql.png",
+    "href": "/logos/mem-sql.svg",
     "id": "mem-sql"
   },
   {
@@ -8850,7 +8841,7 @@
     "organization": "Pachyderm",
     "homepage_url": "http://www.pachyderm.io/",
     "repo_url": "https://github.com/pachyderm/pachyderm",
-    "logo": "https://crunchbase-production-res.cloudinary.com/image/upload/v1441394109/w8muln3r8jvrk5g0ngmj.png",
+    "logo": "./src/hosted_logos/pachyderm.svg",
     "twitter": "https://twitter.com/pachydermIO",
     "crunchbase": "https://www.crunchbase.com/organization/pachyderm",
     "github_data": {
@@ -8868,8 +8859,7 @@
       "cncf_member": false
     },
     "image_data": {
-      "fileName": "pachyderm.png",
-      "low_res": "145x184"
+      "fileName": "pachyderm.svg"
     },
     "cncfMember": false,
     "cncfRelation": false,
@@ -8903,7 +8893,7 @@
     "amountKind": "funding",
     "amount": 2120000,
     "oss": true,
-    "href": "/logos/pachyderm.png",
+    "href": "/logos/pachyderm.svg",
     "id": "pachyderm"
   },
   {
@@ -9595,7 +9585,7 @@
     "organization": "Apache Software Foundation",
     "homepage_url": "http://storm.apache.org/",
     "repo_url": "https://github.com/apache/storm",
-    "logo": "http://storm.apache.org/images/logo.png",
+    "logo": "./src/hosted_logos/apache-storm.svg",
     "twitter": "https://twitter.com/stormprocessor",
     "crunchbase": "https://www.crunchbase.com/organization/apache",
     "github_data": {
@@ -9613,8 +9603,7 @@
       "cncf_member": false
     },
     "image_data": {
-      "fileName": "apache-storm.png",
-      "low_res": "255x80"
+      "fileName": "apache-storm.svg"
     },
     "cncfMember": false,
     "cncfRelation": false,
@@ -9644,7 +9633,7 @@
     "landscape": "App Definition and Developement / Streaming",
     "category": "App Definition and Developement",
     "oss": true,
-    "href": "/logos/apache-storm.png",
+    "href": "/logos/apache-storm.svg",
     "id": "apache-storm"
   },
   {
@@ -9652,7 +9641,7 @@
     "organization": "Apache Software Foundation",
     "homepage_url": "https://apex.apache.org/",
     "repo_url": "https://github.com/apache/apex-core",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Apache_Apex_Logo.png",
+    "logo": "./src/hosted_logos/apache-apex.svg",
     "twitter": "https://twitter.com/apacheapex/",
     "crunchbase": "https://www.crunchbase.com/organization/apache",
     "github_data": {
@@ -9670,7 +9659,7 @@
       "cncf_member": false
     },
     "image_data": {
-      "fileName": "apache-apex.png"
+      "fileName": "apache-apex.svg"
     },
     "cncfMember": false,
     "cncfRelation": false,
@@ -9700,7 +9689,7 @@
     "landscape": "App Definition and Developement / Streaming",
     "category": "App Definition and Developement",
     "oss": true,
-    "href": "/logos/apache-apex.png",
+    "href": "/logos/apache-apex.svg",
     "id": "apache-apex"
   },
   {
@@ -11216,7 +11205,7 @@
     "organization": "Huawei Technologies",
     "homepage_url": "http://containerops.org/",
     "repo_url": "https://github.com/Huawei/containerops",
-    "logo": "http://image20.it168.com/201706_335x251/2924/5f8a80a4b4fadf88.png",
+    "logo": "./src/hosted_logos/containerops.svg",
     "twitter": "https://twitter.com/Huawei",
     "crunchbase": "https://www.crunchbase.com/organization/huawei",
     "github_data": {
@@ -11234,8 +11223,7 @@
       "cncf_member": false
     },
     "image_data": {
-      "fileName": "container-ops.png",
-      "low_res": "279x156"
+      "fileName": "container-ops.svg"
     },
     "cncfMember": false,
     "cncfRelation": false,
@@ -11265,7 +11253,7 @@
     "landscape": "App Definition and Developement / CI/CD",
     "category": "App Definition and Developement",
     "oss": true,
-    "href": "/logos/container-ops.png",
+    "href": "/logos/container-ops.svg",
     "id": "container-ops"
   },
   {
@@ -11851,102 +11839,9 @@
     "id": "xl-deploy"
   },
   {
-    "name": "Alauda EE",
-    "organization": "Alauda",
-    "certified_kubernetes": "Platform",
-    "homepage_url": "https://www.alauda.cn/product/detail/id/68.html",
-    "logo": "http://cdn4.infoqstatic.com/statics_s1_20180206-0549-1/images/partners/cn/company/alauda.svg",
-    "crunchbase": "https://www.crunchbase.com/organization/alauda",
-    "cncf_membership_data": {
-      "cncf_member": true
-    },
-    "image_data": {
-      "fileName": "alauda-ee.svg"
-    },
-    "cncfMember": true,
-    "cncfRelation": "member",
-    "license": "NotOpenSource",
-    "headquarters": "Haidian, China",
-    "twitter": null,
-    "description": "Alauda is a pioneer cloud platform provider that focuses on containers and microservices.",
-    "crunchbaseData": {
-      "name": "Alauda",
-      "description": "Alauda is a pioneer cloud platform provider that focuses on containers and microservices.",
-      "num_employees_min": 11,
-      "num_employees_max": 50,
-      "homepage": "http://www.alauda.cn/",
-      "city": "Haidian",
-      "region": "Beijing",
-      "country": "China",
-      "twitter": null,
-      "linkedin": null,
-      "kind": "funding",
-      "funding": 15000000,
-      "numEmployeesMin": 11,
-      "numEmployeesMax": 50
-    },
-    "path": "Platform / Certified Kubernetes",
-    "landscape": "Platform / Certified Kubernetes",
-    "category": "Platform",
-    "amountKind": "funding",
-    "amount": 15000000,
-    "oss": false,
-    "href": "/logos/alauda-ee.svg",
-    "id": "alauda-ee"
-  },
-  {
-    "name": "Alibaba Cloud Container Service",
-    "organization": "Alibaba Cloud",
-    "description": "Container Services Provides high-performance, scalable container application management services that enable lifecycle management of containerized applications with Docker and Kubernetes, multiple application deployment methods and continuous delivery capabilities, and support for microservices architecture.",
-    "certified_kubernetes": "Platform",
-    "homepage_url": "https://www.alibabacloud.com/product/container-service?spm=a3c0i.7911826.709257.dproducta4.1010a3feFbGgBW",
-    "logo": "./src/hosted_logos/alibaba-cloud.svg",
-    "crunchbase": "https://www.crunchbase.com/organization/alibaba-cloud",
-    "cncf_membership_data": {
-      "cncf_member": false
-    },
-    "yahoo_finance_data": {
-      "market_cap": 475602747392,
-      "effective_ticker": "BABA"
-    },
-    "image_data": {
-      "fileName": "alibaba-cloud.svg"
-    },
-    "cncfMember": false,
-    "cncfRelation": false,
-    "license": "NotOpenSource",
-    "headquarters": "Hangzhou, China",
-    "twitter": "https://twitter.com/alibaba_cloud",
-    "crunchbaseData": {
-      "name": "Alibaba Cloud",
-      "description": "Alibaba Cloud develops highly scalable cloud computing and data management services.",
-      "num_employees_min": null,
-      "num_employees_max": null,
-      "homepage": "https://www.alibabacloud.com/",
-      "city": "Hangzhou",
-      "region": "Zhejiang",
-      "country": "China",
-      "twitter": "https://twitter.com/alibaba_cloud",
-      "linkedin": "https://www.linkedin.com/company/alibaba-cloud-computing-company",
-      "ticker": "BABA",
-      "kind": "market_cap",
-      "numEmployeesMin": null,
-      "numEmployeesMax": null
-    },
-    "path": "Platform / Certified Kubernetes",
-    "landscape": "Platform / Certified Kubernetes",
-    "category": "Platform",
-    "amountKind": "market_cap",
-    "amount": 475602747392,
-    "oss": false,
-    "href": "/logos/alibaba-cloud.svg",
-    "id": "alibaba-cloud-container-service"
-  },
-  {
     "name": "Apprenda Kismatic Enterprise Toolkit (KET)",
     "organization": "Apprenda",
     "description": "The open source enterprise toolkit for deploying and operating full lifecycle Kubernetes clusters in production.",
-    "certified_kubernetes": "Distribution",
     "homepage_url": "https://apprenda.com/kismatic/",
     "repo_url": "https://github.com/apprenda/kismatic",
     "logo": "https://cdn.evbuc.com/images/27464188/125492687415/2/logo.png",
@@ -11995,8 +11890,8 @@
       "numEmployeesMin": 101,
       "numEmployeesMax": 250
     },
-    "path": "Platform / Certified Kubernetes",
-    "landscape": "Platform / Certified Kubernetes",
+    "path": "Platform / Certified Kubernetes - Distribution",
+    "landscape": "Platform / Certified Kubernetes - Distribution",
     "category": "Platform",
     "amountKind": "funding",
     "amount": 56000000,
@@ -12008,7 +11903,6 @@
     "name": "Appscode Pharmer",
     "organization": "AppsCode Inc.",
     "description": "Kubernetes Cluster Manager for Kubeadm",
-    "certified_kubernetes": "Distribution",
     "homepage_url": "https://appscode.com/products/pharmer/",
     "logo": "https://appscode.com/images/logo-color.svg",
     "crunchbase": "https://www.crunchbase.com/organization/appscode",
@@ -12037,172 +11931,17 @@
       "numEmployeesMin": null,
       "numEmployeesMax": null
     },
-    "path": "Platform / Certified Kubernetes",
-    "landscape": "Platform / Certified Kubernetes",
+    "path": "Platform / Certified Kubernetes - Distribution",
+    "landscape": "Platform / Certified Kubernetes - Distribution",
     "category": "Platform",
     "oss": false,
     "href": "/logos/appscode-pharmer.svg",
     "id": "appscode-pharmer"
   },
   {
-    "name": "Azure (ACS) Engine",
-    "organization": "Microsoft",
-    "description": "Azure Container Service Engine - a place for community to collaborate and build the best open Docker container infrastructure for Azure.",
-    "certified_kubernetes": "Platform",
-    "homepage_url": "https://github.com/Azure/acs-engine",
-    "repo_url": "https://github.com/Azure/acs-engine",
-    "logo": "https://www.datocms-assets.com/2885/1513729661-azure_logo_blue.svg",
-    "crunchbase": "https://www.crunchbase.com/organization/microsoft",
-    "github_data": {
-      "stars": 657,
-      "license": "MIT",
-      "description": "Azure Container Service Engine - a place for community to collaborate and build the best open Docker container infrastructure for Azure.",
-      "latest_commit_date": "2018-02-14T19:10:36Z",
-      "latest_commit_link": "/Azure/acs-engine/commit/2bdd3c0040cc561ea0f6601acb0f4de2a275debc"
-    },
-    "github_start_commit_data": {
-      "start_commit_link": "/Azure/acs-engine/commit/d9bb7f4bbfd1b2932f1d0319e07429eee6127dbf",
-      "start_date": "2016-05-17T17:19:35Z"
-    },
-    "cncf_membership_data": {
-      "cncf_member": true
-    },
-    "yahoo_finance_data": {
-      "market_cap": 693096546304,
-      "effective_ticker": "MSFT"
-    },
-    "image_data": {
-      "fileName": "azure-cloud-services.svg"
-    },
-    "cncfMember": true,
-    "cncfRelation": "member",
-    "firstCommitDate": "2016-05-17T17:19:35Z",
-    "firstCommitLink": "/Azure/acs-engine/commit/d9bb7f4bbfd1b2932f1d0319e07429eee6127dbf",
-    "latestCommitDate": "2018-02-14T19:10:36Z",
-    "latestCommitLink": "/Azure/acs-engine/commit/2bdd3c0040cc561ea0f6601acb0f4de2a275debc",
-    "stars": 657,
-    "license": "MIT",
-    "headquarters": "Redmond, Washington",
-    "twitter": "http://twitter.com/Microsoft",
-    "crunchbaseData": {
-      "name": "Microsoft",
-      "description": "Microsoft is a software corporation that develops, manufactures, licenses, supports, and sells a range of software products and services.",
-      "num_employees_min": 10001,
-      "num_employees_max": 1000000,
-      "homepage": "http://www.microsoft.com",
-      "city": "Redmond",
-      "region": "Washington",
-      "country": "United States",
-      "twitter": "http://twitter.com/Microsoft",
-      "linkedin": "http://www.linkedin.com/company/microsoft",
-      "ticker": "MSFT",
-      "kind": "market_cap",
-      "numEmployeesMin": 10001,
-      "numEmployeesMax": 1000000
-    },
-    "path": "Platform / Certified Kubernetes",
-    "landscape": "Platform / Certified Kubernetes",
-    "category": "Platform",
-    "amountKind": "market_cap",
-    "amount": 693096546304,
-    "oss": true,
-    "href": "/logos/azure-cloud-services.svg",
-    "id": "azure-acs-engine"
-  },
-  {
-    "name": "Azure Container Service (AKS)",
-    "organization": "Microsoft",
-    "description": "Simplify the deployment, management, and operations of Kubernetes. Use a fully managed Kubernetes container orchestration service or choose other orchestrators.",
-    "certified_kubernetes": "Platform",
-    "homepage_url": "https://azure.microsoft.com/en-us/services/container-service/",
-    "logo": "https://www.datocms-assets.com/2885/1513729661-azure_logo_blue.svg",
-    "crunchbase": "https://www.crunchbase.com/organization/microsoft",
-    "cncf_membership_data": {
-      "cncf_member": true
-    },
-    "yahoo_finance_data": {
-      "market_cap": 693096546304,
-      "effective_ticker": "MSFT"
-    },
-    "image_data": {
-      "fileName": "azure-cloud-services.svg"
-    },
-    "cncfMember": true,
-    "cncfRelation": "member",
-    "license": "NotOpenSource",
-    "headquarters": "Redmond, Washington",
-    "twitter": "http://twitter.com/Microsoft",
-    "crunchbaseData": {
-      "name": "Microsoft",
-      "description": "Microsoft is a software corporation that develops, manufactures, licenses, supports, and sells a range of software products and services.",
-      "num_employees_min": 10001,
-      "num_employees_max": 1000000,
-      "homepage": "http://www.microsoft.com",
-      "city": "Redmond",
-      "region": "Washington",
-      "country": "United States",
-      "twitter": "http://twitter.com/Microsoft",
-      "linkedin": "http://www.linkedin.com/company/microsoft",
-      "ticker": "MSFT",
-      "kind": "market_cap",
-      "numEmployeesMin": 10001,
-      "numEmployeesMax": 1000000
-    },
-    "path": "Platform / Certified Kubernetes",
-    "landscape": "Platform / Certified Kubernetes",
-    "category": "Platform",
-    "amountKind": "market_cap",
-    "amount": 693096546304,
-    "oss": false,
-    "href": "/logos/azure-cloud-services.svg",
-    "id": "azure-container-service-aks"
-  },
-  {
-    "name": "BoCloud BeyondcentContainer",
-    "organization": "Bocloud",
-    "description": "PaaS cloud solutions for docketing and managing Internet applications using docker container technology. Help customers respond to the explosive and unpredictable nature of Internet services.",
-    "certified_kubernetes": "Platform",
-    "homepage_url": "http://bocloud.com.cn/product_container.html",
-    "logo": "http://images.tmtpost.com/uploads/images/2017/05/10/de220d631464bcf29f89ac3e434c262614944057435518.jpg",
-    "crunchbase": "https://www.crunchbase.com/organization/bocloud",
-    "cncf_membership_data": {
-      "cncf_member": false
-    },
-    "image_data": {
-      "fileName": "bo-cloud-beyondcent-container.png",
-      "low_res": "406x168"
-    },
-    "cncfMember": false,
-    "cncfRelation": false,
-    "license": "NotOpenSource",
-    "headquarters": "Suzhou, China",
-    "twitter": null,
-    "crunchbaseData": {
-      "name": "Bocloud",
-      "description": "BoCloud provides professional cloud computing service for enterprise customers, focusing on PaaS technology.",
-      "num_employees_min": null,
-      "num_employees_max": null,
-      "homepage": "http://www.bocloud.com.cn",
-      "city": "Suzhou",
-      "region": "Jiangsu",
-      "country": "China",
-      "twitter": null,
-      "linkedin": null,
-      "numEmployeesMin": null,
-      "numEmployeesMax": null
-    },
-    "path": "Platform / Certified Kubernetes",
-    "landscape": "Platform / Certified Kubernetes",
-    "category": "Platform",
-    "oss": false,
-    "href": "/logos/bo-cloud-beyondcent-container.png",
-    "id": "bo-cloud-beyondcent-container"
-  },
-  {
     "name": "Caicloud Compass",
     "organization": "Caicloud",
     "description": "Compass is an enterprise container cluster management platform based on Kubernetes and Google's 10-year container usage best practices, to provide users with a stable, easy-to-use, and secure multi-cloud hybrid cloud management solution across clusters.",
-    "certified_kubernetes": "Distribution",
     "homepage_url": "https://caicloud.io/products/compass",
     "logo": "https://caicloud.io/_static/caicloud_logo.svg",
     "crunchbase": "https://www.crunchbase.com/organization/caicloud",
@@ -12233,8 +11972,8 @@
       "numEmployeesMin": null,
       "numEmployeesMax": null
     },
-    "path": "Platform / Certified Kubernetes",
-    "landscape": "Platform / Certified Kubernetes",
+    "path": "Platform / Certified Kubernetes - Distribution",
+    "landscape": "Platform / Certified Kubernetes - Distribution",
     "category": "Platform",
     "amountKind": "funding",
     "amount": 7300000,
@@ -12246,8 +11985,7 @@
     "name": "Canonical Distribution of Kubernetes",
     "organization": "Canonical",
     "description": "This is pure Kubernetes tested across the widest range of clouds with modern metrics and monitoring, brought to you by the people who deliver Ubuntu.",
-    "certified_kubernetes": "Distribution",
-    "homepage_url": "https://caicloud.io/products/compass",
+    "homepage_url": "https://www.ubuntu.com/kubernetes",
     "repo_url": "https://github.com/juju-solutions/bundle-canonical-kubernetes",
     "logo": "https://zentera.net/wp-content/uploads/2015/10/Canonical.png",
     "crunchbase": "https://www.crunchbase.com/organization/canonical-ltd",
@@ -12293,123 +12031,17 @@
       "numEmployeesMin": 11,
       "numEmployeesMax": 50
     },
-    "path": "Platform / Certified Kubernetes",
-    "landscape": "Platform / Certified Kubernetes",
+    "path": "Platform / Certified Kubernetes - Distribution",
+    "landscape": "Platform / Certified Kubernetes - Distribution",
     "category": "Platform",
     "oss": true,
     "href": "/logos/canonical-distribution-of-kubernetes.png",
     "id": "canonical-distribution-of-kubernetes"
   },
   {
-    "name": "Cisco Container Platform",
-    "organization": "Cisco",
-    "description": "Cisco Container Platform (CCP) automates the repetitive things and simplifies the complex ones so everyone can just go back to enjoying the magic of containers.",
-    "certified_kubernetes": "Platform",
-    "homepage_url": "https://www.cisco.com/c/en/us/products/cloud-systems-management/container-platform/index.html",
-    "logo": "https://merchandise-store.cisco.com/skin/frontend/ultimo/fullpond/images/Cisco_Logo.svg",
-    "crunchbase": "https://www.crunchbase.com/organization/cisco",
-    "cncf_membership_data": {
-      "cncf_member": true
-    },
-    "yahoo_finance_data": {
-      "market_cap": 207161901056,
-      "effective_ticker": "CSCO"
-    },
-    "image_data": {
-      "fileName": "cisco-container-platform.svg"
-    },
-    "cncfMember": true,
-    "cncfRelation": "member",
-    "license": "NotOpenSource",
-    "headquarters": "San Jose, California",
-    "twitter": "https://twitter.com/cisco",
-    "crunchbaseData": {
-      "name": "Cisco",
-      "description": "Cisco develops, manufactures, and sells networking hardware, telecommunications equipment, and other high-technology services and products.",
-      "num_employees_min": 10001,
-      "num_employees_max": 1000000,
-      "homepage": "http://www.cisco.com",
-      "city": "San Jose",
-      "region": "California",
-      "country": "United States",
-      "twitter": "https://twitter.com/cisco",
-      "linkedin": "http://www.linkedin.com/company/cisco",
-      "ticker": "CSCO",
-      "kind": "market_cap",
-      "numEmployeesMin": 10001,
-      "numEmployeesMax": 1000000
-    },
-    "path": "Platform / Certified Kubernetes",
-    "landscape": "Platform / Certified Kubernetes",
-    "category": "Platform",
-    "amountKind": "market_cap",
-    "amount": 207161901056,
-    "oss": false,
-    "href": "/logos/cisco-container-platform.svg",
-    "id": "cisco-container-platform"
-  },
-  {
-    "name": "Cloud Foundry Container Runtime",
-    "organization": "Cloud Foundry",
-    "description": " Cloud Foundry Application Runtime utilizes containers as part of its DNA, and has since before Docker popularized containers. The new CF Container Runtime gives you more granular control and management of containers with Kubernetes.",
-    "certified_kubernetes": "Platform",
-    "homepage_url": "https://www.cloudfoundry.org/",
-    "repo_url": "https://github.com/cloudfoundry-incubator/kubo-deployment",
-    "logo": "./src/hosted_logos/cloudfoundry.svg",
-    "crunchbase": "https://www.crunchbase.com/organization/cloud-foundry",
-    "github_data": {
-      "stars": 208,
-      "license": "Apache-2.0",
-      "description": "Contains scripts and configuration files used to build and deploy Kubo (Kubernetes on Bosh)",
-      "latest_commit_date": "2018-02-14T11:14:44Z",
-      "latest_commit_link": "/cloudfoundry-incubator/kubo-deployment/commit/e577452eb6c0e8d5a916308f5a8343da2416a4d2"
-    },
-    "github_start_commit_data": {
-      "start_commit_link": "/cloudfoundry-incubator/kubo-deployment/commit/5c6e3eee066c58c90224c12e3c3691a57f65ed52",
-      "start_date": "2016-11-12T00:45:26Z"
-    },
-    "cncf_membership_data": {
-      "cncf_member": true
-    },
-    "image_data": {
-      "fileName": "cloud-foundry-container-runtime.svg"
-    },
-    "cncfMember": true,
-    "cncfRelation": "member",
-    "firstCommitDate": "2016-11-12T00:45:26Z",
-    "firstCommitLink": "/cloudfoundry-incubator/kubo-deployment/commit/5c6e3eee066c58c90224c12e3c3691a57f65ed52",
-    "latestCommitDate": "2018-02-14T11:14:44Z",
-    "latestCommitLink": "/cloudfoundry-incubator/kubo-deployment/commit/e577452eb6c0e8d5a916308f5a8343da2416a4d2",
-    "stars": 208,
-    "license": "Apache-2.0",
-    "headquarters": "San Mateo, California",
-    "twitter": "https://twitter.com/cloudfoundry",
-    "crunchbaseData": {
-      "name": "Cloud Foundry",
-      "description": "Cloud Foundry is a self-service, public cloud deployment platform enabling developers to build, test, deploy, and scale applications.",
-      "num_employees_min": 1001,
-      "num_employees_max": 5000,
-      "homepage": "https://www.cloudfoundry.org/",
-      "city": "San Mateo",
-      "region": "California",
-      "country": "United States",
-      "twitter": "https://twitter.com/cloudfoundry",
-      "linkedin": "https://www.linkedin.com/company/2509135",
-      "numEmployeesMin": 1001,
-      "numEmployeesMax": 5000
-    },
-    "path": "Platform / Certified Kubernetes",
-    "landscape": "Platform / Certified Kubernetes",
-    "category": "Platform",
-    "oss": true,
-    "href": "/logos/cloud-foundry-container-runtime.svg",
-    "id": "cloud-foundry-container-runtime"
-  },
-  {
     "name": "CoreOS bootkube",
     "organization": "CoreOS",
     "description": "Bootkube is a tool for launching self-hosted Kubernetes clusters.",
-    "certified_kubernetes": "Distribution",
     "homepage_url": "https://github.com/kubernetes-incubator/bootkube",
     "repo_url": "https://github.com/kubernetes-incubator/bootkube",
     "logo": "https://i.pinimg.com/originals/8d/4b/d4/8d4bd4b4011e8cd7c5c0b1478855f21d.jpg",
@@ -12457,8 +12089,8 @@
       "numEmployeesMin": 51,
       "numEmployeesMax": 100
     },
-    "path": "Platform / Certified Kubernetes",
-    "landscape": "Platform / Certified Kubernetes",
+    "path": "Platform / Certified Kubernetes - Distribution",
+    "landscape": "Platform / Certified Kubernetes - Distribution",
     "category": "Platform",
     "amountKind": "funding",
     "amount": 48000000,
@@ -12470,7 +12102,6 @@
     "name": "DaoCloud Enterprise",
     "organization": "DaoCloud",
     "description": "With DaoCloud Enterprise, support for cloud native applications quickly bring innovative business to market.",
-    "certified_kubernetes": "Distribution",
     "homepage_url": "https://www.daocloud.io",
     "logo": "https://opencollective-production.s3-us-west-1.amazonaws.com/6d959930-b283-11e7-aea9-770057e229d7.png",
     "crunchbase": "https://www.crunchbase.com/organization/dao-cloud",
@@ -12501,8 +12132,8 @@
       "numEmployeesMin": 1,
       "numEmployeesMax": 10
     },
-    "path": "Platform / Certified Kubernetes",
-    "landscape": "Platform / Certified Kubernetes",
+    "path": "Platform / Certified Kubernetes - Distribution",
+    "landscape": "Platform / Certified Kubernetes - Distribution",
     "category": "Platform",
     "amountKind": "funding",
     "amount": 94000,
@@ -12514,7 +12145,6 @@
     "name": "Diamanti Converged Container Infrastructure",
     "organization": "Diamanti",
     "description": "Diamanti brings to market the first purpose built bare metal container platform for moving your applications from development to production. Diamanti accelerates time-to-market, guarantees real-time service levels, and consolidates containers with 90% utilization.",
-    "certified_kubernetes": "Distribution",
     "homepage_url": "https://diamanti.com/products/",
     "logo": "http://events.vmblog.com/images/dockercon/diamanti-logo-600.png",
     "crunchbase": "https://www.crunchbase.com/organization/diamanti",
@@ -12546,8 +12176,8 @@
       "numEmployeesMin": 11,
       "numEmployeesMax": 50
     },
-    "path": "Platform / Certified Kubernetes",
-    "landscape": "Platform / Certified Kubernetes",
+    "path": "Platform / Certified Kubernetes - Distribution",
+    "landscape": "Platform / Certified Kubernetes - Distribution",
     "category": "Platform",
     "amountKind": "funding",
     "amount": 43000000,
@@ -12559,7 +12189,6 @@
     "name": "Docker EE/CE",
     "organization": "Docker",
     "description": "The Docker platform is getting support for Kubernetes. This means that developers and operators can build apps with Docker and seamlessly test and deploy them using both Docker Swarm and Kubernetes.",
-    "certified_kubernetes": "Distribution",
     "homepage_url": "https://www.docker.com/kubernetes",
     "logo": "https://mblum.me/images/docker.svg",
     "crunchbase": "https://www.crunchbase.com/organization/docker",
@@ -12590,8 +12219,8 @@
       "numEmployeesMin": 101,
       "numEmployeesMax": 250
     },
-    "path": "Platform / Certified Kubernetes",
-    "landscape": "Platform / Certified Kubernetes",
+    "path": "Platform / Certified Kubernetes - Distribution",
+    "landscape": "Platform / Certified Kubernetes - Distribution",
     "category": "Platform",
     "amountKind": "funding",
     "amount": 242766694,
@@ -12600,80 +12229,9 @@
     "id": "docker-ee-ce"
   },
   {
-    "name": "EasyStack Kubernetes Service (EKS)",
-    "organization": "EasyStack",
-    "description": "EasyStack Kubernetes Service's enterprise container platform integrates applications and infrastructure resources through deep integration of Kubernetes and OpenStack platforms in multiple management dimensions such as scheduling, scheduling, security, operation and maintenance, and finally launches a new generation of application delivery in the cloud data center One kilometer, play 1 +1> 2 performance advantages.",
-    "certified_kubernetes": "Platform",
-    "homepage_url": "https://easystack.cn/eks/",
-    "logo": "https://easystack.cn/static/cn/images/easystack-logo.png",
-    "crunchbase": "https://www.crunchbase.com/organization/easystack",
-    "cncf_membership_data": {
-      "cncf_member": true
-    },
-    "image_data": {
-      "fileName": "easy-stack-kubernetes-service-eks.png"
-    },
-    "cncfMember": true,
-    "cncfRelation": "member",
-    "license": "NotOpenSource",
-    "headquarters": "Beijing, China",
-    "twitter": "https://twitter.com/EasyStackIO",
-    "crunchbaseData": {
-      "name": "EasyStack",
-      "description": "EasyStack provides open cloud solutions and services for China and Asia market.",
-      "num_employees_min": 11,
-      "num_employees_max": 50,
-      "homepage": "http://www.easystack.cn/en/",
-      "city": "Beijing",
-      "region": "Beijing",
-      "country": "China",
-      "twitter": "https://twitter.com/EasyStackIO",
-      "linkedin": "https://www.linkedin.com/company/6656236",
-      "kind": "funding",
-      "funding": 68000000,
-      "numEmployeesMin": 11,
-      "numEmployeesMax": 50
-    },
-    "path": "Platform / Certified Kubernetes",
-    "landscape": "Platform / Certified Kubernetes",
-    "category": "Platform",
-    "amountKind": "funding",
-    "amount": 68000000,
-    "oss": false,
-    "href": "/logos/easy-stack-kubernetes-service-eks.png",
-    "id": "easy-stack-kubernetes-service-eks"
-  },
-  {
-    "name": "eKing Cloud Container Platform",
-    "organization": "Hainan Eking",
-    "certified_kubernetes": "Platform",
-    "homepage_url": "http://www.haihangyun.com/landing",
-    "logo": "http://www.chinatravelnews.com/images/201512/287461104de1f06f.jpg",
-    "cncf_membership_data": {
-      "cncf_member": false
-    },
-    "image_data": {
-      "fileName": "e-king-cloud-container-platform.png",
-      "low_res": "162x118"
-    },
-    "cncfMember": false,
-    "cncfRelation": false,
-    "license": "NotOpenSource",
-    "headquarters": "N/A",
-    "description": null,
-    "path": "Platform / Certified Kubernetes",
-    "landscape": "Platform / Certified Kubernetes",
-    "category": "Platform",
-    "amount": "N/A",
-    "oss": false,
-    "href": "/logos/e-king-cloud-container-platform.png",
-    "id": "e-king-cloud-container-platform"
-  },
-  {
     "name": "Ghostcloud EcOS",
     "organization": "Ghostcloud",
     "description": "Enterprise Container Operation System(EcOS) is an enterprise-grade PaaS / CaaS platform based on Docker &Kubernetes. The EcOS-Kubernetes platform makes it easier to configure, deploy and manage containerized applications.",
-    "certified_kubernetes": "Distribution",
     "homepage_url": "https://www.ghostcloud.cn/ecos-kubernetes/",
     "logo": "https://assets.sdxcentral.com/ghostcloud-logo.png",
     "cncf_membership_data": {
@@ -12687,8 +12245,8 @@
     "cncfRelation": "member",
     "license": "NotOpenSource",
     "headquarters": "N/A",
-    "path": "Platform / Certified Kubernetes",
-    "landscape": "Platform / Certified Kubernetes",
+    "path": "Platform / Certified Kubernetes - Distribution",
+    "landscape": "Platform / Certified Kubernetes - Distribution",
     "category": "Platform",
     "amount": "N/A",
     "oss": false,
@@ -12699,7 +12257,6 @@
     "name": "Giant Swarm Managed Kubernetes",
     "organization": "Giant Swarm",
     "description": "Next to open source products from various leading companies in the ecosystem, we develop our own tools that interact with, automate, and manage the infrastructure and its components.",
-    "certified_kubernetes": "Distribution",
     "homepage_url": "https://giantswarm.io/product/",
     "logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/giant-swarm.png",
     "crunchbase": "https://www.crunchbase.com/organization/giant-swarm",
@@ -12731,8 +12288,8 @@
       "numEmployeesMin": 11,
       "numEmployeesMax": 50
     },
-    "path": "Platform / Certified Kubernetes",
-    "landscape": "Platform / Certified Kubernetes",
+    "path": "Platform / Certified Kubernetes - Distribution",
+    "landscape": "Platform / Certified Kubernetes - Distribution",
     "category": "Platform",
     "amountKind": "funding",
     "amount": 3325000,
@@ -12743,7 +12300,6 @@
   {
     "name": "Google Kube-Up",
     "organization": "Google Cloud Platform",
-    "certified_kubernetes": "Distribution",
     "homepage_url": "https://github.com/kubernetes/kubernetes/tree/master/cluster",
     "repo_url": "https://github.com/kubernetes/kube-deploy",
     "logo": "https://www.google.com/cloud/assets/global/google/google_cloud_color.svg",
@@ -12796,8 +12352,8 @@
       "numEmployeesMin": null,
       "numEmployeesMax": null
     },
-    "path": "Platform / Certified Kubernetes",
-    "landscape": "Platform / Certified Kubernetes",
+    "path": "Platform / Certified Kubernetes - Distribution",
+    "landscape": "Platform / Certified Kubernetes - Distribution",
     "category": "Platform",
     "amountKind": "market_cap",
     "amount": 743789756416,
@@ -12806,125 +12362,9 @@
     "id": "google-kube-up"
   },
   {
-    "name": "Google Kubernetes Engine (GKE)",
-    "organization": "Google Cloud Platform",
-    "description": "Google Kubernetes Engine is a managed environment for deploying containerized applications. It brings our latest innovations in developer productivity, resource efficiency, automated operations, and open source flexibility to accelerate your time to market.",
-    "certified_kubernetes": "Platform",
-    "homepage_url": "https://cloud.google.com/kubernetes-engine/",
-    "logo": "./src/hosted_logos/google-kubernetesengine.svg",
-    "crunchbase": "https://www.crunchbase.com/organization/google-cloud-platform",
-    "cncf_membership_data": {
-      "cncf_member": false
-    },
-    "yahoo_finance_data": {
-      "market_cap": 743789756416,
-      "effective_ticker": "GOOG"
-    },
-    "image_data": {
-      "fileName": "google-kubernetes-engine-gke.svg"
-    },
-    "cncfMember": false,
-    "cncfRelation": false,
-    "license": "NotOpenSource",
-    "headquarters": "San Francisco, California",
-    "twitter": "http://twitter.com/googlecloud",
-    "crunchbaseData": {
-      "name": "Google Cloud Platform",
-      "description": "Google Cloud Platform is a tool suite for app developers.",
-      "num_employees_min": null,
-      "num_employees_max": null,
-      "homepage": "http://cloud.google.com/",
-      "city": "San Francisco",
-      "region": "California",
-      "country": "United States",
-      "twitter": "http://twitter.com/googlecloud",
-      "linkedin": "https://www.linkedin.com/company/google-cloud",
-      "ticker": "GOOG",
-      "kind": "market_cap",
-      "numEmployeesMin": null,
-      "numEmployeesMax": null
-    },
-    "path": "Platform / Certified Kubernetes",
-    "landscape": "Platform / Certified Kubernetes",
-    "category": "Platform",
-    "amountKind": "market_cap",
-    "amount": 743789756416,
-    "oss": false,
-    "href": "/logos/google-kubernetes-engine-gke.svg",
-    "id": "google-kubernetes-engine-gke"
-  },
-  {
-    "name": "HarmonyCloud Container Platform",
-    "organization": "Harmony Cloud",
-    "description": "Kubernetes, second generation PaaS cloud computing platform, builds industry-leading container cloud computing framework",
-    "certified_kubernetes": "Platform",
-    "homepage_url": "http://harmonycloud.cn",
-    "logo": "https://www.cncf.io/wp-content/uploads/2017/03/harmony-cloud-300x184.png",
-    "cncf_membership_data": {
-      "cncf_member": false
-    },
-    "image_data": {
-      "fileName": "harmony-cloud-container-platform.png",
-      "low_res": "209x180"
-    },
-    "cncfMember": false,
-    "cncfRelation": false,
-    "license": "NotOpenSource",
-    "headquarters": "N/A",
-    "path": "Platform / Certified Kubernetes",
-    "landscape": "Platform / Certified Kubernetes",
-    "category": "Platform",
-    "amount": "N/A",
-    "oss": false,
-    "href": "/logos/harmony-cloud-container-platform.png",
-    "id": "harmony-cloud-container-platform"
-  },
-  {
-    "name": "Hasura",
-    "organization": "Hasura",
-    "description": "Hasura helps you build applications quickly. Hasura provides APIs for common uses cases (data, auth, filestore) and allows you to build your custom microservices easily too.",
-    "certified_kubernetes": "Platform",
-    "homepage_url": "https://hasura.io/",
-    "logo": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/820697-7da6f327870c08c1f39c09a0e1801b31-medium_jpg.jpg?buster=1441133201",
-    "crunchbase": "https://www.crunchbase.com/organization/hasura",
-    "cncf_membership_data": {
-      "cncf_member": false
-    },
-    "image_data": {
-      "fileName": "hasura.png",
-      "low_res": "200x200"
-    },
-    "cncfMember": false,
-    "cncfRelation": false,
-    "license": "NotOpenSource",
-    "headquarters": "N/A",
-    "twitter": "https://twitter.com/hasurahq",
-    "crunchbaseData": {
-      "name": "Hasura",
-      "description": "Platform to build and host powerful applications in minutes. Instant backend APIs on Postgres, git push to deploy, managed infrastrcuture.",
-      "num_employees_min": 11,
-      "num_employees_max": 50,
-      "homepage": "http://hasura.io/",
-      "city": null,
-      "region": null,
-      "country": null,
-      "twitter": "https://twitter.com/hasurahq",
-      "linkedin": "https://www.linkedin.com/company/hasura/",
-      "numEmployeesMin": 11,
-      "numEmployeesMax": 50
-    },
-    "path": "Platform / Certified Kubernetes",
-    "landscape": "Platform / Certified Kubernetes",
-    "category": "Platform",
-    "oss": false,
-    "href": "/logos/hasura.png",
-    "id": "hasura"
-  },
-  {
     "name": "Heptio Quickstart for Kubernetes",
     "organization": "Heptio",
     "description": "Flexible container orchestration platform on the AWS Cloud",
-    "certified_kubernetes": "Distribution",
     "homepage_url": "https://aws.amazon.com/quickstart/architecture/heptio-kubernetes/",
     "repo_url": "https://github.com/heptio/aws-quickstart",
     "logo": "https://pbs.twimg.com/profile_images/907768517545443328/x0Jn6BwF.jpg",
@@ -12973,8 +12413,8 @@
       "numEmployeesMin": 11,
       "numEmployeesMax": 50
     },
-    "path": "Platform / Certified Kubernetes",
-    "landscape": "Platform / Certified Kubernetes",
+    "path": "Platform / Certified Kubernetes - Distribution",
+    "landscape": "Platform / Certified Kubernetes - Distribution",
     "category": "Platform",
     "amountKind": "funding",
     "amount": 33500000,
@@ -12983,98 +12423,9 @@
     "id": "heptio-quickstart-for-kubernetes"
   },
   {
-    "name": "Huawei Cloud Container Engine (CCE)",
-    "organization": "Huawei Technologies",
-    "description": "Cloud Container Engine (CCE) is a high-performance, high-reliability service through which enterprises can manage containerized applications. CCE supports native Kubernetes applications and tools, allowing you to set up a container runtime environment on the cloud with ease.",
-    "certified_kubernetes": "Platform",
-    "homepage_url": "http://www.huaweicloud.com/en-us/product/cce.html",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/0/00/Huawei.svg",
-    "crunchbase": "https://www.crunchbase.com/organization/huawei",
-    "cncf_membership_data": {
-      "cncf_member": false
-    },
-    "image_data": {
-      "fileName": "huawei.svg"
-    },
-    "cncfMember": false,
-    "cncfRelation": false,
-    "license": "NotOpenSource",
-    "headquarters": "Plano, Texas",
-    "twitter": "https://twitter.com/Huawei",
-    "crunchbaseData": {
-      "name": "Huawei Technologies",
-      "description": "Huawei Technologies provides infrastructure application software and devices with wireline, wireless, and IP technologies.",
-      "num_employees_min": 5001,
-      "num_employees_max": 10000,
-      "homepage": "http://huawei.com",
-      "city": "Plano",
-      "region": "Texas",
-      "country": "United States",
-      "twitter": "https://twitter.com/Huawei",
-      "linkedin": "http://www.linkedin.com/company/3014",
-      "numEmployeesMin": 5001,
-      "numEmployeesMax": 10000
-    },
-    "path": "Platform / Certified Kubernetes",
-    "landscape": "Platform / Certified Kubernetes",
-    "category": "Platform",
-    "oss": false,
-    "href": "/logos/huawei.svg",
-    "id": "huawei-cloud-container-engine-cce"
-  },
-  {
-    "name": "IBM Cloud Container Service",
-    "organization": "IBM Cloud",
-    "description": "IBM® Cloud Container Service delivers powerful tools by combining Docker and Kubernetes technologies, an intuitive user experience, and built-in security and isolation to automate the deployment, operation, scaling, and monitoring of containerized apps in a cluster of compute hosts.",
-    "certified_kubernetes": "Platform",
-    "homepage_url": "https://console.bluemix.net/docs/containers/cs_ov.html#cs_ov",
-    "logo": "./src/hosted_logos/ibm-cloud.svg",
-    "crunchbase": "https://www.crunchbase.com/organization/ibm-cloud",
-    "cncf_membership_data": {
-      "cncf_member": false
-    },
-    "yahoo_finance_data": {
-      "market_cap": 142761607168,
-      "effective_ticker": "IBM"
-    },
-    "image_data": {
-      "fileName": "ibm-cloud.svg"
-    },
-    "cncfMember": false,
-    "cncfRelation": false,
-    "license": "NotOpenSource",
-    "headquarters": "New York, New York",
-    "twitter": "https://twitter.com/ibmcloud",
-    "crunchbaseData": {
-      "name": "IBM Cloud",
-      "description": "IBM Cloud delivers a new way to work.",
-      "num_employees_min": null,
-      "num_employees_max": null,
-      "homepage": "http://www.ibm.com/cloud-computing/us/en/",
-      "city": "New York",
-      "region": "New York",
-      "country": "United States",
-      "twitter": "https://twitter.com/ibmcloud",
-      "linkedin": "https://www.linkedin.com/groups/IBM-Cloud-Computing-2002441",
-      "ticker": "IBM",
-      "kind": "market_cap",
-      "numEmployeesMin": null,
-      "numEmployeesMax": null
-    },
-    "path": "Platform / Certified Kubernetes",
-    "landscape": "Platform / Certified Kubernetes",
-    "category": "Platform",
-    "amountKind": "market_cap",
-    "amount": 142761607168,
-    "oss": false,
-    "href": "/logos/ibm-cloud.svg",
-    "id": "ibm-cloud-container-service"
-  },
-  {
     "name": "IBM Cloud Private",
     "organization": "IBM Cloud",
     "description": "Build open, cloud-native apps with public services and run them anywhere — on public cloud or on your existing on-premises systems.",
-    "certified_kubernetes": "Distribution",
     "homepage_url": "https://www.ibm.com/cloud-computing/products/ibm-cloud-private/",
     "logo": "./src/hosted_logos/ibm-cloud.svg",
     "crunchbase": "https://www.crunchbase.com/organization/ibm-cloud",
@@ -13109,8 +12460,8 @@
       "numEmployeesMin": null,
       "numEmployeesMax": null
     },
-    "path": "Platform / Certified Kubernetes",
-    "landscape": "Platform / Certified Kubernetes",
+    "path": "Platform / Certified Kubernetes - Distribution",
+    "landscape": "Platform / Certified Kubernetes - Distribution",
     "category": "Platform",
     "amountKind": "market_cap",
     "amount": 142761607168,
@@ -13122,7 +12473,6 @@
     "name": "inwinSTACK kube-ansible",
     "organization": "inwinSTACK",
     "description": "Build a Kubernetes cluster using Ansible playbooks.",
-    "certified_kubernetes": "Distribution",
     "homepage_url": "https://github.com/inwinstack/kube-ansible",
     "repo_url": "https://github.com/inwinstack/kube-ansible",
     "logo": "https://pbs.twimg.com/profile_images/913967961135661056/llUSv_YQ_400x400.jpg",
@@ -13153,8 +12503,8 @@
     "stars": 46,
     "license": "Apache-2.0",
     "headquarters": "N/A",
-    "path": "Platform / Certified Kubernetes",
-    "landscape": "Platform / Certified Kubernetes",
+    "path": "Platform / Certified Kubernetes - Distribution",
+    "landscape": "Platform / Certified Kubernetes - Distribution",
     "category": "Platform",
     "amount": "N/A",
     "oss": true,
@@ -13165,7 +12515,6 @@
     "name": "Joyent Triton for Kubernetes",
     "organization": "Joyent",
     "description": "Triton Kubernetes is a multi-cloud Kubernetes solution. It has a global cluster manager which can run on any cloud - Public, Private or Bare Metal and manages Kubernetes environments. The current release uses Triton (Joyent public cloud). You can update the APIs to switch to another cloud or log an enhancement request.",
-    "certified_kubernetes": "Distribution",
     "homepage_url": "https://www.joyent.com/triton/compute",
     "repo_url": "https://github.com/joyent/triton-kubernetes",
     "logo": "https://p6.zdassets.com/hc/settings_assets/150338/200244868/L3CnsFFWx4OJFUp2C7uUWA-joyentLogo.png",
@@ -13213,8 +12562,8 @@
       "numEmployeesMin": 101,
       "numEmployeesMax": 250
     },
-    "path": "Platform / Certified Kubernetes",
-    "landscape": "Platform / Certified Kubernetes",
+    "path": "Platform / Certified Kubernetes - Distribution",
+    "landscape": "Platform / Certified Kubernetes - Distribution",
     "category": "Platform",
     "amountKind": "funding",
     "amount": 130999998,
@@ -13226,7 +12575,6 @@
     "name": "Kinvolk kube-spawn",
     "organization": "Kinvolk GmbH",
     "description": "A tool for creating multi-node Kubernetes clusters on a Linux machine using kubeadm & systemd-nspawn. Brought to you by the Kinvolk team. ",
-    "certified_kubernetes": "Distribution",
     "homepage_url": "https://github.com/kinvolk/kube-spawn",
     "repo_url": "https://github.com/kinvolk/kube-spawn",
     "logo": "https://www.cncf.io/wp-content/uploads/2017/03/kinvolk_logo-1.png",
@@ -13273,8 +12621,8 @@
       "numEmployeesMin": 11,
       "numEmployeesMax": 50
     },
-    "path": "Platform / Certified Kubernetes",
-    "landscape": "Platform / Certified Kubernetes",
+    "path": "Platform / Certified Kubernetes - Distribution",
+    "landscape": "Platform / Certified Kubernetes - Distribution",
     "category": "Platform",
     "oss": true,
     "href": "/logos/kinvolk-kube-spawn.png",
@@ -13284,7 +12632,6 @@
     "name": "Kublr",
     "organization": "Kublr",
     "description": "Accelerate and control the deployment, scaling, monitoring and management of your containerized applications. ",
-    "certified_kubernetes": "Distribution",
     "homepage_url": "https://kublr.com/",
     "logo": "http://kublr.com/images/KublrLogo.svg",
     "crunchbase": "https://www.crunchbase.com/organization/kublr",
@@ -13313,8 +12660,8 @@
       "numEmployeesMin": null,
       "numEmployeesMax": null
     },
-    "path": "Platform / Certified Kubernetes",
-    "landscape": "Platform / Certified Kubernetes",
+    "path": "Platform / Certified Kubernetes - Distribution",
+    "landscape": "Platform / Certified Kubernetes - Distribution",
     "category": "Platform",
     "oss": false,
     "href": "/logos/kublr.svg",
@@ -13324,7 +12671,6 @@
     "name": "Loodse Kubermatic",
     "organization": "Loodse GmbH",
     "description": "Scale apps with one click in the cloud or in your own datacenter.",
-    "certified_kubernetes": "Distribution",
     "homepage_url": "https://cloud.kubermatic.io/",
     "logo": "https://pbs.twimg.com/media/C8FWtMNW4AAIUt8.png",
     "crunchbase": "https://www.crunchbase.com/organization/loodse-gmbh",
@@ -13355,8 +12701,8 @@
       "numEmployeesMin": null,
       "numEmployeesMax": null
     },
-    "path": "Platform / Certified Kubernetes",
-    "landscape": "Platform / Certified Kubernetes",
+    "path": "Platform / Certified Kubernetes - Distribution",
+    "landscape": "Platform / Certified Kubernetes - Distribution",
     "category": "Platform",
     "amountKind": "funding",
     "amount": 167860,
@@ -13368,7 +12714,6 @@
     "name": "Mesosphere Kubernetes on DC/OS",
     "organization": "Mesosphere",
     "description": "Mesosphere DC/OS runs Kubernetes-as-a-Service alongside traditional apps and data services on any infrastructure.",
-    "certified_kubernetes": "Distribution",
     "homepage_url": "https://mesosphere.com/kubernetes/",
     "logo": "https://mesosphere.com/wp-content/uploads/2017/11/mesosphere-logo.png",
     "crunchbase": "https://www.crunchbase.com/organization/mesosphere",
@@ -13399,8 +12744,8 @@
       "numEmployeesMin": 101,
       "numEmployeesMax": 250
     },
-    "path": "Platform / Certified Kubernetes",
-    "landscape": "Platform / Certified Kubernetes",
+    "path": "Platform / Certified Kubernetes - Distribution",
+    "landscape": "Platform / Certified Kubernetes - Distribution",
     "category": "Platform",
     "amountKind": "funding",
     "amount": 122250000,
@@ -13409,56 +12754,11 @@
     "id": "mesosphere-kubernetes-on-dc-os"
   },
   {
-    "name": "Mirantis Cloud Platform",
-    "organization": "Mirantis",
-    "description": "Mirantis Cloud Platform (MCP) includes a pure play distribution of Kubernetes for enterprise-grade container orchestration.",
-    "certified_kubernetes": "Platform",
-    "homepage_url": "https://www.mirantis.com/software/kubernetes/",
-    "logo": "https://www.mirantis.com/wp-content/uploads/2017/01/mirantis-logo-2color-rgb-transparent.png",
-    "crunchbase": "https://www.crunchbase.com/organization/mirantis",
-    "cncf_membership_data": {
-      "cncf_member": true
-    },
-    "image_data": {
-      "fileName": "mirantis-cloud-platform.png"
-    },
-    "cncfMember": true,
-    "cncfRelation": "member",
-    "license": "NotOpenSource",
-    "headquarters": "Mountain View, California",
-    "twitter": "http://twitter.com/MirantisIT",
-    "crunchbaseData": {
-      "name": "Mirantis",
-      "description": "Mirantis is the pure-play OpenStack company.",
-      "num_employees_min": 501,
-      "num_employees_max": 1000,
-      "homepage": "http://www.mirantis.com",
-      "city": "Mountain View",
-      "region": "California",
-      "country": "United States",
-      "twitter": "http://twitter.com/MirantisIT",
-      "linkedin": "http://www.linkedin.com/company/mirantis",
-      "kind": "funding",
-      "funding": 220000000,
-      "numEmployeesMin": 501,
-      "numEmployeesMax": 1000
-    },
-    "path": "Platform / Certified Kubernetes",
-    "landscape": "Platform / Certified Kubernetes",
-    "category": "Platform",
-    "amountKind": "funding",
-    "amount": 220000000,
-    "oss": false,
-    "href": "/logos/mirantis-cloud-platform.png",
-    "id": "mirantis-cloud-platform"
-  },
-  {
     "name": "Netease Container Service Dedicated",
     "organization": "NetEase.com",
     "description": "Container Services Cloud Edition is an enterprise-class container platform, deployed in the user's own cloud resources. Based on Kubernetes technology, provide users exclusive container cluster. Provide users the freedom to choose the Kubernetes version of the cluster capabilities, easy to follow up the latest developments in the community. Comply with Kubernetes conformance standards, portability is good.",
-    "certified_kubernetes": "Distribution",
     "homepage_url": "https://www.163yun.com/product/container-service-dedicated",
-    "logo": "./src/hosted_logos/netease-cloud.svg",
+    "logo": "./src/hosted_logos/netease.svg",
     "crunchbase": "https://www.crunchbase.com/organization/netease-com",
     "cncf_membership_data": {
       "cncf_member": false
@@ -13491,8 +12791,8 @@
       "numEmployeesMin": 101,
       "numEmployeesMax": 250
     },
-    "path": "Platform / Certified Kubernetes",
-    "landscape": "Platform / Certified Kubernetes",
+    "path": "Platform / Certified Kubernetes - Distribution",
+    "landscape": "Platform / Certified Kubernetes - Distribution",
     "category": "Platform",
     "amountKind": "market_cap",
     "amount": 40157380608,
@@ -13501,55 +12801,14 @@
     "id": "netease-container-service-dedicated"
   },
   {
-    "name": "Nirmata Managed Kubernetes",
-    "organization": "Nirmata",
-    "description": "Nirmata is a platform that helps enterprise DevOps teams deploy, operate, and optimize Kubernetes applications across public and private clouds.",
-    "certified_kubernetes": "Platform",
-    "homepage_url": "https://www.nirmata.com/",
-    "logo": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco/v1501447457/hzaahdettnwjbpyuenjf.png",
-    "crunchbase": "https://www.crunchbase.com/organization/nirmata",
-    "cncf_membership_data": {
-      "cncf_member": true
-    },
-    "image_data": {
-      "fileName": "nirmata-managed-kubernetes.png",
-      "low_res": "145x122"
-    },
-    "cncfMember": true,
-    "cncfRelation": "member",
-    "license": "NotOpenSource",
-    "headquarters": "San Jose, California",
-    "twitter": "http://twitter.com/NirmataCloud",
-    "crunchbaseData": {
-      "name": "Nirmata",
-      "description": "Nirmata is a cloud based, Microservices operations and management platform.",
-      "num_employees_min": 1,
-      "num_employees_max": 10,
-      "homepage": "http://nirmata.com",
-      "city": "San Jose",
-      "region": "California",
-      "country": "United States",
-      "twitter": "http://twitter.com/NirmataCloud",
-      "linkedin": "http://www.linkedin.com/company/nirmata",
-      "numEmployeesMin": 1,
-      "numEmployeesMax": 10
-    },
-    "path": "Platform / Certified Kubernetes",
-    "landscape": "Platform / Certified Kubernetes",
-    "category": "Platform",
-    "oss": false,
-    "href": "/logos/nirmata-managed-kubernetes.png",
-    "id": "nirmata-managed-kubernetes"
-  },
-  {
     "name": "OpenShift",
     "organization": "Red Hat",
     "description": "Red Hat® OpenShift is a container application platform that brings docker and Kubernetes to the enterprise.",
-    "certified_kubernetes": "Distribution",
     "homepage_url": "https://www.openshift.com/",
     "repo_url": "https://github.com/openshift/origin",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/3/3a/OpenShift-LogoType.svg",
     "crunchbase": "https://www.crunchbase.com/organization/red-hat",
+    "twitter": "https://twitter.com/openshift",
     "github_data": {
       "stars": 4065,
       "license": "Apache-2.0",
@@ -13580,7 +12839,6 @@
     "stars": 4065,
     "license": "Apache-2.0",
     "headquarters": "Raleigh, North Carolina",
-    "twitter": "http://twitter.com/redhatnews",
     "crunchbaseData": {
       "name": "Red Hat",
       "description": "Red Hat is a multinational software company engaged in providing open-source software products to the enterprise community.",
@@ -13597,8 +12855,8 @@
       "numEmployeesMin": 5001,
       "numEmployeesMax": 10000
     },
-    "path": "Platform / Certified Kubernetes",
-    "landscape": "Platform / Certified Kubernetes",
+    "path": "Platform / Certified Kubernetes - Distribution",
+    "landscape": "Platform / Certified Kubernetes - Distribution",
     "category": "Platform",
     "amountKind": "market_cap",
     "amount": 23695507456,
@@ -13607,58 +12865,9 @@
     "id": "open-shift"
   },
   {
-    "name": "Oracle Container Engine",
-    "organization": "Oracle",
-    "description": "Next generation of container-native development. Container life cycle made easy.",
-    "certified_kubernetes": "Platform",
-    "homepage_url": "http://www.wercker.com/product",
-    "logo": "https://cdn.worldvectorlogo.com/logos/oracle-6.svg",
-    "crunchbase": "https://www.crunchbase.com/organization/oracle",
-    "cncf_membership_data": {
-      "cncf_member": true
-    },
-    "yahoo_finance_data": {
-      "market_cap": 203668324352,
-      "effective_ticker": "ORCL"
-    },
-    "image_data": {
-      "fileName": "oracle-cloud.svg"
-    },
-    "cncfMember": true,
-    "cncfRelation": "member",
-    "license": "NotOpenSource",
-    "headquarters": "Redwood Shores, California",
-    "twitter": "http://twitter.com/Oracle",
-    "crunchbaseData": {
-      "name": "Oracle",
-      "description": "Oracle is a computer technology corporation developing and marketing computer hardware systems and enterprise software products.",
-      "num_employees_min": 10001,
-      "num_employees_max": 1000000,
-      "homepage": "http://oracle.com",
-      "city": "Redwood Shores",
-      "region": "California",
-      "country": "United States",
-      "twitter": "http://twitter.com/Oracle",
-      "linkedin": "http://www.linkedin.com/company/1028",
-      "ticker": "ORCL",
-      "kind": "market_cap",
-      "numEmployeesMin": 10001,
-      "numEmployeesMax": 1000000
-    },
-    "path": "Platform / Certified Kubernetes",
-    "landscape": "Platform / Certified Kubernetes",
-    "category": "Platform",
-    "amountKind": "market_cap",
-    "amount": 203668324352,
-    "oss": false,
-    "href": "/logos/oracle-cloud.svg",
-    "id": "oracle-container-engine"
-  },
-  {
     "name": "Oracle Linux Container Services",
     "organization": "Oracle",
     "description": "Continuing Oracle's commitment to open source and the container ecosystem, Oracle joins the Cloud Native Computing Foundation, and we are pleased to announce Oracle Container Services for use with Kubernetes.",
-    "certified_kubernetes": "Distribution",
     "homepage_url": "https://blogs.oracle.com/linux/announcing-oracle-linux-container-services-for-use-with-kubernetes",
     "logo": "https://cdn.worldvectorlogo.com/logos/oracle-6.svg",
     "crunchbase": "https://www.crunchbase.com/organization/oracle",
@@ -13693,8 +12902,8 @@
       "numEmployeesMin": 10001,
       "numEmployeesMax": 1000000
     },
-    "path": "Platform / Certified Kubernetes",
-    "landscape": "Platform / Certified Kubernetes",
+    "path": "Platform / Certified Kubernetes - Distribution",
+    "landscape": "Platform / Certified Kubernetes - Distribution",
     "category": "Platform",
     "amountKind": "market_cap",
     "amount": 203668324352,
@@ -13706,7 +12915,6 @@
     "name": "Oracle Terraform Kubernetes Installer",
     "organization": "Oracle",
     "description": "Terraform Installer for Kubernetes on Oracle Cloud Infrastructure.",
-    "certified_kubernetes": "Distribution",
     "homepage_url": "https://github.com/oracle/terraform-kubernetes-installer",
     "repo_url": "https://github.com/oracle/terraform-kubernetes-installer",
     "logo": "https://cdn.worldvectorlogo.com/logos/oracle-6.svg",
@@ -13758,8 +12966,8 @@
       "numEmployeesMin": 10001,
       "numEmployeesMax": 1000000
     },
-    "path": "Platform / Certified Kubernetes",
-    "landscape": "Platform / Certified Kubernetes",
+    "path": "Platform / Certified Kubernetes - Distribution",
+    "landscape": "Platform / Certified Kubernetes - Distribution",
     "category": "Platform",
     "amountKind": "market_cap",
     "amount": 203668324352,
@@ -13771,7 +12979,6 @@
     "name": "Pivotal Container Service (PKS)",
     "organization": "Pivotal",
     "description": "Reliably deploy and run containerized workloads across private and public clouds. PKS eases the Day 2 operations burden for container orchestration with built-in HA, monitoring, automated health checks, and much more.",
-    "certified_kubernetes": "Distribution",
     "homepage_url": "https://pivotal.io/platform/pivotal-container-service",
     "logo": "https://newrelic.cdn.prismic.io/newrelic/4080a2492514766cbfaddd717b4b0ab5e761b277_pivotal_logo.png",
     "crunchbase": "https://www.crunchbase.com/organization/pivotal",
@@ -13803,8 +13010,8 @@
       "numEmployeesMin": 1001,
       "numEmployeesMax": 5000
     },
-    "path": "Platform / Certified Kubernetes",
-    "landscape": "Platform / Certified Kubernetes",
+    "path": "Platform / Certified Kubernetes - Distribution",
+    "landscape": "Platform / Certified Kubernetes - Distribution",
     "category": "Platform",
     "amountKind": "funding",
     "amount": 1704000000,
@@ -13816,7 +13023,6 @@
     "name": "Platform9 Managed Kubernetes",
     "organization": "Platform9 Systems",
     "description": "Platform9 Managed Kubernetes is SaaS-managed, infrastructure-agnostic, and works across public clouds and on-premises server infrastructure.",
-    "certified_kubernetes": "Distribution",
     "homepage_url": "https://platform9.com/managed-kubernetes/",
     "logo": "https://hostadvice.com/wp-content/uploads/2017/07/Platform9-LogoStacked.png",
     "crunchbase": "https://www.crunchbase.com/organization/platform9-systems-inc",
@@ -13848,8 +13054,8 @@
       "numEmployeesMin": 51,
       "numEmployeesMax": 100
     },
-    "path": "Platform / Certified Kubernetes",
-    "landscape": "Platform / Certified Kubernetes",
+    "path": "Platform / Certified Kubernetes - Distribution",
+    "landscape": "Platform / Certified Kubernetes - Distribution",
     "category": "Platform",
     "amountKind": "funding",
     "amount": 36500000,
@@ -13861,7 +13067,6 @@
     "name": "Rancher",
     "organization": "Rancher Labs",
     "description": "Rancher container management platform makes it easy for you to manage all aspects of running containers. You no longer need to develop the technical skills required to integrate and maintain a complex set of open source technologies.",
-    "certified_kubernetes": "Distribution",
     "homepage_url": "http://rancher.com/kubernetes/",
     "repo_url": "https://github.com/rancher/rancher",
     "logo": "https://cloudssky.com/.galleries/images/rancher-logo-stacked-color.png?__scale=w:400,h:203,c:transparent",
@@ -13910,8 +13115,8 @@
       "numEmployeesMin": 11,
       "numEmployeesMax": 50
     },
-    "path": "Platform / Certified Kubernetes",
-    "landscape": "Platform / Certified Kubernetes",
+    "path": "Platform / Certified Kubernetes - Distribution",
+    "landscape": "Platform / Certified Kubernetes - Distribution",
     "category": "Platform",
     "amountKind": "funding",
     "amount": 30000000,
@@ -13923,7 +13128,6 @@
     "name": "Samsung Kraken",
     "organization": "Samsung SDS",
     "description": "The Samsung SDS Cloud Native Computing Team's (CNCT) mission is to help companies in adoption of Cloud Native development principles and improve their organizational velocity.",
-    "certified_kubernetes": "Distribution",
     "homepage_url": "http://samsung-cnct.github.io/",
     "repo_url": "https://github.com/samsung-cnct/kraken",
     "logo": "https://databricks.com/wp-content/uploads/2015/06/samsung_sds_logo.png",
@@ -13970,66 +13174,17 @@
       "numEmployeesMin": 10001,
       "numEmployeesMax": 1000000
     },
-    "path": "Platform / Certified Kubernetes",
-    "landscape": "Platform / Certified Kubernetes",
+    "path": "Platform / Certified Kubernetes - Distribution",
+    "landscape": "Platform / Certified Kubernetes - Distribution",
     "category": "Platform",
     "oss": true,
     "href": "/logos/samsung-kraken.png",
     "id": "samsung-kraken"
   },
   {
-    "name": "SAP Cloud Platform - Gardener (AWS, Azure, GCE)",
-    "organization": "SAP",
-    "description": "SAP Cloud Platform is an open platform as a service (PaaS) which provides customers and partners with in-memory capabilities, core platform services, and unique business services for building and extending personalized, collaborative, mobile-enabled cloud applications. SAP Cloud Platform is designed to accelerate digital transformation across your business by enabling your organization to build the exact application you need more quickly, easily, and economically – all  without the requirement of maintaining or investing in on-premises infrastructure. Based on open standards, SAP Cloud Platform offers complete flexibility and control over your choice of clouds, frameworks, and applications.",
-    "certified_kubernetes": "Platform",
-    "homepage_url": "https://cloudplatform.sap.com/index.html",
-    "logo": "https://www.ariba.com/frontend/aribacom/dist/assets/images/sap_logo.svg",
-    "crunchbase": "https://www.crunchbase.com/organization/sap",
-    "cncf_membership_data": {
-      "cncf_member": true
-    },
-    "yahoo_finance_data": {
-      "market_cap": 118828531712,
-      "effective_ticker": "SAP"
-    },
-    "image_data": {
-      "fileName": "sap-cloud-platform-gardener-aws-azure-gce.svg"
-    },
-    "cncfMember": true,
-    "cncfRelation": "member",
-    "license": "NotOpenSource",
-    "headquarters": "Walldorf, Germany",
-    "twitter": "http://twitter.com/SAP",
-    "crunchbaseData": {
-      "name": "SAP",
-      "description": "SAP is a technology company that develops enterprise application software for companies and industries across diverse sectors.",
-      "num_employees_min": 10001,
-      "num_employees_max": 1000000,
-      "homepage": "http://www.sap.com",
-      "city": "Walldorf",
-      "region": "Baden-Wurttemberg",
-      "country": "Germany",
-      "twitter": "http://twitter.com/SAP",
-      "linkedin": "http://www.linkedin.com/company/1115",
-      "ticker": "SAP",
-      "kind": "market_cap",
-      "numEmployeesMin": 10001,
-      "numEmployeesMax": 1000000
-    },
-    "path": "Platform / Certified Kubernetes",
-    "landscape": "Platform / Certified Kubernetes",
-    "category": "Platform",
-    "amountKind": "market_cap",
-    "amount": 118828531712,
-    "oss": false,
-    "href": "/logos/sap-cloud-platform-gardener-aws-azure-gce.svg",
-    "id": "sap-cloud-platform-gardener-aws-azure-gce"
-  },
-  {
     "name": "StackPointCloud (SPC)",
     "organization": "StackPointCloud",
     "description": "The universal control plane for managed Kubernetes. Deploy a Kubernetes cluster to the cloud provider of your choice in 3 steps using our web-based interface.",
-    "certified_kubernetes": "Distribution",
     "homepage_url": "https://stackpoint.io/",
     "logo": "https://www.cncf.io/wp-content/uploads/2016/09/logo_stackpointcloud.png",
     "crunchbase": "https://www.crunchbase.com/organization/stackpointcloud",
@@ -14059,8 +13214,8 @@
       "numEmployeesMin": null,
       "numEmployeesMax": null
     },
-    "path": "Platform / Certified Kubernetes",
-    "landscape": "Platform / Certified Kubernetes",
+    "path": "Platform / Certified Kubernetes - Distribution",
+    "landscape": "Platform / Certified Kubernetes - Distribution",
     "category": "Platform",
     "oss": false,
     "href": "/logos/stack-point-cloud-spc.png",
@@ -14070,7 +13225,6 @@
     "name": "SUSE CaaS Platform",
     "organization": "SUSE",
     "description": "SUSE Containers as a Service Platform is the solution that puts together SUSE Linux Enterprise MicroOS, the operating system optimized for running the next generation of applications with Linux containers, and the container orchestration solution for container cluster management based on Kubernetes.",
-    "certified_kubernetes": "Distribution",
     "homepage_url": "https://www.suse.com/c/introducing-suse-containers-service-platform/",
     "logo": "https://www3.lenovo.com/medias/lenovo-systems-solutions-suse-cloud.png?context=bWFzdGVyfHJvb3R8ODg5NHxpbWFnZS9wbmd8aDBhL2g0OC85NDQ4OTkzODE2NjA2LnBuZ3w0ODZkYjYwMDYyNTg2MjNkZDRiODYxYTJiODFkNjI2NzExYWM0YjcyMTNmMzU3YzI2N2ZkYzYyOWYyZDQxMjg0",
     "crunchbase": "https://www.crunchbase.com/organization/suse",
@@ -14100,8 +13254,8 @@
       "numEmployeesMin": 501,
       "numEmployeesMax": 1000
     },
-    "path": "Platform / Certified Kubernetes",
-    "landscape": "Platform / Certified Kubernetes",
+    "path": "Platform / Certified Kubernetes - Distribution",
+    "landscape": "Platform / Certified Kubernetes - Distribution",
     "category": "Platform",
     "oss": false,
     "href": "/logos/suse-caa-s-platform.png",
@@ -14111,7 +13265,6 @@
     "name": "Tectonic",
     "organization": "Red Hat",
     "description": "Tectonic ships with CoreOS's signature automated operations, runs multi-cloud, and is the fastest, most secure path to Kubernetes.",
-    "certified_kubernetes": "Distribution",
     "homepage_url": "https://coreos.com/tectonic",
     "repo_url": "https://github.com/coreos/tectonic-installer",
     "logo": "https://i0.wp.com/containerjournal.com/wp-content/uploads/2015/07/tectonic-bycoreos-color-copy.png",
@@ -14164,8 +13317,8 @@
       "numEmployeesMin": 5001,
       "numEmployeesMax": 10000
     },
-    "path": "Platform / Certified Kubernetes",
-    "landscape": "Platform / Certified Kubernetes",
+    "path": "Platform / Certified Kubernetes - Distribution",
+    "landscape": "Platform / Certified Kubernetes - Distribution",
     "category": "Platform",
     "amountKind": "market_cap",
     "amount": 23695507456,
@@ -14174,100 +13327,9 @@
     "id": "tectonic"
   },
   {
-    "name": "Tencent Cloud Container Service (CCS)",
-    "organization": "Tencent Holdings",
-    "description": "Tencent Cloud Container Service (CCS) is a container management service with high scalability and high performance.",
-    "certified_kubernetes": "Platform",
-    "stock_ticker": "TCEHY",
-    "homepage_url": "https://cloud.tencent.com/product/ccs?lang=en",
-    "logo": "./src/hosted_logos/tencent-cloud.svg",
-    "crunchbase": "https://www.crunchbase.com/organization/tencent",
-    "cncf_membership_data": {
-      "cncf_member": false
-    },
-    "yahoo_finance_data": {
-      "market_cap": 535561371648,
-      "effective_ticker": "TCEHY"
-    },
-    "image_data": {
-      "fileName": "tencent-cloud.svg"
-    },
-    "cncfMember": false,
-    "cncfRelation": false,
-    "license": "NotOpenSource",
-    "headquarters": "Shenzhen, China",
-    "twitter": "https://twitter.com/tencentglobal",
-    "crunchbaseData": {
-      "name": "Tencent Holdings",
-      "description": "Tencent is a Chinese internet service portal offering value-added internet, mobile, telecom, and online advertising services.",
-      "num_employees_min": 10001,
-      "num_employees_max": 1000000,
-      "homepage": "https://www.tencent.com/en-us/",
-      "city": "Shenzhen",
-      "region": "Guangdong",
-      "country": "China",
-      "twitter": "https://twitter.com/tencentglobal",
-      "linkedin": "https://www.linkedin.com/company/166328/",
-      "ticker": "0700",
-      "kind": "market_cap",
-      "numEmployeesMin": 10001,
-      "numEmployeesMax": 1000000
-    },
-    "path": "Platform / Certified Kubernetes",
-    "landscape": "Platform / Certified Kubernetes",
-    "category": "Platform",
-    "amountKind": "market_cap",
-    "amount": 535561371648,
-    "oss": false,
-    "href": "/logos/tencent-cloud.svg",
-    "id": "tencent-cloud-container-service-ccs"
-  },
-  {
-    "name": "TenxCloud Container Engine (TCE)",
-    "organization": "TenxCloud",
-    "description": "The first enterprise container cloud management platform based on Kubernetes and supporting private deployments.",
-    "certified_kubernetes": "Platform",
-    "homepage_url": "https://tenxcloud.com/",
-    "logo": "https://www.cncf.io/wp-content/uploads/2017/11/tenxcloud.png",
-    "crunchbase": "https://www.crunchbase.com/organization/tenxcloud",
-    "cncf_membership_data": {
-      "cncf_member": true
-    },
-    "image_data": {
-      "fileName": "tenx-cloud-container-engine-tce.png",
-      "low_res": "284x82"
-    },
-    "cncfMember": true,
-    "cncfRelation": "member",
-    "license": "NotOpenSource",
-    "headquarters": "Beijing, China",
-    "twitter": null,
-    "crunchbaseData": {
-      "name": "TenxCloud",
-      "description": "TenxCloud is a Beijing-based enterprise cloud computing service provider.",
-      "num_employees_min": null,
-      "num_employees_max": null,
-      "homepage": null,
-      "city": "Beijing",
-      "region": "Beijing",
-      "country": "China",
-      "twitter": null,
-      "linkedin": null,
-      "numEmployeesMin": null,
-      "numEmployeesMax": null
-    },
-    "path": "Platform / Certified Kubernetes",
-    "landscape": "Platform / Certified Kubernetes",
-    "category": "Platform",
-    "oss": false,
-    "href": "/logos/tenx-cloud-container-engine-tce.png",
-    "id": "tenx-cloud-container-engine-tce"
-  },
-  {
     "name": "Typhoon",
     "organization": "Poseidon",
     "description": "Typhoon distributes upstream Kubernetes, architectural conventions, and cluster addons, much like a GNU/Linux distribution provides the Linux kernel and userspace components.",
-    "certified_kubernetes": "Distribution",
     "homepage_url": "https://typhoon.psdn.io/",
     "repo_url": "https://github.com/poseidon/typhoon",
     "logo": "https://kubernetes.io/images/square-logos/poseidon.png",
@@ -14298,8 +13360,8 @@
     "stars": 301,
     "license": "MIT",
     "headquarters": "N/A",
-    "path": "Platform / Certified Kubernetes",
-    "landscape": "Platform / Certified Kubernetes",
+    "path": "Platform / Certified Kubernetes - Distribution",
+    "landscape": "Platform / Certified Kubernetes - Distribution",
     "category": "Platform",
     "amount": "N/A",
     "oss": true,
@@ -14310,7 +13372,6 @@
     "name": "VMWare Pivotal Container Service (PKS)",
     "organization": "VMware",
     "description": "VMware and Pivotal Launch Pivotal Container Service (PKS) and Collaborate with Google Cloud to Bring Kubernetes to Enterprise Customers.",
-    "certified_kubernetes": "Distribution",
     "homepage_url": "https://www.vmware.com/radius/pivotal-container-services/",
     "logo": "https://practice-labs.com/images/vmware-logo.svg",
     "crunchbase": "https://www.crunchbase.com/organization/vmware",
@@ -14344,8 +13405,8 @@
       "numEmployeesMin": 10001,
       "numEmployeesMax": 1000000
     },
-    "path": "Platform / Certified Kubernetes",
-    "landscape": "Platform / Certified Kubernetes",
+    "path": "Platform / Certified Kubernetes - Distribution",
+    "landscape": "Platform / Certified Kubernetes - Distribution",
     "category": "Platform",
     "amountKind": "market_cap",
     "amount": 49868169216,
@@ -14357,7 +13418,6 @@
     "name": "Weaveworks kubeadm",
     "organization": "Weaveworks",
     "description": "kubeadm is a toolkit that helps you bootstrap a best-practice Kubernetes cluster in an easy, reasonably secure and extensible way. It also supports managing Bootstrap Tokens for you and upgrading/downgrading clusters.",
-    "certified_kubernetes": "Distribution",
     "homepage_url": "https://kubernetes.io/docs/setup/independent/create-cluster-kubeadm/",
     "repo_url": "https://github.com/kubernetes/kubeadm",
     "logo": "https://events.linuxfoundation.org/wp-content/uploads/2017/05/logo_weaveworks.png",
@@ -14406,8 +13466,8 @@
       "numEmployeesMin": 11,
       "numEmployeesMax": 50
     },
-    "path": "Platform / Certified Kubernetes",
-    "landscape": "Platform / Certified Kubernetes",
+    "path": "Platform / Certified Kubernetes - Distribution",
+    "landscape": "Platform / Certified Kubernetes - Distribution",
     "category": "Platform",
     "amountKind": "funding",
     "amount": 20000000,
@@ -14419,7 +13479,6 @@
     "name": "WiseCloud",
     "organization": "Wise2c",
     "description": "Cover the whole process of modern software production line needs.",
-    "certified_kubernetes": "Distribution",
     "homepage_url": "http://www.wise2c.com/solution",
     "logo": "https://www.cncf.io/wp-content/uploads/2017/11/wise2c.png",
     "cncf_membership_data": {
@@ -14433,13 +13492,888 @@
     "cncfRelation": false,
     "license": "NotOpenSource",
     "headquarters": "N/A",
-    "path": "Platform / Certified Kubernetes",
-    "landscape": "Platform / Certified Kubernetes",
+    "path": "Platform / Certified Kubernetes - Distribution",
+    "landscape": "Platform / Certified Kubernetes - Distribution",
     "category": "Platform",
     "amount": "N/A",
     "oss": false,
     "href": "/logos/wise-cloud.png",
     "id": "wise-cloud"
+  },
+  {
+    "name": "Alauda EE",
+    "organization": "Alauda",
+    "homepage_url": "https://www.alauda.cn/product/detail/id/68.html",
+    "logo": "http://cdn4.infoqstatic.com/statics_s1_20180206-0549-1/images/partners/cn/company/alauda.svg",
+    "crunchbase": "https://www.crunchbase.com/organization/alauda",
+    "cncf_membership_data": {
+      "cncf_member": true
+    },
+    "image_data": {
+      "fileName": "alauda-ee.svg"
+    },
+    "cncfMember": true,
+    "cncfRelation": "member",
+    "license": "NotOpenSource",
+    "headquarters": "Haidian, China",
+    "twitter": null,
+    "description": "Alauda is a pioneer cloud platform provider that focuses on containers and microservices.",
+    "crunchbaseData": {
+      "name": "Alauda",
+      "description": "Alauda is a pioneer cloud platform provider that focuses on containers and microservices.",
+      "num_employees_min": 11,
+      "num_employees_max": 50,
+      "homepage": "http://www.alauda.cn/",
+      "city": "Haidian",
+      "region": "Beijing",
+      "country": "China",
+      "twitter": null,
+      "linkedin": null,
+      "kind": "funding",
+      "funding": 15000000,
+      "numEmployeesMin": 11,
+      "numEmployeesMax": 50
+    },
+    "path": "Platform / Certified Kubernetes - Platform",
+    "landscape": "Platform / Certified Kubernetes - Platform",
+    "category": "Platform",
+    "amountKind": "funding",
+    "amount": 15000000,
+    "oss": false,
+    "href": "/logos/alauda-ee.svg",
+    "id": "alauda-ee"
+  },
+  {
+    "name": "Alibaba Cloud Container Service",
+    "organization": "Alibaba Cloud",
+    "description": "Container Services Provides high-performance, scalable container application management services that enable lifecycle management of containerized applications with Docker and Kubernetes, multiple application deployment methods and continuous delivery capabilities, and support for microservices architecture.",
+    "homepage_url": "https://www.alibabacloud.com/product/container-service?spm=a3c0i.7911826.709257.dproducta4.1010a3feFbGgBW",
+    "logo": "./src/hosted_logos/alibaba-cloud.svg",
+    "crunchbase": "https://www.crunchbase.com/organization/alibaba-cloud",
+    "cncf_membership_data": {
+      "cncf_member": false
+    },
+    "yahoo_finance_data": {
+      "market_cap": 475602747392,
+      "effective_ticker": "BABA"
+    },
+    "image_data": {
+      "fileName": "alibaba-cloud.svg"
+    },
+    "cncfMember": false,
+    "cncfRelation": false,
+    "license": "NotOpenSource",
+    "headquarters": "Hangzhou, China",
+    "twitter": "https://twitter.com/alibaba_cloud",
+    "crunchbaseData": {
+      "name": "Alibaba Cloud",
+      "description": "Alibaba Cloud develops highly scalable cloud computing and data management services.",
+      "num_employees_min": null,
+      "num_employees_max": null,
+      "homepage": "https://www.alibabacloud.com/",
+      "city": "Hangzhou",
+      "region": "Zhejiang",
+      "country": "China",
+      "twitter": "https://twitter.com/alibaba_cloud",
+      "linkedin": "https://www.linkedin.com/company/alibaba-cloud-computing-company",
+      "ticker": "BABA",
+      "kind": "market_cap",
+      "numEmployeesMin": null,
+      "numEmployeesMax": null
+    },
+    "path": "Platform / Certified Kubernetes - Platform",
+    "landscape": "Platform / Certified Kubernetes - Platform",
+    "category": "Platform",
+    "amountKind": "market_cap",
+    "amount": 475602747392,
+    "oss": false,
+    "href": "/logos/alibaba-cloud.svg",
+    "id": "alibaba-cloud-container-service"
+  },
+  {
+    "name": "Azure (ACS) Engine",
+    "organization": "Microsoft",
+    "description": "Azure Container Service Engine - a place for community to collaborate and build the best open Docker container infrastructure for Azure.",
+    "homepage_url": "https://github.com/Azure/acs-engine",
+    "repo_url": "https://github.com/Azure/acs-engine",
+    "logo": "https://www.datocms-assets.com/2885/1513729661-azure_logo_blue.svg",
+    "crunchbase": "https://www.crunchbase.com/organization/microsoft",
+    "github_data": {
+      "stars": 657,
+      "license": "MIT",
+      "description": "Azure Container Service Engine - a place for community to collaborate and build the best open Docker container infrastructure for Azure.",
+      "latest_commit_date": "2018-02-14T19:10:36Z",
+      "latest_commit_link": "/Azure/acs-engine/commit/2bdd3c0040cc561ea0f6601acb0f4de2a275debc"
+    },
+    "github_start_commit_data": {
+      "start_commit_link": "/Azure/acs-engine/commit/d9bb7f4bbfd1b2932f1d0319e07429eee6127dbf",
+      "start_date": "2016-05-17T17:19:35Z"
+    },
+    "cncf_membership_data": {
+      "cncf_member": true
+    },
+    "yahoo_finance_data": {
+      "market_cap": 693096546304,
+      "effective_ticker": "MSFT"
+    },
+    "image_data": {
+      "fileName": "azure-cloud-services.svg"
+    },
+    "cncfMember": true,
+    "cncfRelation": "member",
+    "firstCommitDate": "2016-05-17T17:19:35Z",
+    "firstCommitLink": "/Azure/acs-engine/commit/d9bb7f4bbfd1b2932f1d0319e07429eee6127dbf",
+    "latestCommitDate": "2018-02-14T19:10:36Z",
+    "latestCommitLink": "/Azure/acs-engine/commit/2bdd3c0040cc561ea0f6601acb0f4de2a275debc",
+    "stars": 657,
+    "license": "MIT",
+    "headquarters": "Redmond, Washington",
+    "twitter": "http://twitter.com/Microsoft",
+    "crunchbaseData": {
+      "name": "Microsoft",
+      "description": "Microsoft is a software corporation that develops, manufactures, licenses, supports, and sells a range of software products and services.",
+      "num_employees_min": 10001,
+      "num_employees_max": 1000000,
+      "homepage": "http://www.microsoft.com",
+      "city": "Redmond",
+      "region": "Washington",
+      "country": "United States",
+      "twitter": "http://twitter.com/Microsoft",
+      "linkedin": "http://www.linkedin.com/company/microsoft",
+      "ticker": "MSFT",
+      "kind": "market_cap",
+      "numEmployeesMin": 10001,
+      "numEmployeesMax": 1000000
+    },
+    "path": "Platform / Certified Kubernetes - Platform",
+    "landscape": "Platform / Certified Kubernetes - Platform",
+    "category": "Platform",
+    "amountKind": "market_cap",
+    "amount": 693096546304,
+    "oss": true,
+    "href": "/logos/azure-cloud-services.svg",
+    "id": "azure-acs-engine"
+  },
+  {
+    "name": "Azure Container Service (AKS)",
+    "organization": "Microsoft",
+    "description": "Simplify the deployment, management, and operations of Kubernetes. Use a fully managed Kubernetes container orchestration service or choose other orchestrators.",
+    "homepage_url": "https://azure.microsoft.com/en-us/services/container-service/",
+    "logo": "https://www.datocms-assets.com/2885/1513729661-azure_logo_blue.svg",
+    "crunchbase": "https://www.crunchbase.com/organization/microsoft",
+    "cncf_membership_data": {
+      "cncf_member": true
+    },
+    "yahoo_finance_data": {
+      "market_cap": 693096546304,
+      "effective_ticker": "MSFT"
+    },
+    "image_data": {
+      "fileName": "azure-cloud-services.svg"
+    },
+    "cncfMember": true,
+    "cncfRelation": "member",
+    "license": "NotOpenSource",
+    "headquarters": "Redmond, Washington",
+    "twitter": "http://twitter.com/Microsoft",
+    "crunchbaseData": {
+      "name": "Microsoft",
+      "description": "Microsoft is a software corporation that develops, manufactures, licenses, supports, and sells a range of software products and services.",
+      "num_employees_min": 10001,
+      "num_employees_max": 1000000,
+      "homepage": "http://www.microsoft.com",
+      "city": "Redmond",
+      "region": "Washington",
+      "country": "United States",
+      "twitter": "http://twitter.com/Microsoft",
+      "linkedin": "http://www.linkedin.com/company/microsoft",
+      "ticker": "MSFT",
+      "kind": "market_cap",
+      "numEmployeesMin": 10001,
+      "numEmployeesMax": 1000000
+    },
+    "path": "Platform / Certified Kubernetes - Platform",
+    "landscape": "Platform / Certified Kubernetes - Platform",
+    "category": "Platform",
+    "amountKind": "market_cap",
+    "amount": 693096546304,
+    "oss": false,
+    "href": "/logos/azure-cloud-services.svg",
+    "id": "azure-container-service-aks"
+  },
+  {
+    "name": "BoCloud BeyondcentContainer",
+    "organization": "Bocloud",
+    "description": "PaaS cloud solutions for docketing and managing Internet applications using docker container technology. Help customers respond to the explosive and unpredictable nature of Internet services.",
+    "homepage_url": "http://bocloud.com.cn/product_container.html",
+    "logo": "http://images.tmtpost.com/uploads/images/2017/05/10/de220d631464bcf29f89ac3e434c262614944057435518.jpg",
+    "crunchbase": "https://www.crunchbase.com/organization/bocloud",
+    "cncf_membership_data": {
+      "cncf_member": false
+    },
+    "image_data": {
+      "fileName": "bo-cloud-beyondcent-container.png",
+      "low_res": "406x168"
+    },
+    "cncfMember": false,
+    "cncfRelation": false,
+    "license": "NotOpenSource",
+    "headquarters": "Suzhou, China",
+    "twitter": null,
+    "crunchbaseData": {
+      "name": "Bocloud",
+      "description": "BoCloud provides professional cloud computing service for enterprise customers, focusing on PaaS technology.",
+      "num_employees_min": null,
+      "num_employees_max": null,
+      "homepage": "http://www.bocloud.com.cn",
+      "city": "Suzhou",
+      "region": "Jiangsu",
+      "country": "China",
+      "twitter": null,
+      "linkedin": null,
+      "numEmployeesMin": null,
+      "numEmployeesMax": null
+    },
+    "path": "Platform / Certified Kubernetes - Platform",
+    "landscape": "Platform / Certified Kubernetes - Platform",
+    "category": "Platform",
+    "oss": false,
+    "href": "/logos/bo-cloud-beyondcent-container.png",
+    "id": "bo-cloud-beyondcent-container"
+  },
+  {
+    "name": "Cisco Container Platform",
+    "organization": "Cisco",
+    "description": "Cisco Container Platform (CCP) automates the repetitive things and simplifies the complex ones so everyone can just go back to enjoying the magic of containers.",
+    "homepage_url": "https://www.cisco.com/c/en/us/products/cloud-systems-management/container-platform/index.html",
+    "logo": "https://merchandise-store.cisco.com/skin/frontend/ultimo/fullpond/images/Cisco_Logo.svg",
+    "crunchbase": "https://www.crunchbase.com/organization/cisco",
+    "cncf_membership_data": {
+      "cncf_member": true
+    },
+    "yahoo_finance_data": {
+      "market_cap": 207161901056,
+      "effective_ticker": "CSCO"
+    },
+    "image_data": {
+      "fileName": "cisco-container-platform.svg"
+    },
+    "cncfMember": true,
+    "cncfRelation": "member",
+    "license": "NotOpenSource",
+    "headquarters": "San Jose, California",
+    "twitter": "https://twitter.com/cisco",
+    "crunchbaseData": {
+      "name": "Cisco",
+      "description": "Cisco develops, manufactures, and sells networking hardware, telecommunications equipment, and other high-technology services and products.",
+      "num_employees_min": 10001,
+      "num_employees_max": 1000000,
+      "homepage": "http://www.cisco.com",
+      "city": "San Jose",
+      "region": "California",
+      "country": "United States",
+      "twitter": "https://twitter.com/cisco",
+      "linkedin": "http://www.linkedin.com/company/cisco",
+      "ticker": "CSCO",
+      "kind": "market_cap",
+      "numEmployeesMin": 10001,
+      "numEmployeesMax": 1000000
+    },
+    "path": "Platform / Certified Kubernetes - Platform",
+    "landscape": "Platform / Certified Kubernetes - Platform",
+    "category": "Platform",
+    "amountKind": "market_cap",
+    "amount": 207161901056,
+    "oss": false,
+    "href": "/logos/cisco-container-platform.svg",
+    "id": "cisco-container-platform"
+  },
+  {
+    "name": "Cloud Foundry Container Runtime",
+    "organization": "Cloud Foundry",
+    "description": " Cloud Foundry Application Runtime utilizes containers as part of its DNA, and has since before Docker popularized containers. The new CF Container Runtime gives you more granular control and management of containers with Kubernetes.",
+    "homepage_url": "https://www.cloudfoundry.org/",
+    "repo_url": "https://github.com/cloudfoundry-incubator/kubo-deployment",
+    "logo": "./src/hosted_logos/cloudfoundry.svg",
+    "crunchbase": "https://www.crunchbase.com/organization/cloud-foundry",
+    "github_data": {
+      "stars": 208,
+      "license": "Apache-2.0",
+      "description": "Contains scripts and configuration files used to build and deploy Kubo (Kubernetes on Bosh)",
+      "latest_commit_date": "2018-02-14T11:14:44Z",
+      "latest_commit_link": "/cloudfoundry-incubator/kubo-deployment/commit/e577452eb6c0e8d5a916308f5a8343da2416a4d2"
+    },
+    "github_start_commit_data": {
+      "start_commit_link": "/cloudfoundry-incubator/kubo-deployment/commit/5c6e3eee066c58c90224c12e3c3691a57f65ed52",
+      "start_date": "2016-11-12T00:45:26Z"
+    },
+    "cncf_membership_data": {
+      "cncf_member": true
+    },
+    "image_data": {
+      "fileName": "cloud-foundry-container-runtime.svg"
+    },
+    "cncfMember": true,
+    "cncfRelation": "member",
+    "firstCommitDate": "2016-11-12T00:45:26Z",
+    "firstCommitLink": "/cloudfoundry-incubator/kubo-deployment/commit/5c6e3eee066c58c90224c12e3c3691a57f65ed52",
+    "latestCommitDate": "2018-02-14T11:14:44Z",
+    "latestCommitLink": "/cloudfoundry-incubator/kubo-deployment/commit/e577452eb6c0e8d5a916308f5a8343da2416a4d2",
+    "stars": 208,
+    "license": "Apache-2.0",
+    "headquarters": "San Mateo, California",
+    "twitter": "https://twitter.com/cloudfoundry",
+    "crunchbaseData": {
+      "name": "Cloud Foundry",
+      "description": "Cloud Foundry is a self-service, public cloud deployment platform enabling developers to build, test, deploy, and scale applications.",
+      "num_employees_min": 1001,
+      "num_employees_max": 5000,
+      "homepage": "https://www.cloudfoundry.org/",
+      "city": "San Mateo",
+      "region": "California",
+      "country": "United States",
+      "twitter": "https://twitter.com/cloudfoundry",
+      "linkedin": "https://www.linkedin.com/company/2509135",
+      "numEmployeesMin": 1001,
+      "numEmployeesMax": 5000
+    },
+    "path": "Platform / Certified Kubernetes - Platform",
+    "landscape": "Platform / Certified Kubernetes - Platform",
+    "category": "Platform",
+    "oss": true,
+    "href": "/logos/cloud-foundry-container-runtime.svg",
+    "id": "cloud-foundry-container-runtime"
+  },
+  {
+    "name": "EasyStack Kubernetes Service (EKS)",
+    "organization": "EasyStack",
+    "description": "EasyStack Kubernetes Service's enterprise container platform integrates applications and infrastructure resources through deep integration of Kubernetes and OpenStack platforms in multiple management dimensions such as scheduling, scheduling, security, operation and maintenance, and finally launches a new generation of application delivery in the cloud data center One kilometer, play 1 +1> 2 performance advantages.",
+    "homepage_url": "https://easystack.cn/eks/",
+    "logo": "https://easystack.cn/static/cn/images/easystack-logo.png",
+    "crunchbase": "https://www.crunchbase.com/organization/easystack",
+    "cncf_membership_data": {
+      "cncf_member": true
+    },
+    "image_data": {
+      "fileName": "easy-stack-kubernetes-service-eks.png"
+    },
+    "cncfMember": true,
+    "cncfRelation": "member",
+    "license": "NotOpenSource",
+    "headquarters": "Beijing, China",
+    "twitter": "https://twitter.com/EasyStackIO",
+    "crunchbaseData": {
+      "name": "EasyStack",
+      "description": "EasyStack provides open cloud solutions and services for China and Asia market.",
+      "num_employees_min": 11,
+      "num_employees_max": 50,
+      "homepage": "http://www.easystack.cn/en/",
+      "city": "Beijing",
+      "region": "Beijing",
+      "country": "China",
+      "twitter": "https://twitter.com/EasyStackIO",
+      "linkedin": "https://www.linkedin.com/company/6656236",
+      "kind": "funding",
+      "funding": 68000000,
+      "numEmployeesMin": 11,
+      "numEmployeesMax": 50
+    },
+    "path": "Platform / Certified Kubernetes - Platform",
+    "landscape": "Platform / Certified Kubernetes - Platform",
+    "category": "Platform",
+    "amountKind": "funding",
+    "amount": 68000000,
+    "oss": false,
+    "href": "/logos/easy-stack-kubernetes-service-eks.png",
+    "id": "easy-stack-kubernetes-service-eks"
+  },
+  {
+    "name": "eKing Cloud Container Platform",
+    "organization": "Hainan Eking",
+    "homepage_url": "http://www.haihangyun.com/landing",
+    "logo": "http://www.chinatravelnews.com/images/201512/287461104de1f06f.jpg",
+    "cncf_membership_data": {
+      "cncf_member": false
+    },
+    "image_data": {
+      "fileName": "e-king-cloud-container-platform.png",
+      "low_res": "162x118"
+    },
+    "cncfMember": false,
+    "cncfRelation": false,
+    "license": "NotOpenSource",
+    "headquarters": "N/A",
+    "description": null,
+    "path": "Platform / Certified Kubernetes - Platform",
+    "landscape": "Platform / Certified Kubernetes - Platform",
+    "category": "Platform",
+    "amount": "N/A",
+    "oss": false,
+    "href": "/logos/e-king-cloud-container-platform.png",
+    "id": "e-king-cloud-container-platform"
+  },
+  {
+    "name": "Google Kubernetes Engine (GKE)",
+    "organization": "Google Cloud Platform",
+    "description": "Google Kubernetes Engine is a managed environment for deploying containerized applications. It brings our latest innovations in developer productivity, resource efficiency, automated operations, and open source flexibility to accelerate your time to market.",
+    "homepage_url": "https://cloud.google.com/kubernetes-engine/",
+    "logo": "./src/hosted_logos/google-kubernetesengine.svg",
+    "crunchbase": "https://www.crunchbase.com/organization/google-cloud-platform",
+    "cncf_membership_data": {
+      "cncf_member": false
+    },
+    "yahoo_finance_data": {
+      "market_cap": 743789756416,
+      "effective_ticker": "GOOG"
+    },
+    "image_data": {
+      "fileName": "google-kubernetes-engine-gke.svg"
+    },
+    "cncfMember": false,
+    "cncfRelation": false,
+    "license": "NotOpenSource",
+    "headquarters": "San Francisco, California",
+    "twitter": "http://twitter.com/googlecloud",
+    "crunchbaseData": {
+      "name": "Google Cloud Platform",
+      "description": "Google Cloud Platform is a tool suite for app developers.",
+      "num_employees_min": null,
+      "num_employees_max": null,
+      "homepage": "http://cloud.google.com/",
+      "city": "San Francisco",
+      "region": "California",
+      "country": "United States",
+      "twitter": "http://twitter.com/googlecloud",
+      "linkedin": "https://www.linkedin.com/company/google-cloud",
+      "ticker": "GOOG",
+      "kind": "market_cap",
+      "numEmployeesMin": null,
+      "numEmployeesMax": null
+    },
+    "path": "Platform / Certified Kubernetes - Platform",
+    "landscape": "Platform / Certified Kubernetes - Platform",
+    "category": "Platform",
+    "amountKind": "market_cap",
+    "amount": 743789756416,
+    "oss": false,
+    "href": "/logos/google-kubernetes-engine-gke.svg",
+    "id": "google-kubernetes-engine-gke"
+  },
+  {
+    "name": "HarmonyCloud Container Platform",
+    "organization": "Harmony Cloud",
+    "description": "Kubernetes, second generation PaaS cloud computing platform, builds industry-leading container cloud computing framework",
+    "homepage_url": "http://harmonycloud.cn",
+    "logo": "https://www.cncf.io/wp-content/uploads/2017/03/harmony-cloud-300x184.png",
+    "cncf_membership_data": {
+      "cncf_member": false
+    },
+    "image_data": {
+      "fileName": "harmony-cloud-container-platform.png",
+      "low_res": "209x180"
+    },
+    "cncfMember": false,
+    "cncfRelation": false,
+    "license": "NotOpenSource",
+    "headquarters": "N/A",
+    "path": "Platform / Certified Kubernetes - Platform",
+    "landscape": "Platform / Certified Kubernetes - Platform",
+    "category": "Platform",
+    "amount": "N/A",
+    "oss": false,
+    "href": "/logos/harmony-cloud-container-platform.png",
+    "id": "harmony-cloud-container-platform"
+  },
+  {
+    "name": "Hasura",
+    "organization": "Hasura",
+    "description": "Hasura helps you build applications quickly. Hasura provides APIs for common uses cases (data, auth, filestore) and allows you to build your custom microservices easily too.",
+    "homepage_url": "https://hasura.io/",
+    "logo": "https://d1qb2nb5cznatu.cloudfront.net/startups/i/820697-7da6f327870c08c1f39c09a0e1801b31-medium_jpg.jpg?buster=1441133201",
+    "crunchbase": "https://www.crunchbase.com/organization/hasura",
+    "cncf_membership_data": {
+      "cncf_member": false
+    },
+    "image_data": {
+      "fileName": "hasura.png",
+      "low_res": "200x200"
+    },
+    "cncfMember": false,
+    "cncfRelation": false,
+    "license": "NotOpenSource",
+    "headquarters": "N/A",
+    "twitter": "https://twitter.com/hasurahq",
+    "crunchbaseData": {
+      "name": "Hasura",
+      "description": "Platform to build and host powerful applications in minutes. Instant backend APIs on Postgres, git push to deploy, managed infrastrcuture.",
+      "num_employees_min": 11,
+      "num_employees_max": 50,
+      "homepage": "http://hasura.io/",
+      "city": null,
+      "region": null,
+      "country": null,
+      "twitter": "https://twitter.com/hasurahq",
+      "linkedin": "https://www.linkedin.com/company/hasura/",
+      "numEmployeesMin": 11,
+      "numEmployeesMax": 50
+    },
+    "path": "Platform / Certified Kubernetes - Platform",
+    "landscape": "Platform / Certified Kubernetes - Platform",
+    "category": "Platform",
+    "oss": false,
+    "href": "/logos/hasura.png",
+    "id": "hasura"
+  },
+  {
+    "name": "Huawei Cloud Container Engine (CCE)",
+    "organization": "Huawei Technologies",
+    "description": "Cloud Container Engine (CCE) is a high-performance, high-reliability service through which enterprises can manage containerized applications. CCE supports native Kubernetes applications and tools, allowing you to set up a container runtime environment on the cloud with ease.",
+    "homepage_url": "http://www.huaweicloud.com/en-us/product/cce.html",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/0/00/Huawei.svg",
+    "crunchbase": "https://www.crunchbase.com/organization/huawei",
+    "cncf_membership_data": {
+      "cncf_member": false
+    },
+    "image_data": {
+      "fileName": "huawei.svg"
+    },
+    "cncfMember": false,
+    "cncfRelation": false,
+    "license": "NotOpenSource",
+    "headquarters": "Plano, Texas",
+    "twitter": "https://twitter.com/Huawei",
+    "crunchbaseData": {
+      "name": "Huawei Technologies",
+      "description": "Huawei Technologies provides infrastructure application software and devices with wireline, wireless, and IP technologies.",
+      "num_employees_min": 5001,
+      "num_employees_max": 10000,
+      "homepage": "http://huawei.com",
+      "city": "Plano",
+      "region": "Texas",
+      "country": "United States",
+      "twitter": "https://twitter.com/Huawei",
+      "linkedin": "http://www.linkedin.com/company/3014",
+      "numEmployeesMin": 5001,
+      "numEmployeesMax": 10000
+    },
+    "path": "Platform / Certified Kubernetes - Platform",
+    "landscape": "Platform / Certified Kubernetes - Platform",
+    "category": "Platform",
+    "oss": false,
+    "href": "/logos/huawei.svg",
+    "id": "huawei-cloud-container-engine-cce"
+  },
+  {
+    "name": "IBM Cloud Container Service",
+    "organization": "IBM Cloud",
+    "description": "IBM® Cloud Container Service delivers powerful tools by combining Docker and Kubernetes technologies, an intuitive user experience, and built-in security and isolation to automate the deployment, operation, scaling, and monitoring of containerized apps in a cluster of compute hosts.",
+    "homepage_url": "https://console.bluemix.net/docs/containers/cs_ov.html#cs_ov",
+    "logo": "./src/hosted_logos/ibm-cloud.svg",
+    "crunchbase": "https://www.crunchbase.com/organization/ibm-cloud",
+    "cncf_membership_data": {
+      "cncf_member": false
+    },
+    "yahoo_finance_data": {
+      "market_cap": 142761607168,
+      "effective_ticker": "IBM"
+    },
+    "image_data": {
+      "fileName": "ibm-cloud.svg"
+    },
+    "cncfMember": false,
+    "cncfRelation": false,
+    "license": "NotOpenSource",
+    "headquarters": "New York, New York",
+    "twitter": "https://twitter.com/ibmcloud",
+    "crunchbaseData": {
+      "name": "IBM Cloud",
+      "description": "IBM Cloud delivers a new way to work.",
+      "num_employees_min": null,
+      "num_employees_max": null,
+      "homepage": "http://www.ibm.com/cloud-computing/us/en/",
+      "city": "New York",
+      "region": "New York",
+      "country": "United States",
+      "twitter": "https://twitter.com/ibmcloud",
+      "linkedin": "https://www.linkedin.com/groups/IBM-Cloud-Computing-2002441",
+      "ticker": "IBM",
+      "kind": "market_cap",
+      "numEmployeesMin": null,
+      "numEmployeesMax": null
+    },
+    "path": "Platform / Certified Kubernetes - Platform",
+    "landscape": "Platform / Certified Kubernetes - Platform",
+    "category": "Platform",
+    "amountKind": "market_cap",
+    "amount": 142761607168,
+    "oss": false,
+    "href": "/logos/ibm-cloud.svg",
+    "id": "ibm-cloud-container-service"
+  },
+  {
+    "name": "Mirantis Cloud Platform",
+    "organization": "Mirantis",
+    "description": "Mirantis Cloud Platform (MCP) includes a pure play distribution of Kubernetes for enterprise-grade container orchestration.",
+    "homepage_url": "https://www.mirantis.com/software/kubernetes/",
+    "logo": "https://www.mirantis.com/wp-content/uploads/2017/01/mirantis-logo-2color-rgb-transparent.png",
+    "crunchbase": "https://www.crunchbase.com/organization/mirantis",
+    "cncf_membership_data": {
+      "cncf_member": true
+    },
+    "image_data": {
+      "fileName": "mirantis-cloud-platform.png"
+    },
+    "cncfMember": true,
+    "cncfRelation": "member",
+    "license": "NotOpenSource",
+    "headquarters": "Mountain View, California",
+    "twitter": "http://twitter.com/MirantisIT",
+    "crunchbaseData": {
+      "name": "Mirantis",
+      "description": "Mirantis is the pure-play OpenStack company.",
+      "num_employees_min": 501,
+      "num_employees_max": 1000,
+      "homepage": "http://www.mirantis.com",
+      "city": "Mountain View",
+      "region": "California",
+      "country": "United States",
+      "twitter": "http://twitter.com/MirantisIT",
+      "linkedin": "http://www.linkedin.com/company/mirantis",
+      "kind": "funding",
+      "funding": 220000000,
+      "numEmployeesMin": 501,
+      "numEmployeesMax": 1000
+    },
+    "path": "Platform / Certified Kubernetes - Platform",
+    "landscape": "Platform / Certified Kubernetes - Platform",
+    "category": "Platform",
+    "amountKind": "funding",
+    "amount": 220000000,
+    "oss": false,
+    "href": "/logos/mirantis-cloud-platform.png",
+    "id": "mirantis-cloud-platform"
+  },
+  {
+    "name": "Nirmata Managed Kubernetes",
+    "organization": "Nirmata",
+    "description": "Nirmata is a platform that helps enterprise DevOps teams deploy, operate, and optimize Kubernetes applications across public and private clouds.",
+    "homepage_url": "https://www.nirmata.com/",
+    "logo": "https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco/v1501447457/hzaahdettnwjbpyuenjf.png",
+    "crunchbase": "https://www.crunchbase.com/organization/nirmata",
+    "cncf_membership_data": {
+      "cncf_member": true
+    },
+    "image_data": {
+      "fileName": "nirmata-managed-kubernetes.png",
+      "low_res": "145x122"
+    },
+    "cncfMember": true,
+    "cncfRelation": "member",
+    "license": "NotOpenSource",
+    "headquarters": "San Jose, California",
+    "twitter": "http://twitter.com/NirmataCloud",
+    "crunchbaseData": {
+      "name": "Nirmata",
+      "description": "Nirmata is a cloud based, Microservices operations and management platform.",
+      "num_employees_min": 1,
+      "num_employees_max": 10,
+      "homepage": "http://nirmata.com",
+      "city": "San Jose",
+      "region": "California",
+      "country": "United States",
+      "twitter": "http://twitter.com/NirmataCloud",
+      "linkedin": "http://www.linkedin.com/company/nirmata",
+      "numEmployeesMin": 1,
+      "numEmployeesMax": 10
+    },
+    "path": "Platform / Certified Kubernetes - Platform",
+    "landscape": "Platform / Certified Kubernetes - Platform",
+    "category": "Platform",
+    "oss": false,
+    "href": "/logos/nirmata-managed-kubernetes.png",
+    "id": "nirmata-managed-kubernetes"
+  },
+  {
+    "name": "Oracle Container Engine",
+    "organization": "Oracle",
+    "description": "Next generation of container-native development. Container life cycle made easy.",
+    "homepage_url": "http://www.wercker.com/product",
+    "logo": "https://cdn.worldvectorlogo.com/logos/oracle-6.svg",
+    "crunchbase": "https://www.crunchbase.com/organization/oracle",
+    "cncf_membership_data": {
+      "cncf_member": true
+    },
+    "yahoo_finance_data": {
+      "market_cap": 203668324352,
+      "effective_ticker": "ORCL"
+    },
+    "image_data": {
+      "fileName": "oracle-cloud.svg"
+    },
+    "cncfMember": true,
+    "cncfRelation": "member",
+    "license": "NotOpenSource",
+    "headquarters": "Redwood Shores, California",
+    "twitter": "http://twitter.com/Oracle",
+    "crunchbaseData": {
+      "name": "Oracle",
+      "description": "Oracle is a computer technology corporation developing and marketing computer hardware systems and enterprise software products.",
+      "num_employees_min": 10001,
+      "num_employees_max": 1000000,
+      "homepage": "http://oracle.com",
+      "city": "Redwood Shores",
+      "region": "California",
+      "country": "United States",
+      "twitter": "http://twitter.com/Oracle",
+      "linkedin": "http://www.linkedin.com/company/1028",
+      "ticker": "ORCL",
+      "kind": "market_cap",
+      "numEmployeesMin": 10001,
+      "numEmployeesMax": 1000000
+    },
+    "path": "Platform / Certified Kubernetes - Platform",
+    "landscape": "Platform / Certified Kubernetes - Platform",
+    "category": "Platform",
+    "amountKind": "market_cap",
+    "amount": 203668324352,
+    "oss": false,
+    "href": "/logos/oracle-cloud.svg",
+    "id": "oracle-container-engine"
+  },
+  {
+    "name": "SAP Cloud Platform - Gardener (AWS, Azure, GCE)",
+    "organization": "SAP",
+    "description": "SAP Cloud Platform is an open platform as a service (PaaS) which provides customers and partners with in-memory capabilities, core platform services, and unique business services for building and extending personalized, collaborative, mobile-enabled cloud applications. SAP Cloud Platform is designed to accelerate digital transformation across your business by enabling your organization to build the exact application you need more quickly, easily, and economically – all  without the requirement of maintaining or investing in on-premises infrastructure. Based on open standards, SAP Cloud Platform offers complete flexibility and control over your choice of clouds, frameworks, and applications.",
+    "homepage_url": "https://cloudplatform.sap.com/index.html",
+    "logo": "https://www.ariba.com/frontend/aribacom/dist/assets/images/sap_logo.svg",
+    "crunchbase": "https://www.crunchbase.com/organization/sap",
+    "cncf_membership_data": {
+      "cncf_member": true
+    },
+    "yahoo_finance_data": {
+      "market_cap": 118828531712,
+      "effective_ticker": "SAP"
+    },
+    "image_data": {
+      "fileName": "sap-cloud-platform-gardener-aws-azure-gce.svg"
+    },
+    "cncfMember": true,
+    "cncfRelation": "member",
+    "license": "NotOpenSource",
+    "headquarters": "Walldorf, Germany",
+    "twitter": "http://twitter.com/SAP",
+    "crunchbaseData": {
+      "name": "SAP",
+      "description": "SAP is a technology company that develops enterprise application software for companies and industries across diverse sectors.",
+      "num_employees_min": 10001,
+      "num_employees_max": 1000000,
+      "homepage": "http://www.sap.com",
+      "city": "Walldorf",
+      "region": "Baden-Wurttemberg",
+      "country": "Germany",
+      "twitter": "http://twitter.com/SAP",
+      "linkedin": "http://www.linkedin.com/company/1115",
+      "ticker": "SAP",
+      "kind": "market_cap",
+      "numEmployeesMin": 10001,
+      "numEmployeesMax": 1000000
+    },
+    "path": "Platform / Certified Kubernetes - Platform",
+    "landscape": "Platform / Certified Kubernetes - Platform",
+    "category": "Platform",
+    "amountKind": "market_cap",
+    "amount": 118828531712,
+    "oss": false,
+    "href": "/logos/sap-cloud-platform-gardener-aws-azure-gce.svg",
+    "id": "sap-cloud-platform-gardener-aws-azure-gce"
+  },
+  {
+    "name": "Tencent Cloud Container Service (CCS)",
+    "organization": "Tencent Holdings",
+    "description": "Tencent Cloud Container Service (CCS) is a container management service with high scalability and high performance.",
+    "stock_ticker": "TCEHY",
+    "homepage_url": "https://cloud.tencent.com/product/ccs?lang=en",
+    "logo": "./src/hosted_logos/tencent-cloud.svg",
+    "crunchbase": "https://www.crunchbase.com/organization/tencent",
+    "cncf_membership_data": {
+      "cncf_member": false
+    },
+    "yahoo_finance_data": {
+      "market_cap": 535561371648,
+      "effective_ticker": "TCEHY"
+    },
+    "image_data": {
+      "fileName": "tencent-cloud.svg"
+    },
+    "cncfMember": false,
+    "cncfRelation": false,
+    "license": "NotOpenSource",
+    "headquarters": "Shenzhen, China",
+    "twitter": "https://twitter.com/tencentglobal",
+    "crunchbaseData": {
+      "name": "Tencent Holdings",
+      "description": "Tencent is a Chinese internet service portal offering value-added internet, mobile, telecom, and online advertising services.",
+      "num_employees_min": 10001,
+      "num_employees_max": 1000000,
+      "homepage": "https://www.tencent.com/en-us/",
+      "city": "Shenzhen",
+      "region": "Guangdong",
+      "country": "China",
+      "twitter": "https://twitter.com/tencentglobal",
+      "linkedin": "https://www.linkedin.com/company/166328/",
+      "ticker": "0700",
+      "kind": "market_cap",
+      "numEmployeesMin": 10001,
+      "numEmployeesMax": 1000000
+    },
+    "path": "Platform / Certified Kubernetes - Platform",
+    "landscape": "Platform / Certified Kubernetes - Platform",
+    "category": "Platform",
+    "amountKind": "market_cap",
+    "amount": 535561371648,
+    "oss": false,
+    "href": "/logos/tencent-cloud.svg",
+    "id": "tencent-cloud-container-service-ccs"
+  },
+  {
+    "name": "TenxCloud Container Engine (TCE)",
+    "organization": "TenxCloud",
+    "description": "The first enterprise container cloud management platform based on Kubernetes and supporting private deployments.",
+    "homepage_url": "https://tenxcloud.com/",
+    "logo": "https://www.cncf.io/wp-content/uploads/2017/11/tenxcloud.png",
+    "crunchbase": "https://www.crunchbase.com/organization/tenxcloud",
+    "cncf_membership_data": {
+      "cncf_member": true
+    },
+    "image_data": {
+      "fileName": "tenx-cloud-container-engine-tce.png",
+      "low_res": "284x82"
+    },
+    "cncfMember": true,
+    "cncfRelation": "member",
+    "license": "NotOpenSource",
+    "headquarters": "Beijing, China",
+    "twitter": null,
+    "crunchbaseData": {
+      "name": "TenxCloud",
+      "description": "TenxCloud is a Beijing-based enterprise cloud computing service provider.",
+      "num_employees_min": null,
+      "num_employees_max": null,
+      "homepage": null,
+      "city": "Beijing",
+      "region": "Beijing",
+      "country": "China",
+      "twitter": null,
+      "linkedin": null,
+      "numEmployeesMin": null,
+      "numEmployeesMax": null
+    },
+    "path": "Platform / Certified Kubernetes - Platform",
+    "landscape": "Platform / Certified Kubernetes - Platform",
+    "category": "Platform",
+    "oss": false,
+    "href": "/logos/tenx-cloud-container-engine-tce.png",
+    "id": "tenx-cloud-container-engine-tce"
   },
   {
     "name": "Amazon Elastic Container Service for Kubernetes (EKS)",
@@ -14708,14 +14642,13 @@
     "description": "Navops allows an organization to run containerized microservice applications and non-containerized workloads more efficiently on Kubernetes. The scheduler and policy management system provides virtual multi-tenancy and resource sharing to increase cluster utilization and lower operation costs.",
     "certified_kubernetes": false,
     "homepage_url": "https://www.navops.io/",
-    "logo": "http://www.univa.com/img/navops-byUniva-Logo2-01.png",
+    "logo": "./src/hosted_logos/navops.svg",
     "crunchbase": "https://www.crunchbase.com/organization/navops",
     "cncf_membership_data": {
       "cncf_member": true
     },
     "image_data": {
-      "fileName": "navops.png",
-      "low_res": "147x148"
+      "fileName": "navops.svg"
     },
     "cncfMember": true,
     "cncfRelation": "member",
@@ -14740,7 +14673,7 @@
     "landscape": "Platform / Non-Certified Kubernetes",
     "category": "Platform",
     "oss": false,
-    "href": "/logos/navops.png",
+    "href": "/logos/navops.svg",
     "id": "navops"
   },
   {
@@ -15267,15 +15200,14 @@
     "name": "Galactic Fog",
     "organization": "Galactic Fog",
     "homepage_url": "http://www.galacticfog.com/",
-    "logo": "https://media.licdn.com/mpr/mpr/AAEAAQAAAAAAAAYHAAAAJGU0Zjc4OGI2LTYzZmEtNGUxMC05ODE5LTVhMjI0OTM3NmI3ZA.png",
+    "logo": "./src/hosted_logos/galacticfog.svg",
     "twitter": "https://twitter.com/galacticfog",
     "crunchbase": "https://www.crunchbase.com/organization/galactic-fog",
     "cncf_membership_data": {
       "cncf_member": true
     },
     "image_data": {
-      "fileName": "galactic-fog.png",
-      "low_res": "256x291"
+      "fileName": "galactic-fog.svg"
     },
     "cncfMember": true,
     "cncfRelation": "member",
@@ -15300,7 +15232,7 @@
     "landscape": "Platform / PaaS/Container Service",
     "category": "Platform",
     "oss": false,
-    "href": "/logos/galactic-fog.png",
+    "href": "/logos/galactic-fog.svg",
     "id": "galactic-fog"
   },
   {
@@ -16151,7 +16083,7 @@
     "name": "Azure Functions",
     "organization": "Microsoft",
     "homepage_url": "https://azure.microsoft.com/en-us/services/functions/",
-    "logo": "https://pbs.twimg.com/profile_images/857815012013785088/woz9sESR_400x400.jpg",
+    "logo": "./src/hosted_logos/azurefunctions.svg",
     "twitter": "https://twitter.com/azurefunctions",
     "crunchbase": "https://www.crunchbase.com/organization/microsoft",
     "cncf_membership_data": {
@@ -16162,8 +16094,7 @@
       "effective_ticker": "MSFT"
     },
     "image_data": {
-      "fileName": "azure-functions.png",
-      "low_res": "400x400"
+      "fileName": "azure-functions.svg"
     },
     "cncfMember": true,
     "cncfRelation": "member",
@@ -16192,7 +16123,7 @@
     "amountKind": "market_cap",
     "amount": 693096546304,
     "oss": false,
-    "href": "/logos/azure-functions.png",
+    "href": "/logos/azure-functions.svg",
     "id": "azure-functions"
   },
   {
@@ -17168,6 +17099,9 @@
     "cncf_membership_data": {
       "cncf_member": false
     },
+    "image_data": {
+      "fileName": "co-scale.png"
+    },
     "cncfMember": false,
     "cncfRelation": false,
     "license": "NotOpenSource",
@@ -17195,7 +17129,7 @@
     "amountKind": "funding",
     "amount": 3567454,
     "oss": false,
-    "href": "/logos/undefined",
+    "href": "/logos/co-scale.png",
     "id": "co-scale"
   },
   {
@@ -20320,13 +20254,12 @@
     "organization": "inwinSTACK",
     "description": "Our container service leverages OpenStack-based infrastructure and its container orchestration engine Magnum to manage Kubernetes clusters. ",
     "homepage_url": "http://www.inwinstack.com/index.php/en/solutions-en/",
-    "logo": "https://pbs.twimg.com/profile_images/913967961135661056/llUSv_YQ_400x400.jpg",
+    "logo": "./src/hosted_logos/inwinstack.svg",
     "cncf_membership_data": {
       "cncf_member": true
     },
     "image_data": {
-      "fileName": "inwin-stack-kube-ansible.png",
-      "low_res": "240x192"
+      "fileName": "inwin-stack.svg"
     },
     "cncfMember": true,
     "cncfRelation": "member",
@@ -20337,7 +20270,7 @@
     "category": "Special",
     "amount": "N/A",
     "oss": false,
-    "href": "/logos/inwin-stack-kube-ansible.png",
+    "href": "/logos/inwin-stack.svg",
     "id": "inwin-stack"
   },
   {

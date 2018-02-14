@@ -1795,7 +1795,7 @@ landscape:
             organization: Appscode
             description: Kubernetes Cluster Manager for Kubeadm
             homepage_url: 'https://appscode.com/products/pharmer/'
-            logo: 'https://kubernetes.io/images/square-logos/appscode.png'
+            logo: 'https://appscode.com/images/logo-color.svg'
             crunchbase: 'https://www.crunchbase.com/organization/appscode'
           - item:
             name: Caicloud Compass
@@ -1804,7 +1804,7 @@ landscape:
               Compass is an enterprise container cluster management platform based on Kubernetes and Google's 10-year container usage best practices, to provide
               users with a stable, easy-to-use, and secure multi-cloud hybrid cloud management solution across clusters.
             homepage_url: 'https://caicloud.io/products/compass'
-            logo: 'https://image.pitchbook.com/RNFCWpPvnzY5XE28UPpaYPlM6xB1498539307943_200x200'
+            logo: 'https://caicloud.io/_static/caicloud_logo.svg'
             crunchbase: 'https://www.crunchbase.com/organization/caicloud'
           - item:
             name: Canonical Distribution of Kubernetes
@@ -1812,7 +1812,7 @@ landscape:
             description: >-
               This is pure Kubernetes tested across the widest range of clouds with modern metrics and monitoring, brought to you by the people who deliver
               Ubuntu.
-            homepage_url: 'https://caicloud.io/products/compass'
+            homepage_url: 'https://www.ubuntu.com/kubernetes'
             repo_url: 'https://github.com/juju-solutions/bundle-canonical-kubernetes'
             logo: 'https://zentera.net/wp-content/uploads/2015/10/Canonical.png'
             crunchbase: 'https://www.crunchbase.com/organization/canonical-ltd'
@@ -1847,7 +1847,7 @@ landscape:
               The Docker platform is getting support for Kubernetes. This means that developers and operators can build apps with Docker and seamlessly test and
               deploy them using both Docker Swarm and Kubernetes.
             homepage_url: 'https://www.docker.com/kubernetes'
-            logo: 'http://blog.iron.io/wp-content/uploads/2016/01/platform-docker-logo.png'
+            logo: 'https://mblum.me/images/docker.svg'
             crunchbase: 'https://www.crunchbase.com/organization/docker'
           - item:
             name: Ghostcloud EcOS
@@ -1871,7 +1871,7 @@ landscape:
             organization: Google
             homepage_url: 'https://github.com/kubernetes/kubernetes/tree/master/cluster'
             repo_url: 'https://github.com/kubernetes/kube-deploy'
-            logo: 'https://www.google.com/cloud/assets/press/Google_Cloud_Logo.png'
+            logo: 'https://www.google.com/cloud/assets/global/google/google_cloud_color.svg'
             crunchbase: 'https://www.crunchbase.com/organization/google-cloud-platform'
           - item:
             name: Heptio Quickstart for Kubernetes
@@ -1886,7 +1886,7 @@ landscape:
             organization: IBM Cloud
             description: 'Build open, cloud-native apps with public services and run them anywhere — on public cloud or on your existing on-premises systems.'
             homepage_url: 'https://www.ibm.com/cloud-computing/products/ibm-cloud-private/'
-            logo: ./src/hosted_logos/ibm-cloud.png
+            logo: ./src/hosted_logos/ibm-cloud.svg
             crunchbase: 'https://www.crunchbase.com/organization/ibm-cloud'
           - item:
             name: inwinSTACK kube-ansible
@@ -1943,7 +1943,7 @@ landscape:
               technology, provide users exclusive container cluster. Provide users the freedom to choose the Kubernetes version of the cluster capabilities,
               easy to follow up the latest developments in the community. Comply with Kubernetes conformance standards, portability is good.
             homepage_url: 'https://www.163yun.com/product/container-service-dedicated'
-            logo: 'https://www.cncf.io/wp-content/uploads/2017/11/NetEase-Cloud-logo-300x48.jpg'
+            logo: './src/hosted_logos/netease.svg'
             crunchbase: 'https://www.crunchbase.com/organization/netease-com'
           - item:
             name: OpenShift
@@ -1953,14 +1953,7 @@ landscape:
             repo_url: 'https://github.com/openshift/origin'
             logo: 'https://upload.wikimedia.org/wikipedia/commons/3/3a/OpenShift-LogoType.svg'
             crunchbase: 'https://www.crunchbase.com/organization/red-hat'
-          - item:
-            name: OpenShift
-            organization: Red Hat
-            description: Red Hat® OpenShift is a container application platform that brings docker and Kubernetes to the enterprise.
-            homepage_url: 'https://www.openshift.com/'
-            repo_url: 'https://github.com/openshift/origin'
-            logo: 'https://upload.wikimedia.org/wikipedia/commons/3/3a/OpenShift-LogoType.svg'
-            crunchbase: 'https://www.crunchbase.com/organization/red-hat'
+            twitter: 'https://twitter.com/openshift'
           - item:
             name: Oracle Linux Container Services
             organization: Oracle
@@ -2081,7 +2074,7 @@ landscape:
             name: Alauda EE
             organization: Alauda
             homepage_url: 'https://www.alauda.cn/product/detail/id/68.html'
-            logo: 'https://www.cncf.io/wp-content/uploads/2017/11/alauda.png'
+            logo: 'http://cdn4.infoqstatic.com/statics_s1_20180206-0549-1/images/partners/cn/company/alauda.svg'
             crunchbase: 'https://www.crunchbase.com/organization/alauda'
           - item:
             name: Alibaba Cloud Container Service
@@ -2091,7 +2084,7 @@ landscape:
               applications with Docker and Kubernetes, multiple application deployment methods and continuous delivery capabilities, and support for
               microservices architecture.
             homepage_url: 'https://www.alibabacloud.com/product/container-service?spm=a3c0i.7911826.709257.dproducta4.1010a3feFbGgBW'
-            logo: 'https://seeklogo.com/images/A/alibaba-cloud-logo-898D58C1CE-seeklogo.com.png'
+            logo: './src/hosted_logos/alibaba-cloud.svg'
             crunchbase: 'https://www.crunchbase.com/organization/alibaba-cloud'
           - item:
             name: Azure (ACS) Engine
@@ -2134,7 +2127,7 @@ landscape:
             description: ' Cloud Foundry Application Runtime utilizes containers as part of its DNA, and has since before Docker popularized containers. The new CF Container Runtime gives you more granular control and management of containers with Kubernetes.'
             homepage_url: 'https://www.cloudfoundry.org/'
             repo_url: 'https://github.com/cloudfoundry-incubator/kubo-deployment'
-            logo: 'https://www.cloudfoundry.org/wp-content/uploads/2017/01/CFF_Logo_vertical_RGB.png'
+            logo: './src/hosted_logos/cloudfoundry.svg'
             crunchbase: 'https://www.crunchbase.com/organization/cloud-foundry'
           - item:
             name: EasyStack Kubernetes Service (EKS)
@@ -2191,7 +2184,7 @@ landscape:
               IBM® Cloud Container Service delivers powerful tools by combining Docker and Kubernetes technologies, an intuitive user experience, and built-in
               security and isolation to automate the deployment, operation, scaling, and monitoring of containerized apps in a cluster of compute hosts.
             homepage_url: 'https://console.bluemix.net/docs/containers/cs_ov.html#cs_ov'
-            logo: ./src/hosted_logos/ibm-cloud.png
+            logo: ./src/hosted_logos/ibm-cloud.svg
             crunchbase: 'https://www.crunchbase.com/organization/ibm-cloud'
           - item:
             name: Mirantis Cloud Platform
@@ -2232,7 +2225,7 @@ landscape:
             description: Tencent Cloud Container Service (CCS) is a container management service with high scalability and high performance.
             stock_ticker: TCEHY
             homepage_url: 'https://cloud.tencent.com/product/ccs?lang=en'
-            logo: 'https://www.cncf.io/wp-content/uploads/2017/05/logo_tencent-300x184.png'
+            logo: './src/hosted_logos/tencent-cloud.svg'
             crunchbase: 'https://www.crunchbase.com/organization/tencent'
           - item:
             name: TenxCloud Container Engine (TCE)
