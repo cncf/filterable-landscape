@@ -9,7 +9,7 @@ export const options = [{
   id: {field: 'stars', direction: 'desc'},
   label: 'Stars (high to low)',
 }, {
-  id: {field: 'marketCap', direction: 'desc'},
+  id: {field: 'amount', direction: 'desc'},
   label: 'Funding / Market Cap (high to low)',
 }, {
   id: {field: 'firstCommitDate', direction: 'asc'},

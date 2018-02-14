@@ -6,6 +6,7 @@ import Icon from 'material-ui/Icon';
 import KeyHandler from 'react-key-handler';
 import _ from 'lodash';
 import millify from 'millify';
+import classNames from 'classnames'
 import relativeDate from 'relative-date';
 import { filtersToUrl } from '../utils/syncToUrl';
 import saneName from '../utils/saneName';
@@ -86,7 +87,13 @@ const ItemDialog = ({onClose, itemInfo, previousItemId, nextItemId, onSelectItem
     return (<span>{[categoryMarkup, separator, subcategoryMarkup]}</span>);
   }
   return (
-    <Dialog open={true} onClose={() => onClose()} className="modal product" classes={{paper:'modal-body'}}>
+    <Dialog open={true} onClose={() => onClose()}
+      classes={{paper:'modal-body'}}
+      className={classNames('modal', 'product', {inception : itemInfo.cncfRelation ==='inception'},
+                                                 {incubating : itemInfo.cncfRelation ==='incubating'},
+                                                 {graduated : itemInfo.cncfRelation ==='graduated'},
+                                                 {nonoss : itemInfo.oss === false})}
+      >
       { nextItemId && <KeyHandler keyValue="ArrowRight" onKeyHandle={() => onSelectItem(nextItemId)} /> }
       { previousItemId && <KeyHandler keyValue="ArrowLeft" onKeyHandle={() => onSelectItem(previousItemId)} /> }
         <a className="modal-close" onClick={() => onClose()}>×</a>
@@ -158,7 +165,7 @@ const ItemDialog = ({onClose, itemInfo, previousItemId, nextItemId, onSelectItem
                 </div>
               </div>
               }
-              {itemInfo.crunchbaseData.linkedin &&
+              {itemInfo.crunchbaseData && itemInfo.crunchbaseData.linkedin &&
               <div className="product-property row">
                 <div className="product-property-name col col-25">LinkedIn</div>
                 <div className="product-property-value col col-75">
@@ -180,19 +187,19 @@ const ItemDialog = ({onClose, itemInfo, previousItemId, nextItemId, onSelectItem
                 </div>
               )
               }
-              {Number.isInteger(itemInfo.marketCap) && (
+              {Number.isInteger(itemInfo.amount) && (
               <div className="product-property row">
-                <div className="product-property-name col col-25">{itemInfo.crunchbaseData.kind === 'funding' ? 'Funding' : 'Market Cap'}</div>
+                <div className="product-property-name col col-25">{itemInfo.amountKind === 'funding' ? 'Funding' : 'Market Cap'}</div>
                 <div className="product-property-value col col-75">
-                  {'$' + millify(itemInfo.marketCap)}
+                  {'$' + millify(itemInfo.amount)}
                 </div>
               </div>
               )
               }
-              {itemInfo.crunchbaseData.ticker && (
+              {itemInfo.ticker && (
               <div className="product-property row">
                 <div className="product-property-name col col-25">Ticker</div>
-                <div className="product-property-value col col-75"><a target="_blank" href={"https://finance.yahoo.com/quote/" + itemInfo.crunchbaseData.ticker}>{itemInfo.crunchbaseData.ticker}</a></div>
+                <div className="product-property-value col col-75"><a target="_blank" href={"https://finance.yahoo.com/quote/" + itemInfo.ticker}>{itemInfo.ticker}</a></div>
               </div>
               )
               }
@@ -212,13 +219,12 @@ const ItemDialog = ({onClose, itemInfo, previousItemId, nextItemId, onSelectItem
               }
             </div>
 
-            <div style={{display: "none"}}>{JSON.stringify(itemInfo, null, 2)}</div>
             { itemInfo.twitter && (
               <div className="product-twitter">
               <Timeline
                 dataSource={{
                   sourceType: 'profile',
-                  screenName: itemInfo.twitter.split('/').slice(-1)[0]
+                  screenName: itemInfo.twitter.split('/').filter( x => !!x).slice(-1)[0]
                 }}
                 options={{
                   username: itemInfo.name,

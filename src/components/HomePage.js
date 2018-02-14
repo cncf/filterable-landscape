@@ -5,6 +5,7 @@ import Filters from './Filters';
 import Grouping from './Grouping';
 import Sorting from './Sorting';
 import Presets from './Presets';
+import Note from './Note';
 import MainContentContainer from './MainContentContainer';
 import HomePageUrlContainer from './HomePageUrlContainer';
 import ResetFiltersContainer from './ResetFiltersContainer';
@@ -21,7 +22,7 @@ const HomePage = ({ready}) => {
     )
   }
   return (
-      <div style={{overflowX: 'hidden'}}>
+      <div style={{overflow: 'hidden'}}>
         <HomePageUrlContainer />
         <ItemDialogContainer />
         <HeaderContainer/>
@@ -34,6 +35,7 @@ const HomePage = ({ready}) => {
               <div style={{width: 200, height: 30}}/>
               <Filters />
               <Presets />
+              <Note />
             </StickyBox>
 
           </Grid>

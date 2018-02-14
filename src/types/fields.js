@@ -26,7 +26,7 @@ const fields = {
       children: ['graduated', 'incubating', 'inception']
     }, {
       id: 'graduated',
-      label: 'CNCF Graduated Projects',
+      label: 'Graduated CNCF Projects',
       tag: 'Graduated',
       url: 'graduated',
       level: 2,
@@ -172,10 +172,9 @@ const fields = {
       return processValuesBeforeLoading({options: fields.license.values, values: values});
     }
   },
-  marketCap: {
-    id: 'marketCap',
-    label: 'Market Cap of organization',
-    category: 'marketCapCategory',
+  amount: {
+    id: 'amount',
+    label: 'Market Cap / Funding of organization',
     values: [{
       id: null,
       label: 'Any',
