@@ -1278,7 +1278,8 @@ landscape:
             name: Iguazio
             organization: iguazio
             homepage_url: 'https://www.iguazio.com/'
-            logo: 'https://i0.wp.com/martechseries.com/wp-content/uploads/2017/07/iguazio.jpg'
+            logo: 'https://pbs.twimg.com/media/DFl7P1DUwAA1KrW.png'
+            best_res: ''
             twitter: 'https://twitter.com/iguazio'
             crunchbase: 'https://www.crunchbase.com/organization/iguaz-io'
           - item:
@@ -2464,17 +2465,9 @@ landscape:
             name: Hyper
             organization: Hyper
             homepage_url: 'https://www.hyper.sh/'
-            logo: 'https://user-images.githubusercontent.com/1701782/29462984-a8451220-8463-11e7-84a0-739418f027f1.png'
+            logo: 'https://www.hyper.sh/logo/logo_dark.svg'
             twitter: 'https://twitter.com/hyper_sh'
             crunchbase: 'https://www.crunchbase.com/organization/hyper-4'
-          - item:
-            name: Iron.io
-            organization: Iron.io
-            homepage_url: 'https://www.iron.io/'
-            repo_url: 'https://github.com/iron-io/functions'
-            logo: 'https://crunchbase-production-res.cloudinary.com/image/upload/v1397182859/53934de605f54d407d087900d16e9b75.png'
-            twitter: 'https://twitter.com/getiron'
-            crunchbase: 'https://www.crunchbase.com/organization/iron-io'
           - item:
             name: JHipster
             organization: JHipster
@@ -2553,115 +2546,140 @@ landscape:
             logo: 'https://github.com/alexcontini/alexcontini.github.io/blob/master/tsura.png?raw=true'
             twitter: 'https://twitter.com/tsurupaas'
             crunchbase: 'https://www.crunchbase.com/organization/tsuru'
+  - category:
+    name: Serverless
+    subcategories:
       - subcategory:
-        name: Serverless/Event-based
+        name: Security
         items:
           - item:
-            name: Apex (Serverless)
-            organization: Apex
-            homepage_url: 'http://apex.run'
-            repo_url: 'https://github.com/apex/apex'
-            logo: ./src/hosted_logos/apex.png
-            twitter: 'https://twitter.com/apexserverless'
-            crunchbase: 'https://www.crunchbase.com/organization/apex-7f19'
+            name: PureSec
+            organization: PureSec
+            homepage_url: 'https://www.puresec.io/'
+            logo: 'https://media-exp2.licdn.com/media/AAMABADGAAoAAQAAAAAAAAucAAAAJDEyYzRkNmQ0LWRjMDItNDk0My1hY2FmLTA5MjM1MDhhYzMzNw.png'
+            twitter: 'https://twitter.com/PureSecTeam'
+            crunchbase: 'https://www.crunchbase.com/organization/puresec'
           - item:
-            name: AWS Lambda
+            name: Snyk
+            organization: Snyk
+            homepage_url: 'https://snyk.io/'
+            logo: 'https://cdn-images-1.medium.com/max/1300/1*_nYX5UYcMUskoElSmkyOrA.png'
+            twitter: https://twitter.com/snyksec'
+            crunchbase: 'https://www.crunchbase.com/organization/snyk'
+      - subcategory:
+        name: App Definition & Development
+        items:
+          - item:
+            name: AWS Lambda - Python
             organization: Amazon Web Services
             homepage_url: 'https://aws.amazon.com/lambda/'
-            logo: ./src/hosted_logos/aws-lambda.png
+            repo_url: https://github.com/nficano/python-lambda
+            logo: './src/hosted_logos/aws-lambda.png'
             twitter: 'https://twitter.com/awscloud'
             crunchbase: 'https://www.crunchbase.com/organization/amazon-web-services'
           - item:
-            name: Azure Functions
-            organization: Microsoft
-            homepage_url: 'https://azure.microsoft.com/en-us/services/functions/'
-            logo: 'https://pbs.twimg.com/profile_images/857815012013785088/woz9sESR_400x400.jpg'
-            twitter: 'https://twitter.com/azurefunctions'
-            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+            name: Dashbird
+            organization: Dashbird
+            homepage_url: 'https://www.dashbird.io/'
+            logo: 'http://www.dailyspin.io/wp-content/uploads/2017/06/dashbird-logo.png'
+            twitter: 'https://twitter.com/thedashbird'
+            crunchbase: 'https://www.crunchbase.com/organization/dashbird'
           - item:
-            name: Firebase
-            organization: Firebase
-            homepage_url: 'https://firebase.google.com/'
-            logo: 'https://www.appcoda.com/wp-content/uploads/2016/11/firebase_logo_shot.png'
-            twitter: 'https://twitter.com/Firebase'
-            crunchbase: 'https://www.crunchbase.com/organization/google-cloud-platform'
+            name: IOpipe
+            organization: IOpipe
+            homepage_url: 'https://www.iopipe.com/'
+            logo: 'https://www.iopipe.com/wp-content/uploads/2018/01/io__logo_black_rgb_600_249-1.png'
+            twitter: 'https://twitter.com/iopipes'
+            crunchbase: 'https://www.crunchbase.com/organization/iopipe'
           - item:
-            name: Fission
-            organization: Platform9
-            homepage_url: 'http://fission.io/'
-            repo_url: 'https://github.com/fission/fission'
-            logo: 'https://www.gcppodcast.com/images/post/fission-logo.png'
-            twitter: 'https://twitter.com/Platform9Sys'
-            crunchbase: 'https://www.crunchbase.com/organization/platform9-systems-inc'
+            name: LambCI
+            organization: LambCI
+            homepage_url: 'http://lambci.org/'
+            repo_url: https://github.com/lambci/lambci
+            logo: 'https://camo.githubusercontent.com/92781cc0d3fc90674524a974439f7e7493d1c3d2/68747470733a2f2f6c616d6263692e73332e616d617a6f6e6177732e636f6d2f6173736574732f6c6f676f2d333130783331302e706e67'
+            twitter: 'https://twitter.com/lamb_ci'
+            crunchbase: 'https://www.crunchbase.com/organization/lambci'
           - item:
-            name: fn
-            organization: Fn
-            homepage_url: 'https://fnproject.io/'
-            repo_url: 'https://github.com/fnproject/fn'
-            logo: >-
-              https://camo.githubusercontent.com/aad13cfe0e267f38143fd8cc6816ab8adde37a56/687474703a2f2f666e70726f6a6563742e696f2f696d616765732f666e2d333030783132352e706e67
-            twitter: 'https://twitter.com/fnproj'
+            name: Node Lambda
+            organization: Node Lambda
+            homepage_url: 'https://github.com/motdotla/node-lambda'
+            repo_url: https://github.com/motdotla/node-lambda
+            logo: 'https://raw.githubusercontent.com/motdotla/node-lambda/master/node-lambda.png?raw=true'
+            twitter: ''
+            crunchbase: 'https://www.crunchbase.com/organization/node-lambda'
           - item:
-            name: Google Cloud Functions
-            organization: Google
-            homepage_url: 'https://cloud.google.com/functions/'
-            logo: ./src/hosted_logos/google-cloudfunctions.svg
-            twitter: 'https://twitter.com/googlecloud'
-            crunchbase: 'https://www.crunchbase.com/organization/google-cloud-platform'
+            name: Stackery
+            organization: Stackery
+            homepage_url: 'https://www.stackery.io/'
+            logo: 'https://www.stackery.io/assets/stackery-logo-teal-a769bc26922ca6b7df906d8da26afceb3a9c8245407415acc5c3715d40939f76.svg'
+            twitter: 'https://twitter.com/stackeryio'
+            crunchbase: 'https://www.crunchbase.com/organization/stackery'
           - item:
-            name: Kubeless
-            organization: Kubeless
-            homepage_url: 'http://kubeless.io/'
-            repo_url: 'https://github.com/kubeless/kubeless'
-            logo: 'https://s3-us-west-2.amazonaws.com/assets.site.serverless.com/blog/kubeless.png'
-            twitter: 'https://twitter.com/hashtag/kubeless'
-            crunchbase: 'https://www.crunchbase.com/organization/kubeless'
+            name: Microcule
+            organization: Stackvana
+            homepage_url: 'https://github.com/Stackvana'
+            repo_url: https://github.com/Stackvana/microcule
+            logo: './src/hosted_logos/microcule.svg'
+            twitter: ''
+            crunchbase: ''
           - item:
-            name: NStack
-            organization: NStack
-            homepage_url: 'https://nstack.com/'
-            repo_url: 'https://github.com/nstack/nstack'
-            logo: 'https://pbs.twimg.com/profile_images/807552612295933952/8bEJzlEM_400x400.jpg'
-            twitter: 'https://twitter.com/nstackcom'
-            crunchbase: 'https://www.crunchbase.com/organization/nstack'
+            name: Thundra
+            organization: OpsGenie
+            homepage_url: 'https://www.thundra.io/'
+            logo: 'https://s3-us-west-2.amazonaws.com/why-thundra-serverless-blog/logo.png'
+            twitter: 'https://twitter.com/thundraio'
+            crunchbase: 'https://www.crunchbase.com/organization/opsgenie'
+      - subcategory:
+        name: Frameworks
+        items:
           - item:
-            name: Nuclio
-            organization: Iguazio
-            homepage_url: 'https://nuclio.io/'
-            repo_url: 'https://github.com/nuclio/nuclio'
-            logo: 'https://www.iguazio.com/wp-content/uploads/2017/11/Nuclio_Final-03-1024x470.png'
-            twitter: 'https://twitter.com/nuclioio'
-            crunchbase: 'https://www.crunchbase.com/organization/iguaz-io'
+            name: Apex Up
+            organization: Apex
+            homepage_url: 'https://up.docs.apex.sh/#introduction'
+            repo_url: https://github.com/apex/up
+            logo: './src/hosted_logos/apex.png'
+            twitter: 'https://twitter.com/apexserverless'
+            crunchbase: 'https://www.crunchbase.com/organization/apex-7f19'
           - item:
-            name: OpenFAAS
-            organization: OpenFaaS
-            homepage_url: 'https://www.openfaas.com'
-            repo_url: 'https://github.com/openfaas/faas'
-            logo: 'https://raw.githubusercontent.com/openfaas/media/master/OpenFaaS_logo_stacked_opaque.png'
-            twitter: 'https://twitter.com/alexellisuk'
-            crunchbase: 'https://www.crunchbase.com/organization/openfaas'
+            name: AWS Chalice
+            organization: Amazon Web Services
+            homepage_url: 'https://aws.amazon.com/blogs/developer/chalice-1-0-0-ga-release/'
+            repo_url: https://github.com/aws/chalice
+            logo: 'https://www.cncf.io/wp-content/uploads/2017/08/logo_AWS-300x184.png'
+            twitter: 'https://twitter.com/awscloud'
+            crunchbase: 'https://www.crunchbase.com/organization/amazon-web-services'
           - item:
-            name: OpenWhisk
-            organization: Apache
-            homepage_url: 'http://openwhisk.incubator.apache.org/'
-            repo_url: 'https://github.com/apache/incubator-openwhisk'
-            logo: 'https://cdn-images-1.medium.com/max/1200/1*4Q3kFLD0dZiwbLAKZJGy8Q.png'
-            twitter: 'https://twitter.com/openwhisk'
-            crunchbase: 'https://www.crunchbase.com/organization/apache'
+            name: Dawson
+            organization: Dawson
+            homepage_url: 'https://github.com/dawson-org'
+            repo_url: https://raw.githubusercontent.com/dawson-org/dawson-cli/images/dawson-logo.png
+            best_res: ''
+            logo: 'https://avatars0.githubusercontent.com/u/23697047?s=200&v=4'
+            twitter: ''
+            crunchbase: 'https://www.crunchbase.com/organization/dawson-c553'
           - item:
-            name: Oracle Application Container Cloud
-            organization: Oracle
-            homepage_url: 'https://cloud.oracle.com/acc'
-            logo: 'https://docs.oracle.com/en/cloud/paas/app-container-cloud/sp_common/shared-images/cloudgs_appcontainer.png'
-            twitter: 'https://twitter.com/hashtag/OracleCloudZone'
-            crunchbase: 'https://www.crunchbase.com/organization/oracle'
+            name: Mitoc Group Deep
+            organization: Mitoc Group
+            homepage_url: 'http://docs.deep.mg/'
+            repo_url: https://github.com/MitocGroup/deep-framework
+            logo: 'https://www.mitocgroup.com/images/logos/mitoc.svg'
+            twitter: 'https://twitter.com/MitocGroup'
+            crunchbase: 'https://www.crunchbase.com/organization/mitoc-group-inc'
           - item:
-            name: PubNub
-            organization: Blocks
-            homepage_url: 'https://www.pubnub.com/docs/blocks-catalog'
-            logo: 'http://ww1.prweb.com/prfiles/2015/11/18/13089283/BLOCKSlogo.png'
-            twitter: 'https://twitter.com/PubNub'
-            crunchbase: 'https://www.crunchbase.com/organization/pubnub'
+            name: GunIO Zappa
+            organization: GunIO
+            homepage_url: 'https://www.zappa.io/'
+            repo_url: https://github.com/Miserlou/Zappa
+            logo: 'https://www.gun.io/hubfs/Large%20Gun%20Logo.svg'
+            twitter: 'https://twitter.com/gundotio?lang=en'
+            crunchbase: 'https://www.crunchbase.com/organization/gun-io'
+          - item:
+            name: Spring Cloud Function
+            organization: Pivotal
+            homepage_url: 'https://cloud.spring.io/spring-cloud-function/'
+            repo_url: 'https://github.com/spring-cloud/spring-cloud-function'
+            logo: 'https://cloud-native.slack.com/files/U7Z6RQFSM/F97QUQPPB/springcloudfunction.svg'
+            crunchbase: 'https://www.crunchbase.com/organization/pivotal'
           - item:
             name: Serverless
             organization: Serverless
@@ -2671,12 +2689,294 @@ landscape:
             twitter: 'https://twitter.com/goserverless'
             crunchbase: 'https://www.crunchbase.com/organization/serverless'
           - item:
+            name: Bustle Shep
+            organization: Bustle
+            homepage_url: 'https://www.bustle.com/labs'
+            repo_url: 'https://github.com/bustle/shep'
+            logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Bustle_logo.svg/666px-Bustle_logo.svg.png'
+            twitter: 'https://twitter.com/bustle'
+            crunchbase: 'https://www.crunchbase.com/organization/bustle'
+          - item:
+            name: Sparta
+            organization: Sparta
+            homepage_url: 'http://gosparta.io/'
+            repo_url: 'https://github.com/mweagle/Sparta'
+            logo: 'http://gosparta.io/images/SpartaLogoNoDomain.png'
+            twitter: 'https://twitter.com/mweagle?lang=en'
+            crunchbase: ''
+          - item:
+            name: AWS Lambda SAM Local
+            organization: Amazon Web Services
+            homepage_url: 'https://docs.aws.amazon.com/lambda/latest/dg/serverless_app.html'
+            repo_url: 'https://github.com/awslabs/serverless-application-model'
+            logo: 'https://cloud-native.slack.com/files/U7Z6RQFSM/F97TG7ERX/sam-local.svg'
+            twitter: 'https://twitter.com/awscloud'
+            crunchbase: 'https://www.crunchbase.com/organization/amazon-web-services'
+          - item:
+            name: Gordon
+            organization: Gordon
+            homepage_url: 'http://jorgebastida.com/'
+            repo_url: 'https://github.com/jorgebastida/gordon'
+            logo: 'https://camo.githubusercontent.com/ea0a3c583fc74172ffca45276000de55e1d484b6/68747470733a2f2f676f72646f6e2e72656164746865646f63732e696f2f656e2f6c61746573742f5f7374617469632f6c6f676f5f746578742e737667'
+            twitter: 'https://twitter.com/jorgebastida'
+            crunchbase: 'https://www.crunchbase.com/organization/gordon'
+          - item:
+            name: ClaudisJS
+            organization: ClaudiaJS
+            homepage_url: 'https://claudiajs.com/'
+            repo_url: 'https://github.com/claudiajs/claudia'
+            logo: 'https://claudiajs.com/assets/claudiajs.svg'
+            twitter: 'https://twitter.com/intent/follow?screen_name=gojkoadzic'
+            crunchbase: 'https://www.crunchbase.com/organization/claudiajs'
+          - item:
+            name: KappaIO
+            organization: KappaIO
+            homepage_url: 'http://kappa.readthedocs.io/en/develop/'
+            repo_url: 'https://github.com/garnaat/kappa'
+            logo: 'https://cloud-native.slack.com/files/U7Z6RQFSM/F99798FTQ/kappaio.svg'
+            twitter: 'https://twitter.com/kappaio'
+            crunchbase: 'https://www.crunchbase.com/organization/kappaio'
+      - subcategory:
+        name: Platforms
+        items:
+          - item:
+            name: AWS Lambda
+            organization: Amazon Web Services
+            homepage_url: 'https://aws.amazon.com/lambda/'
+            logo: 'https://www.cncf.io/wp-content/uploads/2017/08/logo_AWS-300x184.png'
+            twitter: 'https://twitter.com/awscloud'
+            crunchbase: 'https://www.crunchbase.com/organization/amazon-web-services'
+          - item:
             name: Webtask
             organization: Webtask
             homepage_url: 'https://webtask.io/'
             logo: 'https://cdn-images-1.medium.com/max/698/1*4SkA3yFoWNsuH3PPVCpKvQ.png'
             twitter: 'https://twitter.com/webtaskio'
             crunchbase: 'https://www.crunchbase.com/organization/webtask'
+          - item:
+            name: Google Cloud Functions
+            organization: Google
+            homepage_url: 'https://cloud.google.com/functions/'
+            logo: './src/hosted_logos/google-cloudfunctions.png'
+            twitter: 'https://twitter.com/googlecloud'
+            crunchbase: 'https://www.crunchbase.com/organization/google-cloud-platform'
+          - item:
+            name: IBM Cloud Platform
+            organization: IBM Cloud
+            homepage_url: 'https://console.bluemix.net/openwhisk/'
+            logo: './src/hosted_logos/ibm-cloud.png'
+            twitter: 'https://twitter.com/IBMcloud'
+            crunchbase: 'https://www.crunchbase.com/organization/ibm-cloud'
+          - item:
+            name: Nano lambda
+            organization: Nano Lambda
+            homepage_url: 'http://nano-lambda.com/'
+            logo: 'http://nano-lambda.com/assets/img/logo.png'
+            twitter: ''
+            crunchbase: 'https://www.crunchbase.com/organization/nano-lambda'
+          - item:
+            name: Fn
+            organization: Fn
+            homepage_url: 'http://fnproject.io/'
+            logo: 'https://www.vectorlogo.zone/logos/fnproject/fnproject-card.png'
+            twitter: 'https://twitter.com/fnproj'
+            crunchbase: 'https://www.crunchbase.com/organization/fn'
+          - item:
+            name: Overclock
+            organization: OvrClk, Inc.
+            homepage_url: 'https://www.ovrclk.com/'
+            logo: 'https://tctechcrunch2011.files.wordpress.com/2017/11/overclock-logo-full.png'
+            best_res: ''
+            twitter: 'https://twitter.com/OvrClkHQ'
+            crunchbase: 'https://www.crunchbase.com/organization/ovrclk'
+          - item:
+            name: OVH Functions
+            organization: OVH
+            homepage_url: 'https://labs.ovh.com/ovh-functions'
+            logo: 'https://www.i2coalition.com/wp-content/uploads/2017/09/logo-ovh-us-horizontal-blue.png'
+            twitter: 'https://twitter.com/ovh_labs'
+            crunchbase: 'https://www.crunchbase.com/organization/ovh-com'
+          - item:
+            name: PubNub Functions
+            organization: PubNub
+            homepage_url: 'https://www.pubnub.com/products/functions/'
+            logo: 'https://www.pubnub.com/wp-content/uploads/2017/08/functions-header-logo.svg'
+            twitter: 'https://twitter.com/PubNub'
+            crunchbase: 'https://www.crunchbase.com/organization/pubnub'
+          - item:
+            name: OpenWhisk
+            organization: Apache
+            homepage_url: 'https://openwhisk.apache.org/'
+            logo: 'https://www.pubnub.com/wp-content/uploads/2017/08/functions-header-logo.svg'
+            repo_url: https://cdn-images-1.medium.com/max/1200/1*4Q3kFLD0dZiwbLAKZJGy8Q.png
+            best_res: ''
+            twitter: 'https://twitter.com/search?q=openwhisk'
+            crunchbase: 'https://www.crunchbase.com/organization/apache'
+          - item:
+            name: Spotinst Functions
+            organization: Spotinst
+            homepage_url: 'https://spotinst.com/products/spotinst-functions/'
+            logo: 'https://spotinst.com/app/uploads/2016/11/Spotinst-Logo.png'
+            twitter: 'https://twitter.com/spotinst'
+            crunchbase: 'https://www.crunchbase.com/organization/spotinst'
+          - item:
+            name: Syncano
+            organization: Syncano
+            homepage_url: 'https://syncano.io/#/'
+            logo: 'https://d3rij3t703q5l6.cloudfront.net/14652/6/4a6c199217ecdcacb30ffbc39f13bd8f0be141d5.png'
+            twitter: 'https://twitter.com/Syncano/'
+            crunchbase: 'https://www.crunchbase.com/organization/syncano'
+          - item:
+            name: Twilio Functions
+            organization: Twilio
+            homepage_url: 'https://www.twilio.com/functions'
+            logo: 'https://www.twilio.com/bundles/marketing/img/logos/wordmark-red.svg'
+            twitter: 'https://twitter.com/twilio'
+            crunchbase: 'https://www.crunchbase.com/organization/twilio'
+          - item:
+            name: Weblab
+            organization: Weblab
+            homepage_url: 'https://weblab.io/'
+            logo: 'https://cloud-native.slack.com/files/U7Z6RQFSM/F97MUHD96/fx.svg'
+            twitter: 'https://twitter.com/weblabhq'
+            crunchbase: 'https://www.crunchbase.com/organization/weblab'
+          - item:
+            name: Iron.io
+            organization: Iron.io
+            homepage_url: 'https://www.iron.io/'
+            logo: 'https://crunchbase-production-res.cloudinary.com/image/upload/v1397182859/53934de605f54d407d087900d16e9b75.png'
+            twitter: 'https://twitter.com/getiron'
+            crunchbase: 'https://www.crunchbase.com/organization/iron-io'
+          - item:
+            name: Azure Functions
+            organization: Microsoft
+            homepage_url: 'https://azure.microsoft.com/en-us/services/functions//'
+            logo: 'https://www.datocms-assets.com/2885/1513729661-azure_logo_blue.svg'
+            twitter: 'https://twitter.com/Azure'
+            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+          - item:
+            name: Hyper Func
+            organization: Hyper.sh
+            homepage_url: 'https://docs.hyper.sh/Feature/container/func.html'
+            logo: 'https://www.hyper.sh/logo/logo_dark.svg'
+            twitter: 'https://twitter.com/hyper_sh'
+            crunchbase: 'https://www.crunchbase.com/organization/hyper-4'
+          - item:
+            name: StdLib
+            organization: StdLib
+            homepage_url: 'https://stdlib.com/'
+            repo_url: https://github.com/stdlib/lib
+            logo: 'https://i1.wp.com/martechseries.com/wp-content/uploads/2017/07/stdlib.png'
+            twitter: 'https://twitter.com/stdlibhq'
+            crunchbase: 'https://www.crunchbase.com/organization/stdlib'
+          - item:
+            name: Clay
+            organization: Clay Labs, Inc.
+            homepage_url: 'https://www.clay.run/'
+            logo: 'https://cdn-images-1.medium.com/max/184/1*5TcwOUNVIvXLVAwuNqA40Q@2x.png'
+            best_res: ''
+            twitter: ''
+            crunchbase: 'https://www.crunchbase.com/organization/clay-labs'
+          - item:
+            name: Zeit Now
+            organization: Zeit,Inc.
+            homepage_url: 'https://zeit.co/now#frequently-asked-questions'
+            logo: 'https://assets.zeit.co/image/upload/front/logos/white-bg-text-logo-1200.png'
+            twitter: 'https://twitter.com/zeithq'
+            crunchbase: ''
+      - subcategory:
+        name: Hybrid
+        items:
+          - item:
+            name: Binaris
+            organization: Binaris
+            homepage_url: 'https://www.binaris.com/'
+            logo: https://www.delltechnologies.com/content/dam/delltechnologies/assets/capital/images/binaris-logo.png
+            twitter: 'https://twitter.com/gobinaris'
+            crunchbase: 'https://www.crunchbase.com/organization/binaris'
+          - item:
+            name: Galactic Fog Gestalt
+            organization: Galactic Fog
+            homepage_url: 'http://www.galacticfog.com/'
+            logo: https://media.licdn.com/mpr/mpr/AAEAAQAAAAAAAAYHAAAAJGU0Zjc4OGI2LTYzZmEtNGUxMC05ODE5LTVhMjI0OTM3NmI3ZA.png
+            twitter: 'https://twitter.com/galacticfog'
+            crunchbase: 'https://www.crunchbase.com/organization/galactic-fog'
+          - item:
+            name: Iguazio Data Platform
+            organization: Iguazio
+            homepage_url: 'https://github.com/nuclio/nuclio'
+            logo: https://pbs.twimg.com/media/DFl7P1DUwAA1KrW.png
+            best_res: ''
+            twitter: 'https://twitter.com/iguazio'
+            crunchbase: 'https://www.crunchbase.com/organization/iguaz-io'
+          - item:
+            name: Cloudboost
+            organization: Cloudboost
+            homepage_url: 'https://www.cloudboost.io/'
+            logo: https://docs.cloudboost.io/assets/images/logoc81e.png
+            twitter: 'https://twitter.com/cloudboostio'
+            crunchbase: 'https://www.crunchbase.com/organization/cloudboost'
+          - item:
+            name: fx
+            organization: Minge
+            homepage_url: 'https://minghe.me/'
+            repo_url: https://github.com/metrue/fx
+            logo: 'https://cloud-native.slack.com/files/U7Z6RQFSM/F97MUHD96/fx.svg'
+            twitter: ''
+            crunchbase: 'https://www.crunchbase.com/organization/fx-5505'
+          - item:
+            name: LunchBadger
+            organization: LunchBadger
+            homepage_url: 'https://www.lunchbadger.com/'
+            repo_url: https://github.com/metrue/fx
+            logo: 'https://img.betapage.co/logo/78953024-86592179.png'
+            best_res: ''
+            twitter: 'https://twitter.com/LunchBadger'
+            crunchbase: 'https://www.crunchbase.com/organization/lunchbadger-inc'
+      - subcategory:
+        name: Kubernetes - Native
+        items:
+          - item:
+            name: Kubeless
+            organization: Kubeless
+            homepage_url: 'http://kubeless.io/'
+            repo_url: https://github.com/kubeless
+            logo: https://s3-us-west-2.amazonaws.com/assets.site.serverless.com/blog/kubeless.png
+            twitter: 'https://twitter.com/kubeless_sh'
+            crunchbase: 'https://www.crunchbase.com/organization/kubeless'
+          - item:
+            name: OpenFAAS
+            organization: OpenFaaS
+            homepage_url: 'https://www.openfaas.com'
+            repo_url: 'https://github.com/openfaas/faas'
+            logo: 'https://raw.githubusercontent.com/openfaas/media/master/OpenFaaS_logo_stacked_opaque.png'
+            twitter: 'https://twitter.com/alexellisuk'
+            crunchbase: 'https://www.crunchbase.com/organization/openfaas'
+          - item:
+            name: OpenLambda
+            organization: OpenLambda
+            homepage_url: 'https://open-lambda.org/'
+            repo_url: 'https://github.com/open-lambda/open-lambda'
+            logo: 'https://raw.githubusercontent.com/motdotla/node-lambda/master/node-lambda.png?raw=true'
+            best_res: ''
+            twitter: ''
+            crunchbase: 'https://www.crunchbase.com/organization/openlambda'
+          - item:
+            name: Funktion
+            organization: Funktion
+            homepage_url: 'https://funktion.fabric8.io/'
+            repo_url: 'https://github.com/funktionio/funktion/'
+            logo: 'https://funktion.fabric8.io/img/profile.png'
+            twitter: 'https://twitter.com/funktionio'
+            crunchbase: 'https://www.crunchbase.com/organization/funktion'
+          - item:
+            name: Fission
+            organization: Platform9
+            homepage_url: 'http://fission.io/'
+            repo_url: 'https://github.com/fission/fission'
+            logo: 'https://www.gcppodcast.com/images/post/fission-logo.png'
+            twitter: 'https://twitter.com/Platform9Sys'
+            crunchbase: 'https://www.crunchbase.com/organization/platform9-systems-inc'
   - category:
     name: Observability and Analysis
     subcategories:
