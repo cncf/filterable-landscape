@@ -2575,7 +2575,7 @@ landscape:
             organization: Amazon Web Services
             homepage_url: 'https://aws.amazon.com/lambda/'
             repo_url: https://github.com/nficano/python-lambda
-            logo: './src/hosted_logos/aws-lambda.png'
+            logo: './src/hosted_logos/aws-lambda.svg'
             twitter: 'https://twitter.com/awscloud'
             crunchbase: 'https://www.crunchbase.com/organization/amazon-web-services'
           - item:
@@ -2634,11 +2634,8 @@ landscape:
         name: Frameworks
         items:
           - item:
-            name: Apex Up
+            name: Apex
             organization: Apex
-            homepage_url: 'https://up.docs.apex.sh/#introduction'
-            repo_url: https://github.com/apex/up
-            logo: './src/hosted_logos/apex.png'
             homepage_url: 'http://apex.run'
             repo_url: 'https://github.com/apex/apex'
             logo: ./src/hosted_logos/apex.svg
@@ -2649,9 +2646,7 @@ landscape:
             organization: Amazon Web Services
             homepage_url: 'https://aws.amazon.com/blogs/developer/chalice-1-0-0-ga-release/'
             repo_url: https://github.com/aws/chalice
-            logo: 'https://www.cncf.io/wp-content/uploads/2017/08/logo_AWS-300x184.png'
-            homepage_url: 'https://aws.amazon.com/lambda/'
-            logo: ./src/hosted_logos/aws-lambda.svg
+            logo: 'https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg'
             twitter: 'https://twitter.com/awscloud'
             crunchbase: 'https://www.crunchbase.com/organization/amazon-web-services'
           - item:
@@ -2687,13 +2682,6 @@ landscape:
             logo: 'https://cloud-native.slack.com/files/U7Z6RQFSM/F97QUQPPB/springcloudfunction.svg'
             crunchbase: 'https://www.crunchbase.com/organization/pivotal'
           - item:
-            name: Azure Functions
-            organization: Microsoft
-            homepage_url: 'https://azure.microsoft.com/en-us/services/functions/'
-            logo: ./src/hosted_logos/azurefunctions.svg
-            twitter: 'https://twitter.com/azurefunctions'
-            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
-          - item:
             name: Serverless
             organization: Serverless
             homepage_url: 'https://serverless.com/'
@@ -2722,7 +2710,7 @@ landscape:
             organization: Amazon Web Services
             homepage_url: 'https://docs.aws.amazon.com/lambda/latest/dg/serverless_app.html'
             repo_url: 'https://github.com/awslabs/serverless-application-model'
-            logo: 'https://cloud-native.slack.com/files/U7Z6RQFSM/F97TG7ERX/sam-local.svg'
+            logo: ./src/hosted_logos/sam-local.svg
             twitter: 'https://twitter.com/awscloud'
             crunchbase: 'https://www.crunchbase.com/organization/amazon-web-services'
           - item:
@@ -2730,7 +2718,7 @@ landscape:
             organization: Gordon
             homepage_url: 'http://jorgebastida.com/'
             repo_url: 'https://github.com/jorgebastida/gordon'
-            logo: 'https://camo.githubusercontent.com/ea0a3c583fc74172ffca45276000de55e1d484b6/68747470733a2f2f676f72646f6e2e72656164746865646f63732e696f2f656e2f6c61746573742f5f7374617469632f6c6f676f5f746578742e737667'
+            logo: 'https://gordon.readthedocs.io/en/latest/_static/logo_text.svg'
             twitter: 'https://twitter.com/jorgebastida'
             crunchbase: 'https://www.crunchbase.com/organization/gordon'
           - item:
@@ -2756,7 +2744,7 @@ landscape:
             name: AWS Lambda
             organization: Amazon Web Services
             homepage_url: 'https://aws.amazon.com/lambda/'
-            logo: 'https://www.cncf.io/wp-content/uploads/2017/08/logo_AWS-300x184.png'
+            logo: ./src/hosted_logos/aws-lambda.svg
             twitter: 'https://twitter.com/awscloud'
             crunchbase: 'https://www.crunchbase.com/organization/amazon-web-services'
           - item:
@@ -2770,14 +2758,14 @@ landscape:
             name: Google Cloud Functions
             organization: Google
             homepage_url: 'https://cloud.google.com/functions/'
-            logo: './src/hosted_logos/google-cloudfunctions.png'
+            logo: './src/hosted_logos/google-cloudfunctions.svg'
             twitter: 'https://twitter.com/googlecloud'
             crunchbase: 'https://www.crunchbase.com/organization/google-cloud-platform'
           - item:
             name: IBM Cloud Platform
             organization: IBM Cloud
             homepage_url: 'https://console.bluemix.net/openwhisk/'
-            logo: './src/hosted_logos/ibm-cloud.png'
+            logo: './src/hosted_logos/ibm-cloud.svg'
             twitter: 'https://twitter.com/IBMcloud'
             crunchbase: 'https://www.crunchbase.com/organization/ibm-cloud'
           - item:
@@ -2820,10 +2808,9 @@ landscape:
             name: OpenWhisk
             organization: Apache
             homepage_url: 'https://openwhisk.apache.org/'
-            logo: 'https://www.pubnub.com/wp-content/uploads/2017/08/functions-header-logo.svg'
-            repo_url: https://cdn-images-1.medium.com/max/1200/1*4Q3kFLD0dZiwbLAKZJGy8Q.png
-            best_res: ''
-            twitter: 'https://twitter.com/search?q=openwhisk'
+            logo: './src/hosted_logos/apache-openwhisk.svg'
+            repo_url: 'https://github.com/apache/incubator-openwhisk'
+            twitter: 'https://twitter.com/openwhisk'
             crunchbase: 'https://www.crunchbase.com/organization/apache'
           - item:
             name: Spotinst Functions
@@ -2864,7 +2851,7 @@ landscape:
             name: Azure Functions
             organization: Microsoft
             homepage_url: 'https://azure.microsoft.com/en-us/services/functions//'
-            logo: 'https://www.datocms-assets.com/2885/1513729661-azure_logo_blue.svg'
+            logo: './src/hosted_logos/azurefunctions.svg'
             twitter: 'https://twitter.com/Azure'
             crunchbase: 'https://www.crunchbase.com/organization/microsoft'
           - item:
@@ -2953,7 +2940,7 @@ landscape:
             name: Kubeless
             organization: Kubeless
             homepage_url: 'http://kubeless.io/'
-            repo_url: https://github.com/kubeless
+            repo_url: 'https://github.com/kubeless/kubeless'
             logo: https://s3-us-west-2.amazonaws.com/assets.site.serverless.com/blog/kubeless.png
             twitter: 'https://twitter.com/kubeless_sh'
             crunchbase: 'https://www.crunchbase.com/organization/kubeless'
@@ -2978,18 +2965,10 @@ landscape:
             name: Funktion
             organization: Funktion
             homepage_url: 'https://funktion.fabric8.io/'
-            repo_url: 'https://github.com/funktionio/funktion/'
+            repo_url: 'https://github.com/funktionio/funktion'
             logo: 'https://funktion.fabric8.io/img/profile.png'
             twitter: 'https://twitter.com/funktionio'
             crunchbase: 'https://www.crunchbase.com/organization/funktion'
-          - item:
-            name: OpenWhisk
-            organization: Apache
-            homepage_url: 'http://openwhisk.incubator.apache.org/'
-            repo_url: 'https://github.com/apache/incubator-openwhisk'
-            logo: './src/hosted_logos/apache-openwhisk.svg'
-            twitter: 'https://twitter.com/openwhisk'
-            crunchbase: 'https://www.crunchbase.com/organization/apache'
           - item:
             name: Oracle Application Container Cloud
             organization: Oracle
@@ -3004,14 +2983,6 @@ landscape:
             logo: 'http://ww1.prweb.com/prfiles/2015/11/18/13089283/BLOCKSlogo.png'
             twitter: 'https://twitter.com/PubNub'
             crunchbase: 'https://www.crunchbase.com/organization/pubnub'
-          - item:
-            name: Serverless
-            organization: Serverless
-            homepage_url: 'https://serverless.com/'
-            repo_url: 'https://github.com/serverless/serverless'
-            logo: 'https://user-images.githubusercontent.com/2752551/30404912-d5781a00-989d-11e7-8d25-5ebca177326a.png'
-            twitter: 'https://twitter.com/goserverless'
-            crunchbase: 'https://www.crunchbase.com/organization/serverless'
           - item:
             name: Fission
             organization: Platform9
