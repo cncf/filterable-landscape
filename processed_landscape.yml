@@ -3917,7 +3917,7 @@ landscape:
             image_data:
               fileName: smart-stack.svg
           - item:
-            name: Zookeeper
+            name: Apache Zookeeper
             organization: Apache
             homepage_url: 'http://zookeeper.apache.org/'
             repo_url: 'https://github.com/apache/zookeeper'
@@ -6626,7 +6626,7 @@ landscape:
             name: GitLab Runner
             organization: GitLab
             homepage_url: 'https://docs.gitlab.com/runner/'
-            repo_url: 'https://gitlab.com/gitlab-org/gitlab-runner'
+            repo_url: 'https://github.com/ayufan/gitlab-ci-multi-runner'
             logo: 'https://gitlab.com/uploads/-/system/project/avatar/250833/runner_logo.png'
             twitter: 'https://twitter.com/gitlab'
             crunchbase: 'https://www.crunchbase.com/organization/gitlab-com'
@@ -6643,6 +6643,15 @@ landscape:
               linkedin: 'https://www.linkedin.com/company/5101804'
               kind: funding
               funding: 45620000
+            github_data:
+              stars: 271
+              license: MIT
+              description: 'This repository is a mirror for automated DockerHub builds. Please go to:'
+              latest_commit_date: '2016-09-01T12:23:02Z'
+              latest_commit_link: /ayufan/gitlab-ci-multi-runner/commit/a3d5829a46cb94a49c438db7efede4da40a0a238
+            github_start_commit_data:
+              start_commit_link: /ayufan/gitlab-ci-multi-runner/commit/b6e51c58bd67349311ee79b9b4311d1aab5855d5
+              start_date: '2014-07-30T23:56:53Z'
             cncf_membership_data:
               cncf_member: true
             image_data:
@@ -9684,10 +9693,10 @@ landscape:
           - item:
             name: Dawson
             organization: Dawson
-            homepage_url: 'https://github.com/dawson-org'
-            repo_url: 'https://raw.githubusercontent.com/dawson-org/dawson-cli/images/dawson-logo.png'
+            homepage_url: 'https://github.com/dawson-org/dawson-cli'
+            repo_url: 'https://github.com/dawson-org/dawson-cli'
             best_res: ''
-            logo: 'https://avatars0.githubusercontent.com/u/23697047?s=200&v=4'
+            logo: 'https://raw.githubusercontent.com/dawson-org/dawson-cli/images/dawson-logo.png'
             twitter: ''
             crunchbase: 'https://www.crunchbase.com/organization/dawson-c553'
             crunchbase_data:
@@ -9701,11 +9710,20 @@ landscape:
               country: null
               twitter: null
               linkedin: null
+            github_data:
+              stars: 731
+              license: GPL-3.0
+              description: 'A serverless web framework for Node.js on AWS (CloudFormation, CloudFront, API Gateway, Lambda)'
+              latest_commit_date: '2017-07-19T19:57:13Z'
+              latest_commit_link: /dawson-org/dawson-cli/commit/8702799f9fc1ea30ab42ca0fdc8729b0d4e09011
+            github_start_commit_data:
+              start_commit_link: /dawson-org/dawson-cli/commit/61d014f711f18b00303b913ccae190b89db6344f
+              start_date: '2016-08-09T11:14:10Z'
             cncf_membership_data:
               cncf_member: false
             image_data:
               fileName: dawson.png
-              low_res: 151x187
+              low_res: 266x63
           - item:
             name: Mitoc Group Deep
             organization: Mitoc Group
