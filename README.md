@@ -60,54 +60,31 @@ The following rules will produce the most readable and attractive logos:
 * `yarn open:src` (starts a development server) or
 * `yarn build`, then `yarn open:dist` (compiles and opens a production build)
 
-
 ### Updating data
 
-The following options go from least data updated to most:
-1. `npm run fetch`: Fetches images (saving any changes) and updates processed_landscape.yaml
-1. `npm run precommit`: Above plus downloads GitHub info
-1. `npm run rebuild`: Above plus deletes all images first
+After making changes to `landscape.yml`, run `yarn fetch` to fetch any needed data and generate [processed_landscape.yml](processed_landscape.yml) and [file](https://github.com/cncf/filterable-landscape/blob/master/src/data.json).
 
-Netlify runs:
-1. `npm run prebuild` 
+`yarn fetch` runs in 4 modes of increasingly aggressive downloading, with a default to easy. Reading data from the cache (meaning from processed_landscape.yml) means that no new data is fetched if the project/product already exists. The modes are:
 
-### Data flow
-  Nothing is updated automatically during development.
-  Overall, the data flow is this:
+| *Data cached*        | *easy* | *medium* | *hard* | *complete* |
+|----------------------|--------|----------|--------|------------|
+| *Crunchbase*         | true   | false    | false  | false      |
+| *GitHub basic stats* | true   | false    | false  | false      |
+| *GitHub start dates* | true   | true     | false  | false      |
+| *Image data*         | true   | true     | true   | false      |
 
-  landscape.yml => `yarn run babel-node tools/addExternalInfo` => processed_landscape.yml => `yarn yaml2json` => src/data.json + src/lookup.json
+* *Easy* mode just fetches any data needed for new projects/products.
+* *Medium* fetches Crunchbase and basic GitHub data for all projects/products.
+* *Hard* also fetches GitHub start dates. These should not change so this should not be necessary.
+* *Complete* also re-fetches all images. This is problematic because images tend to become unavailable (404) over time, even though the local cache is fine.
 
-  processed_landscape.yml => `yarn run babel-node tools/fetchImages` => src/logos + src/styles/styles.scss + src/image_urls.yml
+Easy mode (the default) is what you should use if you update `landscape.yml` and want to see the results locally. The Netlify build server runs easy mode, which makes it possible to just commit a change to landscape.yml and have the results reflected in production.
 
-  `yarn run babel-node tools/addExternalInfo` uses these files:
-  1. landscape.yml - our source
-  2. github.json - an info about repos, can be obtained via `yarn run babel-node tools/fetchGithubStats`
-  3. crunchbase.csv - an info about companies from the crunchbase, should be download manually from a crunchbase pro account
-  4. cncf_members.yml - a list of all cncf members.
+Medium mode is what is run by the update server, with commits back to the repo. It needs to be run regularly to update last commit date, stars, and Crunchbase info.
 
-  `yarn yaml2json` uses this files:
-  1. processed_landscape.yml - our source with extra fields from saved 3rd party data.
+Hard and complete modes should be unnecessary except in cases of possible data corruption. Even then, it's better to just delete any problematic entries from `processed_landscape.yml` and easy mode will recreate them with up-to-date information.
 
-  `yarn run babel-node tools/fetchImages` uses these files:
-  1. processed_landscape.yml - our source with extra fields from saved 3rd party data, so we get a proper company name
-  2. src/hosted_logos - some logos are stored locally
-  3. src/image_urls.yml - result from a previous run of this command. Saves us a time on image postprocessing
-
-  When you change a code iteslf in tools/fetchImages.js, postprocessing may
-  fail, because the file src/image_urls.yml contains the hash for an input image.
-  Just run `yarn fetchAllImages` to load everything again.
-
-### building a dist
-   `yarn build`
-
-### rebuilding json from yaml and extra info:
-   `yarn yaml2json`
-
-### rebuilding all images:
-   `yarn fetchAllImages`
-
-### adding a custom image:
-1. save it to the src/hosted_logos/, for example, src/hosted_logos/apex.png
-2. update the landscape.yml with a logo, for exaple, `logo: ./src/hosted_logos/apex.png`
-3. handle it as usually when you modify any reference to the image:
-  - `npm run fetch`
+### Adding a custom image
+1. Save it to the src/hosted_logos/, for example, src/hosted_logos/apex.png
+2. Update the landscape.yml with a logo, for exaple, `logo: ./src/hosted_logos/apex.png`
+3. Update `processed_landscape.yml` with `yarn fetch`
