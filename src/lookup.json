@@ -1695,17 +1695,26 @@
       "url": "platform",
       "level": 1,
       "children": [
-        "Platform / Certified Kubernetes",
+        "Platform / Certified Kubernetes - Distribution",
+        "Platform / Certified Kubernetes - Platform",
         "Platform / Non-Certified Kubernetes",
         "Platform / PaaS/Container Service"
       ]
     },
     {
-      "id": "Platform / Certified Kubernetes",
+      "id": "Platform / Certified Kubernetes - Distribution",
       "parentId": "Platform",
-      "label": "Certified Kubernetes",
-      "groupingLabel": "Platform - Certified Kubernetes",
-      "url": "certified-kubernetes",
+      "label": "Certified Kubernetes - Distribution",
+      "groupingLabel": "Platform - Certified Kubernetes - Distribution",
+      "url": "certified-kubernetes-distribution",
+      "level": 2
+    },
+    {
+      "id": "Platform / Certified Kubernetes - Platform",
+      "parentId": "Platform",
+      "label": "Certified Kubernetes - Platform",
+      "groupingLabel": "Platform - Certified Kubernetes - Platform",
+      "url": "certified-kubernetes-platform",
       "level": 2
     },
     {
