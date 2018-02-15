@@ -1,5 +1,6 @@
 // For info about this file refer to webpack and webpack-hot-middleware documentation
 // For info on how we're generating bundles with hashed filenames for cache busting: https://medium.com/@okonetchnikov/long-term-caching-of-static-assets-with-webpack-1ecb139adb95#.w99i89nsz
+import branch from 'git-branch';
 import webpack from 'webpack';
 import ExtractTextPlugin from 'extract-text-webpack-plugin';
 import WebpackMd5Hash from 'webpack-md5-hash';
@@ -7,6 +8,8 @@ import HtmlWebpackPlugin from 'html-webpack-plugin';
 import path from 'path';
 import FaviconsWebpackPlugin from 'favicons-webpack-plugin';
 import MinifyPlugin from "babel-minify-webpack-plugin";
+
+const isMainBranch = ['master', 'production', 'staging'].indexOf(branch.sync()) !== -1;
 
 const GLOBALS = {
   'process.env.NODE_ENV': JSON.stringify('production'),
@@ -54,13 +57,13 @@ export default {
       inject: true,
       // Note that you can add custom options here if you need to handle other custom logic in index.html
       // To track JavaScript errors via TrackJS, sign up for a free trial at TrackJS.com and enter your token below.
-      useRootcause: true,
+      useRootcause: isMainBranch,
     }),
 
     // Minify JS
     // new webpack.optimize.UglifyJsPlugin({ sourceMap: true }),
-    new MinifyPlugin()
-  ],
+    isMainBranch ? new MinifyPlugin() : null
+  ].filter( x => !!x),
   module: {
     rules: [
       {
