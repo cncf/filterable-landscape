@@ -6983,6 +6983,38 @@ landscape:
               fileName: canonical-distribution-of-kubernetes.png
               low_res: 325x256
           - item:
+            name: Cloud Foundry Container Runtime
+            organization: Cloud Foundry
+            description: ' Cloud Foundry Application Runtime utilizes containers as part of its DNA, and has since before Docker popularized containers. The new CF Container Runtime gives you more granular control and management of containers with Kubernetes.'
+            homepage_url: 'https://www.cloudfoundry.org/'
+            repo_url: 'https://github.com/cloudfoundry-incubator/kubo-deployment'
+            logo: ./src/hosted_logos/cloudfoundry.svg
+            crunchbase: 'https://www.crunchbase.com/organization/cloud-foundry'
+            crunchbase_data:
+              name: Cloud Foundry
+              description: 'Cloud Foundry is a self-service, public cloud deployment platform enabling developers to build, test, deploy, and scale applications.'
+              num_employees_min: 1001
+              num_employees_max: 5000
+              homepage: 'https://www.cloudfoundry.org/'
+              city: San Mateo
+              region: California
+              country: United States
+              twitter: 'https://twitter.com/cloudfoundry'
+              linkedin: 'https://www.linkedin.com/company/2509135'
+            github_data:
+              stars: 208
+              license: Apache-2.0
+              description: Contains scripts and configuration files used to build and deploy Kubo (Kubernetes on Bosh)
+              latest_commit_date: '2018-02-14T11:14:44Z'
+              latest_commit_link: /cloudfoundry-incubator/kubo-deployment/commit/e577452eb6c0e8d5a916308f5a8343da2416a4d2
+            github_start_commit_data:
+              start_commit_link: /cloudfoundry-incubator/kubo-deployment/commit/5c6e3eee066c58c90224c12e3c3691a57f65ed52
+              start_date: '2016-11-12T00:45:26Z'
+            cncf_membership_data:
+              cncf_member: true
+            image_data:
+              fileName: cloud-foundry-container-runtime.svg
+          - item:
             name: CoreOS bootkube
             organization: CoreOS
             description: Bootkube is a tool for launching self-hosted Kubernetes clusters.
@@ -7392,6 +7424,30 @@ landscape:
               cncf_member: true
             image_data:
               fileName: mesosphere-kubernetes-on-dc-os.png
+          - item:
+            name: Mirantis Cloud Platform
+            organization: Mirantis
+            description: Mirantis Cloud Platform (MCP) includes a pure play distribution of Kubernetes for enterprise-grade container orchestration.
+            homepage_url: 'https://www.mirantis.com/software/kubernetes/'
+            logo: 'https://www.mirantis.com/wp-content/uploads/2017/01/mirantis-logo-2color-rgb-transparent.png'
+            crunchbase: 'https://www.crunchbase.com/organization/mirantis'
+            crunchbase_data:
+              name: Mirantis
+              description: Mirantis is the pure-play OpenStack company.
+              num_employees_min: 501
+              num_employees_max: 1000
+              homepage: 'http://www.mirantis.com'
+              city: Mountain View
+              region: California
+              country: United States
+              twitter: 'http://twitter.com/MirantisIT'
+              linkedin: 'http://www.linkedin.com/company/mirantis'
+              kind: funding
+              funding: 220000000
+            cncf_membership_data:
+              cncf_member: true
+            image_data:
+              fileName: mirantis-cloud-platform.png
           - item:
             name: Netease Container Service Dedicated
             organization: Netease
@@ -8014,38 +8070,6 @@ landscape:
             image_data:
               fileName: cisco-container-platform.svg
           - item:
-            name: Cloud Foundry Container Runtime
-            organization: Cloud Foundry
-            description: ' Cloud Foundry Application Runtime utilizes containers as part of its DNA, and has since before Docker popularized containers. The new CF Container Runtime gives you more granular control and management of containers with Kubernetes.'
-            homepage_url: 'https://www.cloudfoundry.org/'
-            repo_url: 'https://github.com/cloudfoundry-incubator/kubo-deployment'
-            logo: ./src/hosted_logos/cloudfoundry.svg
-            crunchbase: 'https://www.crunchbase.com/organization/cloud-foundry'
-            crunchbase_data:
-              name: Cloud Foundry
-              description: 'Cloud Foundry is a self-service, public cloud deployment platform enabling developers to build, test, deploy, and scale applications.'
-              num_employees_min: 1001
-              num_employees_max: 5000
-              homepage: 'https://www.cloudfoundry.org/'
-              city: San Mateo
-              region: California
-              country: United States
-              twitter: 'https://twitter.com/cloudfoundry'
-              linkedin: 'https://www.linkedin.com/company/2509135'
-            github_data:
-              stars: 208
-              license: Apache-2.0
-              description: Contains scripts and configuration files used to build and deploy Kubo (Kubernetes on Bosh)
-              latest_commit_date: '2018-02-14T11:14:44Z'
-              latest_commit_link: /cloudfoundry-incubator/kubo-deployment/commit/e577452eb6c0e8d5a916308f5a8343da2416a4d2
-            github_start_commit_data:
-              start_commit_link: /cloudfoundry-incubator/kubo-deployment/commit/5c6e3eee066c58c90224c12e3c3691a57f65ed52
-              start_date: '2016-11-12T00:45:26Z'
-            cncf_membership_data:
-              cncf_member: true
-            image_data:
-              fileName: cloud-foundry-container-runtime.svg
-          - item:
             name: EasyStack Kubernetes Service (EKS)
             organization: EasyStack
             description: >-
@@ -8201,30 +8225,6 @@ landscape:
             image_data:
               fileName: ibm-cloud.svg
           - item:
-            name: Mirantis Cloud Platform
-            organization: Mirantis
-            description: Mirantis Cloud Platform (MCP) includes a pure play distribution of Kubernetes for enterprise-grade container orchestration.
-            homepage_url: 'https://www.mirantis.com/software/kubernetes/'
-            logo: 'https://www.mirantis.com/wp-content/uploads/2017/01/mirantis-logo-2color-rgb-transparent.png'
-            crunchbase: 'https://www.crunchbase.com/organization/mirantis'
-            crunchbase_data:
-              name: Mirantis
-              description: Mirantis is the pure-play OpenStack company.
-              num_employees_min: 501
-              num_employees_max: 1000
-              homepage: 'http://www.mirantis.com'
-              city: Mountain View
-              region: California
-              country: United States
-              twitter: 'http://twitter.com/MirantisIT'
-              linkedin: 'http://www.linkedin.com/company/mirantis'
-              kind: funding
-              funding: 220000000
-            cncf_membership_data:
-              cncf_member: true
-            image_data:
-              fileName: mirantis-cloud-platform.png
-          - item:
             name: Nirmata Managed Kubernetes
             organization: Nirmata
             description: 'Nirmata is a platform that helps enterprise DevOps teams deploy, operate, and optimize Kubernetes applications across public and private clouds.'
@@ -8357,6 +8357,28 @@ landscape:
             image_data:
               fileName: tenx-cloud-container-engine-tce.png
               low_res: 284x82
+          - item:
+            name: ZTE TECS
+            organization: ZTE
+            homepage_url: 'https://sdnfv.zte.com.cn/en/products/126'
+            logo: 'https://vignette.wikia.nocookie.net/logopedia/images/5/5d/ZTE.svg'
+            twitter: 'https://twitter.com/ZTEPress'
+            crunchbase: 'https://www.crunchbase.com/organization/zte-corporation'
+            crunchbase_data:
+              name: ZTE
+              description: ZTE provides telecommunications equipment and network solutions.
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: 'http://zte.com.cn'
+              city: Shenzhen
+              region: Guangdong
+              country: China
+              twitter: 'https://twitter.com/ZTEPress'
+              linkedin: 'https://www.linkedin.com/company/5804'
+            cncf_membership_data:
+              cncf_member: true
+            image_data:
+              fileName: zte-tecs.svg
       - subcategory:
         name: Non-Certified Kubernetes
         items:
@@ -8366,7 +8388,6 @@ landscape:
             description: >-
               Amazon Elastic Container Service for Kubernetes (Amazon EKS) is a managed service that makes it easy for you to run Kubernetes on AWS without
               needing to install and operate your own Kubernetes clusters.
-            certified_kubernetes: false
             homepage_url: 'https://aws.amazon.com/eks/'
             logo: 'https://d33wubrfki0l68.cloudfront.net/c009a5857974740fb8db35232c37148662905585/0a972/img/amazon-eks.svg'
             crunchbase: 'https://www.crunchbase.com/organization/amazon-web-services'
@@ -8419,7 +8440,6 @@ landscape:
             name: ContainerShip (NCK)
             organization: ContainerShip
             description: The Hyperprovider for MultiCloud Kubernetes
-            certified_kubernetes: false
             homepage_url: 'https://containership.io/'
             logo: 'http://resumator.s3.amazonaws.com/customer_20150721151308_KZ8QDZPO4BOHCKCU/social_icons/20150825133703_containership_logo.png'
             crunchbase: 'https://www.crunchbase.com/organization/containership'
@@ -8444,7 +8464,6 @@ landscape:
             name: goPaddle
             organization: Bluemeric
             description: Developer Friendly DevOps platform for Kubernetes Deployments
-            certified_kubernetes: false
             homepage_url: 'https://www.gopaddle.io/#/'
             logo: 'https://s3.amazonaws.com/www.bluemeric.com/images/gp-cncf-logo.png'
             crunchbase: 'https://www.crunchbase.com/organization/bluemeric'
@@ -8470,7 +8489,6 @@ landscape:
             description: >-
               Telekube combines a production hardened deployment of Kubernetes with Teleport, our multi-region SSH server, so you can effectively manage
               multiple deployments of Kubernetes applications across various regions, data centers and cloud providers.
-            certified_kubernetes: false
             homepage_url: 'http://gravitational.com/telekube/'
             logo: ./src/hosted_logos/gravitational.svg
             crunchbase: 'https://www.crunchbase.com/organization/gravitational'
@@ -8497,7 +8515,6 @@ landscape:
             description: >-
               Huawei Cloud Computing Solutions bring high-availability, secure IT services to life — with huge benefits to large-scale data centers, enterprise
               IT networks, and Cloud Service Providers (CSPs).
-            certified_kubernetes: false
             homepage_url: 'http://e.huawei.com/us/solutions/technical/cloud-computing'
             logo: 'https://upload.wikimedia.org/wikipedia/commons/0/00/Huawei.svg'
             crunchbase: 'https://www.crunchbase.com/organization/huawei'
@@ -8523,7 +8540,6 @@ landscape:
               Navops allows an organization to run containerized microservice applications and non-containerized workloads more efficiently on Kubernetes. The
               scheduler and policy management system provides virtual multi-tenancy and resource sharing to increase cluster utilization and lower operation
               costs.
-            certified_kubernetes: false
             homepage_url: 'https://www.navops.io/'
             logo: ./src/hosted_logos/navops.svg
             crunchbase: 'https://www.crunchbase.com/organization/navops'
@@ -8548,7 +8564,6 @@ landscape:
             description: >-
               Stratoscale Symphony offers a robust software-defined cloud infrastructure solution that converges all resources into one holistic single software
               solution, enabling IT teams to focus on high-impact initiatives.
-            certified_kubernetes: false
             homepage_url: 'https://www.stratoscale.com/products/kubernetes-as-a-service/'
             logo: 'https://www.stratoscale.com/wp-content/uploads/logoverticalpositivo.png'
             crunchbase: 'https://www.crunchbase.com/organization/stratoscale'
@@ -8573,7 +8588,6 @@ landscape:
             name: Supergiant
             organization: Supergiant
             description: 'Supergiant Cloud is fully-managed auto-scaling Kubernetes. '
-            certified_kubernetes: false
             homepage_url: 'https://supergiant.io/'
             repo_url: 'https://github.com/supergiant/supergiant'
             logo: 'https://media.licdn.com/mpr/mpr/shrink_200_200/AAEAAQAAAAAAAA3pAAAAJDA4MmJlMGI2LTkwOTgtNDEzNi1hNGI4LWE1NWZkNjA3ZTljMg.png'
@@ -8603,28 +8617,6 @@ landscape:
             image_data:
               fileName: supergiant.png
               low_res: 150x126
-          - item:
-            name: ZTE TECS
-            organization: ZTE
-            homepage_url: 'https://sdnfv.zte.com.cn/en/products/126'
-            logo: 'https://vignette.wikia.nocookie.net/logopedia/images/5/5d/ZTE.svg'
-            twitter: 'https://twitter.com/ZTEPress'
-            crunchbase: 'https://www.crunchbase.com/organization/zte-corporation'
-            crunchbase_data:
-              name: ZTE
-              description: ZTE provides telecommunications equipment and network solutions.
-              num_employees_min: 10001
-              num_employees_max: 1000000
-              homepage: 'http://zte.com.cn'
-              city: Shenzhen
-              region: Guangdong
-              country: China
-              twitter: 'https://twitter.com/ZTEPress'
-              linkedin: 'https://www.linkedin.com/company/5804'
-            cncf_membership_data:
-              cncf_member: true
-            image_data:
-              fileName: zte-tecs.svg
       - subcategory:
         name: PaaS/Container Service
         items:
