@@ -58,17 +58,18 @@ a {text-decoration: none; transition: all 0.5s; color: $blue;
 .sidebar {width: 215px; position: fixed; top: 70px; left: 0; bottom: 0; overflow: auto; padding: 0 20px 20px;
   .sidebar-collapse {position: absolute; top: 11px; right: 11px; display: none; z-index: 3;}
   @media (max-width: 767px) {transform: translate(-215px, 0); transition: 0.3s; top: 0; z-index: 5; background: #fff;
+    padding-top: 12px;
     .sidebar-collapse {display: block;}
     .filters-opened & {transform: none;}
   }
   legend {font-size: 0.7em !important;}
-  fieldset {margin-top:5px;}
+  fieldset {margin-top: 5px;}
   .content-sidebar {flex: 150px 0 0; padding: 13px 0 0 20px;}
   &-presets {
-    margin: 2rem -10px; font-size: 0.8rem; width: 160px;
-    h4 {padding: 0px 10px; margin: 0 0 10px 0;}
+    margin: 2rem 0; font-size: 0.8rem;
+    h4 {margin: 0 0 10px 0;}
     div {margin-bottom: 0.5em;}
-    a {text-decoration: none; color: rgb(54, 111, 168); display: block; padding: 5px 10px;
+    a {text-decoration: none; color: rgb(54, 111, 168); display: block; padding: 5px;
       &.active {color: #000; font-weight: bold;}
       &:hover, &.active {background: rgba(0,0,0,0.05);}
     }
@@ -85,7 +86,7 @@ a {text-decoration: none; transition: all 0.5s; color: $blue;
     a {color:#949494;}
     p {color: #CCC; font-size: 0.6em; margin: 3px 0;}
   }
-  &-note {font-size: 0.8rem; color: #999; background: #e8e8e8; padding: 10px 15px; border-radius: 4px;}
+  &-note {font-size: 0.8rem; color: #999; background: #e8e8e8; padding: 15px; border-radius: 4px;}
 }
 
 .app {
