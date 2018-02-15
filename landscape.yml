@@ -1827,7 +1827,7 @@ landscape:
           - item:
             name: Cloud Foundry Container Runtime
             organization: Cloud Foundry
-            description: ' Cloud Foundry Application Runtime utilizes containers as part of its DNA, and has since before Docker popularized containers. The new CF Container Runtime gives you more granular control and management of containers with Kubernetes.'
+            description: 'Cloud Foundry Container Runtime gives you more granular control and management of containers with Kubernetes.'
             homepage_url: 'https://www.cloudfoundry.org/container-runtime/'
             repo_url: 'https://github.com/cloudfoundry-incubator/kubo-deployment'
             logo: './src/hosted_logos/cloudfoundry-containerruntime.svg'
@@ -2663,7 +2663,7 @@ landscape:
             twitter: 'https://twitter.com/mweagle?lang=en'
             crunchbase: ''
           - item:
-            name: AWS Lambda SAM Local
+            name: SAM Local
             organization: Amazon Web Services
             homepage_url: 'https://docs.aws.amazon.com/lambda/latest/dg/serverless_app.html'
             repo_url: 'https://github.com/awslabs/serverless-application-model'
