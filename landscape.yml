@@ -1817,6 +1817,14 @@ landscape:
             logo: 'https://zentera.net/wp-content/uploads/2015/10/Canonical.png'
             crunchbase: 'https://www.crunchbase.com/organization/canonical-ltd'
           - item:
+            name: Cloud Foundry Container Runtime
+            organization: Cloud Foundry
+            description: ' Cloud Foundry Application Runtime utilizes containers as part of its DNA, and has since before Docker popularized containers. The new CF Container Runtime gives you more granular control and management of containers with Kubernetes.'
+            homepage_url: 'https://www.cloudfoundry.org/'
+            repo_url: 'https://github.com/cloudfoundry-incubator/kubo-deployment'
+            logo: './src/hosted_logos/cloudfoundry.svg'
+            crunchbase: 'https://www.crunchbase.com/organization/cloud-foundry'
+          - item:
             name: CoreOS bootkube
             organization: CoreOS
             description: Bootkube is a tool for launching self-hosted Kubernetes clusters.
@@ -1935,6 +1943,13 @@ landscape:
             homepage_url: 'https://mesosphere.com/kubernetes/'
             logo: 'https://mesosphere.com/wp-content/uploads/2017/11/mesosphere-logo.png'
             crunchbase: 'https://www.crunchbase.com/organization/mesosphere'
+          - item:
+            name: Mirantis Cloud Platform
+            organization: Mirantis
+            description: Mirantis Cloud Platform (MCP) includes a pure play distribution of Kubernetes for enterprise-grade container orchestration.
+            homepage_url: 'https://www.mirantis.com/software/kubernetes/'
+            logo: 'https://www.mirantis.com/wp-content/uploads/2017/01/mirantis-logo-2color-rgb-transparent.png'
+            crunchbase: 'https://www.crunchbase.com/organization/mirantis'
           - item:
             name: Netease Container Service Dedicated
             organization: Netease
@@ -2122,14 +2137,6 @@ landscape:
             logo: 'https://merchandise-store.cisco.com/skin/frontend/ultimo/fullpond/images/Cisco_Logo.svg'
             crunchbase: 'https://www.crunchbase.com/organization/cisco'
           - item:
-            name: Cloud Foundry Container Runtime
-            organization: Cloud Foundry
-            description: ' Cloud Foundry Application Runtime utilizes containers as part of its DNA, and has since before Docker popularized containers. The new CF Container Runtime gives you more granular control and management of containers with Kubernetes.'
-            homepage_url: 'https://www.cloudfoundry.org/'
-            repo_url: 'https://github.com/cloudfoundry-incubator/kubo-deployment'
-            logo: './src/hosted_logos/cloudfoundry.svg'
-            crunchbase: 'https://www.crunchbase.com/organization/cloud-foundry'
-          - item:
             name: EasyStack Kubernetes Service (EKS)
             organization: EasyStack
             description: >-
@@ -2187,13 +2194,6 @@ landscape:
             logo: ./src/hosted_logos/ibm-cloud.svg
             crunchbase: 'https://www.crunchbase.com/organization/ibm-cloud'
           - item:
-            name: Mirantis Cloud Platform
-            organization: Mirantis
-            description: Mirantis Cloud Platform (MCP) includes a pure play distribution of Kubernetes for enterprise-grade container orchestration.
-            homepage_url: 'https://www.mirantis.com/software/kubernetes/'
-            logo: 'https://www.mirantis.com/wp-content/uploads/2017/01/mirantis-logo-2color-rgb-transparent.png'
-            crunchbase: 'https://www.crunchbase.com/organization/mirantis'
-          - item:
             name: Nirmata Managed Kubernetes
             organization: Nirmata
             description: 'Nirmata is a platform that helps enterprise DevOps teams deploy, operate, and optimize Kubernetes applications across public and private clouds.'
@@ -2234,6 +2234,13 @@ landscape:
             homepage_url: 'https://tenxcloud.com/'
             logo: 'https://www.cncf.io/wp-content/uploads/2017/11/tenxcloud.png'
             crunchbase: 'https://www.crunchbase.com/organization/tenxcloud'
+          - item:
+            name: ZTE TECS
+            organization: ZTE
+            homepage_url: 'https://sdnfv.zte.com.cn/en/products/126'
+            logo: 'https://vignette.wikia.nocookie.net/logopedia/images/5/5d/ZTE.svg'
+            twitter: 'https://twitter.com/ZTEPress'
+            crunchbase: 'https://www.crunchbase.com/organization/zte-corporation'
       - subcategory:
         name: Non-Certified Kubernetes
         items:
@@ -2320,13 +2327,6 @@ landscape:
             repo_url: 'https://github.com/supergiant/supergiant'
             logo: 'https://media.licdn.com/mpr/mpr/shrink_200_200/AAEAAQAAAAAAAA3pAAAAJDA4MmJlMGI2LTkwOTgtNDEzNi1hNGI4LWE1NWZkNjA3ZTljMg.png'
             crunchbase: 'https://www.crunchbase.com/organization/supergiant'
-          - item:
-            name: ZTE TECS
-            organization: ZTE
-            homepage_url: 'https://sdnfv.zte.com.cn/en/products/126'
-            logo: 'https://vignette.wikia.nocookie.net/logopedia/images/5/5d/ZTE.svg'
-            twitter: 'https://twitter.com/ZTEPress'
-            crunchbase: 'https://www.crunchbase.com/organization/zte-corporation'
       - subcategory:
         name: PaaS/Container Service
         items:
