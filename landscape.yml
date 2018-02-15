@@ -508,6 +508,13 @@ landscape:
             twitter: 'https://twitter.com/Ceph'
             crunchbase: 'https://www.crunchbase.com/organization/red-hat'
           - item:
+            name: Container Storage Interface (CSI)
+            organization: CNCF
+            homepage_url: 'https://github.com/container-storage-interface'
+            repo_url: 'https://github.com/container-storage-interface/spec'
+            logo: 'https://github.com/container-storage-interface/artwork/blob/master/logo/PNG/01.png'
+            crunchbase: 'https://www.crunchbase.com/organization/cloud-native-computing-foundation'
+          - item:
             name: Datera
             organization: Datera
             homepage_url: 'http://datera.io/'
@@ -690,13 +697,6 @@ landscape:
       - subcategory:
         name: Container Runtime
         items:
-          - item:
-            name: Container Storage Interface (CSI)
-            organization: CNCF
-            homepage_url: 'https://github.com/container-storage-interface'
-            repo_url: 'https://github.com/container-storage-interface/spec'
-            logo: 'https://github.com/container-storage-interface/artwork/blob/master/logo/PNG/01.png'
-            crunchbase: 'https://www.crunchbase.com/organization/cloud-native-computing-foundation'
           - item:
             name: containerd
             organization: CNCF

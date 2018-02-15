@@ -3310,6 +3310,62 @@
     "id": "ceph"
   },
   {
+    "name": "Container Storage Interface (CSI)",
+    "organization": "Cloud Native Computing Foundation (CNCF)",
+    "homepage_url": "https://github.com/container-storage-interface",
+    "repo_url": "https://github.com/container-storage-interface/spec",
+    "logo": "https://github.com/container-storage-interface/artwork/blob/master/logo/PNG/01.png",
+    "crunchbase": "https://www.crunchbase.com/organization/cloud-native-computing-foundation",
+    "github_data": {
+      "stars": 162,
+      "license": "Apache-2.0",
+      "description": "Container Storage Interface (CSI) Specification.",
+      "latest_commit_date": "2018-02-15T06:49:27Z",
+      "latest_commit_link": "/container-storage-interface/spec/commit/e9e5320edd5b56074f498ae3b3d2fd8fe72d5a37"
+    },
+    "github_start_commit_data": {
+      "start_commit_link": "/container-storage-interface/spec/commit/1396c5bc6acfb4a2440dd633b2a62ba60ea9273b",
+      "start_date": "2017-05-19T04:23:40Z"
+    },
+    "cncf_membership_data": {
+      "cncf_member": false
+    },
+    "image_data": {
+      "fileName": "container-storage-interface-csi.png"
+    },
+    "cncfMember": false,
+    "cncfRelation": false,
+    "firstCommitDate": "2017-05-19T04:23:40Z",
+    "firstCommitLink": "/container-storage-interface/spec/commit/1396c5bc6acfb4a2440dd633b2a62ba60ea9273b",
+    "latestCommitDate": "2018-02-15T06:49:27Z",
+    "latestCommitLink": "/container-storage-interface/spec/commit/e9e5320edd5b56074f498ae3b3d2fd8fe72d5a37",
+    "stars": 162,
+    "license": "Apache-2.0",
+    "headquarters": "San Francisco, California",
+    "twitter": "https://twitter.com/cloudnativefdn",
+    "description": "Container Storage Interface (CSI) Specification.",
+    "crunchbaseData": {
+      "name": "Cloud Native Computing Foundation (CNCF)",
+      "description": "CNCF is an open source software foundation that hosts and nurtures projects like Kubernetes and Prometheus.",
+      "num_employees_min": 11,
+      "num_employees_max": 50,
+      "homepage": "https://www.cncf.io/",
+      "city": "San Francisco",
+      "region": "California",
+      "country": "United States",
+      "twitter": "https://twitter.com/cloudnativefdn",
+      "linkedin": "https://www.linkedin.com/company/cloud-native-computing-foundation",
+      "numEmployeesMin": 11,
+      "numEmployeesMax": 50
+    },
+    "path": "Runtime / Cloud-Native Storage",
+    "landscape": "Runtime / Cloud-Native Storage",
+    "category": "Runtime",
+    "oss": true,
+    "href": "/logos/container-storage-interface-csi.png",
+    "id": "container-storage-interface-csi"
+  },
+  {
     "name": "Datera",
     "organization": "Datera",
     "homepage_url": "http://datera.io/",
@@ -4511,62 +4567,6 @@
     "oss": true,
     "href": "/logos/swift.png",
     "id": "swift"
-  },
-  {
-    "name": "Container Storage Interface (CSI)",
-    "organization": "Cloud Native Computing Foundation (CNCF)",
-    "homepage_url": "https://github.com/container-storage-interface",
-    "repo_url": "https://github.com/container-storage-interface/spec",
-    "logo": "https://github.com/container-storage-interface/artwork/blob/master/logo/PNG/01.png",
-    "crunchbase": "https://www.crunchbase.com/organization/cloud-native-computing-foundation",
-    "github_data": {
-      "stars": 162,
-      "license": "Apache-2.0",
-      "description": "Container Storage Interface (CSI) Specification.",
-      "latest_commit_date": "2018-02-15T06:49:27Z",
-      "latest_commit_link": "/container-storage-interface/spec/commit/e9e5320edd5b56074f498ae3b3d2fd8fe72d5a37"
-    },
-    "github_start_commit_data": {
-      "start_commit_link": "/container-storage-interface/spec/commit/1396c5bc6acfb4a2440dd633b2a62ba60ea9273b",
-      "start_date": "2017-05-19T04:23:40Z"
-    },
-    "cncf_membership_data": {
-      "cncf_member": false
-    },
-    "image_data": {
-      "fileName": "container-storage-interface-csi.png"
-    },
-    "cncfMember": false,
-    "cncfRelation": false,
-    "firstCommitDate": "2017-05-19T04:23:40Z",
-    "firstCommitLink": "/container-storage-interface/spec/commit/1396c5bc6acfb4a2440dd633b2a62ba60ea9273b",
-    "latestCommitDate": "2018-02-15T06:49:27Z",
-    "latestCommitLink": "/container-storage-interface/spec/commit/e9e5320edd5b56074f498ae3b3d2fd8fe72d5a37",
-    "stars": 162,
-    "license": "Apache-2.0",
-    "headquarters": "San Francisco, California",
-    "twitter": "https://twitter.com/cloudnativefdn",
-    "description": "Container Storage Interface (CSI) Specification.",
-    "crunchbaseData": {
-      "name": "Cloud Native Computing Foundation (CNCF)",
-      "description": "CNCF is an open source software foundation that hosts and nurtures projects like Kubernetes and Prometheus.",
-      "num_employees_min": 11,
-      "num_employees_max": 50,
-      "homepage": "https://www.cncf.io/",
-      "city": "San Francisco",
-      "region": "California",
-      "country": "United States",
-      "twitter": "https://twitter.com/cloudnativefdn",
-      "linkedin": "https://www.linkedin.com/company/cloud-native-computing-foundation",
-      "numEmployeesMin": 11,
-      "numEmployeesMax": 50
-    },
-    "path": "Runtime / Container Runtime",
-    "landscape": "Runtime / Container Runtime",
-    "category": "Runtime",
-    "oss": true,
-    "href": "/logos/container-storage-interface-csi.png",
-    "id": "container-storage-interface-csi"
   },
   {
     "name": "containerd",
@@ -14493,7 +14493,7 @@
   },
   {
     "name": "eKing Cloud Container Platform",
-    "organization": "Hainan Eking",
+    "organization": "Hainan eKing",
     "homepage_url": "http://www.haihangyun.com/landing",
     "logo": "http://www.chinatravelnews.com/images/201512/287461104de1f06f.jpg",
     "cncf_membership_data": {
@@ -17943,7 +17943,7 @@
     "id": "ibm-cloud-functions"
   },
   {
-    "name": "Nano lambda",
+    "name": "Nano Lambda",
     "organization": "Nano Lambda",
     "homepage_url": "http://nano-lambda.com/",
     "logo": "http://nano-lambda.com/assets/img/logo.png",
@@ -18616,7 +18616,7 @@
   },
   {
     "name": "Zeit Now",
-    "organization": "Zeit,Inc.",
+    "organization": "Zeit",
     "homepage_url": "https://zeit.co/now#frequently-asked-questions",
     "logo": "https://assets.zeit.co/image/upload/front/logos/white-bg-text-logo-1200.png",
     "twitter": "https://twitter.com/zeithq",
@@ -21807,7 +21807,7 @@
     "id": "splunk"
   },
   {
-    "name": "SumoLogic",
+    "name": "Sumo Logic",
     "organization": "Sumo Logic",
     "homepage_url": "https://www.sumologic.com/",
     "logo": "https://www.cloudfoundry.org/wp-content/uploads/2017/10/icon_sumologic_v2@2x.png",
@@ -23082,20 +23082,20 @@
     "id": "nirmata-kcsp"
   },
   {
-    "name": "RX-M LLC",
+    "name": "RX-M",
     "organization": "RX-M",
     "description": "Market neutral Kubernetes Dev, DevOps and Production training and consulting services ",
     "homepage_url": "http://rx-m.com/training/kubernetes-training/",
     "logo": "http://rx-m.com/wp-content/uploads/2017/12/RX-M-logo-999999-17479E-CNC.svg",
     "crunchbase": "https://www.crunchbase.com/organization/rx-m",
     "cncf_membership_data": {
-      "cncf_member": false
+      "cncf_member": true
     },
     "image_data": {
       "fileName": "rx-m-llc.svg"
     },
-    "cncfMember": false,
-    "cncfRelation": false,
+    "cncfMember": true,
+    "cncfRelation": "member",
     "license": "NotOpenSource",
     "headquarters": "San Francisco, California",
     "twitter": "https://twitter.com/rxmllc",
@@ -23118,7 +23118,7 @@
     "category": "Special",
     "oss": false,
     "href": "/logos/rx-m-llc.svg",
-    "id": "rx-m-llc"
+    "id": "rx-m"
   },
   {
     "name": "Samsung SDS",
