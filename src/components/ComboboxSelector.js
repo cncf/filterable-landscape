@@ -9,14 +9,14 @@ const valueToId = (value) => value === 'any' ? null : value;
 const ComboboxSelector = ({value, options, onChange}) => {
 
   return <Select
-      style={{width:150, fontSize:'0.7em'}}
+      style={{width:175, fontSize:'0.8em'}}
       value={idToValue(value)}
       onChange={(e) => onChange(valueToId(e.target.value))}
   >
     { options.map( (el) => (
       <MenuItem key={idToValue(el.id)}
                 value={idToValue(el.id)}
-                style={{height:5, fontSize:'0.7em'}}>{el.label}</MenuItem>
+                style={{height:5, fontSize:'0.8em'}}>{el.label}</MenuItem>
     )) }
   </Select>
 };

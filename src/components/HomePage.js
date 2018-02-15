@@ -1,6 +1,7 @@
 import React from 'react';
-import Grid from 'material-ui/Grid';
-import StickyBox from "react-sticky-box";
+import IconButton from 'material-ui/IconButton';
+import Icon from 'material-ui/Icon';
+import classNames from 'classnames'
 import Filters from './Filters';
 import Grouping from './Grouping';
 import Sorting from './Sorting';
@@ -13,7 +14,8 @@ import ItemDialogContainer from './ItemDialogContainer';
 import HeaderContainer from './HeaderContainer';
 import Footer from './Footer';
 
-const HomePage = ({ready}) => {
+
+const HomePage = ({ready, filtersVisible, hideFilters, showFilters}) => {
   if (!ready) {
     return (
       <div>
@@ -21,35 +23,43 @@ const HomePage = ({ready}) => {
       </div>
     )
   }
-  return (
-      <div style={{overflow: 'hidden'}}>
-        <HomePageUrlContainer />
-        <ItemDialogContainer />
-        <HeaderContainer/>
-        <Grid container spacing={24}>
-          <Grid item xs={2} sm={2} className="sidebar">
-            <StickyBox className="content-sidebar">
-              <ResetFiltersContainer />
-              <Grouping/>
-              <Sorting/>
-              <div style={{width: 200, height: 30}}/>
-              <Filters />
-              <Presets />
-              <Note />
-            </StickyBox>
 
-          </Grid>
-          <Grid item xs={10} sm={10} className="content">
-            <div className="disclaimer">
-                This is the interactive counterpart to CNCF&#180;s Cloud Native <a href="https://github.com/cncf/landscape#current-version">Landscape</a>.
-                Please <a href="https://github.com/cncf/filterable-landscape/issues/new/">report</a> any issues or,
-                even better, open a pull request.
-            </div>
-            <MainContentContainer/>
-            <Footer/>
-          </Grid>
-        </Grid>
+  return (
+    <div className={classNames('app',{'filters-opened' : filtersVisible})}>
+
+      <HeaderContainer/>
+      <IconButton className="sidebar-show" onClick={showFilters}><Icon>menu</Icon></IconButton>
+
+      <div className="sidebar">
+        <IconButton className="sidebar-collapse" onClick={hideFilters}><Icon>close</Icon></IconButton>
+        <ResetFiltersContainer />
+        <Grouping/>
+        <Sorting/>
+        <Filters />
+        <Presets />
+        <Note />
       </div>
+
+      <div className="app-overlay" onClick={hideFilters}></div>
+
+      <HomePageUrlContainer />
+      <ItemDialogContainer />
+
+      <div className="main">
+        <div className="disclaimer">
+          <strong>CNCF Cloud Native Interactive Landscape</strong>
+          <br/>
+          This is the interactive counterpart to CNCF's Cloud Native <a href="https://github.com/cncf/landscape#current-version">Landscape</a>.
+          Please <a href="https://github.com/cncf/filterable-landscape/issues/new/">report</a> any issues or,
+          even better, open a pull request.
+        </div>
+
+        <MainContentContainer/>
+        <Footer/>
+      </div>
+
+
+    </div>
   );
 };
 
