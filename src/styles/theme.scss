@@ -58,20 +58,24 @@ a {text-decoration: none; transition: all 0.5s; color: $blue;
 
 .sidebar {width: 205px; position: fixed; top: 60px; left: 0; bottom: 0; overflow: hidden; 
   padding: 0 20px 20px; z-index: 6;
-  @media (max-height: 800px) {position: absolute; bottom: auto; top: 70px; z-index: 1;}
-  @media (max-width: 767px) {transform: translate(-215px, 0); transition: 0.3s; top: 0; z-index: 5; background: #fff;
+  @media (max-height: 799px) {position: absolute; bottom: auto; top: 70px; z-index: 1;}
+  .sidebar-collapse {position: absolute; top: 11px; right: 11px; display: none; z-index: 3;}
+  @media (max-width: 767px) {
+    position: fixed; bottom: 0; width: 215px;
+    transform: translate(-215px, 0); transition: 0.3s; top: 0; z-index: 5; background: #fff;
     padding-top: 12px; overflow: auto;
     .sidebar-collapse {display: block;}
     .filters-opened & {transform: none;}
   }
-  .sidebar-collapse {position: absolute; top: 11px; right: 11px; display: none; z-index: 3;}
   legend {font-size: 0.7em !important;}
   fieldset {margin-top: 5px;}
   .content-sidebar {flex: 150px 0 0; padding: 13px 0 0 20px;}
-  .resetfilters {height: 25px; margin-bottom: 5px;}
+  .resetfilters {height: 25px; margin-bottom: 5px;
+    @media (max-width: 767px) {height: 48px;}
+  }
   &-presets {
     margin: 1.5rem 0; font-size: 0.8rem;
-    h4 {margin: 0 0 10px 0;}
+    h4 {margin: 0 0 8px 0;}
     div {margin-bottom: 8px;}
     a {text-decoration: none; display: block;
       &:focus {outline: none;}
