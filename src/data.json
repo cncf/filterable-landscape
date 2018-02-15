@@ -7578,6 +7578,63 @@
     "id": "nginx"
   },
   {
+    "name": "Open Service Broker API",
+    "organization": "Cloud Foundry",
+    "homepage_url": "https://www.openservicebrokerapi.org/",
+    "repo_url": "https://github.com/openservicebrokerapi/servicebroker",
+    "logo": "https://www.cloudfoundry.org/wp-content/uploads/2012/02/osb_logo.png",
+    "crunchbase": "https://www.crunchbase.com/organization/cloud-foundry",
+    "github_data": {
+      "stars": 356,
+      "license": "Apache-2.0",
+      "description": "Open Service Broker API Specification",
+      "latest_commit_date": "2018-02-06T17:36:52Z",
+      "latest_commit_link": "/openservicebrokerapi/servicebroker/commit/6983b338116cc825a260fb86f289e7554cf3ead5"
+    },
+    "github_start_commit_data": {
+      "start_commit_link": "/openservicebrokerapi/servicebroker/commit/d44c6de95959bc8fec7f75ad93e6f5006008ce11",
+      "start_date": "2016-07-08T03:22:26Z"
+    },
+    "cncf_membership_data": {
+      "cncf_member": true
+    },
+    "image_data": {
+      "fileName": "open-service-broker-api.png",
+      "low_res": "796x249"
+    },
+    "cncfMember": true,
+    "cncfRelation": "member",
+    "firstCommitDate": "2016-07-08T03:22:26Z",
+    "firstCommitLink": "/openservicebrokerapi/servicebroker/commit/d44c6de95959bc8fec7f75ad93e6f5006008ce11",
+    "latestCommitDate": "2018-02-06T17:36:52Z",
+    "latestCommitLink": "/openservicebrokerapi/servicebroker/commit/6983b338116cc825a260fb86f289e7554cf3ead5",
+    "stars": 356,
+    "license": "Apache-2.0",
+    "headquarters": "San Mateo, California",
+    "twitter": "https://twitter.com/cloudfoundry",
+    "description": "Open Service Broker API Specification",
+    "crunchbaseData": {
+      "name": "Cloud Foundry",
+      "description": "Cloud Foundry is a self-service, public cloud deployment platform enabling developers to build, test, deploy, and scale applications.",
+      "num_employees_min": 1001,
+      "num_employees_max": 5000,
+      "homepage": "https://www.cloudfoundry.org/",
+      "city": "San Mateo",
+      "region": "California",
+      "country": "United States",
+      "twitter": "https://twitter.com/cloudfoundry",
+      "linkedin": "https://www.linkedin.com/company/2509135",
+      "numEmployeesMin": 1001,
+      "numEmployeesMax": 5000
+    },
+    "path": "Orchestration & Management / Service Management",
+    "landscape": "Orchestration & Management / Service Management",
+    "category": "Orchestration & Management",
+    "oss": true,
+    "href": "/logos/open-service-broker-api.png",
+    "id": "open-service-broker-api"
+  },
+  {
     "name": "Ribbon",
     "organization": "Netflix",
     "homepage_url": "https://github.com/Netflix/ribbon",
@@ -12043,9 +12100,9 @@
     "name": "Cloud Foundry Container Runtime",
     "organization": "Cloud Foundry",
     "description": " Cloud Foundry Application Runtime utilizes containers as part of its DNA, and has since before Docker popularized containers. The new CF Container Runtime gives you more granular control and management of containers with Kubernetes.",
-    "homepage_url": "https://www.cloudfoundry.org/",
+    "homepage_url": "https://www.cloudfoundry.org/container-runtime/",
     "repo_url": "https://github.com/cloudfoundry-incubator/kubo-deployment",
-    "logo": "./src/hosted_logos/cloudfoundry.svg",
+    "logo": "./src/hosted_logos/cloudfoundry-containerruntime.svg",
     "crunchbase": "https://www.crunchbase.com/organization/cloud-foundry",
     "github_data": {
       "stars": 208,
@@ -12532,7 +12589,7 @@
     "description": "Build a Kubernetes cluster using Ansible playbooks.",
     "homepage_url": "https://github.com/inwinstack/kube-ansible",
     "repo_url": "https://github.com/inwinstack/kube-ansible",
-    "logo": "https://pbs.twimg.com/profile_images/913967961135661056/llUSv_YQ_400x400.jpg",
+    "logo": "./src/hosted_logos/inwinstack.svg",
     "github_data": {
       "stars": 46,
       "license": "Apache-2.0",
@@ -12548,8 +12605,7 @@
       "cncf_member": true
     },
     "image_data": {
-      "fileName": "inwin-stack-kube-ansible.png",
-      "low_res": "240x192"
+      "fileName": "inwin-stack.svg"
     },
     "cncfMember": true,
     "cncfRelation": "member",
@@ -12565,7 +12621,7 @@
     "category": "Platform",
     "amount": "N/A",
     "oss": true,
-    "href": "/logos/inwin-stack-kube-ansible.png",
+    "href": "/logos/inwin-stack.svg",
     "id": "inwin-stack-kube-ansible"
   },
   {
@@ -14940,6 +14996,62 @@
     "oss": false,
     "href": "/logos/clouber.png",
     "id": "clouber"
+  },
+  {
+    "name": "Cloud Foundry Application Runtime",
+    "organization": "Cloud Foundry",
+    "description": " Cloud Foundry Application Runtime utilizes containers as part of its DNA, and has since before Docker popularized containers. The new CF Container Runtime gives you more granular control and management of containers with Kubernetes.",
+    "homepage_url": "https://www.cloudfoundry.org/application-runtime/",
+    "repo_url": "https://github.com/cloudfoundry/cli",
+    "logo": "./src/hosted_logos/cloudfoundry-applicationruntime.svg",
+    "crunchbase": "https://www.crunchbase.com/organization/cloud-foundry",
+    "github_data": {
+      "stars": 1031,
+      "license": "Apache-2.0",
+      "description": "The official command line client for Cloud Foundry",
+      "latest_commit_date": "2018-02-15T01:55:07Z",
+      "latest_commit_link": "/cloudfoundry/cli/commit/b4782bd3b576096bc8c697e97c197c613f376d79"
+    },
+    "github_start_commit_data": {
+      "start_commit_link": "/cloudfoundry/cli/commit/d5833689912e2f27addaf899613115f84a92e0c7",
+      "start_date": "2013-08-19T14:53:03Z"
+    },
+    "cncf_membership_data": {
+      "cncf_member": true
+    },
+    "image_data": {
+      "fileName": "cloud-foundry-application-runtime.svg"
+    },
+    "cncfMember": true,
+    "cncfRelation": "member",
+    "firstCommitDate": "2013-08-19T14:53:03Z",
+    "firstCommitLink": "/cloudfoundry/cli/commit/d5833689912e2f27addaf899613115f84a92e0c7",
+    "latestCommitDate": "2018-02-15T01:55:07Z",
+    "latestCommitLink": "/cloudfoundry/cli/commit/b4782bd3b576096bc8c697e97c197c613f376d79",
+    "stars": 1031,
+    "license": "Apache-2.0",
+    "headquarters": "San Mateo, California",
+    "twitter": "https://twitter.com/cloudfoundry",
+    "crunchbaseData": {
+      "name": "Cloud Foundry",
+      "description": "Cloud Foundry is a self-service, public cloud deployment platform enabling developers to build, test, deploy, and scale applications.",
+      "num_employees_min": 1001,
+      "num_employees_max": 5000,
+      "homepage": "https://www.cloudfoundry.org/",
+      "city": "San Mateo",
+      "region": "California",
+      "country": "United States",
+      "twitter": "https://twitter.com/cloudfoundry",
+      "linkedin": "https://www.linkedin.com/company/2509135",
+      "numEmployeesMin": 1001,
+      "numEmployeesMax": 5000
+    },
+    "path": "Platform / PaaS/Container Service",
+    "landscape": "Platform / PaaS/Container Service",
+    "category": "Platform",
+    "oss": true,
+    "href": "/logos/cloud-foundry-application-runtime.svg",
+    "id": "cloud-foundry-application-runtime"
   },
   {
     "name": "Convox",
@@ -18058,15 +18170,14 @@
     "name": "Galactic Fog Gestalt",
     "organization": "Galactic Fog",
     "homepage_url": "http://www.galacticfog.com/",
-    "logo": "https://media.licdn.com/mpr/mpr/AAEAAQAAAAAAAAYHAAAAJGU0Zjc4OGI2LTYzZmEtNGUxMC05ODE5LTVhMjI0OTM3NmI3ZA.png",
+    "logo": "./src/hosted_logos/galacticfog.svg",
     "twitter": "https://twitter.com/galacticfog",
     "crunchbase": "https://www.crunchbase.com/organization/galactic-fog",
     "cncf_membership_data": {
       "cncf_member": true
     },
     "image_data": {
-      "fileName": "galactic-fog-gestalt.png",
-      "low_res": "256x291"
+      "fileName": "galactic-fog.svg"
     },
     "cncfMember": true,
     "cncfRelation": "member",
@@ -18091,7 +18202,7 @@
     "landscape": "Serverless / Hybrid",
     "category": "Serverless",
     "oss": false,
-    "href": "/logos/galactic-fog-gestalt.png",
+    "href": "/logos/galactic-fog.svg",
     "id": "galactic-fog-gestalt"
   },
   {

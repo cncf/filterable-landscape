@@ -1141,6 +1141,13 @@ landscape:
             twitter: 'https://twitter.com/nginx'
             crunchbase: 'https://www.crunchbase.com/organization/nginx'
           - item:
+            name: Open Service Broker API
+            organization: Cloud Foundry
+            homepage_url: 'https://www.openservicebrokerapi.org/'
+            repo_url: 'https://github.com/openservicebrokerapi/servicebroker'
+            logo: 'https://www.cloudfoundry.org/wp-content/uploads/2012/02/osb_logo.png'
+            crunchbase: 'https://www.crunchbase.com/organization/cloud-foundry'
+          - item:
             name: Ribbon
             organization: Netflix
             homepage_url: 'https://github.com/Netflix/ribbon'
@@ -1821,9 +1828,9 @@ landscape:
             name: Cloud Foundry Container Runtime
             organization: Cloud Foundry
             description: ' Cloud Foundry Application Runtime utilizes containers as part of its DNA, and has since before Docker popularized containers. The new CF Container Runtime gives you more granular control and management of containers with Kubernetes.'
-            homepage_url: 'https://www.cloudfoundry.org/'
+            homepage_url: 'https://www.cloudfoundry.org/container-runtime/'
             repo_url: 'https://github.com/cloudfoundry-incubator/kubo-deployment'
-            logo: './src/hosted_logos/cloudfoundry.svg'
+            logo: './src/hosted_logos/cloudfoundry-containerruntime.svg'
             crunchbase: 'https://www.crunchbase.com/organization/cloud-foundry'
           - item:
             name: CoreOS bootkube
@@ -1903,7 +1910,7 @@ landscape:
             description: Build a Kubernetes cluster using Ansible playbooks.
             homepage_url: 'https://github.com/inwinstack/kube-ansible'
             repo_url: 'https://github.com/inwinstack/kube-ansible'
-            logo: 'https://pbs.twimg.com/profile_images/913967961135661056/llUSv_YQ_400x400.jpg'
+            logo: ./src/hosted_logos/inwinstack.svg
           - item:
             name: Joyent Triton for Kubernetes
             organization: Joyent
@@ -2344,6 +2351,14 @@ landscape:
             logo: 'https://s3.amazonaws.com/awsmp-logos/clouber.PNG'
             twitter: 'https://twitter.com/clouberio'
             crunchbase: 'https://www.crunchbase.com/organization/clouber'
+          - item:
+            name: Cloud Foundry Application Runtime
+            organization: Cloud Foundry
+            description: ' Cloud Foundry Application Runtime utilizes containers as part of its DNA, and has since before Docker popularized containers. The new CF Container Runtime gives you more granular control and management of containers with Kubernetes.'
+            homepage_url: 'https://www.cloudfoundry.org/application-runtime/'
+            repo_url: 'https://github.com/cloudfoundry/cli'
+            logo: './src/hosted_logos/cloudfoundry-applicationruntime.svg'
+            crunchbase: 'https://www.crunchbase.com/organization/cloud-foundry'
           - item:
             name: Convox
             organization: Convox
@@ -2840,7 +2855,7 @@ landscape:
             name: Galactic Fog Gestalt
             organization: Galactic Fog
             homepage_url: 'http://www.galacticfog.com/'
-            logo: https://media.licdn.com/mpr/mpr/AAEAAQAAAAAAAAYHAAAAJGU0Zjc4OGI2LTYzZmEtNGUxMC05ODE5LTVhMjI0OTM3NmI3ZA.png
+            logo: ./src/hosted_logos/galacticfog.svg
             twitter: 'https://twitter.com/galacticfog'
             crunchbase: 'https://www.crunchbase.com/organization/galactic-fog'
           - item:
