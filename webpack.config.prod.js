@@ -6,6 +6,7 @@ import WebpackMd5Hash from 'webpack-md5-hash';
 import HtmlWebpackPlugin from 'html-webpack-plugin';
 import path from 'path';
 import FaviconsWebpackPlugin from 'favicons-webpack-plugin';
+import MinifyPlugin from "babel-minify-webpack-plugin";
 
 const GLOBALS = {
   'process.env.NODE_ENV': JSON.stringify('production'),
@@ -57,7 +58,8 @@ export default {
     }),
 
     // Minify JS
-    new webpack.optimize.UglifyJsPlugin({ sourceMap: true }),
+    // new webpack.optimize.UglifyJsPlugin({ sourceMap: true }),
+    new MinifyPlugin()
   ],
   module: {
     rules: [
