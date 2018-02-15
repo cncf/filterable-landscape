@@ -29,7 +29,7 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             yahoo_finance_data:
-              market_cap: 475602747392
+              market_cap: 479194382336
               effective_ticker: BABA
             image_data:
               fileName: alibaba-cloud.svg
@@ -56,7 +56,7 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 699379744768
+              market_cap: 702463475712
               effective_ticker: AMZN
             image_data:
               fileName: amazon-web-services.svg
@@ -83,7 +83,7 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 693096546304
+              market_cap: 699217870848
               effective_ticker: MSFT
             image_data:
               fileName: azure-cloud-services.svg
@@ -162,7 +162,7 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             yahoo_finance_data:
-              market_cap: 743789756416
+              market_cap: 746371350528
               effective_ticker: GOOG
             image_data:
               fileName: google-cloud.svg
@@ -211,7 +211,7 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             yahoo_finance_data:
-              market_cap: 142761607168
+              market_cap: 143275409408
               effective_ticker: IBM
             image_data:
               fileName: ibm-cloud.svg
@@ -275,7 +275,7 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 203668324352
+              market_cap: 204703219712
               effective_ticker: ORCL
             image_data:
               fileName: oracle-cloud.svg
@@ -327,7 +327,7 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 535561371648
+              market_cap: 534687252480
               effective_ticker: TCEHY
             image_data:
               fileName: tencent-cloud.svg
@@ -359,8 +359,8 @@ landscape:
               stars: 63
               license: Unknown License
               description: Digital Rebar Provision is a simple but powerful Golang executable that provides a complete API-driven DHCP/PXE/TFTP provisioning system.
-              latest_commit_date: '2018-02-14T18:34:29Z'
-              latest_commit_link: /digitalrebar/provision/commit/6b21cdedd7c818bc8e2400ab4c9b4b4369cb2948
+              latest_commit_date: '2018-02-15T02:30:33Z'
+              latest_commit_link: /digitalrebar/provision/commit/75738d5e8fc0bb96cda4fdf53be0d6cfcb287df3
             github_start_commit_data:
               start_commit_link: /digitalrebar/provision/commit/317f954bdb794c8754aff69659c830220a71d9fe
               start_date: '2017-02-08T15:46:53Z'
@@ -424,8 +424,8 @@ landscape:
               stars: 27
               license: AGPL-3.0
               description: Official MAAS repository mirror. (Do not submit pull requests or bugs here; use Launchpad instead.)
-              latest_commit_date: '2018-02-14T09:05:22Z'
-              latest_commit_link: /maas/maas/commit/9dbf2a4734518c9ad5517c87aa576dbbef18ae46
+              latest_commit_date: '2018-02-14T23:33:57Z'
+              latest_commit_link: /maas/maas/commit/583a8cc59e2139ab1fdad4c5ecec7087997a3ca3
             github_start_commit_data:
               start_commit_link: /maas/maas/commit/6fd9157bb077a6ce54a33812cecd6049eed98551
               start_date: '2012-01-16T08:33:18Z'
@@ -454,7 +454,7 @@ landscape:
               twitter: 'http://twitter.com/OpenStack'
               linkedin: 'http://www.linkedin.com/company/openstack'
             github_data:
-              stars: 2156
+              stars: 2157
               license: Apache-2.0
               description: OpenStack Compute (Nova)
               latest_commit_date: '2018-02-14T12:18:13Z'
@@ -507,11 +507,12 @@ landscape:
               country: United States
               twitter: 'http://twitter.com/VMware'
               linkedin: 'http://www.linkedin.com/company/vmware'
+              ticker: VMW
               kind: market_cap
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 49868169216
+              market_cap: 50158428160
               effective_ticker: VMW
             image_data:
               fileName: v-mware.svg
@@ -544,21 +545,21 @@ landscape:
               ticker: RHT
               kind: market_cap
             github_data:
-              stars: 28447
+              stars: 28450
               license: GPL-3.0
               description: >-
                 Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy. Avoid writing scripts or custom
                 code to deploy and update your applications— automate in a language that approaches plain English, using SSH, with no agents to install on
                 remote systems.
-              latest_commit_date: '2018-02-14T17:24:18Z'
-              latest_commit_link: /ansible/ansible/commit/7dfa11cd8a036636d14f0a0d7e6054d2ae90e457
+              latest_commit_date: '2018-02-15T03:48:57Z'
+              latest_commit_link: /ansible/ansible/commit/b1263c34e8c4da5de0df62f7a61e0a96743a0cc6
             github_start_commit_data:
               start_commit_link: /ansible/ansible/commit/f31421576b00f0b167cdbe61217c31c21a41ac02
               start_date: '2012-02-23T19:17:24Z'
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 23695507456
+              market_cap: 23752167424
               effective_ticker: RHT
             image_data:
               fileName: ansible.svg
@@ -587,8 +588,8 @@ landscape:
               stars: 280
               license: Unknown License
               description: CFEngine Community
-              latest_commit_date: '2018-02-14T14:51:49Z'
-              latest_commit_link: /cfengine/core/commit/338a758f6270e0dcc242474b0b5a7255b7a85471
+              latest_commit_date: '2018-02-14T22:33:15Z'
+              latest_commit_link: /cfengine/core/commit/fd8498fb14312fb0d71444ff03fd5ef7a80ccad7
             github_start_commit_data:
               start_commit_link: /cfengine/core/commit/6cb587a75b008c3d50e58e4017713d3b49622171
               start_date: '2008-01-04T08:50:45Z'
@@ -651,7 +652,7 @@ landscape:
               kind: funding
               funding: 242766694
             github_data:
-              stars: 3953
+              stars: 3954
               license: Apache-2.0
               description: 'A toolkit for building secure, portable and lean operating systems for containers'
               latest_commit_date: '2018-02-14T15:33:51Z'
@@ -688,8 +689,8 @@ landscape:
               stars: 4872
               license: Unknown License
               description: Server automation framework and application
-              latest_commit_date: '2018-02-14T19:56:38Z'
-              latest_commit_link: /puppetlabs/puppet/commit/b5a63e27aa45958f861bbfe5e971bed7838018e6
+              latest_commit_date: '2018-02-14T23:21:40Z'
+              latest_commit_link: /puppetlabs/puppet/commit/9c3a648758f5ad2918cc921b73ebd8c31802e68c
             github_start_commit_data:
               start_commit_link: /puppetlabs/puppet/commit/54e9b5e3561977ea063417da12c46aad2a4c1332
               start_date: '2005-04-13T15:18:05Z'
@@ -753,7 +754,7 @@ landscape:
               kind: funding
               funding: 685000
             github_data:
-              stars: 8569
+              stars: 8571
               license: Unknown License
               description: >-
                 Software to automate the management and configuration of any infrastructure or application at scale. Get access to the Salt software package
@@ -793,7 +794,7 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 699379744768
+              market_cap: 702463475712
               effective_ticker: AMZN
             image_data:
               fileName: aws-cloud-formation.svg
@@ -822,8 +823,8 @@ landscape:
               description: >-
                 Cloud Foundry BOSH is an open source tool chain for release engineering, deployment and lifecycle management of large scale distributed
                 services.
-              latest_commit_date: '2018-02-13T18:22:20Z'
-              latest_commit_link: /cloudfoundry/bosh/commit/e19d875b95419f98f5ad5eef60c657a7cee4ff4d
+              latest_commit_date: '2018-02-14T22:50:09Z'
+              latest_commit_link: /cloudfoundry/bosh/commit/ffcd723e597ce4def14625417af9fb990e8bec90
             github_start_commit_data:
               start_commit_link: /cloudfoundry/bosh/commit/37822ce7d8a4004b535258508c31be9fb67774c2
               start_date: '2010-08-19T02:19:00Z'
@@ -898,7 +899,7 @@ landscape:
               twitter: 'https://twitter.com/cloudnativefdn'
               linkedin: 'https://www.linkedin.com/company/cloud-native-computing-foundation'
             github_data:
-              stars: 4092
+              stars: 4094
               license: Apache-2.0
               description: The Kubernetes Package Manager
               latest_commit_date: '2018-02-14T08:09:03Z'
@@ -932,7 +933,7 @@ landscape:
               kind: funding
               funding: 242766694
             github_data:
-              stars: 1893
+              stars: 1895
               license: Apache-2.0
               description: 'A toolkit for creating and managing declarative, self-healing infrastructure.'
               latest_commit_date: '2018-02-14T00:13:40Z'
@@ -968,8 +969,8 @@ landscape:
               stars: 1096
               license: AGPL-3.0
               description: juju is devops distilled
-              latest_commit_date: '2018-02-14T14:04:36Z'
-              latest_commit_link: /juju/juju/commit/0b7bb696851c0aaed52a6723fd26da7be6f93bfa
+              latest_commit_date: '2018-02-15T01:04:53Z'
+              latest_commit_link: /juju/juju/commit/40000f05e7a51180da05fa63713ec794bc74aa60
             github_start_commit_data:
               start_commit_link: /juju/juju/commit/04811115d7729e219e77244b7aed2164c48bae68
               start_date: '2011-08-23T15:10:42Z'
@@ -1034,8 +1035,8 @@ landscape:
               stars: 611
               license: Unknown License
               description: ManageIQ Open-Source Management Platform
-              latest_commit_date: '2018-02-13T22:34:58Z'
-              latest_commit_link: /ManageIQ/manageiq/commit/e7b6dcec1f24075f9d60955daf13596471a218df
+              latest_commit_date: '2018-02-14T20:28:24Z'
+              latest_commit_link: /ManageIQ/manageiq/commit/0f50b52c8c6921290a2ed6482033bc5e3fe52793
             github_start_commit_data:
               start_commit_link: /ManageIQ/manageiq/commit/d34d87219092431c22c88a5865f25f9942ebe1ea
               start_date: '2014-06-13T02:33:38Z'
@@ -1065,11 +1066,11 @@ landscape:
               kind: funding
               funding: 74175000
             github_data:
-              stars: 11069
+              stars: 11073
               license: MPL-2.0
               description: 'Terraform is a tool for building, changing, and combining infrastructure safely and efficiently.'
-              latest_commit_date: '2018-02-13T20:15:24Z'
-              latest_commit_link: /hashicorp/terraform/commit/c2306be0fa7cd33699e70e21ef2ed45e2dbd4bd5
+              latest_commit_date: '2018-02-14T22:15:46Z'
+              latest_commit_link: /hashicorp/terraform/commit/b2dae9b06ce9565eb9d020a510d7134e53afd050
             github_start_commit_data:
               start_commit_link: /hashicorp/terraform/commit/649cf336e86da10910f6e50ea3cfaad507a2e336
               start_date: '2014-05-21T23:28:53Z'
@@ -1103,7 +1104,7 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 699379744768
+              market_cap: 702463475712
               effective_ticker: AMZN
             image_data:
               fileName: amazon-elastic-container-registry-ecr.svg
@@ -1164,7 +1165,7 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 23695507456
+              market_cap: 23752167424
               effective_ticker: RHT
             image_data:
               fileName: project-atomic.png
@@ -1192,7 +1193,7 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 693096546304
+              market_cap: 699217870848
               effective_ticker: MSFT
             image_data:
               fileName: azure-registry.svg
@@ -1218,7 +1219,7 @@ landscape:
               kind: funding
               funding: 242766694
             github_data:
-              stars: 3742
+              stars: 3744
               license: Apache-2.0
               description: 'The Docker toolset to pack, ship, store, and deliver content'
               latest_commit_date: '2018-02-09T23:49:04Z'
@@ -1253,7 +1254,7 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             yahoo_finance_data:
-              market_cap: 743789756416
+              market_cap: 746371350528
               effective_ticker: GOOG
             image_data:
               fileName: google-container-registry.svg
@@ -1277,9 +1278,10 @@ landscape:
               country: United States
               twitter: 'http://twitter.com/VMware'
               linkedin: 'http://www.linkedin.com/company/vmware'
+              ticker: VMW
               kind: market_cap
             github_data:
-              stars: 3634
+              stars: 3633
               license: Unknown License
               description: An enterprise-class container registry server based on Docker Distribution
               latest_commit_date: '2018-02-08T04:38:02Z'
@@ -1290,7 +1292,7 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 49868169216
+              market_cap: 50158428160
               effective_ticker: VMW
             image_data:
               fileName: harbor.png
@@ -1351,7 +1353,7 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 23695507456
+              market_cap: 23752167424
               effective_ticker: RHT
             image_data:
               fileName: quay.png
@@ -1477,7 +1479,7 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 23695507456
+              market_cap: 23752167424
               effective_ticker: RHT
             image_data:
               fileName: clair.png
@@ -1527,7 +1529,7 @@ landscape:
               twitter: 'https://twitter.com/cloudnativefdn'
               linkedin: 'https://www.linkedin.com/company/cloud-native-computing-foundation'
             github_data:
-              stars: 1193
+              stars: 1194
               license: Apache-2.0
               description: Notary is a project that allows anyone to have trust over arbitrary collections of data
               latest_commit_date: '2018-02-09T05:35:58Z'
@@ -1572,7 +1574,7 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 23695507456
+              market_cap: 23752167424
               effective_ticker: RHT
             image_data:
               fileName: open-scap.png
@@ -1684,11 +1686,11 @@ landscape:
               kind: funding
               funding: 74175000
             github_data:
-              stars: 8487
+              stars: 8489
               license: MPL-2.0
               description: 'A tool for secrets management, encryption as a service, and privileged access management'
-              latest_commit_date: '2018-02-14T17:00:39Z'
-              latest_commit_link: /hashicorp/vault/commit/3c1c80972dd0fe6d3c82230f86b6d1702ff1aeb3
+              latest_commit_date: '2018-02-15T01:31:45Z'
+              latest_commit_link: /hashicorp/vault/commit/32c81ea8c878b2ea29809c8d6f4b2305fafbf8f3
             github_start_commit_data:
               start_commit_link: /hashicorp/vault/commit/ed3069f01d4ee023d296212a3521d3354f109194
               start_date: '2015-02-25T00:15:59Z'
@@ -1720,15 +1722,15 @@ landscape:
               stars: 1870
               license: Apache-2.0
               description: A system for distributing and managing secrets
-              latest_commit_date: '2017-12-05T18:19:45Z'
-              latest_commit_link: /square/keywhiz/commit/3f352cd218b06a971af3e5c6ec2ea876792ad4fb
+              latest_commit_date: '2018-02-14T21:13:22Z'
+              latest_commit_link: /square/keywhiz/commit/8d5354d0bd7b9f560c08521f7a90cbc0f3ca185a
             github_start_commit_data:
               start_commit_link: /square/keywhiz/commit/4e4be5800605b2f24c6722da8e689a665172bfcd
               start_date: '2015-03-27T00:13:45Z'
             cncf_membership_data:
               cncf_member: false
             yahoo_finance_data:
-              market_cap: 16152771584
+              market_cap: 16261570560
               effective_ticker: SQ
             image_data:
               fileName: keywhiz.svg
@@ -1820,7 +1822,7 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 203668324352
+              market_cap: 204703219712
               effective_ticker: ORCL
             image_data:
               fileName: oracle-policy-automation.png
@@ -1880,8 +1882,8 @@ landscape:
               stars: 138
               license: Unknown License
               description: The SPIFFE Runtime Environment
-              latest_commit_date: '2018-02-13T12:49:30Z'
-              latest_commit_link: /spiffe/spire/commit/bc3757ab8eb892b541c50abccac5b723fa2d674a
+              latest_commit_date: '2018-02-14T22:00:57Z'
+              latest_commit_link: /spiffe/spire/commit/6c5cd8b852c61f2e1c9a6a91959ff1e2ef2f0070
             github_start_commit_data:
               start_commit_link: /spiffe/spire/commit/3c42eb7b3695df5136dd44d467854fd3f119f509
               start_date: '2017-03-23T07:01:54Z'
@@ -1917,18 +1919,18 @@ landscape:
               ticker: RHT
               kind: market_cap
             github_data:
-              stars: 4119
+              stars: 4118
               license: Unknown License
               description: 'Ceph is a distributed object, block, and file storage platform'
-              latest_commit_date: '2018-02-14T16:13:37Z'
-              latest_commit_link: /ceph/ceph/commit/1b8ddee81b7f243fe80e711488d37fc3801284c6
+              latest_commit_date: '2018-02-14T23:15:27Z'
+              latest_commit_link: /ceph/ceph/commit/9d21c2983f651b4def2a4ac523bcc1fd5b0dd62e
             github_start_commit_data:
               start_commit_link: /ceph/ceph/commit/7091d44931086985a26cca2d263e307ad2f82001
               start_date: '2001-04-28T22:22:35Z'
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 23695507456
+              market_cap: 23752167424
               effective_ticker: RHT
             image_data:
               fileName: ceph.svg
@@ -2037,7 +2039,7 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 23695507456
+              market_cap: 23752167424
               effective_ticker: RHT
             image_data:
               fileName: gluster.png
@@ -2204,7 +2206,7 @@ landscape:
               kind: funding
               funding: 23300000
             github_data:
-              stars: 10065
+              stars: 10070
               license: Apache-2.0
               description: Minio is an open source object storage server compatible with Amazon S3 APIs
               latest_commit_date: '2018-02-14T04:59:19Z'
@@ -2240,7 +2242,7 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 16244964352
+              market_cap: 16178267136
               effective_ticker: NTAP
             image_data:
               fileName: net-app.png
@@ -2354,11 +2356,12 @@ landscape:
               country: United States
               twitter: 'http://twitter.com/VMware'
               linkedin: 'http://www.linkedin.com/company/vmware'
+              ticker: VMW
               kind: market_cap
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 49868169216
+              market_cap: 50158428160
               effective_ticker: VMW
             image_data:
               fileName: v-mware.svg
@@ -2385,7 +2388,7 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             yahoo_finance_data:
-              market_cap: 4678177280
+              market_cap: 4706358784
               effective_ticker: PSTG
             image_data:
               fileName: pure-storage.png
@@ -2468,11 +2471,11 @@ landscape:
               twitter: 'https://twitter.com/cloudnativefdn'
               linkedin: 'https://www.linkedin.com/company/cloud-native-computing-foundation'
             github_data:
-              stars: 2277
+              stars: 2280
               license: Apache-2.0
               description: 'File, Block, and Object Storage Services for your Cloud-Native Environment'
-              latest_commit_date: '2018-02-13T06:50:47Z'
-              latest_commit_link: /rook/rook/commit/8413c74250a77f0d589cad3bfc89e47781f6eae3
+              latest_commit_date: '2018-02-14T20:13:04Z'
+              latest_commit_link: /rook/rook/commit/09dc9b8ce80dec2d6ba98d853da61ede7d504d93
             github_start_commit_data:
               start_commit_link: /rook/rook/commit/31bd4e46f5e7f1fcc38c4dc6ffe81e7a8d666458
               start_date: '2016-07-08T22:44:29Z'
@@ -2669,8 +2672,8 @@ landscape:
               stars: 912
               license: Apache-2.0
               description: Open Container Initiative-based implementation of Kubernetes Container Runtime Interface
-              latest_commit_date: '2018-02-14T18:06:06Z'
-              latest_commit_link: /kubernetes-incubator/cri-o/commit/fa8cedf98112faff6cc5601392e132c917aba8b7
+              latest_commit_date: '2018-02-15T02:01:02Z'
+              latest_commit_link: /kubernetes-incubator/cri-o/commit/be23a54da422348890076b2de73e95ce477896f2
             github_start_commit_data:
               start_commit_link: /kubernetes-incubator/cri-o/commit/580db0719d68b3ff3bb30f60397c3892be383eb5
               start_date: '2016-09-09T19:56:31Z'
@@ -2703,15 +2706,15 @@ landscape:
               stars: 416
               license: Apache-2.0
               description: OCI (Open Containers Initiative) compatible runtime using Virtual Machines
-              latest_commit_date: '2018-02-13T10:56:06Z'
-              latest_commit_link: /clearcontainers/runtime/commit/6e6a8f5edd505a808b45f5fe60a0378d3b559400
+              latest_commit_date: '2018-02-14T21:32:52Z'
+              latest_commit_link: /clearcontainers/runtime/commit/ee89afdfa04dd22d2e3396516e78a24950a8f6ea
             github_start_commit_data:
               start_commit_link: /clearcontainers/runtime/commit/915ef535b5a5dd98ff00c7b76ff1d17938792d2e
               start_date: '2017-01-16T11:00:58Z'
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 211188744192
+              market_cap: 212378402816
               effective_ticker: INTC
             image_data:
               fileName: intel-clear-containers.svg
@@ -2735,7 +2738,7 @@ landscape:
               twitter: 'http://twitter.com/Canonical'
               linkedin: 'https://www.linkedin.com/company/canonical-ltd.'
             github_data:
-              stars: 1651
+              stars: 1652
               license: Apache-2.0
               description: Daemon based on liblxc offering a REST API to manage containers
               latest_commit_date: '2018-02-14T05:41:33Z'
@@ -2768,7 +2771,7 @@ landscape:
               twitter: 'https://twitter.com/cloudnativefdn'
               linkedin: 'https://www.linkedin.com/company/cloud-native-computing-foundation'
             github_data:
-              stars: 7767
+              stars: 7768
               license: Apache-2.0
               description: 'rkt is a pod-native container engine for Linux. It is composable, secure, and built on standards.'
               latest_commit_date: '2018-01-15T16:29:15Z'
@@ -2800,7 +2803,7 @@ landscape:
               twitter: 'https://www.twitter.com/oci_org'
               linkedin: null
             github_data:
-              stars: 4462
+              stars: 4464
               license: Apache-2.0
               description: CLI tool for spawning and running containers according to the OCI specification
               latest_commit_date: '2018-02-08T15:28:41Z'
@@ -3010,11 +3013,11 @@ landscape:
               twitter: null
               linkedin: null
             github_data:
-              stars: 1457
+              stars: 1458
               license: Apache-2.0
               description: API-aware Networking and Security for Containers based on BPF
-              latest_commit_date: '2018-02-11T10:35:45Z'
-              latest_commit_link: /cilium/cilium/commit/d092deee1e19cf0f23c9276e377506f1f95736e7
+              latest_commit_date: '2018-02-15T00:30:55Z'
+              latest_commit_link: /cilium/cilium/commit/8f22e7288b99b75a8c1ceed8825d08621546316d
             github_start_commit_data:
               start_commit_link: /cilium/cilium/commit/7fa3c60eb7dbe7a5a4caea3aab0396f75a8b10c7
               start_date: '2015-12-16T12:33:31Z'
@@ -3088,7 +3091,7 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 207161901056
+              market_cap: 208076963840
               effective_ticker: CSCO
             image_data:
               fileName: contiv.png
@@ -3141,7 +3144,7 @@ landscape:
               ticker: RHT
               kind: market_cap
             github_data:
-              stars: 2777
+              stars: 2778
               license: Apache-2.0
               description: 'flannel is a network fabric for containers, designed for Kubernetes'
               latest_commit_date: '2018-02-02T19:26:33Z'
@@ -3152,7 +3155,7 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 23695507456
+              market_cap: 23752167424
               effective_ticker: RHT
             image_data:
               fileName: flannel.png
@@ -3209,11 +3212,12 @@ landscape:
               country: United States
               twitter: 'http://twitter.com/VMware'
               linkedin: 'http://www.linkedin.com/company/vmware'
+              ticker: VMW
               kind: market_cap
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 49868169216
+              market_cap: 50158428160
               effective_ticker: VMW
             image_data:
               fileName: nsx.png
@@ -3263,8 +3267,8 @@ landscape:
               stars: 1487
               license: Unknown License
               description: Open vSwitch
-              latest_commit_date: '2018-02-12T17:57:14Z'
-              latest_commit_link: /openvswitch/ovs/commit/0ef2d6ce7f482e861fab273715b6ab529a3e7965
+              latest_commit_date: '2018-02-10T00:03:40Z'
+              latest_commit_link: /openvswitch/ovs/commit/ba19e98cf35956626b09ce744b1c55706ffc106a
             github_start_commit_data:
               start_commit_link: /openvswitch/ovs/commit/0bb1f43dd8f5e894ed45d158daa5f94f4990c05a
               start_date: '2009-06-05T18:18:33Z'
@@ -3295,8 +3299,8 @@ landscape:
               stars: 339
               license: Apache-2.0
               description: Contrail Controller
-              latest_commit_date: '2018-02-14T04:47:41Z'
-              latest_commit_link: /Juniper/contrail-controller/commit/af361cfb6ff900f5d9d0f390bea7db6038c42c90
+              latest_commit_date: '2018-02-15T00:33:49Z'
+              latest_commit_link: /Juniper/contrail-controller/commit/ea8ed5f5685219eaea0ea75540a33ebeee231cb5
             github_start_commit_data:
               start_commit_link: /Juniper/contrail-controller/commit/ec69df9632a075091ab45d2ac12b98ca501afaa2
               start_date: '2013-08-24T18:40:35Z'
@@ -3430,7 +3434,7 @@ landscape:
               kind: funding
               funding: 20000000
             github_data:
-              stars: 4945
+              stars: 4946
               license: Apache-2.0
               description: 'Simple, resilient multi-host Docker networking and more.'
               latest_commit_date: '2018-02-04T16:29:14Z'
@@ -3471,7 +3475,7 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 699379744768
+              market_cap: 702463475712
               effective_ticker: AMZN
             image_data:
               fileName: amazon-elastic-container-service-ecs.svg
@@ -3532,11 +3536,11 @@ landscape:
               twitter: 'https://twitter.com/cloudnativefdn'
               linkedin: 'https://www.linkedin.com/company/cloud-native-computing-foundation'
             github_data:
-              stars: 32553
+              stars: 32561
               license: Apache-2.0
               description: Production-Grade Container Scheduling and Management
-              latest_commit_date: '2018-02-14T19:14:43Z'
-              latest_commit_link: /kubernetes/kubernetes/commit/f33e0b33f49676bb0be6a410ab98eecd3602bd0a
+              latest_commit_date: '2018-02-15T03:30:06Z'
+              latest_commit_link: /kubernetes/kubernetes/commit/d38e2234b73c37111d11b9628a5cc52a0780d26a
             github_start_commit_data:
               start_commit_link: /kubernetes/kubernetes/commit/2c4b3a562ce34cddc3f8218a2c4d11c7310e6d56
               start_date: '2014-06-06T23:40:48Z'
@@ -3567,8 +3571,8 @@ landscape:
               stars: 3541
               license: Apache-2.0
               description: Mirror of Apache Mesos
-              latest_commit_date: '2018-02-14T12:53:31Z'
-              latest_commit_link: /apache/mesos/commit/e36e3b9989b1097dca9597097dd51d24aaba48fa
+              latest_commit_date: '2018-02-14T20:33:20Z'
+              latest_commit_link: /apache/mesos/commit/1e71208338fc525d42cd8dd0ffad5a0841e40a92
             github_start_commit_data:
               start_commit_link: /apache/mesos/commit/54a6a53e5fc378aa13e75f6686202b3d427684da
               start_date: '2011-04-27T06:59:39Z'
@@ -3600,7 +3604,7 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 693096546304
+              market_cap: 699217870848
               effective_ticker: MSFT
             image_data:
               fileName: microsoft-azure-service-fabric.png
@@ -3627,7 +3631,7 @@ landscape:
               kind: funding
               funding: 74175000
             github_data:
-              stars: 3245
+              stars: 3248
               license: MPL-2.0
               description: >-
                 Nomad is a flexible, enterprise-grade cluster scheduler designed to easily integrate into existing workflows. Nomad can run a diverse workload
@@ -3667,7 +3671,7 @@ landscape:
               kind: funding
               funding: 74175000
             github_data:
-              stars: 11382
+              stars: 11383
               license: MPL-2.0
               description: >-
                 Consul is a distributed, highly available, and data center aware solution to connect and configure applications across dynamic, distributed
@@ -3739,8 +3743,8 @@ landscape:
               stars: 1610
               license: Apache-2.0
               description: CoreDNS is a DNS server that chains plugins
-              latest_commit_date: '2018-02-14T19:20:27Z'
-              latest_commit_link: /coredns/coredns/commit/ee8084a08f8cfcd4357ae2ad0b6dff51ca322d3a
+              latest_commit_date: '2018-02-14T20:29:00Z'
+              latest_commit_link: /coredns/coredns/commit/8b035fa938f94ed9bff3f44ee14daba34b13eafb
             github_start_commit_data:
               start_commit_link: /coredns/coredns/commit/3ec0d9fe6b133a64712ae69fd712c14ad1a71f4d
               start_date: '2016-03-18T20:57:35Z'
@@ -3770,7 +3774,7 @@ landscape:
               ticker: RHT
               kind: market_cap
             github_data:
-              stars: 16837
+              stars: 16839
               license: Apache-2.0
               description: Distributed reliable key-value store for the most critical data of a distributed system
               latest_commit_date: '2018-02-14T19:28:47Z'
@@ -3781,7 +3785,7 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 23695507456
+              market_cap: 23752167424
               effective_ticker: RHT
             image_data:
               fileName: etcd.svg
@@ -3806,7 +3810,7 @@ landscape:
               ticker: NFLX
               kind: market_cap
             github_data:
-              stars: 4790
+              stars: 4791
               license: Apache-2.0
               description: AWS Service registry for resilient mid-tier load balancing and failover.
               latest_commit_date: '2018-02-12T20:53:17Z'
@@ -3817,7 +3821,7 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             yahoo_finance_data:
-              market_cap: 116489437184
+              market_cap: 115430170624
               effective_ticker: NFLX
             image_data:
               fileName: eureka.svg
@@ -3841,6 +3845,7 @@ landscape:
               country: United States
               twitter: 'http://twitter.com/VMware'
               linkedin: 'http://www.linkedin.com/company/vmware'
+              ticker: VMW
               kind: market_cap
             github_data:
               stars: 465
@@ -3854,7 +3859,7 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 49868169216
+              market_cap: 50158428160
               effective_ticker: VMW
             image_data:
               fileName: v-mware-haret.svg
@@ -3934,8 +3939,8 @@ landscape:
               stars: 3954
               license: Apache-2.0
               description: Mirror of Apache Hadoop ZooKeeper
-              latest_commit_date: '2018-02-07T00:05:18Z'
-              latest_commit_link: /apache/zookeeper/commit/aefb13f2b289e19e32c0fcc5714711b07989d67f
+              latest_commit_date: '2018-02-14T20:23:30Z'
+              latest_commit_link: /apache/zookeeper/commit/bebe4162bc915b15b4fd90df9446bdf9f83ef3a8
             github_start_commit_data:
               start_commit_link: /apache/zookeeper/commit/047d9258a4730791b85cc81b0e1435465a32acbf
               start_date: '2007-11-03T04:41:15Z'
@@ -3979,7 +3984,7 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 23695507456
+              market_cap: 23752167424
               effective_ticker: RHT
             image_data:
               fileName: 3-scale.png
@@ -4006,7 +4011,7 @@ landscape:
               kind: funding
               funding: 250000
             github_data:
-              stars: 332
+              stars: 333
               license: Apache-2.0
               description: Kubernetes-native API gateway for microservices built on the Envoy Proxy
               latest_commit_date: '2018-02-13T18:26:45Z'
@@ -4139,11 +4144,11 @@ landscape:
               twitter: 'https://twitter.com/cloudnativefdn'
               linkedin: 'https://www.linkedin.com/company/cloud-native-computing-foundation'
             github_data:
-              stars: 3874
+              stars: 3881
               license: Apache-2.0
               description: C++ front/service proxy
-              latest_commit_date: '2018-02-14T15:44:19Z'
-              latest_commit_link: /envoyproxy/envoy/commit/6be056d17a4ddae4ad8cb55808820a3e464b129c
+              latest_commit_date: '2018-02-14T22:55:41Z'
+              latest_commit_link: /envoyproxy/envoy/commit/a89608353d7d507222ac1d00c2eb69a46249697b
             github_start_commit_data:
               start_commit_link: /envoyproxy/envoy/commit/a714b9c2b0a2acc9da44098cabff69586134a0dd
               start_date: '2016-08-08T15:07:25Z'
@@ -4174,7 +4179,7 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 8864776192
+              market_cap: 8874671104
               effective_ticker: FFIV
             image_data:
               fileName: f5.png
@@ -4202,8 +4207,8 @@ landscape:
               stars: 13648
               license: Apache-2.0
               description: 'The C based gRPC (C++, Python, Ruby, Objective-C, PHP, C#)'
-              latest_commit_date: '2018-02-14T19:26:26Z'
-              latest_commit_link: /grpc/grpc/commit/b85b28ee371e02ca4e2439a1890fc9f6a964f70e
+              latest_commit_date: '2018-02-15T00:08:35Z'
+              latest_commit_link: /grpc/grpc/commit/22f363981a32953f9eee9291a6b46a499df08080
             github_start_commit_data:
               start_commit_link: /grpc/grpc/commit/0e905e63db21bcdd85d3d1af051fcdc5bb5caa38
               start_date: '2014-11-22T00:16:16Z'
@@ -4268,7 +4273,7 @@ landscape:
               ticker: NFLX
               kind: market_cap
             github_data:
-              stars: 12579
+              stars: 12581
               license: Apache-2.0
               description: >-
                 Hystrix is a latency and fault tolerance library designed to isolate points of access to remote systems, services and 3rd party libraries, stop
@@ -4281,7 +4286,7 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             yahoo_finance_data:
-              market_cap: 116489437184
+              market_cap: 115430170624
               effective_ticker: NFLX
             image_data:
               fileName: hystrix.png
@@ -4309,7 +4314,7 @@ landscape:
               kind: funding
               funding: 44101000
             github_data:
-              stars: 14407
+              stars: 14410
               license: Apache-2.0
               description: "\U0001F412 The Microservice API Gateway"
               latest_commit_date: '2018-01-29T19:27:28Z'
@@ -4345,8 +4350,8 @@ landscape:
               stars: 3558
               license: Apache-2.0
               description: Production-grade feature-rich service mesh for any platform
-              latest_commit_date: '2018-02-13T21:53:10Z'
-              latest_commit_link: /linkerd/linkerd/commit/9ca8719ebf7008177668afc28e191f001e10a620
+              latest_commit_date: '2018-02-15T01:00:00Z'
+              latest_commit_link: /linkerd/linkerd/commit/311cac94dc90264fd31c285f8cd9faf27f49418c
             github_start_commit_data:
               start_commit_link: /linkerd/linkerd/commit/37e38f2a892d9354eea7305135aa6370612b02f2
               start_date: '2016-01-13T22:17:47Z'
@@ -4376,7 +4381,7 @@ landscape:
               kind: funding
               funding: 41000000
             github_data:
-              stars: 5252
+              stars: 5251
               license: Unknown License
               description: >-
                 An official read-only mirror of http://hg.nginx.org/nginx/ which is updated hourly. Pull requests on GitHub cannot be accepted and will be
@@ -4459,7 +4464,7 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             yahoo_finance_data:
-              market_cap: 116489437184
+              market_cap: 115430170624
               effective_ticker: NFLX
             image_data:
               fileName: ribbon.svg
@@ -4485,7 +4490,7 @@ landscape:
               kind: funding
               funding: 1060899
             github_data:
-              stars: 13015
+              stars: 13020
               license: MIT
               description: 'Træfik, a modern reverse proxy'
               latest_commit_date: '2018-02-14T08:56:04Z'
@@ -4611,7 +4616,7 @@ landscape:
               ticker: NFLX
               kind: market_cap
             github_data:
-              stars: 3834
+              stars: 3835
               license: Apache-2.0
               description: 'Zuul is a gateway service that provides dynamic routing, monitoring, resiliency, security, and more.'
               latest_commit_date: '2017-11-17T23:26:03Z'
@@ -4622,7 +4627,7 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             yahoo_finance_data:
-              market_cap: 116489437184
+              market_cap: 115430170624
               effective_ticker: NFLX
             image_data:
               fileName: zuul.svg
@@ -4655,7 +4660,7 @@ landscape:
               kind: funding
               funding: 5370000
             github_data:
-              stars: 2160
+              stars: 2162
               license: Unknown License
               description: 'BigchainDB: A Blockchain Database'
               latest_commit_date: '2018-02-13T13:09:41Z'
@@ -4688,7 +4693,7 @@ landscape:
               twitter: 'http://twitter.com/TheASF'
               linkedin: 'http://www.linkedin.com/company/the-apache-software-foundation'
             github_data:
-              stars: 596
+              stars: 597
               license: Apache-2.0
               description: Mirror of Apache CarbonData
               latest_commit_date: '2018-02-08T17:40:43Z'
@@ -4725,8 +4730,8 @@ landscape:
               stars: 4175
               license: Apache-2.0
               description: Mirror of Apache Cassandra
-              latest_commit_date: '2018-01-15T05:43:30Z'
-              latest_commit_link: /apache/cassandra/commit/7a424bc2a79dce98817054057dd3a479b202f09e
+              latest_commit_date: '2018-02-15T00:18:09Z'
+              latest_commit_link: /apache/cassandra/commit/81ac654ff82f9149bc3265a18bfbdd6fbd2073f0
             github_start_commit_data:
               start_commit_link: /apache/cassandra/commit/1f91e99223b0d1b7ed8390400d4a06ac08e4aa85
               start_date: '2009-03-02T07:57:22Z'
@@ -4756,11 +4761,11 @@ landscape:
               kind: funding
               funding: 53500000
             github_data:
-              stars: 12533
+              stars: 12536
               license: Unknown License
               description: 'CockroachDB - the open source, cloud-native SQL database.'
-              latest_commit_date: '2018-02-14T19:51:09Z'
-              latest_commit_link: /cockroachdb/cockroach/commit/9cefac0e3782006a5daa0adc521f3c93f228a27b
+              latest_commit_date: '2018-02-15T03:17:00Z'
+              latest_commit_link: /cockroachdb/cockroach/commit/7a13ebcd1c9e7bddc58ade74d4c937c7c52e9a57
             github_start_commit_data:
               start_commit_link: /cockroachdb/cockroach/commit/8548987813ff9e1b8a9878023d3abfc6911c16db
               start_date: '2014-02-06T00:18:47Z'
@@ -4863,8 +4868,8 @@ landscape:
               stars: 6098
               license: Apache-2.0
               description: Column oriented distributed data store ideal for powering interactive applications
-              latest_commit_date: '2018-02-14T01:00:58Z'
-              latest_commit_link: /druid-io/druid/commit/65225bd6e7553f4e54d1e7400028abbf35d4b888
+              latest_commit_date: '2018-02-14T20:48:33Z'
+              latest_commit_link: /druid-io/druid/commit/cd929000cad2a8075f2d53dd98c7a89271bd59ef
             github_start_commit_data:
               start_commit_link: /druid-io/druid/commit/70e993806e48fbd35ac597a4075d046a98c5b6ae
               start_date: '2012-10-23T19:08:07Z'
@@ -4893,11 +4898,11 @@ landscape:
               twitter: 'http://twitter.com/TheASF'
               linkedin: 'http://www.linkedin.com/company/the-apache-software-foundation'
             github_data:
-              stars: 5716
+              stars: 5717
               license: Apache-2.0
               description: Mirror of Apache Hadoop
-              latest_commit_date: '2018-02-14T18:22:37Z'
-              latest_commit_link: /apache/hadoop/commit/1f20f432d2472f92797ea01711ca4cc97e7b2b23
+              latest_commit_date: '2018-02-14T21:11:37Z'
+              latest_commit_link: /apache/hadoop/commit/8f66affd6265c9e4231e18d7ca352fb3035dae9a
             github_start_commit_data:
               start_commit_link: /apache/hadoop/commit/5128a9a453d64bfe1ed978cf9ffed27985eeef36
               start_date: '2009-05-19T04:20:40Z'
@@ -4929,7 +4934,7 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 142761607168
+              market_cap: 143275409408
               effective_ticker: IBM
             image_data:
               fileName: ibm-db2.png
@@ -4983,7 +4988,7 @@ landscape:
               kind: funding
               funding: 98175561
             github_data:
-              stars: 1812
+              stars: 1813
               license: Unknown License
               description: >-
                 MariaDB server is a community developed fork of MySQL server. Started by core members of the original MySQL team, MariaDB actively works with
@@ -5043,18 +5048,18 @@ landscape:
               ticker: MDB
               kind: market_cap
             github_data:
-              stars: 13091
+              stars: 13094
               license: Unknown License
               description: The MongoDB Database
-              latest_commit_date: '2018-01-30T04:15:45Z'
-              latest_commit_link: /mongodb/mongo/commit/538354fddd70b3b2de8ea13f2f8dec72c973db87
+              latest_commit_date: '2018-02-15T02:09:23Z'
+              latest_commit_link: /mongodb/mongo/commit/537e479caf3c6a2db67c0fa1c5d6769c9aea8786
             github_start_commit_data:
               start_commit_link: /mongodb/mongo/commit/e73188b5512c82290a4070af4afddac20d0b981e
               start_date: '2007-10-19T23:35:48Z'
             cncf_membership_data:
               cncf_member: false
             yahoo_finance_data:
-              market_cap: 1525544064
+              market_cap: 1524026624
               effective_ticker: MDB
             image_data:
               fileName: mongo-db.png
@@ -5093,7 +5098,7 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 203668324352
+              market_cap: 204703219712
               effective_ticker: ORCL
             image_data:
               fileName: my-sql.svg
@@ -5155,7 +5160,7 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 203668324352
+              market_cap: 204703219712
               effective_ticker: ORCL
             image_data:
               fileName: oracle.png
@@ -5182,7 +5187,7 @@ landscape:
               kind: funding
               funding: 2120000
             github_data:
-              stars: 2545
+              stars: 2546
               license: Apache-2.0
               description: Reproducible Data Science at Scale!
               latest_commit_date: '2018-02-13T21:17:17Z'
@@ -5214,13 +5219,13 @@ landscape:
               twitter: 'http://twitter.com/postgresql'
               linkedin: 'http://www.linkedin.com/company/758353'
             github_data:
-              stars: 3637
+              stars: 3639
               license: Unknown License
               description: >-
                 Mirror of the official PostgreSQL GIT repository. Note that this is just a *mirror* - we don't work with pull requests on github. To contribute,
                 please see http://wiki.postgresql.org/wiki/Submitting_a_Patch
-              latest_commit_date: '2018-02-14T03:15:08Z'
-              latest_commit_link: /postgres/postgres/commit/f9263006d871d127794a402a7bef713fdd882156
+              latest_commit_date: '2018-02-15T00:43:33Z'
+              latest_commit_link: /postgres/postgres/commit/03c5a00ea3867f5736da6cedce73b1eea88a98af
             github_start_commit_data:
               start_commit_link: /postgres/postgres/commit/d31084e9d1118b25fd16580d9d8c2924b5740dff
               start_date: '1996-07-09T06:22:35Z'
@@ -5276,7 +5281,7 @@ landscape:
               kind: funding
               funding: 86000000
             github_data:
-              stars: 27532
+              stars: 27533
               license: BSD-3-Clause
               description: >-
                 Redis is an in-memory database that persists on disk. The data model is key-value, but many different kind of values are supported: Strings,
@@ -5312,7 +5317,7 @@ landscape:
               twitter: 'http://twitter.com/linuxfoundation'
               linkedin: 'https://www.linkedin.com/company/the-linux-foundation?trk=top_nav_home'
             github_data:
-              stars: 20742
+              stars: 20743
               license: Apache-2.0
               description: The open-source database for the realtime web.
               latest_commit_date: '2018-01-14T21:04:38Z'
@@ -5346,7 +5351,7 @@ landscape:
               kind: funding
               funding: 23000000
             github_data:
-              stars: 3725
+              stars: 3726
               license: AGPL-3.0
               description: 'NoSQL data store using the seastar framework, compatible with Apache Cassandra'
               latest_commit_date: '2018-02-14T14:37:42Z'
@@ -5406,7 +5411,7 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 693096546304
+              market_cap: 699217870848
               effective_ticker: MSFT
             image_data:
               fileName: sql-data-warehouse.png
@@ -5434,7 +5439,7 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 693096546304
+              market_cap: 699217870848
               effective_ticker: MSFT
             image_data:
               fileName: sql-server.png
@@ -5461,7 +5466,7 @@ landscape:
               kind: funding
               funding: 21600000
             github_data:
-              stars: 11722
+              stars: 11725
               license: Apache-2.0
               description: TiDB is a distributed HTAP database compatible with the MySQL protocol
               latest_commit_date: '2018-02-14T09:22:34Z'
@@ -5520,7 +5525,7 @@ landscape:
               twitter: 'https://twitter.com/cloudnativefdn'
               linkedin: 'https://www.linkedin.com/company/cloud-native-computing-foundation'
             github_data:
-              stars: 5536
+              stars: 5538
               license: Apache-2.0
               description: Vitess is a database clustering system for horizontal scaling of MySQL.
               latest_commit_date: '2018-02-14T15:41:17Z'
@@ -5558,7 +5563,7 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 699379744768
+              market_cap: 702463475712
               effective_ticker: AMZN
             image_data:
               fileName: amazon-kinesis.svg
@@ -5614,7 +5619,7 @@ landscape:
               twitter: 'http://twitter.com/TheASF'
               linkedin: 'http://www.linkedin.com/company/the-apache-software-foundation'
             github_data:
-              stars: 4837
+              stars: 4838
               license: Apache-2.0
               description: Mirror of Apache Storm
               latest_commit_date: '2018-02-14T13:48:31Z'
@@ -5678,7 +5683,7 @@ landscape:
               twitter: 'http://twitter.com/TheASF'
               linkedin: 'http://www.linkedin.com/company/the-apache-software-foundation'
             github_data:
-              stars: 3286
+              stars: 3288
               license: Apache-2.0
               description: Mirror of Apache Flink
               latest_commit_date: '2018-02-14T14:43:16Z'
@@ -5713,7 +5718,7 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             yahoo_finance_data:
-              market_cap: 743789756416
+              market_cap: 746371350528
               effective_ticker: GOOG
             image_data:
               fileName: google-cloud-dataflow.svg
@@ -5750,7 +5755,7 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 25066534912
+              market_cap: 24962985984
               effective_ticker: TWTR
             image_data:
               fileName: heron.svg
@@ -5778,8 +5783,8 @@ landscape:
               stars: 7417
               license: Apache-2.0
               description: Mirror of Apache Kafka
-              latest_commit_date: '2018-02-14T18:52:46Z'
-              latest_commit_link: /apache/kafka/commit/6d18d882b850a8d757c32bb124b1e42e60587c69
+              latest_commit_date: '2018-02-15T01:30:09Z'
+              latest_commit_link: /apache/kafka/commit/88307657dff0202804447d06eef6ecdc808590d8
             github_start_commit_data:
               start_commit_link: /apache/kafka/commit/642da2f28c9bc6e373603d6d9119ce33684090f5
               start_date: '2011-08-01T23:41:24Z'
@@ -5808,7 +5813,7 @@ landscape:
               twitter: 'https://twitter.com/nats_io'
               linkedin: null
             github_data:
-              stars: 3764
+              stars: 3766
               license: MIT
               description: 'High-Performance server for NATS, the cloud native messaging system.'
               latest_commit_date: '2018-01-30T22:10:49Z'
@@ -5844,8 +5849,8 @@ landscape:
               stars: 1571
               license: Apache-2.0
               description: Pulsar - distributed pub-sub messaging system
-              latest_commit_date: '2018-02-14T16:08:09Z'
-              latest_commit_link: /apache/incubator-pulsar/commit/4592b767ae8f6b0ff3a7ed29b2c476c3c9a71bd6
+              latest_commit_date: '2018-02-15T00:29:37Z'
+              latest_commit_link: /apache/incubator-pulsar/commit/350d2973703f99f3a36e6a56a4348a6b76415c3f
             github_start_commit_data:
               start_commit_link: /apache/incubator-pulsar/commit/9f849c324969e160f9891203b2a2e4805fae5a1c
               start_date: '2016-09-07T05:10:37Z'
@@ -5874,7 +5879,7 @@ landscape:
               twitter: 'http://twitter.com/rabbitmq'
               linkedin: null
             github_data:
-              stars: 3673
+              stars: 3674
               license: Unknown License
               description: Open source multi-protocol messaging broker
               latest_commit_date: '2018-02-13T13:10:46Z'
@@ -5907,11 +5912,11 @@ landscape:
               twitter: 'http://twitter.com/TheASF'
               linkedin: 'http://www.linkedin.com/company/the-apache-software-foundation'
             github_data:
-              stars: 16170
+              stars: 16173
               license: Apache-2.0
               description: Mirror of Apache Spark
-              latest_commit_date: '2018-02-14T18:57:12Z'
-              latest_commit_link: /apache/spark/commit/400a1d9e25c1196f0be87323bd89fb3af0660166
+              latest_commit_date: '2018-02-14T22:27:02Z'
+              latest_commit_link: /apache/spark/commit/658d9d9d785a30857bf35d164e6cbbd9799d6959
             github_start_commit_data:
               start_commit_link: /apache/spark/commit/df29d0ea4c8b7137fdd1844219c7d489e3b0d9c9
               start_date: '2010-03-29T23:17:55Z'
@@ -5945,8 +5950,8 @@ landscape:
               stars: 404
               license: Apache-2.0
               description: StreamSets DataCollector - Continuous big data ingest infrastructure
-              latest_commit_date: '2018-02-12T07:22:37Z'
-              latest_commit_link: /streamsets/datacollector/commit/7b89089514cd6dcb1a9cd621e232ef8b3dfb4613
+              latest_commit_date: '2018-02-14T00:51:37Z'
+              latest_commit_link: /streamsets/datacollector/commit/b1cf79d9255fbfb16412989321f3b5425c1692a7
             github_start_commit_data:
               start_commit_link: /streamsets/datacollector/commit/8771e31075293a1bc26a8b44c7710c1e29da454e
               start_date: '2014-10-09T21:06:04Z'
@@ -5981,7 +5986,7 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             yahoo_finance_data:
-              market_cap: 12025387008
+              market_cap: 12097381376
               effective_ticker: TEAM
             image_data:
               fileName: bitbucket.png
@@ -6067,7 +6072,7 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 693096546304
+              market_cap: 699217870848
               effective_ticker: MSFT
             image_data:
               fileName: microsoft-visual-studio-team-services.png
@@ -6152,11 +6157,11 @@ landscape:
               kind: funding
               funding: 242766694
             github_data:
-              stars: 11839
+              stars: 11843
               license: Apache-2.0
               description: Define and run multi-container applications with Docker
-              latest_commit_date: '2018-02-12T20:10:23Z'
-              latest_commit_link: /docker/compose/commit/db5af973263fe6b10ecb170e63c099893591a4d0
+              latest_commit_date: '2018-02-14T21:44:41Z'
+              latest_commit_link: /docker/compose/commit/e71664385756a75f4cb14c9447138ac3c4120f3a
             github_start_commit_data:
               start_commit_link: /docker/compose/commit/0eb7d308615bae1ad4be1ca5112ac7b6b6cbfbaf
               start_date: '2013-12-09T11:41:05Z'
@@ -6186,11 +6191,11 @@ landscape:
               kind: funding
               funding: 105000000
             github_data:
-              stars: 1384
+              stars: 1385
               license: Apache-2.0
               description: Modern applications with built-in automation
-              latest_commit_date: '2018-02-14T01:52:12Z'
-              latest_commit_link: /habitat-sh/habitat/commit/7b1c6d11afb3a1e54a1e050266222e0a2b317cf5
+              latest_commit_date: '2018-02-14T23:30:02Z'
+              latest_commit_link: /habitat-sh/habitat/commit/be1cda486909b4a4050a88769190234694f027fc
             github_start_commit_data:
               start_commit_link: /habitat-sh/habitat/commit/05225f2b130e431d50aeec984303adea1bd3da5c
               start_date: '2015-05-22T22:15:55Z'
@@ -6238,7 +6243,7 @@ landscape:
               twitter: 'https://twitter.com/OpenApiSpec'
               linkedin: 'https://www.linkedin.com/groups/8556951'
             github_data:
-              stars: 9007
+              stars: 9013
               license: Unknown License
               description: The OpenAPI Specification Repository
               latest_commit_date: '2018-02-12T18:58:06Z'
@@ -6272,7 +6277,7 @@ landscape:
               kind: funding
               funding: 74175000
             github_data:
-              stars: 7330
+              stars: 7331
               license: MPL-2.0
               description: Packer is a tool for creating identical machine images for multiple platforms from a single source configuration.
               latest_commit_date: '2018-02-14T01:06:20Z'
@@ -6333,7 +6338,7 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             yahoo_finance_data:
-              market_cap: 12025387008
+              market_cap: 12097381376
               effective_ticker: TEAM
             image_data:
               fileName: bamboo.svg
@@ -6514,7 +6519,7 @@ landscape:
               kind: funding
               funding: 1704000000
             github_data:
-              stars: 2541
+              stars: 2542
               license: Apache-2.0
               description: BOSH release and development workspace for Concourse
               latest_commit_date: '2018-02-14T14:16:24Z'
@@ -6604,7 +6609,7 @@ landscape:
               kind: funding
               funding: 28000
             github_data:
-              stars: 13133
+              stars: 13135
               license: Apache-2.0
               description: 'Drone is a Continuous Delivery platform built on Docker, written in Go'
               latest_commit_date: '2018-02-13T16:19:41Z'
@@ -6794,18 +6799,18 @@ landscape:
               ticker: NFLX
               kind: market_cap
             github_data:
-              stars: 4275
+              stars: 4277
               license: Apache-2.0
               description: 'Spinnaker is an open source, multi-cloud continuous delivery platform for releasing software changes with high velocity and confidence.'
-              latest_commit_date: '2018-02-13T21:22:31Z'
-              latest_commit_link: /spinnaker/spinnaker/commit/777bc407a503d371040f32721e2904475146db3a
+              latest_commit_date: '2018-02-06T16:12:18Z'
+              latest_commit_link: /spinnaker/spinnaker/commit/1fe6d2cb2d0824ed21b90181dec02074db59afe1
             github_start_commit_data:
               start_commit_link: /spinnaker/spinnaker/commit/2b3fac174db42aa7944d6e606a17d5ca1ae66715
               start_date: '2014-09-07T09:01:23Z'
             cncf_membership_data:
               cncf_member: false
             yahoo_finance_data:
-              market_cap: 116489437184
+              market_cap: 115430170624
               effective_ticker: NFLX
             image_data:
               fileName: spinnaker.png
@@ -6919,7 +6924,7 @@ landscape:
               kind: funding
               funding: 56000000
             github_data:
-              stars: 632
+              stars: 633
               license: Apache-2.0
               description: 'Kismatic Enterprise Toolkit: Fully-Automated, Production-Grade Kubernetes Operations'
               latest_commit_date: '2018-02-14T14:28:45Z'
@@ -7038,8 +7043,8 @@ landscape:
               stars: 208
               license: Apache-2.0
               description: Contains scripts and configuration files used to build and deploy Kubo (Kubernetes on Bosh)
-              latest_commit_date: '2018-02-14T11:14:44Z'
-              latest_commit_link: /cloudfoundry-incubator/kubo-deployment/commit/e577452eb6c0e8d5a916308f5a8343da2416a4d2
+              latest_commit_date: '2018-02-15T01:56:58Z'
+              latest_commit_link: /cloudfoundry-incubator/kubo-deployment/commit/e30bdcbcd8b282b978967d88735891cc3d2b064f
             github_start_commit_data:
               start_commit_link: /cloudfoundry-incubator/kubo-deployment/commit/5c6e3eee066c58c90224c12e3c3691a57f65ed52
               start_date: '2016-11-12T00:45:26Z'
@@ -7230,7 +7235,7 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             yahoo_finance_data:
-              market_cap: 743789756416
+              market_cap: 746371350528
               effective_ticker: GOOG
             image_data:
               fileName: google-cloud.svg
@@ -7292,7 +7297,7 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             yahoo_finance_data:
-              market_cap: 142761607168
+              market_cap: 143275409408
               effective_ticker: IBM
             image_data:
               fileName: ibm-cloud.svg
@@ -7304,7 +7309,7 @@ landscape:
             repo_url: 'https://github.com/inwinstack/kube-ansible'
             logo: ./src/hosted_logos/inwinstack.svg
             github_data:
-              stars: 46
+              stars: 47
               license: Apache-2.0
               description: "Build a Kubernetes cluster using Ansible playbooks. \U0001F527 \U0001F527 \U0001F527"
               latest_commit_date: '2018-01-24T03:30:04Z'
@@ -7341,11 +7346,11 @@ landscape:
               kind: funding
               funding: 130999998
             github_data:
-              stars: 30
+              stars: 31
               license: MPL-2.0
               description: Kubernetes on Triton
-              latest_commit_date: '2018-02-06T23:59:53Z'
-              latest_commit_link: /joyent/triton-kubernetes/commit/c6ee6f229e25b94da3ecd02cafa8821ffc75dc96
+              latest_commit_date: '2018-02-14T23:04:10Z'
+              latest_commit_link: /joyent/triton-kubernetes/commit/04046ab0bcfb99f63c3ccd80f35661e445d19558
             github_start_commit_data:
               start_commit_link: /joyent/triton-kubernetes/commit/5efa1c70f65c95e6015ca463f1cd829f7d0289f4
               start_date: '2017-03-13T22:04:35Z'
@@ -7491,7 +7496,7 @@ landscape:
             logo: ./src/hosted_logos/netease.svg
             crunchbase: 'https://www.crunchbase.com/organization/netease-com'
             crunchbase_data:
-              name: NetEase.com
+              name: NetEase
               description: 'NetEase offers online game services, advertising services, and wireless value-added services in China.'
               num_employees_min: 101
               num_employees_max: 250
@@ -7506,7 +7511,7 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             yahoo_finance_data:
-              market_cap: 40157380608
+              market_cap: 40171814912
               effective_ticker: NTES
             image_data:
               fileName: netease-container-service-dedicated.svg
@@ -7536,15 +7541,15 @@ landscape:
               stars: 4065
               license: Apache-2.0
               description: Enterprise Kubernetes for Developers
-              latest_commit_date: '2018-02-14T17:29:21Z'
-              latest_commit_link: /openshift/origin/commit/a658a12b56541924514d1d64883bae52a07920ce
+              latest_commit_date: '2018-02-15T01:37:26Z'
+              latest_commit_link: /openshift/origin/commit/5535deb0bc8a717285a4b8e03c5abd677750727a
             github_start_commit_data:
               start_commit_link: /openshift/origin/commit/e0a5699f2049372633b18c43a98a522999b1f297
               start_date: '2014-07-30T18:17:42Z'
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 23695507456
+              market_cap: 23752167424
               effective_ticker: RHT
             image_data:
               fileName: open-shift.svg
@@ -7573,7 +7578,7 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 203668324352
+              market_cap: 204703219712
               effective_ticker: ORCL
             image_data:
               fileName: oracle-cloud.svg
@@ -7602,15 +7607,15 @@ landscape:
               stars: 75
               license: Unknown License
               description: Terraform Installer for Kubernetes on Oracle Cloud Infrastructure
-              latest_commit_date: '2018-02-14T17:09:36Z'
-              latest_commit_link: /oracle/terraform-kubernetes-installer/commit/a981cbcf81f091a87ff13460ecc39e7dd73676fe
+              latest_commit_date: '2018-02-14T23:18:44Z'
+              latest_commit_link: /oracle/terraform-kubernetes-installer/commit/e69655b42a99fd64259a187d5f2b59711355ae96
             github_start_commit_data:
               start_commit_link: /oracle/terraform-kubernetes-installer/commit/bbb988d23fef02317a01a5403805cdbc921cd562
               start_date: '2017-09-09T01:03:47Z'
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 203668324352
+              market_cap: 204703219712
               effective_ticker: ORCL
             image_data:
               fileName: oracle-cloud.svg
@@ -7693,8 +7698,8 @@ landscape:
               stars: 7719
               license: Unknown License
               description: Complete container management platform
-              latest_commit_date: '2018-02-14T18:19:21Z'
-              latest_commit_link: /rancher/rancher/commit/3bfa66fcc514ee4d3a4f89aba2e8cf9385337e1d
+              latest_commit_date: '2018-02-14T23:47:26Z'
+              latest_commit_link: /rancher/rancher/commit/a279cb4340c6da5ed64b39660cfcb5ef53d0bb74
             github_start_commit_data:
               start_commit_link: /rancher/rancher/commit/89854cf6f29bf3ee857b8f3edf51305bdf2d13f9
               start_date: '2017-11-14T00:57:39Z'
@@ -7823,7 +7828,7 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 23695507456
+              market_cap: 23752167424
               effective_ticker: RHT
             image_data:
               fileName: tectonic.png
@@ -7838,7 +7843,7 @@ landscape:
             repo_url: 'https://github.com/poseidon/typhoon'
             logo: 'https://kubernetes.io/images/square-logos/poseidon.png'
             github_data:
-              stars: 301
+              stars: 304
               license: MIT
               description: Minimal and free Kubernetes distribution
               latest_commit_date: '2018-02-14T08:07:36Z'
@@ -7869,11 +7874,12 @@ landscape:
               country: United States
               twitter: 'http://twitter.com/VMware'
               linkedin: 'http://www.linkedin.com/company/vmware'
+              ticker: VMW
               kind: market_cap
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 49868169216
+              market_cap: 50158428160
               effective_ticker: VMW
             image_data:
               fileName: v-mware.svg
@@ -7977,7 +7983,7 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             yahoo_finance_data:
-              market_cap: 475602747392
+              market_cap: 479194382336
               effective_ticker: BABA
             image_data:
               fileName: alibaba-cloud.svg
@@ -8006,15 +8012,15 @@ landscape:
               stars: 657
               license: MIT
               description: Azure Container Service Engine - a place for community to collaborate and build the best open Docker container infrastructure for Azure.
-              latest_commit_date: '2018-02-14T19:10:36Z'
-              latest_commit_link: /Azure/acs-engine/commit/2bdd3c0040cc561ea0f6601acb0f4de2a275debc
+              latest_commit_date: '2018-02-14T23:05:08Z'
+              latest_commit_link: /Azure/acs-engine/commit/cb6c824e569213b6aaced9ed76c78775de90ecfd
             github_start_commit_data:
               start_commit_link: /Azure/acs-engine/commit/d9bb7f4bbfd1b2932f1d0319e07429eee6127dbf
               start_date: '2016-05-17T17:19:35Z'
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 693096546304
+              market_cap: 699217870848
               effective_ticker: MSFT
             image_data:
               fileName: azure-cloud-services.svg
@@ -8043,7 +8049,7 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 693096546304
+              market_cap: 699217870848
               effective_ticker: MSFT
             image_data:
               fileName: azure-cloud-services.svg
@@ -8097,7 +8103,7 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 207161901056
+              market_cap: 208076963840
               effective_ticker: CSCO
             image_data:
               fileName: cisco-container-platform.svg
@@ -8163,7 +8169,7 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             yahoo_finance_data:
-              market_cap: 743789756416
+              market_cap: 746371350528
               effective_ticker: GOOG
             image_data:
               fileName: google-kubernetes-engine-gke.svg
@@ -8252,7 +8258,7 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             yahoo_finance_data:
-              market_cap: 142761607168
+              market_cap: 143275409408
               effective_ticker: IBM
             image_data:
               fileName: ibm-cloud.svg
@@ -8302,7 +8308,7 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 203668324352
+              market_cap: 204703219712
               effective_ticker: ORCL
             image_data:
               fileName: oracle-cloud.svg
@@ -8334,7 +8340,7 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 118828531712
+              market_cap: 119202693120
               effective_ticker: SAP
             image_data:
               fileName: sap-cloud-platform-gardener-aws-azure-gce.svg
@@ -8362,7 +8368,7 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             yahoo_finance_data:
-              market_cap: 535561371648
+              market_cap: 534687252480
               effective_ticker: TCEHY
             image_data:
               fileName: tencent-cloud.svg
@@ -8439,7 +8445,7 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 699379744768
+              market_cap: 702463475712
               effective_ticker: AMZN
             image_data:
               fileName: amazon-elastic-container-service-for-kubernetes-eks.svg
@@ -8675,7 +8681,7 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 22183135232
+              market_cap: 22233208832
               effective_ticker: ERIC
             image_data:
               fileName: apcera.png
@@ -8831,7 +8837,7 @@ landscape:
               kind: funding
               funding: 59500000
             github_data:
-              stars: 2353
+              stars: 2354
               license: BSD-2-Clause
               description: A PaaS built on top of Amazon EC2 Container Service (ECS)
               latest_commit_date: '2017-12-14T22:57:58Z'
@@ -8945,7 +8951,7 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 78420115456
+              market_cap: 78745149440
               effective_ticker: CRM
             image_data:
               fileName: heroku.png
@@ -8993,11 +8999,11 @@ landscape:
               twitter: null
               linkedin: null
             github_data:
-              stars: 9396
+              stars: 9397
               license: Apache-2.0
               description: Open Source application generator for creating Spring Boot + Angular projects in seconds!
-              latest_commit_date: '2018-02-14T19:02:22Z'
-              latest_commit_link: /jhipster/generator-jhipster/commit/278b91bbbe32ae63f37144aaef5d48310cb77a08
+              latest_commit_date: '2018-02-14T22:45:59Z'
+              latest_commit_link: /jhipster/generator-jhipster/commit/0b4af23e02a30d377d2a87ba3a97277ed607c3c1
             github_start_commit_data:
               start_commit_link: /jhipster/generator-jhipster/commit/c8630ab7af7b6a99db880b3b0e2403806b7d2436
               start_date: '2013-10-21T20:07:22Z'
@@ -9116,7 +9122,7 @@ landscape:
               twitter: null
               linkedin: null
             github_data:
-              stars: 13210
+              stars: 13327
               license: Apache-2.0
               description: The best way to write secure and reliable applications. Write nothing; deploy nowhere.
               latest_commit_date: '2018-02-07T01:31:48Z'
@@ -9161,7 +9167,7 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             yahoo_finance_data:
-              market_cap: 3402211584
+              market_cap: 3429150976
               effective_ticker: YELP
             image_data:
               fileName: paa-sta.svg
@@ -9210,7 +9216,7 @@ landscape:
               twitter: null
               linkedin: null
             github_data:
-              stars: 6743
+              stars: 6745
               license: Unknown License
               description: Simple management UI for Docker
               latest_commit_date: '2018-02-08T08:27:20Z'
@@ -9404,7 +9410,7 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 699379744768
+              market_cap: 702463475712
               effective_ticker: AMZN
             image_data:
               fileName: aws-lambda.svg
@@ -9626,7 +9632,7 @@ landscape:
               twitter: null
               linkedin: null
             github_data:
-              stars: 6686
+              stars: 6688
               license: MIT
               description: 'Build, deploy, and manage AWS Lambda functions with ease (with Go support!).'
               latest_commit_date: '2018-02-07T23:20:38Z'
@@ -9671,7 +9677,7 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 699379744768
+              market_cap: 702463475712
               effective_ticker: AMZN
             image_data:
               fileName: amazon-web-services.svg
@@ -9752,7 +9758,7 @@ landscape:
               twitter: 'http://twitter.com/GUNdotIO'
               linkedin: 'https://www.linkedin.com/company/gun-io'
             github_data:
-              stars: 6158
+              stars: 6159
               license: MIT
               description: Serverless Python Web Services
               latest_commit_date: '2018-02-14T15:28:52Z'
@@ -9819,7 +9825,7 @@ landscape:
               kind: funding
               funding: 3000000
             github_data:
-              stars: 21820
+              stars: 21827
               license: Unknown License
               description: >-
                 Serverless Framework – Build web, mobile and IoT applications with serverless architectures using AWS Lambda, Azure Functions, Google
@@ -9924,7 +9930,7 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 699379744768
+              market_cap: 702463475712
               effective_ticker: AMZN
             image_data:
               fileName: aws-lambda-sam-local.svg
@@ -10050,7 +10056,7 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 699379744768
+              market_cap: 702463475712
               effective_ticker: AMZN
             image_data:
               fileName: aws-lambda.svg
@@ -10100,7 +10106,7 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             yahoo_finance_data:
-              market_cap: 743789756416
+              market_cap: 746371350528
               effective_ticker: GOOG
             image_data:
               fileName: google-cloud-functions.svg
@@ -10127,7 +10133,7 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             yahoo_finance_data:
-              market_cap: 142761607168
+              market_cap: 143275409408
               effective_ticker: IBM
             image_data:
               fileName: ibm-cloud.svg
@@ -10271,11 +10277,11 @@ landscape:
               twitter: 'http://twitter.com/TheASF'
               linkedin: 'http://www.linkedin.com/company/the-apache-software-foundation'
             github_data:
-              stars: 2429
+              stars: 2431
               license: Apache-2.0
               description: Apache OpenWhisk is a serverless event-based programming service and an Apache Incubator project.
-              latest_commit_date: '2018-02-14T15:33:56Z'
-              latest_commit_link: /apache/incubator-openwhisk/commit/450b1db1aeafea6cd47df6b0951cd33611418ca0
+              latest_commit_date: '2018-02-14T21:31:21Z'
+              latest_commit_link: /apache/incubator-openwhisk/commit/54527b5d76cbbc130a7ecb42132b5075ab60890e
             github_start_commit_data:
               start_commit_link: /apache/incubator-openwhisk/commit/daeb509bbddd94b7df8ff48f4b96cf821c34dc72
               start_date: '2016-02-19T22:47:33Z'
@@ -10429,7 +10435,7 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 693096546304
+              market_cap: 699217870848
               effective_ticker: MSFT
             image_data:
               fileName: azure-functions.svg
@@ -10706,7 +10712,7 @@ landscape:
               twitter: null
               linkedin: null
             github_data:
-              stars: 1926
+              stars: 1928
               license: Apache-2.0
               description: Kubernetes Native Serverless Framework
               latest_commit_date: '2018-02-14T10:28:57Z'
@@ -10739,7 +10745,7 @@ landscape:
               twitter: 'https://twitter.com/openfaas'
               linkedin: 'https://www.linkedin.com/company/11372926/'
             github_data:
-              stars: 8707
+              stars: 8710
               license: MIT
               description: OpenFaaS - Serverless Functions Made Simple for Docker & Kubernetes
               latest_commit_date: '2018-02-14T10:26:58Z'
@@ -10840,7 +10846,7 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 203668324352
+              market_cap: 204703219712
               effective_ticker: ORCL
             image_data:
               fileName: oracle-application-container-cloud.svg
@@ -10891,7 +10897,7 @@ landscape:
               kind: funding
               funding: 36500000
             github_data:
-              stars: 3005
+              stars: 3006
               license: Apache-2.0
               description: Fast Serverless Functions for Kubernetes
               latest_commit_date: '2018-02-13T00:27:55Z'
@@ -10932,7 +10938,7 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 699379744768
+              market_cap: 702463475712
               effective_ticker: AMZN
             image_data:
               fileName: amazon-cloud-watch.svg
@@ -11158,7 +11164,7 @@ landscape:
               twitter: 'https://www.twitter.com/raintanksaas'
               linkedin: null
             github_data:
-              stars: 20260
+              stars: 20264
               license: Apache-2.0
               description: 'The tool for beautiful monitoring and metric analytics & dashboards for Graphite, InfluxDB & Prometheus & More'
               latest_commit_date: '2018-02-14T15:39:05Z'
@@ -11178,7 +11184,7 @@ landscape:
             repo_url: 'https://github.com/graphite-project/graphite-web'
             logo: 'http://blog-centreon-wordpress.s3.amazonaws.com/wp-content/uploads/2017/07/GraphiteLogo.png'
             github_data:
-              stars: 3993
+              stars: 3992
               license: Apache-2.0
               description: A highly scalable real-time graphing system
               latest_commit_date: '2018-02-14T14:19:19Z'
@@ -11267,11 +11273,11 @@ landscape:
               kind: funding
               funding: 59892000
             github_data:
-              stars: 12598
+              stars: 12599
               license: Unknown License
               description: 'Scalable datastore for metrics, events, and real-time analytics'
-              latest_commit_date: '2018-02-14T19:49:29Z'
-              latest_commit_link: /influxdata/influxdb/commit/b866943945b5718f2565a647d675b9e6ba598761
+              latest_commit_date: '2018-02-14T23:25:19Z'
+              latest_commit_link: /influxdata/influxdb/commit/1a3af441cb1ff55482301d76d70996e520c6aad8
             github_start_commit_data:
               start_commit_link: /influxdata/influxdb/commit/2bb37643603faece3ba36c1db40caab2027a1c20
               start_date: '2013-04-11T14:33:27Z'
@@ -11400,7 +11406,7 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 693096546304
+              market_cap: 699217870848
               effective_ticker: MSFT
             image_data:
               fileName: log-analytics.svg
@@ -11506,7 +11512,7 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             yahoo_finance_data:
-              market_cap: 3813807104
+              market_cap: 3837646848
               effective_ticker: NEWR
             image_data:
               fileName: new-relic.svg
@@ -11651,7 +11657,7 @@ landscape:
               twitter: 'https://twitter.com/cloudnativefdn'
               linkedin: 'https://www.linkedin.com/company/cloud-native-computing-foundation'
             github_data:
-              stars: 14702
+              stars: 14706
               license: Apache-2.0
               description: The Prometheus monitoring system and time series database.
               latest_commit_date: '2018-02-14T06:15:39Z'
@@ -11743,11 +11749,11 @@ landscape:
               kind: funding
               funding: 10500000
             github_data:
-              stars: 15687
+              stars: 15690
               license: BSD-3-Clause
               description: Sentry is a cross-platform crash reporting and aggregation platform.
-              latest_commit_date: '2018-02-14T19:13:18Z'
-              latest_commit_link: /getsentry/sentry/commit/046730c34aada4a878537939f3e6e84224700317
+              latest_commit_date: '2018-02-15T02:39:23Z'
+              latest_commit_link: /getsentry/sentry/commit/40d8ff0daf04f2df3c43508994a6041e579e2641
             github_start_commit_data:
               start_commit_link: /getsentry/sentry/commit/3c2e87573d3bd16f61cf08fece0638cc47a4fc22
               start_date: '2008-05-12T16:26:19Z'
@@ -11838,7 +11844,7 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             yahoo_finance_data:
-              market_cap: 743789756416
+              market_cap: 746371350528
               effective_ticker: GOOG
             image_data:
               fileName: google-stackdriver.svg
@@ -11995,7 +12001,7 @@ landscape:
               kind: funding
               funding: 20000000
             github_data:
-              stars: 2192
+              stars: 2193
               license: Apache-2.0
               description: 'Monitoring, visualisation & management for Docker & Kubernetes'
               latest_commit_date: '2018-02-13T12:29:22Z'
@@ -12066,7 +12072,7 @@ landscape:
               kind: funding
               funding: 104000000
             github_data:
-              stars: 28763
+              stars: 28770
               license: Apache-2.0
               description: 'Open Source, Distributed, RESTful Search Engine'
               latest_commit_date: '2018-02-14T18:19:39Z'
@@ -12099,7 +12105,7 @@ landscape:
               twitter: 'https://twitter.com/cloudnativefdn'
               linkedin: 'https://www.linkedin.com/company/cloud-native-computing-foundation'
             github_data:
-              stars: 6037
+              stars: 6040
               license: Unknown License
               description: 'Fluentd: Unified Logging Layer (project under CNCF)'
               latest_commit_date: '2018-02-08T21:10:55Z'
@@ -12133,7 +12139,7 @@ landscape:
               kind: funding
               funding: 4400000
             github_data:
-              stars: 4071
+              stars: 4072
               license: GPL-3.0
               description: Free and open source log management
               latest_commit_date: '2018-02-14T16:39:19Z'
@@ -12265,7 +12271,7 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 13052328960
+              market_cap: 13063646208
               effective_ticker: SPLK
             image_data:
               fileName: splunk.png
@@ -12338,7 +12344,7 @@ landscape:
               twitter: 'https://twitter.com/cloudnativefdn'
               linkedin: 'https://www.linkedin.com/company/cloud-native-computing-foundation'
             github_data:
-              stars: 3970
+              stars: 3975
               license: Apache-2.0
               description: 'CNCF Jaeger, a Distributed Tracing System'
               latest_commit_date: '2018-02-12T14:57:27Z'
@@ -12440,8 +12446,8 @@ landscape:
               stars: 587
               license: Apache-2.0
               description: Distributed tracing for spring cloud
-              latest_commit_date: '2018-02-14T17:13:54Z'
-              latest_commit_link: /spring-cloud/spring-cloud-sleuth/commit/98afee22ae7f7d0e7ce3aaefb30f71127de0e545
+              latest_commit_date: '2018-02-14T22:34:37Z'
+              latest_commit_link: /spring-cloud/spring-cloud-sleuth/commit/1b2143b684f7275cf25006082c3f5f466f514352
             github_start_commit_data:
               start_commit_link: /spring-cloud/spring-cloud-sleuth/commit/f0c8a4e458bac2cfd68d91e3fd7610ab059c2fb9
               start_date: '2015-03-06T20:51:47Z'
@@ -12473,8 +12479,8 @@ landscape:
               stars: 7660
               license: Apache-2.0
               description: Zipkin is a distributed tracing system
-              latest_commit_date: '2018-02-14T08:26:26Z'
-              latest_commit_link: /openzipkin/zipkin/commit/9f8ace82544de031a7bab9be1d9b04a310d512d9
+              latest_commit_date: '2018-02-15T01:50:48Z'
+              latest_commit_link: /openzipkin/zipkin/commit/f309c19345069eb09604f09858d427bdb1d3e18a
             github_start_commit_data:
               start_commit_link: /openzipkin/zipkin/commit/6e0efb29482edb2b388fb5440bd8846388baf665
               start_date: '2012-06-06T18:28:34Z'
@@ -12511,7 +12517,7 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 98155053056
+              market_cap: 98537381888
               effective_ticker: ACN
             image_data:
               fileName: accenture.png
@@ -12558,8 +12564,13 @@ landscape:
               country: United States
               twitter: 'http://twitter.com/BoozAllen'
               linkedin: 'http://www.linkedin.com/company/1403'
+              ticker: BAH
+              kind: market_cap
             cncf_membership_data:
               cncf_member: false
+            yahoo_finance_data:
+              market_cap: 5497888256
+              effective_ticker: BAH
             image_data:
               fileName: booz-allan-hamilton.svg
           - item:
@@ -12738,7 +12749,7 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             yahoo_finance_data:
-              market_cap: 23695507456
+              market_cap: 23752167424
               effective_ticker: RHT
             image_data:
               fileName: core-os-kcsp.png
@@ -12877,7 +12888,7 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             yahoo_finance_data:
-              market_cap: 142761607168
+              market_cap: 143275409408
               effective_ticker: IBM
             image_data:
               fileName: ibm-cloud.svg
