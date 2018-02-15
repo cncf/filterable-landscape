@@ -1785,8 +1785,9 @@ landscape:
           - item:
             name: Runner
             organization: GitLab
+            description: GitLab Runner is the open source project that is used to run your jobs and send the results back to GitLab. It is used in conjunction with GitLab CI, the open-source continuous integration service included with GitLab that coordinates the jobs.
             homepage_url: 'https://docs.gitlab.com/runner/'
-            repo_url: 'https://github.com/ayufan/gitlab-ci-multi-runner'
+            repo_url: 'https://github.com/gitlabhq/gitlab-runner'
             logo: 'https://gitlab.com/uploads/-/system/project/avatar/250833/runner_logo.png'
             twitter: 'https://twitter.com/gitlab'
             crunchbase: 'https://www.crunchbase.com/organization/gitlab-com'
