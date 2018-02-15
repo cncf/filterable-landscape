@@ -34,7 +34,8 @@ export default {
         removeComments: true,
         collapseWhitespace: true
       },
-      inject: true
+      inject: true,
+      useRootcause: false
     })
   ],
   module: {
@@ -43,6 +44,9 @@ export default {
         test: /\.jsx?$/,
         exclude: /node_modules/,
         use: ['babel-loader']
+      },
+      {
+        test: /\.ejs$/, loader: 'ejs-loader',
       },
       {
         test: /\.eot(\?v=\d+.\d+.\d+)?$/,
