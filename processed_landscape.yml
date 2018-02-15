@@ -2755,24 +2755,23 @@ landscape:
               fileName: intel-clear-containers.svg
           - item:
             name: Kata Containers
-            organization: Kata Containers
+            organization: OpenStack
             homepage_url: 'https://katacontainers.io/'
             repo_url: 'https://github.com/kata-containers/runtime'
-            logo: >-
-              https://camo.githubusercontent.com/4679e998080f65b3592aee5962c8bf5bde8d68ee/68747470733a2f2f7777772e6f70656e737461636b2e6f72672f6173736574732f6b6174612f6b6174612d766572746963616c2d6f6e2d77686974652e706e67
+            logo: 'https://katacontainers.io/img/logo.svg'
             twitter: 'https://twitter.com/KataContainers'
-            crunchbase: 'https://www.crunchbase.com/organization/kata-containers'
+            crunchbase: 'https://www.crunchbase.com/organization/openstack'
             crunchbase_data:
-              name: Kata Containers
-              description: Container Runtime
-              num_employees_min: null
-              num_employees_max: null
-              homepage: 'https://katacontainers.io/'
-              city: null
-              region: null
-              country: null
-              twitter: 'https://twitter.com/KataContainers'
-              linkedin: null
+              name: OpenStack
+              description: OpenStack is the most widely used open source software for building public and private clouds.
+              num_employees_min: 11
+              num_employees_max: 50
+              homepage: 'http://www.openstack.org'
+              city: Austin
+              region: Texas
+              country: United States
+              twitter: 'http://twitter.com/OpenStack'
+              linkedin: 'http://www.linkedin.com/company/openstack'
             github_data:
               stars: 71
               license: Apache-2.0
@@ -2785,7 +2784,7 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             image_data:
-              fileName: kata-containers.png
+              fileName: kata-containers.svg
           - item:
             name: lxd
             organization: Canonical
