@@ -6854,20 +6854,20 @@ landscape:
             repo_url: 'https://github.com/wercker/wercker'
             logo: 'https://cdn.worldvectorlogo.com/logos/oracle-6.svg'
             twitter: 'https://twitter.com/wercker'
-            crunchbase: 'https://www.crunchbase.com/organization/wercker'
+            crunchbase: 'https://www.crunchbase.com/organization/oracle'
             crunchbase_data:
-              name: Wercker
-              description: 'Wercker is a platform and tool to rapidly develop, build, and deploy containerized applications and microservices for the modern cloud.'
-              num_employees_min: 11
-              num_employees_max: 50
-              homepage: 'http://wercker.com'
-              city: Amsterdam
-              region: Noord-Holland
-              country: The Netherlands
-              twitter: 'http://twitter.com/wercker'
-              linkedin: 'https://www.linkedin.com/company/2691983'
-              kind: funding
-              funding: 7900000
+              name: Oracle
+              description: Oracle is a computer technology corporation developing and marketing computer hardware systems and enterprise software products.
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: 'http://oracle.com'
+              city: Redwood Shores
+              region: California
+              country: United States
+              twitter: 'http://twitter.com/Oracle'
+              linkedin: 'http://www.linkedin.com/company/1028'
+              ticker: ORCL
+              kind: market_cap
             github_data:
               stars: 523
               license: Apache-2.0
@@ -6879,6 +6879,9 @@ landscape:
               start_date: '2014-06-11T09:28:28Z'
             cncf_membership_data:
               cncf_member: true
+            yahoo_finance_data:
+              market_cap: 204703219712
+              effective_ticker: ORCL
             image_data:
               fileName: oracle-cloud.svg
           - item:
@@ -8298,7 +8301,7 @@ landscape:
             name: Oracle Container Engine
             organization: Oracle
             description: Next generation of container-native development. Container life cycle made easy.
-            homepage_url: 'http://www.wercker.com/product'
+            homepage_url: 'https://cloud.oracle.com/containers/engine/features'
             logo: 'https://cdn.worldvectorlogo.com/logos/oracle-6.svg'
             crunchbase: 'https://www.crunchbase.com/organization/oracle'
             crunchbase_data:
@@ -8322,7 +8325,7 @@ landscape:
             image_data:
               fileName: oracle-cloud.svg
           - item:
-            name: 'SAP Cloud Platform - Gardener (AWS, Azure, GCE)'
+            name: SAP Cloud Platform - Gardener
             organization: SAP
             description: >-
               SAP Cloud Platform is an open platform as a service (PaaS) which provides customers and partners with in-memory capabilities, core platform

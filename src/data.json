@@ -11816,12 +11816,12 @@
   },
   {
     "name": "Wercker",
-    "organization": "Wercker",
+    "organization": "Oracle",
     "homepage_url": "https://www.wercker.com/",
     "repo_url": "https://github.com/wercker/wercker",
     "logo": "https://cdn.worldvectorlogo.com/logos/oracle-6.svg",
     "twitter": "https://twitter.com/wercker",
-    "crunchbase": "https://www.crunchbase.com/organization/wercker",
+    "crunchbase": "https://www.crunchbase.com/organization/oracle",
     "github_data": {
       "stars": 523,
       "license": "Apache-2.0",
@@ -11836,6 +11836,10 @@
     "cncf_membership_data": {
       "cncf_member": true
     },
+    "yahoo_finance_data": {
+      "market_cap": 204703219712,
+      "effective_ticker": "ORCL"
+    },
     "image_data": {
       "fileName": "oracle-cloud.svg"
     },
@@ -11847,29 +11851,29 @@
     "latestCommitLink": "/wercker/wercker/commit/713f717b606e99f057960623354e0169e149644e",
     "stars": 523,
     "license": "Apache-2.0",
-    "headquarters": "Amsterdam, The Netherlands",
+    "headquarters": "Redwood Shores, California",
     "description": "The Wercker CLI can be used to execute pipelines locally for both local development and easy introspection.",
     "crunchbaseData": {
-      "name": "Wercker",
-      "description": "Wercker is a platform and tool to rapidly develop, build, and deploy containerized applications and microservices for the modern cloud.",
-      "num_employees_min": 11,
-      "num_employees_max": 50,
-      "homepage": "http://wercker.com",
-      "city": "Amsterdam",
-      "region": "Noord-Holland",
-      "country": "The Netherlands",
-      "twitter": "http://twitter.com/wercker",
-      "linkedin": "https://www.linkedin.com/company/2691983",
-      "kind": "funding",
-      "funding": 7900000,
-      "numEmployeesMin": 11,
-      "numEmployeesMax": 50
+      "name": "Oracle",
+      "description": "Oracle is a computer technology corporation developing and marketing computer hardware systems and enterprise software products.",
+      "num_employees_min": 10001,
+      "num_employees_max": 1000000,
+      "homepage": "http://oracle.com",
+      "city": "Redwood Shores",
+      "region": "California",
+      "country": "United States",
+      "twitter": "http://twitter.com/Oracle",
+      "linkedin": "http://www.linkedin.com/company/1028",
+      "ticker": "ORCL",
+      "kind": "market_cap",
+      "numEmployeesMin": 10001,
+      "numEmployeesMax": 1000000
     },
     "path": "App Definition and Developement / CI/CD",
     "landscape": "App Definition and Developement / CI/CD",
     "category": "App Definition and Developement",
-    "amountKind": "funding",
-    "amount": 7900000,
+    "amountKind": "market_cap",
+    "amount": 204703219712,
     "oss": true,
     "href": "/logos/oracle-cloud.svg",
     "id": "wercker"
@@ -14276,7 +14280,7 @@
     "name": "Oracle Container Engine",
     "organization": "Oracle",
     "description": "Next generation of container-native development. Container life cycle made easy.",
-    "homepage_url": "http://www.wercker.com/product",
+    "homepage_url": "https://cloud.oracle.com/containers/engine/features",
     "logo": "https://cdn.worldvectorlogo.com/logos/oracle-6.svg",
     "crunchbase": "https://www.crunchbase.com/organization/oracle",
     "cncf_membership_data": {
@@ -14320,7 +14324,7 @@
     "id": "oracle-container-engine"
   },
   {
-    "name": "SAP Cloud Platform - Gardener (AWS, Azure, GCE)",
+    "name": "SAP Cloud Platform - Gardener",
     "organization": "SAP",
     "description": "SAP Cloud Platform is an open platform as a service (PaaS) which provides customers and partners with in-memory capabilities, core platform services, and unique business services for building and extending personalized, collaborative, mobile-enabled cloud applications. SAP Cloud Platform is designed to accelerate digital transformation across your business by enabling your organization to build the exact application you need more quickly, easily, and economically – all  without the requirement of maintaining or investing in on-premises infrastructure. Based on open standards, SAP Cloud Platform offers complete flexibility and control over your choice of clouds, frameworks, and applications.",
     "homepage_url": "https://cloudplatform.sap.com/index.html",
@@ -14364,7 +14368,7 @@
     "amount": 119202693120,
     "oss": false,
     "href": "/logos/sap-cloud-platform-gardener-aws-azure-gce.svg",
-    "id": "sap-cloud-platform-gardener-aws-azure-gce"
+    "id": "sap-cloud-platform-gardener"
   },
   {
     "name": "Tencent Cloud Container Service (CCS)",
