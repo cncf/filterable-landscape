@@ -12,7 +12,7 @@ a {text-decoration: none; transition: all 0.5s; color: $blue;
 .wrapper{
   overflow:hidden;
   font-family: "Roboto", "Helvetica", "Arial", sans-serif;
-  padding-left:20px;
+  padding-left: 20px;
 }
 
 .content-wrapper {
@@ -23,30 +23,34 @@ a {text-decoration: none; transition: all 0.5s; color: $blue;
   background-color: #aaa;
 }
 
-.content-sidebar {
-  flex: 150px 0 0;
-  padding: 13px 0 0 10px;
-
-}
 
 .sh_wrapper{
   position: relative;
-  margin: 7px;
   font-size: 1em;
   background-color: #e8e8e8;
   border-radius: 10px;
-  div{
-    font-size:0.8em !important;
-  }
+  margin: 0.5rem 5px;
+  div{font-size:0.8em !important;}
 
 }
 
-.disclaimer{
-  padding:0 0 10px 10px;
-  color: #9b9b9b;
-  font-size:0.8em;
-  a{
-    color:#366fa8;
+.disclaimer {margin: -60px 5px 5px; margin-bottom: 1rem; color: #9b9b9b; font-size: 0.8em; padding-right: 220px;
+  a {color: #366fa8;}
+  @media (max-width: 767px) {padding-right: 0;}
+}
+
+.header_container {z-index: 2; height: 70px;
+  .header {padding: 20px;
+    .landscape-logo {position: fixed; top: 0; left: 0;  padding: 20px; width: 215px; height: 70px; z-index: 2;
+      background: #f4f4f4 url(./assets/cncf-landscape.png) 20px 20px no-repeat; background-size: 126px 30px;
+      transform: none; transition: all 0.3s;
+      @media (max-width: 767px) {width: 100%; padding-left: 60px; background-position: 60px 20px;}
+    }
+    .cncf-logo{display: block; width: 200px; height: 30px; position: absolute; top: 20px; right: 20px;
+      background: url(./assets/cncf.png) 50% 50% no-repeat; background-size: 90%;
+      @media (max-width: 767px) {display: none;}
+    }
+    .info {margin-top: -32px; padding-left: 20px; height: auto;}
   }
 }
 
@@ -54,10 +58,31 @@ a {text-decoration: none; transition: all 0.5s; color: $blue;
   legend{
     font-size:0.6em !important;
   }
-  fieldset{
-    margin-top:5px;
+
+  .title{
+    display:flex;
+    flex-direction: column;
+    font-size:1.3em;
+    color: #6d7e90 !important;
+    align-items: flex-end;
+    padding: 10px 0 0 20px;
+    a {color:#949494;}
+    p {color: #CCC; font-size: 0.6em; margin: 3px 0;}
+
   }
-  &-presets {margin: 3rem 0; font-size: 0.6em; width: 160px;
+}
+
+.sidebar {width: 215px; position: fixed; top: 70px; left: 0; bottom: 0; overflow: auto; padding: 12px 20px;
+  .sidebar-collapse {position: absolute; top: 11px; right: 11px; display: none; z-index: 3;}
+  @media (max-width: 767px) {transform: translate(-215px, 0); transition: 0.3s; top: 0; z-index: 5; background: #fff;
+    .sidebar-collapse {display: block;}
+    .filters-opened & {transform: none;}
+  }
+  legend {font-size: 0.7em !important;}
+  fieldset {margin-top:5px;}
+  .content-sidebar {flex: 150px 0 0; padding: 13px 0 0 20px;}
+  &-presets {
+    margin: 3rem -10px; font-size: 0.8rem; width: 160px;
     h4 { padding: 0px 10px;}
     div {margin-bottom: 0.5em;}
     a {text-decoration: none; color: rgb(54, 111, 168); display: block; padding: 5px 10px;
@@ -65,6 +90,25 @@ a {text-decoration: none; transition: all 0.5s; color: $blue;
       &:hover, &.active {background: rgba(0,0,0,0.05);}
     }
   }
+}
+
+.app {
+  .sidebar-show {display: none;}
+  @media (max-width: 767px) {
+    .sidebar-show {display: block; position: fixed; top: 11px; left: 11px; z-index: 3;
+    }
+  }
+}
+
+.app-overlay {opacity: 0; position: fixed; top: 0; left: 0; bottom: 0; width: 100%; background: #000; margin-left: -100%;
+  transition: opacity 0.3s, margin 0s; transition-delay: 0s, 0.3s; z-index: 4;
+}
+.filters-opened {overflow: hidden;
+  .app-overlay {margin: 0; opacity: 0.4; transition-delay: 0s, 0s;}
+}
+
+.main {margin-left: 215px; padding: 10px;
+  @media (max-width: 767px) {margin-left: 0; position: relative; padding-top: 70px;}
   &-note {background: #e8e8e8; font-size: 0.7rem; color: #999; padding: 10px 15px; border-radius: 3px;}
 }
 
@@ -99,13 +143,21 @@ a {text-decoration: none; transition: all 0.5s; color: $blue;
 
 }
 
-.mosaic{
+.mosaic {
+  &-wrap {padding: 5px; display: inline-block; width: 200px;
+    /*  @media (min-width: 250px) {width: 100%;}
+    @media (min-width: 400px) {width: 50%;}
+    @media (min-width: 600px) {width: 33.3333%;}
+    @media (min-width: 768px) {width: 50%;}
+    @media (min-width: 900px) {width: 33.3333%;}
+    @media (min-width: 1024px) {width: 25%;}
+    @media (min-width: 1270px) {width: 20%;}
+    @media (min-width: 1500px) {width: 16.666%;}
+     */
+  }
+  height: 200px;
   cursor: pointer;
   position: relative;
-  display: inline-block;
-  width: 200px;
-  height: 200px;
-  margin: 4px 6px;
   border-radius:2px;
   box-shadow: 1px 1px 3px #d6d6d6;
   background: #fff;
@@ -160,82 +212,3 @@ a {text-decoration: none; transition: all 0.5s; color: $blue;
   &-funding {white-space: nowrap;}
 }
 
-.header_container{
-  display:flex;
-  align-items: center;
-  left: 0;
-  width:100%;
-
-  .header{
-    flex:1;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    padding: 15px 0;
-
-    .logos{
-      display: flex;
-      justify-content: space-between;
-      width:100%;
-
-      div{
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-size: 90%;
-        height: 30px;
-        padding:10px 0;
-
-        &.cncf_logo{
-          background-image: url(./assets/cncf.png);
-          min-width: 200px;
-
-        }
-
-        &.info {
-          margin-top: -32px;
-          padding-left: 20px;
-          height: auto;
-
-        }
-
-        &.cncf_landscape{
-          background-image: url(./assets/cncf-landscape.png);
-          min-width: 150px;
-        }
-
-      }
-
-    }
-
-  }
-
-  .title{
-    display:flex;
-    flex-direction: column;
-    font-size:1.3em;
-    color: #6d7e90 !important;
-    align-items: flex-end;
-    padding: 10px 0 0 20px;
-
-    a{
-      color:#949494;
-    }
-
-    p{
-      color:#CCC;
-      font-size:0.6em;
-      margin:3px 0;
-    }
-
-  }
-}
-
-@media (max-width: 300px) {
-  .header_container {
-    justify-content: flex-start;
-    align-items: flex-start;
-    position: fixed;
-    left: 0;
-    top: 0;
-  }
-}

@@ -10,9 +10,10 @@ const MainContent = ({groupedItems, onSelectItem}) => {
     return [
       <div className="sh_wrapper" key={"subheader:" + groupedItem.header}>
           <Subheader component="div" style={{fontSize: 24}}>{groupedItem.header} ({groupedItem.items.length})</Subheader>
-      </div>
+      </div> 
     ].concat(_.map(groupedItem.items, function(item) {
-      return (<div className={classNames('mosaic',{inception : item.cncfRelation ==='inception'},
+      return (<div className="mosaic-wrap">
+        <div className={classNames('mosaic',{inception : item.cncfRelation ==='inception'},
                                                   {incubating : item.cncfRelation ==='incubating'},
                                                   {graduated : item.cncfRelation ==='graduated'},
                                                   {nonoss : item.oss === false})}
@@ -37,11 +38,12 @@ const MainContent = ({groupedItems, onSelectItem}) => {
                     }
                   </div>
                 </div>
-              </div>);
+              </div>
+            </div>);
     }));
   });
   return (
-      <div>
+      <div className="column-content">
       { _.flatten(itemsAndHeaders) }
     </div>
   );
