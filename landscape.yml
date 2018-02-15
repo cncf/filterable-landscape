@@ -317,7 +317,7 @@ landscape:
             name: Azure Registry
             organization: Microsoft
             homepage_url: 'https://azure.microsoft.com/en-us/services/container-registry/'
-            logo: 'https://azure.microsoft.com/svghandler/container-registry/?width=600&height=315'
+            logo: ./src/hosted_logos/azureregistry.svg
             twitter: 'https://twitter.com/azure'
             crunchbase: 'https://www.crunchbase.com/organization/microsoft'
           - item:
@@ -367,7 +367,7 @@ landscape:
             organization: Anchore
             homepage_url: 'https://anchore.io/'
             repo_url: 'https://github.com/anchore/anchore-engine'
-            logo: 'http://www.marketwire.com/library/MwGo/2016/4/5/11G092078/Anchore_RGB-14b85fa3801f8889be493bbb8e62e356.jpg'
+            logo: ./src/hosted_logos/anchore.svg
             twitter: 'https://twitter.com/anchore'
             crunchbase: 'https://www.crunchbase.com/organization/anchore-inc'
           - item:
@@ -490,7 +490,7 @@ landscape:
             organization: Scytale
             homepage_url: 'https://spiffe.io/spire/'
             repo_url: 'https://github.com/spiffe/spire'
-            logo: 'https://github.com/spiffe/spire/blob/master/doc/images/spire_logo.png'
+            logo: ./src/hosted_logos/spire.svg
             twitter: 'https://twitter.com/scytale_io'
             crunchbase: 'https://www.crunchbase.com/organization/scytale-io'
   - category:
@@ -632,7 +632,7 @@ landscape:
             organization: Dell EMC
             homepage_url: 'https://rexray.thecodeteam.com/'
             repo_url: 'https://github.com/codedellemc/rexray'
-            logo: 'https://dev.acquia.com/sites/default/files/blog/grid-rexray.png'
+            logo: ./src/hosted_logos/rexray.svg
             twitter: 'https://twitter.com/codedellemc'
             crunchbase: 'https://www.crunchbase.com/organization/dell-emc'
           - item:
@@ -779,7 +779,7 @@ landscape:
             organization: Tigera
             homepage_url: 'https://github.com/projectcalico/canal'
             repo_url: 'https://github.com/projectcalico/canal'
-            logo: 'https://raw.githubusercontent.com/projectcalico/canal/master/logos/canal-logo-type-full-color%20328x184.png'
+            logo: ./src/hosted_logos/canal.svg
             twitter: 'https://twitter.com/projectcalico'
             crunchbase: 'https://www.crunchbase.com/organization/tigera'
           - item:
@@ -1017,11 +1017,11 @@ landscape:
             logo: ./src/hosted_logos/smartstack.svg
             crunchbase: 'https://www.crunchbase.com/organization/airbnb'
           - item:
-            name: Zookeeper
+            name: Apache Zookeeper
             organization: Apache
             homepage_url: 'http://zookeeper.apache.org/'
             repo_url: 'https://github.com/apache/zookeeper'
-            logo: 'https://www.opsview.com/sites/default/files/Zookeeper%20Logo%20REV.png'
+            logo: ./src/hosted_logos/zookeeper.svg
             twitter: 'https://twitter.com/TheASF'
             crunchbase: 'https://www.crunchbase.com/organization/apache'
       - subcategory:
@@ -1048,7 +1048,7 @@ landscape:
             organization: Apache
             homepage_url: 'https://avro.apache.org/'
             repo_url: 'https://github.com/apache/avro'
-            logo: 'https://avro.apache.org/images/avro-logo.png'
+            logo: ./src/hosted_logos/avro.svg
             twitter: 'https://twitter.com/TheASF'
             crunchbase: 'https://www.crunchbase.com/organization/apache'
           - item:
@@ -1141,6 +1141,13 @@ landscape:
             twitter: 'https://twitter.com/nginx'
             crunchbase: 'https://www.crunchbase.com/organization/nginx'
           - item:
+            name: Open Service Broker API
+            organization: Cloud Foundry
+            homepage_url: 'https://www.openservicebrokerapi.org/'
+            repo_url: 'https://github.com/openservicebrokerapi/servicebroker'
+            logo: 'https://www.cloudfoundry.org/wp-content/uploads/2012/02/osb_logo.png'
+            crunchbase: 'https://www.crunchbase.com/organization/cloud-foundry'
+          - item:
             name: Ribbon
             organization: Netflix
             homepage_url: 'https://github.com/Netflix/ribbon'
@@ -1232,7 +1239,7 @@ landscape:
             organization: Counchbase
             homepage_url: 'https://www.couchbase.com/'
             repo_url: 'https://github.com/couchbase/couchbase-lite-ios'
-            logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Couchbase%2C_Inc._official_logo.png/250px-Couchbase%2C_Inc._official_logo.png'
+            logo: ./src/hosted_logos/couchbase.svg
             twitter: 'https://twitter.com/couchbase'
             crunchbase: 'https://www.crunchbase.com/organization/couchbase'
           - item:
@@ -1271,7 +1278,8 @@ landscape:
             name: Iguazio
             organization: iguazio
             homepage_url: 'https://www.iguazio.com/'
-            logo: 'https://i0.wp.com/martechseries.com/wp-content/uploads/2017/07/iguazio.jpg'
+            logo: 'https://pbs.twimg.com/media/DFl7P1DUwAA1KrW.png'
+            best_res: ''
             twitter: 'https://twitter.com/iguazio'
             crunchbase: 'https://www.crunchbase.com/organization/iguaz-io'
           - item:
@@ -1280,14 +1288,14 @@ landscape:
             homepage_url: 'https://mariadb.org/'
             repo_url: 'https://github.com/MariaDB/server'
             branch: '10.3'
-            logo: 'https://www.clearos.com/images/marketplace-svg/mariadb.svg'
+            logo: ./src/hosted_logos/mariadb.svg
             twitter: 'https://twitter.com/mariadbfdn'
             crunchbase: 'https://www.crunchbase.com/organization/mariadb-2'
           - item:
             name: MemSQL
             organization: MemSQL
             homepage_url: 'https://www.memsql.com/'
-            logo: 'https://diamanti.com/static/app/img/what-we-do/memsql-logo.png'
+            logo: ./src/hosted_logos/memsql.svg
             twitter: 'https://twitter.com/memsql/'
             crunchbase: 'https://www.crunchbase.com/organization/memsql'
           - item:
@@ -1327,7 +1335,7 @@ landscape:
             organization: Pachyderm
             homepage_url: 'http://www.pachyderm.io/'
             repo_url: 'https://github.com/pachyderm/pachyderm'
-            logo: 'https://crunchbase-production-res.cloudinary.com/image/upload/v1441394109/w8muln3r8jvrk5g0ngmj.png'
+            logo: ./src/hosted_logos/pachyderm.svg
             twitter: 'https://twitter.com/pachydermIO'
             crunchbase: 'https://www.crunchbase.com/organization/pachyderm'
           - item:
@@ -1439,7 +1447,7 @@ landscape:
             organization: Apache
             homepage_url: 'http://storm.apache.org/'
             repo_url: 'https://github.com/apache/storm'
-            logo: 'http://storm.apache.org/images/logo.png'
+            logo: ./src/hosted_logos/apache-storm.svg
             twitter: 'https://twitter.com/stormprocessor'
             crunchbase: 'https://www.crunchbase.com/organization/apache'
           - item:
@@ -1447,7 +1455,7 @@ landscape:
             organization: Apache
             homepage_url: 'https://apex.apache.org/'
             repo_url: 'https://github.com/apache/apex-core'
-            logo: 'https://upload.wikimedia.org/wikipedia/commons/e/e1/Apache_Apex_Logo.png'
+            logo: ./src/hosted_logos/apache-apex.svg
             twitter: 'https://twitter.com/apacheapex/'
             crunchbase: 'https://www.crunchbase.com/organization/apache'
           - item:
@@ -1684,7 +1692,7 @@ landscape:
             organization: Huawei
             homepage_url: 'http://containerops.org/'
             repo_url: 'https://github.com/Huawei/containerops'
-            logo: 'http://image20.it168.com/201706_335x251/2924/5f8a80a4b4fadf88.png'
+            logo: ./src/hosted_logos/containerops.svg
             twitter: 'https://twitter.com/Huawei'
             crunchbase: 'https://www.crunchbase.com/organization/huawei'
           - item:
@@ -1706,7 +1714,7 @@ landscape:
             name: GitLab Runner
             organization: GitLab
             homepage_url: 'https://docs.gitlab.com/runner/'
-            repo_url: 'https://gitlab.com/gitlab-org/gitlab-runner'
+            repo_url: 'https://github.com/ayufan/gitlab-ci-multi-runner'
             logo: 'https://gitlab.com/uploads/-/system/project/avatar/250833/runner_logo.png'
             twitter: 'https://twitter.com/gitlab'
             crunchbase: 'https://www.crunchbase.com/organization/gitlab-com'
@@ -1768,7 +1776,7 @@ landscape:
             repo_url: 'https://github.com/wercker/wercker'
             logo: 'https://cdn.worldvectorlogo.com/logos/oracle-6.svg'
             twitter: 'https://twitter.com/wercker'
-            crunchbase: 'https://www.crunchbase.com/organization/wercker'
+            crunchbase: 'https://www.crunchbase.com/organization/oracle'
           - item:
             name: XL Deploy
             organization: XebiaLabs
@@ -1780,31 +1788,12 @@ landscape:
     name: Platform
     subcategories:
       - subcategory:
-        name: Certified Kubernetes
+        name: Certified Kubernetes - Distribution
         items:
-          - item:
-            name: Alauda EE
-            organization: Alauda
-            certified_kubernetes: Platform
-            homepage_url: 'https://www.alauda.cn/product/detail/id/68.html'
-            logo: 'http://cdn4.infoqstatic.com/statics_s1_20180206-0549-1/images/partners/cn/company/alauda.svg'
-            crunchbase: 'https://www.crunchbase.com/organization/alauda'
-          - item:
-            name: Alibaba Cloud Container Service
-            organization: Alibaba
-            description: >-
-              Container Services Provides high-performance, scalable container application management services that enable lifecycle management of containerized
-              applications with Docker and Kubernetes, multiple application deployment methods and continuous delivery capabilities, and support for
-              microservices architecture.
-            certified_kubernetes: Platform
-            homepage_url: 'https://www.alibabacloud.com/product/container-service?spm=a3c0i.7911826.709257.dproducta4.1010a3feFbGgBW'
-            logo: ./src/hosted_logos/alibaba-cloud.svg
-            crunchbase: 'https://www.crunchbase.com/organization/alibaba-cloud'
           - item:
             name: Apprenda Kismatic Enterprise Toolkit (KET)
             organization: Apprenda
             description: The open source enterprise toolkit for deploying and operating full lifecycle Kubernetes clusters in production.
-            certified_kubernetes: Distribution
             homepage_url: 'https://apprenda.com/kismatic/'
             repo_url: 'https://github.com/apprenda/kismatic'
             logo: 'https://cdn.evbuc.com/images/27464188/125492687415/2/logo.png'
@@ -1813,46 +1802,15 @@ landscape:
             name: Appscode Pharmer
             organization: Appscode
             description: Kubernetes Cluster Manager for Kubeadm
-            certified_kubernetes: Distribution
             homepage_url: 'https://appscode.com/products/pharmer/'
             logo: 'https://appscode.com/images/logo-color.svg'
             crunchbase: 'https://www.crunchbase.com/organization/appscode'
-          - item:
-            name: Azure (ACS) Engine
-            organization: Microsoft
-            description: Azure Container Service Engine - a place for community to collaborate and build the best open Docker container infrastructure for Azure.
-            certified_kubernetes: Platform
-            homepage_url: 'https://github.com/Azure/acs-engine'
-            repo_url: 'https://github.com/Azure/acs-engine'
-            logo: 'https://www.datocms-assets.com/2885/1513729661-azure_logo_blue.svg'
-            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
-          - item:
-            name: Azure Container Service (AKS)
-            organization: Microsoft
-            description: >-
-              Simplify the deployment, management, and operations of Kubernetes. Use a fully managed Kubernetes container orchestration service or choose other
-              orchestrators.
-            certified_kubernetes: Platform
-            homepage_url: 'https://azure.microsoft.com/en-us/services/container-service/'
-            logo: 'https://www.datocms-assets.com/2885/1513729661-azure_logo_blue.svg'
-            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
-          - item:
-            name: BoCloud BeyondcentContainer
-            organization: BoCloud
-            description: >-
-              PaaS cloud solutions for docketing and managing Internet applications using docker container technology. Help customers respond to the explosive
-              and unpredictable nature of Internet services.
-            certified_kubernetes: Platform
-            homepage_url: 'http://bocloud.com.cn/product_container.html'
-            logo: 'http://images.tmtpost.com/uploads/images/2017/05/10/de220d631464bcf29f89ac3e434c262614944057435518.jpg'
-            crunchbase: 'https://www.crunchbase.com/organization/bocloud'
           - item:
             name: Caicloud Compass
             organization: Caicloud
             description: >-
               Compass is an enterprise container cluster management platform based on Kubernetes and Google's 10-year container usage best practices, to provide
               users with a stable, easy-to-use, and secure multi-cloud hybrid cloud management solution across clusters.
-            certified_kubernetes: Distribution
             homepage_url: 'https://caicloud.io/products/compass'
             logo: 'https://caicloud.io/_static/caicloud_logo.svg'
             crunchbase: 'https://www.crunchbase.com/organization/caicloud'
@@ -1862,35 +1820,22 @@ landscape:
             description: >-
               This is pure Kubernetes tested across the widest range of clouds with modern metrics and monitoring, brought to you by the people who deliver
               Ubuntu.
-            certified_kubernetes: Distribution
-            homepage_url: 'https://caicloud.io/products/compass'
+            homepage_url: 'https://www.ubuntu.com/kubernetes'
             repo_url: 'https://github.com/juju-solutions/bundle-canonical-kubernetes'
             logo: 'https://zentera.net/wp-content/uploads/2015/10/Canonical.png'
             crunchbase: 'https://www.crunchbase.com/organization/canonical-ltd'
           - item:
-            name: Cisco Container Platform
-            organization: Cisco
-            description: >-
-              Cisco Container Platform (CCP) automates the repetitive things and simplifies the complex ones so everyone can just go back to enjoying the magic
-              of containers.
-            certified_kubernetes: Platform
-            homepage_url: 'https://www.cisco.com/c/en/us/products/cloud-systems-management/container-platform/index.html'
-            logo: 'https://merchandise-store.cisco.com/skin/frontend/ultimo/fullpond/images/Cisco_Logo.svg'
-            crunchbase: 'https://www.crunchbase.com/organization/cisco'
-          - item:
             name: Cloud Foundry Container Runtime
             organization: Cloud Foundry
-            description: ' Cloud Foundry Application Runtime utilizes containers as part of its DNA, and has since before Docker popularized containers. The new CF Container Runtime gives you more granular control and management of containers with Kubernetes.'
-            certified_kubernetes: Platform
-            homepage_url: 'https://www.cloudfoundry.org/'
+            description: 'Cloud Foundry Container Runtime gives you more granular control and management of containers with Kubernetes.'
+            homepage_url: 'https://www.cloudfoundry.org/container-runtime/'
             repo_url: 'https://github.com/cloudfoundry-incubator/kubo-deployment'
-            logo: ./src/hosted_logos/cloudfoundry.svg
+            logo: './src/hosted_logos/cloudfoundry-containerruntime.svg'
             crunchbase: 'https://www.crunchbase.com/organization/cloud-foundry'
           - item:
             name: CoreOS bootkube
             organization: CoreOS
             description: Bootkube is a tool for launching self-hosted Kubernetes clusters.
-            certified_kubernetes: Distribution
             homepage_url: 'https://github.com/kubernetes-incubator/bootkube'
             repo_url: 'https://github.com/kubernetes-incubator/bootkube'
             logo: 'https://i.pinimg.com/originals/8d/4b/d4/8d4bd4b4011e8cd7c5c0b1478855f21d.jpg'
@@ -1899,7 +1844,6 @@ landscape:
             name: DaoCloud Enterprise
             organization: DaoCloud
             description: 'With DaoCloud Enterprise, support for cloud native applications quickly bring innovative business to market.'
-            certified_kubernetes: Distribution
             homepage_url: 'https://www.daocloud.io'
             logo: 'https://opencollective-production.s3-us-west-1.amazonaws.com/6d959930-b283-11e7-aea9-770057e229d7.png'
             crunchbase: 'https://www.crunchbase.com/organization/dao-cloud'
@@ -1909,7 +1853,6 @@ landscape:
             description: >-
               Diamanti brings to market the first purpose built bare metal container platform for moving your applications from development to production.
               Diamanti accelerates time-to-market, guarantees real-time service levels, and consolidates containers with 90% utilization.
-            certified_kubernetes: Distribution
             homepage_url: 'https://diamanti.com/products/'
             logo: 'http://events.vmblog.com/images/dockercon/diamanti-logo-600.png'
             crunchbase: 'https://www.crunchbase.com/organization/diamanti'
@@ -1919,34 +1862,15 @@ landscape:
             description: >-
               The Docker platform is getting support for Kubernetes. This means that developers and operators can build apps with Docker and seamlessly test and
               deploy them using both Docker Swarm and Kubernetes.
-            certified_kubernetes: Distribution
             homepage_url: 'https://www.docker.com/kubernetes'
             logo: 'https://mblum.me/images/docker.svg'
             crunchbase: 'https://www.crunchbase.com/organization/docker'
-          - item:
-            name: EasyStack Kubernetes Service (EKS)
-            organization: EasyStack
-            description: >-
-              EasyStack Kubernetes Service's enterprise container platform integrates applications and infrastructure resources through deep integration of
-              Kubernetes and OpenStack platforms in multiple management dimensions such as scheduling, scheduling, security, operation and maintenance, and
-              finally launches a new generation of application delivery in the cloud data center One kilometer, play 1 +1> 2 performance advantages.
-            certified_kubernetes: Platform
-            homepage_url: 'https://easystack.cn/eks/'
-            logo: 'https://easystack.cn/static/cn/images/easystack-logo.png'
-            crunchbase: 'https://www.crunchbase.com/organization/easystack'
-          - item:
-            name: eKing Cloud Container Platform
-            organization: Hainan Eking
-            certified_kubernetes: Platform
-            homepage_url: 'http://www.haihangyun.com/landing'
-            logo: 'http://www.chinatravelnews.com/images/201512/287461104de1f06f.jpg'
           - item:
             name: Ghostcloud EcOS
             organization: Ghostcloud
             description: >-
               Enterprise Container Operation System(EcOS) is an enterprise-grade PaaS / CaaS platform based on Docker &Kubernetes. The EcOS-Kubernetes platform
               makes it easier to configure, deploy and manage containerized applications.
-            certified_kubernetes: Distribution
             homepage_url: 'https://www.ghostcloud.cn/ecos-kubernetes/'
             logo: 'https://assets.sdxcentral.com/ghostcloud-logo.png'
           - item:
@@ -1955,79 +1879,28 @@ landscape:
             description: >-
               Next to open source products from various leading companies in the ecosystem, we develop our own tools that interact with, automate, and manage
               the infrastructure and its components.
-            certified_kubernetes: Distribution
             homepage_url: 'https://giantswarm.io/product/'
             logo: 'http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/giant-swarm.png'
             crunchbase: 'https://www.crunchbase.com/organization/giant-swarm'
           - item:
             name: Google Kube-Up
             organization: Google
-            certified_kubernetes: Distribution
             homepage_url: 'https://github.com/kubernetes/kubernetes/tree/master/cluster'
             repo_url: 'https://github.com/kubernetes/kube-deploy'
             logo: 'https://www.google.com/cloud/assets/global/google/google_cloud_color.svg'
             crunchbase: 'https://www.crunchbase.com/organization/google-cloud-platform'
           - item:
-            name: Google Kubernetes Engine (GKE)
-            organization: Google
-            description: >-
-              Google Kubernetes Engine is a managed environment for deploying containerized applications. It brings our latest innovations in developer
-              productivity, resource efficiency, automated operations, and open source flexibility to accelerate your time to market.
-            certified_kubernetes: Platform
-            homepage_url: 'https://cloud.google.com/kubernetes-engine/'
-            logo: ./src/hosted_logos/google-kubernetesengine.svg
-            crunchbase: 'https://www.crunchbase.com/organization/google-cloud-platform'
-          - item:
-            name: HarmonyCloud Container Platform
-            organization: Harmony Cloud
-            description: 'Kubernetes, second generation PaaS cloud computing platform, builds industry-leading container cloud computing framework'
-            certified_kubernetes: Platform
-            homepage_url: 'http://harmonycloud.cn'
-            logo: 'https://www.cncf.io/wp-content/uploads/2017/03/harmony-cloud-300x184.png'
-          - item:
-            name: Hasura
-            organization: Hasura
-            description: >-
-              Hasura helps you build applications quickly. Hasura provides APIs for common uses cases (data, auth, filestore) and allows you to build your
-              custom microservices easily too.
-            certified_kubernetes: Platform
-            homepage_url: 'https://hasura.io/'
-            logo: 'https://d1qb2nb5cznatu.cloudfront.net/startups/i/820697-7da6f327870c08c1f39c09a0e1801b31-medium_jpg.jpg?buster=1441133201'
-            crunchbase: 'https://www.crunchbase.com/organization/hasura'
-          - item:
             name: Heptio Quickstart for Kubernetes
             organization: Heptio
             description: Flexible container orchestration platform on the AWS Cloud
-            certified_kubernetes: Distribution
             homepage_url: 'https://aws.amazon.com/quickstart/architecture/heptio-kubernetes/'
             repo_url: 'https://github.com/heptio/aws-quickstart'
             logo: 'https://pbs.twimg.com/profile_images/907768517545443328/x0Jn6BwF.jpg'
             crunchbase: 'https://www.crunchbase.com/organization/heptio'
           - item:
-            name: Huawei Cloud Container Engine (CCE)
-            organization: Huawei
-            description: >-
-              Cloud Container Engine (CCE) is a high-performance, high-reliability service through which enterprises can manage containerized applications. CCE
-              supports native Kubernetes applications and tools, allowing you to set up a container runtime environment on the cloud with ease.
-            certified_kubernetes: Platform
-            homepage_url: 'http://www.huaweicloud.com/en-us/product/cce.html'
-            logo: 'https://upload.wikimedia.org/wikipedia/commons/0/00/Huawei.svg'
-            crunchbase: 'https://www.crunchbase.com/organization/huawei'
-          - item:
-            name: IBM Cloud Container Service
-            organization: IBM Cloud
-            description: >-
-              IBM® Cloud Container Service delivers powerful tools by combining Docker and Kubernetes technologies, an intuitive user experience, and built-in
-              security and isolation to automate the deployment, operation, scaling, and monitoring of containerized apps in a cluster of compute hosts.
-            certified_kubernetes: Platform
-            homepage_url: 'https://console.bluemix.net/docs/containers/cs_ov.html#cs_ov'
-            logo: ./src/hosted_logos/ibm-cloud.svg
-            crunchbase: 'https://www.crunchbase.com/organization/ibm-cloud'
-          - item:
             name: IBM Cloud Private
             organization: IBM Cloud
             description: 'Build open, cloud-native apps with public services and run them anywhere — on public cloud or on your existing on-premises systems.'
-            certified_kubernetes: Distribution
             homepage_url: 'https://www.ibm.com/cloud-computing/products/ibm-cloud-private/'
             logo: ./src/hosted_logos/ibm-cloud.svg
             crunchbase: 'https://www.crunchbase.com/organization/ibm-cloud'
@@ -2035,10 +1908,9 @@ landscape:
             name: inwinSTACK kube-ansible
             organization: inwinSTACK
             description: Build a Kubernetes cluster using Ansible playbooks.
-            certified_kubernetes: Distribution
             homepage_url: 'https://github.com/inwinstack/kube-ansible'
             repo_url: 'https://github.com/inwinstack/kube-ansible'
-            logo: 'https://pbs.twimg.com/profile_images/913967961135661056/llUSv_YQ_400x400.jpg'
+            logo: ./src/hosted_logos/inwinstack.svg
           - item:
             name: Joyent Triton for Kubernetes
             organization: Joyent
@@ -2046,7 +1918,6 @@ landscape:
               Triton Kubernetes is a multi-cloud Kubernetes solution. It has a global cluster manager which can run on any cloud - Public, Private or Bare Metal
               and manages Kubernetes environments. The current release uses Triton (Joyent public cloud). You can update the APIs to switch to another cloud or
               log an enhancement request.
-            certified_kubernetes: Distribution
             homepage_url: 'https://www.joyent.com/triton/compute'
             repo_url: 'https://github.com/joyent/triton-kubernetes'
             logo: 'https://p6.zdassets.com/hc/settings_assets/150338/200244868/L3CnsFFWx4OJFUp2C7uUWA-joyentLogo.png'
@@ -2055,7 +1926,6 @@ landscape:
             name: Kinvolk kube-spawn
             organization: Kinvolk
             description: 'A tool for creating multi-node Kubernetes clusters on a Linux machine using kubeadm & systemd-nspawn. Brought to you by the Kinvolk team. '
-            certified_kubernetes: Distribution
             homepage_url: 'https://github.com/kinvolk/kube-spawn'
             repo_url: 'https://github.com/kinvolk/kube-spawn'
             logo: 'https://www.cncf.io/wp-content/uploads/2017/03/kinvolk_logo-1.png'
@@ -2064,7 +1934,6 @@ landscape:
             name: Kublr
             organization: Kublr
             description: 'Accelerate and control the deployment, scaling, monitoring and management of your containerized applications. '
-            certified_kubernetes: Distribution
             homepage_url: 'https://kublr.com/'
             logo: 'http://kublr.com/images/KublrLogo.svg'
             crunchbase: 'https://www.crunchbase.com/organization/kublr'
@@ -2072,7 +1941,6 @@ landscape:
             name: Loodse Kubermatic
             organization: Loodse
             description: Scale apps with one click in the cloud or in your own datacenter.
-            certified_kubernetes: Distribution
             homepage_url: 'https://cloud.kubermatic.io/'
             logo: 'https://pbs.twimg.com/media/C8FWtMNW4AAIUt8.png'
             crunchbase: 'https://www.crunchbase.com/organization/loodse-gmbh'
@@ -2080,7 +1948,6 @@ landscape:
             name: Mesosphere Kubernetes on DC/OS
             organization: Mesosphere
             description: Mesosphere DC/OS runs Kubernetes-as-a-Service alongside traditional apps and data services on any infrastructure.
-            certified_kubernetes: Distribution
             homepage_url: 'https://mesosphere.com/kubernetes/'
             logo: 'https://mesosphere.com/wp-content/uploads/2017/11/mesosphere-logo.png'
             crunchbase: 'https://www.crunchbase.com/organization/mesosphere'
@@ -2088,7 +1955,6 @@ landscape:
             name: Mirantis Cloud Platform
             organization: Mirantis
             description: Mirantis Cloud Platform (MCP) includes a pure play distribution of Kubernetes for enterprise-grade container orchestration.
-            certified_kubernetes: Platform
             homepage_url: 'https://www.mirantis.com/software/kubernetes/'
             logo: 'https://www.mirantis.com/wp-content/uploads/2017/01/mirantis-logo-2color-rgb-transparent.png'
             crunchbase: 'https://www.crunchbase.com/organization/mirantis'
@@ -2099,42 +1965,24 @@ landscape:
               Container Services Cloud Edition is an enterprise-class container platform, deployed in the user's own cloud resources. Based on Kubernetes
               technology, provide users exclusive container cluster. Provide users the freedom to choose the Kubernetes version of the cluster capabilities,
               easy to follow up the latest developments in the community. Comply with Kubernetes conformance standards, portability is good.
-            certified_kubernetes: Distribution
             homepage_url: 'https://www.163yun.com/product/container-service-dedicated'
-            logo: ./src/hosted_logos/netease-cloud.svg
+            logo: './src/hosted_logos/netease.svg'
             crunchbase: 'https://www.crunchbase.com/organization/netease-com'
-          - item:
-            name: Nirmata Managed Kubernetes
-            organization: Nirmata
-            description: 'Nirmata is a platform that helps enterprise DevOps teams deploy, operate, and optimize Kubernetes applications across public and private clouds.'
-            certified_kubernetes: Platform
-            homepage_url: 'https://www.nirmata.com/'
-            logo: 'https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco/v1501447457/hzaahdettnwjbpyuenjf.png'
-            crunchbase: 'https://www.crunchbase.com/organization/nirmata'
           - item:
             name: OpenShift
             organization: Red Hat
             description: Red Hat® OpenShift is a container application platform that brings docker and Kubernetes to the enterprise.
-            certified_kubernetes: Distribution
             homepage_url: 'https://www.openshift.com/'
             repo_url: 'https://github.com/openshift/origin'
             logo: 'https://upload.wikimedia.org/wikipedia/commons/3/3a/OpenShift-LogoType.svg'
             crunchbase: 'https://www.crunchbase.com/organization/red-hat'
-          - item:
-            name: Oracle Container Engine
-            organization: Oracle
-            description: Next generation of container-native development. Container life cycle made easy.
-            certified_kubernetes: Platform
-            homepage_url: 'http://www.wercker.com/product'
-            logo: 'https://cdn.worldvectorlogo.com/logos/oracle-6.svg'
-            crunchbase: 'https://www.crunchbase.com/organization/oracle'
+            twitter: 'https://twitter.com/openshift'
           - item:
             name: Oracle Linux Container Services
             organization: Oracle
             description: >-
               Continuing Oracle's commitment to open source and the container ecosystem, Oracle joins the Cloud Native Computing Foundation, and we are pleased
               to announce Oracle Container Services for use with Kubernetes.
-            certified_kubernetes: Distribution
             homepage_url: 'https://blogs.oracle.com/linux/announcing-oracle-linux-container-services-for-use-with-kubernetes'
             logo: 'https://cdn.worldvectorlogo.com/logos/oracle-6.svg'
             crunchbase: 'https://www.crunchbase.com/organization/oracle'
@@ -2142,7 +1990,6 @@ landscape:
             name: Oracle Terraform Kubernetes Installer
             organization: Oracle
             description: Terraform Installer for Kubernetes on Oracle Cloud Infrastructure.
-            certified_kubernetes: Distribution
             homepage_url: 'https://github.com/oracle/terraform-kubernetes-installer'
             repo_url: 'https://github.com/oracle/terraform-kubernetes-installer'
             logo: 'https://cdn.worldvectorlogo.com/logos/oracle-6.svg'
@@ -2153,7 +2000,6 @@ landscape:
             description: >-
               Reliably deploy and run containerized workloads across private and public clouds. PKS eases the Day 2 operations burden for container
               orchestration with built-in HA, monitoring, automated health checks, and much more.
-            certified_kubernetes: Distribution
             homepage_url: 'https://pivotal.io/platform/pivotal-container-service'
             logo: 'https://newrelic.cdn.prismic.io/newrelic/4080a2492514766cbfaddd717b4b0ab5e761b277_pivotal_logo.png'
             crunchbase: 'https://www.crunchbase.com/organization/pivotal'
@@ -2161,7 +2007,6 @@ landscape:
             name: Platform9 Managed Kubernetes
             organization: Platform9
             description: 'Platform9 Managed Kubernetes is SaaS-managed, infrastructure-agnostic, and works across public clouds and on-premises server infrastructure.'
-            certified_kubernetes: Distribution
             homepage_url: 'https://platform9.com/managed-kubernetes/'
             logo: 'https://hostadvice.com/wp-content/uploads/2017/07/Platform9-LogoStacked.png'
             crunchbase: 'https://www.crunchbase.com/organization/platform9-systems-inc'
@@ -2171,7 +2016,6 @@ landscape:
             description: >-
               Rancher container management platform makes it easy for you to manage all aspects of running containers. You no longer need to develop the
               technical skills required to integrate and maintain a complex set of open source technologies.
-            certified_kubernetes: Distribution
             homepage_url: 'http://rancher.com/kubernetes/'
             repo_url: 'https://github.com/rancher/rancher'
             logo: 'https://cloudssky.com/.galleries/images/rancher-logo-stacked-color.png?__scale=w:400,h:203,c:transparent'
@@ -2182,31 +2026,16 @@ landscape:
             description: >-
               The Samsung SDS Cloud Native Computing Team's (CNCT) mission is to help companies in adoption of Cloud Native development principles and improve
               their organizational velocity.
-            certified_kubernetes: Distribution
             homepage_url: 'http://samsung-cnct.github.io/'
             repo_url: 'https://github.com/samsung-cnct/kraken'
             logo: 'https://databricks.com/wp-content/uploads/2015/06/samsung_sds_logo.png'
             crunchbase: 'https://www.crunchbase.com/organization/samsung-sds'
-          - item:
-            name: 'SAP Cloud Platform - Gardener (AWS, Azure, GCE)'
-            organization: SAP
-            description: >-
-              SAP Cloud Platform is an open platform as a service (PaaS) which provides customers and partners with in-memory capabilities, core platform
-              services, and unique business services for building and extending personalized, collaborative, mobile-enabled cloud applications. SAP Cloud
-              Platform is designed to accelerate digital transformation across your business by enabling your organization to build the exact application you
-              need more quickly, easily, and economically – all  without the requirement of maintaining or investing in on-premises infrastructure. Based on
-              open standards, SAP Cloud Platform offers complete flexibility and control over your choice of clouds, frameworks, and applications.
-            certified_kubernetes: Platform
-            homepage_url: 'https://cloudplatform.sap.com/index.html'
-            logo: 'https://www.ariba.com/frontend/aribacom/dist/assets/images/sap_logo.svg'
-            crunchbase: 'https://www.crunchbase.com/organization/sap'
           - item:
             name: StackPointCloud (SPC)
             organization: StackPointCloud
             description: >-
               The universal control plane for managed Kubernetes. Deploy a Kubernetes cluster to the cloud provider of your choice in 3 steps using our
               web-based interface.
-            certified_kubernetes: Distribution
             homepage_url: 'https://stackpoint.io/'
             logo: 'https://www.cncf.io/wp-content/uploads/2016/09/logo_stackpointcloud.png'
             crunchbase: 'https://www.crunchbase.com/organization/stackpointcloud'
@@ -2217,7 +2046,6 @@ landscape:
               SUSE Containers as a Service Platform is the solution that puts together SUSE Linux Enterprise MicroOS, the operating system optimized for running
               the next generation of applications with Linux containers, and the container orchestration solution for container cluster management based on
               Kubernetes.
-            certified_kubernetes: Distribution
             homepage_url: 'https://www.suse.com/c/introducing-suse-containers-service-platform/'
             logo: >-
               https://www3.lenovo.com/medias/lenovo-systems-solutions-suse-cloud.png?context=bWFzdGVyfHJvb3R8ODg5NHxpbWFnZS9wbmd8aDBhL2g0OC85NDQ4OTkzODE2NjA2LnBuZ3w0ODZkYjYwMDYyNTg2MjNkZDRiODYxYTJiODFkNjI2NzExYWM0YjcyMTNmMzU3YzI2N2ZkYzYyOWYyZDQxMjg0
@@ -2226,35 +2054,16 @@ landscape:
             name: Tectonic
             organization: Red Hat
             description: 'Tectonic ships with CoreOS''s signature automated operations, runs multi-cloud, and is the fastest, most secure path to Kubernetes.'
-            certified_kubernetes: Distribution
             homepage_url: 'https://coreos.com/tectonic'
             repo_url: 'https://github.com/coreos/tectonic-installer'
             logo: 'https://i0.wp.com/containerjournal.com/wp-content/uploads/2015/07/tectonic-bycoreos-color-copy.png'
             crunchbase: 'https://www.crunchbase.com/organization/red-hat'
-          - item:
-            name: Tencent Cloud Container Service (CCS)
-            organization: Tencent
-            description: Tencent Cloud Container Service (CCS) is a container management service with high scalability and high performance.
-            certified_kubernetes: Platform
-            stock_ticker: TCEHY
-            homepage_url: 'https://cloud.tencent.com/product/ccs?lang=en'
-            logo: ./src/hosted_logos/tencent-cloud.svg
-            crunchbase: 'https://www.crunchbase.com/organization/tencent'
-          - item:
-            name: TenxCloud Container Engine (TCE)
-            organization: TenxCloud
-            description: The first enterprise container cloud management platform based on Kubernetes and supporting private deployments.
-            certified_kubernetes: Platform
-            homepage_url: 'https://tenxcloud.com/'
-            logo: 'https://www.cncf.io/wp-content/uploads/2017/11/tenxcloud.png'
-            crunchbase: 'https://www.crunchbase.com/organization/tenxcloud'
           - item:
             name: Typhoon
             organization: Poseidon
             description: >-
               Typhoon distributes upstream Kubernetes, architectural conventions, and cluster addons, much like a GNU/Linux distribution provides the Linux
               kernel and userspace components.
-            certified_kubernetes: Distribution
             homepage_url: 'https://typhoon.psdn.io/'
             repo_url: 'https://github.com/poseidon/typhoon'
             logo: 'https://kubernetes.io/images/square-logos/poseidon.png'
@@ -2262,7 +2071,6 @@ landscape:
             name: VMWare Pivotal Container Service (PKS)
             organization: VMware
             description: VMware and Pivotal Launch Pivotal Container Service (PKS) and Collaborate with Google Cloud to Bring Kubernetes to Enterprise Customers.
-            certified_kubernetes: Distribution
             homepage_url: 'https://www.vmware.com/radius/pivotal-container-services/'
             logo: 'https://practice-labs.com/images/vmware-logo.svg'
             crunchbase: 'https://www.crunchbase.com/organization/vmware'
@@ -2272,7 +2080,6 @@ landscape:
             description: >-
               kubeadm is a toolkit that helps you bootstrap a best-practice Kubernetes cluster in an easy, reasonably secure and extensible way. It also
               supports managing Bootstrap Tokens for you and upgrading/downgrading clusters.
-            certified_kubernetes: Distribution
             homepage_url: 'https://kubernetes.io/docs/setup/independent/create-cluster-kubeadm/'
             repo_url: 'https://github.com/kubernetes/kubeadm'
             logo: 'https://events.linuxfoundation.org/wp-content/uploads/2017/05/logo_weaveworks.png'
@@ -2281,9 +2088,167 @@ landscape:
             name: WiseCloud
             organization: Wise2c
             description: Cover the whole process of modern software production line needs.
-            certified_kubernetes: Distribution
             homepage_url: 'http://www.wise2c.com/solution'
             logo: 'https://www.cncf.io/wp-content/uploads/2017/11/wise2c.png'
+      - subcategory:
+        name: Certified Kubernetes - Platform
+        items:
+          - item:
+            name: Alauda EE
+            organization: Alauda
+            homepage_url: 'https://www.alauda.cn/product/detail/id/68.html'
+            logo: 'http://cdn4.infoqstatic.com/statics_s1_20180206-0549-1/images/partners/cn/company/alauda.svg'
+            crunchbase: 'https://www.crunchbase.com/organization/alauda'
+          - item:
+            name: Alibaba Cloud Container Service
+            organization: Alibaba
+            description: >-
+              Container Services Provides high-performance, scalable container application management services that enable lifecycle management of containerized
+              applications with Docker and Kubernetes, multiple application deployment methods and continuous delivery capabilities, and support for
+              microservices architecture.
+            homepage_url: 'https://www.alibabacloud.com/product/container-service?spm=a3c0i.7911826.709257.dproducta4.1010a3feFbGgBW'
+            logo: './src/hosted_logos/alibaba-cloud.svg'
+            crunchbase: 'https://www.crunchbase.com/organization/alibaba-cloud'
+          - item:
+            name: Azure (ACS) Engine
+            organization: Microsoft
+            description: Azure Container Service Engine - a place for community to collaborate and build the best open Docker container infrastructure for Azure.
+            homepage_url: 'https://github.com/Azure/acs-engine'
+            repo_url: 'https://github.com/Azure/acs-engine'
+            logo: 'https://www.datocms-assets.com/2885/1513729661-azure_logo_blue.svg'
+            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+          - item:
+            name: Azure Container Service (AKS)
+            organization: Microsoft
+            description: >-
+              Simplify the deployment, management, and operations of Kubernetes. Use a fully managed Kubernetes container orchestration service or choose other
+              orchestrators.
+            homepage_url: 'https://azure.microsoft.com/en-us/services/container-service/'
+            logo: 'https://www.datocms-assets.com/2885/1513729661-azure_logo_blue.svg'
+            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+          - item:
+            name: BoCloud BeyondcentContainer
+            organization: BoCloud
+            description: >-
+              PaaS cloud solutions for docketing and managing Internet applications using docker container technology. Help customers respond to the explosive
+              and unpredictable nature of Internet services.
+            homepage_url: 'http://bocloud.com.cn/product_container.html'
+            logo: 'http://images.tmtpost.com/uploads/images/2017/05/10/de220d631464bcf29f89ac3e434c262614944057435518.jpg'
+            crunchbase: 'https://www.crunchbase.com/organization/bocloud'
+          - item:
+            name: Cisco Container Platform
+            organization: Cisco
+            description: >-
+              Cisco Container Platform (CCP) automates the repetitive things and simplifies the complex ones so everyone can just go back to enjoying the magic
+              of containers.
+            homepage_url: 'https://www.cisco.com/c/en/us/products/cloud-systems-management/container-platform/index.html'
+            logo: 'https://merchandise-store.cisco.com/skin/frontend/ultimo/fullpond/images/Cisco_Logo.svg'
+            crunchbase: 'https://www.crunchbase.com/organization/cisco'
+          - item:
+            name: EasyStack Kubernetes Service (EKS)
+            organization: EasyStack
+            description: >-
+              EasyStack Kubernetes Service's enterprise container platform integrates applications and infrastructure resources through deep integration of
+              Kubernetes and OpenStack platforms in multiple management dimensions such as scheduling, scheduling, security, operation and maintenance, and
+              finally launches a new generation of application delivery in the cloud data center One kilometer, play 1 +1> 2 performance advantages.
+            homepage_url: 'https://easystack.cn/eks/'
+            logo: 'https://easystack.cn/static/cn/images/easystack-logo.png'
+            crunchbase: 'https://www.crunchbase.com/organization/easystack'
+          - item:
+            name: eKing Cloud Container Platform
+            organization: Hainan Eking
+            homepage_url: 'http://www.haihangyun.com/landing'
+            logo: 'http://www.chinatravelnews.com/images/201512/287461104de1f06f.jpg'
+          - item:
+            name: Google Kubernetes Engine (GKE)
+            organization: Google
+            description: >-
+              Google Kubernetes Engine is a managed environment for deploying containerized applications. It brings our latest innovations in developer
+              productivity, resource efficiency, automated operations, and open source flexibility to accelerate your time to market.
+            homepage_url: 'https://cloud.google.com/kubernetes-engine/'
+            logo: ./src/hosted_logos/google-kubernetesengine.svg
+            crunchbase: 'https://www.crunchbase.com/organization/google-cloud-platform'
+          - item:
+            name: HarmonyCloud Container Platform
+            organization: Harmony Cloud
+            description: 'Kubernetes, second generation PaaS cloud computing platform, builds industry-leading container cloud computing framework'
+            homepage_url: 'http://harmonycloud.cn'
+            logo: 'https://www.cncf.io/wp-content/uploads/2017/03/harmony-cloud-300x184.png'
+          - item:
+            name: Hasura
+            organization: Hasura
+            description: >-
+              Hasura helps you build applications quickly. Hasura provides APIs for common uses cases (data, auth, filestore) and allows you to build your
+              custom microservices easily too.
+            homepage_url: 'https://hasura.io/'
+            logo: 'https://d1qb2nb5cznatu.cloudfront.net/startups/i/820697-7da6f327870c08c1f39c09a0e1801b31-medium_jpg.jpg?buster=1441133201'
+            crunchbase: 'https://www.crunchbase.com/organization/hasura'
+          - item:
+            name: Huawei Cloud Container Engine (CCE)
+            organization: Huawei
+            description: >-
+              Cloud Container Engine (CCE) is a high-performance, high-reliability service through which enterprises can manage containerized applications. CCE
+              supports native Kubernetes applications and tools, allowing you to set up a container runtime environment on the cloud with ease.
+            homepage_url: 'http://www.huaweicloud.com/en-us/product/cce.html'
+            logo: 'https://upload.wikimedia.org/wikipedia/commons/0/00/Huawei.svg'
+            crunchbase: 'https://www.crunchbase.com/organization/huawei'
+          - item:
+            name: IBM Cloud Container Service
+            organization: IBM Cloud
+            description: >-
+              IBM® Cloud Container Service delivers powerful tools by combining Docker and Kubernetes technologies, an intuitive user experience, and built-in
+              security and isolation to automate the deployment, operation, scaling, and monitoring of containerized apps in a cluster of compute hosts.
+            homepage_url: 'https://console.bluemix.net/docs/containers/cs_ov.html#cs_ov'
+            logo: ./src/hosted_logos/ibm-cloud.svg
+            crunchbase: 'https://www.crunchbase.com/organization/ibm-cloud'
+          - item:
+            name: Nirmata Managed Kubernetes
+            organization: Nirmata
+            description: 'Nirmata is a platform that helps enterprise DevOps teams deploy, operate, and optimize Kubernetes applications across public and private clouds.'
+            homepage_url: 'https://www.nirmata.com/'
+            logo: 'https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco/v1501447457/hzaahdettnwjbpyuenjf.png'
+            crunchbase: 'https://www.crunchbase.com/organization/nirmata'
+          - item:
+            name: Oracle Container Engine
+            organization: Oracle
+            description: Next generation of container-native development. Container life cycle made easy.
+            homepage_url: 'https://cloud.oracle.com/containers/engine/features'
+            logo: 'https://cdn.worldvectorlogo.com/logos/oracle-6.svg'
+            crunchbase: 'https://www.crunchbase.com/organization/oracle'
+          - item:
+            name: 'SAP Cloud Platform - Gardener'
+            organization: SAP
+            description: >-
+              SAP Cloud Platform is an open platform as a service (PaaS) which provides customers and partners with in-memory capabilities, core platform
+              services, and unique business services for building and extending personalized, collaborative, mobile-enabled cloud applications. SAP Cloud
+              Platform is designed to accelerate digital transformation across your business by enabling your organization to build the exact application you
+              need more quickly, easily, and economically – all  without the requirement of maintaining or investing in on-premises infrastructure. Based on
+              open standards, SAP Cloud Platform offers complete flexibility and control over your choice of clouds, frameworks, and applications.
+            homepage_url: 'https://cloudplatform.sap.com/index.html'
+            logo: 'https://www.ariba.com/frontend/aribacom/dist/assets/images/sap_logo.svg'
+            crunchbase: 'https://www.crunchbase.com/organization/sap'
+          - item:
+            name: Tencent Cloud Container Service (CCS)
+            organization: Tencent
+            description: Tencent Cloud Container Service (CCS) is a container management service with high scalability and high performance.
+            stock_ticker: TCEHY
+            homepage_url: 'https://cloud.tencent.com/product/ccs?lang=en'
+            logo: './src/hosted_logos/tencent-cloud.svg'
+            crunchbase: 'https://www.crunchbase.com/organization/tencent'
+          - item:
+            name: TenxCloud Container Engine (TCE)
+            organization: TenxCloud
+            description: The first enterprise container cloud management platform based on Kubernetes and supporting private deployments.
+            homepage_url: 'https://tenxcloud.com/'
+            logo: 'https://www.cncf.io/wp-content/uploads/2017/11/tenxcloud.png'
+            crunchbase: 'https://www.crunchbase.com/organization/tenxcloud'
+          - item:
+            name: ZTE TECS
+            organization: ZTE
+            homepage_url: 'https://sdnfv.zte.com.cn/en/products/126'
+            logo: 'https://vignette.wikia.nocookie.net/logopedia/images/5/5d/ZTE.svg'
+            twitter: 'https://twitter.com/ZTEPress'
+            crunchbase: 'https://www.crunchbase.com/organization/zte-corporation'
       - subcategory:
         name: Non-Certified Kubernetes
         items:
@@ -2293,7 +2258,6 @@ landscape:
             description: >-
               Amazon Elastic Container Service for Kubernetes (Amazon EKS) is a managed service that makes it easy for you to run Kubernetes on AWS without
               needing to install and operate your own Kubernetes clusters.
-            certified_kubernetes: false
             homepage_url: 'https://aws.amazon.com/eks/'
             logo: 'https://d33wubrfki0l68.cloudfront.net/c009a5857974740fb8db35232c37148662905585/0a972/img/amazon-eks.svg'
             crunchbase: 'https://www.crunchbase.com/organization/amazon-web-services'
@@ -2308,7 +2272,6 @@ landscape:
             name: ContainerShip (NCK)
             organization: ContainerShip
             description: The Hyperprovider for MultiCloud Kubernetes
-            certified_kubernetes: false
             homepage_url: 'https://containership.io/'
             logo: 'http://resumator.s3.amazonaws.com/customer_20150721151308_KZ8QDZPO4BOHCKCU/social_icons/20150825133703_containership_logo.png'
             crunchbase: 'https://www.crunchbase.com/organization/containership'
@@ -2316,7 +2279,6 @@ landscape:
             name: goPaddle
             organization: Bluemeric
             description: Developer Friendly DevOps platform for Kubernetes Deployments
-            certified_kubernetes: false
             homepage_url: 'https://www.gopaddle.io/#/'
             logo: 'https://s3.amazonaws.com/www.bluemeric.com/images/gp-cncf-logo.png'
             crunchbase: 'https://www.crunchbase.com/organization/bluemeric'
@@ -2326,7 +2288,6 @@ landscape:
             description: >-
               Telekube combines a production hardened deployment of Kubernetes with Teleport, our multi-region SSH server, so you can effectively manage
               multiple deployments of Kubernetes applications across various regions, data centers and cloud providers.
-            certified_kubernetes: false
             homepage_url: 'http://gravitational.com/telekube/'
             logo: ./src/hosted_logos/gravitational.svg
             crunchbase: 'https://www.crunchbase.com/organization/gravitational'
@@ -2336,7 +2297,6 @@ landscape:
             description: >-
               Huawei Cloud Computing Solutions bring high-availability, secure IT services to life — with huge benefits to large-scale data centers, enterprise
               IT networks, and Cloud Service Providers (CSPs).
-            certified_kubernetes: false
             homepage_url: 'http://e.huawei.com/us/solutions/technical/cloud-computing'
             logo: 'https://upload.wikimedia.org/wikipedia/commons/0/00/Huawei.svg'
             crunchbase: 'https://www.crunchbase.com/organization/huawei'
@@ -2347,9 +2307,8 @@ landscape:
               Navops allows an organization to run containerized microservice applications and non-containerized workloads more efficiently on Kubernetes. The
               scheduler and policy management system provides virtual multi-tenancy and resource sharing to increase cluster utilization and lower operation
               costs.
-            certified_kubernetes: false
             homepage_url: 'https://www.navops.io/'
-            logo: 'http://www.univa.com/img/navops-byUniva-Logo2-01.png'
+            logo: ./src/hosted_logos/navops.svg
             crunchbase: 'https://www.crunchbase.com/organization/navops'
           - item:
             name: Stratoscale Symphony
@@ -2357,7 +2316,6 @@ landscape:
             description: >-
               Stratoscale Symphony offers a robust software-defined cloud infrastructure solution that converges all resources into one holistic single software
               solution, enabling IT teams to focus on high-impact initiatives.
-            certified_kubernetes: false
             homepage_url: 'https://www.stratoscale.com/products/kubernetes-as-a-service/'
             logo: 'https://www.stratoscale.com/wp-content/uploads/logoverticalpositivo.png'
             crunchbase: 'https://www.crunchbase.com/organization/stratoscale'
@@ -2365,18 +2323,10 @@ landscape:
             name: Supergiant
             organization: Supergiant
             description: 'Supergiant Cloud is fully-managed auto-scaling Kubernetes. '
-            certified_kubernetes: false
             homepage_url: 'https://supergiant.io/'
             repo_url: 'https://github.com/supergiant/supergiant'
             logo: 'https://media.licdn.com/mpr/mpr/shrink_200_200/AAEAAQAAAAAAAA3pAAAAJDA4MmJlMGI2LTkwOTgtNDEzNi1hNGI4LWE1NWZkNjA3ZTljMg.png'
             crunchbase: 'https://www.crunchbase.com/organization/supergiant'
-          - item:
-            name: ZTE TECS
-            organization: ZTE
-            homepage_url: 'https://sdnfv.zte.com.cn/en/products/126'
-            logo: 'https://vignette.wikia.nocookie.net/logopedia/images/5/5d/ZTE.svg'
-            twitter: 'https://twitter.com/ZTEPress'
-            crunchbase: 'https://www.crunchbase.com/organization/zte-corporation'
       - subcategory:
         name: PaaS/Container Service
         items:
@@ -2401,6 +2351,14 @@ landscape:
             logo: 'https://s3.amazonaws.com/awsmp-logos/clouber.PNG'
             twitter: 'https://twitter.com/clouberio'
             crunchbase: 'https://www.crunchbase.com/organization/clouber'
+          - item:
+            name: Cloud Foundry Application Runtime
+            organization: Cloud Foundry
+            description: ' Cloud Foundry Application Runtime utilizes containers as part of its DNA, and has since before Docker popularized containers. The new CF Container Runtime gives you more granular control and management of containers with Kubernetes.'
+            homepage_url: 'https://www.cloudfoundry.org/application-runtime/'
+            repo_url: 'https://github.com/cloudfoundry/cli'
+            logo: './src/hosted_logos/cloudfoundry-applicationruntime.svg'
+            crunchbase: 'https://www.crunchbase.com/organization/cloud-foundry'
           - item:
             name: Convox
             organization: Convox
@@ -2443,7 +2401,7 @@ landscape:
             name: Galactic Fog
             organization: Galactic Fog
             homepage_url: 'http://www.galacticfog.com/'
-            logo: 'https://media.licdn.com/mpr/mpr/AAEAAQAAAAAAAAYHAAAAJGU0Zjc4OGI2LTYzZmEtNGUxMC05ODE5LTVhMjI0OTM3NmI3ZA.png'
+            logo: ./src/hosted_logos/galacticfog.svg
             twitter: 'https://twitter.com/galacticfog'
             crunchbase: 'https://www.crunchbase.com/organization/galactic-fog'
           - item:
@@ -2457,17 +2415,9 @@ landscape:
             name: Hyper
             organization: Hyper
             homepage_url: 'https://www.hyper.sh/'
-            logo: 'https://user-images.githubusercontent.com/1701782/29462984-a8451220-8463-11e7-84a0-739418f027f1.png'
+            logo: 'https://www.hyper.sh/logo/logo_dark.svg'
             twitter: 'https://twitter.com/hyper_sh'
             crunchbase: 'https://www.crunchbase.com/organization/hyper-4'
-          - item:
-            name: Iron.io
-            organization: Iron.io
-            homepage_url: 'https://www.iron.io/'
-            repo_url: 'https://github.com/iron-io/functions'
-            logo: 'https://crunchbase-production-res.cloudinary.com/image/upload/v1397182859/53934de605f54d407d087900d16e9b75.png'
-            twitter: 'https://twitter.com/getiron'
-            crunchbase: 'https://www.crunchbase.com/organization/iron-io'
           - item:
             name: JHipster
             organization: JHipster
@@ -2554,8 +2504,91 @@ landscape:
             logo: 'https://github.com/alexcontini/alexcontini.github.io/blob/master/tsura.png?raw=true'
             twitter: 'https://twitter.com/tsurupaas'
             crunchbase: 'https://www.crunchbase.com/organization/tsuru'
+  - category:
+    name: Serverless
+    subcategories:
       - subcategory:
-        name: Serverless/Event-based
+        name: Security
+        items:
+          - item:
+            name: PureSec
+            organization: PureSec
+            homepage_url: 'https://www.puresec.io/'
+            logo: 'https://media-exp2.licdn.com/media/AAMABADGAAoAAQAAAAAAAAucAAAAJDEyYzRkNmQ0LWRjMDItNDk0My1hY2FmLTA5MjM1MDhhYzMzNw.png'
+            twitter: 'https://twitter.com/PureSecTeam'
+            crunchbase: 'https://www.crunchbase.com/organization/puresec'
+          - item:
+            name: Snyk
+            organization: Snyk
+            homepage_url: 'https://snyk.io/'
+            logo: 'https://cdn-images-1.medium.com/max/1300/1*_nYX5UYcMUskoElSmkyOrA.png'
+            twitter: https://twitter.com/snyksec'
+            crunchbase: 'https://www.crunchbase.com/organization/snyk'
+      - subcategory:
+        name: App Definition & Development
+        items:
+          - item:
+            name: Python Lambda
+            organization: Amazon Web Services
+            homepage_url: 'https://aws.amazon.com/lambda/'
+            repo_url: https://github.com/nficano/python-lambda
+            logo: './src/hosted_logos/aws-lambda.svg'
+            twitter: 'https://twitter.com/awscloud'
+            crunchbase: 'https://www.crunchbase.com/organization/amazon-web-services'
+          - item:
+            name: Dashbird
+            organization: Dashbird
+            homepage_url: 'https://www.dashbird.io/'
+            logo: 'http://www.dailyspin.io/wp-content/uploads/2017/06/dashbird-logo.png'
+            twitter: 'https://twitter.com/thedashbird'
+            crunchbase: 'https://www.crunchbase.com/organization/dashbird'
+          - item:
+            name: IOpipe
+            organization: IOpipe
+            homepage_url: 'https://www.iopipe.com/'
+            logo: 'https://www.iopipe.com/wp-content/uploads/2018/01/io__logo_black_rgb_600_249-1.png'
+            twitter: 'https://twitter.com/iopipes'
+            crunchbase: 'https://www.crunchbase.com/organization/iopipe'
+          - item:
+            name: LambCI
+            organization: LambCI
+            homepage_url: 'http://lambci.org/'
+            repo_url: https://github.com/lambci/lambci
+            logo: 'https://camo.githubusercontent.com/92781cc0d3fc90674524a974439f7e7493d1c3d2/68747470733a2f2f6c616d6263692e73332e616d617a6f6e6177732e636f6d2f6173736574732f6c6f676f2d333130783331302e706e67'
+            twitter: 'https://twitter.com/lamb_ci'
+            crunchbase: 'https://www.crunchbase.com/organization/lambci'
+          - item:
+            name: Node Lambda
+            organization: Node Lambda
+            homepage_url: 'https://github.com/motdotla/node-lambda'
+            repo_url: https://github.com/motdotla/node-lambda
+            logo: 'https://raw.githubusercontent.com/motdotla/node-lambda/master/node-lambda.png?raw=true'
+            twitter: ''
+            crunchbase: 'https://www.crunchbase.com/organization/node-lambda'
+          - item:
+            name: Stackery
+            organization: Stackery
+            homepage_url: 'https://www.stackery.io/'
+            logo: 'https://www.stackery.io/assets/stackery-logo-teal-a769bc26922ca6b7df906d8da26afceb3a9c8245407415acc5c3715d40939f76.svg'
+            twitter: 'https://twitter.com/stackeryio'
+            crunchbase: 'https://www.crunchbase.com/organization/stackery'
+          - item:
+            name: Microcule
+            organization: Stackvana
+            homepage_url: 'https://github.com/Stackvana'
+            repo_url: https://github.com/Stackvana/microcule
+            logo: './src/hosted_logos/stackvana.svg'
+            twitter: ''
+            crunchbase: 'https://www.crunchbase.com/organization/stackvana'
+          - item:
+            name: Thundra
+            organization: OpsGenie
+            homepage_url: 'https://www.thundra.io/'
+            logo: 'https://s3-us-west-2.amazonaws.com/why-thundra-serverless-blog/logo.png'
+            twitter: 'https://twitter.com/thundraio'
+            crunchbase: 'https://www.crunchbase.com/organization/opsgenie'
+      - subcategory:
+        name: Frameworks
         items:
           - item:
             name: Apex
@@ -2566,6 +2599,105 @@ landscape:
             twitter: 'https://twitter.com/apexserverless'
             crunchbase: 'https://www.crunchbase.com/organization/apex-7f19'
           - item:
+            name: AWS Chalice
+            organization: Amazon Web Services
+            homepage_url: 'https://aws.amazon.com/blogs/developer/chalice-1-0-0-ga-release/'
+            repo_url: https://github.com/aws/chalice
+            logo: 'https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg'
+            twitter: 'https://twitter.com/awscloud'
+            crunchbase: 'https://www.crunchbase.com/organization/amazon-web-services'
+          - item:
+            name: Dawson
+            organization: Dawson
+            homepage_url: 'https://github.com/dawson-org/dawson-cli'
+            repo_url: https://github.com/dawson-org/dawson-cli
+            best_res: ''
+            logo: 'https://raw.githubusercontent.com/dawson-org/dawson-cli/images/dawson-logo.png'
+            twitter: ''
+            crunchbase: 'https://www.crunchbase.com/organization/dawson-c553'
+          - item:
+            name: Mitoc Group Deep
+            organization: Mitoc Group
+            homepage_url: 'http://docs.deep.mg/'
+            repo_url: https://github.com/MitocGroup/deep-framework
+            logo: 'https://www.mitocgroup.com/images/logos/mitoc.svg'
+            twitter: 'https://twitter.com/MitocGroup'
+            crunchbase: 'https://www.crunchbase.com/organization/mitoc-group-inc'
+          - item:
+            name: GunIO Zappa
+            organization: GunIO
+            homepage_url: 'https://www.zappa.io/'
+            repo_url: https://github.com/Miserlou/Zappa
+            logo: 'https://www.gun.io/hubfs/Large%20Gun%20Logo.svg'
+            twitter: 'https://twitter.com/gundotio?lang=en'
+            crunchbase: 'https://www.crunchbase.com/organization/gun-io'
+          - item:
+            name: Spring Cloud Function
+            organization: Pivotal
+            homepage_url: 'https://cloud.spring.io/spring-cloud-function/'
+            repo_url: 'https://github.com/spring-cloud/spring-cloud-function'
+            logo: './src/hosted_logos/springcloudfunction.svg'
+            crunchbase: 'https://www.crunchbase.com/organization/pivotal'
+          - item:
+            name: Serverless
+            organization: Serverless
+            homepage_url: 'https://serverless.com/'
+            repo_url: 'https://github.com/serverless/serverless'
+            logo: 'https://user-images.githubusercontent.com/2752551/30404912-d5781a00-989d-11e7-8d25-5ebca177326a.png'
+            twitter: 'https://twitter.com/goserverless'
+            crunchbase: 'https://www.crunchbase.com/organization/serverless'
+          - item:
+            name: Bustle Shep
+            organization: Bustle
+            homepage_url: 'https://www.bustle.com/labs'
+            repo_url: 'https://github.com/bustle/shep'
+            logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Bustle_logo.svg/666px-Bustle_logo.svg.png'
+            twitter: 'https://twitter.com/bustle'
+            crunchbase: 'https://www.crunchbase.com/organization/bustle'
+          - item:
+            name: Sparta
+            organization: Sparta
+            homepage_url: 'http://gosparta.io/'
+            repo_url: 'https://github.com/mweagle/Sparta'
+            logo: 'http://gosparta.io/images/SpartaLogoNoDomain.png'
+            twitter: 'https://twitter.com/mweagle?lang=en'
+            crunchbase: ''
+          - item:
+            name: SAM Local
+            organization: Amazon Web Services
+            homepage_url: 'https://docs.aws.amazon.com/lambda/latest/dg/serverless_app.html'
+            repo_url: 'https://github.com/awslabs/serverless-application-model'
+            logo: './src/hosted_logos/sam-local.svg'
+            twitter: 'https://twitter.com/awscloud'
+            crunchbase: 'https://www.crunchbase.com/organization/amazon-web-services'
+          - item:
+            name: Gordon
+            organization: Gordon
+            homepage_url: 'http://jorgebastida.com/'
+            repo_url: 'https://github.com/jorgebastida/gordon'
+            logo: 'https://gordon.readthedocs.io/en/latest/_static/logo_text.svg'
+            twitter: 'https://twitter.com/jorgebastida'
+            crunchbase: 'https://www.crunchbase.com/organization/gordon'
+          - item:
+            name: ClaudisJS
+            organization: ClaudiaJS
+            homepage_url: 'https://claudiajs.com/'
+            repo_url: 'https://github.com/claudiajs/claudia'
+            logo: 'https://claudiajs.com/assets/claudiajs.svg'
+            twitter: 'https://twitter.com/intent/follow?screen_name=gojkoadzic'
+            crunchbase: 'https://www.crunchbase.com/organization/claudiajs'
+          - item:
+            name: KappaIO
+            organization: KappaIO
+            homepage_url: 'http://kappa.readthedocs.io/en/develop/'
+            repo_url: 'https://github.com/garnaat/kappa'
+            logo: './src/hosted_logos/kappaio.svg'
+            twitter: 'https://twitter.com/kappaio'
+            crunchbase: 'https://www.crunchbase.com/organization/kappaio'
+      - subcategory:
+        name: Platforms
+        items:
+          - item:
             name: AWS Lambda
             organization: Amazon Web Services
             homepage_url: 'https://aws.amazon.com/lambda/'
@@ -2573,66 +2705,201 @@ landscape:
             twitter: 'https://twitter.com/awscloud'
             crunchbase: 'https://www.crunchbase.com/organization/amazon-web-services'
           - item:
-            name: Azure Functions
-            organization: Microsoft
-            homepage_url: 'https://azure.microsoft.com/en-us/services/functions/'
-            logo: 'https://pbs.twimg.com/profile_images/857815012013785088/woz9sESR_400x400.jpg'
-            twitter: 'https://twitter.com/azurefunctions'
-            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
-          - item:
-            name: Firebase
-            organization: Firebase
-            homepage_url: 'https://firebase.google.com/'
-            logo: 'https://www.appcoda.com/wp-content/uploads/2016/11/firebase_logo_shot.png'
-            twitter: 'https://twitter.com/Firebase'
-            crunchbase: 'https://www.crunchbase.com/organization/google-cloud-platform'
-          - item:
-            name: Fission
-            organization: Platform9
-            homepage_url: 'http://fission.io/'
-            repo_url: 'https://github.com/fission/fission'
-            logo: 'https://www.gcppodcast.com/images/post/fission-logo.png'
-            twitter: 'https://twitter.com/Platform9Sys'
-            crunchbase: 'https://www.crunchbase.com/organization/platform9-systems-inc'
-          - item:
-            name: fn
-            organization: Fn
-            homepage_url: 'https://fnproject.io/'
-            repo_url: 'https://github.com/fnproject/fn'
-            logo: >-
-              https://camo.githubusercontent.com/aad13cfe0e267f38143fd8cc6816ab8adde37a56/687474703a2f2f666e70726f6a6563742e696f2f696d616765732f666e2d333030783132352e706e67
-            twitter: 'https://twitter.com/fnproj'
+            name: Webtask
+            organization: Webtask
+            homepage_url: 'https://webtask.io/'
+            logo: 'https://cdn-images-1.medium.com/max/698/1*4SkA3yFoWNsuH3PPVCpKvQ.png'
+            twitter: 'https://twitter.com/webtaskio'
+            crunchbase: 'https://www.crunchbase.com/organization/webtask'
           - item:
             name: Google Cloud Functions
             organization: Google
             homepage_url: 'https://cloud.google.com/functions/'
-            logo: ./src/hosted_logos/google-cloudfunctions.svg
+            logo: './src/hosted_logos/google-cloudfunctions.svg'
             twitter: 'https://twitter.com/googlecloud'
             crunchbase: 'https://www.crunchbase.com/organization/google-cloud-platform'
+          - item:
+            name: IBM Cloud Functions
+            organization: IBM Cloud
+            homepage_url: 'https://console.bluemix.net/openwhisk/'
+            logo: './src/hosted_logos/ibm-cloud.svg'
+            twitter: 'https://twitter.com/IBMcloud'
+            crunchbase: 'https://www.crunchbase.com/organization/ibm-cloud'
+          - item:
+            name: Nano lambda
+            organization: Nano Lambda
+            homepage_url: 'http://nano-lambda.com/'
+            logo: 'http://nano-lambda.com/assets/img/logo.png'
+            twitter: ''
+            crunchbase: 'https://www.crunchbase.com/organization/nano-lambda'
+          - item:
+            name: Fn
+            organization: Fn
+            homepage_url: 'http://fnproject.io/'
+            logo: 'https://www.vectorlogo.zone/logos/fnproject/fnproject-card.png'
+            twitter: 'https://twitter.com/fnproj'
+            crunchbase: 'https://www.crunchbase.com/organization/fn'
+          - item:
+            name: Overclock
+            organization: OvrClk, Inc.
+            homepage_url: 'https://www.ovrclk.com/'
+            logo: 'https://tctechcrunch2011.files.wordpress.com/2017/11/overclock-logo-full.png'
+            best_res: ''
+            twitter: 'https://twitter.com/OvrClkHQ'
+            crunchbase: 'https://www.crunchbase.com/organization/ovrclk'
+          - item:
+            name: OVH Functions
+            organization: OVH
+            homepage_url: 'https://labs.ovh.com/ovh-functions'
+            logo: 'https://www.i2coalition.com/wp-content/uploads/2017/09/logo-ovh-us-horizontal-blue.png'
+            twitter: 'https://twitter.com/ovh_labs'
+            crunchbase: 'https://www.crunchbase.com/organization/ovh-com'
+          - item:
+            name: PubNub Functions
+            organization: PubNub
+            homepage_url: 'https://www.pubnub.com/products/functions/'
+            logo: 'https://www.pubnub.com/wp-content/uploads/2017/08/functions-header-logo.svg'
+            twitter: 'https://twitter.com/PubNub'
+            crunchbase: 'https://www.crunchbase.com/organization/pubnub'
+          - item:
+            name: OpenWhisk
+            organization: Apache
+            homepage_url: 'https://openwhisk.apache.org/'
+            logo: './src/hosted_logos/apache-openwhisk.svg'
+            repo_url: 'https://github.com/apache/incubator-openwhisk'
+            twitter: 'https://twitter.com/openwhisk'
+            crunchbase: 'https://www.crunchbase.com/organization/apache'
+          - item:
+            name: Spotinst Functions
+            organization: Spotinst
+            homepage_url: 'https://spotinst.com/products/spotinst-functions/'
+            logo: 'https://spotinst.com/app/uploads/2016/11/Spotinst-Logo.png'
+            twitter: 'https://twitter.com/spotinst'
+            crunchbase: 'https://www.crunchbase.com/organization/spotinst'
+          - item:
+            name: Syncano
+            organization: Syncano
+            homepage_url: 'https://syncano.io/#/'
+            logo: 'https://d3rij3t703q5l6.cloudfront.net/14652/6/4a6c199217ecdcacb30ffbc39f13bd8f0be141d5.png'
+            twitter: 'https://twitter.com/Syncano/'
+            crunchbase: 'https://www.crunchbase.com/organization/syncano'
+          - item:
+            name: Twilio Functions
+            organization: Twilio
+            homepage_url: 'https://www.twilio.com/functions'
+            logo: 'https://www.twilio.com/bundles/marketing/img/logos/wordmark-red.svg'
+            twitter: 'https://twitter.com/twilio'
+            crunchbase: 'https://www.crunchbase.com/organization/twilio'
+          - item:
+            name: Weblab
+            organization: Weblab
+            homepage_url: 'https://weblab.io/'
+            logo: './src/hosted_logos/weblab.svg'
+            twitter: 'https://twitter.com/weblabhq'
+            crunchbase: 'https://www.crunchbase.com/organization/weblab'
+          - item:
+            name: Iron.io
+            organization: Iron.io
+            homepage_url: 'https://www.iron.io/'
+            logo: 'https://crunchbase-production-res.cloudinary.com/image/upload/v1397182859/53934de605f54d407d087900d16e9b75.png'
+            twitter: 'https://twitter.com/getiron'
+            crunchbase: 'https://www.crunchbase.com/organization/iron-io'
+          - item:
+            name: Azure Functions
+            organization: Microsoft
+            homepage_url: 'https://azure.microsoft.com/en-us/services/functions//'
+            logo: './src/hosted_logos/azurefunctions.svg'
+            twitter: 'https://twitter.com/Azure'
+            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+          - item:
+            name: Hyper Func
+            organization: Hyper.sh
+            homepage_url: 'https://docs.hyper.sh/Feature/container/func.html'
+            logo: 'https://www.hyper.sh/logo/logo_dark.svg'
+            twitter: 'https://twitter.com/hyper_sh'
+            crunchbase: 'https://www.crunchbase.com/organization/hyper-4'
+          - item:
+            name: StdLib
+            organization: StdLib
+            homepage_url: 'https://stdlib.com/'
+            repo_url: https://github.com/stdlib/lib
+            logo: 'https://i1.wp.com/martechseries.com/wp-content/uploads/2017/07/stdlib.png'
+            twitter: 'https://twitter.com/stdlibhq'
+            crunchbase: 'https://www.crunchbase.com/organization/stdlib'
+          - item:
+            name: Clay
+            organization: Clay Labs, Inc.
+            homepage_url: 'https://www.clay.run/'
+            logo: 'https://cdn-images-1.medium.com/max/184/1*5TcwOUNVIvXLVAwuNqA40Q@2x.png'
+            best_res: ''
+            twitter: ''
+            crunchbase: 'https://www.crunchbase.com/organization/clay-labs'
+          - item:
+            name: Zeit Now
+            organization: Zeit,Inc.
+            homepage_url: 'https://zeit.co/now#frequently-asked-questions'
+            logo: 'https://assets.zeit.co/image/upload/front/logos/white-bg-text-logo-1200.png'
+            twitter: 'https://twitter.com/zeithq'
+            crunchbase: ''
+      - subcategory:
+        name: Hybrid
+        items:
+          - item:
+            name: Binaris
+            organization: Binaris
+            homepage_url: 'https://www.binaris.com/'
+            logo: https://www.delltechnologies.com/content/dam/delltechnologies/assets/capital/images/binaris-logo.png
+            twitter: 'https://twitter.com/gobinaris'
+            crunchbase: 'https://www.crunchbase.com/organization/binaris'
+          - item:
+            name: Galactic Fog Gestalt
+            organization: Galactic Fog
+            homepage_url: 'http://www.galacticfog.com/'
+            logo: ./src/hosted_logos/galacticfog.svg
+            twitter: 'https://twitter.com/galacticfog'
+            crunchbase: 'https://www.crunchbase.com/organization/galactic-fog'
+          - item:
+            name: Iguazio Data Platform
+            organization: Iguazio
+            homepage_url: 'https://github.com/nuclio/nuclio'
+            logo: https://pbs.twimg.com/media/DFl7P1DUwAA1KrW.png
+            best_res: ''
+            twitter: 'https://twitter.com/iguazio'
+            crunchbase: 'https://www.crunchbase.com/organization/iguaz-io'
+          - item:
+            name: Cloudboost
+            organization: Cloudboost
+            homepage_url: 'https://www.cloudboost.io/'
+            logo: https://docs.cloudboost.io/assets/images/logoc81e.png
+            twitter: 'https://twitter.com/cloudboostio'
+            crunchbase: 'https://www.crunchbase.com/organization/cloudboost'
+          - item:
+            name: fx
+            organization: Minge
+            homepage_url: 'https://minghe.me/'
+            repo_url: https://github.com/metrue/fx
+            logo: './src/hosted_logos/fx.svg'
+            twitter: ''
+            crunchbase: 'https://www.crunchbase.com/organization/fx-5505'
+          - item:
+            name: LunchBadger
+            organization: LunchBadger
+            homepage_url: 'https://www.lunchbadger.com/'
+            logo: 'https://img.betapage.co/logo/78953024-86592179.png'
+            best_res: ''
+            twitter: 'https://twitter.com/LunchBadger'
+            crunchbase: 'https://www.crunchbase.com/organization/lunchbadger-inc'
+      - subcategory:
+        name: Kubernetes-Native
+        items:
           - item:
             name: Kubeless
             organization: Kubeless
             homepage_url: 'http://kubeless.io/'
             repo_url: 'https://github.com/kubeless/kubeless'
-            logo: 'https://s3-us-west-2.amazonaws.com/assets.site.serverless.com/blog/kubeless.png'
-            twitter: 'https://twitter.com/hashtag/kubeless'
+            logo: https://s3-us-west-2.amazonaws.com/assets.site.serverless.com/blog/kubeless.png
+            twitter: 'https://twitter.com/kubeless_sh'
             crunchbase: 'https://www.crunchbase.com/organization/kubeless'
-          - item:
-            name: NStack
-            organization: NStack
-            homepage_url: 'https://nstack.com/'
-            repo_url: 'https://github.com/nstack/nstack'
-            logo: 'https://pbs.twimg.com/profile_images/807552612295933952/8bEJzlEM_400x400.jpg'
-            twitter: 'https://twitter.com/nstackcom'
-            crunchbase: 'https://www.crunchbase.com/organization/nstack'
-          - item:
-            name: Nuclio
-            organization: Iguazio
-            homepage_url: 'https://nuclio.io/'
-            repo_url: 'https://github.com/nuclio/nuclio'
-            logo: 'https://www.iguazio.com/wp-content/uploads/2017/11/Nuclio_Final-03-1024x470.png'
-            twitter: 'https://twitter.com/nuclioio'
-            crunchbase: 'https://www.crunchbase.com/organization/iguaz-io'
           - item:
             name: OpenFAAS
             organization: OpenFaaS
@@ -2642,13 +2909,22 @@ landscape:
             twitter: 'https://twitter.com/alexellisuk'
             crunchbase: 'https://www.crunchbase.com/organization/openfaas'
           - item:
-            name: OpenWhisk
-            organization: Apache
-            homepage_url: 'http://openwhisk.incubator.apache.org/'
-            repo_url: 'https://github.com/apache/incubator-openwhisk'
-            logo: './src/hosted_logos/apache-openwhisk.svg'
-            twitter: 'https://twitter.com/openwhisk'
-            crunchbase: 'https://www.crunchbase.com/organization/apache'
+            name: OpenLambda
+            organization: OpenLambda
+            homepage_url: 'https://open-lambda.org/'
+            repo_url: 'https://github.com/open-lambda/open-lambda'
+            logo: 'https://raw.githubusercontent.com/motdotla/node-lambda/master/node-lambda.png?raw=true'
+            best_res: ''
+            twitter: ''
+            crunchbase: 'https://www.crunchbase.com/organization/openlambda'
+          - item:
+            name: Funktion
+            organization: Funktion
+            homepage_url: 'https://funktion.fabric8.io/'
+            repo_url: 'https://github.com/funktionio/funktion'
+            logo: 'https://funktion.fabric8.io/img/profile.png'
+            twitter: 'https://twitter.com/funktionio'
+            crunchbase: 'https://www.crunchbase.com/organization/funktion'
           - item:
             name: Oracle Application Container Cloud
             organization: Oracle
@@ -2664,20 +2940,13 @@ landscape:
             twitter: 'https://twitter.com/PubNub'
             crunchbase: 'https://www.crunchbase.com/organization/pubnub'
           - item:
-            name: Serverless
-            organization: Serverless
-            homepage_url: 'https://serverless.com/'
-            repo_url: 'https://github.com/serverless/serverless'
-            logo: 'https://user-images.githubusercontent.com/2752551/30404912-d5781a00-989d-11e7-8d25-5ebca177326a.png'
-            twitter: 'https://twitter.com/goserverless'
-            crunchbase: 'https://www.crunchbase.com/organization/serverless'
-          - item:
-            name: Webtask
-            organization: Webtask
-            homepage_url: 'https://webtask.io/'
-            logo: 'https://cdn-images-1.medium.com/max/698/1*4SkA3yFoWNsuH3PPVCpKvQ.png'
-            twitter: 'https://twitter.com/webtaskio'
-            crunchbase: 'https://www.crunchbase.com/organization/webtask'
+            name: Fission
+            organization: Platform9
+            homepage_url: 'http://fission.io/'
+            repo_url: 'https://github.com/fission/fission'
+            logo: 'https://www.gcppodcast.com/images/post/fission-logo.png'
+            twitter: 'https://twitter.com/Platform9Sys'
+            crunchbase: 'https://www.crunchbase.com/organization/platform9-systems-inc'
   - category:
     name: Observability and Analysis
     subcategories:
@@ -3258,7 +3527,7 @@ landscape:
             organization: inwinSTACK
             description: 'Our container service leverages OpenStack-based infrastructure and its container orchestration engine Magnum to manage Kubernetes clusters. '
             homepage_url: 'http://www.inwinstack.com/index.php/en/solutions-en/'
-            logo: 'https://pbs.twimg.com/profile_images/913967961135661056/llUSv_YQ_400x400.jpg'
+            logo: ./src/hosted_logos/inwinstack.svg
           - item:
             name: Jetstack
             organization: Jetstack
