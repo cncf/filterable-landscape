@@ -18,6 +18,7 @@
     "lint:watch": "npm run lint -- --watch",
     "reportBadImages": "babel-node tools/reportBadImages",
     "fetch": "babel-node tools/addExternalInfo.js && npm run yaml2json",
+    "update": "LEVEL=medium babel-node tools/addExternalInfo.js && npm run yaml2json",
     "yaml2json": "cp src/lookup.json.default src/lookup.json && babel-node tools/generateJson.js",
     "removeQuotes": "babel-node tools/removeQuotes",
     "fetchAll": "LEVEL=complete npm run fetch",
