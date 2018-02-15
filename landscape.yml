@@ -591,6 +591,14 @@ landscape:
             twitter: 'https://twitter.com/netapp'
             crunchbase: 'https://www.crunchbase.com/organization/netapp'
           - item:
+            name: OpenIO
+            organization: OpenIO
+            homepage_url: 'https://www.openio.io/'
+            repo_url: 'https://github.com/open-io/oio-sds'
+            logo: 'http://www.elaia.com/wp-content/uploads/2017/10/OpenIO.png'
+            twitter: 'https://twitter.com/openio'
+            crunchbase: 'https://www.crunchbase.com/organization/openio'
+          - item:
             name: OpenEBS
             organization: OpenEBS
             homepage_url: 'hhttps://www.openebs.io/'
@@ -713,6 +721,14 @@ landscape:
             twitter: 'https://twitter.com/clearlinux/'
             crunchbase: 'https://www.crunchbase.com/organization/intel'
           - item:
+            name: Kata Containers
+            organization: Kata Containers
+            homepage_url: 'https://katacontainers.io/'
+            repo_url: 'https://github.com/kata-containers/runtime'
+            logo: https://camo.githubusercontent.com/4679e998080f65b3592aee5962c8bf5bde8d68ee/68747470733a2f2f7777772e6f70656e737461636b2e6f72672f6173736574732f6b6174612f6b6174612d766572746963616c2d6f6e2d77686974652e706e67
+            twitter: 'https://twitter.com/KataContainers'
+            crunchbase: 'https://www.crunchbase.com/organization/kata-containers'
+          - item:
             name: lxd
             organization: Canonical
             homepage_url: 'https://linuxcontainers.org/lxd/'
@@ -822,6 +838,13 @@ landscape:
             logo: 'https://raw.githubusercontent.com/coreos/flannel/master/logos/flannel-horizontal-color.png'
             twitter: 'https://twitter.com/coreos'
             crunchbase: 'https://www.crunchbase.com/organization/red-hat'
+          - item:
+            name: GuardiCore Centra
+            organization: GuardiCore
+            homepage_url: 'https://www.guardicore.com/workloads-protection-hybrid-clouds/'
+            logo: 'https://www.nutanix.com/wp-content/uploads/2017/02/logo_guardicore.svg'
+            twitter: 'https://twitter.com/guardicore'
+            crunchbase: 'https://www.crunchbase.com/organization/guardicore'
           - item:
             name: MidoNet
             organization: MidoNet
@@ -1202,6 +1225,14 @@ landscape:
         name: Database and Data Warehouse
         items:
           - item:
+            name: ArangoDB
+            organization: ArangoDB
+            homepage_url: 'https://www.arangodb.com/'
+            repo_url: 'https://github.com/arangodb/arangodb'
+            logo: 'https://www.arangodb.com/wp-content/uploads/2013/03/ArangoDB-logo.png'
+            twitter: 'https://twitter.com/arangodb'
+            crunchbase: 'https://www.crunchbase.com/organization/arangodb'
+          - item:
             name: BigchainDB
             organization: BigchainDB
             homepage_url: 'https://www.bigchaindb.com/'
@@ -1387,6 +1418,13 @@ landscape:
             twitter: 'https://twitter.com/SnowflakeDB'
             crunchbase: 'https://www.crunchbase.com/organization/snowflake-computing'
           - item:
+            name: Software AG
+            organization: Software AG
+            homepage_url: 'https://www.softwareag.com/us/default.html'
+            logo: 'https://pbs.twimg.com/profile_images/659635856488194049/fs8pDuo4_400x400.png'
+            twitter: 'https://twitter.com/SoftwareAG'
+            crunchbase: 'https://www.crunchbase.com/organization/software-ag'
+          - item:
             name: SQL Data Warehouse
             organization: Microsoft
             homepage_url: 'https://azure.microsoft.com/'
@@ -1457,6 +1495,15 @@ landscape:
             repo_url: 'https://github.com/apache/apex-core'
             logo: ./src/hosted_logos/apache-apex.svg
             twitter: 'https://twitter.com/apacheapex/'
+            crunchbase: 'https://www.crunchbase.com/organization/apache'
+          - item:
+            name: Apache RocketMQ
+            organization: Apache
+            homepage_url: 'https://rocketmq.apache.org/'
+            repo_url: 'https://github.com/apache/rocketmq'
+            logo: https://user-images.githubusercontent.com/3961183/34104948-7b66350c-e42d-11e7-9424-a23d567cde8c.png
+            best_res: ''
+            twitter: 'https://twitter.com/ApacheRocketMQ'
             crunchbase: 'https://www.crunchbase.com/organization/apache'
           - item:
             name: Flink
@@ -1623,6 +1670,14 @@ landscape:
         name: CI/CD
         items:
           - item:
+            name: Argo
+            organization: Applatix
+            homepage_url: 'https://applatix.com/open-source/argo/'
+            repo_url: 'https://github.com/argoproj/argo'
+            logo: 'https://raw.githubusercontent.com/argoproj/argo/master/argo-logo600.png'
+            twitter: 'https://twitter.com/applatix'
+            crunchbase: 'https://www.crunchbase.com/organization/applatix'
+          - item:
             name: Appveyor
             organization: Appveyor Systems
             homepage_url: 'https://www.appveyor.com/'
@@ -1658,6 +1713,23 @@ landscape:
             logo: 'https://assets.brandfolder.com/otz6qz-87qv1c-ipc6/view.png'
             twitter: 'https://twitter.com/circleci'
             crunchbase: 'https://www.crunchbase.com/organization/circle-ci'
+          - item:
+            name: Habitus
+            organization: Cloud66
+            homepage_url: 'http://www.habitus.io/'
+            repo_url: 'https://github.com/cloud66/habitus'
+            logo: 'https://cloud66.com/images/habitus-by-cloud66-logo.png'
+            best_res: ''
+            twitter: 'https://twitter.com/cloud66'
+            crunchbase: 'https://www.crunchbase.com/organization/cloudblocks'
+          - item:
+            name: Cloud66 Skycap
+            organization: Cloud66
+            homepage_url: 'https://www.cloud66.com/containers/skycap'
+            logo: 'https://cloud66.com/images/cloud66-skycap-logo-c.png'
+            best_res: ''
+            twitter: 'https://twitter.com/cloud66'
+            crunchbase: 'https://www.crunchbase.com/organization/cloudblocks'
           - item:
             name: Cloudbees
             organization: Cloudbees
@@ -1711,7 +1783,7 @@ landscape:
             twitter: 'https://twitter.com/droneio'
             crunchbase: 'https://www.crunchbase.com/organization/drone-io'
           - item:
-            name: GitLab Runner
+            name: Runner
             organization: GitLab
             homepage_url: 'https://docs.gitlab.com/runner/'
             repo_url: 'https://github.com/ayufan/gitlab-ci-multi-runner'
@@ -1774,7 +1846,7 @@ landscape:
             organization: Oracle
             homepage_url: 'https://www.wercker.com/'
             repo_url: 'https://github.com/wercker/wercker'
-            logo: 'https://cdn.worldvectorlogo.com/logos/oracle-6.svg'
+            logo: 'https://blog.webcanopystudio.com/hubfs/wercker_logo_blue.svg'
             twitter: 'https://twitter.com/wercker'
             crunchbase: 'https://www.crunchbase.com/organization/oracle'
           - item:
@@ -3205,6 +3277,23 @@ landscape:
             logo: 'https://signalfx.com/wp-content/uploads/2015/09/signalfx-logo1.png'
             twitter: 'https://twitter.com/signalfx'
             crunchbase: 'https://www.crunchbase.com/organization/signalfuse'
+          - item:
+            name: Snap
+            organization: Intel SDI
+            homepage_url: 'http://snap-telemetry.io/'
+            repo_url: 'https://github.com/intelsdi-x/snap'
+            logo: 'https://d2.alternativeto.net/dist/icons/snap-telemetry_115442.png?width=200&height=200&mode=crop&upscale=false'
+            best_res: ''
+            twitter: 'https://twitter.com/intelsdilabs'
+            crunchbase: 'https://www.crunchbase.com/organization/intel'
+          - item:
+            name: Tingyun
+            organization: Tingyun
+            homepage_url: 'http://www.tingyun.com/tingyun_app.html'
+            logo: 'http://www.tingyun.com/wp-content/themes/tingyun/images_en/tingyun-logo-en.png'
+            best_res: ''
+            twitter: ''
+            crunchbase: 'https://www.crunchbase.com/organization/tingyun'
           - item:
             name: Google Stackdriver
             organization: Google Cloud
