@@ -9829,7 +9829,7 @@ landscape:
             organization: Serverless
             homepage_url: 'https://serverless.com/'
             repo_url: 'https://github.com/serverless/serverless'
-            logo: 'https://user-images.githubusercontent.com/2752551/30404912-d5781a00-989d-11e7-8d25-5ebca177326a.png'
+            logo: ./src/hosted_logos/serverless.svg
             twitter: 'https://twitter.com/goserverless'
             crunchbase: 'https://www.crunchbase.com/organization/serverless'
             crunchbase_data:
@@ -9859,8 +9859,7 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             image_data:
-              fileName: serverless.png
-              low_res: 2163x327
+              fileName: serverless-serverless.svg
           - item:
             name: Bustle Shep
             organization: Bustle
