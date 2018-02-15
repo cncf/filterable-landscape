@@ -66,17 +66,17 @@ After making changes to `landscape.yml`, run `yarn fetch` to fetch any needed da
 
 `yarn fetch` runs in 4 modes of increasingly aggressive downloading, with a default to easy. Reading data from the cache (meaning from processed_landscape.yml) means that no new data is fetched if the project/product already exists. The modes are:
 
-| *Data cached*        | *easy* | *medium* | *hard* | *complete* |
-|----------------------|--------|----------|--------|------------|
-| *Crunchbase*         | true   | false    | false  | false      |
-| *GitHub basic stats* | true   | false    | false  | false      |
-| *GitHub start dates* | true   | true     | false  | false      |
-| *Image data*         | true   | true     | true   | false      |
+| Data cached            | easy   | medium   | hard   | complete   |
+|------------------------|--------|----------|--------|------------|
+| **Crunchbase**         | true   | false    | false  | false      |
+| **GitHub basic stats** | true   | false    | false  | false      |
+| **GitHub start dates** | true   | true     | false  | false      |
+| **Image data**         | true   | true     | true   | false      |
 
-* *Easy* mode just fetches any data needed for new projects/products.
-* *Medium* fetches Crunchbase and basic GitHub data for all projects/products.
-* *Hard* also fetches GitHub start dates. These should not change so this should not be necessary.
-* *Complete* also re-fetches all images. This is problematic because images tend to become unavailable (404) over time, even though the local cache is fine.
+* **Easy** mode just fetches any data needed for new projects/products.
+* **Medium** fetches Crunchbase and basic GitHub data for all projects/products.
+* **Hard** also fetches GitHub start dates. These should not change so this should not be necessary.
+* **Complete** also re-fetches all images. This is problematic because images tend to become unavailable (404) over time, even though the local cache is fine.
 
 Easy mode (the default) is what you should use if you update `landscape.yml` and want to see the results locally. The Netlify build server runs easy mode, which makes it possible to just commit a change to landscape.yml and have the results reflected in production.
 
