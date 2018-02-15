@@ -1,5 +1,4 @@
 import React from 'react';
-
 const HeaderContainer = (props) => {
 
   return (
@@ -7,8 +6,10 @@ const HeaderContainer = (props) => {
       <div className="header">
         
           {props.children}
-          <span className="landscape-logo"></span>
-          <a href="https://www.cncf.io/" target="_blank" rel="noopener noreferrer" className="cncf-logo"></a>
+          <span className="landscape-logo"><img src="/images/cncf-landscape.svg" /></span>
+          <a href="https://www.cncf.io/" target="_blank" rel="noopener noreferrer" className="cncf-logo">
+          	<img src="/images/cncf.svg" />
+          </a>
 
       </div>
     </div>
