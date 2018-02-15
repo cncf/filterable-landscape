@@ -3858,6 +3858,67 @@
     "id": "net-app"
   },
   {
+    "name": "OpenIO",
+    "organization": "OpenIO",
+    "homepage_url": "https://www.openio.io/",
+    "repo_url": "https://github.com/open-io/oio-sds",
+    "logo": "http://www.elaia.com/wp-content/uploads/2017/10/OpenIO.png",
+    "twitter": "https://twitter.com/openio",
+    "crunchbase": "https://www.crunchbase.com/organization/openio",
+    "github_data": {
+      "stars": 256,
+      "license": "Unknown License",
+      "description": "OpenIO Software Defined Storage",
+      "latest_commit_date": "2018-02-02T16:50:38Z",
+      "latest_commit_link": "/open-io/oio-sds/commit/ffc468f03ac644447fdbfaeaadd642787443f73b"
+    },
+    "github_start_commit_data": {
+      "start_commit_link": "/open-io/oio-sds/commit/fa9411bfadff3248459293cfd477013d39e807b5",
+      "start_date": "2013-05-27T16:04:21Z"
+    },
+    "cncf_membership_data": {
+      "cncf_member": false
+    },
+    "image_data": {
+      "fileName": "open-io.png",
+      "low_res": "1372x306"
+    },
+    "cncfMember": false,
+    "cncfRelation": false,
+    "firstCommitDate": "2013-05-27T16:04:21Z",
+    "firstCommitLink": "/open-io/oio-sds/commit/fa9411bfadff3248459293cfd477013d39e807b5",
+    "latestCommitDate": "2018-02-02T16:50:38Z",
+    "latestCommitLink": "/open-io/oio-sds/commit/ffc468f03ac644447fdbfaeaadd642787443f73b",
+    "stars": 256,
+    "license": "Unknown License",
+    "headquarters": "Hem, France",
+    "description": "OpenIO Software Defined Storage",
+    "crunchbaseData": {
+      "name": "OpenIO",
+      "description": "OpenIO is an Open source object storage solution for massive storage infrastructures. ",
+      "num_employees_min": 11,
+      "num_employees_max": 50,
+      "homepage": "http://www.openio.io",
+      "city": "Hem",
+      "region": "Nord-Pas-de-Calais",
+      "country": "France",
+      "twitter": "https://www.twitter.com/openio",
+      "linkedin": "https://www.linkedin.com/company/openio",
+      "kind": "funding",
+      "funding": 5000000,
+      "numEmployeesMin": 11,
+      "numEmployeesMax": 50
+    },
+    "path": "Runtime / Cloud-Native Storage",
+    "landscape": "Runtime / Cloud-Native Storage",
+    "category": "Runtime",
+    "amountKind": "funding",
+    "amount": 5000000,
+    "oss": true,
+    "href": "/logos/open-io.png",
+    "id": "open-io"
+  },
+  {
     "name": "OpenEBS",
     "organization": "OpenEBS",
     "homepage_url": "hhttps://www.openebs.io/",
@@ -4685,6 +4746,62 @@
     "id": "intel-clear-containers"
   },
   {
+    "name": "Kata Containers",
+    "organization": "Kata Containers",
+    "homepage_url": "https://katacontainers.io/",
+    "repo_url": "https://github.com/kata-containers/runtime",
+    "logo": "https://camo.githubusercontent.com/4679e998080f65b3592aee5962c8bf5bde8d68ee/68747470733a2f2f7777772e6f70656e737461636b2e6f72672f6173736574732f6b6174612f6b6174612d766572746963616c2d6f6e2d77686974652e706e67",
+    "twitter": "https://twitter.com/KataContainers",
+    "crunchbase": "https://www.crunchbase.com/organization/kata-containers",
+    "github_data": {
+      "stars": 71,
+      "license": "Apache-2.0",
+      "description": "Kata Containers runtimes",
+      "latest_commit_date": "2018-02-09T14:56:33Z",
+      "latest_commit_link": "/kata-containers/runtime/commit/64bb90cb92994ba803615cb74851b0843c0611a8"
+    },
+    "github_start_commit_data": {
+      "start_commit_link": "/kata-containers/runtime/commit/53901abe10027ded041a97edea7d99648b957548",
+      "start_date": "2017-11-21T09:03:45Z"
+    },
+    "cncf_membership_data": {
+      "cncf_member": false
+    },
+    "image_data": {
+      "fileName": "kata-containers.png"
+    },
+    "cncfMember": false,
+    "cncfRelation": false,
+    "firstCommitDate": "2017-11-21T09:03:45Z",
+    "firstCommitLink": "/kata-containers/runtime/commit/53901abe10027ded041a97edea7d99648b957548",
+    "latestCommitDate": "2018-02-09T14:56:33Z",
+    "latestCommitLink": "/kata-containers/runtime/commit/64bb90cb92994ba803615cb74851b0843c0611a8",
+    "stars": 71,
+    "license": "Apache-2.0",
+    "headquarters": "N/A",
+    "description": "Kata Containers runtimes",
+    "crunchbaseData": {
+      "name": "Kata Containers",
+      "description": "Container Runtime",
+      "num_employees_min": null,
+      "num_employees_max": null,
+      "homepage": "https://katacontainers.io/",
+      "city": null,
+      "region": null,
+      "country": null,
+      "twitter": "https://twitter.com/KataContainers",
+      "linkedin": null,
+      "numEmployeesMin": null,
+      "numEmployeesMax": null
+    },
+    "path": "Runtime / Container Runtime",
+    "landscape": "Runtime / Container Runtime",
+    "category": "Runtime",
+    "oss": true,
+    "href": "/logos/kata-containers.png",
+    "id": "kata-containers"
+  },
+  {
     "name": "lxd",
     "organization": "Canonical",
     "homepage_url": "https://linuxcontainers.org/lxd/",
@@ -5448,6 +5565,49 @@
     "oss": true,
     "href": "/logos/flannel.png",
     "id": "flannel"
+  },
+  {
+    "name": "GuardiCore Centra",
+    "organization": "GuardiCore",
+    "homepage_url": "https://www.guardicore.com/workloads-protection-hybrid-clouds/",
+    "logo": "https://www.nutanix.com/wp-content/uploads/2017/02/logo_guardicore.svg",
+    "twitter": "https://twitter.com/guardicore",
+    "crunchbase": "https://www.crunchbase.com/organization/guardicore",
+    "cncf_membership_data": {
+      "cncf_member": false
+    },
+    "image_data": {
+      "fileName": "guardi-core-centra.svg"
+    },
+    "cncfMember": false,
+    "cncfRelation": false,
+    "license": "NotOpenSource",
+    "headquarters": "Tel Aviv, Israel",
+    "description": "GuardiCore provides network security solutions for software defined data centers.",
+    "crunchbaseData": {
+      "name": "GuardiCore",
+      "description": "GuardiCore provides network security solutions for software defined data centers.",
+      "num_employees_min": 51,
+      "num_employees_max": 100,
+      "homepage": "http://guardicore.com",
+      "city": "Tel Aviv",
+      "region": "Tel Aviv",
+      "country": "Israel",
+      "twitter": "http://twitter.com/guardicore",
+      "linkedin": "http://www.linkedin.com/company/guardicore",
+      "kind": "funding",
+      "funding": 46000000,
+      "numEmployeesMin": 51,
+      "numEmployeesMax": 100
+    },
+    "path": "Runtime / Cloud-Native Network",
+    "landscape": "Runtime / Cloud-Native Network",
+    "category": "Runtime",
+    "amountKind": "funding",
+    "amount": 46000000,
+    "oss": false,
+    "href": "/logos/guardi-core-centra.svg",
+    "id": "guardi-core-centra"
   },
   {
     "name": "MidoNet",
@@ -7989,6 +8149,67 @@
     "id": "zuul"
   },
   {
+    "name": "ArangoDB",
+    "organization": "ArangoDB",
+    "homepage_url": "https://www.arangodb.com/",
+    "repo_url": "https://github.com/arangodb/arangodb",
+    "logo": "https://www.arangodb.com/wp-content/uploads/2013/03/ArangoDB-logo.png",
+    "twitter": "https://twitter.com/arangodb",
+    "crunchbase": "https://www.crunchbase.com/organization/arangodb",
+    "github_data": {
+      "stars": 5138,
+      "license": "Apache-2.0",
+      "description": "🥑 ArangoDB is a native multi-model database with flexible data models for documents, graphs, and key-values. Build high performance applications using a convenient SQL-like query language or JavaScript extensions.",
+      "latest_commit_date": "2018-01-26T10:21:25Z",
+      "latest_commit_link": "/arangodb/arangodb/commit/9d53c390b1a683fa4b2bbb4d6bf21088c80447aa"
+    },
+    "github_start_commit_data": {
+      "start_commit_link": "/arangodb/arangodb/commit/6577d5417a000c29c9ee7666cbcc3cefae6eee21",
+      "start_date": "2011-10-26T06:42:49Z"
+    },
+    "cncf_membership_data": {
+      "cncf_member": false
+    },
+    "image_data": {
+      "fileName": "arango-db.png",
+      "low_res": "1181x194"
+    },
+    "cncfMember": false,
+    "cncfRelation": false,
+    "firstCommitDate": "2011-10-26T06:42:49Z",
+    "firstCommitLink": "/arangodb/arangodb/commit/6577d5417a000c29c9ee7666cbcc3cefae6eee21",
+    "latestCommitDate": "2018-01-26T10:21:25Z",
+    "latestCommitLink": "/arangodb/arangodb/commit/9d53c390b1a683fa4b2bbb4d6bf21088c80447aa",
+    "stars": 5138,
+    "license": "Apache-2.0",
+    "headquarters": "Cologne, Germany",
+    "description": "🥑 ArangoDB is a native multi-model database with flexible data models for documents, graphs, and key-values. Build high performance applications using a convenient SQL-like query language or JavaScript extensions.",
+    "crunchbaseData": {
+      "name": "ArangoDB",
+      "description": "ArangoDB is an open-source database with a native multi-model approach. Documents, graphs and K/V in one core with one query language.",
+      "num_employees_min": 11,
+      "num_employees_max": 50,
+      "homepage": "http://www.arangodb.com",
+      "city": "Cologne",
+      "region": "Nordrhein-Westfalen",
+      "country": "Germany",
+      "twitter": "http://twitter.com/arangodb",
+      "linkedin": "http://www.linkedin.com/company/5289249",
+      "kind": "funding",
+      "funding": 6898175,
+      "numEmployeesMin": 11,
+      "numEmployeesMax": 50
+    },
+    "path": "App Definition and Developement / Database and Data Warehouse",
+    "landscape": "App Definition and Developement / Database and Data Warehouse",
+    "category": "App Definition and Developement",
+    "amountKind": "funding",
+    "amount": 6898175,
+    "oss": true,
+    "href": "/logos/arango-db.png",
+    "id": "arango-db"
+  },
+  {
     "name": "BigchainDB",
     "organization": "BigchainDB",
     "homepage_url": "https://www.bigchaindb.com/",
@@ -9283,6 +9504,33 @@
     "id": "snowflake"
   },
   {
+    "name": "Software AG",
+    "organization": "Software AG",
+    "homepage_url": "https://www.softwareag.com/us/default.html",
+    "logo": "https://pbs.twimg.com/profile_images/659635856488194049/fs8pDuo4_400x400.png",
+    "twitter": "https://twitter.com/SoftwareAG",
+    "crunchbase": "https://www.crunchbase.com/organization/software-ag",
+    "cncf_membership_data": {
+      "cncf_member": false
+    },
+    "image_data": {
+      "fileName": "software-ag.png",
+      "low_res": "346x55"
+    },
+    "cncfMember": false,
+    "cncfRelation": false,
+    "license": "NotOpenSource",
+    "headquarters": "N/A",
+    "description": null,
+    "path": "App Definition and Developement / Database and Data Warehouse",
+    "landscape": "App Definition and Developement / Database and Data Warehouse",
+    "category": "App Definition and Developement",
+    "amount": "N/A",
+    "oss": false,
+    "href": "/logos/software-ag.png",
+    "id": "software-ag"
+  },
+  {
     "name": "SQL Data Warehouse",
     "organization": "Microsoft",
     "homepage_url": "https://azure.microsoft.com/",
@@ -9754,6 +10002,64 @@
     "oss": true,
     "href": "/logos/apache-apex.svg",
     "id": "apache-apex"
+  },
+  {
+    "name": "Apache RocketMQ",
+    "organization": "Apache Software Foundation",
+    "homepage_url": "https://rocketmq.apache.org/",
+    "repo_url": "https://github.com/apache/rocketmq",
+    "logo": "https://user-images.githubusercontent.com/3961183/34104948-7b66350c-e42d-11e7-9424-a23d567cde8c.png",
+    "best_res": "",
+    "twitter": "https://twitter.com/ApacheRocketMQ",
+    "crunchbase": "https://www.crunchbase.com/organization/apache",
+    "github_data": {
+      "stars": 3637,
+      "license": "Apache-2.0",
+      "description": "Mirror of Apache RocketMQ",
+      "latest_commit_date": "2018-01-16T06:28:20Z",
+      "latest_commit_link": "/apache/rocketmq/commit/2d43e75eb3789b02dd4f65865ac34ad10652f6ce"
+    },
+    "github_start_commit_data": {
+      "start_commit_link": "/apache/rocketmq/commit/f035d9bec091d725a33ec135190ff726362748e3",
+      "start_date": "2016-12-20T03:00:06Z"
+    },
+    "cncf_membership_data": {
+      "cncf_member": false
+    },
+    "image_data": {
+      "fileName": "apache-rocket-mq.png",
+      "low_res": "141x194"
+    },
+    "cncfMember": false,
+    "cncfRelation": false,
+    "firstCommitDate": "2016-12-20T03:00:06Z",
+    "firstCommitLink": "/apache/rocketmq/commit/f035d9bec091d725a33ec135190ff726362748e3",
+    "latestCommitDate": "2018-01-16T06:28:20Z",
+    "latestCommitLink": "/apache/rocketmq/commit/2d43e75eb3789b02dd4f65865ac34ad10652f6ce",
+    "stars": 3637,
+    "license": "Apache-2.0",
+    "headquarters": "Forest Hill, Maryland",
+    "description": "Mirror of Apache RocketMQ",
+    "crunchbaseData": {
+      "name": "Apache Software Foundation",
+      "description": "Apache Software Foundation (501C3) provides organizational, legal and financial support for Apache open-source software projects.",
+      "num_employees_min": 1,
+      "num_employees_max": 10,
+      "homepage": "http://www.apache.org",
+      "city": "Forest Hill",
+      "region": "Maryland",
+      "country": "United States",
+      "twitter": "http://twitter.com/TheASF",
+      "linkedin": "http://www.linkedin.com/company/the-apache-software-foundation",
+      "numEmployeesMin": 1,
+      "numEmployeesMax": 10
+    },
+    "path": "App Definition and Developement / Streaming",
+    "landscape": "App Definition and Developement / Streaming",
+    "category": "App Definition and Developement",
+    "oss": true,
+    "href": "/logos/apache-rocket-mq.png",
+    "id": "apache-rocket-mq"
   },
   {
     "name": "Flink",
@@ -10843,6 +11149,71 @@
     "id": "packer"
   },
   {
+    "name": "Argo",
+    "organization": "Intuit",
+    "homepage_url": "https://applatix.com/open-source/argo/",
+    "repo_url": "https://github.com/argoproj/argo",
+    "logo": "https://raw.githubusercontent.com/argoproj/argo/master/argo-logo600.png",
+    "twitter": "https://twitter.com/applatix",
+    "crunchbase": "https://www.crunchbase.com/organization/intuit",
+    "github_data": {
+      "stars": 441,
+      "license": "Unknown License",
+      "description": "Get stuff done with container-native workflows for Kubernetes.",
+      "latest_commit_date": "2018-02-14T22:03:53Z",
+      "latest_commit_link": "/argoproj/argo/commit/81a6cd3653d1f0708bff4207e8df90c3dec4889a"
+    },
+    "github_start_commit_data": {
+      "start_commit_link": "/argoproj/argo/commit/3ed1dfeb073829d3c4f92b95c9a74118caaec1b4",
+      "start_date": "2017-10-17T21:38:48Z"
+    },
+    "cncf_membership_data": {
+      "cncf_member": true
+    },
+    "yahoo_finance_data": {
+      "market_cap": 42483916800,
+      "effective_ticker": "INTU"
+    },
+    "image_data": {
+      "fileName": "argo.png",
+      "low_res": "340x515"
+    },
+    "cncfMember": true,
+    "cncfRelation": "member",
+    "firstCommitDate": "2017-10-17T21:38:48Z",
+    "firstCommitLink": "/argoproj/argo/commit/3ed1dfeb073829d3c4f92b95c9a74118caaec1b4",
+    "latestCommitDate": "2018-02-14T22:03:53Z",
+    "latestCommitLink": "/argoproj/argo/commit/81a6cd3653d1f0708bff4207e8df90c3dec4889a",
+    "stars": 441,
+    "license": "Unknown License",
+    "headquarters": "Mountain View, California",
+    "description": "Get stuff done with container-native workflows for Kubernetes.",
+    "crunchbaseData": {
+      "name": "Intuit",
+      "description": "Intuit offers business and financial management solutions for SMBs, financial institutions, consumers, and accounting professionals.",
+      "num_employees_min": 5001,
+      "num_employees_max": 10000,
+      "homepage": "http://www.intuit.com",
+      "city": "Mountain View",
+      "region": "California",
+      "country": "United States",
+      "twitter": "http://twitter.com/INTUITINC",
+      "linkedin": "http://www.linkedin.com/company/intuit",
+      "ticker": "INTU",
+      "kind": "market_cap",
+      "numEmployeesMin": 5001,
+      "numEmployeesMax": 10000
+    },
+    "path": "App Definition and Developement / CI/CD",
+    "landscape": "App Definition and Developement / CI/CD",
+    "category": "App Definition and Developement",
+    "amountKind": "market_cap",
+    "amount": 42483916800,
+    "oss": true,
+    "href": "/logos/argo.png",
+    "id": "argo"
+  },
+  {
     "name": "Appveyor",
     "organization": "Appveyor Systems",
     "homepage_url": "https://www.appveyor.com/",
@@ -11072,6 +11443,113 @@
     "oss": false,
     "href": "/logos/circle-ci.png",
     "id": "circle-ci"
+  },
+  {
+    "name": "Habitus",
+    "organization": "Cloud 66",
+    "homepage_url": "http://www.habitus.io/",
+    "repo_url": "https://github.com/cloud66/habitus",
+    "logo": "https://cloud66.com/images/habitus-by-cloud66-logo.png",
+    "best_res": "",
+    "twitter": "https://twitter.com/cloud66",
+    "crunchbase": "https://www.crunchbase.com/organization/cloudblocks",
+    "github_data": {
+      "stars": 745,
+      "license": "Apache-2.0",
+      "description": "A Build Flow Tool for Docker",
+      "latest_commit_date": "2018-02-15T00:56:41Z",
+      "latest_commit_link": "/cloud66/habitus/commit/4282074823d0296cb543210141fc8a6959bdb6af"
+    },
+    "github_start_commit_data": {
+      "start_commit_link": "/cloud66/habitus/commit/c0f22df555996f73d793e0bd96f22b11c6da4398",
+      "start_date": "2015-07-28T09:35:16Z"
+    },
+    "cncf_membership_data": {
+      "cncf_member": false
+    },
+    "image_data": {
+      "fileName": "habitus.png",
+      "low_res": "176x171"
+    },
+    "cncfMember": false,
+    "cncfRelation": false,
+    "firstCommitDate": "2015-07-28T09:35:16Z",
+    "firstCommitLink": "/cloud66/habitus/commit/c0f22df555996f73d793e0bd96f22b11c6da4398",
+    "latestCommitDate": "2018-02-15T00:56:41Z",
+    "latestCommitLink": "/cloud66/habitus/commit/4282074823d0296cb543210141fc8a6959bdb6af",
+    "stars": 745,
+    "license": "Apache-2.0",
+    "headquarters": "San Francisco, California",
+    "description": "A Build Flow Tool for Docker",
+    "crunchbaseData": {
+      "name": "Cloud 66",
+      "description": "Ops tools for Devs. Build, deliver, deploy and manage any applications on any cloud or server.",
+      "num_employees_min": 11,
+      "num_employees_max": 50,
+      "homepage": "http://www.cloud66.com",
+      "city": "San Francisco",
+      "region": "California",
+      "country": "United States",
+      "twitter": "http://twitter.com/cloud66",
+      "linkedin": "http://www.linkedin.com/company/cloud-66",
+      "kind": "funding",
+      "funding": 2240385,
+      "numEmployeesMin": 11,
+      "numEmployeesMax": 50
+    },
+    "path": "App Definition and Developement / CI/CD",
+    "landscape": "App Definition and Developement / CI/CD",
+    "category": "App Definition and Developement",
+    "amountKind": "funding",
+    "amount": 2240385,
+    "oss": true,
+    "href": "/logos/habitus.png",
+    "id": "habitus"
+  },
+  {
+    "name": "Cloud66 Skycap",
+    "organization": "Cloud 66",
+    "homepage_url": "https://www.cloud66.com/containers/skycap",
+    "logo": "https://cloud66.com/images/cloud66-skycap-logo-c.png",
+    "best_res": "",
+    "twitter": "https://twitter.com/cloud66",
+    "crunchbase": "https://www.crunchbase.com/organization/cloudblocks",
+    "cncf_membership_data": {
+      "cncf_member": false
+    },
+    "image_data": {
+      "fileName": "cloud66-skycap.png",
+      "low_res": "293x338"
+    },
+    "cncfMember": false,
+    "cncfRelation": false,
+    "license": "NotOpenSource",
+    "headquarters": "San Francisco, California",
+    "description": "Ops tools for Devs. Build, deliver, deploy and manage any applications on any cloud or server.",
+    "crunchbaseData": {
+      "name": "Cloud 66",
+      "description": "Ops tools for Devs. Build, deliver, deploy and manage any applications on any cloud or server.",
+      "num_employees_min": 11,
+      "num_employees_max": 50,
+      "homepage": "http://www.cloud66.com",
+      "city": "San Francisco",
+      "region": "California",
+      "country": "United States",
+      "twitter": "http://twitter.com/cloud66",
+      "linkedin": "http://www.linkedin.com/company/cloud-66",
+      "kind": "funding",
+      "funding": 2240385,
+      "numEmployeesMin": 11,
+      "numEmployeesMax": 50
+    },
+    "path": "App Definition and Developement / CI/CD",
+    "landscape": "App Definition and Developement / CI/CD",
+    "category": "App Definition and Developement",
+    "amountKind": "funding",
+    "amount": 2240385,
+    "oss": false,
+    "href": "/logos/cloud66-skycap.png",
+    "id": "cloud66-skycap"
   },
   {
     "name": "Cloudbees",
@@ -11424,7 +11902,7 @@
     "id": "drone"
   },
   {
-    "name": "GitLab Runner",
+    "name": "Runner",
     "organization": "GitLab",
     "homepage_url": "https://docs.gitlab.com/runner/",
     "repo_url": "https://github.com/ayufan/gitlab-ci-multi-runner",
@@ -11482,7 +11960,7 @@
     "amount": 45620000,
     "oss": true,
     "href": "/logos/git-lab-runner.png",
-    "id": "git-lab-runner"
+    "id": "runner"
   },
   {
     "name": "Jenkins",
@@ -11819,7 +12297,7 @@
     "organization": "Oracle",
     "homepage_url": "https://www.wercker.com/",
     "repo_url": "https://github.com/wercker/wercker",
-    "logo": "https://cdn.worldvectorlogo.com/logos/oracle-6.svg",
+    "logo": "https://blog.webcanopystudio.com/hubfs/wercker_logo_blue.svg",
     "twitter": "https://twitter.com/wercker",
     "crunchbase": "https://www.crunchbase.com/organization/oracle",
     "github_data": {
@@ -11841,7 +12319,7 @@
       "effective_ticker": "ORCL"
     },
     "image_data": {
-      "fileName": "oracle-cloud.svg"
+      "fileName": "wercker.svg"
     },
     "cncfMember": true,
     "cncfRelation": "member",
@@ -11875,7 +12353,7 @@
     "amountKind": "market_cap",
     "amount": 206959296512,
     "oss": true,
-    "href": "/logos/oracle-cloud.svg",
+    "href": "/logos/wercker.svg",
     "id": "wercker"
   },
   {
@@ -20430,6 +20908,113 @@
     "id": "signal-fx"
   },
   {
+    "name": "Snap",
+    "organization": "Intel",
+    "homepage_url": "http://snap-telemetry.io/",
+    "repo_url": "https://github.com/intelsdi-x/snap",
+    "logo": "https://d2.alternativeto.net/dist/icons/snap-telemetry_115442.png?width=200&height=200&mode=crop&upscale=false",
+    "best_res": "",
+    "twitter": "https://twitter.com/intelsdilabs",
+    "crunchbase": "https://www.crunchbase.com/organization/intel",
+    "github_data": {
+      "stars": 1658,
+      "license": "Apache-2.0",
+      "description": "The open telemetry framework",
+      "latest_commit_date": "2018-02-06T09:01:08Z",
+      "latest_commit_link": "/intelsdi-x/snap/commit/1d4a8e9a4e993040c660a51ff45ffcc8d894743f"
+    },
+    "github_start_commit_data": {
+      "start_commit_link": "/intelsdi-x/snap/commit/d7f2476060dcba8b328e746d1eab5ff576f791da",
+      "start_date": "2014-08-13T21:04:51Z"
+    },
+    "cncf_membership_data": {
+      "cncf_member": false
+    },
+    "yahoo_finance_data": {
+      "market_cap": 212003995648,
+      "effective_ticker": "INTC"
+    },
+    "image_data": {
+      "fileName": "snap.png",
+      "low_res": "290x172"
+    },
+    "cncfMember": false,
+    "cncfRelation": false,
+    "firstCommitDate": "2014-08-13T21:04:51Z",
+    "firstCommitLink": "/intelsdi-x/snap/commit/d7f2476060dcba8b328e746d1eab5ff576f791da",
+    "latestCommitDate": "2018-02-06T09:01:08Z",
+    "latestCommitLink": "/intelsdi-x/snap/commit/1d4a8e9a4e993040c660a51ff45ffcc8d894743f",
+    "stars": 1658,
+    "license": "Apache-2.0",
+    "headquarters": "Santa Clara, California",
+    "description": "The open telemetry framework",
+    "crunchbaseData": {
+      "name": "Intel",
+      "description": "Intel designs, manufactures, and sells integrated digital technology platforms worldwide.",
+      "num_employees_min": 10001,
+      "num_employees_max": 1000000,
+      "homepage": "http://www.intel.com/",
+      "city": "Santa Clara",
+      "region": "California",
+      "country": "United States",
+      "twitter": "http://twitter.com/intel",
+      "linkedin": "https://www.linkedin.com/company/intel-corporation",
+      "ticker": "INTC",
+      "kind": "market_cap",
+      "numEmployeesMin": 10001,
+      "numEmployeesMax": 1000000
+    },
+    "path": "Observability and Analysis / Monitoring",
+    "landscape": "Observability and Analysis / Monitoring",
+    "category": "Observability and Analysis",
+    "amountKind": "market_cap",
+    "amount": 212003995648,
+    "oss": true,
+    "href": "/logos/snap.png",
+    "id": "snap"
+  },
+  {
+    "name": "Tingyun",
+    "organization": "Tingyun",
+    "homepage_url": "http://www.tingyun.com/tingyun_app.html",
+    "logo": "http://www.tingyun.com/wp-content/themes/tingyun/images_en/tingyun-logo-en.png",
+    "best_res": "",
+    "twitter": "",
+    "crunchbase": "https://www.crunchbase.com/organization/tingyun",
+    "cncf_membership_data": {
+      "cncf_member": false
+    },
+    "image_data": {
+      "fileName": "tingyun.png",
+      "low_res": "809x159"
+    },
+    "cncfMember": false,
+    "cncfRelation": false,
+    "license": "NotOpenSource",
+    "headquarters": "Beijing, China",
+    "description": "Observability and Analysis, Monitoring",
+    "crunchbaseData": {
+      "name": "Tingyun",
+      "description": "Observability and Analysis, Monitoring",
+      "num_employees_min": null,
+      "num_employees_max": null,
+      "homepage": "http://www.tingyun.com/tingyun_app.html",
+      "city": "Beijing",
+      "region": "Beijing",
+      "country": "China",
+      "twitter": null,
+      "linkedin": null,
+      "numEmployeesMin": null,
+      "numEmployeesMax": null
+    },
+    "path": "Observability and Analysis / Monitoring",
+    "landscape": "Observability and Analysis / Monitoring",
+    "category": "Observability and Analysis",
+    "oss": false,
+    "href": "/logos/tingyun.png",
+    "id": "tingyun"
+  },
+  {
     "name": "Google Stackdriver",
     "organization": "Google Cloud Platform",
     "homepage_url": "https://cloud.google.com/stackdriver/",
@@ -22661,7 +23246,7 @@
     "description": "Fluentd Enterprise brings smart, secure logging to Kubernetes, and brings integrations with backends such as Splunk, Kafka, or AWS S3. ",
     "homepage_url": "https://www.treasuredata.com/",
     "logo": "https://d1eipm3vz40hy0.cloudfront.net/images/p-apps-marketplace/apps/87957/logo.png",
-    "crunchbase": "https://www.crunchbase.com/organization//treasure-data",
+    "crunchbase": "https://www.crunchbase.com/organization/treasure-data",
     "cncf_membership_data": {
       "cncf_member": true
     },
