@@ -72,8 +72,13 @@ tree.map(function(node) {
       }
       return (node.crunchbase_data || {}).effective_ticker;
     };
+    var hasBadImages = false;
     if (!node.image_data) {
       console.info(`Item ${node.name} has no image_data`);
+      hasBadImages = true;
+    }
+    if(hasBadImages) {
+      require('process').exit(-1);
     }
 
     const getCommitLink = function(link) {
