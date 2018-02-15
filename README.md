@@ -21,10 +21,9 @@ Please open a pull request with edits to [landscape.yml](landscape.yml). The fil
 
 If the error is with data from [Crunchbase](https://www.crunchbase.com/) you should open an account there and edit the data. If you don't like a project description, edit it in GitHub. If your project isn't showing the license correctly, you may need to paste the license into LICENSE file at the root of your project in GitHub, in order for GitHub to serve the information correctly. (It needs to be LICENSE and not LICENSE.txt or LICENSE.code, and the text needs to be the standard license text.)
 
-## Specification
+## Todo items
 
 * [Kanban](https://github.com/cncf/filterable-landscape/projects/1) of current tasks
-* Original [specification](https://docs.google.com/document/d/1QPVrXRjTWDQAwsbgSWutUmteXo0mTXcTvCNlz6qw0Uw/edit)
 
 ## Static Landscape
 
@@ -41,12 +40,12 @@ Everything else is under the Apache License, Version 2.0, except for project and
 The following rules will produce the most readable and attractive logos:
 
 1. We strongly prefer SVG, as they are smaller, display correctly at any scale, and work on all modern browsers. If you only have the logo in another vector format (like AI, EPS, or PSD), please open as issue and we'll convert it to SVG for you.
-1. If it must be a PNG, the dimensions of the source logo need to be at least 450x300, as that is what they are resized to. A transparent background is better; white will be converted to PNG with a transparent background.
+1. If it must be a PNG, the dimensions of the source logo should be at least 540x360, as that is what they are resized to. A transparent background is better; white will be converted to a transparent background.
 1. When multiple variants exist, use stacked (not horizontal) logos. For example, we use the second column (stacked), not the first (horizontal), of CNCF project [logos](https://github.com/cncf/artwork/#cncf-incubating-logos).
 1. Don't use reversed logos (i.e., with a non-white, non-transparent background color). If you only have a reversed logo, create an issue with it attached and we'll produce a non-reversed version for you.
 1. Logos must include the company, product or project name in English. It's fine to also include words from another language. If you don't have a version of your logo with the name in it, please open an issue and we'll create one for you (and please specify the font).
-1. If the name of the product is not in the logo, then the company name should be included in the product name. So an Acme Rocket logo that shows "Rocket" should have product name "Rocket", while if the logo shows "Acme", the product name should be "Acme Rocket". Otherwise, logos looks out of place when you sort alphabetically.
-1. Google images is often the best way to find a good version of the logo (but ensure it's the up-to-date version). Search for [project-name logo filetype:svg], click images, click Tools, More Tools, and then Show Sizes. You can then change SVG files to PNG if you can't find a suitable SVG. Or click this [image search link](https://www.google.com/search?q=kubernetes&tbs=ift:svg,imgo:1&tbm=isch) and change the search query.
+1. If the name of the product is not in the logo, then the company name should be included in the product name. So an Acme Rocket logo that shows "Rocket" should have product name "Rocket", while if the logo shows "Acme Rocket", the product name should be "Acme Rocket". Otherwise, logos looks out of place when you sort alphabetically.
+1. Google images is often the best way to find a good version of the logo (but ensure it's the up-to-date version). Search for [project-name logo filetype:svg]. You can then change SVG files to PNG if you can't find a suitable SVG. When looking for PNGs click Tools, More Tools, and then Show Sizes or click this [image search link](https://www.google.com/search?q=kubernetes&tbs=ift:svg,imgo:1&tbm=isch) and change the search query.
 
 ## Installation
 
@@ -61,54 +60,31 @@ The following rules will produce the most readable and attractive logos:
 * `yarn open:src` (starts a development server) or
 * `yarn build`, then `yarn open:dist` (compiles and opens a production build)
 
-
 ### Updating data
 
-The following options go from least data updated to most:
-1. `npm run fetch`: Fetches images (saving any changes) and updates processed_landscape.yaml
-1. `npm run precommit`: Above plus downloads GitHub info
-1. `npm run rebuild`: Above plus deletes all images first
+After making changes to `landscape.yml`, run `yarn fetch` to fetch any needed data and generate [processed_landscape.yml](processed_landscape.yml) and [file](https://github.com/cncf/filterable-landscape/blob/master/src/data.json).
 
-Netlify runs:
-1. `npm run prebuild` 
+`yarn fetch` runs in 4 modes of increasingly aggressive downloading, with a default to easy. Reading data from the cache (meaning from processed_landscape.yml) means that no new data is fetched if the project/product already exists. The modes are:
 
-### Data flow
-  Nothing is updated automatically during development.
-  Overall, the data flow is this:
+| Data cached            | easy   | medium   | hard   | complete   |
+|------------------------|--------|----------|--------|------------|
+| **Crunchbase**         | true   | false    | false  | false      |
+| **GitHub basic stats** | true   | false    | false  | false      |
+| **GitHub start dates** | true   | true     | false  | false      |
+| **Image data**         | true   | true     | true   | false      |
 
-  landscape.yml => `yarn run babel-node tools/addExternalInfo` => processed_landscape.yml => `yarn yaml2json` => src/data.json + src/lookup.json
+* **Easy** mode just fetches any data needed for new projects/products.
+* **Medium** fetches Crunchbase and basic GitHub data for all projects/products.
+* **Hard** also fetches GitHub start dates. These should not change so this should not be necessary.
+* **Complete** also re-fetches all images. This is problematic because images tend to become unavailable (404) over time, even though the local cache is fine.
 
-  processed_landscape.yml => `yarn run babel-node tools/fetchImages` => src/logos + src/styles/styles.scss + src/image_urls.yml
+Easy mode (the default) is what you should use if you update `landscape.yml` and want to see the results locally. The Netlify build server runs easy mode, which makes it possible to just commit a change to landscape.yml and have the results reflected in production.
 
-  `yarn run babel-node tools/addExternalInfo` uses these files:
-  1. landscape.yml - our source
-  2. github.json - an info about repos, can be obtained via `yarn run babel-node tools/fetchGithubStats`
-  3. crunchbase.csv - an info about companies from the crunchbase, should be download manually from a crunchbase pro account
-  4. cncf_members.yml - a list of all cncf members.
+Medium mode is what is run by the update server, with commits back to the repo. It needs to be run regularly to update last commit date, stars, and Crunchbase info.
 
-  `yarn yaml2json` uses this files:
-  1. processed_landscape.yml - our source with extra fields from saved 3rd party data.
+Hard and complete modes should be unnecessary except in cases of possible data corruption. Even then, it's better to just delete any problematic entries from `processed_landscape.yml` and easy mode will recreate them with up-to-date information.
 
-  `yarn run babel-node tools/fetchImages` uses these files:
-  1. processed_landscape.yml - our source with extra fields from saved 3rd party data, so we get a proper company name
-  2. src/hosted_logos - some logos are stored locally
-  3. src/image_urls.yml - result from a previous run of this command. Saves us a time on image postprocessing
-
-  When you change a code iteslf in tools/fetchImages.js, postprocessing may
-  fail, because the file src/image_urls.yml contains the hash for an input image.
-  Just run `yarn fetchAllImages` to load everything again.
-
-### building a dist
-   `yarn build`
-
-### rebuilding json from yaml and extra info:
-   `yarn yaml2json`
-
-### rebuilding all images:
-   `yarn fetchAllImages`
-
-### adding a custom image:
-1. save it to the src/hosted_logos/, for example, src/hosted_logos/apex.png
-2. update the landscape.yml with a logo, for exaple, `logo: ./src/hosted_logos/apex.png`
-3. handle it as usually when you modify any reference to the image:
-  - `npm run fetch`
+### Adding a custom image
+1. Save it to the src/hosted_logos/, for example, src/hosted_logos/apex.png
+2. Update the landscape.yml with a logo, for exaple, `logo: ./src/hosted_logos/apex.png`
+3. Update `processed_landscape.yml` with `yarn fetch`

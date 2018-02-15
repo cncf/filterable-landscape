@@ -7,8 +7,10 @@ const HeaderContainer = (props) => {
       <div className="header">
         
           {props.children}
-          <span className="landscape-logo"></span>
-          <a href="https://www.cncf.io/" target="_blank" rel="noopener noreferrer" className="cncf-logo"></a>
+          <span className="landscape-logo"><img src="/styles/assets/cncf-landscape.svg" /></span>
+          <a href="https://www.cncf.io/" target="_blank" rel="noopener noreferrer" className="cncf-logo">
+          	<img src="/styles/assets/cncf.svg" />
+          </a>
 
       </div>
     </div>
