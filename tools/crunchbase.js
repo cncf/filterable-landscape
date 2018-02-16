@@ -30,7 +30,7 @@ export async function getCrunchbaseOrganizationsList() {
       ticker: node.stock_ticker
     });
   });
-  return _.uniq(organizations);
+  return _.orderBy(_.uniq(organizations), 'name');
 }
 
 export async function extractSavedCrunchbaseEntries() {
