@@ -9,7 +9,9 @@ import path from 'path';
 import FaviconsWebpackPlugin from 'favicons-webpack-plugin';
 import MinifyPlugin from "babel-minify-webpack-plugin";
 
-const isMainBranch = ['master', 'production', 'staging'].indexOf(branch.sync()) !== -1;
+const currentBranch = require('process').env['BRANCH'] ||  branch.sync();
+console.info('Branch: ', currentBranch);
+const isMainBranch = ['master', 'production', 'staging'].indexOf(currentBranch) !== -1;
 
 const GLOBALS = {
   'process.env.NODE_ENV': JSON.stringify('production'),
