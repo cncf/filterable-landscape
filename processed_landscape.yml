@@ -27,7 +27,7 @@ landscape:
               ticker: BABA
               kind: market_cap
             cncf_membership_data:
-              cncf_member: false
+              cncf_member: true
             yahoo_finance_data:
               market_cap: 475670970368
               effective_ticker: BABA
@@ -108,7 +108,7 @@ landscape:
               kind: funding
               funding: 305405800
             cncf_membership_data:
-              cncf_member: false
+              cncf_member: true
             image_data:
               fileName: digital-ocean.svg
           - item:
@@ -160,7 +160,7 @@ landscape:
               ticker: GOOG
               kind: market_cap
             cncf_membership_data:
-              cncf_member: false
+              cncf_member: true
             yahoo_finance_data:
               market_cap: 764112601088
               effective_ticker: GOOG
@@ -185,7 +185,7 @@ landscape:
               twitter: 'https://twitter.com/Huawei'
               linkedin: 'http://www.linkedin.com/company/3014'
             cncf_membership_data:
-              cncf_member: false
+              cncf_member: true
             image_data:
               fileName: huawei.svg
           - item:
@@ -300,7 +300,7 @@ landscape:
               kind: funding
               funding: 11567845
             cncf_membership_data:
-              cncf_member: false
+              cncf_member: true
             image_data:
               fileName: packet.svg
           - item:
@@ -628,7 +628,7 @@ landscape:
               start_commit_link: /chef/chef/commit/b5117775e86cff40399187b6292c98fba9dc5034
               start_date: '2008-03-06T07:31:38Z'
             cncf_membership_data:
-              cncf_member: false
+              cncf_member: true
             image_data:
               fileName: chef.svg
           - item:
@@ -908,7 +908,7 @@ landscape:
               start_commit_link: /kubernetes/helm/commit/94db53d0803034083a3a9b1c7a9a197c327eb6b0
               start_date: '2015-11-02T23:52:56Z'
             cncf_membership_data:
-              cncf_member: false
+              cncf_member: true
             image_data:
               fileName: helm.svg
           - item:
@@ -1252,7 +1252,7 @@ landscape:
               ticker: GOOG
               kind: market_cap
             cncf_membership_data:
-              cncf_member: false
+              cncf_member: true
             yahoo_finance_data:
               market_cap: 764112601088
               effective_ticker: GOOG
@@ -1416,7 +1416,7 @@ landscape:
               kind: funding
               funding: 38000000
             cncf_membership_data:
-              cncf_member: false
+              cncf_member: true
             image_data:
               fileName: aqua.png
               low_res: 451x137
@@ -1538,7 +1538,7 @@ landscape:
               start_commit_link: /theupdateframework/notary/commit/495dce997d6353738e1f115b0d2b24fc880c959e
               start_date: '2015-03-27T22:57:48Z'
             cncf_membership_data:
-              cncf_member: false
+              cncf_member: true
             image_data:
               fileName: notary.svg
           - item:
@@ -1634,7 +1634,7 @@ landscape:
               start_commit_link: /theupdateframework/tuf/commit/0fb43a5e36f40ae7fccd2128e5e0bbb401b3111a
               start_date: '2013-01-31T18:54:15Z'
             cncf_membership_data:
-              cncf_member: false
+              cncf_member: true
             image_data:
               fileName: the-update-framework-tuf.svg
           - item:
@@ -1962,7 +1962,7 @@ landscape:
               start_commit_link: /container-storage-interface/spec/commit/1396c5bc6acfb4a2440dd633b2a62ba60ea9273b
               start_date: '2017-05-19T04:23:40Z'
             cncf_membership_data:
-              cncf_member: false
+              cncf_member: true
             image_data:
               fileName: container-storage-interface-csi.svg
           - item:
@@ -2009,7 +2009,7 @@ landscape:
               twitter: 'https://twitter.com/dellemc'
               linkedin: 'https://www.linkedin.com/company-beta/1128'
             cncf_membership_data:
-              cncf_member: false
+              cncf_member: true
             image_data:
               fileName: dell-emc.svg
           - item:
@@ -2130,7 +2130,7 @@ landscape:
               start_commit_link: /infinit/elle/commit/08304cde7f088f3c0f7dc81076047242cb2580c3
               start_date: '2009-07-15T22:34:41Z'
             cncf_membership_data:
-              cncf_member: true
+              cncf_member: false
             image_data:
               fileName: infinit.png
               low_res: 696x346
@@ -2400,7 +2400,7 @@ landscape:
               kind: funding
               funding: 28500000
             cncf_membership_data:
-              cncf_member: false
+              cncf_member: true
             image_data:
               fileName: portworx.png
           - item:
@@ -2546,7 +2546,7 @@ landscape:
               start_commit_link: /rook/rook/commit/31bd4e46f5e7f1fcc38c4dc6ffe81e7a8d666458
               start_date: '2016-07-08T22:44:29Z'
             cncf_membership_data:
-              cncf_member: false
+              cncf_member: true
             image_data:
               fileName: rook.svg
           - item:
@@ -2589,7 +2589,7 @@ landscape:
               kind: funding
               funding: 34000000
             cncf_membership_data:
-              cncf_member: true
+              cncf_member: false
             image_data:
               fileName: springpath.png
               low_res: 318x155
@@ -2682,7 +2682,7 @@ landscape:
               start_commit_link: /containerd/containerd/commit/15a96783ca2ac8c0eb2c400701e8eb335059c63b
               start_date: '2015-11-05T23:29:53Z'
             cncf_membership_data:
-              cncf_member: false
+              cncf_member: true
             image_data:
               fileName: containerd.svg
           - item:
@@ -2713,7 +2713,7 @@ landscape:
               start_commit_link: /kubernetes-incubator/cri-o/commit/580db0719d68b3ff3bb30f60397c3892be383eb5
               start_date: '2016-09-09T19:56:31Z'
             cncf_membership_data:
-              cncf_member: false
+              cncf_member: true
             image_data:
               fileName: cri-o.svg
           - item:
@@ -2847,7 +2847,7 @@ landscape:
               start_commit_link: /rkt/rkt/commit/054de85da2173bb7857ed08032375fb643efeeac
               start_date: '2014-01-19T20:25:11Z'
             cncf_membership_data:
-              cncf_member: false
+              cncf_member: true
             image_data:
               fileName: rkt.svg
           - item:
@@ -3122,7 +3122,7 @@ landscape:
               start_commit_link: /containernetworking/cni/commit/502be19aed3557ddb775fe133b095ad6e6eb87bf
               start_date: '2015-04-05T03:35:49Z'
             cncf_membership_data:
-              cncf_member: false
+              cncf_member: true
             image_data:
               fileName: cni.svg
           - item:
@@ -3420,7 +3420,7 @@ landscape:
               kind: funding
               funding: 48006848
             cncf_membership_data:
-              cncf_member: true
+              cncf_member: false
             image_data:
               fileName: plumgrid.png
               low_res: 261x84
@@ -3636,7 +3636,7 @@ landscape:
               start_commit_link: /kubernetes/kubernetes/commit/2c4b3a562ce34cddc3f8218a2c4d11c7310e6d56
               start_date: '2014-06-06T23:40:48Z'
             cncf_membership_data:
-              cncf_member: false
+              cncf_member: true
             image_data:
               fileName: kubernetes.svg
           - item:
@@ -3839,7 +3839,7 @@ landscape:
               start_commit_link: /coredns/coredns/commit/3ec0d9fe6b133a64712ae69fd712c14ad1a71f4d
               start_date: '2016-03-18T20:57:35Z'
             cncf_membership_data:
-              cncf_member: false
+              cncf_member: true
             image_data:
               fileName: core-dns.svg
           - item:
@@ -4243,7 +4243,7 @@ landscape:
               start_commit_link: /envoyproxy/envoy/commit/a714b9c2b0a2acc9da44098cabff69586134a0dd
               start_date: '2016-08-08T15:07:25Z'
             cncf_membership_data:
-              cncf_member: false
+              cncf_member: true
             image_data:
               fileName: envoy.svg
           - item:
@@ -4303,7 +4303,7 @@ landscape:
               start_commit_link: /grpc/grpc/commit/0e905e63db21bcdd85d3d1af051fcdc5bb5caa38
               start_date: '2014-11-22T00:16:16Z'
             cncf_membership_data:
-              cncf_member: false
+              cncf_member: true
             image_data:
               fileName: g-rpc.svg
           - item:
@@ -4446,7 +4446,7 @@ landscape:
               start_commit_link: /linkerd/linkerd/commit/37e38f2a892d9354eea7305135aa6370612b02f2
               start_date: '2016-01-13T22:17:47Z'
             cncf_membership_data:
-              cncf_member: false
+              cncf_member: true
             image_data:
               fileName: linkerd.svg
           - item:
@@ -4930,7 +4930,7 @@ landscape:
               start_commit_link: /couchbase/couchbase-lite-ios/commit/599857cc9f78244d0d403e5d026fe44a8ade9d23
               start_date: '2011-11-30T17:20:58Z'
             cncf_membership_data:
-              cncf_member: false
+              cncf_member: true
             image_data:
               fileName: couchbase.svg
           - item:
@@ -5086,7 +5086,7 @@ landscape:
               kind: funding
               funding: 48000000
             cncf_membership_data:
-              cncf_member: false
+              cncf_member: true
             image_data:
               fileName: iguazio.png
               low_res: 600x148
@@ -5637,7 +5637,7 @@ landscape:
               kind: funding
               funding: 30500000
             cncf_membership_data:
-              cncf_member: true
+              cncf_member: false
             image_data:
               fileName: vertica.png
               low_res: 303x103
@@ -5671,7 +5671,7 @@ landscape:
               start_commit_link: /youtube/vitess/commit/8d483dc19ef660938bae3564af95d48a8017275f
               start_date: '2012-02-25T07:19:43Z'
             cncf_membership_data:
-              cncf_member: false
+              cncf_member: true
             image_data:
               fileName: vitess.svg
       - subcategory:
@@ -5887,7 +5887,7 @@ landscape:
               ticker: GOOG
               kind: market_cap
             cncf_membership_data:
-              cncf_member: false
+              cncf_member: true
             yahoo_finance_data:
               market_cap: 764112601088
               effective_ticker: GOOG
@@ -6494,7 +6494,7 @@ landscape:
               start_commit_link: /argoproj/argo/commit/3ed1dfeb073829d3c4f92b95c9a74118caaec1b4
               start_date: '2017-10-17T21:38:48Z'
             cncf_membership_data:
-              cncf_member: true
+              cncf_member: false
             yahoo_finance_data:
               market_cap: 43999920128
               effective_ticker: INTU
@@ -6665,7 +6665,7 @@ landscape:
               start_commit_link: /cloud66/habitus/commit/c0f22df555996f73d793e0bd96f22b11c6da4398
               start_date: '2015-07-28T09:35:16Z'
             cncf_membership_data:
-              cncf_member: false
+              cncf_member: true
             image_data:
               fileName: habitus.png
               low_res: 176x171
@@ -6691,7 +6691,7 @@ landscape:
               kind: funding
               funding: 2240385
             cncf_membership_data:
-              cncf_member: false
+              cncf_member: true
             image_data:
               fileName: cloud66-skycap.png
               low_res: 293x338
@@ -6831,7 +6831,7 @@ landscape:
               start_commit_link: /Huawei/containerops/commit/bab66ded60a8832cd2ff95f81545b48316b1fe88
               start_date: '2016-10-18T01:48:21Z'
             cncf_membership_data:
-              cncf_member: false
+              cncf_member: true
             image_data:
               fileName: container-ops.svg
           - item:
@@ -7242,7 +7242,7 @@ landscape:
               twitter: 'http://twitter.com/AppsCodeHQ'
               linkedin: 'https://www.linkedin.com/in/tamalsaha'
             cncf_membership_data:
-              cncf_member: false
+              cncf_member: true
             image_data:
               fileName: appscode-pharmer.svg
           - item:
@@ -7458,7 +7458,7 @@ landscape:
             homepage_url: 'https://www.ghostcloud.cn/ecos-kubernetes/'
             logo: 'https://assets.sdxcentral.com/ghostcloud-logo.png'
             cncf_membership_data:
-              cncf_member: true
+              cncf_member: false
             image_data:
               fileName: ghostcloud-ec-os.png
               low_res: 233x147
@@ -7519,7 +7519,7 @@ landscape:
               start_commit_link: /kubernetes/kube-deploy/commit/6ad30a0711466107edb3e91c51f50355cdb49c8f
               start_date: '2016-03-28T22:50:28Z'
             cncf_membership_data:
-              cncf_member: false
+              cncf_member: true
             yahoo_finance_data:
               market_cap: 764112601088
               effective_ticker: GOOG
@@ -7604,7 +7604,7 @@ landscape:
               start_commit_link: /inwinstack/kube-ansible/commit/f08529c405c3e59be9710db23fef91e9a88c4d0f
               start_date: '2016-12-16T09:08:16Z'
             cncf_membership_data:
-              cncf_member: true
+              cncf_member: false
             image_data:
               fileName: inwin-stack-kube-ansible.svg
           - item:
@@ -7795,7 +7795,7 @@ landscape:
               ticker: NTES
               kind: market_cap
             cncf_membership_data:
-              cncf_member: false
+              cncf_member: true
             yahoo_finance_data:
               market_cap: 40569528320
               effective_ticker: NTES
@@ -8267,7 +8267,7 @@ landscape:
               ticker: BABA
               kind: market_cap
             cncf_membership_data:
-              cncf_member: false
+              cncf_member: true
             yahoo_finance_data:
               market_cap: 475670970368
               effective_ticker: BABA
@@ -8360,7 +8360,7 @@ landscape:
               twitter: null
               linkedin: null
             cncf_membership_data:
-              cncf_member: false
+              cncf_member: true
             image_data:
               fileName: bo-cloud-beyondcent-container.png
               low_res: 406x168
@@ -8453,7 +8453,7 @@ landscape:
               ticker: GOOG
               kind: market_cap
             cncf_membership_data:
-              cncf_member: false
+              cncf_member: true
             yahoo_finance_data:
               market_cap: 764112601088
               effective_ticker: GOOG
@@ -8491,7 +8491,7 @@ landscape:
               twitter: 'https://twitter.com/hasurahq'
               linkedin: 'https://www.linkedin.com/company/hasura/'
             cncf_membership_data:
-              cncf_member: false
+              cncf_member: true
             image_data:
               fileName: hasura.png
               low_res: 200x200
@@ -8516,7 +8516,7 @@ landscape:
               twitter: 'https://twitter.com/Huawei'
               linkedin: 'http://www.linkedin.com/company/3014'
             cncf_membership_data:
-              cncf_member: false
+              cncf_member: true
             image_data:
               fileName: huawei.svg
           - item:
@@ -8652,7 +8652,7 @@ landscape:
               ticker: '0700'
               kind: market_cap
             cncf_membership_data:
-              cncf_member: false
+              cncf_member: true
             yahoo_finance_data:
               market_cap: 541858660352
               effective_ticker: TCEHY
@@ -8756,7 +8756,7 @@ landscape:
               kind: funding
               funding: 2240385
             cncf_membership_data:
-              cncf_member: false
+              cncf_member: true
             image_data:
               fileName: cloud66-maestro.png
               low_res: 293x338
@@ -8781,7 +8781,7 @@ landscape:
               kind: funding
               funding: 2606729
             cncf_membership_data:
-              cncf_member: false
+              cncf_member: true
             image_data:
               fileName: container-ship-nck.png
           - item:
@@ -8854,7 +8854,7 @@ landscape:
               twitter: 'https://twitter.com/Huawei'
               linkedin: 'http://www.linkedin.com/company/3014'
             cncf_membership_data:
-              cncf_member: false
+              cncf_member: true
             image_data:
               fileName: huawei.svg
           - item:
@@ -8879,7 +8879,7 @@ landscape:
               twitter: 'https://twitter.com/navops'
               linkedin: null
             cncf_membership_data:
-              cncf_member: true
+              cncf_member: false
             image_data:
               fileName: navops.svg
           - item:
@@ -10395,7 +10395,7 @@ landscape:
               ticker: GOOG
               kind: market_cap
             cncf_membership_data:
-              cncf_member: false
+              cncf_member: true
             yahoo_finance_data:
               market_cap: 764112601088
               effective_ticker: GOOG
@@ -11263,7 +11263,7 @@ landscape:
               kind: funding
               funding: 364500000
             cncf_membership_data:
-              cncf_member: true
+              cncf_member: false
             image_data:
               fileName: app-dynamics.png
               low_res: 1026x104
@@ -11441,7 +11441,7 @@ landscape:
               kind: funding
               funding: 21900000
             cncf_membership_data:
-              cncf_member: false
+              cncf_member: true
             image_data:
               fileName: dynatrace.png
           - item:
@@ -11473,7 +11473,7 @@ landscape:
               start_commit_link: /grafana/grafana/commit/75d03fc49ab4f95ee414f730563f14cbdad9ee64
               start_date: '2013-01-26T04:00:59Z'
             cncf_membership_data:
-              cncf_member: false
+              cncf_member: true
             image_data:
               fileName: grafana.png
               low_res: 199x149
@@ -11582,7 +11582,7 @@ landscape:
               start_commit_link: /influxdata/influxdb/commit/2bb37643603faece3ba36c1db40caab2027a1c20
               start_date: '2013-04-11T14:33:27Z'
             cncf_membership_data:
-              cncf_member: false
+              cncf_member: true
             image_data:
               fileName: influx-db.png
               low_res: 366x86
@@ -11966,7 +11966,7 @@ landscape:
               start_commit_link: /prometheus/prometheus/commit/734d28b515026ca9f429eba0a7d09954bceb6387
               start_date: '2012-11-24T11:14:12Z'
             cncf_membership_data:
-              cncf_member: false
+              cncf_member: true
             image_data:
               fileName: prometheus.svg
           - item:
@@ -12153,7 +12153,7 @@ landscape:
               start_commit_link: /intelsdi-x/snap/commit/d7f2476060dcba8b328e746d1eab5ff576f791da
               start_date: '2014-08-13T21:04:51Z'
             cncf_membership_data:
-              cncf_member: false
+              cncf_member: true
             yahoo_finance_data:
               market_cap: 215186391040
               effective_ticker: INTC
@@ -12205,7 +12205,7 @@ landscape:
               ticker: GOOG
               kind: market_cap
             cncf_membership_data:
-              cncf_member: false
+              cncf_member: true
             yahoo_finance_data:
               market_cap: 764112601088
               effective_ticker: GOOG
@@ -12289,7 +12289,7 @@ landscape:
               start_commit_link: /draios/sysdig/commit/fe6064ad485db922e4d42f1e2160d9fe2d5dc747
               start_date: '2014-01-15T05:45:17Z'
             cncf_membership_data:
-              cncf_member: false
+              cncf_member: true
             image_data:
               fileName: sys-dig.png
               low_res: 410x568
@@ -12314,7 +12314,7 @@ landscape:
               kind: funding
               funding: 65500000
             cncf_membership_data:
-              cncf_member: true
+              cncf_member: false
             image_data:
               fileName: wavefront.png
               low_res: 431x394
@@ -12339,7 +12339,7 @@ landscape:
               kind: funding
               funding: 20000000
             cncf_membership_data:
-              cncf_member: false
+              cncf_member: true
             image_data:
               fileName: weave-cloud.svg
           - item:
@@ -12477,7 +12477,7 @@ landscape:
               start_commit_link: /fluent/fluentd/commit/5c14d05ff44d08d180f5d6de8bbedf3f84a23d25
               start_date: '2011-06-18T22:36:35Z'
             cncf_membership_data:
-              cncf_member: false
+              cncf_member: true
             image_data:
               fileName: fluentd.svg
           - item:
@@ -12716,7 +12716,7 @@ landscape:
               start_commit_link: /jaegertracing/jaeger/commit/4dc35c9e83518c339cbf0bc52c7b39cd028e7659
               start_date: '2016-04-18T22:22:11Z'
             cncf_membership_data:
-              cncf_member: false
+              cncf_member: true
             image_data:
               fileName: jaeger.svg
           - item:
@@ -12749,7 +12749,7 @@ landscape:
               start_commit_link: /opentracing/opentracing-go/commit/3089998b243182f7b28fbbad3229e0fad871ecbf
               start_date: '2015-11-26T06:23:17Z'
             cncf_membership_data:
-              cncf_member: false
+              cncf_member: true
             image_data:
               fileName: open-tracing.svg
           - item:
@@ -13149,7 +13149,7 @@ landscape:
             homepage_url: 'https://www.ghostcloud.cn/ecos-kubernetes'
             logo: 'https://assets.sdxcentral.com/ghostcloud-logo.png'
             cncf_membership_data:
-              cncf_member: true
+              cncf_member: false
             image_data:
               fileName: ghostcloud-ec-os.png
               low_res: 233x147
@@ -13174,7 +13174,7 @@ landscape:
               kind: funding
               funding: 3325000
             cncf_membership_data:
-              cncf_member: false
+              cncf_member: true
             image_data:
               fileName: giant-swarm.png
           - item:
@@ -13223,7 +13223,7 @@ landscape:
               twitter: 'https://twitter.com/Huawei'
               linkedin: 'http://www.linkedin.com/company/3014'
             cncf_membership_data:
-              cncf_member: false
+              cncf_member: true
             image_data:
               fileName: huawei.svg
           - item:
@@ -13262,7 +13262,7 @@ landscape:
             homepage_url: 'http://www.inwinstack.com/index.php/en/solutions-en/'
             logo: ./src/hosted_logos/inwinstack.svg
             cncf_membership_data:
-              cncf_member: true
+              cncf_member: false
             image_data:
               fileName: inwin-stack-kube-ansible.svg
           - item:
@@ -13512,7 +13512,7 @@ landscape:
             homepage_url: 'http://www.wise2c.com/'
             logo: 'https://www.cncf.io/wp-content/uploads/2017/11/wise2c.png'
             cncf_membership_data:
-              cncf_member: true
+              cncf_member: false
             image_data:
               fileName: wise-cloud.png
               low_res: 396x140
