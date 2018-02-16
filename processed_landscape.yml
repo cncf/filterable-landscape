@@ -1939,7 +1939,7 @@ landscape:
             organization: CNCF
             homepage_url: 'https://github.com/container-storage-interface'
             repo_url: 'https://github.com/container-storage-interface/spec'
-            logo: 'https://github.com/container-storage-interface/artwork/blob/master/logo/PNG/01.png'
+            logo: 'https://raw.githubusercontent.com/container-storage-interface/artwork/master/csi/stacked/color/csi-stacked-color.svg'
             crunchbase: 'https://www.crunchbase.com/organization/cloud-native-computing-foundation'
             crunchbase_data:
               name: Cloud Native Computing Foundation (CNCF)
@@ -1964,7 +1964,7 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             image_data:
-              fileName: container-storage-interface-csi.png
+              fileName: container-storage-interface-csi.svg
           - item:
             name: Datera
             organization: Datera
@@ -10455,29 +10455,6 @@ landscape:
               fileName: nano-lambda.png
               low_res: 600x178
           - item:
-            name: Fn
-            organization: Fn
-            homepage_url: 'http://fnproject.io/'
-            logo: 'https://www.vectorlogo.zone/logos/fnproject/fnproject-card.png'
-            twitter: 'https://twitter.com/fnproj'
-            crunchbase: 'https://www.crunchbase.com/organization/fn'
-            crunchbase_data:
-              name: Fn
-              description: Platforms
-              num_employees_min: null
-              num_employees_max: null
-              homepage: 'http://fnproject.io/'
-              city: null
-              region: null
-              country: null
-              twitter: 'https://twitter.com/fnproj'
-              linkedin: null
-            cncf_membership_data:
-              cncf_member: false
-            image_data:
-              fileName: fn.png
-              low_res: 354x136
-          - item:
             name: Overclock
             organization: OvrClk
             homepage_url: 'https://www.ovrclk.com/'
@@ -10854,6 +10831,39 @@ landscape:
             image_data:
               fileName: binaris.png
               low_res: 1782x262
+          - item:
+            name: Fn
+            organization: Fn
+            homepage_url: 'http://fnproject.io/'
+            repo_url: 'https://github.com/fnproject/fn'
+            logo: 'https://www.vectorlogo.zone/logos/fnproject/fnproject-card.png'
+            twitter: 'https://twitter.com/fnproj'
+            crunchbase: 'https://www.crunchbase.com/organization/fn'
+            crunchbase_data:
+              name: Fn
+              description: Platforms
+              num_employees_min: null
+              num_employees_max: null
+              homepage: 'http://fnproject.io/'
+              city: null
+              region: null
+              country: null
+              twitter: 'https://twitter.com/fnproj'
+              linkedin: null
+            github_data:
+              stars: 2180
+              license: Apache-2.0
+              description: 'The container native, cloud agnostic serverless platform.'
+              latest_commit_date: '2018-02-16T04:21:36Z'
+              latest_commit_link: /fnproject/fn/commit/71ee0eb86043a8bd4d71aef36dd8cd967a1f24d9
+            github_start_commit_data:
+              start_commit_link: /fnproject/fn/commit/92623001b5f63a8ecee77525dc0b853f8ba5fe79
+              start_date: '2012-12-31T03:21:31Z'
+            cncf_membership_data:
+              cncf_member: false
+            image_data:
+              fileName: fn.png
+              low_res: 354x136
           - item:
             name: Galactic Fog Gestalt
             organization: Galactic Fog

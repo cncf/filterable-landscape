@@ -3368,7 +3368,7 @@
     "organization": "Cloud Native Computing Foundation (CNCF)",
     "homepage_url": "https://github.com/container-storage-interface",
     "repo_url": "https://github.com/container-storage-interface/spec",
-    "logo": "https://github.com/container-storage-interface/artwork/blob/master/logo/PNG/01.png",
+    "logo": "https://raw.githubusercontent.com/container-storage-interface/artwork/master/csi/stacked/color/csi-stacked-color.svg",
     "crunchbase": "https://www.crunchbase.com/organization/cloud-native-computing-foundation",
     "github_data": {
       "stars": 162,
@@ -3385,7 +3385,7 @@
       "cncf_member": false
     },
     "image_data": {
-      "fileName": "container-storage-interface-csi.png"
+      "fileName": "container-storage-interface-csi.svg"
     },
     "cncfMember": false,
     "cncfRelation": false,
@@ -3416,7 +3416,7 @@
     "landscape": "Runtime / Cloud-Native Storage",
     "category": "Runtime",
     "oss": true,
-    "href": "/logos/container-storage-interface-csi.png",
+    "href": "/logos/container-storage-interface-csi.svg",
     "id": "container-storage-interface-csi"
   },
   {
@@ -18290,48 +18290,6 @@
     "id": "nano-lambda"
   },
   {
-    "name": "Fn",
-    "organization": "Fn",
-    "homepage_url": "http://fnproject.io/",
-    "logo": "https://www.vectorlogo.zone/logos/fnproject/fnproject-card.png",
-    "twitter": "https://twitter.com/fnproj",
-    "crunchbase": "https://www.crunchbase.com/organization/fn",
-    "cncf_membership_data": {
-      "cncf_member": false
-    },
-    "image_data": {
-      "fileName": "fn.png",
-      "low_res": "354x136"
-    },
-    "cncfMember": false,
-    "cncfRelation": false,
-    "firstCommitLink": null,
-    "latestCommitLink": null,
-    "license": "NotOpenSource",
-    "headquarters": "N/A",
-    "description": "Platforms",
-    "crunchbaseData": {
-      "name": "Fn",
-      "description": "Platforms",
-      "num_employees_min": null,
-      "num_employees_max": null,
-      "homepage": "http://fnproject.io/",
-      "city": null,
-      "region": null,
-      "country": null,
-      "twitter": "https://twitter.com/fnproj",
-      "linkedin": null,
-      "numEmployeesMin": null,
-      "numEmployeesMax": null
-    },
-    "path": "Serverless / Platforms",
-    "landscape": "Serverless / Platforms",
-    "category": "Serverless",
-    "oss": false,
-    "href": "/logos/fn.png",
-    "id": "fn"
-  },
-  {
     "name": "Overclock",
     "organization": "Overclock Labs",
     "homepage_url": "https://www.ovrclk.com/",
@@ -19019,6 +18977,63 @@
     "oss": false,
     "href": "/logos/binaris.png",
     "id": "binaris"
+  },
+  {
+    "name": "Fn",
+    "organization": "Fn",
+    "homepage_url": "http://fnproject.io/",
+    "repo_url": "https://github.com/fnproject/fn",
+    "logo": "https://www.vectorlogo.zone/logos/fnproject/fnproject-card.png",
+    "twitter": "https://twitter.com/fnproj",
+    "crunchbase": "https://www.crunchbase.com/organization/fn",
+    "github_data": {
+      "stars": 2180,
+      "license": "Apache-2.0",
+      "description": "The container native, cloud agnostic serverless platform.",
+      "latest_commit_date": "2018-02-16T04:21:36Z",
+      "latest_commit_link": "/fnproject/fn/commit/71ee0eb86043a8bd4d71aef36dd8cd967a1f24d9"
+    },
+    "github_start_commit_data": {
+      "start_commit_link": "/fnproject/fn/commit/92623001b5f63a8ecee77525dc0b853f8ba5fe79",
+      "start_date": "2012-12-31T03:21:31Z"
+    },
+    "cncf_membership_data": {
+      "cncf_member": false
+    },
+    "image_data": {
+      "fileName": "fn.png",
+      "low_res": "354x136"
+    },
+    "cncfMember": false,
+    "cncfRelation": false,
+    "firstCommitDate": "2012-12-31T03:21:31Z",
+    "firstCommitLink": "https://github.com/fnproject/fn/commit/92623001b5f63a8ecee77525dc0b853f8ba5fe79",
+    "latestCommitDate": "2018-02-16T04:21:36Z",
+    "latestCommitLink": "https://github.com/fnproject/fn/commit/71ee0eb86043a8bd4d71aef36dd8cd967a1f24d9",
+    "stars": 2180,
+    "license": "Apache-2.0",
+    "headquarters": "N/A",
+    "description": "The container native, cloud agnostic serverless platform.",
+    "crunchbaseData": {
+      "name": "Fn",
+      "description": "Platforms",
+      "num_employees_min": null,
+      "num_employees_max": null,
+      "homepage": "http://fnproject.io/",
+      "city": null,
+      "region": null,
+      "country": null,
+      "twitter": "https://twitter.com/fnproj",
+      "linkedin": null,
+      "numEmployeesMin": null,
+      "numEmployeesMax": null
+    },
+    "path": "Serverless / Hybrid",
+    "landscape": "Serverless / Hybrid",
+    "category": "Serverless",
+    "oss": true,
+    "href": "/logos/fn.png",
+    "id": "fn"
   },
   {
     "name": "Galactic Fog Gestalt",

@@ -512,7 +512,7 @@ landscape:
             organization: CNCF
             homepage_url: 'https://github.com/container-storage-interface'
             repo_url: 'https://github.com/container-storage-interface/spec'
-            logo: 'https://github.com/container-storage-interface/artwork/blob/master/logo/PNG/01.png'
+            logo: 'https://raw.githubusercontent.com/container-storage-interface/artwork/master/csi/stacked/color/csi-stacked-color.svg'
             crunchbase: 'https://www.crunchbase.com/organization/cloud-native-computing-foundation'
           - item:
             name: Datera
@@ -2806,13 +2806,6 @@ landscape:
             twitter: ''
             crunchbase: 'https://www.crunchbase.com/organization/nano-lambda'
           - item:
-            name: Fn
-            organization: Fn
-            homepage_url: 'http://fnproject.io/'
-            logo: 'https://www.vectorlogo.zone/logos/fnproject/fnproject-card.png'
-            twitter: 'https://twitter.com/fnproj'
-            crunchbase: 'https://www.crunchbase.com/organization/fn'
-          - item:
             name: Overclock
             organization: OvrClk
             homepage_url: 'https://www.ovrclk.com/'
@@ -2924,6 +2917,14 @@ landscape:
             logo: https://www.delltechnologies.com/content/dam/delltechnologies/assets/capital/images/binaris-logo.png
             twitter: 'https://twitter.com/gobinaris'
             crunchbase: 'https://www.crunchbase.com/organization/binaris'
+          - item:
+            name: Fn
+            organization: Fn
+            homepage_url: 'http://fnproject.io/'
+            repo_url: 'https://github.com/fnproject/fn'
+            logo: 'https://www.vectorlogo.zone/logos/fnproject/fnproject-card.png'
+            twitter: 'https://twitter.com/fnproj'
+            crunchbase: 'https://www.crunchbase.com/organization/fn'
           - item:
             name: Galactic Fog Gestalt
             organization: Galactic Fog
