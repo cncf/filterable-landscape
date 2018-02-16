@@ -7040,7 +7040,7 @@
       "cncf_member": false
     },
     "image_data": {
-      "fileName": "zookeeper.svg"
+      "fileName": "apache-zookeeper.svg"
     },
     "cncfMember": false,
     "cncfRelation": false,
@@ -7070,7 +7070,7 @@
     "landscape": "Orchestration & Management / Coordination & Service Discovery",
     "category": "Orchestration & Management",
     "oss": true,
-    "href": "/logos/zookeeper.svg",
+    "href": "/logos/apache-zookeeper.svg",
     "id": "apache-zookeeper"
   },
   {
@@ -12082,7 +12082,7 @@
       "cncf_member": true
     },
     "image_data": {
-      "fileName": "git-lab-runner.png",
+      "fileName": "runner.png",
       "low_res": "352x352"
     },
     "cncfMember": true,
@@ -12116,7 +12116,7 @@
     "amountKind": "funding",
     "amount": 45620000,
     "oss": true,
-    "href": "/logos/git-lab-runner.png",
+    "href": "/logos/runner.png",
     "id": "runner"
   },
   {
@@ -13293,7 +13293,7 @@
       "cncf_member": true
     },
     "image_data": {
-      "fileName": "inwin-stack.svg"
+      "fileName": "inwin-stack-kube-ansible.svg"
     },
     "cncfMember": true,
     "cncfRelation": "member",
@@ -13309,7 +13309,7 @@
     "category": "Platform",
     "amount": "N/A",
     "oss": true,
-    "href": "/logos/inwin-stack.svg",
+    "href": "/logos/inwin-stack-kube-ansible.svg",
     "id": "inwin-stack-kube-ansible"
   },
   {
@@ -15053,7 +15053,7 @@
       "effective_ticker": "SAP"
     },
     "image_data": {
-      "fileName": "sap-cloud-platform-gardener-aws-azure-gce.svg"
+      "fileName": "sap-cloud-platform-gardener.svg"
     },
     "cncfMember": true,
     "cncfRelation": "member",
@@ -15084,7 +15084,7 @@
     "amountKind": "market_cap",
     "amount": 118579191808,
     "oss": false,
-    "href": "/logos/sap-cloud-platform-gardener-aws-azure-gce.svg",
+    "href": "/logos/sap-cloud-platform-gardener.svg",
     "id": "sap-cloud-platform-gardener"
   },
   {
@@ -16904,7 +16904,7 @@
     "organization": "Amazon Web Services",
     "homepage_url": "https://aws.amazon.com/lambda/",
     "repo_url": "https://github.com/nficano/python-lambda",
-    "logo": "./src/hosted_logos/aws-lambda.svg",
+    "logo": "./src/hosted_logos/python-lambda.svg",
     "twitter": "https://twitter.com/awscloud",
     "crunchbase": "https://www.crunchbase.com/organization/amazon-web-services",
     "github_data": {
@@ -16926,7 +16926,7 @@
       "effective_ticker": "AMZN"
     },
     "image_data": {
-      "fileName": "aws-lambda.svg"
+      "fileName": "python-lambda.svg"
     },
     "cncfMember": true,
     "cncfRelation": "member",
@@ -16960,21 +16960,21 @@
     "amountKind": "market_cap",
     "amount": 706150203392,
     "oss": true,
-    "href": "/logos/aws-lambda.svg",
+    "href": "/logos/python-lambda.svg",
     "id": "python-lambda"
   },
   {
     "name": "Dashbird",
     "organization": "Dashbird",
     "homepage_url": "https://www.dashbird.io/",
-    "logo": "http://www.dailyspin.io/wp-content/uploads/2017/06/dashbird-logo.png",
+    "logo": "./src/hosted_logos/dashbird.svg",
     "twitter": "https://twitter.com/thedashbird",
     "crunchbase": "https://www.crunchbase.com/organization/dashbird",
     "cncf_membership_data": {
       "cncf_member": false
     },
     "image_data": {
-      "fileName": "dashbird.png"
+      "fileName": "dashbird.svg"
     },
     "cncfMember": false,
     "cncfRelation": false,
@@ -17001,7 +17001,7 @@
     "landscape": "Serverless / App Definition & Development",
     "category": "Serverless",
     "oss": false,
-    "href": "/logos/dashbird.png",
+    "href": "/logos/dashbird.svg",
     "id": "dashbird"
   },
   {
@@ -17055,7 +17055,7 @@
     "organization": "LambCI",
     "homepage_url": "http://lambci.org/",
     "repo_url": "https://github.com/lambci/lambci",
-    "logo": "https://camo.githubusercontent.com/92781cc0d3fc90674524a974439f7e7493d1c3d2/68747470733a2f2f6c616d6263692e73332e616d617a6f6e6177732e636f6d2f6173736574732f6c6f676f2d333130783331302e706e67",
+    "logo": "./src/hosted_logos/lambci.svg",
     "twitter": "https://twitter.com/lamb_ci",
     "crunchbase": "https://www.crunchbase.com/organization/lambci",
     "github_data": {
@@ -17073,8 +17073,7 @@
       "cncf_member": false
     },
     "image_data": {
-      "fileName": "lamb-ci.png",
-      "low_res": "300x270"
+      "fileName": "lamb-ci.svg"
     },
     "cncfMember": false,
     "cncfRelation": false,
@@ -17104,7 +17103,7 @@
     "landscape": "Serverless / App Definition & Development",
     "category": "Serverless",
     "oss": true,
-    "href": "/logos/lamb-ci.png",
+    "href": "/logos/lamb-ci.svg",
     "id": "lamb-ci"
   },
   {
@@ -17112,7 +17111,7 @@
     "organization": "Node Lambda",
     "homepage_url": "https://github.com/motdotla/node-lambda",
     "repo_url": "https://github.com/motdotla/node-lambda",
-    "logo": "https://raw.githubusercontent.com/motdotla/node-lambda/master/node-lambda.png?raw=true",
+    "logo": "./src/hosted_logos/nodelambda.svg",
     "twitter": "",
     "crunchbase": "https://www.crunchbase.com/organization/node-lambda",
     "github_data": {
@@ -17130,8 +17129,7 @@
       "cncf_member": false
     },
     "image_data": {
-      "fileName": "node-lambda.png",
-      "low_res": "259x289"
+      "fileName": "node-lambda.svg"
     },
     "cncfMember": false,
     "cncfRelation": false,
@@ -17161,7 +17159,7 @@
     "landscape": "Serverless / App Definition & Development",
     "category": "Serverless",
     "oss": true,
-    "href": "/logos/node-lambda.png",
+    "href": "/logos/node-lambda.svg",
     "id": "node-lambda"
   },
   {
@@ -17372,7 +17370,7 @@
     "organization": "Amazon Web Services",
     "homepage_url": "https://aws.amazon.com/blogs/developer/chalice-1-0-0-ga-release/",
     "repo_url": "https://github.com/aws/chalice",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg",
+    "logo": "./src/hosted_logos/aws-chalice.svg",
     "twitter": "https://twitter.com/awscloud",
     "crunchbase": "https://www.crunchbase.com/organization/amazon-web-services",
     "github_data": {
@@ -17394,7 +17392,7 @@
       "effective_ticker": "AMZN"
     },
     "image_data": {
-      "fileName": "amazon-web-services.svg"
+      "fileName": "aws-chalice.svg"
     },
     "cncfMember": true,
     "cncfRelation": "member",
@@ -17428,7 +17426,7 @@
     "amountKind": "market_cap",
     "amount": 706150203392,
     "oss": true,
-    "href": "/logos/amazon-web-services.svg",
+    "href": "/logos/aws-chalice.svg",
     "id": "aws-chalice"
   },
   {
@@ -17684,7 +17682,7 @@
       "cncf_member": false
     },
     "image_data": {
-      "fileName": "serverless-serverless.svg"
+      "fileName": "serverless.svg"
     },
     "cncfMember": false,
     "cncfRelation": false,
@@ -17718,7 +17716,7 @@
     "amountKind": "funding",
     "amount": 3000000,
     "oss": true,
-    "href": "/logos/serverless-serverless.svg",
+    "href": "/logos/serverless.svg",
     "id": "serverless"
   },
   {
@@ -17853,7 +17851,7 @@
       "effective_ticker": "AMZN"
     },
     "image_data": {
-      "fileName": "aws-lambda-sam-local.svg"
+      "fileName": "sam-local.svg"
     },
     "cncfMember": true,
     "cncfRelation": "member",
@@ -17887,7 +17885,7 @@
     "amountKind": "market_cap",
     "amount": 706150203392,
     "oss": true,
-    "href": "/logos/aws-lambda-sam-local.svg",
+    "href": "/logos/sam-local.svg",
     "id": "sam-local"
   },
   {
@@ -18073,7 +18071,7 @@
       "effective_ticker": "AMZN"
     },
     "image_data": {
-      "fileName": "aws-lambda.svg"
+      "fileName": "python-lambda.svg"
     },
     "cncfMember": true,
     "cncfRelation": "member",
@@ -18104,7 +18102,7 @@
     "amountKind": "market_cap",
     "amount": 706150203392,
     "oss": false,
-    "href": "/logos/aws-lambda.svg",
+    "href": "/logos/python-lambda.svg",
     "id": "aws-lambda"
   },
   {
@@ -19386,7 +19384,7 @@
     "organization": "OpenLambda",
     "homepage_url": "https://open-lambda.org/",
     "repo_url": "https://github.com/open-lambda/open-lambda",
-    "logo": "https://raw.githubusercontent.com/motdotla/node-lambda/master/node-lambda.png?raw=true",
+    "logo": "./src/hosted_logos/openlambda.svg",
     "best_res": "",
     "twitter": "",
     "crunchbase": "https://www.crunchbase.com/organization/openlambda",
@@ -19405,8 +19403,7 @@
       "cncf_member": false
     },
     "image_data": {
-      "fileName": "node-lambda.png",
-      "low_res": "259x289"
+      "fileName": "open-lambda.svg"
     },
     "cncfMember": false,
     "cncfRelation": false,
@@ -19436,7 +19433,7 @@
     "landscape": "Serverless / Kubernetes-Native",
     "category": "Serverless",
     "oss": true,
-    "href": "/logos/node-lambda.png",
+    "href": "/logos/open-lambda.svg",
     "id": "open-lambda"
   },
   {
@@ -19444,7 +19441,7 @@
     "organization": "Funktion",
     "homepage_url": "https://funktion.fabric8.io/",
     "repo_url": "https://github.com/funktionio/funktion",
-    "logo": "https://funktion.fabric8.io/img/profile.png",
+    "logo": "./src/hosted_logos/funktion.svg",
     "twitter": "https://twitter.com/funktionio",
     "crunchbase": "https://www.crunchbase.com/organization/funktion",
     "github_data": {
@@ -19462,7 +19459,7 @@
       "cncf_member": false
     },
     "image_data": {
-      "fileName": "funktion.png"
+      "fileName": "funktion.svg"
     },
     "cncfMember": false,
     "cncfRelation": false,
@@ -19492,7 +19489,7 @@
     "landscape": "Serverless / Kubernetes-Native",
     "category": "Serverless",
     "oss": true,
-    "href": "/logos/funktion.png",
+    "href": "/logos/funktion.svg",
     "id": "funktion"
   },
   {
@@ -23326,7 +23323,7 @@
       "cncf_member": true
     },
     "image_data": {
-      "fileName": "inwin-stack.svg"
+      "fileName": "inwin-stack-kube-ansible.svg"
     },
     "cncfMember": true,
     "cncfRelation": "member",
@@ -23339,7 +23336,7 @@
     "category": "Special",
     "amount": "N/A",
     "oss": false,
-    "href": "/logos/inwin-stack.svg",
+    "href": "/logos/inwin-stack-kube-ansible.svg",
     "id": "inwin-stack"
   },
   {
@@ -23570,7 +23567,7 @@
       "cncf_member": true
     },
     "image_data": {
-      "fileName": "rx-m-llc.svg"
+      "fileName": "rx-m.svg"
     },
     "cncfMember": true,
     "cncfRelation": "member",
@@ -23597,7 +23594,7 @@
     "landscape": "Special / Kubernetes Certified Service Provider",
     "category": "Special",
     "oss": false,
-    "href": "/logos/rx-m-llc.svg",
+    "href": "/logos/rx-m.svg",
     "id": "rx-m"
   },
   {

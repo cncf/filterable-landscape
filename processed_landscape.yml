@@ -4037,7 +4037,7 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             image_data:
-              fileName: zookeeper.svg
+              fileName: apache-zookeeper.svg
       - subcategory:
         name: Service Management
         items:
@@ -6929,7 +6929,7 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             image_data:
-              fileName: git-lab-runner.png
+              fileName: runner.png
               low_res: 352x352
           - item:
             name: Jenkins
@@ -7606,7 +7606,7 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             image_data:
-              fileName: inwin-stack.svg
+              fileName: inwin-stack-kube-ansible.svg
           - item:
             name: Joyent Triton for Kubernetes
             organization: Joyent
@@ -8629,7 +8629,7 @@ landscape:
               market_cap: 118579191808
               effective_ticker: SAP
             image_data:
-              fileName: sap-cloud-platform-gardener-aws-azure-gce.svg
+              fileName: sap-cloud-platform-gardener.svg
           - item:
             name: Tencent Cloud Container Service (CCS)
             organization: Tencent
@@ -9668,7 +9668,7 @@ landscape:
             organization: Amazon Web Services
             homepage_url: 'https://aws.amazon.com/lambda/'
             repo_url: 'https://github.com/nficano/python-lambda'
-            logo: ./src/hosted_logos/aws-lambda.svg
+            logo: ./src/hosted_logos/python-lambda.svg
             twitter: 'https://twitter.com/awscloud'
             crunchbase: 'https://www.crunchbase.com/organization/amazon-web-services'
             crunchbase_data:
@@ -9699,12 +9699,12 @@ landscape:
               market_cap: 706150203392
               effective_ticker: AMZN
             image_data:
-              fileName: aws-lambda.svg
+              fileName: python-lambda.svg
           - item:
             name: Dashbird
             organization: Dashbird
             homepage_url: 'https://www.dashbird.io/'
-            logo: 'http://www.dailyspin.io/wp-content/uploads/2017/06/dashbird-logo.png'
+            logo: ./src/hosted_logos/dashbird.svg
             twitter: 'https://twitter.com/thedashbird'
             crunchbase: 'https://www.crunchbase.com/organization/dashbird'
             crunchbase_data:
@@ -9721,7 +9721,7 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             image_data:
-              fileName: dashbird.png
+              fileName: dashbird.svg
           - item:
             name: IOpipe
             organization: IOpipe
@@ -9752,8 +9752,7 @@ landscape:
             organization: LambCI
             homepage_url: 'http://lambci.org/'
             repo_url: 'https://github.com/lambci/lambci'
-            logo: >-
-              https://camo.githubusercontent.com/92781cc0d3fc90674524a974439f7e7493d1c3d2/68747470733a2f2f6c616d6263692e73332e616d617a6f6e6177732e636f6d2f6173736574732f6c6f676f2d333130783331302e706e67
+            logo: ./src/hosted_logos/lambci.svg
             twitter: 'https://twitter.com/lamb_ci'
             crunchbase: 'https://www.crunchbase.com/organization/lambci'
             crunchbase_data:
@@ -9779,14 +9778,13 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             image_data:
-              fileName: lamb-ci.png
-              low_res: 300x270
+              fileName: lamb-ci.svg
           - item:
             name: Node Lambda
             organization: Node Lambda
             homepage_url: 'https://github.com/motdotla/node-lambda'
             repo_url: 'https://github.com/motdotla/node-lambda'
-            logo: 'https://raw.githubusercontent.com/motdotla/node-lambda/master/node-lambda.png?raw=true'
+            logo: ./src/hosted_logos/nodelambda.svg
             twitter: ''
             crunchbase: 'https://www.crunchbase.com/organization/node-lambda'
             crunchbase_data:
@@ -9812,8 +9810,7 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             image_data:
-              fileName: node-lambda.png
-              low_res: 259x289
+              fileName: node-lambda.svg
           - item:
             name: Stackery
             organization: Stackery
@@ -9935,7 +9932,7 @@ landscape:
             organization: Amazon Web Services
             homepage_url: 'https://aws.amazon.com/blogs/developer/chalice-1-0-0-ga-release/'
             repo_url: 'https://github.com/aws/chalice'
-            logo: 'https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg'
+            logo: ./src/hosted_logos/aws-chalice.svg
             twitter: 'https://twitter.com/awscloud'
             crunchbase: 'https://www.crunchbase.com/organization/amazon-web-services'
             crunchbase_data:
@@ -9966,7 +9963,7 @@ landscape:
               market_cap: 706150203392
               effective_ticker: AMZN
             image_data:
-              fileName: amazon-web-services.svg
+              fileName: aws-chalice.svg
           - item:
             name: Dawson
             organization: Dawson
@@ -10133,7 +10130,7 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             image_data:
-              fileName: serverless-serverless.svg
+              fileName: serverless.svg
           - item:
             name: Bustle Shep
             organization: Bustle
@@ -10227,7 +10224,7 @@ landscape:
               market_cap: 706150203392
               effective_ticker: AMZN
             image_data:
-              fileName: aws-lambda-sam-local.svg
+              fileName: sam-local.svg
           - item:
             name: Gordon
             organization: Gordon
@@ -10353,7 +10350,7 @@ landscape:
               market_cap: 706150203392
               effective_ticker: AMZN
             image_data:
-              fileName: aws-lambda.svg
+              fileName: python-lambda.svg
           - item:
             name: Webtask
             organization: Webtask
@@ -11066,7 +11063,7 @@ landscape:
             organization: OpenLambda
             homepage_url: 'https://open-lambda.org/'
             repo_url: 'https://github.com/open-lambda/open-lambda'
-            logo: 'https://raw.githubusercontent.com/motdotla/node-lambda/master/node-lambda.png?raw=true'
+            logo: ./src/hosted_logos/openlambda.svg
             best_res: ''
             twitter: ''
             crunchbase: 'https://www.crunchbase.com/organization/openlambda'
@@ -11093,14 +11090,13 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             image_data:
-              fileName: node-lambda.png
-              low_res: 259x289
+              fileName: open-lambda.svg
           - item:
             name: Funktion
             organization: Funktion
             homepage_url: 'https://funktion.fabric8.io/'
             repo_url: 'https://github.com/funktionio/funktion'
-            logo: 'https://funktion.fabric8.io/img/profile.png'
+            logo: ./src/hosted_logos/funktion.svg
             twitter: 'https://twitter.com/funktionio'
             crunchbase: 'https://www.crunchbase.com/organization/funktion'
             crunchbase_data:
@@ -11126,7 +11122,7 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             image_data:
-              fileName: funktion.png
+              fileName: funktion.svg
           - item:
             name: Oracle Application Container Cloud
             organization: Oracle
@@ -13268,7 +13264,7 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             image_data:
-              fileName: inwin-stack.svg
+              fileName: inwin-stack-kube-ansible.svg
           - item:
             name: Jetstack
             organization: Jetstack
@@ -13410,7 +13406,7 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             image_data:
-              fileName: rx-m-llc.svg
+              fileName: rx-m.svg
           - item:
             name: Samsung SDS
             organization: Samsung SDS

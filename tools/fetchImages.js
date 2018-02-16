@@ -4,6 +4,7 @@ import Promise from 'bluebird';
 import saneName from '../src/utils/saneName';
 import fs from 'fs';
 import _ from 'lodash';
+import { ensureViewBoxExists } from './processSvg';
 const debug = require('debug')('images');
 
 // x3 because we may have retina display
@@ -116,7 +117,8 @@ export async function fetchImageEntries({cache, preferCache}) {
         }
         let low_res;
         if (ext === '.svg') {
-          require('fs').writeFileSync(`src/logos/${fileName}`, response);
+          const processedSvg = await ensureViewBoxExists(response);
+          require('fs').writeFileSync(`src/logos/${fileName}`, processedSvg);
         } else {
           const result = await normalizeImage({inputFile: response,outputFile: `src/logos/${fileName}`, item});
           low_res = result.low_res;
