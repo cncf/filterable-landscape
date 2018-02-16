@@ -72,8 +72,20 @@ tree.map(function(node) {
       }
       return (node.crunchbase_data || {}).effective_ticker;
     };
+    var hasBadImages = false;
     if (!node.image_data) {
       console.info(`Item ${node.name} has no image_data`);
+      hasBadImages = true;
+    }
+    if(hasBadImages) {
+      require('process').exit(-1);
+    }
+
+    const getCommitLink = function(link) {
+      if (!link) {
+        return null;
+      }
+      return 'https://github.com' + link;
     }
 
     items.push({...node,
@@ -81,9 +93,9 @@ tree.map(function(node) {
       cncfMember: node.cncf_membership_data.cncf_member,
       cncfRelation: node.cncf_project || ( node.cncf_membership_data.cncf_member ? 'member' : false ),
       firstCommitDate: (node.github_start_commit_data || {}).start_date,
-      firstCommitLink: (node.github_start_commit_data || {}).start_commit_link,
+      firstCommitLink: getCommitLink((node.github_start_commit_data || {}).start_commit_link),
       latestCommitDate:(node.github_data || {}).latest_commit_date,
-      latestCommitLink:(node.github_data || {}).latest_commit_link,
+      latestCommitLink: getCommitLink((node.github_data || {}).latest_commit_link),
       stars: (node.github_data || {}).stars,
       license: getLicense(),
       headquarters: getHeadquarters(),

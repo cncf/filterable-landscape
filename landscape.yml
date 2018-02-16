@@ -512,7 +512,7 @@ landscape:
             organization: CNCF
             homepage_url: 'https://github.com/container-storage-interface'
             repo_url: 'https://github.com/container-storage-interface/spec'
-            logo: 'https://github.com/container-storage-interface/artwork/blob/master/logo/PNG/01.png'
+            logo: 'https://raw.githubusercontent.com/container-storage-interface/artwork/master/csi/stacked/color/csi-stacked-color.svg'
             crunchbase: 'https://www.crunchbase.com/organization/cloud-native-computing-foundation'
           - item:
             name: Datera
@@ -722,12 +722,12 @@ landscape:
             crunchbase: 'https://www.crunchbase.com/organization/intel'
           - item:
             name: Kata Containers
-            organization: Kata Containers
+            organization: OpenStack
             homepage_url: 'https://katacontainers.io/'
             repo_url: 'https://github.com/kata-containers/runtime'
-            logo: https://camo.githubusercontent.com/4679e998080f65b3592aee5962c8bf5bde8d68ee/68747470733a2f2f7777772e6f70656e737461636b2e6f72672f6173736574732f6b6174612f6b6174612d766572746963616c2d6f6e2d77686974652e706e67
+            logo: './src/hosted_logos/kata.svg'
             twitter: 'https://twitter.com/KataContainers'
-            crunchbase: 'https://www.crunchbase.com/organization/kata-containers'
+            crunchbase: 'https://www.crunchbase.com/organization/openstack'
           - item:
             name: lxd
             organization: Canonical
@@ -956,7 +956,7 @@ landscape:
             organization: Apache
             homepage_url: 'http://mesos.apache.org/'
             repo_url: 'https://github.com/apache/mesos'
-            logo: 'https://mapr.com/blog/my-experience-running-docker-containers-on-mesos/assets/apache-mesos-logo.jpg'
+            logo: 'https://ox4zindgwb3p1qdp2lznn7zb-wpengine.netdna-ssl.com/wp-content/themes/Bitmovin-V-0.1/images/enc-mesos.svg'
             twitter: 'https://twitter.com/ApacheMesos'
             crunchbase: 'https://www.crunchbase.com/organization/apache'
           - item:
@@ -1785,8 +1785,9 @@ landscape:
           - item:
             name: Runner
             organization: GitLab
+            description: GitLab Runner is the open source project that is used to run your jobs and send the results back to GitLab. It is used in conjunction with GitLab CI, the open-source continuous integration service included with GitLab that coordinates the jobs.
             homepage_url: 'https://docs.gitlab.com/runner/'
-            repo_url: 'https://github.com/ayufan/gitlab-ci-multi-runner'
+            repo_url: 'https://github.com/gitlabhq/gitlab-runner'
             logo: 'https://gitlab.com/uploads/-/system/project/avatar/250833/runner_logo.png'
             twitter: 'https://twitter.com/gitlab'
             crunchbase: 'https://www.crunchbase.com/organization/gitlab-com'
@@ -2604,14 +2605,14 @@ landscape:
             organization: Amazon Web Services
             homepage_url: 'https://aws.amazon.com/lambda/'
             repo_url: https://github.com/nficano/python-lambda
-            logo: './src/hosted_logos/aws-lambda.svg'
+            logo: './src/hosted_logos/python-lambda.svg'
             twitter: 'https://twitter.com/awscloud'
             crunchbase: 'https://www.crunchbase.com/organization/amazon-web-services'
           - item:
             name: Dashbird
             organization: Dashbird
             homepage_url: 'https://www.dashbird.io/'
-            logo: 'http://www.dailyspin.io/wp-content/uploads/2017/06/dashbird-logo.png'
+            logo: './src/hosted_logos/dashbird.svg'
             twitter: 'https://twitter.com/thedashbird'
             crunchbase: 'https://www.crunchbase.com/organization/dashbird'
           - item:
@@ -2626,7 +2627,7 @@ landscape:
             organization: LambCI
             homepage_url: 'http://lambci.org/'
             repo_url: https://github.com/lambci/lambci
-            logo: 'https://camo.githubusercontent.com/92781cc0d3fc90674524a974439f7e7493d1c3d2/68747470733a2f2f6c616d6263692e73332e616d617a6f6e6177732e636f6d2f6173736574732f6c6f676f2d333130783331302e706e67'
+            logo: './src/hosted_logos/lambci.svg'
             twitter: 'https://twitter.com/lamb_ci'
             crunchbase: 'https://www.crunchbase.com/organization/lambci'
           - item:
@@ -2634,7 +2635,7 @@ landscape:
             organization: Node Lambda
             homepage_url: 'https://github.com/motdotla/node-lambda'
             repo_url: https://github.com/motdotla/node-lambda
-            logo: 'https://raw.githubusercontent.com/motdotla/node-lambda/master/node-lambda.png?raw=true'
+            logo: './src/hosted_logos/nodelambda.svg'
             twitter: ''
             crunchbase: 'https://www.crunchbase.com/organization/node-lambda'
           - item:
@@ -2675,7 +2676,7 @@ landscape:
             organization: Amazon Web Services
             homepage_url: 'https://aws.amazon.com/blogs/developer/chalice-1-0-0-ga-release/'
             repo_url: https://github.com/aws/chalice
-            logo: 'https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg'
+            logo: './src/hosted_logos/aws-chalice.svg'
             twitter: 'https://twitter.com/awscloud'
             crunchbase: 'https://www.crunchbase.com/organization/amazon-web-services'
           - item:
@@ -2794,7 +2795,7 @@ landscape:
             name: IBM Cloud Functions
             organization: IBM Cloud
             homepage_url: 'https://console.bluemix.net/openwhisk/'
-            logo: './src/hosted_logos/ibm-cloud.svg'
+            logo: ./src/hosted_logos/ibm-cloud.svg
             twitter: 'https://twitter.com/IBMcloud'
             crunchbase: 'https://www.crunchbase.com/organization/ibm-cloud'
           - item:
@@ -2804,13 +2805,6 @@ landscape:
             logo: 'http://nano-lambda.com/assets/img/logo.png'
             twitter: ''
             crunchbase: 'https://www.crunchbase.com/organization/nano-lambda'
-          - item:
-            name: Fn
-            organization: Fn
-            homepage_url: 'http://fnproject.io/'
-            logo: 'https://www.vectorlogo.zone/logos/fnproject/fnproject-card.png'
-            twitter: 'https://twitter.com/fnproj'
-            crunchbase: 'https://www.crunchbase.com/organization/fn'
           - item:
             name: Overclock
             organization: OvrClk
@@ -2924,6 +2918,14 @@ landscape:
             twitter: 'https://twitter.com/gobinaris'
             crunchbase: 'https://www.crunchbase.com/organization/binaris'
           - item:
+            name: Fn
+            organization: Fn
+            homepage_url: 'http://fnproject.io/'
+            repo_url: 'https://github.com/fnproject/fn'
+            logo: 'https://www.vectorlogo.zone/logos/fnproject/fnproject-card.png'
+            twitter: 'https://twitter.com/fnproj'
+            crunchbase: 'https://www.crunchbase.com/organization/fn'
+          - item:
             name: Galactic Fog Gestalt
             organization: Galactic Fog
             homepage_url: 'http://www.galacticfog.com/'
@@ -2985,7 +2987,7 @@ landscape:
             organization: OpenLambda
             homepage_url: 'https://open-lambda.org/'
             repo_url: 'https://github.com/open-lambda/open-lambda'
-            logo: 'https://raw.githubusercontent.com/motdotla/node-lambda/master/node-lambda.png?raw=true'
+            logo: './src/hosted_logos/openlambda.svg'
             best_res: ''
             twitter: ''
             crunchbase: 'https://www.crunchbase.com/organization/openlambda'
@@ -2994,7 +2996,7 @@ landscape:
             organization: Funktion
             homepage_url: 'https://funktion.fabric8.io/'
             repo_url: 'https://github.com/funktionio/funktion'
-            logo: 'https://funktion.fabric8.io/img/profile.png'
+            logo: './src/hosted_logos/funktion.svg'
             twitter: 'https://twitter.com/funktionio'
             crunchbase: 'https://www.crunchbase.com/organization/funktion'
           - item:

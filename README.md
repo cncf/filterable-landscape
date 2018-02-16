@@ -86,5 +86,5 @@ Hard and complete modes should be unnecessary except in cases of possible data c
 
 ### Adding a custom image
 1. Save it to the src/hosted_logos/, for example, src/hosted_logos/apex.png
-2. Update the landscape.yml with a logo, for exaple, `logo: ./src/hosted_logos/apex.png`
+2. Update the landscape.yml with a logo, for example, `logo: ./src/hosted_logos/apex.png`. Please always start it from  the `./src/hosted_logos`
 3. Update `processed_landscape.yml` with `yarn fetch`
