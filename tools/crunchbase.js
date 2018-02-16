@@ -94,9 +94,11 @@ async function getMarketCap(ticker) {
 export async function fetchCrunchbaseEntries({cache, preferCache}) {
   // console.info(organizations);
   // console.info(_.find(organizations, {name: 'foreman'}));
+  const errors = [];
   const organizations = await getCrunchbaseOrganizationsList();
-  return await Promise.map(organizations,async function(c) {
+  const result = await Promise.map(organizations,async function(c) {
     const cachedEntry = _.find(cache, {url: c.crunchbase});
+    require('process').stdout.write(".");
     if (cachedEntry && preferCache) {
       debug(`returning a cached entry for ${cachedEntry.url}`);
       return cachedEntry;
@@ -155,9 +157,13 @@ export async function fetchCrunchbaseEntries({cache, preferCache}) {
       return entry;
       // console.info(entry);
     } catch (ex) {
+      require('process').stdout.write("X");
       debug(`normal request failed, so returning a cached entry for ${c.name}`);
-      console.info(`Can not fetch: ${c.name} `, ex.message.substring(0, 50));
+      errors.push(`Can not fetch: ${c.name} ` +  ex.message.substring(0, 50));
       return cachedEntry || null;
     }
   }, {concurrency: 5})
+  require('process').stdout.write("\n");
+  _.each(errors, console.info);
+  return result;
 }
