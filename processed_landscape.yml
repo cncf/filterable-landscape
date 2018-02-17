@@ -2165,6 +2165,18 @@ landscape:
             logo: >-
               https://camo.githubusercontent.com/9253d4191c8b4a21e7b2960199c9fee4dab14256/68747470733a2f2f6c656f2d70726f6a6563742e6e65742f6c656f66732f646f63732d6f6c642f5f7374617469632f6c656f66732d6c6f676f2d736d616c6c2e706e67
             twitter: 'https://twitter.com/LeoFastStorage'
+            crunchbase: 'https://www.crunchbase.com/organization/leo-project'
+            crunchbase_data:
+              name: Leo Project
+              description: Cloud-Native Storage
+              num_employees_min: null
+              num_employees_max: null
+              homepage: 'https://leo-project.net/leofs/'
+              city: Tokyo
+              region: Tokyo
+              country: Japan
+              twitter: null
+              linkedin: null
             github_data:
               stars: 1129
               license: Apache-2.0
@@ -2555,6 +2567,18 @@ landscape:
             homepage_url: 'https://sheepdog.github.io/sheepdog/'
             repo_url: 'https://github.com/sheepdog/sheepdog'
             logo: ./src/hosted_logos/sheepdog.svg
+            crunchbase: 'https://www.crunchbase.com/organization/sheepdog'
+            crunchbase_data:
+              name: Sheepdog
+              description: Cloud-Native Storage
+              num_employees_min: null
+              num_employees_max: null
+              homepage: 'https://sheepdog.github.io/sheepdog/'
+              city: Tokyo
+              region: Tokyo
+              country: Japan
+              twitter: null
+              linkedin: null
             github_data:
               stars: 700
               license: GPL-2.0
@@ -3464,6 +3488,18 @@ landscape:
             homepage_url: 'http://romana.io/'
             repo_url: 'https://github.com/romana/romana'
             logo: 'http://romana.io/images/Logo.250.png'
+            crunchbase: 'https://www.crunchbase.com/organization/romana'
+            crunchbase_data:
+              name: Romana
+              description: Cloud-Native Network
+              num_employees_min: null
+              num_employees_max: null
+              homepage: 'http://romana.io/'
+              city: San Francisco
+              region: California
+              country: United States
+              twitter: null
+              linkedin: null
             github_data:
               stars: 163
               license: Apache-2.0
@@ -3959,6 +3995,18 @@ landscape:
             homepage_url: 'https://github.com/skynetservices/skydns'
             repo_url: 'https://github.com/skynetservices/skydns'
             logo: 'https://memz.co/wp-content/uploads/2016/07/skydns.jpg'
+            crunchbase: 'https://www.crunchbase.com/organization/skydns'
+            crunchbase_data:
+              name: SKYDNS
+              description: SkyDNS is a Russian company that develops cloud-based internet security and content filtering solutions.
+              num_employees_min: 1
+              num_employees_max: 10
+              homepage: 'http://www.skydns.ru'
+              city: null
+              region: null
+              country: null
+              twitter: 'https://www.twitter.com/skydns'
+              linkedin: null
             github_data:
               stars: 1728
               license: MIT
@@ -4208,6 +4256,20 @@ landscape:
             homepage_url: 'https://www.backplane.io/'
             logo: 'http://www.backplane.io/static/media/images/backplane.png'
             twitter: 'https://twitter.com/backplaneio'
+            crunchbase: 'https://www.crunchbase.com/organization/backplane-io'
+            crunchbase_data:
+              name: ' backplane.io '
+              description: 'A service that unifies discovery, routing, and load balancing for web servers written in any language, running in any cloud or datacenter. '
+              num_employees_min: 1
+              num_employees_max: 10
+              homepage: 'https://www.backplane.io/'
+              city: San Francisco
+              region: California
+              country: United States
+              twitter: 'https://twitter.com/backplaneio'
+              linkedin: 'https://www.linkedin.com/company/backplane/'
+              kind: funding
+              funding: 5000000
             cncf_membership_data:
               cncf_member: false
             image_data:
@@ -6398,6 +6460,18 @@ landscape:
             repo_url: 'https://github.com/kubevirt/kubevirt'
             logo: ./src/hosted_logos/kubevirt.svg
             twitter: 'https://twitter.com/kubevirt'
+            crunchbase: 'https://www.crunchbase.com/organization/kubevirt'
+            crunchbase_data:
+              name: KubeVirt
+              description: Application Definition & Image Build
+              num_employees_min: null
+              num_employees_max: null
+              homepage: 'http://www.kubevirt.io/'
+              city: null
+              region: null
+              country: null
+              twitter: null
+              linkedin: null
             github_data:
               stars: 409
               license: Apache-2.0
@@ -7474,8 +7548,20 @@ landscape:
               makes it easier to configure, deploy and manage containerized applications.
             homepage_url: 'https://www.ghostcloud.cn/ecos-kubernetes/'
             logo: 'https://assets.sdxcentral.com/ghostcloud-logo.png'
+            crunchbase: 'https://www.crunchbase.com/organization/ghostcloud'
+            crunchbase_data:
+              name: Ghostcloud
+              description: Kubernetes Certified Service Provider
+              num_employees_min: null
+              num_employees_max: null
+              homepage: 'https://www.ghostcloud.cn/ecos-kubernetes'
+              city: Chengdu
+              region: Sichuan
+              country: China
+              twitter: null
+              linkedin: null
             cncf_membership_data:
-              cncf_member: false
+              cncf_member: true
             image_data:
               fileName: ghostcloud-ec-os.png
               low_res: 233x147
@@ -7611,6 +7697,18 @@ landscape:
             homepage_url: 'https://github.com/inwinstack/kube-ansible'
             repo_url: 'https://github.com/inwinstack/kube-ansible'
             logo: ./src/hosted_logos/inwinstack.svg
+            crunchbase: 'https://www.crunchbase.com/organization/inwinstack'
+            crunchbase_data:
+              name: inwinSTACK
+              description: 'Cloud Native Computing Foundation (CNCF)  '
+              num_employees_min: null
+              num_employees_max: null
+              homepage: 'http://www.inwinstack.com/index.php/en/home/'
+              city: Taipei
+              region: Fujian
+              country: China
+              twitter: 'https://twitter.com/inwinstack'
+              linkedin: null
             github_data:
               stars: 48
               license: Apache-2.0
@@ -7621,7 +7719,7 @@ landscape:
               start_commit_link: /inwinstack/kube-ansible/commit/f08529c405c3e59be9710db23fef91e9a88c4d0f
               start_date: '2016-12-16T09:08:16Z'
             cncf_membership_data:
-              cncf_member: false
+              cncf_member: true
             image_data:
               fileName: inwin-stack-kube-ansible.svg
           - item:
@@ -8145,6 +8243,18 @@ landscape:
             homepage_url: 'https://typhoon.psdn.io/'
             repo_url: 'https://github.com/poseidon/typhoon'
             logo: 'https://kubernetes.io/images/square-logos/poseidon.png'
+            crunchbase: 'https://www.crunchbase.com/organization/poseidon'
+            crunchbase_data:
+              name: Poseidon
+              description: Certified Kubernetes- Distribution
+              num_employees_min: null
+              num_employees_max: null
+              homepage: 'http://poseidon-release.readthedocs.io/en/v1.0.1/'
+              city: null
+              region: null
+              country: null
+              twitter: null
+              linkedin: null
             github_data:
               stars: 314
               license: MIT
@@ -8229,8 +8339,20 @@ landscape:
             description: Cover the whole process of modern software production line needs.
             homepage_url: 'http://www.wise2c.com/solution'
             logo: 'https://www.cncf.io/wp-content/uploads/2017/11/wise2c.png'
+            crunchbase: 'https://www.crunchbase.com/organization/wise2c-technology-co'
+            crunchbase_data:
+              name: Wise2c Technology Co.
+              description: Kubernetes Certified Service Provider
+              num_employees_min: null
+              num_employees_max: null
+              homepage: 'http://www.wise2c.com/'
+              city: Shenzhen
+              region: Guangdong
+              country: China
+              twitter: null
+              linkedin: null
             cncf_membership_data:
-              cncf_member: false
+              cncf_member: true
             image_data:
               fileName: wise-cloud.png
               low_res: 396x140
@@ -8442,8 +8564,20 @@ landscape:
             organization: Hainan eKing
             homepage_url: 'http://www.haihangyun.com/landing'
             logo: 'http://www.chinatravelnews.com/images/201512/287461104de1f06f.jpg'
+            crunchbase: 'https://www.crunchbase.com/organization/hainan-eking-technology'
+            crunchbase_data:
+              name: Hainan eKing Technology
+              description: Kubernetes Platform
+              num_employees_min: null
+              num_employees_max: null
+              homepage: 'http://www.eking-tech.com/'
+              city: Haikou
+              region: Hainan
+              country: China
+              twitter: null
+              linkedin: null
             cncf_membership_data:
-              cncf_member: false
+              cncf_member: true
             image_data:
               fileName: e-king-cloud-container-platform.png
               low_res: 162x118
@@ -8482,8 +8616,20 @@ landscape:
             description: 'Kubernetes, second generation PaaS cloud computing platform, builds industry-leading container cloud computing framework'
             homepage_url: 'http://harmonycloud.cn'
             logo: 'https://www.cncf.io/wp-content/uploads/2017/03/harmony-cloud-300x184.png'
+            crunchbase: 'https://www.crunchbase.com/organization/hangzhou-harmony-technology-co-ltd'
+            crunchbase_data:
+              name: 'Hangzhou Harmony Technology Co., Ltd.'
+              description: Kubernetes Platform
+              num_employees_min: null
+              num_employees_max: null
+              homepage: 'http://harmonycloud.cn/'
+              city: Hangzhou
+              region: Zhejiang
+              country: China
+              twitter: null
+              linkedin: null
             cncf_membership_data:
-              cncf_member: false
+              cncf_member: true
             image_data:
               fileName: harmony-cloud-container-platform.png
               low_res: 209x180
@@ -10190,7 +10336,18 @@ landscape:
             repo_url: 'https://github.com/mweagle/Sparta'
             logo: 'http://gosparta.io/images/SpartaLogoNoDomain.png'
             twitter: 'https://twitter.com/mweagle?lang=en'
-            crunchbase: ''
+            crunchbase: 'https://www.crunchbase.com/organization/sparta-7ffe'
+            crunchbase_data:
+              name: Sparta
+              description: Serverless- Frameworks
+              num_employees_min: null
+              num_employees_max: null
+              homepage: 'http://gosparta.io/'
+              city: null
+              region: null
+              country: null
+              twitter: null
+              linkedin: null
             github_data:
               stars: 452
               license: MIT
@@ -10811,7 +10968,18 @@ landscape:
             homepage_url: 'https://zeit.co/now#frequently-asked-questions'
             logo: 'https://assets.zeit.co/image/upload/front/logos/white-bg-text-logo-1200.png'
             twitter: 'https://twitter.com/zeithq'
-            crunchbase: ''
+            crunchbase: 'https://www.crunchbase.com/organization/zeit'
+            crunchbase_data:
+              name: Zeit
+              description: Serverless- Platforms
+              num_employees_min: null
+              num_employees_max: null
+              homepage: 'https://zeit.co'
+              city: null
+              region: null
+              country: null
+              twitter: 'https://twitter.com/zeithq'
+              linkedin: null
             cncf_membership_data:
               cncf_member: false
             image_data:
@@ -11315,6 +11483,18 @@ landscape:
             homepage_url: 'https://axibase.com/'
             logo: 'http://axibase.com/wp-content/uploads/2014/12/axibase_logo_orange-2.png'
             twitter: 'https://twitter.com/axibase'
+            crunchbase: 'https://www.crunchbase.com/organization/axibase'
+            crunchbase_data:
+              name: Axibase
+              description: Observability and Analysis
+              num_employees_min: null
+              num_employees_max: null
+              homepage: 'https://axibase.com/'
+              city: Cupertino
+              region: California
+              country: United States
+              twitter: null
+              linkedin: null
             cncf_membership_data:
               cncf_member: false
             image_data:
@@ -11384,6 +11564,18 @@ landscape:
             homepage_url: 'https://cobe.io/'
             logo: ./src/hosted_logos/cobe.svg
             twitter: 'https://twitter.com/cobeio'
+            crunchbase: 'https://www.crunchbase.com/organization/cobe-io'
+            crunchbase_data:
+              name: Cobe.io
+              description: Cobe delivers an aggregated view of every element related to your business.
+              num_employees_min: null
+              num_employees_max: null
+              homepage: 'https://cobe.io/'
+              city: null
+              region: null
+              country: null
+              twitter: 'https://twitter.com/cobeio'
+              linkedin: 'https://www.linkedin.com/company/10272465/'
             cncf_membership_data:
               cncf_member: false
             image_data:
@@ -11500,6 +11692,18 @@ landscape:
             homepage_url: 'https://graphiteapp.org/'
             repo_url: 'https://github.com/graphite-project/graphite-web'
             logo: 'http://blog-centreon-wordpress.s3.amazonaws.com/wp-content/uploads/2017/07/GraphiteLogo.png'
+            crunchbase: 'https://www.crunchbase.com/organization/graphite'
+            crunchbase_data:
+              name: Graphite
+              description: Monitoring
+              num_employees_min: null
+              num_employees_max: null
+              homepage: 'https://graphiteapp.org/'
+              city: null
+              region: null
+              country: null
+              twitter: null
+              linkedin: null
             github_data:
               stars: 3994
               license: Apache-2.0
@@ -11889,6 +12093,18 @@ landscape:
             repo_url: 'https://github.com/OpenTSDB/opentsdb'
             logo: 'http://opentsdb.net/img/logo_header.png'
             twitter: 'https://twitter.com/opentsdb'
+            crunchbase: 'https://www.crunchbase.com/organization/open-tsbd'
+            crunchbase_data:
+              name: Open TSDB
+              description: Monitoring
+              num_employees_min: null
+              num_employees_max: null
+              homepage: 'http://opentsdb.net/'
+              city: San Francisco
+              region: California
+              country: United States
+              twitter: null
+              linkedin: null
             github_data:
               stars: 2925
               license: GPL-3.0
@@ -12690,6 +12906,20 @@ landscape:
             homepage_url: 'https://github.com/sourcegraph/appdash'
             repo_url: 'https://github.com/sourcegraph/appdash'
             logo: ./src/hosted_logos/appdash.svg
+            crunchbase: 'https://www.crunchbase.com/organization/sourcegraph'
+            crunchbase_data:
+              name: Sourcegraph
+              description: Sourcegraph is creating the best way to read and understand code.
+              num_employees_min: 11
+              num_employees_max: 50
+              homepage: 'https://sourcegraph.com'
+              city: San Francisco
+              region: California
+              country: United States
+              twitter: 'http://twitter.com/srcgraph'
+              linkedin: 'https://www.linkedin.com/company/sourcegraph'
+              kind: funding
+              funding: 20000000
             github_data:
               stars: 1233
               license: Unknown License
@@ -13165,8 +13395,20 @@ landscape:
               applications.
             homepage_url: 'https://www.ghostcloud.cn/ecos-kubernetes'
             logo: 'https://assets.sdxcentral.com/ghostcloud-logo.png'
+            crunchbase: 'https://www.crunchbase.com/organization/ghostcloud'
+            crunchbase_data:
+              name: Ghostcloud
+              description: Kubernetes Certified Service Provider
+              num_employees_min: null
+              num_employees_max: null
+              homepage: 'https://www.ghostcloud.cn/ecos-kubernetes'
+              city: Chengdu
+              region: Sichuan
+              country: China
+              twitter: null
+              linkedin: null
             cncf_membership_data:
-              cncf_member: false
+              cncf_member: true
             image_data:
               fileName: ghostcloud-ec-os.png
               low_res: 233x147
@@ -13278,8 +13520,20 @@ landscape:
             description: 'Our container service leverages OpenStack-based infrastructure and its container orchestration engine Magnum to manage Kubernetes clusters. '
             homepage_url: 'http://www.inwinstack.com/index.php/en/solutions-en/'
             logo: ./src/hosted_logos/inwinstack.svg
+            crunchbase: 'https://www.crunchbase.com/organization/inwinstack'
+            crunchbase_data:
+              name: inwinSTACK
+              description: 'Cloud Native Computing Foundation (CNCF)  '
+              num_employees_min: null
+              num_employees_max: null
+              homepage: 'http://www.inwinstack.com/index.php/en/home/'
+              city: Taipei
+              region: Fujian
+              country: China
+              twitter: 'https://twitter.com/inwinstack'
+              linkedin: null
             cncf_membership_data:
-              cncf_member: false
+              cncf_member: true
             image_data:
               fileName: inwin-stack-kube-ansible.svg
           - item:
@@ -13528,8 +13782,20 @@ landscape:
             description: 'Using Kubernetes to providing IT continuous delivery and Enterprise grade container management solution to Financial Industry. '
             homepage_url: 'http://www.wise2c.com/'
             logo: 'https://www.cncf.io/wp-content/uploads/2017/11/wise2c.png'
+            crunchbase: 'https://www.crunchbase.com/organization/wise2c-technology-co'
+            crunchbase_data:
+              name: Wise2c Technology Co.
+              description: Kubernetes Certified Service Provider
+              num_employees_min: null
+              num_employees_max: null
+              homepage: 'http://www.wise2c.com/'
+              city: Shenzhen
+              region: Guangdong
+              country: China
+              twitter: null
+              linkedin: null
             cncf_membership_data:
-              cncf_member: false
+              cncf_member: true
             image_data:
               fileName: wise-cloud.png
               low_res: 396x140
