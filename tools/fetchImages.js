@@ -1,3 +1,4 @@
+import colors from 'colors';
 import Jimp from 'jimp';
 import rp from 'request-promise';
 import Promise from 'bluebird';
@@ -7,6 +8,9 @@ import _ from 'lodash';
 import { ensureViewBoxExists } from './processSvg';
 const debug = require('debug')('images');
 
+const error = colors.red;
+const fatal = (x) => colors.red(colors.inverse(x));
+const cacheMiss = colors.green;
 // x3 because we may have retina display
 const size = {
   width: 180 * 3,
@@ -71,10 +75,12 @@ function imageExist(entry) {
 
 export async function fetchImageEntries({cache, preferCache}) {
   const items = await getLandscapeItems();
-  return Promise.map(items, async function(item) {
+  const errors = [];
+  const result = Promise.map(items, async function(item) {
     const cachedEntry = _.find(cache, {logo: item.logo});
     if (preferCache && cachedEntry && imageExist(cachedEntry)) {
       debug(`Found cached entry for ${item.logo}`);
+      require('process').stdout.write(".");
       return cachedEntry;
     }
     debug(`Fetching data for ${item.logo}`);
@@ -108,6 +114,7 @@ export async function fetchImageEntries({cache, preferCache}) {
               encoding: null,
               uri: url,
               followRedirect: true,
+              maxRedirects: 5,
               simple: true,
               timeout: 30 * 1000
             });
@@ -123,6 +130,7 @@ export async function fetchImageEntries({cache, preferCache}) {
           const result = await normalizeImage({inputFile: response,outputFile: `src/logos/${fileName}`, item});
           low_res = result.low_res;
         }
+        require('process').stdout.write(cacheMiss("*"));
         return {
           fileName: fileName,
           low_res: low_res,
@@ -130,12 +138,21 @@ export async function fetchImageEntries({cache, preferCache}) {
         };
       } catch(ex) {
         debug(`Cannot fetch ${url}`);
-        console.info(`${item.name} has issues with logo: ${url}`);
-        console.info(ex.message.substring(0, 100));
-        return cachedEntry || null;
+        if (cachedEntry && imageExist(cachedEntry)) {
+          require('process').stdout.write(error("E"));
+          errors.push(error(`Using cached entry, because ${item.name} has issues with logo: ${url}, ${ex.message.substring(0, 100)}`));
+          return cachedEntry;
+        } else {
+          require('process').stdout.write(error("E"));
+          errors.push(fatal(`No cached entry, and ${item.name} has issues with logo: ${url}, ${ex.message.substring(0, 100)}`));
+          return null;
+        }
       }
     }
   }, {concurrency: 10});
+  require('process').stdout.write("\n");
+  _.each(errors, console.info);
+  return result;
 }
 
 export function removeNonReferencedImages(imageEntries) {
