@@ -52,13 +52,13 @@ const openSourceTag = function(oss) {
   if (!oss) {
     return null;
   }
-  return (<NavLink to="/license=open-source" className="tag tag-grass">
+  return (<NavLink to="/grouping=license&license=open-source" className="tag tag-grass">
     <span className="tag-value">Open Source Software</span>
   </NavLink>)
 }
 const licenseTag = function(license) {
   const text = _.find(fields.license.values, {id: license}).label;
-  return (<NavLink to={filtersToUrl({filters:{license: license}})} className="tag tag-green">
+  return (<NavLink to={filtersToUrl({grouping: 'license', filters:{license: license}})} className="tag tag-green">
     <span className="tag-name">License</span>
     <span className="tag-value">{text}</span>
   </NavLink>);
@@ -74,15 +74,15 @@ const ItemDialog = ({onClose, itemInfo, previousItemId, nextItemId, onSelectItem
     // }
     // window.twttr.widgets.load();
   // });
-  const linkToOrganization = filtersToUrl({filters: {organization: itemInfo.organization}});
+  const linkToOrganization = filtersToUrl({grouping: 'organization', filters: {organization: itemInfo.organization}});
   const itemCategory = function(path) {
     var separator = <span className="product-category-separator">•</span>;
     var [category, subcategory] = path.split(' / ');
     var categoryMarkup = (
-      <NavLink to={`/landscape=${saneName(category)}`}>{category}</NavLink>
+      <NavLink to={`/grouping=landscape&landscape=${saneName(category)}`}>{category}</NavLink>
     )
     var subcategoryMarkup = (
-      <NavLink to={filtersToUrl({filters: {landscape: path}})}>{subcategory}</NavLink>
+      <NavLink to={filtersToUrl({grouping: 'landscape', filters: {landscape: path}})}>{subcategory}</NavLink>
     )
     return (<span>{[categoryMarkup, separator, subcategoryMarkup]}</span>);
   }
@@ -176,7 +176,7 @@ const ItemDialog = ({onClose, itemInfo, previousItemId, nextItemId, onSelectItem
               { itemInfo.headquarters && itemInfo.headquarters !== 'N/A' && (
                 <div className="product-property row">
                   <div className="product-property-name col col-25">Headquarters</div>
-                  <div className="product-property-value col col-75"><NavLink to={filtersToUrl({filters:{headquarters:itemInfo.headquarters}})}>{itemInfo.headquarters}</NavLink></div>
+                  <div className="product-property-value col col-75"><NavLink to={filtersToUrl({grouping: 'headquarters', filters:{headquarters:itemInfo.headquarters}})}>{itemInfo.headquarters}</NavLink></div>
                 </div>
               )
               }
