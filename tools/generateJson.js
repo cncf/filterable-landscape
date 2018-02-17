@@ -173,6 +173,17 @@ if (hasDifferentCrunchbasePerOrganization) {
   require('process').exit(1);
 }
 
+var hasEmptyCrunchbase = false;
+_.each(itemsWithExtraFields, function(item) {
+  if (!item.crunchbaseData) {
+    hasEmptyCrunchbase = true;
+    console.info(`${item.name} either has no crunchbase entry or it is invalid`);
+  }
+});
+if (hasEmptyCrunchbase) {
+  require('process').exit(1);
+}
+
 
 
 

@@ -116,7 +116,7 @@ async function main() {
       }
       //cncf membership
       node.cncf_membership_data = {
-        cncf_member: cncfMembers.indexOf(node.organization) !== -1
+        cncf_member: cncfMembers.indexOf(node.crunchbase) !== -1
       }
       //yahoo finance. we will just extract it
       if (node.crunchbase_data && node.crunchbase_data.effective_ticker) {

@@ -1,6 +1,6 @@
 import { createSelector } from 'reselect';
 import _ from 'lodash';
-import { filterFn, getGroupingValue } from '../types/fields';
+import fields, { filterFn, getGroupingValue } from '../types/fields';
 import groupingLabel from '../utils/groupingLabel';
 import groupingOrder from '../utils/groupingOrder';
 import formatAmount from '../utils/formatAmount';
@@ -97,11 +97,13 @@ const getGroupedItems = createSelector(
     const grouped = _.groupBy(items, function(item) {
       return getGroupingValue({item: item, grouping: grouping});
     });
+    const fieldInfo = fields[grouping];
     return _.orderBy(_.map(grouped, function(value, key) {
       return {
         key: key,
         header: groupingLabel(grouping, key),
-        items: value
+        items: value,
+        href: { name: grouping, value: fieldInfo.isArray ? [ key ] : key }
       }
     }), (group) => groupingOrder(grouping)(group.key));
   }

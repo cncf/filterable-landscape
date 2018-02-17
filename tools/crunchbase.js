@@ -1,8 +1,12 @@
+import colors from 'colors';
 import yahooFinance from 'yahoo-finance';
 import process from 'process'
 import rp from 'request-promise'
 import Promise from 'bluebird'
 import _ from 'lodash';
+const error = colors.red;
+const fatal = (x) => colors.red(colors.inverse(x));
+const cacheMiss = colors.green;
 const debug = require('debug')('cb');
 const key = process.env.CRUNCHBASE_KEY;
 if (!key) {
@@ -30,7 +34,7 @@ export async function getCrunchbaseOrganizationsList() {
       ticker: node.stock_ticker
     });
   });
-  return _.uniq(organizations);
+  return _.orderBy(_.uniq(organizations), 'name');
 }
 
 export async function extractSavedCrunchbaseEntries() {
@@ -59,25 +63,22 @@ export async function extractSavedCrunchbaseEntries() {
 
 async function getParentCompanies(companyInfo) {
   var parentInfo = companyInfo.relationships.owned_by.item;
+  // console.info(`looking for parent for ${companyInfo.name}`);
+  // console.info(`parentInfo is ${parentInfo}`);
   if (!parentInfo) {
+    // console.info('returning []');
     return [];
   } else {
     var parentId = parentInfo.uuid;
     var fullParentInfo =  await rp({
-      method: 'POST',
-      uri: 'http://api.crunchbase.com/v3.1/batch',
+      method: 'GET',
+      maxRedirects: 5,
+      followRedirect: true,
+      uri: `http://api.crunchbase.com/v3.1/organizations/${parentId}?user_key=${key}`,
       timeout: 10 * 1000,
-      headers: {
-        'X-Cb-User-Key': key
-      },
-      body: {
-        "requests":[
-          { "type":"Organization","uuid": parentId},
-        ]
-      },
       json: true
     });
-    var cbInfo = fullParentInfo.data.items[0];
+    var cbInfo = fullParentInfo.data;
     await Promise.delay(1 * 1000);
     return [parentInfo].concat(await getParentCompanies(cbInfo));
   }
@@ -85,6 +86,7 @@ async function getParentCompanies(companyInfo) {
 const marketCapCache = {};
 async function getMarketCap(ticker) {
   // console.info(ticker, stock_exchange);
+  // console.info('ticker is', ticker);
   debug(`Extracting the ticker from ${ticker}`);
   const quote = marketCapCache[ticker] ||  await yahooFinance.quote({symbol: ticker, modules: ['summaryDetail']});
   marketCapCache[ticker] = quote;
@@ -94,34 +96,29 @@ async function getMarketCap(ticker) {
 export async function fetchCrunchbaseEntries({cache, preferCache}) {
   // console.info(organizations);
   // console.info(_.find(organizations, {name: 'foreman'}));
+  const errors = [];
   const organizations = await getCrunchbaseOrganizationsList();
-  return await Promise.map(organizations,async function(c) {
+  const result = await Promise.map(organizations,async function(c) {
     const cachedEntry = _.find(cache, {url: c.crunchbase});
     if (cachedEntry && preferCache) {
       debug(`returning a cached entry for ${cachedEntry.url}`);
+      require('process').stdout.write(".");
       return cachedEntry;
     }
     await Promise.delay(1 * 1000);
     try {
       const result = await rp({
-        method: 'POST',
-        uri: 'http://api.crunchbase.com/v3.1/batch',
-        headers: {
-          'X-Cb-User-Key': key
-        },
+        method: 'GET',
+        maxRedirects: 5,
+        followRedirect: true,
+        uri: `http://api.crunchbase.com/v3.1/organizations/${c.name}?user_key=${key}`,
         timeout: 10 * 1000,
-        body: {
-          "requests":[
-            { "type":"Organization","uuid": c.name},
-          ]
-        },
         json: true
       });
-      var cbInfo = result.data.items[0].properties;
-      // console.info(parents.map( (x) => x.properties.name));
-      var twitterEntry = _.find(result.data.items[0].relationships.websites.items, (x) => x.properties.website_name === 'twitter');
-      var linkedInEntry = _.find(result.data.items[0].relationships.websites.items, (x) => x.properties.website_name === 'linkedin');
-      const headquarters = result.data.items[0].relationships.headquarters;
+      var cbInfo = result.data.properties;
+      var twitterEntry = _.find(result.data.relationships.websites.items, (x) => x.properties.website_name === 'twitter');
+      var linkedInEntry = _.find(result.data.relationships.websites.items, (x) => x.properties.website_name === 'linkedin');
+      const headquarters = result.data.relationships.headquarters;
       const entry = {
         url: c.crunchbase,
         name: cbInfo.name,
@@ -135,11 +132,13 @@ export async function fetchCrunchbaseEntries({cache, preferCache}) {
         twitter: twitterEntry ? twitterEntry.properties.url : null,
         linkedin: linkedInEntry ? linkedInEntry.properties.url : null
       };
-      var parents = await getParentCompanies(result.data.items[0]);
-      var meAndParents = [result.data.items[0]].concat(parents);
+      var parents = await getParentCompanies(result.data);
+       // console.info(parents.map( (x) => x.properties.name));
+      var meAndParents = [result.data].concat(parents);
       var firstWithTicker = _.find( meAndParents, (org) => !!org.properties.stock_symbol );
       var firstWithFunding = _.find( meAndParents, (org) => !!org.properties.total_funding_usd );
       if (firstWithTicker || c.ticker) {
+        // console.info('need to get a ticker?');
         entry.ticker = firstWithTicker ? firstWithTicker.properties.stock_symbol : undefined;
         entry.effective_ticker = c.ticker || entry.ticker;
         entry.market_cap = await getMarketCap(entry.effective_ticker, cbInfo.stock_exchange);
@@ -152,12 +151,25 @@ export async function fetchCrunchbaseEntries({cache, preferCache}) {
       } else {
         // console.info(cbInfo.name, 'no finance info');
       }
+      require('process').stdout.write(cacheMiss("*"));
       return entry;
       // console.info(entry);
     } catch (ex) {
-      debug(`normal request failed, so returning a cached entry for ${c.name}`);
-      console.info(`Can not fetch: ${c.name} `, ex.message.substring(0, 50));
-      return cachedEntry || null;
+      if (cachedEntry) {
+        debug(`normal request failed, so returning a cached entry for ${c.name}`);
+        errors.push(error(`Using cached entry, because can not fetch: ${c.name} ` +  ex.message.substring(0, 50)));
+        require('process').stdout.write(error("E"));
+        return cachedEntry;
+      } else {
+        // console.info(c.name);
+        debug(`normal request failed, and no cached entry for ${c.name}`);
+        errors.push(fatal(`No cached entry, and can not fetch: ${c.name} ` +  ex.message.substring(0, 50)));
+        require('process').stdout.write(fatal("F"));
+        return null;
+      }
     }
   }, {concurrency: 5})
+  require('process').stdout.write("\n");
+  _.each(errors, console.info);
+  return result;
 }
