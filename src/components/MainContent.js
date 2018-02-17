@@ -5,12 +5,17 @@ import classNames from 'classnames'
 import Subheader from 'material-ui/List/ListSubheader';
 import _ from 'lodash';
 
-const MainContent = ({groupedItems, onSelectItem}) => {
+const MainContent = ({groupedItems, onSelectItem, onHeaderClick}) => {
   const itemsAndHeaders = _.map(groupedItems, function(groupedItem) {
     return [
       <div className="sh_wrapper" key={"subheader:" + groupedItem.header}>
-          <Subheader component="div" style={{fontSize: 24}}>{groupedItem.header} ({groupedItem.items.length})</Subheader>
-      </div> 
+        <Subheader component="div" style={{fontSize: 24}}>
+          <span
+            className={ groupedItem.href ? "link" : "" }
+            onClick={ () => groupedItem.href && onHeaderClick(groupedItem.href.name, groupedItem.href.value)}>
+            {groupedItem.header}
+          </span> ({groupedItem.items.length})</Subheader>
+      </div>
     ].concat(_.map(groupedItem.items, function(item) {
       return (<div className="mosaic-wrap">
         <div className={classNames('mosaic',{inception : item.cncfRelation ==='inception'},
