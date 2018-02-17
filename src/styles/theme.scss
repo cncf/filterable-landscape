@@ -32,6 +32,14 @@ a {text-decoration: none; transition: all 0.5s; color: $blue;
   margin: 0.5rem 5px;
   div{font-size:0.8em !important;}
 
+  .link {
+    text-decoration: none;
+    transition: all 0.5s;
+    cursor: pointer;
+    color: $blue;
+    &:hover {transition: all 0.1s; color: $blue-hover;}
+  }
+
 }
 
 .disclaimer {margin: -60px 5px 5px; margin-bottom: 1rem; color: #9b9b9b; font-size: 0.8em; padding-right: 220px;
@@ -59,7 +67,7 @@ a {text-decoration: none; transition: all 0.5s; color: $blue;
   }
 }
 
-.sidebar {width: 205px; position: fixed; top: 60px; left: 0; bottom: 0; overflow: hidden; 
+.sidebar {width: 205px; position: fixed; top: 60px; left: 0; bottom: 0; overflow: hidden;
   padding: 0 20px 20px; z-index: 6;
   /* @media (max-height: 799px) {position: absolute; bottom: auto; top: 70px; z-index: 1;} */
   .sidebar-collapse {position: absolute; top: 11px; right: 11px; display: none; z-index: 3;}
