@@ -29,7 +29,8 @@ a {text-decoration: none; transition: all 0.5s; color: $blue;
   font-size: 1em;
   background-color: #e8e8e8;
   border-radius: 10px;
-  margin: 0.5rem 5px;
+  margin: 10px 5px;
+  margin-top: 20px;
   div{font-size:0.8em !important;}
 
   .link {
@@ -40,6 +41,9 @@ a {text-decoration: none; transition: all 0.5s; color: $blue;
     &:hover {transition: all 0.1s; color: $blue-hover;}
   }
 
+}
+.cards-row {
+  margin-top: 20px;
 }
 
 .disclaimer {margin: -60px 5px 5px; margin-bottom: 1rem; color: #9b9b9b; font-size: 0.8em; padding-right: 220px;
