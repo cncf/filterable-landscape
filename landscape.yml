@@ -2611,7 +2611,7 @@ landscape:
             twitter: https://twitter.com/snyksec'
             crunchbase: 'https://www.crunchbase.com/organization/snyk'
       - subcategory:
-        name: App Definition & Development
+        name: Libraries
         items:
           - item:
             name: Python Lambda
@@ -2621,6 +2621,17 @@ landscape:
             logo: './src/hosted_logos/python-lambda.svg'
             twitter: 'https://twitter.com/awscloud'
             crunchbase: 'https://www.crunchbase.com/organization/amazon-web-services'
+      - subcategory:
+        name: Tools
+        items:
+          - item:
+            name: Architect
+            organization: JS Foundation
+            homepage_url: 'https://arc.codes/'
+            repo_url: 'https://github.com/arc-repos'
+            logo: 'https://js.foundation/wp-content/uploads/sites/33/2017/07/arc-logo-icon2.png'
+            twitter: 'https://twitter.com/arc_fns'
+            crunchbase: 'https://www.crunchbase.com/organization/js-foundation'
           - item:
             name: Dashbird
             organization: Dashbird
