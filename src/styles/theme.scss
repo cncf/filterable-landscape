@@ -142,6 +142,10 @@ a {text-decoration: none; transition: all 0.5s; color: $blue;
   .app-overlay {margin: 0; opacity: 0.4; transition-delay: 0s, 0s;}
 }
 
+.summary {
+  margin-left: 5px;
+}
+
 .main {margin-left: 205px; padding: 10px;
   @media (max-width: 767px) {margin-left: 0; position: relative; padding-top: 70px;}
   @media (max-height: 750px) {margin-left: 0; position: relative; padding-top: 70px;}

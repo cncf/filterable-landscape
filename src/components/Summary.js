@@ -20,6 +20,6 @@ const getText = ({summary}) => {
 }
 
 const Summary = ({summary}) => {
-  return <div>{getText({summary})}</div>;
+  return <h4 className="summary">{getText({summary})}</h4>;
 }
 export default Summary;
