@@ -7,11 +7,12 @@ import _ from 'lodash';
 import WindowScroller from 'react-virtualized/dist/commonjs/WindowScroller';
 import List from 'react-virtualized/dist/commonjs/List';
 import AutoSizer from 'react-virtualized/dist/commonjs/AutoSizer';
+import { NavLink } from 'react-router-dom';
 
 const cardWidth = 200;
 const itemsCache = {};
 
-const MainContent = ({groupedItems, onSelectItem, onHeaderClick}) => {
+const MainContent = ({groupedItems, onSelectItem}) => {
   const getItems = function(width) {
     if (itemsCache.width === width && itemsCache.groupedItems === groupedItems) {
       return itemsCache.result;
@@ -55,11 +56,9 @@ const MainContent = ({groupedItems, onSelectItem, onHeaderClick}) => {
         if (row.type === 'header') {
           <div className="sh_wrapper" key={key} style={style}>
             <Subheader component="div" style={{fontSize: 24}}>
-              <span
-                className={ row.href ? "link" : "" }
-                onClick={ () => row.href && onHeaderClick(row.href.name, row.href.value)}>
-                {row.header}
-            </span> ({row.count})</Subheader>
+              { row.href ?  <NavLink  to={row.href}>{row.header}</NavLink> : <span>{row.header}</span> }
+              <span>({row.count})</span>
+            </Subheader>
           </div>
         } else if (row.type === 'row') {
           <div className="cards-row" key={key} style={style}>
