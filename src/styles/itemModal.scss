@@ -31,7 +31,6 @@ $blue-hover: #0e61c0;
   }
   &-close {cursor: pointer; position: absolute; top: 0; right: 0; font-size: 30px; opacity: 0.4; color: #000;
     z-index: 3; width: 60px; line-height: 60px; text-align: center;
-    
     &:hover {opacity: 1;}
   }
 }
