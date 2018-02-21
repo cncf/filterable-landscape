@@ -1,6 +1,7 @@
 // Set up your application entry point here...
 /* eslint-disable import/default */
 
+import 'babel-polyfill';
 import process from 'process';
 import React from 'react';
 import { render } from 'react-dom';
