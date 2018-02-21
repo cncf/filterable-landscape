@@ -30,7 +30,7 @@ const MainContent = ({groupedItems, onSelectItem}) => {
                      {item.organization}
                   </div>
                   <div className="mosaic-stars">
-                    { item.starsPresent &&
+                    { _.isNumber(item.stars) && item.stars &&
                       <div>
                         <Icon color="disabled" style={{ fontSize: 15 }}>star</Icon>
                         <span>{item.starsAsText}</span>
