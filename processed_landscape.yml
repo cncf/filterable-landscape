@@ -5608,7 +5608,7 @@ landscape:
             name: SQL Data Warehouse
             organization: Microsoft
             homepage_url: 'https://azure.microsoft.com/'
-            logo: 'https://media.licdn.com/mpr/mpr/AAEAAQAAAAAAAAeiAAAAJDRhZGUzMWRhLTI4ODMtNDc1OS1hMDc5LTQwODAwZGI2OTdlMg.png'
+            logo: ./src/hosted_logos/sql-data-warehouse.svg
             twitter: 'https://twitter.com/azure'
             crunchbase: 'https://www.crunchbase.com/organization/microsoft'
             crunchbase_data:
@@ -5630,8 +5630,7 @@ landscape:
               market_cap: 708380655616
               effective_ticker: MSFT
             image_data:
-              fileName: sql-data-warehouse.png
-              low_res: 329x320
+              fileName: sql-data-warehouse.svg
           - item:
             name: SQL Server
             organization: Microsoft
@@ -5884,7 +5883,7 @@ landscape:
             organization: Apache
             homepage_url: 'https://rocketmq.apache.org/'
             repo_url: 'https://github.com/apache/rocketmq'
-            logo: 'https://user-images.githubusercontent.com/3961183/34104948-7b66350c-e42d-11e7-9424-a23d567cde8c.png'
+            logo: ./src/hosted_logos/apache-rocket-mq.svg
             best_res: ''
             twitter: 'https://twitter.com/ApacheRocketMQ'
             crunchbase: 'https://www.crunchbase.com/organization/apache'
@@ -5911,8 +5910,7 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             image_data:
-              fileName: apache-rocket-mq.png
-              low_res: 141x194
+              fileName: apache-rocket-mq.svg
           - item:
             name: Flink
             organization: Apache
@@ -10230,7 +10228,7 @@ landscape:
             organization: Pivotal
             homepage_url: 'https://cloud.spring.io/spring-cloud-function/'
             repo_url: 'https://github.com/spring-cloud/spring-cloud-function'
-            logo: ./src/hosted_logos/springcloudfunction.svg
+            logo: ./src/hosted_logos/spring-cloud-function.svg
             crunchbase: 'https://www.crunchbase.com/organization/pivotal'
             crunchbase_data:
               name: Pivotal
@@ -10942,7 +10940,7 @@ landscape:
             name: Clay
             organization: Clay Labs
             homepage_url: 'https://www.clay.run/'
-            logo: 'https://cdn-images-1.medium.com/max/184/1*5TcwOUNVIvXLVAwuNqA40Q@2x.png'
+            logo: ./src/hosted_logos/clay.svg
             best_res: ''
             twitter: ''
             crunchbase: 'https://www.crunchbase.com/organization/clay-labs'
@@ -10960,8 +10958,7 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             image_data:
-              fileName: clay.png
-              low_res: 184x184
+              fileName: clay.svg
           - item:
             name: Zeit Now
             organization: Zeit
@@ -13037,7 +13034,7 @@ landscape:
             organization: Pivotal
             homepage_url: 'https://cloud.spring.io/spring-cloud-sleuth/'
             repo_url: 'https://github.com/spring-cloud/spring-cloud-sleuth'
-            logo: 'https://pragmaticintegrator.files.wordpress.com/2017/03/spring-cloud.jpg'
+            logo: ./src/hosted_logos/spring-cloud-sleuth.svg
             crunchbase: 'https://www.crunchbase.com/organization/pivotal'
             crunchbase_data:
               name: Pivotal
@@ -13064,8 +13061,7 @@ landscape:
             cncf_membership_data:
               cncf_member: true
             image_data:
-              fileName: spring-cloud-sleuth.png
-              low_res: 366x238
+              fileName: spring-cloud-sleuth.svg
           - item:
             name: Zipkin
             organization: Zipkin
