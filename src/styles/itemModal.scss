@@ -85,5 +85,8 @@ $blue-hover: #0e61c0;
       .material-icons {font-size: 0.9rem; line-height: 16px; vertical-align: top; margin-right: 2px;}
     }
   }
-  &-twitter, .twitter-timeline {-webkit-overflow-scrolling: touch !important; overflow: scroll !important;}
+  &-twitter {position: relative;
+    &:after {position: absolute; content: ""; top: 0; left: 0; bottom: 0; right: 0; z-index: 100; pointer-events: none;}  
+  }
+
 }
