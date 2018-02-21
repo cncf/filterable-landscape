@@ -5,6 +5,7 @@ import { NavLink } from 'react-router-dom';
 import Icon from 'material-ui/Icon';
 import KeyHandler from 'react-key-handler';
 import _ from 'lodash';
+import { OutboundLink } from 'react-ga';
 import millify from 'millify';
 import classNames from 'classnames'
 import relativeDate from 'relative-date';
@@ -130,14 +131,14 @@ const ItemDialog = ({onClose, itemInfo, previousItemId, nextItemId, onSelectItem
                 <div className="product-property row">
                   <div className="product-property-name col col-25">Website</div>
                   <div className="product-property-value col col-75">
-                    <a href={itemInfo.homepage_url} target="_blank">{itemInfo.homepage_url}</a>
+                    <OutboundLink eventLabel={itemInfo.homepage_url} to={itemInfo.homepage_url} target="_blank">{itemInfo.homepage_url}</OutboundLink>
                   </div>
                 </div>
                 {itemInfo.repo_url &&
                 <div className="product-property row">
                   <div className="product-property-name col col-25">Repository</div>
                   <div className="product-property-value product-repo col col-75">
-                    <a href={itemInfo.repo_url} target="_blank">{itemInfo.repo_url}</a>
+                    <OutboundLink eventLabel={itemInfo.repo_url} to={itemInfo.repo_url} target="_blank">{itemInfo.repo_url}</OutboundLink>
                   </div>
                 </div>
                 }
@@ -157,7 +158,7 @@ const ItemDialog = ({onClose, itemInfo, previousItemId, nextItemId, onSelectItem
                 <div className="product-property row">
                   <div className="product-property-name col col-25">Crunchbase</div>
                   <div className="product-property-value col col-75">
-                    <a href={itemInfo.crunchbase} target="_blank">{itemInfo.crunchbase}</a>
+                    <OutboundLink eventLabel={itemInfo.crunchbase} to={itemInfo.crunchbase} target="_blank">{itemInfo.crunchbase}</OutboundLink>
                   </div>
                 </div>
                 }
@@ -165,7 +166,7 @@ const ItemDialog = ({onClose, itemInfo, previousItemId, nextItemId, onSelectItem
                 <div className="product-property row">
                   <div className="product-property-name col col-25">Twitter</div>
                   <div className="product-property-value col col-75">
-                    <a href={itemInfo.twitter} target="_blank">{itemInfo.twitter}</a>
+                    <OutboundLink eventLabel={itemInfo.twitter} to={itemInfo.twitter} target="_blank">{itemInfo.twitter}</OutboundLink>
                   </div>
                 </div>
                 }
@@ -173,7 +174,7 @@ const ItemDialog = ({onClose, itemInfo, previousItemId, nextItemId, onSelectItem
                 <div className="product-property row">
                   <div className="product-property-name col col-25">LinkedIn</div>
                   <div className="product-property-value col col-75">
-                    <a href={itemInfo.crunchbaseData.linkedin} target="_blank">{itemInfo.crunchbaseData.linkedin}</a>
+                    <OutboundLink eventLabel={itemInfo.crunchbaseData.linkedIn} to={itemInfo.crunchbaseData.linkedin} target="_blank">{itemInfo.crunchbaseData.linkedin}</OutboundLink>
                   </div>
                 </div>
                 }
@@ -203,21 +204,27 @@ const ItemDialog = ({onClose, itemInfo, previousItemId, nextItemId, onSelectItem
                 {itemInfo.ticker && (
                 <div className="product-property row">
                   <div className="product-property-name col col-25">Ticker</div>
-                  <div className="product-property-value col col-75"><a target="_blank" href={"https://finance.yahoo.com/quote/" + itemInfo.ticker}>{itemInfo.ticker}</a></div>
+                  <div className="product-property-value col col-75">
+                    <OutboundLink target="_blank" eventLabel={"https://finance.yahoo.com/quote/" + itemInfo.ticker} to={"https://finance.yahoo.com/quote/" + itemInfo.ticker}>{itemInfo.ticker}</OutboundLink>
+                  </div>
                 </div>
                 )
                 }
                 { itemInfo.firstCommitDate && (
                   <div className="product-property row">
                     <div className="product-property-name col col-25">First Commit</div>
-                    <div className="product-property-value col col-75"><a href={itemInfo.firstCommitLink} target="_blank">{formatDate(itemInfo.firstCommitDate)}</a></div>
+                    <div className="product-property-value col col-75">
+                      <OutboundLink eventLabel={itemInfo.firstCommitLink} to={itemInfo.firstCommitLink} target="_blank">{formatDate(itemInfo.firstCommitDate)}</OutboundLink>
+                    </div>
                   </div>
                 )
                 }
                 { itemInfo.latestCommitDate && (
                   <div className="product-property row">
                     <div className="product-property-name col col-25">Latest Commit</div>
-                    <div className="product-property-value col col-75"><a href={itemInfo.latestCommitLink} target="_blank">{formatDate(itemInfo.latestCommitDate)}</a></div>
+                    <div className="product-property-value col col-75">
+                      <OutboundLink eventLabel={itemInfo.latestCommitLink} to={itemInfo.latestCommitLink} target="_blank">{formatDate(itemInfo.latestCommitDate)}</OutboundLink>
+                    </div>
                   </div>
                 )
                 }
