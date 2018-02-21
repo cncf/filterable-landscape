@@ -2468,13 +2468,17 @@
   },
   {
     "name": "Black Duck",
-    "organization": "Black Duck Software",
+    "organization": "Synopsys",
     "homepage_url": "https://www.blackducksoftware.com/",
     "logo": "http://www.southeastlinuxfest.org/wp-content/uploads/2017/05/BlackDuck.png",
     "twitter": "https://twitter.com/black_duck_sw",
-    "crunchbase": "https://www.crunchbase.com/organization/black-duck-software",
+    "crunchbase": "https://www.crunchbase.com/organization/synopsys",
     "cncf_membership_data": {
       "cncf_member": false
+    },
+    "yahoo_finance_data": {
+      "market_cap": 13348569088,
+      "effective_ticker": "SNPS"
     },
     "image_data": {
       "fileName": "black-duck.png",
@@ -2485,29 +2489,29 @@
     "firstCommitLink": null,
     "latestCommitLink": null,
     "license": "NotOpenSource",
-    "headquarters": "Burlington, Massachusetts",
-    "description": "Black Duck secures & manages open source software worldwide, eliminating open source security vulnerabilities & license compliance pain.",
+    "headquarters": "Mountain View, California",
+    "description": "Synopsys is the Silicon to Software partner for companies that develop electronic products and software applications.",
     "crunchbaseData": {
-      "name": "Black Duck Software",
-      "description": "Black Duck secures & manages open source software worldwide, eliminating open source security vulnerabilities & license compliance pain.",
-      "num_employees_min": 101,
-      "num_employees_max": 250,
-      "homepage": "http://www.blackducksoftware.com",
-      "city": "Burlington",
-      "region": "Massachusetts",
+      "name": "Synopsys",
+      "description": "Synopsys is the Silicon to Software partner for companies that develop electronic products and software applications.",
+      "num_employees_min": 5001,
+      "num_employees_max": 10000,
+      "homepage": "http://www.synopsys.com",
+      "city": "Mountain View",
+      "region": "California",
       "country": "United States",
-      "twitter": "http://twitter.com/black_duck_sw",
-      "linkedin": "http://www.linkedin.com/company/black-duck-software",
-      "kind": "funding",
-      "funding": 75500000,
-      "numEmployeesMin": 101,
-      "numEmployeesMax": 250
+      "twitter": "http://twitter.com/synopsys",
+      "linkedin": "http://www.linkedin.com/company/synopsys",
+      "ticker": "SNPS",
+      "kind": "market_cap",
+      "numEmployeesMin": 5001,
+      "numEmployeesMax": 10000
     },
     "path": "Provisioning / Secure Images",
     "landscape": "Provisioning / Secure Images",
     "category": "Provisioning",
-    "amountKind": "funding",
-    "amount": 75500000,
+    "amountKind": "market_cap",
+    "amount": 13348569088,
     "oss": false,
     "href": "/logos/black-duck.png",
     "id": "black-duck"
@@ -4129,14 +4133,14 @@
       "start_date": "2016-12-22T00:27:55Z"
     },
     "cncf_membership_data": {
-      "cncf_member": false
+      "cncf_member": true
     },
     "image_data": {
       "fileName": "open-sds.png",
       "low_res": "792x266"
     },
-    "cncfMember": false,
-    "cncfRelation": false,
+    "cncfMember": true,
+    "cncfRelation": "member",
     "firstCommitDate": "2016-12-22T00:27:55Z",
     "firstCommitLink": "https://github.com/opensds/opensds/commit/160583c4574e44f256e07f1955be367a19ad80f1",
     "latestCommitDate": "2018-02-16T07:11:07Z",
@@ -5895,13 +5899,13 @@
       "start_date": "2009-06-05T18:18:33Z"
     },
     "cncf_membership_data": {
-      "cncf_member": false
+      "cncf_member": true
     },
     "image_data": {
       "fileName": "open-v-switch.svg"
     },
-    "cncfMember": false,
-    "cncfRelation": false,
+    "cncfMember": true,
+    "cncfRelation": "member",
     "firstCommitDate": "2009-06-05T18:18:33Z",
     "firstCommitLink": "https://github.com/openvswitch/ovs/commit/0bb1f43dd8f5e894ed45d158daa5f94f4990c05a",
     "latestCommitDate": "2018-02-16T18:42:42Z",
@@ -11302,13 +11306,13 @@
       "start_date": "2014-03-03T16:54:09Z"
     },
     "cncf_membership_data": {
-      "cncf_member": false
+      "cncf_member": true
     },
     "image_data": {
       "fileName": "open-api.png"
     },
-    "cncfMember": false,
-    "cncfRelation": false,
+    "cncfMember": true,
+    "cncfRelation": "member",
     "firstCommitDate": "2014-03-03T16:54:09Z",
     "firstCommitLink": "https://github.com/OAI/OpenAPI-Specification/commit/58b6b48d26031158146cbc4603806401744b0238",
     "latestCommitDate": "2018-02-12T18:58:06Z",
@@ -11418,7 +11422,7 @@
       "start_date": "2017-10-17T21:38:48Z"
     },
     "cncf_membership_data": {
-      "cncf_member": false
+      "cncf_member": true
     },
     "yahoo_finance_data": {
       "market_cap": 43892547584,
@@ -11428,8 +11432,8 @@
       "fileName": "argo.png",
       "low_res": "340x515"
     },
-    "cncfMember": false,
-    "cncfRelation": false,
+    "cncfMember": true,
+    "cncfRelation": "member",
     "firstCommitDate": "2017-10-17T21:38:48Z",
     "firstCommitLink": "https://github.com/argoproj/argo/commit/3ed1dfeb073829d3c4f92b95c9a74118caaec1b4",
     "latestCommitDate": "2018-02-16T21:14:31Z",
@@ -12941,12 +12945,12 @@
   },
   {
     "name": "CoreOS bootkube",
-    "organization": "CoreOS",
+    "organization": "Red Hat",
     "description": "Bootkube is a tool for launching self-hosted Kubernetes clusters.",
     "homepage_url": "https://github.com/kubernetes-incubator/bootkube",
     "repo_url": "https://github.com/kubernetes-incubator/bootkube",
     "logo": "https://i.pinimg.com/originals/8d/4b/d4/8d4bd4b4011e8cd7c5c0b1478855f21d.jpg",
-    "crunchbase": "https://www.crunchbase.com/organization/coreos",
+    "crunchbase": "https://www.crunchbase.com/organization/red-hat",
     "github_data": {
       "stars": 645,
       "license": "Apache-2.0",
@@ -12961,6 +12965,10 @@
     "cncf_membership_data": {
       "cncf_member": true
     },
+    "yahoo_finance_data": {
+      "market_cap": 25260242944,
+      "effective_ticker": "RHT"
+    },
     "image_data": {
       "fileName": "core-os-bootkube.png"
     },
@@ -12972,29 +12980,29 @@
     "latestCommitLink": "https://github.com/kubernetes-incubator/bootkube/commit/1960a0e2a9802db62858efa43453e77dac66c196",
     "stars": 645,
     "license": "Apache-2.0",
-    "headquarters": "San Francisco, California",
-    "twitter": "http://twitter.com/coreos",
+    "headquarters": "Raleigh, North Carolina",
+    "twitter": "http://twitter.com/redhatnews",
     "crunchbaseData": {
-      "name": "CoreOS",
-      "description": "CoreOS builds industry-leading infrastructure software to securely run application containers anywhere.",
-      "num_employees_min": 51,
-      "num_employees_max": 100,
-      "homepage": "http://coreos.com",
-      "city": "San Francisco",
-      "region": "California",
+      "name": "Red Hat",
+      "description": "Red Hat is a multinational software company engaged in providing open-source software products to the enterprise community.",
+      "num_employees_min": 5001,
+      "num_employees_max": 10000,
+      "homepage": "http://www.redhat.com",
+      "city": "Raleigh",
+      "region": "North Carolina",
       "country": "United States",
-      "twitter": "http://twitter.com/coreos",
-      "linkedin": "https://www.linkedin.com/company/3323899?trk=tyah&trkInfo=tarId%3A1421139302821%2Ctas%3ACoreOS%2Cidx%3A3-1-5",
-      "kind": "funding",
-      "funding": 48000000,
-      "numEmployeesMin": 51,
-      "numEmployeesMax": 100
+      "twitter": "http://twitter.com/redhatnews",
+      "linkedin": "http://www.linkedin.com/company/red-hat",
+      "ticker": "RHT",
+      "kind": "market_cap",
+      "numEmployeesMin": 5001,
+      "numEmployeesMax": 10000
     },
     "path": "Platform / Certified Kubernetes - Distribution",
     "landscape": "Platform / Certified Kubernetes - Distribution",
     "category": "Platform",
-    "amountKind": "funding",
-    "amount": 48000000,
+    "amountKind": "market_cap",
+    "amount": 25260242944,
     "oss": true,
     "href": "/logos/core-os-bootkube.png",
     "id": "core-os-bootkube"
@@ -15691,41 +15699,45 @@
   },
   {
     "name": "Navops",
-    "organization": "Navops",
+    "organization": "Univa",
     "description": "Navops allows an organization to run containerized microservice applications and non-containerized workloads more efficiently on Kubernetes. The scheduler and policy management system provides virtual multi-tenancy and resource sharing to increase cluster utilization and lower operation costs.",
     "homepage_url": "https://www.navops.io/",
     "logo": "./src/hosted_logos/navops.svg",
-    "crunchbase": "https://www.crunchbase.com/organization/navops",
+    "crunchbase": "https://www.crunchbase.com/organization/univa",
     "cncf_membership_data": {
-      "cncf_member": false
+      "cncf_member": true
     },
     "image_data": {
       "fileName": "navops.svg"
     },
-    "cncfMember": false,
-    "cncfRelation": false,
+    "cncfMember": true,
+    "cncfRelation": "member",
     "firstCommitLink": null,
     "latestCommitLink": null,
     "license": "NotOpenSource",
     "headquarters": "Hoffman Estates, Illinois",
-    "twitter": "https://twitter.com/navops",
+    "twitter": "http://twitter.com/Grid_Engine",
     "crunchbaseData": {
-      "name": "Navops",
-      "description": "Navops Launch, Command, and Control your container-ready enterprise within minutes.",
-      "num_employees_min": null,
-      "num_employees_max": null,
-      "homepage": "http://navops.io/",
+      "name": "Univa",
+      "description": "Univa provides optimization and management software for traditional, dynamic and cloud data centers.",
+      "num_employees_min": 11,
+      "num_employees_max": 50,
+      "homepage": "http://www.univa.com",
       "city": "Hoffman Estates",
       "region": "Illinois",
       "country": "United States",
-      "twitter": "https://twitter.com/navops",
-      "linkedin": null,
-      "numEmployeesMin": null,
-      "numEmployeesMax": null
+      "twitter": "http://twitter.com/Grid_Engine",
+      "linkedin": "http://www.linkedin.com/company/univa-ud",
+      "kind": "funding",
+      "funding": 54777627,
+      "numEmployeesMin": 11,
+      "numEmployeesMax": 50
     },
     "path": "Platform / Non-Certified Kubernetes",
     "landscape": "Platform / Non-Certified Kubernetes",
     "category": "Platform",
+    "amountKind": "funding",
+    "amount": 54777627,
     "oss": false,
     "href": "/logos/navops.svg",
     "id": "navops"
@@ -19301,27 +19313,40 @@
     "id": "galactic-fog-gestalt"
   },
   {
-    "name": "Iguazio Data Platform",
+    "name": "Nuclio",
     "organization": "iguazio",
-    "homepage_url": " https://www.iguazio.com/product/platform/",
-    "logo": "https://pbs.twimg.com/media/DFl7P1DUwAA1KrW.png",
-    "best_res": "",
-    "twitter": "https://twitter.com/iguazio",
+    "homepage_url": "https://nuclio.io/",
+    "repo_url": "https://github.com/nuclio/nuclio",
+    "logo": "https://raw.githubusercontent.com/nuclio/nuclio/master/docs/assets/images/logo.png",
+    "twitter": "https://twitter.com/nuclioio",
     "crunchbase": "https://www.crunchbase.com/organization/iguaz-io",
+    "github_data": {
+      "stars": 1760,
+      "license": "Apache-2.0",
+      "description": "High-Performance Serverless event and data processing platform",
+      "latest_commit_date": "2018-02-06T14:18:51Z",
+      "latest_commit_link": "/nuclio/nuclio/commit/71b6e28543d378726b9b0c4101c092add3ebfa7d"
+    },
+    "github_start_commit_data": {
+      "start_commit_link": "/nuclio/nuclio/commit/d2f43903dd5e249f768baa220871893fdb391b94",
+      "start_date": "2017-06-04T20:03:53Z"
+    },
     "cncf_membership_data": {
       "cncf_member": true
     },
     "image_data": {
-      "fileName": "iguazio.png",
-      "low_res": "600x148"
+      "fileName": "nuclio.png"
     },
     "cncfMember": true,
     "cncfRelation": "member",
-    "firstCommitLink": null,
-    "latestCommitLink": null,
-    "license": "NotOpenSource",
+    "firstCommitDate": "2017-06-04T20:03:53Z",
+    "firstCommitLink": "https://github.com/nuclio/nuclio/commit/d2f43903dd5e249f768baa220871893fdb391b94",
+    "latestCommitDate": "2018-02-06T14:18:51Z",
+    "latestCommitLink": "https://github.com/nuclio/nuclio/commit/71b6e28543d378726b9b0c4101c092add3ebfa7d",
+    "stars": 1760,
+    "license": "Apache-2.0",
     "headquarters": "Herzliya, Israel",
-    "description": "iguazio's Continuous Analytics Data Platform has redesigned the data stack to accelerate performance in big data, IoT and cloud-native apps.",
+    "description": "High-Performance Serverless event and data processing platform",
     "crunchbaseData": {
       "name": "iguazio",
       "description": "iguazio's Continuous Analytics Data Platform has redesigned the data stack to accelerate performance in big data, IoT and cloud-native apps.",
@@ -19343,9 +19368,9 @@
     "category": "Serverless",
     "amountKind": "funding",
     "amount": 48000000,
-    "oss": false,
-    "href": "/logos/iguazio.png",
-    "id": "iguazio-data-platform"
+    "oss": true,
+    "href": "/logos/nuclio.png",
+    "id": "nuclio"
   },
   {
     "name": "Cloudboost",

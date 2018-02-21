@@ -1426,22 +1426,25 @@ landscape:
             homepage_url: 'https://www.blackducksoftware.com/'
             logo: 'http://www.southeastlinuxfest.org/wp-content/uploads/2017/05/BlackDuck.png'
             twitter: 'https://twitter.com/black_duck_sw'
-            crunchbase: 'https://www.crunchbase.com/organization/black-duck-software'
+            crunchbase: 'https://www.crunchbase.com/organization/synopsys'
             crunchbase_data:
-              name: Black Duck Software
-              description: 'Black Duck secures & manages open source software worldwide, eliminating open source security vulnerabilities & license compliance pain.'
-              num_employees_min: 101
-              num_employees_max: 250
-              homepage: 'http://www.blackducksoftware.com'
-              city: Burlington
-              region: Massachusetts
+              name: Synopsys
+              description: Synopsys is the Silicon to Software partner for companies that develop electronic products and software applications.
+              num_employees_min: 5001
+              num_employees_max: 10000
+              homepage: 'http://www.synopsys.com'
+              city: Mountain View
+              region: California
               country: United States
-              twitter: 'http://twitter.com/black_duck_sw'
-              linkedin: 'http://www.linkedin.com/company/black-duck-software'
-              kind: funding
-              funding: 75500000
+              twitter: 'http://twitter.com/synopsys'
+              linkedin: 'http://www.linkedin.com/company/synopsys'
+              ticker: SNPS
+              kind: market_cap
             cncf_membership_data:
               cncf_member: false
+            yahoo_finance_data:
+              market_cap: 13348569088
+              effective_ticker: SNPS
             image_data:
               fileName: black-duck.png
               low_res: 500x433
@@ -2387,7 +2390,7 @@ landscape:
               start_commit_link: /opensds/opensds/commit/160583c4574e44f256e07f1955be367a19ad80f1
               start_date: '2016-12-22T00:27:55Z'
             cncf_membership_data:
-              cncf_member: false
+              cncf_member: true
             image_data:
               fileName: open-sds.png
               low_res: 792x266
@@ -3388,7 +3391,7 @@ landscape:
               start_commit_link: /openvswitch/ovs/commit/0bb1f43dd8f5e894ed45d158daa5f94f4990c05a
               start_date: '2009-06-05T18:18:33Z'
             cncf_membership_data:
-              cncf_member: false
+              cncf_member: true
             image_data:
               fileName: open-v-switch.svg
           - item:
@@ -6512,7 +6515,7 @@ landscape:
               start_commit_link: /OAI/OpenAPI-Specification/commit/58b6b48d26031158146cbc4603806401744b0238
               start_date: '2014-03-03T16:54:09Z'
             cncf_membership_data:
-              cncf_member: false
+              cncf_member: true
             image_data:
               fileName: open-api.png
           - item:
@@ -6583,7 +6586,7 @@ landscape:
               start_commit_link: /argoproj/argo/commit/3ed1dfeb073829d3c4f92b95c9a74118caaec1b4
               start_date: '2017-10-17T21:38:48Z'
             cncf_membership_data:
-              cncf_member: false
+              cncf_member: true
             yahoo_finance_data:
               market_cap: 43892547584
               effective_ticker: INTU
@@ -7429,25 +7432,25 @@ landscape:
               fileName: cloud-foundry-container-runtime.svg
           - item:
             name: CoreOS bootkube
-            organization: CoreOS
+            organization: Red Hat
             description: Bootkube is a tool for launching self-hosted Kubernetes clusters.
             homepage_url: 'https://github.com/kubernetes-incubator/bootkube'
             repo_url: 'https://github.com/kubernetes-incubator/bootkube'
             logo: 'https://i.pinimg.com/originals/8d/4b/d4/8d4bd4b4011e8cd7c5c0b1478855f21d.jpg'
-            crunchbase: 'https://www.crunchbase.com/organization/coreos'
+            crunchbase: 'https://www.crunchbase.com/organization/red-hat'
             crunchbase_data:
-              name: CoreOS
-              description: CoreOS builds industry-leading infrastructure software to securely run application containers anywhere.
-              num_employees_min: 51
-              num_employees_max: 100
-              homepage: 'http://coreos.com'
-              city: San Francisco
-              region: California
+              name: Red Hat
+              description: "Red Hat is\_a multinational software company engaged in providing open-source software products to the enterprise community."
+              num_employees_min: 5001
+              num_employees_max: 10000
+              homepage: 'http://www.redhat.com'
+              city: Raleigh
+              region: North Carolina
               country: United States
-              twitter: 'http://twitter.com/coreos'
-              linkedin: 'https://www.linkedin.com/company/3323899?trk=tyah&trkInfo=tarId%3A1421139302821%2Ctas%3ACoreOS%2Cidx%3A3-1-5'
-              kind: funding
-              funding: 48000000
+              twitter: 'http://twitter.com/redhatnews'
+              linkedin: 'http://www.linkedin.com/company/red-hat'
+              ticker: RHT
+              kind: market_cap
             github_data:
               stars: 645
               license: Apache-2.0
@@ -7459,6 +7462,9 @@ landscape:
               start_date: '2016-03-15T22:01:39Z'
             cncf_membership_data:
               cncf_member: true
+            yahoo_finance_data:
+              market_cap: 25260242944
+              effective_ticker: RHT
             image_data:
               fileName: core-os-bootkube.png
           - item:
@@ -9027,20 +9033,22 @@ landscape:
               costs.
             homepage_url: 'https://www.navops.io/'
             logo: ./src/hosted_logos/navops.svg
-            crunchbase: 'https://www.crunchbase.com/organization/navops'
+            crunchbase: 'https://www.crunchbase.com/organization/univa'
             crunchbase_data:
-              name: Navops
-              description: 'Navops Launch, Command, and Control your container-ready enterprise within minutes.'
-              num_employees_min: null
-              num_employees_max: null
-              homepage: 'http://navops.io/'
+              name: Univa
+              description: 'Univa provides optimization and management software for traditional, dynamic and cloud data centers.'
+              num_employees_min: 11
+              num_employees_max: 50
+              homepage: 'http://www.univa.com'
               city: Hoffman Estates
               region: Illinois
               country: United States
-              twitter: 'https://twitter.com/navops'
-              linkedin: null
+              twitter: 'http://twitter.com/Grid_Engine'
+              linkedin: 'http://www.linkedin.com/company/univa-ud'
+              kind: funding
+              funding: 54777627
             cncf_membership_data:
-              cncf_member: false
+              cncf_member: true
             image_data:
               fileName: navops.svg
           - item:
@@ -11066,12 +11074,12 @@ landscape:
             image_data:
               fileName: galactic-fog.svg
           - item:
-            name: Iguazio Data Platform
+            name: Nuclio
             organization: Iguazio
-            homepage_url: ' https://www.iguazio.com/product/platform/'
-            logo: 'https://pbs.twimg.com/media/DFl7P1DUwAA1KrW.png'
-            best_res: ''
-            twitter: 'https://twitter.com/iguazio'
+            homepage_url: 'https://nuclio.io/'
+            repo_url: 'https://github.com/nuclio/nuclio'
+            logo: 'https://raw.githubusercontent.com/nuclio/nuclio/master/docs/assets/images/logo.png'
+            twitter: 'https://twitter.com/nuclioio'
             crunchbase: 'https://www.crunchbase.com/organization/iguaz-io'
             crunchbase_data:
               name: iguazio
@@ -11086,11 +11094,19 @@ landscape:
               linkedin: 'https://www.linkedin.com/company/iguazio'
               kind: funding
               funding: 48000000
+            github_data:
+              stars: 1760
+              license: Apache-2.0
+              description: High-Performance Serverless event and data processing platform
+              latest_commit_date: '2018-02-06T14:18:51Z'
+              latest_commit_link: /nuclio/nuclio/commit/71b6e28543d378726b9b0c4101c092add3ebfa7d
+            github_start_commit_data:
+              start_commit_link: /nuclio/nuclio/commit/d2f43903dd5e249f768baa220871893fdb391b94
+              start_date: '2017-06-04T20:03:53Z'
             cncf_membership_data:
               cncf_member: true
             image_data:
-              fileName: iguazio.png
-              low_res: 600x148
+              fileName: nuclio.png
           - item:
             name: Cloudboost
             organization: Cloudboost
