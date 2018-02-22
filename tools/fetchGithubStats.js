@@ -1,3 +1,4 @@
+import colors from 'colors';
 const Promise = require('bluebird');
 const traverse = require('traverse');
 import _ from 'lodash';
@@ -7,6 +8,9 @@ const debug = require('debug')('github');
 
 import { getRepoLatestDate } from './githubDates';
 
+const error = colors.red;
+const fatal = (x) => colors.red(colors.inverse(x));
+const cacheMiss = colors.green;
 
 export async function extractSavedGithubEntries() {
   const result = [];
@@ -57,14 +61,15 @@ async function getGithubRepos() {
 }
 
 
-const result = [];
 export async function fetchGithubEntries({cache, preferCache}) {
   const repos = await getGithubRepos();
   debug(cache);
-  return await Promise.map(repos, async function(repo) {
+  const errors = [];
+  const result = await Promise.map(repos, async function(repo) {
     const cachedEntry = _.find(cache, {url: repo.url, branch: repo.branch});
     if (cachedEntry && preferCache) {
       debug(`Cache ${cachedEntry} found for ${repo.url}`);
+      require('process').stdout.write(".");
       return cachedEntry;
     }
     debug(`No cache found for ${repo.url} ${repo.branch}`);
@@ -106,11 +111,22 @@ export async function fetchGithubEntries({cache, preferCache}) {
       // console.info(repo, latestDateResult);
       date = latestDateResult.date;
       latestCommitLink = latestDateResult.commitLink;
+      require('process').stdout.write(cacheMiss("*"));
       return ({url: repo.url, stars, license, description, latest_commit_date: date, latest_commit_link: latestCommitLink });
     } catch (ex) {
       debug(`Fetch failed for ${repo.url}, attempt to use a cached entry`);
-      console.info(`Can not fetch: ${repo.url} `, ex.message.substring(0, 50));
-      return cachedEntry || null;
+      if (cachedEntry) {
+        require('process').stdout.write(error("E"));
+        errors.push(error(`Using cached entry, and ${repo.url} has issues with stats fetching: ${ex.message.substring(0, 100)}`));
+        return cachedEntry;
+      } else {
+        require('process').stdout.write(fatal("E"));
+        errors.push(fatal(`No cached entry, and ${repo.url} has issues with stats fetching: ${ex.message.substring(0, 100)}`));
+        return null;
+      }
     }
-  }, {concurrency: 2});
+  }, {concurrency: 10});
+  require('process').stdout.write("\n");
+  _.each(errors, console.info);
+  return result;
 }
