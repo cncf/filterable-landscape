@@ -80,7 +80,7 @@ export async function fetchGithubEntries({cache, preferCache}) {
       var response = await rp({
         uri: url,
         followRedirect: true,
-        timeout: 10 * 1000,
+        timeout: 30 * 1000,
         simple: true
       });
       const dom = new JSDOM(response);
@@ -112,5 +112,5 @@ export async function fetchGithubEntries({cache, preferCache}) {
       console.info(`Can not fetch: ${repo.url} `, ex.message.substring(0, 50));
       return cachedEntry || null;
     }
-  }, {concurrency: 20});
+  }, {concurrency: 2});
 }
