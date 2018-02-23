@@ -20,22 +20,9 @@ which yarn || (
   echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
   apt-get update && apt-get -y install yarn
 )
-which supervisor || (
-  apt-get install -y supervisor
-  ln -s /root/supervisor.conf /etc/supervisor/conf.d/updater.conf || true
-)
 echo '
-[program:updater]
-process_name=%(program_name)s_%(process_num)02d
-command=bash -l -c "bash /root/update.sh"
-autostart=true
-autorestart=true
-user=root
-numprocs=1
-redirect_stderr=true
-stdout_logfile=/root/update.log
-' > /root/supervisor.conf
-. /etc/profile
+0 * * * * root bash -l -c "bash /root/update.sh >> /root/update.log"
+' > /etc/cron.d/updater
 echo '
   set -e
   export HOME=/root
@@ -51,9 +38,5 @@ echo '
   (git commit -m "update from a packet bot" && git push origin HEAD) || echo "can not commit"
   sleep 3600
 ' > /root/update.sh
-
-supervisorctl reread
-supervisorctl update all
-supervisorctl restart all
 EOSSH
 
