@@ -5,8 +5,10 @@ import groupingLabel from '../utils/groupingLabel';
 import groupingOrder from '../utils/groupingOrder';
 import formatAmount from '../utils/formatAmount';
 import formatNumber from 'format-number';
+import { filtersToUrl } from '../utils/syncToUrl';
+import stringOrSpecial from '../utils/stringOrSpecial';
 
-const getFilteredItems = createSelector(
+export const getFilteredItems = createSelector(
   (state) => state.main.data,
   (state) => state.main.filters,
   function(data, filters) {
@@ -85,7 +87,9 @@ const getSortedItems = createSelector(
 const getGroupedItems = createSelector(
   (state) => getSortedItems(state),
   (state) => state.main.grouping,
-  function(items, grouping) {
+  (state) => state.main.filters,
+  (state) => state.main.sortField,
+  function(items, grouping, filters, sortField) {
     if (grouping === 'no') {
       return [{
         key: 'key',
@@ -99,11 +103,13 @@ const getGroupedItems = createSelector(
     });
     const fieldInfo = fields[grouping];
     return _.orderBy(_.map(grouped, function(value, key) {
+      const properKey = stringOrSpecial(key);
+      const newFilters = {...filters, [grouping]: fieldInfo.isArray ? [properKey] : properKey};
       return {
-        key: key,
-        header: groupingLabel(grouping, key),
+        key: properKey,
+        header: groupingLabel(grouping, properKey),
         items: value,
-        href: { name: grouping, value: fieldInfo.isArray ? [ key ] : key }
+        href: filtersToUrl({filters: newFilters, grouping, sortField})
       }
     }), (group) => groupingOrder(grouping)(group.key));
   }

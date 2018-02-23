@@ -12,6 +12,7 @@ import HomePageUrlContainer from './HomePageUrlContainer';
 import ResetFiltersContainer from './ResetFiltersContainer';
 import ItemDialogContainer from './ItemDialogContainer';
 import HeaderContainer from './HeaderContainer';
+import SummaryContainer from './SummaryContainer';
 import Footer from './Footer';
 
 
@@ -53,6 +54,7 @@ const HomePage = ({ready, filtersVisible, hideFilters, showFilters}) => {
           even better, open a pull request. Greyed logos are not open source.
         </div>
 
+        <SummaryContainer />
         <MainContentContainer/>
         <Footer/>
       </div>

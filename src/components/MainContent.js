@@ -4,17 +4,15 @@ import millify from 'millify'
 import classNames from 'classnames'
 import Subheader from 'material-ui/List/ListSubheader';
 import _ from 'lodash';
+import { NavLink } from 'react-router-dom';
 
-const MainContent = ({groupedItems, onSelectItem, onHeaderClick}) => {
+const MainContent = ({groupedItems, onSelectItem}) => {
   const itemsAndHeaders = _.map(groupedItems, function(groupedItem) {
     return [
       <div className="sh_wrapper" key={"subheader:" + groupedItem.header}>
         <Subheader component="div" style={{fontSize: 24}}>
-          <span
-            className={ groupedItem.href ? "link" : "" }
-            onClick={ () => groupedItem.href && onHeaderClick(groupedItem.href.name, groupedItem.href.value)}>
-            {groupedItem.header}
-          </span> ({groupedItem.items.length})</Subheader>
+          { groupedItem.href ?  <NavLink  to={groupedItem.href}>{groupedItem.header}</NavLink> : <span>{groupedItem.header}</span> }
+          <span> ({groupedItem.items.length})</span></Subheader>
       </div>
     ].concat(_.map(groupedItem.items, function(item) {
       return (<div className="mosaic-wrap">
@@ -32,7 +30,7 @@ const MainContent = ({groupedItems, onSelectItem, onHeaderClick}) => {
                      {item.organization}
                   </div>
                   <div className="mosaic-stars">
-                    { item.starsPresent &&
+                    { _.isNumber(item.stars) && item.stars &&
                       <div>
                         <Icon color="disabled" style={{ fontSize: 15 }}>star</Icon>
                         <span>{item.starsAsText}</span>

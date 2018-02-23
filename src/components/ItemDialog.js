@@ -5,6 +5,7 @@ import { NavLink } from 'react-router-dom';
 import Icon from 'material-ui/Icon';
 import KeyHandler from 'react-key-handler';
 import _ from 'lodash';
+import { OutboundLink } from 'react-ga';
 import millify from 'millify';
 import classNames from 'classnames'
 import relativeDate from 'relative-date';
@@ -97,145 +98,149 @@ const ItemDialog = ({onClose, itemInfo, previousItemId, nextItemId, onSelectItem
       { nextItemId && <KeyHandler keyValue="ArrowRight" onKeyHandle={() => onSelectItem(nextItemId)} /> }
       { previousItemId && <KeyHandler keyValue="ArrowLeft" onKeyHandle={() => onSelectItem(previousItemId)} /> }
         <a className="modal-close" onClick={() => onClose()}>×</a>
+
         <span className="modal-prev" disabled={!previousItemId} onClick={() => onSelectItem(previousItemId)}>
           <Icon style={{ fontSize:'1.2em'}}>chevron_left</Icon>
         </span>
         <span className="modal-next" disabled={!nextItemId} onClick={() => onSelectItem(nextItemId)}>
           <Icon style={{ fontSize:'1.2em'}}>chevron_right</Icon>
         </span>
-        <div className="row">
-          <div className="col col-33">
+
+        <div className="modal-content">
+
             <div className="product-logo">
               <img src={itemInfo.href} className='product-logo-img'/>
             </div>
+
             <div className="product-tags">
               <div>{cncfTag(itemInfo.cncfRelation)}</div>
               <div>{openSourceTag(itemInfo.oss)}</div>
               <div>{licenseTag(itemInfo.license)}</div>
             </div>
-          </div>
-          <div className="col col-66">
-            <div className="product-scroll">
-            <div className="product-main">
-              <div className="product-name">{itemInfo.name}</div>
-              <div className="product-parent"><NavLink to={linkToOrganization}>{itemInfo.organization}</NavLink></div>
-              <div className="product-category">{itemCategory(itemInfo.landscape)}</div>
-              <div className="product-description">{itemInfo.description}</div>
-            </div>
-            <div className="product-properties">
-              <div className="product-property row">
-                <div className="product-property-name col col-25">Website</div>
-                <div className="product-property-value col col-75">
-                  <a href={itemInfo.homepage_url} target="_blank">{itemInfo.homepage_url}</a>
-                </div>
-              </div>
-              {itemInfo.repo_url &&
-              <div className="product-property row">
-                <div className="product-property-name col col-25">Repository</div>
-                <div className="product-property-value product-repo col col-75">
-                  <a href={itemInfo.repo_url} target="_blank">{itemInfo.repo_url}</a>
-                </div>
-              </div>
-              }
-              {itemInfo.starsAsText &&
-              <div className="product-property row">
-                <div className="product-property-name col col-25"></div>
-                <div className="product-property-value col col-75">
-                  <span className="product-repo-stars">
-                    <Icon>{iconGithub}</Icon>
-                    <Icon>star</Icon>
-                    {itemInfo.starsAsText}
-                  </span>
-                </div>
-              </div>
-              }
-              {itemInfo.crunchbase &&
-              <div className="product-property row">
-                <div className="product-property-name col col-25">Crunchbase</div>
-                <div className="product-property-value col col-75">
-                  <a href={itemInfo.crunchbase} target="_blank">{itemInfo.crunchbase}</a>
-                </div>
-              </div>
-              }
-              {itemInfo.twitter &&
-              <div className="product-property row">
-                <div className="product-property-name col col-25">Twitter</div>
-                <div className="product-property-value col col-75">
-                  <a href={itemInfo.twitter} target="_blank">{itemInfo.twitter}</a>
-                </div>
-              </div>
-              }
-              {itemInfo.crunchbaseData && itemInfo.crunchbaseData.linkedin &&
-              <div className="product-property row">
-                <div className="product-property-name col col-25">LinkedIn</div>
-                <div className="product-property-value col col-75">
-                  <a href={itemInfo.crunchbaseData.linkedin} target="_blank">{itemInfo.crunchbaseData.linkedin}</a>
-                </div>
-              </div>
-              }
-              { itemInfo.headquarters && itemInfo.headquarters !== 'N/A' && (
-                <div className="product-property row">
-                  <div className="product-property-name col col-25">Headquarters</div>
-                  <div className="product-property-value col col-75"><NavLink to={filtersToUrl({grouping: 'headquarters', filters:{headquarters:itemInfo.headquarters}})}>{itemInfo.headquarters}</NavLink></div>
-                </div>
-              )
-              }
-              { itemInfo.crunchbaseData && itemInfo.crunchbaseData.numEmployeesMin && (
-                <div className="product-property row">
-                  <div className="product-property-name col col-25">Headcount</div>
-                  <div className="product-property-value col col-75">{formatNumber(itemInfo.crunchbaseData.numEmployeesMin)}-{formatNumber(itemInfo.crunchbaseData.numEmployeesMax)}</div>
-                </div>
-              )
-              }
-              {Number.isInteger(itemInfo.amount) && (
-              <div className="product-property row">
-                <div className="product-property-name col col-25">{itemInfo.amountKind === 'funding' ? 'Funding' : 'Market Cap'}</div>
-                <div className="product-property-value col col-75">
-                  {'$' + millify(itemInfo.amount)}
-                </div>
-              </div>
-              )
-              }
-              {itemInfo.ticker && (
-              <div className="product-property row">
-                <div className="product-property-name col col-25">Ticker</div>
-                <div className="product-property-value col col-75"><a target="_blank" href={"https://finance.yahoo.com/quote/" + itemInfo.ticker}>{itemInfo.ticker}</a></div>
-              </div>
-              )
-              }
-              { itemInfo.firstCommitDate && (
-                <div className="product-property row">
-                  <div className="product-property-name col col-25">First Commit</div>
-                  <div className="product-property-value col col-75"><a href={itemInfo.firstCommitLink} target="_blank">{formatDate(itemInfo.firstCommitDate)}</a></div>
-                </div>
-              )
-              }
-              { itemInfo.latestCommitDate && (
-                <div className="product-property row">
-                  <div className="product-property-name col col-25">Latest Commit</div>
-                  <div className="product-property-value col col-75"><a href={itemInfo.latestCommitLink} target="_blank">{formatDate(itemInfo.latestCommitDate)}</a></div>
-                </div>
-              )
-              }
-            </div>
 
-            { itemInfo.twitter && (
-              <div className="product-twitter">
-              <Timeline
-                dataSource={{
-                  sourceType: 'profile',
-                  screenName: itemInfo.twitter.split('/').filter( x => !!x).slice(-1)[0]
-                }}
-                options={{
-                  username: itemInfo.name,
-                  tweetLimit: 3
-                }}
-                onLoad={() => console.log('Timeline is loaded!')}
-              />
+            <div className="product-scroll">
+
+              <div className="product-main">
+                <div className="product-name">{itemInfo.name}</div>
+                <div className="product-parent"><NavLink to={linkToOrganization}>{itemInfo.organization}</NavLink></div>
+                <div className="product-category">{itemCategory(itemInfo.landscape)}</div>
+                <div className="product-description">{itemInfo.description}</div>
               </div>
-            )}
-          </div>
-          </div>
+
+              <div className="product-properties">
+                <div className="product-property row">
+                  <div className="product-property-name col col-25">Website</div>
+                  <div className="product-property-value col col-75">
+                    <OutboundLink eventLabel={itemInfo.homepage_url} to={itemInfo.homepage_url} target="_blank">{itemInfo.homepage_url}</OutboundLink>
+                  </div>
+                </div>
+                {itemInfo.repo_url &&
+                <div className="product-property row">
+                  <div className="product-property-name col col-25">Repository</div>
+                  <div className="product-property-value product-repo col col-75">
+                    <OutboundLink eventLabel={itemInfo.repo_url} to={itemInfo.repo_url} target="_blank">{itemInfo.repo_url}</OutboundLink>
+                  </div>
+                </div>
+                }
+                {itemInfo.starsAsText &&
+                <div className="product-property row">
+                  <div className="product-property-name col col-25"></div>
+                  <div className="product-property-value col col-75">
+                    <span className="product-repo-stars">
+                      <Icon>{iconGithub}</Icon>
+                      <Icon>star</Icon>
+                      {itemInfo.starsAsText}
+                    </span>
+                  </div>
+                </div>
+                }
+                {itemInfo.crunchbase &&
+                <div className="product-property row">
+                  <div className="product-property-name col col-25">Crunchbase</div>
+                  <div className="product-property-value col col-75">
+                    <OutboundLink eventLabel={itemInfo.crunchbase} to={itemInfo.crunchbase} target="_blank">{itemInfo.crunchbase}</OutboundLink>
+                  </div>
+                </div>
+                }
+                {itemInfo.twitter &&
+                <div className="product-property row">
+                  <div className="product-property-name col col-25">Twitter</div>
+                  <div className="product-property-value col col-75">
+                    <OutboundLink eventLabel={itemInfo.twitter} to={itemInfo.twitter} target="_blank">{itemInfo.twitter}</OutboundLink>
+                  </div>
+                </div>
+                }
+                {itemInfo.crunchbaseData && itemInfo.crunchbaseData.linkedin &&
+                <div className="product-property row">
+                  <div className="product-property-name col col-25">LinkedIn</div>
+                  <div className="product-property-value col col-75">
+                    <OutboundLink eventLabel={itemInfo.crunchbaseData.linkedIn} to={itemInfo.crunchbaseData.linkedin} target="_blank">{itemInfo.crunchbaseData.linkedin}</OutboundLink>
+                  </div>
+                </div>
+                }
+                { itemInfo.headquarters && itemInfo.headquarters !== 'N/A' && (
+                  <div className="product-property row">
+                    <div className="product-property-name col col-25">Headquarters</div>
+                    <div className="product-property-value col col-75"><NavLink to={filtersToUrl({grouping: 'headquarters', filters:{headquarters:itemInfo.headquarters}})}>{itemInfo.headquarters}</NavLink></div>
+                  </div>
+                )
+                }
+                { itemInfo.crunchbaseData && itemInfo.crunchbaseData.numEmployeesMin && (
+                  <div className="product-property row">
+                    <div className="product-property-name col col-25">Headcount</div>
+                    <div className="product-property-value col col-75">{formatNumber(itemInfo.crunchbaseData.numEmployeesMin)}-{formatNumber(itemInfo.crunchbaseData.numEmployeesMax)}</div>
+                  </div>
+                )
+                }
+                {Number.isInteger(itemInfo.amount) && (
+                <div className="product-property row">
+                  <div className="product-property-name col col-25">{itemInfo.amountKind === 'funding' ? 'Funding' : 'Market Cap'}</div>
+                  <div className="product-property-value col col-75">
+                    {'$' + millify(itemInfo.amount)}
+                  </div>
+                </div>
+                )
+                }
+                {itemInfo.ticker && (
+                <div className="product-property row">
+                  <div className="product-property-name col col-25">Ticker</div>
+                  <div className="product-property-value col col-75">
+                    <OutboundLink target="_blank" eventLabel={"https://finance.yahoo.com/quote/" + itemInfo.ticker} to={"https://finance.yahoo.com/quote/" + itemInfo.ticker}>{itemInfo.ticker}</OutboundLink></div>
+                </div>
+                )
+                }
+                { itemInfo.firstCommitDate && (
+                  <div className="product-property row">
+                    <div className="product-property-name col col-25">First Commit</div>
+                    <div className="product-property-value col col-75"><OutboundLink eventLabel={itemInfo.firstCommitLink} to={itemInfo.firstCommitLink} target="_blank">{formatDate(itemInfo.firstCommitDate)}</OutboundLink></div>
+                  </div>
+                )
+                }
+                { itemInfo.latestCommitDate && (
+                  <div className="product-property row">
+                    <div className="product-property-name col col-25">Latest Commit</div>
+                    <div className="product-property-value col col-75"><OutboundLink eventLabel={itemInfo.latestCommitLink} to={itemInfo.latestCommitLink} target="_blank">{formatDate(itemInfo.latestCommitDate)}</OutboundLink></div>
+                  </div>
+                )
+                }
+              </div>
+
+              { itemInfo.twitter && (
+                <div className="product-twitter">
+                <Timeline
+                  dataSource={{
+                    sourceType: 'profile',
+                    screenName: itemInfo.twitter.split('/').filter( x => !!x).slice(-1)[0]
+                  }}
+                  options={{
+                    username: itemInfo.name,
+                    tweetLimit: 3
+                  }}
+                  onLoad={() => console.log('Timeline is loaded!')}
+                />
+                </div>
+              )}
+            </div>
         </div>
     </Dialog>
   );

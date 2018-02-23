@@ -383,7 +383,7 @@ landscape:
             homepage_url: 'https://www.blackducksoftware.com/'
             logo: 'http://www.southeastlinuxfest.org/wp-content/uploads/2017/05/BlackDuck.png'
             twitter: 'https://twitter.com/black_duck_sw'
-            crunchbase: 'https://www.crunchbase.com/organization/black-duck-software'
+            crunchbase: 'https://www.crunchbase.com/organization/synopsys'
           - item:
             name: Clair
             organization: Red Hat
@@ -738,6 +738,14 @@ landscape:
             logo: 'http://people.canonical.com/~kirkland/lxd.png'
             twitter: 'https://twitter.com/Canonical'
             crunchbase: 'https://www.crunchbase.com/organization/canonical-ltd'
+          - item:
+            name: Pouch
+            organization: Alibaba
+            homepage_url: 'https://github.com/alibaba/pouch'
+            repo_url: 'https://github.com/alibaba/pouch'
+            logo: 'https://raw.githubusercontent.com/alibaba/pouch/master/docs/static_files/logo/pouch_10x4_orange.png'
+            twitter: 'https://twitter.com/alibaba_cloud'
+            crunchbase: 'https://www.crunchbase.com/organization/alibaba-cloud'
           - item:
             name: rkt
             organization: CNCF
@@ -1434,7 +1442,7 @@ landscape:
             name: SQL Data Warehouse
             organization: Microsoft
             homepage_url: 'https://azure.microsoft.com/'
-            logo: 'https://media.licdn.com/mpr/mpr/AAEAAQAAAAAAAAeiAAAAJDRhZGUzMWRhLTI4ODMtNDc1OS1hMDc5LTQwODAwZGI2OTdlMg.png'
+            logo: './src/hosted_logos/sql-data-warehouse.svg'
             twitter: 'https://twitter.com/azure'
             crunchbase: 'https://www.crunchbase.com/organization/microsoft'
           - item:
@@ -1507,10 +1515,18 @@ landscape:
             organization: Apache
             homepage_url: 'https://rocketmq.apache.org/'
             repo_url: 'https://github.com/apache/rocketmq'
-            logo: https://user-images.githubusercontent.com/3961183/34104948-7b66350c-e42d-11e7-9424-a23d567cde8c.png
+            logo: './src/hosted_logos/apache-rocket-mq.svg'
             best_res: ''
             twitter: 'https://twitter.com/ApacheRocketMQ'
             crunchbase: 'https://www.crunchbase.com/organization/apache'
+          - item:
+            name: CloudEvents
+            organization: CNCF
+            homepage_url: 'https://openevents.io/'
+            repo_url: 'https://github.com/cloudevents/spec'
+            logo: 'https://github.com/cncf/artwork/blob/master/other/cloudevents/stacked/color/cloudevents-stacked-color.svg'
+            twitter: ''
+            crunchbase: 'https://www.crunchbase.com/organization/cloud-native-computing-foundation'
           - item:
             name: Flink
             organization: Apache
@@ -1914,12 +1930,12 @@ landscape:
             crunchbase: 'https://www.crunchbase.com/organization/cloud-foundry'
           - item:
             name: CoreOS bootkube
-            organization: CoreOS
+            organization: Red Hat
             description: Bootkube is a tool for launching self-hosted Kubernetes clusters.
             homepage_url: 'https://github.com/kubernetes-incubator/bootkube'
             repo_url: 'https://github.com/kubernetes-incubator/bootkube'
             logo: 'https://i.pinimg.com/originals/8d/4b/d4/8d4bd4b4011e8cd7c5c0b1478855f21d.jpg'
-            crunchbase: 'https://www.crunchbase.com/organization/coreos'
+            crunchbase: 'https://www.crunchbase.com/organization/red-hat'
           - item:
             name: DaoCloud Enterprise
             organization: DaoCloud
@@ -2395,7 +2411,7 @@ landscape:
               costs.
             homepage_url: 'https://www.navops.io/'
             logo: ./src/hosted_logos/navops.svg
-            crunchbase: 'https://www.crunchbase.com/organization/navops'
+            crunchbase: 'https://www.crunchbase.com/organization/univa'
           - item:
             name: Stratoscale Symphony
             organization: Stratoscale
@@ -2722,7 +2738,7 @@ landscape:
             organization: Pivotal
             homepage_url: 'https://cloud.spring.io/spring-cloud-function/'
             repo_url: 'https://github.com/spring-cloud/spring-cloud-function'
-            logo: './src/hosted_logos/springcloudfunction.svg'
+            logo: './src/hosted_logos/spring-cloud-function.svg'
             crunchbase: 'https://www.crunchbase.com/organization/pivotal'
           - item:
             name: Serverless
@@ -2909,7 +2925,7 @@ landscape:
             name: Clay
             organization: Clay Labs
             homepage_url: 'https://www.clay.run/'
-            logo: 'https://cdn-images-1.medium.com/max/184/1*5TcwOUNVIvXLVAwuNqA40Q@2x.png'
+            logo: './src/hosted_logos/clay.svg'
             best_res: ''
             twitter: ''
             crunchbase: 'https://www.crunchbase.com/organization/clay-labs'
@@ -2946,12 +2962,12 @@ landscape:
             twitter: 'https://twitter.com/galacticfog'
             crunchbase: 'https://www.crunchbase.com/organization/galactic-fog'
           - item:
-            name: Iguazio Data Platform
+            name: Nuclio
             organization: Iguazio
-            homepage_url: ' https://www.iguazio.com/product/platform/'
-            logo: https://pbs.twimg.com/media/DFl7P1DUwAA1KrW.png
-            best_res: ''
-            twitter: 'https://twitter.com/iguazio'
+            homepage_url: 'https://nuclio.io/'
+            repo_url: 'https://github.com/nuclio/nuclio'
+            logo: 'https://raw.githubusercontent.com/nuclio/nuclio/master/docs/assets/images/logo.png'
+            twitter: 'https://twitter.com/nuclioio'
             crunchbase: 'https://www.crunchbase.com/organization/iguaz-io'
           - item:
             name: Cloudboost
@@ -3484,7 +3500,7 @@ landscape:
             organization: Pivotal
             homepage_url: 'https://cloud.spring.io/spring-cloud-sleuth/'
             repo_url: 'https://github.com/spring-cloud/spring-cloud-sleuth'
-            logo: 'https://pragmaticintegrator.files.wordpress.com/2017/03/spring-cloud.jpg'
+            logo: './src/hosted_logos/spring-cloud-sleuth.svg'
             crunchbase: 'https://www.crunchbase.com/organization/pivotal'
           - item:
             name: Zipkin

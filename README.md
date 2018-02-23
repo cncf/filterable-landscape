@@ -85,6 +85,11 @@ Medium mode is what is run by the update server, with commits back to the repo. 
 Hard and complete modes should be unnecessary except in cases of possible data corruption. Even then, it's better to just delete any problematic entries from `processed_landscape.yml` and easy mode will recreate them with up-to-date information.
 
 ### Adding a custom image
-1. Save it to the src/hosted_logos/, for example, src/hosted_logos/apex.png
-2. Update the landscape.yml with a logo, for example, `logo: ./src/hosted_logos/apex.png`. Please always start it from  the `./src/hosted_logos`
-3. Update `processed_landscape.yml` with `yarn fetch`
+
+If you can't find the right logo on the web, you can create a custom one and host it in this repo:
+
+1. Save the logo to `src/hosted_logos/`, for example, `src/hosted_logos/apex.svg`. User lowercase spinal case (i.e., hypens) for the name.
+1. Update landscape.yml, for example, `logo: ./src/hosted_logos/apex.svg`. The location must start with`./src/hosted_logos`.
+1. If you've updated the local logo since a previous commit, you need to delete the cached version in `src/logos/`. E.g., delete `src/logos/apex.svg`.
+1. Update `processed_landscape.yml` with `yarn fetch`.
+1. Commit and push. Double-check your work in the Netlify preview.
