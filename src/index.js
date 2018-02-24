@@ -1,6 +1,8 @@
 // Set up your application entry point here...
 /* eslint-disable import/default */
 
+import 'current-device';
+import 'babel-polyfill';
 import process from 'process';
 import React from 'react';
 import { render } from 'react-dom';
@@ -22,7 +24,6 @@ render(
 //Todo: move this to a better place
 store.dispatch(loadMainData());
 
-process.env.GA = 'UA-114451006-1';
 if (process.env.GA) {
   ReactGA.initialize(process.env.GA);
   ReactGA.pageview(window.location.pathname + window.location.search);
