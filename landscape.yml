@@ -1569,7 +1569,7 @@ landscape:
             organization: Apache
             homepage_url: 'https://pulsar.apache.org/'
             repo_url: 'https://github.com/apache/incubator-pulsar'
-            logo: 'https://pulsar.incubator.apache.org/img/pulsar.png'
+            logo: './src/hosted_logos/pulsar.svg'
             twitter: 'https://twitter.com/apache_pulsar'
             crunchbase: 'https://www.crunchbase.com/organization/apache'
           - item:
@@ -2424,7 +2424,7 @@ landscape:
             description: 'Supergiant Cloud is fully-managed auto-scaling Kubernetes. '
             homepage_url: 'https://supergiant.io/'
             repo_url: 'https://github.com/supergiant/supergiant'
-            logo: 'https://media.licdn.com/mpr/mpr/shrink_200_200/AAEAAQAAAAAAAA3pAAAAJDA4MmJlMGI2LTkwOTgtNDEzNi1hNGI4LWE1NWZkNjA3ZTljMg.png'
+            logo: './src/hosted_logos/supergiant.svg'
             crunchbase: 'https://www.crunchbase.com/organization/supergiant'
       - subcategory:
         name: PaaS/Container Service
@@ -3608,7 +3608,7 @@ landscape:
               EcOS is an enterprise-grade PaaS / CaaS based on Docker and Kubernetes, which makes it easier to configure, deploy and manage containerized
               applications.
             homepage_url: 'https://www.ghostcloud.cn/ecos-kubernetes'
-            logo: 'https://assets.sdxcentral.com/ghostcloud-logo.png'
+            logo: './src/hosted_logos/ghostcloud.svg'
             crunchbase: 'https://www.crunchbase.com/organization/ghostcloud'
           - item:
             name: Giant Swarm
@@ -3622,7 +3622,7 @@ landscape:
             organization: Heptio
             description: Heptio helps businesses of all sizes get closer to the vibrant Kubernetes community.
             homepage_url: 'https://heptio.com/'
-            logo: 'https://pbs.twimg.com/profile_images/907768517545443328/x0Jn6BwF.jpg'
+            logo: './src/hosted_logos/heptio.svg'
             crunchbase: 'https://www.crunchbase.com/organization/heptio'
           - item:
             name: Huawei (KCSP)
@@ -3730,5 +3730,5 @@ landscape:
             organization: Wise2C
             description: 'Using Kubernetes to providing IT continuous delivery and Enterprise grade container management solution to Financial Industry. '
             homepage_url: 'http://www.wise2c.com/'
-            logo: 'https://www.cncf.io/wp-content/uploads/2017/11/wise2c.png'
+            logo: './src/hosted_logos/wise2c.svg'
             crunchbase: 'https://www.crunchbase.com/organization/wise2c-technology-co'
