@@ -143,7 +143,7 @@ export async function fetchImageEntries({cache, preferCache}) {
           errors.push(error(`Using cached entry, because ${item.name} has issues with logo: ${url}, ${ex.message.substring(0, 100)}`));
           return cachedEntry;
         } else {
-          require('process').stdout.write(error("E"));
+          require('process').stdout.write(fatal("E"));
           errors.push(fatal(`No cached entry, and ${item.name} has issues with logo: ${url}, ${ex.message.substring(0, 100)}`));
           return null;
         }
