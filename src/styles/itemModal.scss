@@ -3,7 +3,9 @@ $navy-light: #87919a;
 $blue: #5093e0;
 $blue-hover: #0e61c0;
 
-.modal {overflow: auto; display: block;
+.modal {
+  overflow: auto;
+  display: block;
   &-prev, &-next {position: absolute; top: 50%; margin-top: -20px; font-size: 2.5rem; color: #fff; cursor: pointer;
     opacity: 0.6;
     &:hover {opacity: 1;}
@@ -36,10 +38,10 @@ $blue-hover: #0e61c0;
 }
 
 .product {
-  &-logo {margin-bottom: 2.5rem; box-shadow: 0 1px 4px rgba(0,0,0,0.2); border-radius: 4px; padding: 16px; 
+  &-logo {margin-bottom: 2.5rem; box-shadow: 0 1px 4px rgba(0,0,0,0.2); border-radius: 4px; padding: 16px;
     border: #fff 4px solid; height: 172px;
     position: absolute; top: 40px; left: 40px; width: 30%;
-    &-img {cursor: pointer; margin: auto; display: block; max-width: 210px; max-height: 140px; width: 100%; 
+    &-img {cursor: pointer; margin: auto; display: block; max-width: 210px; max-height: 140px; width: 100%;
       position: absolute; top: 0; left: 0; bottom: 0; right: 0;
     }
     .inception & {border: 4px solid #d1f7ff;}
@@ -86,7 +88,33 @@ $blue-hover: #0e61c0;
     }
   }
   &-twitter {position: relative;
-    &:after {position: absolute; content: ""; top: 0; left: 0; bottom: 0; right: 0; z-index: 100; pointer-events: none;}  
+    &:after {position: absolute; content: ""; top: 0; left: 0; bottom: 0; right: 0; z-index: 100; pointer-events: none;}
   }
 
+}
+
+.iphone {
+  .modal {
+    .modal-content {
+      padding-left: 15.9%;
+      padding-right: 15.3%;
+      padding-top: 22%;
+      padding-bottom: 22%;
+      position: static !important;
+    }
+    &-prev {position: fixed; left: 15px; top: 230px; z-index: 15;}
+    &-next {position: fixed; right: 15px; top: 230px; z-index: 15;}
+    &-close {
+      position: fixed;
+      top: 65px;
+      right: 25px;
+      font-size: 30px;
+      opacity: 0.4;
+      color: #000;
+      z-index: 30;
+      width: 60px;
+      line-height: 60px;
+      text-align: center;
+    }
+  }
 }

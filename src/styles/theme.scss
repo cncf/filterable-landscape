@@ -249,3 +249,54 @@ a {text-decoration: none; transition: all 0.5s; color: $blue;
   &-funding {white-space: nowrap;}
 }
 
+.ios.iphone.portrait {
+  .main {
+    padding: 1px;
+  }
+  .mosaic-wrap {
+    width: 186px;
+    img {
+      width: 140px;
+    }
+  }
+}
+.ios.iphone.landscape {
+  .main {
+    padding: 1px;
+  }
+  .mosaic-wrap {
+    width: 202px;
+  }
+}
+.ios.iphone .background {
+  position: fixed;
+  background: white;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+  clip-path: polygon(0% 0%, 0% 100%, 15% 88%, 15% 12%, 88% 12%, 88% 88%, 11% 88%, 0 100%, 100% 100%, 100% 0%);
+  .shadow {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: #000;
+    opacity: 0.3;
+    z-index: 11;
+  }
+  // .header_container {
+    // .header {
+      // .landscape-logo {position: static; top: 0; left: 0;  padding: 20px; width: 215px; height: 70px; z-index: 2; }
+      // .info {margin-top: 0 ; padding-left: 20px; height: auto;}
+    // }
+  // }
+}
+html.iphone, html.iphone body {
+  height: 100%;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch
+
+}
