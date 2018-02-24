@@ -4520,6 +4520,39 @@ landscape:
             image_data:
               fileName: kong.png
           - item:
+            name: Istio
+            organization: Istio
+            homepage_url: 'https://istio.io/'
+            repo_url: 'https://github.com/istio/istio'
+            logo: 'https://banyanops.com/img/home/istio.png'
+            twitter: 'https://twitter.com/IstioMesh'
+            crunchbase: 'https://www.crunchbase.com/organization/istio'
+            crunchbase_data:
+              name: Istio
+              description: 'Istio is an open platform that provides a uniform way to connect, manage, and secure microservices.'
+              num_employees_min: null
+              num_employees_max: null
+              homepage: 'https://istio.io/'
+              city: null
+              region: null
+              country: null
+              twitter: 'https://twitter.com/IstioMesh'
+              linkedin: null
+            github_data:
+              stars: 6097
+              license: Apache-2.0
+              description: 'An open platform to connect, manage, and secure microservices.'
+              latest_commit_date: '2018-02-24T06:03:09Z'
+              latest_commit_link: /istio/istio/commit/dbd7e778babefcc21e04254cd9f27d49a1352606
+            github_start_commit_data:
+              start_commit_link: /istio/istio/commit/0216e811e9da88b867742710f7d166cef2eabfbc
+              start_date: '2016-11-18T23:57:24Z'
+            cncf_membership_data:
+              cncf_member: false
+            image_data:
+              fileName: istio.png
+              low_res: 192x210
+          - item:
             name: Linkerd
             organization: CNCF
             homepage_url: 'https://linkerd.io/'
