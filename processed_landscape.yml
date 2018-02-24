@@ -9932,25 +9932,24 @@ landscape:
         items:
           - item:
             name: Python Lambda
-            organization: Amazon Web Services
+            organization: Simple Contacts
             homepage_url: 'https://aws.amazon.com/lambda/'
             repo_url: 'https://github.com/nficano/python-lambda'
             logo: ./src/hosted_logos/python-lambda.svg
-            twitter: 'https://twitter.com/awscloud'
-            crunchbase: 'https://www.crunchbase.com/organization/amazon-web-services'
+            crunchbase: 'hhttps://www.crunchbase.com/organization/simple-contacts'
             crunchbase_data:
-              name: Amazon Web Services
-              description: Amazon Web Services provides information technology infrastructure services to businesses in the form of web services.
-              num_employees_min: 10001
-              num_employees_max: 1000000
-              homepage: 'http://aws.amazon.com'
-              city: Seattle
-              region: Washington
+              name: Simple Contacts
+              description: Online eye exam and contact lens supplies
+              num_employees_min: 11
+              num_employees_max: 50
+              homepage: 'https://www.simplecontacts.com'
+              city: New York
+              region: New York
               country: United States
-              twitter: 'http://twitter.com/awscloud'
-              linkedin: 'http://www.linkedin.com/company/2382910'
-              ticker: AMZN
-              kind: market_cap
+              twitter: 'https://twitter.com/simplecontacts'
+              linkedin: 'https://www.linkedin.com/company/simple-contacts'
+              kind: funding
+              funding: 10000000
             github_data:
               stars: 620
               license: ISC
@@ -9961,10 +9960,7 @@ landscape:
               start_commit_link: /nficano/python-lambda/commit/ace29ad81378dce9ae270232fb21e042395689db
               start_date: '2016-02-26T03:21:23Z'
             cncf_membership_data:
-              cncf_member: true
-            yahoo_finance_data:
-              market_cap: 726160506880
-              effective_ticker: AMZN
+              cncf_member: false
             image_data:
               fileName: python-lambda.svg
           - item:
@@ -10635,7 +10631,7 @@ landscape:
               market_cap: 726160506880
               effective_ticker: AMZN
             image_data:
-              fileName: python-lambda.svg
+              fileName: aws-lambda.svg
           - item:
             name: Webtask
             organization: Webtask
