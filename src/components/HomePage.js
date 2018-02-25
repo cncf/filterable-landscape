@@ -55,12 +55,18 @@ const HomePage = ({ready, hasSelectedItem, filtersVisible, hideFilters, showFilt
       // </div>);
   // }
 
-  if (isIphone && hasSelectedItem) {
-    //try to get a current scroll if we are in a normal mode
-    if (!document.querySelector('iphone-scroller')) {
-      state.lastScrollPosition = document.scrollingElement.scrollTop;
-      document.scrollingElement.scrollTop = 0;
+  if (isIphone) {
+    if (hasSelectedItem) {
+      if (!document.querySelector('iphone-scroller')) {
+        state.lastScrollPosition = document.scrollingElement.scrollTop;
+        document.scrollingElement.scrollTop = 0;
+      }
+      document.querySelector('html').classList.add('has-selected-item');
+    } else {
+      document.querySelector('html').classList.remove('has-selected-item');
+      document.scrollingElement.scrollTop = state.lastScrollPosition;
     }
+    //try to get a current scroll if we are in a normal mode
   }
 
   return (
@@ -69,7 +75,7 @@ const HomePage = ({ready, hasSelectedItem, filtersVisible, hideFilters, showFilt
     <ItemDialogButtonsContainer/>
     <div className={classNames('app',{'filters-opened' : filtersVisible, 'background': isIphone && hasSelectedItem})}>
       <div className={classNames({"shadow": isIphone && hasSelectedItem})} onClick={onClose} />
-      <div style={{marginTop: -state.lastScrollPosition}} className={classNames({"iphone-scroller": isIphone && hasSelectedItem})} >
+      <div style={{marginTop: (isIphone && hasSelectedItem) ? -state.lastScrollPosition : 0}} className={classNames({"iphone-scroller": isIphone && hasSelectedItem})} >
         <HeaderContainer/>
         <IconButton className="sidebar-show" onClick={showFilters}><Icon>menu</Icon></IconButton>
         <div className="sidebar">

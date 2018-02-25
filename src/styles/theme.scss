@@ -305,9 +305,8 @@ a {text-decoration: none; transition: all 0.5s; color: $blue;
     // }
   // }
 }
-html.iphone, html.iphone body {
+html.iphone.has-selected-item, html.iphone.has-selected-item body {
   height: 100%;
   overflow-y: scroll;
   -webkit-overflow-scrolling: touch
-
 }
