@@ -270,13 +270,37 @@ a {text-decoration: none; transition: all 0.5s; color: $blue;
       width: 140px;
     }
   }
+  .mosaic .logo_wrapper {
+    height: 60%;
+  }
+  .mosaic-info {
+    height: 40%;
+  }
 }
 .ios.iphone.landscape {
   .main {
     padding: 1px;
   }
+
   .mosaic-wrap {
-    width: 202px;
+    @media (width: 724px) {
+      width: 180px;
+      height: 212px;
+      img {
+        width: 140px;
+      }
+    }
+    width: 221px;
+    height: 206px;
+    img {
+      width: 140px;
+    }
+  }
+  .mosaic .logo_wrapper {
+    height: 60%;
+  }
+  .mosaic-info {
+    height: 40%;
   }
 }
 .ios.iphone .background {
