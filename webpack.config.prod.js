@@ -15,6 +15,7 @@ const isMainBranch = ['master', 'production', 'staging'].indexOf(currentBranch) 
 
 const GLOBALS = {
   'process.env.NODE_ENV': JSON.stringify('production'),
+  'process.env.GA': require('process').env['GA'],
   __DEV__: false
 };
 
