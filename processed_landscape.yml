@@ -2752,7 +2752,7 @@ landscape:
             homepage_url: 'https://clearlinux.org/containers'
             repo_url: 'https://github.com/clearcontainers/runtime'
             logo: ./src/hosted_logos/intel-clearcontainers.svg
-            twitter: 'https://twitter.com/clearlinux/'
+            twitter: 'https://twitter.com/clearlinux'
             crunchbase: 'https://www.crunchbase.com/organization/intel'
             crunchbase_data:
               name: Intel
@@ -3236,7 +3236,7 @@ landscape:
             homepage_url: 'https://cumulusnetworks.com'
             logo: >-
               https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F33979767%2F108689379901%2F1%2Foriginal.jpg?w=800&rect=0%2C100%2C800%2C400&s=51632196d88bcd0efb885370c3f3bd94
-            twitter: 'https://twitter.com/CumulusNetworks/'
+            twitter: 'https://twitter.com/CumulusNetworks'
             crunchbase: 'https://www.crunchbase.com/organization/cumulus-networks'
             crunchbase_data:
               name: Cumulus Networks
@@ -3927,7 +3927,7 @@ landscape:
             homepage_url: 'https://coreos.com/etcd/'
             repo_url: 'https://github.com/coreos/etcd'
             logo: 'https://cdn.worldvectorlogo.com/logos/etcd.svg'
-            twitter: 'https://twitter.com/coreos/'
+            twitter: 'https://twitter.com/coreos'
             crunchbase: 'https://www.crunchbase.com/organization/red-hat'
             crunchbase_data:
               name: Red Hat
@@ -5270,7 +5270,7 @@ landscape:
             organization: MemSQL
             homepage_url: 'https://www.memsql.com/'
             logo: ./src/hosted_logos/memsql.svg
-            twitter: 'https://twitter.com/memsql/'
+            twitter: 'https://twitter.com/memsql'
             crunchbase: 'https://www.crunchbase.com/organization/memsql'
             crunchbase_data:
               name: MemSQL
@@ -5928,7 +5928,7 @@ landscape:
             homepage_url: 'https://apex.apache.org/'
             repo_url: 'https://github.com/apache/apex-core'
             logo: ./src/hosted_logos/apache-apex.svg
-            twitter: 'https://twitter.com/apacheapex/'
+            twitter: 'https://twitter.com/apacheapex'
             crunchbase: 'https://www.crunchbase.com/organization/apache'
             crunchbase_data:
               name: Apache Software Foundation
@@ -6531,7 +6531,6 @@ landscape:
             homepage_url: 'https://www.habitat.sh/'
             repo_url: 'https://github.com/habitat-sh/habitat'
             logo: 'https://www.chef.io/wp-content/uploads/2017/05/appauto_HabitatbyChef.svg'
-            twitter: 'https://twitter.com/hashtag/habitatsh'
             crunchbase: 'https://www.crunchbase.com/organization/chef'
             crunchbase_data:
               name: Chef
@@ -6597,7 +6596,6 @@ landscape:
             homepage_url: 'https://www.openapis.org/'
             repo_url: 'https://github.com/OAI/OpenAPI-Specification'
             logo: 'https://www.openapis.org/wp-content/uploads/sites/3/2016/10/OpenAPI_Pantone.png'
-            twitter: 'https://twitter.com/hashtag/openapi'
             crunchbase: 'https://www.crunchbase.com/organization/the-open-api-initiative'
             crunchbase_data:
               name: The Open API Initiative
@@ -7871,7 +7869,7 @@ landscape:
           - item:
             name: Kinvolk kube-spawn
             organization: Kinvolk
-            description: 'A tool for creating multi-node Kubernetes clusters on a Linux machine using kubeadm & systemd-nspawn. Brought to you by the Kinvolk team. '
+            description: A tool for creating multi-node Kubernetes clusters on a Linux machine using kubeadm & systemd-nspawn. Brought to you by the Kinvolk team.
             homepage_url: 'https://github.com/kinvolk/kube-spawn'
             repo_url: 'https://github.com/kinvolk/kube-spawn'
             logo: 'https://www.cncf.io/wp-content/uploads/2017/03/kinvolk_logo-1.png'
@@ -7904,7 +7902,7 @@ landscape:
           - item:
             name: Kublr
             organization: Kublr
-            description: 'Accelerate and control the deployment, scaling, monitoring and management of your containerized applications. '
+            description: 'Accelerate and control the deployment, scaling, monitoring and management of your containerized applications.'
             homepage_url: 'https://kublr.com/'
             logo: 'http://kublr.com/images/KublrLogo.svg'
             crunchbase: 'https://www.crunchbase.com/organization/kublr'
@@ -8929,7 +8927,7 @@ landscape:
             name: TenxCloud Container Engine (TCE)
             organization: TenxCloud
             description: The first enterprise container cloud management platform based on Kubernetes and supporting private deployments.
-            homepage_url: ' https://tenxcloud.com/enterprise.html'
+            homepage_url: 'https://tenxcloud.com/enterprise.html'
             logo: 'https://www.cncf.io/wp-content/uploads/2017/11/tenxcloud.png'
             crunchbase: 'https://www.crunchbase.com/organization/tenxcloud'
             crunchbase_data:
@@ -9180,7 +9178,7 @@ landscape:
           - item:
             name: Supergiant
             organization: Supergiant
-            description: 'Supergiant Cloud is fully-managed auto-scaling Kubernetes. '
+            description: Supergiant Cloud is fully-managed auto-scaling Kubernetes.
             homepage_url: 'https://supergiant.io/'
             repo_url: 'https://github.com/supergiant/supergiant'
             logo: 'https://media.licdn.com/mpr/mpr/shrink_200_200/AAEAAQAAAAAAAA3pAAAAJDA4MmJlMGI2LTkwOTgtNDEzNi1hNGI4LWE1NWZkNjA3ZTljMg.png'
@@ -9291,7 +9289,9 @@ landscape:
           - item:
             name: Cloud Foundry Application Runtime
             organization: Cloud Foundry
-            description: ' Cloud Foundry Application Runtime utilizes containers as part of its DNA, and has since before Docker popularized containers. The new CF Container Runtime gives you more granular control and management of containers with Kubernetes.'
+            description: >-
+              Cloud Foundry Application Runtime utilizes containers as part of its DNA, and has since before Docker popularized containers. The new CF Container
+              Runtime gives you more granular control and management of containers with Kubernetes.
             homepage_url: 'https://www.cloudfoundry.org/application-runtime/'
             repo_url: 'https://github.com/cloudfoundry/cli'
             logo: ./src/hosted_logos/cloudfoundry-applicationruntime.svg
@@ -10546,7 +10546,6 @@ landscape:
             homepage_url: 'https://claudiajs.com/'
             repo_url: 'https://github.com/claudiajs/claudia'
             logo: 'https://claudiajs.com/assets/claudiajs.svg'
-            twitter: 'https://twitter.com/intent/follow?screen_name=gojkoadzic'
             crunchbase: 'https://www.crunchbase.com/organization/claudiajs'
             crunchbase_data:
               name: ClaudiaJS
@@ -10869,7 +10868,7 @@ landscape:
             organization: Syncano
             homepage_url: 'https://syncano.io/#/'
             logo: 'https://d3rij3t703q5l6.cloudfront.net/14652/6/4a6c199217ecdcacb30ffbc39f13bd8f0be141d5.png'
-            twitter: 'https://twitter.com/Syncano/'
+            twitter: 'https://twitter.com/Syncano'
             crunchbase: 'https://www.crunchbase.com/organization/syncano'
             crunchbase_data:
               name: Syncano
@@ -11073,7 +11072,7 @@ landscape:
           - item:
             name: Zeit Now
             organization: Zeit
-            homepage_url: ' https://zeit.co/now'
+            homepage_url: 'https://zeit.co/now'
             logo: 'https://assets.zeit.co/image/upload/front/logos/white-bg-text-logo-1200.png'
             twitter: 'https://twitter.com/zeithq'
             crunchbase: 'https://www.crunchbase.com/organization/zeit'
@@ -11429,7 +11428,6 @@ landscape:
             organization: Oracle
             homepage_url: 'https://cloud.oracle.com/acc'
             logo: ./src/hosted_logos/oracle-applicationcontainercloud.svg
-            twitter: 'https://twitter.com/hashtag/OracleCloudZone'
             crunchbase: 'https://www.crunchbase.com/organization/oracle'
             crunchbase_data:
               name: Oracle
@@ -12589,7 +12587,6 @@ landscape:
             organization: StackState
             homepage_url: 'https://www.stackstate.com/'
             logo: 'https://www.stackstate.com/wp-content/uploads/2017/04/Sts_LOGO_RGB_Full_Horizontal_OPT.png.pagespeed.ce.LOxsEpaZ5A.png'
-            twitter: 'https://twitter.com/hashtag/stackstate'
             crunchbase: 'https://www.crunchbase.com/organization/stackstate'
             crunchbase_data:
               name: StackState
@@ -13632,7 +13629,7 @@ landscape:
           - item:
             name: inwinSTACK
             organization: inwinSTACK
-            description: 'Our container service leverages OpenStack-based infrastructure and its container orchestration engine Magnum to manage Kubernetes clusters. '
+            description: Our container service leverages OpenStack-based infrastructure and its container orchestration engine Magnum to manage Kubernetes clusters.
             homepage_url: 'http://www.inwinstack.com/index.php/en/solutions-en/'
             logo: ./src/hosted_logos/inwinstack.svg
             crunchbase: 'https://www.crunchbase.com/organization/inwinstack'
@@ -13679,7 +13676,7 @@ landscape:
           - item:
             name: LiveWyer
             organization: LiveWyer
-            description: 'Kubernetes experts that on-board applications and empower IT teams to get the most out of containerised technology. '
+            description: Kubernetes experts that on-board applications and empower IT teams to get the most out of containerised technology.
             homepage_url: 'https://livewyer.io/services/kubernetes-experts/'
             logo: 'https://pbs.twimg.com/profile_images/658665833888133120/j-xRn1_v_400x400.jpg'
             crunchbase: 'https://www.crunchbase.com/organization/livewyer'
@@ -13702,7 +13699,7 @@ landscape:
           - item:
             name: Loodse
             organization: Loodse
-            description: 'Loodse provides Kubernetes training & consulting, and host related events regularly across Europe. '
+            description: 'Loodse provides Kubernetes training & consulting, and host related events regularly across Europe.'
             homepage_url: 'https://loodse.com/'
             logo: 'https://pbs.twimg.com/profile_images/826839537750048772/ThKLTvI2.jpg'
             crunchbase: 'https://www.crunchbase.com/organization/loodse-gmbh'
@@ -13727,7 +13724,7 @@ landscape:
           - item:
             name: Mirantis (KCSP)
             organization: Mirantis
-            description: 'Mirantis builds and manages private clouds with open source software such as OpenStack, deployed as containers orchestrated by Kubernetes. '
+            description: 'Mirantis builds and manages private clouds with open source software such as OpenStack, deployed as containers orchestrated by Kubernetes.'
             homepage_url: 'https://content.mirantis.com/Containerizing-OpenStack-on-Kubernetes-Video-Landing-Page.html'
             logo: 'https://www.mirantis.com/wp-content/uploads/2017/01/mirantis-logo-2color-rgb-transparent.png'
             crunchbase: 'https://www.crunchbase.com/organization/mirantis'
@@ -13751,7 +13748,7 @@ landscape:
           - item:
             name: Nirmata (KCSP)
             organization: Nirmata
-            description: 'Nirmata simplifies kubernetes for application development teams. '
+            description: Nirmata simplifies kubernetes for application development teams.
             homepage_url: 'https://www.nirmata.com/'
             logo: 'https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco/v1501447457/hzaahdettnwjbpyuenjf.png'
             crunchbase: 'https://www.crunchbase.com/organization/nirmata'
@@ -13774,7 +13771,7 @@ landscape:
           - item:
             name: RX-M
             organization: RX-M
-            description: 'Market neutral Kubernetes Dev, DevOps and Production training and consulting services '
+            description: 'Market neutral Kubernetes Dev, DevOps and Production training and consulting services'
             homepage_url: 'http://rx-m.com/training/kubernetes-training/'
             logo: 'http://rx-m.com/wp-content/uploads/2017/12/RX-M-logo-999999-17479E-CNC.svg'
             crunchbase: 'https://www.crunchbase.com/organization/rx-m'
@@ -13846,7 +13843,7 @@ landscape:
           - item:
             name: Supergiant (KCSP)
             organization: Supergiant
-            description: 'Supergiant autoscales hardware for Kubernetes. Open-source, it makes HA, distributed, stateful apps easy to deploy, manage, and scale. '
+            description: 'Supergiant autoscales hardware for Kubernetes. Open-source, it makes HA, distributed, stateful apps easy to deploy, manage, and scale.'
             homepage_url: 'https://supergiant.io/blog/supergiant-packing-algorithm-unique-save-money'
             logo: 'https://media.licdn.com/mpr/mpr/shrink_200_200/AAEAAQAAAAAAAA3pAAAAJDA4MmJlMGI2LTkwOTgtNDEzNi1hNGI4LWE1NWZkNjA3ZTljMg.png'
             crunchbase: 'https://www.crunchbase.com/organization/supergiant'
@@ -13869,7 +13866,7 @@ landscape:
           - item:
             name: Treasure Data
             organization: Treasure Data
-            description: 'Fluentd Enterprise brings smart, secure logging to Kubernetes, and brings integrations with backends such as Splunk, Kafka, or AWS S3. '
+            description: 'Fluentd Enterprise brings smart, secure logging to Kubernetes, and brings integrations with backends such as Splunk, Kafka, or AWS S3.'
             homepage_url: 'https://www.treasuredata.com/'
             logo: 'https://d1eipm3vz40hy0.cloudfront.net/images/p-apps-marketplace/apps/87957/logo.png'
             crunchbase: 'https://www.crunchbase.com/organization/treasure-data'
@@ -13894,7 +13891,7 @@ landscape:
           - item:
             name: Wise2C
             organization: Wise2C
-            description: 'Using Kubernetes to providing IT continuous delivery and Enterprise grade container management solution to Financial Industry. '
+            description: Using Kubernetes to providing IT continuous delivery and Enterprise grade container management solution to Financial Industry.
             homepage_url: 'http://www.wise2c.com/'
             logo: 'https://www.cncf.io/wp-content/uploads/2017/11/wise2c.png'
             crunchbase: 'https://www.crunchbase.com/organization/wise2c-technology-co'
