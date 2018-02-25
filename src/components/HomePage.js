@@ -11,6 +11,7 @@ import MainContentContainer from './MainContentContainer';
 import HomePageUrlContainer from './HomePageUrlContainer';
 import ResetFiltersContainer from './ResetFiltersContainer';
 import ItemDialogContainer from './ItemDialogContainer';
+import ItemDialogButtonsContainer from './ItemDialogButtonsContainer';
 import HeaderContainer from './HeaderContainer';
 import SummaryContainer from './SummaryContainer';
 import Footer from './Footer';
@@ -58,14 +59,16 @@ const HomePage = ({ready, hasSelectedItem, filtersVisible, hideFilters, showFilt
     //try to get a current scroll if we are in a normal mode
     if (!document.querySelector('iphone-scroller')) {
       state.lastScrollPosition = document.scrollingElement.scrollTop;
+      document.scrollingElement.scrollTop = 0;
     }
   }
 
   return (
     <div>
     <ItemDialogContainer/>
+    <ItemDialogButtonsContainer/>
     <div className={classNames('app',{'filters-opened' : filtersVisible, 'background': isIphone && hasSelectedItem})}>
-      <dic className={classNames({"shadow": isIphone && hasSelectedItem})} onClick={onClose} />
+      <div className={classNames({"shadow": isIphone && hasSelectedItem})} onClick={onClose} />
       <div style={{marginTop: -state.lastScrollPosition}} className={classNames({"iphone-scroller": isIphone && hasSelectedItem})} >
         <HeaderContainer/>
         <IconButton className="sidebar-show" onClick={showFilters}><Icon>menu</Icon></IconButton>
@@ -82,7 +85,6 @@ const HomePage = ({ready, hasSelectedItem, filtersVisible, hideFilters, showFilt
         <div className="app-overlay" onClick={hideFilters}></div>
 
         <HomePageUrlContainer />
-        { /*<ItemDialogContainer />*/}
 
         <div className="main">
           <div className="disclaimer">

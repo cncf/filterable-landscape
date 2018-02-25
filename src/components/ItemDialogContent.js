@@ -76,7 +76,6 @@ const ItemDialogContent = ({itemInfo}) => {
   }
   return (
         <div className="modal-content">
-
             <div className="product-logo">
               <img src={itemInfo.href} className='product-logo-img'/>
             </div>

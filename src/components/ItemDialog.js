@@ -1,14 +1,12 @@
 import React from 'react';
 import Dialog from 'material-ui/Dialog';
-import Icon from 'material-ui/Icon';
-import KeyHandler from 'react-key-handler';
 import classNames from 'classnames'
 import ItemDialogContent from './ItemDialogContent';
 
 import '../styles/itemModal.scss';
 import isIphone from '../utils/isIphone';
 
-const ItemDialog = ({onClose, itemInfo, previousItemId, nextItemId, onSelectItem }) => {
+const ItemDialog = ({onClose, itemInfo}) => {
   if (!itemInfo) {
     return null;
   }
@@ -19,17 +17,7 @@ const ItemDialog = ({onClose, itemInfo, previousItemId, nextItemId, onSelectItem
           {graduated : itemInfo.cncfRelation ==='graduated'},
           {nonoss : itemInfo.oss === false})}
         >
-          { nextItemId && <KeyHandler keyValue="ArrowRight" onKeyHandle={() => onSelectItem(nextItemId)} /> }
-          { previousItemId && <KeyHandler keyValue="ArrowLeft" onKeyHandle={() => onSelectItem(previousItemId)} /> }
-          <a className="modal-close" onClick={() => onClose()}>×</a>
-
-          <span className="modal-prev" disabled={!previousItemId} onClick={() => onSelectItem(previousItemId)}>
-            <Icon style={{ fontSize:'1.2em'}}>chevron_left</Icon>
-          </span>
-          <span className="modal-next" disabled={!nextItemId} onClick={() => onSelectItem(nextItemId)}>
-            <Icon style={{ fontSize:'1.2em'}}>chevron_right</Icon>
-          </span>
-
+          { /* Note - we move buttons away from here to the HomePage because of Safari Issues */ }
           <ItemDialogContent itemInfo={itemInfo}/>
         </div>
     )
@@ -49,17 +37,6 @@ const ItemDialog = ({onClose, itemInfo, previousItemId, nextItemId, onSelectItem
                                                  {graduated : itemInfo.cncfRelation ==='graduated'},
                                                  {nonoss : itemInfo.oss === false})}
       >
-      { nextItemId && <KeyHandler keyValue="ArrowRight" onKeyHandle={() => onSelectItem(nextItemId)} /> }
-      { previousItemId && <KeyHandler keyValue="ArrowLeft" onKeyHandle={() => onSelectItem(previousItemId)} /> }
-        <a className="modal-close" onClick={() => onClose()}>×</a>
-
-        <span className="modal-prev" disabled={!previousItemId} onClick={() => onSelectItem(previousItemId)}>
-          <Icon style={{ fontSize:'1.2em'}}>chevron_left</Icon>
-        </span>
-        <span className="modal-next" disabled={!nextItemId} onClick={() => onSelectItem(nextItemId)}>
-          <Icon style={{ fontSize:'1.2em'}}>chevron_right</Icon>
-        </span>
-
         <ItemDialogContent itemInfo={itemInfo}/>
     </Dialog>
   );
