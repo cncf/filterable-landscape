@@ -57,14 +57,16 @@ const HomePage = ({ready, hasSelectedItem, filtersVisible, hideFilters, showFilt
 
   if (isIphone) {
     if (hasSelectedItem) {
-      if (!document.querySelector('iphone-scroller')) {
+      if (!document.querySelector('.iphone-scroller')) {
         state.lastScrollPosition = document.scrollingElement.scrollTop;
         document.scrollingElement.scrollTop = 0;
       }
       document.querySelector('html').classList.add('has-selected-item');
     } else {
       document.querySelector('html').classList.remove('has-selected-item');
-      document.scrollingElement.scrollTop = state.lastScrollPosition;
+      if (document.querySelector('.iphone-scroller')) {
+        document.scrollingElement.scrollTop = state.lastScrollPosition;
+      }
     }
     //try to get a current scroll if we are in a normal mode
   }
