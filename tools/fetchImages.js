@@ -73,26 +73,11 @@ function imageExist(entry) {
   return require('fs').existsSync(fileName);
 }
 
-function getItemHash(item) {
-  if (item.logo && item.logo.indexOf('.') === 0) {
-    // console.info(item.logo);
-    const response = fs.readFileSync(item.logo);
-    return require('crypto').createHash('sha256').update(response).digest('base64');
-  }
-  return;
-}
-
 export async function fetchImageEntries({cache, preferCache}) {
   const items = await getLandscapeItems();
   const errors = [];
   const result = Promise.map(items, async function(item) {
-    const hash = getItemHash(item);
-    const searchOptions = {logo: item.logo};
-    if (hash) {
-      searchOptions.hash = hash;
-    }
-    // console.info(searchOptions);
-    const cachedEntry = _.find(cache, searchOptions);
+    const cachedEntry = _.find(cache, {logo: item.logo});
     if (preferCache && cachedEntry && imageExist(cachedEntry)) {
       debug(`Found cached entry for ${item.logo}`);
       require('process').stdout.write(".");
@@ -124,14 +109,18 @@ export async function fetchImageEntries({cache, preferCache}) {
         if (url.indexOf('.') === 0) {
           response = fs.readFileSync(url);
         } else {
-          response = await rp({
-            encoding: null,
-            uri: url,
-            followRedirect: true,
-            maxRedirects: 5,
-            simple: true,
-            timeout: 30 * 1000
-          });
+          try {
+            response = await rp({
+              encoding: null,
+              uri: url,
+              followRedirect: true,
+              maxRedirects: 5,
+              simple: true,
+              timeout: 30 * 1000
+            });
+          } catch(ex) {
+            console.info('failed to fetch ', url, ' attempting to use existing image');
+          }
         }
         let low_res;
         if (ext === '.svg') {
@@ -145,11 +134,9 @@ export async function fetchImageEntries({cache, preferCache}) {
         return {
           fileName: fileName,
           low_res: low_res,
-          logo: item.logo,
-          hash: hash
+          logo: item.logo
         };
       } catch(ex) {
-        console.info('boom');
         debug(`Cannot fetch ${url}`);
         if (cachedEntry && imageExist(cachedEntry)) {
           require('process').stdout.write(error("E"));
