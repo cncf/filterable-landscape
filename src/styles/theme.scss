@@ -46,13 +46,15 @@ a {text-decoration: none; transition: all 0.5s; color: $blue;
 
 }
 
-.disclaimer {margin: -60px 5px 5px; margin-bottom: 1rem; color: $navy; font-size: 0.8em; padding-right: 220px;
+.disclaimer {margin: -60px 5px 14px; color: $navy; font-size: 0.8em; padding-right: 220px;
   color: $navy-light;
   a {color: #366fa8;}
-  h1 {font-size: 2.1rem; line-height: 30px; display: block; margin: 0 0 0.9rem; color: $navy;}
+  h1 {font-size: 2.1rem; line-height: 30px; display: block; margin: 0 0 14px; color: $navy;}
   @media (max-width: 767px) {padding-right: 0;}
   @media (max-height: 750px) {padding-right: 0;}
 }
+.summary {margin: 0 5px 14px; color: $navy; font-size: 0.8rem;}
+
 
 .header_container {z-index: 2; height: 70px;
   .header {padding: 20px;
@@ -141,10 +143,6 @@ a {text-decoration: none; transition: all 0.5s; color: $blue;
 }
 .filters-opened {overflow: hidden;
   .app-overlay {margin: 0; opacity: 0.4; transition-delay: 0s, 0s;}
-}
-
-.summary {
-  margin-left: 5px;
 }
 
 .main {margin-left: 205px; padding: 10px;

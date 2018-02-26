@@ -62,7 +62,7 @@ The following rules will produce the most readable and attractive logos:
 
 ### Updating data
 
-After making changes to `landscape.yml`, run `yarn fetch` to fetch any needed data and generate [processed_landscape.yml](processed_landscape.yml) and [file](https://github.com/cncf/filterable-landscape/blob/master/src/data.json).
+After making changes to `landscape.yml`, run `yarn fetch` to fetch any needed data and generate [processed_landscape.yml](processed_landscape.yml) and [data.json](https://github.com/cncf/filterable-landscape/blob/master/src/data.json).
 
 `yarn fetch` runs in 4 modes of increasingly aggressive downloading, with a default to easy. Reading data from the cache (meaning from processed_landscape.yml) means that no new data is fetched if the project/product already exists. The modes are:
 
@@ -88,8 +88,8 @@ Hard and complete modes should be unnecessary except in cases of possible data c
 
 If you can't find the right logo on the web, you can create a custom one and host it in this repo:
 
-1. Save the logo to `src/hosted_logos/`, for example, `src/hosted_logos/apex.svg`. User lowercase spinal case (i.e., hypens) for the name.
+1. Save the logo to `src/hosted_logos/`, for example, `src/hosted_logos/apex.svg`. Use lowercase spinal case (i.e., hypens) for the name.
 1. Update landscape.yml, for example, `logo: ./src/hosted_logos/apex.svg`. The location must start with`./src/hosted_logos`.
 1. If you've updated the local logo since a previous commit, you need to delete the cached version in `src/logos/`. E.g., delete `src/logos/apex.svg`.
 1. Update `processed_landscape.yml` with `yarn fetch`.
-1. Commit and push. Double-check your work in the Netlify preview.
+1. Commit and push. Double-check your work in the Netlify preview after opening a pull request.

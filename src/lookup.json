@@ -636,6 +636,11 @@
       "url": "iron-io"
     },
     {
+      "id": "Istio",
+      "label": "Istio",
+      "url": "istio"
+    },
+    {
       "id": "Jenkins CI",
       "label": "Jenkins CI",
       "url": "jenkins-ci"
@@ -659,6 +664,11 @@
       "id": "Joyent",
       "label": "Joyent",
       "url": "joyent"
+    },
+    {
+      "id": "JS Foundation",
+      "label": "JS Foundation",
+      "url": "js-foundation"
     },
     {
       "id": "KappaIO",
@@ -1226,6 +1236,11 @@
       "url": "signal-fx"
     },
     {
+      "id": "Simple Contacts",
+      "label": "Simple Contacts",
+      "url": "simple-contacts"
+    },
+    {
       "id": "SKYDNS",
       "label": "SKYDNS",
       "url": "skydns"
@@ -1760,11 +1775,12 @@
       "level": 1,
       "children": [
         "Serverless / Security",
-        "Serverless / App Definition & Development",
+        "Serverless / Libraries",
+        "Serverless / Tools",
         "Serverless / Frameworks",
         "Serverless / Platforms",
-        "Serverless / Hybrid",
-        "Serverless / Kubernetes-Native"
+        "Serverless / Hybrid Platforms",
+        "Serverless / Kubernetes-Native Platforms"
       ]
     },
     {
@@ -1776,11 +1792,19 @@
       "level": 2
     },
     {
-      "id": "Serverless / App Definition & Development",
+      "id": "Serverless / Libraries",
       "parentId": "Serverless",
-      "label": "App Definition & Development",
-      "groupingLabel": "Serverless - App Definition & Development",
-      "url": "app-definition-development",
+      "label": "Libraries",
+      "groupingLabel": "Serverless - Libraries",
+      "url": "libraries",
+      "level": 2
+    },
+    {
+      "id": "Serverless / Tools",
+      "parentId": "Serverless",
+      "label": "Tools",
+      "groupingLabel": "Serverless - Tools",
+      "url": "tools",
       "level": 2
     },
     {
@@ -1800,19 +1824,19 @@
       "level": 2
     },
     {
-      "id": "Serverless / Hybrid",
+      "id": "Serverless / Hybrid Platforms",
       "parentId": "Serverless",
-      "label": "Hybrid",
-      "groupingLabel": "Serverless - Hybrid",
-      "url": "hybrid",
+      "label": "Hybrid Platforms",
+      "groupingLabel": "Serverless - Hybrid Platforms",
+      "url": "hybrid-platforms",
       "level": 2
     },
     {
-      "id": "Serverless / Kubernetes-Native",
+      "id": "Serverless / Kubernetes-Native Platforms",
       "parentId": "Serverless",
-      "label": "Kubernetes-Native",
-      "groupingLabel": "Serverless - Kubernetes-Native",
-      "url": "kubernetes-native",
+      "label": "Kubernetes-Native Platforms",
+      "groupingLabel": "Serverless - Kubernetes-Native Platforms",
+      "url": "kubernetes-native-platforms",
       "level": 2
     },
     {
