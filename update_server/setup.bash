@@ -33,9 +33,9 @@ echo '
   yarn
   LEVEL=medium yarn fetch || echo "yarn failed"
   git add . || echo "nothing to add"
-  git config --global user.email "bot@example.com"
-  git config --global user.name "Auto Updater"
-  (git commit -m "update from a packet bot" && git push origin HEAD) || echo "can not commit"
+  git config --global user.email "info@cncf.io"
+  git config --global user.name "CNCF-bot"
+  (git commit -m "Automated update by CNCF-bot" && git push origin HEAD) || echo "can not commit"
   sleep 3600
 ' > /root/update.sh
 EOSSH

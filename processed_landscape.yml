@@ -4442,7 +4442,7 @@ landscape:
             organization: HAProxy Technologies
             homepage_url: 'https://www.haproxy.org/'
             repo_url: 'https://github.com/haproxy/haproxy'
-            logo: ./src/hosted_logos/haproxy.svg
+            logo: 'http://cdn.haproxy.com/wp-content/uploads/2017/08/Logo_76.png'
             twitter: 'https://twitter.com/haproxy_tech'
             crunchbase: 'https://www.crunchbase.com/organization/haproxy-technologies'
             crunchbase_data:
@@ -4469,8 +4469,7 @@ landscape:
             cncf_membership_data:
               cncf_member: false
             image_data:
-              fileName: ha-proxy.svg
-              hash: lPQ+99khZYzkpsjYEiEJx70jgCgs5ZHb5ZF4BjshEXw=
+              fileName: ha-proxy.png
           - item:
             name: Hystrix
             organization: Netflix
