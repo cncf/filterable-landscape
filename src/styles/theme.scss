@@ -1,5 +1,5 @@
-$navy: #224065;
-$navy-light: #607c95;
+$navy: #38404a;
+$navy-light: #87919a;
 $blue: #5093e0;
 $blue-hover: #0e61c0;
 
@@ -29,8 +29,7 @@ a {text-decoration: none; transition: all 0.5s; color: $blue;
   font-size: 1em;
   background-color: #e8e8e8;
   border-radius: 10px;
-  margin: 10px 5px;
-  margin-top: 20px;
+  margin: 0.5rem 5px;
   div{font-size:0.8em !important;}
 
   .link {
@@ -42,13 +41,11 @@ a {text-decoration: none; transition: all 0.5s; color: $blue;
   }
 
 }
-.cards-row {
-  margin-top: 20px;
-}
 
-.disclaimer {margin: -60px 5px 5px; margin-bottom: 1rem; color: #9b9b9b; font-size: 0.8em; padding-right: 220px;
+.disclaimer {margin: -60px 5px 5px; margin-bottom: 1rem; color: $navy; font-size: 0.8em; padding-right: 220px;
+  color: $navy-light;
   a {color: #366fa8;}
-  h1 {font-size: 2.1rem; line-height: 30px; display: block; margin: 0 0 0.9rem;}
+  h1 {font-size: 2.1rem; line-height: 30px; display: block; margin: 0 0 0.9rem; color: $navy;}
   @media (max-width: 767px) {padding-right: 0;}
   @media (max-height: 750px) {padding-right: 0;}
 }
@@ -89,8 +86,7 @@ a {text-decoration: none; transition: all 0.5s; color: $blue;
     .sidebar-collapse {display: block;}
     .filters-opened & {transform: none;}
   }
-  legend {font-size: 0.7em !important;}
-  fieldset {margin-top: 5px;}
+  fieldset {margin-top: 5px; color: $navy;}
   .content-sidebar {flex: 150px 0 0; padding: 13px 0 0 20px;}
   .resetfilters {height: 25px; margin-bottom: 5px;
     @media (max-width: 767px) {height: 48px;}
@@ -105,7 +101,8 @@ a {text-decoration: none; transition: all 0.5s; color: $blue;
       &.active {color: #000; font-weight: bold;}
     }
   }
-  legend {font-size:0.6em !important;}
+  div {color: $navy;}
+  legend {font-size:0.6em !important; color: $navy-light;}
 
   .title{
     display:flex;
@@ -149,11 +146,7 @@ a {text-decoration: none; transition: all 0.5s; color: $blue;
 .main {margin-left: 205px; padding: 10px;
   @media (max-width: 767px) {margin-left: 0; position: relative; padding-top: 70px;}
   @media (max-height: 750px) {margin-left: 0; position: relative; padding-top: 70px;}
-  &-note {background: #e8e8e8; font-size: 0.7rem; color: #999; padding: 10px 15px; border-radius: 3px;
-  }
-  :focus {
-    outline: none;
-  }
+  &-note {background: #e8e8e8; font-size: 0.7rem; color: #999; padding: 10px 15px; border-radius: 3px;}
 }
 
 /* grid */
@@ -244,10 +237,10 @@ a {text-decoration: none; transition: all 0.5s; color: $blue;
     padding:10px;
     display: flex;
     justify-content: space-between;
-    color:#9B9B9B;
+    color: $navy-light;
   }
   h5 {
-    margin:0 0 5px 0 !important;
+    margin:0 0 5px 0 !important; color: $navy;
     font-size: 1em;
   }
   &-stars {line-height: 15px; text-align: right; white-space: nowrap;

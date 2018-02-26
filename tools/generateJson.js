@@ -6,7 +6,7 @@ import formatCity from '../src/utils/formatCity';
 
 function sortFn(x) {
   if (_.isString(x)) {
-    return x.toLowerCase();
+    return x.trim().toLowerCase();
   }
   return x;
 }
