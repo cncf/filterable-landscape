@@ -4239,7 +4239,7 @@
     "organization": "VMware",
     "homepage_url": "https://vmware.github.io/hatchway/",
     "stock_ticker": "VMW",
-    "logo": "https://raw.githubusercontent.com/vmware/hatchway/gh-pages/images/113454-vmw-os-lgo-hatchway-final-sml.png",
+    "logo": "./hosted_logos/hatchway.svg",
     "twitter": "https://twitter.com/VMware",
     "crunchbase": "https://www.crunchbase.com/organization/vmware",
     "cncf_membership_data": {
@@ -4250,8 +4250,8 @@
       "effective_ticker": "VMW"
     },
     "image_data": {
-      "fileName": "hatchway.png",
-      "low_res": "469x110"
+      "fileName": "hatchway.svg",
+      "hash": "0qAS4uH7xHdLUbiWxZmTt4sKrzIoO1Vacegynq8S39I="
     },
     "cncfMember": true,
     "cncfRelation": "member",
@@ -4282,7 +4282,7 @@
     "amountKind": "market_cap",
     "amount": 50964701184,
     "oss": false,
-    "href": "/logos/hatchway.png",
+    "href": "/logos/hatchway.svg",
     "id": "hatchway"
   },
   {
@@ -7908,7 +7908,7 @@
     "organization": "Istio",
     "homepage_url": "https://istio.io/",
     "repo_url": "https://github.com/istio/istio",
-    "logo": "https://banyanops.com/img/home/istio.png",
+    "logo": "./hosted_logos/istio.svg",
     "twitter": "https://twitter.com/IstioMesh",
     "crunchbase": "https://www.crunchbase.com/organization/istio",
     "github_data": {
@@ -7926,8 +7926,8 @@
       "cncf_member": false
     },
     "image_data": {
-      "fileName": "istio.png",
-      "low_res": "192x210"
+      "fileName": "istio.svg",
+      "hash": "1OqJJZ0lqcVUoilWbQhAs3baX5h2rfvByuqOZRyvocc="
     },
     "cncfMember": false,
     "cncfRelation": false,
@@ -7957,7 +7957,7 @@
     "landscape": "Orchestration & Management / Service Management",
     "category": "Orchestration & Management",
     "oss": true,
-    "href": "/logos/istio.png",
+    "href": "/logos/istio.svg",
     "id": "istio"
   },
   {
@@ -11620,7 +11620,7 @@
     "organization": "Intuit",
     "homepage_url": "https://applatix.com/open-source/argo/",
     "repo_url": "https://github.com/argoproj/argo",
-    "logo": "https://raw.githubusercontent.com/argoproj/argo/master/argo-logo600.png",
+    "logo": "./hosted_logos/argo.svg",
     "twitter": "https://twitter.com/applatix",
     "crunchbase": "https://www.crunchbase.com/organization/intuit",
     "github_data": {
@@ -11642,8 +11642,8 @@
       "effective_ticker": "INTU"
     },
     "image_data": {
-      "fileName": "argo.png",
-      "low_res": "340x515"
+      "fileName": "argo.svg",
+      "hash": "Xb4OvEH8Blm9GmWInFZZnx2Q0rUDurtM1rkRrRtlJEc="
     },
     "cncfMember": true,
     "cncfRelation": "member",
@@ -11677,7 +11677,7 @@
     "amountKind": "market_cap",
     "amount": 43915554816,
     "oss": true,
-    "href": "/logos/argo.png",
+    "href": "/logos/argo.svg",
     "id": "argo"
   },
   {
@@ -17379,7 +17379,7 @@
     "organization": "JS Foundation",
     "homepage_url": "https://arc.codes/",
     "repo_url": "https://github.com/arc-repos/arc-functions",
-    "logo": "https://js.foundation/wp-content/uploads/sites/33/2017/07/arc-logo-icon2.png",
+    "logo": "./hosted_logos/architect.svg",
     "twitter": "https://twitter.com/arc_fns",
     "crunchbase": "https://www.crunchbase.com/organization/js-foundation",
     "github_data": {
@@ -17397,7 +17397,8 @@
       "cncf_member": true
     },
     "image_data": {
-      "fileName": "architect.png"
+      "fileName": "architect.svg",
+      "hash": "nv+Dzdzz6OXdpWfsKiY4fpwhABBm1eq3fbM/4eR1StU="
     },
     "cncfMember": true,
     "cncfRelation": "member",
@@ -17427,7 +17428,7 @@
     "landscape": "Serverless / Tools",
     "category": "Serverless",
     "oss": true,
-    "href": "/logos/architect.png",
+    "href": "/logos/architect.svg",
     "id": "architect"
   },
   {
@@ -19020,15 +19021,15 @@
     "name": "Syncano",
     "organization": "Syncano",
     "homepage_url": "https://syncano.io/#/",
-    "logo": "https://d3rij3t703q5l6.cloudfront.net/14652/6/4a6c199217ecdcacb30ffbc39f13bd8f0be141d5.png",
+    "logo": "./hosted_logos/syncano.svg",
     "twitter": "https://twitter.com/Syncano",
     "crunchbase": "https://www.crunchbase.com/organization/syncano",
     "cncf_membership_data": {
       "cncf_member": false
     },
     "image_data": {
-      "fileName": "syncano.png",
-      "low_res": "2000x309"
+      "fileName": "syncano.svg",
+      "hash": "8509VPOx2VvfXFNtTNqyF+7wngIXNgXmCSaIjrw1p8s="
     },
     "cncfMember": false,
     "cncfRelation": false,
@@ -19059,7 +19060,7 @@
     "amountKind": "funding",
     "amount": 10250000,
     "oss": false,
-    "href": "/logos/syncano.png",
+    "href": "/logos/syncano.svg",
     "id": "syncano"
   },
   {
@@ -19294,7 +19295,7 @@
     "organization": "StdLib",
     "homepage_url": "https://stdlib.com/",
     "repo_url": "https://github.com/stdlib/lib",
-    "logo": "https://i1.wp.com/martechseries.com/wp-content/uploads/2017/07/stdlib.png",
+    "logo": "./hosted_logos/stdlib.svg",
     "twitter": "https://twitter.com/stdlibhq",
     "crunchbase": "https://www.crunchbase.com/organization/stdlib",
     "github_data": {
@@ -19312,8 +19313,8 @@
       "cncf_member": false
     },
     "image_data": {
-      "fileName": "std-lib.png",
-      "low_res": "774x195"
+      "fileName": "std-lib.svg",
+      "hash": "5kFKI4HE5FnTmja1aWstjnryjRfZ9GStPgoH4YojBPs="
     },
     "cncfMember": false,
     "cncfRelation": false,
@@ -19347,7 +19348,7 @@
     "amountKind": "funding",
     "amount": 2000000,
     "oss": true,
-    "href": "/logos/std-lib.png",
+    "href": "/logos/std-lib.svg",
     "id": "std-lib"
   },
   {
@@ -22819,15 +22820,15 @@
     "name": "Sumo Logic",
     "organization": "Sumo Logic",
     "homepage_url": "https://www.sumologic.com/",
-    "logo": "https://www.cloudfoundry.org/wp-content/uploads/2017/10/icon_sumologic_v2@2x.png",
+    "logo": "./hosted_logos/sumologic.svg",
     "twitter": "https://twitter.com/sumologic",
     "crunchbase": "https://www.crunchbase.com/organization/sumo-logic",
     "cncf_membership_data": {
       "cncf_member": false
     },
     "image_data": {
-      "fileName": "sumo-logic.png",
-      "low_res": "256x256"
+      "fileName": "sumo-logic.svg",
+      "hash": "j0p4BZyIH4EDNCgQOG6U+kBF1FUY9to5vAv9eWR5YvY="
     },
     "cncfMember": false,
     "cncfRelation": false,
@@ -22858,7 +22859,7 @@
     "amountKind": "funding",
     "amount": 230000000,
     "oss": false,
-    "href": "/logos/sumo-logic.png",
+    "href": "/logos/sumo-logic.svg",
     "id": "sumo-logic"
   },
   {
