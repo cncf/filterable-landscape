@@ -44,3 +44,16 @@ if (module.hot) {
     );
   });
 }
+
+// Event listener to determine change (horizontal/portrait)
+window.addEventListener("orientationchange", updateOrientation);
+function updateOrientation(e) {
+    if (e.orientation === 0 || e.orientation === 180) {
+      document.querySelector('html').classList.remove('landscape');
+      document.querySelector('html').classList.add('portrait');
+    } else {
+      document.querySelector('html').classList.remove('portrait');
+      document.querySelector('html').classList.add('landscape');
+    }
+}
+

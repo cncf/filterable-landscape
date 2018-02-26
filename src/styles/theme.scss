@@ -269,7 +269,7 @@ a {text-decoration: none; transition: all 0.5s; color: $blue;
     /* clip-path: polygon(0% 0%, 0% 100%, 15% 88%, 15% 12%, 88% 12%, 88% 88%, 11% 88%, 0 100%, 100% 100%, 100% 0%); */
     mask: url(../images/mask.svg);
     mask-position: 50% 50%;
-    mask-size: cover;
+    mask-size: contain;
 
     .shadow {
       position: absolute;
@@ -282,7 +282,7 @@ a {text-decoration: none; transition: all 0.5s; color: $blue;
       z-index: 11;
     }
   }
-  &.landscape .background {mask-image: url(../images/mask-landscape.svg); mask-size: contain;}
+  &.landscape .background {mask-image: url(../images/mask-landscape.svg); mask-size: cover;}
 }
 html.iphone.has-selected-item, html.iphone.has-selected-item body {
   height: 100%;
