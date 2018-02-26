@@ -192,8 +192,9 @@ a {text-decoration: none; transition: all 0.5s; color: $blue;
 
 .mosaic {
   &-wrap {padding: 5px; display: inline-block; width: 200px; display: flex; flex-direction: col;
-    @media (max-width: 440px) {width: 50%;}
-    @media (min-width: 650px) {width: 33.333%;}
+    @media (max-width: 650px) {width: 33.333%;}
+    @media (max-width: 550px) {width: 50%;}
+
     /*
     @media (min-width: 600px) {width: 33.3333%;}
     @media (min-width: 768px) {width: 50%;}
