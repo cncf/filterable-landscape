@@ -2631,7 +2631,7 @@ landscape:
             twitter: https://twitter.com/snyksec'
             crunchbase: 'https://www.crunchbase.com/organization/snyk'
       - subcategory:
-        name: App Definition & Development
+        name: Libraries
         items:
           - item:
             name: Python Lambda
@@ -2640,6 +2640,17 @@ landscape:
             repo_url: https://github.com/nficano/python-lambda
             logo: './src/hosted_logos/python-lambda.svg'
             crunchbase: 'hhttps://www.crunchbase.com/organization/simple-contacts'
+      - subcategory:
+        name: Tools
+        items:
+          - item:
+            name: Architect
+            organization: JS Foundation
+            homepage_url: 'https://arc.codes/'
+            repo_url: 'https://github.com/arc-repos/arc-functions'
+            logo: 'https://js.foundation/wp-content/uploads/sites/33/2017/07/arc-logo-icon2.png'
+            twitter: 'https://twitter.com/arc_fns'
+            crunchbase: 'https://www.crunchbase.com/organization/js-foundation'
           - item:
             name: Dashbird
             organization: Dashbird
@@ -2939,7 +2950,7 @@ landscape:
             twitter: 'https://twitter.com/zeithq'
             crunchbase: 'https://www.crunchbase.com/organization/zeit'
       - subcategory:
-        name: Hybrid
+        name: Hybrid Platforms
         items:
           - item:
             name: Binaris
@@ -2995,7 +3006,7 @@ landscape:
             twitter: 'https://twitter.com/LunchBadger'
             crunchbase: 'https://www.crunchbase.com/organization/lunchbadger-inc'
       - subcategory:
-        name: Kubernetes-Native
+        name: Kubernetes-Native Platforms
         items:
           - item:
             name: Kubeless

@@ -9946,7 +9946,7 @@ landscape:
             image_data:
               fileName: snyk.png
       - subcategory:
-        name: App Definition & Development
+        name: Libraries
         items:
           - item:
             name: Python Lambda
@@ -9982,6 +9982,41 @@ landscape:
             image_data:
               fileName: python-lambda.svg
               hash: jfd+VvfnfacOqL6SS4VFHJQK6Mt6neQmGtUWXGDKbaI=
+      - subcategory:
+        name: Tools
+        items:
+          - item:
+            name: Architect
+            organization: JS Foundation
+            homepage_url: 'https://arc.codes/'
+            repo_url: 'https://github.com/arc-repos/arc-functions'
+            logo: 'https://js.foundation/wp-content/uploads/sites/33/2017/07/arc-logo-icon2.png'
+            twitter: 'https://twitter.com/arc_fns'
+            crunchbase: 'https://www.crunchbase.com/organization/js-foundation'
+            crunchbase_data:
+              name: JS Foundation
+              description: JS Foundation supports some of the most important projects in the JavaScript ecosystem.
+              num_employees_min: 1
+              num_employees_max: 10
+              homepage: 'https://js.foundation'
+              city: null
+              region: null
+              country: null
+              twitter: 'https://www.twitter.com/the_jsf'
+              linkedin: 'https://www.linkedin.com/company/js-foundation'
+            github_data:
+              stars: 42
+              license: Apache-2.0
+              description: "\U0001F511 cloud function signatures for http handlers, pubsub, scheduled functions and table triggers"
+              latest_commit_date: '2018-01-04T22:22:43Z'
+              latest_commit_link: /arc-repos/arc-functions/commit/2e8dc2eb4ad1ed40ee3f14151e0157c30a50574c
+            github_start_commit_data:
+              start_commit_link: /arc-repos/arc-functions/commit/2eca44cf4308c15b519c0f368beac7e6ab3caf03
+              start_date: '2017-05-03T05:21:31Z'
+            cncf_membership_data:
+              cncf_member: false
+            image_data:
+              fileName: architect.png
           - item:
             name: Dashbird
             organization: Dashbird
@@ -11123,7 +11158,7 @@ landscape:
               fileName: zeit-now.png
               low_res: 508x100
       - subcategory:
-        name: Hybrid
+        name: Hybrid Platforms
         items:
           - item:
             name: Binaris
@@ -11322,7 +11357,7 @@ landscape:
               fileName: lunch-badger.png
               low_res: 200x195
       - subcategory:
-        name: Kubernetes-Native
+        name: Kubernetes-Native Platforms
         items:
           - item:
             name: Kubeless
