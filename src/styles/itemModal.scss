@@ -95,19 +95,18 @@ $blue-hover: #0e61c0;
 
 .iphone {
   .modal {
-    .modal-content {
-      padding-left: 15.9%;
-      padding-right: 15.3%;
-      padding-top: 22%;
-      padding-bottom: 22%;
+    &-content {
+      margin: 40px;
+      padding: 40px 20px 20px;
       position: static !important;
+      background: #fff;
     }
     &-prev {position: fixed; left: 15px; top: 230px; z-index: 15;}
     &-next {position: fixed; right: 15px; top: 230px; z-index: 15;}
     &-close {
       position: fixed;
-      top: 65px;
-      right: 25px;
+      top: 40px;
+      right: 40px;
       font-size: 30px;
       opacity: 0.4;
       color: #000;

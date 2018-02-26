@@ -22,13 +22,6 @@ const ItemDialog = ({onClose, itemInfo}) => {
         </div>
     )
   }
-  // setTimeout(function() {
-    // const existingFrame = document.querySelector('iframe[data-widget-id]');
-    // if (existingFrame) {
-      // existingFrame.parentNode.removeChild(existingFrame);
-    // }
-    // window.twttr.widgets.load();
-  // });
   return (
     <Dialog open={true} onClose={() => onClose()}
       classes={{paper:'modal-body'}}
