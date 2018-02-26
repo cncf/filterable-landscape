@@ -69,7 +69,7 @@ export async function extractSavedImageEntries() {
 
 
 function imageExist(entry) {
-  const fileName = './src/logos/' + entry.fileName ;
+  const fileName = './cached_logos/' + entry.fileName ;
   return require('fs').existsSync(fileName);
 }
 
@@ -136,9 +136,9 @@ export async function fetchImageEntries({cache, preferCache}) {
         let low_res;
         if (ext === '.svg') {
           const processedSvg = await ensureViewBoxExists(response);
-          require('fs').writeFileSync(`src/logos/${fileName}`, processedSvg);
+          require('fs').writeFileSync(`cached_logos/${fileName}`, processedSvg);
         } else {
-          const result = await normalizeImage({inputFile: response,outputFile: `src/logos/${fileName}`, item});
+          const result = await normalizeImage({inputFile: response,outputFile: `cached_logos/${fileName}`, item});
           low_res = result.low_res;
         }
         require('process').stdout.write(cacheMiss("*"));
@@ -169,11 +169,11 @@ export async function fetchImageEntries({cache, preferCache}) {
 }
 
 export function removeNonReferencedImages(imageEntries) {
-  const existingFiles = fs.readdirSync('./src/logos');
+  const existingFiles = fs.readdirSync('./cached_logos');
   const allowedFiles = imageEntries.filter( (e) => !!e).map( (e) => e.fileName );
   _.each(existingFiles, function(existingFile) {
     if (allowedFiles.indexOf(existingFile) === -1){
-      fs.unlinkSync('./src/logos/' + existingFile);
+      fs.unlinkSync('./cached_logos/' + existingFile);
     }
   })
 }
