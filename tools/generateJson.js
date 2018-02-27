@@ -195,6 +195,17 @@ if (hasEmptyCrunchbase) {
   require('process').exit(1);
 }
 
+var hasBadCrunchbase = false;
+_.each(itemsWithExtraFields, function(item) {
+  if (item.crunchbase.indexOf('https://www.crunchbase.com/organization/') !== 0) {
+    hasBadCrunchbase = true;
+    console.info(`${item.name}  has a crunchbase ${item.crunchbase} which does not start with 'https://www.crunchbase.com/organization'`);
+  }
+});
+if (hasBadCrunchbase) {
+  require('process').exit(1);
+}
+
 
 
 
