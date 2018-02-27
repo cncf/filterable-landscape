@@ -1,7 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 
-import { createSelector } from 'reselect';
+import createSelector from '../utils/createSelector';
 import { parseUrl } from '../utils/syncToUrl';
 import { changeParameters} from '../reducers/mainReducer';
 

@@ -1,5 +1,5 @@
 import { connect } from 'react-redux';
-import { createSelector } from 'reselect';
+import createSelector from '../utils/createSelector';
 import _ from 'lodash';
 import ItemDialogButtons from './ItemDialogButtons';
 
@@ -7,8 +7,7 @@ import { changeSelectedItemId, closeDialog } from '../reducers/mainReducer';
 import getGroupedItems from '../utils/itemsCalculator';
 
 const getSelectedItem = createSelector(
-  (state) => getGroupedItems(state),
-  (state) => state.main.selectedItemId,
+  [ getGroupedItems, (state) => state.main.selectedItemId ],
   function(groupedItems, selectedItemId) {
     const items = _.flatten(_.map(groupedItems, 'items'));
     const index = _.findIndex(items, {id: selectedItemId});

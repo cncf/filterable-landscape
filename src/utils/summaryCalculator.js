@@ -1,9 +1,9 @@
-import { createSelector } from 'reselect';
+import createSelector from '../utils/createSelector';
 import _ from 'lodash';
 import { getFilteredItems } from './itemsCalculator';
 
 const getOrganizations = createSelector(
-  (state) => getFilteredItems(state),
+  [ getFilteredItems ],
   function(filteredItems) {
     const result = {};
     _.each(filteredItems, function(item) {
@@ -20,8 +20,7 @@ const getOrganizations = createSelector(
 );
 
 const getSummary = createSelector(
-  (state) => getFilteredItems(state),
-  (state) => getOrganizations(state),
+  [ getFilteredItems, getOrganizations],
   function(filteredItems, organizations) {
     const total = filteredItems.length;
     const stars = _.sum(_.map(filteredItems, (x) => x.stars  || 0));

@@ -9,6 +9,7 @@ import Presets from './Presets';
 import Ad from './Ad';
 import MainContentContainer from './MainContentContainer';
 import HomePageUrlContainer from './HomePageUrlContainer';
+import HomePageScrollerContainer from './HomePageScrollerContainer';
 import ResetFiltersContainer from './ResetFiltersContainer';
 import ItemDialogContainer from './ItemDialogContainer';
 import ItemDialogButtonsContainer from './ItemDialogButtonsContainer';
@@ -73,6 +74,7 @@ const HomePage = ({ready, hasSelectedItem, filtersVisible, hideFilters, showFilt
 
   return (
     <div>
+    <HomePageScrollerContainer/>
     <ItemDialogContainer/>
     <ItemDialogButtonsContainer/>
     <div className={classNames('app',{'filters-opened' : filtersVisible, 'background': isIphone && hasSelectedItem})}>

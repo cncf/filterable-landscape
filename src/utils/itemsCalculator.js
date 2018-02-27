@@ -1,4 +1,4 @@
-import { createSelector } from 'reselect';
+import createSelector from '../utils/createSelector';
 import _ from 'lodash';
 import fields, { filterFn, getGroupingValue } from '../types/fields';
 import groupingLabel from '../utils/groupingLabel';
@@ -9,8 +9,9 @@ import { filtersToUrl } from '../utils/syncToUrl';
 import stringOrSpecial from '../utils/stringOrSpecial';
 
 export const getFilteredItems = createSelector(
-  (state) => state.main.data,
-  (state) => state.main.filters,
+  [(state) => state.main.data,
+  (state) => state.main.filters
+  ],
   function(data, filters) {
     var filterCncfHostedProject = filterFn({field: 'cncfRelation', filters});
     // var filterByCertifiedKubernetes = filterFn({field: 'certifiedKubernetes', filters});
@@ -26,7 +27,7 @@ export const getFilteredItems = createSelector(
 );
 
 const getExtraFields = createSelector(
-  (state) => getFilteredItems(state),
+  [ getFilteredItems ],
   function(data) {
     return _.map(data, function(data) {
       const hasStars = data.stars !== 'N/A' && data.stars !== 'Not Entered Yet';
@@ -42,9 +43,11 @@ const getExtraFields = createSelector(
 );
 
 const getSortedItems = createSelector(
-  (state) => getExtraFields(state),
+  [
+  getExtraFields,
   (state) => state.main.sortField,
-  (state) => state.main.sortDirection,
+  (state) => state.main.sortDirection
+  ],
   function(data, sortField, sortDirection) {
     const emptyItemsNA = data.filter(function(x) {
       return x[sortField] === 'N/A';
@@ -85,10 +88,12 @@ const getSortedItems = createSelector(
 );
 
 const getGroupedItems = createSelector(
-  (state) => getSortedItems(state),
+  [
+  getSortedItems,
   (state) => state.main.grouping,
   (state) => state.main.filters,
-  (state) => state.main.sortField,
+  (state) => state.main.sortField
+  ],
   function(items, grouping, filters, sortField) {
     if (grouping === 'no') {
       return [{
