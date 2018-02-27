@@ -2,6 +2,7 @@ import React from 'react';
 import Dialog from 'material-ui/Dialog';
 import classNames from 'classnames'
 import ItemDialogContent from './ItemDialogContent';
+import ItemDialogButtonsContainer from './ItemDialogButtonsContainer';
 
 import '../styles/itemModal.scss';
 import isIphone from '../utils/isIphone';
@@ -30,6 +31,7 @@ const ItemDialog = ({onClose, itemInfo}) => {
                                                  {graduated : itemInfo.cncfRelation ==='graduated'},
                                                  {nonoss : itemInfo.oss === false})}
       >
+        <ItemDialogButtonsContainer/>
         <ItemDialogContent itemInfo={itemInfo}/>
     </Dialog>
   );

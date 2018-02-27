@@ -76,7 +76,7 @@ const HomePage = ({ready, hasSelectedItem, filtersVisible, hideFilters, showFilt
     <div>
     <HomePageScrollerContainer/>
     <ItemDialogContainer/>
-    <ItemDialogButtonsContainer/>
+    { isIphone && <ItemDialogButtonsContainer/> }
     <div className={classNames('app',{'filters-opened' : filtersVisible, 'background': isIphone && hasSelectedItem})}>
       <div className={classNames({"shadow": isIphone && hasSelectedItem})} onClick={onClose} />
       <div style={{marginTop: (isIphone && hasSelectedItem) ? -state.lastScrollPosition : 0}} className={classNames({"iphone-scroller": isIphone && hasSelectedItem})} >
