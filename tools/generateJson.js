@@ -206,6 +206,18 @@ if (hasBadCrunchbase) {
   require('process').exit(1);
 }
 
+var hasBadRepoUrl = false;
+_.each(itemsWithExtraFields, function(item) {
+  if (item.repo_url
+    && (item.repo_url.indexOf('https://github.com') !== 0 || item.repo_url.split('/').filter( (x) => !!x).length !== 4)
+  ) {
+    hasBadRepoUrl = true;
+    console.info(`${item.name}  has a repo_url ${item.repo_url} which does not look like a good github repo url`);
+  }
+});
+if (hasBadRepoUrl) {
+  require('process').exit(1);
+}
 
 
 
