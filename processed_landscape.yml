@@ -6691,7 +6691,7 @@ landscape:
         items:
           - item:
             name: Argo
-            organization: Applatix
+            organization: Intuit
             homepage_url: 'https://applatix.com/open-source/argo/'
             repo_url: 'https://github.com/argoproj/argo'
             logo: ./hosted_logos/argo.svg
@@ -6940,7 +6940,7 @@ landscape:
               kind: funding
               funding: 53648146
             cncf_membership_data:
-              cncf_member: false
+              cncf_member: true
             image_data:
               fileName: cloudbees.png
           - item:
@@ -6969,24 +6969,24 @@ landscape:
               fileName: codefresh.png
           - item:
             name: Codeship
-            organization: Codeship
+            organization: Cloudbees
             homepage_url: 'https://codeship.com/'
             logo: 'https://gemnasium.com/img/gemnasium/codeship_logo.svg'
             twitter: 'https://twitter.com/codeship'
-            crunchbase: 'https://www.crunchbase.com/organization/codeship'
+            crunchbase: 'https://www.crunchbase.com/organization/cloudbees'
             crunchbase_data:
-              name: Codeship
-              description: Bringing Continuous Deployment to everyone The - Codeship runs your hosted tests and automated deployments.
-              num_employees_min: 11
-              num_employees_max: 50
-              homepage: 'https://codeship.com'
-              city: Boston
-              region: Massachusetts
+              name: CloudBees
+              description: 'CloudBees offers CloudBees Jenkins Enterprise, an enterprise-grade continuous delivery platform powered by Jenkins.'
+              num_employees_min: 251
+              num_employees_max: 500
+              homepage: 'http://www.cloudbees.com'
+              city: San Jose
+              region: California
               country: United States
-              twitter: 'http://twitter.com/codeship'
-              linkedin: 'http://www.linkedin.com/company/codeship'
+              twitter: 'http://twitter.com/CloudBees'
+              linkedin: 'http://www.linkedin.com/company/cloudbees'
               kind: funding
-              funding: 11400000
+              funding: 53648146
             cncf_membership_data:
               cncf_member: true
             image_data:
@@ -7696,7 +7696,7 @@ landscape:
               cncf_member: true
             image_data:
               fileName: ghostcloud-ec-os.svg
-              hash: ItBKWCOzBXNY5tl9krfHViDW+mIEQ+LQv8t3BPCBcsA=
+              hash: 91n1l1/S7bHmOlrVrDV+fwxiwpUz8Q48fb8c0X6qukQ=
           - item:
             name: Giant Swarm Managed Kubernetes
             organization: Giant Swarm
@@ -8702,7 +8702,7 @@ landscape:
               cncf_member: true
             image_data:
               fileName: e-king-cloud-container-platform.svg
-              hash: zPyXG/8cwN0MmcNLlKUt+66Wz4TfhGko0DiWo6HgTcQ=
+              hash: MLwg1oxPmODy69hIi5nQ5ioCchHVHz+KzGaUPjqyZNU=
           - item:
             name: Google Kubernetes Engine (GKE)
             organization: Google
@@ -10468,7 +10468,7 @@ landscape:
               start_commit_link: /serverless/serverless/commit/b297fcb835428108bd1b4e75cb519c0fabff39fa
               start_date: '2015-04-21T03:49:10Z'
             cncf_membership_data:
-              cncf_member: false
+              cncf_member: true
             image_data:
               fileName: serverless.svg
               hash: XKz5Q6YAUVt1UXjUah3AZiyVzIJCkUn3Pw6rGVIIY3s=
@@ -10981,7 +10981,7 @@ landscape:
               ticker: TWLO
               kind: market_cap
             cncf_membership_data:
-              cncf_member: false
+              cncf_member: true
             yahoo_finance_data:
               market_cap: 3151846144
               effective_ticker: TWLO
@@ -12092,7 +12092,7 @@ landscape:
               kind: funding
               funding: 27500000
             cncf_membership_data:
-              cncf_member: false
+              cncf_member: true
             image_data:
               fileName: lighstep.svg
           - item:
@@ -12542,7 +12542,7 @@ landscape:
               kind: funding
               funding: 28500000
             cncf_membership_data:
-              cncf_member: false
+              cncf_member: true
             image_data:
               fileName: signal-fx.svg
           - item:
@@ -13600,7 +13600,7 @@ landscape:
               cncf_member: true
             image_data:
               fileName: ghostcloud-ec-os.svg
-              hash: ItBKWCOzBXNY5tl9krfHViDW+mIEQ+LQv8t3BPCBcsA=
+              hash: 91n1l1/S7bHmOlrVrDV+fwxiwpUz8Q48fb8c0X6qukQ=
           - item:
             name: Giant Swarm
             organization: Giant Swarm (KCSP)
