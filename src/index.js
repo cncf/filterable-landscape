@@ -52,7 +52,7 @@ if (isIphone) {
   setInterval(updateOrientation, 1000);
 }
 function updateOrientation() {
-  if (window.innerWidth < window.innerHeight) {
+  if (window.matchMedia("(orientation: portrait)").matches) {
     document.querySelector('html').classList.remove('landscape');
     document.querySelector('html').classList.add('portrait');
   } else {
