@@ -7,8 +7,8 @@ which git || (
   apt-get update
   apt-get -y install git
 )
-git config --global user.email "l-2732@example.com"
-git config --global user.name "Auto Updater"
+git config --global user.email "l-2732@ya.ru"
+git config --global user.name "CNCF-Bot"
 node -v | grep 8.9 || (
   curl -sL https://deb.nodesource.com/setup_8.x -o nodesource_setup.sh
   bash nodesource_setup.sh
