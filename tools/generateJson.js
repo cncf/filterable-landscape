@@ -72,25 +72,6 @@ tree.map(function(node) {
       }
       return (node.crunchbase_data || {}).effective_ticker;
     };
-    var hasBadImages = false;
-    if (!node.image_data) {
-      console.info(`Item ${node.name} has no image_data`);
-      hasBadImages = true;
-    }
-    const imageFileName = './cached_logos/' + node.image_data.fileName;
-    if (!require('fs').existsSync(imageFileName)) {
-      console.info(`Item ${node.name} does not have a file ${imageFileName} on the disk`);
-      hasBadImages = true;
-    } else {
-      const fileSize = require('fs').statSync(imageFileName).size;
-      if (fileSize < 100) {
-        console.info(`Item ${node.name} has a file ${imageFileName} size less than 100 bytes`);
-        hasBadImages = true;
-      }
-    }
-    if(hasBadImages) {
-      require('process').exit(-1);
-    }
 
     const getCommitLink = function(link) {
       if (!link) {
@@ -219,6 +200,28 @@ if (hasBadRepoUrl) {
   require('process').exit(1);
 }
 
+var hasBadImages = false;
+_.each(itemsWithExtraFields, function(item) {
+  if (!item.image_data) {
+    console.info(`Item ${item.name} has no image_data`);
+    hasBadImages = true;
+  } else {
+    const imageFileName = './cached_logos/' + item.image_data.fileName;
+    if (!require('fs').existsSync(imageFileName)) {
+      console.info(`Item ${item.name} does not have a file ${imageFileName} on the disk`);
+      hasBadImages = true;
+    } else {
+      const fileSize = require('fs').statSync(imageFileName).size;
+      if (fileSize < 100) {
+        console.info(`Item ${item.name} has a file ${imageFileName} size less than 100 bytes`);
+        hasBadImages = true;
+      }
+    }
+  }
+});
+if(hasBadImages) {
+  require('process').exit(-1);
+}
 
 
 
