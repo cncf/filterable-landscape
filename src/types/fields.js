@@ -23,7 +23,7 @@ const fields = {
       label: 'CNCF Projects',
       url: 'hosted',
       level: 1,
-      children: ['graduated', 'incubating', 'inception']
+      children: ['graduated', 'incubating', 'sandbox']
     }, {
       id: 'graduated',
       label: 'Graduated CNCF Projects',
@@ -39,10 +39,10 @@ const fields = {
       level: 2,
       parentId: 'hosted'
     }, {
-      id: 'inception',
-      label: 'Inception CNCF Projects',
-      tag: 'Inception',
-      url: 'inception',
+      id: 'sandbox',
+      label: 'Sandbox CNCF Projects',
+      tag: 'Sandbox',
+      url: 'sandbox',
       level: 2,
       parentId: 'hosted'
     }, {

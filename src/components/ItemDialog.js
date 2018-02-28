@@ -13,7 +13,7 @@ const ItemDialog = ({onClose, itemInfo}) => {
   }
   if (isIphone) {
     return (
-      <div className={classNames('modal', 'product', {inception : itemInfo.cncfRelation ==='inception'},
+      <div className={classNames('modal', 'product', {sandbox : itemInfo.cncfRelation ==='sandbox'},
           {incubating : itemInfo.cncfRelation ==='incubating'},
           {graduated : itemInfo.cncfRelation ==='graduated'},
           {nonoss : itemInfo.oss === false})}
@@ -26,7 +26,7 @@ const ItemDialog = ({onClose, itemInfo}) => {
   return (
     <Dialog open={true} onClose={() => onClose()}
       classes={{paper:'modal-body'}}
-      className={classNames('modal', 'product', {inception : itemInfo.cncfRelation ==='inception'},
+      className={classNames('modal', 'product', {sandbox : itemInfo.cncfRelation ==='sandbox'},
                                                  {incubating : itemInfo.cncfRelation ==='incubating'},
                                                  {graduated : itemInfo.cncfRelation ==='graduated'},
                                                  {nonoss : itemInfo.oss === false})}

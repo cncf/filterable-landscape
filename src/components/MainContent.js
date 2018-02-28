@@ -16,7 +16,7 @@ const MainContent = ({groupedItems, onSelectItem}) => {
       </div>
     ].concat(_.map(groupedItem.items, function(item) {
       return (<div className="mosaic-wrap">
-        <div className={classNames('mosaic',{inception : item.cncfRelation ==='inception'},
+        <div className={classNames('mosaic',{sandbox : item.cncfRelation ==='sandbox'},
                                                   {incubating : item.cncfRelation ==='incubating'},
                                                   {graduated : item.cncfRelation ==='graduated'},
                                                   {nonoss : item.oss === false})}
