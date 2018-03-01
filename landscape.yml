@@ -1067,13 +1067,6 @@ landscape:
             twitter: 'https://twitter.com/vamp_io'
             crunchbase: 'https://www.crunchbase.com/organization/magnetic-io'
           - item:
-            name: Weave Flux
-            homepage_url: 'https://www.weave.works/oss/flux/'
-            repo_url: 'https://github.com/weaveworks/flux'
-            logo: ./hosted_logos/weave-flux.svg
-            twitter: 'https://twitter.com/weaveworks'
-            crunchbase: 'https://www.crunchbase.com/organization/weaveworks'
-          - item:
             name: Zuul
             homepage_url: 'https://github.com/Netflix/zuul'
             repo_url: 'https://github.com/Netflix/zuul'
@@ -1405,7 +1398,7 @@ landscape:
             twitter: 'https://twitter.com/streamsets'
             crunchbase: 'https://www.crunchbase.com/organization/streamsets'
       - subcategory:
-        name: Source Code Management (SCM)
+        name: Source Code Management
         items:
           - item:
             name: Bitbucket
@@ -1482,7 +1475,7 @@ landscape:
             twitter: 'https://twitter.com/HashiCorp'
             crunchbase: 'https://www.crunchbase.com/organization/hashicorp'
       - subcategory:
-        name: CI/CD
+        name: Continuous Integration / Continuous Delivery (CI/CD)
         items:
           - item:
             name: Argo
@@ -1641,6 +1634,13 @@ landscape:
             logo: 'https://blog.webcanopystudio.com/hubfs/wercker_logo_blue.svg'
             twitter: 'https://twitter.com/wercker'
             crunchbase: 'https://www.crunchbase.com/organization/oracle'
+          - item:
+            name: Weave Flux
+            homepage_url: 'https://www.weave.works/oss/flux/'
+            repo_url: 'https://github.com/weaveworks/flux'
+            logo: ./hosted_logos/weave-flux.svg
+            twitter: 'https://twitter.com/weaveworks'
+            crunchbase: 'https://www.crunchbase.com/organization/weaveworks'
           - item:
             name: XL Deploy
             homepage_url: 'https://xebialabs.com/products/xl-deploy/'
