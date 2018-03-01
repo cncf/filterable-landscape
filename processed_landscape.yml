@@ -1084,66 +1084,6 @@ landscape:
               fileName: amazon-elastic-container-registry-ecr.svg
               hash: rdgKb+1nl0GlWEXx8WVO9Hyr1WkVW6l6HFxNPXWfRyQ=
           - item:
-            name: JFrog Artifactory
-            homepage_url: 'https://www.jfrog.com/artifactory/'
-            logo: 'https://docs.tea-ci.org/logos/artifactory.svg'
-            twitter: 'https://twitter.com/jfrog'
-            crunchbase: 'https://www.crunchbase.com/organization/jfrog-ltd'
-            crunchbase_data:
-              name: JFrog
-              description: JFrog provides software developers with a binary repository management solution.
-              num_employees_min: 101
-              num_employees_max: 250
-              homepage: 'http://www.jfrog.com'
-              city: Sunnyvale
-              region: California
-              country: United States
-              twitter: 'http://twitter.com/jfrog'
-              linkedin: 'http://www.linkedin.com/company/455737'
-              kind: funding
-              funding: 61500000
-            cncf_membership_data:
-              cncf_member: true
-            image_data:
-              fileName: j-frog-artifactory.svg
-          - item:
-            name: Project Atomic
-            homepage_url: 'https://www.projectatomic.io/'
-            repo_url: 'https://github.com/projectatomic/atomic'
-            logo: ./hosted_logos/projectatomic.svg
-            twitter: 'https://twitter.com/projectatomic'
-            crunchbase: 'https://www.crunchbase.com/organization/red-hat'
-            crunchbase_data:
-              name: Red Hat
-              description: "Red Hat is\_a multinational software company engaged in providing open-source software products to the enterprise community."
-              num_employees_min: 5001
-              num_employees_max: 10000
-              homepage: 'http://www.redhat.com'
-              city: Raleigh
-              region: North Carolina
-              country: United States
-              twitter: 'http://twitter.com/redhatnews'
-              linkedin: 'http://www.linkedin.com/company/red-hat'
-              ticker: RHT
-              kind: market_cap
-            github_data:
-              stars: 398
-              license: Unknown License
-              description: Atomic Run Tool for installing/running/managing container images.
-              latest_commit_date: '2018-02-28T09:42:02Z'
-              latest_commit_link: /projectatomic/atomic/commit/83fce8f33a22408e5584f15225853b04be273a5d
-            github_start_commit_data:
-              start_commit_link: /projectatomic/atomic/commit/2c226ffd5c928cb1f7fe113dce76f14bc01d3a5e
-              start_date: '2015-01-14T22:10:00Z'
-            cncf_membership_data:
-              cncf_member: true
-            yahoo_finance_data:
-              market_cap: 26090389504
-              effective_ticker: RHT
-            image_data:
-              fileName: project-atomic.svg
-              hash: oz3Ry2HA1gQosF+gUkjTXc4mGHFwsKbaE2m2YLh0od8=
-          - item:
             name: Azure Registry
             homepage_url: 'https://azure.microsoft.com/en-us/services/container-registry/'
             logo: ./hosted_logos/azureregistry.svg
@@ -1269,6 +1209,29 @@ landscape:
               fileName: harbor.png
               hash: YXXANT/qherCA1d0LaYginvDvvv7CTJnZIBLCDW2nI0=
           - item:
+            name: JFrog Artifactory
+            homepage_url: 'https://www.jfrog.com/artifactory/'
+            logo: 'https://docs.tea-ci.org/logos/artifactory.svg'
+            twitter: 'https://twitter.com/jfrog'
+            crunchbase: 'https://www.crunchbase.com/organization/jfrog-ltd'
+            crunchbase_data:
+              name: JFrog
+              description: JFrog provides software developers with a binary repository management solution.
+              num_employees_min: 101
+              num_employees_max: 250
+              homepage: 'http://www.jfrog.com'
+              city: Sunnyvale
+              region: California
+              country: United States
+              twitter: 'http://twitter.com/jfrog'
+              linkedin: 'http://www.linkedin.com/company/455737'
+              kind: funding
+              funding: 61500000
+            cncf_membership_data:
+              cncf_member: true
+            image_data:
+              fileName: j-frog-artifactory.svg
+          - item:
             name: Portus
             homepage_url: 'http://port.us.org/'
             repo_url: 'https://github.com/SUSE/Portus'
@@ -1300,6 +1263,43 @@ landscape:
             image_data:
               fileName: portus.svg
               hash: 3BDYuv/aPpZQDb/yE5P/tvHIXbYnbtpSfoKBWq/WrVw=
+          - item:
+            name: Project Atomic
+            homepage_url: 'https://www.projectatomic.io/'
+            repo_url: 'https://github.com/projectatomic/atomic'
+            logo: ./hosted_logos/projectatomic.svg
+            twitter: 'https://twitter.com/projectatomic'
+            crunchbase: 'https://www.crunchbase.com/organization/red-hat'
+            crunchbase_data:
+              name: Red Hat
+              description: "Red Hat is\_a multinational software company engaged in providing open-source software products to the enterprise community."
+              num_employees_min: 5001
+              num_employees_max: 10000
+              homepage: 'http://www.redhat.com'
+              city: Raleigh
+              region: North Carolina
+              country: United States
+              twitter: 'http://twitter.com/redhatnews'
+              linkedin: 'http://www.linkedin.com/company/red-hat'
+              ticker: RHT
+              kind: market_cap
+            github_data:
+              stars: 398
+              license: Unknown License
+              description: Atomic Run Tool for installing/running/managing container images.
+              latest_commit_date: '2018-02-28T09:42:02Z'
+              latest_commit_link: /projectatomic/atomic/commit/83fce8f33a22408e5584f15225853b04be273a5d
+            github_start_commit_data:
+              start_commit_link: /projectatomic/atomic/commit/2c226ffd5c928cb1f7fe113dce76f14bc01d3a5e
+              start_date: '2015-01-14T22:10:00Z'
+            cncf_membership_data:
+              cncf_member: true
+            yahoo_finance_data:
+              market_cap: 26090389504
+              effective_ticker: RHT
+            image_data:
+              fileName: project-atomic.svg
+              hash: oz3Ry2HA1gQosF+gUkjTXc4mGHFwsKbaE2m2YLh0od8=
           - item:
             name: Quay
             homepage_url: 'https://quay.io/'
@@ -1627,39 +1627,6 @@ landscape:
         name: Key Management
         items:
           - item:
-            name: Vault
-            homepage_url: 'https://www.vaultproject.io/'
-            repo_url: 'https://github.com/hashicorp/vault'
-            logo: 'https://hyzxph.media.zestyio.com/blog-vault-list.svg'
-            twitter: 'https://twitter.com/HashiCorp'
-            crunchbase: 'https://www.crunchbase.com/organization/hashicorp'
-            crunchbase_data:
-              name: HashiCorp
-              description: 'HashiCorp enables organizations to provision, secure, and run any infrastructure for any application.'
-              num_employees_min: 101
-              num_employees_max: 250
-              homepage: 'https://www.hashicorp.com'
-              city: San Francisco
-              region: California
-              country: United States
-              twitter: 'https://twitter.com/HashiCorp'
-              linkedin: 'https://www.linkedin.com/company/HashiCorp'
-              kind: funding
-              funding: 74175000
-            github_data:
-              stars: 8600
-              license: MPL-2.0
-              description: 'A tool for secrets management, encryption as a service, and privileged access management'
-              latest_commit_date: '2018-02-28T15:08:28Z'
-              latest_commit_link: /hashicorp/vault/commit/94b59072023bff2171ce2acb1d5ce8cccbf461bc
-            github_start_commit_data:
-              start_commit_link: /hashicorp/vault/commit/ed3069f01d4ee023d296212a3521d3354f109194
-              start_date: '2015-02-25T00:15:59Z'
-            cncf_membership_data:
-              cncf_member: false
-            image_data:
-              fileName: vault.svg
-          - item:
             name: Keywhiz
             homepage_url: 'https://square.github.io/keywhiz/'
             repo_url: 'https://github.com/square/keywhiz'
@@ -1851,6 +1818,39 @@ landscape:
             image_data:
               fileName: spire.svg
               hash: 7N0UYFkJc2C2HjFBnGVXrQcHiaU26ZAJGkJa316qVBc=
+          - item:
+            name: Vault
+            homepage_url: 'https://www.vaultproject.io/'
+            repo_url: 'https://github.com/hashicorp/vault'
+            logo: 'https://hyzxph.media.zestyio.com/blog-vault-list.svg'
+            twitter: 'https://twitter.com/HashiCorp'
+            crunchbase: 'https://www.crunchbase.com/organization/hashicorp'
+            crunchbase_data:
+              name: HashiCorp
+              description: 'HashiCorp enables organizations to provision, secure, and run any infrastructure for any application.'
+              num_employees_min: 101
+              num_employees_max: 250
+              homepage: 'https://www.hashicorp.com'
+              city: San Francisco
+              region: California
+              country: United States
+              twitter: 'https://twitter.com/HashiCorp'
+              linkedin: 'https://www.linkedin.com/company/HashiCorp'
+              kind: funding
+              funding: 74175000
+            github_data:
+              stars: 8600
+              license: MPL-2.0
+              description: 'A tool for secrets management, encryption as a service, and privileged access management'
+              latest_commit_date: '2018-02-28T15:08:28Z'
+              latest_commit_link: /hashicorp/vault/commit/94b59072023bff2171ce2acb1d5ce8cccbf461bc
+            github_start_commit_data:
+              start_commit_link: /hashicorp/vault/commit/ed3069f01d4ee023d296212a3521d3354f109194
+              start_date: '2015-02-25T00:15:59Z'
+            cncf_membership_data:
+              cncf_member: false
+            image_data:
+              fileName: vault.svg
   - category:
     name: Runtime
     subcategories:
@@ -2029,6 +2029,34 @@ landscape:
               effective_ticker: RHT
             image_data:
               fileName: gluster.png
+          - item:
+            name: Hatchway
+            homepage_url: 'https://vmware.github.io/hatchway/'
+            stock_ticker: VMW
+            logo: ./hosted_logos/hatchway.svg
+            twitter: 'https://twitter.com/VMware'
+            crunchbase: 'https://www.crunchbase.com/organization/vmware'
+            crunchbase_data:
+              name: VMware
+              description: VMware is a software company providing cloud and virtualization services.
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: 'http://www.vmware.com'
+              city: Palo Alto
+              region: California
+              country: United States
+              twitter: 'http://twitter.com/VMware'
+              linkedin: 'http://www.linkedin.com/company/vmware'
+              ticker: VMW
+              kind: market_cap
+            cncf_membership_data:
+              cncf_member: true
+            yahoo_finance_data:
+              market_cap: 53113430016
+              effective_ticker: VMW
+            image_data:
+              fileName: hatchway.svg
+              hash: 0qAS4uH7xHdLUbiWxZmTt4sKrzIoO1Vacegynq8S39I=
           - item:
             name: Hedvig
             homepage_url: 'https://www.hedviginc.com/'
@@ -2238,6 +2266,39 @@ landscape:
               fileName: net-app.svg
               hash: HgP5tBOiikwLVe7QoJdUH6BemVKig9czmN8IMKzTVVM=
           - item:
+            name: OpenEBS
+            homepage_url: 'https://www.openebs.io/'
+            repo_url: 'https://github.com/openebs/openebs'
+            logo: 'https://github.com/openebs/chitrakala/blob/master/logo/png/logo-01.png'
+            twitter: 'https://twitter.com/openebs'
+            crunchbase: 'https://www.crunchbase.com/organization/openebs'
+            crunchbase_data:
+              name: OpenEBS
+              description: OpenEBS is a scalable storage platform for spinning out containerized block storage volumes for use by container applications.
+              num_employees_min: 11
+              num_employees_max: 50
+              homepage: 'https://www.openebs.io'
+              city: Bengaluru
+              region: Karnataka
+              country: India
+              twitter: 'https://twitter.com/openebs'
+              linkedin: 'https://www.linkedin.com/company/openebs'
+            github_data:
+              stars: 4965
+              license: Apache-2.0
+              description: >-
+                OpenEBS is containerized block storage written in Go for cloud native and other environments w/ per container (or pod) QoS SLAs, tiering and
+                replica policies across AZs and environments, and predictable and scalable performance.
+              latest_commit_date: '2018-02-28T09:08:06Z'
+              latest_commit_link: /openebs/openebs/commit/8e5b84402fbbb20f317f2a14751b27f84d5b207c
+            github_start_commit_data:
+              start_commit_link: /openebs/openebs/commit/cc82fd0b656b2aa39677438bdb17484391d36f2a
+              start_date: '2016-08-01T09:33:33Z'
+            cncf_membership_data:
+              cncf_member: true
+            image_data:
+              fileName: open-ebs.png
+          - item:
             name: OpenIO
             homepage_url: 'https://www.openio.io/'
             repo_url: 'https://github.com/open-io/oio-sds'
@@ -2271,39 +2332,6 @@ landscape:
             image_data:
               fileName: open-io.svg
               hash: a8QrzDPMXLq4AxR15D4D88l2EGlE/6OfkoprYgLtJyM=
-          - item:
-            name: OpenEBS
-            homepage_url: 'https://www.openebs.io/'
-            repo_url: 'https://github.com/openebs/openebs'
-            logo: 'https://github.com/openebs/chitrakala/blob/master/logo/png/logo-01.png'
-            twitter: 'https://twitter.com/openebs'
-            crunchbase: 'https://www.crunchbase.com/organization/openebs'
-            crunchbase_data:
-              name: OpenEBS
-              description: OpenEBS is a scalable storage platform for spinning out containerized block storage volumes for use by container applications.
-              num_employees_min: 11
-              num_employees_max: 50
-              homepage: 'https://www.openebs.io'
-              city: Bengaluru
-              region: Karnataka
-              country: India
-              twitter: 'https://twitter.com/openebs'
-              linkedin: 'https://www.linkedin.com/company/openebs'
-            github_data:
-              stars: 4965
-              license: Apache-2.0
-              description: >-
-                OpenEBS is containerized block storage written in Go for cloud native and other environments w/ per container (or pod) QoS SLAs, tiering and
-                replica policies across AZs and environments, and predictable and scalable performance.
-              latest_commit_date: '2018-02-28T09:08:06Z'
-              latest_commit_link: /openebs/openebs/commit/8e5b84402fbbb20f317f2a14751b27f84d5b207c
-            github_start_commit_data:
-              start_commit_link: /openebs/openebs/commit/cc82fd0b656b2aa39677438bdb17484391d36f2a
-              start_date: '2016-08-01T09:33:33Z'
-            cncf_membership_data:
-              cncf_member: true
-            image_data:
-              fileName: open-ebs.png
           - item:
             name: OpenSDS
             homepage_url: 'https://www.opensds.io/'
@@ -2358,34 +2386,6 @@ landscape:
               cncf_member: true
             image_data:
               fileName: portworx.png
-          - item:
-            name: Hatchway
-            homepage_url: 'https://vmware.github.io/hatchway/'
-            stock_ticker: VMW
-            logo: ./hosted_logos/hatchway.svg
-            twitter: 'https://twitter.com/VMware'
-            crunchbase: 'https://www.crunchbase.com/organization/vmware'
-            crunchbase_data:
-              name: VMware
-              description: VMware is a software company providing cloud and virtualization services.
-              num_employees_min: 10001
-              num_employees_max: 1000000
-              homepage: 'http://www.vmware.com'
-              city: Palo Alto
-              region: California
-              country: United States
-              twitter: 'http://twitter.com/VMware'
-              linkedin: 'http://www.linkedin.com/company/vmware'
-              ticker: VMW
-              kind: market_cap
-            cncf_membership_data:
-              cncf_member: true
-            yahoo_finance_data:
-              market_cap: 53113430016
-              effective_ticker: VMW
-            image_data:
-              fileName: hatchway.svg
-              hash: 0qAS4uH7xHdLUbiWxZmTt4sKrzIoO1Vacegynq8S39I=
           - item:
             name: Pure Storage
             homepage_url: 'https://www.purestorage.com/'
@@ -3717,6 +3717,38 @@ landscape:
         name: Coordination & Service Discovery
         items:
           - item:
+            name: Apache Zookeeper
+            homepage_url: 'http://zookeeper.apache.org/'
+            repo_url: 'https://github.com/apache/zookeeper'
+            logo: ./hosted_logos/zookeeper.svg
+            twitter: 'https://twitter.com/TheASF'
+            crunchbase: 'https://www.crunchbase.com/organization/apache'
+            crunchbase_data:
+              name: Apache Software Foundation
+              description: 'Apache Software Foundation (501C3) provides organizational, legal and financial support for Apache open-source software projects.'
+              num_employees_min: 1
+              num_employees_max: 10
+              homepage: 'http://www.apache.org'
+              city: Forest Hill
+              region: Maryland
+              country: United States
+              twitter: 'http://twitter.com/TheASF'
+              linkedin: 'http://www.linkedin.com/company/the-apache-software-foundation'
+            github_data:
+              stars: 3987
+              license: Apache-2.0
+              description: Mirror of Apache Hadoop ZooKeeper
+              latest_commit_date: '2018-02-23T22:49:00Z'
+              latest_commit_link: /apache/zookeeper/commit/722ba9409a44a35d287aac803813f508cff2420a
+            github_start_commit_data:
+              start_commit_link: /apache/zookeeper/commit/047d9258a4730791b85cc81b0e1435465a32acbf
+              start_date: '2007-11-03T04:41:15Z'
+            cncf_membership_data:
+              cncf_member: false
+            image_data:
+              fileName: apache-zookeeper.svg
+              hash: hHsrORh9U0aE4pehvRbQ0uWUtri/9eU6ku0U/ByWhrM=
+          - item:
             name: Consul
             homepage_url: 'https://www.consul.io/'
             repo_url: 'https://github.com/hashicorp/consul'
@@ -3889,44 +3921,6 @@ landscape:
               fileName: eureka.svg
               hash: V3BHjqMHSnI1PfU2PY3+15Kh1t30uEX46dzZyQNB+5E=
           - item:
-            name: VMware Haret
-            homepage_url: 'https://github.com/vmware/haret'
-            stock_ticker: VMW
-            repo_url: 'https://github.com/vmware/haret'
-            logo: ./hosted_logos/vmware-haret.svg
-            twitter: 'https://twitter.com/VMware'
-            crunchbase: 'https://www.crunchbase.com/organization/vmware'
-            crunchbase_data:
-              name: VMware
-              description: VMware is a software company providing cloud and virtualization services.
-              num_employees_min: 10001
-              num_employees_max: 1000000
-              homepage: 'http://www.vmware.com'
-              city: Palo Alto
-              region: California
-              country: United States
-              twitter: 'http://twitter.com/VMware'
-              linkedin: 'http://www.linkedin.com/company/vmware'
-              ticker: VMW
-              kind: market_cap
-            github_data:
-              stars: 466
-              license: Unknown License
-              description: 'A strongly consistent distributed coordination system, built using proven protocols & implemented in Rust.'
-              latest_commit_date: '2017-09-06T05:34:19Z'
-              latest_commit_link: /vmware/haret/commit/d02a4580197d398cecd4de1fad8723556113d8a1
-            github_start_commit_data:
-              start_commit_link: /vmware/haret/commit/35a580bb47b8b2e87bc8ee14a81f1ae7620ddec6
-              start_date: '2015-06-11T17:05:15Z'
-            cncf_membership_data:
-              cncf_member: true
-            yahoo_finance_data:
-              market_cap: 53113430016
-              effective_ticker: VMW
-            image_data:
-              fileName: v-mware-haret.svg
-              hash: vH+f3TclhDvFxAecUMkPz+7HOidIg9Jd8MRg3Stk4Ic=
-          - item:
             name: SkyDNS
             homepage_url: 'https://github.com/skynetservices/skydns'
             repo_url: 'https://github.com/skynetservices/skydns'
@@ -3991,37 +3985,43 @@ landscape:
               fileName: smart-stack.svg
               hash: zXU7CNSyfqOR9OhgYrRHCXXKmmmbSOQJ2pXe69et48A=
           - item:
-            name: Apache Zookeeper
-            homepage_url: 'http://zookeeper.apache.org/'
-            repo_url: 'https://github.com/apache/zookeeper'
-            logo: ./hosted_logos/zookeeper.svg
-            twitter: 'https://twitter.com/TheASF'
-            crunchbase: 'https://www.crunchbase.com/organization/apache'
+            name: VMware Haret
+            homepage_url: 'https://github.com/vmware/haret'
+            stock_ticker: VMW
+            repo_url: 'https://github.com/vmware/haret'
+            logo: ./hosted_logos/vmware-haret.svg
+            twitter: 'https://twitter.com/VMware'
+            crunchbase: 'https://www.crunchbase.com/organization/vmware'
             crunchbase_data:
-              name: Apache Software Foundation
-              description: 'Apache Software Foundation (501C3) provides organizational, legal and financial support for Apache open-source software projects.'
-              num_employees_min: 1
-              num_employees_max: 10
-              homepage: 'http://www.apache.org'
-              city: Forest Hill
-              region: Maryland
+              name: VMware
+              description: VMware is a software company providing cloud and virtualization services.
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: 'http://www.vmware.com'
+              city: Palo Alto
+              region: California
               country: United States
-              twitter: 'http://twitter.com/TheASF'
-              linkedin: 'http://www.linkedin.com/company/the-apache-software-foundation'
+              twitter: 'http://twitter.com/VMware'
+              linkedin: 'http://www.linkedin.com/company/vmware'
+              ticker: VMW
+              kind: market_cap
             github_data:
-              stars: 3987
-              license: Apache-2.0
-              description: Mirror of Apache Hadoop ZooKeeper
-              latest_commit_date: '2018-02-23T22:49:00Z'
-              latest_commit_link: /apache/zookeeper/commit/722ba9409a44a35d287aac803813f508cff2420a
+              stars: 466
+              license: Unknown License
+              description: 'A strongly consistent distributed coordination system, built using proven protocols & implemented in Rust.'
+              latest_commit_date: '2017-09-06T05:34:19Z'
+              latest_commit_link: /vmware/haret/commit/d02a4580197d398cecd4de1fad8723556113d8a1
             github_start_commit_data:
-              start_commit_link: /apache/zookeeper/commit/047d9258a4730791b85cc81b0e1435465a32acbf
-              start_date: '2007-11-03T04:41:15Z'
+              start_commit_link: /vmware/haret/commit/35a580bb47b8b2e87bc8ee14a81f1ae7620ddec6
+              start_date: '2015-06-11T17:05:15Z'
             cncf_membership_data:
-              cncf_member: false
+              cncf_member: true
+            yahoo_finance_data:
+              market_cap: 53113430016
+              effective_ticker: VMW
             image_data:
-              fileName: apache-zookeeper.svg
-              hash: hHsrORh9U0aE4pehvRbQ0uWUtri/9eU6ku0U/ByWhrM=
+              fileName: v-mware-haret.svg
+              hash: vH+f3TclhDvFxAecUMkPz+7HOidIg9Jd8MRg3Stk4Ic=
       - subcategory:
         name: Service Management
         items:
@@ -4096,38 +4096,6 @@ landscape:
               fileName: ambassador.svg
               hash: q8RiOoUQUG78PFNV7IHNj7ZRLcg1Fr3OCAQ67hKrbN0=
           - item:
-            name: Avro
-            homepage_url: 'https://avro.apache.org/'
-            repo_url: 'https://github.com/apache/avro'
-            logo: ./hosted_logos/avro.svg
-            twitter: 'https://twitter.com/TheASF'
-            crunchbase: 'https://www.crunchbase.com/organization/apache'
-            crunchbase_data:
-              name: Apache Software Foundation
-              description: 'Apache Software Foundation (501C3) provides organizational, legal and financial support for Apache open-source software projects.'
-              num_employees_min: 1
-              num_employees_max: 10
-              homepage: 'http://www.apache.org'
-              city: Forest Hill
-              region: Maryland
-              country: United States
-              twitter: 'http://twitter.com/TheASF'
-              linkedin: 'http://www.linkedin.com/company/the-apache-software-foundation'
-            github_data:
-              stars: 855
-              license: Apache-2.0
-              description: Apache Avro
-              latest_commit_date: '2018-02-23T16:38:35Z'
-              latest_commit_link: /apache/avro/commit/61befce7e70aeb13ab5a8d6ff3c336d4f982b9a9
-            github_start_commit_data:
-              start_commit_link: /apache/avro/commit/81cf991f580a841dd8c016921b6c567ae0c0c4f3
-              start_date: '2009-04-09T18:13:31Z'
-            cncf_membership_data:
-              cncf_member: false
-            image_data:
-              fileName: apache-avro.svg
-              hash: AEyXqjHPatTNELqhvfT0jdkAdGd+nBMzgYrhg364F2A=
-          - item:
             name: Apache Thrift
             homepage_url: 'https://thrift.apache.org/'
             repo_url: 'https://github.com/apache/thrift'
@@ -4182,6 +4150,38 @@ landscape:
               cncf_member: true
             image_data:
               fileName: avi-networks.png
+          - item:
+            name: Avro
+            homepage_url: 'https://avro.apache.org/'
+            repo_url: 'https://github.com/apache/avro'
+            logo: ./hosted_logos/avro.svg
+            twitter: 'https://twitter.com/TheASF'
+            crunchbase: 'https://www.crunchbase.com/organization/apache'
+            crunchbase_data:
+              name: Apache Software Foundation
+              description: 'Apache Software Foundation (501C3) provides organizational, legal and financial support for Apache open-source software projects.'
+              num_employees_min: 1
+              num_employees_max: 10
+              homepage: 'http://www.apache.org'
+              city: Forest Hill
+              region: Maryland
+              country: United States
+              twitter: 'http://twitter.com/TheASF'
+              linkedin: 'http://www.linkedin.com/company/the-apache-software-foundation'
+            github_data:
+              stars: 855
+              license: Apache-2.0
+              description: Apache Avro
+              latest_commit_date: '2018-02-23T16:38:35Z'
+              latest_commit_link: /apache/avro/commit/61befce7e70aeb13ab5a8d6ff3c336d4f982b9a9
+            github_start_commit_data:
+              start_commit_link: /apache/avro/commit/81cf991f580a841dd8c016921b6c567ae0c0c4f3
+              start_date: '2009-04-09T18:13:31Z'
+            cncf_membership_data:
+              cncf_member: false
+            image_data:
+              fileName: apache-avro.svg
+              hash: AEyXqjHPatTNELqhvfT0jdkAdGd+nBMzgYrhg364F2A=
           - item:
             name: Backplane
             homepage_url: 'https://www.backplane.io/'
@@ -4368,6 +4368,38 @@ landscape:
               fileName: hystrix.svg
               hash: wAc038GQhjVUqqSloy9QtJtgtKfaW6WT8Yw8tkpPV2Y=
           - item:
+            name: Istio
+            homepage_url: 'https://istio.io/'
+            repo_url: 'https://github.com/istio/istio'
+            logo: ./hosted_logos/istio.svg
+            twitter: 'https://twitter.com/IstioMesh'
+            crunchbase: 'https://www.crunchbase.com/organization/istio'
+            crunchbase_data:
+              name: Istio
+              description: 'Istio is an open platform that provides a uniform way to connect, manage, and secure microservices.'
+              num_employees_min: null
+              num_employees_max: null
+              homepage: 'https://istio.io/'
+              city: null
+              region: null
+              country: null
+              twitter: 'https://twitter.com/IstioMesh'
+              linkedin: null
+            github_data:
+              stars: 6218
+              license: Apache-2.0
+              description: 'An open platform to connect, manage, and secure microservices.'
+              latest_commit_date: '2018-02-28T23:09:09Z'
+              latest_commit_link: /istio/istio/commit/3f4c900eb9c8dc1c37b6fc5dc433df55134c31fd
+            github_start_commit_data:
+              start_commit_link: /istio/istio/commit/0216e811e9da88b867742710f7d166cef2eabfbc
+              start_date: '2016-11-18T23:57:24Z'
+            cncf_membership_data:
+              cncf_member: false
+            image_data:
+              fileName: istio.svg
+              hash: 1OqJJZ0lqcVUoilWbQhAs3baX5h2rfvByuqOZRyvocc=
+          - item:
             name: Kong
             homepage_url: 'https://getkong.org/'
             repo_url: 'https://github.com/Kong/kong'
@@ -4401,38 +4433,6 @@ landscape:
               cncf_member: true
             image_data:
               fileName: kong.png
-          - item:
-            name: Istio
-            homepage_url: 'https://istio.io/'
-            repo_url: 'https://github.com/istio/istio'
-            logo: ./hosted_logos/istio.svg
-            twitter: 'https://twitter.com/IstioMesh'
-            crunchbase: 'https://www.crunchbase.com/organization/istio'
-            crunchbase_data:
-              name: Istio
-              description: 'Istio is an open platform that provides a uniform way to connect, manage, and secure microservices.'
-              num_employees_min: null
-              num_employees_max: null
-              homepage: 'https://istio.io/'
-              city: null
-              region: null
-              country: null
-              twitter: 'https://twitter.com/IstioMesh'
-              linkedin: null
-            github_data:
-              stars: 6218
-              license: Apache-2.0
-              description: 'An open platform to connect, manage, and secure microservices.'
-              latest_commit_date: '2018-02-28T23:09:09Z'
-              latest_commit_link: /istio/istio/commit/3f4c900eb9c8dc1c37b6fc5dc433df55134c31fd
-            github_start_commit_data:
-              start_commit_link: /istio/istio/commit/0216e811e9da88b867742710f7d166cef2eabfbc
-              start_date: '2016-11-18T23:57:24Z'
-            cncf_membership_data:
-              cncf_member: false
-            image_data:
-              fileName: istio.svg
-              hash: 1OqJJZ0lqcVUoilWbQhAs3baX5h2rfvByuqOZRyvocc=
           - item:
             name: Linkerd
             homepage_url: 'https://linkerd.io/'
@@ -4659,40 +4659,6 @@ landscape:
             image_data:
               fileName: vamp.svg
               hash: +/CvDUhX+KUpPk/4IrbOIGyK1BGrQ9qPCoNaeMj8QHc=
-          - item:
-            name: Weave Flux
-            homepage_url: 'https://www.weave.works/oss/flux/'
-            repo_url: 'https://github.com/weaveworks/flux'
-            logo: ./hosted_logos/weave-flux.svg
-            twitter: 'https://twitter.com/weaveworks'
-            crunchbase: 'https://www.crunchbase.com/organization/weaveworks'
-            crunchbase_data:
-              name: Weaveworks
-              description: Weaveworks provides a simple and consistent way to connect and manage containers and microservices
-              num_employees_min: 11
-              num_employees_max: 50
-              homepage: 'https://www.weave.works/'
-              city: London
-              region: England
-              country: United Kingdom
-              twitter: 'http://twitter.com/weaveworks'
-              linkedin: 'https://www.linkedin.com/company/weaveworks'
-              kind: funding
-              funding: 20000000
-            github_data:
-              stars: 365
-              license: Apache-2.0
-              description: A tool for deploying container images to Kubernetes services
-              latest_commit_date: '2018-02-28T17:44:05Z'
-              latest_commit_link: /weaveworks/flux/commit/6bb432d8bb9ca501f91e80b2d9540b085be698dd
-            github_start_commit_data:
-              start_commit_link: /weaveworks/flux/commit/a6fbd68a967846f8c8b62ed0ae3482af1120b58c
-              start_date: '2016-07-07T10:55:14Z'
-            cncf_membership_data:
-              cncf_member: true
-            image_data:
-              fileName: weave-flux.svg
-              hash: 4SFRfTXOjhp/sDpFe0hlkTQDOCbXd+g2ROBDokzmUnI=
           - item:
             name: Zuul
             homepage_url: 'https://github.com/Netflix/zuul'
@@ -5152,6 +5118,32 @@ landscape:
               fileName: mem-sql.svg
               hash: K6FO6eMu4xQzQtCTBnr1vUixxEIzXruLvqcgiFT5e0o=
           - item:
+            name: Microsoft SQL Server
+            homepage_url: 'https://www.microsoft.com/en-us/sql-server'
+            logo: 'https://cdn.worldvectorlogo.com/logos/microsoft-sql-server.svg'
+            twitter: 'https://twitter.com/SQLServer'
+            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+            crunchbase_data:
+              name: Microsoft
+              description: 'Microsoft is a software corporation that develops, manufactures, licenses, supports, and sells a range of software products and services.'
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: 'http://www.microsoft.com'
+              city: Redmond
+              region: Washington
+              country: United States
+              twitter: 'http://twitter.com/Microsoft'
+              linkedin: 'http://www.linkedin.com/company/microsoft'
+              ticker: MSFT
+              kind: market_cap
+            cncf_membership_data:
+              cncf_member: true
+            yahoo_finance_data:
+              market_cap: 722009260032
+              effective_ticker: MSFT
+            image_data:
+              fileName: sql-server.svg
+          - item:
             name: MongoDB
             homepage_url: 'https://www.mongodb.com/'
             repo_url: 'https://github.com/mongodb/mongo'
@@ -5558,32 +5550,6 @@ landscape:
               fileName: sql-data-warehouse.svg
               hash: vWejE8TWSC52LyxcWMBwp7KvTE3E3/XbHrNLNaDk1cc=
           - item:
-            name: Microsoft SQL Server
-            homepage_url: 'https://www.microsoft.com/en-us/sql-server'
-            logo: 'https://cdn.worldvectorlogo.com/logos/microsoft-sql-server.svg'
-            twitter: 'https://twitter.com/SQLServer'
-            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
-            crunchbase_data:
-              name: Microsoft
-              description: 'Microsoft is a software corporation that develops, manufactures, licenses, supports, and sells a range of software products and services.'
-              num_employees_min: 10001
-              num_employees_max: 1000000
-              homepage: 'http://www.microsoft.com'
-              city: Redmond
-              region: Washington
-              country: United States
-              twitter: 'http://twitter.com/Microsoft'
-              linkedin: 'http://www.linkedin.com/company/microsoft'
-              ticker: MSFT
-              kind: market_cap
-            cncf_membership_data:
-              cncf_member: true
-            yahoo_finance_data:
-              market_cap: 722009260032
-              effective_ticker: MSFT
-            image_data:
-              fileName: sql-server.svg
-          - item:
             name: TiDB
             homepage_url: 'https://pingcap.com/index'
             repo_url: 'https://github.com/pingcap/tidb'
@@ -5703,69 +5669,6 @@ landscape:
               fileName: amazon-kinesis.svg
               hash: T8gsXmw20lxUKtySy1Xy2rNOzHfZBctIoh2Ti4yr6zc=
           - item:
-            name: Apache NiFi
-            homepage_url: 'https://nifi.apache.org/'
-            repo_url: 'https://github.com/apache/nifi'
-            logo: 'https://nifi.apache.org/assets/images/apache-nifi-logo.svg'
-            twitter: 'https://twitter.com/theasf'
-            crunchbase: 'https://www.crunchbase.com/organization/apache'
-            crunchbase_data:
-              name: Apache Software Foundation
-              description: 'Apache Software Foundation (501C3) provides organizational, legal and financial support for Apache open-source software projects.'
-              num_employees_min: 1
-              num_employees_max: 10
-              homepage: 'http://www.apache.org'
-              city: Forest Hill
-              region: Maryland
-              country: United States
-              twitter: 'http://twitter.com/TheASF'
-              linkedin: 'http://www.linkedin.com/company/the-apache-software-foundation'
-            github_data:
-              stars: 829
-              license: Apache-2.0
-              description: Mirror of Apache NiFi
-              latest_commit_date: '2018-02-28T19:22:54Z'
-              latest_commit_link: /apache/nifi/commit/eb844d8c6f7fa9b9704d9480b6340bb824dcb667
-            github_start_commit_data:
-              start_commit_link: /apache/nifi/commit/4d998c12c95a6e5ce3d66c0d861e75e33b5cf013
-              start_date: '2014-12-08T20:22:14Z'
-            cncf_membership_data:
-              cncf_member: false
-            image_data:
-              fileName: apache-ni-fi.svg
-          - item:
-            name: Apache Storm
-            homepage_url: 'http://storm.apache.org/'
-            repo_url: 'https://github.com/apache/storm'
-            logo: ./hosted_logos/apache-storm.svg
-            twitter: 'https://twitter.com/stormprocessor'
-            crunchbase: 'https://www.crunchbase.com/organization/apache'
-            crunchbase_data:
-              name: Apache Software Foundation
-              description: 'Apache Software Foundation (501C3) provides organizational, legal and financial support for Apache open-source software projects.'
-              num_employees_min: 1
-              num_employees_max: 10
-              homepage: 'http://www.apache.org'
-              city: Forest Hill
-              region: Maryland
-              country: United States
-              twitter: 'http://twitter.com/TheASF'
-              linkedin: 'http://www.linkedin.com/company/the-apache-software-foundation'
-            github_data:
-              stars: 4860
-              license: Apache-2.0
-              description: Mirror of Apache Storm
-              latest_commit_date: '2018-02-26T19:37:26Z'
-              latest_commit_link: /apache/storm/commit/21f4173f25b44eea8b985987afb20c476751a50a
-            github_start_commit_data:
-              start_commit_link: /apache/storm/commit/9edcf177ce7210d7ee7f857dedf0747e5bdb4105
-              start_date: '2011-09-16T05:20:45Z'
-            cncf_membership_data:
-              cncf_member: false
-            image_data:
-              fileName: apache-storm.svg
-              hash: oTyinz8/AOQlpE+wgJRzhrfEDw1/NcDDtn3xRWfOT3E=
-          - item:
             name: Apache Apex
             homepage_url: 'https://apex.apache.org/'
             repo_url: 'https://github.com/apache/apex-core'
@@ -5797,6 +5700,37 @@ landscape:
             image_data:
               fileName: apache-apex.svg
               hash: OFRgQZgPr1qVJa6lGOeMNWZVtpS3TTLNx7VCVClaZTk=
+          - item:
+            name: Apache NiFi
+            homepage_url: 'https://nifi.apache.org/'
+            repo_url: 'https://github.com/apache/nifi'
+            logo: 'https://nifi.apache.org/assets/images/apache-nifi-logo.svg'
+            twitter: 'https://twitter.com/theasf'
+            crunchbase: 'https://www.crunchbase.com/organization/apache'
+            crunchbase_data:
+              name: Apache Software Foundation
+              description: 'Apache Software Foundation (501C3) provides organizational, legal and financial support for Apache open-source software projects.'
+              num_employees_min: 1
+              num_employees_max: 10
+              homepage: 'http://www.apache.org'
+              city: Forest Hill
+              region: Maryland
+              country: United States
+              twitter: 'http://twitter.com/TheASF'
+              linkedin: 'http://www.linkedin.com/company/the-apache-software-foundation'
+            github_data:
+              stars: 829
+              license: Apache-2.0
+              description: Mirror of Apache NiFi
+              latest_commit_date: '2018-02-28T19:22:54Z'
+              latest_commit_link: /apache/nifi/commit/eb844d8c6f7fa9b9704d9480b6340bb824dcb667
+            github_start_commit_data:
+              start_commit_link: /apache/nifi/commit/4d998c12c95a6e5ce3d66c0d861e75e33b5cf013
+              start_date: '2014-12-08T20:22:14Z'
+            cncf_membership_data:
+              cncf_member: false
+            image_data:
+              fileName: apache-ni-fi.svg
           - item:
             name: Apache RocketMQ
             homepage_url: 'https://rocketmq.apache.org/'
@@ -5830,6 +5764,69 @@ landscape:
             image_data:
               fileName: apache-rocket-mq.svg
               hash: dioqBseLut9XBe5cb7oSunf/v3e46ldWkYp9nYY5aEU=
+          - item:
+            name: Apache Spark
+            homepage_url: 'https://spark.apache.org/'
+            repo_url: 'https://github.com/apache/spark'
+            logo: 'https://upload.wikimedia.org/wikipedia/commons/f/f3/Apache_Spark_logo.svg'
+            twitter: 'https://twitter.com/apachespark'
+            crunchbase: 'https://www.crunchbase.com/organization/apache'
+            crunchbase_data:
+              name: Apache Software Foundation
+              description: 'Apache Software Foundation (501C3) provides organizational, legal and financial support for Apache open-source software projects.'
+              num_employees_min: 1
+              num_employees_max: 10
+              homepage: 'http://www.apache.org'
+              city: Forest Hill
+              region: Maryland
+              country: United States
+              twitter: 'http://twitter.com/TheASF'
+              linkedin: 'http://www.linkedin.com/company/the-apache-software-foundation'
+            github_data:
+              stars: 16276
+              license: Apache-2.0
+              description: Mirror of Apache Spark
+              latest_commit_date: '2018-02-27T19:33:10Z'
+              latest_commit_link: /apache/spark/commit/598446b74b61fee272d3aee3a2e9a3fc90a70d6a
+            github_start_commit_data:
+              start_commit_link: /apache/spark/commit/df29d0ea4c8b7137fdd1844219c7d489e3b0d9c9
+              start_date: '2010-03-29T23:17:55Z'
+            cncf_membership_data:
+              cncf_member: false
+            image_data:
+              fileName: spark-streaming.svg
+          - item:
+            name: Apache Storm
+            homepage_url: 'http://storm.apache.org/'
+            repo_url: 'https://github.com/apache/storm'
+            logo: ./hosted_logos/apache-storm.svg
+            twitter: 'https://twitter.com/stormprocessor'
+            crunchbase: 'https://www.crunchbase.com/organization/apache'
+            crunchbase_data:
+              name: Apache Software Foundation
+              description: 'Apache Software Foundation (501C3) provides organizational, legal and financial support for Apache open-source software projects.'
+              num_employees_min: 1
+              num_employees_max: 10
+              homepage: 'http://www.apache.org'
+              city: Forest Hill
+              region: Maryland
+              country: United States
+              twitter: 'http://twitter.com/TheASF'
+              linkedin: 'http://www.linkedin.com/company/the-apache-software-foundation'
+            github_data:
+              stars: 4860
+              license: Apache-2.0
+              description: Mirror of Apache Storm
+              latest_commit_date: '2018-02-26T19:37:26Z'
+              latest_commit_link: /apache/storm/commit/21f4173f25b44eea8b985987afb20c476751a50a
+            github_start_commit_data:
+              start_commit_link: /apache/storm/commit/9edcf177ce7210d7ee7f857dedf0747e5bdb4105
+              start_date: '2011-09-16T05:20:45Z'
+            cncf_membership_data:
+              cncf_member: false
+            image_data:
+              fileName: apache-storm.svg
+              hash: oTyinz8/AOQlpE+wgJRzhrfEDw1/NcDDtn3xRWfOT3E=
           - item:
             name: CloudEvents
             homepage_url: 'https://openevents.io/'
@@ -6084,37 +6081,6 @@ landscape:
             image_data:
               fileName: rabbit-mq.svg
           - item:
-            name: Apache Spark
-            homepage_url: 'https://spark.apache.org/'
-            repo_url: 'https://github.com/apache/spark'
-            logo: 'https://upload.wikimedia.org/wikipedia/commons/f/f3/Apache_Spark_logo.svg'
-            twitter: 'https://twitter.com/apachespark'
-            crunchbase: 'https://www.crunchbase.com/organization/apache'
-            crunchbase_data:
-              name: Apache Software Foundation
-              description: 'Apache Software Foundation (501C3) provides organizational, legal and financial support for Apache open-source software projects.'
-              num_employees_min: 1
-              num_employees_max: 10
-              homepage: 'http://www.apache.org'
-              city: Forest Hill
-              region: Maryland
-              country: United States
-              twitter: 'http://twitter.com/TheASF'
-              linkedin: 'http://www.linkedin.com/company/the-apache-software-foundation'
-            github_data:
-              stars: 16276
-              license: Apache-2.0
-              description: Mirror of Apache Spark
-              latest_commit_date: '2018-02-27T19:33:10Z'
-              latest_commit_link: /apache/spark/commit/598446b74b61fee272d3aee3a2e9a3fc90a70d6a
-            github_start_commit_data:
-              start_commit_link: /apache/spark/commit/df29d0ea4c8b7137fdd1844219c7d489e3b0d9c9
-              start_date: '2010-03-29T23:17:55Z'
-            cncf_membership_data:
-              cncf_member: false
-            image_data:
-              fileName: spark-streaming.svg
-          - item:
             name: StreamSets
             homepage_url: 'https://streamsets.com/'
             repo_url: 'https://github.com/streamsets/datacollector'
@@ -6149,7 +6115,7 @@ landscape:
               fileName: stream-sets.svg
               hash: Tbn9S/v1t1qdAJKuddAI0ceb/+oMZ+3yM02uK82mRXM=
       - subcategory:
-        name: Source Code Management (SCM)
+        name: Source Code Management
         items:
           - item:
             name: Bitbucket
@@ -6264,27 +6230,6 @@ landscape:
         name: Application Definition & Image Build
         items:
           - item:
-            name: Bitnami
-            homepage_url: 'https://bitnami.com/'
-            logo: 'https://about.gitlab.com/images/press/bitnami-logo.svg'
-            twitter: 'https://twitter.com/bitnami'
-            crunchbase: 'https://www.crunchbase.com/organization/bitnami'
-            crunchbase_data:
-              name: Bitnami
-              description: 'Loved by Devs, Trusted by Ops. Easy to use cloud images, containers, and VMs that work on any platform'
-              num_employees_min: 51
-              num_employees_max: 100
-              homepage: 'https://bitnami.com'
-              city: San Francisco
-              region: California
-              country: United States
-              twitter: 'http://twitter.com/bitnami'
-              linkedin: 'http://www.linkedin.com/company/3337115'
-            cncf_membership_data:
-              cncf_member: true
-            image_data:
-              fileName: bitnami.svg
-          - item:
             name: Apache Brooklyn
             homepage_url: 'https://brooklyn.apache.org/'
             repo_url: 'https://github.com/apache/brooklyn'
@@ -6316,6 +6261,27 @@ landscape:
             image_data:
               fileName: apache-brooklyn.svg
               hash: xGBlq4Xj/wY9FB1RamLmQn/aIrVN5AZTe/pBdwxMr0s=
+          - item:
+            name: Bitnami
+            homepage_url: 'https://bitnami.com/'
+            logo: 'https://about.gitlab.com/images/press/bitnami-logo.svg'
+            twitter: 'https://twitter.com/bitnami'
+            crunchbase: 'https://www.crunchbase.com/organization/bitnami'
+            crunchbase_data:
+              name: Bitnami
+              description: 'Loved by Devs, Trusted by Ops. Easy to use cloud images, containers, and VMs that work on any platform'
+              num_employees_min: 51
+              num_employees_max: 100
+              homepage: 'https://bitnami.com'
+              city: San Francisco
+              region: California
+              country: United States
+              twitter: 'http://twitter.com/bitnami'
+              linkedin: 'http://www.linkedin.com/company/3337115'
+            cncf_membership_data:
+              cncf_member: true
+            image_data:
+              fileName: bitnami.svg
           - item:
             name: Docker Compose
             homepage_url: 'https://docs.docker.com/compose/'
@@ -6477,8 +6443,30 @@ landscape:
             image_data:
               fileName: packer.svg
       - subcategory:
-        name: CI/CD
+        name: Continuous Integration / Continuous Delivery (CI/CD)
         items:
+          - item:
+            name: Appveyor
+            homepage_url: 'https://www.appveyor.com/'
+            logo: ./hosted_logos/appveyor.svg
+            twitter: 'https://twitter.com/appveyor'
+            crunchbase: 'https://www.crunchbase.com/organization/appveyor-systems-inc'
+            crunchbase_data:
+              name: Appveyor Systems
+              description: Appveyor Systems Inc. aim is to give powerful continuous integration and deployment tools to every .NET developer.
+              num_employees_min: null
+              num_employees_max: null
+              homepage: 'https://www.appveyor.com'
+              city: Vancouver
+              region: British Columbia
+              country: Canada
+              twitter: 'https://www.twitter.com/appveyor'
+              linkedin: null
+            cncf_membership_data:
+              cncf_member: false
+            image_data:
+              fileName: appveyor.svg
+              hash: ELgosh1vzWOoB2RtBy0vlLv2kW88Hi9kObCDMumR7RM=
           - item:
             name: Argo
             homepage_url: 'https://applatix.com/open-source/argo/'
@@ -6516,28 +6504,6 @@ landscape:
             image_data:
               fileName: argo.svg
               hash: Xb4OvEH8Blm9GmWInFZZnx2Q0rUDurtM1rkRrRtlJEc=
-          - item:
-            name: Appveyor
-            homepage_url: 'https://www.appveyor.com/'
-            logo: ./hosted_logos/appveyor.svg
-            twitter: 'https://twitter.com/appveyor'
-            crunchbase: 'https://www.crunchbase.com/organization/appveyor-systems-inc'
-            crunchbase_data:
-              name: Appveyor Systems
-              description: Appveyor Systems Inc. aim is to give powerful continuous integration and deployment tools to every .NET developer.
-              num_employees_min: null
-              num_employees_max: null
-              homepage: 'https://www.appveyor.com'
-              city: Vancouver
-              region: British Columbia
-              country: Canada
-              twitter: 'https://www.twitter.com/appveyor'
-              linkedin: null
-            cncf_membership_data:
-              cncf_member: false
-            image_data:
-              fileName: appveyor.svg
-              hash: ELgosh1vzWOoB2RtBy0vlLv2kW88Hi9kObCDMumR7RM=
           - item:
             name: Bamboo
             homepage_url: 'https://www.atlassian.com/software/bamboo/'
@@ -6641,66 +6607,6 @@ landscape:
               cncf_member: false
             image_data:
               fileName: circle-ci.svg
-          - item:
-            name: Habitus
-            homepage_url: 'http://www.habitus.io/'
-            repo_url: 'https://github.com/cloud66/habitus'
-            logo: ./hosted_logos/habitus.svg
-            best_res: ''
-            twitter: 'https://twitter.com/cloud66'
-            crunchbase: 'https://www.crunchbase.com/organization/cloudblocks'
-            crunchbase_data:
-              name: Cloud 66
-              description: 'Ops tools for Devs. Build, deliver, deploy and manage any applications on any cloud or server.'
-              num_employees_min: 11
-              num_employees_max: 50
-              homepage: 'http://www.cloud66.com'
-              city: San Francisco
-              region: California
-              country: United States
-              twitter: 'http://twitter.com/cloud66'
-              linkedin: 'http://www.linkedin.com/company/cloud-66'
-              kind: funding
-              funding: 2240385
-            github_data:
-              stars: 756
-              license: Apache-2.0
-              description: A Build Flow Tool for Docker
-              latest_commit_date: '2018-02-15T00:56:41Z'
-              latest_commit_link: /cloud66/habitus/commit/4282074823d0296cb543210141fc8a6959bdb6af
-            github_start_commit_data:
-              start_commit_link: /cloud66/habitus/commit/c0f22df555996f73d793e0bd96f22b11c6da4398
-              start_date: '2015-07-28T09:35:16Z'
-            cncf_membership_data:
-              cncf_member: true
-            image_data:
-              fileName: habitus.svg
-              hash: zvO8BD8Y8Iph97+5T58ZdHzhExSQszEnoobLS1zMr6E=
-          - item:
-            name: Skycap
-            homepage_url: 'https://www.cloud66.com/containers/skycap'
-            logo: ./hosted_logos/skycap.svg
-            best_res: ''
-            twitter: 'https://twitter.com/cloud66'
-            crunchbase: 'https://www.crunchbase.com/organization/cloudblocks'
-            crunchbase_data:
-              name: Cloud 66
-              description: 'Ops tools for Devs. Build, deliver, deploy and manage any applications on any cloud or server.'
-              num_employees_min: 11
-              num_employees_max: 50
-              homepage: 'http://www.cloud66.com'
-              city: San Francisco
-              region: California
-              country: United States
-              twitter: 'http://twitter.com/cloud66'
-              linkedin: 'http://www.linkedin.com/company/cloud-66'
-              kind: funding
-              funding: 2240385
-            cncf_membership_data:
-              cncf_member: true
-            image_data:
-              fileName: cloud66-skycap.svg
-              hash: +vdrlZb57oqsOQsLjJjULFtrTHzVFpk9yLZHd37/QJE=
           - item:
             name: Cloudbees
             homepage_url: 'https://www.cloudbees.com/'
@@ -6894,42 +6800,40 @@ landscape:
               fileName: drone.svg
               hash: 3YFiEocNzRv7aZtmWkvFjZFlhBmfr+Hz6V92A3ZUxrs=
           - item:
-            name: Runner
-            description: >-
-              GitLab Runner is the open source project that is used to run your jobs and send the results back to GitLab. It is used in conjunction with GitLab
-              CI, the open-source continuous integration service included with GitLab that coordinates the jobs.
-            homepage_url: 'https://docs.gitlab.com/runner/'
-            repo_url: 'https://github.com/gitlabhq/gitlab-runner'
-            logo: ./hosted_logos/runner.svg
-            twitter: 'https://twitter.com/gitlab'
-            crunchbase: 'https://www.crunchbase.com/organization/gitlab-com'
+            name: Habitus
+            homepage_url: 'http://www.habitus.io/'
+            repo_url: 'https://github.com/cloud66/habitus'
+            logo: ./hosted_logos/habitus.svg
+            best_res: ''
+            twitter: 'https://twitter.com/cloud66'
+            crunchbase: 'https://www.crunchbase.com/organization/cloudblocks'
             crunchbase_data:
-              name: GitLab
-              description: GitLab is a web-based open source Git repository manager with wiki and issue tracking features.
+              name: Cloud 66
+              description: 'Ops tools for Devs. Build, deliver, deploy and manage any applications on any cloud or server.'
               num_employees_min: 11
               num_employees_max: 50
-              homepage: 'http://about.gitlab.com'
+              homepage: 'http://www.cloud66.com'
               city: San Francisco
               region: California
               country: United States
-              twitter: 'http://twitter.com/gitlab'
-              linkedin: 'https://www.linkedin.com/company/5101804'
+              twitter: 'http://twitter.com/cloud66'
+              linkedin: 'http://www.linkedin.com/company/cloud-66'
               kind: funding
-              funding: 45620000
+              funding: 2240385
             github_data:
-              stars: 0
-              license: MIT
-              description: 'We don’t accept contributions on GitHub, please submit merge requests on GitLab.com'
-              latest_commit_date: '2018-02-15T14:30:10Z'
-              latest_commit_link: /gitlabhq/gitlab-runner/commit/e305ece9400b6cef298dcfcda2d36231b48085e2
+              stars: 756
+              license: Apache-2.0
+              description: A Build Flow Tool for Docker
+              latest_commit_date: '2018-02-15T00:56:41Z'
+              latest_commit_link: /cloud66/habitus/commit/4282074823d0296cb543210141fc8a6959bdb6af
             github_start_commit_data:
-              start_commit_link: /gitlabhq/gitlab-runner/commit/b6e51c58bd67349311ee79b9b4311d1aab5855d5
-              start_date: '2014-07-30T23:56:53Z'
+              start_commit_link: /cloud66/habitus/commit/c0f22df555996f73d793e0bd96f22b11c6da4398
+              start_date: '2015-07-28T09:35:16Z'
             cncf_membership_data:
               cncf_member: true
             image_data:
-              fileName: runner.svg
-              hash: KN0ss6vFAWYRprO1uYD41eFcPnrIUoTvmSINR47A3ns=
+              fileName: habitus.svg
+              hash: zvO8BD8Y8Iph97+5T58ZdHzhExSQszEnoobLS1zMr6E=
           - item:
             name: Jenkins
             homepage_url: 'https://jenkins.io/'
@@ -6985,6 +6889,43 @@ landscape:
             image_data:
               fileName: octopus-deploy.svg
           - item:
+            name: Runner
+            description: >-
+              GitLab Runner is the open source project that is used to run your jobs and send the results back to GitLab. It is used in conjunction with GitLab
+              CI, the open-source continuous integration service included with GitLab that coordinates the jobs.
+            homepage_url: 'https://docs.gitlab.com/runner/'
+            repo_url: 'https://github.com/gitlabhq/gitlab-runner'
+            logo: ./hosted_logos/runner.svg
+            twitter: 'https://twitter.com/gitlab'
+            crunchbase: 'https://www.crunchbase.com/organization/gitlab-com'
+            crunchbase_data:
+              name: GitLab
+              description: GitLab is a web-based open source Git repository manager with wiki and issue tracking features.
+              num_employees_min: 11
+              num_employees_max: 50
+              homepage: 'http://about.gitlab.com'
+              city: San Francisco
+              region: California
+              country: United States
+              twitter: 'http://twitter.com/gitlab'
+              linkedin: 'https://www.linkedin.com/company/5101804'
+              kind: funding
+              funding: 45620000
+            github_data:
+              stars: 0
+              license: MIT
+              description: 'We don’t accept contributions on GitHub, please submit merge requests on GitLab.com'
+              latest_commit_date: '2018-02-15T14:30:10Z'
+              latest_commit_link: /gitlabhq/gitlab-runner/commit/e305ece9400b6cef298dcfcda2d36231b48085e2
+            github_start_commit_data:
+              start_commit_link: /gitlabhq/gitlab-runner/commit/b6e51c58bd67349311ee79b9b4311d1aab5855d5
+              start_date: '2014-07-30T23:56:53Z'
+            cncf_membership_data:
+              cncf_member: true
+            image_data:
+              fileName: runner.svg
+              hash: KN0ss6vFAWYRprO1uYD41eFcPnrIUoTvmSINR47A3ns=
+          - item:
             name: Semaphore
             homepage_url: 'https://semaphoreci.com/'
             logo: ./hosted_logos/semaphore.svg
@@ -7029,6 +6970,31 @@ landscape:
               cncf_member: false
             image_data:
               fileName: shippable.svg
+          - item:
+            name: Skycap
+            homepage_url: 'https://www.cloud66.com/containers/skycap'
+            logo: ./hosted_logos/skycap.svg
+            best_res: ''
+            twitter: 'https://twitter.com/cloud66'
+            crunchbase: 'https://www.crunchbase.com/organization/cloudblocks'
+            crunchbase_data:
+              name: Cloud 66
+              description: 'Ops tools for Devs. Build, deliver, deploy and manage any applications on any cloud or server.'
+              num_employees_min: 11
+              num_employees_max: 50
+              homepage: 'http://www.cloud66.com'
+              city: San Francisco
+              region: California
+              country: United States
+              twitter: 'http://twitter.com/cloud66'
+              linkedin: 'http://www.linkedin.com/company/cloud-66'
+              kind: funding
+              funding: 2240385
+            cncf_membership_data:
+              cncf_member: true
+            image_data:
+              fileName: cloud66-skycap.svg
+              hash: +vdrlZb57oqsOQsLjJjULFtrTHzVFpk9yLZHd37/QJE=
           - item:
             name: Solano Labs
             homepage_url: 'https://www.solanolabs.com/'
@@ -7108,6 +7074,40 @@ landscape:
               cncf_member: false
             image_data:
               fileName: travis.svg
+          - item:
+            name: Weave Flux
+            homepage_url: 'https://www.weave.works/oss/flux/'
+            repo_url: 'https://github.com/weaveworks/flux'
+            logo: ./hosted_logos/weave-flux.svg
+            twitter: 'https://twitter.com/weaveworks'
+            crunchbase: 'https://www.crunchbase.com/organization/weaveworks'
+            crunchbase_data:
+              name: Weaveworks
+              description: Weaveworks provides a simple and consistent way to connect and manage containers and microservices
+              num_employees_min: 11
+              num_employees_max: 50
+              homepage: 'https://www.weave.works/'
+              city: London
+              region: England
+              country: United Kingdom
+              twitter: 'http://twitter.com/weaveworks'
+              linkedin: 'https://www.linkedin.com/company/weaveworks'
+              kind: funding
+              funding: 20000000
+            github_data:
+              stars: 365
+              license: Apache-2.0
+              description: A tool for deploying container images to Kubernetes services
+              latest_commit_date: '2018-02-28T17:44:05Z'
+              latest_commit_link: /weaveworks/flux/commit/6bb432d8bb9ca501f91e80b2d9540b085be698dd
+            github_start_commit_data:
+              start_commit_link: /weaveworks/flux/commit/a6fbd68a967846f8c8b62ed0ae3482af1120b58c
+              start_date: '2016-07-07T10:55:14Z'
+            cncf_membership_data:
+              cncf_member: true
+            image_data:
+              fileName: weave-flux.svg
+              hash: 4SFRfTXOjhp/sDpFe0hlkTQDOCbXd+g2ROBDokzmUnI=
           - item:
             name: Wercker
             homepage_url: 'https://www.wercker.com/'
@@ -8736,30 +8736,6 @@ landscape:
             image_data:
               fileName: amazon-elastic-container-service-for-kubernetes-eks.svg
           - item:
-            name: Maestro
-            homepage_url: 'https://www.cloud66.com/containers/maestro'
-            logo: ./hosted_logos/maestro.svg
-            twitter: 'https://twitter.com/cloud66'
-            crunchbase: 'https://www.crunchbase.com/organization/cloudblocks'
-            crunchbase_data:
-              name: Cloud 66
-              description: 'Ops tools for Devs. Build, deliver, deploy and manage any applications on any cloud or server.'
-              num_employees_min: 11
-              num_employees_max: 50
-              homepage: 'http://www.cloud66.com'
-              city: San Francisco
-              region: California
-              country: United States
-              twitter: 'http://twitter.com/cloud66'
-              linkedin: 'http://www.linkedin.com/company/cloud-66'
-              kind: funding
-              funding: 2240385
-            cncf_membership_data:
-              cncf_member: true
-            image_data:
-              fileName: cloud66-maestro.svg
-              hash: Se0KAsnOI13FJYG9/i2z0rihRuu7iJh60m6JNQq9GcQ=
-          - item:
             name: ContainerShip
             description: The Hyperprovider for MultiCloud Kubernetes
             homepage_url: 'https://containership.io/'
@@ -8853,6 +8829,30 @@ landscape:
               cncf_member: true
             image_data:
               fileName: huawei.svg
+          - item:
+            name: Maestro
+            homepage_url: 'https://www.cloud66.com/containers/maestro'
+            logo: ./hosted_logos/maestro.svg
+            twitter: 'https://twitter.com/cloud66'
+            crunchbase: 'https://www.crunchbase.com/organization/cloudblocks'
+            crunchbase_data:
+              name: Cloud 66
+              description: 'Ops tools for Devs. Build, deliver, deploy and manage any applications on any cloud or server.'
+              num_employees_min: 11
+              num_employees_max: 50
+              homepage: 'http://www.cloud66.com'
+              city: San Francisco
+              region: California
+              country: United States
+              twitter: 'http://twitter.com/cloud66'
+              linkedin: 'http://www.linkedin.com/company/cloud-66'
+              kind: funding
+              funding: 2240385
+            cncf_membership_data:
+              cncf_member: true
+            image_data:
+              fileName: cloud66-maestro.svg
+              hash: Se0KAsnOI13FJYG9/i2z0rihRuu7iJh60m6JNQq9GcQ=
           - item:
             name: Navops
             description: >-
@@ -9790,6 +9790,38 @@ landscape:
               fileName: lamb-ci.svg
               hash: 5bS2AfSAdigkP1YDmtJUzdcT594A8xG/UZo5pDGEYJk=
           - item:
+            name: Microcule
+            homepage_url: 'https://github.com/Stackvana'
+            repo_url: 'https://github.com/Stackvana/microcule'
+            logo: ./hosted_logos/stackvana.svg
+            twitter: ''
+            crunchbase: 'https://www.crunchbase.com/organization/stackvana'
+            crunchbase_data:
+              name: Stackvana
+              description: App Definition & Development
+              num_employees_min: null
+              num_employees_max: null
+              homepage: 'https://github.com/Stackvana'
+              city: New York
+              region: New York
+              country: United States
+              twitter: null
+              linkedin: null
+            github_data:
+              stars: 381
+              license: Unknown License
+              description: SDK and CLI for spawning streaming stateless HTTP microservices in multiple programming languages
+              latest_commit_date: '2017-12-12T06:39:07Z'
+              latest_commit_link: /Stackvana/microcule/commit/6006e53f38a435357ab7c072d57ce3f508323be2
+            github_start_commit_data:
+              start_commit_link: /Stackvana/microcule/commit/9ff291975273fb504f11656abd33db528a3c93ed
+              start_date: '2016-08-16T18:12:05Z'
+            cncf_membership_data:
+              cncf_member: false
+            image_data:
+              fileName: microcule.svg
+              hash: SDMjwOYwfZXXwLzSVQ+EgXiCTWm+/beKHFKQBl/ZvA4=
+          - item:
             name: Node Lambda
             homepage_url: 'https://github.com/motdotla/node-lambda'
             repo_url: 'https://github.com/motdotla/node-lambda'
@@ -9844,38 +9876,6 @@ landscape:
               cncf_member: false
             image_data:
               fileName: stackery.svg
-          - item:
-            name: Microcule
-            homepage_url: 'https://github.com/Stackvana'
-            repo_url: 'https://github.com/Stackvana/microcule'
-            logo: ./hosted_logos/stackvana.svg
-            twitter: ''
-            crunchbase: 'https://www.crunchbase.com/organization/stackvana'
-            crunchbase_data:
-              name: Stackvana
-              description: App Definition & Development
-              num_employees_min: null
-              num_employees_max: null
-              homepage: 'https://github.com/Stackvana'
-              city: New York
-              region: New York
-              country: United States
-              twitter: null
-              linkedin: null
-            github_data:
-              stars: 381
-              license: Unknown License
-              description: SDK and CLI for spawning streaming stateless HTTP microservices in multiple programming languages
-              latest_commit_date: '2017-12-12T06:39:07Z'
-              latest_commit_link: /Stackvana/microcule/commit/6006e53f38a435357ab7c072d57ce3f508323be2
-            github_start_commit_data:
-              start_commit_link: /Stackvana/microcule/commit/9ff291975273fb504f11656abd33db528a3c93ed
-              start_date: '2016-08-16T18:12:05Z'
-            cncf_membership_data:
-              cncf_member: false
-            image_data:
-              fileName: microcule.svg
-              hash: SDMjwOYwfZXXwLzSVQ+EgXiCTWm+/beKHFKQBl/ZvA4=
           - item:
             name: Thundra
             homepage_url: 'https://www.thundra.io/'
@@ -9973,170 +9973,6 @@ landscape:
               fileName: aws-chalice.svg
               hash: kFPuVZGLD/04XuiB+k9obmGvDwkQhO+XaqhqWJ0gMsQ=
           - item:
-            name: Dawson
-            homepage_url: 'https://github.com/dawson-org'
-            repo_url: 'https://github.com/dawson-org/dawson-cli'
-            best_res: ''
-            logo: ./hosted_logos/dawson.svg
-            twitter: ''
-            crunchbase: 'https://www.crunchbase.com/organization/dawson-c553'
-            crunchbase_data:
-              name: Dawson
-              description: Frameworks
-              num_employees_min: null
-              num_employees_max: null
-              homepage: 'https://github.com/dawson-org'
-              city: null
-              region: null
-              country: null
-              twitter: null
-              linkedin: null
-            github_data:
-              stars: 730
-              license: GPL-3.0
-              description: 'A serverless web framework for Node.js on AWS (CloudFormation, CloudFront, API Gateway, Lambda)'
-              latest_commit_date: '2017-07-19T19:57:13Z'
-              latest_commit_link: /dawson-org/dawson-cli/commit/8702799f9fc1ea30ab42ca0fdc8729b0d4e09011
-            github_start_commit_data:
-              start_commit_link: /dawson-org/dawson-cli/commit/61d014f711f18b00303b913ccae190b89db6344f
-              start_date: '2016-08-09T11:14:10Z'
-            cncf_membership_data:
-              cncf_member: false
-            image_data:
-              fileName: dawson.svg
-              hash: 4R0U9IdOOS1Mayra/HwdTcS279ItVEUS4sE+t/vY8yY=
-          - item:
-            name: Mitoc Group Deep
-            homepage_url: 'http://docs.deep.mg/'
-            repo_url: 'https://github.com/MitocGroup/deep-framework'
-            logo: 'https://www.mitocgroup.com/images/logos/mitoc.svg'
-            twitter: 'https://twitter.com/MitocGroup'
-            crunchbase: 'https://www.crunchbase.com/organization/mitoc-group-inc'
-            crunchbase_data:
-              name: Mitoc Group
-              description: Mitoc Group is a technology company that focuses on innovative enterprise solutions
-              num_employees_min: 1
-              num_employees_max: 10
-              homepage: 'https://www.mitocgroup.com'
-              city: Woodcliff Lake
-              region: New Jersey
-              country: United States
-              twitter: 'https://twitter.com/mitocgroup'
-              linkedin: 'https://linkedin.com/company/mitoc-group'
-            github_data:
-              stars: 506
-              license: MIT
-              description: Full-stack JavaScript Framework for Cloud-Native Web Applications (perfect for Serverless use cases)
-              latest_commit_date: '2017-10-11T14:48:26Z'
-              latest_commit_link: /MitocGroup/deep-framework/commit/34fbde4685abd1b2457a04cc5bca42716f78d340
-            github_start_commit_data:
-              start_commit_link: /MitocGroup/deep-framework/commit/1283d4e203d113a71e6ccde2db24249fa8a0bc42
-              start_date: '2015-10-05T22:48:47Z'
-            cncf_membership_data:
-              cncf_member: false
-            image_data:
-              fileName: mitoc-group-deep.svg
-          - item:
-            name: GunIO Zappa
-            homepage_url: 'https://www.zappa.io/'
-            repo_url: 'https://github.com/Miserlou/Zappa'
-            logo: 'https://www.gun.io/hubfs/Large%20Gun%20Logo.svg'
-            twitter: 'https://twitter.com/gundotio?lang=en'
-            crunchbase: 'https://www.crunchbase.com/organization/gun-io'
-            crunchbase_data:
-              name: gun.io
-              description: Gun.io is an online platform that connects users with freelance web developers for hire.
-              num_employees_min: 11
-              num_employees_max: 50
-              homepage: 'https://gun.io'
-              city: Nashville
-              region: Tennessee
-              country: United States
-              twitter: 'http://twitter.com/GUNdotIO'
-              linkedin: 'https://www.linkedin.com/company/gun-io'
-            github_data:
-              stars: 6270
-              license: MIT
-              description: Serverless Python
-              latest_commit_date: '2018-02-27T23:20:14Z'
-              latest_commit_link: /Miserlou/Zappa/commit/cf8d09f7f286048e66c1f4da505876e2ea19c903
-            github_start_commit_data:
-              start_commit_link: /Miserlou/Zappa/commit/8f2424d1289181ed36643aecef007ec0575418b5
-              start_date: '2016-01-20T21:57:05Z'
-            cncf_membership_data:
-              cncf_member: false
-            image_data:
-              fileName: gun-io-zappa.svg
-          - item:
-            name: Spring Cloud Function
-            homepage_url: 'https://cloud.spring.io/spring-cloud-function/'
-            repo_url: 'https://github.com/spring-cloud/spring-cloud-function'
-            logo: ./hosted_logos/spring-cloud-function.svg
-            crunchbase: 'https://www.crunchbase.com/organization/pivotal'
-            crunchbase_data:
-              name: Pivotal
-              description: Pivotal is a software company that provides digital transformation technology and services.
-              num_employees_min: 1001
-              num_employees_max: 5000
-              homepage: 'http://www.pivotal.io'
-              city: San Francisco
-              region: California
-              country: United States
-              twitter: 'http://twitter.com/pivotal'
-              linkedin: 'http://www.linkedin.com/company/3048967'
-              kind: funding
-              funding: 1704000000
-            github_data:
-              stars: 294
-              license: Apache-2.0
-              description: ''
-              latest_commit_date: '2018-02-28T10:28:14Z'
-              latest_commit_link: /spring-cloud/spring-cloud-function/commit/955e99bfe37cd87546dbc90c1941eb196d6f8a85
-            github_start_commit_data:
-              start_commit_link: /spring-cloud/spring-cloud-function/commit/bdd39b74ffbdfeec281261bb5a79330eda0ccc6c
-              start_date: '2016-09-22T02:33:06Z'
-            cncf_membership_data:
-              cncf_member: true
-            image_data:
-              fileName: spring-cloud-function.svg
-              hash: MFSoaXbnzauDJowL3Yi3dwlO8Nms/K3JYYqc0IatfIc=
-          - item:
-            name: Serverless
-            homepage_url: 'https://serverless.com/'
-            repo_url: 'https://github.com/serverless/serverless'
-            logo: ./hosted_logos/serverless.svg
-            twitter: 'https://twitter.com/goserverless'
-            crunchbase: 'https://www.crunchbase.com/organization/serverless'
-            crunchbase_data:
-              name: Serverless
-              description: Serverless offers developers an open source framework powered by AWS Lambda and AWS API Gateway.
-              num_employees_min: 1
-              num_employees_max: 10
-              homepage: 'https://serverless.com/'
-              city: San Francisco
-              region: California
-              country: United States
-              twitter: 'https://twitter.com/goserverless'
-              linkedin: 'https://www.linkedin.com/company/serverless'
-              kind: funding
-              funding: 3000000
-            github_data:
-              stars: 22093
-              license: Unknown License
-              description: >-
-                Serverless Framework – Build web, mobile and IoT applications with serverless architectures using AWS Lambda, Azure Functions, Google
-                CloudFunctions & more! –
-              latest_commit_date: '2018-02-28T18:19:38Z'
-              latest_commit_link: /serverless/serverless/commit/a58ce94746bc043016d4c7cd295fd08f36799c1b
-            github_start_commit_data:
-              start_commit_link: /serverless/serverless/commit/b297fcb835428108bd1b4e75cb519c0fabff39fa
-              start_date: '2015-04-21T03:49:10Z'
-            cncf_membership_data:
-              cncf_member: true
-            image_data:
-              fileName: serverless.svg
-              hash: XKz5Q6YAUVt1UXjUah3AZiyVzIJCkUn3Pw6rGVIIY3s=
-          - item:
             name: Bustle Shep
             homepage_url: 'https://www.bustle.com/labs'
             repo_url: 'https://github.com/bustle/shep'
@@ -10170,37 +10006,193 @@ landscape:
             image_data:
               fileName: bustle-shep.svg
           - item:
-            name: Sparta
-            homepage_url: 'http://gosparta.io/'
-            repo_url: 'https://github.com/mweagle/Sparta'
-            logo: ./hosted_logos/sparta.svg
-            twitter: 'https://twitter.com/mweagle?lang=en'
-            crunchbase: 'https://www.crunchbase.com/organization/sparta-7ffe'
+            name: ClaudisJS
+            homepage_url: 'https://claudiajs.com/'
+            repo_url: 'https://github.com/claudiajs/claudia'
+            logo: 'https://claudiajs.com/assets/claudiajs.svg'
+            crunchbase: 'https://www.crunchbase.com/organization/claudiajs'
             crunchbase_data:
-              name: Sparta
-              description: Serverless- Frameworks
+              name: ClaudiaJS
+              description: Frameworks
               num_employees_min: null
               num_employees_max: null
-              homepage: 'http://gosparta.io/'
+              homepage: 'https://claudiajs.com/'
+              city: London
+              region: England
+              country: United Kingdom
+              twitter: 'https://twitter.com/intent/follow?screen_name=gojkoadzic'
+              linkedin: null
+            github_data:
+              stars: 2600
+              license: MIT
+              description: Deploy Node.js projects to AWS Lambda and API Gateway easily
+              latest_commit_date: '2018-01-29T09:23:14Z'
+              latest_commit_link: /claudiajs/claudia/commit/8ef87836f7f52ea7fb7666d42d39ba044da2027e
+            github_start_commit_data:
+              start_commit_link: /claudiajs/claudia/commit/3da70b6858b1b8d8f7cb68c829fdc28f84a2c7e5
+              start_date: '2016-02-03T01:10:51Z'
+            cncf_membership_data:
+              cncf_member: false
+            image_data:
+              fileName: claudis-js.svg
+          - item:
+            name: Dawson
+            homepage_url: 'https://github.com/dawson-org'
+            repo_url: 'https://github.com/dawson-org/dawson-cli'
+            best_res: ''
+            logo: ./hosted_logos/dawson.svg
+            twitter: ''
+            crunchbase: 'https://www.crunchbase.com/organization/dawson-c553'
+            crunchbase_data:
+              name: Dawson
+              description: Frameworks
+              num_employees_min: null
+              num_employees_max: null
+              homepage: 'https://github.com/dawson-org'
               city: null
               region: null
               country: null
               twitter: null
               linkedin: null
             github_data:
-              stars: 455
-              license: MIT
-              description: Run go functions in AWS Lambda
-              latest_commit_date: '2018-01-22T03:21:02Z'
-              latest_commit_link: /mweagle/Sparta/commit/5fd68752aed7fe076cea05e6bbe2ef72c48f047b
+              stars: 730
+              license: GPL-3.0
+              description: 'A serverless web framework for Node.js on AWS (CloudFormation, CloudFront, API Gateway, Lambda)'
+              latest_commit_date: '2017-07-19T19:57:13Z'
+              latest_commit_link: /dawson-org/dawson-cli/commit/8702799f9fc1ea30ab42ca0fdc8729b0d4e09011
             github_start_commit_data:
-              start_commit_link: /mweagle/Sparta/commit/8dfeba9d190219585cd037ff3b20f2f05f075bb1
-              start_date: '2015-10-18T13:54:42Z'
+              start_commit_link: /dawson-org/dawson-cli/commit/61d014f711f18b00303b913ccae190b89db6344f
+              start_date: '2016-08-09T11:14:10Z'
             cncf_membership_data:
               cncf_member: false
             image_data:
-              fileName: sparta.svg
-              hash: bi6K5RHPemwP/GpmLGDEOPK9FZyOHiZA+0cBD3DJErc=
+              fileName: dawson.svg
+              hash: 4R0U9IdOOS1Mayra/HwdTcS279ItVEUS4sE+t/vY8yY=
+          - item:
+            name: Gordon
+            homepage_url: 'http://jorgebastida.com/'
+            repo_url: 'https://github.com/jorgebastida/gordon'
+            logo: 'https://gordon.readthedocs.io/en/latest/_static/logo_text.svg'
+            twitter: 'https://twitter.com/jorgebastida'
+            crunchbase: 'https://www.crunchbase.com/organization/gordon'
+            crunchbase_data:
+              name: 'Gordon '
+              description: Frameworks
+              num_employees_min: null
+              num_employees_max: null
+              homepage: 'http://jorgebastida.com/'
+              city: London
+              region: England
+              country: United Kingdom
+              twitter: 'https://twitter.com/jorgebastida'
+              linkedin: null
+            github_data:
+              stars: 1966
+              license: BSD-3-Clause
+              description: 'λ Gordon is a tool to create, wire and deploy AWS Lambdas using CloudFormation'
+              latest_commit_date: '2017-12-15T11:56:42Z'
+              latest_commit_link: /jorgebastida/gordon/commit/4c1cd0c4dea2499d98115672095714592f80f7aa
+            github_start_commit_data:
+              start_commit_link: /jorgebastida/gordon/commit/f6445aaa2ef9ba91dec588a9fa9befa427987cad
+              start_date: '2015-10-17T14:58:03Z'
+            cncf_membership_data:
+              cncf_member: false
+            image_data:
+              fileName: gordon.svg
+          - item:
+            name: GunIO Zappa
+            homepage_url: 'https://www.zappa.io/'
+            repo_url: 'https://github.com/Miserlou/Zappa'
+            logo: 'https://www.gun.io/hubfs/Large%20Gun%20Logo.svg'
+            twitter: 'https://twitter.com/gundotio?lang=en'
+            crunchbase: 'https://www.crunchbase.com/organization/gun-io'
+            crunchbase_data:
+              name: gun.io
+              description: Gun.io is an online platform that connects users with freelance web developers for hire.
+              num_employees_min: 11
+              num_employees_max: 50
+              homepage: 'https://gun.io'
+              city: Nashville
+              region: Tennessee
+              country: United States
+              twitter: 'http://twitter.com/GUNdotIO'
+              linkedin: 'https://www.linkedin.com/company/gun-io'
+            github_data:
+              stars: 6270
+              license: MIT
+              description: Serverless Python
+              latest_commit_date: '2018-02-27T23:20:14Z'
+              latest_commit_link: /Miserlou/Zappa/commit/cf8d09f7f286048e66c1f4da505876e2ea19c903
+            github_start_commit_data:
+              start_commit_link: /Miserlou/Zappa/commit/8f2424d1289181ed36643aecef007ec0575418b5
+              start_date: '2016-01-20T21:57:05Z'
+            cncf_membership_data:
+              cncf_member: false
+            image_data:
+              fileName: gun-io-zappa.svg
+          - item:
+            name: KappaIO
+            homepage_url: 'http://kappa.readthedocs.io/en/develop/'
+            repo_url: 'https://github.com/garnaat/kappa'
+            logo: ./hosted_logos/kappaio.svg
+            twitter: 'https://twitter.com/kappaio'
+            crunchbase: 'https://www.crunchbase.com/organization/kappaio'
+            crunchbase_data:
+              name: KappaIO
+              description: Frameworks
+              num_employees_min: null
+              num_employees_max: null
+              homepage: 'http://kappa.readthedocs.io/en/develop/'
+              city: San Francisco
+              region: California
+              country: United States
+              twitter: 'https://twitter.com/kappaio'
+              linkedin: null
+            github_data:
+              stars: 891
+              license: Apache-2.0
+              description: What precedes Lambda
+              latest_commit_date: '2017-02-13T23:29:41Z'
+              latest_commit_link: /garnaat/kappa/commit/1c3dfd30c12c5d429e6e29916fd68de6659f7dfd
+            github_start_commit_data:
+              start_commit_link: /garnaat/kappa/commit/a62de82ef00830402b45ba240c3cdbadeb8abf4d
+              start_date: '2014-11-28T19:09:43Z'
+            cncf_membership_data:
+              cncf_member: false
+            image_data:
+              fileName: kappa-io.svg
+              hash: 0eOR7pcbBhnGT3X4bM9H2p/Atz6EadDt7+VbyEWDArQ=
+          - item:
+            name: Mitoc Group Deep
+            homepage_url: 'http://docs.deep.mg/'
+            repo_url: 'https://github.com/MitocGroup/deep-framework'
+            logo: 'https://www.mitocgroup.com/images/logos/mitoc.svg'
+            twitter: 'https://twitter.com/MitocGroup'
+            crunchbase: 'https://www.crunchbase.com/organization/mitoc-group-inc'
+            crunchbase_data:
+              name: Mitoc Group
+              description: Mitoc Group is a technology company that focuses on innovative enterprise solutions
+              num_employees_min: 1
+              num_employees_max: 10
+              homepage: 'https://www.mitocgroup.com'
+              city: Woodcliff Lake
+              region: New Jersey
+              country: United States
+              twitter: 'https://twitter.com/mitocgroup'
+              linkedin: 'https://linkedin.com/company/mitoc-group'
+            github_data:
+              stars: 506
+              license: MIT
+              description: Full-stack JavaScript Framework for Cloud-Native Web Applications (perfect for Serverless use cases)
+              latest_commit_date: '2017-10-11T14:48:26Z'
+              latest_commit_link: /MitocGroup/deep-framework/commit/34fbde4685abd1b2457a04cc5bca42716f78d340
+            github_start_commit_data:
+              start_commit_link: /MitocGroup/deep-framework/commit/1283d4e203d113a71e6ccde2db24249fa8a0bc42
+              start_date: '2015-10-05T22:48:47Z'
+            cncf_membership_data:
+              cncf_member: false
+            image_data:
+              fileName: mitoc-group-deep.svg
           - item:
             name: SAM Local
             homepage_url: 'https://docs.aws.amazon.com/lambda/latest/dg/serverless_app.html'
@@ -10239,101 +10231,141 @@ landscape:
               fileName: sam-local.svg
               hash: 65RoM5JF5MbAyX6fcYWY90FUZ3wzogqLSCxnbAs7PH4=
           - item:
-            name: Gordon
-            homepage_url: 'http://jorgebastida.com/'
-            repo_url: 'https://github.com/jorgebastida/gordon'
-            logo: 'https://gordon.readthedocs.io/en/latest/_static/logo_text.svg'
-            twitter: 'https://twitter.com/jorgebastida'
-            crunchbase: 'https://www.crunchbase.com/organization/gordon'
+            name: Serverless
+            homepage_url: 'https://serverless.com/'
+            repo_url: 'https://github.com/serverless/serverless'
+            logo: ./hosted_logos/serverless.svg
+            twitter: 'https://twitter.com/goserverless'
+            crunchbase: 'https://www.crunchbase.com/organization/serverless'
             crunchbase_data:
-              name: 'Gordon '
-              description: Frameworks
-              num_employees_min: null
-              num_employees_max: null
-              homepage: 'http://jorgebastida.com/'
-              city: London
-              region: England
-              country: United Kingdom
-              twitter: 'https://twitter.com/jorgebastida'
-              linkedin: null
-            github_data:
-              stars: 1966
-              license: BSD-3-Clause
-              description: 'λ Gordon is a tool to create, wire and deploy AWS Lambdas using CloudFormation'
-              latest_commit_date: '2017-12-15T11:56:42Z'
-              latest_commit_link: /jorgebastida/gordon/commit/4c1cd0c4dea2499d98115672095714592f80f7aa
-            github_start_commit_data:
-              start_commit_link: /jorgebastida/gordon/commit/f6445aaa2ef9ba91dec588a9fa9befa427987cad
-              start_date: '2015-10-17T14:58:03Z'
-            cncf_membership_data:
-              cncf_member: false
-            image_data:
-              fileName: gordon.svg
-          - item:
-            name: ClaudisJS
-            homepage_url: 'https://claudiajs.com/'
-            repo_url: 'https://github.com/claudiajs/claudia'
-            logo: 'https://claudiajs.com/assets/claudiajs.svg'
-            crunchbase: 'https://www.crunchbase.com/organization/claudiajs'
-            crunchbase_data:
-              name: ClaudiaJS
-              description: Frameworks
-              num_employees_min: null
-              num_employees_max: null
-              homepage: 'https://claudiajs.com/'
-              city: London
-              region: England
-              country: United Kingdom
-              twitter: 'https://twitter.com/intent/follow?screen_name=gojkoadzic'
-              linkedin: null
-            github_data:
-              stars: 2600
-              license: MIT
-              description: Deploy Node.js projects to AWS Lambda and API Gateway easily
-              latest_commit_date: '2018-01-29T09:23:14Z'
-              latest_commit_link: /claudiajs/claudia/commit/8ef87836f7f52ea7fb7666d42d39ba044da2027e
-            github_start_commit_data:
-              start_commit_link: /claudiajs/claudia/commit/3da70b6858b1b8d8f7cb68c829fdc28f84a2c7e5
-              start_date: '2016-02-03T01:10:51Z'
-            cncf_membership_data:
-              cncf_member: false
-            image_data:
-              fileName: claudis-js.svg
-          - item:
-            name: KappaIO
-            homepage_url: 'http://kappa.readthedocs.io/en/develop/'
-            repo_url: 'https://github.com/garnaat/kappa'
-            logo: ./hosted_logos/kappaio.svg
-            twitter: 'https://twitter.com/kappaio'
-            crunchbase: 'https://www.crunchbase.com/organization/kappaio'
-            crunchbase_data:
-              name: KappaIO
-              description: Frameworks
-              num_employees_min: null
-              num_employees_max: null
-              homepage: 'http://kappa.readthedocs.io/en/develop/'
+              name: Serverless
+              description: Serverless offers developers an open source framework powered by AWS Lambda and AWS API Gateway.
+              num_employees_min: 1
+              num_employees_max: 10
+              homepage: 'https://serverless.com/'
               city: San Francisco
               region: California
               country: United States
-              twitter: 'https://twitter.com/kappaio'
+              twitter: 'https://twitter.com/goserverless'
+              linkedin: 'https://www.linkedin.com/company/serverless'
+              kind: funding
+              funding: 3000000
+            github_data:
+              stars: 22093
+              license: Unknown License
+              description: >-
+                Serverless Framework – Build web, mobile and IoT applications with serverless architectures using AWS Lambda, Azure Functions, Google
+                CloudFunctions & more! –
+              latest_commit_date: '2018-02-28T18:19:38Z'
+              latest_commit_link: /serverless/serverless/commit/a58ce94746bc043016d4c7cd295fd08f36799c1b
+            github_start_commit_data:
+              start_commit_link: /serverless/serverless/commit/b297fcb835428108bd1b4e75cb519c0fabff39fa
+              start_date: '2015-04-21T03:49:10Z'
+            cncf_membership_data:
+              cncf_member: true
+            image_data:
+              fileName: serverless.svg
+              hash: XKz5Q6YAUVt1UXjUah3AZiyVzIJCkUn3Pw6rGVIIY3s=
+          - item:
+            name: Sparta
+            homepage_url: 'http://gosparta.io/'
+            repo_url: 'https://github.com/mweagle/Sparta'
+            logo: ./hosted_logos/sparta.svg
+            twitter: 'https://twitter.com/mweagle?lang=en'
+            crunchbase: 'https://www.crunchbase.com/organization/sparta-7ffe'
+            crunchbase_data:
+              name: Sparta
+              description: Serverless- Frameworks
+              num_employees_min: null
+              num_employees_max: null
+              homepage: 'http://gosparta.io/'
+              city: null
+              region: null
+              country: null
+              twitter: null
               linkedin: null
             github_data:
-              stars: 891
-              license: Apache-2.0
-              description: What precedes Lambda
-              latest_commit_date: '2017-02-13T23:29:41Z'
-              latest_commit_link: /garnaat/kappa/commit/1c3dfd30c12c5d429e6e29916fd68de6659f7dfd
+              stars: 455
+              license: MIT
+              description: Run go functions in AWS Lambda
+              latest_commit_date: '2018-01-22T03:21:02Z'
+              latest_commit_link: /mweagle/Sparta/commit/5fd68752aed7fe076cea05e6bbe2ef72c48f047b
             github_start_commit_data:
-              start_commit_link: /garnaat/kappa/commit/a62de82ef00830402b45ba240c3cdbadeb8abf4d
-              start_date: '2014-11-28T19:09:43Z'
+              start_commit_link: /mweagle/Sparta/commit/8dfeba9d190219585cd037ff3b20f2f05f075bb1
+              start_date: '2015-10-18T13:54:42Z'
             cncf_membership_data:
               cncf_member: false
             image_data:
-              fileName: kappa-io.svg
-              hash: 0eOR7pcbBhnGT3X4bM9H2p/Atz6EadDt7+VbyEWDArQ=
+              fileName: sparta.svg
+              hash: bi6K5RHPemwP/GpmLGDEOPK9FZyOHiZA+0cBD3DJErc=
+          - item:
+            name: Spring Cloud Function
+            homepage_url: 'https://cloud.spring.io/spring-cloud-function/'
+            repo_url: 'https://github.com/spring-cloud/spring-cloud-function'
+            logo: ./hosted_logos/spring-cloud-function.svg
+            crunchbase: 'https://www.crunchbase.com/organization/pivotal'
+            crunchbase_data:
+              name: Pivotal
+              description: Pivotal is a software company that provides digital transformation technology and services.
+              num_employees_min: 1001
+              num_employees_max: 5000
+              homepage: 'http://www.pivotal.io'
+              city: San Francisco
+              region: California
+              country: United States
+              twitter: 'http://twitter.com/pivotal'
+              linkedin: 'http://www.linkedin.com/company/3048967'
+              kind: funding
+              funding: 1704000000
+            github_data:
+              stars: 294
+              license: Apache-2.0
+              description: ''
+              latest_commit_date: '2018-02-28T10:28:14Z'
+              latest_commit_link: /spring-cloud/spring-cloud-function/commit/955e99bfe37cd87546dbc90c1941eb196d6f8a85
+            github_start_commit_data:
+              start_commit_link: /spring-cloud/spring-cloud-function/commit/bdd39b74ffbdfeec281261bb5a79330eda0ccc6c
+              start_date: '2016-09-22T02:33:06Z'
+            cncf_membership_data:
+              cncf_member: true
+            image_data:
+              fileName: spring-cloud-function.svg
+              hash: MFSoaXbnzauDJowL3Yi3dwlO8Nms/K3JYYqc0IatfIc=
       - subcategory:
         name: Platforms
         items:
+          - item:
+            name: Apache OpenWhisk
+            homepage_url: 'https://openwhisk.apache.org/'
+            logo: ./hosted_logos/apache-openwhisk.svg
+            repo_url: 'https://github.com/apache/incubator-openwhisk'
+            twitter: 'https://twitter.com/openwhisk'
+            crunchbase: 'https://www.crunchbase.com/organization/apache'
+            crunchbase_data:
+              name: Apache Software Foundation
+              description: 'Apache Software Foundation (501C3) provides organizational, legal and financial support for Apache open-source software projects.'
+              num_employees_min: 1
+              num_employees_max: 10
+              homepage: 'http://www.apache.org'
+              city: Forest Hill
+              region: Maryland
+              country: United States
+              twitter: 'http://twitter.com/TheASF'
+              linkedin: 'http://www.linkedin.com/company/the-apache-software-foundation'
+            github_data:
+              stars: 2859
+              license: Apache-2.0
+              description: Apache OpenWhisk is a serverless event-based programming service and an Apache Incubator project.
+              latest_commit_date: '2018-02-28T23:27:37Z'
+              latest_commit_link: /apache/incubator-openwhisk/commit/05d86622c71cef7d3a75b0cdc6a0ffda43e9040d
+            github_start_commit_data:
+              start_commit_link: /apache/incubator-openwhisk/commit/daeb509bbddd94b7df8ff48f4b96cf821c34dc72
+              start_date: '2016-02-19T22:47:33Z'
+            cncf_membership_data:
+              cncf_member: false
+            image_data:
+              fileName: open-whisk.svg
+              hash: qq2JGGpPxwI3DcEsxQDu6QMXWOSYnxT3SunRn+uzaeI=
           - item:
             name: AWS Lambda
             homepage_url: 'https://aws.amazon.com/lambda/'
@@ -10362,26 +10394,55 @@ landscape:
               fileName: aws-lambda.svg
               hash: sYlBMP/aUgrlbibHuDcVohY+PHkoDY4HOKHZdsujf5U=
           - item:
-            name: Webtask
-            homepage_url: 'https://webtask.io/'
-            logo: 'https://cdn.auth0.com/website/assets/pages/press/img/resources/webtask-logo-f479cae0f6.svg'
-            twitter: 'https://twitter.com/webtaskio'
-            crunchbase: 'https://www.crunchbase.com/organization/webtask'
+            name: Azure Functions
+            homepage_url: 'https://azure.microsoft.com/en-us/services/functions//'
+            logo: ./hosted_logos/azurefunctions.svg
+            twitter: 'https://twitter.com/Azure'
+            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
             crunchbase_data:
-              name: Webtask
-              description: 'Webtasks is a simple, lightweight, and secure way of running isolated backend code that removed or reduces the need for a backend.'
+              name: Microsoft
+              description: 'Microsoft is a software corporation that develops, manufactures, licenses, supports, and sells a range of software products and services.'
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: 'http://www.microsoft.com'
+              city: Redmond
+              region: Washington
+              country: United States
+              twitter: 'http://twitter.com/Microsoft'
+              linkedin: 'http://www.linkedin.com/company/microsoft'
+              ticker: MSFT
+              kind: market_cap
+            cncf_membership_data:
+              cncf_member: true
+            yahoo_finance_data:
+              market_cap: 722009260032
+              effective_ticker: MSFT
+            image_data:
+              fileName: azure-functions.svg
+              hash: ubx69Pg6Pj2TA8RQ0cOpSQTCV/A33hvelSvpOedFW0U=
+          - item:
+            name: Clay
+            homepage_url: 'https://www.clay.run/'
+            logo: ./hosted_logos/clay.svg
+            best_res: ''
+            twitter: ''
+            crunchbase: 'https://www.crunchbase.com/organization/clay-labs'
+            crunchbase_data:
+              name: Clay Labs
+              description: Platforms
               num_employees_min: null
               num_employees_max: null
-              homepage: 'https://webtask.io'
+              homepage: 'https://www.clay.run/'
               city: null
               region: null
               country: null
-              twitter: 'https://twitter.com/webtaskio'
+              twitter: null
               linkedin: null
             cncf_membership_data:
               cncf_member: false
             image_data:
-              fileName: webtask.svg
+              fileName: clay.svg
+              hash: 6UMoKunY0g5Ba7vsQoXGkWWmBlc3HcegP9lh2FDqo0A=
           - item:
             name: Google Cloud Functions
             homepage_url: 'https://cloud.google.com/functions/'
@@ -10410,6 +10471,27 @@ landscape:
               fileName: google-cloud-functions.svg
               hash: EZrO23n6dmQZI4EmMxN2wABBoDwPSUeQ39Ork0a9ldM=
           - item:
+            name: Hyper Func
+            homepage_url: 'https://docs.hyper.sh/Feature/container/func.html'
+            logo: 'https://www.hyper.sh/logo/logo_dark.svg'
+            twitter: 'https://twitter.com/hyper_sh'
+            crunchbase: 'https://www.crunchbase.com/organization/hyper-4'
+            crunchbase_data:
+              name: Hyper_
+              description: Hyper_ is a secure container cloud service.
+              num_employees_min: 1
+              num_employees_max: 10
+              homepage: 'https://hyper.sh/'
+              city: New York
+              region: New York
+              country: United States
+              twitter: 'https://twitter.com/hyper_sh'
+              linkedin: null
+            cncf_membership_data:
+              cncf_member: false
+            image_data:
+              fileName: hyper.svg
+          - item:
             name: IBM Cloud Functions
             homepage_url: 'https://console.bluemix.net/openwhisk/'
             logo: ./hosted_logos/ibm-cloud.svg
@@ -10436,6 +10518,29 @@ landscape:
             image_data:
               fileName: ibm-cloud.svg
               hash: Rr/C0mHJvIwMrtpZjsrFGgYy/0C/kexp/IbJxCEsdiQ=
+          - item:
+            name: Iron.io
+            homepage_url: 'https://www.iron.io/'
+            logo: 'https://cdn.worldvectorlogo.com/logos/iron-io.svg'
+            twitter: 'https://twitter.com/getiron'
+            crunchbase: 'https://www.crunchbase.com/organization/iron-io'
+            crunchbase_data:
+              name: Iron.io
+              description: Iron.io is a scalable cloud-based message queue and processing platform for building distributed cloud applications.
+              num_employees_min: 11
+              num_employees_max: 50
+              homepage: 'https://www.iron.io'
+              city: San Francisco
+              region: California
+              country: United States
+              twitter: 'http://twitter.com/getiron'
+              linkedin: 'https://www.linkedin.com/company/iron-io'
+              kind: funding
+              funding: 17000000
+            cncf_membership_data:
+              cncf_member: false
+            image_data:
+              fileName: iron-io.svg
           - item:
             name: Nano Lambda
             homepage_url: 'http://nano-lambda.com/'
@@ -10529,38 +10634,6 @@ landscape:
             image_data:
               fileName: pub-nub-functions.svg
           - item:
-            name: Apache OpenWhisk
-            homepage_url: 'https://openwhisk.apache.org/'
-            logo: ./hosted_logos/apache-openwhisk.svg
-            repo_url: 'https://github.com/apache/incubator-openwhisk'
-            twitter: 'https://twitter.com/openwhisk'
-            crunchbase: 'https://www.crunchbase.com/organization/apache'
-            crunchbase_data:
-              name: Apache Software Foundation
-              description: 'Apache Software Foundation (501C3) provides organizational, legal and financial support for Apache open-source software projects.'
-              num_employees_min: 1
-              num_employees_max: 10
-              homepage: 'http://www.apache.org'
-              city: Forest Hill
-              region: Maryland
-              country: United States
-              twitter: 'http://twitter.com/TheASF'
-              linkedin: 'http://www.linkedin.com/company/the-apache-software-foundation'
-            github_data:
-              stars: 2859
-              license: Apache-2.0
-              description: Apache OpenWhisk is a serverless event-based programming service and an Apache Incubator project.
-              latest_commit_date: '2018-02-28T23:27:37Z'
-              latest_commit_link: /apache/incubator-openwhisk/commit/05d86622c71cef7d3a75b0cdc6a0ffda43e9040d
-            github_start_commit_data:
-              start_commit_link: /apache/incubator-openwhisk/commit/daeb509bbddd94b7df8ff48f4b96cf821c34dc72
-              start_date: '2016-02-19T22:47:33Z'
-            cncf_membership_data:
-              cncf_member: false
-            image_data:
-              fileName: open-whisk.svg
-              hash: qq2JGGpPxwI3DcEsxQDu6QMXWOSYnxT3SunRn+uzaeI=
-          - item:
             name: Spotinst Functions
             homepage_url: 'https://spotinst.com/products/spotinst-functions/'
             logo: 'https://spotinst.com/app/uploads/2016/11/Spotinst-Logo.png'
@@ -10583,6 +10656,40 @@ landscape:
               cncf_member: false
             image_data:
               fileName: spotinst-functions.png
+          - item:
+            name: StdLib
+            homepage_url: 'https://stdlib.com/'
+            repo_url: 'https://github.com/stdlib/lib'
+            logo: ./hosted_logos/stdlib.svg
+            twitter: 'https://twitter.com/stdlibhq'
+            crunchbase: 'https://www.crunchbase.com/organization/stdlib'
+            crunchbase_data:
+              name: StdLib
+              description: StdLib serves as a Function as a Service (FaaS) library and platform.
+              num_employees_min: 1
+              num_employees_max: 10
+              homepage: 'https://stdlib.com'
+              city: San Francisco
+              region: California
+              country: United States
+              twitter: 'https://twitter.com/stdlibhq'
+              linkedin: 'https://www.linkedin.com/company-beta/7789765/'
+              kind: funding
+              funding: 2000000
+            github_data:
+              stars: 3154
+              license: MIT
+              description: 'StdLib Service Creation, Deployment, and Management Tools'
+              latest_commit_date: '2018-02-24T23:49:45Z'
+              latest_commit_link: /stdlib/lib/commit/39f45e0995d522dd78bbc3fad7d9e3149cb7b8ab
+            github_start_commit_data:
+              start_commit_link: /stdlib/lib/commit/59404abe0078be1b8d55b1d7e2d5f15860aec73f
+              start_date: '2016-08-08T11:25:21Z'
+            cncf_membership_data:
+              cncf_member: false
+            image_data:
+              fileName: std-lib.svg
+              hash: 5kFKI4HE5FnTmja1aWstjnryjRfZ9GStPgoH4YojBPs=
           - item:
             name: Syncano
             homepage_url: 'https://syncano.io/#/'
@@ -10656,133 +10763,26 @@ landscape:
               fileName: weblab.svg
               hash: fuIE5taKpnga1Ji7bjfbKRcAw4Fxtke5Nl0IEMMk50g=
           - item:
-            name: Iron.io
-            homepage_url: 'https://www.iron.io/'
-            logo: 'https://cdn.worldvectorlogo.com/logos/iron-io.svg'
-            twitter: 'https://twitter.com/getiron'
-            crunchbase: 'https://www.crunchbase.com/organization/iron-io'
+            name: Webtask
+            homepage_url: 'https://webtask.io/'
+            logo: 'https://cdn.auth0.com/website/assets/pages/press/img/resources/webtask-logo-f479cae0f6.svg'
+            twitter: 'https://twitter.com/webtaskio'
+            crunchbase: 'https://www.crunchbase.com/organization/webtask'
             crunchbase_data:
-              name: Iron.io
-              description: Iron.io is a scalable cloud-based message queue and processing platform for building distributed cloud applications.
-              num_employees_min: 11
-              num_employees_max: 50
-              homepage: 'https://www.iron.io'
-              city: San Francisco
-              region: California
-              country: United States
-              twitter: 'http://twitter.com/getiron'
-              linkedin: 'https://www.linkedin.com/company/iron-io'
-              kind: funding
-              funding: 17000000
-            cncf_membership_data:
-              cncf_member: false
-            image_data:
-              fileName: iron-io.svg
-          - item:
-            name: Azure Functions
-            homepage_url: 'https://azure.microsoft.com/en-us/services/functions//'
-            logo: ./hosted_logos/azurefunctions.svg
-            twitter: 'https://twitter.com/Azure'
-            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
-            crunchbase_data:
-              name: Microsoft
-              description: 'Microsoft is a software corporation that develops, manufactures, licenses, supports, and sells a range of software products and services.'
-              num_employees_min: 10001
-              num_employees_max: 1000000
-              homepage: 'http://www.microsoft.com'
-              city: Redmond
-              region: Washington
-              country: United States
-              twitter: 'http://twitter.com/Microsoft'
-              linkedin: 'http://www.linkedin.com/company/microsoft'
-              ticker: MSFT
-              kind: market_cap
-            cncf_membership_data:
-              cncf_member: true
-            yahoo_finance_data:
-              market_cap: 722009260032
-              effective_ticker: MSFT
-            image_data:
-              fileName: azure-functions.svg
-              hash: ubx69Pg6Pj2TA8RQ0cOpSQTCV/A33hvelSvpOedFW0U=
-          - item:
-            name: Hyper Func
-            homepage_url: 'https://docs.hyper.sh/Feature/container/func.html'
-            logo: 'https://www.hyper.sh/logo/logo_dark.svg'
-            twitter: 'https://twitter.com/hyper_sh'
-            crunchbase: 'https://www.crunchbase.com/organization/hyper-4'
-            crunchbase_data:
-              name: Hyper_
-              description: Hyper_ is a secure container cloud service.
-              num_employees_min: 1
-              num_employees_max: 10
-              homepage: 'https://hyper.sh/'
-              city: New York
-              region: New York
-              country: United States
-              twitter: 'https://twitter.com/hyper_sh'
-              linkedin: null
-            cncf_membership_data:
-              cncf_member: false
-            image_data:
-              fileName: hyper.svg
-          - item:
-            name: StdLib
-            homepage_url: 'https://stdlib.com/'
-            repo_url: 'https://github.com/stdlib/lib'
-            logo: ./hosted_logos/stdlib.svg
-            twitter: 'https://twitter.com/stdlibhq'
-            crunchbase: 'https://www.crunchbase.com/organization/stdlib'
-            crunchbase_data:
-              name: StdLib
-              description: StdLib serves as a Function as a Service (FaaS) library and platform.
-              num_employees_min: 1
-              num_employees_max: 10
-              homepage: 'https://stdlib.com'
-              city: San Francisco
-              region: California
-              country: United States
-              twitter: 'https://twitter.com/stdlibhq'
-              linkedin: 'https://www.linkedin.com/company-beta/7789765/'
-              kind: funding
-              funding: 2000000
-            github_data:
-              stars: 3154
-              license: MIT
-              description: 'StdLib Service Creation, Deployment, and Management Tools'
-              latest_commit_date: '2018-02-24T23:49:45Z'
-              latest_commit_link: /stdlib/lib/commit/39f45e0995d522dd78bbc3fad7d9e3149cb7b8ab
-            github_start_commit_data:
-              start_commit_link: /stdlib/lib/commit/59404abe0078be1b8d55b1d7e2d5f15860aec73f
-              start_date: '2016-08-08T11:25:21Z'
-            cncf_membership_data:
-              cncf_member: false
-            image_data:
-              fileName: std-lib.svg
-              hash: 5kFKI4HE5FnTmja1aWstjnryjRfZ9GStPgoH4YojBPs=
-          - item:
-            name: Clay
-            homepage_url: 'https://www.clay.run/'
-            logo: ./hosted_logos/clay.svg
-            best_res: ''
-            twitter: ''
-            crunchbase: 'https://www.crunchbase.com/organization/clay-labs'
-            crunchbase_data:
-              name: Clay Labs
-              description: Platforms
+              name: Webtask
+              description: 'Webtasks is a simple, lightweight, and secure way of running isolated backend code that removed or reduces the need for a backend.'
               num_employees_min: null
               num_employees_max: null
-              homepage: 'https://www.clay.run/'
+              homepage: 'https://webtask.io'
               city: null
               region: null
               country: null
-              twitter: null
+              twitter: 'https://twitter.com/webtaskio'
               linkedin: null
             cncf_membership_data:
               cncf_member: false
             image_data:
-              fileName: clay.svg
-              hash: 6UMoKunY0g5Ba7vsQoXGkWWmBlc3HcegP9lh2FDqo0A=
+              fileName: webtask.svg
           - item:
             name: Zeit Now
             homepage_url: 'https://zeit.co/now'
@@ -10833,6 +10833,28 @@ landscape:
               fileName: binaris.svg
               hash: OLXV1FI74QowxEbbjbxF6bWJjBq+A20g4AfwqkhuAY4=
           - item:
+            name: Cloudboost
+            homepage_url: 'https://www.cloudboost.io/'
+            logo: ./hosted_logos/cloudboost.svg
+            twitter: 'https://twitter.com/cloudboostio'
+            crunchbase: 'https://www.crunchbase.com/organization/cloudboost'
+            crunchbase_data:
+              name: CloudBoost
+              description: One Complete NoSQL Database Service for your app.
+              num_employees_min: 1
+              num_employees_max: 10
+              homepage: 'https://cloudboost.io'
+              city: Hyderabad
+              region: Andhra Pradesh
+              country: India
+              twitter: 'http://twitter.com/cloudboostio'
+              linkedin: 'https://www.linkedin.com/company/cloudboost-io'
+            cncf_membership_data:
+              cncf_member: false
+            image_data:
+              fileName: cloudboost.svg
+              hash: K2+vaIqYkxJlDafDug7GPcSCOwXIe/0j9qPuGnTHGdc=
+          - item:
             name: Fn
             homepage_url: 'http://fnproject.io/'
             repo_url: 'https://github.com/fnproject/fn'
@@ -10863,83 +10885,6 @@ landscape:
               cncf_member: false
             image_data:
               fileName: fn.svg
-          - item:
-            name: Galactic Fog Gestalt
-            homepage_url: 'http://www.galacticfog.com/product/'
-            logo: ./hosted_logos/galacticfog.svg
-            twitter: 'https://twitter.com/galacticfog'
-            crunchbase: 'https://www.crunchbase.com/organization/galactic-fog'
-            crunchbase_data:
-              name: Galactic Fog
-              description: Build Future-Proof Applications. Simplify integration. Run applications anywhere. Adapt to changes instantly.
-              num_employees_min: 1
-              num_employees_max: 10
-              homepage: 'http://www.galacticfog.com/'
-              city: South Orange
-              region: New Jersey
-              country: United States
-              twitter: null
-              linkedin: 'https://www.linkedin.com/company/galactic-fog'
-            cncf_membership_data:
-              cncf_member: true
-            image_data:
-              fileName: galactic-fog.svg
-              hash: 3bBGBDmfRJHACvGbC9ZCqvEFlcHjeQhNo3peKQPKE3U=
-          - item:
-            name: Nuclio
-            homepage_url: 'https://nuclio.io/'
-            repo_url: 'https://github.com/nuclio/nuclio'
-            logo: 'https://raw.githubusercontent.com/nuclio/nuclio/master/docs/assets/images/logo.png'
-            twitter: 'https://twitter.com/nuclioio'
-            crunchbase: 'https://www.crunchbase.com/organization/iguaz-io'
-            crunchbase_data:
-              name: iguazio
-              description: 'iguazio''s Continuous Analytics Data Platform has redesigned the data stack to accelerate performance in big data, IoT and cloud-native apps.'
-              num_employees_min: 51
-              num_employees_max: 100
-              homepage: 'http://www.iguazio.com/'
-              city: Herzliya
-              region: Tel Aviv
-              country: Israel
-              twitter: 'https://twitter.com/iguazio'
-              linkedin: 'https://www.linkedin.com/company/iguazio'
-              kind: funding
-              funding: 48000000
-            github_data:
-              stars: 1774
-              license: Apache-2.0
-              description: High-Performance Serverless event and data processing platform
-              latest_commit_date: '2018-02-28T18:30:42Z'
-              latest_commit_link: /nuclio/nuclio/commit/df23cd452754edd917bdbe9390a9058a6b4fa898
-            github_start_commit_data:
-              start_commit_link: /nuclio/nuclio/commit/d2f43903dd5e249f768baa220871893fdb391b94
-              start_date: '2017-06-04T20:03:53Z'
-            cncf_membership_data:
-              cncf_member: true
-            image_data:
-              fileName: nuclio.png
-          - item:
-            name: Cloudboost
-            homepage_url: 'https://www.cloudboost.io/'
-            logo: ./hosted_logos/cloudboost.svg
-            twitter: 'https://twitter.com/cloudboostio'
-            crunchbase: 'https://www.crunchbase.com/organization/cloudboost'
-            crunchbase_data:
-              name: CloudBoost
-              description: One Complete NoSQL Database Service for your app.
-              num_employees_min: 1
-              num_employees_max: 10
-              homepage: 'https://cloudboost.io'
-              city: Hyderabad
-              region: Andhra Pradesh
-              country: India
-              twitter: 'http://twitter.com/cloudboostio'
-              linkedin: 'https://www.linkedin.com/company/cloudboost-io'
-            cncf_membership_data:
-              cncf_member: false
-            image_data:
-              fileName: cloudboost.svg
-              hash: K2+vaIqYkxJlDafDug7GPcSCOwXIe/0j9qPuGnTHGdc=
           - item:
             name: fx
             homepage_url: 'https://minghe.me/'
@@ -10973,6 +10918,28 @@ landscape:
               fileName: fx.svg
               hash: w+pSRFegWzjLf0dDqDybLnhcHVbd3nCu5nD/GwB5c2w=
           - item:
+            name: Galactic Fog Gestalt
+            homepage_url: 'http://www.galacticfog.com/product/'
+            logo: ./hosted_logos/galacticfog.svg
+            twitter: 'https://twitter.com/galacticfog'
+            crunchbase: 'https://www.crunchbase.com/organization/galactic-fog'
+            crunchbase_data:
+              name: Galactic Fog
+              description: Build Future-Proof Applications. Simplify integration. Run applications anywhere. Adapt to changes instantly.
+              num_employees_min: 1
+              num_employees_max: 10
+              homepage: 'http://www.galacticfog.com/'
+              city: South Orange
+              region: New Jersey
+              country: United States
+              twitter: null
+              linkedin: 'https://www.linkedin.com/company/galactic-fog'
+            cncf_membership_data:
+              cncf_member: true
+            image_data:
+              fileName: galactic-fog.svg
+              hash: 3bBGBDmfRJHACvGbC9ZCqvEFlcHjeQhNo3peKQPKE3U=
+          - item:
             name: LunchBadger
             homepage_url: 'https://www.lunchbadger.com/'
             logo: ./hosted_logos/lunchbadger.svg
@@ -10997,9 +10964,107 @@ landscape:
             image_data:
               fileName: lunch-badger.svg
               hash: NszBeOLDvPpQMMaNnL9mkt3DUrpPEWA+qZHSN1TIfkA=
+          - item:
+            name: Nuclio
+            homepage_url: 'https://nuclio.io/'
+            repo_url: 'https://github.com/nuclio/nuclio'
+            logo: 'https://raw.githubusercontent.com/nuclio/nuclio/master/docs/assets/images/logo.png'
+            twitter: 'https://twitter.com/nuclioio'
+            crunchbase: 'https://www.crunchbase.com/organization/iguaz-io'
+            crunchbase_data:
+              name: iguazio
+              description: 'iguazio''s Continuous Analytics Data Platform has redesigned the data stack to accelerate performance in big data, IoT and cloud-native apps.'
+              num_employees_min: 51
+              num_employees_max: 100
+              homepage: 'http://www.iguazio.com/'
+              city: Herzliya
+              region: Tel Aviv
+              country: Israel
+              twitter: 'https://twitter.com/iguazio'
+              linkedin: 'https://www.linkedin.com/company/iguazio'
+              kind: funding
+              funding: 48000000
+            github_data:
+              stars: 1774
+              license: Apache-2.0
+              description: High-Performance Serverless event and data processing platform
+              latest_commit_date: '2018-02-28T18:30:42Z'
+              latest_commit_link: /nuclio/nuclio/commit/df23cd452754edd917bdbe9390a9058a6b4fa898
+            github_start_commit_data:
+              start_commit_link: /nuclio/nuclio/commit/d2f43903dd5e249f768baa220871893fdb391b94
+              start_date: '2017-06-04T20:03:53Z'
+            cncf_membership_data:
+              cncf_member: true
+            image_data:
+              fileName: nuclio.png
       - subcategory:
         name: Kubernetes-Native Platforms
         items:
+          - item:
+            name: Fission
+            homepage_url: 'http://fission.io/'
+            repo_url: 'https://github.com/fission/fission'
+            logo: 'https://www.gcppodcast.com/images/post/fission-logo.png'
+            twitter: 'https://twitter.com/Platform9Sys'
+            crunchbase: 'https://www.crunchbase.com/organization/platform9-systems-inc'
+            crunchbase_data:
+              name: Platform9 Systems
+              description: Platform9 is the open source-as-a-service company making cloud infrastructure easy.
+              num_employees_min: 51
+              num_employees_max: 100
+              homepage: 'https://platform9.com'
+              city: Sunnyvale
+              region: California
+              country: United States
+              twitter: 'http://twitter.com/Platform9Sys'
+              linkedin: 'http://www.linkedin.com/company/platform9-systems'
+              kind: funding
+              funding: 36500000
+            github_data:
+              stars: 3064
+              license: Apache-2.0
+              description: Fast Serverless Functions for Kubernetes
+              latest_commit_date: '2018-02-28T11:03:39Z'
+              latest_commit_link: /fission/fission/commit/b895f98e886ac2387979ac09bedd9c9100c1d84a
+            github_start_commit_data:
+              start_commit_link: /fission/fission/commit/90c14cfa0808aa1d63ea55ad87bee0f651f45091
+              start_date: '2016-08-19T04:35:42Z'
+            cncf_membership_data:
+              cncf_member: true
+            image_data:
+              fileName: fission.png
+          - item:
+            name: Funktion
+            homepage_url: 'https://funktion.fabric8.io/'
+            repo_url: 'https://github.com/funktionio/funktion'
+            logo: ./hosted_logos/funktion.svg
+            twitter: 'https://twitter.com/funktionio'
+            crunchbase: 'https://www.crunchbase.com/organization/funktion'
+            crunchbase_data:
+              name: Funktion
+              description: Kubernetes-Native
+              num_employees_min: null
+              num_employees_max: null
+              homepage: 'https://funktion.fabric8.io/'
+              city: null
+              region: null
+              country: null
+              twitter: 'https://twitter.com/funktionio'
+              linkedin: null
+            github_data:
+              stars: 236
+              license: Apache-2.0
+              description: a CLI tool for working with funktion
+              latest_commit_date: '2017-11-29T08:31:03Z'
+              latest_commit_link: /funktionio/funktion/commit/81aeeb6e3913ae5fe82230800d835d6a77f130bd
+            github_start_commit_data:
+              start_commit_link: /funktionio/funktion/commit/71567dfd839d2925832fca38e84970ccf7abb5f1
+              start_date: '2016-12-05T09:42:18Z'
+            cncf_membership_data:
+              cncf_member: false
+            image_data:
+              fileName: funktion.svg
+              hash: uX5mUXZdParNgbT2MOSiuiOkPjpovAnP9TnTROYbwrY=
           - item:
             name: Kubeless
             homepage_url: 'http://kubeless.io/'
@@ -11096,38 +11161,6 @@ landscape:
               fileName: open-lambda.svg
               hash: C59S+H1oWfVnJo8m8NtyALYDW6KnbByjGItEImzoR4k=
           - item:
-            name: Funktion
-            homepage_url: 'https://funktion.fabric8.io/'
-            repo_url: 'https://github.com/funktionio/funktion'
-            logo: ./hosted_logos/funktion.svg
-            twitter: 'https://twitter.com/funktionio'
-            crunchbase: 'https://www.crunchbase.com/organization/funktion'
-            crunchbase_data:
-              name: Funktion
-              description: Kubernetes-Native
-              num_employees_min: null
-              num_employees_max: null
-              homepage: 'https://funktion.fabric8.io/'
-              city: null
-              region: null
-              country: null
-              twitter: 'https://twitter.com/funktionio'
-              linkedin: null
-            github_data:
-              stars: 236
-              license: Apache-2.0
-              description: a CLI tool for working with funktion
-              latest_commit_date: '2017-11-29T08:31:03Z'
-              latest_commit_link: /funktionio/funktion/commit/81aeeb6e3913ae5fe82230800d835d6a77f130bd
-            github_start_commit_data:
-              start_commit_link: /funktionio/funktion/commit/71567dfd839d2925832fca38e84970ccf7abb5f1
-              start_date: '2016-12-05T09:42:18Z'
-            cncf_membership_data:
-              cncf_member: false
-            image_data:
-              fileName: funktion.svg
-              hash: uX5mUXZdParNgbT2MOSiuiOkPjpovAnP9TnTROYbwrY=
-          - item:
             name: Oracle Application Container Cloud
             homepage_url: 'https://cloud.oracle.com/acc'
             logo: ./hosted_logos/oracle-applicationcontainercloud.svg
@@ -11177,39 +11210,6 @@ landscape:
             image_data:
               fileName: pub-nub.svg
               hash: wBW5O45mCcZqDzP3B3a92MgDclL8PkF8OxR0LpYPEl4=
-          - item:
-            name: Fission
-            homepage_url: 'http://fission.io/'
-            repo_url: 'https://github.com/fission/fission'
-            logo: 'https://www.gcppodcast.com/images/post/fission-logo.png'
-            twitter: 'https://twitter.com/Platform9Sys'
-            crunchbase: 'https://www.crunchbase.com/organization/platform9-systems-inc'
-            crunchbase_data:
-              name: Platform9 Systems
-              description: Platform9 is the open source-as-a-service company making cloud infrastructure easy.
-              num_employees_min: 51
-              num_employees_max: 100
-              homepage: 'https://platform9.com'
-              city: Sunnyvale
-              region: California
-              country: United States
-              twitter: 'http://twitter.com/Platform9Sys'
-              linkedin: 'http://www.linkedin.com/company/platform9-systems'
-              kind: funding
-              funding: 36500000
-            github_data:
-              stars: 3064
-              license: Apache-2.0
-              description: Fast Serverless Functions for Kubernetes
-              latest_commit_date: '2018-02-28T11:03:39Z'
-              latest_commit_link: /fission/fission/commit/b895f98e886ac2387979ac09bedd9c9100c1d84a
-            github_start_commit_data:
-              start_commit_link: /fission/fission/commit/90c14cfa0808aa1d63ea55ad87bee0f651f45091
-              start_date: '2016-08-19T04:35:42Z'
-            cncf_membership_data:
-              cncf_member: true
-            image_data:
-              fileName: fission.png
   - category:
     name: Observability and Analysis
     subcategories:
@@ -11460,6 +11460,33 @@ landscape:
               cncf_member: true
             image_data:
               fileName: dynatrace.png
+          - item:
+            name: Google Stackdriver
+            homepage_url: 'https://cloud.google.com/stackdriver/'
+            logo: ./hosted_logos/google-stackdriver.svg
+            twitter: 'https://twitter.com/stackdriver'
+            crunchbase: 'https://www.crunchbase.com/organization/google'
+            crunchbase_data:
+              name: Google
+              description: Google is a multinational corporation that is specialized in internet-related services and products.
+              num_employees_min: 10001
+              num_employees_max: 1000000
+              homepage: 'http://www.google.com/'
+              city: Mountain View
+              region: California
+              country: United States
+              twitter: 'https://twitter.com/google'
+              linkedin: 'http://www.linkedin.com/company/google'
+              ticker: GOOG
+              kind: market_cap
+            cncf_membership_data:
+              cncf_member: true
+            yahoo_finance_data:
+              market_cap: 768496566272
+              effective_ticker: GOOG
+            image_data:
+              fileName: google-stackdriver.svg
+              hash: q3aTfAA7TzNc2GtOhdnNhUUjgvoBR9mEcZQqZWvrHzY=
           - item:
             name: Grafana
             homepage_url: 'https://grafana.com/'
@@ -12174,56 +12201,6 @@ landscape:
               fileName: snap.svg
               hash: 0JMgL/K86PkC9lgzFgH342kbeNeSqw6nvl3FaWh/GCc=
           - item:
-            name: Tingyun
-            homepage_url: 'http://www.tingyun.com/tingyun_app.html'
-            logo: ./hosted_logos/tingyun.svg
-            best_res: ''
-            twitter: ''
-            crunchbase: 'https://www.crunchbase.com/organization/tingyun'
-            crunchbase_data:
-              name: Tingyun
-              description: 'Observability and Analysis, Monitoring'
-              num_employees_min: null
-              num_employees_max: null
-              homepage: 'http://www.tingyun.com/tingyun_app.html'
-              city: Beijing
-              region: Beijing
-              country: China
-              twitter: null
-              linkedin: null
-            cncf_membership_data:
-              cncf_member: false
-            image_data:
-              fileName: tingyun.svg
-              hash: k32qKCF7SvlMRpUeYnGYFAJiXFzQX9JEH4OyJh3KsR8=
-          - item:
-            name: Google Stackdriver
-            homepage_url: 'https://cloud.google.com/stackdriver/'
-            logo: ./hosted_logos/google-stackdriver.svg
-            twitter: 'https://twitter.com/stackdriver'
-            crunchbase: 'https://www.crunchbase.com/organization/google'
-            crunchbase_data:
-              name: Google
-              description: Google is a multinational corporation that is specialized in internet-related services and products.
-              num_employees_min: 10001
-              num_employees_max: 1000000
-              homepage: 'http://www.google.com/'
-              city: Mountain View
-              region: California
-              country: United States
-              twitter: 'https://twitter.com/google'
-              linkedin: 'http://www.linkedin.com/company/google'
-              ticker: GOOG
-              kind: market_cap
-            cncf_membership_data:
-              cncf_member: true
-            yahoo_finance_data:
-              market_cap: 768496566272
-              effective_ticker: GOOG
-            image_data:
-              fileName: google-stackdriver.svg
-              hash: q3aTfAA7TzNc2GtOhdnNhUUjgvoBR9mEcZQqZWvrHzY=
-          - item:
             name: StackRox
             homepage_url: 'https://www.stackrox.com/'
             logo: ./hosted_logos/stackrox.svg
@@ -12301,6 +12278,29 @@ landscape:
               cncf_member: true
             image_data:
               fileName: sys-dig.svg
+          - item:
+            name: Tingyun
+            homepage_url: 'http://www.tingyun.com/tingyun_app.html'
+            logo: ./hosted_logos/tingyun.svg
+            best_res: ''
+            twitter: ''
+            crunchbase: 'https://www.crunchbase.com/organization/tingyun'
+            crunchbase_data:
+              name: Tingyun
+              description: 'Observability and Analysis, Monitoring'
+              num_employees_min: null
+              num_employees_max: null
+              homepage: 'http://www.tingyun.com/tingyun_app.html'
+              city: Beijing
+              region: Beijing
+              country: China
+              twitter: null
+              linkedin: null
+            cncf_membership_data:
+              cncf_member: false
+            image_data:
+              fileName: tingyun.svg
+              hash: k32qKCF7SvlMRpUeYnGYFAJiXFzQX9JEH4OyJh3KsR8=
           - item:
             name: Wavefront
             homepage_url: 'https://www.wavefront.com/'
