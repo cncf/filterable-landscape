@@ -59,7 +59,7 @@ landscape:
             homepage_url: 'https://www.joyent.com/'
             repo_url: 'https://github.com/joyent/smartos-live'
             logo: 'https://p6.zdassets.com/hc/settings_assets/150338/200244868/L3CnsFFWx4OJFUp2C7uUWA-joyentLogo.png'
-            best_res:
+            best_res: null
             twitter: 'https://twitter.com/joyent'
             crunchbase: 'https://www.crunchbase.com/organization/joyent'
           - item:
@@ -103,7 +103,7 @@ landscape:
             name: MAAS
             homepage_url: 'https://maas.io/'
             repo_url: 'https://github.com/maas/maas'
-            logo: './hosted_logos/maas.svg'
+            logo: ./hosted_logos/maas.svg
             twitter: 'https://twitter.com/Canonical'
             crunchbase: 'https://www.crunchbase.com/organization/canonical-ltd'
           - item:
@@ -171,7 +171,7 @@ landscape:
             name: Rundeck
             homepage_url: 'http://rundeck.org/'
             repo_url: 'https://github.com/rundeck/rundeck'
-            logo: './hosted_logos/rundeck.svg'
+            logo: ./hosted_logos/rundeck.svg
             twitter: 'https://twitter.com/rundeck'
             crunchbase: 'https://www.crunchbase.com/organization/rundeck'
           - item:
@@ -201,7 +201,7 @@ landscape:
           - item:
             name: Cloud Coreo
             homepage_url: 'https://www.cloudcoreo.com/'
-            logo: './hosted_logos/cloudcoreo.svg'
+            logo: ./hosted_logos/cloudcoreo.svg
             twitter: 'https://twitter.com/cloudcoreo'
             crunchbase: 'https://www.crunchbase.com/organization/cloudcoreo'
           - item:
@@ -236,7 +236,7 @@ landscape:
             name: Kubicorn
             homepage_url: 'https://github.com/kris-nova/kubicorn'
             repo_url: 'https://github.com/kris-nova/kubicorn'
-            logo: './hosted_logos/kubicorn.svg'
+            logo: ./hosted_logos/kubicorn.svg
             twitter: 'https://twitter.com/kubicornk8s'
             crunchbase: 'https://www.crunchbase.com/organization/kubicorn'
           - item:
@@ -263,19 +263,6 @@ landscape:
             twitter: 'https://twitter.com/awscloud'
             crunchbase: 'https://www.crunchbase.com/organization/amazon-web-services'
           - item:
-            name: JFrog Artifactory
-            homepage_url: 'https://www.jfrog.com/artifactory/'
-            logo: 'https://docs.tea-ci.org/logos/artifactory.svg'
-            twitter: 'https://twitter.com/jfrog'
-            crunchbase: 'https://www.crunchbase.com/organization/jfrog-ltd'
-          - item:
-            name: Project Atomic
-            homepage_url: 'https://www.projectatomic.io/'
-            repo_url: 'https://github.com/projectatomic/atomic'
-            logo: './hosted_logos/projectatomic.svg'
-            twitter: 'https://twitter.com/projectatomic'
-            crunchbase: 'https://www.crunchbase.com/organization/red-hat'
-          - item:
             name: Azure Registry
             homepage_url: 'https://azure.microsoft.com/en-us/services/container-registry/'
             logo: ./hosted_logos/azureregistry.svg
@@ -298,17 +285,30 @@ landscape:
             name: Harbor
             homepage_url: 'https://vmware.github.io/harbor/'
             repo_url: 'https://github.com/vmware/harbor'
-            logo: './hosted_logos/harbor.png'
+            logo: ./hosted_logos/harbor.png
             stock_ticker: VMW
             twitter: 'https://twitter.com/vmware'
             crunchbase: 'https://www.crunchbase.com/organization/vmware'
           - item:
+            name: JFrog Artifactory
+            homepage_url: 'https://www.jfrog.com/artifactory/'
+            logo: 'https://docs.tea-ci.org/logos/artifactory.svg'
+            twitter: 'https://twitter.com/jfrog'
+            crunchbase: 'https://www.crunchbase.com/organization/jfrog-ltd'
+          - item:
             name: Portus
             homepage_url: 'http://port.us.org/'
             repo_url: 'https://github.com/SUSE/Portus'
-            logo: './hosted_logos/portus.svg'
+            logo: ./hosted_logos/portus.svg
             twotter: 'https://twitter.com/SUSE'
             crunchbase: 'https://www.crunchbase.com/organization/suse'
+          - item:
+            name: Project Atomic
+            homepage_url: 'https://www.projectatomic.io/'
+            repo_url: 'https://github.com/projectatomic/atomic'
+            logo: ./hosted_logos/projectatomic.svg
+            twitter: 'https://twitter.com/projectatomic'
+            crunchbase: 'https://www.crunchbase.com/organization/red-hat'
           - item:
             name: Quay
             homepage_url: 'https://quay.io/'
@@ -328,13 +328,13 @@ landscape:
           - item:
             name: Aqua
             homepage_url: 'https://www.aquasec.com/'
-            logo: './hosted_logos/aqua.svg'
+            logo: ./hosted_logos/aqua.svg
             twitter: 'https://twitter.com/AquaSecTeam'
             crunchbase: 'https://www.crunchbase.com/organization/aquasecurity'
           - item:
             name: Black Duck
             homepage_url: 'https://www.blackducksoftware.com/'
-            logo: './hosted_logos/blackduck.svg'
+            logo: ./hosted_logos/blackduck.svg
             twitter: 'https://twitter.com/black_duck_sw'
             crunchbase: 'https://www.crunchbase.com/organization/synopsys'
           - item:
@@ -347,7 +347,7 @@ landscape:
           - item:
             name: NeuVector
             homepage_url: 'https://neuvector.com/'
-            logo: './hosted_logos/neuvector.svg'
+            logo: ./hosted_logos/neuvector.svg
             twitter: 'https://twitter.com/neuvector'
             crunchbase: 'https://www.crunchbase.com/organization/neuvector'
           - item:
@@ -361,13 +361,13 @@ landscape:
             name: OpenSCAP
             homepage_url: 'https://www.open-scap.org/'
             repo_url: 'https://github.com/OpenSCAP/openscap'
-            logo: './hosted_logos/openscap.svg'
+            logo: ./hosted_logos/openscap.svg
             twitter: 'https://twitter.com/OpenSCAP'
             crunchbase: 'https://www.crunchbase.com/organization/red-hat'
           - item:
             name: Sonatype Nexus
             homepage_url: 'https://www.sonatype.com/'
-            logo: './hosted_logos/sonatype.svg'
+            logo: ./hosted_logos/sonatype.svg
             twitter: 'https://twitter.com/sonatype'
             crunchbase: 'https://www.crunchbase.com/organization/sonatype'
           - item:
@@ -388,13 +388,6 @@ landscape:
         name: Key Management
         items:
           - item:
-            name: Vault
-            homepage_url: 'https://www.vaultproject.io/'
-            repo_url: 'https://github.com/hashicorp/vault'
-            logo: 'https://hyzxph.media.zestyio.com/blog-vault-list.svg'
-            twitter: 'https://twitter.com/HashiCorp'
-            crunchbase: 'https://www.crunchbase.com/organization/hashicorp'
-          - item:
             name: Keywhiz
             homepage_url: 'https://square.github.io/keywhiz/'
             repo_url: 'https://github.com/square/keywhiz'
@@ -414,7 +407,7 @@ landscape:
           - item:
             name: Oracle Policy Automation
             homepage_url: 'https://www.oracle.com/applications/oracle-policy-automation/index.html'
-            logo: './hosted_logos/oracle-policyautomation.svg'
+            logo: ./hosted_logos/oracle-policyautomation.svg
             twitter: 'https://twitter.com/oracleopa'
             crunchbase: 'https://www.crunchbase.com/organization/oracle'
           - item:
@@ -431,6 +424,13 @@ landscape:
             logo: ./hosted_logos/spire.svg
             twitter: 'https://twitter.com/scytale_io'
             crunchbase: 'https://www.crunchbase.com/organization/scytale-io'
+          - item:
+            name: Vault
+            homepage_url: 'https://www.vaultproject.io/'
+            repo_url: 'https://github.com/hashicorp/vault'
+            logo: 'https://hyzxph.media.zestyio.com/blog-vault-list.svg'
+            twitter: 'https://twitter.com/HashiCorp'
+            crunchbase: 'https://www.crunchbase.com/organization/hashicorp'
   - category:
     name: Runtime
     subcategories:
@@ -453,7 +453,7 @@ landscape:
           - item:
             name: Datera
             homepage_url: 'http://datera.io/'
-            logo: './hosted_logos/datera.svg'
+            logo: ./hosted_logos/datera.svg
             twitter: 'https://twitter.com/DateraInc'
             crunchbase: 'https://www.crunchbase.com/organization/datera-2'
           - item:
@@ -465,7 +465,7 @@ landscape:
           - item:
             name: Diamanti
             homepage_url: 'https://www.diamanti.com/'
-            logo: './hosted_logos/diamanti.svg'
+            logo: ./hosted_logos/diamanti.svg
             twitter: 'https://twitter.com/diamanticom'
             crunchbase: 'https://www.crunchbase.com/organization/diamanti'
           - item:
@@ -475,6 +475,13 @@ landscape:
             logo: 'http://community.redhat.com/images/branding/logo-gluster.png'
             twitter: 'https://twitter.com/gluster'
             crunchbase: 'https://www.crunchbase.com/organization/red-hat'
+          - item:
+            name: Hatchway
+            homepage_url: 'https://vmware.github.io/hatchway/'
+            stock_ticker: VMW
+            logo: ./hosted_logos/hatchway.svg
+            twitter: 'https://twitter.com/VMware'
+            crunchbase: 'https://www.crunchbase.com/organization/vmware'
           - item:
             name: Hedvig
             homepage_url: 'https://www.hedviginc.com/'
@@ -486,20 +493,20 @@ landscape:
             name: Infinit
             homepage_url: 'https://www.infinit.sh/'
             repo_url: 'https://github.com/infinit/elle'
-            logo: './hosted_logos/infinit.svg'
+            logo: ./hosted_logos/infinit.svg
             twitter: 'https://twitter.com/infinit_sh'
             crunchbase: 'https://www.crunchbase.com/organization/infinit'
           - item:
             name: Kasten
             homepage_url: 'https://kasten.io/'
-            logo: './hosted_logos/kasten.svg'
+            logo: ./hosted_logos/kasten.svg
             twitter: 'https://twitter.com/kastenhq'
             crunchbase: 'https://www.crunchbase.com/organization/kasten'
           - item:
             name: LeoFS
             homepage_url: 'https://leo-project.net/leofs/'
             repo_url: 'https://github.com/leo-project/leofs'
-            logo: './hosted_logos/leofs.svg'
+            logo: ./hosted_logos/leofs.svg
             twitter: 'https://twitter.com/LeoFastStorage'
             crunchbase: 'https://www.crunchbase.com/organization/leo-project'
           - item:
@@ -513,22 +520,15 @@ landscape:
             name: Minio
             homepage_url: 'https://minio.io/'
             repo_url: 'https://github.com/minio/minio'
-            logo: './hosted_logos/minio.svg'
+            logo: ./hosted_logos/minio.svg
             twitter: 'https://twitter.com/minio'
             crunchbase: 'https://www.crunchbase.com/organization/minio-inc'
           - item:
             name: NetApp
             homepage_url: 'https://www.netapp.com/'
-            logo: './hosted_logos/netapp.svg'
+            logo: ./hosted_logos/netapp.svg
             twitter: 'https://twitter.com/netapp'
             crunchbase: 'https://www.crunchbase.com/organization/netapp'
-          - item:
-            name: OpenIO
-            homepage_url: 'https://www.openio.io/'
-            repo_url: 'https://github.com/open-io/oio-sds'
-            logo: './hosted_logos/openio.svg'
-            twitter: 'https://twitter.com/openio'
-            crunchbase: 'https://www.crunchbase.com/organization/openio'
           - item:
             name: OpenEBS
             homepage_url: 'https://www.openebs.io/'
@@ -537,10 +537,17 @@ landscape:
             twitter: 'https://twitter.com/openebs'
             crunchbase: 'https://www.crunchbase.com/organization/openebs'
           - item:
+            name: OpenIO
+            homepage_url: 'https://www.openio.io/'
+            repo_url: 'https://github.com/open-io/oio-sds'
+            logo: ./hosted_logos/openio.svg
+            twitter: 'https://twitter.com/openio'
+            crunchbase: 'https://www.crunchbase.com/organization/openio'
+          - item:
             name: OpenSDS
             homepage_url: 'https://www.opensds.io/'
             repo_url: 'https://github.com/opensds/opensds'
-            logo: './hosted_logos/opensds.svg'
+            logo: ./hosted_logos/opensds.svg
             crunchbase: 'https://www.crunchbase.com/organization/opensds'
           - item:
             name: Portworx
@@ -549,16 +556,9 @@ landscape:
             twitter: 'https://twitter.com/portwx'
             crunchbase: 'https://www.crunchbase.com/organization/portworx'
           - item:
-            name: Hatchway
-            homepage_url: 'https://vmware.github.io/hatchway/'
-            stock_ticker: VMW
-            logo: './hosted_logos/hatchway.svg'
-            twitter: 'https://twitter.com/VMware'
-            crunchbase: 'https://www.crunchbase.com/organization/vmware'
-          - item:
             name: Pure Storage
             homepage_url: 'https://www.purestorage.com/'
-            logo: './hosted_logos/purestorage.svg'
+            logo: ./hosted_logos/purestorage.svg
             twitter: 'https://twitter.com/PureStorage'
             crunchbase: 'https://www.crunchbase.com/organization/pure-storage'
           - item:
@@ -571,7 +571,7 @@ landscape:
           - item:
             name: Robin Systems
             homepage_url: 'https://robinsystems.com/'
-            logo: './hosted_logos/robin.svg'
+            logo: ./hosted_logos/robin.svg
             twitter: 'https://twitter.com/robinsystems'
             crunchbase: 'https://www.crunchbase.com/organization/robin-systems'
           - item:
@@ -591,7 +591,7 @@ landscape:
           - item:
             name: Springpath
             homepage_url: 'http://springpathinc.com/'
-            logo: './hosted_logos/springpath.svg'
+            logo: ./hosted_logos/springpath.svg
             twitter: 'https://twitter.com/springpathinc'
             crunchbase: 'https://www.crunchbase.com/organization/springpath-inc'
           - item:
@@ -634,21 +634,21 @@ landscape:
             name: Kata Containers
             homepage_url: 'https://katacontainers.io/'
             repo_url: 'https://github.com/kata-containers/runtime'
-            logo: './hosted_logos/kata.svg'
+            logo: ./hosted_logos/kata.svg
             twitter: 'https://twitter.com/KataContainers'
             crunchbase: 'https://www.crunchbase.com/organization/openstack'
           - item:
             name: lxd
             homepage_url: 'https://linuxcontainers.org/lxd/'
             repo_url: 'https://github.com/lxc/lxd'
-            logo: './hosted_logos/lxd.svg'
+            logo: ./hosted_logos/lxd.svg
             twitter: 'https://twitter.com/Canonical'
             crunchbase: 'https://www.crunchbase.com/organization/canonical-ltd'
           - item:
             name: Pouch
             homepage_url: 'https://github.com/alibaba/pouch'
             repo_url: 'https://github.com/alibaba/pouch'
-            logo: './hosted_logos/pouch.svg'
+            logo: ./hosted_logos/pouch.svg
             twitter: 'https://twitter.com/alibaba_cloud'
             crunchbase: 'https://www.crunchbase.com/organization/alibaba-cloud'
           - item:
@@ -683,7 +683,7 @@ landscape:
           - item:
             name: Aporeto
             homepage_url: 'https://www.aporeto.com/'
-            logo: './hosted_logos/aporeto.svg'
+            logo: ./hosted_logos/aporeto.svg
             twitter: 'https://twitter.com/aporeto'
             crunchbase: 'https://www.crunchbase.com/organization/aporeto'
           - item:
@@ -695,7 +695,7 @@ landscape:
           - item:
             name: Big Switch Networks
             homepage_url: 'http://www.bigswitch.com/'
-            logo: './hosted_logos/bigswitch.svg'
+            logo: ./hosted_logos/bigswitch.svg
             twitter: 'https://twitter.com/bigswitch'
             crunchbase: 'https://www.crunchbase.com/organization/big-switch-networks'
           - item:
@@ -709,7 +709,7 @@ landscape:
             name: Cilium
             homepage_url: 'https://www.cilium.io/'
             repo_url: 'https://github.com/cilium/cilium'
-            logo: './hosted_logos/cilium.svg'
+            logo: ./hosted_logos/cilium.svg
             twitter: 'https://twitter.com/ciliumproject'
             crunchbase: 'https://www.crunchbase.com/organization/covalent-io'
           - item:
@@ -723,13 +723,13 @@ landscape:
             name: Contiv
             homepage_url: 'https://contiv.github.io/'
             repo_url: 'https://github.com/contiv/netplugin'
-            logo: './hosted_logos/contiv.svg'
+            logo: ./hosted_logos/contiv.svg
             twitter: 'https://twitter.com/projectcontiv'
             crunchbase: 'https://www.crunchbase.com/organization/cisco'
           - item:
             name: Cumulus
             homepage_url: 'https://cumulusnetworks.com'
-            logo: './hosted_logos/cumulus.svg'
+            logo: ./hosted_logos/cumulus.svg
             twitter: 'https://twitter.com/CumulusNetworks/'
             crunchbase: 'https://www.crunchbase.com/organization/cumulus-networks'
           - item:
@@ -749,14 +749,14 @@ landscape:
             name: MidoNet
             homepage_url: 'https://www.midonet.org/'
             repo_url: 'https://github.com/midonet/midonet'
-            logo: './hosted_logos/midonet.svg'
+            logo: ./hosted_logos/midonet.svg
             twitter: 'https://twitter.com/midokura'
             crunchbase: 'https://www.crunchbase.com/organization/midonet'
           - item:
             name: NSX
             homepage_url: 'https://www.vmware.com/products/nsx.html'
             stock_ticker: VMW
-            logo: './hosted_logos/vmware-nsx.svg'
+            logo: ./hosted_logos/vmware-nsx.svg
             twitter: 'https://twitter.com/vmwarensx'
             crunchbase: 'https://www.crunchbase.com/organization/vmware'
           - item:
@@ -782,7 +782,7 @@ landscape:
           - item:
             name: Plumgrid
             homepage_url: 'https://www.vmware.com/products/nsx.html'
-            logo: './hosted_logos/plumgrid.svg'
+            logo: ./hosted_logos/plumgrid.svg
             twitter: 'https://twitter.com/PLUMgrid'
             crunchbase: 'https://www.crunchbase.com/organization/plumgrid'
           - item:
@@ -796,12 +796,12 @@ landscape:
             name: Romana
             homepage_url: 'http://romana.io/'
             repo_url: 'https://github.com/romana/romana'
-            logo: './hosted_logos/romana.svg'
+            logo: ./hosted_logos/romana.svg
             crunchbase: 'https://www.crunchbase.com/organization/romana'
           - item:
             name: SnapRoute
             homepage_url: 'https://snaproute.com/'
-            logo: './hosted_logos/snaproute.svg'
+            logo: ./hosted_logos/snaproute.svg
             twitter: 'https://twitter.com/snaproute'
             crunchbase: 'https://www.crunchbase.com/organization/snaproute'
           - item:
@@ -827,7 +827,7 @@ landscape:
             name: Docker Swarm
             homepage_url: 'https://docs.docker.com/engine/swarm/'
             repo_url: 'https://github.com/docker/swarm'
-            logo: './hosted_logos/dockerswarm.svg'
+            logo: ./hosted_logos/dockerswarm.svg
             twitter: 'https://twitter.com/Docker'
             crunchbase: 'https://www.crunchbase.com/organization/docker'
           - item:
@@ -849,7 +849,7 @@ landscape:
           - item:
             name: Microsoft Azure Service Fabric
             homepage_url: 'https://azure.microsoft.com/en-us/services/service-fabric/'
-            logo: './hosted_logos/microsoft-azureservicefabric.svg'
+            logo: ./hosted_logos/microsoft-azureservicefabric.svg
             twitter: 'https://twitter.com/azure'
             crunchbase: 'https://www.crunchbase.com/organization/microsoft'
           - item:
@@ -862,6 +862,13 @@ landscape:
       - subcategory:
         name: Coordination & Service Discovery
         items:
+          - item:
+            name: Apache Zookeeper
+            homepage_url: 'http://zookeeper.apache.org/'
+            repo_url: 'https://github.com/apache/zookeeper'
+            logo: ./hosted_logos/zookeeper.svg
+            twitter: 'https://twitter.com/TheASF'
+            crunchbase: 'https://www.crunchbase.com/organization/apache'
           - item:
             name: Consul
             homepage_url: 'https://www.consul.io/'
@@ -898,18 +905,10 @@ landscape:
             logo: ./hosted_logos/netflix-eureka.svg
             crunchbase: 'https://www.crunchbase.com/organization/netflix'
           - item:
-            name: VMware Haret
-            homepage_url: 'https://github.com/vmware/haret'
-            stock_ticker: VMW
-            repo_url: 'https://github.com/vmware/haret'
-            logo: ./hosted_logos/vmware-haret.svg
-            twitter: 'https://twitter.com/VMware'
-            crunchbase: 'https://www.crunchbase.com/organization/vmware'
-          - item:
             name: SkyDNS
             homepage_url: 'https://github.com/skynetservices/skydns'
             repo_url: 'https://github.com/skynetservices/skydns'
-            logo: './hosted_logos/skydns.svg'
+            logo: ./hosted_logos/skydns.svg
             crunchbase: 'https://www.crunchbase.com/organization/skydns'
           - item:
             name: SmartStack
@@ -918,12 +917,13 @@ landscape:
             logo: ./hosted_logos/smartstack.svg
             crunchbase: 'https://www.crunchbase.com/organization/airbnb'
           - item:
-            name: Apache Zookeeper
-            homepage_url: 'http://zookeeper.apache.org/'
-            repo_url: 'https://github.com/apache/zookeeper'
-            logo: ./hosted_logos/zookeeper.svg
-            twitter: 'https://twitter.com/TheASF'
-            crunchbase: 'https://www.crunchbase.com/organization/apache'
+            name: VMware Haret
+            homepage_url: 'https://github.com/vmware/haret'
+            stock_ticker: VMW
+            repo_url: 'https://github.com/vmware/haret'
+            logo: ./hosted_logos/vmware-haret.svg
+            twitter: 'https://twitter.com/VMware'
+            crunchbase: 'https://www.crunchbase.com/organization/vmware'
       - subcategory:
         name: Service Management
         items:
@@ -942,17 +942,10 @@ landscape:
             twitter: 'https://twitter.com/datawireio'
             crunchbase: 'https://www.crunchbase.com/organization/datawire'
           - item:
-            name: Avro
-            homepage_url: 'https://avro.apache.org/'
-            repo_url: 'https://github.com/apache/avro'
-            logo: ./hosted_logos/avro.svg
-            twitter: 'https://twitter.com/TheASF'
-            crunchbase: 'https://www.crunchbase.com/organization/apache'
-          - item:
             name: Apache Thrift
             homepage_url: 'https://thrift.apache.org/'
             repo_url: 'https://github.com/apache/thrift'
-            logo: './hosted_logos/apache-thrift.svg'
+            logo: ./hosted_logos/apache-thrift.svg
             twitter: 'https://twitter.com/TheASF'
             crunchbase: 'https://www.crunchbase.com/organization/apache'
           - item:
@@ -962,9 +955,16 @@ landscape:
             twitter: 'https://twitter.com/AviNetworks'
             crunchbase: 'https://www.crunchbase.com/organization/avi-networks-inc'
           - item:
+            name: Avro
+            homepage_url: 'https://avro.apache.org/'
+            repo_url: 'https://github.com/apache/avro'
+            logo: ./hosted_logos/avro.svg
+            twitter: 'https://twitter.com/TheASF'
+            crunchbase: 'https://www.crunchbase.com/organization/apache'
+          - item:
             name: Backplane
             homepage_url: 'https://www.backplane.io/'
-            logo: './hosted_logos/backplane.svg'
+            logo: ./hosted_logos/backplane.svg
             twitter: 'https://twitter.com/backplaneio'
             crunchbase: 'https://www.crunchbase.com/organization/backplane-io'
           - item:
@@ -1000,9 +1000,16 @@ landscape:
             name: Hystrix
             homepage_url: 'https://github.com/Netflix/Hystrix'
             repo_url: 'https://github.com/Netflix/Hystrix'
-            logo: './hosted_logos/hystrix.svg'
+            logo: ./hosted_logos/hystrix.svg
             twitter: 'https://twitter.com/hystrixoss'
             crunchbase: 'https://www.crunchbase.com/organization/netflix'
+          - item:
+            name: Istio
+            homepage_url: 'https://istio.io/'
+            repo_url: 'https://github.com/istio/istio'
+            logo: ./hosted_logos/istio.svg
+            twitter: 'https://twitter.com/IstioMesh'
+            crunchbase: 'https://www.crunchbase.com/organization/istio'
           - item:
             name: Kong
             homepage_url: 'https://getkong.org/'
@@ -1011,13 +1018,6 @@ landscape:
               https://camo.githubusercontent.com/9f17544e4c068845f6bc81053b9eb9b640a63afe/68747470733a2f2f636c2e6c792f3033305631753032303930512f756e6e616d65642e706e67
             twitter: 'https://twitter.com/thekonginc'
             crunchbase: 'https://www.crunchbase.com/organization/mashape'
-          - item:
-            name: Istio
-            homepage_url: 'https://istio.io/'
-            repo_url: 'https://github.com/istio/istio'
-            logo: './hosted_logos/istio.svg'
-            twitter: 'https://twitter.com/IstioMesh'
-            crunchbase: 'https://www.crunchbase.com/organization/istio'
           - item:
             name: Linkerd
             homepage_url: 'https://linkerd.io/'
@@ -1037,7 +1037,7 @@ landscape:
             name: Open Service Broker API
             homepage_url: 'https://www.openservicebrokerapi.org/'
             repo_url: 'https://github.com/openservicebrokerapi/servicebroker'
-            logo: './hosted_logos/openservicebrokerapi.svg'
+            logo: ./hosted_logos/openservicebrokerapi.svg
             crunchbase: 'https://www.crunchbase.com/organization/cloud-foundry'
           - item:
             name: Ribbon
@@ -1084,21 +1084,21 @@ landscape:
             name: ArangoDB
             homepage_url: 'https://www.arangodb.com/'
             repo_url: 'https://github.com/arangodb/arangodb'
-            logo: './hosted_logos/arangodb.svg'
+            logo: ./hosted_logos/arangodb.svg
             twitter: 'https://twitter.com/arangodb'
             crunchbase: 'https://www.crunchbase.com/organization/arangodb'
           - item:
             name: BigchainDB
             homepage_url: 'https://www.bigchaindb.com/'
             repo_url: 'https://github.com/bigchaindb/bigchaindb'
-            logo: './hosted_logos/bigchaindb.svg'
+            logo: ./hosted_logos/bigchaindb.svg
             twitter: 'https://twitter.com/BigchainDB'
             crunchbase: 'https://www.crunchbase.com/organization/bigchaindb'
           - item:
             name: CarbonData
             homepage_url: 'http://carbondata.apache.org/'
             repo_url: 'https://github.com/apache/carbondata'
-            logo: './hosted_logos/carbondata.svg'
+            logo: ./hosted_logos/carbondata.svg
             twitter: 'https://twitter.com/ApacheCarbonDat'
             crunchbase: 'https://www.crunchbase.com/organization/apache'
           - item:
@@ -1113,7 +1113,7 @@ landscape:
             name: CockroachDB
             homepage_url: 'https://www.cockroachlabs.com/'
             repo_url: 'https://github.com/cockroachdb/cockroach'
-            logo: './hosted_logos/cockroachlabs.svg'
+            logo: ./hosted_logos/cockroachlabs.svg
             twitter: 'https://twitter.com/CockroachDB'
             crunchbase: 'https://www.crunchbase.com/organization/cockroach-labs'
           - item:
@@ -1127,7 +1127,7 @@ landscape:
             name: Crate.io
             homepage_url: 'https://crate.io/'
             repo_url: 'https://github.com/crate/crate'
-            logo: './hosted_logos/crateio.svg'
+            logo: ./hosted_logos/crateio.svg
             twitter: 'https://twitter.com/Crateio'
             crunchbase: 'https://www.crunchbase.com/organization/crate-technology'
           - item:
@@ -1148,13 +1148,13 @@ landscape:
           - item:
             name: IBM DB2
             homepage_url: 'https://www.ibm.com/analytics/us/en/db2/'
-            logo: './hosted_logos/ibmdb2.svg'
+            logo: ./hosted_logos/ibmdb2.svg
             twitter: 'https://twitter.com/ibmdb2'
             crunchbase: 'https://www.crunchbase.com/organization/ibm'
           - item:
             name: Iguazio
             homepage_url: 'https://www.iguazio.com/'
-            logo: './hosted_logos/iguazio.svg'
+            logo: ./hosted_logos/iguazio.svg
             best_res: ''
             twitter: 'https://twitter.com/iguazio'
             crunchbase: 'https://www.crunchbase.com/organization/iguaz-io'
@@ -1172,6 +1172,12 @@ landscape:
             logo: ./hosted_logos/memsql.svg
             twitter: 'https://twitter.com/memsql'
             crunchbase: 'https://www.crunchbase.com/organization/memsql'
+          - item:
+            name: Microsoft SQL Server
+            homepage_url: 'https://www.microsoft.com/en-us/sql-server'
+            logo: 'https://cdn.worldvectorlogo.com/logos/microsoft-sql-server.svg'
+            twitter: 'https://twitter.com/SQLServer'
+            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
           - item:
             name: MongoDB
             homepage_url: 'https://www.mongodb.com/'
@@ -1191,13 +1197,13 @@ landscape:
             name: NomsDB
             homepage_url: 'https://github.com/attic-labs/noms'
             repo_url: 'https://github.com/attic-labs/noms'
-            logo: './hosted_logos/noms.svg'
+            logo: ./hosted_logos/noms.svg
             twitter: 'https://twitter.com/nomsdb'
             crunchbase: 'https://www.crunchbase.com/organization/attic-labs'
           - item:
             name: Oracle
             homepage_url: 'https://developer.oracle.com/'
-            logo: './hosted_logos/oracle-database.svg'
+            logo: ./hosted_logos/oracle-database.svg
             twitter: 'https://twitter.com/Oracle'
             crunchbase: 'https://www.crunchbase.com/organization/oracle'
           - item:
@@ -1217,7 +1223,7 @@ landscape:
           - item:
             name: Qubole
             homepage_url: 'https://www.qubole.com/'
-            logo: './hosted_logos/qubole.svg'
+            logo: ./hosted_logos/qubole.svg
             twitter: 'https://twitter.com/qubole'
             crunchbase: 'https://www.crunchbase.com/organization/qubole'
           - item:
@@ -1246,33 +1252,27 @@ landscape:
           - item:
             name: Snowflake
             homepage_url: 'https://www.snowflake.net/'
-            logo: './hosted_logos/snowflake.svg'
+            logo: ./hosted_logos/snowflake.svg
             twitter: 'https://twitter.com/SnowflakeDB'
             crunchbase: 'https://www.crunchbase.com/organization/snowflake-computing'
           - item:
             name: Software AG
             stock_ticker: STWRY
             homepage_url: 'https://www.softwareag.com/us/default.html'
-            logo: './hosted_logos/software.svg'
+            logo: ./hosted_logos/software.svg
             twitter: 'https://twitter.com/SoftwareAG'
             crunchbase: 'https://www.crunchbase.com/organization/software-ag'
           - item:
             name: SQL Data Warehouse
             homepage_url: 'https://azure.microsoft.com/'
-            logo: './hosted_logos/sql-data-warehouse.svg'
+            logo: ./hosted_logos/sql-data-warehouse.svg
             twitter: 'https://twitter.com/azure'
-            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
-          - item:
-            name: Microsoft SQL Server
-            homepage_url: 'https://www.microsoft.com/en-us/sql-server'
-            logo: 'https://cdn.worldvectorlogo.com/logos/microsoft-sql-server.svg'
-            twitter: 'https://twitter.com/SQLServer'
             crunchbase: 'https://www.crunchbase.com/organization/microsoft'
           - item:
             name: TiDB
             homepage_url: 'https://pingcap.com/index'
             repo_url: 'https://github.com/pingcap/tidb'
-            logo: './hosted_logos/tidb.svg'
+            logo: ./hosted_logos/tidb.svg
             twitter: 'https://twitter.com/PingCAP'
             crunchbase: 'https://www.crunchbase.com/organization/pingcap'
           - item:
@@ -1299,20 +1299,6 @@ landscape:
             twitter: 'https://twitter.com/awscloud'
             crunchbase: 'https://www.crunchbase.com/organization/amazon-web-services'
           - item:
-            name: Apache NiFi
-            homepage_url: 'https://nifi.apache.org/'
-            repo_url: 'https://github.com/apache/nifi'
-            logo: 'https://nifi.apache.org/assets/images/apache-nifi-logo.svg'
-            twitter: 'https://twitter.com/theasf'
-            crunchbase: 'https://www.crunchbase.com/organization/apache'
-          - item:
-            name: Apache Storm
-            homepage_url: 'http://storm.apache.org/'
-            repo_url: 'https://github.com/apache/storm'
-            logo: ./hosted_logos/apache-storm.svg
-            twitter: 'https://twitter.com/stormprocessor'
-            crunchbase: 'https://www.crunchbase.com/organization/apache'
-          - item:
             name: Apache Apex
             homepage_url: 'https://apex.apache.org/'
             repo_url: 'https://github.com/apache/apex-core'
@@ -1320,12 +1306,33 @@ landscape:
             twitter: 'https://twitter.com/apacheapex'
             crunchbase: 'https://www.crunchbase.com/organization/apache'
           - item:
+            name: Apache NiFi
+            homepage_url: 'https://nifi.apache.org/'
+            repo_url: 'https://github.com/apache/nifi'
+            logo: 'https://nifi.apache.org/assets/images/apache-nifi-logo.svg'
+            twitter: 'https://twitter.com/theasf'
+            crunchbase: 'https://www.crunchbase.com/organization/apache'
+          - item:
             name: Apache RocketMQ
             homepage_url: 'https://rocketmq.apache.org/'
             repo_url: 'https://github.com/apache/rocketmq'
-            logo: './hosted_logos/apache-rocket-mq.svg'
+            logo: ./hosted_logos/apache-rocket-mq.svg
             best_res: ''
             twitter: 'https://twitter.com/ApacheRocketMQ'
+            crunchbase: 'https://www.crunchbase.com/organization/apache'
+          - item:
+            name: Apache Spark
+            homepage_url: 'https://spark.apache.org/'
+            repo_url: 'https://github.com/apache/spark'
+            logo: 'https://upload.wikimedia.org/wikipedia/commons/f/f3/Apache_Spark_logo.svg'
+            twitter: 'https://twitter.com/apachespark'
+            crunchbase: 'https://www.crunchbase.com/organization/apache'
+          - item:
+            name: Apache Storm
+            homepage_url: 'http://storm.apache.org/'
+            repo_url: 'https://github.com/apache/storm'
+            logo: ./hosted_logos/apache-storm.svg
+            twitter: 'https://twitter.com/stormprocessor'
             crunchbase: 'https://www.crunchbase.com/organization/apache'
           - item:
             name: CloudEvents
@@ -1359,21 +1366,21 @@ landscape:
             homepage_url: 'https://kafka.apache.org/'
             repo_url: 'https://github.com/apache/kafka'
             branch: trunk
-            logo: './hosted_logos/kafka.svg'
+            logo: ./hosted_logos/kafka.svg
             twitter: 'https://twitter.com/apachekafka'
             crunchbase: 'https://www.crunchbase.com/organization/apache'
           - item:
             name: NATS
             homepage_url: 'https://nats.io/'
             repo_url: 'https://github.com/nats-io/gnatsd'
-            logo: './hosted_logos/nats.svg'
+            logo: ./hosted_logos/nats.svg
             twitter: 'https://twitter.com/nats_io'
             crunchbase: 'https://www.crunchbase.com/organization/nats-3994'
           - item:
             name: Pulsar
             homepage_url: 'https://pulsar.apache.org/'
             repo_url: 'https://github.com/apache/incubator-pulsar'
-            logo: './hosted_logos/pulsar.svg'
+            logo: ./hosted_logos/pulsar.svg
             twitter: 'https://twitter.com/apache_pulsar'
             crunchbase: 'https://www.crunchbase.com/organization/apache'
           - item:
@@ -1384,17 +1391,10 @@ landscape:
             twitter: 'https://twitter.com/rabbitmq'
             crunchbase: 'https://www.crunchbase.com/organization/rabbit-technologies'
           - item:
-            name: Apache Spark
-            homepage_url: 'https://spark.apache.org/'
-            repo_url: 'https://github.com/apache/spark'
-            logo: 'https://upload.wikimedia.org/wikipedia/commons/f/f3/Apache_Spark_logo.svg'
-            twitter: 'https://twitter.com/apachespark'
-            crunchbase: 'https://www.crunchbase.com/organization/apache'
-          - item:
             name: StreamSets
             homepage_url: 'https://streamsets.com/'
             repo_url: 'https://github.com/streamsets/datacollector'
-            logo: './hosted_logos/streamsets.svg'
+            logo: ./hosted_logos/streamsets.svg
             twitter: 'https://twitter.com/streamsets'
             crunchbase: 'https://www.crunchbase.com/organization/streamsets'
       - subcategory:
@@ -1422,25 +1422,25 @@ landscape:
           - item:
             name: Visual Studio Team Services
             homepage_url: 'https://www.visualstudio.com/team-services/'
-            logo: './hosted_logos/visualstudio.svg'
+            logo: ./hosted_logos/visualstudio.svg
             twitter: 'https://twitter.com/vsts'
             crunchbase: 'https://www.crunchbase.com/organization/microsoft'
       - subcategory:
         name: Application Definition & Image Build
         items:
           - item:
+            name: Apache Brooklyn
+            homepage_url: 'https://brooklyn.apache.org/'
+            repo_url: 'https://github.com/apache/brooklyn'
+            logo: ./hosted_logos/apachebrooklyn.svg
+            twitter: 'https://twitter.com/apachebrooklyn'
+            crunchbase: 'https://www.crunchbase.com/organization/apache'
+          - item:
             name: Bitnami
             homepage_url: 'https://bitnami.com/'
             logo: 'https://about.gitlab.com/images/press/bitnami-logo.svg'
             twitter: 'https://twitter.com/bitnami'
             crunchbase: 'https://www.crunchbase.com/organization/bitnami'
-          - item:
-            name: Apache Brooklyn
-            homepage_url: 'https://brooklyn.apache.org/'
-            repo_url: 'https://github.com/apache/brooklyn'
-            logo: './hosted_logos/apachebrooklyn.svg'
-            twitter: 'https://twitter.com/apachebrooklyn'
-            crunchbase: 'https://www.crunchbase.com/organization/apache'
           - item:
             name: Docker Compose
             homepage_url: 'https://docs.docker.com/compose/'
@@ -1478,18 +1478,18 @@ landscape:
         name: Continuous Integration / Continuous Delivery (CI/CD)
         items:
           - item:
+            name: Appveyor
+            homepage_url: 'https://www.appveyor.com/'
+            logo: ./hosted_logos/appveyor.svg
+            twitter: 'https://twitter.com/appveyor'
+            crunchbase: 'https://www.crunchbase.com/organization/appveyor-systems-inc'
+          - item:
             name: Argo
             homepage_url: 'https://applatix.com/open-source/argo/'
             repo_url: 'https://github.com/argoproj/argo'
-            logo: './hosted_logos/argo.svg'
+            logo: ./hosted_logos/argo.svg
             twitter: 'https://twitter.com/applatix'
             crunchbase: 'https://www.crunchbase.com/organization/intuit'
-          - item:
-            name: Appveyor
-            homepage_url: 'https://www.appveyor.com/'
-            logo: './hosted_logos/appveyor.svg'
-            twitter: 'https://twitter.com/appveyor'
-            crunchbase: 'https://www.crunchbase.com/organization/appveyor-systems-inc'
           - item:
             name: Bamboo
             homepage_url: 'https://www.atlassian.com/software/bamboo/'
@@ -1515,21 +1515,6 @@ landscape:
             logo: 'https://d3r49iyjzglexf.cloudfront.net/logo-wordmark-black-7fec8eb34f3f7d8a2d75b22e789bca438ae7f6174a7949784054e726c5acdccb.svg'
             twitter: 'https://twitter.com/circleci'
             crunchbase: 'https://www.crunchbase.com/organization/circle-ci'
-          - item:
-            name: Habitus
-            homepage_url: 'http://www.habitus.io/'
-            repo_url: 'https://github.com/cloud66/habitus'
-            logo: './hosted_logos/habitus.svg'
-            best_res: ''
-            twitter: 'https://twitter.com/cloud66'
-            crunchbase: 'https://www.crunchbase.com/organization/cloudblocks'
-          - item:
-            name: Skycap
-            homepage_url: 'https://www.cloud66.com/containers/skycap'
-            logo: './hosted_logos/skycap.svg'
-            best_res: ''
-            twitter: 'https://twitter.com/cloud66'
-            crunchbase: 'https://www.crunchbase.com/organization/cloudblocks'
           - item:
             name: Cloudbees
             homepage_url: 'https://www.cloudbees.com/'
@@ -1572,17 +1557,17 @@ landscape:
             name: Drone
             homepage_url: 'http://try.drone.io/'
             repo_url: 'https://github.com/drone/drone'
-            logo: './hosted_logos/drone.svg'
+            logo: ./hosted_logos/drone.svg
             twitter: 'https://twitter.com/droneio'
             crunchbase: 'https://www.crunchbase.com/organization/drone-io'
           - item:
-            name: Runner
-            description: GitLab Runner is the open source project that is used to run your jobs and send the results back to GitLab. It is used in conjunction with GitLab CI, the open-source continuous integration service included with GitLab that coordinates the jobs.
-            homepage_url: 'https://docs.gitlab.com/runner/'
-            repo_url: 'https://github.com/gitlabhq/gitlab-runner'
-            logo: './hosted_logos/runner.svg'
-            twitter: 'https://twitter.com/gitlab'
-            crunchbase: 'https://www.crunchbase.com/organization/gitlab-com'
+            name: Habitus
+            homepage_url: 'http://www.habitus.io/'
+            repo_url: 'https://github.com/cloud66/habitus'
+            logo: ./hosted_logos/habitus.svg
+            best_res: ''
+            twitter: 'https://twitter.com/cloud66'
+            crunchbase: 'https://www.crunchbase.com/organization/cloudblocks'
           - item:
             name: Jenkins
             homepage_url: 'https://jenkins.io/'
@@ -1597,9 +1582,19 @@ landscape:
             twitter: 'https://twitter.com/OctopusDeploy'
             crunchbase: 'https://www.crunchbase.com/organization/octopus-deploy'
           - item:
+            name: Runner
+            description: >-
+              GitLab Runner is the open source project that is used to run your jobs and send the results back to GitLab. It is used in conjunction with GitLab
+              CI, the open-source continuous integration service included with GitLab that coordinates the jobs.
+            homepage_url: 'https://docs.gitlab.com/runner/'
+            repo_url: 'https://github.com/gitlabhq/gitlab-runner'
+            logo: ./hosted_logos/runner.svg
+            twitter: 'https://twitter.com/gitlab'
+            crunchbase: 'https://www.crunchbase.com/organization/gitlab-com'
+          - item:
             name: Semaphore
             homepage_url: 'https://semaphoreci.com/'
-            logo: './hosted_logos/semaphore.svg'
+            logo: ./hosted_logos/semaphore.svg
             twitter: 'https://twitter.com/semaphoreci'
             crunchbase: 'https://www.crunchbase.com/organization/semaphore'
           - item:
@@ -1609,9 +1604,16 @@ landscape:
             twitter: 'https://twitter.com/beshippable'
             crunchbase: 'https://www.crunchbase.com/organization/shippable'
           - item:
+            name: Skycap
+            homepage_url: 'https://www.cloud66.com/containers/skycap'
+            logo: ./hosted_logos/skycap.svg
+            best_res: ''
+            twitter: 'https://twitter.com/cloud66'
+            crunchbase: 'https://www.crunchbase.com/organization/cloudblocks'
+          - item:
             name: Solano Labs
             homepage_url: 'https://www.solanolabs.com/'
-            logo: './hosted_logos/solanolabs.svg'
+            logo: ./hosted_logos/solanolabs.svg
             twitter: 'https://twitter.com/SolanoLabs'
             crunchbase: 'https://www.crunchbase.com/organization/solano-labs'
           - item:
@@ -1628,19 +1630,19 @@ landscape:
             twitter: 'https://twitter.com/travisci'
             crunchbase: 'https://www.crunchbase.com/organization/travis-ci'
           - item:
-            name: Wercker
-            homepage_url: 'https://www.wercker.com/'
-            repo_url: 'https://github.com/wercker/wercker'
-            logo: 'https://blog.webcanopystudio.com/hubfs/wercker_logo_blue.svg'
-            twitter: 'https://twitter.com/wercker'
-            crunchbase: 'https://www.crunchbase.com/organization/oracle'
-          - item:
             name: Weave Flux
             homepage_url: 'https://www.weave.works/oss/flux/'
             repo_url: 'https://github.com/weaveworks/flux'
             logo: ./hosted_logos/weave-flux.svg
             twitter: 'https://twitter.com/weaveworks'
             crunchbase: 'https://www.crunchbase.com/organization/weaveworks'
+          - item:
+            name: Wercker
+            homepage_url: 'https://www.wercker.com/'
+            repo_url: 'https://github.com/wercker/wercker'
+            logo: 'https://blog.webcanopystudio.com/hubfs/wercker_logo_blue.svg'
+            twitter: 'https://twitter.com/wercker'
+            crunchbase: 'https://www.crunchbase.com/organization/oracle'
           - item:
             name: XL Deploy
             homepage_url: 'https://xebialabs.com/products/xl-deploy/'
@@ -1658,7 +1660,7 @@ landscape:
             description: The open source enterprise toolkit for deploying and operating full lifecycle Kubernetes clusters in production.
             homepage_url: 'https://apprenda.com/kismatic/'
             repo_url: 'https://github.com/apprenda/kismatic'
-            logo: './hosted_logos/apprenda.svg'
+            logo: ./hosted_logos/apprenda.svg
             crunchbase: 'https://www.crunchbase.com/organization/apprenda'
           - item:
             name: Appscode Pharmer
@@ -1685,10 +1687,10 @@ landscape:
             crunchbase: 'https://www.crunchbase.com/organization/canonical-ltd'
           - item:
             name: Cloud Foundry Container Runtime
-            description: 'Cloud Foundry Container Runtime gives you more granular control and management of containers with Kubernetes.'
+            description: Cloud Foundry Container Runtime gives you more granular control and management of containers with Kubernetes.
             homepage_url: 'https://www.cloudfoundry.org/container-runtime/'
             repo_url: 'https://github.com/cloudfoundry-incubator/kubo-deployment'
-            logo: './hosted_logos/cloudfoundry-containerruntime.svg'
+            logo: ./hosted_logos/cloudfoundry-containerruntime.svg
             crunchbase: 'https://www.crunchbase.com/organization/cloud-foundry'
           - item:
             name: CoreOS bootkube
@@ -1709,7 +1711,7 @@ landscape:
               Diamanti brings to market the first purpose built bare metal container platform for moving your applications from development to production.
               Diamanti accelerates time-to-market, guarantees real-time service levels, and consolidates containers with 90% utilization.
             homepage_url: 'https://diamanti.com/products/'
-            logo: './hosted_logos/diamanti.svg'
+            logo: ./hosted_logos/diamanti.svg
             crunchbase: 'https://www.crunchbase.com/organization/diamanti'
           - item:
             name: Docker EE/CE
@@ -1725,7 +1727,7 @@ landscape:
               Enterprise Container Operation System(EcOS) is an enterprise-grade PaaS / CaaS platform based on Docker &Kubernetes. The EcOS-Kubernetes platform
               makes it easier to configure, deploy and manage containerized applications.
             homepage_url: 'https://www.ghostcloud.cn/ecos-kubernetes/'
-            logo: './hosted_logos/ghostcloud.svg'
+            logo: ./hosted_logos/ghostcloud.svg
             crunchbase: 'https://www.crunchbase.com/organization/ghostcloud'
           - item:
             name: Giant Swarm Managed Kubernetes
@@ -1747,7 +1749,7 @@ landscape:
             description: Flexible container orchestration platform on the AWS Cloud
             homepage_url: 'https://aws.amazon.com/quickstart/architecture/heptio-kubernetes/'
             repo_url: 'https://github.com/heptio/aws-quickstart'
-            logo: './hosted_logos/heptio.svg'
+            logo: ./hosted_logos/heptio.svg
             crunchbase: 'https://www.crunchbase.com/organization/heptio'
           - item:
             name: IBM Cloud Private
@@ -1775,7 +1777,7 @@ landscape:
             crunchbase: 'https://www.crunchbase.com/organization/joyent'
           - item:
             name: kube-spawn
-            description: 'A tool for creating multi-node Kubernetes clusters on a Linux machine using kubeadm & systemd-nspawn. Brought to you by the Kinvolk team.'
+            description: A tool for creating multi-node Kubernetes clusters on a Linux machine using kubeadm & systemd-nspawn. Brought to you by the Kinvolk team.
             homepage_url: 'https://github.com/kinvolk/kube-spawn'
             repo_url: 'https://github.com/kinvolk/kube-spawn'
             logo: 'https://kinvolk.io/media/kubespawn-logo.svg'
@@ -1811,7 +1813,7 @@ landscape:
               technology, provide users exclusive container cluster. Provide users the freedom to choose the Kubernetes version of the cluster capabilities,
               easy to follow up the latest developments in the community. Comply with Kubernetes conformance standards, portability is good.
             homepage_url: 'https://www.163yun.com/product/container-service-dedicated'
-            logo: './hosted_logos/netease.svg'
+            logo: ./hosted_logos/netease.svg
             crunchbase: 'https://www.crunchbase.com/organization/netease-com'
           - item:
             name: OpenShift
@@ -1899,7 +1901,7 @@ landscape:
               kernel and userspace components.
             homepage_url: 'https://typhoon.psdn.io/'
             repo_url: 'https://github.com/poseidon/typhoon'
-            logo: './hosted_logos/typhoon.svg'
+            logo: ./hosted_logos/typhoon.svg
             crunchbase: 'https://www.crunchbase.com/organization/poseidon'
           - item:
             name: VMWare Pivotal Container Service (PKS)
@@ -1914,13 +1916,13 @@ landscape:
               supports managing Bootstrap Tokens for you and upgrading/downgrading clusters.
             homepage_url: 'https://kubernetes.io/docs/setup/independent/create-cluster-kubeadm/'
             repo_url: 'https://github.com/kubernetes/kubeadm'
-            logo: './hosted_logos/weaveworks.svg'
+            logo: ./hosted_logos/weaveworks.svg
             crunchbase: 'https://www.crunchbase.com/organization/weaveworks'
           - item:
             name: WiseCloud
             description: Cover the whole process of modern software production line needs.
             homepage_url: 'http://www.wise2c.com/solution'
-            logo: './hosted_logos/wise2c.svg'
+            logo: ./hosted_logos/wise2c.svg
             crunchbase: 'https://www.crunchbase.com/organization/wise2c-technology-co'
       - subcategory:
         name: Certified Kubernetes - Platform
@@ -1937,14 +1939,14 @@ landscape:
               applications with Docker and Kubernetes, multiple application deployment methods and continuous delivery capabilities, and support for
               microservices architecture.
             homepage_url: 'https://www.alibabacloud.com/product/container-service?spm=a3c0i.7911826.709257.dproducta4.1010a3feFbGgBW'
-            logo: './hosted_logos/alibaba-cloud.svg'
+            logo: ./hosted_logos/alibaba-cloud.svg
             crunchbase: 'https://www.crunchbase.com/organization/alibaba-cloud'
           - item:
             name: Azure (ACS) Engine
             description: Azure Container Service Engine - a place for community to collaborate and build the best open Docker container infrastructure for Azure.
             homepage_url: 'https://github.com/Azure/acs-engine'
             repo_url: 'https://github.com/Azure/acs-engine'
-            logo: './hosted_logos/azurecontainerservice.svg'
+            logo: ./hosted_logos/azurecontainerservice.svg
             crunchbase: 'https://www.crunchbase.com/organization/microsoft'
           - item:
             name: Azure Container Service (AKS)
@@ -1960,7 +1962,7 @@ landscape:
               PaaS cloud solutions for docketing and managing Internet applications using docker container technology. Help customers respond to the explosive
               and unpredictable nature of Internet services.
             homepage_url: 'http://bocloud.com.cn/product_container.html'
-            logo: './hosted_logos/bocloud.svg'
+            logo: ./hosted_logos/bocloud.svg
             crunchbase: 'https://www.crunchbase.com/organization/bocloud'
           - item:
             name: Cisco Container Platform
@@ -1982,7 +1984,7 @@ landscape:
           - item:
             name: eKing Cloud Container Platform
             homepage_url: 'http://www.haihangyun.com/landing'
-            logo: './hosted_logos/eking.svg'
+            logo: ./hosted_logos/eking.svg
             crunchbase: 'https://www.crunchbase.com/organization/hainan-eking-technology'
           - item:
             name: Google Kubernetes Engine (GKE)
@@ -1997,7 +1999,7 @@ landscape:
             name: HarmonyCloud Container Platform
             description: 'Kubernetes, second generation PaaS cloud computing platform, builds industry-leading container cloud computing framework'
             homepage_url: 'http://harmonycloud.cn'
-            logo: './hosted_logos/harmonycloud.svg'
+            logo: ./hosted_logos/harmonycloud.svg
             crunchbase: 'https://www.crunchbase.com/organization/hangzhou-harmony-technology-co-ltd'
           - item:
             name: Hasura
@@ -2028,7 +2030,7 @@ landscape:
             name: Nirmata Managed Kubernetes
             description: 'Nirmata is a platform that helps enterprise DevOps teams deploy, operate, and optimize Kubernetes applications across public and private clouds.'
             homepage_url: 'https://www.nirmata.com/'
-            logo: './hosted_logos/nirmata.svg'
+            logo: ./hosted_logos/nirmata.svg
             crunchbase: 'https://www.crunchbase.com/organization/nirmata'
           - item:
             name: Oracle Container Engine
@@ -2037,7 +2039,7 @@ landscape:
             logo: 'https://cdn.worldvectorlogo.com/logos/oracle-6.svg'
             crunchbase: 'https://www.crunchbase.com/organization/oracle'
           - item:
-            name: 'SAP Certified Gardener'
+            name: SAP Certified Gardener
             description: >-
               SAP Cloud Platform is an open platform as a service (PaaS) which provides customers and partners with in-memory capabilities, core platform
               services, and unique business services for building and extending personalized, collaborative, mobile-enabled cloud applications. SAP Cloud
@@ -2052,13 +2054,13 @@ landscape:
             description: Tencent Cloud Container Service (CCS) is a container management service with high scalability and high performance.
             stock_ticker: TCEHY
             homepage_url: 'https://cloud.tencent.com/product/ccs?lang=en'
-            logo: './hosted_logos/tencent-cloud.svg'
+            logo: ./hosted_logos/tencent-cloud.svg
             crunchbase: 'https://www.crunchbase.com/organization/tencent'
           - item:
             name: TenxCloud Container Engine (TCE)
             description: The first enterprise container cloud management platform based on Kubernetes and supporting private deployments.
             homepage_url: ' https://tenxcloud.com/enterprise.html'
-            logo: './hosted_logos/tenxcloud.svg'
+            logo: ./hosted_logos/tenxcloud.svg
             crunchbase: 'https://www.crunchbase.com/organization/tenxcloud'
           - item:
             name: ZTE TECS
@@ -2078,12 +2080,6 @@ landscape:
             logo: 'https://d33wubrfki0l68.cloudfront.net/c009a5857974740fb8db35232c37148662905585/0a972/img/amazon-eks.svg'
             crunchbase: 'https://www.crunchbase.com/organization/amazon-web-services'
           - item:
-            name: Maestro
-            homepage_url: 'https://www.cloud66.com/containers/maestro'
-            logo: './hosted_logos/maestro.svg'
-            twitter: 'https://twitter.com/cloud66'
-            crunchbase: 'https://www.crunchbase.com/organization/cloudblocks'
-          - item:
             name: ContainerShip
             description: The Hyperprovider for MultiCloud Kubernetes
             homepage_url: 'https://containership.io/'
@@ -2093,7 +2089,7 @@ landscape:
             name: goPaddle
             description: Developer Friendly DevOps platform for Kubernetes Deployments
             homepage_url: 'https://www.gopaddle.io/#/'
-            logo: './hosted_logos/gopaddle.svg'
+            logo: ./hosted_logos/gopaddle.svg
             crunchbase: 'https://www.crunchbase.com/organization/bluemeric'
           - item:
             name: Gravitatonal Telekube
@@ -2111,6 +2107,12 @@ landscape:
             homepage_url: 'http://e.huawei.com/us/solutions/technical/cloud-computing'
             logo: 'https://upload.wikimedia.org/wikipedia/commons/0/00/Huawei.svg'
             crunchbase: 'https://www.crunchbase.com/organization/huawei'
+          - item:
+            name: Maestro
+            homepage_url: 'https://www.cloud66.com/containers/maestro'
+            logo: ./hosted_logos/maestro.svg
+            twitter: 'https://twitter.com/cloud66'
+            crunchbase: 'https://www.crunchbase.com/organization/cloudblocks'
           - item:
             name: Navops
             description: >-
@@ -2130,10 +2132,10 @@ landscape:
             crunchbase: 'https://www.crunchbase.com/organization/stratoscale'
           - item:
             name: Supergiant
-            description: 'Supergiant Cloud is fully-managed auto-scaling Kubernetes.'
+            description: Supergiant Cloud is fully-managed auto-scaling Kubernetes.
             homepage_url: 'https://supergiant.io/'
             repo_url: 'https://github.com/supergiant/supergiant'
-            logo: './hosted_logos/supergiant.svg'
+            logo: ./hosted_logos/supergiant.svg
             crunchbase: 'https://www.crunchbase.com/organization/supergiant'
       - subcategory:
         name: PaaS/Container Service
@@ -2141,13 +2143,13 @@ landscape:
           - item:
             name: Apcera
             homepage_url: 'https://www.apcera.com/'
-            logo: './hosted_logos/apcera.svg'
+            logo: ./hosted_logos/apcera.svg
             twitter: 'https://twitter.com/apcera'
             crunchbase: 'https://www.crunchbase.com/organization/ericsson'
           - item:
             name: Atomist
             homepage_url: 'https://www.atomist.com/'
-            logo: './hosted_logos/atomist.svg'
+            logo: ./hosted_logos/atomist.svg
             twitter: 'https://twitter.com/atomist'
             crunchbase: 'https://www.crunchbase.com/organization/atomist'
           - item:
@@ -2158,16 +2160,18 @@ landscape:
             crunchbase: 'https://www.crunchbase.com/organization/clouber'
           - item:
             name: Cloud Foundry Application Runtime
-            description: 'Cloud Foundry Application Runtime utilizes containers as part of its DNA, and has since before Docker popularized containers. The new CF Container Runtime gives you more granular control and management of containers with Kubernetes.'
+            description: >-
+              Cloud Foundry Application Runtime utilizes containers as part of its DNA, and has since before Docker popularized containers. The new CF Container
+              Runtime gives you more granular control and management of containers with Kubernetes.
             homepage_url: 'https://www.cloudfoundry.org/application-runtime/'
             repo_url: 'https://github.com/cloudfoundry/cli'
-            logo: './hosted_logos/cloudfoundry-applicationruntime.svg'
+            logo: ./hosted_logos/cloudfoundry-applicationruntime.svg
             crunchbase: 'https://www.crunchbase.com/organization/cloud-foundry'
           - item:
             name: Convox
             homepage_url: 'https://convox.com/'
             rep_url: 'https://github.com/convox'
-            logo: './hosted_logos/convox.svg'
+            logo: ./hosted_logos/convox.svg
             twitter: 'https://twitter.com/goconvox'
             crunchbase: 'https://www.crunchbase.com/organization/convox'
           - item:
@@ -2205,7 +2209,7 @@ landscape:
           - item:
             name: Heroku
             homepage_url: 'https://www.heroku.com'
-            logo: './hosted_logos/heroku.svg'
+            logo: ./hosted_logos/heroku.svg
             twitter: 'https://twitter.com/heroku'
             crunchbase: 'https://www.crunchbase.com/organization/salesforce'
           - item:
@@ -2218,14 +2222,14 @@ landscape:
             name: JHipster
             homepage_url: 'http://www.jhipster.tech/'
             repo_url: 'https://github.com/jhipster/generator-jhipster'
-            logo: './hosted_logos/jhipster.svg'
+            logo: ./hosted_logos/jhipster.svg
             twitter: 'https://twitter.com/java_hipster'
             crunchbase: 'https://www.crunchbase.com/organization/jhipster'
           - item:
             name: Kontena
             homepage_url: 'https://kontena.io/'
             repo_url: 'https://github.com/kontena/kontena'
-            logo: './hosted_logos/kontena.svg'
+            logo: ./hosted_logos/kontena.svg
             twitter: 'https://twitter.com/KontenaInc'
             crunchbase: 'https://www.crunchbase.com/organization/kontena'
           - item:
@@ -2238,14 +2242,14 @@ landscape:
             name: Mantl
             homepage_url: 'https://mantl.io/'
             repo_url: 'https://github.com/mantl/mantl'
-            logo: './hosted_logos/mantl.svg'
+            logo: ./hosted_logos/mantl.svg
             twitter: 'https://twitter.com/usemantl'
             crunchbase: 'https://www.crunchbase.com/organization/mantl-9966'
           - item:
             name: No Code
             homepage_url: 'https://github.com/kelseyhightower/nocode'
             repo_url: 'https://github.com/kelseyhightower/nocode'
-            logo: './hosted_logos/nocode.svg'
+            logo: ./hosted_logos/nocode.svg
             twitter: 'https://twitter.com/kelseyhightower'
             crunchbase: 'https://www.crunchbase.com/organization/no-code'
           - item:
@@ -2265,26 +2269,26 @@ landscape:
             name: Portainer
             homepage_url: 'https://portainer.io/'
             repo_url: 'https://github.com/portainer/portainer'
-            logo: './hosted_logos/portainer.svg'
+            logo: ./hosted_logos/portainer.svg
             crunchbase: 'https://www.crunchbase.com/organization/portainer'
           - item:
             name: Pusher
             homepage_url: 'https://pusher.com'
             repo_url: 'https://github.com/pusher/pusher-js'
-            logo: './hosted_logos/pusher.svg'
+            logo: ./hosted_logos/pusher.svg
             twitter: 'https://twitter.com/pusher'
             crunchbase: 'https://www.crunchbase.com/organization/pusher'
           - item:
             name: Scalingo
             homepage_url: 'https://scalingo.com/'
-            logo: './hosted_logos/scalingo.svg'
+            logo: ./hosted_logos/scalingo.svg
             twitter: 'https://twitter.com/ScalingoHQ'
             crunchbase: 'https://www.crunchbase.com/organization/scalingo'
           - item:
             name: Tsuru
             homepage_url: 'https://tsuru.io/'
             repo_url: 'https://github.com/tsuru/tsuru'
-            logo: './hosted_logos/tsuru.svg'
+            logo: ./hosted_logos/tsuru.svg
             twitter: 'https://twitter.com/tsurupaas'
             crunchbase: 'https://www.crunchbase.com/organization/tsuru'
   - category:
@@ -2303,7 +2307,7 @@ landscape:
             name: Snyk
             homepage_url: 'https://snyk.io/'
             logo: 'https://cdn-images-1.medium.com/max/1300/1*_nYX5UYcMUskoElSmkyOrA.png'
-            twitter: https://twitter.com/snyksec'
+            twitter: 'https://twitter.com/snyksec'''
             crunchbase: 'https://www.crunchbase.com/organization/snyk'
       - subcategory:
         name: Libraries
@@ -2311,8 +2315,8 @@ landscape:
           - item:
             name: Python Lambda
             homepage_url: 'https://aws.amazon.com/lambda/'
-            repo_url: https://github.com/nficano/python-lambda
-            logo: './hosted_logos/python-lambda.svg'
+            repo_url: 'https://github.com/nficano/python-lambda'
+            logo: ./hosted_logos/python-lambda.svg
             crunchbase: 'https://www.crunchbase.com/organization/simple-contacts'
       - subcategory:
         name: Tools
@@ -2321,33 +2325,40 @@ landscape:
             name: Architect
             homepage_url: 'https://arc.codes/'
             repo_url: 'https://github.com/arc-repos/arc-functions'
-            logo: './hosted_logos/architect.svg'
+            logo: ./hosted_logos/architect.svg
             twitter: 'https://twitter.com/arc_fns'
             crunchbase: 'https://www.crunchbase.com/organization/js-foundation'
           - item:
             name: Dashbird
             homepage_url: 'https://www.dashbird.io/'
-            logo: './hosted_logos/dashbird.svg'
+            logo: ./hosted_logos/dashbird.svg
             twitter: 'https://twitter.com/thedashbird'
             crunchbase: 'https://www.crunchbase.com/organization/dashbird'
           - item:
             name: IOpipe
             homepage_url: 'https://www.iopipe.com/'
-            logo: './hosted_logos/iopipe.svg'
+            logo: ./hosted_logos/iopipe.svg
             twitter: 'https://twitter.com/iopipes'
             crunchbase: 'https://www.crunchbase.com/organization/iopipe'
           - item:
             name: LambCI
             homepage_url: 'http://lambci.org/'
-            repo_url: https://github.com/lambci/lambci
-            logo: './hosted_logos/lambci.svg'
+            repo_url: 'https://github.com/lambci/lambci'
+            logo: ./hosted_logos/lambci.svg
             twitter: 'https://twitter.com/lamb_ci'
             crunchbase: 'https://www.crunchbase.com/organization/lambci'
+          - item:
+            name: Microcule
+            homepage_url: 'https://github.com/Stackvana'
+            repo_url: 'https://github.com/Stackvana/microcule'
+            logo: ./hosted_logos/stackvana.svg
+            twitter: ''
+            crunchbase: 'https://www.crunchbase.com/organization/stackvana'
           - item:
             name: Node Lambda
             homepage_url: 'https://github.com/motdotla/node-lambda'
             repo_url: 'https://github.com/motdotla/node-lambda'
-            logo: './hosted_logos/nodelambda.svg'
+            logo: ./hosted_logos/nodelambda.svg
             twitter: ''
             crunchbase: 'https://www.crunchbase.com/organization/node-lambda'
           - item:
@@ -2357,16 +2368,9 @@ landscape:
             twitter: 'https://twitter.com/stackeryio'
             crunchbase: 'https://www.crunchbase.com/organization/stackery'
           - item:
-            name: Microcule
-            homepage_url: 'https://github.com/Stackvana'
-            repo_url: https://github.com/Stackvana/microcule
-            logo: './hosted_logos/stackvana.svg'
-            twitter: ''
-            crunchbase: 'https://www.crunchbase.com/organization/stackvana'
-          - item:
             name: Thundra
             homepage_url: 'https://www.thundra.io/'
-            logo: './hosted_logos/thundra.svg'
+            logo: ./hosted_logos/thundra.svg
             twitter: 'https://twitter.com/thundraio'
             crunchbase: 'https://www.crunchbase.com/organization/opsgenie'
       - subcategory:
@@ -2382,45 +2386,10 @@ landscape:
           - item:
             name: AWS Chalice
             homepage_url: 'https://aws.amazon.com/blogs/developer/chalice-1-0-0-ga-release/'
-            repo_url: https://github.com/aws/chalice
-            logo: './hosted_logos/aws-chalice.svg'
+            repo_url: 'https://github.com/aws/chalice'
+            logo: ./hosted_logos/aws-chalice.svg
             twitter: 'https://twitter.com/awscloud'
             crunchbase: 'https://www.crunchbase.com/organization/amazon-web-services'
-          - item:
-            name: Dawson
-            homepage_url: 'https://github.com/dawson-org'
-            repo_url: 'https://github.com/dawson-org/dawson-cli'
-            best_res: ''
-            logo: './hosted_logos/dawson.svg'
-            twitter: ''
-            crunchbase: 'https://www.crunchbase.com/organization/dawson-c553'
-          - item:
-            name: Mitoc Group Deep
-            homepage_url: 'http://docs.deep.mg/'
-            repo_url: https://github.com/MitocGroup/deep-framework
-            logo: 'https://www.mitocgroup.com/images/logos/mitoc.svg'
-            twitter: 'https://twitter.com/MitocGroup'
-            crunchbase: 'https://www.crunchbase.com/organization/mitoc-group-inc'
-          - item:
-            name: GunIO Zappa
-            homepage_url: 'https://www.zappa.io/'
-            repo_url: https://github.com/Miserlou/Zappa
-            logo: 'https://www.gun.io/hubfs/Large%20Gun%20Logo.svg'
-            twitter: 'https://twitter.com/gundotio?lang=en'
-            crunchbase: 'https://www.crunchbase.com/organization/gun-io'
-          - item:
-            name: Spring Cloud Function
-            homepage_url: 'https://cloud.spring.io/spring-cloud-function/'
-            repo_url: 'https://github.com/spring-cloud/spring-cloud-function'
-            logo: './hosted_logos/spring-cloud-function.svg'
-            crunchbase: 'https://www.crunchbase.com/organization/pivotal'
-          - item:
-            name: Serverless
-            homepage_url: 'https://serverless.com/'
-            repo_url: 'https://github.com/serverless/serverless'
-            logo: ./hosted_logos/serverless.svg
-            twitter: 'https://twitter.com/goserverless'
-            crunchbase: 'https://www.crunchbase.com/organization/serverless'
           - item:
             name: Bustle Shep
             homepage_url: 'https://www.bustle.com/labs'
@@ -2429,19 +2398,19 @@ landscape:
             twitter: 'https://twitter.com/bustle'
             crunchbase: 'https://www.crunchbase.com/organization/bustle'
           - item:
-            name: Sparta
-            homepage_url: 'http://gosparta.io/'
-            repo_url: 'https://github.com/mweagle/Sparta'
-            logo: './hosted_logos/sparta.svg'
-            twitter: 'https://twitter.com/mweagle?lang=en'
-            crunchbase: 'https://www.crunchbase.com/organization/sparta-7ffe'
+            name: ClaudisJS
+            homepage_url: 'https://claudiajs.com/'
+            repo_url: 'https://github.com/claudiajs/claudia'
+            logo: 'https://claudiajs.com/assets/claudiajs.svg'
+            crunchbase: 'https://www.crunchbase.com/organization/claudiajs'
           - item:
-            name: SAM Local
-            homepage_url: 'https://docs.aws.amazon.com/lambda/latest/dg/serverless_app.html'
-            repo_url: 'https://github.com/awslabs/serverless-application-model'
-            logo: './hosted_logos/sam-local.svg'
-            twitter: 'https://twitter.com/awscloud'
-            crunchbase: 'https://www.crunchbase.com/organization/amazon-web-services'
+            name: Dawson
+            homepage_url: 'https://github.com/dawson-org'
+            repo_url: 'https://github.com/dawson-org/dawson-cli'
+            best_res: ''
+            logo: ./hosted_logos/dawson.svg
+            twitter: ''
+            crunchbase: 'https://www.crunchbase.com/organization/dawson-c553'
           - item:
             name: Gordon
             homepage_url: 'http://jorgebastida.com/'
@@ -2450,21 +2419,63 @@ landscape:
             twitter: 'https://twitter.com/jorgebastida'
             crunchbase: 'https://www.crunchbase.com/organization/gordon'
           - item:
-            name: ClaudisJS
-            homepage_url: 'https://claudiajs.com/'
-            repo_url: 'https://github.com/claudiajs/claudia'
-            logo: 'https://claudiajs.com/assets/claudiajs.svg'
-            crunchbase: 'https://www.crunchbase.com/organization/claudiajs'
+            name: GunIO Zappa
+            homepage_url: 'https://www.zappa.io/'
+            repo_url: 'https://github.com/Miserlou/Zappa'
+            logo: 'https://www.gun.io/hubfs/Large%20Gun%20Logo.svg'
+            twitter: 'https://twitter.com/gundotio?lang=en'
+            crunchbase: 'https://www.crunchbase.com/organization/gun-io'
           - item:
             name: KappaIO
             homepage_url: 'http://kappa.readthedocs.io/en/develop/'
             repo_url: 'https://github.com/garnaat/kappa'
-            logo: './hosted_logos/kappaio.svg'
+            logo: ./hosted_logos/kappaio.svg
             twitter: 'https://twitter.com/kappaio'
             crunchbase: 'https://www.crunchbase.com/organization/kappaio'
+          - item:
+            name: Mitoc Group Deep
+            homepage_url: 'http://docs.deep.mg/'
+            repo_url: 'https://github.com/MitocGroup/deep-framework'
+            logo: 'https://www.mitocgroup.com/images/logos/mitoc.svg'
+            twitter: 'https://twitter.com/MitocGroup'
+            crunchbase: 'https://www.crunchbase.com/organization/mitoc-group-inc'
+          - item:
+            name: SAM Local
+            homepage_url: 'https://docs.aws.amazon.com/lambda/latest/dg/serverless_app.html'
+            repo_url: 'https://github.com/awslabs/serverless-application-model'
+            logo: ./hosted_logos/sam-local.svg
+            twitter: 'https://twitter.com/awscloud'
+            crunchbase: 'https://www.crunchbase.com/organization/amazon-web-services'
+          - item:
+            name: Serverless
+            homepage_url: 'https://serverless.com/'
+            repo_url: 'https://github.com/serverless/serverless'
+            logo: ./hosted_logos/serverless.svg
+            twitter: 'https://twitter.com/goserverless'
+            crunchbase: 'https://www.crunchbase.com/organization/serverless'
+          - item:
+            name: Sparta
+            homepage_url: 'http://gosparta.io/'
+            repo_url: 'https://github.com/mweagle/Sparta'
+            logo: ./hosted_logos/sparta.svg
+            twitter: 'https://twitter.com/mweagle?lang=en'
+            crunchbase: 'https://www.crunchbase.com/organization/sparta-7ffe'
+          - item:
+            name: Spring Cloud Function
+            homepage_url: 'https://cloud.spring.io/spring-cloud-function/'
+            repo_url: 'https://github.com/spring-cloud/spring-cloud-function'
+            logo: ./hosted_logos/spring-cloud-function.svg
+            crunchbase: 'https://www.crunchbase.com/organization/pivotal'
       - subcategory:
         name: Platforms
         items:
+          - item:
+            name: Apache OpenWhisk
+            homepage_url: 'https://openwhisk.apache.org/'
+            logo: ./hosted_logos/apache-openwhisk.svg
+            repo_url: 'https://github.com/apache/incubator-openwhisk'
+            twitter: 'https://twitter.com/openwhisk'
+            crunchbase: 'https://www.crunchbase.com/organization/apache'
           - item:
             name: AWS Lambda
             homepage_url: 'https://aws.amazon.com/lambda/'
@@ -2472,17 +2483,30 @@ landscape:
             twitter: 'https://twitter.com/awscloud'
             crunchbase: 'https://www.crunchbase.com/organization/amazon-web-services'
           - item:
-            name: Webtask
-            homepage_url: 'https://webtask.io/'
-            logo: 'https://cdn.auth0.com/website/assets/pages/press/img/resources/webtask-logo-f479cae0f6.svg'
-            twitter: 'https://twitter.com/webtaskio'
-            crunchbase: 'https://www.crunchbase.com/organization/webtask'
+            name: Azure Functions
+            homepage_url: 'https://azure.microsoft.com/en-us/services/functions//'
+            logo: ./hosted_logos/azurefunctions.svg
+            twitter: 'https://twitter.com/Azure'
+            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
+          - item:
+            name: Clay
+            homepage_url: 'https://www.clay.run/'
+            logo: ./hosted_logos/clay.svg
+            best_res: ''
+            twitter: ''
+            crunchbase: 'https://www.crunchbase.com/organization/clay-labs'
           - item:
             name: Google Cloud Functions
             homepage_url: 'https://cloud.google.com/functions/'
-            logo: './hosted_logos/google-cloudfunctions.svg'
+            logo: ./hosted_logos/google-cloudfunctions.svg
             twitter: 'https://twitter.com/GCPcloud'
             crunchbase: 'https://www.crunchbase.com/organization/google'
+          - item:
+            name: Hyper Func
+            homepage_url: 'https://docs.hyper.sh/Feature/container/func.html'
+            logo: 'https://www.hyper.sh/logo/logo_dark.svg'
+            twitter: 'https://twitter.com/hyper_sh'
+            crunchbase: 'https://www.crunchbase.com/organization/hyper-4'
           - item:
             name: IBM Cloud Functions
             homepage_url: 'https://console.bluemix.net/openwhisk/'
@@ -2490,9 +2514,15 @@ landscape:
             twitter: 'https://twitter.com/IBMcloud'
             crunchbase: 'https://www.crunchbase.com/organization/ibm'
           - item:
+            name: Iron.io
+            homepage_url: 'https://www.iron.io/'
+            logo: 'https://cdn.worldvectorlogo.com/logos/iron-io.svg'
+            twitter: 'https://twitter.com/getiron'
+            crunchbase: 'https://www.crunchbase.com/organization/iron-io'
+          - item:
             name: Nano Lambda
             homepage_url: 'http://nano-lambda.com/'
-            logo: './hosted_logos/nanolambda.svg'
+            logo: ./hosted_logos/nanolambda.svg
             twitter: ''
             crunchbase: 'https://www.crunchbase.com/organization/nano-lambda'
           - item:
@@ -2515,22 +2545,22 @@ landscape:
             twitter: 'https://twitter.com/PubNub'
             crunchbase: 'https://www.crunchbase.com/organization/pubnub'
           - item:
-            name: Apache OpenWhisk
-            homepage_url: 'https://openwhisk.apache.org/'
-            logo: './hosted_logos/apache-openwhisk.svg'
-            repo_url: 'https://github.com/apache/incubator-openwhisk'
-            twitter: 'https://twitter.com/openwhisk'
-            crunchbase: 'https://www.crunchbase.com/organization/apache'
-          - item:
             name: Spotinst Functions
             homepage_url: 'https://spotinst.com/products/spotinst-functions/'
             logo: 'https://spotinst.com/app/uploads/2016/11/Spotinst-Logo.png'
             twitter: 'https://twitter.com/spotinst'
             crunchbase: 'https://www.crunchbase.com/organization/spotinst'
           - item:
+            name: StdLib
+            homepage_url: 'https://stdlib.com/'
+            repo_url: 'https://github.com/stdlib/lib'
+            logo: ./hosted_logos/stdlib.svg
+            twitter: 'https://twitter.com/stdlibhq'
+            crunchbase: 'https://www.crunchbase.com/organization/stdlib'
+          - item:
             name: Syncano
             homepage_url: 'https://syncano.io/#/'
-            logo: './hosted_logos/syncano.svg'
+            logo: ./hosted_logos/syncano.svg
             twitter: 'https://twitter.com/Syncano'
             crunchbase: 'https://www.crunchbase.com/organization/syncano'
           - item:
@@ -2542,45 +2572,19 @@ landscape:
           - item:
             name: Weblab
             homepage_url: 'https://weblab.io/'
-            logo: './hosted_logos/weblab.svg'
+            logo: ./hosted_logos/weblab.svg
             twitter: 'https://twitter.com/weblabhq'
             crunchbase: 'https://www.crunchbase.com/organization/weblab'
           - item:
-            name: Iron.io
-            homepage_url: 'https://www.iron.io/'
-            logo: 'https://cdn.worldvectorlogo.com/logos/iron-io.svg'
-            twitter: 'https://twitter.com/getiron'
-            crunchbase: 'https://www.crunchbase.com/organization/iron-io'
-          - item:
-            name: Azure Functions
-            homepage_url: 'https://azure.microsoft.com/en-us/services/functions//'
-            logo: './hosted_logos/azurefunctions.svg'
-            twitter: 'https://twitter.com/Azure'
-            crunchbase: 'https://www.crunchbase.com/organization/microsoft'
-          - item:
-            name: Hyper Func
-            homepage_url: 'https://docs.hyper.sh/Feature/container/func.html'
-            logo: 'https://www.hyper.sh/logo/logo_dark.svg'
-            twitter: 'https://twitter.com/hyper_sh'
-            crunchbase: 'https://www.crunchbase.com/organization/hyper-4'
-          - item:
-            name: StdLib
-            homepage_url: 'https://stdlib.com/'
-            repo_url: https://github.com/stdlib/lib
-            logo: './hosted_logos/stdlib.svg'
-            twitter: 'https://twitter.com/stdlibhq'
-            crunchbase: 'https://www.crunchbase.com/organization/stdlib'
-          - item:
-            name: Clay
-            homepage_url: 'https://www.clay.run/'
-            logo: './hosted_logos/clay.svg'
-            best_res: ''
-            twitter: ''
-            crunchbase: 'https://www.crunchbase.com/organization/clay-labs'
+            name: Webtask
+            homepage_url: 'https://webtask.io/'
+            logo: 'https://cdn.auth0.com/website/assets/pages/press/img/resources/webtask-logo-f479cae0f6.svg'
+            twitter: 'https://twitter.com/webtaskio'
+            crunchbase: 'https://www.crunchbase.com/organization/webtask'
           - item:
             name: Zeit Now
             homepage_url: 'https://zeit.co/now'
-            logo: './hosted_logos/zeit.svg'
+            logo: ./hosted_logos/zeit.svg
             twitter: 'https://twitter.com/zeithq'
             crunchbase: 'https://www.crunchbase.com/organization/zeit'
       - subcategory:
@@ -2589,9 +2593,15 @@ landscape:
           - item:
             name: Binaris
             homepage_url: 'https://www.binaris.com/'
-            logo: './hosted_logos/binaris.svg'
+            logo: ./hosted_logos/binaris.svg
             twitter: 'https://twitter.com/gobinaris'
             crunchbase: 'https://www.crunchbase.com/organization/binaris'
+          - item:
+            name: Cloudboost
+            homepage_url: 'https://www.cloudboost.io/'
+            logo: ./hosted_logos/cloudboost.svg
+            twitter: 'https://twitter.com/cloudboostio'
+            crunchbase: 'https://www.crunchbase.com/organization/cloudboost'
           - item:
             name: Fn
             homepage_url: 'http://fnproject.io/'
@@ -2600,11 +2610,25 @@ landscape:
             twitter: 'https://twitter.com/fnproj'
             crunchbase: 'https://www.crunchbase.com/organization/fn'
           - item:
+            name: fx
+            homepage_url: 'https://minghe.me/'
+            repo_url: 'https://github.com/metrue/fx'
+            logo: ./hosted_logos/fx.svg
+            twitter: ''
+            crunchbase: 'https://www.crunchbase.com/organization/fx-5505'
+          - item:
             name: Galactic Fog Gestalt
             homepage_url: 'http://www.galacticfog.com/product/'
             logo: ./hosted_logos/galacticfog.svg
             twitter: 'https://twitter.com/galacticfog'
             crunchbase: 'https://www.crunchbase.com/organization/galactic-fog'
+          - item:
+            name: LunchBadger
+            homepage_url: 'https://www.lunchbadger.com/'
+            logo: ./hosted_logos/lunchbadger.svg
+            best_res: ''
+            twitter: 'https://twitter.com/LunchBadger'
+            crunchbase: 'https://www.crunchbase.com/organization/lunchbadger-inc'
           - item:
             name: Nuclio
             homepage_url: 'https://nuclio.io/'
@@ -2612,29 +2636,23 @@ landscape:
             logo: 'https://raw.githubusercontent.com/nuclio/nuclio/master/docs/assets/images/logo.png'
             twitter: 'https://twitter.com/nuclioio'
             crunchbase: 'https://www.crunchbase.com/organization/iguaz-io'
-          - item:
-            name: Cloudboost
-            homepage_url: 'https://www.cloudboost.io/'
-            logo: './hosted_logos/cloudboost.svg'
-            twitter: 'https://twitter.com/cloudboostio'
-            crunchbase: 'https://www.crunchbase.com/organization/cloudboost'
-          - item:
-            name: fx
-            homepage_url: 'https://minghe.me/'
-            repo_url: https://github.com/metrue/fx
-            logo: './hosted_logos/fx.svg'
-            twitter: ''
-            crunchbase: 'https://www.crunchbase.com/organization/fx-5505'
-          - item:
-            name: LunchBadger
-            homepage_url: 'https://www.lunchbadger.com/'
-            logo: './hosted_logos/lunchbadger.svg'
-            best_res: ''
-            twitter: 'https://twitter.com/LunchBadger'
-            crunchbase: 'https://www.crunchbase.com/organization/lunchbadger-inc'
       - subcategory:
         name: Kubernetes-Native Platforms
         items:
+          - item:
+            name: Fission
+            homepage_url: 'http://fission.io/'
+            repo_url: 'https://github.com/fission/fission'
+            logo: 'https://www.gcppodcast.com/images/post/fission-logo.png'
+            twitter: 'https://twitter.com/Platform9Sys'
+            crunchbase: 'https://www.crunchbase.com/organization/platform9-systems-inc'
+          - item:
+            name: Funktion
+            homepage_url: 'https://funktion.fabric8.io/'
+            repo_url: 'https://github.com/funktionio/funktion'
+            logo: ./hosted_logos/funktion.svg
+            twitter: 'https://twitter.com/funktionio'
+            crunchbase: 'https://www.crunchbase.com/organization/funktion'
           - item:
             name: Kubeless
             homepage_url: 'http://kubeless.io/'
@@ -2653,17 +2671,10 @@ landscape:
             name: OpenLambda
             homepage_url: 'https://open-lambda.org/'
             repo_url: 'https://github.com/open-lambda/open-lambda'
-            logo: './hosted_logos/openlambda.svg'
+            logo: ./hosted_logos/openlambda.svg
             best_res: ''
             twitter: ''
             crunchbase: 'https://www.crunchbase.com/organization/openlambda'
-          - item:
-            name: Funktion
-            homepage_url: 'https://funktion.fabric8.io/'
-            repo_url: 'https://github.com/funktionio/funktion'
-            logo: './hosted_logos/funktion.svg'
-            twitter: 'https://twitter.com/funktionio'
-            crunchbase: 'https://www.crunchbase.com/organization/funktion'
           - item:
             name: Oracle Application Container Cloud
             homepage_url: 'https://cloud.oracle.com/acc'
@@ -2672,16 +2683,9 @@ landscape:
           - item:
             name: PubNub
             homepage_url: 'https://www.pubnub.com/docs/blocks-catalog'
-            logo: './hosted_logos/pubnub.svg'
+            logo: ./hosted_logos/pubnub.svg
             twitter: 'https://twitter.com/PubNub'
             crunchbase: 'https://www.crunchbase.com/organization/pubnub'
-          - item:
-            name: Fission
-            homepage_url: 'http://fission.io/'
-            repo_url: 'https://github.com/fission/fission'
-            logo: 'https://www.gcppodcast.com/images/post/fission-logo.png'
-            twitter: 'https://twitter.com/Platform9Sys'
-            crunchbase: 'https://www.crunchbase.com/organization/platform9-systems-inc'
   - category:
     name: Observability and Analysis
     subcategories:
@@ -2703,26 +2707,26 @@ landscape:
           - item:
             name: AppNeta
             homepage_url: 'https://www.appneta.com/'
-            logo: './hosted_logos/appneta.svg'
+            logo: ./hosted_logos/appneta.svg
             twitter: 'https://twitter.com/Appneta'
             crunchbase: 'https://www.crunchbase.com/organization/appneta'
           - item:
             name: Axibase
             homepage_url: 'https://axibase.com/'
-            logo: './hosted_logos/axibase.svg'
+            logo: ./hosted_logos/axibase.svg
             twitter: 'https://twitter.com/axibase'
             crunchbase: 'https://www.crunchbase.com/organization/axibase'
           - item:
             name: Catchpoint Systems
             homepage_url: 'http://www.catchpoint.com/'
-            logo: './hosted_logos/catchpoint.svg'
+            logo: ./hosted_logos/catchpoint.svg
             twitter: 'https://twitter.com/catchpoint'
             crunchbase: 'https://www.crunchbase.com/organization/catchpoint-systems'
           - item:
             name: Centreon
             homepage_url: 'https://www.centreon.com/en/'
             repo_url: 'https://github.com/centreon/centreon'
-            logo: './hosted_logos/centreon.svg'
+            logo: ./hosted_logos/centreon.svg
             twitter: 'https://twitter.com/centreon'
             crunchbase: 'https://www.crunchbase.com/organization/centreon'
           - item:
@@ -2750,17 +2754,23 @@ landscape:
             twitter: 'https://twitter.com/Dynatrace'
             crunchbase: 'https://www.crunchbase.com/organization/dynatrace-software'
           - item:
+            name: Google Stackdriver
+            homepage_url: 'https://cloud.google.com/stackdriver/'
+            logo: ./hosted_logos/google-stackdriver.svg
+            twitter: 'https://twitter.com/stackdriver'
+            crunchbase: 'https://www.crunchbase.com/organization/google'
+          - item:
             name: Grafana
             homepage_url: 'https://grafana.com/'
             repo_url: 'https://github.com/grafana/grafana'
-            logo: './hosted_logos/grafana.svg'
+            logo: ./hosted_logos/grafana.svg
             twitter: 'https://twitter.com/grafana'
             crunchbase: 'https://www.crunchbase.com/organization/raintank'
           - item:
             name: Graphite
             homepage_url: 'https://graphiteapp.org/'
             repo_url: 'https://github.com/graphite-project/graphite-web'
-            logo: './hosted_logos/graphite.svg'
+            logo: ./hosted_logos/graphite.svg
             crunchbase: 'https://www.crunchbase.com/organization/graphite'
           - item:
             name: Honeybadger
@@ -2779,13 +2789,13 @@ landscape:
             name: InfluxDB
             homepage_url: 'https://www.influxdata.com/'
             repo_url: 'https://github.com/influxdata/influxdb'
-            logo: './hosted_logos/influxdb.svg'
+            logo: ./hosted_logos/influxdb.svg
             twitter: 'https://twitter.com/influxdb'
             crunchbase: 'https://www.crunchbase.com/organization/influxdb'
           - item:
             name: Instana
             homepage_url: 'https://www.instana.com/'
-            logo: './hosted_logos/instana.svg'
+            logo: ./hosted_logos/instana.svg
             twitter: 'https://twitter.com/InstanaHQ'
             crunchbase: 'https://www.crunchbase.com/organization/instana'
           - item:
@@ -2797,7 +2807,7 @@ landscape:
           - item:
             name: Librato
             homepage_url: 'https://www.librato.com/'
-            logo: './hosted_logos/librato.svg'
+            logo: ./hosted_logos/librato.svg
             twitter: 'https://twitter.com/Librato'
             crunchbase: 'https://www.crunchbase.com/organization/librato'
           - item:
@@ -2815,7 +2825,7 @@ landscape:
           - item:
             name: Meros
             homepage_url: 'https://meros.io/'
-            logo: './hosted_logos/meros.svg'
+            logo: ./hosted_logos/meros.svg
             twitter: 'https://twitter.com/merosdevops'
             crunchbase: 'https://www.crunchbase.com/organization/meros-inc'
           - item:
@@ -2853,19 +2863,19 @@ landscape:
             name: OpenTSDB
             homepage_url: 'http://opentsdb.net/'
             repo_url: 'https://github.com/OpenTSDB/opentsdb'
-            logo: './hosted_logos/opentsdb.svg'
+            logo: ./hosted_logos/opentsdb.svg
             twitter: 'https://twitter.com/opentsdb'
             crunchbase: 'https://www.crunchbase.com/organization/open-tsbd'
           - item:
             name: OpsClarity
             homepage_url: 'https://www.opsclarity.com/'
-            logo: './hosted_logos/opsclarity.svg'
+            logo: ./hosted_logos/opsclarity.svg
             twitter: 'https://twitter.com/opsclarity'
             crunchbase: 'https://www.crunchbase.com/organization/opsclarity'
           - item:
             name: Outlyer
             homepage_url: 'https://www.outlyer.com/'
-            logo: './hosted_logos/outlyer.svg'
+            logo: ./hosted_logos/outlyer.svg
             twitter: 'https://twitter.com/outlyerapp'
             crunchbase: 'https://www.crunchbase.com/organization/outlyer'
           - item:
@@ -2913,23 +2923,10 @@ landscape:
             name: Snap
             homepage_url: 'http://snap-telemetry.io/'
             repo_url: 'https://github.com/intelsdi-x/snap'
-            logo: './hosted_logos/snap.svg'
+            logo: ./hosted_logos/snap.svg
             best_res: ''
             twitter: 'https://twitter.com/intelsdilabs'
             crunchbase: 'https://www.crunchbase.com/organization/intel'
-          - item:
-            name: Tingyun
-            homepage_url: 'http://www.tingyun.com/tingyun_app.html'
-            logo: './hosted_logos/tingyun.svg'
-            best_res: ''
-            twitter: ''
-            crunchbase: 'https://www.crunchbase.com/organization/tingyun'
-          - item:
-            name: Google Stackdriver
-            homepage_url: 'https://cloud.google.com/stackdriver/'
-            logo: ./hosted_logos/google-stackdriver.svg
-            twitter: 'https://twitter.com/stackdriver'
-            crunchbase: 'https://www.crunchbase.com/organization/google'
           - item:
             name: StackRox
             homepage_url: 'https://www.stackrox.com/'
@@ -2939,7 +2936,7 @@ landscape:
           - item:
             name: StackState
             homepage_url: 'https://www.stackstate.com/'
-            logo: './hosted_logos/stackstate.svg'
+            logo: ./hosted_logos/stackstate.svg
             crunchbase: 'https://www.crunchbase.com/organization/stackstate'
           - item:
             name: SysDig
@@ -2949,9 +2946,16 @@ landscape:
             twitter: 'https://twitter.com/sysdig'
             crunchbase: 'https://www.crunchbase.com/organization/sysdig'
           - item:
+            name: Tingyun
+            homepage_url: 'http://www.tingyun.com/tingyun_app.html'
+            logo: ./hosted_logos/tingyun.svg
+            best_res: ''
+            twitter: ''
+            crunchbase: 'https://www.crunchbase.com/organization/tingyun'
+          - item:
             name: Wavefront
             homepage_url: 'https://www.wavefront.com/'
-            logo: './hosted_logos/wavefront.svg'
+            logo: ./hosted_logos/wavefront.svg
             twitter: 'https://twitter.com/WavefrontHQ'
             crunchbase: 'https://www.crunchbase.com/organization/wavefront'
           - item:
@@ -2997,7 +3001,7 @@ landscape:
             name: Graylog
             homepage_url: 'https://www.graylog.org/'
             repo_url: 'https://github.com/Graylog2/graylog2-server'
-            logo: './hosted_logos/graylog.svg'
+            logo: ./hosted_logos/graylog.svg
             twitter: 'https://twitter.com/graylog2'
             crunchbase: 'https://www.crunchbase.com/organization/graylog'
           - item:
@@ -3015,25 +3019,25 @@ landscape:
           - item:
             name: Loom Systems
             homepage_url: 'https://www.loomsystems.com/'
-            logo: './hosted_logos/loomsystems.svg'
+            logo: ./hosted_logos/loomsystems.svg
             twitter: 'https://twitter.com/Loom_systems'
             crunchbase: 'https://www.crunchbase.com/organization/loom-systems'
           - item:
             name: Sematext
             homepage_url: 'https://sematext.com/'
-            logo: './hosted_logos/sematext.svg'
+            logo: ./hosted_logos/sematext.svg
             twitter: 'https://twitter.com/sematext'
             crunchbase: 'https://www.crunchbase.com/organization/sematext'
           - item:
             name: Splunk
             homepage_url: 'https://www.splunk.com/'
-            logo: './hosted_logos/splunk.svg'
+            logo: ./hosted_logos/splunk.svg
             twitter: 'https://twitter.com/splunk'
             crunchbase: 'https://www.crunchbase.com/organization/splunk'
           - item:
             name: Sumo Logic
             homepage_url: 'https://www.sumologic.com/'
-            logo: './hosted_logos/sumologic.svg'
+            logo: ./hosted_logos/sumologic.svg
             twitter: 'https://twitter.com/sumologic'
             crunchbase: 'https://www.crunchbase.com/organization/sumo-logic'
       - subcategory:
@@ -3065,13 +3069,13 @@ landscape:
             name: Skywalking
             homepage_url: 'http://skywalking.org/'
             repo_url: 'https://github.com/apache/incubator-skywalking'
-            logo: './hosted_logos/skywalking.svg'
+            logo: ./hosted_logos/skywalking.svg
             crunchbase: 'https://www.crunchbase.com/organization/apache'
           - item:
             name: Spring Cloud Sleuth
             homepage_url: 'https://cloud.spring.io/spring-cloud-sleuth/'
             repo_url: 'https://github.com/spring-cloud/spring-cloud-sleuth'
-            logo: './hosted_logos/spring-cloud-sleuth.svg'
+            logo: ./hosted_logos/spring-cloud-sleuth.svg
             crunchbase: 'https://www.crunchbase.com/organization/pivotal'
           - item:
             name: Zipkin
@@ -3150,7 +3154,7 @@ landscape:
               We help enterprise organizations adopt DevOps, containers and cloud computing. Contino is a global consultancy that enables regulated
               organizations to accelerate innovation through the adoption of modern approaches to software delivery.
             homepage_url: 'https://www.contino.io/'
-            logo: './hosted_logos/contino.svg'
+            logo: ./hosted_logos/contino.svg
             crunchbase: 'https://www.crunchbase.com/organization/contino'
           - item:
             name: CoreOS (KCSP)
@@ -3172,7 +3176,7 @@ landscape:
               EcOS is an enterprise-grade PaaS / CaaS based on Docker and Kubernetes, which makes it easier to configure, deploy and manage containerized
               applications.
             homepage_url: 'https://www.ghostcloud.cn/ecos-kubernetes'
-            logo: './hosted_logos/ghostcloud.svg'
+            logo: ./hosted_logos/ghostcloud.svg
             crunchbase: 'https://www.crunchbase.com/organization/ghostcloud'
           - item:
             name: Giant Swarm
@@ -3184,7 +3188,7 @@ landscape:
             name: Heptio
             description: Heptio helps businesses of all sizes get closer to the vibrant Kubernetes community.
             homepage_url: 'https://heptio.com/'
-            logo: './hosted_logos/heptio.svg'
+            logo: ./hosted_logos/heptio.svg
             crunchbase: 'https://www.crunchbase.com/organization/heptio'
           - item:
             name: Huawei (KCSP)
@@ -3205,7 +3209,7 @@ landscape:
             crunchbase: 'https://www.crunchbase.com/organization/ibm'
           - item:
             name: inwinSTACK
-            description: 'Our container service leverages OpenStack-based infrastructure and its container orchestration engine Magnum to manage Kubernetes clusters.'
+            description: Our container service leverages OpenStack-based infrastructure and its container orchestration engine Magnum to manage Kubernetes clusters.
             homepage_url: 'http://www.inwinstack.com/index.php/en/solutions-en/'
             logo: ./hosted_logos/inwinstack.svg
             crunchbase: 'https://www.crunchbase.com/organization/inwinstack'
@@ -3215,19 +3219,19 @@ landscape:
               Jetstack is an organisation focused entirely on Kubernetes. They will help you to get the most out of Kubernetes through expert professional
               services and open source tooling. Get in touch, and accelerate your project.
             homepage_url: 'https://www.jetstack.io/'
-            logo: './hosted_logos/jetstack.svg'
+            logo: ./hosted_logos/jetstack.svg
             crunchbase: 'https://www.crunchbase.com/organization/jetstack'
           - item:
             name: LiveWyer
-            description: 'Kubernetes experts that on-board applications and empower IT teams to get the most out of containerised technology.'
+            description: Kubernetes experts that on-board applications and empower IT teams to get the most out of containerised technology.
             homepage_url: 'https://livewyer.io/services/kubernetes-experts/'
-            logo: './hosted_logos/livewyer.svg'
+            logo: ./hosted_logos/livewyer.svg
             crunchbase: 'https://www.crunchbase.com/organization/livewyer'
           - item:
             name: Loodse
             description: 'Loodse provides Kubernetes training & consulting, and host related events regularly across Europe.'
             homepage_url: 'https://loodse.com/'
-            logo: './hosted_logos/loodse.svg'
+            logo: ./hosted_logos/loodse.svg
             crunchbase: 'https://www.crunchbase.com/organization/loodse-gmbh'
           - item:
             name: Mirantis (KCSP)
@@ -3237,9 +3241,9 @@ landscape:
             crunchbase: 'https://www.crunchbase.com/organization/mirantis'
           - item:
             name: Nirmata (KCSP)
-            description: 'Nirmata simplifies kubernetes for application development teams.'
+            description: Nirmata simplifies kubernetes for application development teams.
             homepage_url: 'https://www.nirmata.com/'
-            logo: './hosted_logos/nirmata.svg'
+            logo: ./hosted_logos/nirmata.svg
             crunchbase: 'https://www.crunchbase.com/organization/nirmata'
           - item:
             name: RX-M
@@ -3267,7 +3271,7 @@ landscape:
             name: Supergiant (KCSP)
             description: 'Supergiant autoscales hardware for Kubernetes. Open-source, it makes HA, distributed, stateful apps easy to deploy, manage, and scale.'
             homepage_url: 'https://supergiant.io/blog/supergiant-packing-algorithm-unique-save-money'
-            logo: './hosted_logos/supergiant.svg'
+            logo: ./hosted_logos/supergiant.svg
             crunchbase: 'https://www.crunchbase.com/organization/supergiant'
           - item:
             name: Treasure Data
@@ -3277,7 +3281,7 @@ landscape:
             crunchbase: 'https://www.crunchbase.com/organization/treasure-data'
           - item:
             name: Wise2C
-            description: 'Using Kubernetes to providing IT continuous delivery and Enterprise grade container management solution to Financial Industry.'
+            description: Using Kubernetes to providing IT continuous delivery and Enterprise grade container management solution to Financial Industry.
             homepage_url: 'http://www.wise2c.com/'
-            logo: './hosted_logos/wise2c.svg'
+            logo: ./hosted_logos/wise2c.svg
             crunchbase: 'https://www.crunchbase.com/organization/wise2c-technology-co'
